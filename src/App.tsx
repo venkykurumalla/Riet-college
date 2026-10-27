@@ -78,13 +78,13 @@ export const App: React.FC = () => {
 
   // CRT Navigation Handlers
   const handleOpenCRT = (yearId: CRTYearId = crtSelectedYear) => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'auto' });
     setCrtSelectedYear(yearId);
     setView({ type: 'crt-overview', yearId });
   };
 
   const handleSelectCRTYear = (yearId: CRTYearId) => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'auto' });
     setCrtSelectedYear(yearId);
     setView({ type: 'crt-overview', yearId });
   };
@@ -96,14 +96,14 @@ export const App: React.FC = () => {
   };
 
   const handleSelectCRTQuiz = (moduleId: string, categoryName: string, yearId?: CRTYearId) => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'auto' });
     const targetYear = yearId || crtSelectedYear;
     setCrtSelectedYear(targetYear);
     setView({ type: 'crt-quiz', moduleId, categoryName, yearId: targetYear });
   };
 
   const handleSelectCRTTopic = (topicId: string, yearId?: CRTYearId) => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'auto' });
     const targetYear = yearId || crtSelectedYear;
     setCrtSelectedYear(targetYear);
     setView({ type: 'crt-topic', topicId, yearId: targetYear });
@@ -210,7 +210,7 @@ export const App: React.FC = () => {
           <main className="flex-1 min-w-0 pb-16">
 
             {/* Single year selector: sticky and visible on overview, chapter and quiz pages */}
-            <div className="sticky top-16 sm:top-20 z-30 flex justify-end px-4 sm:px-6 lg:px-8 py-2 bg-slate-50/90 backdrop-blur-md border-b border-slate-200/70">
+            <div className="sticky top-16 sm:top-20 z-30 flex justify-center sm:justify-end px-3 sm:px-6 lg:px-8 py-1.5 sm:py-2 bg-slate-50/90 backdrop-blur-md border-b border-slate-200/70">
               <CRTYearSelector
                 selectedYear={crtSelectedYear}
                 onSelectYear={handleCRTYearTab}

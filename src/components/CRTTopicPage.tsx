@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   CheckCircle2,
   ChevronRight,
@@ -28,8 +28,9 @@ import { motion } from 'framer-motion';
 import { CRTTopic, CRTYearCurriculum } from '../types/crtTypes';
 import { crtProgressService } from '../services/crtProgressService';
 import { getCRTTopicsByYear } from '../data/crtCourseData';
-import { getTopicQuiz } from '../data/topicQuizzes';
+import { loadTopicQuiz } from '../data/topicQuizzes';
 import { TopicQuiz } from './TopicQuiz';
+import { TopicQuizData } from '../types/crtTypes';
 
 interface CRTTopicPageProps {
   topic: CRTTopic;
@@ -47,14 +48,46 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
   onBackToOverview
 }) => {
   const [isCompleted, setIsCompleted] = useState(false);
+  const [topicQuiz, setTopicQuiz] = useState<TopicQuizData | undefined>(undefined);
   const [revealedSolutions, setRevealedSolutions] = useState<Record<string, boolean>>({});
+
+  const [quizNumber, setQuizNumber] = useState(18);
+  const sectionsRef = useRef<HTMLDivElement>(null);
+  const [tocItems, setTocItems] = useState<{ id: string; label: string }[]>([]);
+
+  // Build jump links from the numbered section cards; ids let the browser anchor to them.
+  useEffect(() => {
+    const root = sectionsRef.current;
+    if (!root) return;
+    const items: { id: string; label: string }[] = [];
+    Array.from(root.children).forEach(el => {
+      const m = el.querySelector('div.uppercase > span')?.textContent?.match(/^(\d+)\.\s*(.*)$/);
+      if (!m) return;
+      el.id = `sec-${m[1]}`;
+      el.classList.add('scroll-mt-36');
+      items.push({ id: el.id, label: `${m[1]}. ${m[2].replace(/\s*\(.*$/, '')}` });
+    });
+    const lastNum = items.length ? Number(items[items.length - 1].id.replace('sec-', '')) : 0;
+    setQuizNumber(lastNum + 1);
+    if (topicQuiz && topicQuiz.topicId === topic.id) items.push({ id: 'topic-quiz', label: `${lastNum + 1}. Practice Quiz` });
+    setTocItems(items);
+  }, [topic.id, topicQuiz]);
+
+  const jumpTo = (id: string) => {
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.getElementById(id)?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+  };
 
   useEffect(() => {
     crtProgressService.markTopicAccessed(topic.id, topic.yearId);
     const prog = crtProgressService.getTopicProgress(topic.id, topic.yearId);
     setIsCompleted(prog.completed || prog.status === 'completed');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'auto' });
     setRevealedSolutions({});
+    setTopicQuiz(undefined);
+    let cancelled = false;
+    loadTopicQuiz(topic.id).then(q => { if (!cancelled) setTopicQuiz(q); });
+    return () => { cancelled = true; };
   }, [topic.id, topic.yearId]);
 
   const handleToggleCompleted = () => {
@@ -86,9 +119,9 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.35, ease: 'easeOut' }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.2, ease: 'easeOut' }}
       className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 min-w-0"
     >
       
@@ -178,8 +211,24 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         </div>
       </div>
 
+      {/* JUMP LINKS */}
+      {tocItems.length > 0 && (
+        <nav aria-label="Jump to section" className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
+          <span className="shrink-0 text-[11px] font-extrabold uppercase tracking-wider text-slate-400">Jump to</span>
+          {tocItems.map(it => (
+            <button
+              key={it.id}
+              onClick={() => jumpTo(it.id)}
+              className="shrink-0 px-3 py-1.5 rounded-full bg-white border border-slate-200 text-[11px] font-semibold text-slate-600 hover:text-blue-700 hover:border-blue-300 transition-colors duration-150 cursor-pointer"
+            >
+              {it.label}
+            </button>
+          ))}
+        </nav>
+      )}
+
       {/* DETAILED TEXTBOOK CHAPTER SECTIONS */}
-      <div className="space-y-8">
+      <div ref={sectionsRef} className="crt-reading space-y-8">
         
         {/* 1. INTRODUCTION & WHY THE TOPIC MATTERS */}
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
@@ -858,10 +907,9 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
       </div>
 
       {/* TOPIC-WISE QUIZ */}
-      {(() => {
-        const topicQuiz = getTopicQuiz(topic.id);
-        return topicQuiz ? <TopicQuiz topicId={topic.id} yearId={topic.yearId} quiz={topicQuiz} /> : null;
-      })()}
+      {topicQuiz && topicQuiz.topicId === topic.id && (
+        <TopicQuiz topicId={topic.id} yearId={topic.yearId} quiz={topicQuiz} sectionNumber={quizNumber} />
+      )}
 
       {/* BOTTOM ACTION BAR: MARK COMPLETED & PREVIOUS / NEXT TOPIC */}
       <div className="rounded-2xl bg-white border border-slate-200 p-5 shadow-xs flex flex-col sm:flex-row items-center justify-between gap-4">

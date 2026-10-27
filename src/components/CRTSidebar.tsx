@@ -13,7 +13,7 @@ import {
   ClipboardList,
   Star
 } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { CRTYearId } from '../types/crtTypes';
 import { getCRTYearCurriculum } from '../data/crtCourseData';
 import { crtProgressService } from '../services/crtProgressService';
@@ -122,7 +122,7 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
           <motion.div
             initial={{ width: 0 }}
             animate={{ width: `${yearProgress.percentage}%` }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
+            transition={{ duration: 0.25, ease: 'easeOut' }}
             className="h-full bg-blue-600 rounded-full"
           />
         </div>
@@ -176,7 +176,16 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
                 </div>
 
                 {/* Sub Topics List */}
+                <AnimatePresence initial={false}>
                 {isExpanded && (
+                  <motion.div
+                    key="list"
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.18, ease: 'easeOut' }}
+                    className="overflow-hidden"
+                  >
                   <div className="pl-3 space-y-0.5 border-l-2 border-slate-100 ml-2 py-0.5">
                     {cat.topics.map(topic => {
                       const prog = allProgress[topic.id];
@@ -256,7 +265,9 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
                       );
                     })()}
                   </div>
+                  </motion.div>
                 )}
+                </AnimatePresence>
               </div>
             );
           })}

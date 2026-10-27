@@ -17,9 +17,10 @@ interface TopicQuizProps {
   topicId: string;
   yearId: CRTYearId;
   quiz: TopicQuizData;
+  sectionNumber?: number;
 }
 
-export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz }) => {
+export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz, sectionNumber = 18 }) => {
   const total = quiz.questions.length;
   const pageCount = Math.ceil(total / PAGE_SIZE);
   const [page, setPage] = useState(0);
@@ -54,11 +55,11 @@ export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz }) =
   };
 
   return (
-    <div id="topic-quiz" className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-5">
+    <div id="topic-quiz" className="scroll-mt-36 rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-5">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center space-x-2 text-indigo-700 font-bold uppercase tracking-wider text-xs">
           <ClipboardList className="w-4 h-4 shrink-0" />
-          <span>18. Topic Quiz • {quiz.topicTitle}</span>
+          <span>{sectionNumber}. Topic Quiz • {quiz.topicTitle}</span>
         </div>
         {best !== undefined && (
           <span className="flex items-center gap-1 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-extrabold">
@@ -73,7 +74,7 @@ export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz }) =
             {total} questions • choose an option, then click “View Answer” • page {page + 1} of {pageCount}
           </p>
 
-          <div className="space-y-5">
+          <div key={page} className="space-y-5 animate-year-fade">
             {pageQuestions.map((q, i) => {
               const number = page * PAGE_SIZE + i + 1;
               const chosen = selected[q.id];

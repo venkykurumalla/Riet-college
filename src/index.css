@@ -89,3 +89,9 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* Comfortable line length for long-form reading */
+.crt-reading p { max-width: 75ch; line-height: 1.7; }
+
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }

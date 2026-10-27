@@ -461,7 +461,7 @@ export const CRTModuleQuiz: React.FC<CRTModuleQuizProps> = ({
             <motion.div
               initial={{ width: 0 }}
               animate={{ width: `${pct}%` }}
-              transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}
+              transition={{ duration: 0.25, ease: 'easeOut', delay: 0.3 }}
               className={`h-full rounded-full ${
                 pct === 100 ? 'bg-emerald-500' : pct >= 60 ? 'bg-blue-500' : 'bg-rose-500'
               }`}

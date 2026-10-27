@@ -90,7 +90,7 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
                 <motion.div
                   initial={{ width: 0 }}
                   animate={{ width: `${yearProgress.percentage}%` }}
-                  transition={{ duration: 0.8, ease: 'easeOut' }}
+                  transition={{ duration: 0.25, ease: 'easeOut' }}
                   className="h-full bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full"
                 />
               </div>
@@ -163,7 +163,7 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
                       <motion.div
                         initial={{ width: 0 }}
                         animate={{ width: `${p.percentage}%` }}
-                        transition={{ duration: 0.8, ease: 'easeOut' }}
+                        transition={{ duration: 0.25, ease: 'easeOut' }}
                         className="h-full bg-cyan-400 rounded-full"
                       />
                     </div>
