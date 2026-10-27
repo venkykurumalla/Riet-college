@@ -1,0 +1,419 @@
+{
+  "id": "y3-verbal-adv-sentence-correction",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 53,
+  "title": "Advanced Sentence Correction — Multiple Errors",
+  "tagline": "Year 3 — Finding and fixing two errors at once: agreement, tense, parallelism, modifiers, prepositions and comparatives",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In advanced sentence correction a sentence contains more than one error, and the right answer must fix all of them. Wrong options usually fix one error and leave another, or fix one and add a new one. The method is to scan the sentence for the common error families (agreement, tense, parallelism, modifiers, comparatives, prepositions), list the errors, and then choose the option that clears the list.",
+    "placementRelevance": "Sentence-correction items with more than one error are used in verbal sections of company tests to separate strong candidates.",
+    "realWorldContext": "Proofreading emails and reports for several errors at a time is the same skill."
+  },
+  "learningObjectives": [
+    "Scan a sentence for all error families",
+    "Fix subject-verb agreement and tense together",
+    "Repair parallel structure and modifiers",
+    "Check prepositions and idioms",
+    "Use elimination by checking each option for leftover errors"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Sentence Correction (basic)",
+      "Error Detection"
+    ],
+    "quickRefresher": "Singular subjects take singular verbs; tenses must agree within the sentence; items in a list must have the same form."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Subject-verb agreement: the verb matches the subject in number.",
+      "Tense consistency: past events use past tenses in sequence.",
+      "Parallelism: items in a list have the same grammatical form.",
+      "Dangling modifier: a modifier whose subject is not the sentence subject.",
+      "Idiomatic preposition: the preposition that always goes with a word (good at, fond of)."
+    ],
+    "theoreticalIntuition": "Treat the sentence as a checklist of possible errors. Each wrong option misses one item on the checklist.",
+    "visualOrMentalModel": "Scan for the verb and its subject, then tenses, then the list items, then prepositions. Write each error in the margin. Reject any option that leaves one of them."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Agreement",
+      "formula": "Singular subject → singular verb",
+      "description": "Collective and \"each/every\" subjects.",
+      "whenToUse": "Check first.",
+      "simpleExample": "The team is working"
+    },
+    {
+      "title": "Tense sequence",
+      "formula": "Past perfect before past simple",
+      "description": "Two past events.",
+      "whenToUse": "Check second.",
+      "simpleExample": "The train had left"
+    },
+    {
+      "title": "Parallelism",
+      "formula": "Same form in a list",
+      "description": "A, B and C.",
+      "whenToUse": "Check third.",
+      "simpleExample": "Swimming, cycling and walking"
+    },
+    {
+      "title": "Idioms",
+      "formula": "Fixed preposition pairs",
+      "description": "Adjectives and verbs.",
+      "whenToUse": "Check fourth.",
+      "simpleExample": "Good at, fond of"
+    },
+    {
+      "title": "Conditionals",
+      "formula": "If + past perfect, would have + past participle",
+      "description": "Unreal past.",
+      "whenToUse": "Check fifth.",
+      "simpleExample": "If I had known, I would have come"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Take: \"The team of engineers are working on the project, and it have almost finished.\" The subject is \"team\" (singular), so \"is working\". The pronoun \"it\" takes \"has\". Fixing only the first leaves \"it have\"; fixing only the second leaves \"team… are\".",
+      "Look for list items. \"She like swimming, to cycle and going for long walks\" has an agreement error (likes) and a parallelism error (swimming, cycling, going). Both must be fixed.",
+      "Tense sequence: \"By the time we reached the station, the train already left\" needs \"had already left\" because the leaving happened before reaching. \"We have to wait\" becomes \"we had to wait\".",
+      "Conditionals: \"If I would have known… I will have attended\" is wrong in both halves. The correct pattern is \"If I had known… I would have attended\".",
+      "Check each option for leftovers. An option that fixes the first error but introduces or keeps another is a trap."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Collective nouns",
+        "content": "A team, committee or family takes a singular verb when acting as one unit."
+      },
+      {
+        "title": "Comparatives",
+        "content": "Use -er for two things (the taller of two) and -est for three or more."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Agreement + pronoun",
+      "description": "Two verbs to fix.",
+      "exampleSnippet": "Team of engineers"
+    },
+    {
+      "typeName": "Parallel lists",
+      "description": "Verb and list form.",
+      "exampleSnippet": "Swimming, cycling"
+    },
+    {
+      "typeName": "Tense sequence",
+      "description": "Past perfect and past.",
+      "exampleSnippet": "Train had left"
+    },
+    {
+      "typeName": "Conditionals",
+      "description": "Both halves.",
+      "exampleSnippet": "If I had known"
+    },
+    {
+      "typeName": "Prepositions",
+      "description": "Fixed pairs.",
+      "exampleSnippet": "Good at, fond of"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-adv-sentence-correction-1",
+      "title": "Two verbs",
+      "question": "\"The team of engineers are working on the project, and it have almost finished.\" What are the two errors?",
+      "givenInfo": [
+        "Collective subject"
+      ],
+      "conceptOrFormula": "List the errors.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Error 1",
+          "explanation": "\"Team\" is singular, so \"are working\" should be \"is working\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Error 2",
+          "explanation": "\"It\" takes \"has\", not \"have\"."
+        }
+      ],
+      "finalAnswer": "are → is; have → has",
+      "whyItWorks": "Both must be fixed.",
+      "commonTrap": "Fixing one only.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-adv-sentence-correction-2",
+      "title": "Parallel list",
+      "question": "\"She like swimming, to cycle and going for long walks.\" What are the errors?",
+      "givenInfo": [
+        "List of activities"
+      ],
+      "conceptOrFormula": "Agreement and parallelism.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Error 1",
+          "explanation": "\"She like\" should be \"She likes\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Error 2",
+          "explanation": "The list should be swimming, cycling and going."
+        }
+      ],
+      "finalAnswer": "like → likes; to cycle → cycling",
+      "whyItWorks": "Items in a list need the same form.",
+      "commonTrap": "Fixing only the verb.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-adv-sentence-correction-3",
+      "title": "Tense sequence",
+      "question": "\"By the time we reached the station, the train already left.\" What is the error?",
+      "givenInfo": [
+        "Two past events"
+      ],
+      "conceptOrFormula": "Earlier event uses the past perfect.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Order",
+          "explanation": "The train left before we reached."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Form",
+          "explanation": "It should be \"had already left\"."
+        }
+      ],
+      "finalAnswer": "left → had left",
+      "whyItWorks": "The earlier past needs the past perfect.",
+      "commonTrap": "Leaving it as simple past.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Error checklist",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Read it and pick what sounds right.",
+      "shortcutMethod": "Scan for agreement, tense, parallelism, modifier and preposition errors; list them; choose the option that clears the whole list."
+    },
+    "rulesForApplication": [
+      "List before choosing.",
+      "Check every option for leftovers.",
+      "Two errors, one option fixes both.",
+      "Read the winner aloud."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Fixing only one error",
+      "whyItHappens": "The answer still wrong.",
+      "howToAvoid": "Count errors before looking at options."
+    },
+    {
+      "mistake": "Introducing a new error",
+      "whyItHappens": "Trap option.",
+      "howToAvoid": "Read each option fully."
+    },
+    {
+      "mistake": "Trusting the ear alone",
+      "whyItHappens": "Familiar-sounding mistakes.",
+      "howToAvoid": "Use the checklist."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Drop options that keep an error you have already spotted.",
+    "questionSelectionAdvice": "Start with the verbs.",
+    "recruiterInsight": "The correct option usually looks plain and unremarkable."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-adv-sentence-correction-e1",
+        "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe team of engineers are working on the project, and it have almost finished.\n\nWhich option is correct?",
+        "options": [
+          "The team of engineers is working on the project, and it have almost finished.",
+          "The team of engineers is working on the project, and it has almost finished.",
+          "The team of engineers are working on the project, and it has almost finished.",
+          "The team of engineers are working on the project, and it have almost finished."
+        ],
+        "correctAnswer": "The team of engineers is working on the project, and it has almost finished.",
+        "explanation": "Error 1: \"Team\" is singular, so \"are working\" must be \"is working\". Error 2: \"It\" takes \"has\", not \"have\". Only \"The team of engineers is working on the project, and it has almost finished.\" corrects both errors; the other options leave at least one error.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-adv-sentence-correction-e2",
+        "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nShe don't like coffee, neither does her brother.\n\nWhich option is correct?",
+        "options": [
+          "She doesn't like coffee, and neither does her brother.",
+          "She doesn't like coffee, neither does her brother.",
+          "She don't like coffee, and neither does her brother.",
+          "She don't like coffee, neither does her brother."
+        ],
+        "correctAnswer": "She doesn't like coffee, and neither does her brother.",
+        "explanation": "Error 1: \"She\" takes \"doesn't\", not \"don't\". Error 2: Two clauses need a joining word such as \"and\"; a comma alone splices them. Only \"She doesn't like coffee, and neither does her brother.\" corrects both errors; the other options leave at least one error.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-adv-sentence-correction-e3",
+        "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nHe has been living in Delhi since five years and he enjoy it.\n\nWhich option is correct?",
+        "options": [
+          "He has been living in Delhi for five years and he enjoy it.",
+          "He has been living in Delhi since five years and he enjoys it.",
+          "He has been living in Delhi since five years and he enjoy it.",
+          "He has been living in Delhi for five years and he enjoys it."
+        ],
+        "correctAnswer": "He has been living in Delhi for five years and he enjoys it.",
+        "explanation": "Error 1: A period of time takes \"for\", not \"since\". Error 2: \"He\" takes \"enjoys\". Only \"He has been living in Delhi for five years and he enjoys it.\" corrects both errors; the other options leave at least one error.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-adv-sentence-correction-i7",
+        "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nShe like swimming, to cycle and going for long walks.\n\nWhich option is correct?",
+        "options": [
+          "She likes swimming, cycling and going for long walks.",
+          "She likes swimming, to cycle and going for long walks.",
+          "She like swimming, cycling and going for long walks.",
+          "She like swimming, to cycle and going for long walks."
+        ],
+        "correctAnswer": "She likes swimming, cycling and going for long walks.",
+        "explanation": "Error 1: \"She\" takes \"likes\". Error 2: The list must be parallel: swimming, cycling and going. Only \"She likes swimming, cycling and going for long walks.\" corrects both errors; the other options leave at least one error.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-adv-sentence-correction-i8",
+        "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nOf the two roads, this one is the shortest and more safer.\n\nWhich option is correct?",
+        "options": [
+          "Of the two roads, this one is the shorter and more safer.",
+          "Of the two roads, this one is the shortest and safer.",
+          "Of the two roads, this one is the shortest and more safer.",
+          "Of the two roads, this one is the shorter and safer."
+        ],
+        "correctAnswer": "Of the two roads, this one is the shorter and safer.",
+        "explanation": "Error 1: For two things use the comparative \"shorter\", not the superlative \"shortest\". Error 2: \"More safer\" is a double comparative; use \"safer\". Only \"Of the two roads, this one is the shorter and safer.\" corrects both errors; the other options leave at least one error.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-adv-sentence-correction-i9",
+        "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nHe is good in mathematics and fond for reading.\n\nWhich option is correct?",
+        "options": [
+          "He is good at mathematics and fond for reading.",
+          "He is good in mathematics and fond of reading.",
+          "He is good in mathematics and fond for reading.",
+          "He is good at mathematics and fond of reading."
+        ],
+        "correctAnswer": "He is good at mathematics and fond of reading.",
+        "explanation": "Error 1: The idiom is \"good at\". Error 2: The idiom is \"fond of\". Only \"He is good at mathematics and fond of reading.\" corrects both errors; the other options leave at least one error.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-adv-sentence-correction-a15",
+        "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe manager insisted that every employee submits their report and was present on Monday.\n\nWhich option is correct?",
+        "options": [
+          "The manager insisted that every employee submit his or her report and was present on Monday.",
+          "The manager insisted that every employee submits his or her report and be present on Monday.",
+          "The manager insisted that every employee submit his or her report and be present on Monday.",
+          "The manager insisted that every employee submits their report and was present on Monday."
+        ],
+        "correctAnswer": "The manager insisted that every employee submit his or her report and be present on Monday.",
+        "explanation": "Error 1: After \"insisted that\" the subjunctive uses the base form: \"submit\". Error 2: The second verb must match: \"be present\"; \"every employee\" takes \"his or her\". Only \"The manager insisted that every employee submit his or her report and be present on Monday.\" corrects both errors; the other options leave at least one error.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-sentence-correction-a16",
+        "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe candidate whom the panel believed was the best withdrew his name, and later regret it.\n\nWhich option is correct?",
+        "options": [
+          "The candidate who the panel believed was the best withdrew his name, and later regret it.",
+          "The candidate who the panel believed was the best withdrew his name and later regretted it.",
+          "The candidate whom the panel believed was the best withdrew his name, and later regretted it.",
+          "The candidate whom the panel believed was the best withdrew his name, and later regret it."
+        ],
+        "correctAnswer": "The candidate who the panel believed was the best withdrew his name and later regretted it.",
+        "explanation": "Error 1: \"Who\" is the subject of \"was the best\", so \"whom\" is wrong. Error 2: \"Regret\" should be \"regretted\" to match \"withdrew\". Only \"The candidate who the panel believed was the best withdrew his name and later regretted it.\" corrects both errors; the other options leave at least one error.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-adv-sentence-correction-p17",
+        "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe new phone is more cheaper than, but not as durable, the old one.\n\nWhich option is correct?",
+        "options": [
+          "The new phone is cheaper than, but not as durable, the old one.",
+          "The new phone is cheaper than, but not as durable as, the old one.",
+          "The new phone is more cheaper than, but not as durable as, the old one.",
+          "The new phone is more cheaper than, but not as durable, the old one."
+        ],
+        "correctAnswer": "The new phone is cheaper than, but not as durable as, the old one.",
+        "explanation": "Error 1: \"More cheaper\" is a double comparative; use \"cheaper\". Error 2: The comparison \"not as durable\" needs \"as\" before \"the old one\". Only \"The new phone is cheaper than, but not as durable as, the old one.\" corrects both errors; the other options leave at least one error.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-sentence-correction-p18",
+        "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe report was handed to the director that contained errors, and he return it.\n\nWhich option is correct?",
+        "options": [
+          "The report that contained errors was handed to the director, and he returned it.",
+          "The report that contained errors was handed to the director, and he return it.",
+          "The report was handed to the director that contained errors, and he returned it.",
+          "The report was handed to the director that contained errors, and he return it."
+        ],
+        "correctAnswer": "The report that contained errors was handed to the director, and he returned it.",
+        "explanation": "Error 1: \"That contained errors\" must sit next to \"the report\", not \"the director\". Error 2: \"He return\" should be \"he returned\". Only \"The report that contained errors was handed to the director, and he returned it.\" corrects both errors; the other options leave at least one error.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-sentence-correction-p19",
+        "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nFewer people than expected has attended, and there is less chairs in the hall.\n\nWhich option is correct?",
+        "options": [
+          "Fewer people than expected have attended, and there is less chairs in the hall.",
+          "Fewer people than expected has attended, and there are fewer chairs in the hall.",
+          "Fewer people than expected has attended, and there is less chairs in the hall.",
+          "Fewer people than expected have attended, and there are fewer chairs in the hall."
+        ],
+        "correctAnswer": "Fewer people than expected have attended, and there are fewer chairs in the hall.",
+        "explanation": "Error 1: \"People\" is plural, so \"have attended\". Error 2: Countable \"chairs\" takes \"fewer\" and \"are\". Only \"Fewer people than expected have attended, and there are fewer chairs in the hall.\" corrects both errors; the other options leave at least one error.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Agreement.",
+      "Tense.",
+      "Parallelism.",
+      "Idioms.",
+      "Conditionals."
+    ],
+    "quickFormulas": [
+      "If + had, would have"
+    ]
+  },
+  "keyTakeaways": [
+    "List errors.",
+    "Check all options.",
+    "Mind collective nouns.",
+    "Keep tenses in order."
+  ],
+  "selfCheckQuestions": [
+    "Can I list two errors?",
+    "Can I repair parallel structure?",
+    "Can I fix a conditional?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

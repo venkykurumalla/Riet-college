@@ -1,0 +1,419 @@
+{
+  "id": "y3-verbal-adv-error-detection",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 54,
+  "title": "Advanced Error Detection — Idiomatic Errors",
+  "tagline": "Year 3 — Spotting the wrong preposition, idiom, collocation or agreement in a sentence divided into parts",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In error detection the sentence is split into four parts and exactly one part contains an error. Advanced items test idiom rather than simple grammar: the preposition that goes with a verb or adjective (senior to, prefer to, fond of), set pairs such as hardly… when and no sooner… than, and verb patterns that follow certain words (insist on, accustomed to). These cannot be reasoned out; they must be learned and recognised.",
+    "placementRelevance": "Idiom-based error spotting is common in bank, SSC and company tests because it separates careful readers from guessers.",
+    "realWorldContext": "Proofreading professional writing for natural phrasing uses the same sense."
+  },
+  "learningObjectives": [
+    "Recall idiomatic prepositions of common words",
+    "Recognise correlative pairs (hardly… when, no sooner… than)",
+    "Spot wrong verb patterns after fixed words",
+    "Check agreement with intervening phrases",
+    "Scan systematically part by part"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Error Detection (basic)",
+      "Idiomatic Expressions and Phrases"
+    ],
+    "quickRefresher": "Some words fix their following word: prefer + to, senior + to, accustomed + to + -ing, fond + of, congratulate + on."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Idiomatic preposition: the preposition that natural usage attaches to a word.",
+      "Correlative pair: two words that always occur together (hardly… when).",
+      "Collocation: words that naturally occur together.",
+      "Gerund after \"to\": accustomed to waking, used to waking.",
+      "Intervening phrase: a phrase between subject and verb that does not change agreement."
+    ],
+    "theoreticalIntuition": "Read each part with the word before it. Error parts often sound slightly foreign, because the preposition or pair is wrong.",
+    "visualOrMentalModel": "Check part by part: first the verb and its subject, then each preposition against the word it follows, then correlative pairs. The part that fails is the answer."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Prefer",
+      "formula": "prefer A to B",
+      "description": "Preferences.",
+      "whenToUse": "Not \"than\".",
+      "simpleExample": "Tea to coffee"
+    },
+    {
+      "title": "Senior/junior",
+      "formula": "senior to, junior to",
+      "description": "Rank.",
+      "whenToUse": "Not \"than\".",
+      "simpleExample": "Senior to me"
+    },
+    {
+      "title": "Congratulate",
+      "formula": "congratulate on",
+      "description": "Success.",
+      "whenToUse": "Not \"to\".",
+      "simpleExample": "On her success"
+    },
+    {
+      "title": "Pairs",
+      "formula": "hardly… when; no sooner… than",
+      "description": "Immediate sequence.",
+      "whenToUse": "Fixed.",
+      "simpleExample": "No sooner… than"
+    },
+    {
+      "title": "Accustomed",
+      "formula": "accustomed to + -ing",
+      "description": "Habit.",
+      "whenToUse": "Gerund.",
+      "simpleExample": "Accustomed to waking"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "\"He is senior / than me / by two years / in the office.\" The word \"senior\" takes \"to\", so the part \"than me\" is wrong; the correct phrase is \"senior to me\".",
+      "\"I prefer tea / than coffee / in the morning / because it is lighter.\" \"Prefer\" takes \"to\", so \"than coffee\" should be \"to coffee\".",
+      "\"Hardly had he / reached the station / than the train / left.\" The correlative of \"hardly\" is \"when\", so \"than the train\" is wrong. In contrast, \"no sooner\" takes \"than\".",
+      "\"The professor, along with / his two assistants, / are conducting / the experiment.\" The subject is \"professor\" (singular); \"along with his assistants\" does not change that, so \"are conducting\" should be \"is conducting\".",
+      "Always read parts with the word that governs them. Many errors are visible only when the preposition is attached to its word."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Governing words",
+        "content": "The error is often in a preposition that belongs to a word in the previous part."
+      },
+      {
+        "title": "Grammar vs idiom",
+        "content": "Agreement and tense errors can be reasoned; idiom errors must be recognised."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Comparatives with to",
+      "description": "Senior, prefer.",
+      "exampleSnippet": "Senior to"
+    },
+    {
+      "typeName": "Pairs",
+      "description": "Hardly… when.",
+      "exampleSnippet": "No sooner… than"
+    },
+    {
+      "typeName": "Verb patterns",
+      "description": "Insist on, accustomed to -ing.",
+      "exampleSnippet": "Insisted on paying"
+    },
+    {
+      "typeName": "Agreement",
+      "description": "Intervening phrases.",
+      "exampleSnippet": "Along with"
+    },
+    {
+      "typeName": "Collocations",
+      "description": "Fond of, congratulate on.",
+      "exampleSnippet": "Fond of music"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-adv-error-detection-1",
+      "title": "Comparative idiom",
+      "question": "\"He is senior / than me / by two years.\" Which part has the error?",
+      "givenInfo": [
+        "Senior"
+      ],
+      "conceptOrFormula": "Check the governing word.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rule",
+          "explanation": "\"Senior\" takes \"to\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Error",
+          "explanation": "\"than me\" should be \"to me\"."
+        }
+      ],
+      "finalAnswer": "than me",
+      "whyItWorks": "Senior to me.",
+      "commonTrap": "Choosing \"by two years\".",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-adv-error-detection-2",
+      "title": "Correlative pair",
+      "question": "\"Hardly had he / reached the station / than the train / left.\" Which part has the error?",
+      "givenInfo": [
+        "Hardly"
+      ],
+      "conceptOrFormula": "Correlative pair.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rule",
+          "explanation": "\"Hardly\" is followed by \"when\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Error",
+          "explanation": "\"than the train\" should be \"when the train\"."
+        }
+      ],
+      "finalAnswer": "than the train",
+      "whyItWorks": "No sooner takes than.",
+      "commonTrap": "Choosing the first part.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-adv-error-detection-3",
+      "title": "Agreement",
+      "question": "\"The professor, along with / his two assistants, / are conducting / the experiment.\" Which part has the error?",
+      "givenInfo": [
+        "Intervening phrase"
+      ],
+      "conceptOrFormula": "Find the subject.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Subject",
+          "explanation": "\"The professor\" is singular."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Error",
+          "explanation": "\"are conducting\" should be \"is conducting\"."
+        }
+      ],
+      "finalAnswer": "are conducting",
+      "whyItWorks": "\"Along with\" does not add to the subject.",
+      "commonTrap": "Choosing \"his two assistants\".",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Part by part",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Hunt for something odd.",
+      "shortcutMethod": "Check each part with its governing word: preposition, correlative pair, verb pattern, then agreement."
+    },
+    "rulesForApplication": [
+      "Prefer/senior take to.",
+      "Hardly… when; no sooner… than.",
+      "Insist on + -ing.",
+      "Along with does not change number."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing the part that sounds unusual but is correct",
+      "whyItHappens": "Rare is not wrong.",
+      "howToAvoid": "Test against a rule."
+    },
+    {
+      "mistake": "Ignoring the governing word",
+      "whyItHappens": "Preposition missed.",
+      "howToAvoid": "Read the word and its follower together."
+    },
+    {
+      "mistake": "Counting \"along with\" as plural",
+      "whyItHappens": "Agreement error.",
+      "howToAvoid": "Use the main subject."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 40,
+    "eliminationTechnique": "Parts that match a known rule are safe; drop them.",
+    "questionSelectionAdvice": "Learn the top 40 idiomatic prepositions.",
+    "recruiterInsight": "Exactly one part is wrong; if you find two, re-check."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-adv-error-detection-e1",
+        "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) She is married (b) with a doctor (c) and lives (d) in Chennai.\n\nWhich part contains the error?",
+        "options": [
+          "She is married",
+          "with a doctor",
+          "and lives",
+          "in Chennai."
+        ],
+        "correctAnswer": "with a doctor",
+        "explanation": "The error is in \"with a doctor\": one is married \"to\" someone. The other parts are correct.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-adv-error-detection-e2",
+        "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) He is senior (b) than me (c) by two years (d) in the office.\n\nWhich part contains the error?",
+        "options": [
+          "than me",
+          "He is senior",
+          "by two years",
+          "in the office."
+        ],
+        "correctAnswer": "than me",
+        "explanation": "The error is in \"than me\": \"senior\" takes \"to\": \"senior to me\". The other parts are correct.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-adv-error-detection-e3",
+        "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) I prefer tea (b) than coffee (c) in the morning (d) because it is lighter.\n\nWhich part contains the error?",
+        "options": [
+          "I prefer tea",
+          "in the morning",
+          "because it is lighter.",
+          "than coffee"
+        ],
+        "correctAnswer": "than coffee",
+        "explanation": "The error is in \"than coffee\": \"prefer\" takes \"to\": \"to coffee\". The other parts are correct.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-adv-error-detection-i7",
+        "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) Despite of (b) the heavy rain, (c) the match (d) went on as planned.\n\nWhich part contains the error?",
+        "options": [
+          "Despite of",
+          "the heavy rain,",
+          "the match",
+          "went on as planned."
+        ],
+        "correctAnswer": "Despite of",
+        "explanation": "The error is in \"Despite of\": \"despite\" is not followed by \"of\"; use \"despite\" or \"in spite of\". The other parts are correct.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-adv-error-detection-i8",
+        "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) She has been (b) working in this company (c) since ten years (d) and loves it.\n\nWhich part contains the error?",
+        "options": [
+          "She has been",
+          "working in this company",
+          "and loves it.",
+          "since ten years"
+        ],
+        "correctAnswer": "since ten years",
+        "explanation": "The error is in \"since ten years\": a period of time takes \"for\": \"for ten years\". The other parts are correct.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-adv-error-detection-i9",
+        "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) The manager gave (b) a stern warning (c) to the employees (d) about to arrive late.\n\nWhich part contains the error?",
+        "options": [
+          "The manager gave",
+          "a stern warning",
+          "to the employees",
+          "about to arrive late."
+        ],
+        "correctAnswer": "about to arrive late.",
+        "explanation": "The error is in \"about to arrive late.\": the idiom is \"warn against arriving late\". The other parts are correct.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-adv-error-detection-a15",
+        "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) Hardly had he (b) reached the station (c) than the train (d) left.\n\nWhich part contains the error?",
+        "options": [
+          "Hardly had he",
+          "reached the station",
+          "than the train",
+          "left."
+        ],
+        "correctAnswer": "than the train",
+        "explanation": "The error is in \"than the train\": \"hardly\" is followed by \"when\". The other parts are correct.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-error-detection-a16",
+        "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) He congratulated her (b) to her success (c) and wished her (d) a bright future.\n\nWhich part contains the error?",
+        "options": [
+          "He congratulated her",
+          "to her success",
+          "and wished her",
+          "a bright future."
+        ],
+        "correctAnswer": "to her success",
+        "explanation": "The error is in \"to her success\": one congratulates someone \"on\" success. The other parts are correct.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-adv-error-detection-p17",
+        "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) The professor, along with (b) his two assistants, (c) are conducting (d) the experiment.\n\nWhich part contains the error?",
+        "options": [
+          "The professor, along with",
+          "are conducting",
+          "his two assistants,",
+          "the experiment."
+        ],
+        "correctAnswer": "are conducting",
+        "explanation": "The error is in \"are conducting\": the subject is singular: \"is conducting\". The other parts are correct.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-error-detection-p18",
+        "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) It is high time (b) that we will take (c) a decision on (d) this matter.\n\nWhich part contains the error?",
+        "options": [
+          "that we will take",
+          "It is high time",
+          "a decision on",
+          "this matter."
+        ],
+        "correctAnswer": "that we will take",
+        "explanation": "The error is in \"that we will take\": after \"it is high time\" use the past: \"that we took\". The other parts are correct.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-error-detection-p19",
+        "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) She was so tired (b) that she could hardly (c) keep her eyes (d) to open.\n\nWhich part contains the error?",
+        "options": [
+          "She was so tired",
+          "that she could hardly",
+          "keep her eyes",
+          "to open."
+        ],
+        "correctAnswer": "to open.",
+        "explanation": "The error is in \"to open.\": \"keep her eyes open\" has no \"to\". The other parts are correct.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Prefer, senior to.",
+      "Hardly… when.",
+      "Insist on.",
+      "Along with.",
+      "Fond of."
+    ],
+    "quickFormulas": [
+      "Prefer to; senior to; hardly… when"
+    ]
+  },
+  "keyTakeaways": [
+    "Learn idioms.",
+    "Check pairs.",
+    "Mind subjects.",
+    "Part by part."
+  ],
+  "selfCheckQuestions": [
+    "Can I recall the idiomatic prepositions?",
+    "Can I spot a wrong correlative?",
+    "Can I find agreement errors?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

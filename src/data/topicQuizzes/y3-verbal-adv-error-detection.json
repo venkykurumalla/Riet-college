@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-verbal-adv-error-detection",
+  "topicTitle": "Advanced Error Detection — Idiomatic Errors",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) She is married (b) with a doctor (c) and lives (d) in Chennai.\n\nWhich part contains the error?",
+      "options": [
+        "She is married",
+        "with a doctor",
+        "and lives",
+        "in Chennai."
+      ],
+      "answerIndex": 1,
+      "explanation": "The error is in \"with a doctor\": one is married \"to\" someone. The other parts are correct."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) He is senior (b) than me (c) by two years (d) in the office.\n\nWhich part contains the error?",
+      "options": [
+        "than me",
+        "He is senior",
+        "by two years",
+        "in the office."
+      ],
+      "answerIndex": 0,
+      "explanation": "The error is in \"than me\": \"senior\" takes \"to\": \"senior to me\". The other parts are correct."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) I prefer tea (b) than coffee (c) in the morning (d) because it is lighter.\n\nWhich part contains the error?",
+      "options": [
+        "I prefer tea",
+        "in the morning",
+        "because it is lighter.",
+        "than coffee"
+      ],
+      "answerIndex": 3,
+      "explanation": "The error is in \"than coffee\": \"prefer\" takes \"to\": \"to coffee\". The other parts are correct."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) The committee (b) consists from (c) five members (d) from different departments.\n\nWhich part contains the error?",
+      "options": [
+        "The committee",
+        "five members",
+        "consists from",
+        "from different departments."
+      ],
+      "answerIndex": 2,
+      "explanation": "The error is in \"consists from\": the idiom is \"consists of\". The other parts are correct."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) He insisted (b) to pay (c) the bill (d) himself.\n\nWhich part contains the error?",
+      "options": [
+        "He insisted",
+        "the bill",
+        "to pay",
+        "himself."
+      ],
+      "answerIndex": 2,
+      "explanation": "The error is in \"to pay\": the idiom is \"insisted on paying\". The other parts are correct."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) The thief was (b) caught red-handed (c) while he was trying (d) to break in the house.\n\nWhich part contains the error?",
+      "options": [
+        "The thief was",
+        "to break in the house.",
+        "caught red-handed",
+        "while he was trying"
+      ],
+      "answerIndex": 1,
+      "explanation": "The error is in \"to break in the house.\": the verb is \"break into the house\". The other parts are correct."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) Despite of (b) the heavy rain, (c) the match (d) went on as planned.\n\nWhich part contains the error?",
+      "options": [
+        "Despite of",
+        "the heavy rain,",
+        "the match",
+        "went on as planned."
+      ],
+      "answerIndex": 0,
+      "explanation": "The error is in \"Despite of\": \"despite\" is not followed by \"of\"; use \"despite\" or \"in spite of\". The other parts are correct."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) She has been (b) working in this company (c) since ten years (d) and loves it.\n\nWhich part contains the error?",
+      "options": [
+        "She has been",
+        "working in this company",
+        "and loves it.",
+        "since ten years"
+      ],
+      "answerIndex": 3,
+      "explanation": "The error is in \"since ten years\": a period of time takes \"for\": \"for ten years\". The other parts are correct."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) The manager gave (b) a stern warning (c) to the employees (d) about to arrive late.\n\nWhich part contains the error?",
+      "options": [
+        "The manager gave",
+        "a stern warning",
+        "to the employees",
+        "about to arrive late."
+      ],
+      "answerIndex": 3,
+      "explanation": "The error is in \"about to arrive late.\": the idiom is \"warn against arriving late\". The other parts are correct."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) He is not accustomed (b) to wake up (c) early in the morning (d) so he is often late.\n\nWhich part contains the error?",
+      "options": [
+        "He is not accustomed",
+        "early in the morning",
+        "to wake up",
+        "so he is often late."
+      ],
+      "answerIndex": 2,
+      "explanation": "The error is in \"to wake up\": \"accustomed to\" is followed by a gerund: \"to waking up\". The other parts are correct."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) Neither of (b) the two proposals (c) were accepted (d) by the board.\n\nWhich part contains the error?",
+      "options": [
+        "Neither of",
+        "were accepted",
+        "the two proposals",
+        "by the board."
+      ],
+      "answerIndex": 1,
+      "explanation": "The error is in \"were accepted\": \"neither\" takes a singular verb: \"was accepted\". The other parts are correct."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) My brother is (b) very fond for (c) classical music (d) and old films.\n\nWhich part contains the error?",
+      "options": [
+        "very fond for",
+        "My brother is",
+        "classical music",
+        "and old films."
+      ],
+      "answerIndex": 0,
+      "explanation": "The error is in \"very fond for\": the idiom is \"fond of\". The other parts are correct."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) The prices of vegetables (b) have gone up (c) in the recent weeks (d) because of the floods.\n\nWhich part contains the error?",
+      "options": [
+        "in the recent weeks",
+        "The prices of vegetables",
+        "have gone up",
+        "because of the floods."
+      ],
+      "answerIndex": 0,
+      "explanation": "The error is in \"in the recent weeks\": the natural phrase is \"in recent weeks\". The other parts are correct."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) I was surprised (b) at his sudden (c) decision of resign (d) from the post.\n\nWhich part contains the error?",
+      "options": [
+        "I was surprised",
+        "at his sudden",
+        "from the post.",
+        "decision of resign"
+      ],
+      "answerIndex": 3,
+      "explanation": "The error is in \"decision of resign\": the pattern is \"decision to resign\". The other parts are correct."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) Hardly had he (b) reached the station (c) than the train (d) left.\n\nWhich part contains the error?",
+      "options": [
+        "Hardly had he",
+        "reached the station",
+        "than the train",
+        "left."
+      ],
+      "answerIndex": 2,
+      "explanation": "The error is in \"than the train\": \"hardly\" is followed by \"when\". The other parts are correct."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) He congratulated her (b) to her success (c) and wished her (d) a bright future.\n\nWhich part contains the error?",
+      "options": [
+        "He congratulated her",
+        "to her success",
+        "and wished her",
+        "a bright future."
+      ],
+      "answerIndex": 1,
+      "explanation": "The error is in \"to her success\": one congratulates someone \"on\" success. The other parts are correct."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) The professor, along with (b) his two assistants, (c) are conducting (d) the experiment.\n\nWhich part contains the error?",
+      "options": [
+        "The professor, along with",
+        "are conducting",
+        "his two assistants,",
+        "the experiment."
+      ],
+      "answerIndex": 1,
+      "explanation": "The error is in \"are conducting\": the subject is singular: \"is conducting\". The other parts are correct."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) It is high time (b) that we will take (c) a decision on (d) this matter.\n\nWhich part contains the error?",
+      "options": [
+        "that we will take",
+        "It is high time",
+        "a decision on",
+        "this matter."
+      ],
+      "answerIndex": 0,
+      "explanation": "The error is in \"that we will take\": after \"it is high time\" use the past: \"that we took\". The other parts are correct."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) She was so tired (b) that she could hardly (c) keep her eyes (d) to open.\n\nWhich part contains the error?",
+      "options": [
+        "She was so tired",
+        "that she could hardly",
+        "keep her eyes",
+        "to open."
+      ],
+      "answerIndex": 3,
+      "explanation": "The error is in \"to open.\": \"keep her eyes open\" has no \"to\". The other parts are correct."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Read the sentence in four parts and find the part that contains an error.\n\n(a) No sooner had (b) the teacher entered (c) when the students (d) stood up.\n\nWhich part contains the error?",
+      "options": [
+        "No sooner had",
+        "the teacher entered",
+        "when the students",
+        "stood up."
+      ],
+      "answerIndex": 2,
+      "explanation": "The error is in \"when the students\": \"no sooner\" is followed by \"than\". The other parts are correct."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/spotting-errors/"
+}

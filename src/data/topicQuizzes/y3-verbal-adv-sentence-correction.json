@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-verbal-adv-sentence-correction",
+  "topicTitle": "Advanced Sentence Correction — Multiple Errors",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe team of engineers are working on the project, and it have almost finished.\n\nWhich option is correct?",
+      "options": [
+        "The team of engineers is working on the project, and it have almost finished.",
+        "The team of engineers is working on the project, and it has almost finished.",
+        "The team of engineers are working on the project, and it has almost finished.",
+        "The team of engineers are working on the project, and it have almost finished."
+      ],
+      "answerIndex": 1,
+      "explanation": "Error 1: \"Team\" is singular, so \"are working\" must be \"is working\". Error 2: \"It\" takes \"has\", not \"have\". Only \"The team of engineers is working on the project, and it has almost finished.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nShe don't like coffee, neither does her brother.\n\nWhich option is correct?",
+      "options": [
+        "She doesn't like coffee, and neither does her brother.",
+        "She doesn't like coffee, neither does her brother.",
+        "She don't like coffee, and neither does her brother.",
+        "She don't like coffee, neither does her brother."
+      ],
+      "answerIndex": 0,
+      "explanation": "Error 1: \"She\" takes \"doesn't\", not \"don't\". Error 2: Two clauses need a joining word such as \"and\"; a comma alone splices them. Only \"She doesn't like coffee, and neither does her brother.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nHe has been living in Delhi since five years and he enjoy it.\n\nWhich option is correct?",
+      "options": [
+        "He has been living in Delhi for five years and he enjoy it.",
+        "He has been living in Delhi since five years and he enjoys it.",
+        "He has been living in Delhi since five years and he enjoy it.",
+        "He has been living in Delhi for five years and he enjoys it."
+      ],
+      "answerIndex": 3,
+      "explanation": "Error 1: A period of time takes \"for\", not \"since\". Error 2: \"He\" takes \"enjoys\". Only \"He has been living in Delhi for five years and he enjoys it.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe news about the floods were shocking, and many people was left homeless.\n\nWhich option is correct?",
+      "options": [
+        "The news about the floods was shocking, and many people was left homeless.",
+        "The news about the floods were shocking, and many people were left homeless.",
+        "The news about the floods was shocking, and many people were left homeless.",
+        "The news about the floods were shocking, and many people was left homeless."
+      ],
+      "answerIndex": 2,
+      "explanation": "Error 1: \"News\" is singular, so \"was shocking\". Error 2: \"People\" is plural, so \"were left\". Only \"The news about the floods was shocking, and many people were left homeless.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nBetween you and I, the plan is more better than the old one.\n\nWhich option is correct?",
+      "options": [
+        "Between you and me, the plan is more better than the old one.",
+        "Between you and I, the plan is better than the old one.",
+        "Between you and me, the plan is better than the old one.",
+        "Between you and I, the plan is more better than the old one."
+      ],
+      "answerIndex": 2,
+      "explanation": "Error 1: After a preposition use the object form: \"between you and me\". Error 2: \"Better\" is already a comparative; \"more better\" is a double comparative. Only \"Between you and me, the plan is better than the old one.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nHaving finished the work, the lights were switched off by him, and he return home.\n\nWhich option is correct?",
+      "options": [
+        "Having finished the work, he switched off the lights, and he return home.",
+        "Having finished the work, he switched off the lights and returned home.",
+        "Having finished the work, the lights were switched off by him, and he returned home.",
+        "Having finished the work, the lights were switched off by him, and he return home."
+      ],
+      "answerIndex": 1,
+      "explanation": "Error 1: The opening phrase \"Having finished the work\" must be followed by the person who finished it (\"he\"). Error 2: \"He return\" should be \"he returned\". Only \"Having finished the work, he switched off the lights and returned home.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nShe like swimming, to cycle and going for long walks.\n\nWhich option is correct?",
+      "options": [
+        "She likes swimming, cycling and going for long walks.",
+        "She likes swimming, to cycle and going for long walks.",
+        "She like swimming, cycling and going for long walks.",
+        "She like swimming, to cycle and going for long walks."
+      ],
+      "answerIndex": 0,
+      "explanation": "Error 1: \"She\" takes \"likes\". Error 2: The list must be parallel: swimming, cycling and going. Only \"She likes swimming, cycling and going for long walks.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nOf the two roads, this one is the shortest and more safer.\n\nWhich option is correct?",
+      "options": [
+        "Of the two roads, this one is the shorter and more safer.",
+        "Of the two roads, this one is the shortest and safer.",
+        "Of the two roads, this one is the shortest and more safer.",
+        "Of the two roads, this one is the shorter and safer."
+      ],
+      "answerIndex": 3,
+      "explanation": "Error 1: For two things use the comparative \"shorter\", not the superlative \"shortest\". Error 2: \"More safer\" is a double comparative; use \"safer\". Only \"Of the two roads, this one is the shorter and safer.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nHe is good in mathematics and fond for reading.\n\nWhich option is correct?",
+      "options": [
+        "He is good at mathematics and fond for reading.",
+        "He is good in mathematics and fond of reading.",
+        "He is good in mathematics and fond for reading.",
+        "He is good at mathematics and fond of reading."
+      ],
+      "answerIndex": 3,
+      "explanation": "Error 1: The idiom is \"good at\". Error 2: The idiom is \"fond of\". Only \"He is good at mathematics and fond of reading.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nIf I would have known about the meeting, I will have attended it.\n\nWhich option is correct?",
+      "options": [
+        "If I had known about the meeting, I will have attended it.",
+        "If I would have known about the meeting, I would have attended it.",
+        "If I had known about the meeting, I would have attended it.",
+        "If I would have known about the meeting, I will have attended it."
+      ],
+      "answerIndex": 2,
+      "explanation": "Error 1: The \"if\" clause of an unreal past needs the past perfect: \"had known\". Error 2: The main clause needs \"would have attended\". Only \"If I had known about the meeting, I would have attended it.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nBy the time we reached the station, the train already left and we have to wait for two hours.\n\nWhich option is correct?",
+      "options": [
+        "By the time we reached the station, the train had already left and we have to wait for two hours.",
+        "By the time we reached the station, the train had already left and we had to wait for two hours.",
+        "By the time we reached the station, the train already left and we had to wait for two hours.",
+        "By the time we reached the station, the train already left and we have to wait for two hours."
+      ],
+      "answerIndex": 1,
+      "explanation": "Error 1: The train's leaving came earlier, so it needs the past perfect: \"had already left\". Error 2: The waiting is also in the past: \"we had to wait\". Only \"By the time we reached the station, the train had already left and we had to wait for two hours.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe reason why he was late is because the bus have broken down.\n\nWhich option is correct?",
+      "options": [
+        "The reason he was late is that the bus broke down.",
+        "The reason he was late is that the bus have broken down.",
+        "The reason why he was late is because the bus broke down.",
+        "The reason why he was late is because the bus have broken down."
+      ],
+      "answerIndex": 0,
+      "explanation": "Error 1: \"The reason… is because\" is redundant; use \"the reason… is that\". Error 2: \"The bus have broken\" has a wrong auxiliary; the bus broke down. Only \"The reason he was late is that the bus broke down.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nWalking down the street, a dog barked at me and frightened.\n\nWhich option is correct?",
+      "options": [
+        "Walking down the street, I was frightened when a dog barked at me.",
+        "Walking down the street, I was frightened when a dog barked at me and frightened.",
+        "Walking down the street, a dog barked at me and I was frightened.",
+        "Walking down the street, a dog barked at me and frightened."
+      ],
+      "answerIndex": 0,
+      "explanation": "Error 1: The opening phrase must be followed by the person walking (\"I\"), not the dog. Error 2: \"Frightened\" alone is incomplete; the sentence needs \"I was frightened\". Only \"Walking down the street, I was frightened when a dog barked at me.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nHe didn't give me no help, and the books was missing too.\n\nWhich option is correct?",
+      "options": [
+        "He didn't give me any help, and the books was missing too.",
+        "He didn't give me no help, and the books were missing too.",
+        "He didn't give me no help, and the books was missing too.",
+        "He didn't give me any help, and the books were missing too."
+      ],
+      "answerIndex": 3,
+      "explanation": "Error 1: A double negative must be corrected: \"didn't give me any help\". Error 2: \"Books\" is plural, so \"were missing\". Only \"He didn't give me any help, and the books were missing too.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe manager insisted that every employee submits their report and was present on Monday.\n\nWhich option is correct?",
+      "options": [
+        "The manager insisted that every employee submit his or her report and was present on Monday.",
+        "The manager insisted that every employee submits his or her report and be present on Monday.",
+        "The manager insisted that every employee submit his or her report and be present on Monday.",
+        "The manager insisted that every employee submits their report and was present on Monday."
+      ],
+      "answerIndex": 2,
+      "explanation": "Error 1: After \"insisted that\" the subjunctive uses the base form: \"submit\". Error 2: The second verb must match: \"be present\"; \"every employee\" takes \"his or her\". Only \"The manager insisted that every employee submit his or her report and be present on Monday.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe candidate whom the panel believed was the best withdrew his name, and later regret it.\n\nWhich option is correct?",
+      "options": [
+        "The candidate who the panel believed was the best withdrew his name, and later regret it.",
+        "The candidate who the panel believed was the best withdrew his name and later regretted it.",
+        "The candidate whom the panel believed was the best withdrew his name, and later regretted it.",
+        "The candidate whom the panel believed was the best withdrew his name, and later regret it."
+      ],
+      "answerIndex": 1,
+      "explanation": "Error 1: \"Who\" is the subject of \"was the best\", so \"whom\" is wrong. Error 2: \"Regret\" should be \"regretted\" to match \"withdrew\". Only \"The candidate who the panel believed was the best withdrew his name and later regretted it.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe new phone is more cheaper than, but not as durable, the old one.\n\nWhich option is correct?",
+      "options": [
+        "The new phone is cheaper than, but not as durable, the old one.",
+        "The new phone is cheaper than, but not as durable as, the old one.",
+        "The new phone is more cheaper than, but not as durable as, the old one.",
+        "The new phone is more cheaper than, but not as durable, the old one."
+      ],
+      "answerIndex": 1,
+      "explanation": "Error 1: \"More cheaper\" is a double comparative; use \"cheaper\". Error 2: The comparison \"not as durable\" needs \"as\" before \"the old one\". Only \"The new phone is cheaper than, but not as durable as, the old one.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nThe report was handed to the director that contained errors, and he return it.\n\nWhich option is correct?",
+      "options": [
+        "The report that contained errors was handed to the director, and he returned it.",
+        "The report that contained errors was handed to the director, and he return it.",
+        "The report was handed to the director that contained errors, and he returned it.",
+        "The report was handed to the director that contained errors, and he return it."
+      ],
+      "answerIndex": 0,
+      "explanation": "Error 1: \"That contained errors\" must sit next to \"the report\", not \"the director\". Error 2: \"He return\" should be \"he returned\". Only \"The report that contained errors was handed to the director, and he returned it.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nFewer people than expected has attended, and there is less chairs in the hall.\n\nWhich option is correct?",
+      "options": [
+        "Fewer people than expected have attended, and there is less chairs in the hall.",
+        "Fewer people than expected has attended, and there are fewer chairs in the hall.",
+        "Fewer people than expected has attended, and there is less chairs in the hall.",
+        "Fewer people than expected have attended, and there are fewer chairs in the hall."
+      ],
+      "answerIndex": 3,
+      "explanation": "Error 1: \"People\" is plural, so \"have attended\". Error 2: Countable \"chairs\" takes \"fewer\" and \"are\". Only \"Fewer people than expected have attended, and there are fewer chairs in the hall.\" corrects both errors; the other options leave at least one error."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The following sentence has two errors. Choose the option that corrects both of them.\n\nOn receiving the letter, the committee were meeting again and decides to postpone it.\n\nWhich option is correct?",
+      "options": [
+        "On receiving the letter, the committee met again and decides to postpone it.",
+        "On receiving the letter, the committee were meeting again and decided to postpone it.",
+        "On receiving the letter, the committee met again and decided to postpone the meeting.",
+        "On receiving the letter, the committee were meeting again and decides to postpone it."
+      ],
+      "answerIndex": 2,
+      "explanation": "Error 1: The committee acted in the past: \"met\", not \"were meeting\". Error 2: \"Decides\" should be \"decided\", and \"it\" is unclear; \"the meeting\" removes the ambiguity. Only \"On receiving the letter, the committee met again and decided to postpone the meeting.\" corrects both errors; the other options leave at least one error."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/sentence-improvement/"
+}
