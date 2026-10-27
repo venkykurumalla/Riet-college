@@ -1,0 +1,431 @@
+{
+  "id": "y2-lr-basic-seating",
+  "yearId": 2,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 31,
+  "title": "Basic Seating Arrangement",
+  "tagline": "Year 2 — Circular arrangements: left and right, opposite and neighbours",
+  "estimatedMinutes": 55,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "In a circular seating arrangement, a group of people sit around a table. You are given clues such as \"A sits opposite D\", \"B is second to the right of C\" or \"E is not adjacent to F\" and must place everyone and answer questions. The key to accuracy is knowing which way is left and right for a person who faces the centre or faces outward, and drawing a circle with numbered seats.",
+    "placementRelevance": "Seating arrangement questions are commonly asked in company reasoning rounds, usually as a set of five questions based on one arrangement.",
+    "realWorldContext": "Planning seats at a round table, scheduling duties in a rotation and setting up round-table meetings use the same reasoning."
+  },
+  "learningObjectives": [
+    "Determine left and right for people facing the centre or outward",
+    "Place people from direct and indirect clues",
+    "Use \"opposite\", \"adjacent\" and \"between\" correctly",
+    "Count persons between two seats",
+    "Work through a puzzle systematically"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Ordering and Sequencing",
+      "Direction Sense Basics"
+    ],
+    "quickRefresher": "In a circle of n seats, the person opposite a given seat is n/2 seats away (when n is even). Clockwise and anticlockwise are opposite directions."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Facing the centre: the immediate left of a person is the next person clockwise; the immediate right is the next anticlockwise.",
+      "Facing outward: left and right are swapped (left = anticlockwise).",
+      "Opposite: the person n/2 seats away; exists only when the number of seats is even.",
+      "Adjacent: sitting next to each other.",
+      "Second to the right/left: two seats away in that direction."
+    ],
+    "theoreticalIntuition": "The same circle looks different to people facing the centre and those facing outward. First decide the facing, then fix one person at a starting seat and place the others using the clues. With direct clues first (opposite, adjacent) and negative clues last.",
+    "visualOrMentalModel": "Draw a circle with n numbered seats. Mark clockwise with an arrow. Write each placed person in the seat; use \"left = clockwise\" for people facing the centre."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Left and right (facing centre)",
+      "formula": "Left = next clockwise;  Right = next anticlockwise",
+      "description": "Check by imagining yourself at the table.",
+      "whenToUse": "Every direction clue.",
+      "simpleExample": "Order A, B, C: left of B is C; right of B is A"
+    },
+    {
+      "title": "Opposite",
+      "formula": "Opposite of seat i = seat i + n/2",
+      "description": "n even.",
+      "whenToUse": "Opposite clues.",
+      "simpleExample": "A opposite D in six seats"
+    },
+    {
+      "title": "Persons between",
+      "formula": "Count the seats strictly between two persons in the stated direction",
+      "description": "Specify clockwise or the shorter way.",
+      "whenToUse": "\"How many persons between?\"",
+      "simpleExample": "A and D: 2 between (B, C)"
+    },
+    {
+      "title": "Facing outward",
+      "formula": "Swap left and right",
+      "description": "Left = anticlockwise.",
+      "whenToUse": "Outward-facing tables.",
+      "simpleExample": "Outward: left of K is R"
+    },
+    {
+      "title": "Placing order",
+      "formula": "Fix definite clues first; use negatives to eliminate",
+      "description": "Direct → indirect → negative.",
+      "whenToUse": "Puzzles.",
+      "simpleExample": "Opposite and adjacent first"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "For people facing the centre, the person on your left is the next one clockwise. In the order A, B, C, D, E, F clockwise, the immediate left of B is C and the immediate right of B is A. The second to the left of E is A (E → F → A).",
+      "In a circle of six, the person opposite A is three seats away, so D. The persons between A and D along the shorter way are B and C: two persons. Sitting between C and E is D.",
+      "For a puzzle, place the definite clues first. \"A sits opposite D\" fixes two seats. \"B is the immediate right of A\" fixes B next to A on the anticlockwise side. \"E sits opposite B\" fixes E. The remaining people (C and F) are placed using the negative clue \"F is not adjacent to A\", giving the clockwise order A, C, E, D, F, B.",
+      "For indirect clues such as \"A is second to the right of B\", place B first and count two seats anticlockwise to find A. Then add \"C is the immediate left of B\" (next clockwise from B). The negative clue \"D is not adjacent to C\" decides between the two remaining seats, giving A, D, B, C, E clockwise.",
+      "If the persons face outward, swap left and right. In the order K, L, M, … clockwise, facing outward, the immediate left of M is L (anticlockwise), not N."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Odd numbers of seats",
+        "content": "With an odd number of persons there is no exact opposite. Questions then use \"second to the right of\" and \"between\" instead."
+      },
+      {
+        "title": "Checking the solution",
+        "content": "After placing everyone, re-read every clue and verify it against the final arrangement. This catches left/right mistakes."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Complete order given",
+      "description": "Direct questions.",
+      "exampleSnippet": "A, B, C, D, E, F clockwise"
+    },
+    {
+      "typeName": "Opposite and adjacent",
+      "description": "Place persons.",
+      "exampleSnippet": "A opposite D"
+    },
+    {
+      "typeName": "Indirect clues",
+      "description": "Second to the right.",
+      "exampleSnippet": "A second to the right of B"
+    },
+    {
+      "typeName": "Negative clues",
+      "description": "Not adjacent.",
+      "exampleSnippet": "F not adjacent to A"
+    },
+    {
+      "typeName": "Outward-facing",
+      "description": "Swap sides.",
+      "exampleSnippet": "Facing outward"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-basic-seating-1",
+      "title": "Direct questions",
+      "question": "Six persons A to F sit around a circular table facing the centre in this order clockwise: A, B, C, D, E, F. Who is opposite A, and who is the immediate left of B?",
+      "givenInfo": [
+        "Clockwise: A, B, C, D, E, F"
+      ],
+      "conceptOrFormula": "Opposite = 3 seats away; left = next clockwise.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Opposite",
+          "explanation": "3 seats from A: D."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Immediate left of B",
+          "explanation": "Next clockwise is C."
+        }
+      ],
+      "finalAnswer": "D is opposite A; C is the immediate left of B",
+      "whyItWorks": "Facing the centre, left is clockwise.",
+      "commonTrap": "Swapping left and right.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-basic-seating-2",
+      "title": "Building the arrangement",
+      "question": "Five persons A–E sit around a circular table facing the centre. A is second to the right of B. C is the immediate left of B. D is not adjacent to C. Find the clockwise order starting from A.",
+      "givenInfo": [
+        "A is 2nd to the right of B",
+        "C is immediate left of B",
+        "D is not adjacent to C"
+      ],
+      "conceptOrFormula": "Right = anticlockwise, left = clockwise.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Place B and A",
+          "explanation": "Going anticlockwise from B: one seat, then A. So clockwise: A, ?, B."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Place C",
+          "explanation": "Immediate left of B is the next clockwise: A, ?, B, C."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Fill the rest",
+          "explanation": "The seat after C and the seat between A and B remain for D and E. D is not adjacent to C, so D takes the seat between A and B and E sits next to C."
+        }
+      ],
+      "finalAnswer": "A, D, B, C, E",
+      "whyItWorks": "Check all clues against the final order.",
+      "commonTrap": "Mixing right and left.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-basic-seating-3",
+      "title": "Facing outward",
+      "question": "Eight persons K to R sit around a circular table facing outward in this order clockwise: K, L, M, N, O, P, Q, R. Who is the immediate left of M?",
+      "givenInfo": [
+        "Facing outward"
+      ],
+      "conceptOrFormula": "Left and right swap.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Facing outward",
+          "explanation": "Left is the next anticlockwise person."
+        },
+        {
+          "stepNumber": 2,
+          "title": "M's anticlockwise neighbour",
+          "explanation": "L."
+        }
+      ],
+      "finalAnswer": "L",
+      "whyItWorks": "Facing the centre the answer would be N.",
+      "commonTrap": "Using the facing-centre rule.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Clockwise = left",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Re-imagine each person's view every time.",
+      "shortcutMethod": "Facing centre: left = clockwise, right = anticlockwise. Facing outward: swap. Place direct clues first and use negatives to resolve ties."
+    },
+    "rulesForApplication": [
+      "Check the facing direction.",
+      "Opposite = n/2 away.",
+      "Direct, indirect, negative order.",
+      "Verify every clue at the end."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Swapping left and right",
+      "whyItHappens": "Ignoring facing direction.",
+      "howToAvoid": "Left = clockwise for centre-facing."
+    },
+    {
+      "mistake": "Counting from the wrong person",
+      "whyItHappens": "Starting at the wrong seat.",
+      "howToAvoid": "Start from the stated person."
+    },
+    {
+      "mistake": "Mixing the direction of \"between\"",
+      "whyItHappens": "Counting the longer way.",
+      "howToAvoid": "Specify the way."
+    },
+    {
+      "mistake": "Not verifying",
+      "whyItHappens": "Leaving a clue unchecked.",
+      "howToAvoid": "Re-read every clue."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 120,
+    "eliminationTechnique": "Use the first two questions of a set to confirm the arrangement.",
+    "questionSelectionAdvice": "Always draw a circle.",
+    "recruiterInsight": "Complete the arrangement before answering."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-basic-seating-e1",
+        "question": "Persons A, B, C, D, E and F sit around a circular table facing the centre, in this order clockwise: A, B, C, D, E, F.\n\nWho sits opposite A?",
+        "options": [
+          "B",
+          "D",
+          "C",
+          "E"
+        ],
+        "correctAnswer": "D",
+        "explanation": "In six seats, the opposite is three seats away: A → B → C → D. So D.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-basic-seating-e2",
+        "question": "Persons A, B, C, D, E and F sit around a circular table facing the centre, in this order clockwise: A, B, C, D, E, F.\n\nWho sits at the immediate left of B?",
+        "options": [
+          "C",
+          "A",
+          "D",
+          "E"
+        ],
+        "correctAnswer": "C",
+        "explanation": "Facing the centre, left is the next person clockwise: C.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-basic-seating-e3",
+        "question": "Persons A, B, C, D, E and F sit around a circular table facing the centre, in this order clockwise: A, B, C, D, E, F.\n\nWho sits at the immediate right of B?",
+        "options": [
+          "C",
+          "D",
+          "E",
+          "A"
+        ],
+        "correctAnswer": "A",
+        "explanation": "Right is the next person anticlockwise: A.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-basic-seating-i7",
+        "question": "Persons K, L, M, N, O, P, Q and R sit around a circular table facing the centre, in this order clockwise: K, L, M, N, O, P, Q, R.\n\nWho sits opposite K?",
+        "options": [
+          "O",
+          "L",
+          "M",
+          "N"
+        ],
+        "correctAnswer": "O",
+        "explanation": "In eight seats, the opposite is four seats away: K → L → M → N → O. So O.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-basic-seating-i8",
+        "question": "Persons K, L, M, N, O, P, Q and R sit around a circular table facing the centre, in this order clockwise: K, L, M, N, O, P, Q, R.\n\nWho is third to the right of N?",
+        "options": [
+          "L",
+          "M",
+          "O",
+          "K"
+        ],
+        "correctAnswer": "K",
+        "explanation": "Right is anticlockwise: N → M → L → K. So K.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-basic-seating-i9",
+        "question": "Persons K, L, M, N, O, P, Q and R sit around a circular table facing the centre, in this order clockwise: K, L, M, N, O, P, Q, R.\n\nWho is second to the left of Q?",
+        "options": [
+          "L",
+          "M",
+          "R",
+          "K"
+        ],
+        "correctAnswer": "K",
+        "explanation": "Left is clockwise: Q → R → K. So K.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-basic-seating-a15",
+        "question": "Five persons A, B, C, D and E sit around a circular table facing the centre. A is second to the right of B. C is the immediate left of B. D is not adjacent to C.\n\nWho sits at the immediate right of A?",
+        "options": [
+          "B",
+          "C",
+          "E",
+          "D"
+        ],
+        "correctAnswer": "E",
+        "explanation": "The clockwise order is A, D, B, C, E. The immediate right of A (anticlockwise) is E.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-basic-seating-a16",
+        "question": "Five persons A, B, C, D and E sit around a circular table facing the centre. A is second to the right of B. C is the immediate left of B. D is not adjacent to C.\n\nWho sits between A and B?",
+        "options": [
+          "C",
+          "D",
+          "E",
+          "Nobody"
+        ],
+        "correctAnswer": "D",
+        "explanation": "In the order A, D, B, C, E, D sits between A and B.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-basic-seating-p17",
+        "question": "Six persons A to F sit around a circular table facing the centre. A sits opposite D. B is the immediate right of A. E sits opposite B. F is not adjacent to A.\n\nWho sits at the immediate left of E?",
+        "options": [
+          "A",
+          "D",
+          "B",
+          "F"
+        ],
+        "correctAnswer": "D",
+        "explanation": "The clockwise order is A, C, E, D, F, B. The immediate left of E (clockwise) is D.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-basic-seating-p18",
+        "question": "Six persons A to F sit around a circular table facing the centre. A sits opposite D. B is the immediate right of A. E sits opposite B. F is not adjacent to A.\n\nBetween which two persons does F sit?",
+        "options": [
+          "D and B",
+          "A and C",
+          "E and D",
+          "C and B"
+        ],
+        "correctAnswer": "D and B",
+        "explanation": "In the order A, C, E, D, F, B, F is between D and B.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-basic-seating-p19",
+        "question": "Six persons A to F sit around a circular table facing the centre. A sits opposite D. B is the immediate right of A. E sits opposite B. F is not adjacent to A.\n\nWho sits opposite C?",
+        "options": [
+          "A",
+          "B",
+          "D",
+          "F"
+        ],
+        "correctAnswer": "F",
+        "explanation": "Opposite C (three seats away) is F.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Left = clockwise (facing centre).",
+      "Opposite n/2.",
+      "Direct clues first.",
+      "Swap for outward.",
+      "Verify."
+    ],
+    "quickFormulas": [
+      "Opposite = i + n/2"
+    ]
+  },
+  "keyTakeaways": [
+    "Facing matters.",
+    "Draw the circle.",
+    "Order of clues.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I identify left and right for centre-facing?",
+    "Can I find opposite in six seats?",
+    "Can I solve a five-clue puzzle?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Seating Arrangement topic area; examples are original."
+    }
+  ]
+}

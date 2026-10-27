@@ -1,0 +1,434 @@
+{
+  "id": "y2-lr-linear-arrangement",
+  "yearId": 2,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 32,
+  "title": "Linear Arrangement",
+  "tagline": "Year 2 — Seating in one or two rows, left and right, position counts",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "In a linear arrangement people sit or stand in one row (all facing the same way) or in two rows facing each other. You are given clues such as \"A sits third to the right of B\" or \"C faces D\" and must work out the order. The key skills are knowing left and right for people facing north or south, counting positions from either end, and placing definite clues before indefinite ones.",
+    "placementRelevance": "Linear arrangement questions are commonly asked in company reasoning rounds, usually as a puzzle with a set of questions.",
+    "realWorldContext": "Queues, classroom benches, stage photographs and parking rows are linear arrangements."
+  },
+  "learningObjectives": [
+    "Decide left and right for persons facing north or south",
+    "Place persons using definite and relative clues",
+    "Count positions from either end and between persons",
+    "Handle two rows facing each other",
+    "Handle interchange of positions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Seating Arrangement",
+      "Ranking and Position Basics"
+    ],
+    "quickRefresher": "For people facing north, left is west and right is east. For people facing south, left is east and right is west. Position from left + position from right = total + 1."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Row: a straight line of people; the ends are the extreme left and extreme right.",
+      "Facing north/south: the direction people look; this decides what \"left\" and \"right\" mean.",
+      "Two-row arrangement: two parallel rows facing each other; each person faces exactly one person of the other row.",
+      "Immediate right/left: the adjacent person on that side.",
+      "Interchange: two persons swap their seats."
+    ],
+    "theoreticalIntuition": "The row is a numbered line of seats. \"Third to the right of Q\" means three seats in the right direction from Q. With a number line, every clue becomes arithmetic on seat numbers, and the left/right orientation is the only place where mistakes happen.",
+    "visualOrMentalModel": "Draw n boxes in a row, mark \"L → R\" for the viewpoint of the sitters, and write each person into a box as soon as the clue fixes them."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Positions from the two ends",
+      "formula": "Position from right = Total − position from left + 1",
+      "description": "Counts include the person.",
+      "whenToUse": "Position questions.",
+      "simpleExample": "8 persons: 4th from the left = 5th from the right"
+    },
+    {
+      "title": "Third to the right of X",
+      "formula": "Seat of X + 3 (for people facing north, in the left-to-right order)",
+      "description": "Add for right, subtract for left.",
+      "whenToUse": "Relative clues.",
+      "simpleExample": "Q + 3 → T"
+    },
+    {
+      "title": "Persons between",
+      "formula": "|seat difference| − 1",
+      "description": "Excludes both persons.",
+      "whenToUse": "Between questions.",
+      "simpleExample": "P and T: 4 − 1 = 3"
+    },
+    {
+      "title": "Two rows facing",
+      "formula": "The person at seat i from the left of row 1 faces the person at seat i from the right of row 2",
+      "description": "Opposite ends.",
+      "whenToUse": "Facing pairs.",
+      "simpleExample": "A faces F"
+    },
+    {
+      "title": "Interchange",
+      "formula": "After swapping, each takes the other's old seat",
+      "description": "Compute the new positions.",
+      "whenToUse": "Swap questions.",
+      "simpleExample": "B and G interchange"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Number the seats 1 to n from the left. For people facing north, \"to the right of\" means a higher seat number. In the row P, Q, R, S, T, U, V, the third to the right of Q is T, the middle person is S, and three persons (Q, R and S) sit between P and T.",
+      "Position from the other end: in a row of 8, the person fourth from the left is fifth from the right (8 − 4 + 1). The persons third from the left and second from the right (seats 3 and 7) have three persons between them (seats 4, 5, 6).",
+      "To solve a puzzle, place definite clues first. \"A sits in the middle\" fixes seat 3 of 5. \"D sits at the immediate right of A\" fixes seat 4. \"B sits at the extreme right\" fixes seat 5. The clue \"E sits at the immediate right of C\" must then put C in seat 1 and E in seat 2, giving C, E, A, D, B.",
+      "For two rows facing each other, the persons at opposite ends face each other when each row is listed from its own left to right: A faces F, B faces E and C faces D. To find the person to the immediate right of the one who faces B, locate E and move one seat right in row 2: F.",
+      "For an interchange, compute the new seat of each person, then answer the question. If B (seat 2) and G (seat 7) swap, B is in seat 7 and the immediate right of that seat is H."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Facing south",
+        "content": "If people in a row face south, their left is east. Redraw the row from their viewpoint or flip left and right."
+      },
+      {
+        "title": "Direct clues first",
+        "content": "Extreme positions, \"middle\" and \"opposite\" clues fix a seat immediately. Use \"not adjacent\" clues last."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "One row, full order given",
+      "description": "Direct questions.",
+      "exampleSnippet": "P, Q, R, S, T, U, V"
+    },
+    {
+      "typeName": "Interchange",
+      "description": "Swap.",
+      "exampleSnippet": "B and G swap"
+    },
+    {
+      "typeName": "Puzzle",
+      "description": "Place from clues.",
+      "exampleSnippet": "A in the middle"
+    },
+    {
+      "typeName": "Two rows",
+      "description": "Faces.",
+      "exampleSnippet": "A faces F"
+    },
+    {
+      "typeName": "Counting",
+      "description": "From the ends.",
+      "exampleSnippet": "12th from the left in 40"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-linear-arrangement-1",
+      "title": "Relative position",
+      "question": "Seven persons P, Q, R, S, T, U, V sit in a row facing north in that order from left to right. Who sits third to the right of Q?",
+      "givenInfo": [
+        "P, Q, R, S, T, U, V"
+      ],
+      "conceptOrFormula": "Add seats for right.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Seat of Q",
+          "explanation": "2."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Add 3",
+          "explanation": "Seat 5."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Person",
+          "explanation": "T."
+        }
+      ],
+      "finalAnswer": "T",
+      "whyItWorks": "Right means a higher number.",
+      "commonTrap": "Counting from the wrong direction.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-linear-arrangement-2",
+      "title": "Puzzle",
+      "question": "Five persons A–E sit in a row facing north. A sits in the middle. D sits at the immediate right of A. B sits at the extreme right. E sits at the immediate right of C. Find the order from left to right.",
+      "givenInfo": [
+        "Four clues"
+      ],
+      "conceptOrFormula": "Place definite clues first.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Definite clues",
+          "explanation": "A in seat 3; D in seat 4; B in seat 5."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Remaining",
+          "explanation": "C and E for seats 1 and 2."
+        },
+        {
+          "stepNumber": 3,
+          "title": "E right of C",
+          "explanation": "C in 1, E in 2."
+        }
+      ],
+      "finalAnswer": "C, E, A, D, B",
+      "whyItWorks": "Check all four clues.",
+      "commonTrap": "Placing E before C.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-linear-arrangement-3",
+      "title": "Two rows",
+      "question": "Row 1 (facing south) from its own left to right: A, B, C. Row 2 (facing north) from its own left to right: D, E, F. A faces F, B faces E, C faces D. Who sits at the immediate right of the person who faces B?",
+      "givenInfo": [
+        "A faces F, B faces E, C faces D"
+      ],
+      "conceptOrFormula": "Find the facing partner, then move right.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Facing B",
+          "explanation": "E."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Right of E in row 2",
+          "explanation": "F."
+        }
+      ],
+      "finalAnswer": "F",
+      "whyItWorks": "Row 2 is read from its own left to right.",
+      "commonTrap": "Using row 1's orientation.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Number the seats",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reason in words each time.",
+      "shortcutMethod": "Number seats 1 to n, place definite clues, convert relative clues to arithmetic, and check every clue at the end."
+    },
+    "rulesForApplication": [
+      "Right = higher number (facing north).",
+      "Position from right = total − position from left + 1.",
+      "Definite clues first.",
+      "For two rows, use own left to right."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Mixing left and right",
+      "whyItHappens": "Ignoring the facing direction.",
+      "howToAvoid": "Decide north or south."
+    },
+    {
+      "mistake": "Off-by-one counts",
+      "whyItHappens": "Counting the starting person.",
+      "howToAvoid": "Start from the next seat."
+    },
+    {
+      "mistake": "Wrong facing pairs",
+      "whyItHappens": "Pairing the wrong ends.",
+      "howToAvoid": "Use opposite ends."
+    },
+    {
+      "mistake": "Not verifying",
+      "whyItHappens": "Leaving a clue unchecked.",
+      "howToAvoid": "Re-read the clues."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "Use the first definite clues to eliminate options.",
+    "questionSelectionAdvice": "Draw boxes.",
+    "recruiterInsight": "A clean diagram answers all questions."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-linear-arrangement-e1",
+        "question": "Seven persons P, Q, R, S, T, U and V sit in a row facing north. From left to right the order is P, Q, R, S, T, U, V.\n\nWho sits at the extreme right?",
+        "options": [
+          "P",
+          "V",
+          "U",
+          "S"
+        ],
+        "correctAnswer": "V",
+        "explanation": "The last person from the left is V.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-linear-arrangement-e2",
+        "question": "Seven persons P, Q, R, S, T, U and V sit in a row facing north. From left to right the order is P, Q, R, S, T, U, V.\n\nWho is third from the left?",
+        "options": [
+          "R",
+          "Q",
+          "S",
+          "P"
+        ],
+        "correctAnswer": "R",
+        "explanation": "The 3rd from the left is R.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-linear-arrangement-e3",
+        "question": "Seven persons P, Q, R, S, T, U and V sit in a row facing north. From left to right the order is P, Q, R, S, T, U, V.\n\nWho sits third to the right of Q?",
+        "options": [
+          "S",
+          "U",
+          "R",
+          "T"
+        ],
+        "correctAnswer": "T",
+        "explanation": "Q is in seat 2. Three seats to the right is seat 5: T.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-linear-arrangement-i7",
+        "question": "Eight persons A, B, C, D, E, F, G and H sit in a row facing north. From left to right the order is A, B, C, D, E, F, G, H.\n\nWho sits fourth to the left of H?",
+        "options": [
+          "D",
+          "E",
+          "C",
+          "B"
+        ],
+        "correctAnswer": "D",
+        "explanation": "H is in seat 8. Four seats to the left is seat 4: D.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-linear-arrangement-i8",
+        "question": "Eight persons A, B, C, D, E, F, G and H sit in a row facing north. From left to right the order is A, B, C, D, E, F, G, H.\n\nWho sits exactly in the middle of C and G?",
+        "options": [
+          "D",
+          "F",
+          "B",
+          "E"
+        ],
+        "correctAnswer": "E",
+        "explanation": "C is seat 3 and G is seat 7. The middle is seat 5: E.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-linear-arrangement-i9",
+        "question": "Eight persons A, B, C, D, E, F, G and H sit in a row facing north. From left to right the order is A, B, C, D, E, F, G, H.\n\nIf B and G interchange their positions, who sits at the immediate right of B (in its new position)?",
+        "options": [
+          "A",
+          "F",
+          "G",
+          "H"
+        ],
+        "correctAnswer": "H",
+        "explanation": "After the swap B is in seat 7. The immediate right (seat 8) is H.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-linear-arrangement-a15",
+        "question": "Five persons A, B, C, D and E sit in a row facing north. A sits in the middle. D sits at the immediate right of A. B sits at the extreme right. E sits at the immediate right of C.\n\nWho sits at the extreme left?",
+        "options": [
+          "E",
+          "A",
+          "C",
+          "D"
+        ],
+        "correctAnswer": "C",
+        "explanation": "The order is C, E, A, D, B. The extreme left is C.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-linear-arrangement-a16",
+        "question": "Five persons A, B, C, D and E sit in a row facing north. A sits in the middle. D sits at the immediate right of A. B sits at the extreme right. E sits at the immediate right of C.\n\nWho sits between E and D?",
+        "options": [
+          "C",
+          "A",
+          "B",
+          "Nobody"
+        ],
+        "correctAnswer": "A",
+        "explanation": "In the order C, E, A, D, B, A sits between E and D.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-linear-arrangement-p17",
+        "question": "Five persons A, B, C, D and E sit in a row facing north. A sits in the middle. D sits at the immediate right of A. B sits at the extreme right. E sits at the immediate right of C.\n\nHow many persons sit to the left of D?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        "correctAnswer": "3",
+        "explanation": "C, E and A sit to the left of D: 3 persons.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-linear-arrangement-p18",
+        "question": "Forty students stand in a row facing north. Rahul is 12th from the left and Suresh is 15th from the right. The number of students between them is",
+        "options": [
+          "13",
+          "12",
+          "14",
+          "15"
+        ],
+        "correctAnswer": "13",
+        "explanation": "Suresh is 40 − 15 + 1 = 26th from the left. Between them: 26 − 12 − 1 = 13.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-linear-arrangement-p19",
+        "question": "In a row of 25 persons, A is 7th from the left and B is 9th from the right. If they interchange, A becomes 17th from the left. A's new position from the right end is",
+        "options": [
+          "8th",
+          "10th",
+          "17th",
+          "9th"
+        ],
+        "correctAnswer": "9th",
+        "explanation": "B was 25 − 9 + 1 = 17th from the left. After the swap A takes that seat: 25 − 17 + 1 = 9th from the right.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Number the seats.",
+      "Right = higher number.",
+      "Position from the other end.",
+      "Two rows facing.",
+      "Verify."
+    ],
+    "quickFormulas": [
+      "p_right = N − p_left + 1"
+    ]
+  },
+  "keyTakeaways": [
+    "Seat numbers.",
+    "Facing direction.",
+    "Definite first.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the 3rd to the right?",
+    "Can I solve a five-person puzzle?",
+    "Can I handle two rows?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Seating Arrangement topic area; examples are original."
+    }
+  ]
+}

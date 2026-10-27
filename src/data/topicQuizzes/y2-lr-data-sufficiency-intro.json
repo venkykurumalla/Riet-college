@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-data-sufficiency-intro",
+  "topicTitle": "Introduction to Data Sufficiency",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Question: What is the age of Ravi?\nI. Ravi is 5 years older than Sita.\nII. Sita is 20 years old.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Both statements together are needed",
+        "Statement II alone is sufficient",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Neither alone fixes Ravi's age. Together: 20 + 5 = 25."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Question: What is the area of the square?\nI. The side of the square is 6 cm.\nII. The square is in the first row of a chart.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Both statements together are needed",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "I gives 6² = 36 cm². II is irrelevant."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Question: What is the speed of the car?\nI. The car travelled 120 km.\nII. The journey took 2 hours.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Even both together are not sufficient",
+        "Both statements together are needed"
+      ],
+      "answerIndex": 3,
+      "explanation": "Speed needs distance and time together: 120 ÷ 2 = 60 km/h."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Question: How many students are in the class?\nI. There are 30 girls in the class.\nII. There are 20 boys in the class.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Both statements together are needed",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Both together: 30 + 20 = 50. Neither alone gives the total."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Question: What is the price of a pen?\nI. A pen and a pencil together cost ₹12.\nII. A pencil costs ₹5.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Both statements together are needed",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Together: 12 − 5 = ₹7."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Question: Is Ravi taller than Mohan?\nI. Ravi is taller than Sita.\nII. Sita is taller than Mohan.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Both statements together are needed",
+        "Statement II alone is sufficient",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Together: Ravi > Sita > Mohan, so yes."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Question: What is the value of x?\nI. 2x = 10.\nII. x + y = 8.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Both statements together are needed",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "I gives x = 5. II alone has two unknowns."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Question: What is the perimeter of the rectangle?\nI. The length is 8 cm.\nII. The area is 48 cm².\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Even both together are not sufficient",
+        "Both statements together are needed"
+      ],
+      "answerIndex": 3,
+      "explanation": "Together: breadth = 6, perimeter = 28. Neither alone is enough."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Question: What is the profit percentage?\nI. The cost price is ₹200.\nII. The selling price is ₹250.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Even both together are not sufficient",
+        "Both statements together are needed"
+      ],
+      "answerIndex": 3,
+      "explanation": "Both are needed: (250 − 200)/200 = 25%."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Question: Is the number even?\nI. The number is divisible by 4.\nII. The number is greater than 10.\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient",
+        "Both statements together are needed",
+        "Statement I alone is sufficient",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Every multiple of 4 is even: always yes. II alone does not decide."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Question: On what day of the week is 5 January?\nI. 1 January is a Monday.\nII. The year is 2024.\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient",
+        "Statement I alone is sufficient",
+        "Both statements together are needed",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "5 January is 4 days after Monday: Friday. The year does not matter."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Question: What is the ratio of A's age to B's age?\nI. A is twice as old as B.\nII. The sum of their ages is 45.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Both statements together are needed",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "I gives the ratio 2 : 1. II alone does not give the ratio."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Question: What is the value of y?\nI. x + y = 10.\nII. x − y = 2.\nWhich of the following is correct?",
+      "options": [
+        "Both statements together are needed",
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Neither alone fixes y. Together: x = 6, y = 4."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Question: How many sides does the polygon have?\nI. The sum of its interior angles is 720°.\nII. It has equal sides.\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient",
+        "Both statements together are needed",
+        "Even both together are not sufficient",
+        "Statement I alone is sufficient"
+      ],
+      "answerIndex": 3,
+      "explanation": "(n − 2) × 180 = 720 gives n = 6. II is not needed."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Question: What is the area of the circle?\nI. The circumference is 44 cm.\nII. The radius is greater than 5 cm.\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient",
+        "Both statements together are needed",
+        "Statement I alone is sufficient",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "I gives r = 7 and the area 154 cm². II alone does not fix r."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Question: Is a greater than b?\nI. a² is greater than b².\nII. a and b are positive.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Both statements together are needed",
+        "Statement II alone is sufficient",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "I alone allows negative values; II alone says nothing. Together a > b."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Question: What is the two-digit number?\nI. The sum of its digits is 9.\nII. It is an odd multiple of 5.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Both statements together are needed",
+        "Statement II alone is sufficient",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Together: 45 is the only two-digit odd multiple of 5 with digit sum 9."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Question: What is the speed of the boat in still water?\nI. The downstream speed is 12 km/h.\nII. The stream speed is 2 km/h.\nWhich of the following is correct?",
+      "options": [
+        "Both statements together are needed",
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Together: 12 − 2 = 10 km/h."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Question: How many marbles are in the bag?\nI. 12 marbles are red.\nII. Red marbles are three times the blue marbles.\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient",
+        "Statement II alone is sufficient",
+        "Both statements together are needed",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 3,
+      "explanation": "Other colours may exist, so the total cannot be found even with both."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Question: Is the triangle right-angled?\nI. Its sides are 5 cm, 12 cm and 13 cm.\nII. It has one angle of 60°.\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient",
+        "Both statements together are needed",
+        "Statement I alone is sufficient",
+        "Even both together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "I: 5² + 12² = 13², so the answer is yes. II alone does not decide."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/data-sufficiency/"
+}

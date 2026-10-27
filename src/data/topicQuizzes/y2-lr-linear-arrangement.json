@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-linear-arrangement",
+  "topicTitle": "Linear Arrangement",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Seven persons P, Q, R, S, T, U and V sit in a row facing north. From left to right the order is P, Q, R, S, T, U, V.\n\nWho sits at the extreme right?",
+      "options": [
+        "P",
+        "V",
+        "U",
+        "S"
+      ],
+      "answerIndex": 1,
+      "explanation": "The last person from the left is V."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Seven persons P, Q, R, S, T, U and V sit in a row facing north. From left to right the order is P, Q, R, S, T, U, V.\n\nWho is third from the left?",
+      "options": [
+        "R",
+        "Q",
+        "S",
+        "P"
+      ],
+      "answerIndex": 0,
+      "explanation": "The 3rd from the left is R."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Seven persons P, Q, R, S, T, U and V sit in a row facing north. From left to right the order is P, Q, R, S, T, U, V.\n\nWho sits third to the right of Q?",
+      "options": [
+        "S",
+        "U",
+        "R",
+        "T"
+      ],
+      "answerIndex": 3,
+      "explanation": "Q is in seat 2. Three seats to the right is seat 5: T."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Seven persons P, Q, R, S, T, U and V sit in a row facing north. From left to right the order is P, Q, R, S, T, U, V.\n\nHow many persons sit between P and T?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "answerIndex": 2,
+      "explanation": "Between P (seat 1) and T (seat 5) are Q, R, S: 3 persons."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Seven persons P, Q, R, S, T, U and V sit in a row facing north. From left to right the order is P, Q, R, S, T, U, V.\n\nWho sits exactly in the middle?",
+      "options": [
+        "R",
+        "T",
+        "S",
+        "Q"
+      ],
+      "answerIndex": 2,
+      "explanation": "The middle of 7 is the 4th seat: S."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Seven persons P, Q, R, S, T, U and V sit in a row facing north. From left to right the order is P, Q, R, S, T, U, V.\n\nWhat is the position of U from the right end?",
+      "options": [
+        "1st",
+        "2nd",
+        "3rd",
+        "4th"
+      ],
+      "answerIndex": 1,
+      "explanation": "V is 1st from the right, U is 2nd."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit in a row facing north. From left to right the order is A, B, C, D, E, F, G, H.\n\nWho sits fourth to the left of H?",
+      "options": [
+        "D",
+        "E",
+        "C",
+        "B"
+      ],
+      "answerIndex": 0,
+      "explanation": "H is in seat 8. Four seats to the left is seat 4: D."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit in a row facing north. From left to right the order is A, B, C, D, E, F, G, H.\n\nWho sits exactly in the middle of C and G?",
+      "options": [
+        "D",
+        "F",
+        "B",
+        "E"
+      ],
+      "answerIndex": 3,
+      "explanation": "C is seat 3 and G is seat 7. The middle is seat 5: E."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit in a row facing north. From left to right the order is A, B, C, D, E, F, G, H.\n\nIf B and G interchange their positions, who sits at the immediate right of B (in its new position)?",
+      "options": [
+        "A",
+        "F",
+        "G",
+        "H"
+      ],
+      "answerIndex": 3,
+      "explanation": "After the swap B is in seat 7. The immediate right (seat 8) is H."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit in a row facing north. From left to right the order is A, B, C, D, E, F, G, H.\n\nHow many persons sit between the person third from the left and the person second from the right?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "answerIndex": 2,
+      "explanation": "Third from the left is C (seat 3); second from the right is G (seat 7). Between them: D, E, F = 3."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Eight persons A, B, C, D, E, F, G and H sit in a row facing north. From left to right the order is A, B, C, D, E, F, G, H.\n\nWhat is the position of F from the right end?",
+      "options": [
+        "2nd",
+        "3rd",
+        "4th",
+        "5th"
+      ],
+      "answerIndex": 1,
+      "explanation": "F is in seat 6. 8 − 6 + 1 = 3rd from the right."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Six persons sit in two rows facing each other. Row 1 (facing south) from its own left to right: A, B, C. Row 2 (facing north) from its own left to right: D, E, F. A faces F, B faces E and C faces D.\n\nWho sits at the immediate right of the person who faces B?",
+      "options": [
+        "F",
+        "D",
+        "E",
+        "A"
+      ],
+      "answerIndex": 0,
+      "explanation": "B faces E. In row 2, the immediate right of E is F."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Six persons sit in two rows facing each other. Row 1 (facing south) from its own left to right: A, B, C. Row 2 (facing north) from its own left to right: D, E, F. A faces F, B faces E and C faces D.\n\nWho sits opposite C?",
+      "options": [
+        "D",
+        "E",
+        "F",
+        "B"
+      ],
+      "answerIndex": 0,
+      "explanation": "C faces D (given)."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Six persons sit in two rows facing each other. Row 1 (facing south) from its own left to right: A, B, C. Row 2 (facing north) from its own left to right: D, E, F. A faces F, B faces E and C faces D.\n\nWho sits at the immediate left of the person who faces A?",
+      "options": [
+        "D",
+        "C",
+        "F",
+        "E"
+      ],
+      "answerIndex": 3,
+      "explanation": "A faces F. The immediate left of F in row 2 is E."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Five persons A, B, C, D and E sit in a row facing north. A sits in the middle. D sits at the immediate right of A. B sits at the extreme right. E sits at the immediate right of C.\n\nWho sits at the extreme left?",
+      "options": [
+        "E",
+        "A",
+        "C",
+        "D"
+      ],
+      "answerIndex": 2,
+      "explanation": "The order is C, E, A, D, B. The extreme left is C."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Five persons A, B, C, D and E sit in a row facing north. A sits in the middle. D sits at the immediate right of A. B sits at the extreme right. E sits at the immediate right of C.\n\nWho sits between E and D?",
+      "options": [
+        "C",
+        "A",
+        "B",
+        "Nobody"
+      ],
+      "answerIndex": 1,
+      "explanation": "In the order C, E, A, D, B, A sits between E and D."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Five persons A, B, C, D and E sit in a row facing north. A sits in the middle. D sits at the immediate right of A. B sits at the extreme right. E sits at the immediate right of C.\n\nHow many persons sit to the left of D?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1,
+      "explanation": "C, E and A sit to the left of D: 3 persons."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Forty students stand in a row facing north. Rahul is 12th from the left and Suresh is 15th from the right. The number of students between them is",
+      "options": [
+        "13",
+        "12",
+        "14",
+        "15"
+      ],
+      "answerIndex": 0,
+      "explanation": "Suresh is 40 − 15 + 1 = 26th from the left. Between them: 26 − 12 − 1 = 13."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "In a row of 25 persons, A is 7th from the left and B is 9th from the right. If they interchange, A becomes 17th from the left. A's new position from the right end is",
+      "options": [
+        "8th",
+        "10th",
+        "17th",
+        "9th"
+      ],
+      "answerIndex": 3,
+      "explanation": "B was 25 − 9 + 1 = 17th from the left. After the swap A takes that seat: 25 − 17 + 1 = 9th from the right."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "In a row of 30 children, Anil is 9th from the left. Bina is 12th from the right. The number of children between Anil and Bina is",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "11"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bina is 30 − 12 + 1 = 19th from the left. Between them: 19 − 9 − 1 = 9."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/seating-arrangement/"
+}

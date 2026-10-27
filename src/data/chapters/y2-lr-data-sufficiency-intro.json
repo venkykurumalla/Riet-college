@@ -1,0 +1,432 @@
+{
+  "id": "y2-lr-data-sufficiency-intro",
+  "yearId": 2,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 30,
+  "title": "Introduction to Data Sufficiency",
+  "tagline": "Year 2 — Deciding whether the given statements are enough to answer a question",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "A data sufficiency question asks a question and gives two statements. You do not have to find the answer; you only decide whether the information in the statements is enough to find a single definite answer. The possible verdicts are: statement I alone is sufficient, statement II alone is sufficient, both together are needed, each alone is sufficient, or even both together are not sufficient.",
+    "placementRelevance": "Data sufficiency questions are commonly asked in company reasoning rounds. They test judgment about information rather than calculation, so they are quick when approached systematically.",
+    "realWorldContext": "Deciding whether you have enough information to make a decision, such as quoting a project or diagnosing a fault, uses the same judgment."
+  },
+  "learningObjectives": [
+    "Decide whether a statement alone gives a unique answer",
+    "Combine statements only when each alone is insufficient",
+    "Recognise when the statements are consistent but still not enough",
+    "Use the standard order of evaluation",
+    "Avoid solving the problem fully when it is not needed"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Linear Equations",
+      "Statements and Conclusions"
+    ],
+    "quickRefresher": "A unique answer is needed: if a statement gives two possible values (for example, x² = 9), it is insufficient unless extra information fixes the value."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Sufficient: the information leads to exactly one definite answer.",
+      "Insufficient: the information leaves two or more possible answers (or none).",
+      "Together: using both statements at the same time.",
+      "Yes/no questions: the data is sufficient if it always gives \"yes\" or always gives \"no\"; if it can give both, it is insufficient.",
+      "Consistency: the statements never contradict each other in a well-posed question."
+    ],
+    "theoreticalIntuition": "The question is not \"What is the answer?\" but \"Can I find the answer from this?\" A statement is sufficient if, once you know it, only one answer is possible. If a different situation consistent with the statement gives a different answer, it is not sufficient.",
+    "visualOrMentalModel": "Take each statement in turn. Try to imagine two different situations that both satisfy the statement but give different answers to the question. If you can, it is insufficient. Then combine and repeat."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Standard order",
+      "formula": "Test I alone → test II alone → test both together",
+      "description": "Stop when a statement is sufficient.",
+      "whenToUse": "Every question.",
+      "simpleExample": "Step by step"
+    },
+    {
+      "title": "Unique-answer rule",
+      "formula": "One definite value (or a definite yes/no)",
+      "description": "Two values = insufficient.",
+      "whenToUse": "Equations, comparisons.",
+      "simpleExample": "x² = 9 gives ±3 (not unique)"
+    },
+    {
+      "title": "Counting unknowns",
+      "formula": "n unknowns need n independent equations",
+      "description": "Rough check for linear problems.",
+      "whenToUse": "Algebra questions.",
+      "simpleExample": "x + y = 10 alone is not enough"
+    },
+    {
+      "title": "Combining statements",
+      "formula": "Use both if each alone fails",
+      "description": "The pair may fix the value.",
+      "whenToUse": "C verdict.",
+      "simpleExample": "x + y = 10 and x − y = 2"
+    },
+    {
+      "title": "Other possibilities",
+      "formula": "If a missing category could exist, the data is insufficient",
+      "description": "E.g. other colours of marbles.",
+      "whenToUse": "Totals.",
+      "simpleExample": "12 red, red = 3 × blue → total unknown"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Work in a fixed order. First decide whether statement I alone gives a unique answer. Then decide the same for statement II. Only if neither alone is enough, combine them. This order prevents the common error of using both statements when one suffices.",
+      "A unique answer is required. \"What is the value of x? I. 2x = 10\" has the unique answer 5, so I alone is sufficient. If a statement leaves more than one value, such as x² = 9, it is insufficient alone.",
+      "Many questions need two items of information. To find a car's speed you need both the distance and the time. Neither alone is enough, but both together are. Similarly, to find Ravi's age from \"he is 5 years older than Sita\" you also need Sita's age.",
+      "Yes/no questions: \"Is the number even? I. It is divisible by 4.\" Every multiple of 4 is even, so the answer is always yes, which is sufficient. If a statement leaves both yes and no possible, it is insufficient.",
+      "Beware of hidden possibilities. \"How many marbles are in the bag? I. 12 are red. II. Red marbles are three times the blue ones.\" Even together, there may be marbles of other colours, so the total cannot be found."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Do not solve fully",
+        "content": "You only need to decide whether the answer can be found. Avoid long calculations when a quick check of \"unique or not\" is enough."
+      },
+      {
+        "title": "Counter-example method",
+        "content": "To show insufficiency, give two different cases that both satisfy the statement but give different answers."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "One statement is enough",
+      "description": "Direct.",
+      "exampleSnippet": "Area of a square with side 6"
+    },
+    {
+      "typeName": "Both together needed",
+      "description": "Two pieces.",
+      "exampleSnippet": "Speed from distance and time"
+    },
+    {
+      "typeName": "Yes/no questions",
+      "description": "Always yes or always no.",
+      "exampleSnippet": "Is the number even?"
+    },
+    {
+      "typeName": "Even both not enough",
+      "description": "Missing information.",
+      "exampleSnippet": "Marbles of other colours"
+    },
+    {
+      "typeName": "Algebraic pairs",
+      "description": "Two equations.",
+      "exampleSnippet": "x + y = 10, x − y = 2"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-data-sufficiency-intro-1",
+      "title": "Both needed",
+      "question": "What is the speed of the car? I. The car travelled 120 km. II. The journey took 2 hours.",
+      "givenInfo": [
+        "I: distance",
+        "II: time"
+      ],
+      "conceptOrFormula": "Speed = distance ÷ time.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "I alone",
+          "explanation": "Distance alone does not give speed."
+        },
+        {
+          "stepNumber": 2,
+          "title": "II alone",
+          "explanation": "Time alone does not give speed."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Together",
+          "explanation": "Speed = 120 ÷ 2 = 60 km/h: sufficient."
+        }
+      ],
+      "finalAnswer": "Both statements together are needed",
+      "whyItWorks": "Two quantities are required.",
+      "commonTrap": "Choosing one alone.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-data-sufficiency-intro-2",
+      "title": "One statement enough",
+      "question": "What is the value of x? I. 2x = 10. II. x + y = 8.",
+      "givenInfo": [
+        "I: 2x = 10",
+        "II: x + y = 8"
+      ],
+      "conceptOrFormula": "Unique value.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "I alone",
+          "explanation": "x = 5: unique."
+        },
+        {
+          "stepNumber": 2,
+          "title": "II alone",
+          "explanation": "Two unknowns, one equation: not unique."
+        }
+      ],
+      "finalAnswer": "Statement I alone is sufficient",
+      "whyItWorks": "II alone leaves many pairs.",
+      "commonTrap": "Using both when one is enough.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-data-sufficiency-intro-3",
+      "title": "Even both not sufficient",
+      "question": "How many marbles are in the bag? I. 12 are red. II. Red marbles are three times the blue ones.",
+      "givenInfo": [
+        "I: 12 red",
+        "II: red = 3 × blue"
+      ],
+      "conceptOrFormula": "Hidden categories.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Together",
+          "explanation": "Red = 12 and blue = 4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Total",
+          "explanation": "Other colours may exist, so the total is unknown."
+        }
+      ],
+      "finalAnswer": "Even both together are not sufficient",
+      "whyItWorks": "The statements do not mention other colours.",
+      "commonTrap": "Answering 16.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Order and counter-example",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Solve every question fully.",
+      "shortcutMethod": "Test I, then II, then both. For each, look for two different cases that fit but give different answers."
+    },
+    "rulesForApplication": [
+      "A unique answer is needed.",
+      "Do not combine unless needed.",
+      "Yes/no: always yes or always no.",
+      "Watch for hidden categories."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Solving fully",
+      "whyItHappens": "Wasting time on calculations.",
+      "howToAvoid": "Only decide uniqueness."
+    },
+    {
+      "mistake": "Using both when one is enough",
+      "whyItHappens": "Missing that I alone works.",
+      "howToAvoid": "Test separately first."
+    },
+    {
+      "mistake": "Assuming missing facts",
+      "whyItHappens": "Adding information.",
+      "howToAvoid": "Use only what is given."
+    },
+    {
+      "mistake": "Ignoring ±",
+      "whyItHappens": "Taking x² = 9 as x = 3.",
+      "howToAvoid": "Two values = insufficient."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "If the verdict is \"I alone\", options saying \"II alone\" can be removed only after checking II.",
+    "questionSelectionAdvice": "Follow the I, II, both order.",
+    "recruiterInsight": "Counter-examples make decisions fast."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-data-sufficiency-intro-e1",
+        "question": "Question: What is the age of Ravi?\nI. Ravi is 5 years older than Sita.\nII. Sita is 20 years old.\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient",
+          "Both statements together are needed",
+          "Statement II alone is sufficient",
+          "Even both together are not sufficient"
+        ],
+        "correctAnswer": "Both statements together are needed",
+        "explanation": "Neither alone fixes Ravi's age. Together: 20 + 5 = 25.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-data-sufficiency-intro-e2",
+        "question": "Question: What is the area of the square?\nI. The side of the square is 6 cm.\nII. The square is in the first row of a chart.\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient",
+          "Statement II alone is sufficient",
+          "Both statements together are needed",
+          "Even both together are not sufficient"
+        ],
+        "correctAnswer": "Statement I alone is sufficient",
+        "explanation": "I gives 6² = 36 cm². II is irrelevant.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-data-sufficiency-intro-e3",
+        "question": "Question: What is the speed of the car?\nI. The car travelled 120 km.\nII. The journey took 2 hours.\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient",
+          "Statement II alone is sufficient",
+          "Even both together are not sufficient",
+          "Both statements together are needed"
+        ],
+        "correctAnswer": "Both statements together are needed",
+        "explanation": "Speed needs distance and time together: 120 ÷ 2 = 60 km/h.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-data-sufficiency-intro-i7",
+        "question": "Question: What is the value of x?\nI. 2x = 10.\nII. x + y = 8.\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient",
+          "Statement II alone is sufficient",
+          "Both statements together are needed",
+          "Even both together are not sufficient"
+        ],
+        "correctAnswer": "Statement I alone is sufficient",
+        "explanation": "I gives x = 5. II alone has two unknowns.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-data-sufficiency-intro-i8",
+        "question": "Question: What is the perimeter of the rectangle?\nI. The length is 8 cm.\nII. The area is 48 cm².\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient",
+          "Statement II alone is sufficient",
+          "Even both together are not sufficient",
+          "Both statements together are needed"
+        ],
+        "correctAnswer": "Both statements together are needed",
+        "explanation": "Together: breadth = 6, perimeter = 28. Neither alone is enough.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-data-sufficiency-intro-i9",
+        "question": "Question: What is the profit percentage?\nI. The cost price is ₹200.\nII. The selling price is ₹250.\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient",
+          "Statement II alone is sufficient",
+          "Even both together are not sufficient",
+          "Both statements together are needed"
+        ],
+        "correctAnswer": "Both statements together are needed",
+        "explanation": "Both are needed: (250 − 200)/200 = 25%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-data-sufficiency-intro-a15",
+        "question": "Question: What is the area of the circle?\nI. The circumference is 44 cm.\nII. The radius is greater than 5 cm.\nWhich of the following is correct?",
+        "options": [
+          "Statement II alone is sufficient",
+          "Both statements together are needed",
+          "Statement I alone is sufficient",
+          "Even both together are not sufficient"
+        ],
+        "correctAnswer": "Statement I alone is sufficient",
+        "explanation": "I gives r = 7 and the area 154 cm². II alone does not fix r.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-data-sufficiency-intro-a16",
+        "question": "Question: Is a greater than b?\nI. a² is greater than b².\nII. a and b are positive.\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient",
+          "Both statements together are needed",
+          "Statement II alone is sufficient",
+          "Even both together are not sufficient"
+        ],
+        "correctAnswer": "Both statements together are needed",
+        "explanation": "I alone allows negative values; II alone says nothing. Together a > b.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-data-sufficiency-intro-p17",
+        "question": "Question: What is the two-digit number?\nI. The sum of its digits is 9.\nII. It is an odd multiple of 5.\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient",
+          "Both statements together are needed",
+          "Statement II alone is sufficient",
+          "Even both together are not sufficient"
+        ],
+        "correctAnswer": "Both statements together are needed",
+        "explanation": "Together: 45 is the only two-digit odd multiple of 5 with digit sum 9.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-data-sufficiency-intro-p18",
+        "question": "Question: What is the speed of the boat in still water?\nI. The downstream speed is 12 km/h.\nII. The stream speed is 2 km/h.\nWhich of the following is correct?",
+        "options": [
+          "Both statements together are needed",
+          "Statement I alone is sufficient",
+          "Statement II alone is sufficient",
+          "Even both together are not sufficient"
+        ],
+        "correctAnswer": "Both statements together are needed",
+        "explanation": "Together: 12 − 2 = 10 km/h.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-data-sufficiency-intro-p19",
+        "question": "Question: How many marbles are in the bag?\nI. 12 marbles are red.\nII. Red marbles are three times the blue marbles.\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient",
+          "Statement II alone is sufficient",
+          "Both statements together are needed",
+          "Even both together are not sufficient"
+        ],
+        "correctAnswer": "Even both together are not sufficient",
+        "explanation": "Other colours may exist, so the total cannot be found even with both.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Unique answer.",
+      "Order: I, II, both.",
+      "Counter-examples.",
+      "Yes/no logic.",
+      "Hidden categories."
+    ],
+    "quickFormulas": [
+      "Unique ⇒ sufficient"
+    ]
+  },
+  "keyTakeaways": [
+    "Decide, do not solve.",
+    "Test separately.",
+    "Unique only.",
+    "Hidden cases."
+  ],
+  "selfCheckQuestions": [
+    "Can I test one statement at a time?",
+    "Can I give a counter-example?",
+    "Can I spot hidden categories?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Data Sufficiency topic area; examples are original."
+    }
+  ]
+}

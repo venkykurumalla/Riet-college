@@ -42,7 +42,7 @@ const chapter = {
     'Be strict about outside information. "Rain has been heavy this year" supports "there was rain this year", but not "crop yield is higher". Effects, causes and opinions that are not in the statement cannot be concluded.',
     'Quantity words matter. "Few people own a car" means most do not own one, so "most people do not own a car" follows, while "many own cars" does not. "Some students passed with distinction" means at least one did.',
     '"Only" restricts. "Only graduates are eligible" means a non-graduate cannot apply, but not that every graduate will get the job. "Neither Ravi nor Kiran attended" means both were absent, so "Ravi did not attend" follows.',
-    'For calculated statements, use arithmetic. If 90% of candidates passed, then 10% did not. If the price rose 20% and fell 20%, the final price is 0.96 of the original, so it is less than the original.'
+    'For calculated statements, use arithmetic. If 90 out of every 100 candidates passed, then 10 out of every 100 did not. If the price rose 20% and fell 20%, the final price is 0.96 of the original, so it is less than the original.'
   ],
   deep: [
     ['Probability words', 'A conclusion that says "may" or "is likely" is usually too weak to be marked as following unless the statement itself says so. Look at whether it is a necessity.'],

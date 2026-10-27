@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-basic-seating",
+  "topicTitle": "Basic Seating Arrangement",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Persons A, B, C, D, E and F sit around a circular table facing the centre, in this order clockwise: A, B, C, D, E, F.\n\nWho sits opposite A?",
+      "options": [
+        "B",
+        "D",
+        "C",
+        "E"
+      ],
+      "answerIndex": 1,
+      "explanation": "In six seats, the opposite is three seats away: A → B → C → D. So D."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Persons A, B, C, D, E and F sit around a circular table facing the centre, in this order clockwise: A, B, C, D, E, F.\n\nWho sits at the immediate left of B?",
+      "options": [
+        "C",
+        "A",
+        "D",
+        "E"
+      ],
+      "answerIndex": 0,
+      "explanation": "Facing the centre, left is the next person clockwise: C."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Persons A, B, C, D, E and F sit around a circular table facing the centre, in this order clockwise: A, B, C, D, E, F.\n\nWho sits at the immediate right of B?",
+      "options": [
+        "C",
+        "D",
+        "E",
+        "A"
+      ],
+      "answerIndex": 3,
+      "explanation": "Right is the next person anticlockwise: A."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Persons A, B, C, D, E and F sit around a circular table facing the centre, in this order clockwise: A, B, C, D, E, F.\n\nWho sits second to the left of E?",
+      "options": [
+        "F",
+        "C",
+        "A",
+        "D"
+      ],
+      "answerIndex": 2,
+      "explanation": "Going clockwise from E: F (1st), A (2nd)."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Persons A, B, C, D, E and F sit around a circular table facing the centre, in this order clockwise: A, B, C, D, E, F.\n\nHow many persons sit between A and D (clockwise from A)?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "Between A and D going clockwise are B and C: 2 persons."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Persons A, B, C, D, E and F sit around a circular table facing the centre, in this order clockwise: A, B, C, D, E, F.\n\nWho sits between C and E?",
+      "options": [
+        "B",
+        "D",
+        "F",
+        "A"
+      ],
+      "answerIndex": 1,
+      "explanation": "D sits between C and E."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Persons K, L, M, N, O, P, Q and R sit around a circular table facing the centre, in this order clockwise: K, L, M, N, O, P, Q, R.\n\nWho sits opposite K?",
+      "options": [
+        "O",
+        "L",
+        "M",
+        "N"
+      ],
+      "answerIndex": 0,
+      "explanation": "In eight seats, the opposite is four seats away: K → L → M → N → O. So O."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Persons K, L, M, N, O, P, Q and R sit around a circular table facing the centre, in this order clockwise: K, L, M, N, O, P, Q, R.\n\nWho is third to the right of N?",
+      "options": [
+        "L",
+        "M",
+        "O",
+        "K"
+      ],
+      "answerIndex": 3,
+      "explanation": "Right is anticlockwise: N → M → L → K. So K."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Persons K, L, M, N, O, P, Q and R sit around a circular table facing the centre, in this order clockwise: K, L, M, N, O, P, Q, R.\n\nWho is second to the left of Q?",
+      "options": [
+        "L",
+        "M",
+        "R",
+        "K"
+      ],
+      "answerIndex": 3,
+      "explanation": "Left is clockwise: Q → R → K. So K."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Persons K, L, M, N, O, P, Q and R sit around a circular table facing the centre, in this order clockwise: K, L, M, N, O, P, Q, R.\n\nWho sits at the immediate right of the person opposite L?",
+      "options": [
+        "K",
+        "M",
+        "O",
+        "N"
+      ],
+      "answerIndex": 2,
+      "explanation": "Opposite L is P. The immediate right of P (anticlockwise) is O."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Persons K, L, M, N, O, P, Q and R sit around a circular table facing the centre, in this order clockwise: K, L, M, N, O, P, Q, R.\n\nHow many persons sit between M and Q (clockwise from M)?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "Between M and Q clockwise: N, O, P = 3 persons."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Persons K, L, M, N, O, P, Q and R sit around a circular table facing outward, in this order clockwise: K, L, M, N, O, P, Q, R.\n\nWho sits at the immediate left of M?",
+      "options": [
+        "L",
+        "N",
+        "K",
+        "O"
+      ],
+      "answerIndex": 0,
+      "explanation": "Facing outward, left is anticlockwise. M's anticlockwise neighbour is L."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Persons K, L, M, N, O, P, Q and R sit around a circular table facing the centre, in this order clockwise: K, L, M, N, O, P, Q, R.\n\nWho sits at the immediate left of R?",
+      "options": [
+        "K",
+        "L",
+        "M",
+        "Q"
+      ],
+      "answerIndex": 0,
+      "explanation": "Left is clockwise. After R comes K."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Persons K, L, M, N, O, P, Q and R sit around a circular table facing the centre, in this order clockwise: K, L, M, N, O, P, Q, R.\n\nWho sits between P and R?",
+      "options": [
+        "O",
+        "K",
+        "N",
+        "Q"
+      ],
+      "answerIndex": 3,
+      "explanation": "Q sits between P and R."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Five persons A, B, C, D and E sit around a circular table facing the centre. A is second to the right of B. C is the immediate left of B. D is not adjacent to C.\n\nWho sits at the immediate right of A?",
+      "options": [
+        "B",
+        "C",
+        "E",
+        "D"
+      ],
+      "answerIndex": 2,
+      "explanation": "The clockwise order is A, D, B, C, E. The immediate right of A (anticlockwise) is E."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Five persons A, B, C, D and E sit around a circular table facing the centre. A is second to the right of B. C is the immediate left of B. D is not adjacent to C.\n\nWho sits between A and B?",
+      "options": [
+        "C",
+        "D",
+        "E",
+        "Nobody"
+      ],
+      "answerIndex": 1,
+      "explanation": "In the order A, D, B, C, E, D sits between A and B."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Six persons A to F sit around a circular table facing the centre. A sits opposite D. B is the immediate right of A. E sits opposite B. F is not adjacent to A.\n\nWho sits at the immediate left of E?",
+      "options": [
+        "A",
+        "D",
+        "B",
+        "F"
+      ],
+      "answerIndex": 1,
+      "explanation": "The clockwise order is A, C, E, D, F, B. The immediate left of E (clockwise) is D."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Six persons A to F sit around a circular table facing the centre. A sits opposite D. B is the immediate right of A. E sits opposite B. F is not adjacent to A.\n\nBetween which two persons does F sit?",
+      "options": [
+        "D and B",
+        "A and C",
+        "E and D",
+        "C and B"
+      ],
+      "answerIndex": 0,
+      "explanation": "In the order A, C, E, D, F, B, F is between D and B."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Six persons A to F sit around a circular table facing the centre. A sits opposite D. B is the immediate right of A. E sits opposite B. F is not adjacent to A.\n\nWho sits opposite C?",
+      "options": [
+        "A",
+        "B",
+        "D",
+        "F"
+      ],
+      "answerIndex": 3,
+      "explanation": "Opposite C (three seats away) is F."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Six persons A to F sit around a circular table facing the centre. A sits opposite D. B is the immediate right of A. E sits opposite B. F is not adjacent to A.\n\nWho sits at the immediate right of A?",
+      "options": [
+        "C",
+        "D",
+        "B",
+        "E"
+      ],
+      "answerIndex": 2,
+      "explanation": "B was stated to sit at the immediate right of A."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/seating-arrangement/"
+}
