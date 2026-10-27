@@ -86,7 +86,7 @@ const S6 = syl(['lions', 'animals', 'hunters', 'stones'], [stmt.all(0, 1), stmt.
 const ch36 = C({
   n: 36, id: 'y3-lr-adv-syllogisms', cat: 'lr', title: 'Advanced Syllogisms — Three-Statement Deduction',
   tag: 'Three statements and four classes: building chains, Venn diagrams and "definitely follows" tests',
-  url: 'https://www.indiabix.com/logical-reasoning/syllogism/',
+  url: 'https://www.indiabix.com/verbal-reasoning/syllogism/',
   over: 'A syllogism asks which conclusions must be true given some statements about classes of things. With three statements and four classes, mental guessing fails, so the method is the Venn-diagram test: draw every diagram that fits the statements, and accept a conclusion only if it holds in all of them. The convention used in this course is that every named class has at least one member.',
   place: 'Three-statement syllogisms with two conclusions are a standard logical-reasoning item in company tests.',
   real: 'Checking whether a policy follows from several rules, or whether a claim is entailed by a set of facts, uses the same reasoning.',
