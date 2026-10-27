@@ -1,0 +1,443 @@
+{
+  "id": "y1-lr-analogy",
+  "yearId": 1,
+  "category": "Logical Reasoning",
+  "topicNumber": 15,
+  "title": "Analogy",
+  "tagline": "Year 1 Foundation — Finding the relationship in one pair and applying it to another",
+  "estimatedMinutes": 40,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "An analogy question gives a pair of related items and asks you to find another pair with the same relationship. The standard form is A : B :: C : ?, read as \"A is to B as C is to ?\". The skill is to state the relationship between A and B precisely in one sentence, and then apply that exact sentence to C. Analogies can be word-based, number-based or letter-based.",
+    "placementRelevance": "Analogy questions are commonly asked in the reasoning and verbal sections of company aptitude rounds. They are short, but the answer options are often designed to tempt you with a loosely related word, so precision matters.",
+    "realWorldContext": "Choosing the right tool for a job, matching a profession with its workplace and recognising that \"kilometre is to distance as kilogram is to weight\" are everyday uses of analogical thinking."
+  },
+  "learningObjectives": [
+    "State the relationship in a pair in one clear sentence",
+    "Recognise the common word-analogy types: worker-tool, worker-product, part-whole, place, young-one, sequence, degree and function",
+    "Solve number analogies based on squares, cubes and products",
+    "Solve letter analogies based on position shifts",
+    "Avoid the trap of a loosely related but wrong option"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Number Series",
+      "Letter Series",
+      "Squares and cubes"
+    ],
+    "quickRefresher": "Know the squares up to 20² and the cubes up to 10³. For letters, use A = 1, B = 2, … Z = 26 and look at the shift in position."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Analogy: a similarity of relationship between two pairs of items.",
+      "Relationship sentence: a short sentence that describes how the first item of a pair relates to the second, such as \"a doctor works in a hospital\".",
+      "Worker and workplace: Doctor : Hospital, Teacher : School, Chef : Kitchen.",
+      "Worker and tool or product: Carpenter : Furniture, Cobbler : Shoes, Pen : Write.",
+      "Part and whole, young one and adult, and degree (hot : scalding) are other common types of relationship."
+    ],
+    "theoreticalIntuition": "The pair in the question defines a rule. The right answer is the option that follows the same rule in the same direction. Reversing the direction (for example Teacher : School versus School : Teacher) breaks the analogy even if the two words are related.",
+    "visualOrMentalModel": "Fill in the blank sentence: \"A is the ___ of B.\" Then check the sentence for the second pair, keeping the order. If it fits naturally, the option is correct; if you have to stretch the sentence, try another option."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Relationship sentence",
+      "formula": "A : B  →  \"A ___ B\"",
+      "description": "Write the exact sentence connecting A and B.",
+      "whenToUse": "Every word analogy.",
+      "simpleExample": "Bird : Nest → \"a bird lives in a nest\"; so Bee : Hive"
+    },
+    {
+      "title": "Worker – tool / product",
+      "formula": "Worker : product (or tool)",
+      "description": "The first item makes or uses the second.",
+      "whenToUse": "Cobbler : Shoes, Carpenter : Furniture.",
+      "simpleExample": "Writer : Pen, Painter : Brush"
+    },
+    {
+      "title": "Number – square / cube",
+      "formula": "n : n² or n : n³",
+      "description": "The second number is a power of the first.",
+      "whenToUse": "Number analogies such as 8 : 64.",
+      "simpleExample": "9 : 81, 4 : 64 (cube)"
+    },
+    {
+      "title": "Number – product form",
+      "formula": "n : n(n + 1)",
+      "description": "The second number is n multiplied by the next number.",
+      "whenToUse": "Pairs like 5 : 30.",
+      "simpleExample": "7 : 56"
+    },
+    {
+      "title": "Letter shift",
+      "formula": "Each letter moves by a fixed number of positions",
+      "description": "Compare each letter of the first word with the corresponding letter of the second.",
+      "whenToUse": "CAT : DBU (each +1).",
+      "simpleExample": "DOG : EPH"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Step one is to find the relationship in the first pair. Doctor and Hospital: a doctor works in a hospital. Step two is to apply the same relationship to the third word: a teacher works in a school, so the answer is School and not Library or Market.",
+      "Watch the order. In \"Cow : Calf :: Dog : ?\" the pair goes from the adult to its young one, so the answer is Puppy. An option such as \"Wolf\" is related to Dog but does not follow the adult-to-young relation.",
+      "Number analogies use arithmetic rules. 8 : 64 follows the rule \"square of the first\", so 9 : 81. If the first pair is 3 : 27, the rule is \"cube\", so 4 : 64. When a number is not a perfect square or cube, test the n(n + 1) rule: 5 : 30 gives 7 : 56.",
+      "Letter analogies work position by position. CAT → DBU: C→D, A→B, T→U, each letter moves one step forward. Apply the same shift to DOG to get EPH. For pair analogies like ACE : FHJ, compute the shift (A to F is +5) and apply it to LNP to get QSU."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Degree and intensity analogies",
+        "content": "Some pairs show increasing intensity, such as Warm : Hot or Pleased : Delighted. The answer must carry the same increase in strength in the same direction."
+      },
+      {
+        "title": "Function analogies",
+        "content": "Pairs like Thermometer : Temperature or Barometer : Pressure link an instrument to what it measures. If you know the instrument, name its function in one word and test the options for that word."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Worker and workplace",
+      "description": "Profession and where it works.",
+      "exampleSnippet": "Doctor : Hospital :: Teacher : ?"
+    },
+    {
+      "typeName": "Worker and product",
+      "description": "Profession and what it produces.",
+      "exampleSnippet": "Cobbler : Shoes :: Carpenter : ?"
+    },
+    {
+      "typeName": "Tool and function",
+      "description": "Instrument and what it does or measures.",
+      "exampleSnippet": "Pen : Write :: Knife : ?"
+    },
+    {
+      "typeName": "Number analogy",
+      "description": "Rule between numbers.",
+      "exampleSnippet": "8 : 64 :: 9 : ?"
+    },
+    {
+      "typeName": "Letter analogy",
+      "description": "Rule between letters.",
+      "exampleSnippet": "CAT : DBU :: DOG : ?"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-lr-analogy-1",
+      "title": "Worker and workplace",
+      "question": "Doctor : Hospital :: Teacher : ?  (Library, School, Market, Home)",
+      "givenInfo": [
+        "First pair: Doctor : Hospital",
+        "Options: Library, School, Market, Home"
+      ],
+      "conceptOrFormula": "State the relationship as a sentence and apply it to the third word.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "State the relationship",
+          "explanation": "A doctor works in a hospital: worker : workplace."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply it",
+          "explanation": "A teacher works in a ___."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Choose the option",
+          "explanation": "School is the workplace of a teacher."
+        }
+      ],
+      "finalAnswer": "School",
+      "whyItWorks": "The same worker-to-workplace relation holds.",
+      "commonTrap": "Choosing Library, which a teacher may use, but is not their workplace.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-lr-analogy-2",
+      "title": "Number analogy",
+      "question": "5 : 30 :: 7 : ?  (49, 54, 56, 63)",
+      "givenInfo": [
+        "First pair: 5 : 30"
+      ],
+      "conceptOrFormula": "Test squares, cubes and n(n + 1) in turn.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Test the square",
+          "explanation": "5² = 25, not 30."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Test n(n + 1)",
+          "explanation": "5 × 6 = 30. This works."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Apply to 7",
+          "explanation": "7 × 8 = 56."
+        }
+      ],
+      "finalAnswer": "56",
+      "whyItWorks": "The second number is the product of the first number and the next integer.",
+      "commonTrap": "Choosing 49 by assuming \"square\" after seeing a small number.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-lr-analogy-3",
+      "title": "Letter analogy",
+      "question": "ACE : FHJ :: LNP : ?",
+      "givenInfo": [
+        "First pair: ACE : FHJ"
+      ],
+      "conceptOrFormula": "Compare the corresponding letters of the two groups.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the shift",
+          "explanation": "A (1) → F (6) is +5, C (3) → H (8) is +5, E (5) → J (10) is +5."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply the shift to LNP",
+          "explanation": "L (12) → Q (17), N (14) → S (19), P (16) → U (21)."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Write the group",
+          "explanation": "The group is QSU."
+        }
+      ],
+      "finalAnswer": "QSU",
+      "whyItWorks": "Each letter moves five positions forward in the alphabet.",
+      "commonTrap": "Applying the shift to the first letter only.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Sentence test",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Look at each option and decide whether it \"feels\" right.",
+      "shortcutMethod": "Write the relationship sentence for the first pair and test it on each option in turn. Only one option makes a sentence that is as accurate as the first."
+    },
+    "rulesForApplication": [
+      "Keep the order of the pair: A : B must match C : D, not D : C.",
+      "The relationship must be as specific as in the first pair.",
+      "For numbers, try square, cube and n(n + 1) before anything else.",
+      "For letters, compare positions letter by letter."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reversing the order of the pair",
+      "whyItHappens": "Both words are related, so either order seems fine.",
+      "howToAvoid": "Write the sentence in order and check it against the option in the same order."
+    },
+    {
+      "mistake": "Choosing a loosely related word",
+      "whyItHappens": "The word is associated but the relationship is different.",
+      "howToAvoid": "The relationship must match exactly, not just be \"somehow connected\"."
+    },
+    {
+      "mistake": "Over-reading a number pair",
+      "whyItHappens": "Looking for a complex rule when a square or cube fits.",
+      "howToAvoid": "Test squares, cubes and n(n + 1) first."
+    },
+    {
+      "mistake": "Applying a letter shift to only one letter",
+      "whyItHappens": "Seeing the first letter move and assuming the rest do.",
+      "howToAvoid": "Check every letter of the first pair."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Eliminate options that have no relationship with the third word at all; then apply the sentence to the rest.",
+    "questionSelectionAdvice": "Analogy questions should take under 30 seconds. Skip if the relationship is not clear within 15 seconds and return later.",
+    "recruiterInsight": "Precision of the relationship sentence is what separates a correct answer from a tempting wrong one."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-lr-analogy-e1",
+        "question": "Doctor : Hospital :: Teacher : ?",
+        "options": [
+          "Library",
+          "School",
+          "Market",
+          "Home"
+        ],
+        "correctAnswer": "School",
+        "explanation": "A doctor works in a hospital. In the same way, a teacher works in a school.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-analogy-e2",
+        "question": "Bird : Nest :: Bee : ?",
+        "options": [
+          "Hive",
+          "Honey",
+          "Flower",
+          "Cage"
+        ],
+        "correctAnswer": "Hive",
+        "explanation": "A bird lives in a nest, and a bee lives in a hive.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-analogy-e3",
+        "question": "Pen : Write :: Knife : ?",
+        "options": [
+          "Sharp",
+          "Kitchen",
+          "Steel",
+          "Cut"
+        ],
+        "correctAnswer": "Cut",
+        "explanation": "A pen is used to write. A knife is used to cut.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-lr-analogy-i7",
+        "question": "Cobbler : Shoes :: Carpenter : ?",
+        "options": [
+          "Furniture",
+          "Wood",
+          "Hammer",
+          "Nails"
+        ],
+        "correctAnswer": "Furniture",
+        "explanation": "A cobbler makes or repairs shoes. A carpenter makes furniture.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-analogy-i8",
+        "question": "Thermometer : Temperature :: Barometer : ?",
+        "options": [
+          "Rain",
+          "Height",
+          "Speed",
+          "Pressure"
+        ],
+        "correctAnswer": "Pressure",
+        "explanation": "A thermometer measures temperature. A barometer measures atmospheric pressure.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-analogy-i9",
+        "question": "Lion : Den :: Horse : ?",
+        "options": [
+          "Field",
+          "Nest",
+          "Hole",
+          "Stable"
+        ],
+        "correctAnswer": "Stable",
+        "explanation": "A lion lives in a den. A horse is kept in a stable.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-lr-analogy-a15",
+        "question": "5 : 30 :: 7 : ?",
+        "options": [
+          "49",
+          "54",
+          "56",
+          "63"
+        ],
+        "correctAnswer": "56",
+        "explanation": "The rule is n × (n + 1): 5 × 6 = 30. So 7 × 8 = 56.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-analogy-a16",
+        "question": "ACE : FHJ :: LNP : ?",
+        "options": [
+          "QRS",
+          "QSU",
+          "PRT",
+          "QSV"
+        ],
+        "correctAnswer": "QSU",
+        "explanation": "Each letter moves forward by 5: A→F, C→H, E→J. So L→Q, N→S, P→U, giving QSU.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-lr-analogy-p17",
+        "question": "Chapter : Book :: Verse : ?",
+        "options": [
+          "Story",
+          "Poem",
+          "Novel",
+          "Letter"
+        ],
+        "correctAnswer": "Poem",
+        "explanation": "A chapter is a part of a book. A verse is a part of a poem.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-analogy-p18",
+        "question": "Metre : Length :: Kilogram : ?",
+        "options": [
+          "Mass",
+          "Volume",
+          "Time",
+          "Speed"
+        ],
+        "correctAnswer": "Mass",
+        "explanation": "The metre is a unit of length, and the kilogram is a unit of mass.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-analogy-p19",
+        "question": "Seed : Plant :: Egg : ?",
+        "options": [
+          "Nest",
+          "Shell",
+          "Yolk",
+          "Bird"
+        ],
+        "correctAnswer": "Bird",
+        "explanation": "A seed grows into a plant. An egg hatches into a bird.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "A : B :: C : ? means the same relationship, in the same order.",
+      "State the relationship as a sentence.",
+      "Number rules: square, cube, n(n + 1).",
+      "Letter rules: position shifts, letter by letter.",
+      "Do not choose a word that is only loosely related."
+    ],
+    "quickFormulas": [
+      "n : n²",
+      "n : n³",
+      "n : n(n + 1)",
+      "Letter shift = difference in positions"
+    ]
+  },
+  "keyTakeaways": [
+    "Define the relationship before looking at the options.",
+    "Order matters.",
+    "Use arithmetic for number analogies and position shifts for letter analogies.",
+    "Be specific, not loosely associative."
+  ],
+  "selfCheckQuestions": [
+    "Can I solve Cobbler : Shoes :: Carpenter : ?",
+    "Can I find the missing number in 3 : 27 :: 4 : ?",
+    "Can I continue CAT : DBU :: DOG : ?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The Analogy topic area; examples in this chapter are original."
+    }
+  ]
+}

@@ -45,7 +45,7 @@ for (const f of fs.readdirSync(path.join(ROOT, 'src/data/topicQuizzes')).filter(
     seenQ.add(q.question);
     const correct = q.options[q.answerIndex];
     if (!norm(q.explanation).includes(norm(correct))) warn(`${tag}: explanation does not state the answer "${correct}"`);
-    if (/^(Option )?[A-D]$/.test(correct)) err(`${tag}: placeholder option`);
+    if (q.options.every(o => /^(Option )?[A-D]$/.test(o))) err(`${tag}: placeholder option`);
   });
   if (dc.easy < 4 || dc.medium < 5 || dc.placement < 4) warn(`${id}: mix easy/medium/placement = ${dc.easy}/${dc.medium}/${dc.placement}`);
 }

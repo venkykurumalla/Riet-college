@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-lr-odd-one-out",
+  "topicTitle": "Odd One Out (Mixed)",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Find the odd one out: 2, 4, 6, 9, 10",
+      "options": [
+        "2",
+        "9",
+        "6",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "All numbers except 9 are even. 9 is odd."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Find the odd one out: 16, 25, 36, 40, 49",
+      "options": [
+        "40",
+        "16",
+        "36",
+        "49"
+      ],
+      "answerIndex": 0,
+      "explanation": "16, 25, 36 and 49 are perfect squares. 40 is not."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Find the odd one out: 11, 13, 17, 21, 23",
+      "options": [
+        "11",
+        "17",
+        "23",
+        "21"
+      ],
+      "answerIndex": 3,
+      "explanation": "11, 13, 17 and 23 are prime. 21 = 3 × 7 is composite."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Find the odd one out: 8, 27, 64, 100, 125",
+      "options": [
+        "8",
+        "64",
+        "100",
+        "125"
+      ],
+      "answerIndex": 2,
+      "explanation": "8 = 2³, 27 = 3³, 64 = 4³ and 125 = 5³ are cubes. 100 is not a perfect cube."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Find the odd one out: A, E, I, O, K",
+      "options": [
+        "A",
+        "E",
+        "K",
+        "O"
+      ],
+      "answerIndex": 2,
+      "explanation": "A, E, I and O are vowels. K is a consonant."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Find the odd one out: 12, 18, 24, 30, 35",
+      "options": [
+        "12",
+        "35",
+        "24",
+        "30"
+      ],
+      "answerIndex": 1,
+      "explanation": "12, 18, 24 and 30 are multiples of 6. 35 is not."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Find the odd one out: ABC, DEF, GHI, JKM",
+      "options": [
+        "JKM",
+        "ABC",
+        "DEF",
+        "GHI"
+      ],
+      "answerIndex": 0,
+      "explanation": "The groups are consecutive letters in order. JKL would fit, but JKM skips L."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Find the odd one out: BDF, HJL, NPR, TVW",
+      "options": [
+        "BDF",
+        "HJL",
+        "NPR",
+        "TVW"
+      ],
+      "answerIndex": 3,
+      "explanation": "Inside each group the letters are two places apart. TVW has gaps 2 and 1, so it breaks the pattern."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Find the odd one out: 121, 144, 169, 200",
+      "options": [
+        "121",
+        "144",
+        "169",
+        "200"
+      ],
+      "answerIndex": 3,
+      "explanation": "121 = 11², 144 = 12² and 169 = 13² are squares. 200 is not."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Find the odd one out: 3-4-5, 5-12-13, 8-15-17, 6-8-11",
+      "options": [
+        "3-4-5",
+        "5-12-13",
+        "6-8-11",
+        "8-15-17"
+      ],
+      "answerIndex": 2,
+      "explanation": "The first three satisfy a² + b² = c² (9 + 16 = 25, 25 + 144 = 169, 64 + 225 = 289). For 6-8-11, 36 + 64 = 100, which is not 121."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Find the odd one out: 2, 3, 5, 7, 9",
+      "options": [
+        "2",
+        "9",
+        "3",
+        "7"
+      ],
+      "answerIndex": 1,
+      "explanation": "2, 3, 5 and 7 are prime. 9 = 3 × 3 is not."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Find the odd one out: AZ, BY, CX, DV",
+      "options": [
+        "DV",
+        "AZ",
+        "BY",
+        "CX"
+      ],
+      "answerIndex": 0,
+      "explanation": "The pairs are letters and their opposites (positions add to 27). D pairs with W, so DV is wrong."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Find the odd one out: 14, 21, 28, 36, 42",
+      "options": [
+        "36",
+        "14",
+        "28",
+        "42"
+      ],
+      "answerIndex": 0,
+      "explanation": "14, 21, 28 and 42 are multiples of 7. 36 is not."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Find the odd one out: CF, FI, IL, LO, OS",
+      "options": [
+        "CF",
+        "FI",
+        "LO",
+        "OS"
+      ],
+      "answerIndex": 3,
+      "explanation": "Each letter moves forward by 3 and the next group starts where the previous ended: CF, FI, IL, LO, OR. OS breaks the pattern."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Find the odd one out: 1, 4, 9, 16, 24, 36",
+      "options": [
+        "16",
+        "36",
+        "24",
+        "9"
+      ],
+      "answerIndex": 2,
+      "explanation": "1, 4, 9, 16 and 36 are squares of 1, 2, 3, 4 and 6. 24 is not a perfect square."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Find the odd one out: 17, 19, 23, 27, 29",
+      "options": [
+        "17",
+        "27",
+        "19",
+        "29"
+      ],
+      "answerIndex": 1,
+      "explanation": "17, 19, 23 and 29 are primes. 27 = 3³ is not."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Find the odd one out: AC, EG, IK, MO, PR",
+      "options": [
+        "AC",
+        "PR",
+        "IK",
+        "MO"
+      ],
+      "answerIndex": 1,
+      "explanation": "Each pair is two letters apart, and each pair starts four letters after the previous one: A, E, I, M, Q. So QS would fit, not PR."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Find the odd one out: ACE, GIK, MOQ, SUX",
+      "options": [
+        "SUX",
+        "ACE",
+        "GIK",
+        "MOQ"
+      ],
+      "answerIndex": 0,
+      "explanation": "Each group has a gap of 2 between its letters and the first letters move by 6 (A, G, M, S). SUW would fit; SUX has gaps 2 and 3."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Find the odd one out: 22, 33, 44, 55, 66, 78",
+      "options": [
+        "22",
+        "55",
+        "66",
+        "78"
+      ],
+      "answerIndex": 3,
+      "explanation": "All numbers except 78 are multiples of 11. 78 = 6 × 13."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Find the odd one out: 1331, 1728, 2197, 2744, 3000",
+      "options": [
+        "1331",
+        "2197",
+        "3000",
+        "2744"
+      ],
+      "answerIndex": 2,
+      "explanation": "1331 = 11³, 1728 = 12³, 2197 = 13³ and 2744 = 14³. 3000 is not a perfect cube (14³ = 2744 and 15³ = 3375)."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/odd-man-out/"
+}

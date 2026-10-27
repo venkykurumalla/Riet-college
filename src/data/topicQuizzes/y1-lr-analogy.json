@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-lr-analogy",
+  "topicTitle": "Analogy",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Doctor : Hospital :: Teacher : ?",
+      "options": [
+        "Library",
+        "School",
+        "Market",
+        "Home"
+      ],
+      "answerIndex": 1,
+      "explanation": "A doctor works in a hospital. In the same way, a teacher works in a school."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Bird : Nest :: Bee : ?",
+      "options": [
+        "Hive",
+        "Honey",
+        "Flower",
+        "Cage"
+      ],
+      "answerIndex": 0,
+      "explanation": "A bird lives in a nest, and a bee lives in a hive."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Pen : Write :: Knife : ?",
+      "options": [
+        "Sharp",
+        "Kitchen",
+        "Steel",
+        "Cut"
+      ],
+      "answerIndex": 3,
+      "explanation": "A pen is used to write. A knife is used to cut."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Head : Cap :: Foot : ?",
+      "options": [
+        "Hat",
+        "Belt",
+        "Shoe",
+        "Shirt"
+      ],
+      "answerIndex": 2,
+      "explanation": "A cap is worn on the head. A shoe is worn on the foot."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Day : Night :: Hot : ?",
+      "options": [
+        "Warm",
+        "Sun",
+        "Cold",
+        "Summer"
+      ],
+      "answerIndex": 2,
+      "explanation": "Day and night are opposites. The opposite of hot is cold."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Cow : Calf :: Dog : ?",
+      "options": [
+        "Wolf",
+        "Puppy",
+        "Cub",
+        "Kitten"
+      ],
+      "answerIndex": 1,
+      "explanation": "A calf is the young one of a cow. A puppy is the young one of a dog."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Cobbler : Shoes :: Carpenter : ?",
+      "options": [
+        "Furniture",
+        "Wood",
+        "Hammer",
+        "Nails"
+      ],
+      "answerIndex": 0,
+      "explanation": "A cobbler makes or repairs shoes. A carpenter makes furniture."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Thermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Rain",
+        "Height",
+        "Speed",
+        "Pressure"
+      ],
+      "answerIndex": 3,
+      "explanation": "A thermometer measures temperature. A barometer measures atmospheric pressure."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Lion : Den :: Horse : ?",
+      "options": [
+        "Field",
+        "Nest",
+        "Hole",
+        "Stable"
+      ],
+      "answerIndex": 3,
+      "explanation": "A lion lives in a den. A horse is kept in a stable."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "8 : 64 :: 9 : ?",
+      "options": [
+        "72",
+        "90",
+        "81",
+        "99"
+      ],
+      "answerIndex": 2,
+      "explanation": "The second number is the square of the first: 8² = 64, so 9² = 81."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "3 : 27 :: 4 : ?",
+      "options": [
+        "48",
+        "64",
+        "16",
+        "81"
+      ],
+      "answerIndex": 1,
+      "explanation": "The second number is the cube of the first: 3³ = 27, so 4³ = 64."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Ear : Hear :: Eye : ?",
+      "options": [
+        "See",
+        "Look",
+        "Glasses",
+        "Vision"
+      ],
+      "answerIndex": 0,
+      "explanation": "The ear is used to hear. The eye is used to see."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "CAT : DBU :: DOG : ?",
+      "options": [
+        "EPH",
+        "EOH",
+        "DPH",
+        "EPG"
+      ],
+      "answerIndex": 0,
+      "explanation": "Each letter moves one step forward: C→D, A→B, T→U. So D→E, O→P, G→H, giving EPH."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Book : Library :: Painting : ?",
+      "options": [
+        "Brush",
+        "Canvas",
+        "Artist",
+        "Gallery"
+      ],
+      "answerIndex": 3,
+      "explanation": "Books are kept in a library. Paintings are displayed in a gallery."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "5 : 30 :: 7 : ?",
+      "options": [
+        "49",
+        "54",
+        "56",
+        "63"
+      ],
+      "answerIndex": 2,
+      "explanation": "The rule is n × (n + 1): 5 × 6 = 30. So 7 × 8 = 56."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "ACE : FHJ :: LNP : ?",
+      "options": [
+        "QRS",
+        "QSU",
+        "PRT",
+        "QSV"
+      ],
+      "answerIndex": 1,
+      "explanation": "Each letter moves forward by 5: A→F, C→H, E→J. So L→Q, N→S, P→U, giving QSU."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Chapter : Book :: Verse : ?",
+      "options": [
+        "Story",
+        "Poem",
+        "Novel",
+        "Letter"
+      ],
+      "answerIndex": 1,
+      "explanation": "A chapter is a part of a book. A verse is a part of a poem."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Metre : Length :: Kilogram : ?",
+      "options": [
+        "Mass",
+        "Volume",
+        "Time",
+        "Speed"
+      ],
+      "answerIndex": 0,
+      "explanation": "The metre is a unit of length, and the kilogram is a unit of mass."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Seed : Plant :: Egg : ?",
+      "options": [
+        "Nest",
+        "Shell",
+        "Yolk",
+        "Bird"
+      ],
+      "answerIndex": 3,
+      "explanation": "A seed grows into a plant. An egg hatches into a bird."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "16 : 4 :: 81 : ?",
+      "options": [
+        "3",
+        "18",
+        "9",
+        "27"
+      ],
+      "answerIndex": 2,
+      "explanation": "The second number is the square root of the first: √16 = 4, so √81 = 9."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/analogies/"
+}

@@ -1,0 +1,432 @@
+{
+  "id": "y1-lr-odd-one-out",
+  "yearId": 1,
+  "category": "Logical Reasoning",
+  "topicNumber": 17,
+  "title": "Odd One Out (Mixed)",
+  "tagline": "Year 1 Foundation — Spotting the odd number, letter or group in a mixed list",
+  "estimatedMinutes": 40,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "In a mixed odd-one-out question the items are numbers, letters or letter groups instead of words. Three or four of them follow the same mathematical or alphabetical rule, and one breaks it. Typical rules are \"all are perfect squares\", \"all are prime\", \"all are multiples of 7\", \"all are vowels\" or \"each letter moves two steps from the previous one\". The method is to find the rule from the majority and test every item against it.",
+    "placementRelevance": "Odd-one-out questions with numbers and letters are commonly asked in the reasoning section of company aptitude rounds. They test number sense and quick pattern checks.",
+    "realWorldContext": "Spotting an invalid entry in a list of part numbers, finding a corrupted value in a column of data and checking a pattern in coded identifiers are practical versions of this skill."
+  },
+  "learningObjectives": [
+    "Identify number properties: prime, square, cube, multiple, odd or even",
+    "Recognise vowel/consonant and position-gap rules in letters",
+    "Detect the item that breaks a letter-group pattern",
+    "Use divisibility and perfect-power knowledge to test items quickly",
+    "Choose the most specific rule when several seem to fit"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Number Series",
+      "Letter Series",
+      "Divisibility rules",
+      "Classification / Odd One Out"
+    ],
+    "quickRefresher": "Squares: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225. Cubes: 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000. Primes below 50: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Perfect square: a number that is the square of an integer (36 = 6²). Perfect cube: a number that is the cube of an integer (125 = 5³).",
+      "Prime number: a number greater than 1 with exactly two factors, 1 and itself.",
+      "Multiple: a number that is divisible by a given number (35 is a multiple of 7).",
+      "Vowel: A, E, I, O, U. All other letters are consonants.",
+      "Pattern break: the one item that does not fit the rule followed by all the others."
+    ],
+    "theoreticalIntuition": "The odd item is almost always \"almost right\": it looks like the others but fails one precise test. 40 among squares, 21 among primes and 35 among multiples of 6 are all of this kind. The better you know number properties, the faster you see the exception.",
+    "visualOrMentalModel": "Run three quick tests on each number: (1) is it a prime or does it have an obvious factor, (2) is it a square or cube, (3) is it divisible by a common number like 3, 4, 7, 11. Whichever test splits the list into four-versus-one gives the rule."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Test for squares and cubes",
+      "formula": "Compare with n² and n³",
+      "description": "Know the lists to 15² and 10³.",
+      "whenToUse": "Lists such as 16, 25, 36, 40, 49.",
+      "simpleExample": "40 is not a square"
+    },
+    {
+      "title": "Test for primes",
+      "formula": "No divisor other than 1 and itself; check 2, 3, 5, 7",
+      "description": "For numbers below 100, test divisibility by 2, 3, 5, 7.",
+      "whenToUse": "Lists such as 11, 13, 17, 21, 23.",
+      "simpleExample": "21 = 3 × 7"
+    },
+    {
+      "title": "Test for multiples",
+      "formula": "Use divisibility rules for 3, 4, 6, 7, 9, 11",
+      "description": "All but one number divisible by the same number.",
+      "whenToUse": "Lists such as 12, 18, 24, 30, 35.",
+      "simpleExample": "35 is not a multiple of 6"
+    },
+    {
+      "title": "Letter gap rule",
+      "formula": "Positions of letters in a group differ by a constant gap",
+      "description": "Check gaps within the group and between groups.",
+      "whenToUse": "BDF, HJL, NPR, TVW.",
+      "simpleExample": "TVW breaks the gap of 2 (TVX would fit)"
+    },
+    {
+      "title": "Group start rule",
+      "formula": "The first letters of consecutive groups follow a series",
+      "description": "Compare group to group as well as within a group.",
+      "whenToUse": "ACE, GIK, MOQ, SUX.",
+      "simpleExample": "Starts A, G, M, S fit (gap 6); SUX should be SUW"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "For numbers, begin by scanning for properties that all but one share. In 16, 25, 36, 40, 49 the numbers 16, 25, 36 and 49 are squares of 4, 5, 6, 7, so 40 is the odd one. In 11, 13, 17, 21, 23 all are primes except 21 = 3 × 7.",
+      "Multiples are another frequent rule. In 12, 18, 24, 30, 35 four numbers are multiples of 6. In 14, 21, 28, 36, 42 four numbers are multiples of 7, so 36 is the odd one.",
+      "For letters, convert to positions. In A, E, I, O, K the first four are vowels while K is a consonant. For letter groups such as BDF, HJL, NPR and TVW, check the gap inside each group (2 and 2 in BDF) and the movement from group to group (B → H → N → T, steps of 6). TVW has gaps 2 and 1, so it breaks the rule.",
+      "When two rules fit, choose the one with the clearest four-versus-one split. For 4, 9, 25, 49, 81 (all squares) another rule might be \"squares of primes\", but 81 = 9² is the square of a non-prime. Do not over-complicate: if one rule fits every item but one, take it."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Pair and triple items",
+        "content": "Some questions give number triples (3-4-5, 5-12-13, 8-15-17, 6-8-11). Here the rule is \"Pythagorean triple\" (a² + b² = c²). 6² + 8² = 100, so 6-8-10 would fit; 6-8-11 is the odd one."
+      },
+      {
+        "title": "Combining checks quickly",
+        "content": "For lists of two-digit numbers, test the digit sum or the product of digits. Sometimes the rule is a digit relationship, such as \"the digits differ by 1\" or \"the sum of digits is 9\". If divisibility fails, try digits."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Odd number",
+      "description": "Square, cube, prime, multiple.",
+      "exampleSnippet": "16, 25, 36, 40, 49"
+    },
+    {
+      "typeName": "Odd letter",
+      "description": "Vowel/consonant or position.",
+      "exampleSnippet": "A, E, I, O, K"
+    },
+    {
+      "typeName": "Odd letter group",
+      "description": "Gap pattern inside groups.",
+      "exampleSnippet": "BDF, HJL, NPR, TVW"
+    },
+    {
+      "typeName": "Odd pair",
+      "description": "Letter-pair patterns.",
+      "exampleSnippet": "AZ, BY, CX, DV"
+    },
+    {
+      "typeName": "Odd triple",
+      "description": "Number triples and relationships.",
+      "exampleSnippet": "3-4-5, 5-12-13, 8-15-17, 6-8-11"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-lr-odd-one-out-1",
+      "title": "Odd number: squares",
+      "question": "Find the odd one out: 16, 25, 36, 40, 49",
+      "givenInfo": [
+        "Numbers: 16, 25, 36, 40, 49"
+      ],
+      "conceptOrFormula": "Test each number against the list of perfect squares.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Test 16, 25, 36, 49",
+          "explanation": "16 = 4², 25 = 5², 36 = 6², 49 = 7²."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Test 40",
+          "explanation": "The squares near 40 are 36 (6²) and 49 (7²), so 40 is not a perfect square."
+        }
+      ],
+      "finalAnswer": "40",
+      "whyItWorks": "Four numbers are perfect squares and 40 is not.",
+      "commonTrap": "Choosing 16 because it is the smallest.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-lr-odd-one-out-2",
+      "title": "Odd number: multiples",
+      "question": "Find the odd one out: 14, 21, 28, 36, 42",
+      "givenInfo": [
+        "Numbers: 14, 21, 28, 36, 42"
+      ],
+      "conceptOrFormula": "Check divisibility by a common factor.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Try 7",
+          "explanation": "14 = 7 × 2, 21 = 7 × 3, 28 = 7 × 4, 42 = 7 × 6."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Test 36",
+          "explanation": "36 ÷ 7 leaves remainder 1, so it is not a multiple of 7."
+        }
+      ],
+      "finalAnswer": "36",
+      "whyItWorks": "The rule is \"multiples of 7\" and 36 breaks it.",
+      "commonTrap": "Choosing 21 because it is odd while the others are even.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-lr-odd-one-out-3",
+      "title": "Odd letter group",
+      "question": "Find the odd one out: BDF, HJL, NPR, TVW",
+      "givenInfo": [
+        "Groups: BDF, HJL, NPR, TVW"
+      ],
+      "conceptOrFormula": "Convert to positions and check the gaps.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Positions",
+          "explanation": "BDF = 2, 4, 6. HJL = 8, 10, 12. NPR = 14, 16, 18. TVW = 20, 22, 23."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Gaps inside each group",
+          "explanation": "BDF: 2, 2. HJL: 2, 2. NPR: 2, 2. TVW: 2, 1."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Find the break",
+          "explanation": "TVW has a second gap of 1 instead of 2 (TVX would fit)."
+        }
+      ],
+      "finalAnswer": "TVW",
+      "whyItWorks": "Three groups have a constant internal gap of 2 and one does not.",
+      "commonTrap": "Comparing only the first letters and finding nothing wrong.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Three-test scan",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Test every number against every possible property.",
+      "shortcutMethod": "Test each item for square/cube, prime and divisibility by 3, 4, 7 and 11 in that order. The first property that splits the list four-versus-one is the answer."
+    },
+    "rulesForApplication": [
+      "Memorise squares to 15², cubes to 10³ and primes below 50.",
+      "For letters, convert to positions first.",
+      "For groups, check inside the group and between groups.",
+      "If two items look odd, choose the rule that is stated in a simpler way."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing based on size or parity only",
+      "whyItHappens": "Selecting the smallest, largest or the odd number.",
+      "howToAvoid": "Check for a mathematical property before size or parity."
+    },
+    {
+      "mistake": "Missing the second rule",
+      "whyItHappens": "Using the first pattern found without checking all items.",
+      "howToAvoid": "Verify that the pattern holds for every item except one."
+    },
+    {
+      "mistake": "Wrong prime checks",
+      "whyItHappens": "Treating numbers such as 21, 27 or 51 as prime.",
+      "howToAvoid": "Test divisibility by 3 and 7 for numbers below 100."
+    },
+    {
+      "mistake": "Looking only inside letter groups",
+      "whyItHappens": "Missing the pattern from group to group.",
+      "howToAvoid": "Look at both the internal gaps and the movement between groups."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Cross out items that obviously fit the property; the remaining one is your answer.",
+    "questionSelectionAdvice": "Quick to solve once you know the standard lists. Attempt these early.",
+    "recruiterInsight": "Familiarity with squares, cubes and primes is worth more than any trick."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-lr-odd-one-out-e1",
+        "question": "Find the odd one out: 2, 4, 6, 9, 10",
+        "options": [
+          "2",
+          "9",
+          "6",
+          "10"
+        ],
+        "correctAnswer": "9",
+        "explanation": "All numbers except 9 are even. 9 is odd.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-odd-one-out-e2",
+        "question": "Find the odd one out: 16, 25, 36, 40, 49",
+        "options": [
+          "40",
+          "16",
+          "36",
+          "49"
+        ],
+        "correctAnswer": "40",
+        "explanation": "16, 25, 36 and 49 are perfect squares. 40 is not.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-odd-one-out-e3",
+        "question": "Find the odd one out: 11, 13, 17, 21, 23",
+        "options": [
+          "11",
+          "17",
+          "23",
+          "21"
+        ],
+        "correctAnswer": "21",
+        "explanation": "11, 13, 17 and 23 are prime. 21 = 3 × 7 is composite.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-lr-odd-one-out-i7",
+        "question": "Find the odd one out: ABC, DEF, GHI, JKM",
+        "options": [
+          "JKM",
+          "ABC",
+          "DEF",
+          "GHI"
+        ],
+        "correctAnswer": "JKM",
+        "explanation": "The groups are consecutive letters in order. JKL would fit, but JKM skips L.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-odd-one-out-i8",
+        "question": "Find the odd one out: BDF, HJL, NPR, TVW",
+        "options": [
+          "BDF",
+          "HJL",
+          "NPR",
+          "TVW"
+        ],
+        "correctAnswer": "TVW",
+        "explanation": "Inside each group the letters are two places apart. TVW has gaps 2 and 1, so it breaks the pattern.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-odd-one-out-i9",
+        "question": "Find the odd one out: 121, 144, 169, 200",
+        "options": [
+          "121",
+          "144",
+          "169",
+          "200"
+        ],
+        "correctAnswer": "200",
+        "explanation": "121 = 11², 144 = 12² and 169 = 13² are squares. 200 is not.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-lr-odd-one-out-a15",
+        "question": "Find the odd one out: 1, 4, 9, 16, 24, 36",
+        "options": [
+          "16",
+          "36",
+          "24",
+          "9"
+        ],
+        "correctAnswer": "24",
+        "explanation": "1, 4, 9, 16 and 36 are squares of 1, 2, 3, 4 and 6. 24 is not a perfect square.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-odd-one-out-a16",
+        "question": "Find the odd one out: 17, 19, 23, 27, 29",
+        "options": [
+          "17",
+          "27",
+          "19",
+          "29"
+        ],
+        "correctAnswer": "27",
+        "explanation": "17, 19, 23 and 29 are primes. 27 = 3³ is not.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-lr-odd-one-out-p17",
+        "question": "Find the odd one out: AC, EG, IK, MO, PR",
+        "options": [
+          "AC",
+          "PR",
+          "IK",
+          "MO"
+        ],
+        "correctAnswer": "PR",
+        "explanation": "Each pair is two letters apart, and each pair starts four letters after the previous one: A, E, I, M, Q. So QS would fit, not PR.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-odd-one-out-p18",
+        "question": "Find the odd one out: ACE, GIK, MOQ, SUX",
+        "options": [
+          "SUX",
+          "ACE",
+          "GIK",
+          "MOQ"
+        ],
+        "correctAnswer": "SUX",
+        "explanation": "Each group has a gap of 2 between its letters and the first letters move by 6 (A, G, M, S). SUW would fit; SUX has gaps 2 and 3.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-odd-one-out-p19",
+        "question": "Find the odd one out: 22, 33, 44, 55, 66, 78",
+        "options": [
+          "22",
+          "55",
+          "66",
+          "78"
+        ],
+        "correctAnswer": "78",
+        "explanation": "All numbers except 78 are multiples of 11. 78 = 6 × 13.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Find the rule from the majority; the exception is the answer.",
+      "Test number properties: square, cube, prime, multiple.",
+      "Test letter properties: vowel, consonant, positions and gaps.",
+      "Check inside and between letter groups.",
+      "Prefer simple rules."
+    ],
+    "quickFormulas": [
+      "Squares to 15², cubes to 10³",
+      "Primes below 50",
+      "Divisibility by 3, 4, 7, 11"
+    ]
+  },
+  "keyTakeaways": [
+    "The odd one fails a precise test.",
+    "Know the standard number lists.",
+    "Convert letters to positions.",
+    "Check every item against the rule."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the odd one in 11, 13, 17, 21, 23 and say why?",
+    "Can I find the odd one in QPO, NML, KJI, HGF, ECB?",
+    "Can I spot the odd triple in 3-4-5, 5-12-13, 8-15-17, 6-8-11?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The Odd Man Out topic area; examples in this chapter are original."
+    }
+  ]
+}

@@ -165,7 +165,7 @@ const quiz = [
   placement('Find the next group: AB, DE, HI, MN, ?', 'ST', ['RS', 'TU', 'SU'], 'The first letters are A, D, H, M, which are positions 1, 4, 8, 13 with gaps 3, 4, 5. The next gap is 6, giving position 19 = S. Each group has consecutive letters, so the next group is ST.'),
   placement('Find the next letter: B, D, G, K, P, ?', 'V', ['T', 'U', 'W'], 'The positions are 2, 4, 7, 11, 16 with gaps 2, 3, 4, 5. The next gap is 6, giving 22, which is V.'),
   placement('Find the next group: AZBY, CXDW, EVFU, ?', 'GTHS', ['GSHT', 'GTHU', 'HTIS'], 'Within each group the letters are A–Z–B–Y style. The first letters go A, C, E, G; so the next group starts with G, followed by its opposite T, then H and its opposite S: GTHS.'),
-  placement('Find the next letter: Z, W, S, N, H, ?', 'A', ['B', 'C', 'D'], 'The positions are 26, 23, 19, 14, 8 with gaps −3, −4, −5, −6. The next gap is −7, so the position is 1, which is A.'),
+  placement('Find the next letter: Z, W, S, N, H, ?', 'A', ['Z', 'B', 'E'], 'The positions are 26, 23, 19, 14, 8 with gaps −3, −4, −5, −6. The next gap is −7, so the position is 1, which is A.'),
   placement('Find the next letter: A, E, I, M, Q, U, ?', 'Y', ['X', 'Z', 'W'], 'The positions are 1, 5, 9, 13, 17, 21 with a gap of 4. The next position is 25, which is Y.'),
   placement('Find the next group: QPO, NML, KJI, HGF, ?', 'EDC', ['EFG', 'DCB', 'FED'], 'Each group is three letters in reverse order. The starting letters Q, N, K, H are positions 17, 14, 11, 8 (down by 3). The next starts at position 5 (E): EDC.')
 ];

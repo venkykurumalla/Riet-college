@@ -1,0 +1,439 @@
+{
+  "id": "y1-lr-classification",
+  "yearId": 1,
+  "category": "Logical Reasoning",
+  "topicNumber": 16,
+  "title": "Classification / Odd One Out",
+  "tagline": "Year 1 Foundation — Grouping words by a shared property and spotting the one that does not belong",
+  "estimatedMinutes": 35,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "A classification question gives four or five words (or items) and asks you to pick the one that does not belong with the others. Three or four of the words share a property such as being a fruit, a mammal, a metal or a language; the odd one lacks that property. The task is to discover the shared property quickly and precisely. This chapter focuses on words; the next chapter covers numbers and letters.",
+    "placementRelevance": "Classification questions are commonly asked in the reasoning section of company aptitude rounds. They are easy marks for students who build the habit of naming the common property before choosing.",
+    "realWorldContext": "Sorting items in a shop, filing documents into folders and tagging products in an online catalogue all rely on classification."
+  },
+  "learningObjectives": [
+    "Identify the common property shared by a group of words",
+    "Distinguish between a category and an exception within it",
+    "Handle questions where more than one property fits, by choosing the most specific one",
+    "Classify items by use, origin, state, shape and unit",
+    "Avoid being misled by words that look similar"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic general knowledge of animals, plants, materials and units",
+      "Analogy"
+    ],
+    "quickRefresher": "Common groupings: fruits and vegetables; mammals, birds, reptiles and fish; metals and non-metals; 2D and 3D shapes; units of length, mass and volume; languages and programming languages."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Classification: the process of placing items into groups according to a shared property.",
+      "Common property: the attribute that three or four of the items share (for example \"all are mammals\").",
+      "Odd one out: the item that does not have the common property.",
+      "Category and exception: a category is the set of items with the property; an exception is an item that fails the property test.",
+      "Specific property: the narrowest property shared by the majority; it is usually the intended one."
+    ],
+    "theoreticalIntuition": "Every odd-one-out question has exactly one intended property. Your job is to name it. A good habit is to find two of the items that obviously belong together, name what they share, and then check whether the remaining items share it.",
+    "visualOrMentalModel": "Picture four boxes of labels. If three words fit under the label \"birds\" and the fourth fits under \"mammals\", the fourth is odd. If more than one label fits, choose the label that fits the largest group of items most precisely."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Step 1: pair up",
+      "formula": "Find the two most obviously related words",
+      "description": "Start where the relationship is strongest.",
+      "whenToUse": "Any odd-one-out question.",
+      "simpleExample": "Dog, Cat → animals / mammals"
+    },
+    {
+      "title": "Step 2: name the property",
+      "formula": "Write the property in one phrase",
+      "description": "Be specific: \"mammals\" is better than \"animals\".",
+      "whenToUse": "When several properties seem to fit.",
+      "simpleExample": "Dog, Cat, Cow → mammals"
+    },
+    {
+      "title": "Step 3: test the rest",
+      "formula": "Check the other items against the property",
+      "description": "The item that fails is the answer.",
+      "whenToUse": "All questions.",
+      "simpleExample": "Sparrow is a bird → odd one out"
+    },
+    {
+      "title": "Common classes",
+      "formula": "Mammals, birds, fish, reptiles; metals, non-metals; length, mass, volume; 2D, 3D",
+      "description": "Frequently used categories.",
+      "whenToUse": "Recognise them at a glance.",
+      "simpleExample": "Litre is a unit of volume; the others are units of length"
+    },
+    {
+      "title": "Specificity rule",
+      "formula": "If two properties fit, choose the one shared by more items",
+      "description": "Three-versus-one beats two-versus-two.",
+      "whenToUse": "Ambiguous items.",
+      "simpleExample": "Iron, Copper, Gold, Diamond → three metals, one non-metal"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Read all the words once before deciding. Many mistakes come from stopping at the first two words and forming a wrong idea of the property. The correct property must hold for all items except one.",
+      "Think of several properties for each word: what it is (category), where it lives or is used (habitat or function), what it is made of, what it measures, how it looks. For Mercury, Venus, Moon and Mars the property \"planets\" covers three; the Moon is a satellite, so it is the odd one out.",
+      "When a word belongs to more than one class (a bat is a mammal that flies), look for the property that separates the odd item most cleanly. In Eagle, Parrot, Bat and Crow, \"birds\" fits three and Bat is the mammal. \"Flying animals\" would fit all four, so it is not the intended property.",
+      "Unit and measurement questions are common: in Kilometre, Litre, Metre and Centimetre, three measure length, so Litre (volume) is the odd one. In Kilogram, Metre, Second and Newton, the first three are base units while Newton is derived."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Two plausible answers",
+        "content": "If you find two words that could both be odd, step back and name the properties. The better answer usually has the property that fits exactly three other words, with a clear reason why the odd word fails."
+      },
+      {
+        "title": "Why general knowledge matters",
+        "content": "Classification questions use ordinary facts: whale and dolphin are mammals, shark is a fish, diamond is a form of carbon and not a metal. Reading widely helps more than memorising any rule."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Living things",
+      "description": "Animals, birds, plants.",
+      "exampleSnippet": "Dog, Cat, Sparrow, Cow"
+    },
+    {
+      "typeName": "Materials and substances",
+      "description": "Metals, elements, compounds.",
+      "exampleSnippet": "Iron, Copper, Gold, Diamond"
+    },
+    {
+      "typeName": "Units and measurements",
+      "description": "Length, mass, volume, time.",
+      "exampleSnippet": "Kilometre, Litre, Metre, Centimetre"
+    },
+    {
+      "typeName": "Places and objects",
+      "description": "Cities, instruments, games.",
+      "exampleSnippet": "Sitar, Veena, Tabla, Guitar"
+    },
+    {
+      "typeName": "Shapes and abstract groups",
+      "description": "Two-dimensional versus three-dimensional.",
+      "exampleSnippet": "Triangle, Square, Cube, Circle"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-lr-classification-1",
+      "title": "Animals",
+      "question": "Find the odd one out: Dog, Cat, Sparrow, Cow",
+      "givenInfo": [
+        "Items: Dog, Cat, Sparrow, Cow"
+      ],
+      "conceptOrFormula": "Name the property shared by three items.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pair the obvious items",
+          "explanation": "Dog and Cat are mammals."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Test the others",
+          "explanation": "Cow is a mammal. Sparrow is a bird."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Choose",
+          "explanation": "Sparrow does not share the property."
+        }
+      ],
+      "finalAnswer": "Sparrow",
+      "whyItWorks": "Three are mammals and one is a bird.",
+      "commonTrap": "Selecting Cow because it is not a pet.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-lr-classification-2",
+      "title": "Units",
+      "question": "Find the odd one out: Kilometre, Litre, Metre, Centimetre",
+      "givenInfo": [
+        "Items: Kilometre, Litre, Metre, Centimetre"
+      ],
+      "conceptOrFormula": "Identify what each item measures.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "List what each measures",
+          "explanation": "Kilometre: length. Litre: volume. Metre: length. Centimetre: length."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Identify the property",
+          "explanation": "Three are units of length."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Choose",
+          "explanation": "Litre is a unit of volume."
+        }
+      ],
+      "finalAnswer": "Litre",
+      "whyItWorks": "The group property is \"unit of length\".",
+      "commonTrap": "Choosing Centimetre because it is the smallest.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-lr-classification-3",
+      "title": "Sub-classes",
+      "question": "Find the odd one out: Whale, Shark, Dolphin, Seal",
+      "givenInfo": [
+        "Items: Whale, Shark, Dolphin, Seal"
+      ],
+      "conceptOrFormula": "All live in water, so look for a finer property.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Try \"live in water\"",
+          "explanation": "All four live in water, so this property cannot separate them."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Try \"mammals\"",
+          "explanation": "Whale, Dolphin and Seal are mammals."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Identify the exception",
+          "explanation": "Shark is a fish."
+        }
+      ],
+      "finalAnswer": "Shark",
+      "whyItWorks": "A property that fits every item cannot make one odd; a finer property is needed.",
+      "commonTrap": "Stopping at \"sea animals\" and finding no odd one.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Name-the-property method",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compare every item with every other item.",
+      "shortcutMethod": "Find the two closest words, name their property, and test the remaining words against it. One test per word is enough."
+    },
+    "rulesForApplication": [
+      "If every word fits your property, the property is too broad; narrow it down.",
+      "Prefer properties that separate three words from one.",
+      "Check units, states and categories first in science-related questions.",
+      "Do not choose based on spelling or length of the word unless all other properties fail."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using a property that fits all items",
+      "whyItHappens": "Choosing a broad label such as \"animals\".",
+      "howToAvoid": "Narrow it down until exactly one item fails."
+    },
+    {
+      "mistake": "Choosing based on a rare property",
+      "whyItHappens": "Picking the item that is not a pet, not red, not large.",
+      "howToAvoid": "Choose the scientific or functional property."
+    },
+    {
+      "mistake": "Over-thinking trivia",
+      "whyItHappens": "Spending time on obscure meanings.",
+      "howToAvoid": "Take the common everyday meaning."
+    },
+    {
+      "mistake": "Reading only two words",
+      "whyItHappens": "Forming the property from the first two items.",
+      "howToAvoid": "Read all items before deciding."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Cross out the two words that clearly belong together, then test the other two against their property.",
+    "questionSelectionAdvice": "These are quick questions; if the property is not clear in 20 seconds, skip.",
+    "recruiterInsight": "The best preparation is general awareness: units, categories of animals, materials, instruments."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-lr-classification-e1",
+        "question": "Find the odd one out: Apple, Mango, Potato, Banana",
+        "options": [
+          "Apple",
+          "Potato",
+          "Mango",
+          "Banana"
+        ],
+        "correctAnswer": "Potato",
+        "explanation": "Apple, mango and banana are fruits. Potato is a vegetable.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-classification-e2",
+        "question": "Find the odd one out: Dog, Cat, Sparrow, Cow",
+        "options": [
+          "Sparrow",
+          "Dog",
+          "Cat",
+          "Cow"
+        ],
+        "correctAnswer": "Sparrow",
+        "explanation": "Dog, cat and cow are mammals. Sparrow is a bird.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-classification-e3",
+        "question": "Find the odd one out: Mercury, Venus, Moon, Mars",
+        "options": [
+          "Mercury",
+          "Venus",
+          "Mars",
+          "Moon"
+        ],
+        "correctAnswer": "Moon",
+        "explanation": "Mercury, Venus and Mars are planets. The Moon is a natural satellite.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-lr-classification-i7",
+        "question": "Find the odd one out: Java, Python, HTML, Windows",
+        "options": [
+          "Windows",
+          "Java",
+          "Python",
+          "HTML"
+        ],
+        "correctAnswer": "Windows",
+        "explanation": "Java, Python and HTML are languages used to write software or web pages. Windows is an operating system.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-classification-i8",
+        "question": "Find the odd one out: Triangle, Square, Cube, Circle",
+        "options": [
+          "Triangle",
+          "Square",
+          "Circle",
+          "Cube"
+        ],
+        "correctAnswer": "Cube",
+        "explanation": "Triangle, square and circle are flat (2D) shapes. A cube is a solid (3D) shape.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-classification-i9",
+        "question": "Find the odd one out: Mumbai, Chennai, Kolkata, Delhi",
+        "options": [
+          "Mumbai",
+          "Chennai",
+          "Kolkata",
+          "Delhi"
+        ],
+        "correctAnswer": "Delhi",
+        "explanation": "Mumbai, Chennai and Kolkata are coastal port cities. Delhi is an inland city.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-lr-classification-a15",
+        "question": "Find the odd one out: Tenor, Bass, Soprano, Violin",
+        "options": [
+          "Tenor",
+          "Bass",
+          "Violin",
+          "Soprano"
+        ],
+        "correctAnswer": "Violin",
+        "explanation": "Tenor, bass and soprano are types of singing voice. The violin is a musical instrument.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-classification-a16",
+        "question": "Find the odd one out: Sitar, Veena, Tabla, Guitar",
+        "options": [
+          "Sitar",
+          "Tabla",
+          "Veena",
+          "Guitar"
+        ],
+        "correctAnswer": "Tabla",
+        "explanation": "Sitar, veena and guitar are string instruments. The tabla is a percussion instrument.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-lr-classification-p17",
+        "question": "Find the odd one out: Hydrogen, Oxygen, Water, Nitrogen",
+        "options": [
+          "Hydrogen",
+          "Water",
+          "Oxygen",
+          "Nitrogen"
+        ],
+        "correctAnswer": "Water",
+        "explanation": "Hydrogen, oxygen and nitrogen are elements. Water is a compound.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-classification-p18",
+        "question": "Find the odd one out: Kilogram, Metre, Second, Newton",
+        "options": [
+          "Newton",
+          "Kilogram",
+          "Metre",
+          "Second"
+        ],
+        "correctAnswer": "Newton",
+        "explanation": "Kilogram, metre and second are base units of the SI system. Newton is a derived unit (kg·m/s²).",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-classification-p19",
+        "question": "Find the odd one out: Voltmeter, Ammeter, Thermometer, Galvanometer",
+        "options": [
+          "Voltmeter",
+          "Ammeter",
+          "Galvanometer",
+          "Thermometer"
+        ],
+        "correctAnswer": "Thermometer",
+        "explanation": "Voltmeter, ammeter and galvanometer are used in electrical circuits. A thermometer measures temperature.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Name the property before choosing.",
+      "The property must fit all but one item.",
+      "Narrow a property that fits everything.",
+      "Check units, categories, states and functions.",
+      "Prefer the specific property."
+    ],
+    "quickFormulas": [
+      "Pair → name → test",
+      "Three-versus-one beats two-versus-two"
+    ]
+  },
+  "keyTakeaways": [
+    "Always state the property in words.",
+    "Specific properties win.",
+    "General knowledge is the real preparation.",
+    "Do not choose on appearance alone."
+  ],
+  "selfCheckQuestions": [
+    "Can I say what property Iron, Copper and Gold share, and why Diamond is out?",
+    "Can I explain why Bat is the odd one in Eagle, Parrot, Bat, Crow?",
+    "Can I separate base units from derived units?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The Classification topic area; examples in this chapter are original."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-lr-classification",
+  "topicTitle": "Classification / Odd One Out",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Find the odd one out: Apple, Mango, Potato, Banana",
+      "options": [
+        "Apple",
+        "Potato",
+        "Mango",
+        "Banana"
+      ],
+      "answerIndex": 1,
+      "explanation": "Apple, mango and banana are fruits. Potato is a vegetable."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Find the odd one out: Dog, Cat, Sparrow, Cow",
+      "options": [
+        "Sparrow",
+        "Dog",
+        "Cat",
+        "Cow"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dog, cat and cow are mammals. Sparrow is a bird."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Find the odd one out: Mercury, Venus, Moon, Mars",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Moon"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mercury, Venus and Mars are planets. The Moon is a natural satellite."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Find the odd one out: Rose, Lily, Jasmine, Mango",
+      "options": [
+        "Rose",
+        "Lily",
+        "Mango",
+        "Jasmine"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rose, lily and jasmine are flowers. Mango is a fruit."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Find the odd one out: Pen, Pencil, Eraser, Chalk",
+      "options": [
+        "Pen",
+        "Pencil",
+        "Eraser",
+        "Chalk"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pen, pencil and chalk are used to write. An eraser is used to remove writing."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Find the odd one out: Red, Blue, Green, Square",
+      "options": [
+        "Red",
+        "Square",
+        "Blue",
+        "Green"
+      ],
+      "answerIndex": 1,
+      "explanation": "Red, blue and green are colours. Square is a shape."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Find the odd one out: Java, Python, HTML, Windows",
+      "options": [
+        "Windows",
+        "Java",
+        "Python",
+        "HTML"
+      ],
+      "answerIndex": 0,
+      "explanation": "Java, Python and HTML are languages used to write software or web pages. Windows is an operating system."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Find the odd one out: Triangle, Square, Cube, Circle",
+      "options": [
+        "Triangle",
+        "Square",
+        "Circle",
+        "Cube"
+      ],
+      "answerIndex": 3,
+      "explanation": "Triangle, square and circle are flat (2D) shapes. A cube is a solid (3D) shape."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Find the odd one out: Mumbai, Chennai, Kolkata, Delhi",
+      "options": [
+        "Mumbai",
+        "Chennai",
+        "Kolkata",
+        "Delhi"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mumbai, Chennai and Kolkata are coastal port cities. Delhi is an inland city."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Find the odd one out: Kilometre, Litre, Metre, Centimetre",
+      "options": [
+        "Kilometre",
+        "Metre",
+        "Litre",
+        "Centimetre"
+      ],
+      "answerIndex": 2,
+      "explanation": "Kilometre, metre and centimetre are units of length. The litre is a unit of volume."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Find the odd one out: Eagle, Parrot, Bat, Crow",
+      "options": [
+        "Eagle",
+        "Bat",
+        "Parrot",
+        "Crow"
+      ],
+      "answerIndex": 1,
+      "explanation": "Eagle, parrot and crow are birds. A bat is a flying mammal."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Find the odd one out: Iron, Copper, Gold, Diamond",
+      "options": [
+        "Diamond",
+        "Iron",
+        "Copper",
+        "Gold"
+      ],
+      "answerIndex": 0,
+      "explanation": "Iron, copper and gold are metals. Diamond is a form of carbon, a non-metal."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Find the odd one out: Whale, Shark, Dolphin, Seal",
+      "options": [
+        "Shark",
+        "Whale",
+        "Dolphin",
+        "Seal"
+      ],
+      "answerIndex": 0,
+      "explanation": "Whale, dolphin and seal are mammals. Shark is a fish."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Find the odd one out: Wheat, Rice, Maize, Cotton",
+      "options": [
+        "Wheat",
+        "Rice",
+        "Maize",
+        "Cotton"
+      ],
+      "answerIndex": 3,
+      "explanation": "Wheat, rice and maize are cereal food crops. Cotton is a fibre crop."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Find the odd one out: Tenor, Bass, Soprano, Violin",
+      "options": [
+        "Tenor",
+        "Bass",
+        "Violin",
+        "Soprano"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tenor, bass and soprano are types of singing voice. The violin is a musical instrument."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Find the odd one out: Sitar, Veena, Tabla, Guitar",
+      "options": [
+        "Sitar",
+        "Tabla",
+        "Veena",
+        "Guitar"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sitar, veena and guitar are string instruments. The tabla is a percussion instrument."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Find the odd one out: Hydrogen, Oxygen, Water, Nitrogen",
+      "options": [
+        "Hydrogen",
+        "Water",
+        "Oxygen",
+        "Nitrogen"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hydrogen, oxygen and nitrogen are elements. Water is a compound."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Find the odd one out: Kilogram, Metre, Second, Newton",
+      "options": [
+        "Newton",
+        "Kilogram",
+        "Metre",
+        "Second"
+      ],
+      "answerIndex": 0,
+      "explanation": "Kilogram, metre and second are base units of the SI system. Newton is a derived unit (kg·m/s²)."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Find the odd one out: Voltmeter, Ammeter, Thermometer, Galvanometer",
+      "options": [
+        "Voltmeter",
+        "Ammeter",
+        "Galvanometer",
+        "Thermometer"
+      ],
+      "answerIndex": 3,
+      "explanation": "Voltmeter, ammeter and galvanometer are used in electrical circuits. A thermometer measures temperature."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Find the odd one out: Ludo, Chess, Carrom, Cricket",
+      "options": [
+        "Ludo",
+        "Chess",
+        "Cricket",
+        "Carrom"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ludo, chess and carrom are indoor board games. Cricket is an outdoor field game."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/classification/"
+}
