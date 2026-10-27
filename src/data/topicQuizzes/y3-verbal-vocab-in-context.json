@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-verbal-vocab-in-context",
+  "topicTitle": "Advanced Vocabulary in Context",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The manager's candid feedback surprised the team.\n\nIn this sentence, the word \"candid\" is closest in meaning to",
+      "options": [
+        "secret",
+        "frank",
+        "polite",
+        "angry"
+      ],
+      "answerIndex": 1,
+      "explanation": "Feedback that surprises is likely to be direct and honest rather than the usual polite praise."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The soldiers showed remarkable fortitude during the long siege.\n\nIn this sentence, the word \"fortitude\" is closest in meaning to",
+      "options": [
+        "courage in hardship",
+        "fear of danger",
+        "lack of discipline",
+        "cleverness in planning"
+      ],
+      "answerIndex": 0,
+      "explanation": "Showing fortitude during a long siege suggests strength under difficulty."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The detective could find no evidence to corroborate the witness's story.\n\nIn this sentence, the word \"corroborate\" is closest in meaning to",
+      "options": [
+        "deny",
+        "copy",
+        "conceal",
+        "confirm"
+      ],
+      "answerIndex": 3,
+      "explanation": "Evidence is needed to support or confirm a story."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "She gave a lucid explanation of the theory, and everyone understood.\n\nIn this sentence, the word \"lucid\" is closest in meaning to",
+      "options": [
+        "confusing",
+        "lengthy",
+        "clear",
+        "secret"
+      ],
+      "answerIndex": 2,
+      "explanation": "Everyone understood, so the explanation was clear."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The scheme was abandoned because it was fraught with risk.\n\nIn this sentence, the word \"fraught\" is closest in meaning to",
+      "options": [
+        "free",
+        "tired",
+        "filled",
+        "unaware"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Fraught with risk\" means full of risk, which explains why it was abandoned."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "He is a frugal man who never wastes money.\n\nIn this sentence, the word \"frugal\" is closest in meaning to",
+      "options": [
+        "generous",
+        "thrifty",
+        "greedy",
+        "careless"
+      ],
+      "answerIndex": 1,
+      "explanation": "The clause \"never wastes money\" restates the meaning: thrifty."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The politician's evasive reply failed to satisfy the reporters.\n\nIn this sentence, the word \"evasive\" is closest in meaning to",
+      "options": [
+        "avoiding a direct answer",
+        "truthful and complete",
+        "loud and angry",
+        "very long"
+      ],
+      "answerIndex": 0,
+      "explanation": "A reply that fails to satisfy reporters is one that does not answer the question directly."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Her magnanimous gesture, forgiving the debt, impressed everyone.\n\nIn this sentence, the word \"magnanimous\" is closest in meaning to",
+      "options": [
+        "proud and boastful",
+        "cunning",
+        "hasty",
+        "generous and noble-minded"
+      ],
+      "answerIndex": 3,
+      "explanation": "Forgiving a debt is generous, and the tone (impressed everyone) is positive."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The ambiguous wording of the contract led to a dispute.\n\nIn this sentence, the word \"ambiguous\" is closest in meaning to",
+      "options": [
+        "very harsh",
+        "out of date",
+        "extremely long",
+        "open to more than one meaning"
+      ],
+      "answerIndex": 3,
+      "explanation": "A dispute about wording arises when it can be read in different ways."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The company's meteoric rise surprised analysts.\n\nIn this sentence, the word \"meteoric\" is closest in meaning to",
+      "options": [
+        "slow and steady",
+        "accidental",
+        "extremely rapid",
+        "temporary"
+      ],
+      "answerIndex": 2,
+      "explanation": "A meteor streaks quickly across the sky; a meteoric rise is very fast."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The speaker's tirade left the audience uncomfortable.\n\nIn this sentence, the word \"tirade\" is closest in meaning to",
+      "options": [
+        "a witty joke",
+        "a long angry speech",
+        "a short summary",
+        "a moment of silence"
+      ],
+      "answerIndex": 1,
+      "explanation": "A speech that makes an audience uncomfortable is likely to be an angry, prolonged outburst."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The old sailor was reticent about his past and rarely spoke of it.\n\nIn this sentence, the word \"reticent\" is closest in meaning to",
+      "options": [
+        "reluctant to speak",
+        "eager to boast",
+        "dishonest",
+        "forgetful"
+      ],
+      "answerIndex": 0,
+      "explanation": "The clause \"rarely spoke of it\" restates the meaning."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A mood of lethargy settled over the office after lunch.\n\nIn this sentence, the word \"lethargy\" is closest in meaning to",
+      "options": [
+        "a sluggish lack of energy",
+        "sudden excitement",
+        "rising anger",
+        "growing curiosity"
+      ],
+      "answerIndex": 0,
+      "explanation": "After lunch, a mood settling over an office suggests tiredness rather than excitement."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The critics lauded the director's latest film.\n\nIn this sentence, the word \"lauded\" is closest in meaning to",
+      "options": [
+        "ignored",
+        "banned",
+        "copied",
+        "praised"
+      ],
+      "answerIndex": 3,
+      "explanation": "Critics who laud a film praise it."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The lawyer tried to mitigate the harshness of the sentence.\n\nIn this sentence, the word \"mitigate\" is closest in meaning to",
+      "options": [
+        "increase",
+        "announce",
+        "lessen",
+        "delay"
+      ],
+      "answerIndex": 2,
+      "explanation": "A lawyer would try to make a harsh sentence less severe."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Her demeanour at the funeral was dignified and calm.\n\nIn this sentence, the word \"demeanour\" is closest in meaning to",
+      "options": [
+        "style of dress",
+        "way of behaving",
+        "choice of words",
+        "political opinion"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"Dignified and calm\" describes how she behaved."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The report contained several spurious claims that could not be verified.\n\nIn this sentence, the word \"spurious\" is closest in meaning to",
+      "options": [
+        "important",
+        "false or not genuine",
+        "controversial",
+        "brief"
+      ],
+      "answerIndex": 1,
+      "explanation": "Claims that cannot be verified and are criticised are false or not genuine."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The new law will only serve to exacerbate the problem.\n\nIn this sentence, the word \"exacerbate\" is closest in meaning to",
+      "options": [
+        "make worse",
+        "solve",
+        "hide",
+        "explain"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Only serve to\" signals a negative effect on the problem: to make it worse."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "His arguments were so cogent that the opposition had no reply.\n\nIn this sentence, the word \"cogent\" is closest in meaning to",
+      "options": [
+        "long and loud",
+        "rude and insulting",
+        "vague",
+        "clear and convincing"
+      ],
+      "answerIndex": 3,
+      "explanation": "Arguments that leave the opposition without a reply are convincing and well-reasoned."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A pervasive sense of unease hung over the village.\n\nIn this sentence, the word \"pervasive\" is closest in meaning to",
+      "options": [
+        "slight and fading",
+        "sudden",
+        "spreading through everything",
+        "imaginary"
+      ],
+      "answerIndex": 2,
+      "explanation": "A sense that \"hung over the village\" is felt everywhere in it."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/synonyms/"
+}

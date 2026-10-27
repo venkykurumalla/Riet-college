@@ -1,0 +1,419 @@
+{
+  "id": "y3-verbal-vocab-in-context",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 55,
+  "title": "Advanced Vocabulary in Context",
+  "tagline": "Year 3 — Working out the meaning of an unfamiliar word from the sentence around it",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Vocabulary-in-context questions give a sentence with a hard word and ask for its meaning in that sentence. You rarely need to know the word: the sentence supplies clues through contrast, restatement, example, tone and cause-effect. Learning to read those clues gives you the meaning of words you have never seen, and helps you choose the right sense of words with several meanings.",
+    "placementRelevance": "Context-based vocabulary items are a standard part of verbal sections in company and bank tests.",
+    "realWorldContext": "Reading unfamiliar professional vocabulary in a report or manual and still following the sense uses the same clues."
+  },
+  "learningObjectives": [
+    "Use context clues: contrast, restatement, example, cause",
+    "Use tone (positive or negative) to narrow meanings",
+    "Pick the right sense of a multi-meaning word",
+    "Use word roots for confirmation",
+    "Eliminate meanings that fit the word but not the sentence"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Vocabulary Building",
+      "Synonyms and Antonyms"
+    ],
+    "quickRefresher": "A word's meaning depends on its sentence. The same word can be positive or negative in different contexts."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Context clue: a part of the sentence that hints at a word's meaning.",
+      "Restatement clue: the sentence explains the word in simpler terms.",
+      "Contrast clue: words like but, however, unlike signal an opposite meaning.",
+      "Tone: positive, negative or neutral feeling carried by the sentence.",
+      "Root: a word part with a stable meaning (e.g., bene = good)."
+    ],
+    "theoreticalIntuition": "Cover the hard word and ask what kind of word would fit the blank. Then look for the option that fits the blank.",
+    "visualOrMentalModel": "Replace the word with each option and read the sentence. The option that keeps the sentence sensible and keeps its tone is the answer."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Substitution test",
+      "formula": "Put each option in the gap",
+      "description": "Every question.",
+      "whenToUse": "Primary.",
+      "simpleExample": "Candid → frank"
+    },
+    {
+      "title": "Contrast clue",
+      "formula": "But/however flips the tone",
+      "description": "Contrast sentences.",
+      "whenToUse": "Opposite.",
+      "simpleExample": "Frugal vs spendthrift"
+    },
+    {
+      "title": "Tone clue",
+      "formula": "Positive context → positive word",
+      "description": "Praise or blame.",
+      "whenToUse": "Narrowing.",
+      "simpleExample": "Lauded"
+    },
+    {
+      "title": "Example clue",
+      "formula": "Examples reveal the category",
+      "description": "Lists.",
+      "whenToUse": "Category.",
+      "simpleExample": "Forgiving the debt"
+    },
+    {
+      "title": "Root check",
+      "formula": "Latin/Greek roots confirm",
+      "description": "Unknown words.",
+      "whenToUse": "Support.",
+      "simpleExample": "Mal = bad"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "\"The manager's candid feedback surprised the team.\" If the feedback surprised them, it was probably not the usual polite praise, so candid means frank.",
+      "\"Her magnanimous gesture, forgiving the debt, impressed everyone.\" The example clue (forgiving the debt) and the tone (impressed everyone) point to generous, noble-minded.",
+      "\"The company's meteoric rise surprised analysts.\" A meteor streaks quickly across the sky. The rise surprised analysts, so meteoric means very rapid.",
+      "\"The lawyer tried to mitigate the harshness of the sentence.\" Mitigate goes with a negative thing (harshness) and a goal (the lawyer wants it to be less), so it means lessen.",
+      "Multi-meaning words need the sentence: \"serve to exacerbate the problem\" calls for a verb that makes a problem worse, not one that solves it."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Positive/negative tone",
+        "content": "If a word describes a person approvingly, a negative synonym cannot be correct."
+      },
+      {
+        "title": "Eliminate by substitution",
+        "content": "Wrong options often fit the word in general but break the sentence."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Restatement",
+      "description": "Sentence explains the word.",
+      "exampleSnippet": "Lucid explanation"
+    },
+    {
+      "typeName": "Contrast",
+      "description": "But/unlike.",
+      "exampleSnippet": "Frugal, wastes nothing"
+    },
+    {
+      "typeName": "Example",
+      "description": "Illustrating detail.",
+      "exampleSnippet": "Forgiving the debt"
+    },
+    {
+      "typeName": "Tone",
+      "description": "Praise or blame.",
+      "exampleSnippet": "Lauded"
+    },
+    {
+      "typeName": "Cause-effect",
+      "description": "Result clue.",
+      "exampleSnippet": "Meteoric rise"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-vocab-in-context-1",
+      "title": "Restatement",
+      "question": "He is a frugal man who never wastes money. What does \"frugal\" mean?",
+      "givenInfo": [
+        "Never wastes money"
+      ],
+      "conceptOrFormula": "Use the restatement.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Clue",
+          "explanation": "\"Never wastes money\" restates the word."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "Thrifty."
+        }
+      ],
+      "finalAnswer": "Thrifty",
+      "whyItWorks": "Generous would contradict the clue.",
+      "commonTrap": "Choosing generous.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-vocab-in-context-2",
+      "title": "Example clue",
+      "question": "Her magnanimous gesture, forgiving the debt, impressed everyone. What does \"magnanimous\" mean?",
+      "givenInfo": [
+        "Forgiving the debt"
+      ],
+      "conceptOrFormula": "Use the example.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Example",
+          "explanation": "Forgiving a debt is generous."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "Generous, noble in spirit."
+        }
+      ],
+      "finalAnswer": "Generous and noble-minded",
+      "whyItWorks": "The tone is positive.",
+      "commonTrap": "Choosing proud.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-vocab-in-context-3",
+      "title": "Tone",
+      "question": "The critics lauded the director's latest film. What does \"lauded\" mean?",
+      "givenInfo": [
+        "Critics, positive"
+      ],
+      "conceptOrFormula": "Use the tone.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Tone",
+          "explanation": "A director's film being \"lauded\" implies approval."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "Praised."
+        }
+      ],
+      "finalAnswer": "Praised",
+      "whyItWorks": "Ignored or banned would not suit \"lauded\".",
+      "commonTrap": "Choosing ignored.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Cover and replace",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Go by the word alone.",
+      "shortcutMethod": "Cover the word, guess the gap, then test each option by substitution; use tone and examples to decide."
+    },
+    "rulesForApplication": [
+      "Restatement is the clearest clue.",
+      "Contrast flips the tone.",
+      "Test by substitution.",
+      "Match positive/negative tone."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing the most common meaning",
+      "whyItHappens": "The sentence may use another sense.",
+      "howToAvoid": "Test in context."
+    },
+    {
+      "mistake": "Ignoring tone",
+      "whyItHappens": "Wrong sign.",
+      "howToAvoid": "Check positive/negative."
+    },
+    {
+      "mistake": "Picking a similar-sounding word",
+      "whyItHappens": "False friend.",
+      "howToAvoid": "Use the sentence, not the sound."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Drop options with the wrong tone.",
+    "questionSelectionAdvice": "Look at the words around the target for examples.",
+    "recruiterInsight": "You need not know the word if you know the sentence."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-vocab-in-context-e1",
+        "question": "The manager's candid feedback surprised the team.\n\nIn this sentence, the word \"candid\" is closest in meaning to",
+        "options": [
+          "secret",
+          "frank",
+          "polite",
+          "angry"
+        ],
+        "correctAnswer": "frank",
+        "explanation": "Feedback that surprises is likely to be direct and honest rather than the usual polite praise.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-vocab-in-context-e2",
+        "question": "The soldiers showed remarkable fortitude during the long siege.\n\nIn this sentence, the word \"fortitude\" is closest in meaning to",
+        "options": [
+          "courage in hardship",
+          "fear of danger",
+          "lack of discipline",
+          "cleverness in planning"
+        ],
+        "correctAnswer": "courage in hardship",
+        "explanation": "Showing fortitude during a long siege suggests strength under difficulty.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-vocab-in-context-e3",
+        "question": "The detective could find no evidence to corroborate the witness's story.\n\nIn this sentence, the word \"corroborate\" is closest in meaning to",
+        "options": [
+          "deny",
+          "copy",
+          "conceal",
+          "confirm"
+        ],
+        "correctAnswer": "confirm",
+        "explanation": "Evidence is needed to support or confirm a story.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-vocab-in-context-i7",
+        "question": "The politician's evasive reply failed to satisfy the reporters.\n\nIn this sentence, the word \"evasive\" is closest in meaning to",
+        "options": [
+          "avoiding a direct answer",
+          "truthful and complete",
+          "loud and angry",
+          "very long"
+        ],
+        "correctAnswer": "avoiding a direct answer",
+        "explanation": "A reply that fails to satisfy reporters is one that does not answer the question directly.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-vocab-in-context-i8",
+        "question": "Her magnanimous gesture, forgiving the debt, impressed everyone.\n\nIn this sentence, the word \"magnanimous\" is closest in meaning to",
+        "options": [
+          "proud and boastful",
+          "cunning",
+          "hasty",
+          "generous and noble-minded"
+        ],
+        "correctAnswer": "generous and noble-minded",
+        "explanation": "Forgiving a debt is generous, and the tone (impressed everyone) is positive.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-vocab-in-context-i9",
+        "question": "The ambiguous wording of the contract led to a dispute.\n\nIn this sentence, the word \"ambiguous\" is closest in meaning to",
+        "options": [
+          "very harsh",
+          "out of date",
+          "extremely long",
+          "open to more than one meaning"
+        ],
+        "correctAnswer": "open to more than one meaning",
+        "explanation": "A dispute about wording arises when it can be read in different ways.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-vocab-in-context-a15",
+        "question": "The lawyer tried to mitigate the harshness of the sentence.\n\nIn this sentence, the word \"mitigate\" is closest in meaning to",
+        "options": [
+          "increase",
+          "announce",
+          "lessen",
+          "delay"
+        ],
+        "correctAnswer": "lessen",
+        "explanation": "A lawyer would try to make a harsh sentence less severe.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-vocab-in-context-a16",
+        "question": "Her demeanour at the funeral was dignified and calm.\n\nIn this sentence, the word \"demeanour\" is closest in meaning to",
+        "options": [
+          "style of dress",
+          "way of behaving",
+          "choice of words",
+          "political opinion"
+        ],
+        "correctAnswer": "way of behaving",
+        "explanation": "\"Dignified and calm\" describes how she behaved.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-vocab-in-context-p17",
+        "question": "The report contained several spurious claims that could not be verified.\n\nIn this sentence, the word \"spurious\" is closest in meaning to",
+        "options": [
+          "important",
+          "false or not genuine",
+          "controversial",
+          "brief"
+        ],
+        "correctAnswer": "false or not genuine",
+        "explanation": "Claims that cannot be verified and are criticised are false or not genuine.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-vocab-in-context-p18",
+        "question": "The new law will only serve to exacerbate the problem.\n\nIn this sentence, the word \"exacerbate\" is closest in meaning to",
+        "options": [
+          "make worse",
+          "solve",
+          "hide",
+          "explain"
+        ],
+        "correctAnswer": "make worse",
+        "explanation": "\"Only serve to\" signals a negative effect on the problem: to make it worse.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-vocab-in-context-p19",
+        "question": "His arguments were so cogent that the opposition had no reply.\n\nIn this sentence, the word \"cogent\" is closest in meaning to",
+        "options": [
+          "long and loud",
+          "rude and insulting",
+          "vague",
+          "clear and convincing"
+        ],
+        "correctAnswer": "clear and convincing",
+        "explanation": "Arguments that leave the opposition without a reply are convincing and well-reasoned.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Substitution.",
+      "Restatement.",
+      "Contrast.",
+      "Tone.",
+      "Examples."
+    ],
+    "quickFormulas": [
+      "Cover, guess, test"
+    ]
+  },
+  "keyTakeaways": [
+    "Use context.",
+    "Match tone.",
+    "Substitute.",
+    "Check roots."
+  ],
+  "selfCheckQuestions": [
+    "Can I find a restatement clue?",
+    "Can I use tone?",
+    "Can I test by substitution?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

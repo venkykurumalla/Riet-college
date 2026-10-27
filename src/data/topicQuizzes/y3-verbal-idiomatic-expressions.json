@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-verbal-idiomatic-expressions",
+  "topicTitle": "Idiomatic Expressions and Phrases",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The speaker told a joke to break the ice at the start of the meeting.\n\nThe idiom \"break the ice\" in this sentence means",
+      "options": [
+        "stop the conversation",
+        "ease the tension and begin the conversation",
+        "make the room cold",
+        "end the meeting"
+      ],
+      "answerIndex": 1,
+      "explanation": "A joke at the start eases the awkwardness so that people can talk."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Passing the quiz was a piece of cake for her.\n\nThe idiom \"a piece of cake\" in this sentence means",
+      "options": [
+        "very easy",
+        "very sweet",
+        "a small prize",
+        "surprisingly difficult"
+      ],
+      "answerIndex": 0,
+      "explanation": "The idiom means something that is extremely easy to do."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "We go to that restaurant once in a blue moon.\n\nThe idiom \"once in a blue moon\" in this sentence means",
+      "options": [
+        "every month",
+        "at night",
+        "on holidays",
+        "very rarely"
+      ],
+      "answerIndex": 3,
+      "explanation": "It means very rarely, not literally on the occasion of a blue moon."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Please don't spill the beans about the surprise party.\n\nThe idiom \"spill the beans\" in this sentence means",
+      "options": [
+        "drop some food",
+        "cook for the party",
+        "reveal a secret",
+        "plan the party"
+      ],
+      "answerIndex": 2,
+      "explanation": "To spill the beans is to reveal a secret."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "I am feeling a bit under the weather today.\n\nThe idiom \"under the weather\" in this sentence means",
+      "options": [
+        "outside in the rain",
+        "very happy",
+        "slightly unwell",
+        "late for work"
+      ],
+      "answerIndex": 2,
+      "explanation": "It means feeling slightly ill."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "You hit the nail on the head when you said the problem was poor planning.\n\nThe idiom \"hit the nail on the head\" in this sentence means",
+      "options": [
+        "made a mistake",
+        "said exactly the right thing",
+        "did a carpentry job",
+        "got angry"
+      ],
+      "answerIndex": 1,
+      "explanation": "It means to be exactly right about something."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "She has been burning the midnight oil to finish her thesis.\n\nThe idiom \"burning the midnight oil\" in this sentence means",
+      "options": [
+        "working late into the night",
+        "wasting money on lamps",
+        "sleeping early",
+        "working in a factory"
+      ],
+      "answerIndex": 0,
+      "explanation": "It means working late at night."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "He decided to bite the bullet and tell his manager about the mistake.\n\nThe idiom \"bite the bullet\" in this sentence means",
+      "options": [
+        "refuse to speak",
+        "take a risk for fun",
+        "quit the job",
+        "face something unpleasant with courage"
+      ],
+      "answerIndex": 3,
+      "explanation": "It means to do something difficult or unpleasant that cannot be avoided."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The designer jewellery cost an arm and a leg.\n\nThe idiom \"cost an arm and a leg\" in this sentence means",
+      "options": [
+        "cause an injury",
+        "be cheap",
+        "be made of gold",
+        "be extremely expensive"
+      ],
+      "answerIndex": 3,
+      "explanation": "It means to cost a very large amount."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "I have sent you the offer; now the ball is in your court.\n\nThe idiom \"the ball is in your court\" in this sentence means",
+      "options": [
+        "you must play a sport",
+        "you have lost",
+        "it is your turn to act or decide",
+        "the matter is closed"
+      ],
+      "answerIndex": 2,
+      "explanation": "It means the next move belongs to you."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The builder was accused of cutting corners on the project.\n\nThe idiom \"cutting corners\" in this sentence means",
+      "options": [
+        "driving fast",
+        "doing something cheaply or carelessly to save time or money",
+        "making sharper designs",
+        "working very carefully"
+      ],
+      "answerIndex": 1,
+      "explanation": "It means skipping steps or standards to save effort or cost."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Stop beating around the bush and tell me what happened.\n\nThe idiom \"beating around the bush\" in this sentence means",
+      "options": [
+        "avoiding the main point",
+        "hunting animals",
+        "speaking loudly",
+        "telling the truth"
+      ],
+      "answerIndex": 0,
+      "explanation": "The speaker wants a direct answer, so the idiom means avoiding the point."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "On the question of moving to a new city, she is still on the fence.\n\nThe idiom \"on the fence\" in this sentence means",
+      "options": [
+        "undecided",
+        "angry",
+        "tired",
+        "careless"
+      ],
+      "answerIndex": 0,
+      "explanation": "It means not having made up one's mind."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The workers decided to call it a day when the rain started.\n\nThe idiom \"call it a day\" in this sentence means",
+      "options": [
+        "start a new day",
+        "cancel the job forever",
+        "celebrate",
+        "stop working for the day"
+      ],
+      "answerIndex": 3,
+      "explanation": "It means to stop working for the day."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "After three failed attempts, he threw in the towel.\n\nThe idiom \"threw in the towel\" in this sentence means",
+      "options": [
+        "started again",
+        "cleaned up",
+        "gave up",
+        "won the contest"
+      ],
+      "answerIndex": 2,
+      "explanation": "To throw in the towel is to give up."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Nobody mentioned the budget crisis, though it was the elephant in the room.\n\nThe idiom \"the elephant in the room\" in this sentence means",
+      "options": [
+        "a large animal",
+        "an obvious problem that no one wants to discuss",
+        "a funny incident",
+        "a minor detail"
+      ],
+      "answerIndex": 1,
+      "explanation": "It refers to a major issue that everyone knows about but avoids."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Losing that job turned out to be a blessing in disguise.\n\nThe idiom \"a blessing in disguise\" in this sentence means",
+      "options": [
+        "a hidden gift box",
+        "something that seems bad but turns out good",
+        "an unlucky event",
+        "a religious festival"
+      ],
+      "answerIndex": 1,
+      "explanation": "It describes a misfortune that brings an unexpected benefit."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "By quarrelling with every client, he burned his bridges in the industry.\n\nThe idiom \"burned his bridges\" in this sentence means",
+      "options": [
+        "destroyed the chance of returning or getting help",
+        "built new connections",
+        "travelled widely",
+        "saved money"
+      ],
+      "answerIndex": 0,
+      "explanation": "It means ruining relationships so that return is impossible."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "I don't believe it, but let me play devil's advocate and argue the other side.\n\nThe idiom \"play devil's advocate\" in this sentence means",
+      "options": [
+        "support the devil",
+        "tell a lie",
+        "become a lawyer",
+        "argue the opposite view for the sake of argument"
+      ],
+      "answerIndex": 3,
+      "explanation": "It means arguing against a view, often to test it, without necessarily believing the argument."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "If you think I took your pen, you are barking up the wrong tree.\n\nThe idiom \"barking up the wrong tree\" in this sentence means",
+      "options": [
+        "talking to a dog",
+        "telling a joke",
+        "making a mistake in what you are pursuing",
+        "planting a tree"
+      ],
+      "answerIndex": 2,
+      "explanation": "It means choosing the wrong course or blaming the wrong person."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/"
+}
