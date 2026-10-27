@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-avm-long-rc",
+  "topicTitle": "Long Reading Comprehension Passages",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nThe passage is mainly about",
+      "options": [
+        "the invention of printing",
+        "how every map is a selection made for a purpose",
+        "the accuracy of digital maps",
+        "the history of kings"
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage moves from political maps to selective modern maps and ends by advising readers to ask who made a map and why."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nAccording to the passage, the idea of a neutral map arose when",
+      "options": [
+        "printing made maps cheap and surveying made them accurate",
+        "rulers gave up their power",
+        "digital maps appeared",
+        "cartographers stopped selecting details"
+      ],
+      "answerIndex": 0,
+      "explanation": "The passage says \"Only when printing made maps cheap and surveying made them accurate\"."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nIn the passage, \"instrument\" is closest in meaning to",
+      "options": [
+        "song",
+        "toy",
+        "machine part",
+        "tool"
+      ],
+      "answerIndex": 3,
+      "explanation": "A map was a tool of power as well as of navigation."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nEconomists once assumed that information was always valuable: the more people knew, the better their decisions. The spread of cheap digital media has complicated this view. When messages arrive faster than anyone can read them, the scarce resource is no longer information but the attention needed to process it. Platforms compete for that attention with notifications, autoplay and endless feeds, and what they measure is time spent, which is easy to count, rather than benefit gained, which is not. The result is an uneven bargain. Users pay with attention and receive free services, yet the value of a minute of attention varies enormously: a minute spent learning a skill and a minute spent scrolling look the same on a usage chart. Some designers now argue for products that help users finish tasks and leave, measuring success by problems solved instead of hours held. Whether such products can survive against rivals that maximise engagement is an open question; much depends on whether users learn to value their own attention as highly as advertisers do.\n\nAccording to the passage, the scarce resource in the digital age is",
+      "options": [
+        "information",
+        "bandwidth",
+        "attention",
+        "advertising"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says the scarce resource is \"no longer information but the attention needed to process it\"."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nEconomists once assumed that information was always valuable: the more people knew, the better their decisions. The spread of cheap digital media has complicated this view. When messages arrive faster than anyone can read them, the scarce resource is no longer information but the attention needed to process it. Platforms compete for that attention with notifications, autoplay and endless feeds, and what they measure is time spent, which is easy to count, rather than benefit gained, which is not. The result is an uneven bargain. Users pay with attention and receive free services, yet the value of a minute of attention varies enormously: a minute spent learning a skill and a minute spent scrolling look the same on a usage chart. Some designers now argue for products that help users finish tasks and leave, measuring success by problems solved instead of hours held. Whether such products can survive against rivals that maximise engagement is an open question; much depends on whether users learn to value their own attention as highly as advertisers do.\n\nPlatforms measure",
+      "options": [
+        "problems solved",
+        "user happiness",
+        "time spent",
+        "skills learned"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says what they measure is time spent, which is easy to count."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nVisitors to historic towns often assume that old buildings survive because they were better built than modern ones. The truth is more selective. In any century most buildings are poorly made, and most of them vanish within a few generations. What survives is the small fraction that were well made, but also the fraction that remained useful. A sturdy warehouse that became a market, a church that kept its congregation and a palace that became a museum were all altered and repaired by people who needed them. A magnificent building with no purpose, by contrast, tends to decay however well it was built. Durability therefore comes from two sources: the strength of the structure and the willingness of later generations to keep paying for its upkeep. Conservationists who focus only on the first miss the second. A building is saved less by its stones than by the people who find a reason to use it.\n\nAccording to the passage, old buildings survive mainly because they",
+      "options": [
+        "were built by famous architects",
+        "were well made and remained useful",
+        "were cheap to demolish",
+        "were larger than modern buildings"
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage names two sources of durability: strong structure and continued use."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nWhich of the following is NOT mentioned as a selection made by a map?",
+      "options": [
+        "The colour of the paper used",
+        "Ignoring the height of hills",
+        "Enlarging museums",
+        "Leaving a rival town blank"
+      ],
+      "answerIndex": 0,
+      "explanation": "The road atlas, tourist map and rival-town examples are given; paper colour is not."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nIt can be inferred that digital maps",
+      "options": [
+        "show everything at every scale",
+        "are free from political influence",
+        "are less accurate than printed maps",
+        "still make choices, though the user does not see them"
+      ],
+      "answerIndex": 3,
+      "explanation": "The passage says the same choices are made invisibly by software."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nThe author's attitude towards maps is best described as",
+      "options": [
+        "hostile",
+        "amused",
+        "indifferent",
+        "thoughtful and cautionary"
+      ],
+      "answerIndex": 3,
+      "explanation": "The author explains how maps are made and advises the reader to question them."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nEconomists once assumed that information was always valuable: the more people knew, the better their decisions. The spread of cheap digital media has complicated this view. When messages arrive faster than anyone can read them, the scarce resource is no longer information but the attention needed to process it. Platforms compete for that attention with notifications, autoplay and endless feeds, and what they measure is time spent, which is easy to count, rather than benefit gained, which is not. The result is an uneven bargain. Users pay with attention and receive free services, yet the value of a minute of attention varies enormously: a minute spent learning a skill and a minute spent scrolling look the same on a usage chart. Some designers now argue for products that help users finish tasks and leave, measuring success by problems solved instead of hours held. Whether such products can survive against rivals that maximise engagement is an open question; much depends on whether users learn to value their own attention as highly as advertisers do.\n\nThe passage implies that a minute of attention",
+      "options": [
+        "is always wasted on platforms",
+        "is worth the same to everyone",
+        "has different value depending on how it is used",
+        "cannot be measured"
+      ],
+      "answerIndex": 2,
+      "explanation": "A minute learning and a minute scrolling look the same on a chart but are not worth the same."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nEconomists once assumed that information was always valuable: the more people knew, the better their decisions. The spread of cheap digital media has complicated this view. When messages arrive faster than anyone can read them, the scarce resource is no longer information but the attention needed to process it. Platforms compete for that attention with notifications, autoplay and endless feeds, and what they measure is time spent, which is easy to count, rather than benefit gained, which is not. The result is an uneven bargain. Users pay with attention and receive free services, yet the value of a minute of attention varies enormously: a minute spent learning a skill and a minute spent scrolling look the same on a usage chart. Some designers now argue for products that help users finish tasks and leave, measuring success by problems solved instead of hours held. Whether such products can survive against rivals that maximise engagement is an open question; much depends on whether users learn to value their own attention as highly as advertisers do.\n\nWhich statement would the author most likely agree with?",
+      "options": [
+        "Platforms should stop all notifications",
+        "Success of a digital product should be judged by problems solved, not just hours held",
+        "Information is always valuable",
+        "Users are solely to blame for lost attention"
+      ],
+      "answerIndex": 1,
+      "explanation": "The author reports designers who measure problems solved and treats the idea sympathetically."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nEconomists once assumed that information was always valuable: the more people knew, the better their decisions. The spread of cheap digital media has complicated this view. When messages arrive faster than anyone can read them, the scarce resource is no longer information but the attention needed to process it. Platforms compete for that attention with notifications, autoplay and endless feeds, and what they measure is time spent, which is easy to count, rather than benefit gained, which is not. The result is an uneven bargain. Users pay with attention and receive free services, yet the value of a minute of attention varies enormously: a minute spent learning a skill and a minute spent scrolling look the same on a usage chart. Some designers now argue for products that help users finish tasks and leave, measuring success by problems solved instead of hours held. Whether such products can survive against rivals that maximise engagement is an open question; much depends on whether users learn to value their own attention as highly as advertisers do.\n\nThe final sentence suggests that the future of attention-saving products depends on",
+      "options": [
+        "whether users value their own attention as highly as advertisers do",
+        "the number of users who pay fees",
+        "government rules",
+        "the cost of notifications"
+      ],
+      "answerIndex": 0,
+      "explanation": "The author says much depends on whether users learn to value their own attention as highly as advertisers do."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nVisitors to historic towns often assume that old buildings survive because they were better built than modern ones. The truth is more selective. In any century most buildings are poorly made, and most of them vanish within a few generations. What survives is the small fraction that were well made, but also the fraction that remained useful. A sturdy warehouse that became a market, a church that kept its congregation and a palace that became a museum were all altered and repaired by people who needed them. A magnificent building with no purpose, by contrast, tends to decay however well it was built. Durability therefore comes from two sources: the strength of the structure and the willingness of later generations to keep paying for its upkeep. Conservationists who focus only on the first miss the second. A building is saved less by its stones than by the people who find a reason to use it.\n\nThe passage implies that a magnificent building with no purpose",
+      "options": [
+        "is likely to decay",
+        "is certain to be rebuilt",
+        "will always be saved by conservationists",
+        "is cheap to maintain"
+      ],
+      "answerIndex": 0,
+      "explanation": "It says such a building tends to decay however well it was built."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nVisitors to historic towns often assume that old buildings survive because they were better built than modern ones. The truth is more selective. In any century most buildings are poorly made, and most of them vanish within a few generations. What survives is the small fraction that were well made, but also the fraction that remained useful. A sturdy warehouse that became a market, a church that kept its congregation and a palace that became a museum were all altered and repaired by people who needed them. A magnificent building with no purpose, by contrast, tends to decay however well it was built. Durability therefore comes from two sources: the strength of the structure and the willingness of later generations to keep paying for its upkeep. Conservationists who focus only on the first miss the second. A building is saved less by its stones than by the people who find a reason to use it.\n\nWhich of the following would the author say conservationists should also consider?",
+      "options": [
+        "The age of the stones alone",
+        "The fame of the architect",
+        "The number of tourists in a year",
+        "The willingness of people to pay for upkeep"
+      ],
+      "answerIndex": 3,
+      "explanation": "Conservationists who focus only on structure \"miss the second\" source: later generations' willingness to pay for upkeep."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nThe sentence \"ask who made this picture, and for what purpose\" mainly serves to",
+      "options": [
+        "introduce a new topic",
+        "criticise surveyors",
+        "give readers a practical habit of mind",
+        "describe a medieval custom"
+      ],
+      "answerIndex": 2,
+      "explanation": "It turns the analysis into a lesson for the reader."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nWhich of the following would weaken the author's claim that every map is a selection?",
+      "options": [
+        "A map that ignores hills",
+        "A map that shows every feature of the land at full detail",
+        "A map drawn by a ruler",
+        "A tourist map that enlarges museums"
+      ],
+      "answerIndex": 1,
+      "explanation": "A map with every feature would not be a selection, contradicting the claim."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nEconomists once assumed that information was always valuable: the more people knew, the better their decisions. The spread of cheap digital media has complicated this view. When messages arrive faster than anyone can read them, the scarce resource is no longer information but the attention needed to process it. Platforms compete for that attention with notifications, autoplay and endless feeds, and what they measure is time spent, which is easy to count, rather than benefit gained, which is not. The result is an uneven bargain. Users pay with attention and receive free services, yet the value of a minute of attention varies enormously: a minute spent learning a skill and a minute spent scrolling look the same on a usage chart. Some designers now argue for products that help users finish tasks and leave, measuring success by problems solved instead of hours held. Whether such products can survive against rivals that maximise engagement is an open question; much depends on whether users learn to value their own attention as highly as advertisers do.\n\nThe phrase \"uneven bargain\" implies that",
+      "options": [
+        "users receive more than they give",
+        "what users give and what they receive are not balanced",
+        "the services are expensive",
+        "advertisers lose from the arrangement"
+      ],
+      "answerIndex": 1,
+      "explanation": "Users pay with attention and receive free services whose value varies, so the exchange is not balanced."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nEconomists once assumed that information was always valuable: the more people knew, the better their decisions. The spread of cheap digital media has complicated this view. When messages arrive faster than anyone can read them, the scarce resource is no longer information but the attention needed to process it. Platforms compete for that attention with notifications, autoplay and endless feeds, and what they measure is time spent, which is easy to count, rather than benefit gained, which is not. The result is an uneven bargain. Users pay with attention and receive free services, yet the value of a minute of attention varies enormously: a minute spent learning a skill and a minute spent scrolling look the same on a usage chart. Some designers now argue for products that help users finish tasks and leave, measuring success by problems solved instead of hours held. Whether such products can survive against rivals that maximise engagement is an open question; much depends on whether users learn to value their own attention as highly as advertisers do.\n\nWhich assumption does the author make about \"engagement\" as a measure?",
+      "options": [
+        "It does not capture the benefit users gain",
+        "It is the best measure of success",
+        "It is hard to count",
+        "It always rises with good design"
+      ],
+      "answerIndex": 0,
+      "explanation": "The author contrasts time spent with benefit gained and says the latter is not measured."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nVisitors to historic towns often assume that old buildings survive because they were better built than modern ones. The truth is more selective. In any century most buildings are poorly made, and most of them vanish within a few generations. What survives is the small fraction that were well made, but also the fraction that remained useful. A sturdy warehouse that became a market, a church that kept its congregation and a palace that became a museum were all altered and repaired by people who needed them. A magnificent building with no purpose, by contrast, tends to decay however well it was built. Durability therefore comes from two sources: the strength of the structure and the willingness of later generations to keep paying for its upkeep. Conservationists who focus only on the first miss the second. A building is saved less by its stones than by the people who find a reason to use it.\n\nThe passage mainly argues that preserving old buildings requires",
+      "options": [
+        "replacing old stones",
+        "building new warehouses",
+        "reducing tourism",
+        "continued use as well as strong construction"
+      ],
+      "answerIndex": 3,
+      "explanation": "The last sentence says a building is saved less by its stones than by those who find a reason to use it."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nVisitors to historic towns often assume that old buildings survive because they were better built than modern ones. The truth is more selective. In any century most buildings are poorly made, and most of them vanish within a few generations. What survives is the small fraction that were well made, but also the fraction that remained useful. A sturdy warehouse that became a market, a church that kept its congregation and a palace that became a museum were all altered and repaired by people who needed them. A magnificent building with no purpose, by contrast, tends to decay however well it was built. Durability therefore comes from two sources: the strength of the structure and the willingness of later generations to keep paying for its upkeep. Conservationists who focus only on the first miss the second. A building is saved less by its stones than by the people who find a reason to use it.\n\nWhich of the following, if true, would support the author's view?",
+      "options": [
+        "Every old building is better built than a modern one",
+        "Conservation costs are falling",
+        "Well-built castles that lost all purpose fell into ruin while plain houses kept in use survive",
+        "Few people visit historic towns"
+      ],
+      "answerIndex": 2,
+      "explanation": "It shows that use, not quality alone, explains survival."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/comprehension/"
+}

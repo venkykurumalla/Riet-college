@@ -1,0 +1,419 @@
+{
+  "id": "y4-avm-long-rc",
+  "yearId": 4,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 14,
+  "title": "Long Reading Comprehension Passages",
+  "tagline": "Year 4 — Passages of 180–250 words: following an argument across paragraphs, with detail, inference, tone, purpose and vocabulary questions",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Long passages test stamina and structure-spotting. The authors argue, qualify and conclude, and the questions are built on those moves. The method is to read once for structure (claim, support, turn, conclusion), mark the turn words (but, yet, however, even then), and answer each question from the relevant lines rather than from memory. Wrong options typically exaggerate, reverse or add to what the passage says.",
+    "placementRelevance": "Long RC sets with 5–7 questions are the standard verbal item in advanced company tests.",
+    "realWorldContext": "Reading long reports and extracting the argument is a daily professional skill."
+  },
+  "learningObjectives": [
+    "Find the claim, support and turn in a long passage",
+    "Answer detail questions from the text",
+    "Make safe inferences",
+    "Identify purpose and tone",
+    "Reject exaggerated and reversed options"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Reading Comprehension — Long Passages (Year 3)",
+      "Inference-Based RC Questions"
+    ],
+    "quickRefresher": "A turn word (but, yet, however, even then) signals the author's real point or a qualification."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Claim: the main assertion of the passage.",
+      "Turn: a point where the argument qualifies or reverses.",
+      "Purpose: why the author wrote the passage (explain, argue, warn).",
+      "Exaggeration: an option stronger than the text.",
+      "Reversal: an option that states the opposite."
+    ],
+    "theoreticalIntuition": "A long passage is a short argument with illustrations. Find the argument, and the illustrations explain themselves.",
+    "visualOrMentalModel": "Mark the first-sentence claim, the turn word and the last sentence. Those three usually carry the answers to main-idea and purpose questions."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Claim–support–turn",
+      "formula": "Locate in one reading",
+      "description": "All passages.",
+      "whenToUse": "Structure.",
+      "simpleExample": "Maps: power → selection → purpose"
+    },
+    {
+      "title": "Detail questions",
+      "formula": "Return to the line",
+      "description": "Detail.",
+      "whenToUse": "Evidence.",
+      "simpleExample": "Printing and surveying"
+    },
+    {
+      "title": "Inference",
+      "formula": "Must follow from stated facts",
+      "description": "Inference.",
+      "whenToUse": "Support.",
+      "simpleExample": "Digital maps make choices"
+    },
+    {
+      "title": "Tone",
+      "formula": "Check qualifiers and word choice",
+      "description": "Attitude.",
+      "whenToUse": "Style.",
+      "simpleExample": "Measured, critical"
+    },
+    {
+      "title": "Elimination",
+      "formula": "Drop exaggerations and reversals",
+      "description": "All.",
+      "whenToUse": "Filter.",
+      "simpleExample": "Always, never, only"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "In the passage on maps the claim is that maps are selections made for purposes. The support is the history (power) and the examples (road atlas, geological map). The turn is \"Even then the idea was never fully realised\". The conclusion is the advice to ask who made the picture and why.",
+      "A detail question such as \"When did the idea of a neutral map arise?\" is answered by one line: when printing made maps cheap and surveying made them accurate.",
+      "An inference: digital maps make hidden choices, because software decides which names appear at which scale. The passage does not say digital maps are worse.",
+      "In the attention passage the turn is \"The result is an uneven bargain\". The author is analytical, not hostile to technology, and ends with an open question.",
+      "In the buildings passage, the claim is that survival depends on use as well as construction. The final sentence restates it: a building is saved by people who find a reason to use it."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Last sentences",
+        "content": "In argumentative passages the last sentence often restates the main point in memorable form."
+      },
+      {
+        "title": "Open endings",
+        "content": "An author who ends with an open question has not taken a firm side on it."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Main idea",
+      "description": "Whole passage.",
+      "exampleSnippet": "Maps are selections"
+    },
+    {
+      "typeName": "Detail",
+      "description": "Single line.",
+      "exampleSnippet": "Printing and surveying"
+    },
+    {
+      "typeName": "Inference",
+      "description": "Supported implication.",
+      "exampleSnippet": "Digital choices"
+    },
+    {
+      "typeName": "Tone",
+      "description": "Attitude.",
+      "exampleSnippet": "Measured"
+    },
+    {
+      "typeName": "Purpose",
+      "description": "Why written.",
+      "exampleSnippet": "To advise readers"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-avm-long-rc-1",
+      "title": "Main idea",
+      "question": "A passage says maps record the choices of those who made them and advises readers to ask who made a map and why. What is its main idea?",
+      "givenInfo": [
+        "Maps and choices"
+      ],
+      "conceptOrFormula": "Cover the whole.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Point",
+          "explanation": "Maps are selective and purposeful."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Option",
+          "explanation": "Choose the one that says no map is neutral."
+        }
+      ],
+      "finalAnswer": "Every map is a selection made for a purpose",
+      "whyItWorks": "Not only about history.",
+      "commonTrap": "Choosing a detail.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-avm-long-rc-2",
+      "title": "Detail",
+      "question": "According to the passage, when did the idea of a map that simply describes the world arise?",
+      "givenInfo": [
+        "Printing, surveying"
+      ],
+      "conceptOrFormula": "Go to the line.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the line",
+          "explanation": "Look for the sentence about a map that simply describes the world."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Read it",
+          "explanation": "\"Only when printing made maps cheap and surveying made them accurate\"."
+        }
+      ],
+      "finalAnswer": "When printing made maps cheap and surveying made them accurate",
+      "whyItWorks": "Both conditions.",
+      "commonTrap": "Naming only printing.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-avm-long-rc-3",
+      "title": "Tone",
+      "question": "On attention platforms, the author says \"The result is an uneven bargain\". What is the tone?",
+      "givenInfo": [
+        "Analytical"
+      ],
+      "conceptOrFormula": "Word choice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Words",
+          "explanation": "\"Uneven\" is critical but measured."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Attitude",
+          "explanation": "Analytical."
+        }
+      ],
+      "finalAnswer": "Analytical and mildly critical",
+      "whyItWorks": "Not hostile.",
+      "commonTrap": "Choosing angry.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Claim, turn, close",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Read every word equally.",
+      "shortcutMethod": "Mark claim, turn and closing sentence in one reading and go back to lines for details."
+    },
+    "rulesForApplication": [
+      "Find the turn word.",
+      "Use the last sentence.",
+      "Check the line.",
+      "Reject exaggeration."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Answering from memory",
+      "whyItHappens": "Misquotes.",
+      "howToAvoid": "Return to the line."
+    },
+    {
+      "mistake": "Choosing a true but irrelevant option",
+      "whyItHappens": "Out of scope.",
+      "howToAvoid": "Stay in the passage."
+    },
+    {
+      "mistake": "Missing the turn word",
+      "whyItHappens": "Wrong emphasis.",
+      "howToAvoid": "Mark but/yet/however."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 200,
+    "eliminationTechnique": "Options with always, never or only are usually wrong.",
+    "questionSelectionAdvice": "Do vocabulary questions first.",
+    "recruiterInsight": "The passage rarely asks you to agree, only to follow."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-avm-long-rc-e1",
+        "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nThe passage is mainly about",
+        "options": [
+          "the invention of printing",
+          "how every map is a selection made for a purpose",
+          "the accuracy of digital maps",
+          "the history of kings"
+        ],
+        "correctAnswer": "how every map is a selection made for a purpose",
+        "explanation": "The passage moves from political maps to selective modern maps and ends by advising readers to ask who made a map and why.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-avm-long-rc-e2",
+        "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nAccording to the passage, the idea of a neutral map arose when",
+        "options": [
+          "printing made maps cheap and surveying made them accurate",
+          "rulers gave up their power",
+          "digital maps appeared",
+          "cartographers stopped selecting details"
+        ],
+        "correctAnswer": "printing made maps cheap and surveying made them accurate",
+        "explanation": "The passage says \"Only when printing made maps cheap and surveying made them accurate\".",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-avm-long-rc-e3",
+        "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nIn the passage, \"instrument\" is closest in meaning to",
+        "options": [
+          "song",
+          "toy",
+          "machine part",
+          "tool"
+        ],
+        "correctAnswer": "tool",
+        "explanation": "A map was a tool of power as well as of navigation.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-avm-long-rc-i7",
+        "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nWhich of the following is NOT mentioned as a selection made by a map?",
+        "options": [
+          "The colour of the paper used",
+          "Ignoring the height of hills",
+          "Enlarging museums",
+          "Leaving a rival town blank"
+        ],
+        "correctAnswer": "The colour of the paper used",
+        "explanation": "The road atlas, tourist map and rival-town examples are given; paper colour is not.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-avm-long-rc-i8",
+        "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nIt can be inferred that digital maps",
+        "options": [
+          "show everything at every scale",
+          "are free from political influence",
+          "are less accurate than printed maps",
+          "still make choices, though the user does not see them"
+        ],
+        "correctAnswer": "still make choices, though the user does not see them",
+        "explanation": "The passage says the same choices are made invisibly by software.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-avm-long-rc-i9",
+        "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nThe author's attitude towards maps is best described as",
+        "options": [
+          "hostile",
+          "amused",
+          "indifferent",
+          "thoughtful and cautionary"
+        ],
+        "correctAnswer": "thoughtful and cautionary",
+        "explanation": "The author explains how maps are made and advises the reader to question them.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-avm-long-rc-a15",
+        "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nThe sentence \"ask who made this picture, and for what purpose\" mainly serves to",
+        "options": [
+          "introduce a new topic",
+          "criticise surveyors",
+          "give readers a practical habit of mind",
+          "describe a medieval custom"
+        ],
+        "correctAnswer": "give readers a practical habit of mind",
+        "explanation": "It turns the analysis into a lesson for the reader.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-long-rc-a16",
+        "question": "Read the passage and answer the question.\n\nFor most of history, a map was an instrument of power as much as of navigation. Rulers commissioned maps to record the land they claimed, and the decisions about what to show were political. A river might be drawn larger than life because it marked a border; a rival's town might be left blank. Only when printing made maps cheap and surveying made them accurate did the idea arise that a map should simply describe the world. Even then the idea was never fully realised. Every map is a selection: a road atlas ignores the height of hills, a geological map ignores the roads, and a tourist map enlarges the museums. The cartographer's real skill lies not in showing everything but in deciding what to leave out. Modern digital maps seem to have solved the problem by letting the user zoom, but the same choices are made invisibly by software that decides which names appear at which scale. The lesson for any reader of maps is the same as it was for the courtiers of old: ask who made this picture, and for what purpose.\n\nWhich of the following would weaken the author's claim that every map is a selection?",
+        "options": [
+          "A map that ignores hills",
+          "A map that shows every feature of the land at full detail",
+          "A map drawn by a ruler",
+          "A tourist map that enlarges museums"
+        ],
+        "correctAnswer": "A map that shows every feature of the land at full detail",
+        "explanation": "A map with every feature would not be a selection, contradicting the claim.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-avm-long-rc-p17",
+        "question": "Read the passage and answer the question.\n\nEconomists once assumed that information was always valuable: the more people knew, the better their decisions. The spread of cheap digital media has complicated this view. When messages arrive faster than anyone can read them, the scarce resource is no longer information but the attention needed to process it. Platforms compete for that attention with notifications, autoplay and endless feeds, and what they measure is time spent, which is easy to count, rather than benefit gained, which is not. The result is an uneven bargain. Users pay with attention and receive free services, yet the value of a minute of attention varies enormously: a minute spent learning a skill and a minute spent scrolling look the same on a usage chart. Some designers now argue for products that help users finish tasks and leave, measuring success by problems solved instead of hours held. Whether such products can survive against rivals that maximise engagement is an open question; much depends on whether users learn to value their own attention as highly as advertisers do.\n\nThe phrase \"uneven bargain\" implies that",
+        "options": [
+          "users receive more than they give",
+          "what users give and what they receive are not balanced",
+          "the services are expensive",
+          "advertisers lose from the arrangement"
+        ],
+        "correctAnswer": "what users give and what they receive are not balanced",
+        "explanation": "Users pay with attention and receive free services whose value varies, so the exchange is not balanced.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-long-rc-p18",
+        "question": "Read the passage and answer the question.\n\nEconomists once assumed that information was always valuable: the more people knew, the better their decisions. The spread of cheap digital media has complicated this view. When messages arrive faster than anyone can read them, the scarce resource is no longer information but the attention needed to process it. Platforms compete for that attention with notifications, autoplay and endless feeds, and what they measure is time spent, which is easy to count, rather than benefit gained, which is not. The result is an uneven bargain. Users pay with attention and receive free services, yet the value of a minute of attention varies enormously: a minute spent learning a skill and a minute spent scrolling look the same on a usage chart. Some designers now argue for products that help users finish tasks and leave, measuring success by problems solved instead of hours held. Whether such products can survive against rivals that maximise engagement is an open question; much depends on whether users learn to value their own attention as highly as advertisers do.\n\nWhich assumption does the author make about \"engagement\" as a measure?",
+        "options": [
+          "It does not capture the benefit users gain",
+          "It is the best measure of success",
+          "It is hard to count",
+          "It always rises with good design"
+        ],
+        "correctAnswer": "It does not capture the benefit users gain",
+        "explanation": "The author contrasts time spent with benefit gained and says the latter is not measured.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-long-rc-p19",
+        "question": "Read the passage and answer the question.\n\nVisitors to historic towns often assume that old buildings survive because they were better built than modern ones. The truth is more selective. In any century most buildings are poorly made, and most of them vanish within a few generations. What survives is the small fraction that were well made, but also the fraction that remained useful. A sturdy warehouse that became a market, a church that kept its congregation and a palace that became a museum were all altered and repaired by people who needed them. A magnificent building with no purpose, by contrast, tends to decay however well it was built. Durability therefore comes from two sources: the strength of the structure and the willingness of later generations to keep paying for its upkeep. Conservationists who focus only on the first miss the second. A building is saved less by its stones than by the people who find a reason to use it.\n\nThe passage mainly argues that preserving old buildings requires",
+        "options": [
+          "replacing old stones",
+          "building new warehouses",
+          "reducing tourism",
+          "continued use as well as strong construction"
+        ],
+        "correctAnswer": "continued use as well as strong construction",
+        "explanation": "The last sentence says a building is saved less by its stones than by those who find a reason to use it.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Structure.",
+      "Details.",
+      "Inference.",
+      "Tone.",
+      "Elimination."
+    ],
+    "quickFormulas": [
+      "Claim, support, turn, conclusion"
+    ]
+  },
+  "keyTakeaways": [
+    "Structure.",
+    "Evidence.",
+    "Qualifiers.",
+    "Scope."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the turn?",
+    "Can I check a line?",
+    "Can I reject exaggeration?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}
