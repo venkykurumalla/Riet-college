@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-verbal-argument-evaluation",
+  "topicTitle": "Argument Evaluation in Verbal Problems",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Anil: The city should plant more trees because they reduce heat. Bina: That is a poor idea, because trees are expensive.\n\nBina's reply is weak because it",
+      "options": [
+        "is based on an unreliable survey",
+        "does not show that the cost outweighs the benefit Anil mentions",
+        "attacks Anil personally",
+        "agrees with Anil's main point"
+      ],
+      "answerIndex": 1,
+      "explanation": "A cost is raised, but without showing it exceeds the benefit of cooler streets."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A speaker argues that the library should extend its opening hours.\n\nWhich of the following would be irrelevant to the argument?",
+      "options": [
+        "The library's roof was repaired last year.",
+        "Many students need a quiet place to study in the evening.",
+        "Office workers can only visit after 5 p.m.",
+        "Membership has risen by 20% this year."
+      ],
+      "answerIndex": 0,
+      "explanation": "The roof repair has no bearing on opening hours; the other statements concern demand for evening use."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Meera: The festival should move to the summer, because the weather is better then. Naveen: It should stay in winter, because that is when tourists are on holiday.\n\nThe point at issue between Meera and Naveen is",
+      "options": [
+        "whether the weather is better in summer",
+        "whether tourists like festivals",
+        "whether the festival should be cancelled",
+        "which season is best for the festival"
+      ],
+      "answerIndex": 3,
+      "explanation": "They give opposite answers about the best season; the weather and tourist claims are their reasons, not the disagreement itself."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Four arguments are offered for giving senior citizens a free bus pass.\n\nWhich of the following is the most convincing?",
+      "options": [
+        "Senior citizens deserve it because they are old.",
+        "Everyone likes free things.",
+        "In a similar city a trial raised senior citizens' bus trips by 40% and reduced their car journeys.",
+        "Other cities have done it."
+      ],
+      "answerIndex": 2,
+      "explanation": "The trial gives specific, relevant evidence of the intended effect. The others are vague or appeal to popularity."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Sales of sunscreen rose by 30% in June, while hours of sunshine rose by 25%.\n\nWhich conclusion is best supported?",
+      "options": [
+        "Sunscreen causes more sunshine.",
+        "Sunshine hours are the only reason for sales.",
+        "Increased sunshine may be one reason for the rise in sunscreen sales.",
+        "Sunscreen sales will fall in July."
+      ],
+      "answerIndex": 2,
+      "explanation": "The two figures rise together, so a link is plausible; the other options claim too much or go beyond the data."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Millions of people use the Zing app, so it must be safe.\n\nThe reasoning is flawed because it",
+      "options": [
+        "uses an expert who is biased",
+        "assumes that popularity proves safety",
+        "attacks the app's critics",
+        "relies on a very small sample"
+      ],
+      "answerIndex": 1,
+      "explanation": "The number of users does not show that the app is safe."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Dr Rao's report on pollution cannot be trusted because he once failed an examination.\n\nThis argument commits the error of",
+      "options": [
+        "attacking the person instead of the evidence",
+        "assuming what it sets out to prove",
+        "offering only two options",
+        "misrepresenting the report"
+      ],
+      "answerIndex": 0,
+      "explanation": "It dismisses the report because of the author's past, not because of its contents: ad hominem."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "We must either ban all cars from the city or accept constant traffic jams.\n\nThe argument is flawed because it",
+      "options": [
+        "uses a biased sample",
+        "attacks the opponent",
+        "relies on popularity",
+        "ignores other options such as better public transport"
+      ],
+      "answerIndex": 3,
+      "explanation": "It offers only two options when others exist: a false dilemma."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Critic: The company should reduce its plastic packaging. Manager: The critic wants us to stop packaging our products altogether, which is absurd.\n\nThe manager's reply is flawed because it",
+      "options": [
+        "attacks the critic personally",
+        "offers only two options",
+        "depends on the popularity of the product",
+        "misrepresents the critic's position"
+      ],
+      "answerIndex": 3,
+      "explanation": "The critic asked for a reduction, not an end to packaging: a straw man."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Two of my neighbours were rude to me, so people in this town are rude.\n\nThe flaw in this reasoning is that it",
+      "options": [
+        "attacks the neighbours",
+        "assumes what it proves",
+        "generalises from too few cases",
+        "offers a false dilemma"
+      ],
+      "answerIndex": 2,
+      "explanation": "Two cases do not justify a statement about a whole town: hasty generalisation."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The report is reliable because it was written by a reliable analyst, and we know the analyst is reliable because his reports are reliable.\n\nThe reasoning is flawed because it",
+      "options": [
+        "attacks the analyst",
+        "uses its conclusion as support for itself",
+        "offers only two options",
+        "misreads the report"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reliability of the report and of the analyst are used to prove each other: circular reasoning."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "If we allow calculators in this test, soon they will be used in every exam and students will forget arithmetic altogether.\n\nThe argument is flawed because it",
+      "options": [
+        "assumes a chain of extreme consequences without evidence",
+        "relies on a single example",
+        "attacks the examiner",
+        "offers a false dilemma"
+      ],
+      "answerIndex": 0,
+      "explanation": "It leaps from one permission to extreme results with no evidence for the steps: slippery slope."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Hospitals have more sick people than anywhere else, so hospitals make people sick.\n\nThe flaw is that the argument",
+      "options": [
+        "reverses cause and effect",
+        "uses too large a sample",
+        "attacks the hospitals",
+        "appeals to authority"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sick people go to hospitals; hospitals do not make them sick."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A school wants to know whether a new teaching method works.\n\nWhich piece of evidence would help most?",
+      "options": [
+        "The number of teachers who like the new method",
+        "The cost of the new textbooks",
+        "Praise from the principal",
+        "A comparison of test scores of similar students taught by the old and new methods"
+      ],
+      "answerIndex": 3,
+      "explanation": "A comparison of similar groups isolates the effect of the method."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Speaker 1: Our city's air quality improved after the odd-even car rule began, so the rule works. Speaker 2: In the same period the winds were stronger than in earlier years, and wind clears pollution.\n\nWhich of the following would best help decide who is right?",
+      "options": [
+        "The number of cars owned in the first city",
+        "The opinions of motorists in the first city",
+        "The air quality of a similar city that had the same winds but no odd-even rule",
+        "The number of days the rule was in force"
+      ],
+      "answerIndex": 2,
+      "explanation": "A comparison city with the same winds but no rule separates the effect of the rule from the effect of the wind."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "\"Every time I wash my car, it rains, so washing my car causes rain.\"\n\nWhich of the following arguments is most similar in its reasoning?",
+      "options": [
+        "All umbrellas keep people dry, so Meena's umbrella keeps her dry.",
+        "Every time Meena brings her umbrella, it rains, so Meena's umbrella causes rain.",
+        "It rains in monsoon, and this is the monsoon, so it will rain.",
+        "Meena brings an umbrella only when rain is forecast."
+      ],
+      "answerIndex": 1,
+      "explanation": "Both infer a cause from a repeated coincidence; the other arguments are valid or use different reasoning."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The company should not hire Sam, because he was dismissed from his last job.\n\nWhich principle underlies the argument?",
+      "options": [
+        "Everyone deserves a second chance.",
+        "A past dismissal is a good reason not to hire someone.",
+        "Dismissal is always unfair.",
+        "Companies should hire only experienced people."
+      ],
+      "answerIndex": 1,
+      "explanation": "The argument treats a past dismissal as a sufficient reason against hiring."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "An advertisement says: \"Our batteries last 20% longer.\"\n\nWhich question would best test this claim?",
+      "options": [
+        "Longer than what?",
+        "Who designed the packaging?",
+        "How many shops sell the batteries?",
+        "What colour are the batteries?"
+      ],
+      "answerIndex": 0,
+      "explanation": "The claim is meaningless without a comparison, so the first question is \"longer than what?\"."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Two reasons are given for recommending a fitness app. I. It has a million downloads. II. In a 12-week trial, users who followed its plan lost an average of 4 kg more than a control group.\n\nWhich of the following is correct?",
+      "options": [
+        "Only reason I is strong evidence",
+        "Both reasons are equally strong evidence",
+        "Neither reason is relevant to effectiveness",
+        "Only reason II is strong evidence of effectiveness"
+      ],
+      "answerIndex": 3,
+      "explanation": "Downloads show popularity; the trial compares users with a control group and so measures the effect."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "\"The city should not build a new stadium. The stadium would cost 500 crore. The city's roads are in poor condition. So the money should be spent on repairing them.\"\n\nThe statement \"The stadium would cost 500 crore\" plays the role of",
+      "options": [
+        "the main conclusion",
+        "a counter-argument",
+        "a premise supporting the conclusion that the money should go to roads",
+        "an irrelevant detail"
+      ],
+      "answerIndex": 2,
+      "explanation": "It is a supporting premise for the final recommendation."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/"
+}

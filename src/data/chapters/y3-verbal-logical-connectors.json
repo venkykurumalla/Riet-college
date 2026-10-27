@@ -1,0 +1,419 @@
+{
+  "id": "y3-verbal-logical-connectors",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 57,
+  "title": "Logical Connectors in Written Discourse",
+  "tagline": "Year 3 — Words that signal addition, contrast, cause, result, condition and sequence between ideas",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Connectors (however, therefore, although, unless, moreover) tell the reader how two ideas are related. The same two clauses can say different things depending on the connector: adding, contrasting, giving a reason, giving a result, or setting a condition. Questions ask you to supply the connector that makes the relationship logical. The method is to name the relationship first, then pick the word that expresses it.",
+    "placementRelevance": "Connector questions are common in the verbal sections of company tests and also guide para jumbles and completions.",
+    "realWorldContext": "Choosing the right connector decides whether an email reads as logical or confused."
+  },
+  "learningObjectives": [
+    "Classify relationships: addition, contrast, cause, result, condition, time",
+    "Distinguish conjunctions from sentence adverbs and prepositions",
+    "Handle paired connectors (not only… but also; neither… nor)",
+    "Use punctuation as a clue (semicolon + however)",
+    "Check grammar after the connector"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Sentence Correction",
+      "Para Jumbles"
+    ],
+    "quickRefresher": "A relationship comes first, the word second. Ask: do these two ideas agree, oppose, explain or follow?"
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Addition: moreover, furthermore, in addition.",
+      "Contrast: however, nevertheless, although, whereas, on the other hand, in contrast.",
+      "Cause: because, since, as, due to, because of.",
+      "Result: therefore, consequently, as a result, hence.",
+      "Condition: if, unless, provided that, otherwise."
+    ],
+    "theoreticalIntuition": "The connector is a road sign. It tells you whether the next idea continues in the same direction, turns against it, explains it or follows from it.",
+    "visualOrMentalModel": "Name the relationship between the two parts. Then choose the connector of that type, and check grammar: after \"although\" a clause, after \"despite\" a noun."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Contrast",
+      "formula": "Although + clause; Despite + noun",
+      "description": "Opposite ideas.",
+      "whenToUse": "Grammar check.",
+      "simpleExample": "Despite his illness"
+    },
+    {
+      "title": "Cause/result",
+      "formula": "Because + clause; because of + noun",
+      "description": "Reasons.",
+      "whenToUse": "Grammar check.",
+      "simpleExample": "Because of a shortage"
+    },
+    {
+      "title": "Condition",
+      "formula": "Unless = if not; otherwise = or else",
+      "description": "Warnings.",
+      "whenToUse": "Logic check.",
+      "simpleExample": "Unless you study"
+    },
+    {
+      "title": "Pairs",
+      "formula": "Not only… but also; neither… nor; hardly… when",
+      "description": "Fixed.",
+      "whenToUse": "Memorise.",
+      "simpleExample": "Neither… nor"
+    },
+    {
+      "title": "Punctuation",
+      "formula": "; however, / ; therefore, ",
+      "description": "Sentence adverbs.",
+      "whenToUse": "Clue.",
+      "simpleExample": "Semicolon before however"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "\"The roads were flooded; ______, the schools remained closed.\" The second idea is the result of the first, so the connector is therefore (a result word).",
+      "\"She was tired; ______, she finished the report.\" The second idea goes against what tiredness would suggest, so the connector is nevertheless (contrast).",
+      "\"______ his illness, he attended the meeting.\" After a connector that introduces a noun phrase, use despite. \"Because of\" would give a reason, but the sentence shows contrast.",
+      "\"You will not pass ______ you study seriously.\" The meaning is \"if you do not study seriously\", so unless is correct.",
+      "Pairs are fixed: not only… but also; neither… nor; hardly… when; no sooner… than. Choose the second part to match the first."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Conjunction vs adverb",
+        "content": "Although joins clauses in one sentence; however starts a new clause after a semicolon or full stop."
+      },
+      {
+        "title": "Preposition vs conjunction",
+        "content": "Despite and because of take nouns; although and because take clauses."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Result",
+      "description": "Therefore, consequently.",
+      "exampleSnippet": "Flood and closed schools"
+    },
+    {
+      "typeName": "Contrast",
+      "description": "Nevertheless, whereas.",
+      "exampleSnippet": "Tired but finished"
+    },
+    {
+      "typeName": "Condition",
+      "description": "Unless, otherwise.",
+      "exampleSnippet": "Study or fail"
+    },
+    {
+      "typeName": "Noun vs clause",
+      "description": "Despite vs although.",
+      "exampleSnippet": "Illness and meeting"
+    },
+    {
+      "typeName": "Fixed pairs",
+      "description": "Neither… nor.",
+      "exampleSnippet": "Manager and clerks"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-logical-connectors-1",
+      "title": "Result",
+      "question": "The roads were flooded; ______, the schools remained closed. Which connector fits?",
+      "givenInfo": [
+        "Cause then effect"
+      ],
+      "conceptOrFormula": "Name the relationship.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Relationship",
+          "explanation": "The second idea is the result of the first."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Connector",
+          "explanation": "Therefore."
+        }
+      ],
+      "finalAnswer": "therefore",
+      "whyItWorks": "However would suggest contrast.",
+      "commonTrap": "Choosing however.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-logical-connectors-2",
+      "title": "Noun vs clause",
+      "question": "______ his illness, he attended the meeting. Despite or Although?",
+      "givenInfo": [
+        "Noun phrase follows"
+      ],
+      "conceptOrFormula": "Check grammar.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Grammar",
+          "explanation": "A noun phrase (his illness) follows."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Connector",
+          "explanation": "Despite takes a noun phrase."
+        }
+      ],
+      "finalAnswer": "Despite",
+      "whyItWorks": "Although needs a clause.",
+      "commonTrap": "Choosing Although.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-logical-connectors-3",
+      "title": "Condition",
+      "question": "You will not pass ______ you study seriously. Which connector fits?",
+      "givenInfo": [
+        "Warning"
+      ],
+      "conceptOrFormula": "Paraphrase.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Meaning",
+          "explanation": "If you do not study seriously, you will not pass."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Connector",
+          "explanation": "Unless."
+        }
+      ],
+      "finalAnswer": "unless",
+      "whyItWorks": "If would reverse the sense.",
+      "commonTrap": "Choosing if.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Name it, then pick it",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Pick what sounds natural.",
+      "shortcutMethod": "Name the relationship (add, contrast, cause, result, condition), then choose the connector of that type that fits the grammar."
+    },
+    "rulesForApplication": [
+      "Result: therefore.",
+      "Contrast: however, nevertheless.",
+      "Condition: unless, otherwise.",
+      "Noun after despite."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using a result word for a contrast",
+      "whyItHappens": "Wrong direction.",
+      "howToAvoid": "Name the relationship first."
+    },
+    {
+      "mistake": "Using although with a noun",
+      "whyItHappens": "Grammar error.",
+      "howToAvoid": "Use despite."
+    },
+    {
+      "mistake": "Choosing if instead of unless",
+      "whyItHappens": "Reverses meaning.",
+      "howToAvoid": "Paraphrase with not."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 25,
+    "eliminationTechnique": "Eliminate connectors of the wrong type first.",
+    "questionSelectionAdvice": "Read the sentence without the blank to find the relationship.",
+    "recruiterInsight": "Punctuation hints: a semicolon often precedes however or therefore."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-logical-connectors-e1",
+        "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nThe roads were flooded; ______, the schools remained closed.\n\nWhich option is correct?",
+        "options": [
+          "however",
+          "therefore",
+          "although",
+          "unless"
+        ],
+        "correctAnswer": "therefore",
+        "explanation": "The closing of the schools is the result of the flooding, so a result connector fits.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-logical-connectors-e2",
+        "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nShe was tired; ______, she finished the report.\n\nWhich option is correct?",
+        "options": [
+          "nevertheless",
+          "therefore",
+          "because",
+          "moreover"
+        ],
+        "correctAnswer": "nevertheless",
+        "explanation": "Finishing the report goes against what tiredness would suggest, so a contrast connector fits.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-logical-connectors-e3",
+        "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\n______ it was raining, the match went ahead.\n\nWhich option is correct?",
+        "options": [
+          "Because",
+          "Unless",
+          "So",
+          "Although"
+        ],
+        "correctAnswer": "Although",
+        "explanation": "The match going ahead contrasts with the rain, so a concession connector fits.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-logical-connectors-i7",
+        "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nRavi is outgoing, ______ his brother is shy.\n\nWhich option is correct?",
+        "options": [
+          "whereas",
+          "because",
+          "therefore",
+          "unless"
+        ],
+        "correctAnswer": "whereas",
+        "explanation": "The two ideas are set against each other, so a contrast conjunction fits.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-logical-connectors-i8",
+        "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nTake an umbrella; ______, you may get wet.\n\nWhich option is correct?",
+        "options": [
+          "moreover",
+          "hence",
+          "since",
+          "otherwise"
+        ],
+        "correctAnswer": "otherwise",
+        "explanation": "\"Otherwise\" means \"if you do not\", which explains the consequence of not taking an umbrella.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-logical-connectors-i9",
+        "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\n______ his illness, he attended the meeting.\n\nWhich option is correct?",
+        "options": [
+          "Because of",
+          "Due to",
+          "Owing to",
+          "Despite"
+        ],
+        "correctAnswer": "Despite",
+        "explanation": "Attending the meeting contrasts with being ill, and a noun phrase follows, so despite fits.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-logical-connectors-a15",
+        "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\n______ the team played well, they lost the match; ______, they did not lose heart.\n\nWhich option is correct?",
+        "options": [
+          "Because … therefore",
+          "Unless … otherwise",
+          "Although … nevertheless",
+          "Since … however"
+        ],
+        "correctAnswer": "Although … nevertheless",
+        "explanation": "Playing well and losing contrast (although); not losing heart despite the loss is another contrast (nevertheless).",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-logical-connectors-a16",
+        "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nThe price was low; ______, the quality was poor. ______, customers bought it in large numbers.\n\nWhich option is correct?",
+        "options": [
+          "Therefore … Moreover",
+          "However … Nevertheless",
+          "Moreover … Because",
+          "Since … Unless"
+        ],
+        "correctAnswer": "However … Nevertheless",
+        "explanation": "Low price against poor quality is a contrast (however); buying in large numbers despite poor quality is another contrast (nevertheless).",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-logical-connectors-p17",
+        "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nHe is not only intelligent ______ also hardworking.\n\nWhich option is correct?",
+        "options": [
+          "and",
+          "but",
+          "or",
+          "nor"
+        ],
+        "correctAnswer": "but",
+        "explanation": "\"Not only… but also\" is a fixed pair.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-logical-connectors-p18",
+        "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nNeither the manager ______ the clerks knew about the change.\n\nWhich option is correct?",
+        "options": [
+          "nor",
+          "or",
+          "and",
+          "but"
+        ],
+        "correctAnswer": "nor",
+        "explanation": "\"Neither… nor\" is a fixed pair.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-logical-connectors-p19",
+        "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\n______ you apologise, she will not speak to you.\n\nWhich option is correct?",
+        "options": [
+          "Although",
+          "Because",
+          "Whereas",
+          "Unless"
+        ],
+        "correctAnswer": "Unless",
+        "explanation": "The meaning is \"if you do not apologise, she will not speak to you\".",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Addition.",
+      "Contrast.",
+      "Cause.",
+      "Result.",
+      "Condition."
+    ],
+    "quickFormulas": [
+      "Despite + noun; although + clause"
+    ]
+  },
+  "keyTakeaways": [
+    "Name the relationship.",
+    "Check grammar.",
+    "Learn pairs.",
+    "Paraphrase with not."
+  ],
+  "selfCheckQuestions": [
+    "Can I tell cause from result?",
+    "Can I choose despite or although?",
+    "Can I use unless?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

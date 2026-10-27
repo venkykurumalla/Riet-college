@@ -1,0 +1,419 @@
+{
+  "id": "y3-verbal-argument-evaluation",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 58,
+  "title": "Argument Evaluation in Verbal Problems",
+  "tagline": "Year 3 — Judging the quality of arguments: fallacies, relevance, evidence, points at issue and principles",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Argument evaluation asks you to judge reasoning as a whole: whether a reply answers the point, which statement is irrelevant, what two speakers actually disagree about, which argument is most convincing, and which common fallacy a piece of reasoning commits. It extends the strengthen-weaken skills by naming the errors, so that you can recognise them quickly in new contexts.",
+    "placementRelevance": "These items appear in the verbal sections of management and campus tests.",
+    "realWorldContext": "Weighing a proposal in a meeting or a claim in an advertisement uses the same skills."
+  },
+  "learningObjectives": [
+    "Name common fallacies (ad hominem, straw man, false dilemma, circularity, slippery slope)",
+    "Find the point at issue between two speakers",
+    "Spot irrelevant statements",
+    "Choose the argument with the best evidence",
+    "Identify the role of a statement in an argument"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Critical Reasoning in Verbal Context",
+      "Statements and Arguments"
+    ],
+    "quickRefresher": "A good argument has relevant, true premises and a conclusion that follows from them."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Ad hominem: attacking the person instead of the argument.",
+      "Straw man: misrepresenting a position so that it is easy to attack.",
+      "False dilemma: presenting only two options when more exist.",
+      "Circular reasoning: using the conclusion as a premise.",
+      "Slippery slope: claiming a chain of consequences without evidence."
+    ],
+    "theoreticalIntuition": "Ask what the argument proves, what it assumes, and what it leaves out. A fallacy is a systematic way of failing at one of these.",
+    "visualOrMentalModel": "Identify the conclusion, the premises, and the move from one to the other. Then ask which fallacy label, if any, describes the move."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Ad hominem",
+      "formula": "Person attacked, not the claim",
+      "description": "Personal criticism.",
+      "whenToUse": "Label.",
+      "simpleExample": "He once failed an exam"
+    },
+    {
+      "title": "Straw man",
+      "formula": "Distorted version attacked",
+      "description": "Rebuttals.",
+      "whenToUse": "Label.",
+      "simpleExample": "Stop packaging altogether"
+    },
+    {
+      "title": "False dilemma",
+      "formula": "Only A or B offered",
+      "description": "Either/or.",
+      "whenToUse": "Label.",
+      "simpleExample": "Ban cars or accept jams"
+    },
+    {
+      "title": "Circularity",
+      "formula": "Conclusion used as premise",
+      "description": "Self-support.",
+      "whenToUse": "Label.",
+      "simpleExample": "Reliable because reliable"
+    },
+    {
+      "title": "Point at issue",
+      "formula": "Where the speakers disagree",
+      "description": "Dialogue.",
+      "whenToUse": "Compare claims.",
+      "simpleExample": "Best season"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "\"Dr Rao's report on pollution cannot be trusted because he once failed an examination.\" The argument attacks the person rather than the report, which is an ad hominem fallacy.",
+      "\"We must either ban all cars from the city or accept constant traffic jams.\" There are other options such as better public transport or congestion charges, so this is a false dilemma.",
+      "\"The critic wants us to stop packaging our products altogether, which is absurd.\" The critic only asked to reduce plastic packaging, so this misrepresents the position: a straw man.",
+      "When two speakers disagree, the point at issue is the claim about which they give opposite answers. In \"move the festival to summer because the weather is better\" versus \"keep it in winter because tourists are on holiday\", the issue is which season is best.",
+      "The best evidence compares like with like: a trial with a control group beats popularity, authority or \"other places do it\"."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Irrelevance",
+        "content": "A statement can be true and still irrelevant; check the link to the conclusion."
+      },
+      {
+        "title": "Principle questions",
+        "content": "To find the principle behind an argument, generalise its reasoning in one sentence."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Fallacy naming",
+      "description": "Match the label.",
+      "exampleSnippet": "Straw man"
+    },
+    {
+      "typeName": "Point at issue",
+      "description": "Opposite answers.",
+      "exampleSnippet": "Best season"
+    },
+    {
+      "typeName": "Irrelevant statement",
+      "description": "No link to conclusion.",
+      "exampleSnippet": "Roof repaired"
+    },
+    {
+      "typeName": "Evidence strength",
+      "description": "Trials over popularity.",
+      "exampleSnippet": "Control group"
+    },
+    {
+      "typeName": "Role of a statement",
+      "description": "Premise or conclusion.",
+      "exampleSnippet": "Stadium cost"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-argument-evaluation-1",
+      "title": "Ad hominem",
+      "question": "\"Dr Rao's report on pollution cannot be trusted because he once failed an examination.\" What is the fallacy?",
+      "givenInfo": [
+        "Personal attack"
+      ],
+      "conceptOrFormula": "Name the move.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Move",
+          "explanation": "Attacks the author, not the report."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Label",
+          "explanation": "Ad hominem."
+        }
+      ],
+      "finalAnswer": "It attacks the person instead of the argument",
+      "whyItWorks": "The report's evidence is not discussed.",
+      "commonTrap": "Calling it a straw man.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-argument-evaluation-2",
+      "title": "False dilemma",
+      "question": "\"We must either ban all cars or accept constant traffic jams.\" What is wrong?",
+      "givenInfo": [
+        "Two options only"
+      ],
+      "conceptOrFormula": "Look for others.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Other options",
+          "explanation": "Public transport, congestion charges."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Label",
+          "explanation": "False dilemma."
+        }
+      ],
+      "finalAnswer": "It presents only two options when others exist",
+      "whyItWorks": "The choices are not exhaustive.",
+      "commonTrap": "Accepting the dilemma.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-argument-evaluation-3",
+      "title": "Evidence",
+      "question": "Which is stronger evidence for a fitness app: \"a million downloads\" or \"a controlled trial where users lost 4 kg more than a control group\"?",
+      "givenInfo": [
+        "Popularity vs trial"
+      ],
+      "conceptOrFormula": "Compare like with like.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Downloads",
+          "explanation": "Show popularity, not effect."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Trial",
+          "explanation": "Shows effect compared with a control."
+        }
+      ],
+      "finalAnswer": "The controlled trial",
+      "whyItWorks": "Popularity is not proof.",
+      "commonTrap": "Choosing the downloads.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Name the move",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Argue back.",
+      "shortcutMethod": "Find the conclusion, find the move, name the fallacy; for evidence questions prefer controlled comparisons."
+    },
+    "rulesForApplication": [
+      "Person ≠ argument.",
+      "Check for other options.",
+      "Check if a rebuttal distorts.",
+      "Prefer trials to popularity."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Judging by agreement",
+      "whyItHappens": "Bias.",
+      "howToAvoid": "Judge reasoning, not conclusion."
+    },
+    {
+      "mistake": "Calling every weak argument a fallacy",
+      "whyItHappens": "Over-labelling.",
+      "howToAvoid": "Name only the actual move."
+    },
+    {
+      "mistake": "Ignoring irrelevance",
+      "whyItHappens": "True but off-topic.",
+      "howToAvoid": "Check the link."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 75,
+    "eliminationTechnique": "Eliminate options that restate the argument.",
+    "questionSelectionAdvice": "Learn the five fallacy labels well.",
+    "recruiterInsight": "The best evidence is specific, comparative and relevant."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-argument-evaluation-e1",
+        "question": "Anil: The city should plant more trees because they reduce heat. Bina: That is a poor idea, because trees are expensive.\n\nBina's reply is weak because it",
+        "options": [
+          "is based on an unreliable survey",
+          "does not show that the cost outweighs the benefit Anil mentions",
+          "attacks Anil personally",
+          "agrees with Anil's main point"
+        ],
+        "correctAnswer": "does not show that the cost outweighs the benefit Anil mentions",
+        "explanation": "A cost is raised, but without showing it exceeds the benefit of cooler streets.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-argument-evaluation-e2",
+        "question": "A speaker argues that the library should extend its opening hours.\n\nWhich of the following would be irrelevant to the argument?",
+        "options": [
+          "The library's roof was repaired last year.",
+          "Many students need a quiet place to study in the evening.",
+          "Office workers can only visit after 5 p.m.",
+          "Membership has risen by 20% this year."
+        ],
+        "correctAnswer": "The library's roof was repaired last year.",
+        "explanation": "The roof repair has no bearing on opening hours; the other statements concern demand for evening use.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-argument-evaluation-e3",
+        "question": "Meera: The festival should move to the summer, because the weather is better then. Naveen: It should stay in winter, because that is when tourists are on holiday.\n\nThe point at issue between Meera and Naveen is",
+        "options": [
+          "whether the weather is better in summer",
+          "whether tourists like festivals",
+          "whether the festival should be cancelled",
+          "which season is best for the festival"
+        ],
+        "correctAnswer": "which season is best for the festival",
+        "explanation": "They give opposite answers about the best season; the weather and tourist claims are their reasons, not the disagreement itself.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-argument-evaluation-i7",
+        "question": "Dr Rao's report on pollution cannot be trusted because he once failed an examination.\n\nThis argument commits the error of",
+        "options": [
+          "attacking the person instead of the evidence",
+          "assuming what it sets out to prove",
+          "offering only two options",
+          "misrepresenting the report"
+        ],
+        "correctAnswer": "attacking the person instead of the evidence",
+        "explanation": "It dismisses the report because of the author's past, not because of its contents: ad hominem.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-argument-evaluation-i8",
+        "question": "We must either ban all cars from the city or accept constant traffic jams.\n\nThe argument is flawed because it",
+        "options": [
+          "uses a biased sample",
+          "attacks the opponent",
+          "relies on popularity",
+          "ignores other options such as better public transport"
+        ],
+        "correctAnswer": "ignores other options such as better public transport",
+        "explanation": "It offers only two options when others exist: a false dilemma.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-argument-evaluation-i9",
+        "question": "Critic: The company should reduce its plastic packaging. Manager: The critic wants us to stop packaging our products altogether, which is absurd.\n\nThe manager's reply is flawed because it",
+        "options": [
+          "attacks the critic personally",
+          "offers only two options",
+          "depends on the popularity of the product",
+          "misrepresents the critic's position"
+        ],
+        "correctAnswer": "misrepresents the critic's position",
+        "explanation": "The critic asked for a reduction, not an end to packaging: a straw man.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-argument-evaluation-a15",
+        "question": "Speaker 1: Our city's air quality improved after the odd-even car rule began, so the rule works. Speaker 2: In the same period the winds were stronger than in earlier years, and wind clears pollution.\n\nWhich of the following would best help decide who is right?",
+        "options": [
+          "The number of cars owned in the first city",
+          "The opinions of motorists in the first city",
+          "The air quality of a similar city that had the same winds but no odd-even rule",
+          "The number of days the rule was in force"
+        ],
+        "correctAnswer": "The air quality of a similar city that had the same winds but no odd-even rule",
+        "explanation": "A comparison city with the same winds but no rule separates the effect of the rule from the effect of the wind.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-argument-evaluation-a16",
+        "question": "\"Every time I wash my car, it rains, so washing my car causes rain.\"\n\nWhich of the following arguments is most similar in its reasoning?",
+        "options": [
+          "All umbrellas keep people dry, so Meena's umbrella keeps her dry.",
+          "Every time Meena brings her umbrella, it rains, so Meena's umbrella causes rain.",
+          "It rains in monsoon, and this is the monsoon, so it will rain.",
+          "Meena brings an umbrella only when rain is forecast."
+        ],
+        "correctAnswer": "Every time Meena brings her umbrella, it rains, so Meena's umbrella causes rain.",
+        "explanation": "Both infer a cause from a repeated coincidence; the other arguments are valid or use different reasoning.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-argument-evaluation-p17",
+        "question": "The company should not hire Sam, because he was dismissed from his last job.\n\nWhich principle underlies the argument?",
+        "options": [
+          "Everyone deserves a second chance.",
+          "A past dismissal is a good reason not to hire someone.",
+          "Dismissal is always unfair.",
+          "Companies should hire only experienced people."
+        ],
+        "correctAnswer": "A past dismissal is a good reason not to hire someone.",
+        "explanation": "The argument treats a past dismissal as a sufficient reason against hiring.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-argument-evaluation-p18",
+        "question": "An advertisement says: \"Our batteries last 20% longer.\"\n\nWhich question would best test this claim?",
+        "options": [
+          "Longer than what?",
+          "Who designed the packaging?",
+          "How many shops sell the batteries?",
+          "What colour are the batteries?"
+        ],
+        "correctAnswer": "Longer than what?",
+        "explanation": "The claim is meaningless without a comparison, so the first question is \"longer than what?\".",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-argument-evaluation-p19",
+        "question": "Two reasons are given for recommending a fitness app. I. It has a million downloads. II. In a 12-week trial, users who followed its plan lost an average of 4 kg more than a control group.\n\nWhich of the following is correct?",
+        "options": [
+          "Only reason I is strong evidence",
+          "Both reasons are equally strong evidence",
+          "Neither reason is relevant to effectiveness",
+          "Only reason II is strong evidence of effectiveness"
+        ],
+        "correctAnswer": "Only reason II is strong evidence of effectiveness",
+        "explanation": "Downloads show popularity; the trial compares users with a control group and so measures the effect.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Fallacy labels.",
+      "Point at issue.",
+      "Irrelevance.",
+      "Evidence strength.",
+      "Statement roles."
+    ],
+    "quickFormulas": [
+      "Name the move"
+    ]
+  },
+  "keyTakeaways": [
+    "Find the move.",
+    "Name the label.",
+    "Compare evidence.",
+    "Check relevance."
+  ],
+  "selfCheckQuestions": [
+    "Can I name five fallacies?",
+    "Can I find the point at issue?",
+    "Can I rank evidence?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

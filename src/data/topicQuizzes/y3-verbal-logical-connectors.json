@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-verbal-logical-connectors",
+  "topicTitle": "Logical Connectors in Written Discourse",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nThe roads were flooded; ______, the schools remained closed.\n\nWhich option is correct?",
+      "options": [
+        "however",
+        "therefore",
+        "although",
+        "unless"
+      ],
+      "answerIndex": 1,
+      "explanation": "The closing of the schools is the result of the flooding, so a result connector fits."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nShe was tired; ______, she finished the report.\n\nWhich option is correct?",
+      "options": [
+        "nevertheless",
+        "therefore",
+        "because",
+        "moreover"
+      ],
+      "answerIndex": 0,
+      "explanation": "Finishing the report goes against what tiredness would suggest, so a contrast connector fits."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\n______ it was raining, the match went ahead.\n\nWhich option is correct?",
+      "options": [
+        "Because",
+        "Unless",
+        "So",
+        "Although"
+      ],
+      "answerIndex": 3,
+      "explanation": "The match going ahead contrasts with the rain, so a concession connector fits."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nYou will not pass ______ you study seriously.\n\nWhich option is correct?",
+      "options": [
+        "if",
+        "because",
+        "unless",
+        "although"
+      ],
+      "answerIndex": 2,
+      "explanation": "The meaning is \"if you do not study seriously you will not pass\", which is expressed by unless."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nHe missed the bus ______ he woke up late.\n\nWhich option is correct?",
+      "options": [
+        "although",
+        "unless",
+        "because",
+        "however"
+      ],
+      "answerIndex": 2,
+      "explanation": "Waking up late is the reason he missed the bus."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nThe shop sells books; ______, it offers stationery.\n\nWhich option is correct?",
+      "options": [
+        "however",
+        "moreover",
+        "otherwise",
+        "despite"
+      ],
+      "answerIndex": 1,
+      "explanation": "The second idea adds to the first, so an addition connector fits."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nRavi is outgoing, ______ his brother is shy.\n\nWhich option is correct?",
+      "options": [
+        "whereas",
+        "because",
+        "therefore",
+        "unless"
+      ],
+      "answerIndex": 0,
+      "explanation": "The two ideas are set against each other, so a contrast conjunction fits."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nTake an umbrella; ______, you may get wet.\n\nWhich option is correct?",
+      "options": [
+        "moreover",
+        "hence",
+        "since",
+        "otherwise"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Otherwise\" means \"if you do not\", which explains the consequence of not taking an umbrella."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\n______ his illness, he attended the meeting.\n\nWhich option is correct?",
+      "options": [
+        "Because of",
+        "Due to",
+        "Owing to",
+        "Despite"
+      ],
+      "answerIndex": 3,
+      "explanation": "Attending the meeting contrasts with being ill, and a noun phrase follows, so despite fits."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nThe company will hire more staff ______ sales continue to grow.\n\nWhich option is correct?",
+      "options": [
+        "even though",
+        "unless",
+        "provided that",
+        "whereas"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hiring depends on sales growing, which is a condition."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nShe works hard ______ she may achieve her goals.\n\nWhich option is correct?",
+      "options": [
+        "although",
+        "so that",
+        "unless",
+        "whereas"
+      ],
+      "answerIndex": 1,
+      "explanation": "Working hard is the means to an end, which \"so that\" expresses."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nThe project was delayed ______ a shortage of materials.\n\nWhich option is correct?",
+      "options": [
+        "because of",
+        "although",
+        "despite",
+        "unless"
+      ],
+      "answerIndex": 0,
+      "explanation": "A noun phrase (a shortage of materials) gives the reason for the delay."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nThe first plan was costly; the second, ______, was cheap and effective.\n\nWhich option is correct?",
+      "options": [
+        "on the other hand",
+        "as a result",
+        "for instance",
+        "similarly"
+      ],
+      "answerIndex": 0,
+      "explanation": "The second plan is contrasted with the first."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nHe had not studied at all; ______, he failed the test.\n\nWhich option is correct?",
+      "options": [
+        "however",
+        "in contrast",
+        "although",
+        "as a result"
+      ],
+      "answerIndex": 3,
+      "explanation": "Failing is the consequence of not studying."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\n______ the team played well, they lost the match; ______, they did not lose heart.\n\nWhich option is correct?",
+      "options": [
+        "Because … therefore",
+        "Unless … otherwise",
+        "Although … nevertheless",
+        "Since … however"
+      ],
+      "answerIndex": 2,
+      "explanation": "Playing well and losing contrast (although); not losing heart despite the loss is another contrast (nevertheless)."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nThe price was low; ______, the quality was poor. ______, customers bought it in large numbers.\n\nWhich option is correct?",
+      "options": [
+        "Therefore … Moreover",
+        "However … Nevertheless",
+        "Moreover … Because",
+        "Since … Unless"
+      ],
+      "answerIndex": 1,
+      "explanation": "Low price against poor quality is a contrast (however); buying in large numbers despite poor quality is another contrast (nevertheless)."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nHe is not only intelligent ______ also hardworking.\n\nWhich option is correct?",
+      "options": [
+        "and",
+        "but",
+        "or",
+        "nor"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"Not only… but also\" is a fixed pair."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nNeither the manager ______ the clerks knew about the change.\n\nWhich option is correct?",
+      "options": [
+        "nor",
+        "or",
+        "and",
+        "but"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Neither… nor\" is a fixed pair."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\n______ you apologise, she will not speak to you.\n\nWhich option is correct?",
+      "options": [
+        "Although",
+        "Because",
+        "Whereas",
+        "Unless"
+      ],
+      "answerIndex": 3,
+      "explanation": "The meaning is \"if you do not apologise, she will not speak to you\"."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the connector (or pair of connectors) that best fills the blank(s).\n\nHardly had we reached home ______ it started to rain.\n\nWhich option is correct?",
+      "options": [
+        "than",
+        "while",
+        "when",
+        "until"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Hardly… when\" is the fixed correlative pair; \"no sooner… than\" is the other."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/"
+}
