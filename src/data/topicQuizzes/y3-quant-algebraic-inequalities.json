@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-algebraic-inequalities",
+  "topicTitle": "Algebraic Inequalities",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The solution of 3x − 5 < 10 is",
+      "options": [
+        "x > 5",
+        "x < 5",
+        "x < 15",
+        "x > 15/3 + 1"
+      ],
+      "answerIndex": 1,
+      "explanation": "3x < 15, so x < 5."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The solution of −2x < 6 is",
+      "options": [
+        "x > −3",
+        "x < −3",
+        "x > 3",
+        "x < 3"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dividing by −2 reverses the sign: x > −3."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The number of positive integers satisfying 2x + 3 < 12 is",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "answerIndex": 3,
+      "explanation": "2x < 9, so x < 4.5 and x = 1, 2, 3, 4: 4 integers."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The solution of |x| < 4 is",
+      "options": [
+        "x < 4",
+        "x < −4 or x > 4",
+        "−4 < x < 4",
+        "x > −4"
+      ],
+      "answerIndex": 2,
+      "explanation": "|x| < 4 means −4 < x < 4."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The solution of |x − 3| < 2 is",
+      "options": [
+        "x < 1 or x > 5",
+        "−1 < x < 5",
+        "1 < x < 5",
+        "1 < x < 3"
+      ],
+      "answerIndex": 2,
+      "explanation": "a − b < x < a + b gives 1 < x < 5."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "If x > 2 and y > 3, then which of the following must be true?",
+      "options": [
+        "x + y < 5",
+        "x + y > 5",
+        "xy < 6",
+        "x − y > −1"
+      ],
+      "answerIndex": 1,
+      "explanation": "Adding the inequalities gives x + y > 5."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The solution of x² − 5x + 6 < 0 is",
+      "options": [
+        "2 < x < 3",
+        "x < 2 or x > 3",
+        "x > 3",
+        "x < 2"
+      ],
+      "answerIndex": 0,
+      "explanation": "(x − 2)(x − 3) < 0 holds between the roots: 2 < x < 3."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The solution of x² − 5x + 6 > 0 is",
+      "options": [
+        "2 < x < 3",
+        "x > 2",
+        "x < 3",
+        "x < 2 or x > 3"
+      ],
+      "answerIndex": 3,
+      "explanation": "The product is positive outside the roots: x < 2 or x > 3."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The number of integers satisfying x² − 7x + 10 < 0 is",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "answerIndex": 3,
+      "explanation": "(x − 2)(x − 5) < 0 gives 2 < x < 5, so x = 3, 4: 2 integers."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The number of integers satisfying |x − 4| ≤ 3 is",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "answerIndex": 2,
+      "explanation": "1 ≤ x ≤ 7, which has 7 integers."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The solution of x² < 16 is",
+      "options": [
+        "x < 4",
+        "−4 < x < 4",
+        "x > −4",
+        "x < −4 or x > 4"
+      ],
+      "answerIndex": 1,
+      "explanation": "x² < 16 gives |x| < 4, so −4 < x < 4."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The number of integers x with −3 < x ≤ 4 is",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "The integers are −2, −1, 0, 1, 2, 3, 4: 7 integers."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "If x + y = 20 and x, y > 0, the maximum value of xy is",
+      "options": [
+        "100",
+        "99",
+        "120",
+        "400"
+      ],
+      "answerIndex": 0,
+      "explanation": "The maximum is at x = y = 10, so xy = 100."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "If xy = 36 and x, y > 0, the minimum value of x + y is",
+      "options": [
+        "13",
+        "10",
+        "37",
+        "12"
+      ],
+      "answerIndex": 3,
+      "explanation": "AM-GM: x + y ≥ 2√36 = 12."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The solution of (x − 1)(x − 4) ≤ 0 is",
+      "options": [
+        "x ≤ 1 or x ≥ 4",
+        "1 < x < 4",
+        "1 ≤ x ≤ 4",
+        "x ≥ 1"
+      ],
+      "answerIndex": 2,
+      "explanation": "The product is zero or negative between the roots, endpoints included: 1 ≤ x ≤ 4."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The solution of x/(x − 2) > 1 is",
+      "options": [
+        "x < 2",
+        "x > 2",
+        "x > 0",
+        "x < 0"
+      ],
+      "answerIndex": 1,
+      "explanation": "x/(x − 2) − 1 = 2/(x − 2) > 0, so x − 2 > 0, giving x > 2."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The number of integer solutions of |2x − 3| < 7 is",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "−7 < 2x − 3 < 7 gives −2 < x < 5, so x = −1, 0, 1, 2, 3, 4: 6 integers."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The minimum value of x + 4/x for x > 0 is",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "AM-GM: x + 4/x ≥ 2√4 = 4, at x = 2."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The solution of |x − 2| > 3 is",
+      "options": [
+        "−1 < x < 5",
+        "x > 5",
+        "x < −1",
+        "x < −1 or x > 5"
+      ],
+      "answerIndex": 3,
+      "explanation": "x − 2 < −3 or x − 2 > 3, so x < −1 or x > 5."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "For how many integers x does x² − 2x − 8 ≤ 0 hold?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "answerIndex": 2,
+      "explanation": "(x − 4)(x + 2) ≤ 0 gives −2 ≤ x ≤ 4, which has 7 integers."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
+}

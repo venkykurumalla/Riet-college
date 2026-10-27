@@ -1,0 +1,420 @@
+{
+  "id": "y3-quant-adv-polynomial-equations",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 18,
+  "title": "Advanced Polynomial Equations",
+  "tagline": "Year 3 — Sum and product of roots, factor and remainder theorems, higher-degree equations and root relations",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Year 2 solved quadratics by factorising and by the formula. Year 3 looks at the relations between roots and coefficients (Vieta), the remainder and factor theorems for higher-degree polynomials, and equations whose roots are linked by a condition. The relations let you answer questions about the roots without finding them.",
+    "placementRelevance": "Questions such as \"if α and β are the roots of …, find α² + β²\" and \"find k so that x − 1 is a factor\" are standard in written aptitude tests.",
+    "realWorldContext": "Polynomial models in engineering, signal processing and curve fitting rely on root relations."
+  },
+  "learningObjectives": [
+    "Use sum and product of roots",
+    "Find α² + β², α³ + β³ and |α − β|",
+    "Form an equation from given roots",
+    "Apply the remainder and factor theorems",
+    "Handle cubic roots relations"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Quadratic Equations",
+      "Algebraic Inequalities"
+    ],
+    "quickRefresher": "For ax² + bx + c = 0 with roots α and β: α + β = −b/a and αβ = c/a."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Sum of roots of a quadratic: −b/a. Product: c/a.",
+      "Cubic ax³ + bx² + cx + d: Σα = −b/a, Σαβ = c/a, αβγ = −d/a.",
+      "Remainder theorem: the remainder of P(x) divided by (x − a) is P(a).",
+      "Factor theorem: (x − a) is a factor of P(x) exactly when P(a) = 0.",
+      "Discriminant D = b² − 4ac decides the nature of the roots."
+    ],
+    "theoreticalIntuition": "The coefficients are symmetric combinations of the roots, so any symmetric expression in the roots can be rewritten using only the sum and the product.",
+    "visualOrMentalModel": "Write the sum S and product P first. Then rewrite the target: α² + β² = S² − 2P, α³ + β³ = S³ − 3SP, (α − β)² = S² − 4P."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Quadratic roots",
+      "formula": "S = −b/a, P = c/a",
+      "description": "ax² + bx + c = 0.",
+      "whenToUse": "Always.",
+      "simpleExample": "x² − 5x + 6: S = 5, P = 6"
+    },
+    {
+      "title": "Square sum",
+      "formula": "α² + β² = S² − 2P",
+      "description": "From (α + β)².",
+      "whenToUse": "Target is symmetric.",
+      "simpleExample": "25 − 12 = 13"
+    },
+    {
+      "title": "Cube sum",
+      "formula": "α³ + β³ = S³ − 3SP",
+      "description": "Identity.",
+      "whenToUse": "Cubes of roots.",
+      "simpleExample": "125 − 90 = 35"
+    },
+    {
+      "title": "New equation",
+      "formula": "x² − Sx + P = 0",
+      "description": "Given S and P.",
+      "whenToUse": "Forming an equation.",
+      "simpleExample": "Roots 2 and 3: x² − 5x + 6"
+    },
+    {
+      "title": "Remainder theorem",
+      "formula": "Remainder = P(a)",
+      "description": "Divisor (x − a).",
+      "whenToUse": "Remainders.",
+      "simpleExample": "P(x) = x³ − 2x + 1 by (x − 2): 5"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Take x² − 5x + 6 = 0. The sum of roots is 5 and the product is 6 without solving. Then α² + β² = 25 − 12 = 13 and α³ + β³ = 125 − 90 = 35.",
+      "To form an equation from roots, use x² − (sum)x + product = 0. Roots 2 and −3 give sum −1 and product −6, so x² + x − 6 = 0.",
+      "The remainder theorem says the remainder of P(x) on division by (x − a) is P(a). For P(x) = x³ − 2x + 1 divided by (x − 2), P(2) = 8 − 4 + 1 = 5.",
+      "The factor theorem is the special case P(a) = 0. If (x − 1) is a factor of x³ + kx² − 4x + 2 then 1 + k − 4 + 2 = 0, so k = 1.",
+      "For a cubic, the three relations are Σα = −b/a, Σαβ = c/a and αβγ = −d/a. For x³ − 6x² + 11x − 6 = 0 the roots sum to 6, pairs sum to 11 and the product is 6, giving roots 1, 2, 3."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Nature of roots",
+        "content": "D > 0 gives two real distinct roots, D = 0 equal roots, D < 0 no real roots."
+      },
+      {
+        "title": "Reciprocal roots",
+        "content": "If roots are the reciprocals of α and β, the new equation is obtained by replacing x with 1/x."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Symmetric expression",
+      "description": "Use S and P.",
+      "exampleSnippet": "α² + β²"
+    },
+    {
+      "typeName": "Form equation",
+      "description": "x² − Sx + P.",
+      "exampleSnippet": "Roots 2, −3"
+    },
+    {
+      "typeName": "Remainder",
+      "description": "Evaluate P(a).",
+      "exampleSnippet": "x³ − 2x + 1"
+    },
+    {
+      "typeName": "Factor condition",
+      "description": "P(a) = 0.",
+      "exampleSnippet": "Find k"
+    },
+    {
+      "typeName": "Cubic",
+      "description": "Three relations.",
+      "exampleSnippet": "x³ − 6x² + 11x − 6"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-adv-polynomial-equations-1",
+      "title": "Symmetric expression",
+      "question": "If α and β are the roots of x² − 7x + 10 = 0, find α² + β².",
+      "givenInfo": [
+        "x² − 7x + 10 = 0"
+      ],
+      "conceptOrFormula": "S² − 2P.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "S and P",
+          "explanation": "S = 7, P = 10."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Square sum",
+          "explanation": "49 − 20 = 29."
+        }
+      ],
+      "finalAnswer": "29",
+      "whyItWorks": "No need to find the roots 2 and 5, though 4 + 25 = 29 checks it.",
+      "commonTrap": "Using S² only.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-adv-polynomial-equations-2",
+      "title": "Factor theorem",
+      "question": "Find k so that (x − 2) is a factor of x³ − 3x² + kx + 2.",
+      "givenInfo": [
+        "P(2) = 0"
+      ],
+      "conceptOrFormula": "Factor theorem.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Substitute",
+          "explanation": "8 − 12 + 2k + 2 = 0."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Solve",
+          "explanation": "2k − 2 = 0, so k = 1."
+        }
+      ],
+      "finalAnswer": "1",
+      "whyItWorks": "P(2) must be 0.",
+      "commonTrap": "Setting P(−2) = 0.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-adv-polynomial-equations-3",
+      "title": "Form equation",
+      "question": "Form a quadratic whose roots are the squares of the roots of x² − 3x + 2 = 0.",
+      "givenInfo": [
+        "Roots 1 and 2"
+      ],
+      "conceptOrFormula": "New sum and product.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Roots",
+          "explanation": "The roots are 1 and 2, so the new roots are 1 and 4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Equation",
+          "explanation": "x² − 5x + 4 = 0."
+        }
+      ],
+      "finalAnswer": "x² − 5x + 4 = 0",
+      "whyItWorks": "Check: S = 5, P = 4.",
+      "commonTrap": "Using the old S and P.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "S and P",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Find the roots first.",
+      "shortcutMethod": "Write S and P, then express the target as S² − 2P, S³ − 3SP or S² − 4P."
+    },
+    "rulesForApplication": [
+      "Never solve if S and P suffice.",
+      "x² − Sx + P forms equations.",
+      "P(a) is the remainder.",
+      "P(a) = 0 is the factor test."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Sign error in S = −b/a",
+      "whyItHappens": "Forgetting the minus.",
+      "howToAvoid": "S = −b/a, P = c/a."
+    },
+    {
+      "mistake": "Forgetting to divide by a",
+      "whyItHappens": "When a ≠ 1.",
+      "howToAvoid": "Use −b/a and c/a."
+    },
+    {
+      "mistake": "Using P(−a) for (x − a)",
+      "whyItHappens": "Wrong substitution.",
+      "howToAvoid": "Substitute x = a."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 80,
+    "eliminationTechnique": "Test small integer roots by substitution.",
+    "questionSelectionAdvice": "Write S and P before anything else.",
+    "recruiterInsight": "A symmetric target always reduces to S and P."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-adv-polynomial-equations-e1",
+        "question": "The sum of the roots of x² − 9x + 20 = 0 is",
+        "options": [
+          "20",
+          "9",
+          "-9",
+          "11"
+        ],
+        "correctAnswer": "9",
+        "explanation": "S = −b/a = 9.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-polynomial-equations-e2",
+        "question": "The product of the roots of x² − 9x + 20 = 0 is",
+        "options": [
+          "20",
+          "9",
+          "-20",
+          "29"
+        ],
+        "correctAnswer": "20",
+        "explanation": "P = c/a = 20.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-polynomial-equations-e3",
+        "question": "The sum of the roots of 2x² + 6x − 8 = 0 is",
+        "options": [
+          "3",
+          "6",
+          "-4",
+          "-3"
+        ],
+        "correctAnswer": "-3",
+        "explanation": "S = −b/a = −6/2 = −3.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-adv-polynomial-equations-i7",
+        "question": "If α and β are the roots of x² − 7x + 10 = 0, then α² + β² equals",
+        "options": [
+          "29",
+          "49",
+          "39",
+          "19"
+        ],
+        "correctAnswer": "29",
+        "explanation": "S² − 2P = 49 − 20 = 29.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-polynomial-equations-i8",
+        "question": "If α and β are the roots of x² − 5x + 6 = 0, then α³ + β³ equals",
+        "options": [
+          "125",
+          "25",
+          "65",
+          "35"
+        ],
+        "correctAnswer": "35",
+        "explanation": "S³ − 3SP = 125 − 90 = 35.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-polynomial-equations-i9",
+        "question": "If α and β are the roots of x² − 6x + 5 = 0, then |α − β| equals",
+        "options": [
+          "2",
+          "6",
+          "16",
+          "4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "√(S² − 4P) = √(36 − 20) = 4.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-adv-polynomial-equations-a15",
+        "question": "If α, β are the roots of x² − 3x + 1 = 0, then 1/α + 1/β equals",
+        "options": [
+          "1",
+          "4",
+          "3",
+          "-3"
+        ],
+        "correctAnswer": "3",
+        "explanation": "(α + β)/(αβ) = 3/1 = 3.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-polynomial-equations-a16",
+        "question": "If α, β are the roots of x² − 4x + 2 = 0, then α² + β² equals",
+        "options": [
+          "16",
+          "12",
+          "8",
+          "10"
+        ],
+        "correctAnswer": "12",
+        "explanation": "S² − 2P = 16 − 4 = 12.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-adv-polynomial-equations-p17",
+        "question": "A quadratic whose roots are the squares of the roots of x² − 3x + 2 = 0 is",
+        "options": [
+          "x² − 9x + 4 = 0",
+          "x² − 5x + 4 = 0",
+          "x² − 3x + 4 = 0",
+          "x² − 5x + 2 = 0"
+        ],
+        "correctAnswer": "x² − 5x + 4 = 0",
+        "explanation": "The roots are 1, 2, so the new roots are 1, 4: S = 5, P = 4.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-polynomial-equations-p18",
+        "question": "If x − 3 divides x³ − 2x² − 5x + k exactly, k equals",
+        "options": [
+          "6",
+          "-6",
+          "3",
+          "12"
+        ],
+        "correctAnswer": "6",
+        "explanation": "P(3) = 27 − 18 − 15 + k = 0 gives k = 6.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-polynomial-equations-p19",
+        "question": "The product of the roots of x³ − 2x² − 5x + 6 = 0 is",
+        "options": [
+          "6",
+          "5",
+          "2",
+          "-6"
+        ],
+        "correctAnswer": "-6",
+        "explanation": "αβγ = −d/a = −6.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "S = −b/a, P = c/a.",
+      "S² − 2P.",
+      "Remainder theorem.",
+      "Factor theorem.",
+      "Cubic relations."
+    ],
+    "quickFormulas": [
+      "α² + β² = S² − 2P",
+      "α³ + β³ = S³ − 3SP"
+    ]
+  },
+  "keyTakeaways": [
+    "Use S and P.",
+    "Evaluate P(a).",
+    "Check by roots.",
+    "Mind signs."
+  ],
+  "selfCheckQuestions": [
+    "Can I find α² + β² quickly?",
+    "Can I apply the factor theorem?",
+    "Can I form an equation from roots?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

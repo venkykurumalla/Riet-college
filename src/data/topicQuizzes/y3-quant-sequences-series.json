@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-sequences-series",
+  "topicTitle": "Sequences and Series",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The next term in 3, 7, 11, 15, … is",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "23"
+      ],
+      "answerIndex": 1,
+      "explanation": "The common difference is 4, so the next term is 15 + 4 = 19."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The nth term of 3, 7, 11, 15, … is",
+      "options": [
+        "4n − 1",
+        "4n + 1",
+        "n + 4",
+        "3n + 4"
+      ],
+      "answerIndex": 0,
+      "explanation": "First term 3 and difference 4 give 3 + 4(n − 1) = 4n − 1."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The next term in 2, 4, 8, 16, … is",
+      "options": [
+        "24",
+        "30",
+        "20",
+        "32"
+      ],
+      "answerIndex": 3,
+      "explanation": "Each term doubles: 16 × 2 = 32."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The sum 1 + 2 + 3 + … + 20 equals",
+      "options": [
+        "200",
+        "220",
+        "210",
+        "190"
+      ],
+      "answerIndex": 2,
+      "explanation": "n(n + 1)/2 = 20 × 21/2 = 210."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The sum of the first 7 odd numbers is",
+      "options": [
+        "42",
+        "56",
+        "49",
+        "14"
+      ],
+      "answerIndex": 2,
+      "explanation": "The sum of the first n odd numbers is n² = 49."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The sum of the first 10 even numbers is",
+      "options": [
+        "100",
+        "110",
+        "55",
+        "120"
+      ],
+      "answerIndex": 1,
+      "explanation": "n(n + 1) = 10 × 11 = 110."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The next term in 2, 6, 12, 20, 30, … is",
+      "options": [
+        "42",
+        "40",
+        "44",
+        "36"
+      ],
+      "answerIndex": 0,
+      "explanation": "The terms are n(n + 1), so the 6th term is 6 × 7 = 42."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The 10th term of 2, 6, 12, 20, 30, … is",
+      "options": [
+        "100",
+        "120",
+        "90",
+        "110"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tₙ = n² + n gives 100 + 10 = 110."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The sum 1² + 2² + … + 12² equals",
+      "options": [
+        "662",
+        "78",
+        "600",
+        "650"
+      ],
+      "answerIndex": 3,
+      "explanation": "n(n + 1)(2n + 1)/6 = 12 × 13 × 25/6 = 650."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The sum 1³ + 2³ + … + 9³ equals",
+      "options": [
+        "2000",
+        "405",
+        "2025",
+        "2250"
+      ],
+      "answerIndex": 2,
+      "explanation": "The sum of cubes is (9 × 10/2)² = 45² = 2025."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The sum of the terms from the 11th to the 20th natural number (11 + 12 + … + 20) is",
+      "options": [
+        "150",
+        "155",
+        "165",
+        "210"
+      ],
+      "answerIndex": 1,
+      "explanation": "S₂₀ − S₁₀ = 210 − 55 = 155."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The sequence 1, 4, 9, 16, 25, … has second difference",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "First differences 3, 5, 7, 9; second differences all 2."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The next term in 2, 3, 5, 8, 12, … is",
+      "options": [
+        "17",
+        "16",
+        "18",
+        "20"
+      ],
+      "answerIndex": 0,
+      "explanation": "Differences 1, 2, 3, 4, so the next difference is 5: 12 + 5 = 17."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The 8th term of 5, 10, 20, 40, … is",
+      "options": [
+        "320",
+        "1280",
+        "160",
+        "640"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tₙ = 5 × 2ⁿ⁻¹, so T₈ = 5 × 128 = 640."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The next term in 2, 3, 4, 6, 8, 12, … is",
+      "options": [
+        "14",
+        "18",
+        "16",
+        "24"
+      ],
+      "answerIndex": 2,
+      "explanation": "Even places 3, 6, 12 and odd places 2, 4, 8, 16 each double, so the next term is 16."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The sum 1 + 3 + 5 + … + 99 equals",
+      "options": [
+        "2450",
+        "2500",
+        "5000",
+        "2550"
+      ],
+      "answerIndex": 1,
+      "explanation": "There are 50 odd numbers, so the sum is 50² = 2500."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The sum 2 + 4 + 6 + … + 100 equals",
+      "options": [
+        "2500",
+        "2550",
+        "5050",
+        "5000"
+      ],
+      "answerIndex": 1,
+      "explanation": "n(n + 1) with n = 50 gives 50 × 51 = 2550."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "If 1² + 2² + … + n² = 385, then n equals",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "n(n + 1)(2n + 1)/6 = 385 holds for n = 10: 10 × 11 × 21/6 = 385."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The nth term of 3, 8, 15, 24, 35, … is",
+      "options": [
+        "n² + 3n",
+        "2n² + 1",
+        "n² + n + 1",
+        "n² + 2n"
+      ],
+      "answerIndex": 3,
+      "explanation": "The terms are (n + 1)² − 1 = n² + 2n; check n = 1 gives 3."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The sum 1 × 2 + 2 × 3 + 3 × 4 + … + 10 × 11 equals",
+      "options": [
+        "385",
+        "330",
+        "440",
+        "495"
+      ],
+      "answerIndex": 2,
+      "explanation": "Σ(k² + k) = 385 + 55 = 440."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
+}

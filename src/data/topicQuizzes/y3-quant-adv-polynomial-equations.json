@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-adv-polynomial-equations",
+  "topicTitle": "Advanced Polynomial Equations",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The sum of the roots of x² − 9x + 20 = 0 is",
+      "options": [
+        "20",
+        "9",
+        "-9",
+        "11"
+      ],
+      "answerIndex": 1,
+      "explanation": "S = −b/a = 9."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The product of the roots of x² − 9x + 20 = 0 is",
+      "options": [
+        "20",
+        "9",
+        "-20",
+        "29"
+      ],
+      "answerIndex": 0,
+      "explanation": "P = c/a = 20."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The sum of the roots of 2x² + 6x − 8 = 0 is",
+      "options": [
+        "3",
+        "6",
+        "-4",
+        "-3"
+      ],
+      "answerIndex": 3,
+      "explanation": "S = −b/a = −6/2 = −3."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A quadratic with roots 2 and 3 is",
+      "options": [
+        "x² + 5x + 6 = 0",
+        "x² − 6x + 5 = 0",
+        "x² − 5x + 6 = 0",
+        "x² − x + 6 = 0"
+      ],
+      "answerIndex": 2,
+      "explanation": "S = 5 and P = 6, so x² − 5x + 6 = 0."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The remainder when x² + 3x + 1 is divided by (x − 1) is",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "P(1) = 1 + 3 + 1 = 5."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The quadratic x² + 4x + 4 = 0 has",
+      "options": [
+        "two distinct real roots",
+        "equal real roots",
+        "no real roots",
+        "two complex roots"
+      ],
+      "answerIndex": 1,
+      "explanation": "D = 16 − 16 = 0, so the roots are equal."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "If α and β are the roots of x² − 7x + 10 = 0, then α² + β² equals",
+      "options": [
+        "29",
+        "49",
+        "39",
+        "19"
+      ],
+      "answerIndex": 0,
+      "explanation": "S² − 2P = 49 − 20 = 29."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "If α and β are the roots of x² − 5x + 6 = 0, then α³ + β³ equals",
+      "options": [
+        "125",
+        "25",
+        "65",
+        "35"
+      ],
+      "answerIndex": 3,
+      "explanation": "S³ − 3SP = 125 − 90 = 35."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "If α and β are the roots of x² − 6x + 5 = 0, then |α − β| equals",
+      "options": [
+        "2",
+        "6",
+        "16",
+        "4"
+      ],
+      "answerIndex": 3,
+      "explanation": "√(S² − 4P) = √(36 − 20) = 4."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The value of k for which (x − 2) is a factor of x³ − 3x² + kx + 2 is",
+      "options": [
+        "2",
+        "-1",
+        "1",
+        "3"
+      ],
+      "answerIndex": 2,
+      "explanation": "P(2) = 8 − 12 + 2k + 2 = 0 gives k = 1."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The remainder when x³ − 2x + 1 is divided by (x − 2) is",
+      "options": [
+        "1",
+        "5",
+        "8",
+        "3"
+      ],
+      "answerIndex": 1,
+      "explanation": "P(2) = 8 − 4 + 1 = 5."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "If one root of x² − 8x + k = 0 is 3, then k is",
+      "options": [
+        "15",
+        "5",
+        "24",
+        "11"
+      ],
+      "answerIndex": 0,
+      "explanation": "The other root is 5 (sum 8), so k = 3 × 5 = 15."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "If the roots of x² − 6x + k = 0 are equal, k equals",
+      "options": [
+        "9",
+        "6",
+        "36",
+        "12"
+      ],
+      "answerIndex": 0,
+      "explanation": "D = 36 − 4k = 0 gives k = 9."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The sum of the roots of x³ − 6x² + 11x − 6 = 0 is",
+      "options": [
+        "11",
+        "-6",
+        "1",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "Σα = −b/a = 6 (the roots are 1, 2, 3)."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "If α, β are the roots of x² − 3x + 1 = 0, then 1/α + 1/β equals",
+      "options": [
+        "1",
+        "4",
+        "3",
+        "-3"
+      ],
+      "answerIndex": 2,
+      "explanation": "(α + β)/(αβ) = 3/1 = 3."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "If α, β are the roots of x² − 4x + 2 = 0, then α² + β² equals",
+      "options": [
+        "16",
+        "12",
+        "8",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "S² − 2P = 16 − 4 = 12."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A quadratic whose roots are the squares of the roots of x² − 3x + 2 = 0 is",
+      "options": [
+        "x² − 9x + 4 = 0",
+        "x² − 5x + 4 = 0",
+        "x² − 3x + 4 = 0",
+        "x² − 5x + 2 = 0"
+      ],
+      "answerIndex": 1,
+      "explanation": "The roots are 1, 2, so the new roots are 1, 4: S = 5, P = 4."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "If x − 3 divides x³ − 2x² − 5x + k exactly, k equals",
+      "options": [
+        "6",
+        "-6",
+        "3",
+        "12"
+      ],
+      "answerIndex": 0,
+      "explanation": "P(3) = 27 − 18 − 15 + k = 0 gives k = 6."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The product of the roots of x³ − 2x² − 5x + 6 = 0 is",
+      "options": [
+        "6",
+        "5",
+        "2",
+        "-6"
+      ],
+      "answerIndex": 3,
+      "explanation": "αβγ = −d/a = −6."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "For which value of k does x² + kx + 16 = 0 have equal roots (k > 0)?",
+      "options": [
+        "4",
+        "16",
+        "8",
+        "32"
+      ],
+      "answerIndex": 2,
+      "explanation": "D = k² − 64 = 0 gives k = 8."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
+}

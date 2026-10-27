@@ -1,0 +1,437 @@
+{
+  "id": "y3-quant-bayes-theorem",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 16,
+  "title": "Bayes' Theorem Basics",
+  "tagline": "Year 3 — Updating a probability after evidence: total probability, tree diagrams and reverse conditioning",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Bayes' theorem reverses a conditional probability. If you know how likely an outcome is under each of several causes, it tells you how likely each cause is once the outcome is seen. It uses the law of total probability for the denominator: the overall chance of the outcome across all causes. A tree diagram or a table of counts makes the calculation straightforward.",
+    "placementRelevance": "Bayes-type questions are commonly asked in company aptitude rounds as \"a bag is chosen at random and a ball is drawn… find the probability that it came from bag 1\".",
+    "realWorldContext": "Diagnosing a disease from a test result, spam filters and fault tracing in manufacturing use the same reasoning."
+  },
+  "learningObjectives": [
+    "Compute the total probability of an event across several causes",
+    "Apply Bayes' formula to find the probability of a cause",
+    "Use a tree diagram or count table to organise the work",
+    "Interpret test accuracy problems",
+    "Avoid confusing P(A | B) with P(B | A)"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Probability — Conditional and Compound"
+    ],
+    "quickRefresher": "P(A and B) = P(A) P(B | A) = P(B) P(A | B). Causes are mutually exclusive and cover all possibilities."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Prior probability: the probability of a cause before the evidence.",
+      "Likelihood: P(evidence | cause).",
+      "Total probability: P(E) = Σ P(Hᵢ) P(E | Hᵢ).",
+      "Bayes' theorem: P(Hⱼ | E) = P(Hⱼ) P(E | Hⱼ) / Σ P(Hᵢ) P(E | Hᵢ).",
+      "Posterior probability: the probability of a cause after the evidence."
+    ],
+    "theoreticalIntuition": "Imagine 1000 trials. Split them among the causes by their priors, then see how many of each cause produce the evidence. Bayes' answer is simply the share of the evidence cases that came from the cause you ask about.",
+    "visualOrMentalModel": "Make a count table: take a convenient total, split by priors, apply the likelihoods, and divide the cause's count by the total evidence count."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Total probability",
+      "formula": "P(E) = Σ P(Hᵢ)P(E | Hᵢ)",
+      "description": "Sum over causes.",
+      "whenToUse": "Denominator.",
+      "simpleExample": "½·(3/5) + ½·(2/5)"
+    },
+    {
+      "title": "Bayes",
+      "formula": "P(H | E) = P(H)P(E | H)/P(E)",
+      "description": "Reverse conditioning.",
+      "whenToUse": "Which cause?",
+      "simpleExample": "P(bag 1 | red)"
+    },
+    {
+      "title": "Tree diagram",
+      "formula": "Multiply along branches, add across branches",
+      "description": "Visual method.",
+      "whenToUse": "Any problem.",
+      "simpleExample": "Two-stage experiment"
+    },
+    {
+      "title": "Count table",
+      "formula": "Counts = prior × likelihood × N",
+      "description": "Choose N to avoid fractions.",
+      "whenToUse": "Test problems.",
+      "simpleExample": "1000 people"
+    },
+    {
+      "title": "Test accuracy",
+      "formula": "P(disease | positive) = TP ÷ (TP + FP)",
+      "description": "True and false positives.",
+      "whenToUse": "Medical tests.",
+      "simpleExample": "9 true / (9 + 99)"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "First find the total probability of the evidence. Bag 1 has 3 red and 2 blue balls; bag 2 has 2 red and 3 blue. A bag is chosen at random and a ball drawn. P(red) = ½ × 3/5 + ½ × 2/5 = 1/2.",
+      "Then reverse. The probability that the red ball came from bag 1 is P(bag 1) P(red | bag 1) ÷ P(red) = (½ × 3/5) ÷ (1/2) = 3/5.",
+      "Count tables avoid formulas. Take 1000 people, 1% have a disease: 10 have it, 990 do not. A test is positive for 90% of those with the disease (9) and for 10% of those without it (99). A person who tests positive has probability 9/(9 + 99) = 1/12 of having the disease.",
+      "A tree diagram multiplies along each path and adds the paths that lead to the evidence. The probability of each cause given the evidence is the path value for that cause divided by the sum of the path values that give the evidence.",
+      "Do not confuse the two directions: P(positive | disease) = 0.9 is not P(disease | positive) = 1/12."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Base rates",
+        "content": "A rare cause with an accurate test can still have a low posterior, because false positives from the large healthy group swamp the true positives."
+      },
+      {
+        "title": "Sequential updating",
+        "content": "The posterior after one piece of evidence becomes the prior for the next."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Which bag?",
+      "description": "Reverse a draw.",
+      "exampleSnippet": "Red ball"
+    },
+    {
+      "typeName": "Medical test",
+      "description": "False positives.",
+      "exampleSnippet": "1% prevalence"
+    },
+    {
+      "typeName": "Machines and defects",
+      "description": "Which machine?",
+      "exampleSnippet": "Defective item"
+    },
+    {
+      "typeName": "Tree diagrams",
+      "description": "Multiply and add.",
+      "exampleSnippet": "Two-stage"
+    },
+    {
+      "typeName": "Count tables",
+      "description": "Convenient N.",
+      "exampleSnippet": "1000 people"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-bayes-theorem-1",
+      "title": "Which bag?",
+      "question": "Bag 1 has 3 red and 2 blue balls and bag 2 has 2 red and 3 blue. A bag is chosen at random and a red ball is drawn. Find the probability that it came from bag 1.",
+      "givenInfo": [
+        "Bag 1: 3R 2B",
+        "Bag 2: 2R 3B"
+      ],
+      "conceptOrFormula": "Bayes.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "P(red)",
+          "explanation": "½ × 3/5 + ½ × 2/5 = 1/2."
+        },
+        {
+          "stepNumber": 2,
+          "title": "P(bag 1 and red)",
+          "explanation": "½ × 3/5 = 3/10."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Divide",
+          "explanation": "(3/10) ÷ (1/2) = 3/5."
+        }
+      ],
+      "finalAnswer": "3/5",
+      "whyItWorks": "Bag 1 has more reds.",
+      "commonTrap": "Answering 1/2 (the prior).",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-bayes-theorem-2",
+      "title": "Medical test",
+      "question": "1% of people have a disease. A test is positive for 90% of the sick and for 10% of the healthy. What is the probability that a person who tests positive is sick?",
+      "givenInfo": [
+        "1%",
+        "90%",
+        "10%"
+      ],
+      "conceptOrFormula": "Count table with 1000 people.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Sick",
+          "explanation": "10 people; 9 test positive."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Healthy",
+          "explanation": "990 people; 99 test positive."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Posterior",
+          "explanation": "9/(9 + 99) = 1/12."
+        }
+      ],
+      "finalAnswer": "1/12",
+      "whyItWorks": "False positives from the large healthy group dominate.",
+      "commonTrap": "Answering 90%.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-bayes-theorem-3",
+      "title": "Machine and defect",
+      "question": "Machine A makes 60% of items with 2% defective, machine B makes 40% with 5% defective. An item is found defective. What is the probability that it was made by A?",
+      "givenInfo": [
+        "A 60%, 2%",
+        "B 40%, 5%"
+      ],
+      "conceptOrFormula": "Bayes.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "P(defective)",
+          "explanation": "0.6 × 0.02 + 0.4 × 0.05 = 0.012 + 0.020 = 0.032."
+        },
+        {
+          "stepNumber": 2,
+          "title": "P(A and defective)",
+          "explanation": "0.012."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Posterior",
+          "explanation": "0.012/0.032 = 3/8."
+        }
+      ],
+      "finalAnswer": "3/8",
+      "whyItWorks": "B has the higher defect rate, so it is more likely.",
+      "commonTrap": "Answering 60%.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Count table",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Substitute into the formula.",
+      "shortcutMethod": "Take N = 1000 (or a multiple), split by priors, apply likelihoods, and divide the cause count by the evidence total."
+    },
+    "rulesForApplication": [
+      "Prior × likelihood.",
+      "Denominator = total of all causes.",
+      "Direction matters.",
+      "Check posteriors sum to 1."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using the prior as the answer",
+      "whyItHappens": "Ignoring the evidence.",
+      "howToAvoid": "Compute the posterior."
+    },
+    {
+      "mistake": "Wrong denominator",
+      "whyItHappens": "Using the likelihood of one cause.",
+      "howToAvoid": "Add over all causes."
+    },
+    {
+      "mistake": "Swapping conditional directions",
+      "whyItHappens": "P(E | H) vs P(H | E).",
+      "howToAvoid": "State which is given."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 100,
+    "eliminationTechnique": "The posteriors of all causes must sum to 1.",
+    "questionSelectionAdvice": "Use a count table with N = 1000 or 10000.",
+    "recruiterInsight": "Bayes questions look hard but are two multiplications and a division."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-bayes-theorem-e1",
+        "question": "Bag 1 has 3 red and 2 blue balls, bag 2 has 2 red and 3 blue. A bag is chosen at random and a ball drawn. The probability that it is red is",
+        "options": [
+          "2/5",
+          "1/2",
+          "3/5",
+          "3/10"
+        ],
+        "correctAnswer": "1/2",
+        "explanation": "½ × 3/5 + ½ × 2/5 = 1/2.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-bayes-theorem-e2",
+        "question": "In the same experiment, if the ball is red, the probability that it came from bag 1 is",
+        "options": [
+          "3/5",
+          "1/2",
+          "2/5",
+          "3/10"
+        ],
+        "correctAnswer": "3/5",
+        "explanation": "(3/10) ÷ (1/2) = 3/5.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-bayes-theorem-e3",
+        "question": "A coin is chosen at random from a fair coin and a two-headed coin and tossed. The probability of heads is",
+        "options": [
+          "1/2",
+          "2/3",
+          "1/4",
+          "3/4"
+        ],
+        "correctAnswer": "3/4",
+        "explanation": "½ × ½ + ½ × 1 = 3/4.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-bayes-theorem-i7",
+        "question": "1% of people have a disease. A test is positive for 90% of the sick and 10% of the healthy. The probability that a person who tests positive is sick is",
+        "options": [
+          "1/12",
+          "9/10",
+          "1/10",
+          "1/11"
+        ],
+        "correctAnswer": "1/12",
+        "explanation": "Per 1000: 9 true and 99 false positives: 9/108 = 1/12.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-bayes-theorem-i8",
+        "question": "Machine A makes 60% of items with 2% defective, machine B makes 40% with 5% defective. An item is defective. The probability it was made by A is",
+        "options": [
+          "3/5",
+          "5/8",
+          "1/4",
+          "3/8"
+        ],
+        "correctAnswer": "3/8",
+        "explanation": "0.012/0.032 = 3/8.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-bayes-theorem-i9",
+        "question": "In the same factory, the overall defect rate is",
+        "options": [
+          "0.035",
+          "0.07",
+          "0.016",
+          "0.032"
+        ],
+        "correctAnswer": "0.032",
+        "explanation": "0.6 × 0.02 + 0.4 × 0.05 = 0.032.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-bayes-theorem-a15",
+        "question": "A test for a disease has 99% sensitivity and 99% specificity. If 1% of people have the disease, a person who tests positive is sick with probability",
+        "options": [
+          "99/100",
+          "1/100",
+          "1/2",
+          "2/3"
+        ],
+        "correctAnswer": "1/2",
+        "explanation": "Per 10000: 99 true positives and 99 false positives: 99/198 = 1/2.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-bayes-theorem-a16",
+        "question": "A student knows the answer to 60% of the questions; otherwise he guesses among 4 choices. He answers a question correctly. The probability that he knew the answer is",
+        "options": [
+          "3/5",
+          "6/7",
+          "5/6",
+          "2/3"
+        ],
+        "correctAnswer": "6/7",
+        "explanation": "P(correct) = 0.6 + 0.4 × 0.25 = 0.7. Posterior = 0.6/0.7 = 6/7, so the answer is 6/7.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-bayes-theorem-p17",
+        "question": "A coin is biased; P(heads) = 3/4. It is tossed twice and shows two heads. The probability that the coin was the biased one, when a fair coin and this biased coin are equally likely a priori, is",
+        "options": [
+          "1/2",
+          "9/13",
+          "3/4",
+          "4/9"
+        ],
+        "correctAnswer": "9/13",
+        "explanation": "P(HH) = ½(1/4) + ½(9/16) = 13/32. Posterior = (9/32)/(13/32) = 9/13.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-bayes-theorem-p18",
+        "question": "Of the people in a town, 40% are men and 60% are women. 5% of the men and 1% of the women are colour-blind. A person is colour-blind. The probability that the person is a man is",
+        "options": [
+          "10/13",
+          "1/3",
+          "1/2",
+          "5/6"
+        ],
+        "correctAnswer": "10/13",
+        "explanation": "0.02/(0.02 + 0.006) = 10/13.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-bayes-theorem-p19",
+        "question": "Box A has 3 white and 1 black; box B has 1 white and 3 black. A box is chosen at random, a ball drawn, and it is white. A second ball is drawn from the same box without replacing the first. The probability that the second is also white is",
+        "options": [
+          "3/8",
+          "5/8",
+          "7/16",
+          "1/2"
+        ],
+        "correctAnswer": "1/2",
+        "explanation": "Posterior of A = (3/8)/(1/2) = 3/4, of B = 1/4. P(second white) = 3/4 × 2/3 + 1/4 × 0 = 1/2.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Priors and likelihoods.",
+      "Total probability.",
+      "Bayes.",
+      "Count table.",
+      "Check sum to 1."
+    ],
+    "quickFormulas": [
+      "P(H|E) = P(H)P(E|H)/ΣP(Hᵢ)P(E|Hᵢ)"
+    ]
+  },
+  "keyTakeaways": [
+    "Reverse conditioning.",
+    "Count tables help.",
+    "Base rates matter.",
+    "Check the sum."
+  ],
+  "selfCheckQuestions": [
+    "Can I find P(bag 1 | red)?",
+    "Can I interpret a test result?",
+    "Can I build a count table?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

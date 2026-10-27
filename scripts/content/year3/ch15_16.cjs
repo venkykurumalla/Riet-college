@@ -2,8 +2,7 @@ const { easy, medium, placement, build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const gcd = (a, b) => (b ? gcd(b, a % b) : a);
 const fr = (n, d) => { const g = gcd(Math.abs(n), d); return d / g === 1 ? String(n / g) : `${n / g}/${d / g}`; };
-const f = n => (n <= 1 ? 1 : n * f(n - 1));
-const Cb = (n, r) => f(n) / (f(r) * f(n - r));
+const Cb = (n, r) => { let x = 1; for (let i = 1; i <= r; i++) x = x * (n - r + i) / i; return Math.round(x); };
 const near = (n, d) => [fr(n + 1, d), fr(Math.max(1, n - 1), d), fr(n + 2, d + 1)];
 
 // ---------------- Chapter 15 ----------------
@@ -63,17 +62,17 @@ const q15 = [
   easy('A die is thrown twice. The probability that both throws show 6 is', '1/36', ['1/6', '1/12', '1/18'], '(1/6)(1/6) = 1/36.'),
   easy('A card is drawn from a pack of 52. The probability that it is a king or a heart is', '4/13', ['17/52', '1/4', '5/26'], '4/52 + 13/52 − 1/52 = 16/52 = 4/13.'),
 
-  medium('Two dice are thrown. Given that the first shows 3, the probability that the sum is 8 is', '1/6', ['5/36', '1/36', '1/3'], 'The second die must show 5: 1 of 6 outcomes.'),
-  medium('Two dice are thrown. Given that the sum is 8, the probability that the first die shows 3 is', '1/5', ['1/6', '1/36', '5/36'], 'The sum 8 has 5 outcomes; one has the first die 3.'),
+  medium('Two dice are thrown. Given that the first shows 3, the probability that the sum is 8 is', '1/6', ['5/36', '1/36', '1/3'], 'The second die must show 5, so the probability is 1/6.'),
+  medium('Two dice are thrown. Given that the sum is 8, the probability that the first die shows 3 is', '1/5', ['1/6', '1/36', '5/36'], 'The sum 8 has 5 outcomes and one has the first die 3, so the probability is 1/5.'),
   medium('A fair coin is tossed 3 times. The probability of exactly 2 heads is', '3/8', ['1/8', '1/4', '1/2'], '3C2 × (1/2)³ = 3/8.'),
   medium('From a bag with 4 white and 6 black balls, two are drawn together. The probability that they are of different colours is', fr(24, 45), ['2/5', '12/25', '4/9'], '4 × 6 = 24 of 10C2 = 45: 24/45 = 8/15.'),
   medium('A bag has 6 red and 4 blue balls. Three are drawn without replacement. The probability that all are red is', fr(Cb(6, 3), Cb(10, 3)), ['1/3', '3/10', '1/5'], '6C3/10C3 = 20/120 = 1/6.'),
-  medium('A box has 3 defective items among 10. Two are chosen. The probability that neither is defective is', fr(Cb(7, 2), Cb(10, 2)), ['3/10', '2/5', '7/15'], '7C2/10C2 = 21/45 = 7/15.'),
+  medium('A box has 3 defective items among 10. Two are chosen. The probability that neither is defective is', fr(Cb(7, 2), Cb(10, 2)), ['3/10', '2/5', '8/15'], '7C2/10C2 = 21/45 = 7/15.'),
   medium('The probability that a student passes Maths is 0.7 and Physics 0.6, independently. The probability that he passes both is', 0.42, [0.13, 0.3, 0.65], '0.7 × 0.6 = 0.42.'),
   medium('The probability that at least one of two independent events with probabilities 0.5 and 0.4 occurs is', 0.7, [0.2, 0.9, 0.45], '1 − 0.5 × 0.6 = 0.7.'),
 
   placement('A fair coin is tossed 5 times. The probability of getting exactly 3 heads is', fr(10, 32), ['1/8', '3/16', '1/2'], '5C3/32 = 10/32 = 5/16.'),
-  placement('Three cards are drawn from a pack without replacement. The probability that all are hearts is', fr(Cb(13, 3), Cb(52, 3)), ['1/64', '11/850', '3/52'], '13C3/52C3 = 286/22100 = 11/850.'),
+  placement('Three cards are drawn from a pack without replacement. The probability that all are hearts is', fr(Cb(13, 3), Cb(52, 3)), ['1/64', '13/850', '3/52'], '13C3/52C3 = 286/22100 = 11/850.'),
   placement('A die is thrown 3 times. The probability of getting at least one six is', fr(91, 216), ['1/2', '125/216', '1/6'], '1 − (5/6)³ = 91/216.'),
   placement('The probability that A hits a target is 1/3 and B hits it is 1/4, independently. The probability that exactly one hits is', fr(5, 12), ['1/12', '1/2', '7/12'], '(1/3)(3/4) + (2/3)(1/4) = 3/12 + 2/12 = 5/12.'),
   placement('A bag has 3 red and 2 blue balls. A ball is drawn and, without replacement, a second is drawn. P(second is red | first is red) is', '1/2', ['3/5', '2/5', '3/10'], 'After removing one red there are 2 reds among 4 balls: 2/4 = 1/2.'),
@@ -148,7 +147,7 @@ const q16 = [
   medium('For the same factory, if an item is defective, the probability that it came from the third machine is', fr(6, 17), ['1/5', '1/3', '3/10'], '0.006/0.017 = 6/17.'),
 
   placement('A test for a disease has 99% sensitivity and 99% specificity. If 1% of people have the disease, a person who tests positive is sick with probability', '1/2', ['99/100', '1/100', '2/3'], 'Per 10000: 99 true positives and 99 false positives: 99/198 = 1/2.'),
-  placement('A student knows the answer to 60% of the questions; otherwise he guesses among 4 choices. He answers a question correctly. The probability that he knew the answer is', fr(30, 33).replace('30/33', '10/11'), ['3/5', '5/6', '2/3'], 'P(correct) = 0.6 + 0.4 × 0.25 = 0.7. Posterior = 0.6/0.7 = 6/7.'.replace('0.6/0.7 = 6/7', '0.6/0.7 = 6/7, so the answer is 6/7')),
+  placement('A student knows the answer to 60% of the questions; otherwise he guesses among 4 choices. He answers a question correctly. The probability that he knew the answer is', '6/7', ['3/5', '5/6', '2/3'], 'P(correct) = 0.6 + 0.4 × 0.25 = 0.7. Posterior = 0.6/0.7 = 6/7.'.replace('0.6/0.7 = 6/7', '0.6/0.7 = 6/7, so the answer is 6/7')),
   placement('A coin is biased; P(heads) = 3/4. It is tossed twice and shows two heads. The probability that the coin was the biased one, when a fair coin and this biased coin are equally likely a priori, is', '9/13', ['1/2', '3/4', '4/9'], 'P(HH) = ½(1/4) + ½(9/16) = 13/32. Posterior = (9/32)/(13/32) = 9/13.'),
   placement('Of the people in a town, 40% are men and 60% are women. 5% of the men and 1% of the women are colour-blind. A person is colour-blind. The probability that the person is a man is', fr(20, 26), ['1/3', '1/2', '5/6'], '0.02/(0.02 + 0.006) = 10/13.'.replace('10/13.', '10/13.')),
   placement('Box A has 3 white and 1 black; box B has 1 white and 3 black. A box is chosen at random, a ball drawn, and it is white. A second ball is drawn from the same box without replacing the first. The probability that the second is also white is', fr(5, 16).replace('5/16', '1/2'), ['3/8', '5/8', '7/16'], 'Posterior of A = (3/8)/(1/2) = 3/4, of B = 1/4. P(second white) = 3/4 × 2/3 + 1/4 × 0 = 1/2.'),

@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-bayes-theorem",
+  "topicTitle": "Bayes' Theorem Basics",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Bag 1 has 3 red and 2 blue balls, bag 2 has 2 red and 3 blue. A bag is chosen at random and a ball drawn. The probability that it is red is",
+      "options": [
+        "2/5",
+        "1/2",
+        "3/5",
+        "3/10"
+      ],
+      "answerIndex": 1,
+      "explanation": "½ × 3/5 + ½ × 2/5 = 1/2."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "In the same experiment, if the ball is red, the probability that it came from bag 1 is",
+      "options": [
+        "3/5",
+        "1/2",
+        "2/5",
+        "3/10"
+      ],
+      "answerIndex": 0,
+      "explanation": "(3/10) ÷ (1/2) = 3/5."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A coin is chosen at random from a fair coin and a two-headed coin and tossed. The probability of heads is",
+      "options": [
+        "1/2",
+        "2/3",
+        "1/4",
+        "3/4"
+      ],
+      "answerIndex": 3,
+      "explanation": "½ × ½ + ½ × 1 = 3/4."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "In the previous experiment, if the toss shows heads, the probability that the coin is two-headed is",
+      "options": [
+        "1/2",
+        "3/4",
+        "2/3",
+        "1/3"
+      ],
+      "answerIndex": 2,
+      "explanation": "(½ × 1) ÷ (3/4) = 2/3."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Two boxes: box A has 1 white and 3 black balls; box B has 3 white and 1 black. A box is chosen at random and a ball is drawn. The probability that it is white is",
+      "options": [
+        "1/4",
+        "3/4",
+        "1/2",
+        "3/8"
+      ],
+      "answerIndex": 2,
+      "explanation": "½ × 1/4 + ½ × 3/4 = 1/2."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "If the ball in the previous question is white, the probability that it came from box B is",
+      "options": [
+        "1/2",
+        "3/4",
+        "1/4",
+        "3/8"
+      ],
+      "answerIndex": 1,
+      "explanation": "(½ × 3/4) ÷ (1/2) = 3/4."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "1% of people have a disease. A test is positive for 90% of the sick and 10% of the healthy. The probability that a person who tests positive is sick is",
+      "options": [
+        "1/12",
+        "9/10",
+        "1/10",
+        "1/11"
+      ],
+      "answerIndex": 0,
+      "explanation": "Per 1000: 9 true and 99 false positives: 9/108 = 1/12."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Machine A makes 60% of items with 2% defective, machine B makes 40% with 5% defective. An item is defective. The probability it was made by A is",
+      "options": [
+        "3/5",
+        "5/8",
+        "1/4",
+        "3/8"
+      ],
+      "answerIndex": 3,
+      "explanation": "0.012/0.032 = 3/8."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "In the same factory, the overall defect rate is",
+      "options": [
+        "0.035",
+        "0.07",
+        "0.016",
+        "0.032"
+      ],
+      "answerIndex": 3,
+      "explanation": "0.6 × 0.02 + 0.4 × 0.05 = 0.032."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A box has 2 red and 3 green balls. A second box has 4 red and 1 green. A box is chosen at random and a red ball is drawn. The probability that it came from the second box is",
+      "options": [
+        "4/5",
+        "1/2",
+        "2/3",
+        "3/5"
+      ],
+      "answerIndex": 2,
+      "explanation": "P(red) = ½ × 2/5 + ½ × 4/5 = 3/5. Posterior = (½ × 4/5)/(3/5) = 2/3."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A pack contains 52 cards. One card is lost. Then one card drawn is a heart. The probability that the lost card was a heart is",
+      "options": [
+        "1/4",
+        "4/17",
+        "13/52",
+        "1/13"
+      ],
+      "answerIndex": 1,
+      "explanation": "P(lost heart) × P(heart | lost heart) ÷ P(heart) = (1/4)(12/51) ÷ (1/4) = 4/17."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Urn I has 2 white and 1 black ball; urn II has 1 white and 2 black. An urn is picked at random and a black ball is drawn. The probability it was urn II is",
+      "options": [
+        "2/3",
+        "1/3",
+        "1/2",
+        "3/4"
+      ],
+      "answerIndex": 0,
+      "explanation": "P(black) = ½ × 1/3 + ½ × 2/3 = 1/2. Posterior = (½ × 2/3)/(1/2) = 2/3."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Three machines make 50%, 30% and 20% of items with defect rates 1%, 2% and 3%. The overall defect rate is",
+      "options": [
+        "0.017",
+        "0.02",
+        "0.06",
+        "0.015"
+      ],
+      "answerIndex": 0,
+      "explanation": "0.005 + 0.006 + 0.006 = 0.017."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "For the same factory, if an item is defective, the probability that it came from the third machine is",
+      "options": [
+        "1/5",
+        "1/3",
+        "3/10",
+        "6/17"
+      ],
+      "answerIndex": 3,
+      "explanation": "0.006/0.017 = 6/17."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A test for a disease has 99% sensitivity and 99% specificity. If 1% of people have the disease, a person who tests positive is sick with probability",
+      "options": [
+        "99/100",
+        "1/100",
+        "1/2",
+        "2/3"
+      ],
+      "answerIndex": 2,
+      "explanation": "Per 10000: 99 true positives and 99 false positives: 99/198 = 1/2."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A student knows the answer to 60% of the questions; otherwise he guesses among 4 choices. He answers a question correctly. The probability that he knew the answer is",
+      "options": [
+        "3/5",
+        "6/7",
+        "5/6",
+        "2/3"
+      ],
+      "answerIndex": 1,
+      "explanation": "P(correct) = 0.6 + 0.4 × 0.25 = 0.7. Posterior = 0.6/0.7 = 6/7, so the answer is 6/7."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A coin is biased; P(heads) = 3/4. It is tossed twice and shows two heads. The probability that the coin was the biased one, when a fair coin and this biased coin are equally likely a priori, is",
+      "options": [
+        "1/2",
+        "9/13",
+        "3/4",
+        "4/9"
+      ],
+      "answerIndex": 1,
+      "explanation": "P(HH) = ½(1/4) + ½(9/16) = 13/32. Posterior = (9/32)/(13/32) = 9/13."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Of the people in a town, 40% are men and 60% are women. 5% of the men and 1% of the women are colour-blind. A person is colour-blind. The probability that the person is a man is",
+      "options": [
+        "10/13",
+        "1/3",
+        "1/2",
+        "5/6"
+      ],
+      "answerIndex": 0,
+      "explanation": "0.02/(0.02 + 0.006) = 10/13."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Box A has 3 white and 1 black; box B has 1 white and 3 black. A box is chosen at random, a ball drawn, and it is white. A second ball is drawn from the same box without replacing the first. The probability that the second is also white is",
+      "options": [
+        "3/8",
+        "5/8",
+        "7/16",
+        "1/2"
+      ],
+      "answerIndex": 3,
+      "explanation": "Posterior of A = (3/8)/(1/2) = 3/4, of B = 1/4. P(second white) = 3/4 × 2/3 + 1/4 × 0 = 1/2."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Two urns contain 4 red + 6 blue and 7 red + 3 blue balls. One urn is chosen at random and a ball is drawn, which is red. The probability that it came from the second urn is",
+      "options": [
+        "1/2",
+        "3/5",
+        "7/11",
+        "4/11"
+      ],
+      "answerIndex": 2,
+      "explanation": "P(red) = ½(4/10) + ½(7/10) = 11/20. Posterior = (7/20)/(11/20) = 7/11."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/probability/"
+}

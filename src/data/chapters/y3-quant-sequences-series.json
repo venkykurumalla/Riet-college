@@ -1,0 +1,426 @@
+{
+  "id": "y3-quant-sequences-series",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 19,
+  "title": "Sequences and Series",
+  "tagline": "Year 3 — Pattern finding, nth term, sum of special series and difference-of-differences methods",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A sequence is an ordered list of numbers following a rule; a series is the sum of its terms. This chapter teaches how to find the rule (first differences, second differences, ratios), how to write the nth term, and how to sum the standard series: natural numbers, squares, cubes, odd and even numbers. These tools feed the next chapters on AP, GP and mixed progressions.",
+    "placementRelevance": "Missing-term and nth-term questions are common in aptitude papers and in number-series rounds.",
+    "realWorldContext": "Repayment schedules, population patterns and pattern recognition in data all use sequences."
+  },
+  "learningObjectives": [
+    "Find the rule of a sequence using differences and ratios",
+    "Write the nth term of a pattern",
+    "Sum 1 + 2 + … + n, squares, cubes, odd and even numbers",
+    "Use the second-difference method for quadratic patterns",
+    "Spot mixed and alternating patterns"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Number System",
+      "Advanced Polynomial Equations"
+    ],
+    "quickRefresher": "Terms are written T₁, T₂, …, Tₙ. The sum of the first n terms is Sₙ."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Sequence: an ordered list with a rule for each term.",
+      "Series: the sum of the terms of a sequence.",
+      "First difference: Tₖ₊₁ − Tₖ. Second difference: the difference of first differences.",
+      "Constant first difference means an arithmetic pattern; constant ratio means a geometric pattern.",
+      "Constant second difference means the nth term is a quadratic in n."
+    ],
+    "theoreticalIntuition": "Look at how the terms change. If the change is constant, it is linear. If the change itself changes by a constant, it is quadratic. If the terms multiply by a constant, it is geometric.",
+    "visualOrMentalModel": "Write the first differences, then the second differences, then the ratios. The first level that becomes constant reveals the rule."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Sum of naturals",
+      "formula": "1 + 2 + … + n = n(n + 1)/2",
+      "description": "First n integers.",
+      "whenToUse": "Counting sums.",
+      "simpleExample": "n = 10: 55"
+    },
+    {
+      "title": "Sum of squares",
+      "formula": "1² + … + n² = n(n + 1)(2n + 1)/6",
+      "description": "First n squares.",
+      "whenToUse": "Squares.",
+      "simpleExample": "n = 5: 55"
+    },
+    {
+      "title": "Sum of cubes",
+      "formula": "1³ + … + n³ = [n(n + 1)/2]²",
+      "description": "First n cubes.",
+      "whenToUse": "Cubes.",
+      "simpleExample": "n = 4: 100"
+    },
+    {
+      "title": "Odd numbers",
+      "formula": "1 + 3 + … + (2n − 1) = n²",
+      "description": "First n odd numbers.",
+      "whenToUse": "Odd sums.",
+      "simpleExample": "n = 7: 49"
+    },
+    {
+      "title": "Even numbers",
+      "formula": "2 + 4 + … + 2n = n(n + 1)",
+      "description": "First n even numbers.",
+      "whenToUse": "Even sums.",
+      "simpleExample": "n = 10: 110"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "To find a rule, write the differences. For 3, 7, 11, 15 the first difference is always 4, so the nth term is 4n − 1.",
+      "If the first differences are not constant, take second differences. For 2, 6, 12, 20, 30 the first differences are 4, 6, 8, 10 and the second differences are all 2, so the nth term is n² + n.",
+      "If the ratio of consecutive terms is constant, the sequence is geometric. 3, 6, 12, 24 has ratio 2 and nth term 3 × 2ⁿ⁻¹.",
+      "Standard sums should be memorised. 1 + 2 + … + 20 = 20 × 21/2 = 210. 1² + 2² + … + 10² = 10 × 11 × 21/6 = 385. 1³ + … + 6³ = (6 × 7/2)² = 441.",
+      "Mixed patterns alternate two rules. In 2, 3, 4, 6, 8, 12 the terms at odd places go 2, 4, 8 (doubling) and those at even places go 3, 6, 12 (doubling). Split the sequence into its interleaved parts."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Differences of squares",
+        "content": "The sequence n² has first differences 2n + 1, which are the odd numbers, and second difference 2."
+      },
+      {
+        "title": "Sum from the nth term",
+        "content": "The sum of terms from the m-th to the n-th is Sₙ − Sₘ₋₁."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Missing term",
+      "description": "Differences.",
+      "exampleSnippet": "3, 7, 11, ?"
+    },
+    {
+      "typeName": "nth term",
+      "description": "Linear or quadratic.",
+      "exampleSnippet": "2, 6, 12, 20"
+    },
+    {
+      "typeName": "Sum of special series",
+      "description": "Standard formulas.",
+      "exampleSnippet": "1² + … + 10²"
+    },
+    {
+      "typeName": "Alternating pattern",
+      "description": "Split the sequence.",
+      "exampleSnippet": "2, 3, 4, 6, 8, 12"
+    },
+    {
+      "typeName": "Sum from m to n",
+      "description": "Sₙ − Sₘ₋₁.",
+      "exampleSnippet": "Terms 11 to 20"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-sequences-series-1",
+      "title": "nth term",
+      "question": "Find the 10th term of 2, 6, 12, 20, 30, …",
+      "givenInfo": [
+        "2, 6, 12, 20, 30"
+      ],
+      "conceptOrFormula": "Second differences.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "First differences",
+          "explanation": "4, 6, 8, 10."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Second differences",
+          "explanation": "All 2, so Tₙ = n² + n."
+        },
+        {
+          "stepNumber": 3,
+          "title": "10th term",
+          "explanation": "100 + 10 = 110."
+        }
+      ],
+      "finalAnswer": "110",
+      "whyItWorks": "The terms are n(n + 1).",
+      "commonTrap": "Treating it as linear.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-sequences-series-2",
+      "title": "Sum of squares",
+      "question": "Find 1² + 2² + … + 12².",
+      "givenInfo": [
+        "n = 12"
+      ],
+      "conceptOrFormula": "Sum of squares formula.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Formula",
+          "explanation": "n(n + 1)(2n + 1)/6."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Substitute",
+          "explanation": "12 × 13 × 25/6 = 650."
+        }
+      ],
+      "finalAnswer": "650",
+      "whyItWorks": "12 × 13 = 156; 156 × 25 = 3900; 3900/6 = 650.",
+      "commonTrap": "Using n(n + 1)/2.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-sequences-series-3",
+      "title": "Sum of cubes",
+      "question": "Find 1³ + 2³ + … + 9³.",
+      "givenInfo": [
+        "n = 9"
+      ],
+      "conceptOrFormula": "Square of the sum of naturals.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Sum of naturals",
+          "explanation": "9 × 10/2 = 45."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Square",
+          "explanation": "45² = 2025."
+        }
+      ],
+      "finalAnswer": "2025",
+      "whyItWorks": "Sum of cubes equals the square of the sum.",
+      "commonTrap": "Using 9 × 10/2 = 45 only.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Differences ladder",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Guess the rule.",
+      "shortcutMethod": "Constant first difference ⇒ linear; constant second difference ⇒ quadratic; constant ratio ⇒ geometric."
+    },
+    "rulesForApplication": [
+      "Check differences.",
+      "Check ratios.",
+      "Split alternating patterns.",
+      "Memorise standard sums."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Stopping at one level of differences",
+      "whyItHappens": "Missing a quadratic pattern.",
+      "howToAvoid": "Take second differences."
+    },
+    {
+      "mistake": "Wrong index in nth term",
+      "whyItHappens": "Using n instead of n − 1.",
+      "howToAvoid": "Test with n = 1."
+    },
+    {
+      "mistake": "Mixing sum of cubes and sum of squares",
+      "whyItHappens": "Similar formulas.",
+      "howToAvoid": "Cubes give a perfect square."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Test the formula for n = 1 and n = 2.",
+    "questionSelectionAdvice": "Check three terms before trusting a rule.",
+    "recruiterInsight": "Series questions are pattern recognition plus a standard formula."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-sequences-series-e1",
+        "question": "The next term in 3, 7, 11, 15, … is",
+        "options": [
+          "18",
+          "19",
+          "20",
+          "23"
+        ],
+        "correctAnswer": "19",
+        "explanation": "The common difference is 4, so the next term is 15 + 4 = 19.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-sequences-series-e2",
+        "question": "The nth term of 3, 7, 11, 15, … is",
+        "options": [
+          "4n − 1",
+          "4n + 1",
+          "n + 4",
+          "3n + 4"
+        ],
+        "correctAnswer": "4n − 1",
+        "explanation": "First term 3 and difference 4 give 3 + 4(n − 1) = 4n − 1.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-sequences-series-e3",
+        "question": "The next term in 2, 4, 8, 16, … is",
+        "options": [
+          "24",
+          "30",
+          "20",
+          "32"
+        ],
+        "correctAnswer": "32",
+        "explanation": "Each term doubles: 16 × 2 = 32.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-sequences-series-i7",
+        "question": "The next term in 2, 6, 12, 20, 30, … is",
+        "options": [
+          "42",
+          "40",
+          "44",
+          "36"
+        ],
+        "correctAnswer": "42",
+        "explanation": "The terms are n(n + 1), so the 6th term is 6 × 7 = 42.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-sequences-series-i8",
+        "question": "The 10th term of 2, 6, 12, 20, 30, … is",
+        "options": [
+          "100",
+          "120",
+          "90",
+          "110"
+        ],
+        "correctAnswer": "110",
+        "explanation": "Tₙ = n² + n gives 100 + 10 = 110.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-sequences-series-i9",
+        "question": "The sum 1² + 2² + … + 12² equals",
+        "options": [
+          "662",
+          "78",
+          "600",
+          "650"
+        ],
+        "correctAnswer": "650",
+        "explanation": "n(n + 1)(2n + 1)/6 = 12 × 13 × 25/6 = 650.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-sequences-series-a15",
+        "question": "The next term in 2, 3, 4, 6, 8, 12, … is",
+        "options": [
+          "14",
+          "18",
+          "16",
+          "24"
+        ],
+        "correctAnswer": "16",
+        "explanation": "Even places 3, 6, 12 and odd places 2, 4, 8, 16 each double, so the next term is 16.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-sequences-series-a16",
+        "question": "The sum 1 + 3 + 5 + … + 99 equals",
+        "options": [
+          "2450",
+          "2500",
+          "5000",
+          "2550"
+        ],
+        "correctAnswer": "2500",
+        "explanation": "There are 50 odd numbers, so the sum is 50² = 2500.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-sequences-series-p17",
+        "question": "The sum 2 + 4 + 6 + … + 100 equals",
+        "options": [
+          "2500",
+          "2550",
+          "5050",
+          "5000"
+        ],
+        "correctAnswer": "2550",
+        "explanation": "n(n + 1) with n = 50 gives 50 × 51 = 2550.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-sequences-series-p18",
+        "question": "If 1² + 2² + … + n² = 385, then n equals",
+        "options": [
+          "10",
+          "9",
+          "11",
+          "8"
+        ],
+        "correctAnswer": "10",
+        "explanation": "n(n + 1)(2n + 1)/6 = 385 holds for n = 10: 10 × 11 × 21/6 = 385.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-sequences-series-p19",
+        "question": "The nth term of 3, 8, 15, 24, 35, … is",
+        "options": [
+          "n² + 3n",
+          "2n² + 1",
+          "n² + n + 1",
+          "n² + 2n"
+        ],
+        "correctAnswer": "n² + 2n",
+        "explanation": "The terms are (n + 1)² − 1 = n² + 2n; check n = 1 gives 3.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Differences.",
+      "Ratios.",
+      "Quadratic nth term.",
+      "Standard sums.",
+      "Alternating patterns."
+    ],
+    "quickFormulas": [
+      "n(n+1)/2",
+      "n(n+1)(2n+1)/6",
+      "[n(n+1)/2]²"
+    ]
+  },
+  "keyTakeaways": [
+    "Find the level.",
+    "Test n = 1.",
+    "Memorise sums.",
+    "Split mixed patterns."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the nth term of a quadratic pattern?",
+    "Can I recall the three standard sums?",
+    "Can I spot interleaved sequences?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

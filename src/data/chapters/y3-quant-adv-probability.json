@@ -1,0 +1,430 @@
+{
+  "id": "y3-quant-adv-probability",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 15,
+  "title": "Advanced Probability — Conditional and Compound",
+  "tagline": "Year 3 — Conditional probability, independence, repeated trials and draws without replacement",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Year 2 probability used single events. Year 3 handles compound events: the probability that A and B both occur, that A or B occurs, and the probability of A given that B has already occurred (conditional probability). It also covers independent trials repeated several times and draws without replacement. The unifying rule is the multiplication rule: P(A and B) = P(A) × P(B | A).",
+    "placementRelevance": "Compound and conditional probability questions are commonly asked in company aptitude rounds with cards, dice, coins and balls in bags.",
+    "realWorldContext": "Quality control sampling, medical test accuracy and risk assessment depend on conditional probability."
+  },
+  "learningObjectives": [
+    "Use the multiplication rule with and without independence",
+    "Compute conditional probability P(A | B)",
+    "Solve repeated-trial problems (at least one, exactly k)",
+    "Handle draws with and without replacement",
+    "Use the complement for \"at least\" events"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Probability Fundamentals",
+      "Combinations"
+    ],
+    "quickRefresher": "P(not A) = 1 − P(A). P(A or B) = P(A) + P(B) − P(A and B). For independent events P(A and B) = P(A)P(B)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Conditional probability: P(A | B) = P(A and B) ÷ P(B).",
+      "Independent events: P(A | B) = P(A); equivalently P(A and B) = P(A)P(B).",
+      "Mutually exclusive events cannot occur together: P(A and B) = 0.",
+      "Binomial trials: probability of exactly k successes in n independent trials = nCk pᵏ qⁿ⁻ᵏ.",
+      "Without replacement: the sample space shrinks after each draw."
+    ],
+    "theoreticalIntuition": "Conditional probability restricts the sample space to the cases where the given event has occurred. The probability of A given B is the share of B's cases in which A also happens.",
+    "visualOrMentalModel": "Define the events, decide independence, write the multiplication rule, and compute. For \"at least one\", compute 1 − P(none)."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Multiplication rule",
+      "formula": "P(A and B) = P(A) × P(B | A)",
+      "description": "Sequential events.",
+      "whenToUse": "Draws.",
+      "simpleExample": "(5/8)(4/7) = 5/14"
+    },
+    {
+      "title": "Conditional",
+      "formula": "P(A | B) = P(A ∩ B)/P(B)",
+      "description": "Restrict to B.",
+      "whenToUse": "Given that…",
+      "simpleExample": "P(sum 8 | first die is 3)"
+    },
+    {
+      "title": "Binomial",
+      "formula": "P(k) = nCk pᵏ (1 − p)ⁿ⁻ᵏ",
+      "description": "Independent trials.",
+      "whenToUse": "Repeated trials.",
+      "simpleExample": "Exactly 2 heads in 3 tosses: 3/8"
+    },
+    {
+      "title": "At least one",
+      "formula": "1 − (1 − p)ⁿ",
+      "description": "Complement.",
+      "whenToUse": "At-least questions.",
+      "simpleExample": "1 − (1/2)³ = 7/8"
+    },
+    {
+      "title": "Without replacement",
+      "formula": "Multiply changing fractions",
+      "description": "Hypergeometric.",
+      "whenToUse": "Bags and cards.",
+      "simpleExample": "4/10 × 3/9"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "For sequential draws without replacement multiply the changing probabilities. From a bag with 5 red and 3 green balls, P(both red) = (5/8)(4/7) = 5/14.",
+      "Conditional probability restricts the sample space. Two dice are thrown. Given that the first shows 3, the sum is 8 only if the second shows 5, so P = 1/6. Given that the sum is 8 (5 outcomes), the probability that the first die is 3 is 1/5.",
+      "For repeated independent trials, use the binomial formula. P(exactly 2 heads in 3 tosses) = 3C2 (1/2)³ = 3/8. For at least one head: 1 − (1/2)³ = 7/8.",
+      "With replacement, trials are independent and the probabilities stay the same. Drawing two cards with replacement, P(both aces) = (4/52)² = 1/169. Without replacement it is (4/52)(3/51) = 1/221.",
+      "The addition rule with overlap: P(king or heart) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Independent vs exclusive",
+        "content": "Exclusive events have P(A and B) = 0, so they are dependent (if A occurs, B cannot). Independent events overlap in proportion to their probabilities."
+      },
+      {
+        "title": "Order does not matter in the total",
+        "content": "P(red then green) and P(green then red) are equal when drawing without replacement; use combinations for \"one of each\"."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Draws without replacement",
+      "description": "Multiply fractions.",
+      "exampleSnippet": "5 red, 3 green"
+    },
+    {
+      "typeName": "Conditional",
+      "description": "Restrict the sample space.",
+      "exampleSnippet": "Dice sum given first die"
+    },
+    {
+      "typeName": "Repeated trials",
+      "description": "Binomial.",
+      "exampleSnippet": "3 tosses"
+    },
+    {
+      "typeName": "At least one",
+      "description": "Complement.",
+      "exampleSnippet": "1 − (1/2)³"
+    },
+    {
+      "typeName": "Or-events",
+      "description": "Addition rule.",
+      "exampleSnippet": "King or heart"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-adv-probability-1",
+      "title": "Without replacement",
+      "question": "A bag has 5 red and 3 green balls. Two balls are drawn without replacement. Find the probability that both are red.",
+      "givenInfo": [
+        "5 red, 3 green"
+      ],
+      "conceptOrFormula": "Multiplication rule.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "First red",
+          "explanation": "5/8."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Second red",
+          "explanation": "4/7."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Both",
+          "explanation": "(5/8)(4/7) = 5/14."
+        }
+      ],
+      "finalAnswer": "5/14",
+      "whyItWorks": "The second draw has one fewer red and one fewer ball.",
+      "commonTrap": "Using 5/8 twice.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-adv-probability-2",
+      "title": "Conditional probability",
+      "question": "Two dice are thrown. Find the probability that the sum is 8 given that the first die shows 3.",
+      "givenInfo": [
+        "First die 3"
+      ],
+      "conceptOrFormula": "Restrict the sample space.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Sample space",
+          "explanation": "First die = 3: 6 outcomes."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Favourable",
+          "explanation": "Second die = 5: 1 outcome."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Probability",
+          "explanation": "1/6."
+        }
+      ],
+      "finalAnswer": "1/6",
+      "whyItWorks": "Only outcomes with the first die 3 are relevant.",
+      "commonTrap": "Using 5/36.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-adv-probability-3",
+      "title": "At least one",
+      "question": "A fair coin is tossed 3 times. Find the probability of getting at least one head.",
+      "givenInfo": [
+        "3 tosses"
+      ],
+      "conceptOrFormula": "Complement.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "None",
+          "explanation": "(1/2)³ = 1/8."
+        },
+        {
+          "stepNumber": 2,
+          "title": "At least one",
+          "explanation": "1 − 1/8 = 7/8."
+        }
+      ],
+      "finalAnswer": "7/8",
+      "whyItWorks": "Only TTT fails.",
+      "commonTrap": "Adding 1/2 + 1/2 + 1/2.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Restrict, multiply, complement",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "List all outcomes.",
+      "shortcutMethod": "Multiply sequential fractions; restrict the sample space for conditions; use 1 − P(none) for at least one."
+    },
+    "rulesForApplication": [
+      "Independent: multiply.",
+      "Conditional: restrict.",
+      "At least: complement.",
+      "Binomial: nCk pᵏqⁿ⁻ᵏ."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Treating dependent draws as independent",
+      "whyItHappens": "Not updating the fraction.",
+      "howToAvoid": "Update the numerator and denominator."
+    },
+    {
+      "mistake": "Confusing P(A | B) and P(B | A)",
+      "whyItHappens": "Using the wrong denominator.",
+      "howToAvoid": "The given event is the denominator."
+    },
+    {
+      "mistake": "Adding probabilities of overlapping events",
+      "whyItHappens": "Ignoring the intersection.",
+      "howToAvoid": "Subtract P(A and B)."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 80,
+    "eliminationTechnique": "Probabilities must lie in [0, 1]; for sequential draws the answer is less than each factor.",
+    "questionSelectionAdvice": "Write the events in words first.",
+    "recruiterInsight": "Conditional probability leads to Bayes' theorem."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-adv-probability-e1",
+        "question": "A bag has 5 red and 3 green balls. Two balls are drawn without replacement. The probability that both are red is",
+        "options": [
+          "25/64",
+          "5/14",
+          "5/8",
+          "3/14"
+        ],
+        "correctAnswer": "5/14",
+        "explanation": "(5/8)(4/7) = 20/56 = 5/14.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-probability-e2",
+        "question": "Two cards are drawn with replacement from a pack. The probability that both are aces is",
+        "options": [
+          "1/169",
+          "1/221",
+          "1/13",
+          "2/13"
+        ],
+        "correctAnswer": "1/169",
+        "explanation": "(4/52)² = 1/169.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-probability-e3",
+        "question": "Two cards are drawn without replacement from a pack. The probability that both are aces is",
+        "options": [
+          "1/169",
+          "1/52",
+          "4/663",
+          "1/221"
+        ],
+        "correctAnswer": "1/221",
+        "explanation": "(4/52)(3/51) = 12/2652 = 1/221.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-adv-probability-i7",
+        "question": "Two dice are thrown. Given that the first shows 3, the probability that the sum is 8 is",
+        "options": [
+          "1/6",
+          "5/36",
+          "1/36",
+          "1/3"
+        ],
+        "correctAnswer": "1/6",
+        "explanation": "The second die must show 5, so the probability is 1/6.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-probability-i8",
+        "question": "Two dice are thrown. Given that the sum is 8, the probability that the first die shows 3 is",
+        "options": [
+          "1/6",
+          "1/36",
+          "5/36",
+          "1/5"
+        ],
+        "correctAnswer": "1/5",
+        "explanation": "The sum 8 has 5 outcomes and one has the first die 3, so the probability is 1/5.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-probability-i9",
+        "question": "A fair coin is tossed 3 times. The probability of exactly 2 heads is",
+        "options": [
+          "1/8",
+          "1/4",
+          "1/2",
+          "3/8"
+        ],
+        "correctAnswer": "3/8",
+        "explanation": "3C2 × (1/2)³ = 3/8.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-adv-probability-a15",
+        "question": "A fair coin is tossed 5 times. The probability of getting exactly 3 heads is",
+        "options": [
+          "1/8",
+          "3/16",
+          "5/16",
+          "1/2"
+        ],
+        "correctAnswer": "5/16",
+        "explanation": "5C3/32 = 10/32 = 5/16.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-probability-a16",
+        "question": "Three cards are drawn from a pack without replacement. The probability that all are hearts is",
+        "options": [
+          "1/64",
+          "11/850",
+          "13/850",
+          "3/52"
+        ],
+        "correctAnswer": "11/850",
+        "explanation": "13C3/52C3 = 286/22100 = 11/850.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-adv-probability-p17",
+        "question": "A die is thrown 3 times. The probability of getting at least one six is",
+        "options": [
+          "1/2",
+          "91/216",
+          "125/216",
+          "1/6"
+        ],
+        "correctAnswer": "91/216",
+        "explanation": "1 − (5/6)³ = 91/216.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-probability-p18",
+        "question": "The probability that A hits a target is 1/3 and B hits it is 1/4, independently. The probability that exactly one hits is",
+        "options": [
+          "5/12",
+          "1/12",
+          "1/2",
+          "7/12"
+        ],
+        "correctAnswer": "5/12",
+        "explanation": "(1/3)(3/4) + (2/3)(1/4) = 3/12 + 2/12 = 5/12.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-probability-p19",
+        "question": "A bag has 3 red and 2 blue balls. A ball is drawn and, without replacement, a second is drawn. P(second is red | first is red) is",
+        "options": [
+          "3/5",
+          "2/5",
+          "3/10",
+          "1/2"
+        ],
+        "correctAnswer": "1/2",
+        "explanation": "After removing one red there are 2 reds among 4 balls: 2/4 = 1/2.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Multiplication rule.",
+      "Conditional restricts.",
+      "Binomial formula.",
+      "At least = complement.",
+      "Without replacement updates."
+    ],
+    "quickFormulas": [
+      "P(A|B) = P(A∩B)/P(B)",
+      "nCk pᵏ qⁿ⁻ᵏ"
+    ]
+  },
+  "keyTakeaways": [
+    "Define events.",
+    "Restrict the space.",
+    "Use complements.",
+    "Update draws."
+  ],
+  "selfCheckQuestions": [
+    "Can I find a draw probability without replacement?",
+    "Can I compute P(A | B)?",
+    "Can I use the binomial formula?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

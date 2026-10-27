@@ -1,0 +1,431 @@
+{
+  "id": "y3-quant-arithmetic-progressions",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 20,
+  "title": "Arithmetic Progressions",
+  "tagline": "Year 3 — nth term, sum of n terms, arithmetic mean, and AP word problems",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "An arithmetic progression (AP) is a sequence in which every term is obtained by adding a fixed number, the common difference d, to the previous term. This chapter develops the nth-term and sum formulas, the properties of terms equidistant from the ends, three-term AP tricks, and standard word problems on instalments, seating rows and counting multiples.",
+    "placementRelevance": "AP questions are among the most frequent number-series questions in company aptitude tests, often as \"find the sum\" or \"how many terms\" problems.",
+    "realWorldContext": "Salary increments of a fixed amount, equal instalment increases and stacked seating all form arithmetic progressions."
+  },
+  "learningObjectives": [
+    "Use Tₙ = a + (n − 1)d",
+    "Use Sₙ = n/2 [2a + (n − 1)d] = n/2 (a + l)",
+    "Count terms of an AP",
+    "Find the sum of multiples in a range",
+    "Use middle-term and three-number AP tricks"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Sequences and Series"
+    ],
+    "quickRefresher": "In an AP, consecutive differences are equal. The mean of two terms equals the term midway between them."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "First term a and common difference d.",
+      "nth term: Tₙ = a + (n − 1)d.",
+      "Sum of n terms: Sₙ = n/2 [2a + (n − 1)d] = n(a + l)/2 where l is the last term.",
+      "Arithmetic mean of x and y: (x + y)/2.",
+      "Number of terms between a and l: (l − a)/d + 1."
+    ],
+    "theoreticalIntuition": "The sum of an AP is the number of terms times the average of the first and last terms, because equidistant terms from the two ends have the same sum.",
+    "visualOrMentalModel": "Write a, d, and the last term, count the terms with (l − a)/d + 1, then multiply by the average of the first and last term."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "nth term",
+      "formula": "Tₙ = a + (n − 1)d",
+      "description": "Any AP.",
+      "whenToUse": "Find a term.",
+      "simpleExample": "a = 5, d = 3, T₁₀ = 32"
+    },
+    {
+      "title": "Sum",
+      "formula": "Sₙ = n/2 [2a + (n − 1)d]",
+      "description": "a, d, n known.",
+      "whenToUse": "Sum of n terms.",
+      "simpleExample": "S₁₀ = 185"
+    },
+    {
+      "title": "Sum with last term",
+      "formula": "Sₙ = n(a + l)/2",
+      "description": "a and l known.",
+      "whenToUse": "Sum between limits.",
+      "simpleExample": "(5 + 32) × 10/2 = 185"
+    },
+    {
+      "title": "Number of terms",
+      "formula": "n = (l − a)/d + 1",
+      "description": "a, l, d known.",
+      "whenToUse": "Counting multiples.",
+      "simpleExample": "Multiples of 7 up to 100: 14"
+    },
+    {
+      "title": "Middle term",
+      "formula": "Tₘ = Sₙ/n (n odd, m = middle)",
+      "description": "Odd count.",
+      "whenToUse": "Quick average.",
+      "simpleExample": "Average is the middle term"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Find the 20th term of 7, 11, 15, …. Here a = 7 and d = 4, so T₂₀ = 7 + 19 × 4 = 83.",
+      "Sum of the first 20 terms: S₂₀ = 20/2 × (7 + 83) = 900.",
+      "Counting terms: how many numbers between 1 and 100 are divisible by 7? The AP is 7, 14, …, 98, so n = (98 − 7)/7 + 1 = 14. Their sum is 14 × (7 + 98)/2 = 735.",
+      "For three numbers in AP use a − d, a, a + d; their sum is 3a, which fixes the middle term immediately. For five numbers use a − 2d, a − d, a, a + d, a + 2d.",
+      "If Sₙ is given as a quadratic in n, the first term is S₁ and the common difference is the coefficient of n² times 2. For Sₙ = 3n² + 2n, a = 5 and d = 6."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Equidistant terms",
+        "content": "In an AP, Tₖ + Tₙ₋ₖ₊₁ = a + l for every k, which gives the sum formula."
+      },
+      {
+        "title": "Tₙ from Sₙ",
+        "content": "Tₙ = Sₙ − Sₙ₋₁ for n ≥ 2."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Find a term",
+      "description": "Tₙ formula.",
+      "exampleSnippet": "T₂₀"
+    },
+    {
+      "typeName": "Sum",
+      "description": "Sₙ formula.",
+      "exampleSnippet": "S₂₀"
+    },
+    {
+      "typeName": "Count multiples",
+      "description": "Number of terms.",
+      "exampleSnippet": "Multiples of 7"
+    },
+    {
+      "typeName": "Three numbers",
+      "description": "a − d, a, a + d.",
+      "exampleSnippet": "Sum 27"
+    },
+    {
+      "typeName": "Sₙ given",
+      "description": "Tₙ = Sₙ − Sₙ₋₁.",
+      "exampleSnippet": "Sₙ = 3n² + 2n"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-arithmetic-progressions-1",
+      "title": "nth term and sum",
+      "question": "For the AP 7, 11, 15, …, find the 20th term and the sum of 20 terms.",
+      "givenInfo": [
+        "a = 7",
+        "d = 4"
+      ],
+      "conceptOrFormula": "Standard formulas.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "20th term",
+          "explanation": "7 + 19 × 4 = 83."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Sum",
+          "explanation": "20/2 × (7 + 83) = 900."
+        }
+      ],
+      "finalAnswer": "83 and 900",
+      "whyItWorks": "The average of 7 and 83 is 45; 20 × 45 = 900.",
+      "commonTrap": "Using 20d.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-arithmetic-progressions-2",
+      "title": "Count multiples",
+      "question": "Find the sum of all multiples of 7 between 1 and 100.",
+      "givenInfo": [
+        "7, 14, …, 98"
+      ],
+      "conceptOrFormula": "Count and sum.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Last term",
+          "explanation": "98 (7 × 14)."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Count",
+          "explanation": "(98 − 7)/7 + 1 = 14."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Sum",
+          "explanation": "14 × (7 + 98)/2 = 735."
+        }
+      ],
+      "finalAnswer": "735",
+      "whyItWorks": "7 × (1 + 2 + … + 14) = 7 × 105 = 735.",
+      "commonTrap": "Counting 15 terms.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-arithmetic-progressions-3",
+      "title": "Three numbers in AP",
+      "question": "Three numbers in AP have sum 27 and product 693. Find them.",
+      "givenInfo": [
+        "Sum 27",
+        "Product 693"
+      ],
+      "conceptOrFormula": "Use a − d, a, a + d.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Middle",
+          "explanation": "3a = 27, so a = 9."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Product",
+          "explanation": "9(81 − d²) = 693, so 81 − d² = 77, d² = 4, d = 2."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Numbers",
+          "explanation": "7, 9, 11."
+        }
+      ],
+      "finalAnswer": "7, 9, 11",
+      "whyItWorks": "7 + 9 + 11 = 27 and 7 × 9 × 11 = 693.",
+      "commonTrap": "Taking a = 27/3 and d = 3 without the product.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Average × count",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Apply the long sum formula.",
+      "shortcutMethod": "Sum = number of terms × average of the first and last terms; the middle term of an odd-length AP equals the average."
+    },
+    "rulesForApplication": [
+      "Count with (l − a)/d + 1.",
+      "Three numbers: a − d, a, a + d.",
+      "Sum = n × mean.",
+      "Tₙ = Sₙ − Sₙ₋₁."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Off-by-one in the count",
+      "whyItHappens": "Forgetting +1.",
+      "howToAvoid": "n = (l − a)/d + 1."
+    },
+    {
+      "mistake": "Using n d instead of (n − 1)d",
+      "whyItHappens": "Wrong term index.",
+      "howToAvoid": "Test with n = 1."
+    },
+    {
+      "mistake": "Using the wrong last term",
+      "whyItHappens": "Not the largest multiple within the range.",
+      "howToAvoid": "Divide the limit first."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "The sum must be n times a value between the first and last terms.",
+    "questionSelectionAdvice": "Compute the last term before the sum.",
+    "recruiterInsight": "Counting multiples is an AP in disguise."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-arithmetic-progressions-e1",
+        "question": "The 10th term of the AP 5, 8, 11, … is",
+        "options": [
+          "30",
+          "32",
+          "35",
+          "33"
+        ],
+        "correctAnswer": "32",
+        "explanation": "a = 5, d = 3, so T₁₀ = 5 + 9 × 3 = 32.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-arithmetic-progressions-e2",
+        "question": "The common difference of the AP 20, 17, 14, … is",
+        "options": [
+          "-3",
+          "3",
+          "-2",
+          "17"
+        ],
+        "correctAnswer": "-3",
+        "explanation": "Each term is 3 less than the previous, so d = −3.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-arithmetic-progressions-e3",
+        "question": "The sum of the first 10 terms of 5, 8, 11, … is",
+        "options": [
+          "170",
+          "190",
+          "320",
+          "185"
+        ],
+        "correctAnswer": "185",
+        "explanation": "S = 10/2 × (5 + 32) = 185.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-arithmetic-progressions-i7",
+        "question": "The 20th term of 7, 11, 15, … is",
+        "options": [
+          "83",
+          "80",
+          "87",
+          "79"
+        ],
+        "correctAnswer": "83",
+        "explanation": "7 + 19 × 4 = 83.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-arithmetic-progressions-i8",
+        "question": "The sum of the first 20 terms of 7, 11, 15, … is",
+        "options": [
+          "830",
+          "1800",
+          "880",
+          "900"
+        ],
+        "correctAnswer": "900",
+        "explanation": "20/2 × (7 + 83) = 900.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-arithmetic-progressions-i9",
+        "question": "The number of multiples of 7 between 1 and 100 is",
+        "options": [
+          "13",
+          "15",
+          "12",
+          "14"
+        ],
+        "correctAnswer": "14",
+        "explanation": "The largest is 98 = 7 × 14, so there are 14 multiples.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-arithmetic-progressions-a15",
+        "question": "The sum of all natural numbers from 1 to 100 that are divisible by 3 or 5 is",
+        "options": [
+          "1683",
+          "2500",
+          "2418",
+          "2000"
+        ],
+        "correctAnswer": "2418",
+        "explanation": "Multiples of 3: 1683, of 5: 1050, of 15: 315. Total 1683 + 1050 − 315 = 2418.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-arithmetic-progressions-a16",
+        "question": "The 5th term of an AP is 23 and the 12th term is 58. The first term is",
+        "options": [
+          "5",
+          "3",
+          "8",
+          "13"
+        ],
+        "correctAnswer": "3",
+        "explanation": "7d = 35, so d = 5 and a = 23 − 4 × 5 = 3.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-arithmetic-progressions-p17",
+        "question": "The sum of the first n terms of an AP is 240 with a = 6 and d = 4. The value of n is",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "14"
+        ],
+        "correctAnswer": "10",
+        "explanation": "n/2 (12 + 4n − 4) = n(2n + 4) = 240 gives n = 10.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-arithmetic-progressions-p18",
+        "question": "The sum of the first 15 terms of an AP whose 8th term is 20 is",
+        "options": [
+          "300",
+          "150",
+          "280",
+          "320"
+        ],
+        "correctAnswer": "300",
+        "explanation": "S₁₅ = 15 × T₈ = 15 × 20 = 300.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-arithmetic-progressions-p19",
+        "question": "How many three-digit numbers are divisible by 7?",
+        "options": [
+          "127",
+          "129",
+          "130",
+          "128"
+        ],
+        "correctAnswer": "128",
+        "explanation": "The multiples of 7 from 105 to 994: (994 − 105)/7 + 1 = 128.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Tₙ formula.",
+      "Sₙ formula.",
+      "Count terms.",
+      "Three numbers.",
+      "Tₙ = Sₙ − Sₙ₋₁."
+    ],
+    "quickFormulas": [
+      "Tₙ = a + (n−1)d",
+      "Sₙ = n(a+l)/2"
+    ]
+  },
+  "keyTakeaways": [
+    "Find a, d, l.",
+    "Count then sum.",
+    "Use the middle term.",
+    "Check n = 1."
+  ],
+  "selfCheckQuestions": [
+    "Can I count multiples in a range?",
+    "Can I find the sum fast?",
+    "Can I set up three numbers in AP?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}
