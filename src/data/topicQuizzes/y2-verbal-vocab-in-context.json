@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-verbal-vocab-in-context",
+  "topicTitle": "Vocabulary in Context",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"inclement\".\n\"The weather was so inclement that the match was cancelled; heavy rain and strong winds lashed the ground.\"",
+      "options": [
+        "pleasant",
+        "stormy",
+        "mild",
+        "sunny"
+      ],
+      "answerIndex": 1,
+      "explanation": "Heavy rain and strong winds describe harsh, stormy weather."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"frugal\".\n\"He was frugal; he saved every rupee and never wasted money.\"",
+      "options": [
+        "careful with money",
+        "generous",
+        "wasteful",
+        "rich"
+      ],
+      "answerIndex": 0,
+      "explanation": "Saving every rupee shows care with money."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"lucid\".\n\"The teacher's lucid explanation made the topic easy to understand.\"",
+      "options": [
+        "confusing",
+        "long",
+        "loud",
+        "clear"
+      ],
+      "answerIndex": 3,
+      "explanation": "An explanation that makes things easy to understand is clear."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"reluctant\".\n\"She was reluctant to speak; she looked at the floor and said nothing.\"",
+      "options": [
+        "eager",
+        "angry",
+        "unwilling",
+        "tired"
+      ],
+      "answerIndex": 2,
+      "explanation": "Saying nothing shows unwillingness."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"frail\".\n\"The old man was so frail that he could hardly lift a cup.\"",
+      "options": [
+        "strong",
+        "rich",
+        "weak",
+        "tall"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hardly being able to lift a cup shows weakness."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"jubilant\".\n\"The audience was jubilant when their team won, cheering and dancing.\"",
+      "options": [
+        "sad",
+        "joyful",
+        "puzzled",
+        "sleepy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cheering and dancing show joy."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"gregarious\".\n\"Unlike his gregarious brother, who loved parties, Anil preferred to stay alone.\"",
+      "options": [
+        "sociable",
+        "shy",
+        "angry",
+        "careless"
+      ],
+      "answerIndex": 0,
+      "explanation": "Loving parties contrasts with staying alone: sociable."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"rhetoric\".\n\"The politician's speech was full of rhetoric, but it contained no concrete plans.\"",
+      "options": [
+        "detailed facts",
+        "silence",
+        "plain statistics",
+        "impressive language without substance"
+      ],
+      "answerIndex": 3,
+      "explanation": "But signals that the speech lacked concrete plans, so it was fine words without substance."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"keen\".\n\"The detective's keen observation, noticing even the smallest detail, solved the case.\"",
+      "options": [
+        "dull",
+        "slow",
+        "careless",
+        "sharp"
+      ],
+      "answerIndex": 3,
+      "explanation": "Noticing the smallest detail shows sharpness."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"withered\".\n\"After the long drought, the farmers were desperate; their crops had withered.\"",
+      "options": [
+        "grown tall",
+        "ripened",
+        "dried up",
+        "doubled"
+      ],
+      "answerIndex": 2,
+      "explanation": "A drought dries up crops."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"ardent\".\n\"She was an ardent supporter of the team and attended every match.\"",
+      "options": [
+        "indifferent",
+        "passionate",
+        "occasional",
+        "reluctant"
+      ],
+      "answerIndex": 1,
+      "explanation": "Attending every match shows passion."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"prudent\".\n\"His prudent decision to save money protected him during the crisis.\"",
+      "options": [
+        "wise and careful",
+        "reckless",
+        "hasty",
+        "foolish"
+      ],
+      "answerIndex": 0,
+      "explanation": "A decision that protected him was wise."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"lenient\".\n\"The manager was lenient; he forgave the late arrivals and did not punish anyone.\"",
+      "options": [
+        "not strict",
+        "harsh",
+        "cruel",
+        "angry"
+      ],
+      "answerIndex": 0,
+      "explanation": "Forgiving and not punishing suggests leniency."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"formidable\".\n\"The mountain was so formidable that few dared to climb it.\"",
+      "options": [
+        "tiny",
+        "friendly",
+        "ordinary",
+        "intimidating"
+      ],
+      "answerIndex": 3,
+      "explanation": "Few dared to climb it, so it was frightening to face."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"hypothesis\".\n\"The scientist's hypothesis, a tentative explanation yet to be tested, was published.\"",
+      "options": [
+        "a proven law",
+        "a final result",
+        "a proposed explanation to be tested",
+        "a mistake"
+      ],
+      "answerIndex": 2,
+      "explanation": "The sentence itself defines it as a tentative explanation yet to be tested."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"ambiguous\".\n\"Because the instructions were ambiguous, each student interpreted them differently.\"",
+      "options": [
+        "very clear",
+        "open to more than one meaning",
+        "very short",
+        "very strict"
+      ],
+      "answerIndex": 1,
+      "explanation": "Different interpretations suggest the instructions could be understood in more than one way."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"meagre\".\n\"The company's meagre profits barely covered the salaries.\"",
+      "options": [
+        "huge",
+        "very small",
+        "steady",
+        "surprising"
+      ],
+      "answerIndex": 1,
+      "explanation": "Barely covering salaries shows the profits were very small."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"eloquent\".\n\"Her eloquent speech, fluent and persuasive, won the audience.\"",
+      "options": [
+        "fluent and persuasive",
+        "hesitant",
+        "silent",
+        "angry"
+      ],
+      "answerIndex": 0,
+      "explanation": "The sentence describes it as fluent and persuasive."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"animosity\".\n\"The rivals' animosity was clear; they refused even to shake hands.\"",
+      "options": [
+        "friendship",
+        "respect",
+        "curiosity",
+        "strong hostility"
+      ],
+      "answerIndex": 3,
+      "explanation": "Refusing to shake hands shows hostility."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Use the clues in the sentence to decide the meaning of the word \"unprecedented\".\n\"The sudden collapse of the market was unprecedented; nothing like it had happened before.\"",
+      "options": [
+        "expected",
+        "common",
+        "never having happened before",
+        "planned"
+      ],
+      "answerIndex": 2,
+      "explanation": "The sentence explains it: nothing like it had happened before."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

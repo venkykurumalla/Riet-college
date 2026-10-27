@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-verbal-rc-foundation",
+  "topicTitle": "Reading Comprehension Foundation",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Passage: Rahul's village had no school. Children had to walk five kilometres to the nearest town to study. Many gave up after the primary classes. Rahul, however, was determined. He woke up at five every day, walked to school, and returned home in the evening to help his father on the farm. His teachers admired his dedication.\n\nHow far did the children have to walk to reach the nearest school?",
+      "options": [
+        "Three kilometres",
+        "Five kilometres",
+        "Ten kilometres",
+        "Fifty metres"
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage says they walked five kilometres to the nearest town."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Passage: Rahul's village had no school. Children had to walk five kilometres to the nearest town to study. Many gave up after the primary classes. Rahul, however, was determined. He woke up at five every day, walked to school, and returned home in the evening to help his father on the farm. His teachers admired his dedication.\n\nWhy did many children give up their studies after the primary classes?",
+      "options": [
+        "The nearest school was far away",
+        "They were not intelligent",
+        "Their teachers were unkind",
+        "They had to go abroad"
+      ],
+      "answerIndex": 0,
+      "explanation": "The distance to the school is the reason implied by the passage."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Passage: Plastic is useful because it is cheap, light and durable. But its durability is also its greatest problem. Plastic does not decay for hundreds of years, so waste collects in landfills and oceans. Marine animals mistake it for food and die. Many countries are therefore encouraging recycling and the use of cloth bags.\n\nWhich of the following is NOT given as a reason why plastic is useful?",
+      "options": [
+        "It is cheap",
+        "It is light",
+        "It is durable",
+        "It decays quickly"
+      ],
+      "answerIndex": 3,
+      "explanation": "The passage says plastic does not decay for hundreds of years."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Passage: Sleep is as important as food for health. During sleep the body repairs itself and the brain stores what was learned during the day. Students who sleep less than six hours often find it hard to concentrate. Doctors recommend seven to eight hours of sleep for most adults.\n\nAccording to the passage, sleep is as important as",
+      "options": [
+        "exercise",
+        "money",
+        "food",
+        "study"
+      ],
+      "answerIndex": 2,
+      "explanation": "The first sentence says sleep is as important as food for health."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Passage: When the factory opened in the town, many people welcomed it because it created jobs. Within a few years, however, the river that flowed near it turned dark and the fish began to die. Villagers complained, but the owners argued that the factory was essential for the town's economy. After a long dispute, the court ordered the factory to install a treatment plant.\n\nWhy did many people welcome the factory when it opened?",
+      "options": [
+        "It cleaned the river",
+        "It sold cheap fish",
+        "It created jobs",
+        "It built a school"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says they welcomed it because it created jobs."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Passage: Honesty is often described as the best policy, but it is not always the easiest. A person who tells the truth may sometimes lose a friend or an opportunity. Yet in the long run, honest people earn trust, and trust is more valuable than any single gain. The cost of dishonesty, on the other hand, is that nobody believes you even when you speak the truth.\n\nAccording to the author, honest people earn",
+      "options": [
+        "wealth",
+        "trust",
+        "fame",
+        "power"
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage says honest people earn trust in the long run."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Passage: Rahul's village had no school. Children had to walk five kilometres to the nearest town to study. Many gave up after the primary classes. Rahul, however, was determined. He woke up at five every day, walked to school, and returned home in the evening to help his father on the farm. His teachers admired his dedication.\n\nIn the passage, the word \"determined\" means",
+      "options": [
+        "firm in purpose",
+        "lazy",
+        "afraid",
+        "confused"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rahul contrasts with those who gave up, so determined means firm in purpose."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Passage: Rahul's village had no school. Children had to walk five kilometres to the nearest town to study. Many gave up after the primary classes. Rahul, however, was determined. He woke up at five every day, walked to school, and returned home in the evening to help his father on the farm. His teachers admired his dedication.\n\nWhich of the following best describes Rahul?",
+      "options": [
+        "Careless and lazy",
+        "Rich and proud",
+        "Shy and weak",
+        "Hard-working and dedicated"
+      ],
+      "answerIndex": 3,
+      "explanation": "He walked daily, helped his father and was admired by his teachers."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Passage: Plastic is useful because it is cheap, light and durable. But its durability is also its greatest problem. Plastic does not decay for hundreds of years, so waste collects in landfills and oceans. Marine animals mistake it for food and die. Many countries are therefore encouraging recycling and the use of cloth bags.\n\nThe main idea of the passage is that",
+      "options": [
+        "plastic should be produced more",
+        "marine animals like plastic",
+        "cloth bags are expensive",
+        "plastic is useful but harms the environment, so alternatives are being encouraged"
+      ],
+      "answerIndex": 3,
+      "explanation": "The passage presents both the usefulness and the harm of plastic and the response."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Passage: Plastic is useful because it is cheap, light and durable. But its durability is also its greatest problem. Plastic does not decay for hundreds of years, so waste collects in landfills and oceans. Marine animals mistake it for food and die. Many countries are therefore encouraging recycling and the use of cloth bags.\n\nWhy is the durability of plastic a problem?",
+      "options": [
+        "Plastic breaks easily",
+        "Plastic is too light",
+        "Plastic waste stays for hundreds of years",
+        "Plastic is cheap"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage states that plastic does not decay for hundreds of years."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Passage: Plastic is useful because it is cheap, light and durable. But its durability is also its greatest problem. Plastic does not decay for hundreds of years, so waste collects in landfills and oceans. Marine animals mistake it for food and die. Many countries are therefore encouraging recycling and the use of cloth bags.\n\nWhat do marine animals do with plastic, according to the passage?",
+      "options": [
+        "They use it as shelter",
+        "They mistake it for food",
+        "They avoid it",
+        "They recycle it"
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage says marine animals mistake it for food and die."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Passage: Sleep is as important as food for health. During sleep the body repairs itself and the brain stores what was learned during the day. Students who sleep less than six hours often find it hard to concentrate. Doctors recommend seven to eight hours of sleep for most adults.\n\nWhat does the brain do during sleep, according to the passage?",
+      "options": [
+        "It stores what was learned during the day",
+        "It stops working",
+        "It forgets everything",
+        "It grows taller"
+      ],
+      "answerIndex": 0,
+      "explanation": "The passage says the brain stores what was learned during the day."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Passage: Sleep is as important as food for health. During sleep the body repairs itself and the brain stores what was learned during the day. Students who sleep less than six hours often find it hard to concentrate. Doctors recommend seven to eight hours of sleep for most adults.\n\nA student who sleeps only four hours a night is most likely to",
+      "options": [
+        "find it hard to concentrate",
+        "score full marks",
+        "need no food",
+        "feel fully rested"
+      ],
+      "answerIndex": 0,
+      "explanation": "The passage links sleeping fewer than six hours to difficulty in concentrating."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Passage: Sleep is as important as food for health. During sleep the body repairs itself and the brain stores what was learned during the day. Students who sleep less than six hours often find it hard to concentrate. Doctors recommend seven to eight hours of sleep for most adults.\n\nHow many hours of sleep do doctors recommend for most adults?",
+      "options": [
+        "Four to five hours",
+        "Ten to twelve hours",
+        "Two hours",
+        "Seven to eight hours"
+      ],
+      "answerIndex": 3,
+      "explanation": "The last sentence gives seven to eight hours."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Passage: When the factory opened in the town, many people welcomed it because it created jobs. Within a few years, however, the river that flowed near it turned dark and the fish began to die. Villagers complained, but the owners argued that the factory was essential for the town's economy. After a long dispute, the court ordered the factory to install a treatment plant.\n\nThe passage mainly deals with",
+      "options": [
+        "the history of the town",
+        "the habits of fish",
+        "the conflict between economic benefit and environmental damage",
+        "the cost of building courts"
+      ],
+      "answerIndex": 2,
+      "explanation": "The factory brought jobs but also polluted the river."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Passage: When the factory opened in the town, many people welcomed it because it created jobs. Within a few years, however, the river that flowed near it turned dark and the fish began to die. Villagers complained, but the owners argued that the factory was essential for the town's economy. After a long dispute, the court ordered the factory to install a treatment plant.\n\nWhat can be inferred about the cause of the dying fish?",
+      "options": [
+        "A natural drought",
+        "Pollution from the factory",
+        "Overfishing by villagers",
+        "A new bridge"
+      ],
+      "answerIndex": 1,
+      "explanation": "The river turned dark after the factory opened and the court ordered a treatment plant."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Passage: When the factory opened in the town, many people welcomed it because it created jobs. Within a few years, however, the river that flowed near it turned dark and the fish began to die. Villagers complained, but the owners argued that the factory was essential for the town's economy. After a long dispute, the court ordered the factory to install a treatment plant.\n\nWhat did the court order the factory to do?",
+      "options": [
+        "Close permanently",
+        "Install a treatment plant",
+        "Pay the villagers a bonus",
+        "Move to another town"
+      ],
+      "answerIndex": 1,
+      "explanation": "The last sentence states the order."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Passage: Honesty is often described as the best policy, but it is not always the easiest. A person who tells the truth may sometimes lose a friend or an opportunity. Yet in the long run, honest people earn trust, and trust is more valuable than any single gain. The cost of dishonesty, on the other hand, is that nobody believes you even when you speak the truth.\n\nThe author's view about honesty is that it",
+      "options": [
+        "is valuable even though it can be costly in the short term",
+        "always brings immediate rewards",
+        "is not important",
+        "is easy for everyone"
+      ],
+      "answerIndex": 0,
+      "explanation": "The passage admits the costs but says trust is more valuable."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Passage: Honesty is often described as the best policy, but it is not always the easiest. A person who tells the truth may sometimes lose a friend or an opportunity. Yet in the long run, honest people earn trust, and trust is more valuable than any single gain. The cost of dishonesty, on the other hand, is that nobody believes you even when you speak the truth.\n\nWhich of the following can be inferred from the passage?",
+      "options": [
+        "Honest people never lose friends",
+        "Trust is worth less than money",
+        "Truth is always welcomed",
+        "Dishonest people lose credibility even when they tell the truth"
+      ],
+      "answerIndex": 3,
+      "explanation": "The passage says nobody believes a dishonest person even when they speak the truth."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Passage: Honesty is often described as the best policy, but it is not always the easiest. A person who tells the truth may sometimes lose a friend or an opportunity. Yet in the long run, honest people earn trust, and trust is more valuable than any single gain. The cost of dishonesty, on the other hand, is that nobody believes you even when you speak the truth.\n\nThe phrase \"on the other hand\" introduces",
+      "options": [
+        "an example of honesty",
+        "a definition of trust",
+        "a contrast: the cost of dishonesty",
+        "a summary of the passage"
+      ],
+      "answerIndex": 2,
+      "explanation": "It contrasts the benefit of honesty with the cost of dishonesty."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/reading-comprehension/"
+}

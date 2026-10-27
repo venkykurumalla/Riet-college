@@ -1,0 +1,425 @@
+{
+  "id": "y2-verbal-para-completion",
+  "yearId": 2,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 41,
+  "title": "Paragraph Completion",
+  "tagline": "Year 2 — Choosing the final sentence that fits the logic and tone of a paragraph",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "In a paragraph-completion question you read a short paragraph with the last sentence missing and choose the option that completes it best. The right choice continues the idea of the paragraph, matches its tone, and fits the logical signal given by the last words (therefore, however, as a result, finally). Wrong options are usually off-topic, contradictory, too extreme or repeat the paragraph without adding anything.",
+    "placementRelevance": "Paragraph completion questions are commonly asked in the verbal ability section of company aptitude rounds and help build reading comprehension skill.",
+    "realWorldContext": "Writing a conclusion to an email or report, and checking that it follows from the argument, uses this skill."
+  },
+  "learningObjectives": [
+    "Identify the main idea of a short paragraph",
+    "Use transition signals (however, therefore, as a result) to predict the type of ending",
+    "Reject off-topic, contradictory and extreme options",
+    "Match the tone and scope of the paragraph",
+    "Check that the completed paragraph flows logically"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Sentence Completion",
+      "Contextual Vocabulary"
+    ],
+    "quickRefresher": "A paragraph has one main idea. Transition words tell you the direction: addition (also), contrast (however), result (so, therefore, as a result), sequence (finally)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Main idea: the central point of the paragraph.",
+      "Transition word: a word that links ideas and signals the relationship (however, therefore).",
+      "Continuation: a sentence that extends the idea of the paragraph.",
+      "Conclusion: a closing sentence that follows from the earlier ones.",
+      "Off-topic option: one that changes the subject."
+    ],
+    "theoreticalIntuition": "The best ending follows from what came before. After a cause, the ending states the result. After a problem, it states a response or a consequence. After \"however\", it states a contrast. Predict the kind of sentence, then find the option that matches.",
+    "visualOrMentalModel": "Summarise the paragraph in one line, look at the last signal word, predict the ending, and check each option for relevance, direction and tone."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Signal: result",
+      "formula": "So / therefore / as a result / hence → a consequence",
+      "description": "Pick the logical effect.",
+      "whenToUse": "Result endings.",
+      "simpleExample": "Plastic harms animals → many cities have banned it"
+    },
+    {
+      "title": "Signal: contrast",
+      "formula": "However / yet / although → an opposite idea",
+      "description": "Flip the direction.",
+      "whenToUse": "Contrast endings.",
+      "simpleExample": "Critics said it would hurt the poor → the government claimed welfare benefits"
+    },
+    {
+      "title": "Signal: sequence",
+      "formula": "Finally / suddenly / on the day → the next event in the story",
+      "description": "Continue the narrative.",
+      "whenToUse": "Narrative endings.",
+      "simpleExample": "Studied for years → finally got admission"
+    },
+    {
+      "title": "Scope check",
+      "formula": "The ending must match the scope (not extreme, not unrelated)",
+      "description": "Reject all/never statements.",
+      "whenToUse": "Wrong options.",
+      "simpleExample": "Not \"all students fail\""
+    },
+    {
+      "title": "Repetition check",
+      "formula": "The ending must add something, not repeat",
+      "description": "Reject paraphrases.",
+      "whenToUse": "Weak options.",
+      "simpleExample": "Not \"Plastic bags are plastic\""
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Read the paragraph and put its idea in a single line. \"Regular exercise keeps the body fit and improves mood and sleep\" leads to a recommendation: therefore everyone should make exercise part of daily life.",
+      "Use the signal word. In \"Many students think cramming is the best way to study. Research shows, however, that ___\", the word however introduces a contrast: understanding concepts leads to better long-term learning.",
+      "For narrative paragraphs, continue the story. \"The library was silent… Suddenly ___\" needs an event that interrupts the silence: a phone rang loudly.",
+      "Reject options that are off-topic, extreme or contradictory. After \"Early humans learned to grow crops. This change… ___\", the ending should explain its effect: it allowed people to settle in one place and form villages.",
+      "Reread the paragraph with your choice to check that it flows and that the tone is consistent."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Parallel structure at the end",
+        "content": "If the paragraph lists benefits, the ending may add another benefit. If it states a problem, the ending may offer a solution. Look at the shape of the paragraph."
+      },
+      {
+        "title": "Extreme options",
+        "content": "Words like always, never, all and nobody make an option risky. Prefer measured statements unless the paragraph is itself extreme."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Result endings",
+      "description": "Therefore, as a result.",
+      "exampleSnippet": "Plastic bags → banned"
+    },
+    {
+      "typeName": "Contrast endings",
+      "description": "However.",
+      "exampleSnippet": "Cramming vs understanding"
+    },
+    {
+      "typeName": "Narrative endings",
+      "description": "Suddenly, finally.",
+      "exampleSnippet": "The phone rang"
+    },
+    {
+      "typeName": "Explanatory endings",
+      "description": "This change…",
+      "exampleSnippet": "Agricultural revolution"
+    },
+    {
+      "typeName": "Cause-effect endings",
+      "description": "Because … .",
+      "exampleSnippet": "Unsafe bridge closed"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-verbal-para-completion-1",
+      "title": "Result",
+      "question": "Plastic bags take hundreds of years to decay. They also harm animals that eat them. Many cities have therefore ___",
+      "givenInfo": [
+        "Signal: therefore"
+      ],
+      "conceptOrFormula": "Result of the problem.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Problem",
+          "explanation": "Plastic is harmful and long-lasting."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Result",
+          "explanation": "Cities have banned it."
+        }
+      ],
+      "finalAnswer": "banned them.",
+      "whyItWorks": "Therefore signals a response to the problem.",
+      "commonTrap": "Choosing an unrelated statement.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-verbal-para-completion-2",
+      "title": "Contrast",
+      "question": "Many students think that cramming is the best way to study. Research shows, however, that ___",
+      "givenInfo": [
+        "Signal: however"
+      ],
+      "conceptOrFormula": "Opposite idea.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Original view",
+          "explanation": "Cramming works."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Contrast",
+          "explanation": "Understanding is better."
+        }
+      ],
+      "finalAnswer": "understanding concepts leads to better long-term learning.",
+      "whyItWorks": "However flips the view.",
+      "commonTrap": "Repeating the claim.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-verbal-para-completion-3",
+      "title": "Narrative",
+      "question": "The library was silent. Students were bent over their books. Suddenly ___",
+      "givenInfo": [
+        "Signal: suddenly"
+      ],
+      "conceptOrFormula": "An event that breaks the silence.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Setting",
+          "explanation": "Quiet library."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Event",
+          "explanation": "A loud interruption."
+        }
+      ],
+      "finalAnswer": "a phone rang loudly.",
+      "whyItWorks": "The event contrasts with the silence.",
+      "commonTrap": "Choosing a general fact.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Summarise, signal, predict",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Read all options first.",
+      "shortcutMethod": "Summarise the paragraph, read the signal word, predict the ending, then pick the closest option."
+    },
+    "rulesForApplication": [
+      "Match the signal word.",
+      "Avoid off-topic and extreme options.",
+      "Add new information.",
+      "Keep the tone."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Ignoring the signal word",
+      "whyItHappens": "Choosing a plausible but wrong direction.",
+      "howToAvoid": "Read however/therefore."
+    },
+    {
+      "mistake": "Choosing a repeat",
+      "whyItHappens": "The option says the same thing.",
+      "howToAvoid": "It must add something."
+    },
+    {
+      "mistake": "Choosing an extreme option",
+      "whyItHappens": "All/never.",
+      "howToAvoid": "Prefer measured statements."
+    },
+    {
+      "mistake": "Changing the tone",
+      "whyItHappens": "A casual end to a formal paragraph.",
+      "howToAvoid": "Match the tone."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 40,
+    "eliminationTechnique": "Eliminate off-topic options first.",
+    "questionSelectionAdvice": "Predict the ending in your own words.",
+    "recruiterInsight": "Signal words make most questions easy."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-verbal-para-completion-e1",
+        "question": "Choose the option that best completes the paragraph.\nRegular exercise keeps the body fit. It also improves mood and sleep. Therefore, doctors advise that everyone should ___",
+        "options": [
+          "avoid sleeping early.",
+          "make exercise a part of daily life.",
+          "eat only sweets.",
+          "stop playing games."
+        ],
+        "correctAnswer": "make exercise a part of daily life.",
+        "explanation": "Therefore signals a recommendation that follows from the benefits.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-para-completion-e2",
+        "question": "Choose the option that best completes the paragraph.\nWater is essential for life. Without it, plants wither and animals die. So, we should ___",
+        "options": [
+          "conserve water and avoid wasting it.",
+          "use as much as possible.",
+          "stop growing plants.",
+          "ignore the problem."
+        ],
+        "correctAnswer": "conserve water and avoid wasting it.",
+        "explanation": "The paragraph shows the importance of water, so we should conserve it.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-para-completion-e3",
+        "question": "Choose the option that best completes the paragraph.\nThe library was silent. Students were bent over their books. Suddenly ___",
+        "options": [
+          "the exams were cancelled in 1990.",
+          "rain is a form of water.",
+          "books are made of paper.",
+          "a phone rang loudly."
+        ],
+        "correctAnswer": "a phone rang loudly.",
+        "explanation": "Suddenly signals an event that interrupts the silence.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-verbal-para-completion-i7",
+        "question": "Choose the option that best completes the paragraph.\nSocial media connects people across the world. However, it also ___",
+        "options": [
+          "can spread false information quickly.",
+          "is used by everyone.",
+          "was invented in the stone age.",
+          "makes the internet faster."
+        ],
+        "correctAnswer": "can spread false information quickly.",
+        "explanation": "However introduces a downside.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-para-completion-i8",
+        "question": "Choose the option that best completes the paragraph.\nA good leader listens before he decides. He values the opinions of his team. As a result, ___",
+        "options": [
+          "the team ignores him.",
+          "the leader never decides.",
+          "the office is closed.",
+          "the team trusts and respects him."
+        ],
+        "correctAnswer": "the team trusts and respects him.",
+        "explanation": "As a result signals a positive consequence.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-para-completion-i9",
+        "question": "Choose the option that best completes the paragraph.\nMany students think that cramming is the best way to study. Research shows, however, that ___",
+        "options": [
+          "cramming always works.",
+          "books are expensive.",
+          "students sleep a lot.",
+          "understanding concepts leads to better long-term learning."
+        ],
+        "correctAnswer": "understanding concepts leads to better long-term learning.",
+        "explanation": "However introduces a contrast.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-verbal-para-completion-a15",
+        "question": "Choose the option that best completes the paragraph.\nCritics argued that the new tax would hurt the poor. The government, however, ___",
+        "options": [
+          "agreed with the critics completely.",
+          "abolished all taxes at once.",
+          "claimed that the money would be used for welfare schemes.",
+          "refused to speak."
+        ],
+        "correctAnswer": "claimed that the money would be used for welfare schemes.",
+        "explanation": "However signals the government's contrasting view.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-para-completion-a16",
+        "question": "Choose the option that best completes the paragraph.\nEarly humans lived in caves and hunted for food. Over time, they learned to grow crops. This change, known as the agricultural revolution, ___",
+        "options": [
+          "made people move more.",
+          "allowed people to settle in one place and form villages.",
+          "ended the use of fire.",
+          "was unknown to them."
+        ],
+        "correctAnswer": "allowed people to settle in one place and form villages.",
+        "explanation": "The ending explains the effect of farming.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-verbal-para-completion-p17",
+        "question": "Choose the option that best completes the paragraph.\nAlthough the film had a brilliant story, ___",
+        "options": [
+          "it was a great film in every way.",
+          "its poor editing disappointed many viewers.",
+          "the story was unimportant.",
+          "it was released in a theatre."
+        ],
+        "correctAnswer": "its poor editing disappointed many viewers.",
+        "explanation": "Although introduces a contrasting weakness.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-para-completion-p18",
+        "question": "Choose the option that best completes the paragraph.\nThe company promised to deliver the order in a week. Three weeks later, there was still no sign of it. Not surprisingly, ___",
+        "options": [
+          "the customer demanded a refund.",
+          "the customer thanked the company.",
+          "the order arrived early.",
+          "the week was extended to a year."
+        ],
+        "correctAnswer": "the customer demanded a refund.",
+        "explanation": "The delay naturally leads to a demand for a refund.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-para-completion-p19",
+        "question": "Choose the option that best completes the paragraph.\nTechnology has made our lives easier in many ways. Yet there are costs: ___",
+        "options": [
+          "phones are useful for calls.",
+          "machines never fail.",
+          "everyone owns a computer.",
+          "people spend less time talking face to face."
+        ],
+        "correctAnswer": "people spend less time talking face to face.",
+        "explanation": "Yet costs signals a downside.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Main idea.",
+      "Signal words.",
+      "Reject extremes.",
+      "Add new information.",
+      "Match tone."
+    ],
+    "quickFormulas": [
+      "Therefore → result",
+      "However → contrast"
+    ]
+  },
+  "keyTakeaways": [
+    "Summarise.",
+    "Read the signal.",
+    "Predict.",
+    "Check tone."
+  ],
+  "selfCheckQuestions": [
+    "Can I predict an ending from \"however\"?",
+    "Can I reject an extreme option?",
+    "Can I complete a narrative paragraph?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Objective General English — S.P. Bakshi",
+      "sourceType": "Textbook",
+      "referenceNote": "Paragraph completion and reading skills; examples are original."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-verbal-sentence-completion",
+  "topicTitle": "Sentence Completion",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the word or pair of words that best completes the sentence.\nThe rain was so heavy that the match had to be ___.",
+      "options": [
+        "started",
+        "postponed",
+        "won",
+        "enjoyed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Heavy rain led to the match being postponed."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the word or pair of words that best completes the sentence.\nShe was ___ by the news and could not speak.",
+      "options": [
+        "stunned",
+        "bored",
+        "delighted",
+        "ignored"
+      ],
+      "answerIndex": 0,
+      "explanation": "Being unable to speak suggests shock: stunned."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Choose the word or pair of words that best completes the sentence.\nHe is a ___ student; he never misses a class.",
+      "options": [
+        "careless",
+        "lazy",
+        "rude",
+        "diligent"
+      ],
+      "answerIndex": 3,
+      "explanation": "Never missing a class suggests hard work: diligent."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the word or pair of words that best completes the sentence.\nThe shop was closed ___ it was a holiday.",
+      "options": [
+        "although",
+        "unless",
+        "because",
+        "but"
+      ],
+      "answerIndex": 2,
+      "explanation": "The holiday is the reason for the closure: because."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the word or pair of words that best completes the sentence.\nRavi ___ his work before leaving.",
+      "options": [
+        "finishing",
+        "finish",
+        "finished",
+        "finishes"
+      ],
+      "answerIndex": 2,
+      "explanation": "The past tense fits \"before leaving\": finished."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the word or pair of words that best completes the sentence.\nThe medicine was ___ and cured his fever quickly.",
+      "options": [
+        "useless",
+        "effective",
+        "harmful",
+        "tasteless"
+      ],
+      "answerIndex": 1,
+      "explanation": "It cured the fever, so it was effective."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the word or pair of words that best completes the sentence.\nAlthough the exam was difficult, most students ___ it.",
+      "options": [
+        "passed",
+        "feared",
+        "failed",
+        "skipped"
+      ],
+      "answerIndex": 0,
+      "explanation": "Although signals contrast with \"difficult\": passed."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the word or pair of words that best completes the sentence.\nThe new policy was ___ by everyone, so it was cancelled.",
+      "options": [
+        "welcomed",
+        "praised",
+        "supported",
+        "opposed"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cancellation follows opposition."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the word or pair of words that best completes the sentence.\nHis ___ speech moved the audience to tears.",
+      "options": [
+        "boring",
+        "short",
+        "noisy",
+        "emotional"
+      ],
+      "answerIndex": 3,
+      "explanation": "Moving the audience to tears suggests an emotional speech."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Choose the word or pair of words that best completes the sentence.\nDespite the ___ weather, the match ___ as scheduled.",
+      "options": [
+        "pleasant … continued",
+        "heavy … stopped",
+        "heavy … continued",
+        "pleasant … stopped"
+      ],
+      "answerIndex": 2,
+      "explanation": "Despite shows contrast: bad weather but the match went on."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the word or pair of words that best completes the sentence.\nShe spoke so ___ that no one could hear her.",
+      "options": [
+        "loudly",
+        "softly",
+        "clearly",
+        "angrily"
+      ],
+      "answerIndex": 1,
+      "explanation": "No one could hear, so she spoke softly."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the word or pair of words that best completes the sentence.\nHe was ___ for his honesty and was often trusted.",
+      "options": [
+        "respected",
+        "punished",
+        "ignored",
+        "feared"
+      ],
+      "answerIndex": 0,
+      "explanation": "Being trusted for honesty suggests being respected."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the word or pair of words that best completes the sentence.\nThe thief ran away ___ the police arrived.",
+      "options": [
+        "before",
+        "unless",
+        "so",
+        "if"
+      ],
+      "answerIndex": 0,
+      "explanation": "The escape happened earlier than the arrival: before."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the word or pair of words that best completes the sentence.\nThe company's profits have ___ steadily over the last five years, and the shareholders are happy.",
+      "options": [
+        "declined",
+        "vanished",
+        "frozen",
+        "increased"
+      ],
+      "answerIndex": 3,
+      "explanation": "Happy shareholders suggest rising profits."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the word or pair of words that best completes the sentence.\nFar from being ___, the proposal was met with ___.",
+      "options": [
+        "accepted … enthusiasm",
+        "rejected … hostility",
+        "rejected … enthusiasm",
+        "accepted … hostility"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Far from\" signals the opposite of expectation: not rejected, but greeted with enthusiasm."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the word or pair of words that best completes the sentence.\nThe scientist's claims were so ___ that even his colleagues ___ them.",
+      "options": [
+        "reasonable … doubted",
+        "outrageous … doubted",
+        "outrageous … accepted",
+        "reasonable … rejected"
+      ],
+      "answerIndex": 1,
+      "explanation": "Outrageous claims lead even colleagues to doubt them."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the word or pair of words that best completes the sentence.\nUnlike his ___ brother, Arun is quiet and reserved.",
+      "options": [
+        "shy",
+        "talkative",
+        "quiet",
+        "silent"
+      ],
+      "answerIndex": 1,
+      "explanation": "Unlike signals contrast with quiet: talkative."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the word or pair of words that best completes the sentence.\nThe more he practised, ___ he became.",
+      "options": [
+        "the better",
+        "the worse",
+        "the slower",
+        "the lazier"
+      ],
+      "answerIndex": 0,
+      "explanation": "The more … the better is the standard pattern."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the word or pair of words that best completes the sentence.\nShe is not only intelligent ___ hardworking.",
+      "options": [
+        "and also",
+        "also but",
+        "or",
+        "but also"
+      ],
+      "answerIndex": 3,
+      "explanation": "The fixed pair is not only … but also."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the word or pair of words that best completes the sentence.\nHe neither smokes ___ drinks.",
+      "options": [
+        "or",
+        "and",
+        "nor",
+        "but"
+      ],
+      "answerIndex": 2,
+      "explanation": "The fixed pair is neither … nor."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

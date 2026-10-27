@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-verbal-para-completion",
+  "topicTitle": "Paragraph Completion",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the option that best completes the paragraph.\nRegular exercise keeps the body fit. It also improves mood and sleep. Therefore, doctors advise that everyone should ___",
+      "options": [
+        "avoid sleeping early.",
+        "make exercise a part of daily life.",
+        "eat only sweets.",
+        "stop playing games."
+      ],
+      "answerIndex": 1,
+      "explanation": "Therefore signals a recommendation that follows from the benefits."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the option that best completes the paragraph.\nWater is essential for life. Without it, plants wither and animals die. So, we should ___",
+      "options": [
+        "conserve water and avoid wasting it.",
+        "use as much as possible.",
+        "stop growing plants.",
+        "ignore the problem."
+      ],
+      "answerIndex": 0,
+      "explanation": "The paragraph shows the importance of water, so we should conserve it."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Choose the option that best completes the paragraph.\nThe library was silent. Students were bent over their books. Suddenly ___",
+      "options": [
+        "the exams were cancelled in 1990.",
+        "rain is a form of water.",
+        "books are made of paper.",
+        "a phone rang loudly."
+      ],
+      "answerIndex": 3,
+      "explanation": "Suddenly signals an event that interrupts the silence."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the option that best completes the paragraph.\nRavi wanted to become a doctor. He studied hard for years. Finally, ___",
+      "options": [
+        "he decided to sell vegetables.",
+        "the moon was bright.",
+        "he got admission to a medical college.",
+        "he forgot his name."
+      ],
+      "answerIndex": 2,
+      "explanation": "The story continues with the reward of his effort."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the option that best completes the paragraph.\nPlastic bags take hundreds of years to decay. They also harm animals that eat them. Many cities have therefore ___",
+      "options": [
+        "produced more of them.",
+        "sold them to tourists.",
+        "banned them.",
+        "painted them blue."
+      ],
+      "answerIndex": 2,
+      "explanation": "Therefore signals a response to the harm."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the option that best completes the paragraph.\nThe train was late by two hours. Passengers were tired and angry. The station master ___",
+      "options": [
+        "danced on the platform.",
+        "apologised and announced the new time.",
+        "sold the tickets again.",
+        "ignored the clock."
+      ],
+      "answerIndex": 1,
+      "explanation": "A natural response to the delay is an apology and update."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the option that best completes the paragraph.\nSocial media connects people across the world. However, it also ___",
+      "options": [
+        "can spread false information quickly.",
+        "is used by everyone.",
+        "was invented in the stone age.",
+        "makes the internet faster."
+      ],
+      "answerIndex": 0,
+      "explanation": "However introduces a downside."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the option that best completes the paragraph.\nA good leader listens before he decides. He values the opinions of his team. As a result, ___",
+      "options": [
+        "the team ignores him.",
+        "the leader never decides.",
+        "the office is closed.",
+        "the team trusts and respects him."
+      ],
+      "answerIndex": 3,
+      "explanation": "As a result signals a positive consequence."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the option that best completes the paragraph.\nMany students think that cramming is the best way to study. Research shows, however, that ___",
+      "options": [
+        "cramming always works.",
+        "books are expensive.",
+        "students sleep a lot.",
+        "understanding concepts leads to better long-term learning."
+      ],
+      "answerIndex": 3,
+      "explanation": "However introduces a contrast."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Choose the option that best completes the paragraph.\nIndia has a vast variety of languages. Each region has its own culture. This diversity ___",
+      "options": [
+        "is found only in one state.",
+        "has no value.",
+        "makes the country rich and colourful.",
+        "ended in 1947."
+      ],
+      "answerIndex": 2,
+      "explanation": "The ending states the effect of the diversity."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the option that best completes the paragraph.\nElectric cars produce no smoke. They are also quiet. Yet many people hesitate to buy them because ___",
+      "options": [
+        "they produce smoke.",
+        "they are costly and charging points are few.",
+        "they are very loud.",
+        "they have no wheels."
+      ],
+      "answerIndex": 1,
+      "explanation": "Yet signals a reason against buying them."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the option that best completes the paragraph.\nThe farmer sowed the seeds in June. The monsoon arrived on time. In October, ___",
+      "options": [
+        "he harvested a bumper crop.",
+        "the seeds were still in the bag.",
+        "he sold his tractor in winter.",
+        "the monsoon had not started."
+      ],
+      "answerIndex": 0,
+      "explanation": "The story ends with the harvest."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the option that best completes the paragraph.\nSleep is not a waste of time. During sleep, the brain stores memories and the body repairs itself. Hence, ___",
+      "options": [
+        "a good night's sleep is necessary for health.",
+        "we should never sleep.",
+        "sleep is only for children.",
+        "the brain stops working."
+      ],
+      "answerIndex": 0,
+      "explanation": "Hence signals a conclusion."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the option that best completes the paragraph.\nShe was nervous before the interview. She practised answers in front of the mirror. On the day, ___",
+      "options": [
+        "she did not attend.",
+        "she forgot to wear shoes.",
+        "the mirror broke.",
+        "she answered every question confidently."
+      ],
+      "answerIndex": 3,
+      "explanation": "Her preparation led to confidence."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the option that best completes the paragraph.\nCritics argued that the new tax would hurt the poor. The government, however, ___",
+      "options": [
+        "agreed with the critics completely.",
+        "abolished all taxes at once.",
+        "claimed that the money would be used for welfare schemes.",
+        "refused to speak."
+      ],
+      "answerIndex": 2,
+      "explanation": "However signals the government's contrasting view."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the option that best completes the paragraph.\nEarly humans lived in caves and hunted for food. Over time, they learned to grow crops. This change, known as the agricultural revolution, ___",
+      "options": [
+        "made people move more.",
+        "allowed people to settle in one place and form villages.",
+        "ended the use of fire.",
+        "was unknown to them."
+      ],
+      "answerIndex": 1,
+      "explanation": "The ending explains the effect of farming."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the option that best completes the paragraph.\nAlthough the film had a brilliant story, ___",
+      "options": [
+        "it was a great film in every way.",
+        "its poor editing disappointed many viewers.",
+        "the story was unimportant.",
+        "it was released in a theatre."
+      ],
+      "answerIndex": 1,
+      "explanation": "Although introduces a contrasting weakness."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the option that best completes the paragraph.\nThe company promised to deliver the order in a week. Three weeks later, there was still no sign of it. Not surprisingly, ___",
+      "options": [
+        "the customer demanded a refund.",
+        "the customer thanked the company.",
+        "the order arrived early.",
+        "the week was extended to a year."
+      ],
+      "answerIndex": 0,
+      "explanation": "The delay naturally leads to a demand for a refund."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the option that best completes the paragraph.\nTechnology has made our lives easier in many ways. Yet there are costs: ___",
+      "options": [
+        "phones are useful for calls.",
+        "machines never fail.",
+        "everyone owns a computer.",
+        "people spend less time talking face to face."
+      ],
+      "answerIndex": 3,
+      "explanation": "Yet costs signals a downside."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the option that best completes the paragraph.\nBecause the bridge was unsafe, ___",
+      "options": [
+        "the authorities opened it to heavier traffic.",
+        "the river became wider.",
+        "the authorities closed it to traffic.",
+        "the bridge was painted blue."
+      ],
+      "answerIndex": 2,
+      "explanation": "The logical result of an unsafe bridge is closure."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

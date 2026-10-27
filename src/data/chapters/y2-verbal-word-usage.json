@@ -1,0 +1,425 @@
+{
+  "id": "y2-verbal-word-usage",
+  "yearId": 2,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 40,
+  "title": "Word Usage and Collocations",
+  "tagline": "Year 2 — Which words go together: make/do, heavy/strong and fixed phrases",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "A collocation is a pair or group of words that naturally go together. English speakers say \"make a decision\", not \"do a decision\", and \"heavy rain\", not \"strong rain\". These combinations are fixed by usage, not by logic, so they have to be learned. Word-usage questions test whether you know which word naturally accompanies another, and they also cover correct choices among similar words and prepositions.",
+    "placementRelevance": "Word usage and collocation questions are commonly asked in the verbal ability section of company aptitude rounds, often in fill-in-the-blank form.",
+    "realWorldContext": "Natural collocations make emails and reports sound fluent and professional; unnatural ones read as non-native."
+  },
+  "learningObjectives": [
+    "Use common verb collocations (make, do, take, have, give, pay)",
+    "Use adjective + noun collocations (heavy rain, strong tea)",
+    "Use adverb + adjective collocations (bitterly cold, fully aware)",
+    "Use group nouns (flock of sheep, herd of cattle)",
+    "Use fixed phrases and phrasal verbs"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Vocabulary",
+      "Prepositions"
+    ],
+    "quickRefresher": "Learn words in chunks, not alone. When you meet a new noun, note which verb and adjective go with it."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Collocation: a combination of words that frequently occur together and sound natural.",
+      "Verb + noun collocation: make a decision, do homework, take a break, pay attention, commit a crime.",
+      "Adjective + noun collocation: heavy rain, strong tea, a bitter disappointment.",
+      "Adverb + adjective collocation: bitterly cold, fully aware, deeply grateful.",
+      "Group noun: a word naming a group of animals or things (a flock of sheep, a herd of cattle)."
+    ],
+    "theoreticalIntuition": "Collocations are habits of the language. If you have often heard \"heavy rain\", then \"strong rain\" sounds wrong even though \"strong\" and \"heavy\" can both mean powerful. The only way to master them is repeated exposure, so learn them in phrases.",
+    "visualOrMentalModel": "When you see a blank next to a noun, ask \"what verb or adjective do I usually say with this noun?\" If you recall the phrase in a familiar sentence, you have the answer."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Make vs do",
+      "formula": "make: a decision, a mistake, a promise, progress;  do: homework, a favour, the dishes, business",
+      "description": "Make = create; do = perform tasks.",
+      "whenToUse": "Verb choice.",
+      "simpleExample": "make a decision; do homework"
+    },
+    {
+      "title": "Take vs have",
+      "formula": "take: a break, a chance, a look, a decision (UK);  have: a break, a meal, a look",
+      "description": "Both are common; pick the standard one.",
+      "whenToUse": "Verb choice.",
+      "simpleExample": "take a break"
+    },
+    {
+      "title": "Adjective + noun",
+      "formula": "heavy rain, strong tea, heavy smoker, deep sleep, high price",
+      "description": "Fixed pairs.",
+      "whenToUse": "Adjective choice.",
+      "simpleExample": "heavy rain"
+    },
+    {
+      "title": "Adverb + adjective",
+      "formula": "bitterly cold, fully aware, deeply grateful, highly successful",
+      "description": "Fixed pairs.",
+      "whenToUse": "Adverb choice.",
+      "simpleExample": "fully aware"
+    },
+    {
+      "title": "Group nouns",
+      "formula": "a flock of sheep/birds, a herd of cattle, a pack of wolves, a swarm of bees",
+      "description": "Learn the standard ones.",
+      "whenToUse": "Group questions.",
+      "simpleExample": "a flock of sheep"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Start with the verb collocations. We make a decision, a mistake, a promise and progress, but we do homework, a favour and business. We pay attention, commit a crime, keep a promise, take a break and reach an agreement.",
+      "Adjective collocations: rain is heavy, tea is strong, a smoker is heavy, and sleep is deep. Adverb collocations: it is bitterly cold, we are fully aware, he is deeply grateful.",
+      "Group nouns are learned as pairs: a flock of sheep, a herd of cattle, a pack of wolves, a swarm of bees. A \"piece of advice\" and \"a piece of information\" use piece with uncountable nouns.",
+      "Phrasal and fixed expressions: a meeting is called off (cancelled); a stroke of luck is a sudden piece of good fortune; we find a solution and reach an agreement.",
+      "When two options seem acceptable, choose the one that is most common in everyday use. Revise collocations in lists and in sentences rather than as single words."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Prepositions are collocations too",
+        "content": "Fond of, good at, interested in, afraid of are fixed pairs. A different preposition sounds wrong even though the meaning is clear."
+      },
+      {
+        "title": "British and American usage",
+        "content": "Some collocations differ: take a decision (British) vs make a decision (American). In exams, the standard form is \"make a decision\"."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Verb collocations",
+      "description": "Make, do, take, pay.",
+      "exampleSnippet": "make a decision"
+    },
+    {
+      "typeName": "Adjective collocations",
+      "description": "Heavy, strong.",
+      "exampleSnippet": "heavy rain"
+    },
+    {
+      "typeName": "Adverb collocations",
+      "description": "Bitterly, fully.",
+      "exampleSnippet": "bitterly cold"
+    },
+    {
+      "typeName": "Group nouns",
+      "description": "Flock, herd.",
+      "exampleSnippet": "a flock of sheep"
+    },
+    {
+      "typeName": "Fixed phrases",
+      "description": "Piece, stroke.",
+      "exampleSnippet": "a piece of advice"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-verbal-word-usage-1",
+      "title": "Verb collocation",
+      "question": "He ___ a decision after long thought. (made / did / gave / held)",
+      "givenInfo": [
+        "Options: made, did, gave, held"
+      ],
+      "conceptOrFormula": "Make a decision.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Recall",
+          "explanation": "We make decisions."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose",
+          "explanation": "made."
+        }
+      ],
+      "finalAnswer": "made",
+      "whyItWorks": "Do is for tasks and duties.",
+      "commonTrap": "Choosing did.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-verbal-word-usage-2",
+      "title": "Adjective collocation",
+      "question": "There was ___ rain last night. (heavy / strong / big / tall)",
+      "givenInfo": [
+        "Options: heavy, strong, big, tall"
+      ],
+      "conceptOrFormula": "Heavy rain.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Recall",
+          "explanation": "Rain is described as heavy."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose",
+          "explanation": "heavy."
+        }
+      ],
+      "finalAnswer": "heavy",
+      "whyItWorks": "Strong goes with tea.",
+      "commonTrap": "Choosing strong.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-verbal-word-usage-3",
+      "title": "Group noun",
+      "question": "A ___ of sheep was grazing on the hill. (flock / herd / pack / swarm)",
+      "givenInfo": [
+        "Options: flock, herd, pack, swarm"
+      ],
+      "conceptOrFormula": "Group nouns.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Recall",
+          "explanation": "Sheep form a flock."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose",
+          "explanation": "flock."
+        }
+      ],
+      "finalAnswer": "flock",
+      "whyItWorks": "Herd is for cattle.",
+      "commonTrap": "Choosing herd.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Chunk recall",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reason from meaning.",
+      "shortcutMethod": "Say the phrase in a familiar sentence. If it sounds right, choose it."
+    },
+    "rulesForApplication": [
+      "Learn collocations in phrases.",
+      "Make creates; do performs.",
+      "Heavy rain, strong tea.",
+      "Group nouns: flock, herd."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Translating word for word",
+      "whyItHappens": "Using logical but unnatural words.",
+      "howToAvoid": "Use the standard collocation."
+    },
+    {
+      "mistake": "Confusing make and do",
+      "whyItHappens": "Choosing by meaning only.",
+      "howToAvoid": "Learn the lists."
+    },
+    {
+      "mistake": "Wrong group noun",
+      "whyItHappens": "Mixing flock and herd.",
+      "howToAvoid": "Learn pairs."
+    },
+    {
+      "mistake": "Wrong preposition",
+      "whyItHappens": "Changing a fixed pair.",
+      "howToAvoid": "Learn pairs."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "Eliminate options that sound unfamiliar with the noun.",
+    "questionSelectionAdvice": "Read English regularly.",
+    "recruiterInsight": "Collocation questions are very fast if you know the phrase."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-verbal-word-usage-e1",
+        "question": "Choose the word that fits naturally in the blank.\nHe ___ a decision after long thought.",
+        "options": [
+          "did",
+          "made",
+          "gave",
+          "held"
+        ],
+        "correctAnswer": "made",
+        "explanation": "We make a decision.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-word-usage-e2",
+        "question": "Choose the word that fits naturally in the blank.\nShe ___ her homework before dinner.",
+        "options": [
+          "did",
+          "made",
+          "took",
+          "had"
+        ],
+        "correctAnswer": "did",
+        "explanation": "We do homework.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-word-usage-e3",
+        "question": "Choose the word that fits naturally in the blank.\nThere was ___ rain last night.",
+        "options": [
+          "strong",
+          "big",
+          "tall",
+          "heavy"
+        ],
+        "correctAnswer": "heavy",
+        "explanation": "We say heavy rain.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-verbal-word-usage-i7",
+        "question": "Choose the word that fits naturally in the blank.\nThe police ___ a thorough investigation.",
+        "options": [
+          "conducted",
+          "did",
+          "made",
+          "took"
+        ],
+        "correctAnswer": "conducted",
+        "explanation": "Investigations are conducted or carried out.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-word-usage-i8",
+        "question": "Choose the word that fits naturally in the blank.\nWe decided to ___ a break after two hours.",
+        "options": [
+          "make",
+          "do",
+          "give",
+          "take"
+        ],
+        "correctAnswer": "take",
+        "explanation": "We take a break.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-word-usage-i9",
+        "question": "Choose the word that fits naturally in the blank.\nHe ___ a crime and was arrested.",
+        "options": [
+          "did",
+          "made",
+          "done",
+          "committed"
+        ],
+        "correctAnswer": "committed",
+        "explanation": "We commit a crime.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-verbal-word-usage-a15",
+        "question": "Choose the word that fits naturally in the blank.\nIt was ___ cold last night.",
+        "options": [
+          "heavily",
+          "deeply",
+          "bitterly",
+          "highly"
+        ],
+        "correctAnswer": "bitterly",
+        "explanation": "We say bitterly cold.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-word-usage-a16",
+        "question": "Choose the word that fits naturally in the blank.\nHe was ___ aware of the risks involved.",
+        "options": [
+          "highly",
+          "fully",
+          "much",
+          "strongly"
+        ],
+        "correctAnswer": "fully",
+        "explanation": "We say fully aware.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-verbal-word-usage-p17",
+        "question": "Choose the word that fits naturally in the blank.\nWinning the lottery was a ___ of luck.",
+        "options": [
+          "hit",
+          "stroke",
+          "shot",
+          "blow"
+        ],
+        "correctAnswer": "stroke",
+        "explanation": "A stroke of luck is a sudden piece of good fortune.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-word-usage-p18",
+        "question": "Choose the word that fits naturally in the blank.\nWe need to ___ a solution to this problem.",
+        "options": [
+          "find",
+          "make",
+          "do",
+          "take"
+        ],
+        "correctAnswer": "find",
+        "explanation": "We find a solution.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-word-usage-p19",
+        "question": "Choose the word that fits naturally in the blank.\nThe two sides finally ___ an agreement.",
+        "options": [
+          "did",
+          "took",
+          "held",
+          "reached"
+        ],
+        "correctAnswer": "reached",
+        "explanation": "We reach an agreement.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Make vs do.",
+      "Heavy rain, strong tea.",
+      "Bitterly cold.",
+      "Flock, herd.",
+      "Fixed phrases."
+    ],
+    "quickFormulas": [
+      "make a decision",
+      "do homework"
+    ]
+  },
+  "keyTakeaways": [
+    "Learn chunks.",
+    "Say the phrase.",
+    "Standard usage.",
+    "Revise lists."
+  ],
+  "selfCheckQuestions": [
+    "Can I use make and do correctly?",
+    "Can I choose heavy or strong?",
+    "Can I choose flock or herd?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Oxford Collocations Dictionary",
+      "sourceType": "Reference",
+      "referenceNote": "Common collocations discussed here."
+    }
+  ]
+}

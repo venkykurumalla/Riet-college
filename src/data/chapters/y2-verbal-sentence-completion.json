@@ -1,0 +1,426 @@
+{
+  "id": "y2-verbal-sentence-completion",
+  "yearId": 2,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 38,
+  "title": "Sentence Completion",
+  "tagline": "Year 2 — Using clue words, tone and logic to choose the right word for a blank",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "A sentence-completion question has one or two blanks and four choices. The right choice makes the sentence logical, grammatical and consistent in tone. The sentence itself supplies clues: contrast words (but, although, despite, unlike), cause words (because, so, therefore), comparison words (like, as), and the general sense of the sentence. Finding the clue and the relationship it signals is the key skill.",
+    "placementRelevance": "Sentence completion questions are commonly asked in the verbal ability section of company aptitude rounds, with single and double blanks.",
+    "realWorldContext": "Choosing the right word in an email or report, so that a sentence says exactly what you intend, uses the same skill."
+  },
+  "learningObjectives": [
+    "Identify the clue word that signals contrast, cause or addition",
+    "Predict the missing word before looking at the options",
+    "Choose between words of similar form using sense and grammar",
+    "Solve double-blank sentences by testing pairs",
+    "Check tone (positive/negative) and grammar"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Vocabulary",
+      "Synonyms and Antonyms",
+      "Advanced Tenses"
+    ],
+    "quickRefresher": "Contrast clues (but, although, despite, unlike, however) tell you the blank is opposite to a nearby idea. Cause clues (because, so, since) tell you the blank follows logically from another idea."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Clue: a word or phrase in the sentence that signals the meaning of the blank.",
+      "Contrast signal: although, but, despite, unlike, however, far from.",
+      "Cause/result signal: because, so … that, therefore, thus.",
+      "Double blank: two missing words that must work together.",
+      "Tone: the positive or negative feeling of a word."
+    ],
+    "theoreticalIntuition": "The sentence almost writes the answer for you. If it says \"Although the exam was difficult…\", the next idea must run against \"difficult\", so a positive outcome (passed) fits. Predicting the word first protects you from attractive but wrong options.",
+    "visualOrMentalModel": "Cover the options, read the sentence, and guess the missing word in your own words. Then look for the option closest to your guess and test it for grammar and tone."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Contrast",
+      "formula": "Although / despite / but / unlike signals the opposite idea",
+      "description": "Flip the tone.",
+      "whenToUse": "Contrast sentences.",
+      "simpleExample": "Although difficult, most passed"
+    },
+    {
+      "title": "Cause",
+      "formula": "Because / so … that / since signals a logical reason or result",
+      "description": "Match cause and effect.",
+      "whenToUse": "Cause-effect sentences.",
+      "simpleExample": "So heavy that the match was postponed"
+    },
+    {
+      "title": "Comparison",
+      "formula": "Like / as / than signals similarity or difference",
+      "description": "Look at both sides.",
+      "whenToUse": "Comparison sentences.",
+      "simpleExample": "Unlike his talkative brother, Arun is quiet"
+    },
+    {
+      "title": "Paired words",
+      "formula": "Not only … but also;  neither … nor;  either … or",
+      "description": "Learn the pairs.",
+      "whenToUse": "Conjunction blanks.",
+      "simpleExample": "He neither smokes nor drinks"
+    },
+    {
+      "title": "Double blanks",
+      "formula": "Test each option pair in the sentence",
+      "description": "Both must make sense together.",
+      "whenToUse": "Two-blank questions.",
+      "simpleExample": "Despite the heavy weather, the match continued"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Look for the clue. In \"The rain was so heavy that the match had to be ___\", the cause (heavy rain) points to the result: postponed. In \"Although the exam was difficult, most students ___ it\", although signals a contrast, so most students passed it.",
+      "In a double-blank sentence, test each pair. \"Despite the ___ weather, the match ___ as scheduled\" needs a contrast: heavy weather and continued. The pair pleasant … continued would not need \"despite\", and heavy … stopped would not contrast.",
+      "Comparison words help. \"Unlike his ___ brother, Arun is quiet and reserved\" needs the opposite of quiet: talkative.",
+      "Check grammatical fit. \"Not only intelligent ___ hardworking\" needs but also. \"He neither smokes ___ drinks\" needs nor. \"The more he practised, ___ he became\" needs the better.",
+      "Always reread the full sentence with your choice to check tone and sense. If the sentence sounds odd, try the next best option."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Tone matching",
+        "content": "Positive and negative words must agree with the sentence. A sentence describing an angry response needs words like harsh or hostile, not gentle."
+      },
+      {
+        "title": "Idiomatic pairs",
+        "content": "Some answers are decided by fixed pairs (not only … but also, neither … nor, hardly … when) rather than meaning alone."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Cause and effect",
+      "description": "So … that.",
+      "exampleSnippet": "Heavy rain, match ___"
+    },
+    {
+      "typeName": "Contrast",
+      "description": "Although, despite.",
+      "exampleSnippet": "Although difficult, ___"
+    },
+    {
+      "typeName": "Comparison",
+      "description": "Unlike, like.",
+      "exampleSnippet": "Unlike his ___ brother"
+    },
+    {
+      "typeName": "Paired conjunctions",
+      "description": "Not only … but also.",
+      "exampleSnippet": "Neither … nor"
+    },
+    {
+      "typeName": "Double blanks",
+      "description": "Pairs.",
+      "exampleSnippet": "Despite the ___ weather, ___"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-verbal-sentence-completion-1",
+      "title": "Contrast clue",
+      "question": "Although the exam was difficult, most students ___ it. (passed / feared / failed / skipped)",
+      "givenInfo": [
+        "Clue: although"
+      ],
+      "conceptOrFormula": "Contrast.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Signal",
+          "explanation": "Although introduces a contrast with \"difficult\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Predict",
+          "explanation": "Most students did well: passed."
+        }
+      ],
+      "finalAnswer": "passed",
+      "whyItWorks": "The result goes against the difficulty.",
+      "commonTrap": "Choosing failed.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-verbal-sentence-completion-2",
+      "title": "Double blank",
+      "question": "Despite the ___ weather, the match ___ as scheduled.",
+      "givenInfo": [
+        "Clue: despite"
+      ],
+      "conceptOrFormula": "Test pairs.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Signal",
+          "explanation": "Despite means the match went on although the weather was bad."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Pair",
+          "explanation": "heavy … continued."
+        }
+      ],
+      "finalAnswer": "heavy … continued",
+      "whyItWorks": "The pair shows the contrast.",
+      "commonTrap": "Choosing pleasant … continued.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-verbal-sentence-completion-3",
+      "title": "Paired conjunction",
+      "question": "She is not only intelligent ___ hardworking.",
+      "givenInfo": [
+        "not only …"
+      ],
+      "conceptOrFormula": "Fixed pair.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pattern",
+          "explanation": "Not only … but also."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose",
+          "explanation": "but also."
+        }
+      ],
+      "finalAnswer": "but also",
+      "whyItWorks": "The pair is fixed.",
+      "commonTrap": "Using and.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Predict, then match",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try every option.",
+      "shortcutMethod": "Find the clue, predict the word, match the closest option, and check grammar and tone."
+    },
+    "rulesForApplication": [
+      "Contrast words flip the tone.",
+      "Cause words link logic.",
+      "Test double-blank pairs.",
+      "Reread the full sentence."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Ignoring the clue word",
+      "whyItHappens": "Choosing by sound.",
+      "howToAvoid": "Find although/because/unlike."
+    },
+    {
+      "mistake": "Wrong tone",
+      "whyItHappens": "Positive for a negative context.",
+      "howToAvoid": "Check tone."
+    },
+    {
+      "mistake": "Choosing one word of a pair",
+      "whyItHappens": "Testing only one blank.",
+      "howToAvoid": "Test the pair."
+    },
+    {
+      "mistake": "Skipping grammar",
+      "whyItHappens": "Wrong form.",
+      "howToAvoid": "Reread."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Eliminate options with the wrong tone first.",
+    "questionSelectionAdvice": "Always predict first.",
+    "recruiterInsight": "Clue words appear in most sentences."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-verbal-sentence-completion-e1",
+        "question": "Choose the word or pair of words that best completes the sentence.\nThe rain was so heavy that the match had to be ___.",
+        "options": [
+          "started",
+          "postponed",
+          "won",
+          "enjoyed"
+        ],
+        "correctAnswer": "postponed",
+        "explanation": "Heavy rain led to the match being postponed.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-completion-e2",
+        "question": "Choose the word or pair of words that best completes the sentence.\nShe was ___ by the news and could not speak.",
+        "options": [
+          "stunned",
+          "bored",
+          "delighted",
+          "ignored"
+        ],
+        "correctAnswer": "stunned",
+        "explanation": "Being unable to speak suggests shock: stunned.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-completion-e3",
+        "question": "Choose the word or pair of words that best completes the sentence.\nHe is a ___ student; he never misses a class.",
+        "options": [
+          "careless",
+          "lazy",
+          "rude",
+          "diligent"
+        ],
+        "correctAnswer": "diligent",
+        "explanation": "Never missing a class suggests hard work: diligent.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-verbal-sentence-completion-i7",
+        "question": "Choose the word or pair of words that best completes the sentence.\nAlthough the exam was difficult, most students ___ it.",
+        "options": [
+          "passed",
+          "feared",
+          "failed",
+          "skipped"
+        ],
+        "correctAnswer": "passed",
+        "explanation": "Although signals contrast with \"difficult\": passed.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-completion-i8",
+        "question": "Choose the word or pair of words that best completes the sentence.\nThe new policy was ___ by everyone, so it was cancelled.",
+        "options": [
+          "welcomed",
+          "praised",
+          "supported",
+          "opposed"
+        ],
+        "correctAnswer": "opposed",
+        "explanation": "Cancellation follows opposition.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-completion-i9",
+        "question": "Choose the word or pair of words that best completes the sentence.\nHis ___ speech moved the audience to tears.",
+        "options": [
+          "boring",
+          "short",
+          "noisy",
+          "emotional"
+        ],
+        "correctAnswer": "emotional",
+        "explanation": "Moving the audience to tears suggests an emotional speech.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-verbal-sentence-completion-a15",
+        "question": "Choose the word or pair of words that best completes the sentence.\nFar from being ___, the proposal was met with ___.",
+        "options": [
+          "accepted … enthusiasm",
+          "rejected … hostility",
+          "rejected … enthusiasm",
+          "accepted … hostility"
+        ],
+        "correctAnswer": "rejected … enthusiasm",
+        "explanation": "\"Far from\" signals the opposite of expectation: not rejected, but greeted with enthusiasm.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-completion-a16",
+        "question": "Choose the word or pair of words that best completes the sentence.\nThe scientist's claims were so ___ that even his colleagues ___ them.",
+        "options": [
+          "reasonable … doubted",
+          "outrageous … doubted",
+          "outrageous … accepted",
+          "reasonable … rejected"
+        ],
+        "correctAnswer": "outrageous … doubted",
+        "explanation": "Outrageous claims lead even colleagues to doubt them.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-verbal-sentence-completion-p17",
+        "question": "Choose the word or pair of words that best completes the sentence.\nUnlike his ___ brother, Arun is quiet and reserved.",
+        "options": [
+          "shy",
+          "talkative",
+          "quiet",
+          "silent"
+        ],
+        "correctAnswer": "talkative",
+        "explanation": "Unlike signals contrast with quiet: talkative.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-completion-p18",
+        "question": "Choose the word or pair of words that best completes the sentence.\nThe more he practised, ___ he became.",
+        "options": [
+          "the better",
+          "the worse",
+          "the slower",
+          "the lazier"
+        ],
+        "correctAnswer": "the better",
+        "explanation": "The more … the better is the standard pattern.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-completion-p19",
+        "question": "Choose the word or pair of words that best completes the sentence.\nShe is not only intelligent ___ hardworking.",
+        "options": [
+          "and also",
+          "also but",
+          "or",
+          "but also"
+        ],
+        "correctAnswer": "but also",
+        "explanation": "The fixed pair is not only … but also.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Clue words.",
+      "Predict.",
+      "Tone.",
+      "Paired words.",
+      "Reread."
+    ],
+    "quickFormulas": [
+      "not only … but also",
+      "neither … nor"
+    ]
+  },
+  "keyTakeaways": [
+    "Find the clue.",
+    "Predict.",
+    "Check tone.",
+    "Test pairs."
+  ],
+  "selfCheckQuestions": [
+    "Can I use although as a clue?",
+    "Can I test a double blank?",
+    "Can I choose the right paired word?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Conjunctions and sentence structure; examples are original."
+    }
+  ]
+}

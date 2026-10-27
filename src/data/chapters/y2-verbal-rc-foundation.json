@@ -1,0 +1,419 @@
+{
+  "id": "y2-verbal-rc-foundation",
+  "yearId": 2,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 43,
+  "title": "Reading Comprehension Foundation",
+  "tagline": "Year 2 — Reading a short passage and answering factual, vocabulary, inference and main-idea questions",
+  "estimatedMinutes": 55,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Reading comprehension (RC) tests whether you can understand a passage and answer questions about it. Question types are factual (what the passage says), vocabulary-in-context (what a word means here), inference (what must be true because of what is said), main idea (what the passage is mostly about) and tone or purpose. At this level the passages are short, and the answers can be checked against the text. The golden rule: answer from the passage, not from your own opinion.",
+    "placementRelevance": "Reading comprehension is commonly asked in the verbal ability section of company aptitude rounds, and it is the most heavily weighted verbal skill because it reflects real reading ability.",
+    "realWorldContext": "Understanding emails, reports and instructions quickly and accurately depends on the same skills."
+  },
+  "learningObjectives": [
+    "Identify the main idea of a passage",
+    "Locate factual details quickly",
+    "Infer meanings from context and from what is stated",
+    "Recognise the author's tone and purpose",
+    "Eliminate options that go beyond the passage"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Contextual Vocabulary",
+      "Paragraph Completion"
+    ],
+    "quickRefresher": "A passage has a main idea, supporting details and a tone. Signal words (however, therefore, on the other hand) show how ideas are related."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Main idea: the central point of the passage.",
+      "Supporting detail: a fact or example that supports the main idea.",
+      "Inference: a conclusion that must follow from what is stated, but is not stated directly.",
+      "Vocabulary in context: the meaning of a word as used in the passage.",
+      "Tone: the author's attitude (admiring, critical, neutral, worried)."
+    ],
+    "theoreticalIntuition": "The passage contains every answer you need. Read once for the main idea, then use the question to look back for the evidence. If you cannot point to a line that supports an option, the option is not safe.",
+    "visualOrMentalModel": "Read the passage and summarise it in one line. For each question, find the line that supports the answer. For inference, ask \"what must be true?\"; for vocabulary, test the word in the sentence."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Main idea check",
+      "formula": "The correct option covers the whole passage, not just one detail",
+      "description": "Reject too narrow and too broad options.",
+      "whenToUse": "Main idea questions.",
+      "simpleExample": "Plastic is useful but harmful"
+    },
+    {
+      "title": "Fact check",
+      "formula": "Find the line that states it",
+      "description": "Evidence in the text.",
+      "whenToUse": "Factual questions.",
+      "simpleExample": "\"five kilometres\""
+    },
+    {
+      "title": "Inference check",
+      "formula": "It must be true given the passage",
+      "description": "Not just possible.",
+      "whenToUse": "Inference questions.",
+      "simpleExample": "Poor sleep → concentration problems"
+    },
+    {
+      "title": "Vocabulary check",
+      "formula": "Substitute the meaning into the sentence",
+      "description": "Use context.",
+      "whenToUse": "Meaning questions.",
+      "simpleExample": "determined = firm in purpose"
+    },
+    {
+      "title": "Extreme-word filter",
+      "formula": "Reject options with always, never, all, only unless the passage uses them",
+      "description": "Passages are measured.",
+      "whenToUse": "Wrong options.",
+      "simpleExample": "Not \"all villagers moved away\""
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Read the passage once, quickly, for its structure. In the passage about Rahul, the idea is that Rahul was determined to study despite the distance. The main details are the distance (five kilometres), his routine and his teachers' admiration.",
+      "For factual questions, scan for the key words of the question. \"How far was the nearest school?\" points to \"five kilometres\". Do not rely on memory; check the line.",
+      "For vocabulary questions, substitute each option into the sentence. \"Rahul, however, was determined\" contrasts with children who gave up, so determined means firm in purpose.",
+      "For inference questions, choose the option that must be true. \"Students who sleep less than six hours often find it hard to concentrate\" lets us infer that a student who sleeps only four hours is likely to find it hard to concentrate.",
+      "For main idea and tone questions, avoid options that are too narrow (one detail) or too broad (beyond the passage). For the factory passage the main idea is the conflict between economic benefit and environmental damage."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Passage structure",
+        "content": "Many passages follow: idea, problem, response. Signal words such as however and therefore mark the turns."
+      },
+      {
+        "title": "Reading speed",
+        "content": "Aim to read at a steady pace and use the questions as a guide. Rereading the whole passage for every question wastes time."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Factual",
+      "description": "What the passage says.",
+      "exampleSnippet": "How far was the school?"
+    },
+    {
+      "typeName": "Vocabulary in context",
+      "description": "Meaning here.",
+      "exampleSnippet": "Determined"
+    },
+    {
+      "typeName": "Inference",
+      "description": "Must be true.",
+      "exampleSnippet": "Student who sleeps four hours"
+    },
+    {
+      "typeName": "Main idea",
+      "description": "Whole passage.",
+      "exampleSnippet": "Plastic is useful but harmful"
+    },
+    {
+      "typeName": "Tone and purpose",
+      "description": "Attitude.",
+      "exampleSnippet": "Honesty is valuable"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-verbal-rc-foundation-1",
+      "title": "Factual",
+      "question": "Passage: Rahul's village had no school. Children had to walk five kilometres to the nearest town to study. Many gave up after the primary classes. Rahul, however, was determined. He woke up at five every day, walked to school, and returned home in the evening to help his father on the farm. His teachers admired his dedication.\n\nHow far did the children have to walk to study?",
+      "givenInfo": [
+        "Passage about Rahul"
+      ],
+      "conceptOrFormula": "Find the line.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scan",
+          "explanation": "\"Five kilometres to the nearest town\"."
+        }
+      ],
+      "finalAnswer": "Five kilometres",
+      "whyItWorks": "Stated directly.",
+      "commonTrap": "Choosing a number from memory.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-verbal-rc-foundation-2",
+      "title": "Vocabulary in context",
+      "question": "Passage: Rahul's village had no school. Children had to walk five kilometres to the nearest town to study. Many gave up after the primary classes. Rahul, however, was determined. He woke up at five every day, walked to school, and returned home in the evening to help his father on the farm. His teachers admired his dedication.\n\nIn the passage, the word \"determined\" means",
+      "givenInfo": [
+        "Determined"
+      ],
+      "conceptOrFormula": "Context.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Contrast",
+          "explanation": "Many gave up; Rahul was determined."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "firm in purpose."
+        }
+      ],
+      "finalAnswer": "firm in purpose",
+      "whyItWorks": "It contrasts with giving up.",
+      "commonTrap": "Choosing a similar-sounding word.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-verbal-rc-foundation-3",
+      "title": "Inference",
+      "question": "Passage: Sleep is as important as food for health. During sleep the body repairs itself and the brain stores what was learned during the day. Students who sleep less than six hours often find it hard to concentrate. Doctors recommend seven to eight hours of sleep for most adults.\n\nA student who sleeps only four hours a night is most likely to",
+      "givenInfo": [
+        "Sleep passage"
+      ],
+      "conceptOrFormula": "Must be true.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Evidence",
+          "explanation": "Less than six hours → hard to concentrate."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Inference",
+          "explanation": "Four hours → hard to concentrate."
+        }
+      ],
+      "finalAnswer": "find it hard to concentrate",
+      "whyItWorks": "The passage links short sleep to poor concentration.",
+      "commonTrap": "Choosing an unsupported claim.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Evidence in the text",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Rely on memory and general knowledge.",
+      "shortcutMethod": "Summarise the passage in one line, then for each question find the line that supports the answer and reject extreme options."
+    },
+    "rulesForApplication": [
+      "Use only the passage.",
+      "Find the line.",
+      "Reject extremes.",
+      "Main idea covers all."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using outside knowledge",
+      "whyItHappens": "Answering from opinion.",
+      "howToAvoid": "Use the passage."
+    },
+    {
+      "mistake": "Choosing a narrow main idea",
+      "whyItHappens": "One detail.",
+      "howToAvoid": "Cover the whole passage."
+    },
+    {
+      "mistake": "Accepting extreme options",
+      "whyItHappens": "Always/never.",
+      "howToAvoid": "Prefer measured statements."
+    },
+    {
+      "mistake": "Not checking the line",
+      "whyItHappens": "Memory errors.",
+      "howToAvoid": "Look back."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 150,
+    "eliminationTechnique": "Eliminate options that contradict a line in the passage.",
+    "questionSelectionAdvice": "Read the questions first on long passages.",
+    "recruiterInsight": "Wrong options are usually partly true but not supported."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-verbal-rc-foundation-e1",
+        "question": "Passage: Rahul's village had no school. Children had to walk five kilometres to the nearest town to study. Many gave up after the primary classes. Rahul, however, was determined. He woke up at five every day, walked to school, and returned home in the evening to help his father on the farm. His teachers admired his dedication.\n\nHow far did the children have to walk to reach the nearest school?",
+        "options": [
+          "Three kilometres",
+          "Five kilometres",
+          "Ten kilometres",
+          "Fifty metres"
+        ],
+        "correctAnswer": "Five kilometres",
+        "explanation": "The passage says they walked five kilometres to the nearest town.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-rc-foundation-e2",
+        "question": "Passage: Rahul's village had no school. Children had to walk five kilometres to the nearest town to study. Many gave up after the primary classes. Rahul, however, was determined. He woke up at five every day, walked to school, and returned home in the evening to help his father on the farm. His teachers admired his dedication.\n\nWhy did many children give up their studies after the primary classes?",
+        "options": [
+          "The nearest school was far away",
+          "They were not intelligent",
+          "Their teachers were unkind",
+          "They had to go abroad"
+        ],
+        "correctAnswer": "The nearest school was far away",
+        "explanation": "The distance to the school is the reason implied by the passage.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-rc-foundation-e3",
+        "question": "Passage: Plastic is useful because it is cheap, light and durable. But its durability is also its greatest problem. Plastic does not decay for hundreds of years, so waste collects in landfills and oceans. Marine animals mistake it for food and die. Many countries are therefore encouraging recycling and the use of cloth bags.\n\nWhich of the following is NOT given as a reason why plastic is useful?",
+        "options": [
+          "It is cheap",
+          "It is light",
+          "It is durable",
+          "It decays quickly"
+        ],
+        "correctAnswer": "It decays quickly",
+        "explanation": "The passage says plastic does not decay for hundreds of years.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-verbal-rc-foundation-i7",
+        "question": "Passage: Rahul's village had no school. Children had to walk five kilometres to the nearest town to study. Many gave up after the primary classes. Rahul, however, was determined. He woke up at five every day, walked to school, and returned home in the evening to help his father on the farm. His teachers admired his dedication.\n\nIn the passage, the word \"determined\" means",
+        "options": [
+          "firm in purpose",
+          "lazy",
+          "afraid",
+          "confused"
+        ],
+        "correctAnswer": "firm in purpose",
+        "explanation": "Rahul contrasts with those who gave up, so determined means firm in purpose.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-rc-foundation-i8",
+        "question": "Passage: Rahul's village had no school. Children had to walk five kilometres to the nearest town to study. Many gave up after the primary classes. Rahul, however, was determined. He woke up at five every day, walked to school, and returned home in the evening to help his father on the farm. His teachers admired his dedication.\n\nWhich of the following best describes Rahul?",
+        "options": [
+          "Careless and lazy",
+          "Rich and proud",
+          "Shy and weak",
+          "Hard-working and dedicated"
+        ],
+        "correctAnswer": "Hard-working and dedicated",
+        "explanation": "He walked daily, helped his father and was admired by his teachers.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-rc-foundation-i9",
+        "question": "Passage: Plastic is useful because it is cheap, light and durable. But its durability is also its greatest problem. Plastic does not decay for hundreds of years, so waste collects in landfills and oceans. Marine animals mistake it for food and die. Many countries are therefore encouraging recycling and the use of cloth bags.\n\nThe main idea of the passage is that",
+        "options": [
+          "plastic should be produced more",
+          "marine animals like plastic",
+          "cloth bags are expensive",
+          "plastic is useful but harms the environment, so alternatives are being encouraged"
+        ],
+        "correctAnswer": "plastic is useful but harms the environment, so alternatives are being encouraged",
+        "explanation": "The passage presents both the usefulness and the harm of plastic and the response.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-verbal-rc-foundation-a15",
+        "question": "Passage: When the factory opened in the town, many people welcomed it because it created jobs. Within a few years, however, the river that flowed near it turned dark and the fish began to die. Villagers complained, but the owners argued that the factory was essential for the town's economy. After a long dispute, the court ordered the factory to install a treatment plant.\n\nThe passage mainly deals with",
+        "options": [
+          "the history of the town",
+          "the habits of fish",
+          "the conflict between economic benefit and environmental damage",
+          "the cost of building courts"
+        ],
+        "correctAnswer": "the conflict between economic benefit and environmental damage",
+        "explanation": "The factory brought jobs but also polluted the river.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-rc-foundation-a16",
+        "question": "Passage: When the factory opened in the town, many people welcomed it because it created jobs. Within a few years, however, the river that flowed near it turned dark and the fish began to die. Villagers complained, but the owners argued that the factory was essential for the town's economy. After a long dispute, the court ordered the factory to install a treatment plant.\n\nWhat can be inferred about the cause of the dying fish?",
+        "options": [
+          "A natural drought",
+          "Pollution from the factory",
+          "Overfishing by villagers",
+          "A new bridge"
+        ],
+        "correctAnswer": "Pollution from the factory",
+        "explanation": "The river turned dark after the factory opened and the court ordered a treatment plant.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-verbal-rc-foundation-p17",
+        "question": "Passage: When the factory opened in the town, many people welcomed it because it created jobs. Within a few years, however, the river that flowed near it turned dark and the fish began to die. Villagers complained, but the owners argued that the factory was essential for the town's economy. After a long dispute, the court ordered the factory to install a treatment plant.\n\nWhat did the court order the factory to do?",
+        "options": [
+          "Close permanently",
+          "Install a treatment plant",
+          "Pay the villagers a bonus",
+          "Move to another town"
+        ],
+        "correctAnswer": "Install a treatment plant",
+        "explanation": "The last sentence states the order.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-rc-foundation-p18",
+        "question": "Passage: Honesty is often described as the best policy, but it is not always the easiest. A person who tells the truth may sometimes lose a friend or an opportunity. Yet in the long run, honest people earn trust, and trust is more valuable than any single gain. The cost of dishonesty, on the other hand, is that nobody believes you even when you speak the truth.\n\nThe author's view about honesty is that it",
+        "options": [
+          "is valuable even though it can be costly in the short term",
+          "always brings immediate rewards",
+          "is not important",
+          "is easy for everyone"
+        ],
+        "correctAnswer": "is valuable even though it can be costly in the short term",
+        "explanation": "The passage admits the costs but says trust is more valuable.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-rc-foundation-p19",
+        "question": "Passage: Honesty is often described as the best policy, but it is not always the easiest. A person who tells the truth may sometimes lose a friend or an opportunity. Yet in the long run, honest people earn trust, and trust is more valuable than any single gain. The cost of dishonesty, on the other hand, is that nobody believes you even when you speak the truth.\n\nWhich of the following can be inferred from the passage?",
+        "options": [
+          "Honest people never lose friends",
+          "Trust is worth less than money",
+          "Truth is always welcomed",
+          "Dishonest people lose credibility even when they tell the truth"
+        ],
+        "correctAnswer": "Dishonest people lose credibility even when they tell the truth",
+        "explanation": "The passage says nobody believes a dishonest person even when they speak the truth.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Main idea.",
+      "Find the line.",
+      "Inference must be true.",
+      "Substitute for vocabulary.",
+      "Reject extremes."
+    ],
+    "quickFormulas": [
+      "Evidence in the text"
+    ]
+  },
+  "keyTakeaways": [
+    "Passage only.",
+    "Evidence.",
+    "Substitute.",
+    "Whole-passage idea."
+  ],
+  "selfCheckQuestions": [
+    "Can I state the main idea in one line?",
+    "Can I find a fact quickly?",
+    "Can I make a safe inference?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Objective General English — S.P. Bakshi",
+      "sourceType": "Textbook",
+      "referenceNote": "Reading comprehension practice; passages in this chapter are original."
+    }
+  ]
+}

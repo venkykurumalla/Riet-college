@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-verbal-basic-para-jumbles",
+  "topicTitle": "Basic Para Jumbles",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. Ravi woke up early in the morning.\nQ. Then he had breakfast.\nR. He brushed his teeth and took a bath.\nS. Finally, he left for school.",
+      "options": [
+        "RPQS",
+        "PRQS",
+        "PQRS",
+        "PRSQ"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is P → R → Q → S. 1) Ravi woke up early in the morning. 2) He brushed his teeth and took a bath. 3) Then he had breakfast. 4) Finally, he left for school."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. The sun rose in the east.\nQ. Slowly its light spread over the fields.\nR. By noon, the fields were full of workers.\nS. Farmers started their work.",
+      "options": [
+        "PQSR",
+        "QPSR",
+        "PSQR",
+        "PQRS"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is P → Q → S → R. 1) The sun rose in the east. 2) Slowly its light spread over the fields. 3) Farmers started their work. 4) By noon, the fields were full of workers."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. Soon a small plant sprouted.\nQ. A seed was planted in the garden.\nR. In time, the plant grew into a tall tree.\nS. It was watered every day.",
+      "options": [
+        "SQPR",
+        "QPSR",
+        "QSRP",
+        "QSPR"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is Q → S → P → R. 1) A seed was planted in the garden. 2) It was watered every day. 3) Soon a small plant sprouted. 4) In time, the plant grew into a tall tree."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. She mixed them and put the batter in the oven.\nQ. She collected all the ingredients.\nR. Mina wanted to bake a cake.\nS. After an hour, the cake was ready.",
+      "options": [
+        "QRPS",
+        "RPQS",
+        "RQPS",
+        "RQSP"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is R → Q → P → S. 1) Mina wanted to bake a cake. 2) She collected all the ingredients. 3) She mixed them and put the batter in the oven. 4) After an hour, the cake was ready."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. The bell rang at four o'clock.\nQ. Soon the ground was full of children.\nR. Students rushed out of the classrooms.\nS. They ran towards the playground.",
+      "options": [
+        "RPSQ",
+        "PSRQ",
+        "PRSQ",
+        "PRQS"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is P → R → S → Q. 1) The bell rang at four o'clock. 2) Students rushed out of the classrooms. 3) They ran towards the playground. 4) Soon the ground was full of children."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. Passengers got down from the train.\nQ. Soon the platform was empty.\nR. Porters carried their luggage.\nS. The train arrived at the station.",
+      "options": [
+        "PSRQ",
+        "SPRQ",
+        "SRPQ",
+        "SPQR"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is S → P → R → Q. 1) The train arrived at the station. 2) Passengers got down from the train. 3) Porters carried their luggage. 4) Soon the platform was empty."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. Vehicles and factories release harmful gases.\nQ. These gases make the air unhealthy.\nR. Pollution is increasing in cities.\nS. Therefore, we must use public transport and plant trees.",
+      "options": [
+        "RPQS",
+        "PRQS",
+        "RQPS",
+        "RPSQ"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is R → P → Q → S. 1) Pollution is increasing in cities. 2) Vehicles and factories release harmful gases. 3) These gases make the air unhealthy. 4) Therefore, we must use public transport and plant trees."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. A computer is an electronic machine.\nQ. It accepts data and processes it.\nR. Today computers are used in almost every field.\nS. The results are shown on a screen.",
+      "options": [
+        "QPSR",
+        "PSQR",
+        "PQRS",
+        "PQSR"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is P → Q → S → R. 1) A computer is an electronic machine. 2) It accepts data and processes it. 3) The results are shown on a screen. 4) Today computers are used in almost every field."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. Hence we should value them first.\nQ. But wealth alone does not bring happiness.\nR. Good health and good relationships matter more.\nS. Many people dream of becoming rich.",
+      "options": [
+        "QSRP",
+        "SRQP",
+        "SQPR",
+        "SQRP"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is S → Q → R → P. 1) Many people dream of becoming rich. 2) But wealth alone does not bring happiness. 3) Good health and good relationships matter more. 4) Hence we should value them first."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. The Earth moves around the Sun.\nQ. The Earth also rotates on its axis.\nR. This rotation causes day and night.\nS. One complete round takes a year.",
+      "options": [
+        "SPQR",
+        "PQSR",
+        "PSQR",
+        "PSRQ"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is P → S → Q → R. 1) The Earth moves around the Sun. 2) One complete round takes a year. 3) The Earth also rotates on its axis. 4) This rotation causes day and night."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. In the next test, he scored very well.\nQ. He realised that he had not studied properly.\nR. Rahul failed the first test.\nS. He made a timetable and followed it.",
+      "options": [
+        "QRSP",
+        "RQSP",
+        "RSQP",
+        "RQPS"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is R → Q → S → P. 1) Rahul failed the first test. 2) He realised that he had not studied properly. 3) He made a timetable and followed it. 4) In the next test, he scored very well."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. The company launched a new phone.\nQ. As a result, profits doubled that year.\nR. Customers liked its design.\nS. Sales rose sharply within weeks.",
+      "options": [
+        "PRSQ",
+        "RPSQ",
+        "PSRQ",
+        "PRQS"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is P → R → S → Q. 1) The company launched a new phone. 2) Customers liked its design. 3) Sales rose sharply within weeks. 4) As a result, profits doubled that year."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. He led the nation to independence through non-violence.\nQ. Mahatma Gandhi was born in Porbandar.\nR. He then returned to India and joined the freedom struggle.\nS. He studied law in London.",
+      "options": [
+        "QSRP",
+        "SQRP",
+        "QRSP",
+        "QSPR"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is Q → S → R → P. 1) Mahatma Gandhi was born in Porbandar. 2) He studied law in London. 3) He then returned to India and joined the freedom struggle. 4) He led the nation to independence through non-violence."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. The patient recovered in a week.\nQ. The doctor examined the patient.\nR. He found that the fever was high.\nS. He prescribed some medicines.",
+      "options": [
+        "RQSP",
+        "QSRP",
+        "QRPS",
+        "QRSP"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is Q → R → S → P. 1) The doctor examined the patient. 2) He found that the fever was high. 3) He prescribed some medicines. 4) The patient recovered in a week."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Arrange the sentences P, Q, R, S, T in the correct order to form a meaningful paragraph.\nP. Soon it lit homes and ran machines.\nQ. Scientists studied its nature carefully.\nR. Inventors then found ways to use it.\nS. Electricity was discovered through many experiments.\nT. Today modern life cannot function without it.",
+      "options": [
+        "QSRPT",
+        "SRQPT",
+        "SQRPT",
+        "SQPRT"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is S → Q → R → P → T. 1) Electricity was discovered through many experiments. 2) Scientists studied its nature carefully. 3) Inventors then found ways to use it. 4) Soon it lit homes and ran machines. 5) Today modern life cannot function without it."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Arrange the sentences P, Q, R, S, T in the correct order to form a meaningful paragraph.\nP. Others find silence better for concentration.\nQ. Exams are approaching.\nR. In either case, regular practice leads to success.\nS. Students have begun to revise their lessons.\nT. Some prefer to study in groups.",
+      "options": [
+        "SQTPR",
+        "QSTPR",
+        "QTSPR",
+        "QSPTR"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is Q → S → T → P → R. 1) Exams are approaching. 2) Students have begun to revise their lessons. 3) Some prefer to study in groups. 4) Others find silence better for concentration. 5) In either case, regular practice leads to success."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Arrange the sentences P, Q, R, S, T in the correct order to form a meaningful paragraph.\nP. The stored water can be used for gardening and cleaning.\nQ. Rainwater harvesting collects rain for later use.\nR. Therefore many cities now require it in new buildings.\nS. This reduces the demand on groundwater.\nT. Water falling on roofs is channelled into tanks.",
+      "options": [
+        "TQPSR",
+        "QTPSR",
+        "QPTSR",
+        "QTSPR"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is Q → T → P → S → R. 1) Rainwater harvesting collects rain for later use. 2) Water falling on roofs is channelled into tanks. 3) The stored water can be used for gardening and cleaning. 4) This reduces the demand on groundwater. 5) Therefore many cities now req"
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Arrange the sentences P, Q, R, S, T in the correct order to form a meaningful paragraph.\nP. Wise people plan their day carefully.\nQ. Time is a precious resource.\nR. As a result, they achieve more in less time.\nS. They give priority to important tasks.\nT. Once it is lost, it cannot be recovered.",
+      "options": [
+        "QTPSR",
+        "TQPSR",
+        "QPTSR",
+        "QTSPR"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is Q → T → P → S → R. 1) Time is a precious resource. 2) Once it is lost, it cannot be recovered. 3) Wise people plan their day carefully. 4) They give priority to important tasks. 5) As a result, they achieve more in less time."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Arrange the sentences P, Q, R, S, T in the correct order to form a meaningful paragraph.\nP. Books became cheaper and more common.\nQ. Ideas spread faster than before.\nR. The invention of the printing press changed the world.\nS. This helped bring about great social change.\nT. More people learned to read.",
+      "options": [
+        "PRTQS",
+        "RTPQS",
+        "RPQTS",
+        "RPTQS"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is R → P → T → Q → S. 1) The invention of the printing press changed the world. 2) Books became cheaper and more common. 3) More people learned to read. 4) Ideas spread faster than before. 5) This helped bring about great social change."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Arrange the sentences P, Q, R, S, T in the correct order to form a meaningful paragraph.\nP. But gradually it becomes natural.\nQ. It needs repetition and patience.\nR. Finally, it becomes a part of one's character.\nS. A good habit takes time to form.\nT. At first it may seem difficult.",
+      "options": [
+        "QSTPR",
+        "STQPR",
+        "SQTPR",
+        "SQPTR"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is S → Q → T → P → R. 1) A good habit takes time to form. 2) It needs repetition and patience. 3) At first it may seem difficult. 4) But gradually it becomes natural. 5) Finally, it becomes a part of one's character."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

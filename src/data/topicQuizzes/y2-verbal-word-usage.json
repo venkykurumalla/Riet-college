@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-verbal-word-usage",
+  "topicTitle": "Word Usage and Collocations",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the word that fits naturally in the blank.\nHe ___ a decision after long thought.",
+      "options": [
+        "did",
+        "made",
+        "gave",
+        "held"
+      ],
+      "answerIndex": 1,
+      "explanation": "We make a decision."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the word that fits naturally in the blank.\nShe ___ her homework before dinner.",
+      "options": [
+        "did",
+        "made",
+        "took",
+        "had"
+      ],
+      "answerIndex": 0,
+      "explanation": "We do homework."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Choose the word that fits naturally in the blank.\nThere was ___ rain last night.",
+      "options": [
+        "strong",
+        "big",
+        "tall",
+        "heavy"
+      ],
+      "answerIndex": 3,
+      "explanation": "We say heavy rain."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the word that fits naturally in the blank.\nI would like a cup of ___ tea.",
+      "options": [
+        "heavy",
+        "powerful",
+        "strong",
+        "hard"
+      ],
+      "answerIndex": 2,
+      "explanation": "We say strong tea."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the word that fits naturally in the blank.\nPlease ___ attention in class.",
+      "options": [
+        "make",
+        "do",
+        "pay",
+        "take"
+      ],
+      "answerIndex": 2,
+      "explanation": "We pay attention."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the word that fits naturally in the blank.\nHe ___ a serious mistake in the report.",
+      "options": [
+        "did",
+        "made",
+        "took",
+        "gave"
+      ],
+      "answerIndex": 1,
+      "explanation": "We make a mistake."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the word that fits naturally in the blank.\nThe police ___ a thorough investigation.",
+      "options": [
+        "conducted",
+        "did",
+        "made",
+        "took"
+      ],
+      "answerIndex": 0,
+      "explanation": "Investigations are conducted or carried out."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the word that fits naturally in the blank.\nWe decided to ___ a break after two hours.",
+      "options": [
+        "make",
+        "do",
+        "give",
+        "take"
+      ],
+      "answerIndex": 3,
+      "explanation": "We take a break."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the word that fits naturally in the blank.\nHe ___ a crime and was arrested.",
+      "options": [
+        "did",
+        "made",
+        "done",
+        "committed"
+      ],
+      "answerIndex": 3,
+      "explanation": "We commit a crime."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Choose the word that fits naturally in the blank.\nShe gave me a ___ of advice.",
+      "options": [
+        "bit of",
+        "part",
+        "piece",
+        "item"
+      ],
+      "answerIndex": 2,
+      "explanation": "The standard collocation is a piece of advice."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the word that fits naturally in the blank.\nA ___ of sheep was grazing on the hill.",
+      "options": [
+        "herd",
+        "flock",
+        "pack",
+        "swarm"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sheep form a flock."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the word that fits naturally in the blank.\nHe always ___ his promise.",
+      "options": [
+        "keeps",
+        "holds",
+        "takes",
+        "does"
+      ],
+      "answerIndex": 0,
+      "explanation": "We keep a promise."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the word that fits naturally in the blank.\nThe meeting was ___ off because of the strike.",
+      "options": [
+        "called",
+        "put",
+        "took",
+        "made"
+      ],
+      "answerIndex": 0,
+      "explanation": "Called off means cancelled."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the word that fits naturally in the blank.\nShe is very fond ___ classical music.",
+      "options": [
+        "for",
+        "at",
+        "in",
+        "of"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fond is followed by of."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the word that fits naturally in the blank.\nIt was ___ cold last night.",
+      "options": [
+        "heavily",
+        "deeply",
+        "bitterly",
+        "highly"
+      ],
+      "answerIndex": 2,
+      "explanation": "We say bitterly cold."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the word that fits naturally in the blank.\nHe was ___ aware of the risks involved.",
+      "options": [
+        "highly",
+        "fully",
+        "much",
+        "strongly"
+      ],
+      "answerIndex": 1,
+      "explanation": "We say fully aware."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the word that fits naturally in the blank.\nWinning the lottery was a ___ of luck.",
+      "options": [
+        "hit",
+        "stroke",
+        "shot",
+        "blow"
+      ],
+      "answerIndex": 1,
+      "explanation": "A stroke of luck is a sudden piece of good fortune."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the word that fits naturally in the blank.\nWe need to ___ a solution to this problem.",
+      "options": [
+        "find",
+        "make",
+        "do",
+        "take"
+      ],
+      "answerIndex": 0,
+      "explanation": "We find a solution."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the word that fits naturally in the blank.\nThe two sides finally ___ an agreement.",
+      "options": [
+        "did",
+        "took",
+        "held",
+        "reached"
+      ],
+      "answerIndex": 3,
+      "explanation": "We reach an agreement."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the word that fits naturally in the blank.\nHe is a ___ smoker.",
+      "options": [
+        "strong",
+        "big",
+        "heavy",
+        "tall"
+      ],
+      "answerIndex": 2,
+      "explanation": "We say a heavy smoker."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

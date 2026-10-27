@@ -1,0 +1,424 @@
+{
+  "id": "y2-verbal-contextual-vocab",
+  "yearId": 2,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 39,
+  "title": "Contextual Vocabulary",
+  "tagline": "Year 2 — Words with several meanings and how the sentence decides which one is meant",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Many English words have more than one meaning. \"Bank\" can be the side of a river or a financial institution; \"fair\" can mean just, light-coloured or fairly good. Contextual vocabulary questions give a sentence and ask what a word means in that sentence. The surrounding words decide the meaning, so the skill is to read the sentence carefully and test each meaning against it.",
+    "placementRelevance": "Contextual vocabulary questions are commonly asked in the verbal ability section of company aptitude rounds and in reading comprehension passages.",
+    "realWorldContext": "Understanding contracts, instructions and news reports depends on choosing the right sense of familiar words."
+  },
+  "learningObjectives": [
+    "Recognise words with multiple meanings",
+    "Use the surrounding words to decide the intended meaning",
+    "Distinguish the part of speech a word is used as",
+    "Test each possible meaning in the sentence",
+    "Avoid choosing the most familiar meaning by default"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Vocabulary",
+      "Synonyms and Antonyms"
+    ],
+    "quickRefresher": "A word may change meaning when it changes part of speech (a run / to run; a fine / fine weather)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Polysemy: a word having several related or unrelated meanings.",
+      "Context: the words and ideas around a word that fix its meaning.",
+      "Homonym: words with the same spelling and sound but different meanings (bank, bat).",
+      "Part-of-speech shift: the same word used as a noun, verb or adjective with different meanings.",
+      "Collocation: words that usually go together; the neighbouring word often decides the sense."
+    ],
+    "theoreticalIntuition": "The most common meaning of a word is not always the right one. Treat each sentence as a puzzle: try the likely meanings in place of the word and see which keeps the sentence sensible. The wrong meanings usually produce an odd or nonsensical sentence.",
+    "visualOrMentalModel": "Substitute each meaning for the word and read the sentence. The one that sounds natural and fits the rest of the sentence is correct."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Substitution test",
+      "formula": "Replace the word by the meaning and reread",
+      "description": "The sentence must stay sensible.",
+      "whenToUse": "Every question.",
+      "simpleExample": "\"edge of the river\" for bank in \"sat on the bank\""
+    },
+    {
+      "title": "Neighbour clues",
+      "formula": "Words next to the target word narrow the meaning",
+      "description": "Look at verbs and nouns around it.",
+      "whenToUse": "Collocations.",
+      "simpleExample": "pay a fine → penalty"
+    },
+    {
+      "title": "Part of speech",
+      "formula": "Decide noun, verb or adjective",
+      "description": "The meaning depends on it.",
+      "whenToUse": "Words like run, fine, plain.",
+      "simpleExample": "She runs a shop → manages"
+    },
+    {
+      "title": "Avoid the default",
+      "formula": "Do not pick the most familiar meaning automatically",
+      "description": "Test the others.",
+      "whenToUse": "Trap options.",
+      "simpleExample": "light = not heavy, not lamp"
+    },
+    {
+      "title": "Eliminate by fit",
+      "formula": "Cross out meanings that make nonsense",
+      "description": "Narrow to one.",
+      "whenToUse": "Choice among options.",
+      "simpleExample": "Remove tolerate in \"bank of the river\""
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Start from the sentence, not the word. \"We sat on the bank of the river\" cannot mean a financial bank; the river decides: the side of the river. \"He deposited money in the bank\" has the opposite sense.",
+      "Notice the part of speech. In \"She runs a small shop\", runs is a verb meaning manages, not moves quickly. In \"He paid a fine for parking\", fine is a noun meaning a penalty, not \"of good quality\".",
+      "Use neighbouring words. \"I cannot bear this noise\" uses bear as a verb meaning tolerate; \"bear\" the animal would not fit with noise. \"The board approved the budget\" uses board as a group of directors, since a plank cannot approve anything.",
+      "Test each possible meaning. For \"figure\" in \"Can you figure out the answer?\", the phrasal verb figure out means work out or understand, not a number or a shape.",
+      "Be careful with words that look easy. In \"He gave me sound advice\", sound means reliable and sensible; in \"I heard a loud sound\", it is a noun for something heard."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Phrasal verbs",
+        "content": "A verb with a preposition (figure out, give up, put off) has its own meaning. Treat the whole phrase as one unit."
+      },
+      {
+        "title": "Formal and informal senses",
+        "content": "Words like address, content and yield have formal meanings that differ from everyday ones. Read for the register of the sentence."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Noun and verb forms",
+      "description": "Same spelling.",
+      "exampleSnippet": "run, fine"
+    },
+    {
+      "typeName": "Homonyms",
+      "description": "Same sound and spelling.",
+      "exampleSnippet": "bank, bat"
+    },
+    {
+      "typeName": "Phrasal verbs",
+      "description": "Verb + particle.",
+      "exampleSnippet": "figure out"
+    },
+    {
+      "typeName": "Formal senses",
+      "description": "Less common meaning.",
+      "exampleSnippet": "address, yield"
+    },
+    {
+      "typeName": "Adjective senses",
+      "description": "Meaning by noun.",
+      "exampleSnippet": "sound advice"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-verbal-contextual-vocab-1",
+      "title": "Homonym",
+      "question": "In \"We sat on the bank of the river\", what does \"bank\" mean?",
+      "givenInfo": [
+        "bank"
+      ],
+      "conceptOrFormula": "Neighbouring words decide.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Clue",
+          "explanation": "The sentence mentions a river."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "The side of the river."
+        }
+      ],
+      "finalAnswer": "the side of a river",
+      "whyItWorks": "A financial institution would not suit \"sat on\".",
+      "commonTrap": "Choosing the familiar money sense.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-verbal-contextual-vocab-2",
+      "title": "Part of speech",
+      "question": "In \"She runs a small shop\", what does \"runs\" mean?",
+      "givenInfo": [
+        "runs"
+      ],
+      "conceptOrFormula": "Verb sense.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Object",
+          "explanation": "A shop is run (managed)."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "manages."
+        }
+      ],
+      "finalAnswer": "manages",
+      "whyItWorks": "Moving quickly does not take a shop as its object.",
+      "commonTrap": "Choosing moves quickly.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-verbal-contextual-vocab-3",
+      "title": "Phrasal verb",
+      "question": "In \"Can you figure out the answer?\", what does \"figure out\" mean?",
+      "givenInfo": [
+        "figure out"
+      ],
+      "conceptOrFormula": "Treat the phrase as one unit.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Phrase",
+          "explanation": "Figure out = understand or work out."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "work out."
+        }
+      ],
+      "finalAnswer": "work out",
+      "whyItWorks": "The phrase is idiomatic.",
+      "commonTrap": "Reading figure as a number.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Substitute and reread",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Recall dictionary senses.",
+      "shortcutMethod": "Substitute each option for the word and reread; choose the one that keeps the sentence natural."
+    },
+    "rulesForApplication": [
+      "Check part of speech.",
+      "Use neighbouring words.",
+      "Treat phrasal verbs as units.",
+      "Do not default to the common meaning."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing the commonest meaning",
+      "whyItHappens": "Ignoring context.",
+      "howToAvoid": "Test the sentence."
+    },
+    {
+      "mistake": "Ignoring the part of speech",
+      "whyItHappens": "Choosing a noun sense for a verb.",
+      "howToAvoid": "Decide noun or verb first."
+    },
+    {
+      "mistake": "Splitting a phrasal verb",
+      "whyItHappens": "Reading each word alone.",
+      "howToAvoid": "Treat as a unit."
+    },
+    {
+      "mistake": "Not rereading",
+      "whyItHappens": "Not testing the substitution.",
+      "howToAvoid": "Substitute and read."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 25,
+    "eliminationTechnique": "Remove meanings that clash with a neighbouring word.",
+    "questionSelectionAdvice": "Always substitute.",
+    "recruiterInsight": "Contextual questions reward careful reading."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-verbal-contextual-vocab-e1",
+        "question": "In the sentence \"We sat on the bank of the river.\", the word \"bank\" means",
+        "options": [
+          "a place for money",
+          "the side of a river",
+          "a row of seats",
+          "a heap of snow"
+        ],
+        "correctAnswer": "the side of a river",
+        "explanation": "The river clue fixes the meaning: the edge of the river.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-contextual-vocab-e2",
+        "question": "In the sentence \"The spring in the mattress broke.\", the word \"spring\" means",
+        "options": [
+          "a coiled piece of metal",
+          "a season",
+          "a stream of water",
+          "a sudden jump"
+        ],
+        "correctAnswer": "a coiled piece of metal",
+        "explanation": "A mattress contains a coiled metal spring.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-contextual-vocab-e3",
+        "question": "In the sentence \"It was a fair decision.\", the word \"fair\" means",
+        "options": [
+          "light in colour",
+          "fairly good",
+          "a gathering for sale",
+          "just"
+        ],
+        "correctAnswer": "just",
+        "explanation": "A decision is described as just.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-verbal-contextual-vocab-i7",
+        "question": "In the sentence \"I cannot bear this noise.\", the word \"bear\" means",
+        "options": [
+          "tolerate",
+          "carry",
+          "give birth to",
+          "an animal"
+        ],
+        "correctAnswer": "tolerate",
+        "explanation": "The verb bear here means to put up with.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-contextual-vocab-i8",
+        "question": "In the sentence \"The board approved the budget.\", the word \"board\" means",
+        "options": [
+          "a flat piece of wood",
+          "to get on a ship",
+          "meals provided",
+          "a group of directors"
+        ],
+        "correctAnswer": "a group of directors",
+        "explanation": "Only a group can approve a budget.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-contextual-vocab-i9",
+        "question": "In the sentence \"Prices will drop next month.\", the word \"drop\" means",
+        "options": [
+          "a small amount of liquid",
+          "let go",
+          "a delivery",
+          "fall"
+        ],
+        "correctAnswer": "fall",
+        "explanation": "Prices fall; a drop of liquid does not fit.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-verbal-contextual-vocab-a15",
+        "question": "In the sentence \"She will address the audience at 10 a.m.\", the word \"address\" means",
+        "options": [
+          "write the location on",
+          "a home location",
+          "speak to",
+          "deal with a problem"
+        ],
+        "correctAnswer": "speak to",
+        "explanation": "She will speak formally to the audience.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-contextual-vocab-a16",
+        "question": "In the sentence \"The horse made a bolt for the gate.\", the word \"bolt\" means",
+        "options": [
+          "a metal pin",
+          "a sudden dash",
+          "a flash of lightning",
+          "to eat quickly"
+        ],
+        "correctAnswer": "a sudden dash",
+        "explanation": "A horse running suddenly: a dash.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-verbal-contextual-vocab-p17",
+        "question": "In the sentence \"The farm yields good crops.\", the word \"yields\" means",
+        "options": [
+          "gives way",
+          "produces",
+          "surrenders",
+          "stops"
+        ],
+        "correctAnswer": "produces",
+        "explanation": "A farm produces crops.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-contextual-vocab-p18",
+        "question": "In the sentence \"He is content with his salary.\", the word \"content\" means",
+        "options": [
+          "satisfied",
+          "the things inside",
+          "subject matter",
+          "to satisfy"
+        ],
+        "correctAnswer": "satisfied",
+        "explanation": "The adjective content means happy with what one has.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-contextual-vocab-p19",
+        "question": "In the sentence \"The company of friends cheered her up.\", the word \"company\" means",
+        "options": [
+          "a business",
+          "a military unit",
+          "guests",
+          "the presence of others"
+        ],
+        "correctAnswer": "the presence of others",
+        "explanation": "Friends' company means their companionship.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Substitute and reread.",
+      "Part of speech.",
+      "Neighbour clues.",
+      "Phrasal verbs.",
+      "Do not default."
+    ],
+    "quickFormulas": [
+      "Context decides meaning"
+    ]
+  },
+  "keyTakeaways": [
+    "Context first.",
+    "Test meanings.",
+    "Part of speech.",
+    "Phrases as units."
+  ],
+  "selfCheckQuestions": [
+    "Can I give two meanings of bank?",
+    "Can I decide the sense of fine?",
+    "Can I interpret figure out?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Oxford Advanced Learner's Dictionary",
+      "sourceType": "Reference",
+      "referenceNote": "Multiple meanings of the words discussed."
+    }
+  ]
+}

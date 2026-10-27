@@ -1,0 +1,424 @@
+{
+  "id": "y2-verbal-vocab-in-context",
+  "yearId": 2,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 44,
+  "title": "Vocabulary in Context",
+  "tagline": "Year 2 — Working out the meaning of an unfamiliar word from the clues around it",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "You will often meet a word you do not know. The sentence around it usually gives clues to its meaning: a definition, a synonym or antonym, an example, a contrast, or the general sense of the passage. Vocabulary-in-context questions train you to use these clues and to choose the meaning that fits. This builds the habit of learning new words from reading.",
+    "placementRelevance": "Vocabulary-in-context questions are commonly asked in the verbal ability section of company aptitude rounds, especially inside reading comprehension passages.",
+    "realWorldContext": "When you read reports, articles or documents with new words, context clues let you keep reading and understand without a dictionary."
+  },
+  "learningObjectives": [
+    "Recognise the main types of context clues",
+    "Use contrast and comparison words to infer meaning",
+    "Use examples and explanations given in the sentence",
+    "Check that the chosen meaning fits the whole sentence",
+    "Use word parts and tone when clues are weak"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Contextual Vocabulary",
+      "Synonyms and Antonyms"
+    ],
+    "quickRefresher": "Look for contrast words (but, unlike), explanation words (that is, because), examples (such as) and the positive or negative tone of the sentence."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Context clue: information in the surrounding text that points to a word's meaning.",
+      "Definition clue: the sentence defines the word directly.",
+      "Contrast clue: the sentence contrasts the word with its opposite (unlike, but, however).",
+      "Example clue: examples illustrate the word.",
+      "Inference clue: the general situation suggests the meaning."
+    ],
+    "theoreticalIntuition": "The author wants to be understood, so the sentence usually helps. Ask: what idea does the rest of the sentence express? The unknown word is probably part of the same idea or its opposite.",
+    "visualOrMentalModel": "Cover the word and guess a simple word that would fit. Then match your guess to an option. Finally, substitute the option back and check that the sentence still makes sense."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Definition clue",
+      "formula": "The sentence explains the word",
+      "description": "Look for that is, means, called.",
+      "whenToUse": "Direct definitions.",
+      "simpleExample": "a tentative explanation yet to be tested = hypothesis"
+    },
+    {
+      "title": "Contrast clue",
+      "formula": "But, unlike, however signal an opposite",
+      "description": "Flip the meaning.",
+      "whenToUse": "Contrast sentences.",
+      "simpleExample": "Unlike his gregarious brother, who loved parties, he stayed alone"
+    },
+    {
+      "title": "Example clue",
+      "formula": "Examples show the kind of thing",
+      "description": "Generalise from them.",
+      "whenToUse": "Example sentences.",
+      "simpleExample": "saved every rupee → frugal"
+    },
+    {
+      "title": "Cause clue",
+      "formula": "Because / so signals a result",
+      "description": "Match cause and effect.",
+      "whenToUse": "Cause-effect.",
+      "simpleExample": "He was frail, so he could hardly lift a cup"
+    },
+    {
+      "title": "Tone clue",
+      "formula": "Positive or negative sense",
+      "description": "Choose a word with the same tone.",
+      "whenToUse": "Weak clues.",
+      "simpleExample": "jubilant: cheering and dancing"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Start with the nearest clues. In \"The weather was so inclement that the match was cancelled; heavy rain and strong winds lashed the ground\", the second part describes the weather, so inclement means stormy or harsh.",
+      "Use contrast words. \"Unlike his gregarious brother, who loved parties, Anil preferred to stay alone\" tells you gregarious is the opposite of preferring to stay alone: sociable.",
+      "Use examples and actions. A man who saved every rupee and never wasted money is frugal. A person who forgave late arrivals and did not punish anyone is lenient.",
+      "Use the situation. \"Because the instructions were ambiguous, each student interpreted them differently\" means the instructions could be understood in more than one way.",
+      "Finally substitute the meaning into the sentence. If it reads naturally and fits the tone, the choice is right."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Prefix and root help",
+        "content": "Unprecedented = un (not) + precedent (something earlier). Nothing like it had happened before. Word parts support the context."
+      },
+      {
+        "title": "Avoid sound-alikes",
+        "content": "Do not choose a word because it sounds like the target. Meaning in context is what counts."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Definition clues",
+      "description": "Direct explanation.",
+      "exampleSnippet": "Hypothesis"
+    },
+    {
+      "typeName": "Contrast clues",
+      "description": "Unlike, but.",
+      "exampleSnippet": "Gregarious"
+    },
+    {
+      "typeName": "Example clues",
+      "description": "Actions as examples.",
+      "exampleSnippet": "Frugal"
+    },
+    {
+      "typeName": "Cause clues",
+      "description": "So, because.",
+      "exampleSnippet": "Frail"
+    },
+    {
+      "typeName": "Tone clues",
+      "description": "Positive or negative.",
+      "exampleSnippet": "Jubilant"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-verbal-vocab-in-context-1",
+      "title": "Contrast clue",
+      "question": "Unlike his gregarious brother, who loved parties, Anil preferred to stay alone. What does \"gregarious\" mean?",
+      "givenInfo": [
+        "Unlike … preferred to stay alone"
+      ],
+      "conceptOrFormula": "Contrast.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Clue",
+          "explanation": "Anil prefers to be alone; the brother is unlike him."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "Gregarious: fond of company, sociable."
+        }
+      ],
+      "finalAnswer": "sociable",
+      "whyItWorks": "The brother loved parties.",
+      "commonTrap": "Choosing an option similar to Anil.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-verbal-vocab-in-context-2",
+      "title": "Example clue",
+      "question": "He was frugal; he saved every rupee and never wasted money. What does \"frugal\" mean?",
+      "givenInfo": [
+        "saved every rupee"
+      ],
+      "conceptOrFormula": "Examples.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Examples",
+          "explanation": "Saved every rupee, never wasted money."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "careful with money."
+        }
+      ],
+      "finalAnswer": "careful with money",
+      "whyItWorks": "The actions define the word.",
+      "commonTrap": "Choosing greedy.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-verbal-vocab-in-context-3",
+      "title": "Cause clue",
+      "question": "The old man was so frail that he could hardly lift a cup. What does \"frail\" mean?",
+      "givenInfo": [
+        "so … that"
+      ],
+      "conceptOrFormula": "Result.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Result",
+          "explanation": "He could hardly lift a cup."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "weak."
+        }
+      ],
+      "finalAnswer": "weak",
+      "whyItWorks": "The result suggests weakness.",
+      "commonTrap": "Choosing old.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Guess, match, substitute",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Recall dictionary meanings.",
+      "shortcutMethod": "Find the clue, guess the meaning, match it to an option, and substitute to check."
+    },
+    "rulesForApplication": [
+      "Use contrast words.",
+      "Use examples.",
+      "Match the tone.",
+      "Check by substitution."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing a sound-alike",
+      "whyItHappens": "Picking a similar-sounding word.",
+      "howToAvoid": "Use the clue."
+    },
+    {
+      "mistake": "Ignoring contrast words",
+      "whyItHappens": "Missing unlike/but.",
+      "howToAvoid": "Flip the meaning."
+    },
+    {
+      "mistake": "Wrong tone",
+      "whyItHappens": "Positive for negative.",
+      "howToAvoid": "Match tone."
+    },
+    {
+      "mistake": "No substitution check",
+      "whyItHappens": "Leaving it untested.",
+      "howToAvoid": "Reread."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 25,
+    "eliminationTechnique": "Eliminate options with the wrong tone first.",
+    "questionSelectionAdvice": "Read the whole sentence.",
+    "recruiterInsight": "Most sentences contain a direct clue."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-verbal-vocab-in-context-e1",
+        "question": "Use the clues in the sentence to decide the meaning of the word \"inclement\".\n\"The weather was so inclement that the match was cancelled; heavy rain and strong winds lashed the ground.\"",
+        "options": [
+          "pleasant",
+          "stormy",
+          "mild",
+          "sunny"
+        ],
+        "correctAnswer": "stormy",
+        "explanation": "Heavy rain and strong winds describe harsh, stormy weather.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-vocab-in-context-e2",
+        "question": "Use the clues in the sentence to decide the meaning of the word \"frugal\".\n\"He was frugal; he saved every rupee and never wasted money.\"",
+        "options": [
+          "careful with money",
+          "generous",
+          "wasteful",
+          "rich"
+        ],
+        "correctAnswer": "careful with money",
+        "explanation": "Saving every rupee shows care with money.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-vocab-in-context-e3",
+        "question": "Use the clues in the sentence to decide the meaning of the word \"lucid\".\n\"The teacher's lucid explanation made the topic easy to understand.\"",
+        "options": [
+          "confusing",
+          "long",
+          "loud",
+          "clear"
+        ],
+        "correctAnswer": "clear",
+        "explanation": "An explanation that makes things easy to understand is clear.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-verbal-vocab-in-context-i7",
+        "question": "Use the clues in the sentence to decide the meaning of the word \"gregarious\".\n\"Unlike his gregarious brother, who loved parties, Anil preferred to stay alone.\"",
+        "options": [
+          "sociable",
+          "shy",
+          "angry",
+          "careless"
+        ],
+        "correctAnswer": "sociable",
+        "explanation": "Loving parties contrasts with staying alone: sociable.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-vocab-in-context-i8",
+        "question": "Use the clues in the sentence to decide the meaning of the word \"rhetoric\".\n\"The politician's speech was full of rhetoric, but it contained no concrete plans.\"",
+        "options": [
+          "detailed facts",
+          "silence",
+          "plain statistics",
+          "impressive language without substance"
+        ],
+        "correctAnswer": "impressive language without substance",
+        "explanation": "But signals that the speech lacked concrete plans, so it was fine words without substance.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-vocab-in-context-i9",
+        "question": "Use the clues in the sentence to decide the meaning of the word \"keen\".\n\"The detective's keen observation, noticing even the smallest detail, solved the case.\"",
+        "options": [
+          "dull",
+          "slow",
+          "careless",
+          "sharp"
+        ],
+        "correctAnswer": "sharp",
+        "explanation": "Noticing the smallest detail shows sharpness.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-verbal-vocab-in-context-a15",
+        "question": "Use the clues in the sentence to decide the meaning of the word \"hypothesis\".\n\"The scientist's hypothesis, a tentative explanation yet to be tested, was published.\"",
+        "options": [
+          "a proven law",
+          "a final result",
+          "a proposed explanation to be tested",
+          "a mistake"
+        ],
+        "correctAnswer": "a proposed explanation to be tested",
+        "explanation": "The sentence itself defines it as a tentative explanation yet to be tested.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-vocab-in-context-a16",
+        "question": "Use the clues in the sentence to decide the meaning of the word \"ambiguous\".\n\"Because the instructions were ambiguous, each student interpreted them differently.\"",
+        "options": [
+          "very clear",
+          "open to more than one meaning",
+          "very short",
+          "very strict"
+        ],
+        "correctAnswer": "open to more than one meaning",
+        "explanation": "Different interpretations suggest the instructions could be understood in more than one way.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-verbal-vocab-in-context-p17",
+        "question": "Use the clues in the sentence to decide the meaning of the word \"meagre\".\n\"The company's meagre profits barely covered the salaries.\"",
+        "options": [
+          "huge",
+          "very small",
+          "steady",
+          "surprising"
+        ],
+        "correctAnswer": "very small",
+        "explanation": "Barely covering salaries shows the profits were very small.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-vocab-in-context-p18",
+        "question": "Use the clues in the sentence to decide the meaning of the word \"eloquent\".\n\"Her eloquent speech, fluent and persuasive, won the audience.\"",
+        "options": [
+          "fluent and persuasive",
+          "hesitant",
+          "silent",
+          "angry"
+        ],
+        "correctAnswer": "fluent and persuasive",
+        "explanation": "The sentence describes it as fluent and persuasive.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-vocab-in-context-p19",
+        "question": "Use the clues in the sentence to decide the meaning of the word \"animosity\".\n\"The rivals' animosity was clear; they refused even to shake hands.\"",
+        "options": [
+          "friendship",
+          "respect",
+          "curiosity",
+          "strong hostility"
+        ],
+        "correctAnswer": "strong hostility",
+        "explanation": "Refusing to shake hands shows hostility.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Definition, contrast, example, cause, tone.",
+      "Guess and match.",
+      "Substitute.",
+      "Word parts.",
+      "Not sound-alikes."
+    ],
+    "quickFormulas": [
+      "Clue → guess → match → check"
+    ]
+  },
+  "keyTakeaways": [
+    "Use clues.",
+    "Contrast.",
+    "Examples.",
+    "Substitute."
+  ],
+  "selfCheckQuestions": [
+    "Can I use an example clue?",
+    "Can I use a contrast clue?",
+    "Can I check by substitution?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Oxford Advanced Learner's Dictionary",
+      "sourceType": "Reference",
+      "referenceNote": "Meanings of the words discussed."
+    }
+  ]
+}

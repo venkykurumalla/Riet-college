@@ -1,0 +1,445 @@
+{
+  "id": "y2-verbal-basic-para-jumbles",
+  "yearId": 2,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 42,
+  "title": "Basic Para Jumbles",
+  "tagline": "Year 2 — Arranging jumbled sentences into a logical paragraph",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "A para jumble gives you four or five sentences in a scrambled order and asks for the arrangement that forms a meaningful paragraph. The sentences are linked by time order, cause and effect, pronoun reference, connectors (however, therefore, finally) and the movement from general to specific. The skill is to find the opening sentence, the closing sentence and the links in between.",
+    "placementRelevance": "Para jumble questions are commonly asked in the verbal ability section of company aptitude rounds, usually with four sentences.",
+    "realWorldContext": "Organising the steps of a procedure, structuring an email and ordering the points of an argument use the same logic."
+  },
+  "learningObjectives": [
+    "Find the opening sentence (a general statement or introduction)",
+    "Find the closing sentence (a conclusion or final result)",
+    "Use pronouns and connectors to link sentences",
+    "Follow time order and cause-effect order",
+    "Test the final order by reading the paragraph aloud"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Paragraph Completion",
+      "Parts of Speech"
+    ],
+    "quickRefresher": "A pronoun (he, it, they, this) refers to something mentioned before; a sentence beginning with a pronoun is rarely the first."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Opening sentence: introduces the topic and uses names rather than pronouns.",
+      "Connector: a word that links ideas (then, therefore, however, finally).",
+      "Chronological order: the order in which events happen.",
+      "Cause-effect order: the cause comes before the effect.",
+      "Pair: two sentences that clearly belong together (for example a question and its answer)."
+    ],
+    "theoreticalIntuition": "A paragraph has a shape: an opening idea, development, and a close. Each sentence leans on the one before it, usually through a pronoun or a connector. Find a pair that clearly fits, then extend the chain in both directions.",
+    "visualOrMentalModel": "First pick the sentence that could start the paragraph. Then find the sentence that follows it using pronouns and connectors. Test each candidate order by reading it as a whole."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Opening sentence",
+      "formula": "General statement; names rather than pronouns; no connector",
+      "description": "It sets the topic.",
+      "whenToUse": "First sentence.",
+      "simpleExample": "Ravi woke up early in the morning."
+    },
+    {
+      "title": "Pronoun link",
+      "formula": "A sentence with he/she/it/they follows one that names the person or thing",
+      "description": "Check the reference.",
+      "whenToUse": "Linking.",
+      "simpleExample": "Ravi … He …"
+    },
+    {
+      "title": "Connector link",
+      "formula": "Then, soon, finally, therefore, however",
+      "description": "These show order or logic.",
+      "whenToUse": "Linking.",
+      "simpleExample": "Then he had breakfast"
+    },
+    {
+      "title": "Time and cause order",
+      "formula": "Earlier event first; cause before effect",
+      "description": "Look at the logic.",
+      "whenToUse": "Stories and processes.",
+      "simpleExample": "Seed planted → watered → sprouted → tree"
+    },
+    {
+      "title": "Closing sentence",
+      "formula": "A result, conclusion or final step",
+      "description": "Words like finally, hence, so.",
+      "whenToUse": "Last sentence.",
+      "simpleExample": "Soon the ground was full of children."
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Start by finding the opening sentence. It usually introduces the subject by name and does not depend on any earlier sentence. \"Ravi woke up early in the morning\" can start a paragraph; \"He brushed his teeth\" cannot.",
+      "Then link sentences with pronouns and connectors. \"He brushed his teeth and took a bath\" follows the sentence that names Ravi. \"Then he had breakfast\" follows the bath. \"Finally, he left for school\" closes the sequence.",
+      "For explanatory paragraphs, use cause and effect. \"Vehicles and factories release harmful gases\" explains why \"pollution is increasing\"; \"These gases make the air unhealthy\" follows the gases; \"Therefore, we must use public transport\" is the conclusion.",
+      "For longer sets of five sentences, find two or three pairs first and then join them. The final sentence often starts with therefore, hence or as a result.",
+      "Finally, read the arranged paragraph aloud to check that it flows and that no sentence is out of place."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Definition-first paragraphs",
+        "content": "Explanations often begin with a definition (\"A computer is an electronic machine\"), then describe how it works, and end with its uses."
+      },
+      {
+        "title": "Distractor orders",
+        "content": "Wrong options usually swap two neighbouring sentences. Check each swap against the pronoun and connector links."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Daily routines",
+      "description": "Time order.",
+      "exampleSnippet": "Wake up, bath, breakfast, school"
+    },
+    {
+      "typeName": "Growth and process",
+      "description": "Stages.",
+      "exampleSnippet": "Seed, water, sprout, tree"
+    },
+    {
+      "typeName": "Cause and effect",
+      "description": "Reason then result.",
+      "exampleSnippet": "Pollution, gases, air, action"
+    },
+    {
+      "typeName": "Biographical order",
+      "description": "Birth, study, work.",
+      "exampleSnippet": "Gandhi"
+    },
+    {
+      "typeName": "Argument",
+      "description": "Statement, support, conclusion.",
+      "exampleSnippet": "Time is precious"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-verbal-basic-para-jumbles-1",
+      "title": "Time order",
+      "question": "Arrange: Finally, he left for school. / Ravi woke up early in the morning. / Then he had breakfast. / He brushed his teeth and took a bath.",
+      "givenInfo": [
+        "Four sentences"
+      ],
+      "conceptOrFormula": "Chronological order.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Opening",
+          "explanation": "Ravi woke up early in the morning."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Next",
+          "explanation": "He brushed his teeth and took a bath."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Then",
+          "explanation": "Then he had breakfast."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Close",
+          "explanation": "Finally, he left for school."
+        }
+      ],
+      "finalAnswer": "Ravi woke up → brushed teeth and bathed → had breakfast → left for school",
+      "whyItWorks": "Connectors then and finally show the order.",
+      "commonTrap": "Starting with Finally.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-verbal-basic-para-jumbles-2",
+      "title": "Cause and effect",
+      "question": "Arrange: These gases make the air unhealthy. / Pollution is increasing in cities. / Therefore, we must use public transport and plant trees. / Vehicles and factories release harmful gases.",
+      "givenInfo": [
+        "Four sentences"
+      ],
+      "conceptOrFormula": "Problem, cause, effect, conclusion.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Opening",
+          "explanation": "Pollution is increasing in cities."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Cause",
+          "explanation": "Vehicles and factories release harmful gases."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Effect",
+          "explanation": "These gases make the air unhealthy."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Conclusion",
+          "explanation": "Therefore, we must use public transport and plant trees."
+        }
+      ],
+      "finalAnswer": "Pollution → cause → effect → conclusion",
+      "whyItWorks": "These refers back to gases; therefore closes the paragraph.",
+      "commonTrap": "Placing the effect before the cause.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-verbal-basic-para-jumbles-3",
+      "title": "Pronoun link",
+      "question": "In the pair \"Ravi woke up early. He brushed his teeth\", why must the sentence with \"He\" come second?",
+      "givenInfo": [
+        "Pronoun He"
+      ],
+      "conceptOrFormula": "Pronoun reference.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pronoun",
+          "explanation": "He needs an earlier sentence that names the person."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Order",
+          "explanation": "The sentence naming Ravi comes first."
+        }
+      ],
+      "finalAnswer": "The pronoun refers to Ravi, who is named in the earlier sentence",
+      "whyItWorks": "Pronouns follow the noun they stand for.",
+      "commonTrap": "Starting with a pronoun sentence.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Opening, links, closing",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try all permutations.",
+      "shortcutMethod": "Find the opening sentence, link by pronouns and connectors, and place the sentence with finally/therefore last. Test the order by reading."
+    },
+    "rulesForApplication": [
+      "Names before pronouns.",
+      "Cause before effect.",
+      "Therefore and finally close.",
+      "Check the whole paragraph."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Starting with a pronoun sentence",
+      "whyItHappens": "Beginning with \"He …\".",
+      "howToAvoid": "Find the sentence that names the person."
+    },
+    {
+      "mistake": "Ignoring connectors",
+      "whyItHappens": "Missing then/finally.",
+      "howToAvoid": "Use them as signposts."
+    },
+    {
+      "mistake": "Reversing cause and effect",
+      "whyItHappens": "Effect before cause.",
+      "howToAvoid": "Cause comes first."
+    },
+    {
+      "mistake": "Not checking the flow",
+      "whyItHappens": "Leaving the paragraph unread.",
+      "howToAvoid": "Read it as a whole."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Eliminate options that start with a pronoun sentence.",
+    "questionSelectionAdvice": "Fix the first sentence, then the last.",
+    "recruiterInsight": "Most jumbles have one clear pair."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-verbal-basic-para-jumbles-e1",
+        "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. Ravi woke up early in the morning.\nQ. Then he had breakfast.\nR. He brushed his teeth and took a bath.\nS. Finally, he left for school.",
+        "options": [
+          "RPQS",
+          "PRQS",
+          "PQRS",
+          "PRSQ"
+        ],
+        "correctAnswer": "PRQS",
+        "explanation": "The correct order is P → R → Q → S. 1) Ravi woke up early in the morning. 2) He brushed his teeth and took a bath. 3) Then he had breakfast. 4) Finally, he left for school.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-basic-para-jumbles-e2",
+        "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. The sun rose in the east.\nQ. Slowly its light spread over the fields.\nR. By noon, the fields were full of workers.\nS. Farmers started their work.",
+        "options": [
+          "PQSR",
+          "QPSR",
+          "PSQR",
+          "PQRS"
+        ],
+        "correctAnswer": "PQSR",
+        "explanation": "The correct order is P → Q → S → R. 1) The sun rose in the east. 2) Slowly its light spread over the fields. 3) Farmers started their work. 4) By noon, the fields were full of workers.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-basic-para-jumbles-e3",
+        "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. Soon a small plant sprouted.\nQ. A seed was planted in the garden.\nR. In time, the plant grew into a tall tree.\nS. It was watered every day.",
+        "options": [
+          "SQPR",
+          "QPSR",
+          "QSRP",
+          "QSPR"
+        ],
+        "correctAnswer": "QSPR",
+        "explanation": "The correct order is Q → S → P → R. 1) A seed was planted in the garden. 2) It was watered every day. 3) Soon a small plant sprouted. 4) In time, the plant grew into a tall tree.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-verbal-basic-para-jumbles-i7",
+        "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. Vehicles and factories release harmful gases.\nQ. These gases make the air unhealthy.\nR. Pollution is increasing in cities.\nS. Therefore, we must use public transport and plant trees.",
+        "options": [
+          "RPQS",
+          "PRQS",
+          "RQPS",
+          "RPSQ"
+        ],
+        "correctAnswer": "RPQS",
+        "explanation": "The correct order is R → P → Q → S. 1) Pollution is increasing in cities. 2) Vehicles and factories release harmful gases. 3) These gases make the air unhealthy. 4) Therefore, we must use public transport and plant trees.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-basic-para-jumbles-i8",
+        "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. A computer is an electronic machine.\nQ. It accepts data and processes it.\nR. Today computers are used in almost every field.\nS. The results are shown on a screen.",
+        "options": [
+          "QPSR",
+          "PSQR",
+          "PQRS",
+          "PQSR"
+        ],
+        "correctAnswer": "PQSR",
+        "explanation": "The correct order is P → Q → S → R. 1) A computer is an electronic machine. 2) It accepts data and processes it. 3) The results are shown on a screen. 4) Today computers are used in almost every field.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-basic-para-jumbles-i9",
+        "question": "Arrange the sentences P, Q, R, S in the correct order to form a meaningful paragraph.\nP. Hence we should value them first.\nQ. But wealth alone does not bring happiness.\nR. Good health and good relationships matter more.\nS. Many people dream of becoming rich.",
+        "options": [
+          "QSRP",
+          "SRQP",
+          "SQPR",
+          "SQRP"
+        ],
+        "correctAnswer": "SQRP",
+        "explanation": "The correct order is S → Q → R → P. 1) Many people dream of becoming rich. 2) But wealth alone does not bring happiness. 3) Good health and good relationships matter more. 4) Hence we should value them first.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-verbal-basic-para-jumbles-a15",
+        "question": "Arrange the sentences P, Q, R, S, T in the correct order to form a meaningful paragraph.\nP. Soon it lit homes and ran machines.\nQ. Scientists studied its nature carefully.\nR. Inventors then found ways to use it.\nS. Electricity was discovered through many experiments.\nT. Today modern life cannot function without it.",
+        "options": [
+          "QSRPT",
+          "SRQPT",
+          "SQRPT",
+          "SQPRT"
+        ],
+        "correctAnswer": "SQRPT",
+        "explanation": "The correct order is S → Q → R → P → T. 1) Electricity was discovered through many experiments. 2) Scientists studied its nature carefully. 3) Inventors then found ways to use it. 4) Soon it lit homes and ran machines. 5) Today modern life cannot function without it.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-basic-para-jumbles-a16",
+        "question": "Arrange the sentences P, Q, R, S, T in the correct order to form a meaningful paragraph.\nP. Others find silence better for concentration.\nQ. Exams are approaching.\nR. In either case, regular practice leads to success.\nS. Students have begun to revise their lessons.\nT. Some prefer to study in groups.",
+        "options": [
+          "SQTPR",
+          "QSTPR",
+          "QTSPR",
+          "QSPTR"
+        ],
+        "correctAnswer": "QSTPR",
+        "explanation": "The correct order is Q → S → T → P → R. 1) Exams are approaching. 2) Students have begun to revise their lessons. 3) Some prefer to study in groups. 4) Others find silence better for concentration. 5) In either case, regular practice leads to success.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-verbal-basic-para-jumbles-p17",
+        "question": "Arrange the sentences P, Q, R, S, T in the correct order to form a meaningful paragraph.\nP. The stored water can be used for gardening and cleaning.\nQ. Rainwater harvesting collects rain for later use.\nR. Therefore many cities now require it in new buildings.\nS. This reduces the demand on groundwater.\nT. Water falling on roofs is channelled into tanks.",
+        "options": [
+          "TQPSR",
+          "QTPSR",
+          "QPTSR",
+          "QTSPR"
+        ],
+        "correctAnswer": "QTPSR",
+        "explanation": "The correct order is Q → T → P → S → R. 1) Rainwater harvesting collects rain for later use. 2) Water falling on roofs is channelled into tanks. 3) The stored water can be used for gardening and cleaning. 4) This reduces the demand on groundwater. 5) Therefore many cities now req",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-basic-para-jumbles-p18",
+        "question": "Arrange the sentences P, Q, R, S, T in the correct order to form a meaningful paragraph.\nP. Wise people plan their day carefully.\nQ. Time is a precious resource.\nR. As a result, they achieve more in less time.\nS. They give priority to important tasks.\nT. Once it is lost, it cannot be recovered.",
+        "options": [
+          "QTPSR",
+          "TQPSR",
+          "QPTSR",
+          "QTSPR"
+        ],
+        "correctAnswer": "QTPSR",
+        "explanation": "The correct order is Q → T → P → S → R. 1) Time is a precious resource. 2) Once it is lost, it cannot be recovered. 3) Wise people plan their day carefully. 4) They give priority to important tasks. 5) As a result, they achieve more in less time.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-basic-para-jumbles-p19",
+        "question": "Arrange the sentences P, Q, R, S, T in the correct order to form a meaningful paragraph.\nP. Books became cheaper and more common.\nQ. Ideas spread faster than before.\nR. The invention of the printing press changed the world.\nS. This helped bring about great social change.\nT. More people learned to read.",
+        "options": [
+          "PRTQS",
+          "RTPQS",
+          "RPQTS",
+          "RPTQS"
+        ],
+        "correctAnswer": "RPTQS",
+        "explanation": "The correct order is R → P → T → Q → S. 1) The invention of the printing press changed the world. 2) Books became cheaper and more common. 3) More people learned to read. 4) Ideas spread faster than before. 5) This helped bring about great social change.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Opening sentence.",
+      "Pronoun links.",
+      "Connectors.",
+      "Cause then effect.",
+      "Closing sentence."
+    ],
+    "quickFormulas": [
+      "Names → pronouns",
+      "Cause → effect"
+    ]
+  },
+  "keyTakeaways": [
+    "Find the opening.",
+    "Use links.",
+    "Find the close.",
+    "Read to check."
+  ],
+  "selfCheckQuestions": [
+    "Can I pick the opening sentence?",
+    "Can I use connectors?",
+    "Can I arrange a four-sentence paragraph?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Objective General English — S.P. Bakshi",
+      "sourceType": "Textbook",
+      "referenceNote": "Rearrangement and reading skills; examples are original."
+    }
+  ]
+}
