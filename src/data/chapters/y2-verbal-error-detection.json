@@ -1,0 +1,426 @@
+{
+  "id": "y2-verbal-error-detection",
+  "yearId": 2,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 36,
+  "title": "Error Detection",
+  "tagline": "Year 2 — Locating the grammatical error in a sentence divided into parts",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "In an error-detection (spotting errors) question, a sentence is divided into three or four parts and you must find the part that contains a grammatical error, or say that there is no error. Because the answer is just the part and not a correction, the skill is rapid recognition of the common error types: agreement, tense, preposition, article, pronoun, adjective/adverb, comparison and word choice. A fixed checklist makes this reliable.",
+    "placementRelevance": "Error-detection questions are commonly asked in the verbal ability section of company aptitude rounds, usually in sets of five.",
+    "realWorldContext": "Proofreading emails, reports and presentations before sending uses the same checklist."
+  },
+  "learningObjectives": [
+    "Apply an error checklist in a fixed order",
+    "Spot subject-verb disagreement, including with phrases between subject and verb",
+    "Spot wrong prepositions, double comparatives and incorrect conjunctions",
+    "Recognise correct sentences (\"no error\")",
+    "Spot errors in conditionals and reported speech"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Subject-Verb Agreement",
+      "Basic Sentence Correction",
+      "Advanced Tenses"
+    ],
+    "quickRefresher": "Agreement, tense, preposition, article, pronoun case, adjective/adverb, comparison, conjunction, word order, redundancy."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Error detection: identifying the faulty part of a sentence without correcting it.",
+      "Part: a segment of the sentence marked A, B or C; option D usually reads \"No error\".",
+      "Common errors: agreement, tense, preposition, article, pronoun, comparison, conjunction.",
+      "Redundancy: needless repetition (return back, repeat again).",
+      "No error: the sentence is grammatically correct as written."
+    ],
+    "theoreticalIntuition": "The error is usually small and sits in one word. Reading the sentence aloud in your head and then testing each part against the checklist is faster than rereading for \"feel\". About a fifth of such questions have no error, so do not assume every sentence is wrong.",
+    "visualOrMentalModel": "Check in this order: subject and verb agreement, tense and verb form, prepositions and articles, pronouns, adjectives and adverbs, comparatives, conjunctions. Stop when you find the fault."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Agreement check",
+      "formula": "Find the real subject; match singular/plural",
+      "description": "Ignore phrases between subject and verb.",
+      "whenToUse": "Agreement errors.",
+      "simpleExample": "The quality of the products has improved"
+    },
+    {
+      "title": "Form after helpers",
+      "formula": "do/does/did + V1; has/have/had + V3; to + V1 (but look forward to + -ing)",
+      "description": "Base form and participle.",
+      "whenToUse": "Verb-form errors.",
+      "simpleExample": "He did not come"
+    },
+    {
+      "title": "Fixed pairs",
+      "formula": "prefer X to Y; senior to; look forward to + -ing; despite (no of)",
+      "description": "Memorised pairs.",
+      "whenToUse": "Preposition errors.",
+      "simpleExample": "prefers tea to coffee"
+    },
+    {
+      "title": "Comparison",
+      "formula": "No more + -er; than not then",
+      "description": "One marker only.",
+      "whenToUse": "Comparison errors.",
+      "simpleExample": "smarter than"
+    },
+    {
+      "title": "Conjunction pairs",
+      "formula": "Although … (no but);  Hardly … when;  No sooner … than",
+      "description": "Do not double the conjunction.",
+      "whenToUse": "Conjunction errors.",
+      "simpleExample": "Although it rained, we went out"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Work through the checklist. Read each part and ask: does the verb agree with its subject? In \"The children is playing\", the plural subject children needs are. In \"Each of the boys have a bicycle\", the subject is each (singular), so has.",
+      "Check verb forms and fixed phrases. \"He go to school\" needs goes. \"I look forward to meet you\" needs meeting, because to is a preposition here. \"She prefers tea than coffee\" needs to coffee.",
+      "Check conjunctions and comparisons. \"Although it rained, but we went out\" has a double conjunction: remove but. \"He is more smarter\" has a double comparative.",
+      "Check reported speech and conditionals. \"He asked me that where I lived\" must be \"He asked me where I lived\". \"If I would have known\" must be \"If I had known\".",
+      "Finally, if every part passes the checklist, choose \"No error\". A sentence such as \"Hardly had he arrived when the train left\" is correct."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Relative pronoun agreement",
+        "content": "\"She is one of those who always arrives early\": who refers to those (plural), so the verb should be arrive."
+      },
+      {
+        "title": "As well as",
+        "content": "In \"The teacher as well as the students was present\", the verb agrees with the first subject, teacher, not with students."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Agreement errors",
+      "description": "Subject and verb.",
+      "exampleSnippet": "The children is playing"
+    },
+    {
+      "typeName": "Preposition and fixed pair errors",
+      "description": "Prefer, look forward.",
+      "exampleSnippet": "Prefers tea than coffee"
+    },
+    {
+      "typeName": "Conjunction and comparison errors",
+      "description": "Although … but.",
+      "exampleSnippet": "More smarter"
+    },
+    {
+      "typeName": "Conditional and reported speech errors",
+      "description": "Tense patterns.",
+      "exampleSnippet": "If I would have known"
+    },
+    {
+      "typeName": "No error sentences",
+      "description": "Correct sentences.",
+      "exampleSnippet": "Hardly had he arrived"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-verbal-error-detection-1",
+      "title": "Agreement error",
+      "question": "Find the error: (A) The children (B) is playing (C) in the garden. (D) No error",
+      "givenInfo": [
+        "Parts A, B, C"
+      ],
+      "conceptOrFormula": "Check subject-verb agreement.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Subject",
+          "explanation": "Children is plural."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Verb",
+          "explanation": "\"Is\" is singular, so Part B is wrong: are playing."
+        }
+      ],
+      "finalAnswer": "Part B",
+      "whyItWorks": "Plural subjects take are.",
+      "commonTrap": "Marking \"No error\".",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-verbal-error-detection-2",
+      "title": "Fixed pair",
+      "question": "Find the error: (A) She prefers (B) tea than (C) coffee. (D) No error",
+      "givenInfo": [
+        "Parts A, B, C"
+      ],
+      "conceptOrFormula": "Prefer X to Y.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pair",
+          "explanation": "The correct construction is prefer … to."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Faulty part",
+          "explanation": "Part B (than should be to)."
+        }
+      ],
+      "finalAnswer": "Part B",
+      "whyItWorks": "Prefer is followed by to, not than.",
+      "commonTrap": "Choosing Part A.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-verbal-error-detection-3",
+      "title": "No error",
+      "question": "Find the error: (A) Hardly had he arrived (B) when the (C) train left. (D) No error",
+      "givenInfo": [
+        "Parts A, B, C"
+      ],
+      "conceptOrFormula": "Hardly had … when.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Check",
+          "explanation": "Hardly had + S + V3 + when is correct."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Conclusion",
+          "explanation": "Every part passes the checklist."
+        }
+      ],
+      "finalAnswer": "No error",
+      "whyItWorks": "The sentence is grammatical.",
+      "commonTrap": "Forcing an error.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Checklist in order",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reread until something feels wrong.",
+      "shortcutMethod": "Agreement → verb form → preposition/article → pronoun → comparison → conjunction. Stop at the first fault; if none, choose No error."
+    },
+    "rulesForApplication": [
+      "Strike out phrases between subject and verb.",
+      "Learn fixed pairs.",
+      "No double conjunctions or comparatives.",
+      "Allow for \"No error\"."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Assuming every sentence has an error",
+      "whyItHappens": "Ignoring option D.",
+      "howToAvoid": "Check the whole checklist first."
+    },
+    {
+      "mistake": "Marking the wrong part",
+      "whyItHappens": "Choosing the word near the error.",
+      "howToAvoid": "Identify the exact faulty word."
+    },
+    {
+      "mistake": "Missing agreement errors",
+      "whyItHappens": "Reading the phrase near the verb.",
+      "howToAvoid": "Find the real subject."
+    },
+    {
+      "mistake": "Ignoring fixed pairs",
+      "whyItHappens": "Overlooking prefer to.",
+      "howToAvoid": "Revise the lists."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Mark parts that pass the checklist and eliminate them.",
+    "questionSelectionAdvice": "Practice with the checklist daily.",
+    "recruiterInsight": "Five common errors cover most questions."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-verbal-error-detection-e1",
+        "question": "Find the part of the sentence that has an error.\n(A) He go  (B) to school  (C) every day.  (D) No error",
+        "options": [
+          "Part B",
+          "Part A",
+          "Part C",
+          "No error"
+        ],
+        "correctAnswer": "Part A",
+        "explanation": "\"He\" is third person singular, so the verb should be goes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-error-detection-e2",
+        "question": "Find the part of the sentence that has an error.\n(A) The children  (B) is playing  (C) in the garden.  (D) No error",
+        "options": [
+          "Part B",
+          "Part A",
+          "Part C",
+          "No error"
+        ],
+        "correctAnswer": "Part B",
+        "explanation": "Children is plural, so are playing.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-error-detection-e3",
+        "question": "Find the part of the sentence that has an error.\n(A) She has  (B) a good  (C) knowledges.  (D) No error",
+        "options": [
+          "Part A",
+          "Part B",
+          "No error",
+          "Part C"
+        ],
+        "correctAnswer": "Part C",
+        "explanation": "Knowledge is uncountable and has no plural form.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-verbal-error-detection-i7",
+        "question": "Find the part of the sentence that has an error.\n(A) Neither of the two  (B) answers are  (C) correct.  (D) No error",
+        "options": [
+          "Part B",
+          "Part A",
+          "Part C",
+          "No error"
+        ],
+        "correctAnswer": "Part B",
+        "explanation": "Neither is singular, so the verb should be is.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-error-detection-i8",
+        "question": "Find the part of the sentence that has an error.\n(A) Hardly had he arrived  (B) when the  (C) train left.  (D) No error",
+        "options": [
+          "Part A",
+          "Part B",
+          "Part C",
+          "No error"
+        ],
+        "correctAnswer": "No error",
+        "explanation": "The sentence is correct: Hardly had … when.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-error-detection-i9",
+        "question": "Find the part of the sentence that has an error.\n(A) I look forward  (B) to meet  (C) you soon.  (D) No error",
+        "options": [
+          "Part A",
+          "Part C",
+          "No error",
+          "Part B"
+        ],
+        "correctAnswer": "Part B",
+        "explanation": "After look forward to, use -ing: meeting.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-verbal-error-detection-a15",
+        "question": "Find the part of the sentence that has an error.\n(A) If I  (B) would have known,  (C) I would have told you.  (D) No error",
+        "options": [
+          "Part A",
+          "Part C",
+          "Part B",
+          "No error"
+        ],
+        "correctAnswer": "Part B",
+        "explanation": "Type 3 conditional: if I had known.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-error-detection-a16",
+        "question": "Find the part of the sentence that has an error.\n(A) The quality of  (B) the products  (C) have improved.  (D) No error",
+        "options": [
+          "Part A",
+          "Part C",
+          "Part B",
+          "No error"
+        ],
+        "correctAnswer": "Part C",
+        "explanation": "The subject quality is singular, so has improved.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-verbal-error-detection-p17",
+        "question": "Find the part of the sentence that has an error.\n(A) She has been  (B) living here  (C) since 2010.  (D) No error",
+        "options": [
+          "Part A",
+          "No error",
+          "Part B",
+          "Part C"
+        ],
+        "correctAnswer": "No error",
+        "explanation": "The present perfect continuous with since is correct.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-error-detection-p18",
+        "question": "Find the part of the sentence that has an error.\n(A) Between you  (B) and I,  (C) the plan is risky.  (D) No error",
+        "options": [
+          "Part B",
+          "Part A",
+          "Part C",
+          "No error"
+        ],
+        "correctAnswer": "Part B",
+        "explanation": "After a preposition use me: between you and me.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-error-detection-p19",
+        "question": "Find the part of the sentence that has an error.\n(A) He is more  (B) smarter  (C) than his brother.  (D) No error",
+        "options": [
+          "Part A",
+          "Part C",
+          "No error",
+          "Part B"
+        ],
+        "correctAnswer": "Part B",
+        "explanation": "Double comparative: smarter than, or more intelligent than.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Checklist order.",
+      "Fixed pairs.",
+      "Double markers.",
+      "No error possible.",
+      "Real subject."
+    ],
+    "quickFormulas": [
+      "prefer to",
+      "look forward to + -ing"
+    ]
+  },
+  "keyTakeaways": [
+    "Use a checklist.",
+    "Find the real subject.",
+    "Learn pairs.",
+    "Allow No error."
+  ],
+  "selfCheckQuestions": [
+    "Can I spot a double conjunction?",
+    "Can I spot a wrong fixed pair?",
+    "Can I recognise a correct sentence?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Common errors; examples are original."
+    }
+  ]
+}

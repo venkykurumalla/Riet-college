@@ -1,0 +1,426 @@
+{
+  "id": "y2-lr-logical-connectives",
+  "yearId": 2,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 33,
+  "title": "Logical Connectives",
+  "tagline": "Year 2 — And, or, if-then, only if, unless, negation and valid inferences",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Logical connectives are the small words that join statements: and, or, if…then, only if, unless and not. Their meaning is exact. \"P and Q\" is true only when both are true. \"P or Q\" is true when at least one is true. \"If P then Q\" is false only when P is true and Q is false. Understanding these meanings lets you negate statements correctly and draw valid conclusions.",
+    "placementRelevance": "Questions on connectives, negations and conditional statements are commonly asked in company reasoning rounds, in the form of \"which of the following follows\" or \"which is the negation\".",
+    "realWorldContext": "Programming conditions, legal clauses and search queries (AND, OR, NOT) all follow these rules."
+  },
+  "learningObjectives": [
+    "Know the truth conditions of and, or, if-then, only-if and unless",
+    "Form the negation of compound statements (De Morgan's laws)",
+    "Write the converse and contrapositive of a conditional",
+    "Draw valid inferences (modus ponens, modus tollens, chain)",
+    "Recognise common fallacies"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Syllogisms",
+      "Statements and Conclusions"
+    ],
+    "quickRefresher": "A statement is true or false. The negation of a true statement is false and vice versa."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Conjunction \"P and Q\": true only if both are true. Disjunction \"P or Q\": true if at least one is true (inclusive).",
+      "Conditional \"If P then Q\": false only when P is true and Q is false. P is the antecedent and Q the consequent.",
+      "Converse: If Q then P. Contrapositive: If not Q then not P. A conditional is equivalent to its contrapositive, not to its converse.",
+      "\"P only if Q\" means \"If P then Q\". \"Unless P, Q\" means \"If not P, then Q\".",
+      "De Morgan's laws: not (P and Q) = (not P) or (not Q); not (P or Q) = (not P) and (not Q)."
+    ],
+    "theoreticalIntuition": "A conditional is a promise: \"If it rains, the match is cancelled.\" The promise is broken only when it rains and the match is not cancelled. If it does not rain, the promise says nothing. This is why the converse is not equivalent.",
+    "visualOrMentalModel": "Rewrite every statement in the form \"if … then …\". Then use the contrapositive for reverse reasoning and the chain rule for two conditionals."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Negation of and/or",
+      "formula": "not (P and Q) = not P or not Q;  not (P or Q) = not P and not Q",
+      "description": "De Morgan's laws.",
+      "whenToUse": "Negating compound statements.",
+      "simpleExample": "Not (raining and cold) = not raining or not cold"
+    },
+    {
+      "title": "Negation of quantifiers",
+      "formula": "not (All A are B) = Some A are not B;  not (Some A are B) = No A is B",
+      "description": "Switch the quantifier.",
+      "whenToUse": "Negating All/Some.",
+      "simpleExample": "Not all birds fly = some birds do not fly"
+    },
+    {
+      "title": "Conditional forms",
+      "formula": "If P then Q ≡ If not Q then not P;  not equivalent to If Q then P",
+      "description": "Contrapositive.",
+      "whenToUse": "Conditional questions.",
+      "simpleExample": "Contrapositive of \"if even then x² even\""
+    },
+    {
+      "title": "Only if and unless",
+      "formula": "P only if Q ≡ If P then Q;  Unless P, Q ≡ If not P then Q",
+      "description": "Translate to if-then.",
+      "whenToUse": "Words only-if and unless.",
+      "simpleExample": "Unless you study, you fail = if you do not study, you fail"
+    },
+    {
+      "title": "Valid inferences",
+      "formula": "P→Q, P ⊢ Q (modus ponens);  P→Q, not Q ⊢ not P (modus tollens);  P→Q, Q→R ⊢ P→R",
+      "description": "Rules of deduction.",
+      "whenToUse": "Drawing conclusions.",
+      "simpleExample": "Rain → cancelled; not cancelled → no rain"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Start by understanding when each compound statement is true. \"P and Q\" requires both. \"P or Q\" is true if at least one is true. \"If P then Q\" is false only if P is true and Q is false; in particular a false antecedent makes it true, so \"If 2 + 2 = 5, then the moon is made of cheese\" is true.",
+      "To negate a compound statement, use De Morgan's laws. The negation of \"It is raining and cold\" is \"It is not raining or it is not cold\". The negation of \"All birds fly\" is \"Some birds do not fly\", and the negation of \"Some students are absent\" is \"No student is absent\".",
+      "For conditionals, the contrapositive is equivalent to the original: \"If x is even then x² is even\" has the contrapositive \"If x² is not even then x is not even\". The converse (\"If x² is even then x is even\") may or may not be true and must be checked separately.",
+      "Translate special words. \"I will go only if it does not rain\" means \"If I go, it does not rain\". \"Unless you study, you will fail\" means \"If you do not study, you will fail\".",
+      "Valid inferences: from \"If it rains the match is cancelled\" and \"It rained\" conclude it was cancelled; from the same statement and \"It was not cancelled\" conclude it did not rain. From \"If the ground is wet it rained\" the fact that the ground is wet does not prove it rained: that is the fallacy of affirming the consequent."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Inclusive and exclusive or",
+        "content": "In logic, \"or\" is inclusive: both may be true. \"Either P or Q but not both\" is exclusive."
+      },
+      {
+        "title": "Why a false antecedent makes a conditional true",
+        "content": "The promise \"if P then Q\" has not been broken if P did not happen. So it counts as true by default."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Negation of compounds",
+      "description": "De Morgan.",
+      "exampleSnippet": "Raining and cold"
+    },
+    {
+      "typeName": "Negation of quantified statements",
+      "description": "Switch All and Some.",
+      "exampleSnippet": "All birds fly"
+    },
+    {
+      "typeName": "Contrapositive and converse",
+      "description": "Equivalent or not.",
+      "exampleSnippet": "If even then x² even"
+    },
+    {
+      "typeName": "Only if and unless",
+      "description": "Translate.",
+      "exampleSnippet": "Unless you study"
+    },
+    {
+      "typeName": "Inference and fallacy",
+      "description": "Valid or not.",
+      "exampleSnippet": "Wet ground"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-logical-connectives-1",
+      "title": "De Morgan",
+      "question": "What is the negation of \"It is raining and it is cold\"?",
+      "givenInfo": [
+        "P and Q"
+      ],
+      "conceptOrFormula": "not (P and Q) = not P or not Q.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Apply the law",
+          "explanation": "Negate each part and change and to or."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Result",
+          "explanation": "It is not raining or it is not cold."
+        }
+      ],
+      "finalAnswer": "It is not raining or it is not cold",
+      "whyItWorks": "The original fails if either part fails.",
+      "commonTrap": "Writing \"not raining and not cold\".",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-logical-connectives-2",
+      "title": "Contrapositive",
+      "question": "Every day it rains the match is cancelled. The match was not cancelled. What follows?",
+      "givenInfo": [
+        "If rain then cancelled",
+        "Not cancelled"
+      ],
+      "conceptOrFormula": "Modus tollens.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Contrapositive",
+          "explanation": "If not cancelled, then no rain."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply",
+          "explanation": "The match was not cancelled, so it did not rain."
+        }
+      ],
+      "finalAnswer": "It did not rain",
+      "whyItWorks": "A conditional is equivalent to its contrapositive.",
+      "commonTrap": "Concluding anything from the converse.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-logical-connectives-3",
+      "title": "Only if and unless",
+      "question": "Rewrite \"I will go only if it does not rain\" and \"Unless you study, you will fail\" as if-then statements.",
+      "givenInfo": [
+        "Two sentences"
+      ],
+      "conceptOrFormula": "Translate special words.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Only if",
+          "explanation": "\"P only if Q\" means If P then Q: If I go, then it does not rain."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Unless",
+          "explanation": "\"Unless P, Q\" means If not P then Q: If you do not study, you will fail."
+        }
+      ],
+      "finalAnswer": "If I go, it does not rain; if you do not study, you will fail",
+      "whyItWorks": "The connective words have exact meanings.",
+      "commonTrap": "Reversing the direction of only if.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Translate and contrapose",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reason from the English wording.",
+      "shortcutMethod": "Rewrite as if-then, use the contrapositive to reason backwards, and apply De Morgan to negations."
+    },
+    "rulesForApplication": [
+      "Only if = if-then.",
+      "Unless = if not.",
+      "Negate and ↔ or.",
+      "Never swap the direction of a conditional."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Confusing converse and contrapositive",
+      "whyItHappens": "Treating \"if Q then P\" as equivalent.",
+      "howToAvoid": "Use the contrapositive."
+    },
+    {
+      "mistake": "Wrong negation of and/or",
+      "whyItHappens": "Keeping and as and.",
+      "howToAvoid": "Change the connective."
+    },
+    {
+      "mistake": "Affirming the consequent",
+      "whyItHappens": "Concluding P from Q.",
+      "howToAvoid": "It is invalid."
+    },
+    {
+      "mistake": "Misreading only if",
+      "whyItHappens": "Reversing the direction.",
+      "howToAvoid": "Only if gives if-then."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 50,
+    "eliminationTechnique": "Reject answers that use the converse or affirm the consequent.",
+    "questionSelectionAdvice": "Translate each sentence to if-then.",
+    "recruiterInsight": "Truth-table thinking settles doubtful cases."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-logical-connectives-e1",
+        "question": "The negation of \"It is raining and it is cold\" is",
+        "options": [
+          "It is not raining and it is not cold",
+          "It is not raining or it is not cold",
+          "It is raining or it is cold",
+          "It is raining and it is not cold"
+        ],
+        "correctAnswer": "It is not raining or it is not cold",
+        "explanation": "By De Morgan's law: not (P and Q) = not P or not Q.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-logical-connectives-e2",
+        "question": "The negation of \"All birds can fly\" is",
+        "options": [
+          "Some birds cannot fly",
+          "No bird can fly",
+          "All birds cannot fly",
+          "Some birds can fly"
+        ],
+        "correctAnswer": "Some birds cannot fly",
+        "explanation": "The negation of \"All\" is \"Some … not\".",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-logical-connectives-e3",
+        "question": "If P then Q is true and P is true. Then",
+        "options": [
+          "Q is false",
+          "Nothing can be said about Q",
+          "P is false",
+          "Q is true"
+        ],
+        "correctAnswer": "Q is true",
+        "explanation": "Modus ponens: from P → Q and P we get Q.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-logical-connectives-i7",
+        "question": "The contrapositive of \"If x is even, then x² is even\" is",
+        "options": [
+          "If x² is not even, then x is not even",
+          "If x² is even, then x is even",
+          "If x is not even, then x² is not even",
+          "If x is even, then x² is not even"
+        ],
+        "correctAnswer": "If x² is not even, then x is not even",
+        "explanation": "Contrapositive: If not Q then not P.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-logical-connectives-i8",
+        "question": "\"I will go only if it does not rain\" means",
+        "options": [
+          "If it does not rain, I will go",
+          "If I do not go, it rains",
+          "I will go if it rains",
+          "If I go, then it does not rain"
+        ],
+        "correctAnswer": "If I go, then it does not rain",
+        "explanation": "\"P only if Q\" means If P then Q.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-logical-connectives-i9",
+        "question": "\"Unless you study, you will fail\" is equivalent to",
+        "options": [
+          "If you study, you will fail",
+          "If you fail, you did not study",
+          "If you study, you will pass",
+          "If you do not study, you will fail"
+        ],
+        "correctAnswer": "If you do not study, you will fail",
+        "explanation": "\"Unless P, Q\" means If not P then Q.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-logical-connectives-a15",
+        "question": "If it rains, the ground is wet. The ground is wet. Therefore it rained. This reasoning is",
+        "options": [
+          "valid (modus ponens)",
+          "valid (modus tollens)",
+          "invalid (affirming the consequent)",
+          "valid (contrapositive)"
+        ],
+        "correctAnswer": "invalid (affirming the consequent)",
+        "explanation": "The ground may be wet for another reason. Q does not imply P.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-logical-connectives-a16",
+        "question": "The negation of \"If P then Q\" is",
+        "options": [
+          "not P and Q",
+          "P and not Q",
+          "not P or Q",
+          "If not P then not Q"
+        ],
+        "correctAnswer": "P and not Q",
+        "explanation": "A conditional is false only when P is true and Q is false.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-logical-connectives-p17",
+        "question": "A is true only if B is true. B is false. Then",
+        "options": [
+          "A is true",
+          "A is false",
+          "A may be true or false",
+          "B is true"
+        ],
+        "correctAnswer": "A is false",
+        "explanation": "A → B and not B give not A.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-logical-connectives-p18",
+        "question": "\"Neither Ravi nor Meena passed\" means",
+        "options": [
+          "Ravi did not pass and Meena did not pass",
+          "Ravi did not pass or Meena did not pass",
+          "Ravi passed or Meena passed",
+          "Only one of them passed"
+        ],
+        "correctAnswer": "Ravi did not pass and Meena did not pass",
+        "explanation": "Neither means both failed.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-logical-connectives-p19",
+        "question": "All who study pass. Anil did not pass. Therefore",
+        "options": [
+          "Anil studied",
+          "Anil may have studied",
+          "Everyone who did not study failed",
+          "Anil did not study"
+        ],
+        "correctAnswer": "Anil did not study",
+        "explanation": "Contrapositive: if not pass, then not study.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "De Morgan.",
+      "Contrapositive.",
+      "Only if, unless.",
+      "Modus ponens and tollens.",
+      "Fallacies."
+    ],
+    "quickFormulas": [
+      "not(P and Q) = not P or not Q",
+      "P→Q ≡ not Q → not P"
+    ]
+  },
+  "keyTakeaways": [
+    "Know the meanings.",
+    "Negate correctly.",
+    "Use the contrapositive.",
+    "Avoid fallacies."
+  ],
+  "selfCheckQuestions": [
+    "Can I negate \"all birds fly\"?",
+    "Can I write the contrapositive?",
+    "Can I spot affirming the consequent?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Logical deduction topic area; examples are original."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-verbal-sentence-improvement",
+  "topicTitle": "Sentence Improvement",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nShe [don't like] tea.",
+      "options": [
+        "do not likes",
+        "doesn't like",
+        "don't likes",
+        "No improvement"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subject she is third person singular, so doesn't like."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nThey [was playing] football.",
+      "options": [
+        "were playing",
+        "are play",
+        "is playing",
+        "No improvement"
+      ],
+      "answerIndex": 0,
+      "explanation": "The plural subject they needs were."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nHe is [more taller] than me.",
+      "options": [
+        "most taller",
+        "tallest",
+        "No improvement",
+        "taller"
+      ],
+      "answerIndex": 3,
+      "explanation": "A double comparative is wrong; taller than."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nI [has] a car.",
+      "options": [
+        "having",
+        "had have",
+        "have",
+        "No improvement"
+      ],
+      "answerIndex": 2,
+      "explanation": "The subject I takes have."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nThe sun [rise] in the east.",
+      "options": [
+        "rising",
+        "rose",
+        "rises",
+        "No improvement"
+      ],
+      "answerIndex": 2,
+      "explanation": "A universal truth takes the simple present, third person singular: rises."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nShe is good [in] maths.",
+      "options": [
+        "on",
+        "at",
+        "with",
+        "No improvement"
+      ],
+      "answerIndex": 1,
+      "explanation": "Good at is the fixed pair for a skill."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nI look forward [to meet] you soon.",
+      "options": [
+        "to meeting",
+        "for meeting",
+        "to meets",
+        "No improvement"
+      ],
+      "answerIndex": 0,
+      "explanation": "In look forward to, to is a preposition followed by -ing."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nIf he [would have] time, he would come.",
+      "options": [
+        "has",
+        "will have",
+        "No improvement",
+        "had"
+      ],
+      "answerIndex": 3,
+      "explanation": "Type 2 conditional: if + past."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nShe [said me] that she was late.",
+      "options": [
+        "told to me",
+        "said to",
+        "No improvement",
+        "told me"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tell takes a direct object: told me."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nNeither of them [are] ready.",
+      "options": [
+        "were",
+        "have been",
+        "is",
+        "No improvement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Neither is singular."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nI have been living here [since five years].",
+      "options": [
+        "from five years",
+        "for five years",
+        "five years ago",
+        "No improvement"
+      ],
+      "answerIndex": 1,
+      "explanation": "For is used with a length of time."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nHe is [the best of the two] brothers.",
+      "options": [
+        "the better of the two",
+        "best of two",
+        "better than two",
+        "No improvement"
+      ],
+      "answerIndex": 0,
+      "explanation": "Two items take the comparative."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nThe cost of the repairs [have] increased.",
+      "options": [
+        "has",
+        "are",
+        "were",
+        "No improvement"
+      ],
+      "answerIndex": 0,
+      "explanation": "The subject cost is singular."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nThe reason is [because] he was late.",
+      "options": [
+        "for",
+        "since",
+        "No improvement",
+        "that"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"The reason is because\" is redundant; use that."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nHe [did not came] yesterday.",
+      "options": [
+        "did not comes",
+        "has not come",
+        "did not come",
+        "No improvement"
+      ],
+      "answerIndex": 2,
+      "explanation": "After did not, the base form is used."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nNo sooner had she left [when] it rained.",
+      "options": [
+        "that",
+        "than",
+        "then",
+        "No improvement"
+      ],
+      "answerIndex": 1,
+      "explanation": "No sooner takes than."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nOne of my friends [are] a doctor.",
+      "options": [
+        "were",
+        "is",
+        "have been",
+        "No improvement"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subject is one, which is singular."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nI wish I [was] taller.",
+      "options": [
+        "were",
+        "am",
+        "will be",
+        "No improvement"
+      ],
+      "answerIndex": 0,
+      "explanation": "An unreal wish takes were."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nThe teacher, along with his students, [were] present.",
+      "options": [
+        "are",
+        "have been",
+        "No improvement",
+        "was"
+      ],
+      "answerIndex": 3,
+      "explanation": "The verb agrees with the teacher, so was."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nHardly had he reached [than] the train left.",
+      "options": [
+        "then",
+        "that",
+        "when",
+        "No improvement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hardly takes when."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/spotting-errors/"
+}

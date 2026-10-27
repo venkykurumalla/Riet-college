@@ -1,0 +1,425 @@
+{
+  "id": "y2-verbal-adv-tenses",
+  "yearId": 2,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 35,
+  "title": "Advanced Tenses",
+  "tagline": "Year 2 — Perfect and continuous forms, conditionals, reported speech and \"wish\" sentences",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Year 1 covered the twelve tenses and their basic use. Year 2 deals with how tenses work together in a sentence: sequence of tenses, conditionals (if-sentences), reported speech, sentences with wish, \"it is high time\" and \"would rather\", and structures such as hardly…when and no sooner…than. These patterns are the favourite targets of fill-in-the-blank and error-spotting questions.",
+    "placementRelevance": "Advanced tense and conditional questions are commonly asked in the verbal ability section of company aptitude rounds, in fill-in-the-blank and error-spotting formats.",
+    "realWorldContext": "Reports, minutes of meetings and emails depend on correct tenses in reported speech and in conditional statements (\"if we had started earlier, we would have finished\")."
+  },
+  "learningObjectives": [
+    "Use all three types of conditional sentences correctly",
+    "Change direct speech into reported speech with correct tense shifts",
+    "Use wish, would rather, it is high time and as if correctly",
+    "Use past perfect and future perfect forms for sequence and completion",
+    "Handle hardly/scarcely…when and no sooner…than"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Tenses",
+      "Subject-Verb Agreement"
+    ],
+    "quickRefresher": "Perfect = has/have/had + V3. Continuous = be + V-ing. Perfect continuous = has/have/had been + V-ing. Time words guide the choice (since, for, by the time, before)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Conditional type 1 (real future): If + present, will + base verb. Type 2 (unreal present): If + past, would + base verb. Type 3 (unreal past): If + past perfect, would have + V3.",
+      "Reported speech: the speaker's words reported by someone else; verbs usually move one tense back after a past reporting verb.",
+      "Sequence of tenses: the tense of the subordinate clause is linked to the tense of the main clause.",
+      "Subjunctive: the base form used after verbs like suggest, insist, demand (\"He suggested that she see a doctor\").",
+      "Inversion with hardly/scarcely/no sooner: \"Hardly had he reached when…\", \"No sooner had she left than…\"."
+    ],
+    "theoreticalIntuition": "English tenses express not only time but also reality. The simple past in \"If I were rich\" does not talk about the past; it signals that the situation is unreal. Each pattern has a fixed set of tense choices, so learning the patterns is more effective than reasoning from meaning alone.",
+    "visualOrMentalModel": "For an if-sentence, ask: is the situation real (type 1), unreal now (type 2), or unreal in the past (type 3)? Then use the matching pair: present/will, past/would, past perfect/would have."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Conditionals",
+      "formula": "Type 1: If + present, will + V1.  Type 2: If + past (were), would + V1.  Type 3: If + had + V3, would have + V3",
+      "description": "Pick the type by the reality of the situation.",
+      "whenToUse": "If-sentences.",
+      "simpleExample": "If it rains, we will cancel; If I were rich, I would travel; If I had known, I would have told"
+    },
+    {
+      "title": "Reported speech",
+      "formula": "Present → past; past → past perfect; will → would; tomorrow → the next day; yesterday → the previous day",
+      "description": "After a past reporting verb.",
+      "whenToUse": "Direct to indirect.",
+      "simpleExample": "\"I am busy\" → He said that he was busy"
+    },
+    {
+      "title": "Wish and would rather",
+      "formula": "I wish + past (present wish); I wish + had + V3 (past regret); would rather + subject + past",
+      "description": "Past forms for unreal wishes.",
+      "whenToUse": "Wish sentences.",
+      "simpleExample": "I wish I knew; I would rather you stayed"
+    },
+    {
+      "title": "Hardly/no sooner",
+      "formula": "Hardly had + S + V3 + when …;  No sooner had + S + V3 + than …",
+      "description": "Inversion with had.",
+      "whenToUse": "Structure questions.",
+      "simpleExample": "No sooner had he left than it rained"
+    },
+    {
+      "title": "Completion by a time",
+      "formula": "By + future time → future perfect;  By the time + past → past perfect",
+      "description": "Completion before a time.",
+      "whenToUse": "By questions.",
+      "simpleExample": "By 2030 we will have completed the project"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Conditionals depend on how real the situation is. If it rains tomorrow, we will cancel the trip (real future: present + will). If I were rich, I would travel the world (unreal present: past + would; use were for all subjects). If she had worked harder, she would have passed (unreal past: past perfect + would have).",
+      "In reported speech, the verb moves one step back after a past reporting verb. \"I am busy\" becomes \"He said that he was busy\". \"I will come tomorrow\" becomes \"He said that he would come the next day\". Time words change too: yesterday becomes the previous day.",
+      "After wish, use a past form for an unreal present: I wish I knew the answer. Use the past perfect for a past regret: I wish I had known. After \"would rather\" with a different subject use the past: I would rather you stayed here tomorrow. After \"it is high time\", use the past: It is high time we left.",
+      "For sequences, hardly and no sooner take the past perfect and inversion: Hardly had he reached when it started to rain; No sooner had she left than it rained. Notice when after hardly and than after no sooner.",
+      "By + a future time takes the future perfect: By 2030 we will have completed the project. By the time you arrive, I will have cooked dinner. After verbs of suggestion, use the base form: He suggested that she see a doctor."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Mixed conditionals",
+        "content": "A past cause with a present result: If I had studied medicine, I would be a doctor now. Use past perfect in the if-clause and would + base in the main clause."
+      },
+      {
+        "title": "Were for all subjects",
+        "content": "In formal English, type 2 uses were for all subjects: If he were here. \"Was\" is common in speech but \"were\" is the exam answer."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Conditionals",
+      "description": "Types 1, 2 and 3.",
+      "exampleSnippet": "If I ___ rich"
+    },
+    {
+      "typeName": "Reported speech",
+      "description": "Tense shift.",
+      "exampleSnippet": "He said that he ___ busy"
+    },
+    {
+      "typeName": "Wish and would rather",
+      "description": "Unreal wishes.",
+      "exampleSnippet": "I wish I ___"
+    },
+    {
+      "typeName": "Inversion structures",
+      "description": "Hardly, no sooner.",
+      "exampleSnippet": "Hardly ___ he reached"
+    },
+    {
+      "typeName": "Completion by a time",
+      "description": "Future perfect.",
+      "exampleSnippet": "By 2030 we ___"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-verbal-adv-tenses-1",
+      "title": "Conditionals",
+      "question": "Choose the correct form: \"If I ___ the answer, I would have told you.\" (knew / had known / know / would know)",
+      "givenInfo": [
+        "Main clause: would have told (type 3)"
+      ],
+      "conceptOrFormula": "Type 3 uses past perfect in the if-clause.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Identify the type",
+          "explanation": "\"Would have told\" signals an unreal past."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose the if-clause",
+          "explanation": "If + had + V3: had known."
+        }
+      ],
+      "finalAnswer": "had known",
+      "whyItWorks": "Unreal past → past perfect.",
+      "commonTrap": "Using the simple past (knew).",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-verbal-adv-tenses-2",
+      "title": "Reported speech",
+      "question": "Report: He said, \"I will come tomorrow.\"",
+      "givenInfo": [
+        "Direct speech"
+      ],
+      "conceptOrFormula": "Shift will → would, tomorrow → the next day.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pronoun and tense",
+          "explanation": "I → he; will → would."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Time word",
+          "explanation": "tomorrow → the next day."
+        }
+      ],
+      "finalAnswer": "He said that he would come the next day.",
+      "whyItWorks": "The reporting verb is in the past.",
+      "commonTrap": "Keeping \"will\" and \"tomorrow\".",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-verbal-adv-tenses-3",
+      "title": "Hardly … when",
+      "question": "Complete: \"Hardly ___ he reached the station when the train left.\" (has / had / did / was)",
+      "givenInfo": [
+        "Hardly … when"
+      ],
+      "conceptOrFormula": "Past perfect with inversion.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pattern",
+          "explanation": "Hardly + had + subject + V3 + when."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose",
+          "explanation": "had."
+        }
+      ],
+      "finalAnswer": "had",
+      "whyItWorks": "The first action is completed before the second.",
+      "commonTrap": "Using did.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Pattern pairs",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reason from meaning each time.",
+      "shortcutMethod": "Memorise the pairs: present/will; past/would; past perfect/would have; hardly had … when; no sooner had … than; wish + past."
+    },
+    "rulesForApplication": [
+      "Type 2: were for all subjects.",
+      "Reported speech shifts back one tense.",
+      "Hardly … when; no sooner … than.",
+      "Suggest that + base form."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using would in the if-clause",
+      "whyItHappens": "If I would know…",
+      "howToAvoid": "The if-clause never takes would in these types."
+    },
+    {
+      "mistake": "Wrong word after no sooner",
+      "whyItHappens": "No sooner … when.",
+      "howToAvoid": "Use than."
+    },
+    {
+      "mistake": "Not shifting time words",
+      "whyItHappens": "Keeping tomorrow.",
+      "howToAvoid": "Change to the next day."
+    },
+    {
+      "mistake": "Wish with present tense",
+      "whyItHappens": "I wish I know.",
+      "howToAvoid": "Use the past: knew."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 25,
+    "eliminationTechnique": "Check which conditional the main clause shows and match the if-clause.",
+    "questionSelectionAdvice": "Learn the patterns by heart.",
+    "recruiterInsight": "These items are very predictable."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-verbal-adv-tenses-e1",
+        "question": "Choose the correct form: \"If I ___ rich, I would travel the world.\"",
+        "options": [
+          "am",
+          "were",
+          "will be",
+          "would be"
+        ],
+        "correctAnswer": "were",
+        "explanation": "Type 2 (unreal present): If + past (were), would + base verb.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-adv-tenses-e2",
+        "question": "Choose the correct form: \"She said that she ___ the work the previous day.\"",
+        "options": [
+          "had finished",
+          "finishes",
+          "has finished",
+          "will finish"
+        ],
+        "correctAnswer": "had finished",
+        "explanation": "In reported speech, the past moves back to the past perfect.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-adv-tenses-e3",
+        "question": "Choose the correct form: \"By 2030, we ___ the project.\"",
+        "options": [
+          "will complete",
+          "have completed",
+          "completed",
+          "will have completed"
+        ],
+        "correctAnswer": "will have completed",
+        "explanation": "\"By\" a future time takes the future perfect.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-verbal-adv-tenses-i7",
+        "question": "Choose the correct form: \"If it ___ tomorrow, we will cancel the trip.\"",
+        "options": [
+          "rains",
+          "will rain",
+          "rained",
+          "would rain"
+        ],
+        "correctAnswer": "rains",
+        "explanation": "Type 1: the if-clause takes the simple present.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-adv-tenses-i8",
+        "question": "Choose the correct form: \"If I had known, I ___ you.\"",
+        "options": [
+          "would tell",
+          "told",
+          "will tell",
+          "would have told"
+        ],
+        "correctAnswer": "would have told",
+        "explanation": "Type 3: if + past perfect, would have + V3.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-adv-tenses-i9",
+        "question": "Choose the correct form: \"She asked me where I ___.\"",
+        "options": [
+          "do live",
+          "live",
+          "did live",
+          "lived"
+        ],
+        "correctAnswer": "lived",
+        "explanation": "In a reported question the verb moves back: lived.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-verbal-adv-tenses-a15",
+        "question": "Choose the correct form: \"If she ___ harder, she would have passed.\"",
+        "options": [
+          "worked",
+          "would work",
+          "had worked",
+          "has worked"
+        ],
+        "correctAnswer": "had worked",
+        "explanation": "Type 3: if + past perfect.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-adv-tenses-a16",
+        "question": "Choose the correct form: \"He suggested that she ___ a doctor.\"",
+        "options": [
+          "sees",
+          "see",
+          "saw",
+          "will see"
+        ],
+        "correctAnswer": "see",
+        "explanation": "After suggest that, the base form (subjunctive) is used.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-verbal-adv-tenses-p17",
+        "question": "Choose the correct form: \"It is high time we ___ now.\"",
+        "options": [
+          "leave",
+          "left",
+          "will leave",
+          "had left"
+        ],
+        "correctAnswer": "left",
+        "explanation": "After \"it is high time\", the past form is used: left.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-adv-tenses-p18",
+        "question": "Choose the correct form: \"I would rather you ___ here tomorrow.\"",
+        "options": [
+          "stayed",
+          "stay",
+          "will stay",
+          "staying"
+        ],
+        "correctAnswer": "stayed",
+        "explanation": "After \"would rather\" with a different subject, use the past: stayed.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-adv-tenses-p19",
+        "question": "Report: He said, \"I will come tomorrow.\" He said that he ___ the next day.",
+        "options": [
+          "will come",
+          "comes",
+          "came",
+          "would come"
+        ],
+        "correctAnswer": "would come",
+        "explanation": "Will becomes would, and tomorrow becomes the next day.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Three conditionals.",
+      "Reported speech shifts.",
+      "Wish + past.",
+      "Hardly had … when.",
+      "By + future → future perfect."
+    ],
+    "quickFormulas": [
+      "If + had V3, would have V3",
+      "No sooner had … than"
+    ]
+  },
+  "keyTakeaways": [
+    "Patterns.",
+    "Reality decides tense.",
+    "Shift in reporting.",
+    "Inversion rules."
+  ],
+  "selfCheckQuestions": [
+    "Can I complete a type 3 conditional?",
+    "Can I report a statement?",
+    "Can I use wish correctly?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Tenses, conditionals and reported speech; examples are original."
+    }
+  ]
+}

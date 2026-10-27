@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-verbal-error-detection",
+  "topicTitle": "Error Detection",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Find the part of the sentence that has an error.\n(A) He go  (B) to school  (C) every day.  (D) No error",
+      "options": [
+        "Part B",
+        "Part A",
+        "Part C",
+        "No error"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"He\" is third person singular, so the verb should be goes."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Find the part of the sentence that has an error.\n(A) The children  (B) is playing  (C) in the garden.  (D) No error",
+      "options": [
+        "Part B",
+        "Part A",
+        "Part C",
+        "No error"
+      ],
+      "answerIndex": 0,
+      "explanation": "Children is plural, so are playing."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Find the part of the sentence that has an error.\n(A) She has  (B) a good  (C) knowledges.  (D) No error",
+      "options": [
+        "Part A",
+        "Part B",
+        "No error",
+        "Part C"
+      ],
+      "answerIndex": 3,
+      "explanation": "Knowledge is uncountable and has no plural form."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Find the part of the sentence that has an error.\n(A) I am  (B) agree with  (C) your opinion.  (D) No error",
+      "options": [
+        "Part A",
+        "Part C",
+        "Part B",
+        "No error"
+      ],
+      "answerIndex": 2,
+      "explanation": "Agree is a verb; \"am agree\" should be \"agree\"."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Find the part of the sentence that has an error.\n(A) Each of the boys  (B) have  (C) a bicycle.  (D) No error",
+      "options": [
+        "Part A",
+        "Part C",
+        "Part B",
+        "No error"
+      ],
+      "answerIndex": 2,
+      "explanation": "Each is singular, so has."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Find the part of the sentence that has an error.\n(A) He is  (B) senior than  (C) me.  (D) No error",
+      "options": [
+        "Part A",
+        "Part B",
+        "Part C",
+        "No error"
+      ],
+      "answerIndex": 1,
+      "explanation": "Senior is followed by to: senior to me."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Find the part of the sentence that has an error.\n(A) Neither of the two  (B) answers are  (C) correct.  (D) No error",
+      "options": [
+        "Part B",
+        "Part A",
+        "Part C",
+        "No error"
+      ],
+      "answerIndex": 0,
+      "explanation": "Neither is singular, so the verb should be is."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Find the part of the sentence that has an error.\n(A) Hardly had he arrived  (B) when the  (C) train left.  (D) No error",
+      "options": [
+        "Part A",
+        "Part B",
+        "Part C",
+        "No error"
+      ],
+      "answerIndex": 3,
+      "explanation": "The sentence is correct: Hardly had … when."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Find the part of the sentence that has an error.\n(A) I look forward  (B) to meet  (C) you soon.  (D) No error",
+      "options": [
+        "Part A",
+        "Part C",
+        "No error",
+        "Part B"
+      ],
+      "answerIndex": 3,
+      "explanation": "After look forward to, use -ing: meeting."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Find the part of the sentence that has an error.\n(A) She prefers  (B) tea than  (C) coffee.  (D) No error",
+      "options": [
+        "Part A",
+        "Part C",
+        "Part B",
+        "No error"
+      ],
+      "answerIndex": 2,
+      "explanation": "Prefer takes to, not than."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Find the part of the sentence that has an error.\n(A) The news  (B) were  (C) shocking.  (D) No error",
+      "options": [
+        "Part A",
+        "Part B",
+        "Part C",
+        "No error"
+      ],
+      "answerIndex": 1,
+      "explanation": "News is uncountable and singular: was."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Find the part of the sentence that has an error.\n(A) Although it rained,  (B) but we  (C) went out.  (D) No error",
+      "options": [
+        "Part B",
+        "Part A",
+        "Part C",
+        "No error"
+      ],
+      "answerIndex": 0,
+      "explanation": "Although and but should not be used together; remove but."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Find the part of the sentence that has an error.\n(A) He asked me  (B) that where  (C) I lived.  (D) No error",
+      "options": [
+        "Part B",
+        "Part A",
+        "Part C",
+        "No error"
+      ],
+      "answerIndex": 0,
+      "explanation": "A reported question takes no \"that\": where I lived."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Find the part of the sentence that has an error.\n(A) Despite of  (B) the rain,  (C) we went out.  (D) No error",
+      "options": [
+        "Part B",
+        "Part C",
+        "No error",
+        "Part A"
+      ],
+      "answerIndex": 3,
+      "explanation": "Despite is not followed by of: despite the rain, or in spite of the rain."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Find the part of the sentence that has an error.\n(A) If I  (B) would have known,  (C) I would have told you.  (D) No error",
+      "options": [
+        "Part A",
+        "Part C",
+        "Part B",
+        "No error"
+      ],
+      "answerIndex": 2,
+      "explanation": "Type 3 conditional: if I had known."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Find the part of the sentence that has an error.\n(A) The quality of  (B) the products  (C) have improved.  (D) No error",
+      "options": [
+        "Part A",
+        "Part C",
+        "Part B",
+        "No error"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subject quality is singular, so has improved."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Find the part of the sentence that has an error.\n(A) She has been  (B) living here  (C) since 2010.  (D) No error",
+      "options": [
+        "Part A",
+        "No error",
+        "Part B",
+        "Part C"
+      ],
+      "answerIndex": 1,
+      "explanation": "The present perfect continuous with since is correct."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Find the part of the sentence that has an error.\n(A) Between you  (B) and I,  (C) the plan is risky.  (D) No error",
+      "options": [
+        "Part B",
+        "Part A",
+        "Part C",
+        "No error"
+      ],
+      "answerIndex": 0,
+      "explanation": "After a preposition use me: between you and me."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Find the part of the sentence that has an error.\n(A) He is more  (B) smarter  (C) than his brother.  (D) No error",
+      "options": [
+        "Part A",
+        "Part C",
+        "No error",
+        "Part B"
+      ],
+      "answerIndex": 3,
+      "explanation": "Double comparative: smarter than, or more intelligent than."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Find the part of the sentence that has an error.\n(A) The teacher  (B) as well as  (C) the students were present.  (D) No error",
+      "options": [
+        "Part A",
+        "Part B",
+        "Part C",
+        "No error"
+      ],
+      "answerIndex": 2,
+      "explanation": "The verb agrees with the first subject (the teacher): was present."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/spotting-errors/"
+}

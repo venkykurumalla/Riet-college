@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-verbal-adv-tenses",
+  "topicTitle": "Advanced Tenses",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the correct form: \"If I ___ rich, I would travel the world.\"",
+      "options": [
+        "am",
+        "were",
+        "will be",
+        "would be"
+      ],
+      "answerIndex": 1,
+      "explanation": "Type 2 (unreal present): If + past (were), would + base verb."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the correct form: \"She said that she ___ the work the previous day.\"",
+      "options": [
+        "had finished",
+        "finishes",
+        "has finished",
+        "will finish"
+      ],
+      "answerIndex": 0,
+      "explanation": "In reported speech, the past moves back to the past perfect."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Choose the correct form: \"By 2030, we ___ the project.\"",
+      "options": [
+        "will complete",
+        "have completed",
+        "completed",
+        "will have completed"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"By\" a future time takes the future perfect."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the correct word: \"I have been working here ___ 2019.\"",
+      "options": [
+        "for",
+        "from",
+        "since",
+        "by"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Since\" is used with a starting point of time."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the correct form: \"Hardly ___ he reached when it started to rain.\"",
+      "options": [
+        "has",
+        "did",
+        "had",
+        "was"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hardly is followed by the past perfect: Hardly had he reached when…"
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the correct form: \"The train ___ before we reached the station.\"",
+      "options": [
+        "left",
+        "had left",
+        "has left",
+        "leaves"
+      ],
+      "answerIndex": 1,
+      "explanation": "Leaving came before reaching, so the past perfect is used."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"If it ___ tomorrow, we will cancel the trip.\"",
+      "options": [
+        "rains",
+        "will rain",
+        "rained",
+        "would rain"
+      ],
+      "answerIndex": 0,
+      "explanation": "Type 1: the if-clause takes the simple present."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"If I had known, I ___ you.\"",
+      "options": [
+        "would tell",
+        "told",
+        "will tell",
+        "would have told"
+      ],
+      "answerIndex": 3,
+      "explanation": "Type 3: if + past perfect, would have + V3."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"She asked me where I ___.\"",
+      "options": [
+        "do live",
+        "live",
+        "did live",
+        "lived"
+      ],
+      "answerIndex": 3,
+      "explanation": "In a reported question the verb moves back: lived."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Report: He said, \"I am busy.\" He said that he ___ busy.",
+      "options": [
+        "is",
+        "be",
+        "was",
+        "will be"
+      ],
+      "answerIndex": 2,
+      "explanation": "Present moves back to past: was."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"I wish I ___ the answer.\"",
+      "options": [
+        "know",
+        "knew",
+        "had known",
+        "will know"
+      ],
+      "answerIndex": 1,
+      "explanation": "For an unreal present wish, use the past: knew."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the correct word: \"No sooner had he left ___ it rained.\"",
+      "options": [
+        "than",
+        "when",
+        "then",
+        "that"
+      ],
+      "answerIndex": 0,
+      "explanation": "No sooner is followed by than."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"By the time you arrive, I ___ dinner.\"",
+      "options": [
+        "will have cooked",
+        "will cook",
+        "cooked",
+        "have cooked"
+      ],
+      "answerIndex": 0,
+      "explanation": "Completion before a future time: future perfect."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"She ___ for two hours when he called.\"",
+      "options": [
+        "was waiting",
+        "has been waiting",
+        "waited",
+        "had been waiting"
+      ],
+      "answerIndex": 3,
+      "explanation": "An action in progress up to a past moment: past perfect continuous."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the correct form: \"If she ___ harder, she would have passed.\"",
+      "options": [
+        "worked",
+        "would work",
+        "had worked",
+        "has worked"
+      ],
+      "answerIndex": 2,
+      "explanation": "Type 3: if + past perfect."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the correct form: \"He suggested that she ___ a doctor.\"",
+      "options": [
+        "sees",
+        "see",
+        "saw",
+        "will see"
+      ],
+      "answerIndex": 1,
+      "explanation": "After suggest that, the base form (subjunctive) is used."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the correct form: \"It is high time we ___ now.\"",
+      "options": [
+        "leave",
+        "left",
+        "will leave",
+        "had left"
+      ],
+      "answerIndex": 1,
+      "explanation": "After \"it is high time\", the past form is used: left."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the correct form: \"I would rather you ___ here tomorrow.\"",
+      "options": [
+        "stayed",
+        "stay",
+        "will stay",
+        "staying"
+      ],
+      "answerIndex": 0,
+      "explanation": "After \"would rather\" with a different subject, use the past: stayed."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Report: He said, \"I will come tomorrow.\" He said that he ___ the next day.",
+      "options": [
+        "will come",
+        "comes",
+        "came",
+        "would come"
+      ],
+      "answerIndex": 3,
+      "explanation": "Will becomes would, and tomorrow becomes the next day."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "I have lived here since five years.",
+        "I live here since five years.",
+        "I have lived here for five years.",
+        "I am living here from five years."
+      ],
+      "answerIndex": 2,
+      "explanation": "\"For\" is used with a length of time, \"since\" with a starting point."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

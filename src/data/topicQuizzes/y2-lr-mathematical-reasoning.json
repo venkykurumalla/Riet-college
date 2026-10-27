@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-mathematical-reasoning",
+  "topicTitle": "Mathematical Reasoning",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "If a ◈ b = a² + b, then 3 ◈ 4 equals",
+      "options": [
+        "14",
+        "13",
+        "11",
+        "18"
+      ],
+      "answerIndex": 1,
+      "explanation": "Substitute a = 3 and b = 4 into the rule. The value is 13."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "If a ◈ b = 2a − b, then 5 ◈ 3 equals",
+      "options": [
+        "7",
+        "8",
+        "5",
+        "12"
+      ],
+      "answerIndex": 0,
+      "explanation": "Substitute a = 5 and b = 3 into the rule. The value is 7."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "If a ◈ b = a × b + a, then 4 ◈ 5 equals",
+      "options": [
+        "25",
+        "22",
+        "29",
+        "24"
+      ],
+      "answerIndex": 3,
+      "explanation": "Substitute a = 4 and b = 5 into the rule. The value is 24."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "If + and × are interchanged, the value of 6 + 3 × 2 is",
+      "options": [
+        "12",
+        "18",
+        "20",
+        "14"
+      ],
+      "answerIndex": 2,
+      "explanation": "After interchange the expression is 6 × 3 + 2 = 20."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "If the numbers 4 and 7 are interchanged, the value of 4 × 3 + 7 is",
+      "options": [
+        "19",
+        "28",
+        "25",
+        "22"
+      ],
+      "answerIndex": 2,
+      "explanation": "The expression becomes 7 × 3 + 4 = 25."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Which pair of signs, in order, fills the blanks so that 8 _ 2 _ 4 = 12?",
+      "options": [
+        "+, +",
+        "×, −",
+        "+, −",
+        "+, ×"
+      ],
+      "answerIndex": 1,
+      "explanation": "Trying the pairs, only ×, − works: 8 × 2 − 4 = 12 (with BODMAS)."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "If a ◈ b = a² − b², then 7 ◈ 3 equals",
+      "options": [
+        "40",
+        "41",
+        "38",
+        "45"
+      ],
+      "answerIndex": 0,
+      "explanation": "Substitute a = 7 and b = 3 into the rule. The value is 40."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "If a ◈ b = a² − b², then (5 ◈ 3) ◈ 2 equals",
+      "options": [
+        "12",
+        "256",
+        "140",
+        "252"
+      ],
+      "answerIndex": 3,
+      "explanation": "First 5 ◈ 3 = 25 − 9 = 16. Then 16 ◈ 2 = 256 − 4 = 252."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "If a ◈ b = 3a − 2b, then 6 ◈ 4 equals",
+      "options": [
+        "12",
+        "8",
+        "14",
+        "10"
+      ],
+      "answerIndex": 3,
+      "explanation": "3 × 6 − 2 × 4 = 18 − 8 = 10."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Which pair of signs, in order, fills the blanks so that 12 _ 4 _ 3 = 9?",
+      "options": [
+        "+, +",
+        "+, −",
+        "÷, ×",
+        "+, ×"
+      ],
+      "answerIndex": 2,
+      "explanation": "Trying the pairs, only ÷, × works: 12 ÷ 4 × 3 = 9 (with BODMAS)."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Which pair of signs, in order, fills the blanks so that 6 _ 2 _ 3 = 15?",
+      "options": [
+        "+, +",
+        "×, +",
+        "+, −",
+        "+, ×"
+      ],
+      "answerIndex": 1,
+      "explanation": "Trying the pairs, only ×, + works: 6 × 2 + 3 = 15 (with BODMAS)."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Which pair of signs, in order, fills the blanks so that 9 _ 3 _ 4 = 7?",
+      "options": [
+        "÷, +",
+        "+, +",
+        "+, −",
+        "+, ×"
+      ],
+      "answerIndex": 0,
+      "explanation": "Trying the pairs, only ÷, + works: 9 ÷ 3 + 4 = 7 (with BODMAS)."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "If P > Q ≥ R = S, which relation is certain?",
+      "options": [
+        "P > S",
+        "P = S",
+        "P < S",
+        "Q = S"
+      ],
+      "answerIndex": 0,
+      "explanation": "P > Q ≥ R and R = S, so P > S."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "If A ≥ B > C and C ≥ D, which relation is certain?",
+      "options": [
+        "A = D",
+        "B = C",
+        "D > A",
+        "A > D"
+      ],
+      "answerIndex": 3,
+      "explanation": "A ≥ B > C ≥ D, so A > D."
+    },
+    {
+      "id": 15,
+      "difficulty": "medium",
+      "question": "If a ◈ b = a + b + ab, then 2 ◈ 3 equals",
+      "options": [
+        "6",
+        "5",
+        "11",
+        "13"
+      ],
+      "answerIndex": 2,
+      "explanation": "2 + 3 + 2 × 3 = 11."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "If a ◈ b = a + b + ab, then 2 ◈ (3 ◈ 4) equals",
+      "options": [
+        "47",
+        "59",
+        "62",
+        "29"
+      ],
+      "answerIndex": 1,
+      "explanation": "First 3 ◈ 4 = 3 + 4 + 12 = 19. Then 2 ◈ 19 = 2 + 19 + 38 = 59."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "If a ◈ b = 3a − 2b and x ◈ 4 = 10, then x equals",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "3x − 8 = 10, so x = 6."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "If P ≥ Q, Q > R and R ≥ S, then which is certain?",
+      "options": [
+        "P > S",
+        "P = S",
+        "S > P",
+        "Q = R"
+      ],
+      "answerIndex": 0,
+      "explanation": "P ≥ Q > R ≥ S gives P > S."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Which pair of signs, in order, fills the blanks so that 15 _ 3 _ 5 = 10?",
+      "options": [
+        "+, +",
+        "+, −",
+        "+, ×",
+        "÷, +"
+      ],
+      "answerIndex": 3,
+      "explanation": "Trying the pairs, only ÷, + works: 15 ÷ 3 + 5 = 10 (with BODMAS)."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "If '+' means '−', '−' means '×', '×' means '÷' and '÷' means '+', then 18 × 3 + 4 − 2 equals",
+      "options": [
+        "2",
+        "10",
+        "-2",
+        "22"
+      ],
+      "answerIndex": 2,
+      "explanation": "The expression becomes 18 ÷ 3 − 4 × 2 = 6 − 8 = -2."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/arithmetic-reasoning/"
+}

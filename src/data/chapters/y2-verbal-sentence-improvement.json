@@ -1,0 +1,425 @@
+{
+  "id": "y2-verbal-sentence-improvement",
+  "yearId": 2,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 37,
+  "title": "Sentence Improvement",
+  "tagline": "Year 2 — Replacing a faulty part of a sentence with the best alternative",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "In a sentence-improvement question, part of the sentence is marked and four alternatives are offered: usually one of them repeats the original (\"No improvement\") and the others are possible replacements. You choose the version that makes the sentence grammatically correct, clear and natural. The skill is similar to error detection, but you must also choose the right correction among close alternatives.",
+    "placementRelevance": "Sentence improvement questions are commonly asked in the verbal ability section of company aptitude rounds, along with error detection and sentence completion.",
+    "realWorldContext": "Editing a draft, rewriting a clumsy sentence and polishing an email use the same judgement."
+  },
+  "learningObjectives": [
+    "Identify the error type in the marked part",
+    "Choose the correction that fits the rest of the sentence",
+    "Recognise when the sentence is already correct",
+    "Keep the meaning unchanged while correcting the grammar",
+    "Avoid introducing new errors"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Error Detection",
+      "Advanced Tenses",
+      "Subject-Verb Agreement"
+    ],
+    "quickRefresher": "Use the same checklist as in error detection: agreement, tense and verb form, preposition, article, pronoun, comparison, conjunction."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Underlined (bracketed) part: the portion that may be replaced.",
+      "No improvement: the option that repeats the original part; correct if the sentence is already right.",
+      "Meaning-preserving correction: the replacement must keep the original meaning.",
+      "Parallel structure: items in a list or comparison should have the same grammatical form.",
+      "Redundancy: needless words that repeat an idea."
+    ],
+    "theoreticalIntuition": "Read the whole sentence first, then read it again with each alternative in place of the bracketed part. The best alternative gives a correct sentence with the same meaning. If the original reads correctly, \"No improvement\" is the answer.",
+    "visualOrMentalModel": "Identify the error type from the bracketed part, think of the correct form, and then look for it among the options. Eliminate options that introduce a new error."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Agreement",
+      "formula": "Subject and verb must match in number",
+      "description": "Check the real subject.",
+      "whenToUse": "Agreement corrections.",
+      "simpleExample": "The cost of the repairs has increased"
+    },
+    {
+      "title": "Verb form",
+      "formula": "did + V1; had + V3; to + V1 / -ing after a preposition",
+      "description": "Base form or participle.",
+      "whenToUse": "Verb corrections.",
+      "simpleExample": "He did not come"
+    },
+    {
+      "title": "Fixed pairs",
+      "formula": "prefer to; good at; senior to; look forward to + -ing",
+      "description": "Learn them.",
+      "whenToUse": "Preposition corrections.",
+      "simpleExample": "good at maths"
+    },
+    {
+      "title": "Comparison",
+      "formula": "Comparative for two, superlative for three or more",
+      "description": "Better of two, best of three.",
+      "whenToUse": "Comparison corrections.",
+      "simpleExample": "the better of the two"
+    },
+    {
+      "title": "Conjunction patterns",
+      "formula": "No sooner … than; hardly … when; the reason is that",
+      "description": "Fixed pairs.",
+      "whenToUse": "Conjunction corrections.",
+      "simpleExample": "No sooner had she left than it rained"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Work out what is wrong with the bracketed part. In \"She [don't like] tea\", the subject she needs doesn't. In \"They [was playing] football\", the plural subject needs were playing.",
+      "Check fixed expressions. \"I look forward [to meet] you\" needs to meeting you. \"She is good [in] maths\" needs at. \"The reason is [because] he was late\" needs that.",
+      "Check comparisons. \"He is the best of the two\" should be \"the better of the two\", since a comparison of two takes the comparative. Double comparatives such as more taller are wrong.",
+      "Check conjunction patterns. \"No sooner had she left [when] it rained\" needs than; \"Hardly had he reached [than] the train left\" needs when.",
+      "If the part is already correct, select \"No improvement\". When two options look correct, choose the one that keeps the original meaning and the simplest grammar."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Do not over-correct",
+        "content": "Some alternatives change the meaning or are stylistically heavier. Choose the minimal correction that fixes the error."
+      },
+      {
+        "title": "Check the full sentence",
+        "content": "A replacement may fix the marked part but clash with another word. Always read the full sentence with your choice."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Agreement fixes",
+      "description": "Subject and verb.",
+      "exampleSnippet": "The cost … have increased"
+    },
+    {
+      "typeName": "Verb-form fixes",
+      "description": "After auxiliaries.",
+      "exampleSnippet": "did not came"
+    },
+    {
+      "typeName": "Preposition fixes",
+      "description": "Fixed pairs.",
+      "exampleSnippet": "good in maths"
+    },
+    {
+      "typeName": "Comparison fixes",
+      "description": "Better/best.",
+      "exampleSnippet": "the best of the two"
+    },
+    {
+      "typeName": "Conjunction fixes",
+      "description": "than/when/that.",
+      "exampleSnippet": "No sooner … when"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-verbal-sentence-improvement-1",
+      "title": "Verb form",
+      "question": "He [did not came] yesterday.",
+      "givenInfo": [
+        "Bracketed: did not came"
+      ],
+      "conceptOrFormula": "After did not, use the base form.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Spot",
+          "explanation": "\"Did not\" already carries the past tense."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Correct",
+          "explanation": "did not come."
+        }
+      ],
+      "finalAnswer": "did not come",
+      "whyItWorks": "The base form follows did.",
+      "commonTrap": "Choosing \"did not comes\".",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-verbal-sentence-improvement-2",
+      "title": "Comparison",
+      "question": "He is [the best of the two] brothers.",
+      "givenInfo": [
+        "Bracketed: the best of the two"
+      ],
+      "conceptOrFormula": "Two items: comparative.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Count",
+          "explanation": "Two brothers are compared."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Correct",
+          "explanation": "the better of the two."
+        }
+      ],
+      "finalAnswer": "the better of the two",
+      "whyItWorks": "The superlative is for three or more.",
+      "commonTrap": "Keeping best.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-verbal-sentence-improvement-3",
+      "title": "Conjunction pair",
+      "question": "No sooner had she left [when] it rained.",
+      "givenInfo": [
+        "Bracketed: when"
+      ],
+      "conceptOrFormula": "No sooner … than.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pattern",
+          "explanation": "No sooner takes than."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Correct",
+          "explanation": "than."
+        }
+      ],
+      "finalAnswer": "than",
+      "whyItWorks": "Hardly takes when, no sooner takes than.",
+      "commonTrap": "Swapping the two.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Name the error, then match",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try each option in the sentence.",
+      "shortcutMethod": "Name the error type, form the correct word yourself, and then find it among the options."
+    },
+    "rulesForApplication": [
+      "Minimal correction.",
+      "Check the whole sentence.",
+      "Allow No improvement.",
+      "Same meaning."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Over-correcting",
+      "whyItHappens": "Changing correct parts.",
+      "howToAvoid": "Choose No improvement when right."
+    },
+    {
+      "mistake": "Introducing a new error",
+      "whyItHappens": "Fixing agreement but breaking tense.",
+      "howToAvoid": "Read the whole sentence."
+    },
+    {
+      "mistake": "Changing the meaning",
+      "whyItHappens": "Choosing a different idea.",
+      "howToAvoid": "Preserve meaning."
+    },
+    {
+      "mistake": "Ignoring fixed pairs",
+      "whyItHappens": "Missing than/when/that.",
+      "howToAvoid": "Learn them."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Eliminate options that repeat the error.",
+    "questionSelectionAdvice": "Name the error before looking at options.",
+    "recruiterInsight": "Close options usually differ in one word."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-verbal-sentence-improvement-e1",
+        "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nShe [don't like] tea.",
+        "options": [
+          "do not likes",
+          "doesn't like",
+          "don't likes",
+          "No improvement"
+        ],
+        "correctAnswer": "doesn't like",
+        "explanation": "The subject she is third person singular, so doesn't like.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-improvement-e2",
+        "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nThey [was playing] football.",
+        "options": [
+          "were playing",
+          "are play",
+          "is playing",
+          "No improvement"
+        ],
+        "correctAnswer": "were playing",
+        "explanation": "The plural subject they needs were.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-improvement-e3",
+        "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nHe is [more taller] than me.",
+        "options": [
+          "most taller",
+          "tallest",
+          "No improvement",
+          "taller"
+        ],
+        "correctAnswer": "taller",
+        "explanation": "A double comparative is wrong; taller than.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-verbal-sentence-improvement-i7",
+        "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nI look forward [to meet] you soon.",
+        "options": [
+          "to meeting",
+          "for meeting",
+          "to meets",
+          "No improvement"
+        ],
+        "correctAnswer": "to meeting",
+        "explanation": "In look forward to, to is a preposition followed by -ing.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-improvement-i8",
+        "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nIf he [would have] time, he would come.",
+        "options": [
+          "has",
+          "will have",
+          "No improvement",
+          "had"
+        ],
+        "correctAnswer": "had",
+        "explanation": "Type 2 conditional: if + past.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-improvement-i9",
+        "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nShe [said me] that she was late.",
+        "options": [
+          "told to me",
+          "said to",
+          "No improvement",
+          "told me"
+        ],
+        "correctAnswer": "told me",
+        "explanation": "Tell takes a direct object: told me.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-verbal-sentence-improvement-a15",
+        "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nHe [did not came] yesterday.",
+        "options": [
+          "did not comes",
+          "has not come",
+          "did not come",
+          "No improvement"
+        ],
+        "correctAnswer": "did not come",
+        "explanation": "After did not, the base form is used.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-improvement-a16",
+        "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nNo sooner had she left [when] it rained.",
+        "options": [
+          "that",
+          "than",
+          "then",
+          "No improvement"
+        ],
+        "correctAnswer": "than",
+        "explanation": "No sooner takes than.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-verbal-sentence-improvement-p17",
+        "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nOne of my friends [are] a doctor.",
+        "options": [
+          "were",
+          "is",
+          "have been",
+          "No improvement"
+        ],
+        "correctAnswer": "is",
+        "explanation": "The subject is one, which is singular.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-improvement-p18",
+        "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nI wish I [was] taller.",
+        "options": [
+          "were",
+          "am",
+          "will be",
+          "No improvement"
+        ],
+        "correctAnswer": "were",
+        "explanation": "An unreal wish takes were.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-verbal-sentence-improvement-p19",
+        "question": "Choose the best replacement for the part in [brackets]. If the sentence is already correct, choose \"No improvement\".\nThe teacher, along with his students, [were] present.",
+        "options": [
+          "are",
+          "have been",
+          "No improvement",
+          "was"
+        ],
+        "correctAnswer": "was",
+        "explanation": "The verb agrees with the teacher, so was.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Name the error.",
+      "Fixed pairs.",
+      "Comparatives.",
+      "No improvement.",
+      "Whole-sentence check."
+    ],
+    "quickFormulas": [
+      "better of two, best of three"
+    ]
+  },
+  "keyTakeaways": [
+    "Correct the error.",
+    "Keep the meaning.",
+    "Check the sentence.",
+    "Allow No improvement."
+  ],
+  "selfCheckQuestions": [
+    "Can I correct \"did not came\"?",
+    "Can I choose better/best?",
+    "Can I choose than/when?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Corrections of common errors; examples are original."
+    }
+  ]
+}

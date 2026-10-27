@@ -1,0 +1,426 @@
+{
+  "id": "y2-lr-mathematical-reasoning",
+  "yearId": 2,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 34,
+  "title": "Mathematical Reasoning",
+  "tagline": "Year 2 — New operations, missing signs, interchanged symbols and inequality chains",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Mathematical reasoning questions test whether you can follow rules that are stated in the question. Typical forms: a new operation is defined (a ◈ b = a² + b) and you evaluate expressions with it; signs are missing in an equation and you find them; two signs or numbers are interchanged and you evaluate; or a chain of inequalities is given and you decide which relation follows. The arithmetic is simple; accuracy in applying the rule is what matters.",
+    "placementRelevance": "Mathematical reasoning questions are commonly asked in company reasoning rounds. They are quick if you follow the rule literally and check with BODMAS.",
+    "realWorldContext": "Spreadsheet formulas, code functions and unit conversions are defined operations in just this way."
+  },
+  "learningObjectives": [
+    "Evaluate expressions with a newly defined operation",
+    "Find missing arithmetic signs by systematic trial",
+    "Evaluate after interchanging signs or numbers",
+    "Draw conclusions from chains of inequalities",
+    "Apply BODMAS strictly"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Simplification & BODMAS",
+      "Symbol Coding"
+    ],
+    "quickRefresher": "BODMAS: Brackets, Orders, Division and Multiplication (left to right), Addition and Subtraction (left to right). In a chain a > b ≥ c = d, a > d holds because one strict step is enough."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Defined operation: a rule such as a ◈ b = a² + b that tells you how to combine two numbers.",
+      "Interchange of signs/numbers: swap them in the expression before evaluating.",
+      "Missing signs: choose operators from +, −, ×, ÷ so that the equation is true.",
+      "Inequality chain: a series of relations (>, ≥, <, ≤, =) linking quantities.",
+      "Conclusion from a chain: valid if it holds in every case consistent with the chain."
+    ],
+    "theoreticalIntuition": "The rule is a machine: put numbers in, follow the instructions, take the result out. Never mix the new rule with ordinary arithmetic. In a defined operation, the letters a and b stand for the left and right entries in order.",
+    "visualOrMentalModel": "Write the rule, replace a and b with the actual numbers in the right order, evaluate inside brackets first, and then apply the rule again if the expression is nested."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Defined operation",
+      "formula": "Replace a and b by the given numbers, in order",
+      "description": "Order matters: a ◈ b is not b ◈ a in general.",
+      "whenToUse": "New-operation questions.",
+      "simpleExample": "a ◈ b = a² + b: 3 ◈ 4 = 13"
+    },
+    {
+      "title": "Nested operations",
+      "formula": "Evaluate the innermost bracket first",
+      "description": "Then apply the rule again.",
+      "whenToUse": "Expressions like (a ◈ b) ◈ c.",
+      "simpleExample": "(5 Δ 3) Δ 2 with a² − b²: 16 Δ 2 = 252"
+    },
+    {
+      "title": "Missing signs",
+      "formula": "Try the 16 pairs of signs and test with BODMAS",
+      "description": "Usually only one pair works.",
+      "whenToUse": "Fill-in-the-blank equations.",
+      "simpleExample": "8 × 2 − 4 = 12"
+    },
+    {
+      "title": "Interchange",
+      "formula": "Swap the named symbols or numbers, then evaluate",
+      "description": "Do it before calculating.",
+      "whenToUse": "If + and × are interchanged…",
+      "simpleExample": "6 + 3 × 2 becomes 6 × 3 + 2 = 20"
+    },
+    {
+      "title": "Inequality chain",
+      "formula": "a > b ≥ c = d ⇒ a > d",
+      "description": "A chain with at least one strict sign gives strict.",
+      "whenToUse": "Which conclusion follows.",
+      "simpleExample": "Compare the ends"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "For a defined operation, copy the rule and substitute. If a ◈ b = a² + b, then 3 ◈ 4 = 3² + 4 = 13. The order matters: 4 ◈ 3 = 16 + 3 = 19. For nested expressions, work from the inside out.",
+      "For missing signs, try combinations systematically. For 8 _ 2 _ 4 = 12, test: 8 × 2 − 4 = 16 − 4 = 12, which works. Always apply BODMAS: multiplication before subtraction.",
+      "For interchange, swap first. If + and × are interchanged, then 6 + 3 × 2 becomes 6 × 3 + 2 = 20. If the numbers 4 and 7 are interchanged in 4 × 3 + 7, the expression becomes 7 × 3 + 4 = 25.",
+      "For inequality chains, combine links. P > Q ≥ R = S gives P > S, because P > Q ≥ R and R = S. A chain gives a conclusion between its ends only when the signs point the same way.",
+      "For equation-based definitions, solve for the unknown. If a ★ b = 3a − 2b and x ★ 4 = 10, then 3x − 8 = 10, so x = 6."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Non-commutative operations",
+        "content": "Most defined operations are not commutative: a ◈ b differs from b ◈ a. Respect the order given."
+      },
+      {
+        "title": "Checking by substitution",
+        "content": "After finding a missing sign or an unknown, substitute back to verify the equation."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Defined operations",
+      "description": "Evaluate.",
+      "exampleSnippet": "a ◈ b = a² + b"
+    },
+    {
+      "typeName": "Nested",
+      "description": "Inside out.",
+      "exampleSnippet": "(a Δ b) Δ c"
+    },
+    {
+      "typeName": "Missing signs",
+      "description": "Fill the blanks.",
+      "exampleSnippet": "8 _ 2 _ 4 = 12"
+    },
+    {
+      "typeName": "Interchange",
+      "description": "Swap, then evaluate.",
+      "exampleSnippet": "+ and × interchanged"
+    },
+    {
+      "typeName": "Inequality chains",
+      "description": "Decide the relation.",
+      "exampleSnippet": "P > Q ≥ R = S"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-mathematical-reasoning-1",
+      "title": "Defined operation",
+      "question": "If a ◈ b = a² + b, find 3 ◈ 4.",
+      "givenInfo": [
+        "a ◈ b = a² + b"
+      ],
+      "conceptOrFormula": "Substitute in order.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "a = 3, b = 4",
+          "explanation": "a² + b = 3² + 4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "9 + 4 = 13."
+        }
+      ],
+      "finalAnswer": "13",
+      "whyItWorks": "The rule is followed literally.",
+      "commonTrap": "Using b² + a.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-mathematical-reasoning-2",
+      "title": "Missing signs",
+      "question": "Which pair of signs fills 8 _ 2 _ 4 = 12?",
+      "givenInfo": [
+        "8 _ 2 _ 4 = 12"
+      ],
+      "conceptOrFormula": "Test pairs with BODMAS.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Try ×, −",
+          "explanation": "8 × 2 − 4 = 16 − 4 = 12."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Check others",
+          "explanation": "For example + , × gives 8 + 8 = 16; not equal to 12."
+        }
+      ],
+      "finalAnswer": "×, −",
+      "whyItWorks": "Only this pair gives 12.",
+      "commonTrap": "Evaluating left to right ignoring BODMAS.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-mathematical-reasoning-3",
+      "title": "Inequality chain",
+      "question": "If P > Q ≥ R = S, which relation between P and S is certain?",
+      "givenInfo": [
+        "P > Q",
+        "Q ≥ R",
+        "R = S"
+      ],
+      "conceptOrFormula": "Combine links.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Replace R by S",
+          "explanation": "Q ≥ S."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Combine",
+          "explanation": "P > Q ≥ S, so P > S."
+        }
+      ],
+      "finalAnswer": "P > S",
+      "whyItWorks": "One strict sign makes the chain strict.",
+      "commonTrap": "Concluding P ≥ S only.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Literal substitution",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reason about the rule in words.",
+      "shortcutMethod": "Rewrite the rule with the actual numbers in order, evaluate with BODMAS, and verify by substitution."
+    },
+    "rulesForApplication": [
+      "Respect the order of a and b.",
+      "Innermost bracket first.",
+      "BODMAS for missing signs.",
+      "Swap before calculating."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Swapping a and b",
+      "whyItHappens": "Using the wrong order.",
+      "howToAvoid": "Read from left to right."
+    },
+    {
+      "mistake": "Ignoring BODMAS",
+      "whyItHappens": "Evaluating left to right.",
+      "howToAvoid": "Multiply before add."
+    },
+    {
+      "mistake": "Interchanging after calculating",
+      "whyItHappens": "Evaluating before swapping.",
+      "howToAvoid": "Swap first."
+    },
+    {
+      "mistake": "Overstating an inequality",
+      "whyItHappens": "Writing ≥ as >.",
+      "howToAvoid": "Keep the weakest sign."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 50,
+    "eliminationTechnique": "Test options by substituting into the stated rule.",
+    "questionSelectionAdvice": "Write the rule at the top of the page.",
+    "recruiterInsight": "These are among the fastest reasoning items."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-mathematical-reasoning-e1",
+        "question": "If a ◈ b = a² + b, then 3 ◈ 4 equals",
+        "options": [
+          "14",
+          "13",
+          "11",
+          "18"
+        ],
+        "correctAnswer": "13",
+        "explanation": "Substitute a = 3 and b = 4 into the rule. The value is 13.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-mathematical-reasoning-e2",
+        "question": "If a ◈ b = 2a − b, then 5 ◈ 3 equals",
+        "options": [
+          "7",
+          "8",
+          "5",
+          "12"
+        ],
+        "correctAnswer": "7",
+        "explanation": "Substitute a = 5 and b = 3 into the rule. The value is 7.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-mathematical-reasoning-e3",
+        "question": "If a ◈ b = a × b + a, then 4 ◈ 5 equals",
+        "options": [
+          "25",
+          "22",
+          "29",
+          "24"
+        ],
+        "correctAnswer": "24",
+        "explanation": "Substitute a = 4 and b = 5 into the rule. The value is 24.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-mathematical-reasoning-i7",
+        "question": "If a ◈ b = a² − b², then 7 ◈ 3 equals",
+        "options": [
+          "40",
+          "41",
+          "38",
+          "45"
+        ],
+        "correctAnswer": "40",
+        "explanation": "Substitute a = 7 and b = 3 into the rule. The value is 40.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-mathematical-reasoning-i8",
+        "question": "If a ◈ b = a² − b², then (5 ◈ 3) ◈ 2 equals",
+        "options": [
+          "12",
+          "256",
+          "140",
+          "252"
+        ],
+        "correctAnswer": "252",
+        "explanation": "First 5 ◈ 3 = 25 − 9 = 16. Then 16 ◈ 2 = 256 − 4 = 252.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-mathematical-reasoning-i9",
+        "question": "If a ◈ b = 3a − 2b, then 6 ◈ 4 equals",
+        "options": [
+          "12",
+          "8",
+          "14",
+          "10"
+        ],
+        "correctAnswer": "10",
+        "explanation": "3 × 6 − 2 × 4 = 18 − 8 = 10.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-mathematical-reasoning-a16",
+        "question": "If a ◈ b = a + b + ab, then 2 ◈ (3 ◈ 4) equals",
+        "options": [
+          "47",
+          "59",
+          "62",
+          "29"
+        ],
+        "correctAnswer": "59",
+        "explanation": "First 3 ◈ 4 = 3 + 4 + 12 = 19. Then 2 ◈ 19 = 2 + 19 + 38 = 59.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-mathematical-reasoning-a17",
+        "question": "If a ◈ b = 3a − 2b and x ◈ 4 = 10, then x equals",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "8"
+        ],
+        "correctAnswer": "6",
+        "explanation": "3x − 8 = 10, so x = 6.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-mathematical-reasoning-p18",
+        "question": "If P ≥ Q, Q > R and R ≥ S, then which is certain?",
+        "options": [
+          "P > S",
+          "P = S",
+          "S > P",
+          "Q = R"
+        ],
+        "correctAnswer": "P > S",
+        "explanation": "P ≥ Q > R ≥ S gives P > S.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-mathematical-reasoning-p19",
+        "question": "Which pair of signs, in order, fills the blanks so that 15 _ 3 _ 5 = 10?",
+        "options": [
+          "+, +",
+          "+, −",
+          "+, ×",
+          "÷, +"
+        ],
+        "correctAnswer": "÷, +",
+        "explanation": "Trying the pairs, only ÷, + works: 15 ÷ 3 + 5 = 10 (with BODMAS).",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-mathematical-reasoning-p20",
+        "question": "If '+' means '−', '−' means '×', '×' means '÷' and '÷' means '+', then 18 × 3 + 4 − 2 equals",
+        "options": [
+          "2",
+          "10",
+          "-2",
+          "22"
+        ],
+        "correctAnswer": "-2",
+        "explanation": "The expression becomes 18 ÷ 3 − 4 × 2 = 6 − 8 = -2.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Substitute in order.",
+      "Inside out.",
+      "Try sign pairs.",
+      "Interchange first.",
+      "Combine links."
+    ],
+    "quickFormulas": [
+      "a ◈ b ≠ b ◈ a"
+    ]
+  },
+  "keyTakeaways": [
+    "Follow the rule literally.",
+    "BODMAS.",
+    "Check by substitution.",
+    "Combine inequalities carefully."
+  ],
+  "selfCheckQuestions": [
+    "Can I evaluate a defined operation?",
+    "Can I find missing signs?",
+    "Can I read an inequality chain?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Mathematical operations topic area; examples are original."
+    }
+  ]
+}
