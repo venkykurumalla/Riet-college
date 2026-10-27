@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-assumptions-inferences",
+  "topicTitle": "Assumptions, Inferences, and Courses of Action",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Statement: Please keep your mobile phones switched off during the film.\n\nAssumptions:\nI. Mobile phones may disturb other viewers.\nII. Everyone watching the film owns a mobile phone.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Only II follows",
+        "Only I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "The request makes sense only if phones can disturb others (I implicit). It does not need everyone to own one (II is not needed). Answer: Only I follows."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Statement: Buy one litre of milk from the store near the station.\n\nAssumptions:\nI. No other shop sells milk.\nII. The store sells milk.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Only II follows",
+        "Only I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "The instruction is pointless unless the store sells milk (II implicit). Other shops may sell milk too (I is not needed). Answer: Only II follows."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Statement: The manager asked all employees to submit their reports by Friday.\n\nAssumptions:\nI. The employees can complete the reports by Friday.\nII. All employees dislike writing reports.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "A deadline presumes it can be met (I implicit). Dislike of reports is not needed (II). Answer: Only I follows."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Statement: Use soap to wash your hands before meals.\n\nAssumptions:\nI. Everyone has dirty hands before meals.\nII. Soap helps to remove germs from the hands.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Only I follows",
+        "Both I and II follow",
+        "Only II follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "The advice rests on soap removing germs (II implicit). It does not claim that everyone's hands are dirty (I is not needed). Answer: Only II follows."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Statement: The company advertised the job in newspapers.\n\nAssumptions:\nI. People read newspapers and may see the advertisement.\nII. Only newspaper readers will be able to apply.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Only II follows",
+        "Both I and II follow",
+        "Only I follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "Advertising in a newspaper assumes that people read it (I implicit). Others may hear of the job in other ways (II is not needed). Answer: Only I follows."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Statement: Drive slowly in the school zone.\n\nAssumptions:\nI. Children never cross the road in the school zone.\nII. Driving slowly reduces the chance of accidents.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "The instruction assumes slow driving reduces accidents (II implicit). Children may well cross, which is why the instruction exists (I is false). Answer: Only II follows."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Statement: Avoid travelling by road at night in the hills; take the morning bus.\n\nAssumptions:\nI. Roads in the hills are risky at night.\nII. Morning buses are available.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Both I and II follow",
+        "Only I follows",
+        "Only II follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "The advice rests on night travel being risky (I) and on morning buses existing (II). Both are implicit. Answer: Both I and II follow."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Statement: The government should introduce free school meals to improve attendance.\n\nAssumptions:\nI. Free meals will attract children to school.\nII. School attendance is currently low.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answerIndex": 3,
+      "explanation": "The proposal assumes that free meals attract children (I) and that attendance needs improving (II). Both are implicit. Answer: Both I and II follow."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Statement: Mr Rao has asked the bank to waive the late fee because he paid his dues within two days of the due date.\n\nAssumptions:\nI. The bank has the power to waive late fees.\nII. Banks never charge late fees.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "The request presumes the bank can waive the fee (I implicit). If banks never charged late fees there would be nothing to waive (II is false). Answer: Only I follows."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Statement: Smartphones should be given to students to improve their learning.\n\nAssumptions:\nI. Students will use smartphones only for learning.\nII. Smartphones can help students learn.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Only I follows",
+        "Both I and II follow",
+        "Only II follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "The proposal assumes smartphones can aid learning (II implicit). It does not assume exclusive use for learning (I is too strong). Answer: Only II follows."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Statement: The factory produced 500 units in January and 600 units in February.\n\nInferences:\nI. Production increased from January to February.\nII. Production will increase again in March.\n\nWhich inference can be drawn from the statement?",
+      "options": [
+        "Only II follows",
+        "Only I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "600 is greater than 500, so production increased (I). The statement gives no basis for a prediction about March (II). Answer: Only I follows."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Statement: All the candidates who scored above 80% were given scholarships. Rita was given a scholarship.\n\nInferences:\nI. Rita scored above 80%.\nII. Only candidates who scored above 80% were given scholarships.\n\nWhich inference can be drawn from the statement?",
+      "options": [
+        "Neither I nor II follows",
+        "Only I follows",
+        "Only II follows",
+        "Both I and II follow"
+      ],
+      "answerIndex": 0,
+      "explanation": "The statement does not say that scholarships were given only for scores above 80%, so Rita may have qualified another way. Neither inference is forced. Answer: Neither I nor II follows."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Statement: A school has 600 students, and 40% of them are girls.\n\nInferences:\nI. There are 240 girls in the school.\nII. There are 400 boys in the school.\n\nWhich inference can be drawn from the statement?",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "40% of 600 = 240 girls, so there are 360 boys, not 400 (II is false). Answer: Only I follows."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Statement: The museum is open from 10 a.m. to 5 p.m. on all days except Mondays.\n\nInferences:\nI. A visitor arriving at 6 p.m. on a Tuesday cannot enter.\nII. The museum is open from 10 a.m. to 5 p.m. on Mondays.\n\nWhich inference can be drawn from the statement?",
+      "options": [
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "At 6 p.m. the museum is closed on Tuesday (I). It is closed on Mondays (II is false). Answer: Only I follows."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Statement: A large number of students of a college were found suffering from dengue.\n\nCourses of action:\nI. The college should be closed for a few days and the premises cleaned.\nII. The students should be told to stay at home and not worry.\n\nWhich course of action should follow?",
+      "options": [
+        "Only II follows",
+        "Both I and II follow",
+        "Only I follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "Closing and cleaning deals with the cause of the outbreak (I). Asking students to stay at home without worry does nothing about the cause (II is weak). Answer: Only I follows."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Statement: Prices of vegetables have risen sharply due to heavy rain.\n\nCourses of action:\nI. The government should ban the sale of vegetables.\nII. The government should release stocks or arrange imports to bring prices down.\n\nWhich course of action should follow?",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "Increasing supply addresses the price rise (II). Banning sales would worsen the problem (I is extreme). Answer: Only II follows."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Statement: Buy a ticket in advance to avoid long queues at the museum.\n\nAssumptions:\nI. Advance tickets are available.\nII. There are long queues at the museum without an advance ticket.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Only I follows",
+        "Both I and II follow",
+        "Only II follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "The advice presumes that advance tickets exist (I) and that queues are otherwise long (II). Both are implicit. Answer: Both I and II follow."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Statement: Between 2015 and 2020 the number of vehicles in a city doubled while the length of its roads increased by only 10%.\n\nInferences:\nI. The number of vehicles per kilometre of road increased.\nII. The number of vehicles per kilometre of road more than doubled.\n\nWhich inference can be drawn from the statement?",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Vehicles rose 2 times and roads 1.1 times, so the density rose by 2 ÷ 1.1 ≈ 1.82 times: it increased (I) but did not more than double (II). Answer: Only I follows."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Statement: The water level in the city's main reservoir has fallen to a critically low level.\n\nCourses of action:\nI. The authorities should wait for the monsoon before taking any step.\nII. The authorities should start rationing the water supply immediately.\n\nWhich course of action should follow?",
+      "options": [
+        "Only I follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only II follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "Rationing now conserves the remaining water (II). Waiting leaves the shortage unmanaged (I is weak). Answer: Only II follows."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Statement: The company has decided to give a bonus to employees who complete the project before the deadline.\n\nAssumptions:\nI. The bonus will motivate the employees.\nII. All employees can complete the project before the deadline.\n\nWhich assumption is implicit in the statement?",
+      "options": [
+        "Only II follows",
+        "Both I and II follow",
+        "Only I follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "The bonus is meant to motivate (I implicit). The offer does not assume every employee will complete the project early (II is not needed). Answer: Only I follows."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/statement-and-assumption/"
+}

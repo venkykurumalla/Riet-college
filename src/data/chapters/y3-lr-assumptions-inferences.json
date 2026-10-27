@@ -1,0 +1,420 @@
+{
+  "id": "y3-lr-assumptions-inferences",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 40,
+  "title": "Assumptions, Inferences, and Courses of Action",
+  "tagline": "Year 3 — What a statement takes for granted, what it lets you conclude, and what should be done about it",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Three related question types start from a short statement. An assumption is something the speaker takes for granted for the statement to make sense. An inference is something you can safely conclude from it. A course of action is a step that should be taken in response to a problem. The key is to keep them apart: assumptions sit behind the statement, inferences come out of it, and courses of action are about what to do next.",
+    "placementRelevance": "These three types appear together in most logical-reasoning papers.",
+    "realWorldContext": "Reading between the lines of a notice, a report or a plan, and deciding what to do about it, uses all three skills."
+  },
+  "learningObjectives": [
+    "Spot the assumption that must be true for a statement to make sense",
+    "Draw only safe inferences",
+    "Choose practical, relevant courses of action",
+    "Reject extreme and unrelated options",
+    "Use the four standard options"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Statements and Conclusions — Critical Filtering",
+      "Statements and Arguments"
+    ],
+    "quickRefresher": "Assumption: unstated support. Inference: stated consequence. Course of action: proposed step."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Implicit assumption: a belief the speaker must hold, otherwise the statement would make no sense.",
+      "Inference: a conclusion that follows from the statement, possibly with common sense but without new facts.",
+      "Course of action: a practical step that deals with the problem in the statement.",
+      "Negation test: if denying the assumption makes the statement pointless, it is implicit.",
+      "Extreme options (ban all, close everything) are rarely correct."
+    ],
+    "theoreticalIntuition": "An assumption is the hidden bridge between what is said and why it was said. To test one, ask: if this were false, would the statement still make sense?",
+    "visualOrMentalModel": "For assumptions use the negation test. For inferences stick to what the facts guarantee. For courses of action choose steps that are practical, targeted and proportionate."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Negation test",
+      "formula": "Deny the assumption; does the statement collapse?",
+      "description": "Assumptions.",
+      "whenToUse": "Primary test.",
+      "simpleExample": "\"Phones may disturb others\" denied: the notice is pointless"
+    },
+    {
+      "title": "Safe inference",
+      "formula": "Only facts or arithmetic from the statement",
+      "description": "Inferences.",
+      "whenToUse": "Primary test.",
+      "simpleExample": "500 then 600 units: production rose"
+    },
+    {
+      "title": "Proportion",
+      "formula": "Fit the action to the problem",
+      "description": "Courses of action.",
+      "whenToUse": "Primary test.",
+      "simpleExample": "Clean the premises for dengue"
+    },
+    {
+      "title": "No extremes",
+      "formula": "Reject ban-all or ignore-all",
+      "description": "Courses of action.",
+      "whenToUse": "Filter.",
+      "simpleExample": "Wait for the monsoon"
+    },
+    {
+      "title": "No new facts",
+      "formula": "Do not add facts",
+      "description": "All three.",
+      "whenToUse": "Filter.",
+      "simpleExample": "Everyone owns a phone"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Statement: \"Please keep your mobile phones switched off during the film.\" The implicit assumption is that phones may disturb other viewers. The claim that everyone owns a phone is not needed: the request makes sense whether or not everyone has one.",
+      "A negation test confirms it. If phones could not disturb anyone, the request would be pointless. If not everyone has a phone, the request is still sensible.",
+      "Inferences must follow from the facts. \"The factory produced 500 units in January and 600 in February\" allows \"production increased from January to February\"; it does not allow \"production will rise again in March\".",
+      "For courses of action, first read the problem. \"A large number of students were found suffering from dengue\" calls for closing the college for a while and cleaning the premises. Telling students to stay at home and not worry does not deal with the cause.",
+      "Reject extremes and delay. \"The water level in the main reservoir has fallen to a critical level\" calls for rationing now, not for waiting for the monsoon."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Assumption vs inference",
+        "content": "An assumption supports the statement from behind; an inference grows from it in front. The same sentence can be neither."
+      },
+      {
+        "title": "Courses of action",
+        "content": "The best actions are specific, immediate and within the authority named in the statement."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Implicit assumption",
+      "description": "Negation test.",
+      "exampleSnippet": "Phones may disturb others"
+    },
+    {
+      "typeName": "Invalid assumption",
+      "description": "Not needed.",
+      "exampleSnippet": "Everyone owns a phone"
+    },
+    {
+      "typeName": "Safe inference",
+      "description": "Facts only.",
+      "exampleSnippet": "500 → 600 units"
+    },
+    {
+      "typeName": "Extreme inference",
+      "description": "Adds a prediction.",
+      "exampleSnippet": "It will rise again"
+    },
+    {
+      "typeName": "Course of action",
+      "description": "Proportionate step.",
+      "exampleSnippet": "Clean the premises"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-assumptions-inferences-1",
+      "title": "Assumption",
+      "question": "Statement: Buy a ticket in advance to avoid long queues at the museum. Assumption: Advance tickets are available. Is it implicit?",
+      "givenInfo": [
+        "Advice to buy in advance"
+      ],
+      "conceptOrFormula": "Negation test.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Deny it",
+          "explanation": "If advance tickets were not available, the advice would be pointless."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Result",
+          "explanation": "So it is implicit."
+        }
+      ],
+      "finalAnswer": "Yes, it is implicit",
+      "whyItWorks": "The advice depends on it.",
+      "commonTrap": "Calling it an inference.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-assumptions-inferences-2",
+      "title": "Inference",
+      "question": "Statement: A school has 600 students and 40% are girls. Which follows: there are 240 girls, or there are 400 boys?",
+      "givenInfo": [
+        "600 students",
+        "40% girls"
+      ],
+      "conceptOrFormula": "Compute.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Girls",
+          "explanation": "40% of 600 = 240."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Boys",
+          "explanation": "600 − 240 = 360, not 400."
+        }
+      ],
+      "finalAnswer": "There are 240 girls",
+      "whyItWorks": "The boys number 360.",
+      "commonTrap": "Taking 60% as 400.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-assumptions-inferences-3",
+      "title": "Course of action",
+      "question": "Statement: The water level in the city's main reservoir has fallen to a critically low level. Which is better: start rationing water now, or wait for the monsoon?",
+      "givenInfo": [
+        "Critical shortage"
+      ],
+      "conceptOrFormula": "Proportion and urgency.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Urgency",
+          "explanation": "The problem is current and serious."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choice",
+          "explanation": "Start rationing now; waiting is passive."
+        }
+      ],
+      "finalAnswer": "Start rationing water now",
+      "whyItWorks": "It deals directly with the shortage.",
+      "commonTrap": "Waiting.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Negate, compute, fit",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Pick what sounds good.",
+      "shortcutMethod": "Assumption: negate it. Inference: compute or restate only. Course of action: pick the specific, proportionate step."
+    },
+    "rulesForApplication": [
+      "Negation test.",
+      "No new facts.",
+      "Reject extremes.",
+      "Match the action to the cause."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Treating a prediction as an inference",
+      "whyItHappens": "Extra step.",
+      "howToAvoid": "Stay with the facts."
+    },
+    {
+      "mistake": "Picking a vague action",
+      "whyItHappens": "Does not address the problem.",
+      "howToAvoid": "Choose the specific step."
+    },
+    {
+      "mistake": "Choosing a hidden fact as an assumption",
+      "whyItHappens": "Not needed.",
+      "howToAvoid": "Use the negation test."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Eliminate options with words like all, never, ban, immediately close everything.",
+    "questionSelectionAdvice": "Underline the problem word in the statement.",
+    "recruiterInsight": "Courses of action respond to the problem; assumptions support the statement."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-assumptions-inferences-e1",
+        "question": "Statement: Please keep your mobile phones switched off during the film.\n\nAssumptions:\nI. Mobile phones may disturb other viewers.\nII. Everyone watching the film owns a mobile phone.\n\nWhich assumption is implicit in the statement?",
+        "options": [
+          "Only II follows",
+          "Only I follows",
+          "Both I and II follow",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Only I follows",
+        "explanation": "The request makes sense only if phones can disturb others (I implicit). It does not need everyone to own one (II is not needed). Answer: Only I follows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-assumptions-inferences-e2",
+        "question": "Statement: Buy one litre of milk from the store near the station.\n\nAssumptions:\nI. No other shop sells milk.\nII. The store sells milk.\n\nWhich assumption is implicit in the statement?",
+        "options": [
+          "Only II follows",
+          "Only I follows",
+          "Both I and II follow",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Only II follows",
+        "explanation": "The instruction is pointless unless the store sells milk (II implicit). Other shops may sell milk too (I is not needed). Answer: Only II follows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-assumptions-inferences-e3",
+        "question": "Statement: The manager asked all employees to submit their reports by Friday.\n\nAssumptions:\nI. The employees can complete the reports by Friday.\nII. All employees dislike writing reports.\n\nWhich assumption is implicit in the statement?",
+        "options": [
+          "Only II follows",
+          "Both I and II follow",
+          "Neither I nor II follows",
+          "Only I follows"
+        ],
+        "correctAnswer": "Only I follows",
+        "explanation": "A deadline presumes it can be met (I implicit). Dislike of reports is not needed (II). Answer: Only I follows.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-assumptions-inferences-i7",
+        "question": "Statement: Avoid travelling by road at night in the hills; take the morning bus.\n\nAssumptions:\nI. Roads in the hills are risky at night.\nII. Morning buses are available.\n\nWhich assumption is implicit in the statement?",
+        "options": [
+          "Both I and II follow",
+          "Only I follows",
+          "Only II follows",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Both I and II follow",
+        "explanation": "The advice rests on night travel being risky (I) and on morning buses existing (II). Both are implicit. Answer: Both I and II follow.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-assumptions-inferences-i8",
+        "question": "Statement: The government should introduce free school meals to improve attendance.\n\nAssumptions:\nI. Free meals will attract children to school.\nII. School attendance is currently low.\n\nWhich assumption is implicit in the statement?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Neither I nor II follows",
+          "Both I and II follow"
+        ],
+        "correctAnswer": "Both I and II follow",
+        "explanation": "The proposal assumes that free meals attract children (I) and that attendance needs improving (II). Both are implicit. Answer: Both I and II follow.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-assumptions-inferences-i9",
+        "question": "Statement: Mr Rao has asked the bank to waive the late fee because he paid his dues within two days of the due date.\n\nAssumptions:\nI. The bank has the power to waive late fees.\nII. Banks never charge late fees.\n\nWhich assumption is implicit in the statement?",
+        "options": [
+          "Only II follows",
+          "Both I and II follow",
+          "Neither I nor II follows",
+          "Only I follows"
+        ],
+        "correctAnswer": "Only I follows",
+        "explanation": "The request presumes the bank can waive the fee (I implicit). If banks never charged late fees there would be nothing to waive (II is false). Answer: Only I follows.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-assumptions-inferences-a15",
+        "question": "Statement: A large number of students of a college were found suffering from dengue.\n\nCourses of action:\nI. The college should be closed for a few days and the premises cleaned.\nII. The students should be told to stay at home and not worry.\n\nWhich course of action should follow?",
+        "options": [
+          "Only II follows",
+          "Both I and II follow",
+          "Only I follows",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Only I follows",
+        "explanation": "Closing and cleaning deals with the cause of the outbreak (I). Asking students to stay at home without worry does nothing about the cause (II is weak). Answer: Only I follows.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-assumptions-inferences-a16",
+        "question": "Statement: Prices of vegetables have risen sharply due to heavy rain.\n\nCourses of action:\nI. The government should ban the sale of vegetables.\nII. The government should release stocks or arrange imports to bring prices down.\n\nWhich course of action should follow?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Both I and II follow",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Only II follows",
+        "explanation": "Increasing supply addresses the price rise (II). Banning sales would worsen the problem (I is extreme). Answer: Only II follows.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-assumptions-inferences-p17",
+        "question": "Statement: Buy a ticket in advance to avoid long queues at the museum.\n\nAssumptions:\nI. Advance tickets are available.\nII. There are long queues at the museum without an advance ticket.\n\nWhich assumption is implicit in the statement?",
+        "options": [
+          "Only I follows",
+          "Both I and II follow",
+          "Only II follows",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Both I and II follow",
+        "explanation": "The advice presumes that advance tickets exist (I) and that queues are otherwise long (II). Both are implicit. Answer: Both I and II follow.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-assumptions-inferences-p18",
+        "question": "Statement: Between 2015 and 2020 the number of vehicles in a city doubled while the length of its roads increased by only 10%.\n\nInferences:\nI. The number of vehicles per kilometre of road increased.\nII. The number of vehicles per kilometre of road more than doubled.\n\nWhich inference can be drawn from the statement?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Both I and II follow",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Only I follows",
+        "explanation": "Vehicles rose 2 times and roads 1.1 times, so the density rose by 2 ÷ 1.1 ≈ 1.82 times: it increased (I) but did not more than double (II). Answer: Only I follows.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-assumptions-inferences-p19",
+        "question": "Statement: The water level in the city's main reservoir has fallen to a critically low level.\n\nCourses of action:\nI. The authorities should wait for the monsoon before taking any step.\nII. The authorities should start rationing the water supply immediately.\n\nWhich course of action should follow?",
+        "options": [
+          "Only I follows",
+          "Both I and II follow",
+          "Neither I nor II follows",
+          "Only II follows"
+        ],
+        "correctAnswer": "Only II follows",
+        "explanation": "Rationing now conserves the remaining water (II). Waiting leaves the shortage unmanaged (I is weak). Answer: Only II follows.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Negation test.",
+      "Safe inference.",
+      "Specific actions.",
+      "No extremes.",
+      "No new facts."
+    ],
+    "quickFormulas": [
+      "Negate the assumption"
+    ]
+  },
+  "keyTakeaways": [
+    "Negate.",
+    "Compute.",
+    "Fit the action.",
+    "Avoid extremes."
+  ],
+  "selfCheckQuestions": [
+    "Can I apply the negation test?",
+    "Can I avoid predictions?",
+    "Can I choose a proportionate action?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

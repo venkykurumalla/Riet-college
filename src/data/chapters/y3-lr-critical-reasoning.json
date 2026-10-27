@@ -1,0 +1,419 @@
+{
+  "id": "y3-lr-critical-reasoning",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 41,
+  "title": "Critical Reasoning — Strengthen and Weaken Arguments",
+  "tagline": "Year 3 — Premises, conclusions, hidden assumptions and the evidence that supports or undermines them",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A critical-reasoning question gives a short argument: some evidence (premises) leading to a conclusion. You are asked which new fact would make the conclusion more likely (strengthen), less likely (weaken), or which unstated belief the argument needs (assumption). The skill is to find the gap between premise and conclusion, because strengthening fills the gap and weakening opens it wider.",
+    "placementRelevance": "Critical-reasoning items are a standard element of the reasoning sections in company and management tests.",
+    "realWorldContext": "Evaluating a business case, a policy proposal or a news claim requires the same moves."
+  },
+  "learningObjectives": [
+    "Separate premise from conclusion",
+    "Find the gap between them",
+    "Strengthen by closing the gap or ruling out alternatives",
+    "Weaken by offering another explanation or breaking the link",
+    "Identify necessary assumptions with the negation test"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Assumptions, Inferences, and Courses of Action",
+      "Statements and Arguments"
+    ],
+    "quickRefresher": "An argument is a conclusion supported by premises. Strong arguments have premises that make the conclusion likely."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Premise: a stated reason or evidence.",
+      "Conclusion: the claim the premises are meant to support.",
+      "Assumption: an unstated link that must hold for the premises to support the conclusion.",
+      "Strengthener: new information that makes the conclusion more likely, often by ruling out an alternative cause.",
+      "Weakener: new information that makes the conclusion less likely, often by offering an alternative cause."
+    ],
+    "theoreticalIntuition": "Every argument has a gap. Strengtheners cover the gap; weakeners dig it deeper. Ask: what else could explain the evidence?",
+    "visualOrMentalModel": "Mark the conclusion, mark the evidence, and state the gap in one line (\"assumes that…\"). Then test each option against the gap."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Causal pattern",
+      "formula": "A then B ⇒ A caused B",
+      "description": "Frequent form.",
+      "whenToUse": "Common gap.",
+      "simpleExample": "Programme then productivity rise"
+    },
+    {
+      "title": "Strengthen",
+      "formula": "Rule out alternatives or add direct evidence",
+      "description": "Causal gaps.",
+      "whenToUse": "Comparison group.",
+      "simpleExample": "Control group unchanged"
+    },
+    {
+      "title": "Weaken",
+      "formula": "Give an alternative cause or break the link",
+      "description": "Causal gaps.",
+      "whenToUse": "Common cause.",
+      "simpleExample": "Festival season sales rise"
+    },
+    {
+      "title": "Assumption test",
+      "formula": "Negate it; the argument should collapse",
+      "description": "Assumption items.",
+      "whenToUse": "Primary test.",
+      "simpleExample": "Drivers will slow down"
+    },
+    {
+      "title": "Scope",
+      "formula": "Extreme options are rarely right",
+      "description": "All options.",
+      "whenToUse": "Filter.",
+      "simpleExample": "All accidents are caused by speed"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Take the argument: a company says its training programme raised productivity because output per employee in the trained department rose by 15%. The gap is that the rise may have happened anyway. A strengthener closes it: \"Output in a similar department that did not take the programme stayed unchanged.\" That rules out the alternative that output rose for general reasons.",
+      "A weakener opens the gap: \"A festival season started the same week and sales rose in all shops in the area\" gives another explanation for a shop's rising sales.",
+      "For an assumption question, state what the argument needs. \"The government plans to raise the speeding fine to reduce accidents\" needs \"Drivers will slow down to avoid the higher fine.\" Negate it and the plan fails. \"All accidents are caused by speeding\" is too strong: the plan needs only that some accidents are.",
+      "Correlation arguments are open to reverse causation. People who own pets report being happier. The columnist concludes that pets make people happier. A weakener: \"People who are already happy are more likely to adopt and keep pets.\"",
+      "The best strengthener for a causal claim is usually a controlled comparison: an experiment where randomly assigned groups differ only in the factor claimed to matter."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Alternative explanations",
+        "content": "When the premise is an observed change, the usual weakeners are another cause, a coincidence, or a change in how things were measured."
+      },
+      {
+        "title": "Necessary vs sufficient",
+        "content": "An assumption is necessary for the argument; it need not be sufficient to prove it."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Strengthen",
+      "description": "Close the gap.",
+      "exampleSnippet": "Control group"
+    },
+    {
+      "typeName": "Weaken",
+      "description": "Alternative cause.",
+      "exampleSnippet": "Festival season"
+    },
+    {
+      "typeName": "Assumption",
+      "description": "Negation test.",
+      "exampleSnippet": "Drivers will slow"
+    },
+    {
+      "typeName": "Reverse causation",
+      "description": "Order of cause reversed.",
+      "exampleSnippet": "Happy people adopt pets"
+    },
+    {
+      "typeName": "Measurement change",
+      "description": "Different yardstick.",
+      "exampleSnippet": "Shorter route"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-critical-reasoning-1",
+      "title": "Strengthen",
+      "question": "A company says its training programme improved productivity because output rose 15% in the trained department. Which fact strengthens this most?",
+      "givenInfo": [
+        "15% rise"
+      ],
+      "conceptOrFormula": "Rule out alternatives.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Gap",
+          "explanation": "Output might have risen anyway."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Strengthener",
+          "explanation": "A similar untrained department stayed unchanged."
+        }
+      ],
+      "finalAnswer": "A similar department without the programme showed no rise in output",
+      "whyItWorks": "It rules out a general cause.",
+      "commonTrap": "Choosing the company's spending.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-critical-reasoning-2",
+      "title": "Weaken",
+      "question": "A shop says its loyalty scheme raised sales because sales rose after it began. Which fact weakens this most?",
+      "givenInfo": [
+        "Sales rose after the scheme"
+      ],
+      "conceptOrFormula": "Alternative cause.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Gap",
+          "explanation": "Something else may have raised sales."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Weakener",
+          "explanation": "A festival season started that week and all shops saw sales rise."
+        }
+      ],
+      "finalAnswer": "A festival season began the same week and sales rose at all shops in the area",
+      "whyItWorks": "It offers another cause.",
+      "commonTrap": "Choosing the advertising detail.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-critical-reasoning-3",
+      "title": "Assumption",
+      "question": "To reduce accidents the government raises the fine for speeding. Which assumption does the plan depend on?",
+      "givenInfo": [
+        "Higher fine"
+      ],
+      "conceptOrFormula": "Negation test.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Needed",
+          "explanation": "Drivers must slow down because of the higher fine."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Negate",
+          "explanation": "If drivers do not slow down, the plan fails."
+        }
+      ],
+      "finalAnswer": "Drivers will slow down to avoid the higher fine",
+      "whyItWorks": "The plan needs this link.",
+      "commonTrap": "Choosing \"all accidents are caused by speeding\".",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Find the gap",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Pick the option that sounds related.",
+      "shortcutMethod": "State the gap, then pick the option that closes it (strengthen), widens it (weaken), or is needed to cross it (assumption)."
+    },
+    "rulesForApplication": [
+      "Mark conclusion and premise.",
+      "Look for alternatives.",
+      "Negate assumptions.",
+      "Reject extreme options."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing an option that only repeats the premise",
+      "whyItHappens": "Adds nothing.",
+      "howToAvoid": "The option must change the likelihood of the conclusion."
+    },
+    {
+      "mistake": "Treating \"may\" as proof",
+      "whyItHappens": "Too weak.",
+      "howToAvoid": "Prefer concrete evidence."
+    },
+    {
+      "mistake": "Confusing weaken with disprove",
+      "whyItHappens": "Weaken only lowers likelihood.",
+      "howToAvoid": "Pick the most damaging option."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "Discard options that are irrelevant to the link from premise to conclusion.",
+    "questionSelectionAdvice": "Always state the gap before reading the options.",
+    "recruiterInsight": "Wrong options often mention the topic but not the link."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-critical-reasoning-e1",
+        "question": "Argument: A company argues that its new training programme improves employee productivity, because output per employee in the department that took it rose by 15% in the following quarter.\n\nWhich of the following, if true, most strengthens the argument?",
+        "options": [
+          "The company spent a large sum on the programme.",
+          "Output in a similar department that did not take the programme stayed unchanged in the same quarter.",
+          "Employees found the programme interesting.",
+          "Some employees left the company after the programme."
+        ],
+        "correctAnswer": "Output in a similar department that did not take the programme stayed unchanged in the same quarter.",
+        "explanation": "A similar department without the programme showed no rise, which rules out a general cause and supports the programme.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-critical-reasoning-e2",
+        "question": "Argument: A shop owner claims that the shop's loyalty card scheme increased sales, because sales rose after the scheme was introduced.\n\nWhich of the following, if true, most weakens the argument?",
+        "options": [
+          "A major festival season began the same week and sales rose at all shops in the area.",
+          "The scheme was advertised widely.",
+          "Customers often hold several loyalty cards.",
+          "The shop is located in a busy market."
+        ],
+        "correctAnswer": "A major festival season began the same week and sales rose at all shops in the area.",
+        "explanation": "The festival season gives another explanation for the rise in sales, so it weakens the claim about the scheme.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-critical-reasoning-e3",
+        "question": "Argument: A city should build more cycling tracks, since they will cut air pollution by encouraging people to cycle instead of driving.\n\nWhich of the following, if true, most strengthens the argument?",
+        "options": [
+          "Cycling is a popular sport in many countries.",
+          "Cycling tracks cost less than roads.",
+          "Some cities have no cycling tracks.",
+          "In cities that built cycling tracks, the share of people commuting by cycle rose and the number of car trips fell."
+        ],
+        "correctAnswer": "In cities that built cycling tracks, the share of people commuting by cycle rose and the number of car trips fell.",
+        "explanation": "It shows that tracks lead to more cycling and fewer car trips, which is the mechanism the argument relies on.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-critical-reasoning-i7",
+        "question": "Argument: To reduce road accidents, the government plans to raise the fine for speeding.\n\nWhich of the following is an assumption on which the argument depends?",
+        "options": [
+          "Drivers will slow down to avoid the higher fine.",
+          "All road accidents are caused by speeding.",
+          "Fines are the government's main source of income.",
+          "Speeding fines have never been raised before."
+        ],
+        "correctAnswer": "Drivers will slow down to avoid the higher fine.",
+        "explanation": "The plan works only if drivers respond to the fine by slowing down. The other options are too strong or irrelevant.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-critical-reasoning-i8",
+        "question": "Argument: The new highway will boost the economy of the towns along it, because more vehicles will pass through them.\n\nWhich of the following, if true, most weakens the argument?",
+        "options": [
+          "The highway has four lanes.",
+          "Highway construction created some jobs.",
+          "Several towns along the highway are small.",
+          "The highway bypasses the towns, so vehicles can reach their destinations without entering any town."
+        ],
+        "correctAnswer": "The highway bypasses the towns, so vehicles can reach their destinations without entering any town.",
+        "explanation": "If vehicles bypass the towns, the extra traffic will not pass through them, which breaks the link in the argument.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-critical-reasoning-i9",
+        "question": "Argument: A drug is effective, because 80% of the patients who took it recovered within a week.\n\nWhich of the following, if true, most weakens the argument?",
+        "options": [
+          "The drug is expensive.",
+          "Most patients took the drug with water.",
+          "The drug was tested in many hospitals.",
+          "About 85% of patients with this illness recover within a week without any medicine."
+        ],
+        "correctAnswer": "About 85% of patients with this illness recover within a week without any medicine.",
+        "explanation": "If more patients recover without the drug, the 80% figure does not show the drug works, so it weakens the argument.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-critical-reasoning-a14",
+        "question": "Argument: A survey found that people who own pets report being happier than those who do not. A columnist concludes that owning a pet makes people happier.\n\nWhich of the following, if true, most weakens the argument?",
+        "options": [
+          "Many pet owners spend time outdoors.",
+          "Pet food can be costly.",
+          "The survey included thousands of people.",
+          "People who are already happy are more likely to adopt and keep pets."
+        ],
+        "correctAnswer": "People who are already happy are more likely to adopt and keep pets.",
+        "explanation": "This reverses the direction of cause: happiness may lead to pet ownership, so the survey does not show that pets cause happiness.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-critical-reasoning-a15",
+        "question": "Argument: The city council argues that the new parking charges will reduce traffic in the city centre, because people will choose public transport instead of paying to park.\n\nWhich of the following is an assumption on which the argument depends?",
+        "options": [
+          "The parking charges will raise a large amount of money.",
+          "Public transport is cheaper than driving for all trips.",
+          "Public transport is a practical alternative for those who now drive to the centre.",
+          "Everyone who drives to the centre parks on the street."
+        ],
+        "correctAnswer": "Public transport is a practical alternative for those who now drive to the centre.",
+        "explanation": "The argument requires that people have a workable alternative; otherwise they would keep driving and paying.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-critical-reasoning-p16",
+        "question": "Argument: Studies show that students who learn a musical instrument do better in mathematics. A teacher argues that music lessons improve mathematical ability.\n\nWhich of the following, if true, most strengthens the argument?",
+        "options": [
+          "Many students enjoy music lessons.",
+          "In an experiment, students randomly assigned to music lessons improved in mathematics more than students randomly assigned to art lessons.",
+          "Mathematics teachers often play instruments.",
+          "Music lessons cost more than art lessons."
+        ],
+        "correctAnswer": "In an experiment, students randomly assigned to music lessons improved in mathematics more than students randomly assigned to art lessons.",
+        "explanation": "Random assignment removes the possibility that better students simply choose music, so it directly supports the causal claim.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-critical-reasoning-p17",
+        "question": "Argument: The mayor claims the new flyover has cut travel time in the city, because the average time taken by buses on the route fell from 40 to 30 minutes.\n\nWhich of the following, if true, most weakens the argument?",
+        "options": [
+          "The flyover was built in two years.",
+          "At the same time, the bus route was shortened by about 25% when two stops were dropped.",
+          "The flyover has a speed limit of 60 km/h.",
+          "Bus fares on the route are unchanged."
+        ],
+        "correctAnswer": "At the same time, the bus route was shortened by about 25% when two stops were dropped.",
+        "explanation": "A route shortened by 25% would take about 30 minutes without any help from the flyover, so the fall in time may not be due to it.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-critical-reasoning-p18",
+        "question": "Argument: The editor argues that the newspaper should stop its print edition, because most readers now read it online.\n\nWhich of the following is an assumption on which the argument depends?",
+        "options": [
+          "The newspaper will not lose a significant share of its readers or revenue by ending the print edition.",
+          "Online readers are younger than print readers.",
+          "The print edition was started 50 years ago.",
+          "All print readers will switch to the online edition."
+        ],
+        "correctAnswer": "The newspaper will not lose a significant share of its readers or revenue by ending the print edition.",
+        "explanation": "The case for stopping print depends on not losing important readers or revenue. The last option is too strong; the argument needs only that losses are not significant.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Premise and conclusion.",
+      "The gap.",
+      "Strengthen.",
+      "Weaken.",
+      "Assumption."
+    ],
+    "quickFormulas": [
+      "Negate the assumption"
+    ]
+  },
+  "keyTakeaways": [
+    "Find the gap.",
+    "Rule out alternatives.",
+    "Negate to test.",
+    "Avoid extremes."
+  ],
+  "selfCheckQuestions": [
+    "Can I state the gap?",
+    "Can I weaken a causal claim?",
+    "Can I find a necessary assumption?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}
