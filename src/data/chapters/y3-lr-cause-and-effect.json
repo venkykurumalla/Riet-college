@@ -1,0 +1,418 @@
+{
+  "id": "y3-lr-cause-and-effect",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 39,
+  "title": "Cause and Effect Relationships",
+  "tagline": "Year 3 — Deciding whether one event causes the other, both share a cause, or they are unrelated",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A cause-and-effect question gives two statements about events and asks how they are related. One may be the cause and the other the effect, both may be effects of a common cause, or they may be independent. The test is the time order and the direct link: a cause produces its effect, usually later; a common cause explains why two things happened together; and two statements with no link are independent.",
+    "placementRelevance": "Cause-and-effect pairs are common in logical-reasoning sections and are quick to solve with a clear method.",
+    "realWorldContext": "Tracing the root cause of a fault, a delay or a price change uses the same reasoning."
+  },
+  "learningObjectives": [
+    "Identify immediate and principal causes",
+    "Use time order and direct links",
+    "Recognise a common cause behind two effects",
+    "Recognise independent events",
+    "Avoid reversing cause and effect"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Statements and Arguments"
+    ],
+    "quickRefresher": "A cause explains why the effect happened and usually comes before it in time."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Cause: an event that produces another event.",
+      "Effect: the event produced.",
+      "Common cause: one event that produces two separate effects.",
+      "Independent events: neither causes the other and there is no shared cause.",
+      "Immediate cause: the event just before the effect; principal cause: the root reason."
+    ],
+    "theoreticalIntuition": "Try the sentence \"I happened because II\" and then \"II happened because I\". If neither sounds right but both sound like results of something else, look for a shared cause.",
+    "visualOrMentalModel": "Say \"because\" both ways. If one direction fits and the other does not, you have cause and effect. If both are consequences of one hidden event, it is a common cause. If neither works, they are independent."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Because test",
+      "formula": "\"A because B\" fits one way only",
+      "description": "Cause–effect.",
+      "whenToUse": "First test.",
+      "simpleExample": "Waterlogging because of rain"
+    },
+    {
+      "title": "Time order",
+      "formula": "Cause precedes effect",
+      "description": "Events in time.",
+      "whenToUse": "Second test.",
+      "simpleExample": "Strike then stranded commuters"
+    },
+    {
+      "title": "Common cause",
+      "formula": "One event, two effects",
+      "description": "Both statements are results.",
+      "whenToUse": "Third test.",
+      "simpleExample": "Pollution → allergies and fish deaths"
+    },
+    {
+      "title": "Independence",
+      "formula": "No link in either direction",
+      "description": "Unrelated.",
+      "whenToUse": "Fourth test.",
+      "simpleExample": "Gold price and a film hit"
+    },
+    {
+      "title": "Reversal trap",
+      "formula": "Do not confuse the result with the reason",
+      "description": "Common error.",
+      "whenToUse": "Check.",
+      "simpleExample": "Holiday is the effect of the warning"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Heavy rain lashed the city for three days (I); many low-lying areas were waterlogged (II). \"Waterlogged because of the rain\" fits; \"rain because of waterlogging\" does not. I is the cause and II its effect.",
+      "A school holiday and a cyclone warning: the school declared a holiday because the warning was issued, so II is the cause and I its effect.",
+      "Many people in an area suffering from skin allergies and fish dying in the nearby river: neither causes the other, but one hidden cause such as factory discharge explains both. They are effects of a common cause.",
+      "A rise in the price of gold and a film becoming a box-office hit have no link in either direction and no shared cause. They are independent.",
+      "Beware of reversing the order. A bank cutting its lending rates after the central bank cuts its policy rate: the policy-rate cut is the cause (II), the lending-rate cut is the effect (I)."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Chains of causes",
+        "content": "When there is a chain A → B → C, the closer link is the immediate cause; the question usually asks only about the two given statements."
+      },
+      {
+        "title": "Correlation is not causation",
+        "content": "Two events that occur together are not necessarily linked; the independent option exists for this reason."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct cause",
+      "description": "I → II.",
+      "exampleSnippet": "Rain, waterlogging"
+    },
+    {
+      "typeName": "Reverse cause",
+      "description": "II → I.",
+      "exampleSnippet": "Warning, holiday"
+    },
+    {
+      "typeName": "Common cause",
+      "description": "One source.",
+      "exampleSnippet": "Pollution"
+    },
+    {
+      "typeName": "Independent",
+      "description": "No link.",
+      "exampleSnippet": "Gold and a film"
+    },
+    {
+      "typeName": "Policy chain",
+      "description": "Upstream decision.",
+      "exampleSnippet": "Policy rate, lending rate"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-cause-and-effect-1",
+      "title": "Direct cause",
+      "question": "I. Heavy rain lashed the city for three days. II. Many low-lying areas were waterlogged. How are they related?",
+      "givenInfo": [
+        "Rain, waterlogging"
+      ],
+      "conceptOrFormula": "Because test.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Test",
+          "explanation": "\"Waterlogged because of heavy rain\" fits."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Reverse",
+          "explanation": "\"Rain because of waterlogging\" does not."
+        }
+      ],
+      "finalAnswer": "I is the cause and II is its effect",
+      "whyItWorks": "The rain came first.",
+      "commonTrap": "Reversing them.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-cause-and-effect-2",
+      "title": "Common cause",
+      "question": "I. Many people in an area suffered from skin allergies. II. Fish died in large numbers in the nearby river. How are they related?",
+      "givenInfo": [
+        "Two effects"
+      ],
+      "conceptOrFormula": "Look for a shared source.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Neither causes the other",
+          "explanation": "Allergies do not kill fish; dead fish do not cause allergies directly."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Shared source",
+          "explanation": "Polluted water or discharge explains both."
+        }
+      ],
+      "finalAnswer": "Both are effects of a common cause",
+      "whyItWorks": "Environmental pollution is the likely common cause.",
+      "commonTrap": "Calling them independent.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-cause-and-effect-3",
+      "title": "Independent",
+      "question": "I. The price of gold rose sharply. II. A new film became a box-office hit. How are they related?",
+      "givenInfo": [
+        "Unrelated news"
+      ],
+      "conceptOrFormula": "Try both directions.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Forward",
+          "explanation": "A rise in gold price does not produce a hit film."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Backward",
+          "explanation": "A hit film does not raise gold prices, and no common cause is apparent."
+        }
+      ],
+      "finalAnswer": "The two statements are independent of each other",
+      "whyItWorks": "No link exists.",
+      "commonTrap": "Inventing a link.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Because, both ways",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Guess from the topic.",
+      "shortcutMethod": "Say \"because\" both ways; one-way fit means cause and effect, both being results of a hidden event means common cause, no fit means independent."
+    },
+    "rulesForApplication": [
+      "Cause comes first.",
+      "Check the reverse.",
+      "Hidden shared source: common cause.",
+      "No link: independent."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reversing cause and effect",
+      "whyItHappens": "Time order ignored.",
+      "howToAvoid": "Check which came first."
+    },
+    {
+      "mistake": "Calling a correlation a cause",
+      "whyItHappens": "Linked only by coincidence.",
+      "howToAvoid": "Use independence."
+    },
+    {
+      "mistake": "Missing a shared cause",
+      "whyItHappens": "Both are results.",
+      "howToAvoid": "Look for one hidden source."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 45,
+    "eliminationTechnique": "Eliminate the reverse direction first.",
+    "questionSelectionAdvice": "Look for words such as announced, decided, imposed (usually causes).",
+    "recruiterInsight": "Policy decisions usually come before their consequences."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-cause-and-effect-e1",
+        "question": "Statements:\nI. Heavy rain lashed the city for three days.\nII. Many low-lying areas of the city were waterlogged.\n\nWhich of the following is correct?",
+        "options": [
+          "II is the cause and I is its effect",
+          "I is the cause and II is its effect",
+          "Both are effects of a common cause",
+          "The two statements are independent of each other"
+        ],
+        "correctAnswer": "I is the cause and II is its effect",
+        "explanation": "Waterlogging is the result of the rain, and the rain came first. Answer: I is the cause and II is its effect.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-cause-and-effect-e2",
+        "question": "Statements:\nI. The school declared a holiday for Monday.\nII. A cyclone warning was issued for the district.\n\nWhich of the following is correct?",
+        "options": [
+          "II is the cause and I is its effect",
+          "I is the cause and II is its effect",
+          "Both are effects of a common cause",
+          "The two statements are independent of each other"
+        ],
+        "correctAnswer": "II is the cause and I is its effect",
+        "explanation": "The holiday was declared because of the cyclone warning, so II is the cause. Answer: II is the cause and I is its effect.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-cause-and-effect-e3",
+        "question": "Statements:\nI. The price of onions has doubled in the market.\nII. Heavy rain destroyed a large part of the onion crop.\n\nWhich of the following is correct?",
+        "options": [
+          "I is the cause and II is its effect",
+          "Both are effects of a common cause",
+          "The two statements are independent of each other",
+          "II is the cause and I is its effect"
+        ],
+        "correctAnswer": "II is the cause and I is its effect",
+        "explanation": "The crop loss reduced supply and raised prices, so II is the cause. Answer: II is the cause and I is its effect.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-cause-and-effect-i7",
+        "question": "Statements:\nI. Many people in the city fell ill with fever.\nII. The municipal water supply was found to be contaminated.\n\nWhich of the following is correct?",
+        "options": [
+          "II is the cause and I is its effect",
+          "I is the cause and II is its effect",
+          "Both are effects of a common cause",
+          "The two statements are independent of each other"
+        ],
+        "correctAnswer": "II is the cause and I is its effect",
+        "explanation": "Contaminated water caused the illnesses, so II is the cause. Answer: II is the cause and I is its effect.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-cause-and-effect-i8",
+        "question": "Statements:\nI. Demand for air conditioners rose sharply in the city.\nII. Summer temperatures reached a record high.\n\nWhich of the following is correct?",
+        "options": [
+          "I is the cause and II is its effect",
+          "Both are effects of a common cause",
+          "The two statements are independent of each other",
+          "II is the cause and I is its effect"
+        ],
+        "correctAnswer": "II is the cause and I is its effect",
+        "explanation": "The record heat caused the rise in demand, so II is the cause. Answer: II is the cause and I is its effect.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-cause-and-effect-i9",
+        "question": "Statements:\nI. Many people in an area suffered from skin allergies.\nII. Fish died in large numbers in a nearby river.\n\nWhich of the following is correct?",
+        "options": [
+          "I is the cause and II is its effect",
+          "II is the cause and I is its effect",
+          "The two statements are independent of each other",
+          "Both are effects of a common cause"
+        ],
+        "correctAnswer": "Both are effects of a common cause",
+        "explanation": "Neither causes the other; industrial discharge into the river and surroundings could explain both. Answer: Both are effects of a common cause.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-cause-and-effect-a15",
+        "question": "Statements:\nI. The government cut the import duty on edible oil.\nII. The retail price of edible oil fell in the market.\n\nWhich of the following is correct?",
+        "options": [
+          "II is the cause and I is its effect",
+          "Both are effects of a common cause",
+          "I is the cause and II is its effect",
+          "The two statements are independent of each other"
+        ],
+        "correctAnswer": "I is the cause and II is its effect",
+        "explanation": "Lower import duty reduced the cost of importing oil, which brought down retail prices. Answer: I is the cause and II is its effect.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-cause-and-effect-a16",
+        "question": "Statements:\nI. Many students reported stomach pain after lunch on Tuesday.\nII. Several teachers who ate in the school canteen the same day also fell ill.\n\nWhich of the following is correct?",
+        "options": [
+          "I is the cause and II is its effect",
+          "Both are effects of a common cause",
+          "II is the cause and I is its effect",
+          "The two statements are independent of each other"
+        ],
+        "correctAnswer": "Both are effects of a common cause",
+        "explanation": "Neither group's illness caused the other's; contaminated food in the canteen is a likely common cause. Answer: Both are effects of a common cause.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-cause-and-effect-p17",
+        "question": "Statements:\nI. Thousands of commuters were stranded at the railway station.\nII. The railway employees went on a strike.\n\nWhich of the following is correct?",
+        "options": [
+          "I is the cause and II is its effect",
+          "II is the cause and I is its effect",
+          "Both are effects of a common cause",
+          "The two statements are independent of each other"
+        ],
+        "correctAnswer": "II is the cause and I is its effect",
+        "explanation": "The strike stopped trains and stranded commuters, so II is the cause. Answer: II is the cause and I is its effect.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-cause-and-effect-p18",
+        "question": "Statements:\nI. A new highway was inaugurated in the district.\nII. A famous poet was awarded a national prize.\n\nWhich of the following is correct?",
+        "options": [
+          "The two statements are independent of each other",
+          "I is the cause and II is its effect",
+          "II is the cause and I is its effect",
+          "Both are effects of a common cause"
+        ],
+        "correctAnswer": "The two statements are independent of each other",
+        "explanation": "The events are unrelated. Answer: The two statements are independent of each other.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-cause-and-effect-p19",
+        "question": "Statements:\nI. A large number of people migrated from the village to the city.\nII. Many village schools had to be closed because of low enrolment.\n\nWhich of the following is correct?",
+        "options": [
+          "II is the cause and I is its effect",
+          "Both are effects of a common cause",
+          "The two statements are independent of each other",
+          "I is the cause and II is its effect"
+        ],
+        "correctAnswer": "I is the cause and II is its effect",
+        "explanation": "Migration reduced the number of children in the village, leading to closures of schools. Answer: I is the cause and II is its effect.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Because test.",
+      "Time order.",
+      "Common cause.",
+      "Independent.",
+      "Reversal trap."
+    ],
+    "quickFormulas": [
+      "Cause precedes effect"
+    ]
+  },
+  "keyTakeaways": [
+    "Because, both ways.",
+    "Time order.",
+    "Shared source.",
+    "No link: independent."
+  ],
+  "selfCheckQuestions": [
+    "Can I spot a reversal?",
+    "Can I find a common cause?",
+    "Can I call two events independent?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

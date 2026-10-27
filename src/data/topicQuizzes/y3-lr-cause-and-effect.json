@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-cause-and-effect",
+  "topicTitle": "Cause and Effect Relationships",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Statements:\nI. Heavy rain lashed the city for three days.\nII. Many low-lying areas of the city were waterlogged.\n\nWhich of the following is correct?",
+      "options": [
+        "II is the cause and I is its effect",
+        "I is the cause and II is its effect",
+        "Both are effects of a common cause",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 1,
+      "explanation": "Waterlogging is the result of the rain, and the rain came first. Answer: I is the cause and II is its effect."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Statements:\nI. The school declared a holiday for Monday.\nII. A cyclone warning was issued for the district.\n\nWhich of the following is correct?",
+      "options": [
+        "II is the cause and I is its effect",
+        "I is the cause and II is its effect",
+        "Both are effects of a common cause",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 0,
+      "explanation": "The holiday was declared because of the cyclone warning, so II is the cause. Answer: II is the cause and I is its effect."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Statements:\nI. The price of onions has doubled in the market.\nII. Heavy rain destroyed a large part of the onion crop.\n\nWhich of the following is correct?",
+      "options": [
+        "I is the cause and II is its effect",
+        "Both are effects of a common cause",
+        "The two statements are independent of each other",
+        "II is the cause and I is its effect"
+      ],
+      "answerIndex": 3,
+      "explanation": "The crop loss reduced supply and raised prices, so II is the cause. Answer: II is the cause and I is its effect."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Statements:\nI. Ravi did not study for the test.\nII. Ravi failed the test.\n\nWhich of the following is correct?",
+      "options": [
+        "II is the cause and I is its effect",
+        "Both are effects of a common cause",
+        "I is the cause and II is its effect",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 2,
+      "explanation": "Not studying led to failing, so I is the cause. Answer: I is the cause and II is its effect."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Statements:\nI. The price of petrol rose sharply.\nII. Bus fares in the city were increased.\n\nWhich of the following is correct?",
+      "options": [
+        "II is the cause and I is its effect",
+        "Both are effects of a common cause",
+        "I is the cause and II is its effect",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 2,
+      "explanation": "Higher fuel costs led operators to raise fares, so I is the cause. Answer: I is the cause and II is its effect."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Statements:\nI. The river overflowed and flooded nearby villages.\nII. The dam released a large quantity of water.\n\nWhich of the following is correct?",
+      "options": [
+        "I is the cause and II is its effect",
+        "II is the cause and I is its effect",
+        "Both are effects of a common cause",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 1,
+      "explanation": "The dam release caused the river to overflow, so II is the cause. Answer: II is the cause and I is its effect."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Statements:\nI. Many people in the city fell ill with fever.\nII. The municipal water supply was found to be contaminated.\n\nWhich of the following is correct?",
+      "options": [
+        "II is the cause and I is its effect",
+        "I is the cause and II is its effect",
+        "Both are effects of a common cause",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 0,
+      "explanation": "Contaminated water caused the illnesses, so II is the cause. Answer: II is the cause and I is its effect."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Statements:\nI. Demand for air conditioners rose sharply in the city.\nII. Summer temperatures reached a record high.\n\nWhich of the following is correct?",
+      "options": [
+        "I is the cause and II is its effect",
+        "Both are effects of a common cause",
+        "The two statements are independent of each other",
+        "II is the cause and I is its effect"
+      ],
+      "answerIndex": 3,
+      "explanation": "The record heat caused the rise in demand, so II is the cause. Answer: II is the cause and I is its effect."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Statements:\nI. Many people in an area suffered from skin allergies.\nII. Fish died in large numbers in a nearby river.\n\nWhich of the following is correct?",
+      "options": [
+        "I is the cause and II is its effect",
+        "II is the cause and I is its effect",
+        "The two statements are independent of each other",
+        "Both are effects of a common cause"
+      ],
+      "answerIndex": 3,
+      "explanation": "Neither causes the other; industrial discharge into the river and surroundings could explain both. Answer: Both are effects of a common cause."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Statements:\nI. The price of gold rose sharply last week.\nII. A new film became a box-office hit.\n\nWhich of the following is correct?",
+      "options": [
+        "I is the cause and II is its effect",
+        "II is the cause and I is its effect",
+        "The two statements are independent of each other",
+        "Both are effects of a common cause"
+      ],
+      "answerIndex": 2,
+      "explanation": "There is no link in either direction and no common cause. Answer: The two statements are independent of each other."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Statements:\nI. The company introduced a new, cheaper model of its phone.\nII. The company's market share in that segment increased.\n\nWhich of the following is correct?",
+      "options": [
+        "II is the cause and I is its effect",
+        "I is the cause and II is its effect",
+        "Both are effects of a common cause",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 1,
+      "explanation": "The cheaper model attracted buyers, so I is the cause. Answer: I is the cause and II is its effect."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Statements:\nI. Hospitals reported a rise in patients with breathing problems.\nII. Visibility on city roads dropped sharply in the mornings.\n\nWhich of the following is correct?",
+      "options": [
+        "Both are effects of a common cause",
+        "I is the cause and II is its effect",
+        "II is the cause and I is its effect",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dense smog or air pollution would explain both, so they are effects of a common cause. Answer: Both are effects of a common cause."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Statements:\nI. The local football team won the district cup.\nII. The municipal corporation raised property tax.\n\nWhich of the following is correct?",
+      "options": [
+        "The two statements are independent of each other",
+        "I is the cause and II is its effect",
+        "II is the cause and I is its effect",
+        "Both are effects of a common cause"
+      ],
+      "answerIndex": 0,
+      "explanation": "The two events have no connection. Answer: The two statements are independent of each other."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Statements:\nI. The bank reduced its lending rates.\nII. The central bank cut its policy rate.\n\nWhich of the following is correct?",
+      "options": [
+        "I is the cause and II is its effect",
+        "Both are effects of a common cause",
+        "The two statements are independent of each other",
+        "II is the cause and I is its effect"
+      ],
+      "answerIndex": 3,
+      "explanation": "The bank cut its lending rates following the policy-rate cut, so II is the cause. Answer: II is the cause and I is its effect."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Statements:\nI. The government cut the import duty on edible oil.\nII. The retail price of edible oil fell in the market.\n\nWhich of the following is correct?",
+      "options": [
+        "II is the cause and I is its effect",
+        "Both are effects of a common cause",
+        "I is the cause and II is its effect",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lower import duty reduced the cost of importing oil, which brought down retail prices. Answer: I is the cause and II is its effect."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Statements:\nI. Many students reported stomach pain after lunch on Tuesday.\nII. Several teachers who ate in the school canteen the same day also fell ill.\n\nWhich of the following is correct?",
+      "options": [
+        "I is the cause and II is its effect",
+        "Both are effects of a common cause",
+        "II is the cause and I is its effect",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 1,
+      "explanation": "Neither group's illness caused the other's; contaminated food in the canteen is a likely common cause. Answer: Both are effects of a common cause."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Statements:\nI. Thousands of commuters were stranded at the railway station.\nII. The railway employees went on a strike.\n\nWhich of the following is correct?",
+      "options": [
+        "I is the cause and II is its effect",
+        "II is the cause and I is its effect",
+        "Both are effects of a common cause",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 1,
+      "explanation": "The strike stopped trains and stranded commuters, so II is the cause. Answer: II is the cause and I is its effect."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Statements:\nI. A new highway was inaugurated in the district.\nII. A famous poet was awarded a national prize.\n\nWhich of the following is correct?",
+      "options": [
+        "The two statements are independent of each other",
+        "I is the cause and II is its effect",
+        "II is the cause and I is its effect",
+        "Both are effects of a common cause"
+      ],
+      "answerIndex": 0,
+      "explanation": "The events are unrelated. Answer: The two statements are independent of each other."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Statements:\nI. A large number of people migrated from the village to the city.\nII. Many village schools had to be closed because of low enrolment.\n\nWhich of the following is correct?",
+      "options": [
+        "II is the cause and I is its effect",
+        "Both are effects of a common cause",
+        "The two statements are independent of each other",
+        "I is the cause and II is its effect"
+      ],
+      "answerIndex": 3,
+      "explanation": "Migration reduced the number of children in the village, leading to closures of schools. Answer: I is the cause and II is its effect."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Statements:\nI. Farmers in the region lost standing crops.\nII. Cattle in the region died in large numbers.\n\nWhich of the following is correct?",
+      "options": [
+        "I is the cause and II is its effect",
+        "II is the cause and I is its effect",
+        "Both are effects of a common cause",
+        "The two statements are independent of each other"
+      ],
+      "answerIndex": 2,
+      "explanation": "Neither caused the other; a severe drought or flood in the region would explain both. Answer: Both are effects of a common cause."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/cause-and-effect/"
+}

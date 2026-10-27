@@ -1,0 +1,418 @@
+{
+  "id": "y3-lr-statements-arguments",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 38,
+  "title": "Statements and Arguments — Strong vs Weak",
+  "tagline": "Year 3 — Judging arguments for and against a proposal: relevance, importance, specificity and practicality",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In a statement-and-argument question you are given a proposal (usually \"Should X be done?\") and two arguments. You do not decide whether the proposal is right; you decide whether each argument is strong or weak. A strong argument is important, directly related to the proposal and based on facts or sound reasoning. A weak argument is vague, trivial, based on personal likes, or only loosely related.",
+    "placementRelevance": "Argument-strength questions are a regular part of logical-reasoning sections in company tests.",
+    "realWorldContext": "Weighing the reasons offered in a meeting, a debate or a policy note uses the same judgement."
+  },
+  "learningObjectives": [
+    "Apply the four tests: relevant, important, specific, practical",
+    "Spot weak arguments based on imitation, taste or exaggeration",
+    "Accept arguments for and against that are both strong",
+    "Reject vague or circular reasons",
+    "Use the four standard answer options correctly"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Statements and Conclusions — Critical Filtering"
+    ],
+    "quickRefresher": "A strong argument supports or opposes the statement with a real, relevant reason. A weak argument gives a trivial, personal or irrelevant reason."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Strong argument: relevant to the statement, important in size, and based on facts or sound reasoning.",
+      "Weak argument: vague, trivial, emotional, based on personal taste, or about a different issue.",
+      "Imitation argument: \"other countries do it\" is weak unless it gives the reason it works.",
+      "Exaggeration: words such as \"only way\", \"never\" or \"everyone\" usually make an argument weak.",
+      "Opposite sides: an argument for and an argument against can both be strong."
+    ],
+    "theoreticalIntuition": "Ask: if this reason were true, would it seriously matter for a sensible decision on the proposal? If yes, it is strong.",
+    "visualOrMentalModel": "Test each argument on four questions: Is it about this proposal? Is it important? Is it specific? Does it avoid exaggeration? A \"no\" to the first two makes it weak."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Relevance test",
+      "formula": "Does it concern this proposal?",
+      "description": "Each argument.",
+      "whenToUse": "First filter.",
+      "simpleExample": "Passive smoke → smoking ban"
+    },
+    {
+      "title": "Importance test",
+      "formula": "Is the effect large or serious?",
+      "description": "Health, safety, cost.",
+      "whenToUse": "Second filter.",
+      "simpleExample": "Cheapness is minor against harm"
+    },
+    {
+      "title": "Specificity test",
+      "formula": "Is the reason concrete?",
+      "description": "No vague words.",
+      "whenToUse": "Third filter.",
+      "simpleExample": "It pollutes vs it is bad"
+    },
+    {
+      "title": "Exaggeration test",
+      "formula": "Look for only, never, all",
+      "description": "Absolute words.",
+      "whenToUse": "Fourth filter.",
+      "simpleExample": "The only way ever"
+    },
+    {
+      "title": "Pair rule",
+      "formula": "For and against can both be strong",
+      "description": "Opposite sides.",
+      "whenToUse": "Both strong.",
+      "simpleExample": "Digital payments"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Statement: Should plastic bags be banned? Argument I says yes because they pollute the environment and harm animals. This is relevant, important and specific, so it is strong. Argument II says no because they are cheap. Cheapness is a minor point compared with environmental harm, so it is weak.",
+      "Imitation is a common weak argument. \"The government should give free vaccines because other countries do\" gives no reason. \"Because it prevents serious diseases and protects the community\" gives the reason and is strong.",
+      "Both arguments can be strong when they take opposite sides on real grounds. Should cash be replaced entirely by digital payments? \"Digital payments are faster and traceable\" is strong; \"many villages lack internet and smartphones\" is also strong.",
+      "Exaggeration weakens an argument. \"Exams are the only way to ever know anything\" overstates; \"exams cause some students stress\" is true but too small a reason to abolish them. Neither is strong.",
+      "For decisions with extreme actions, such as banning all imports, check whether the argument addresses the extreme: a reason such as \"key inputs are not produced domestically\" directly shows why the extreme step is unwise."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Personal taste",
+        "content": "\"Students will not like it\" or \"people enjoy driving\" describe preferences, not consequences."
+      },
+      {
+        "title": "Possibility vs probability",
+        "content": "\"Some employees may misuse it\" is a bare possibility and is usually weak unless backed by evidence."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "One strong one weak",
+      "description": "Test each.",
+      "exampleSnippet": "Plastic bags"
+    },
+    {
+      "typeName": "Both strong",
+      "description": "Opposite sides.",
+      "exampleSnippet": "Digital payments"
+    },
+    {
+      "typeName": "Neither strong",
+      "description": "Vague or exaggerated.",
+      "exampleSnippet": "Abolish exams"
+    },
+    {
+      "typeName": "Imitation arguments",
+      "description": "Weak.",
+      "exampleSnippet": "Other countries do it"
+    },
+    {
+      "typeName": "Extreme proposals",
+      "description": "Check the reason fits.",
+      "exampleSnippet": "Ban all imports"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-statements-arguments-1",
+      "title": "Strong versus weak",
+      "question": "Should smoking be banned in public places? I. Yes, passive smoke harms the health of non-smokers. II. No, smokers will feel unhappy. Which is strong?",
+      "givenInfo": [
+        "Two arguments"
+      ],
+      "conceptOrFormula": "Apply relevance and importance.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Argument I",
+          "explanation": "Health harm to others is relevant and important: strong."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Argument II",
+          "explanation": "Unhappiness of smokers is minor next to health risk: weak."
+        }
+      ],
+      "finalAnswer": "Only argument I is strong",
+      "whyItWorks": "Health outweighs a preference.",
+      "commonTrap": "Calling both strong.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-statements-arguments-2",
+      "title": "Both strong",
+      "question": "Should the retirement age be raised to 65? I. Yes, people live longer and stay productive. II. No, it will reduce job openings for young people. Which is strong?",
+      "givenInfo": [
+        "Opposite sides"
+      ],
+      "conceptOrFormula": "Each has a real reason.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Argument I",
+          "explanation": "Longevity and productivity are relevant facts: strong."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Argument II",
+          "explanation": "Fewer openings for the young is a real effect: strong."
+        }
+      ],
+      "finalAnswer": "Both arguments are strong",
+      "whyItWorks": "Opposite arguments can both be strong.",
+      "commonTrap": "Assuming one must be weak.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-statements-arguments-3",
+      "title": "Neither strong",
+      "question": "Should students be given pocket money? I. Yes, because everyone should have some money. II. No, because it is bad. Which is strong?",
+      "givenInfo": [
+        "Vague reasons"
+      ],
+      "conceptOrFormula": "Look for specifics.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Argument I",
+          "explanation": "\"Everyone should\" is a vague claim: weak."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Argument II",
+          "explanation": "\"It is bad\" gives no reason: weak."
+        }
+      ],
+      "finalAnswer": "Neither argument I nor II is strong",
+      "whyItWorks": "Neither names a concrete benefit or harm.",
+      "commonTrap": "Choosing the side you like.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Four-test filter",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Go by feeling.",
+      "shortcutMethod": "Check relevance, importance, specificity and exaggeration for each argument separately; ignore which side you favour."
+    },
+    "rulesForApplication": [
+      "Judge each argument alone.",
+      "Both can be strong.",
+      "Imitation and taste are weak.",
+      "Absolute words are red flags."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Judging by your own opinion",
+      "whyItHappens": "Bias.",
+      "howToAvoid": "Judge strength, not agreement."
+    },
+    {
+      "mistake": "Assuming one must be strong",
+      "whyItHappens": "False pairing.",
+      "howToAvoid": "Test each separately."
+    },
+    {
+      "mistake": "Accepting fact without relevance",
+      "whyItHappens": "True but off topic.",
+      "howToAvoid": "Check the link to the proposal."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "If both arguments are vague, the answer is neither.",
+    "questionSelectionAdvice": "Mark absolute words and personal-taste words.",
+    "recruiterInsight": "Strong arguments name a concrete benefit or harm."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-statements-arguments-e1",
+        "question": "Statement: Should plastic bags be banned?\n\nArguments:\nI. Yes, they pollute the environment and harm animals.\nII. No, they are very cheap.\n\nWhich of the following is correct?",
+        "options": [
+          "Only argument II is strong",
+          "Only argument I is strong",
+          "Both arguments I and II are strong",
+          "Neither argument I nor II is strong"
+        ],
+        "correctAnswer": "Only argument I is strong",
+        "explanation": "Environmental harm is relevant and serious (I strong); low price is a minor point against that harm (II weak). Answer: Only argument I is strong.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-statements-arguments-e2",
+        "question": "Statement: Should voting be made compulsory?\n\nArguments:\nI. No, because many people dislike politics.\nII. Yes, it will raise voter turnout and make governments more representative.\n\nWhich of the following is correct?",
+        "options": [
+          "Only argument II is strong",
+          "Only argument I is strong",
+          "Both arguments I and II are strong",
+          "Neither argument I nor II is strong"
+        ],
+        "correctAnswer": "Only argument II is strong",
+        "explanation": "Higher turnout and wider representation are direct, important effects (II strong); disliking politics is a personal attitude, not a consequence (I weak). Answer: Only argument II is strong.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-statements-arguments-e3",
+        "question": "Statement: Should school students be given daily homework?\n\nArguments:\nI. Yes, regular practice improves learning.\nII. Yes, because teachers like to check notebooks.\n\nWhich of the following is correct?",
+        "options": [
+          "Only argument II is strong",
+          "Both arguments I and II are strong",
+          "Neither argument I nor II is strong",
+          "Only argument I is strong"
+        ],
+        "correctAnswer": "Only argument I is strong",
+        "explanation": "Better learning is the central purpose of homework (I strong); teachers' liking is irrelevant (II weak). Answer: Only argument I is strong.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-statements-arguments-i7",
+        "question": "Statement: Should cash be completely replaced by digital payments?\n\nArguments:\nI. Yes, digital payments are faster and leave a traceable record.\nII. No, many villages do not have reliable internet or smartphones.\n\nWhich of the following is correct?",
+        "options": [
+          "Both arguments I and II are strong",
+          "Only argument I is strong",
+          "Only argument II is strong",
+          "Neither argument I nor II is strong"
+        ],
+        "correctAnswer": "Both arguments I and II are strong",
+        "explanation": "Speed and traceability are real advantages (I strong); lack of access in villages is a serious practical objection (II strong). Answer: Both arguments I and II are strong.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-statements-arguments-i8",
+        "question": "Statement: Should the retirement age be raised to 65?\n\nArguments:\nI. Yes, people now live longer and remain productive for longer.\nII. No, it will reduce job openings for young people.\n\nWhich of the following is correct?",
+        "options": [
+          "Only argument I is strong",
+          "Only argument II is strong",
+          "Neither argument I nor II is strong",
+          "Both arguments I and II are strong"
+        ],
+        "correctAnswer": "Both arguments I and II are strong",
+        "explanation": "Longer, productive lives are relevant (I strong) and reduced openings for the young are a real effect (II strong). Answer: Both arguments I and II are strong.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-statements-arguments-i9",
+        "question": "Statement: Should the examination system be abolished?\n\nArguments:\nI. Yes, exams cause stress to some students.\nII. No, exams are the only way to ever know anything about a student.\n\nWhich of the following is correct?",
+        "options": [
+          "Only argument I is strong",
+          "Only argument II is strong",
+          "Both arguments I and II are strong",
+          "Neither argument I nor II is strong"
+        ],
+        "correctAnswer": "Neither argument I nor II is strong",
+        "explanation": "Stress for some students is too small a reason to abolish exams (I weak); \"the only way to ever know anything\" is an exaggeration (II weak). Answer: Neither argument I nor II is strong.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-statements-arguments-a15",
+        "question": "Statement: Should the government stop all imports of foreign goods?\n\nArguments:\nI. Yes, it will protect domestic industries.\nII. No, India does not produce many essential inputs and others may retaliate with trade barriers on its exports.\n\nWhich of the following is correct?",
+        "options": [
+          "Only argument I is strong",
+          "Both arguments I and II are strong",
+          "Only argument II is strong",
+          "Neither argument I nor II is strong"
+        ],
+        "correctAnswer": "Only argument II is strong",
+        "explanation": "The proposal is extreme. Missing essential inputs and the risk of retaliation are concrete reasons against stopping all imports (II strong). Protecting industries does not justify a total ban (I weak). Answer: Only argument II is strong.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-statements-arguments-a16",
+        "question": "Statement: Should all government jobs be given only on the basis of examination marks?\n\nArguments:\nI. Yes, it ensures objective and transparent selection.\nII. No, marks alone cannot measure every skill needed for a job.\n\nWhich of the following is correct?",
+        "options": [
+          "Only argument I is strong",
+          "Both arguments I and II are strong",
+          "Only argument II is strong",
+          "Neither argument I nor II is strong"
+        ],
+        "correctAnswer": "Both arguments I and II are strong",
+        "explanation": "Objectivity is a real benefit (I strong) and marks do not capture every skill (II strong). Answer: Both arguments I and II are strong.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-statements-arguments-p17",
+        "question": "Statement: Should examinations be held online?\n\nArguments:\nI. Yes, since computers are used everywhere nowadays.\nII. No, a computer may sometimes hang.\n\nWhich of the following is correct?",
+        "options": [
+          "Only argument I is strong",
+          "Neither argument I nor II is strong",
+          "Only argument II is strong",
+          "Both arguments I and II are strong"
+        ],
+        "correctAnswer": "Neither argument I nor II is strong",
+        "explanation": "\"Computers are used everywhere\" is vague and does not address exams (I weak); an occasional hang is a minor, fixable issue (II weak). Answer: Neither argument I nor II is strong.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-statements-arguments-p18",
+        "question": "Statement: Should employees be allowed to work from home permanently?\n\nArguments:\nI. Yes, it saves commuting time and costs for both the employees and the company.\nII. No, some employees may misuse the freedom.\n\nWhich of the following is correct?",
+        "options": [
+          "Only argument I is strong",
+          "Only argument II is strong",
+          "Both arguments I and II are strong",
+          "Neither argument I nor II is strong"
+        ],
+        "correctAnswer": "Only argument I is strong",
+        "explanation": "Time and cost savings are specific and important (I strong). \"May misuse\" is a bare possibility without evidence (II weak). Answer: Only argument I is strong.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-statements-arguments-p19",
+        "question": "Statement: Should the government spend money on space research when many people are poor?\n\nArguments:\nI. Yes, because it makes the country famous.\nII. Yes, space technology provides weather forecasts, communication and navigation that also help the poor.\n\nWhich of the following is correct?",
+        "options": [
+          "Only argument I is strong",
+          "Both arguments I and II are strong",
+          "Neither argument I nor II is strong",
+          "Only argument II is strong"
+        ],
+        "correctAnswer": "Only argument II is strong",
+        "explanation": "Weather forecasts, communication and navigation are concrete benefits (II strong); fame is not a practical benefit (I weak). Answer: Only argument II is strong.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Relevance.",
+      "Importance.",
+      "Specificity.",
+      "Exaggeration.",
+      "Both can be strong."
+    ],
+    "quickFormulas": [
+      "Strong = relevant + important + specific"
+    ]
+  },
+  "keyTakeaways": [
+    "Judge each alone.",
+    "Look for concrete reasons.",
+    "Ignore taste.",
+    "Beware absolutes."
+  ],
+  "selfCheckQuestions": [
+    "Can I reject an imitation argument?",
+    "Can I accept two opposite strong arguments?",
+    "Can I spot exaggeration?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}
