@@ -4,6 +4,13 @@ import { CRTYearId, TopicQuizData } from '../types/crtTypes';
 import { crtProgressService } from '../services/crtProgressService';
 
 const PAGE_SIZE = 5;
+
+// A question may carry its data set (table, chart values) before the actual question, separated by a blank line.
+const splitQuestion = (text: string) => {
+  const parts = text.split('\n\n');
+  const stem = parts.pop() ?? text;
+  return { context: parts.join('\n\n'), stem };
+};
 const LETTERS = ['A', 'B', 'C', 'D'];
 
 interface TopicQuizProps {
@@ -74,9 +81,16 @@ export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz }) =
               return (
                 <div key={q.id} className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
                   <div className="flex items-start justify-between gap-3">
-                    <p className="text-sm font-bold text-slate-900 leading-relaxed whitespace-pre-line">
-                      {number}. {q.question}
-                    </p>
+                    <div className="min-w-0 space-y-2">
+                      {splitQuestion(q.question).context && (
+                        <pre className="text-xs font-mono text-slate-700 bg-white border border-slate-200 rounded-xl p-3 overflow-x-auto whitespace-pre-wrap">
+                          {splitQuestion(q.question).context}
+                        </pre>
+                      )}
+                      <p className="text-sm font-bold text-slate-900 leading-relaxed whitespace-pre-line">
+                        {number}. {splitQuestion(q.question).stem}
+                      </p>
+                    </div>
                     <span className="shrink-0 px-2 py-0.5 rounded-md bg-slate-200 text-slate-700 text-[10px] font-bold uppercase">
                       {q.difficulty}
                     </span>
@@ -205,7 +219,7 @@ export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz }) =
                 .map(({ q, idx }) => (
                   <div key={q.id} className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs space-y-1.5">
                     <p className="font-bold text-slate-900 whitespace-pre-line">
-                      {idx + 1}. {q.question}
+                      {idx + 1}. {splitQuestion(q.question).stem}
                     </p>
                     <p className="text-rose-700">
                       Your answer:{' '}

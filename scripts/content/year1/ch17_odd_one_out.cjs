@@ -5,7 +5,7 @@ const chapter = {
   title: 'Odd One Out (Mixed)',
   tagline: 'Year 1 Foundation — Spotting the odd number, letter or group in a mixed list',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/odd-man-out/',
+  morePractice: 'https://www.indiabix.com/logical-reasoning/verbal-classification/',
   overview: 'In a mixed odd-one-out question the items are numbers, letters or letter groups instead of words. Three or four of them follow the same mathematical or alphabetical rule, and one breaks it. Typical rules are "all are perfect squares", "all are prime", "all are multiples of 7", "all are vowels" or "each letter moves two steps from the previous one". The method is to find the rule from the majority and test every item against it.',
   placement: 'Odd-one-out questions with numbers and letters are commonly asked in the reasoning section of company aptitude rounds. They test number sense and quick pattern checks.',
   realWorld: 'Spotting an invalid entry in a list of part numbers, finding a corrupted value in a column of data and checking a pattern in coded identifiers are practical versions of this skill.',

@@ -5,7 +5,7 @@ const chapter = {
   title: 'Basic Blood Relations',
   tagline: 'Year 1 Foundation — Reading family relationships and drawing the family tree',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/blood-relation-test/',
+  morePractice: 'https://www.indiabix.com/verbal-reasoning/blood-relation-test/',
   overview: 'Blood relation problems describe how people in a family are connected through statements such as "A is the brother of B" or "Pointing to a man, a woman said, he is the son of my mother\'s only son". You must work out the relationship between two named people. The reliable method is to draw a small family tree, mark each person as male or female where it is known, and then read the answer from the tree.',
   placement: 'Blood relation questions are commonly asked in the reasoning section of company aptitude rounds. They need no calculation; the challenge is reading the statements precisely and not mixing up the sides of the family.',
   realWorld: 'Forms that ask for "next of kin", family-tree charts, inheritance documents and insurance nominee records all rely on correctly reading relationships.',

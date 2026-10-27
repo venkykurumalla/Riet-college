@@ -18,7 +18,7 @@ const chapter = {
   title: 'Alphabetical Reasoning',
   tagline: 'Year 1 Foundation — Positions, gaps and rearrangements in the English alphabet',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/verbal-reasoning/alphabet-test/',
+  morePractice: 'https://www.indiabix.com/verbal-reasoning/questions-and-answers/',
   overview: 'Alphabetical reasoning questions use the order of the 26 letters of the English alphabet. You may be asked for the letter that is a certain number of places to the left or right of another letter, the number of letters between two letters, the letter at a given position from the other end, or what happens when the letters of a word are rearranged in alphabetical order. The foundation is knowing that A = 1 to Z = 26 and that the position from the left and the position from the right add up to 27.',
   placement: 'Alphabet-based questions are commonly asked in the reasoning section of company aptitude rounds. They reward students who have the positions memorised and who use simple arithmetic on positions.',
   realWorld: 'Sorting names alphabetically, indexing documents, spreadsheet column labels and dictionary look-ups all rely on the order of the alphabet.',

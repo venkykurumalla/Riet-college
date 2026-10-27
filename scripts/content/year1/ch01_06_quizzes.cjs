@@ -54,7 +54,7 @@ buildQuizOnly('y1-quant-divisibility', 'Divisibility Rules', 'https://www.indiab
 ]);
 
 // ---- Ch 3: HCF and LCM Fundamentals ----
-buildQuizOnly('y1-quant-hcf-lcm', 'HCF and LCM Fundamentals', 'https://www.indiabix.com/aptitude/hcf-and-lcm/', [
+buildQuizOnly('y1-quant-hcf-lcm', 'HCF and LCM Fundamentals', 'https://www.indiabix.com/aptitude/problems-on-hcf-and-lcm/', [
   easy('The HCF of 36 and 48 is', 12, [6, 9, 24], '36 = 2² × 3² and 48 = 2⁴ × 3. HCF = 2² × 3 = 12.'),
   easy('The LCM of 12 and 18 is', 36, [6, 54, 72], '12 = 2² × 3 and 18 = 2 × 3². LCM = 2² × 3² = 36.'),
   easy('The HCF of two numbers is 12 and their LCM is 180. If one number is 36, the other is', 60, [45, 54, 72], 'Product of the numbers = HCF × LCM = 12 × 180 = 2160. Other number = 2160 ÷ 36 = 60.'),

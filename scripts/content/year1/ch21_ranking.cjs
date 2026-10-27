@@ -5,7 +5,7 @@ const chapter = {
   title: 'Ranking and Position Basics',
   tagline: 'Year 1 Foundation — Positions from the left, right, top and bottom of a row',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/ranking-test/',
+  morePractice: 'https://www.indiabix.com/verbal-reasoning/questions-and-answers/',
   overview: 'Ranking and position questions tell you where someone stands in a row, queue or class list and ask for another position or the total number of people. The main idea is that a position from one end and a position from the other end together count everyone once, plus the person themself counted twice. This gives the key formula: Total = (position from one end) + (position from the other end) − 1.',
   placement: 'Ranking questions are commonly asked in the reasoning section of company aptitude rounds. They are quick once you know the single formula and the handling of "between" and "exchange" problems.',
   realWorld: 'Class ranks, queues at a counter, race finishes and sports leaderboards all use positions from the top and from the bottom.',

@@ -5,7 +5,7 @@ const chapter = {
   title: 'Direction Sense Basics',
   tagline: 'Year 1 Foundation — Turns, distances and final positions on a compass',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/direction-sense-test/',
+  morePractice: 'https://www.indiabix.com/verbal-reasoning/direction-sense-test/',
   overview: 'Direction sense questions describe a person walking and turning, and ask for the final direction, the distance from the starting point, or the direction of one place from another. The four main directions are North, East, South and West, and the four in-between directions are North-east, South-east, South-west and North-west. The best method is to draw the path on paper with North at the top, and to use the Pythagoras theorem when the final distance is diagonal.',
   placement: 'Direction questions are commonly asked in company reasoning rounds. They are short, need no theory beyond a compass and the right-angled triangle, and reward neat sketches.',
   realWorld: 'Reading a map, giving directions to a delivery partner, planning a drone path and following a compass in an outdoor survey all depend on the same ideas.',
