@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-rec-platform-strategies",
+  "topicTitle": "Platform-Specific Strategies",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The (hypothetical) average pace is 80 seconds. The skip threshold with free navigation (twice the pace) is (seconds)",
+      "options": [
+        "176",
+        "160",
+        "144",
+        "200"
+      ],
+      "answerIndex": 1,
+      "explanation": "2 × 80 = 160."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The paces for sections of 25 min/20 q, 20 min/15 q and 20 min/25 q (first, in seconds) is",
+      "options": [
+        "75",
+        "83",
+        "68",
+        "94"
+      ],
+      "answerIndex": 0,
+      "explanation": "1,500 ÷ 20 = 75."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The second section pace (seconds) is",
+      "options": [
+        "88",
+        "72",
+        "100",
+        "80"
+      ],
+      "answerIndex": 3,
+      "explanation": "1,200 ÷ 15 = 80."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The third section pace (seconds) is",
+      "options": [
+        "53",
+        "43",
+        "48",
+        "60"
+      ],
+      "answerIndex": 2,
+      "explanation": "1,200 ÷ 25 = 48."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "With free navigation and an overall timer, a good plan is",
+      "options": [
+        "strictly in order",
+        "only hard questions",
+        "two passes: easy first, then hard",
+        "no review"
+      ],
+      "answerIndex": 2,
+      "explanation": "Free navigation allows revisiting."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "With no return and no penalty, a question you cannot solve should be",
+      "options": [
+        "left blank",
+        "answered using elimination",
+        "skipped permanently",
+        "solved for ten minutes"
+      ],
+      "answerIndex": 1,
+      "explanation": "A blank earns nothing, a guess might."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "With sectional timers, finishing a section early",
+      "options": [
+        "does not give extra time to another section",
+        "adds time to the next section",
+        "adds marks",
+        "ends the test"
+      ],
+      "answerIndex": 0,
+      "explanation": "Each section has its own clock."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "With an overall 45-minute timer and 30 questions, the pace is (seconds)",
+      "options": [
+        "99",
+        "81",
+        "113",
+        "90"
+      ],
+      "answerIndex": 3,
+      "explanation": "2,700 ÷ 30 = 90."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "With no return, the skip threshold is about one pace (80 s) rather than two; the difference from the free rule (seconds) is",
+      "options": [
+        "88",
+        "72",
+        "100",
+        "80"
+      ],
+      "answerIndex": 3,
+      "explanation": "160 − 80 = 80."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "With an on-screen calculator, which question type becomes quicker?",
+      "options": [
+        "Reading passages",
+        "Seating puzzles",
+        "Long multi-digit division",
+        "Idioms"
+      ],
+      "answerIndex": 2,
+      "explanation": "A calculator speeds up arithmetic."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "With no calculator provided, you should prefer",
+      "options": [
+        "the longest calculations first",
+        "questions with simple numbers first",
+        "guessing all",
+        "skipping arithmetic entirely"
+      ],
+      "answerIndex": 1,
+      "explanation": "Simple numbers save time without a calculator."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "With a penalty of 0.25 and 1 mark, the break-even chance at which to attempt (%) is",
+      "options": [
+        "20%",
+        "22%",
+        "18%",
+        "25%"
+      ],
+      "answerIndex": 0,
+      "explanation": "0.25 ÷ 1.25 = 20%."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A candidate has 3 minutes left in a sectional test and 5 flagged answers. The time per flagged answer (seconds) is",
+      "options": [
+        "36",
+        "40",
+        "32",
+        "45"
+      ],
+      "answerIndex": 0,
+      "explanation": "180 ÷ 5 = 36."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A flagged question in a no-return test",
+      "options": [
+        "can always be revisited",
+        "is automatically correct",
+        "adds time",
+        "cannot be revisited after the rule takes effect"
+      ],
+      "answerIndex": 3,
+      "explanation": "No return means no revisiting."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "With a penalty of 0.25 and 1 mark, a question with chance 0.4 has expected marks of",
+      "options": [
+        "0.28",
+        "0.23",
+        "0.25",
+        "0.31"
+      ],
+      "answerIndex": 2,
+      "explanation": "0.4 − 0.6 × 0.25 = 0.25."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "With no return and a penalty of 0.25, you should attempt a question whose chance of success is",
+      "options": [
+        "above 80%",
+        "above 20%",
+        "exactly 100%",
+        "never"
+      ],
+      "answerIndex": 1,
+      "explanation": "The break-even chance is 20%."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A sectional test has 15 minutes for 25 questions. The pace (seconds) is",
+      "options": [
+        "40",
+        "36",
+        "32",
+        "45"
+      ],
+      "answerIndex": 1,
+      "explanation": "900 ÷ 25 = 36."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "With such a fast pace, the best strategy is to",
+      "options": [
+        "answer quick questions and use elimination on the rest",
+        "solve every question fully",
+        "leave half blank",
+        "spend the first five minutes reading"
+      ],
+      "answerIndex": 0,
+      "explanation": "A fast pace demands speed techniques."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "With free navigation, a 45-minute test and 5 minutes kept for review, the first-pass time per question for 30 questions (seconds) is",
+      "options": [
+        "88",
+        "72",
+        "100",
+        "80"
+      ],
+      "answerIndex": 3,
+      "explanation": "2,400 ÷ 30 = 80."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Where should you check whether a test has free navigation?",
+      "options": [
+        "A forum",
+        "A friend",
+        "The official instructions",
+        "You can assume it does"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rules vary by test."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

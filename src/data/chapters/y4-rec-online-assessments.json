@@ -1,0 +1,420 @@
+{
+  "id": "y4-rec-online-assessments",
+  "yearId": 4,
+  "category": "Recruiter / Assessment Preparation",
+  "topicNumber": 38,
+  "title": "Online Assessment Platforms (TCS iON, AMCAT)",
+  "tagline": "Year 4 — How timed online tests behave: timers, navigation, review marks, auto-submit and what to check in the official demo",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Employers commonly use third-party online platforms (TCS iON and AMCAT are two well-known names) to run aptitude tests. Each platform has its own interface and each employer configures its own rules, so this chapter does not describe any platform's specific pattern. It teaches what features to look for in an official demo or instruction page: whether the timer is sectional or overall, whether you can go back, whether answers can be marked for review, what happens at time-out, and how the calculator or rough work is handled. All figures and rules in this chapter's examples are hypothetical teaching examples and are not the rules of any real company or platform; always read the official instructions.",
+    "placementRelevance": "Familiarity with the interface removes avoidable errors and saves seconds on every question.",
+    "realWorldContext": "Any new software is easier if you read its documentation and try a demo first."
+  },
+  "learningObjectives": [
+    "List the features to verify in an official demo",
+    "Plan around sectional versus overall timers",
+    "Use mark-for-review and navigation sensibly",
+    "Understand auto-submit at time-out",
+    "Prepare the device and connection in advance"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Recruiter and Assessment Patterns"
+    ],
+    "quickRefresher": "The pattern and interface are set by the employer and platform; the official instructions override anything you have heard."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Sectional timer: each section has its own clock.",
+      "Overall timer: one clock for the whole test.",
+      "Mark for review: a flag to revisit a question.",
+      "Auto-submit: the test ends when time runs out.",
+      "Demo: an official practice interface."
+    ],
+    "theoreticalIntuition": "An interface is a set of rules about time and navigation; know them and you stop fighting the tool.",
+    "visualOrMentalModel": "Before the test: take the official demo, note timer type, navigation and what the review flag does."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Time plan",
+      "formula": "Minutes × 60 ÷ questions",
+      "description": "Each section.",
+      "whenToUse": "Pace.",
+      "simpleExample": "25 min, 20 questions"
+    },
+    {
+      "title": "Review budget",
+      "formula": "Reserve ~5–10% of time for review",
+      "description": "Overall timer.",
+      "whenToUse": "Plan.",
+      "simpleExample": "4.5 of 45 min"
+    },
+    {
+      "title": "Connection check",
+      "formula": "Test device and network early",
+      "description": "Prep.",
+      "whenToUse": "Safety.",
+      "simpleExample": "The day before"
+    },
+    {
+      "title": "Auto-submit",
+      "formula": "Answers present at time-out count",
+      "description": "If rules say so.",
+      "whenToUse": "Read rules.",
+      "simpleExample": "Check instruction"
+    },
+    {
+      "title": "Demo checklist",
+      "formula": "Timer, navigation, review flag, calculator",
+      "description": "Always.",
+      "whenToUse": "Preparation.",
+      "simpleExample": "Four items"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Suppose the (hypothetical) rules say: overall timer of 45 minutes, free navigation, review flag allowed, auto-submit at time-out. With free navigation you can follow a two-pass plan and use the last 5 minutes for flagged questions.",
+      "If the timer is sectional with no return, plan each section as a closed block and do not leave time for review in other sections.",
+      "If an on-screen calculator is provided, practise with it; if not, practise rough work on paper.",
+      "Check your device, power and network the day before and keep the instructions page open to read the official rules.",
+      "Whatever the platform, follow the exact instructions on the day."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Review flag",
+        "content": "A flag only helps you find a question again; it does not change the answer."
+      },
+      {
+        "title": "Time-out behaviour",
+        "content": "Check whether unanswered questions are scored zero or penalised."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Overall timer",
+      "description": "One clock.",
+      "exampleSnippet": "45 min"
+    },
+    {
+      "typeName": "Sectional timers",
+      "description": "Per section.",
+      "exampleSnippet": "25, 20, 20"
+    },
+    {
+      "typeName": "Navigation",
+      "description": "Back allowed or not.",
+      "exampleSnippet": "Free"
+    },
+    {
+      "typeName": "Review flag",
+      "description": "Revisit.",
+      "exampleSnippet": "Mark"
+    },
+    {
+      "typeName": "Demo",
+      "description": "Practice interface.",
+      "exampleSnippet": "Official"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rec-online-assessments-1",
+      "title": "Pace",
+      "question": "(Hypothetical) A section has 20 questions in 25 minutes. Time per question?",
+      "givenInfo": [
+        "20",
+        "25 min"
+      ],
+      "conceptOrFormula": "Seconds ÷ questions.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Seconds",
+          "explanation": "25 × 60 = 1,500."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Per question",
+          "explanation": "75 s."
+        }
+      ],
+      "finalAnswer": "75 seconds",
+      "whyItWorks": "Plan from the rules.",
+      "commonTrap": "Ignoring conversion.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rec-online-assessments-2",
+      "title": "Review budget",
+      "question": "With a 45-minute overall timer you keep 10% for review. Minutes for review?",
+      "givenInfo": [
+        "45",
+        "10%"
+      ],
+      "conceptOrFormula": "Percent of total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert",
+          "explanation": "10% = 0.1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "0.1 × 45 = 4.5 minutes."
+        }
+      ],
+      "finalAnswer": "4.5 minutes",
+      "whyItWorks": "Plan before the test.",
+      "commonTrap": "Forgetting review.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rec-online-assessments-3",
+      "title": "Sectional timer",
+      "question": "If the timer is sectional with no return, can unused time in Section 1 be used in Section 2?",
+      "givenInfo": [
+        "Sectional timer"
+      ],
+      "conceptOrFormula": "Read the rule.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rule",
+          "explanation": "Each section has its own clock."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Result",
+          "explanation": "No, it cannot."
+        }
+      ],
+      "finalAnswer": "No",
+      "whyItWorks": "Plan per section.",
+      "commonTrap": "Assuming it carries over.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Demo first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Learn on the day.",
+      "shortcutMethod": "Take the official demo, note timer, navigation and review rules, and plan around them."
+    },
+    "rulesForApplication": [
+      "Official source.",
+      "Timer type.",
+      "Navigation.",
+      "Check the device."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Not reading the instructions",
+      "whyItHappens": "Rule surprises.",
+      "howToAvoid": "Read them fully."
+    },
+    {
+      "mistake": "Assuming time carries over",
+      "whyItHappens": "Wasted time.",
+      "howToAvoid": "Check the timer type."
+    },
+    {
+      "mistake": "Late device check",
+      "whyItHappens": "Technical trouble.",
+      "howToAvoid": "Test the day before."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Use the review flag for doubtful questions.",
+    "questionSelectionAdvice": "Practise on the official demo.",
+    "recruiterInsight": "Rules differ by employer and platform."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rec-online-assessments-e1",
+        "question": "(Hypothetical) A section has 20 questions in 25 minutes. The time per question is (seconds)",
+        "options": [
+          "83",
+          "75",
+          "68",
+          "94"
+        ],
+        "correctAnswer": "75",
+        "explanation": "1,500 ÷ 20 = 75.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-online-assessments-e2",
+        "question": "A section has 30 questions in 45 minutes. The time per question is (seconds)",
+        "options": [
+          "90",
+          "99",
+          "81",
+          "113"
+        ],
+        "correctAnswer": "90",
+        "explanation": "2,700 ÷ 30 = 90.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-online-assessments-e3",
+        "question": "Which is the most reliable source for the rules of a particular test?",
+        "options": [
+          "A friend's memory",
+          "A social-media post",
+          "The rules of a different company",
+          "The official instructions or demo from the employer or platform"
+        ],
+        "correctAnswer": "The official instructions or demo from the employer or platform",
+        "explanation": "Rules differ and change; only the official source is reliable.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rec-online-assessments-i7",
+        "question": "The minutes kept for review in a 45-minute test (10%) are",
+        "options": [
+          "4.5",
+          "5",
+          "4.1",
+          "5.6"
+        ],
+        "correctAnswer": "4.5",
+        "explanation": "0.1 × 45 = 4.5.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-online-assessments-i8",
+        "question": "A test has sections of 25, 20 and 20 minutes. The total time (minutes) is",
+        "options": [
+          "72",
+          "59",
+          "81",
+          "65"
+        ],
+        "correctAnswer": "65",
+        "explanation": "25 + 20 + 20 = 65.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-online-assessments-i9",
+        "question": "A section has 25 questions in 20 minutes. The time per question is (seconds)",
+        "options": [
+          "53",
+          "43",
+          "60",
+          "48"
+        ],
+        "correctAnswer": "48",
+        "explanation": "1,200 ÷ 25 = 48.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rec-online-assessments-a15",
+        "question": "A candidate keeps 5 minutes of a 45-minute overall timer for review. The pace for 30 questions in the remaining time is (seconds)",
+        "options": [
+          "88",
+          "72",
+          "80",
+          "100"
+        ],
+        "correctAnswer": "80",
+        "explanation": "2,400 ÷ 30 = 80.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-online-assessments-a16",
+        "question": "If the candidate instead uses the full 45 minutes, the pace is (seconds)",
+        "options": [
+          "99",
+          "90",
+          "81",
+          "113"
+        ],
+        "correctAnswer": "90",
+        "explanation": "2,700 ÷ 30 = 90.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rec-online-assessments-p17",
+        "question": "Auto-submit at time-out means",
+        "options": [
+          "you may continue after time",
+          "the test ends and your answers at that moment are submitted, as the rules describe",
+          "all questions are cancelled",
+          "only flagged questions count"
+        ],
+        "correctAnswer": "the test ends and your answers at that moment are submitted, as the rules describe",
+        "explanation": "Read the exact rule in the instructions.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-online-assessments-p18",
+        "question": "Which is NOT something to verify in an official demo?",
+        "options": [
+          "The names of other candidates",
+          "Timer type",
+          "Navigation rules",
+          "How review flags work"
+        ],
+        "correctAnswer": "The names of other candidates",
+        "explanation": "Candidate names are irrelevant.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-online-assessments-p19",
+        "question": "Each of three sections has 20 questions and 25 minutes. The time per question in each section is (seconds)",
+        "options": [
+          "83",
+          "68",
+          "94",
+          "75"
+        ],
+        "correctAnswer": "75",
+        "explanation": "Each section: 1,500 ÷ 20 = 75 seconds per question.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Timers.",
+      "Navigation.",
+      "Review.",
+      "Auto-submit.",
+      "Demo."
+    ],
+    "quickFormulas": [
+      "Pace = minutes × 60 ÷ questions"
+    ]
+  },
+  "keyTakeaways": [
+    "Demo.",
+    "Timer type.",
+    "Review plan.",
+    "Device ready."
+  ],
+  "selfCheckQuestions": [
+    "Can I list what to verify?",
+    "Can I plan around a timer?",
+    "Can I prepare my device?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Official instructions published by each test provider and employer",
+      "sourceType": "Official",
+      "referenceNote": "Exam patterns and rules change; this chapter teaches how to read and plan around the official instructions and quotes no company-specific figures."
+    }
+  ]
+}

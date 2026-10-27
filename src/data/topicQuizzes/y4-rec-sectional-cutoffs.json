@@ -1,0 +1,280 @@
+{
+  "topicId": "y4-rec-sectional-cutoffs",
+  "topicTitle": "Sectional Cutoff Strategies",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "(Hypothetical) A 40% sectional cutoff on a 20-mark section is (marks)",
+      "options": [
+        "9",
+        "8",
+        "7",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "0.4 × 20 = 8."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A 40% cutoff on a 15-mark section is (marks)",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "0.4 × 15 = 6."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A 40% cutoff on a 25-mark section is (marks)",
+      "options": [
+        "11",
+        "9",
+        "13",
+        "10"
+      ],
+      "answerIndex": 3,
+      "explanation": "0.4 × 25 = 10."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A 60% overall cutoff on 60 marks is (marks)",
+      "options": [
+        "40",
+        "32",
+        "36",
+        "45"
+      ],
+      "answerIndex": 2,
+      "explanation": "0.6 × 60 = 36."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The total of the sectional cutoffs 8, 6 and 10 is (marks)",
+      "options": [
+        "26",
+        "22",
+        "24",
+        "30"
+      ],
+      "answerIndex": 2,
+      "explanation": "8 + 6 + 10 = 24."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The overall cutoff 36 exceeds the total of the sectional cutoffs by (marks)",
+      "options": [
+        "13",
+        "12",
+        "11",
+        "15"
+      ],
+      "answerIndex": 1,
+      "explanation": "36 − 24 = 12."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "You have 14 in Aptitude and 7 in Reasoning. The marks earned so far are",
+      "options": [
+        "21",
+        "23",
+        "19",
+        "26"
+      ],
+      "answerIndex": 0,
+      "explanation": "14 + 7 = 21."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The marks needed in Verbal for an overall 36 are",
+      "options": [
+        "17",
+        "14",
+        "19",
+        "15"
+      ],
+      "answerIndex": 3,
+      "explanation": "36 − 21 = 15."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The percentage of the 25 Verbal marks that 15 represents is",
+      "options": [
+        "66%",
+        "54%",
+        "75%",
+        "60%"
+      ],
+      "answerIndex": 3,
+      "explanation": "15 ÷ 25 = 60%."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The margin in Aptitude above its 8-mark cutoff, with 14 earned, is",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "8"
+      ],
+      "answerIndex": 2,
+      "explanation": "14 − 8 = 6."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The margin in Reasoning above its 6-mark cutoff, with 7 earned, is",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "7 − 6 = 1."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Which section is most at risk of failing its sectional cutoff?",
+      "options": [
+        "Reasoning",
+        "Aptitude",
+        "Verbal",
+        "None"
+      ],
+      "answerIndex": 0,
+      "explanation": "Reasoning has the smallest margin: 1 mark."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "To build a 3-mark margin in Reasoning, the marks needed there are",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "11"
+      ],
+      "answerIndex": 0,
+      "explanation": "6 + 3 = 9."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "If Reasoning rises to 9, the total from the first two sections is",
+      "options": [
+        "25",
+        "21",
+        "29",
+        "23"
+      ],
+      "answerIndex": 3,
+      "explanation": "14 + 9 = 23."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Then the marks needed in Verbal for 36 are",
+      "options": [
+        "14",
+        "12",
+        "13",
+        "16"
+      ],
+      "answerIndex": 2,
+      "explanation": "36 − 23 = 13."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "If a candidate scores 5 in Reasoning (below the 6 cutoff) and 40 elsewhere, the total is 45; does the candidate meet both the overall (36) and the sectional cutoffs?",
+      "options": [
+        "Yes",
+        "No, the Reasoning cutoff is missed",
+        "Only the overall cutoff matters",
+        "Cannot be decided"
+      ],
+      "answerIndex": 1,
+      "explanation": "A sectional cutoff must be met in each section."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "With a penalty of 0.25, 14 correct and 4 wrong in a section give net marks of",
+      "options": [
+        "14",
+        "13",
+        "12",
+        "16"
+      ],
+      "answerIndex": 1,
+      "explanation": "14 − 1 = 13."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "If the cutoff is 13 net marks, the margin is",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 0,
+      "explanation": "13 − 13 = 0."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The best use of an extra 5 minutes is",
+      "options": [
+        "to re-do your strongest section",
+        "to skip the weak section",
+        "to ignore cutoffs",
+        "to secure a section close to its cutoff"
+      ],
+      "answerIndex": 3,
+      "explanation": "Securing a near-failure section protects the result."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "If you can add 1 mark per 3 minutes in the weak section, 5 minutes adds about (marks, to one decimal)",
+      "options": [
+        "1.9",
+        "1.5",
+        "1.7",
+        "2.1"
+      ],
+      "answerIndex": 2,
+      "explanation": "5 ÷ 3 = 1.7."
+    },
+    {
+      "id": 21,
+      "difficulty": "placement",
+      "question": "Where should you confirm whether a test has sectional cutoffs?",
+      "options": [
+        "A forum post",
+        "A friend's guess",
+        "The official instructions",
+        "You can assume they exist"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cutoff rules vary by employer."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

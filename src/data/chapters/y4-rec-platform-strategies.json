@@ -1,0 +1,420 @@
+{
+  "id": "y4-rec-platform-strategies",
+  "yearId": 4,
+  "category": "Recruiter / Assessment Preparation",
+  "topicNumber": 40,
+  "title": "Platform-Specific Strategies",
+  "tagline": "Year 4 — Adapting your plan to timer type, navigation rules, review flags and calculator access",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A strategy that works on a test with free navigation and an overall timer fails on a test with sectional timers and no return. Platform-specific strategy means choosing your plan after reading the rules: free navigation permits a two-pass plan; no return forces a plan that treats every question as final; a sectional timer needs a separate budget for each section; a calculator changes which questions are quick. This chapter works through these combinations with hypothetical rules; All figures and rules in this chapter's examples are hypothetical teaching examples and are not the rules of any real company or platform; always read the official instructions.",
+    "placementRelevance": "Matching strategy to rules is the difference between a prepared and an unprepared candidate.",
+    "realWorldContext": "Choosing a method to fit the constraints of a task is a general skill."
+  },
+  "learningObjectives": [
+    "Choose a plan for each timer and navigation combination",
+    "Budget each section under sectional timers",
+    "Decide question order under no-return rules",
+    "Use calculators wisely",
+    "Adjust the skipping rule to the platform"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Online Assessment Platforms",
+      "Time Triage and Question Selection"
+    ],
+    "quickRefresher": "Rules decide strategy: free navigation = two passes; no return = decide now; sectional = budget per section."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Free navigation: you may move back and forth.",
+      "No return: once you submit or move on, you cannot go back.",
+      "Sectional timer: a clock per section.",
+      "Overall timer: one clock.",
+      "Final answer: an answer you cannot revise."
+    ],
+    "theoreticalIntuition": "The same questions ask for different tactics under different rules.",
+    "visualOrMentalModel": "List the rules, then pick: pass structure, skip rule, review budget."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Free navigation",
+      "formula": "Two passes",
+      "description": "Back allowed.",
+      "whenToUse": "Plan.",
+      "simpleExample": "Easy then hard"
+    },
+    {
+      "title": "No return",
+      "formula": "Decide in one pass",
+      "description": "No back.",
+      "whenToUse": "Plan.",
+      "simpleExample": "Skip = lose"
+    },
+    {
+      "title": "Sectional timer",
+      "formula": "Budget per section",
+      "description": "Own clocks.",
+      "whenToUse": "Plan.",
+      "simpleExample": "25, 20, 20"
+    },
+    {
+      "title": "Calculator",
+      "formula": "Heavy arithmetic becomes quick",
+      "description": "On-screen calculator.",
+      "whenToUse": "Re-classify.",
+      "simpleExample": "Division quick"
+    },
+    {
+      "title": "Skip rule",
+      "formula": "Twice the pace (free) vs one pace (no return)",
+      "description": "Platform.",
+      "whenToUse": "Adjust.",
+      "simpleExample": "160 s vs 80 s"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "With an overall timer and free navigation, do the quick questions first and return to the hard ones; the skip threshold is about twice your average pace.",
+      "With no return, skipping a question loses it permanently. The right rule is: attempt every question using elimination, spend more than the average only on questions with a good chance, and never leave a question blank if there is no penalty.",
+      "With sectional timers, a section left early gains nothing; use the full section time before moving on.",
+      "With an on-screen calculator, long divisions are quick; without it, prefer questions with simple numbers.",
+      "In each case read the rule in the official instructions, not in a forum."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "No return with penalty",
+        "content": "If skipping is allowed but returning is not, the decision to attempt is made once, using break-even chance."
+      },
+      {
+        "title": "Time at the end of a section",
+        "content": "With sectional timers, leftover minutes are best spent re-checking flagged answers within the section."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Free + overall",
+      "description": "Two passes.",
+      "exampleSnippet": "Skip at 2 × pace"
+    },
+    {
+      "typeName": "No return",
+      "description": "One pass.",
+      "exampleSnippet": "Elimination"
+    },
+    {
+      "typeName": "Sectional",
+      "description": "Per-section budget.",
+      "exampleSnippet": "25, 20, 20"
+    },
+    {
+      "typeName": "Calculator",
+      "description": "Re-classify.",
+      "exampleSnippet": "Divisions"
+    },
+    {
+      "typeName": "Penalty",
+      "description": "Break-even.",
+      "exampleSnippet": "20%"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rec-platform-strategies-1",
+      "title": "No return",
+      "question": "The (hypothetical) test has no return and no penalty. A question stumps you. What should you do?",
+      "givenInfo": [
+        "No return",
+        "No penalty"
+      ],
+      "conceptOrFormula": "Answer with elimination.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "No penalty",
+          "explanation": "A wrong answer costs nothing."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Action",
+          "explanation": "Eliminate and choose; do not leave it blank."
+        }
+      ],
+      "finalAnswer": "Answer it using elimination",
+      "whyItWorks": "Blank earns nothing.",
+      "commonTrap": "Leaving it blank.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rec-platform-strategies-2",
+      "title": "Sectional budget",
+      "question": "Sections of 25, 20 and 20 minutes with 20, 15 and 25 questions. Which section has the fastest pace?",
+      "givenInfo": [
+        "Three sections"
+      ],
+      "conceptOrFormula": "Compute each pace.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Paces",
+          "explanation": "75 s, 80 s, 48 s."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fastest",
+          "explanation": "Third section, 48 s."
+        }
+      ],
+      "finalAnswer": "The third section (48 s per question)",
+      "whyItWorks": "Plan the third as a quick section.",
+      "commonTrap": "Taking the first.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rec-platform-strategies-3",
+      "title": "Skip threshold",
+      "question": "Average pace 80 s. Skip threshold with free navigation (twice pace)?",
+      "givenInfo": [
+        "80 s"
+      ],
+      "conceptOrFormula": "Double.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Double",
+          "explanation": "2 × 80."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Threshold",
+          "explanation": "160 s."
+        }
+      ],
+      "finalAnswer": "160 seconds",
+      "whyItWorks": "You can return later.",
+      "commonTrap": "Using 80 s.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Rules first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "One plan for all.",
+      "shortcutMethod": "Read the rules, then choose passes, skip rule and review budget to match."
+    },
+    "rulesForApplication": [
+      "Free: two passes.",
+      "No return: one pass.",
+      "Sectional: per section.",
+      "Calculator: re-classify."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Same plan for all rules",
+      "whyItHappens": "Mismatch.",
+      "howToAvoid": "Re-plan per rule."
+    },
+    {
+      "mistake": "Skipping under no return without thought",
+      "whyItHappens": "Lost marks.",
+      "howToAvoid": "Use elimination."
+    },
+    {
+      "mistake": "Leaving time unused in a sectional test",
+      "whyItHappens": "Wasted.",
+      "howToAvoid": "Use the full clock."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "Eliminate before leaving blank when allowed.",
+    "questionSelectionAdvice": "Practise each rule set.",
+    "recruiterInsight": "The rules are the strategy."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rec-platform-strategies-e1",
+        "question": "The (hypothetical) average pace is 80 seconds. The skip threshold with free navigation (twice the pace) is (seconds)",
+        "options": [
+          "176",
+          "160",
+          "144",
+          "200"
+        ],
+        "correctAnswer": "160",
+        "explanation": "2 × 80 = 160.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-platform-strategies-e2",
+        "question": "The paces for sections of 25 min/20 q, 20 min/15 q and 20 min/25 q (first, in seconds) is",
+        "options": [
+          "75",
+          "83",
+          "68",
+          "94"
+        ],
+        "correctAnswer": "75",
+        "explanation": "1,500 ÷ 20 = 75.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-platform-strategies-e3",
+        "question": "The second section pace (seconds) is",
+        "options": [
+          "88",
+          "72",
+          "100",
+          "80"
+        ],
+        "correctAnswer": "80",
+        "explanation": "1,200 ÷ 15 = 80.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rec-platform-strategies-i7",
+        "question": "With sectional timers, finishing a section early",
+        "options": [
+          "does not give extra time to another section",
+          "adds time to the next section",
+          "adds marks",
+          "ends the test"
+        ],
+        "correctAnswer": "does not give extra time to another section",
+        "explanation": "Each section has its own clock.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-platform-strategies-i8",
+        "question": "With an overall 45-minute timer and 30 questions, the pace is (seconds)",
+        "options": [
+          "99",
+          "81",
+          "113",
+          "90"
+        ],
+        "correctAnswer": "90",
+        "explanation": "2,700 ÷ 30 = 90.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-platform-strategies-i9",
+        "question": "With no return, the skip threshold is about one pace (80 s) rather than two; the difference from the free rule (seconds) is",
+        "options": [
+          "88",
+          "72",
+          "100",
+          "80"
+        ],
+        "correctAnswer": "80",
+        "explanation": "160 − 80 = 80.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rec-platform-strategies-a15",
+        "question": "With a penalty of 0.25 and 1 mark, a question with chance 0.4 has expected marks of",
+        "options": [
+          "0.28",
+          "0.23",
+          "0.25",
+          "0.31"
+        ],
+        "correctAnswer": "0.25",
+        "explanation": "0.4 − 0.6 × 0.25 = 0.25.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-platform-strategies-a16",
+        "question": "With no return and a penalty of 0.25, you should attempt a question whose chance of success is",
+        "options": [
+          "above 80%",
+          "above 20%",
+          "exactly 100%",
+          "never"
+        ],
+        "correctAnswer": "above 20%",
+        "explanation": "The break-even chance is 20%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rec-platform-strategies-p17",
+        "question": "A sectional test has 15 minutes for 25 questions. The pace (seconds) is",
+        "options": [
+          "40",
+          "36",
+          "32",
+          "45"
+        ],
+        "correctAnswer": "36",
+        "explanation": "900 ÷ 25 = 36.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-platform-strategies-p18",
+        "question": "With such a fast pace, the best strategy is to",
+        "options": [
+          "answer quick questions and use elimination on the rest",
+          "solve every question fully",
+          "leave half blank",
+          "spend the first five minutes reading"
+        ],
+        "correctAnswer": "answer quick questions and use elimination on the rest",
+        "explanation": "A fast pace demands speed techniques.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-platform-strategies-p19",
+        "question": "With free navigation, a 45-minute test and 5 minutes kept for review, the first-pass time per question for 30 questions (seconds) is",
+        "options": [
+          "88",
+          "72",
+          "100",
+          "80"
+        ],
+        "correctAnswer": "80",
+        "explanation": "2,400 ÷ 30 = 80.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Free.",
+      "No return.",
+      "Sectional.",
+      "Calculator.",
+      "Skip rule."
+    ],
+    "quickFormulas": [
+      "Skip threshold = 2 × pace (free)"
+    ]
+  },
+  "keyTakeaways": [
+    "Rules.",
+    "Plan.",
+    "Budget.",
+    "Practise."
+  ],
+  "selfCheckQuestions": [
+    "Can I plan for no return?",
+    "Can I budget sections?",
+    "Can I set a skip rule?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Official instructions published by each test provider and employer",
+      "sourceType": "Official",
+      "referenceNote": "Exam patterns and rules change; this chapter teaches how to read and plan around the official instructions and quotes no company-specific figures."
+    }
+  ]
+}

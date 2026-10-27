@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-rec-online-assessments",
+  "topicTitle": "Online Assessment Platforms (TCS iON, AMCAT)",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "(Hypothetical) A section has 20 questions in 25 minutes. The time per question is (seconds)",
+      "options": [
+        "83",
+        "75",
+        "68",
+        "94"
+      ],
+      "answerIndex": 1,
+      "explanation": "1,500 ÷ 20 = 75."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A section has 30 questions in 45 minutes. The time per question is (seconds)",
+      "options": [
+        "90",
+        "99",
+        "81",
+        "113"
+      ],
+      "answerIndex": 0,
+      "explanation": "2,700 ÷ 30 = 90."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Which is the most reliable source for the rules of a particular test?",
+      "options": [
+        "A friend's memory",
+        "A social-media post",
+        "The rules of a different company",
+        "The official instructions or demo from the employer or platform"
+      ],
+      "answerIndex": 3,
+      "explanation": "Rules differ and change; only the official source is reliable."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "If the timer is sectional with no return, unused time in one section",
+      "options": [
+        "carries over automatically",
+        "is added to the final section",
+        "cannot be used in another section",
+        "is refunded as marks"
+      ],
+      "answerIndex": 2,
+      "explanation": "A sectional timer gives each section its own clock."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A 45-minute test with 10% kept for review leaves how many minutes for the first pass?",
+      "options": [
+        "44.6",
+        "36.5",
+        "40.5",
+        "50.6"
+      ],
+      "answerIndex": 2,
+      "explanation": "45 × 0.9 = 40.5."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A \"mark for review\" flag is mainly used to",
+      "options": [
+        "change the answer automatically",
+        "find the question again later",
+        "delete the question",
+        "add marks"
+      ],
+      "answerIndex": 1,
+      "explanation": "The flag only helps you navigate back."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The minutes kept for review in a 45-minute test (10%) are",
+      "options": [
+        "4.5",
+        "5",
+        "4.1",
+        "5.6"
+      ],
+      "answerIndex": 0,
+      "explanation": "0.1 × 45 = 4.5."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A test has sections of 25, 20 and 20 minutes. The total time (minutes) is",
+      "options": [
+        "72",
+        "59",
+        "81",
+        "65"
+      ],
+      "answerIndex": 3,
+      "explanation": "25 + 20 + 20 = 65."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A section has 25 questions in 20 minutes. The time per question is (seconds)",
+      "options": [
+        "53",
+        "43",
+        "60",
+        "48"
+      ],
+      "answerIndex": 3,
+      "explanation": "1,200 ÷ 25 = 48."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "With an overall timer and free navigation, a sensible plan is to",
+      "options": [
+        "answer strictly in order",
+        "leave the first section blank",
+        "do easy questions first and return to flagged ones",
+        "spend equal time on every question"
+      ],
+      "answerIndex": 2,
+      "explanation": "Free navigation allows a two-pass plan."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "With 30 questions and an overall timer of 45 minutes, the question number you should have reached after 15 minutes at the planned pace is",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "13"
+      ],
+      "answerIndex": 1,
+      "explanation": "900 ÷ 90 = 10."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "When should you test your device and network?",
+      "options": [
+        "Well before the test day",
+        "During the test",
+        "After the first section",
+        "Only if a problem appears"
+      ],
+      "answerIndex": 0,
+      "explanation": "Advance testing avoids avoidable technical trouble."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "3 flagged questions at 60 seconds each take how many minutes to revisit?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "3 × 60 = 180 s = 3 minutes."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "If the instructions say there is no on-screen calculator, you should",
+      "options": [
+        "expect one to appear",
+        "ask a neighbour",
+        "ignore the rule",
+        "practise calculations by hand and with rough work"
+      ],
+      "answerIndex": 3,
+      "explanation": "Plan for the rules given."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A candidate keeps 5 minutes of a 45-minute overall timer for review. The pace for 30 questions in the remaining time is (seconds)",
+      "options": [
+        "88",
+        "72",
+        "80",
+        "100"
+      ],
+      "answerIndex": 2,
+      "explanation": "2,400 ÷ 30 = 80."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "If the candidate instead uses the full 45 minutes, the pace is (seconds)",
+      "options": [
+        "99",
+        "90",
+        "81",
+        "113"
+      ],
+      "answerIndex": 1,
+      "explanation": "2,700 ÷ 30 = 90."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Auto-submit at time-out means",
+      "options": [
+        "you may continue after time",
+        "the test ends and your answers at that moment are submitted, as the rules describe",
+        "all questions are cancelled",
+        "only flagged questions count"
+      ],
+      "answerIndex": 1,
+      "explanation": "Read the exact rule in the instructions."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Which is NOT something to verify in an official demo?",
+      "options": [
+        "The names of other candidates",
+        "Timer type",
+        "Navigation rules",
+        "How review flags work"
+      ],
+      "answerIndex": 0,
+      "explanation": "Candidate names are irrelevant."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Each of three sections has 20 questions and 25 minutes. The time per question in each section is (seconds)",
+      "options": [
+        "83",
+        "68",
+        "94",
+        "75"
+      ],
+      "answerIndex": 3,
+      "explanation": "Each section: 1,500 ÷ 20 = 75 seconds per question."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "If you are told the test uses a particular platform, the pattern is",
+      "options": [
+        "always identical",
+        "published by a rival",
+        "still set by the employer and may differ from other tests on the same platform",
+        "fixed for all years"
+      ],
+      "answerIndex": 2,
+      "explanation": "Employers configure tests; check the official notice."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

@@ -1,0 +1,421 @@
+{
+  "id": "y4-rec-company-profiles",
+  "yearId": 4,
+  "category": "Recruiter / Assessment Preparation",
+  "topicNumber": 39,
+  "title": "Company-Wise Assessment Profiles",
+  "tagline": "Year 4 — Building your own one-page profile for each employer from official sources, and comparing profiles quantitatively",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Different employers use different assessments, and they change them. Rather than memorising claims about companies, build your own one-page profile for each employer you are applying to: stages, sections, questions, time, penalty, cutoff stated in official material, and the skills each stage tests. A profile lets you compare employers, plan your preparation time and track what you still need to confirm. This chapter uses hypothetical profiles to teach the comparison; All figures and rules in this chapter's examples are hypothetical teaching examples and are not the rules of any real company or platform; always read the official instructions.",
+    "placementRelevance": "Targeted preparation is more efficient than generic preparation once you know what each employer tests.",
+    "realWorldContext": "Preparing for an interview by researching the organisation is the same habit."
+  },
+  "learningObjectives": [
+    "List the fields of an assessment profile",
+    "Compare two profiles by pace and marks per minute",
+    "Allocate preparation time by weight",
+    "Identify what remains unconfirmed",
+    "Update profiles when official information changes"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Recruiter and Assessment Patterns",
+      "Online Assessment Platforms"
+    ],
+    "quickRefresher": "A profile records facts from official sources; unverified items are marked \"to confirm\"."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Profile: a one-page summary of an assessment.",
+      "Stage: one step (aptitude test, technical test, interview).",
+      "Weight: the share of total marks of a section.",
+      "Unconfirmed: a detail you have not verified.",
+      "Source: where a fact comes from."
+    ],
+    "theoreticalIntuition": "A profile turns hearsay into a checklist.",
+    "visualOrMentalModel": "Write fields, fill from official sources, mark gaps, and compute pace and weight."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Pace",
+      "formula": "Time ÷ questions",
+      "description": "Each section.",
+      "whenToUse": "Compare.",
+      "simpleExample": "75 vs 60 s"
+    },
+    {
+      "title": "Weight",
+      "formula": "Section marks ÷ total",
+      "description": "Allocation.",
+      "whenToUse": "Plan.",
+      "simpleExample": "20/60"
+    },
+    {
+      "title": "Marks per minute",
+      "formula": "Total ÷ time",
+      "description": "Compare employers.",
+      "whenToUse": "Rate.",
+      "simpleExample": "0.92"
+    },
+    {
+      "title": "Prep share",
+      "formula": "Weight × prep hours",
+      "description": "Planning.",
+      "whenToUse": "Allocation.",
+      "simpleExample": "33% of 90 h"
+    },
+    {
+      "title": "Gap list",
+      "formula": "Unconfirmed fields",
+      "description": "Verification.",
+      "whenToUse": "To-do.",
+      "simpleExample": "Penalty?"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Hypothetical profile X: Aptitude 20 questions, 25 minutes; Reasoning 15, 20 minutes; Verbal 25, 20 minutes; 1 mark each. Profile Y: Aptitude 30, 40 minutes; Reasoning 20, 25 minutes; Verbal 20, 15 minutes.",
+      "Profile X has 60 questions in 65 minutes (65 ÷ 60 ≈ 1.08 minutes per question); profile Y has 70 in 80 minutes (about 1.14).",
+      "Weights in X: Aptitude 20/60 = 33%, Reasoning 25%, Verbal 42%.",
+      "If you have 90 hours of preparation and want to follow weights, give Verbal about 37 hours in X.",
+      "Mark any field you cannot verify as \"to confirm\" and ask the recruiter or check the official notice."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Profiles go stale",
+        "content": "Date every profile and re-check before the test."
+      },
+      {
+        "title": "Preparing for the skill, not the company",
+        "content": "Core skills transfer between employers; use profiles to prioritise, not to narrow."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Pace",
+      "description": "Per section.",
+      "exampleSnippet": "X vs Y"
+    },
+    {
+      "typeName": "Weight",
+      "description": "Share of marks.",
+      "exampleSnippet": "Verbal 42%"
+    },
+    {
+      "typeName": "Prep allocation",
+      "description": "Hours.",
+      "exampleSnippet": "90 h"
+    },
+    {
+      "typeName": "Unconfirmed",
+      "description": "To check.",
+      "exampleSnippet": "Penalty"
+    },
+    {
+      "typeName": "Updating",
+      "description": "Dates.",
+      "exampleSnippet": "Before the test"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rec-company-profiles-1",
+      "title": "Weight",
+      "question": "Profile X has 60 marks in total and Verbal has 25 marks. Verbal weight?",
+      "givenInfo": [
+        "25",
+        "60"
+      ],
+      "conceptOrFormula": "Part over total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "25 ÷ 60 = 0.417."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "41.7%."
+        }
+      ],
+      "finalAnswer": "41.7%",
+      "whyItWorks": "Base is total marks.",
+      "commonTrap": "Dividing by 25.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rec-company-profiles-2",
+      "title": "Allocation",
+      "question": "You have 90 hours and Verbal is 41.7% of marks. Hours for Verbal?",
+      "givenInfo": [
+        "90",
+        "41.7%"
+      ],
+      "conceptOrFormula": "Weight × hours.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert the weight",
+          "explanation": "41.7% = 0.417."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Multiply",
+          "explanation": "0.417 × 90 = 37.5 hours."
+        }
+      ],
+      "finalAnswer": "37.5 hours",
+      "whyItWorks": "Weights guide, not fix.",
+      "commonTrap": "Equal split.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rec-company-profiles-3",
+      "title": "Gap list",
+      "question": "You do not know whether the test has a penalty. What do you record?",
+      "givenInfo": [
+        "Unverified field"
+      ],
+      "conceptOrFormula": "Mark it.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Record",
+          "explanation": "\"Penalty: to confirm\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Action",
+          "explanation": "Check the official notice."
+        }
+      ],
+      "finalAnswer": "\"To confirm\" and check the official notice",
+      "whyItWorks": "Never assume.",
+      "commonTrap": "Guessing.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Profile it",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Collect rumours.",
+      "shortcutMethod": "Fill one page per employer from official sources, compute pace and weights, and list unconfirmed fields."
+    },
+    "rulesForApplication": [
+      "Official sources.",
+      "Date it.",
+      "Mark unknowns.",
+      "Allocate by weight."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Relying on old profiles",
+      "whyItHappens": "Outdated.",
+      "howToAvoid": "Re-check."
+    },
+    {
+      "mistake": "Over-narrowing preparation",
+      "whyItHappens": "Skills gap.",
+      "howToAvoid": "Keep core skills."
+    },
+    {
+      "mistake": "Leaving gaps unmarked",
+      "whyItHappens": "False confidence.",
+      "howToAvoid": "Mark to confirm."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "Eliminate unlikely sections after confirmation only.",
+    "questionSelectionAdvice": "Keep a folder of profiles.",
+    "recruiterInsight": "The profile is your checklist, not your prediction."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rec-company-profiles-e1",
+        "question": "(Hypothetical) Profile X has 20, 15 and 25 questions in three sections. The total number of questions is",
+        "options": [
+          "66",
+          "60",
+          "54",
+          "75"
+        ],
+        "correctAnswer": "60",
+        "explanation": "20 + 15 + 25 = 60.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-company-profiles-e2",
+        "question": "Profile X sections take 25, 20 and 20 minutes. The total time is (minutes)",
+        "options": [
+          "65",
+          "72",
+          "59",
+          "81"
+        ],
+        "correctAnswer": "65",
+        "explanation": "25 + 20 + 20 = 65.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-company-profiles-e3",
+        "question": "Verbal has 25 of the 60 marks in X. Its weight is (%, one decimal)",
+        "options": [
+          "45.9%",
+          "37.5%",
+          "52.1%",
+          "41.7%"
+        ],
+        "correctAnswer": "41.7%",
+        "explanation": "25 ÷ 60 = 41.7%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rec-company-profiles-i7",
+        "question": "Profile Y has 30, 20 and 20 questions. The total questions are",
+        "options": [
+          "70",
+          "77",
+          "63",
+          "88"
+        ],
+        "correctAnswer": "70",
+        "explanation": "30 + 20 + 20 = 70.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-company-profiles-i8",
+        "question": "Profile Y sections take 40, 25 and 15 minutes. The total time (minutes) is",
+        "options": [
+          "88",
+          "72",
+          "100",
+          "80"
+        ],
+        "correctAnswer": "80",
+        "explanation": "40 + 25 + 15 = 80.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-company-profiles-i9",
+        "question": "The minutes per question in X (to two decimals) are",
+        "options": [
+          "1.19",
+          "0.97",
+          "1.35",
+          "1.08"
+        ],
+        "correctAnswer": "1.08",
+        "explanation": "65 ÷ 60 = 1.08.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rec-company-profiles-a15",
+        "question": "Which section of X has the fastest required pace per question?",
+        "options": [
+          "Aptitude",
+          "Reasoning",
+          "Verbal",
+          "All equal"
+        ],
+        "correctAnswer": "Verbal",
+        "explanation": "Verbal needs 48 s per question against 75 and 80.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-company-profiles-a16",
+        "question": "Marks per minute over the whole of X (1 mark per question, two decimals) is",
+        "options": [
+          "1.01",
+          "0.92",
+          "0.83",
+          "1.15"
+        ],
+        "correctAnswer": "0.92",
+        "explanation": "60 ÷ 65 = 0.92.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rec-company-profiles-p17",
+        "question": "Marks per minute over the whole of Y (two decimals) is",
+        "options": [
+          "0.97",
+          "0.88",
+          "0.79",
+          "1.1"
+        ],
+        "correctAnswer": "0.88",
+        "explanation": "70 ÷ 80 = 0.88.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-company-profiles-p18",
+        "question": "Which statement is correct about X and Y?",
+        "options": [
+          "X asks for a slightly faster pace overall than Y",
+          "Y asks for a faster pace",
+          "They are identical",
+          "Neither has a pace"
+        ],
+        "correctAnswer": "X asks for a slightly faster pace overall than Y",
+        "explanation": "X: 0.92 marks per minute; Y: 0.88.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-company-profiles-p19",
+        "question": "If you split 120 preparation hours in the ratio of weights in X (20 : 15 : 25), the Reasoning hours are",
+        "options": [
+          "33",
+          "27",
+          "38",
+          "30"
+        ],
+        "correctAnswer": "30",
+        "explanation": "120 × 15 ÷ 60 = 30.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Fields.",
+      "Pace.",
+      "Weights.",
+      "Allocation.",
+      "Gaps."
+    ],
+    "quickFormulas": [
+      "Weight = section marks ÷ total"
+    ]
+  },
+  "keyTakeaways": [
+    "Official sources.",
+    "Weights.",
+    "Gaps.",
+    "Update."
+  ],
+  "selfCheckQuestions": [
+    "Can I build a profile?",
+    "Can I compute weights?",
+    "Can I list gaps?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Official instructions published by each test provider and employer",
+      "sourceType": "Official",
+      "referenceNote": "Exam patterns and rules change; this chapter teaches how to read and plan around the official instructions and quotes no company-specific figures."
+    }
+  ]
+}

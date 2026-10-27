@@ -1,0 +1,421 @@
+{
+  "id": "y4-rec-sectional-cutoffs",
+  "yearId": 4,
+  "category": "Recruiter / Assessment Preparation",
+  "topicNumber": 41,
+  "title": "Sectional Cutoff Strategies",
+  "tagline": "Year 4 — Meeting both sectional and overall cutoffs: allocating effort, computing minimum marks and avoiding a failing section",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Some assessments require a minimum score in each section as well as overall. A strong total can then still fail you if one section falls below its cutoff. The strategy is to compute the minimum marks you need in each section, secure them first, and use the remaining effort where your marks per minute are highest. This chapter practises the arithmetic of cutoffs and the logic of balance; All figures and rules in this chapter's examples are hypothetical teaching examples and are not the rules of any real company or platform; always read the official instructions.",
+    "placementRelevance": "Sectional cutoffs are common and filter candidates who neglect a weak section.",
+    "realWorldContext": "Meeting minimum requirements in every component is how many qualifications work."
+  },
+  "learningObjectives": [
+    "Compute sectional and overall cutoffs in marks",
+    "Find the minimum marks needed in the last section",
+    "Balance effort across sections",
+    "Avoid failing a section by neglect",
+    "Check the feasibility of a target"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Recruiter and Assessment Patterns",
+      "Strategic Question Selection"
+    ],
+    "quickRefresher": "Cutoff marks = percentage × section marks. Marks needed in the last section = overall target − marks already earned."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Sectional cutoff: minimum marks in a section.",
+      "Overall cutoff: minimum total.",
+      "Feasibility: whether the target can be met.",
+      "Balance: avoiding a weak section.",
+      "Margin: marks above the cutoff."
+    ],
+    "theoreticalIntuition": "A chain is as strong as its weakest link; a sectional cutoff makes the weakest section decisive.",
+    "visualOrMentalModel": "Compute each cutoff in marks, secure the weakest section first, and top up elsewhere."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Cutoff marks",
+      "formula": "% × section marks",
+      "description": "Each section.",
+      "whenToUse": "Target.",
+      "simpleExample": "40% of 20"
+    },
+    {
+      "title": "Needed last",
+      "formula": "Target − earned",
+      "description": "Final section.",
+      "whenToUse": "Planning.",
+      "simpleExample": "36 − 25"
+    },
+    {
+      "title": "Feasible",
+      "formula": "Needed ≤ section marks",
+      "description": "Check.",
+      "whenToUse": "Reality.",
+      "simpleExample": "11 ≤ 25"
+    },
+    {
+      "title": "Margin",
+      "formula": "Earned − cutoff",
+      "description": "Review.",
+      "whenToUse": "Safety.",
+      "simpleExample": "12 − 8"
+    },
+    {
+      "title": "Balance",
+      "formula": "Min over sections",
+      "description": "Strategy.",
+      "whenToUse": "Weakest.",
+      "simpleExample": "Weakest section"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Suppose (hypothetically) sections of 20, 15 and 25 marks with a 40% sectional cutoff and a 60% overall cutoff. Sectional cutoffs in marks: 8, 6 and 10; the overall cutoff is 36 of 60.",
+      "If you earn 14 in Aptitude and 7 in Reasoning, you have 21; you need at least 15 in Verbal to reach 36 (more than the 10 sectional minimum), which is feasible since Verbal has 25 marks.",
+      "If Reasoning is your weak section, secure its 6 marks first; losing a whole section to a cutoff is worse than losing a few marks elsewhere.",
+      "Margins help: aim a few marks above each cutoff to absorb mistakes.",
+      "Recompute after each section."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Strategic neglect",
+        "content": "Skipping a weak section entirely risks failing the sectional cutoff even if the total is high."
+      },
+      {
+        "title": "Overall target depends on penalties",
+        "content": "If wrong answers cost marks, count net marks."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Sectional marks",
+      "description": "Percent of section.",
+      "exampleSnippet": "8, 6, 10"
+    },
+    {
+      "typeName": "Overall",
+      "description": "Percent of total.",
+      "exampleSnippet": "36"
+    },
+    {
+      "typeName": "Needed last",
+      "description": "Subtract.",
+      "exampleSnippet": "15"
+    },
+    {
+      "typeName": "Margin",
+      "description": "Above cutoff.",
+      "exampleSnippet": "A few marks"
+    },
+    {
+      "typeName": "Feasibility",
+      "description": "Check.",
+      "exampleSnippet": "15 ≤ 25"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rec-sectional-cutoffs-1",
+      "title": "Cutoff marks",
+      "question": "A 40% sectional cutoff on a 20-mark section is how many marks?",
+      "givenInfo": [
+        "20",
+        "40%"
+      ],
+      "conceptOrFormula": "Percent of marks.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert",
+          "explanation": "40% = 0.4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "0.4 × 20 = 8."
+        }
+      ],
+      "finalAnswer": "8 marks",
+      "whyItWorks": "Secure it first.",
+      "commonTrap": "Taking 40.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rec-sectional-cutoffs-2",
+      "title": "Needed last",
+      "question": "Overall cutoff 36. You have 14 + 7 = 21. Marks needed in the last section?",
+      "givenInfo": [
+        "36",
+        "21"
+      ],
+      "conceptOrFormula": "Subtract.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Difference",
+          "explanation": "36 − 21."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Result",
+          "explanation": "15."
+        }
+      ],
+      "finalAnswer": "15 marks",
+      "whyItWorks": "Above the sectional minimum.",
+      "commonTrap": "Taking 36.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rec-sectional-cutoffs-3",
+      "title": "Feasibility",
+      "question": "The last section has 25 marks and you need 15. Is it feasible?",
+      "givenInfo": [
+        "15 ≤ 25"
+      ],
+      "conceptOrFormula": "Compare.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Needed",
+          "explanation": "15."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Available",
+          "explanation": "25; yes, feasible."
+        }
+      ],
+      "finalAnswer": "Yes, it requires 60% of that section",
+      "whyItWorks": "15 ÷ 25 = 60%.",
+      "commonTrap": "Saying impossible.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Secure then top up",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Maximise the total.",
+      "shortcutMethod": "Compute each cutoff in marks, secure the weakest section first, then top up where your rate is highest."
+    },
+    "rulesForApplication": [
+      "Cutoffs in marks.",
+      "Weakest first.",
+      "Keep a margin.",
+      "Recompute."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Ignoring the sectional cutoff",
+      "whyItHappens": "Fail despite total.",
+      "howToAvoid": "Compute each."
+    },
+    {
+      "mistake": "Neglecting a weak section",
+      "whyItHappens": "Fails.",
+      "howToAvoid": "Secure its minimum."
+    },
+    {
+      "mistake": "No margin",
+      "whyItHappens": "Slip fails.",
+      "howToAvoid": "Aim a few marks above."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "Use elimination to protect minimums.",
+    "questionSelectionAdvice": "Compute cutoffs before the test.",
+    "recruiterInsight": "Plan the weakest section first."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rec-sectional-cutoffs-e1",
+        "question": "(Hypothetical) A 40% sectional cutoff on a 20-mark section is (marks)",
+        "options": [
+          "9",
+          "8",
+          "7",
+          "10"
+        ],
+        "correctAnswer": "8",
+        "explanation": "0.4 × 20 = 8.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-sectional-cutoffs-e2",
+        "question": "A 40% cutoff on a 15-mark section is (marks)",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "8"
+        ],
+        "correctAnswer": "6",
+        "explanation": "0.4 × 15 = 6.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-sectional-cutoffs-e3",
+        "question": "A 40% cutoff on a 25-mark section is (marks)",
+        "options": [
+          "11",
+          "9",
+          "13",
+          "10"
+        ],
+        "correctAnswer": "10",
+        "explanation": "0.4 × 25 = 10.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rec-sectional-cutoffs-i7",
+        "question": "You have 14 in Aptitude and 7 in Reasoning. The marks earned so far are",
+        "options": [
+          "21",
+          "23",
+          "19",
+          "26"
+        ],
+        "correctAnswer": "21",
+        "explanation": "14 + 7 = 21.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-sectional-cutoffs-i8",
+        "question": "The marks needed in Verbal for an overall 36 are",
+        "options": [
+          "17",
+          "14",
+          "19",
+          "15"
+        ],
+        "correctAnswer": "15",
+        "explanation": "36 − 21 = 15.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-sectional-cutoffs-i9",
+        "question": "The percentage of the 25 Verbal marks that 15 represents is",
+        "options": [
+          "66%",
+          "54%",
+          "75%",
+          "60%"
+        ],
+        "correctAnswer": "60%",
+        "explanation": "15 ÷ 25 = 60%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rec-sectional-cutoffs-a15",
+        "question": "Then the marks needed in Verbal for 36 are",
+        "options": [
+          "14",
+          "12",
+          "13",
+          "16"
+        ],
+        "correctAnswer": "13",
+        "explanation": "36 − 23 = 13.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-sectional-cutoffs-a16",
+        "question": "If a candidate scores 5 in Reasoning (below the 6 cutoff) and 40 elsewhere, the total is 45; does the candidate meet both the overall (36) and the sectional cutoffs?",
+        "options": [
+          "Yes",
+          "No, the Reasoning cutoff is missed",
+          "Only the overall cutoff matters",
+          "Cannot be decided"
+        ],
+        "correctAnswer": "No, the Reasoning cutoff is missed",
+        "explanation": "A sectional cutoff must be met in each section.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rec-sectional-cutoffs-p17",
+        "question": "With a penalty of 0.25, 14 correct and 4 wrong in a section give net marks of",
+        "options": [
+          "14",
+          "13",
+          "12",
+          "16"
+        ],
+        "correctAnswer": "13",
+        "explanation": "14 − 1 = 13.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-sectional-cutoffs-p18",
+        "question": "If the cutoff is 13 net marks, the margin is",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "correctAnswer": "0",
+        "explanation": "13 − 13 = 0.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-sectional-cutoffs-p19",
+        "question": "The best use of an extra 5 minutes is",
+        "options": [
+          "to re-do your strongest section",
+          "to skip the weak section",
+          "to ignore cutoffs",
+          "to secure a section close to its cutoff"
+        ],
+        "correctAnswer": "to secure a section close to its cutoff",
+        "explanation": "Securing a near-failure section protects the result.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Cutoffs.",
+      "Needed.",
+      "Feasibility.",
+      "Margin.",
+      "Balance."
+    ],
+    "quickFormulas": [
+      "Needed = target − earned"
+    ]
+  },
+  "keyTakeaways": [
+    "Marks not percents.",
+    "Weakest first.",
+    "Margin.",
+    "Recompute."
+  ],
+  "selfCheckQuestions": [
+    "Can I convert cutoffs to marks?",
+    "Can I compute marks needed?",
+    "Can I plan a margin?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Official instructions published by each test provider and employer",
+      "sourceType": "Official",
+      "referenceNote": "Exam patterns and rules change; this chapter teaches how to read and plan around the official instructions and quotes no company-specific figures."
+    }
+  ]
+}
