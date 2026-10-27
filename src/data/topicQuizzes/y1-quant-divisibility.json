@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-quant-divisibility",
+  "topicTitle": "Divisibility Rules",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Which of the following numbers is divisible by 3?",
+      "options": [
+        "4822",
+        "4821",
+        "4825",
+        "4829"
+      ],
+      "answerIndex": 1,
+      "explanation": "A number is divisible by 3 if its digit sum is. 4 + 8 + 2 + 1 = 15 is divisible by 3, while the other digit sums are 16, 19 and 23."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Which of the following numbers is divisible by 4?",
+      "options": [
+        "3216",
+        "3214",
+        "3218",
+        "3222"
+      ],
+      "answerIndex": 0,
+      "explanation": "Check the last two digits. 16 is divisible by 4, but 14, 18 and 22 are not."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Which of the following numbers is divisible by 5?",
+      "options": [
+        "2471",
+        "2473",
+        "2478",
+        "2475"
+      ],
+      "answerIndex": 3,
+      "explanation": "A number is divisible by 5 if it ends in 0 or 5. Only 2475 does."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Which of the following numbers is divisible by 9?",
+      "options": [
+        "7253",
+        "7255",
+        "7254",
+        "7256"
+      ],
+      "answerIndex": 2,
+      "explanation": "The digit sum of 7254 is 18, which is divisible by 9. The others have digit sums 17, 19 and 20."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Which of the following numbers is divisible by 11?",
+      "options": [
+        "2729",
+        "2730",
+        "2728",
+        "2731"
+      ],
+      "answerIndex": 2,
+      "explanation": "Alternating sum of digits for 2728: (2 + 2) − (7 + 8) = −11, which is divisible by 11. The others give −12, −2 and −3."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Which of the following numbers is divisible by 8?",
+      "options": [
+        "5122",
+        "5120",
+        "5124",
+        "5126"
+      ],
+      "answerIndex": 1,
+      "explanation": "Check the last three digits: 120 ÷ 8 = 15, so 5120 is divisible by 8. The other endings 122, 124, 126 are not multiples of 8."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "For which digit x is the number 3x45 divisible by 9?",
+      "options": [
+        "6",
+        "3",
+        "4",
+        "9"
+      ],
+      "answerIndex": 0,
+      "explanation": "The digit sum is 3 + x + 4 + 5 = 12 + x. It must be a multiple of 9, so 12 + x = 18 and x = 6."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Which digit should replace * so that 85*4 is divisible by 11?",
+      "options": [
+        "0",
+        "2",
+        "5",
+        "1"
+      ],
+      "answerIndex": 3,
+      "explanation": "The alternating sum is (8 + *) − (5 + 4) = * − 1. It must be 0 or a multiple of 11, so * = 1. Check: 8514 = 11 × 774."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "What is the smallest number to be added to 1000 to make it divisible by 9?",
+      "options": [
+        "1",
+        "7",
+        "9",
+        "8"
+      ],
+      "answerIndex": 3,
+      "explanation": "1000 leaves remainder 1 on division by 9 (digit sum 1). We add 9 − 1 = 8."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The largest 3-digit number divisible by 7 is",
+      "options": [
+        "999",
+        "995",
+        "994",
+        "992"
+      ],
+      "answerIndex": 2,
+      "explanation": "999 ÷ 7 leaves remainder 5, so the largest multiple is 999 − 5 = 994."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A number divisible by both 6 and 8 must also be divisible by",
+      "options": [
+        "14",
+        "24",
+        "36",
+        "48"
+      ],
+      "answerIndex": 1,
+      "explanation": "The LCM of 6 and 8 is 24. Every common multiple of 6 and 8 is a multiple of 24, but not necessarily of 36 or 48."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Which of the following numbers is divisible by 12?",
+      "options": [
+        "5436",
+        "5438",
+        "5442",
+        "5444"
+      ],
+      "answerIndex": 0,
+      "explanation": "5436 is divisible by 3 (digit sum 18) and by 4 (last two digits 36). Hence by 12: 5436 ÷ 12 = 453."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The remainder when 4567 is divided by 9 is",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "7"
+      ],
+      "answerIndex": 0,
+      "explanation": "The remainder on division by 9 equals the remainder of the digit sum: 4 + 5 + 6 + 7 = 22, and 22 leaves remainder 4."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "How many two-digit numbers are divisible by 7?",
+      "options": [
+        "12",
+        "14",
+        "15",
+        "13"
+      ],
+      "answerIndex": 3,
+      "explanation": "The multiples are 14, 21, …, 98. Count = 98/7 − 14/7 + 1 = 14 − 2 + 1 = 13."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The smallest 4-digit number divisible by each of 3, 4, 5 and 6 is",
+      "options": [
+        "1000",
+        "1060",
+        "1020",
+        "1200"
+      ],
+      "answerIndex": 2,
+      "explanation": "LCM(3, 4, 5, 6) = 60. The smallest multiple of 60 that is at least 1000 is 60 × 17 = 1020."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The largest 4-digit number divisible by 88 is",
+      "options": [
+        "9984",
+        "9944",
+        "9900",
+        "9856"
+      ],
+      "answerIndex": 1,
+      "explanation": "9999 ÷ 88 gives quotient 113, since 88 × 113 = 9944, and 88 × 114 = 10032 is too large."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The smallest number which leaves remainder 5 when divided by 12, 15 and 20 is",
+      "options": [
+        "60",
+        "65",
+        "125",
+        "185"
+      ],
+      "answerIndex": 1,
+      "explanation": "LCM(12, 15, 20) = 60. The smallest such number is 60 + 5 = 65."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The remainder when 1234567 is divided by 8 is",
+      "options": [
+        "7",
+        "3",
+        "5",
+        "6"
+      ],
+      "answerIndex": 0,
+      "explanation": "Only the last three digits matter for 8: 567 = 8 × 70 + 7, so the remainder is 7."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A number is divisible by 99 if and only if it is divisible by",
+      "options": [
+        "3 and 33",
+        "9 and 10",
+        "11 and 13",
+        "9 and 11"
+      ],
+      "answerIndex": 3,
+      "explanation": "99 = 9 × 11 with 9 and 11 co-prime. A number divisible by 3 and 33 is just divisible by 33, which does not guarantee divisibility by 99."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "How many 3-digit numbers are divisible by both 4 and 6?",
+      "options": [
+        "72",
+        "74",
+        "75",
+        "90"
+      ],
+      "answerIndex": 2,
+      "explanation": "LCM(4, 6) = 12. The first 3-digit multiple is 108 (12 × 9) and the last is 996 (12 × 83). Count = 83 − 9 + 1 = 75."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
+}

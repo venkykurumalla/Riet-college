@@ -1,0 +1,270 @@
+{
+  "topicId": "y1-quant-num-sys",
+  "topicTitle": "Number System Fundamentals",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Which of the following numbers is prime?",
+      "options": [
+        "51",
+        "53",
+        "57",
+        "91"
+      ],
+      "answerIndex": 1,
+      "explanation": "51 = 3 × 17, 57 = 3 × 19 and 91 = 7 × 13 are composite. 53 has no divisor other than 1 and itself, so it is prime."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The sum of the first 20 natural numbers is",
+      "options": [
+        "210",
+        "200",
+        "205",
+        "420"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sum = n(n + 1)/2 = 20 × 21/2 = 210."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "How many prime numbers are there between 1 and 20?",
+      "options": [
+        "7",
+        "9",
+        "10",
+        "8"
+      ],
+      "answerIndex": 3,
+      "explanation": "The primes are 2, 3, 5, 7, 11, 13, 17 and 19, which is 8 numbers."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Which of the following is an irrational number?",
+      "options": [
+        "√49",
+        "0.75",
+        "√2",
+        "22/7"
+      ],
+      "answerIndex": 2,
+      "explanation": "√49 = 7, 0.75 = 3/4 and 22/7 are rational. √2 cannot be written as a fraction of integers, so it is irrational."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The unit digit of 7⁴ is",
+      "options": [
+        "7",
+        "3",
+        "1",
+        "9"
+      ],
+      "answerIndex": 2,
+      "explanation": "7⁴ = 2401, whose unit digit is 1."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The smallest 3-digit perfect square is",
+      "options": [
+        "121",
+        "100",
+        "81",
+        "144"
+      ],
+      "answerIndex": 1,
+      "explanation": "10² = 100 is the smallest square with three digits (9² = 81 has only two)."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The unit digit of 3⁷⁴ is",
+      "options": [
+        "9",
+        "1",
+        "3",
+        "7"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unit digits of powers of 3 repeat every four steps: 3, 9, 7, 1. Since 74 ÷ 4 leaves remainder 2, the unit digit is the second one, 9.",
+      "shortcut": "Divide the power by 4 and use the remainder."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The sum of the first 15 odd numbers is",
+      "options": [
+        "120",
+        "210",
+        "240",
+        "225"
+      ],
+      "answerIndex": 3,
+      "explanation": "The sum of the first n odd numbers is n². So the sum is 15² = 225."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The number of factors of 72 is",
+      "options": [
+        "8",
+        "10",
+        "18",
+        "12"
+      ],
+      "answerIndex": 3,
+      "explanation": "72 = 2³ × 3². Number of factors = (3 + 1)(2 + 1) = 12.",
+      "shortcut": "Add 1 to each exponent in the prime factorisation and multiply."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "What is the smallest number to be added to 1000 to make it a perfect square?",
+      "options": [
+        "16",
+        "21",
+        "24",
+        "32"
+      ],
+      "answerIndex": 2,
+      "explanation": "31² = 961 and 32² = 1024. The next square after 1000 is 1024, so we add 1024 − 1000 = 24."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "How many prime numbers lie between 30 and 50?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answerIndex": 1,
+      "explanation": "The primes are 31, 37, 41, 43 and 47, which makes 5."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The remainder when 2¹⁰ is divided by 7 is",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "2³ = 8 leaves remainder 1 on division by 7. So 2¹⁰ = (2³)³ × 2 leaves 1 × 2 = 2."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The largest 4-digit number exactly divisible by 12 is",
+      "options": [
+        "9996",
+        "9999",
+        "9998",
+        "9984"
+      ],
+      "answerIndex": 0,
+      "explanation": "9999 ÷ 12 leaves remainder 3 (since 12 × 833 = 9996). So the number is 9999 − 3 = 9996."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The sum of all two-digit numbers is",
+      "options": [
+        "4950",
+        "4995",
+        "5050",
+        "4905"
+      ],
+      "answerIndex": 3,
+      "explanation": "The numbers 10 to 99 form an AP with 90 terms. Sum = 90 × (10 + 99)/2 = 90 × 54.5 = 4905."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The unit digit of 2²⁰²³ × 3²⁰²⁴ is",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "6"
+      ],
+      "answerIndex": 2,
+      "explanation": "Powers of 2 cycle 2, 4, 8, 6. 2023 leaves remainder 3 on division by 4, giving 8. Powers of 3 cycle 3, 9, 7, 1. 2024 is divisible by 4, giving 1. Unit digit of the product is 8 × 1 = 8."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The number of positive divisors of 360 is",
+      "options": [
+        "18",
+        "24",
+        "20",
+        "30"
+      ],
+      "answerIndex": 1,
+      "explanation": "360 = 2³ × 3² × 5. Number of divisors = (3 + 1)(2 + 1)(1 + 1) = 24."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The last two digits of 7¹⁰⁰ are",
+      "options": [
+        "07",
+        "01",
+        "49",
+        "43"
+      ],
+      "answerIndex": 1,
+      "explanation": "7⁴ = 2401, which ends in 01. So 7¹⁰⁰ = (7⁴)²⁵ ends in 01²⁵ = 01.",
+      "shortcut": "Look for a power ending in 01."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The remainder when 17²³ is divided by 16 is",
+      "options": [
+        "1",
+        "0",
+        "7",
+        "15"
+      ],
+      "answerIndex": 0,
+      "explanation": "17 leaves remainder 1 on division by 16, so 17²³ leaves remainder 1²³ = 1."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "How many numbers between 100 and 300 are divisible by 7?",
+      "options": [
+        "27",
+        "29",
+        "30",
+        "28"
+      ],
+      "answerIndex": 3,
+      "explanation": "The first multiple above 100 is 105 (7 × 15) and the last below 300 is 294 (7 × 42). Count = 42 − 15 + 1 = 28."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The smallest number by which 1176 must be multiplied to make it a perfect square is",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "7"
+      ],
+      "answerIndex": 2,
+      "explanation": "1176 = 2³ × 3 × 7². The prime powers 2³ and 3 have odd exponents, so we multiply by 2 × 3 = 6 to get 2⁴ × 3² × 7²."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
+}

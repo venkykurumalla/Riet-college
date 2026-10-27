@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-quant-hcf-lcm",
+  "topicTitle": "HCF and LCM Fundamentals",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The HCF of 36 and 48 is",
+      "options": [
+        "6",
+        "12",
+        "9",
+        "24"
+      ],
+      "answerIndex": 1,
+      "explanation": "36 = 2² × 3² and 48 = 2⁴ × 3. HCF = 2² × 3 = 12."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The LCM of 12 and 18 is",
+      "options": [
+        "36",
+        "6",
+        "54",
+        "72"
+      ],
+      "answerIndex": 0,
+      "explanation": "12 = 2² × 3 and 18 = 2 × 3². LCM = 2² × 3² = 36."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The HCF of two numbers is 12 and their LCM is 180. If one number is 36, the other is",
+      "options": [
+        "45",
+        "54",
+        "72",
+        "60"
+      ],
+      "answerIndex": 3,
+      "explanation": "Product of the numbers = HCF × LCM = 12 × 180 = 2160. Other number = 2160 ÷ 36 = 60."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The LCM of 4, 6 and 9 is",
+      "options": [
+        "24",
+        "48",
+        "36",
+        "72"
+      ],
+      "answerIndex": 2,
+      "explanation": "4 = 2², 6 = 2 × 3, 9 = 3². LCM = 2² × 3² = 36."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The HCF of 18, 24 and 30 is",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "12"
+      ],
+      "answerIndex": 2,
+      "explanation": "The common factors of 18, 24 and 30 are 1, 2, 3 and 6, so the HCF is 6."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The LCM of 15 and 20 is",
+      "options": [
+        "30",
+        "60",
+        "75",
+        "300"
+      ],
+      "answerIndex": 1,
+      "explanation": "15 = 3 × 5 and 20 = 2² × 5, so LCM = 2² × 3 × 5 = 60."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The greatest number that divides 290 and 460 leaving remainders 4 and 5 respectively is",
+      "options": [
+        "13",
+        "11",
+        "17",
+        "19"
+      ],
+      "answerIndex": 0,
+      "explanation": "The number must divide 290 − 4 = 286 and 460 − 5 = 455. 286 = 2 × 11 × 13 and 455 = 5 × 7 × 13, so the HCF is 13."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The smallest number exactly divisible by 8, 12 and 16 is",
+      "options": [
+        "24",
+        "96",
+        "144",
+        "48"
+      ],
+      "answerIndex": 3,
+      "explanation": "8 = 2³, 12 = 2² × 3, 16 = 2⁴. LCM = 2⁴ × 3 = 48."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Three bells ring at intervals of 12, 18 and 24 seconds. If they ring together at 8:00 a.m., they next ring together after",
+      "options": [
+        "36 seconds",
+        "144 seconds",
+        "216 seconds",
+        "72 seconds"
+      ],
+      "answerIndex": 3,
+      "explanation": "LCM(12, 18, 24) = 72, so the bells ring together again after 72 seconds."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The smallest number which leaves remainder 3 when divided by 5, 6 and 8 is",
+      "options": [
+        "120",
+        "243",
+        "123",
+        "63"
+      ],
+      "answerIndex": 2,
+      "explanation": "LCM(5, 6, 8) = 120. The number is 120 + 3 = 123."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Three numbers are in the ratio 2 : 3 : 4 and their HCF is 12. Their LCM is",
+      "options": [
+        "96",
+        "144",
+        "120",
+        "288"
+      ],
+      "answerIndex": 1,
+      "explanation": "The numbers are 24, 36 and 48. 24 = 2³ × 3, 36 = 2² × 3², 48 = 2⁴ × 3. LCM = 2⁴ × 3² = 144."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The greatest length of a tape that can measure exactly 4.2 m, 6.3 m and 8.4 m is",
+      "options": [
+        "210 cm",
+        "105 cm",
+        "420 cm",
+        "63 cm"
+      ],
+      "answerIndex": 0,
+      "explanation": "In centimetres the lengths are 420, 630 and 840. HCF(420, 630, 840) = 210."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The HCF of two numbers is 16 and their LCM is 240. If one number is 48, the other is",
+      "options": [
+        "80",
+        "60",
+        "64",
+        "96"
+      ],
+      "answerIndex": 0,
+      "explanation": "Product = 16 × 240 = 3840. Other number = 3840 ÷ 48 = 80."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The least number which leaves remainder 4 when divided by 6, 9, 15 and 18 and is exactly divisible by 7 is",
+      "options": [
+        "94",
+        "184",
+        "274",
+        "364"
+      ],
+      "answerIndex": 3,
+      "explanation": "LCM(6, 9, 15, 18) = 90, so numbers of the form 90k + 4 are candidates. 90k + 4 must be divisible by 7: k = 4 gives 364 = 7 × 52."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The greatest number that divides 1305, 4665 and 6905 leaving the same remainder in each case is",
+      "options": [
+        "560",
+        "1360",
+        "1120",
+        "2240"
+      ],
+      "answerIndex": 2,
+      "explanation": "The required number is the HCF of the differences: 4665 − 1305 = 3360 and 6905 − 4665 = 2240. HCF(3360, 2240) = 1120."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Three runners take 252, 308 and 198 seconds to complete a lap. If they start together, they will next meet at the start after (in seconds)",
+      "options": [
+        "1386",
+        "2772",
+        "1848",
+        "5544"
+      ],
+      "answerIndex": 1,
+      "explanation": "252 = 2² × 3² × 7, 308 = 2² × 7 × 11, 198 = 2 × 3² × 11. LCM = 2² × 3² × 7 × 11 = 2772 seconds."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The largest 4-digit number exactly divisible by 12, 15, 18 and 27 is",
+      "options": [
+        "9900",
+        "9720",
+        "9990",
+        "9180"
+      ],
+      "answerIndex": 1,
+      "explanation": "LCM = 2² × 3³ × 5 = 540. 9999 ÷ 540 = 18.5, so the largest multiple is 540 × 18 = 9720."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The product of two numbers is 4107 and their HCF is 37. The greater number is",
+      "options": [
+        "111",
+        "74",
+        "148",
+        "185"
+      ],
+      "answerIndex": 0,
+      "explanation": "The numbers are 37a and 37b with a, b co-prime and 37² × ab = 4107, so ab = 3. Hence a = 1, b = 3 and the numbers are 37 and 111."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The LCM of 1/2, 2/3 and 3/4 is",
+      "options": [
+        "1",
+        "12",
+        "1.5",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "LCM of fractions = LCM of numerators ÷ HCF of denominators = LCM(1, 2, 3) ÷ HCF(2, 3, 4) = 6 ÷ 1 = 6."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The HCF of 360 and 756 is",
+      "options": [
+        "18",
+        "24",
+        "36",
+        "72"
+      ],
+      "answerIndex": 2,
+      "explanation": "360 = 2³ × 3² × 5 and 756 = 2² × 3³ × 7. HCF = 2² × 3² = 36."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/hcf-and-lcm/"
+}

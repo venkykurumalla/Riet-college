@@ -13,17 +13,20 @@ const err = m => { errors++; console.log('ERROR ', m); };
 const warn = m => { warns++; console.log('warn  ', m); };
 const norm = s => String(s).replace(/[,\s₹]/g, '').toLowerCase();
 
-for (const f of fs.readdirSync(path.join(ROOT, 'src/data/chapters')).filter(f => f.startsWith(prefix) && f.endsWith('.json'))) {
+for (const f of fs.readdirSync(path.join(ROOT, 'src/data/topicQuizzes')).filter(f => f.startsWith(prefix) && f.endsWith('.json'))) {
   const id = f.replace('.json', '');
-  const raw = fs.readFileSync(path.join(ROOT, 'src/data/chapters', f), 'utf8');
-  const t = JSON.parse(raw);
   checked++;
-  BAD.forEach(b => raw.includes(b) && err(`${id}: contains "${b}"`));
-  if (/\b\d{2,3}\s?%\s+(of|more|faster)\s+(placement|candidates|tests|students)/i.test(raw)) err(`${id}: numeric placement claim`);
-  if (t.solvedExamples.length < 3) err(`${id}: only ${t.solvedExamples.length} solved examples`);
-  t.solvedExamples.forEach(e => e.steps.length < 2 && err(`${id}: example "${e.title}" has <2 steps`));
-  if (t.importantRulesAndFormulas.length < 2) err(`${id}: <2 formula cards`);
-  if (t.commonMistakes.length < 3) warn(`${id}: <3 common mistakes`);
+  const cp = path.join(ROOT, 'src/data/chapters', f);
+  if (fs.existsSync(cp)) {
+    const raw = fs.readFileSync(cp, 'utf8');
+    const t = JSON.parse(raw);
+    BAD.forEach(b => raw.includes(b) && err(`${id}: contains "${b}"`));
+    if (/\b\d{2,3}\s?%\s+(of|more|faster)\s+(placement|candidates|tests|students)/i.test(raw)) err(`${id}: numeric placement claim`);
+    if (t.solvedExamples.length < 3) err(`${id}: only ${t.solvedExamples.length} solved examples`);
+    t.solvedExamples.forEach(e => e.steps.length < 2 && err(`${id}: example "${e.title}" has <2 steps`));
+    if (t.importantRulesAndFormulas.length < 2) err(`${id}: <2 formula cards`);
+    if (t.commonMistakes.length < 3) warn(`${id}: <3 common mistakes`);
+  }
 
   const qp = path.join(ROOT, 'src/data/topicQuizzes', f);
   if (!fs.existsSync(qp)) { err(`${id}: no quiz file`); continue; }

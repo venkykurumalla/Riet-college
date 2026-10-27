@@ -1,0 +1,268 @@
+{
+  "topicId": "y1-lr-letter-series",
+  "topicTitle": "Letter Series",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Find the next letter: A, C, E, G, ?",
+      "options": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "answerIndex": 1,
+      "explanation": "The positions are 1, 3, 5, 7 with a gap of 2. The next position is 9, which is I."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Find the next letter: B, D, F, H, ?",
+      "options": [
+        "J",
+        "I",
+        "K",
+        "L"
+      ],
+      "answerIndex": 0,
+      "explanation": "The positions are 2, 4, 6, 8. The next position is 10, which is J."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Find the next letter: Z, X, V, T, ?",
+      "options": [
+        "Q",
+        "S",
+        "P",
+        "R"
+      ],
+      "answerIndex": 3,
+      "explanation": "The positions are 26, 24, 22, 20 going down by 2. The next is 18, which is R."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Find the next letter: A, B, D, G, K, ?",
+      "options": [
+        "N",
+        "O",
+        "P",
+        "Q"
+      ],
+      "answerIndex": 2,
+      "explanation": "The positions are 1, 2, 4, 7, 11 with gaps 1, 2, 3, 4. The next gap is 5, so 11 + 5 = 16, which is P."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "What is the position of the letter P from the start of the alphabet?",
+      "options": [
+        "15",
+        "17",
+        "16",
+        "11"
+      ],
+      "answerIndex": 2,
+      "explanation": "A = 1, …, O = 15, P = 16."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Which letter is the 7th from the end of the alphabet?",
+      "options": [
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "answerIndex": 1,
+      "explanation": "Position from the left = 27 − 7 = 20, which is T.",
+      "shortcut": "Position from the right + position from the left = 27."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Find the next group: AZ, BY, CX, DW, ?",
+      "options": [
+        "EV",
+        "EW",
+        "DV",
+        "FV"
+      ],
+      "answerIndex": 0,
+      "explanation": "The left letters move forward (A, B, C, D, E) and the right letters move backward (Z, Y, X, W, V). The next group is EV."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Find the next group: ACE, FHJ, KMO, ?",
+      "options": [
+        "PQR",
+        "OQS",
+        "PRS",
+        "PRT"
+      ],
+      "answerIndex": 3,
+      "explanation": "Each letter moves forward by 5 from one group to the next: A→F→K→P, C→H→M→R, E→J→O→T. The next group is PRT."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Find the next letter: B, E, H, K, N, ?",
+      "options": [
+        "P",
+        "R",
+        "S",
+        "Q"
+      ],
+      "answerIndex": 3,
+      "explanation": "The positions are 2, 5, 8, 11, 14 with a gap of 3. The next is 17, which is Q."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Find the next letter: A, Z, B, Y, C, X, ?",
+      "options": [
+        "W",
+        "E",
+        "D",
+        "V"
+      ],
+      "answerIndex": 2,
+      "explanation": "The odd positions go A, B, C, … and the even positions go Z, Y, X, …. The next term is in an odd position, so it is D."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Find the next group: ZYX, WVU, TSR, ?",
+      "options": [
+        "QOP",
+        "QPO",
+        "PQR",
+        "RQP"
+      ],
+      "answerIndex": 1,
+      "explanation": "Each group is three letters in reverse order, and the starting letters go Z, W, T, Q (down by 3). The next group is QPO."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Find the next group: CF, FI, IL, LO, ?",
+      "options": [
+        "OR",
+        "PQ",
+        "NQ",
+        "OS"
+      ],
+      "answerIndex": 0,
+      "explanation": "Each letter moves forward by 3 in every step: C→F→I→L→O and F→I→L→O→R. The next group is OR."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Find the next group: ABD, EFH, IJL, ?",
+      "options": [
+        "MNP",
+        "MNO",
+        "LMN",
+        "MOP"
+      ],
+      "answerIndex": 0,
+      "explanation": "The groups are three letters with the last one two ahead of the middle. The first letters are A, E, I, M (gap 4), so the next group is MNP."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Find the next letter: C, F, I, L, ?",
+      "options": [
+        "N",
+        "P",
+        "M",
+        "O"
+      ],
+      "answerIndex": 3,
+      "explanation": "The positions are 3, 6, 9, 12 with a gap of 3. The next is 15, which is O."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Find the next group: AB, DE, HI, MN, ?",
+      "options": [
+        "RS",
+        "TU",
+        "ST",
+        "SU"
+      ],
+      "answerIndex": 2,
+      "explanation": "The first letters are A, D, H, M, which are positions 1, 4, 8, 13 with gaps 3, 4, 5. The next gap is 6, giving position 19 = S. Each group has consecutive letters, so the next group is ST."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Find the next letter: B, D, G, K, P, ?",
+      "options": [
+        "T",
+        "V",
+        "U",
+        "W"
+      ],
+      "answerIndex": 1,
+      "explanation": "The positions are 2, 4, 7, 11, 16 with gaps 2, 3, 4, 5. The next gap is 6, giving 22, which is V."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Find the next group: AZBY, CXDW, EVFU, ?",
+      "options": [
+        "GSHT",
+        "GTHS",
+        "GTHU",
+        "HTIS"
+      ],
+      "answerIndex": 1,
+      "explanation": "Within each group the letters are A–Z–B–Y style. The first letters go A, C, E, G; so the next group starts with G, followed by its opposite T, then H and its opposite S: GTHS."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Find the next letter: Z, W, S, N, H, ?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answerIndex": 0,
+      "explanation": "The positions are 26, 23, 19, 14, 8 with gaps −3, −4, −5, −6. The next gap is −7, so the position is 1, which is A."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Find the next letter: A, E, I, M, Q, U, ?",
+      "options": [
+        "X",
+        "Z",
+        "W",
+        "Y"
+      ],
+      "answerIndex": 3,
+      "explanation": "The positions are 1, 5, 9, 13, 17, 21 with a gap of 4. The next position is 25, which is Y."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Find the next group: QPO, NML, KJI, HGF, ?",
+      "options": [
+        "EFG",
+        "DCB",
+        "EDC",
+        "FED"
+      ],
+      "answerIndex": 2,
+      "explanation": "Each group is three letters in reverse order. The starting letters Q, N, K, H are positions 17, 14, 11, 8 (down by 3). The next starts at position 5 (E): EDC."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/letter-series/"
+}

@@ -1,0 +1,451 @@
+{
+  "id": "y1-lr-letter-series",
+  "yearId": 1,
+  "category": "Logical Reasoning",
+  "topicNumber": 14,
+  "title": "Letter Series",
+  "tagline": "Year 1 Foundation — Patterns built from alphabet positions",
+  "estimatedMinutes": 40,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "A letter series is a list of letters or letter groups that follows a rule based on their positions in the English alphabet. The rule can move forward or backward by a fixed gap, use a gap that grows, alternate between two patterns, or work on each letter of a group separately. The key skill is to convert letters into position numbers so that the problem becomes a number series.",
+    "placementRelevance": "Letter series questions are commonly asked in company reasoning rounds. They are quick to solve for a student who knows the alphabet positions well, so they are a good source of fast marks.",
+    "realWorldContext": "Spreadsheet column names (A, B, … Z, AA, AB), seat numbering in a theatre and codes used in inventory labels all use alphabetical order and gaps in the same way."
+  },
+  "learningObjectives": [
+    "Recall the position of any letter quickly, from both ends of the alphabet",
+    "Convert letter patterns into number patterns",
+    "Solve series with constant, increasing and alternating gaps",
+    "Handle two-letter and three-letter groups by treating each position separately",
+    "Use the opposite-letter rule (positions add up to 27)"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Number Series",
+      "Alphabet positions A to Z"
+    ],
+    "quickRefresher": "A = 1, B = 2, …, Z = 26. A useful anchor is the word EJOTY: E = 5, J = 10, O = 15, T = 20, Y = 25. Each letter and its opposite (A–Z, B–Y, …) add up to 27."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Position value: the number of a letter in the alphabet counted from A. A = 1, M = 13, Z = 26.",
+      "Opposite letter: the letter at the same distance from the other end. Position from the left + position from the right = 27.",
+      "Gap (step): the number of positions between two consecutive letters in a series.",
+      "Letter group: a block of two or more letters treated as one term, such as ACE or AZ.",
+      "Wrap-around: after Z, counting continues from A (so Z + 1 = A, Z + 2 = B). Many series do not need this, but check when a gap carries you past Z."
+    ],
+    "theoreticalIntuition": "A letter series is a number series in disguise. Replace each letter with its number, find the rule in the numbers, then convert the answer back to a letter. For letter groups the same rule usually works separately in each position of the group, left letter against left letter and so on.",
+    "visualOrMentalModel": "Imagine a ruler marked A to Z. Each term in the series is a point on the ruler. A constant gap means equal jumps; an increasing gap means jumps of 1, 2, 3, …; a series moving to the left means decreasing positions."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Position and opposite",
+      "formula": "Position from left + position from right = 27",
+      "description": "Both counts include the letter itself.",
+      "whenToUse": "Questions about the nth letter from the end.",
+      "simpleExample": "7th from the end = 27 − 7 = 20 → T"
+    },
+    {
+      "title": "Constant gap",
+      "formula": "Next = current position + d",
+      "description": "Add (or subtract) the same number each time.",
+      "whenToUse": "A, C, E, G, ? (d = 2)",
+      "simpleExample": "G = 7, next = 9 → I"
+    },
+    {
+      "title": "Increasing gap",
+      "formula": "Gaps 1, 2, 3, 4, …",
+      "description": "The gap itself grows by 1.",
+      "whenToUse": "A, B, D, G, K, ?",
+      "simpleExample": "K = 11, gap 5 → 16 = P"
+    },
+    {
+      "title": "Group series",
+      "formula": "Treat each position of a group separately",
+      "description": "First letters form one series, second letters another.",
+      "whenToUse": "AZ, BY, CX, DW, ?",
+      "simpleExample": "Left letters A, B, C, D, E and right letters Z, Y, X, W, V → EV"
+    },
+    {
+      "title": "Wrap-around",
+      "formula": "If position > 26, subtract 26",
+      "description": "Alphabet is circular in some questions.",
+      "whenToUse": "Series passing beyond Z.",
+      "simpleExample": "28 − 26 = 2 → B"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Begin by writing the position number under each letter. For A, C, E, G the numbers are 1, 3, 5, 7. The rule is a constant gap of 2, so the next is 9 = I. This conversion step makes every later check an arithmetic one.",
+      "Letters can move backwards: Z, X, V, T has positions 26, 24, 22, 20 and the next is 18 = R. Look at the first two letters and decide whether the series is moving towards A or Z.",
+      "Increasing gaps give series such as A, B, D, G, K, whose positions are 1, 2, 4, 7, 11. The gaps are 1, 2, 3, 4, so the next gap is 5 and the next letter is 16 = P.",
+      "For groups such as AZ, BY, CX, DW, handle the left letters and right letters as two separate series: A, B, C, D (moving forward) and Z, Y, X, W (moving backward). The next group is EV.",
+      "In groups with three letters like ACE, FHJ, KMO, check whether each position moves by the same gap from group to group. Here every letter shifts by 5 from one group to the next (A→F→K), so the next group is PRT."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Alternating letter series",
+        "content": "In a series like A, Z, B, Y, C, X the odd terms go forward (A, B, C) and the even terms go backward (Z, Y, X). Separate them, find each rule, and continue the series with the correct sub-series for the next position."
+      },
+      {
+        "title": "Why EJOTY helps",
+        "content": "Remembering E = 5, J = 10, O = 15, T = 20, Y = 25 lets you reach any letter within two or three counts, which saves precious seconds in a timed test."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Single letters, constant gap",
+      "description": "A, C, E, G, ?",
+      "exampleSnippet": "B, D, F, H, ?"
+    },
+    {
+      "typeName": "Single letters, changing gap",
+      "description": "The gap grows or alternates.",
+      "exampleSnippet": "A, B, D, G, K, ?"
+    },
+    {
+      "typeName": "Two-letter groups",
+      "description": "Left and right letters move separately.",
+      "exampleSnippet": "AZ, BY, CX, DW, ?"
+    },
+    {
+      "typeName": "Three-letter groups",
+      "description": "Each position follows a rule.",
+      "exampleSnippet": "ACE, FHJ, KMO, ?"
+    },
+    {
+      "typeName": "Alternating series",
+      "description": "Odd and even positions follow different rules.",
+      "exampleSnippet": "A, Z, B, Y, C, X, ?"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-lr-letter-series-1",
+      "title": "Increasing gaps",
+      "question": "Find the next letter: A, B, D, G, K, ?",
+      "givenInfo": [
+        "Series: A, B, D, G, K"
+      ],
+      "conceptOrFormula": "Convert to positions and study the gaps.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert to numbers",
+          "explanation": "A = 1, B = 2, D = 4, G = 7, K = 11."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Find the gaps",
+          "explanation": "2 − 1 = 1, 4 − 2 = 2, 7 − 4 = 3, 11 − 7 = 4."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Continue the gaps",
+          "explanation": "The next gap is 5, so the next position is 11 + 5 = 16."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Convert back",
+          "explanation": "Position 16 is P."
+        }
+      ],
+      "finalAnswer": "P",
+      "whyItWorks": "The gaps 1, 2, 3, 4 grow by one each time, a standard pattern of increasing gaps.",
+      "commonTrap": "Assuming a constant gap after seeing the first two letters, which gives C instead of D.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-lr-letter-series-2",
+      "title": "Letter groups that move in opposite directions",
+      "question": "Find the next group: AZ, BY, CX, DW, ?",
+      "givenInfo": [
+        "Series: AZ, BY, CX, DW"
+      ],
+      "conceptOrFormula": "Treat the left letters and right letters as two separate series.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Left letters",
+          "explanation": "A, B, C, D go forward by 1. The next is E."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Right letters",
+          "explanation": "Z, Y, X, W go backward by 1. The next is V."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Join",
+          "explanation": "The next group is EV."
+        }
+      ],
+      "finalAnswer": "EV",
+      "whyItWorks": "Each group pairs a letter with its opposite, and the pairing shifts by one in each step.",
+      "commonTrap": "Treating AZ as one unit and looking for a pattern in the whole group.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-lr-letter-series-3",
+      "title": "Backward series with a growing gap",
+      "question": "Find the next letter: Z, W, S, N, H, ?",
+      "givenInfo": [
+        "Series: Z, W, S, N, H"
+      ],
+      "conceptOrFormula": "Positions and the changing gap.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Positions",
+          "explanation": "Z = 26, W = 23, S = 19, N = 14, H = 8."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Gaps",
+          "explanation": "26 → 23 is −3, 23 → 19 is −4, 19 → 14 is −5, 14 → 8 is −6."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Next gap",
+          "explanation": "The next gap is −7, so the position is 8 − 7 = 1."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Convert back",
+          "explanation": "Position 1 is A."
+        }
+      ],
+      "finalAnswer": "A",
+      "whyItWorks": "The gaps are 3, 4, 5, 6, 7 going down the alphabet.",
+      "commonTrap": "Forgetting that the series moves backwards and adding the gaps.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Convert to numbers, then use the number-series toolbox",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Count letters on your fingers from A each time you need a position.",
+      "shortcutMethod": "Memorise EJOTY (5, 10, 15, 20, 25) and count only 1–2 steps from the nearest anchor. Use the opposite-letter rule for positions from the right: 27 minus the left position."
+    },
+    "rulesForApplication": [
+      "Always write the positions under the letters on the first pass.",
+      "For groups, track each position separately.",
+      "Use a \"27\" rule for opposite letters.",
+      "When a series moves past Z, wrap around by subtracting 26."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Wrong alphabet positions",
+      "whyItHappens": "Counting from memory and slipping by one.",
+      "howToAvoid": "Use the EJOTY anchors and double-check by counting from the nearest anchor."
+    },
+    {
+      "mistake": "Treating a letter group as a single item",
+      "whyItHappens": "Overlooking that each letter follows its own rule.",
+      "howToAvoid": "Split the group into columns and examine each column."
+    },
+    {
+      "mistake": "Ignoring direction",
+      "whyItHappens": "Assuming every series moves forward.",
+      "howToAvoid": "Check the first two letters: smaller to larger is forward, larger to smaller is backward."
+    },
+    {
+      "mistake": "Skipping the wrap-around",
+      "whyItHappens": "Position exceeds 26 and the answer is not a letter.",
+      "howToAvoid": "Subtract 26 from any position above 26."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 40,
+    "eliminationTechnique": "Write the positions of each option and see which one fits the number pattern; wrong options usually break the gap.",
+    "questionSelectionAdvice": "Do letter series early in the reasoning section; they are among the fastest to finish.",
+    "recruiterInsight": "Speed comes from remembering the anchor letters and the opposite-letter rule, not from any complex theory."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-lr-letter-series-e1",
+        "question": "Find the next letter: A, C, E, G, ?",
+        "options": [
+          "H",
+          "I",
+          "J",
+          "K"
+        ],
+        "correctAnswer": "I",
+        "explanation": "The positions are 1, 3, 5, 7 with a gap of 2. The next position is 9, which is I.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-letter-series-e2",
+        "question": "Find the next letter: B, D, F, H, ?",
+        "options": [
+          "J",
+          "I",
+          "K",
+          "L"
+        ],
+        "correctAnswer": "J",
+        "explanation": "The positions are 2, 4, 6, 8. The next position is 10, which is J.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-letter-series-e3",
+        "question": "Find the next letter: Z, X, V, T, ?",
+        "options": [
+          "Q",
+          "S",
+          "P",
+          "R"
+        ],
+        "correctAnswer": "R",
+        "explanation": "The positions are 26, 24, 22, 20 going down by 2. The next is 18, which is R.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-lr-letter-series-i7",
+        "question": "Find the next group: AZ, BY, CX, DW, ?",
+        "options": [
+          "EV",
+          "EW",
+          "DV",
+          "FV"
+        ],
+        "correctAnswer": "EV",
+        "explanation": "The left letters move forward (A, B, C, D, E) and the right letters move backward (Z, Y, X, W, V). The next group is EV.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-letter-series-i8",
+        "question": "Find the next group: ACE, FHJ, KMO, ?",
+        "options": [
+          "PQR",
+          "OQS",
+          "PRS",
+          "PRT"
+        ],
+        "correctAnswer": "PRT",
+        "explanation": "Each letter moves forward by 5 from one group to the next: A→F→K→P, C→H→M→R, E→J→O→T. The next group is PRT.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-letter-series-i9",
+        "question": "Find the next letter: B, E, H, K, N, ?",
+        "options": [
+          "P",
+          "R",
+          "S",
+          "Q"
+        ],
+        "correctAnswer": "Q",
+        "explanation": "The positions are 2, 5, 8, 11, 14 with a gap of 3. The next is 17, which is Q.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-lr-letter-series-a15",
+        "question": "Find the next group: AB, DE, HI, MN, ?",
+        "options": [
+          "RS",
+          "TU",
+          "ST",
+          "SU"
+        ],
+        "correctAnswer": "ST",
+        "explanation": "The first letters are A, D, H, M, which are positions 1, 4, 8, 13 with gaps 3, 4, 5. The next gap is 6, giving position 19 = S. Each group has consecutive letters, so the next group is ST.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-letter-series-a16",
+        "question": "Find the next letter: B, D, G, K, P, ?",
+        "options": [
+          "T",
+          "V",
+          "U",
+          "W"
+        ],
+        "correctAnswer": "V",
+        "explanation": "The positions are 2, 4, 7, 11, 16 with gaps 2, 3, 4, 5. The next gap is 6, giving 22, which is V.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-lr-letter-series-p17",
+        "question": "Find the next group: AZBY, CXDW, EVFU, ?",
+        "options": [
+          "GSHT",
+          "GTHS",
+          "GTHU",
+          "HTIS"
+        ],
+        "correctAnswer": "GTHS",
+        "explanation": "Within each group the letters are A–Z–B–Y style. The first letters go A, C, E, G; so the next group starts with G, followed by its opposite T, then H and its opposite S: GTHS.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-letter-series-p18",
+        "question": "Find the next letter: Z, W, S, N, H, ?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctAnswer": "A",
+        "explanation": "The positions are 26, 23, 19, 14, 8 with gaps −3, −4, −5, −6. The next gap is −7, so the position is 1, which is A.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-letter-series-p19",
+        "question": "Find the next letter: A, E, I, M, Q, U, ?",
+        "options": [
+          "X",
+          "Z",
+          "W",
+          "Y"
+        ],
+        "correctAnswer": "Y",
+        "explanation": "The positions are 1, 5, 9, 13, 17, 21 with a gap of 4. The next position is 25, which is Y.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "A = 1 … Z = 26; anchors E, J, O, T, Y = 5, 10, 15, 20, 25.",
+      "Left position + right position = 27.",
+      "Convert letters to numbers, find the gap pattern, convert back.",
+      "For groups, solve each position separately.",
+      "Wrap past Z by subtracting 26."
+    ],
+    "quickFormulas": [
+      "Position from the right = 27 − position from the left",
+      "Next position = current + gap",
+      "Wrap: position − 26 if > 26"
+    ]
+  },
+  "keyTakeaways": [
+    "A letter series is a number series in disguise.",
+    "Know the anchor letters.",
+    "Look at each position of a group separately.",
+    "Direction matters."
+  ],
+  "selfCheckQuestions": [
+    "Can I give the 9th letter from the end of the alphabet?",
+    "Can I continue QPO, NML, KJI, HGF?",
+    "Can I spot the gap pattern in A, B, D, G, K, ?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The Series Completion topic area; examples in this chapter are original."
+    }
+  ]
+}
