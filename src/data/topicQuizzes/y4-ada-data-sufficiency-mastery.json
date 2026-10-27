@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-ada-data-sufficiency-mastery",
+  "topicTitle": "Data Sufficiency Mastery",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Company A had sales of ₹40 lakh in 2023. Company B's sales b are a whole number of lakh, at most 100.\n\nQuestion: What were the combined sales of A and B?\nI. B's sales were 25% more than A's.\nII. B's sales were more than ₹45 lakh.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Statement I alone fixes the answer as 90. Statement II alone leaves several answers possible (for example 86 and 87). Taken together they fix the answer as 90. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "x and y are whole numbers from 1 to 9.\n\nQuestion: Is x greater than y?\nI. x² is greater than y².\nII. x + y = 10.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Statement I alone fixes the answer as Yes. Statement II alone leaves several answers possible (for example No and Yes). Taken together they fix the answer as Yes. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The monthly incomes of X and Y (in thousands) are multiples of 10 from 10 to 60.\n\nQuestion: Does X earn more than Y?\nI. X earns ₹20 thousand more than Y.\nII. X earns ₹40 thousand.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient",
+        "Statement I alone is sufficient, but statement II alone is not"
+      ],
+      "answerIndex": 3,
+      "explanation": "Statement I alone fixes the answer as Yes. Statement II alone leaves several answers possible (for example Yes and No). Taken together they fix the answer as Yes. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "b and c are whole numbers from 1 to 9.\n\nQuestion: Is b greater than c?\nI. b is 3 times c.\nII. c = 2.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Statement I alone fixes the answer as Yes. Statement II alone leaves several answers possible (for example No and Yes). Taken together they fix the answer as Yes. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A class has 50 students; the number of boys b is a whole number from 1 to 49.\n\nQuestion: Are there more boys than girls?\nI. Girls are 20% of the class.\nII. There are more than 20 boys.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Statement I alone fixes the answer as Yes. Statement II alone leaves several answers possible (for example No and Yes). Taken together they fix the answer as Yes. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "x is a whole number from 1 to 40.\n\nQuestion: Is x even?\nI. x² is divisible by 4.\nII. x is a multiple of 3.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Statement I alone fixes the answer as Yes. Statement II alone leaves several answers possible (for example No and Yes). Taken together they fix the answer as Yes. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "An article was bought for ₹100, ₹200, ₹300 or ₹400 and sold for a multiple of ₹10 from ₹100 to ₹700.\n\nQuestion: Is the profit percentage more than 20%?\nI. The selling price was ₹300.\nII. The cost price was ₹200 and the selling price was more than ₹250.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Statement I alone leaves several answers possible (for example Yes and No). Statement II alone fixes the answer as Yes. Taken together they fix the answer as Yes. Answer: Statement II alone is sufficient, but statement I alone is not."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Old sales and new sales are each one of 100, 200, 300, 400 or 500.\n\nQuestion: What was the percentage increase in sales?\nI. The new sales were 300.\nII. The new sales were 50% more than the old sales.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient",
+        "Statement II alone is sufficient, but statement I alone is not"
+      ],
+      "answerIndex": 3,
+      "explanation": "Statement I alone leaves several answers possible (for example 200 and 50). Statement II alone fixes the answer as 50. Taken together they fix the answer as 50. Answer: Statement II alone is sufficient, but statement I alone is not."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Three numbers a, b and c are whole numbers from 1 to 9.\n\nQuestion: What is the average of a, b and c?\nI. a + b = 10.\nII. c = 4.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Even both statements together are not sufficient",
+        "Both statements together are needed; neither alone is sufficient"
+      ],
+      "answerIndex": 3,
+      "explanation": "Statement I alone leaves several answers possible (for example 3.67 and 4). Statement II alone leaves several answers possible (for example 2 and 2.33). Taken together they fix the answer as 4.67. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "n is a whole number from 1 to 50.\n\nQuestion: What is n?\nI. n is divisible by 12.\nII. n is divisible by 18.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Statement I alone leaves several answers possible (for example 12 and 24). Statement II alone leaves several answers possible (for example 18 and 36). Taken together they fix the answer as 36. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A vehicle travels at a steady speed of 20, 40 or 60 km/h for 1, 2 or 3 hours.\n\nQuestion: What is the distance travelled?\nI. The speed was 40 km/h.\nII. The time was 2 hours.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Statement I alone leaves several answers possible (for example 40 and 80). Statement II alone leaves several answers possible (for example 40 and 80). Taken together they fix the answer as 80. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The cost price is ₹100, 200, 300, 400 or 500 and the profit percentage is 10, 20, 25 or 50.\n\nQuestion: What was the selling price?\nI. The cost price was ₹200.\nII. The profit percentage was 25.\n\nWhich of the following is correct?",
+      "options": [
+        "Both statements together are needed; neither alone is sufficient",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Statement I alone leaves several answers possible (for example 220.00000000000003 and 240). Statement II alone leaves several answers possible (for example 125 and 250). Taken together they fix the answer as 250. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "a and b are whole numbers from 1 to 20.\n\nQuestion: What is a + b?\nI. a − b = 4.\nII. a × b = 96.\n\nWhich of the following is correct?",
+      "options": [
+        "Both statements together are needed; neither alone is sufficient",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Statement I alone leaves several answers possible (for example 6 and 8). Statement II alone leaves several answers possible (for example 22 and 20). Taken together they fix the answer as 20. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A pen costs p rupees and a pencil costs q rupees; both are whole numbers from 1 to 20.\n\nQuestion: What is the price of a pen?\nI. 2 pens and 1 pencil cost ₹25.\nII. 1 pen and 2 pencils cost more than ₹18.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 3,
+      "explanation": "Statement I alone leaves several answers possible (for example 3 and 4). Statement II alone leaves several answers possible (for example 1 and 2). Taken together they still leave several answers possible (for example 3 and 4). Answer: Even both statements together are not sufficient."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A rectangle has whole-number sides l and w from 1 to 10 (in cm).\n\nQuestion: Is the rectangle a square?\nI. Its perimeter is 24 cm.\nII. Its area is 36 square cm.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Statement I alone leaves several answers possible (for example No and Yes). Statement II alone leaves several answers possible (for example No and Yes). Taken together they fix the answer as Yes. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A school has n students (50, 100 or 150) and p of them passed, where p is a multiple of 10 not exceeding n.\n\nQuestion: Did more than 60% of the students pass?\nI. 90 students passed.\nII. The school has 150 students.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Statement I alone leaves several answers possible (for example Yes and No). Statement II alone leaves several answers possible (for example No and Yes). Taken together they fix the answer as No. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Ravi's marks in two tests are each a multiple of 10 from 0 to 100.\n\nQuestion: What is Ravi's total mark in the two tests?\nI. He scored 70 in the first test.\nII. The average of his two marks is 80.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Statement I alone leaves several answers possible (for example 70 and 80). Statement II alone fixes the answer as 160. Taken together they fix the answer as 160. Answer: Statement II alone is sufficient, but statement I alone is not."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Department A has a employees and department B has b employees; each is a multiple of 10 from 10 to 60.\n\nQuestion: How many employees does department B have?\nI. Department A has 30 employees.\nII. Department B has more than 20 employees.\n\nWhich of the following is correct?",
+      "options": [
+        "Even both statements together are not sufficient",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Statement I alone leaves several answers possible (for example 10 and 20). Statement II alone leaves several answers possible (for example 30 and 40). Taken together they still leave several answers possible (for example 30 and 40). Answer: Even both statements together are not sufficient."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "x and y are whole numbers from 1 to 30.\n\nQuestion: What is the HCF of x and y?\nI. x = 12 and y = 18.\nII. x + y = 30.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient",
+        "Statement I alone is sufficient, but statement II alone is not"
+      ],
+      "answerIndex": 3,
+      "explanation": "Statement I alone fixes the answer as 6. Statement II alone leaves several answers possible (for example 1 and 2). Taken together they fix the answer as 6. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Anil's marks in three subjects are each a multiple of 10 from 30 to 100.\n\nQuestion: Is the average of the three marks above 50?\nI. The total of the three marks is 160.\nII. The highest of the three marks is 60.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Statement I alone fixes the answer as Yes. Statement II alone leaves several answers possible (for example No and Yes). Taken together they fix the answer as Yes. Answer: Statement I alone is sufficient, but statement II alone is not."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/"
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-ada-caselet-business-analytics",
+  "topicTitle": "Caselet Business Analytics DI",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nHow many subscribers does the app have initially?",
+      "options": [
+        "80000",
+        "4000",
+        "400",
+        "3200"
+      ],
+      "answerIndex": 1,
+      "explanation": "5% of 80,000 = 4,000."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nWhat is the initial monthly revenue (₹)?",
+      "options": [
+        "1200000",
+        "1320000",
+        "1080000",
+        "1500000"
+      ],
+      "answerIndex": 0,
+      "explanation": "4,000 × 300 = 12,00,000."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nWhat is the initial monthly profit (₹)?",
+      "options": [
+        "880000",
+        "720000",
+        "1000000",
+        "800000"
+      ],
+      "answerIndex": 3,
+      "explanation": "12,00,000 − 4,00,000 = 8,00,000."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nHow many subscribers cancel in the first month (before additions)?",
+      "options": [
+        "352",
+        "288",
+        "320",
+        "400"
+      ],
+      "answerIndex": 2,
+      "explanation": "8% of 4,000 = 320."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nHow many subscribers are there after one month?",
+      "options": [
+        "4488",
+        "3672",
+        "4080",
+        "5100"
+      ],
+      "answerIndex": 2,
+      "explanation": "4,000 × 0.92 + 400 = 4,080."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A delivery firm handles 1,200 orders a day. The firm earns an average of ₹40 per delivery and its cost is ₹30 per delivery. It employs 60 riders and each rider handles the same number of orders. The firm operates 30 days a month and has fixed monthly overheads of ₹1,50,000.\n\nHow many orders does each rider handle per day?",
+      "options": [
+        "22",
+        "20",
+        "18",
+        "25"
+      ],
+      "answerIndex": 1,
+      "explanation": "1,200 ÷ 60 = 20."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nWhat is the revenue after one month (₹)?",
+      "options": [
+        "1224000",
+        "1346400",
+        "1101600",
+        "1530000"
+      ],
+      "answerIndex": 0,
+      "explanation": "4,080 × 300 = 12,24,000."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nHow many subscribers are there after two months (to the nearest whole number)?",
+      "options": [
+        "4569",
+        "3739",
+        "5193",
+        "4154"
+      ],
+      "answerIndex": 3,
+      "explanation": "4,080 × 0.92 + 400 = 4,153.6, about 4,154."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nThe break-even number of subscribers (nearest whole number, rounded up) is",
+      "options": [
+        "1467",
+        "1201",
+        "1668",
+        "1334"
+      ],
+      "answerIndex": 3,
+      "explanation": "4,00,000 ÷ 300 = 1,333.3, so 1,334."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nThe profit margin in the first month (profit as a percentage of revenue, to one decimal) is",
+      "options": [
+        "73.4%",
+        "60%",
+        "66.7%",
+        "83.4%"
+      ],
+      "answerIndex": 2,
+      "explanation": "8,00,000 ÷ 12,00,000 = 66.7%."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A delivery firm handles 1,200 orders a day. The firm earns an average of ₹40 per delivery and its cost is ₹30 per delivery. It employs 60 riders and each rider handles the same number of orders. The firm operates 30 days a month and has fixed monthly overheads of ₹1,50,000.\n\nWhat is the daily profit before overheads (₹)?",
+      "options": [
+        "13200",
+        "12000",
+        "10800",
+        "15000"
+      ],
+      "answerIndex": 1,
+      "explanation": "1,200 × (40 − 30) = 12,000."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A delivery firm handles 1,200 orders a day. The firm earns an average of ₹40 per delivery and its cost is ₹30 per delivery. It employs 60 riders and each rider handles the same number of orders. The firm operates 30 days a month and has fixed monthly overheads of ₹1,50,000.\n\nWhat is the monthly profit after overheads (₹)?",
+      "options": [
+        "210000",
+        "231000",
+        "189000",
+        "262500"
+      ],
+      "answerIndex": 0,
+      "explanation": "12,000 × 30 − 1,50,000 = 2,10,000."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A delivery firm handles 1,200 orders a day. The firm earns an average of ₹40 per delivery and its cost is ₹30 per delivery. It employs 60 riders and each rider handles the same number of orders. The firm operates 30 days a month and has fixed monthly overheads of ₹1,50,000.\n\nWhat is the monthly revenue (₹)?",
+      "options": [
+        "1440000",
+        "1584000",
+        "1296000",
+        "1800000"
+      ],
+      "answerIndex": 0,
+      "explanation": "1,200 × 40 × 30 = 14,40,000."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A delivery firm handles 1,200 orders a day. The firm earns an average of ₹40 per delivery and its cost is ₹30 per delivery. It employs 60 riders and each rider handles the same number of orders. The firm operates 30 days a month and has fixed monthly overheads of ₹1,50,000.\n\nHow many orders per month does the break-even point require (₹10 profit per order, overhead ₹1,50,000)?",
+      "options": [
+        "16500",
+        "13500",
+        "18750",
+        "15000"
+      ],
+      "answerIndex": 3,
+      "explanation": "1,50,000 ÷ 10 = 15,000 orders."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nThe steady-state number of subscribers (where additions equal cancellations) is",
+      "options": [
+        "5500",
+        "4500",
+        "5000",
+        "6250"
+      ],
+      "answerIndex": 2,
+      "explanation": "Steady state: 8% of S = 400, so S = 5,000."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nIf marketing added 600 instead of 400 subscribers a month, the subscribers after one month would be",
+      "options": [
+        "4708",
+        "4280",
+        "3852",
+        "5350"
+      ],
+      "answerIndex": 1,
+      "explanation": "4,000 × 0.92 + 600 = 4,280."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A subscription app has 80,000 registered users. 5% of them are paying subscribers, each paying ₹300 per month. Fixed monthly costs (servers and support) are ₹4,00,000. Each month 8% of the existing subscribers cancel and marketing adds 400 new subscribers.\n\nIf the price rose to ₹330 with the same 4,000 subscribers, the monthly profit would be (₹)",
+      "options": [
+        "1012000",
+        "920000",
+        "828000",
+        "1150000"
+      ],
+      "answerIndex": 1,
+      "explanation": "4,000 × 330 = 13,20,000; minus 4,00,000 = 9,20,000."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A delivery firm handles 1,200 orders a day. The firm earns an average of ₹40 per delivery and its cost is ₹30 per delivery. It employs 60 riders and each rider handles the same number of orders. The firm operates 30 days a month and has fixed monthly overheads of ₹1,50,000.\n\nIf the per-delivery cost rose to ₹34, the monthly profit after overheads would be (₹)",
+      "options": [
+        "66000",
+        "72600",
+        "59400",
+        "82500"
+      ],
+      "answerIndex": 0,
+      "explanation": "1,200 × 6 × 30 = 2,16,000; minus 1,50,000 = 66,000."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A delivery firm handles 1,200 orders a day. The firm earns an average of ₹40 per delivery and its cost is ₹30 per delivery. It employs 60 riders and each rider handles the same number of orders. The firm operates 30 days a month and has fixed monthly overheads of ₹1,50,000.\n\nThe monthly profit after overheads is what percentage of monthly revenue (to one decimal)?",
+      "options": [
+        "16.1%",
+        "13.1%",
+        "18.3%",
+        "14.6%"
+      ],
+      "answerIndex": 3,
+      "explanation": "2,10,000 ÷ 14,40,000 = 14.6%."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A delivery firm handles 1,200 orders a day. The firm earns an average of ₹40 per delivery and its cost is ₹30 per delivery. It employs 60 riders and each rider handles the same number of orders. The firm operates 30 days a month and has fixed monthly overheads of ₹1,50,000.\n\nHow many riders would be needed to handle 1,500 orders a day at the same 20 orders per rider?",
+      "options": [
+        "83",
+        "68",
+        "75",
+        "94"
+      ],
+      "answerIndex": 2,
+      "explanation": "1,500 ÷ 20 = 75."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/"
+}
