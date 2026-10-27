@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-grouping-problems",
+  "topicTitle": "Grouping and Team Formation Problems",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 3 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in the same group.\n2. Charu and Dev are in different groups.\n\nIn how many ways can the people be divided?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "answerIndex": 1,
+      "explanation": "The valid divisions are {Asha, Bilal, Charu} and {Dev, Esha, Farid}; {Asha, Bilal, Dev} and {Charu, Esha, Farid}, so the number of ways is 2."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 3 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in the same group.\n2. Charu and Dev are in different groups.\n\nWhich person is always in the same group as Asha?",
+      "options": [
+        "Bilal",
+        "Dev",
+        "Esha",
+        "Farid"
+      ],
+      "answerIndex": 0,
+      "explanation": "The valid divisions are {Asha, Bilal, Charu} and {Dev, Esha, Farid}; {Asha, Bilal, Dev} and {Charu, Esha, Farid}; Bilal is with Asha in every valid division."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 3 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in the same group.\n2. Charu and Dev are in different groups.\n\nIn how many valid divisions are Asha and Charu in the same group?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 3,
+      "explanation": "The valid divisions are {Asha, Bilal, Charu} and {Dev, Esha, Farid}; {Asha, Bilal, Dev} and {Charu, Esha, Farid}; Asha and Charu share a group in 1 of them, which is 1."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 3 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in the same group.\n2. Charu and Dev are in different groups.\n\nIn how many valid divisions are Asha and Charu in different groups?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "The valid divisions are {Asha, Bilal, Charu} and {Dev, Esha, Farid}; {Asha, Bilal, Dev} and {Charu, Esha, Farid}; Asha and Charu are apart in 1 of them, which is 1."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 3 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in the same group.\n2. Charu and Dev are in different groups.\n\nIn how many valid divisions are Esha and Farid in the same group?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "answerIndex": 2,
+      "explanation": "The valid divisions are {Asha, Bilal, Charu} and {Dev, Esha, Farid}; {Asha, Bilal, Dev} and {Charu, Esha, Farid}; Esha and Farid share a group in 2 of them, which is 2."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 3 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in the same group.\n2. Charu and Dev are in different groups.\n\nIn how many valid divisions are Bilal and Dev in the same group?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "The valid divisions are {Asha, Bilal, Charu} and {Dev, Esha, Farid}; {Asha, Bilal, Dev} and {Charu, Esha, Farid}; Bilal and Dev share a group in 1 of them, which is 1."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 2 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in different groups.\n2. Charu and Dev are in different groups.\n3. Esha is not in the same group as Asha or Charu.\n\nIn how many ways can the people be divided?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "The valid divisions are {Asha, Charu} and {Bilal, Dev} and {Esha, Farid}; {Asha, Charu} and {Bilal, Esha} and {Dev, Farid}; {Asha, Charu} and {Bilal, Farid} and {Dev, Esha}; {Asha, Dev} and {Bilal, Charu} and {Esha, Farid}; {Asha, Dev} and {Bilal, Esha} and {Charu, Farid}; {Asha, Farid} and {Bilal, Charu} and {Dev, Esha}, so the number of ways is 6."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 2 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in different groups.\n2. Charu and Dev are in different groups.\n3. Esha is not in the same group as Asha or Charu.\n\nWhich person is never in the same group as Esha?",
+      "options": [
+        "Dev",
+        "Farid",
+        "Bilal",
+        "Asha"
+      ],
+      "answerIndex": 3,
+      "explanation": "The valid divisions are {Asha, Charu} and {Bilal, Dev} and {Esha, Farid}; {Asha, Charu} and {Bilal, Esha} and {Dev, Farid}; {Asha, Charu} and {Bilal, Farid} and {Dev, Esha}; {Asha, Dev} and {Bilal, Charu} and {Esha, Farid}; {Asha, Dev} and {Bilal, Esha} and {Charu, Farid}; {Asha, Farid} and {Bilal, Charu} and {Dev, Esha}; Asha is never with Esha."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 2 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in different groups.\n2. Charu and Dev are in different groups.\n3. Esha is not in the same group as Asha or Charu.\n\nIn how many valid divisions are Asha and Charu in the same group?",
+      "options": [
+        "4",
+        "5",
+        "2",
+        "3"
+      ],
+      "answerIndex": 3,
+      "explanation": "The valid divisions are {Asha, Charu} and {Bilal, Dev} and {Esha, Farid}; {Asha, Charu} and {Bilal, Esha} and {Dev, Farid}; {Asha, Charu} and {Bilal, Farid} and {Dev, Esha}; {Asha, Dev} and {Bilal, Charu} and {Esha, Farid}; {Asha, Dev} and {Bilal, Esha} and {Charu, Farid}; {Asha, Farid} and {Bilal, Charu} and {Dev, Esha}; Asha and Charu share a group in 3 of them, which is 3."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 2 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in different groups.\n2. Charu and Dev are in different groups.\n3. Esha is not in the same group as Asha or Charu.\n\nIn how many valid divisions are Asha and Charu in different groups?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "2"
+      ],
+      "answerIndex": 2,
+      "explanation": "The valid divisions are {Asha, Charu} and {Bilal, Dev} and {Esha, Farid}; {Asha, Charu} and {Bilal, Esha} and {Dev, Farid}; {Asha, Charu} and {Bilal, Farid} and {Dev, Esha}; {Asha, Dev} and {Bilal, Charu} and {Esha, Farid}; {Asha, Dev} and {Bilal, Esha} and {Charu, Farid}; {Asha, Farid} and {Bilal, Charu} and {Dev, Esha}; Asha and Charu are apart in 3 of them, which is 3."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 2 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in different groups.\n2. Charu and Dev are in different groups.\n3. Esha is not in the same group as Asha or Charu.\n\nIn how many valid divisions are Bilal and Dev in the same group?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "The valid divisions are {Asha, Charu} and {Bilal, Dev} and {Esha, Farid}; {Asha, Charu} and {Bilal, Esha} and {Dev, Farid}; {Asha, Charu} and {Bilal, Farid} and {Dev, Esha}; {Asha, Dev} and {Bilal, Charu} and {Esha, Farid}; {Asha, Dev} and {Bilal, Esha} and {Charu, Farid}; {Asha, Farid} and {Bilal, Charu} and {Dev, Esha}; Bilal and Dev share a group in 1 of them, which is 1."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 2 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in different groups.\n2. Charu and Dev are in different groups.\n3. Esha is not in the same group as Asha or Charu.\n\nIn how many valid divisions are Esha and Farid in the same group?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 0,
+      "explanation": "The valid divisions are {Asha, Charu} and {Bilal, Dev} and {Esha, Farid}; {Asha, Charu} and {Bilal, Esha} and {Dev, Farid}; {Asha, Charu} and {Bilal, Farid} and {Dev, Esha}; {Asha, Dev} and {Bilal, Charu} and {Esha, Farid}; {Asha, Dev} and {Bilal, Esha} and {Charu, Farid}; {Asha, Farid} and {Bilal, Charu} and {Dev, Esha}; Esha and Farid share a group in 2 of them, which is 2."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 2 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in different groups.\n2. Charu and Dev are in different groups.\n3. Esha is not in the same group as Asha or Charu.\n\nIn how many valid divisions are Asha and Dev in the same group?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 0,
+      "explanation": "The valid divisions are {Asha, Charu} and {Bilal, Dev} and {Esha, Farid}; {Asha, Charu} and {Bilal, Esha} and {Dev, Farid}; {Asha, Charu} and {Bilal, Farid} and {Dev, Esha}; {Asha, Dev} and {Bilal, Charu} and {Esha, Farid}; {Asha, Dev} and {Bilal, Esha} and {Charu, Farid}; {Asha, Farid} and {Bilal, Charu} and {Dev, Esha}; Asha and Dev share a group in 2 of them, which is 2."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 2 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in different groups.\n2. Charu and Dev are in different groups.\n3. Esha is not in the same group as Asha or Charu.\n\nIn how many valid divisions are Bilal and Charu in the same group?",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "answerIndex": 3,
+      "explanation": "The valid divisions are {Asha, Charu} and {Bilal, Dev} and {Esha, Farid}; {Asha, Charu} and {Bilal, Esha} and {Dev, Farid}; {Asha, Charu} and {Bilal, Farid} and {Dev, Esha}; {Asha, Dev} and {Bilal, Charu} and {Esha, Farid}; {Asha, Dev} and {Bilal, Esha} and {Charu, Farid}; {Asha, Farid} and {Bilal, Charu} and {Dev, Esha}; Bilal and Charu share a group in 2 of them, which is 2."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Eight colleagues 8 people (Gita, Hari, Indu, Jai, Kiran, Lata, Manoj, Nisha) are divided into groups of 4 (groups are not ordered). The following conditions apply:\n1. Gita and Hari are in the same group.\n2. Indu and Jai are in different groups.\n3. Kiran and Lata are in different groups.\n4. Manoj is not in the same group as Gita or Kiran.\n\nIn how many ways can the people be divided?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "answerIndex": 2,
+      "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}, so the number of ways is 2."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Eight colleagues 8 people (Gita, Hari, Indu, Jai, Kiran, Lata, Manoj, Nisha) are divided into groups of 4 (groups are not ordered). The following conditions apply:\n1. Gita and Hari are in the same group.\n2. Indu and Jai are in different groups.\n3. Kiran and Lata are in different groups.\n4. Manoj is not in the same group as Gita or Kiran.\n\nWhich person is always in the same group as Gita?",
+      "options": [
+        "Jai",
+        "Hari",
+        "Lata",
+        "Manoj"
+      ],
+      "answerIndex": 1,
+      "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}; Hari is with Gita in every valid division."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Eight colleagues 8 people (Gita, Hari, Indu, Jai, Kiran, Lata, Manoj, Nisha) are divided into groups of 4 (groups are not ordered). The following conditions apply:\n1. Gita and Hari are in the same group.\n2. Indu and Jai are in different groups.\n3. Kiran and Lata are in different groups.\n4. Manoj is not in the same group as Gita or Kiran.\n\nIn how many valid divisions are Indu and Kiran in the same group?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}; Indu and Kiran share a group in 1 of them, which is 1."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Eight colleagues 8 people (Gita, Hari, Indu, Jai, Kiran, Lata, Manoj, Nisha) are divided into groups of 4 (groups are not ordered). The following conditions apply:\n1. Gita and Hari are in the same group.\n2. Indu and Jai are in different groups.\n3. Kiran and Lata are in different groups.\n4. Manoj is not in the same group as Gita or Kiran.\n\nIn how many valid divisions are Indu and Kiran in different groups?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}; Indu and Kiran are apart in 1 of them, which is 1."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Eight colleagues 8 people (Gita, Hari, Indu, Jai, Kiran, Lata, Manoj, Nisha) are divided into groups of 4 (groups are not ordered). The following conditions apply:\n1. Gita and Hari are in the same group.\n2. Indu and Jai are in different groups.\n3. Kiran and Lata are in different groups.\n4. Manoj is not in the same group as Gita or Kiran.\n\nIn how many valid divisions are Jai and Lata in the same group?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 3,
+      "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}; Jai and Lata share a group in 1 of them, which is 1."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Eight colleagues 8 people (Gita, Hari, Indu, Jai, Kiran, Lata, Manoj, Nisha) are divided into groups of 4 (groups are not ordered). The following conditions apply:\n1. Gita and Hari are in the same group.\n2. Indu and Jai are in different groups.\n3. Kiran and Lata are in different groups.\n4. Manoj is not in the same group as Gita or Kiran.\n\nIn how many valid divisions are Manoj and Nisha in the same group?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "answerIndex": 2,
+      "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}; Manoj and Nisha share a group in 2 of them, which is 2."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/"
+}

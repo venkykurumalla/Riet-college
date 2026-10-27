@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-box-puzzles",
+  "topicTitle": "Box-Stack Arrangement Puzzles",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Blue box is at the bottom of the stack.\n2. The White box is placed immediately above the Blue box.\n3. The Yellow box is placed 4th from the top.\n4. The Black box is placed immediately above the Yellow box.\n5. Exactly 2 boxes are placed between the Green box and the Yellow box.\n6. The Red box is placed immediately above the Black box.\n\nWhich box is placed 1st from the top?",
+      "options": [
+        "Blue",
+        "Green",
+        "Yellow",
+        "White"
+      ],
+      "answerIndex": 1,
+      "explanation": "From the top of the stack to the bottom the boxes are Green, Red, Black, Yellow, Pink, White, Blue, so Green is the answer."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Blue box is at the bottom of the stack.\n2. The White box is placed immediately above the Blue box.\n3. The Yellow box is placed 4th from the top.\n4. The Black box is placed immediately above the Yellow box.\n5. Exactly 2 boxes are placed between the Green box and the Yellow box.\n6. The Red box is placed immediately above the Black box.\n\nWhich box is placed 7th from the top?",
+      "options": [
+        "Blue",
+        "Yellow",
+        "White",
+        "Black"
+      ],
+      "answerIndex": 0,
+      "explanation": "From the top of the stack to the bottom the boxes are Green, Red, Black, Yellow, Pink, White, Blue, so Blue is the answer."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Blue box is at the bottom of the stack.\n2. The White box is placed immediately above the Blue box.\n3. The Yellow box is placed 4th from the top.\n4. The Black box is placed immediately above the Yellow box.\n5. Exactly 2 boxes are placed between the Green box and the Yellow box.\n6. The Red box is placed immediately above the Black box.\n\nThe Yellow box is placed at which position from the top?",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "4"
+      ],
+      "answerIndex": 3,
+      "explanation": "From the top of the stack to the bottom the boxes are Green, Red, Black, Yellow, Pink, White, Blue, so Yellow is 4th from the top."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Blue box is at the bottom of the stack.\n2. The White box is placed immediately above the Blue box.\n3. The Yellow box is placed 4th from the top.\n4. The Black box is placed immediately above the Yellow box.\n5. Exactly 2 boxes are placed between the Green box and the Yellow box.\n6. The Red box is placed immediately above the Black box.\n\nWhich box is placed immediately below the Red box?",
+      "options": [
+        "Blue",
+        "Green",
+        "Black",
+        "Yellow"
+      ],
+      "answerIndex": 2,
+      "explanation": "From the top of the stack to the bottom the boxes are Green, Red, Black, Yellow, Pink, White, Blue, so Black comes right after Red."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Blue box is at the bottom of the stack.\n2. The White box is placed immediately above the Blue box.\n3. The Yellow box is placed 4th from the top.\n4. The Black box is placed immediately above the Yellow box.\n5. Exactly 2 boxes are placed between the Green box and the Yellow box.\n6. The Red box is placed immediately above the Black box.\n\nWhich box is placed immediately above the White box?",
+      "options": [
+        "Green",
+        "Yellow",
+        "Pink",
+        "White"
+      ],
+      "answerIndex": 2,
+      "explanation": "From the top of the stack to the bottom the boxes are Green, Red, Black, Yellow, Pink, White, Blue, so Pink comes right before White."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Blue box is at the bottom of the stack.\n2. The White box is placed immediately above the Blue box.\n3. The Yellow box is placed 4th from the top.\n4. The Black box is placed immediately above the Yellow box.\n5. Exactly 2 boxes are placed between the Green box and the Yellow box.\n6. The Red box is placed immediately above the Black box.\n\nHow many boxes are placed below the Black box?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "answerIndex": 1,
+      "explanation": "From the top of the stack to the bottom the boxes are Green, Red, Black, Yellow, Pink, White, Blue, so 4 come after Black, which is 4."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Pink box is at the top of the stack.\n2. Exactly 2 boxes are placed between the Pink box and the Red box.\n3. The Red box is placed immediately above the Green box.\n4. The Yellow box is at the bottom of the stack.\n5. The Blue box is placed next to the Yellow box.\n6. The Black box is placed somewhere above the White box.\n\nWhich box is placed 1st from the top?",
+      "options": [
+        "Pink",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "answerIndex": 0,
+      "explanation": "From the top of the stack to the bottom the boxes are Pink, Black, White, Red, Green, Blue, Yellow, so Pink is the answer."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Pink box is at the top of the stack.\n2. Exactly 2 boxes are placed between the Pink box and the Red box.\n3. The Red box is placed immediately above the Green box.\n4. The Yellow box is at the bottom of the stack.\n5. The Blue box is placed next to the Yellow box.\n6. The Black box is placed somewhere above the White box.\n\nWhich box is placed 5th from the top?",
+      "options": [
+        "Yellow",
+        "White",
+        "Black",
+        "Green"
+      ],
+      "answerIndex": 3,
+      "explanation": "From the top of the stack to the bottom the boxes are Pink, Black, White, Red, Green, Blue, Yellow, so Green is the answer."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Pink box is at the top of the stack.\n2. Exactly 2 boxes are placed between the Pink box and the Red box.\n3. The Red box is placed immediately above the Green box.\n4. The Yellow box is at the bottom of the stack.\n5. The Blue box is placed next to the Yellow box.\n6. The Black box is placed somewhere above the White box.\n\nThe Green box is placed at which position from the top?",
+      "options": [
+        "6",
+        "4",
+        "7",
+        "5"
+      ],
+      "answerIndex": 3,
+      "explanation": "From the top of the stack to the bottom the boxes are Pink, Black, White, Red, Green, Blue, Yellow, so Green is 5th from the top."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Pink box is at the top of the stack.\n2. Exactly 2 boxes are placed between the Pink box and the Red box.\n3. The Red box is placed immediately above the Green box.\n4. The Yellow box is at the bottom of the stack.\n5. The Blue box is placed next to the Yellow box.\n6. The Black box is placed somewhere above the White box.\n\nWhich box is placed immediately below the Black box?",
+      "options": [
+        "Yellow",
+        "Black",
+        "White",
+        "Pink"
+      ],
+      "answerIndex": 2,
+      "explanation": "From the top of the stack to the bottom the boxes are Pink, Black, White, Red, Green, Blue, Yellow, so White comes right after Black."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Pink box is at the top of the stack.\n2. Exactly 2 boxes are placed between the Pink box and the Red box.\n3. The Red box is placed immediately above the Green box.\n4. The Yellow box is at the bottom of the stack.\n5. The Blue box is placed next to the Yellow box.\n6. The Black box is placed somewhere above the White box.\n\nHow many boxes are placed between the Pink box and the Red box?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "From the top of the stack to the bottom the boxes are Pink, Black, White, Red, Green, Blue, Yellow; Pink and Red are 3 places apart, so 2 boxes lie between them, which is 2."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Pink box is at the top of the stack.\n2. Exactly 2 boxes are placed between the Pink box and the Red box.\n3. The Red box is placed immediately above the Green box.\n4. The Yellow box is at the bottom of the stack.\n5. The Blue box is placed next to the Yellow box.\n6. The Black box is placed somewhere above the White box.\n\nHow many boxes are placed below the Red box?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "answerIndex": 0,
+      "explanation": "From the top of the stack to the bottom the boxes are Pink, Black, White, Red, Green, Blue, Yellow, so 3 come after Red, which is 3."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Pink box is at the top of the stack.\n2. Exactly 2 boxes are placed between the Pink box and the Red box.\n3. The Red box is placed immediately above the Green box.\n4. The Yellow box is at the bottom of the stack.\n5. The Blue box is placed next to the Yellow box.\n6. The Black box is placed somewhere above the White box.\n\nWhich box is placed immediately above the Yellow box?",
+      "options": [
+        "Blue",
+        "Green",
+        "Yellow",
+        "White"
+      ],
+      "answerIndex": 0,
+      "explanation": "From the top of the stack to the bottom the boxes are Pink, Black, White, Red, Green, Blue, Yellow, so Blue comes right before Yellow."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Pink box is at the top of the stack.\n2. Exactly 2 boxes are placed between the Pink box and the Red box.\n3. The Red box is placed immediately above the Green box.\n4. The Yellow box is at the bottom of the stack.\n5. The Blue box is placed next to the Yellow box.\n6. The Black box is placed somewhere above the White box.\n\nIf the Pink box and the Red box exchange places, which box is placed immediately below the Black box?",
+      "options": [
+        "Green",
+        "Yellow",
+        "Black",
+        "White"
+      ],
+      "answerIndex": 3,
+      "explanation": "From the top of the stack to the bottom the boxes are Pink, Black, White, Red, Green, Blue, Yellow. After Pink and Red exchange places the order is Red, Black, White, Pink, Green, Blue, Yellow, so White comes right after Black."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Black box is placed 4th from the top.\n2. Exactly 2 boxes are placed between the Blue box and the Black box.\n3. The White box is at the bottom of the stack.\n4. The Yellow box is placed immediately above the Red box.\n5. The Black box is placed immediately above the Pink box.\n6. The Green box is placed somewhere above the White box.\n\nWhich box is placed 1st from the top?",
+      "options": [
+        "Green",
+        "Yellow",
+        "Blue",
+        "White"
+      ],
+      "answerIndex": 2,
+      "explanation": "From the top of the stack to the bottom the boxes are Blue, Yellow, Red, Black, Pink, Green, White, so Blue is the answer."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Black box is placed 4th from the top.\n2. Exactly 2 boxes are placed between the Blue box and the Black box.\n3. The White box is at the bottom of the stack.\n4. The Yellow box is placed immediately above the Red box.\n5. The Black box is placed immediately above the Pink box.\n6. The Green box is placed somewhere above the White box.\n\nWhich box is placed 6th from the top?",
+      "options": [
+        "Yellow",
+        "Green",
+        "White",
+        "Black"
+      ],
+      "answerIndex": 1,
+      "explanation": "From the top of the stack to the bottom the boxes are Blue, Yellow, Red, Black, Pink, Green, White, so Green is the answer."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Black box is placed 4th from the top.\n2. Exactly 2 boxes are placed between the Blue box and the Black box.\n3. The White box is at the bottom of the stack.\n4. The Yellow box is placed immediately above the Red box.\n5. The Black box is placed immediately above the Pink box.\n6. The Green box is placed somewhere above the White box.\n\nThe Pink box is placed at which position from the top?",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "7"
+      ],
+      "answerIndex": 1,
+      "explanation": "From the top of the stack to the bottom the boxes are Blue, Yellow, Red, Black, Pink, Green, White, so Pink is 5th from the top."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Black box is placed 4th from the top.\n2. Exactly 2 boxes are placed between the Blue box and the Black box.\n3. The White box is at the bottom of the stack.\n4. The Yellow box is placed immediately above the Red box.\n5. The Black box is placed immediately above the Pink box.\n6. The Green box is placed somewhere above the White box.\n\nHow many boxes are placed between the Blue box and the Black box?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "From the top of the stack to the bottom the boxes are Blue, Yellow, Red, Black, Pink, Green, White; Blue and Black are 3 places apart, so 2 boxes lie between them, which is 2."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Black box is placed 4th from the top.\n2. Exactly 2 boxes are placed between the Blue box and the Black box.\n3. The White box is at the bottom of the stack.\n4. The Yellow box is placed immediately above the Red box.\n5. The Black box is placed immediately above the Pink box.\n6. The Green box is placed somewhere above the White box.\n\nIf the Blue box and the White box exchange places, which box is placed immediately below the Yellow box?",
+      "options": [
+        "Yellow",
+        "White",
+        "Black",
+        "Red"
+      ],
+      "answerIndex": 3,
+      "explanation": "From the top of the stack to the bottom the boxes are Blue, Yellow, Red, Black, Pink, Green, White. After Blue and White exchange places the order is White, Yellow, Red, Black, Pink, Green, Blue, so Red comes right after Yellow."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Black box is placed 4th from the top.\n2. Exactly 2 boxes are placed between the Blue box and the Black box.\n3. The White box is at the bottom of the stack.\n4. The Yellow box is placed immediately above the Red box.\n5. The Black box is placed immediately above the Pink box.\n6. The Green box is placed somewhere above the White box.\n\nHow many boxes are placed below the Red box?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "answerIndex": 2,
+      "explanation": "From the top of the stack to the bottom the boxes are Blue, Yellow, Red, Black, Pink, Green, White, so 4 come after Red, which is 4."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/seating-arrangement/"
+}

@@ -1,0 +1,419 @@
+{
+  "id": "y3-lr-scheduling-puzzles",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 33,
+  "title": "Scheduling and Day-Assignment Puzzles",
+  "tagline": "Year 3 — Assigning people or tasks to days: before/after, consecutive days, gaps and exclusions",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A scheduling puzzle assigns events to the days of a week. Each day gets one event and each event one day, so it is again a one-to-one ordering with the days as fixed positions. New features are the named anchors (Monday is the first, Sunday the last), the phrase \"consecutive days\", and exclusion clues such as \"not on Friday\". The method is the usual one: anchors, chains, gap arithmetic, exclusions last.",
+    "placementRelevance": "Scheduling sets with seven days are among the commonest arrangement puzzles in written tests.",
+    "realWorldContext": "Timetables, shift rosters and appointment calendars use the same one-per-slot logic."
+  },
+  "learningObjectives": [
+    "Treat days as numbered positions",
+    "Chain consecutive-day clues",
+    "Convert \"k days between\" into a difference of k + 1",
+    "Apply exclusion clues",
+    "Answer count and exchange questions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Box-Stack Arrangement Puzzles"
+    ],
+    "quickRefresher": "Monday is day 1 and Sunday day 7 in this chapter. \"Earlier in the week\" means a smaller day number."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Consecutive days: day numbers that differ by 1.",
+      "Immediately before: the day with the number one less.",
+      "k days between: day numbers differ by k + 1.",
+      "Exclusion clue: \"not on Friday\" removes one option for one person.",
+      "One-to-one: every day has exactly one event."
+    ],
+    "theoreticalIntuition": "The week is a row of seven slots. Each clue ties two people to slot numbers, so you are solving the same ordering problem as before.",
+    "visualOrMentalModel": "Write Monday to Sunday as 1 to 7. Place the day-named anchors, build chains, fit the gaps, apply exclusions, and verify."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Gap clue",
+      "formula": "|d(X) − d(Y)| = k + 1",
+      "description": "k days between.",
+      "whenToUse": "Gaps.",
+      "simpleExample": "2 days between: differ by 3"
+    },
+    {
+      "title": "Immediately before",
+      "formula": "d(X) = d(Y) − 1",
+      "description": "Consecutive.",
+      "whenToUse": "Chains.",
+      "simpleExample": "Girish the day before Eshan"
+    },
+    {
+      "title": "Meetings after X",
+      "formula": "7 − d(X)",
+      "description": "Counting.",
+      "whenToUse": "Counts.",
+      "simpleExample": "Thursday: 3 after"
+    },
+    {
+      "title": "Days between",
+      "formula": "|d(X) − d(Y)| − 1",
+      "description": "Counting.",
+      "whenToUse": "Counts.",
+      "simpleExample": "Monday and Thursday: 2"
+    },
+    {
+      "title": "Exclusion",
+      "formula": "Cross one day off",
+      "description": "Elimination.",
+      "whenToUse": "Last.",
+      "simpleExample": "Not on Friday"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Take seven employees and the clues: Chitra on Monday, Fatima on Sunday, Eshan on Thursday, Girish the day before Eshan, Anita earlier in the week than Girish, Bharat earlier than Deepak. Start with the day anchors: Chitra 1, Fatima 7, Eshan 4. Girish is immediately before Eshan, so Girish is day 3. Anita is earlier than Girish and the only free earlier day is 2, so Anita is Tuesday. Bharat and Deepak take days 5 and 6 with Bharat earlier: Friday and Saturday.",
+      "A \"not on\" clue is a tie-breaker. Use it only after the main structure leaves two options.",
+      "\"Consecutive days\" does not say which comes first, so it gives two possibilities. Test both against the other clues.",
+      "For gap clues, \"exactly two days between\" means a difference of 3 days. If one is on Thursday (day 4), the other is on Monday or Sunday.",
+      "For exchange questions, write the week again, swap the two named people and read the answer from the new week."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Consecutive vs immediately before",
+        "content": "\"Consecutive\" is symmetric; \"immediately before\" fixes the order."
+      },
+      {
+        "title": "Week boundaries",
+        "content": "Do not wrap from Sunday to Monday unless the problem says the schedule is cyclic."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Day anchors",
+      "description": "Named days.",
+      "exampleSnippet": "Chitra on Monday"
+    },
+    {
+      "typeName": "Chains",
+      "description": "Immediate neighbours.",
+      "exampleSnippet": "Girish–Eshan"
+    },
+    {
+      "typeName": "Gap clues",
+      "description": "Difference k + 1.",
+      "exampleSnippet": "Deepak and Girish"
+    },
+    {
+      "typeName": "Exclusions",
+      "description": "Eliminate.",
+      "exampleSnippet": "Not on Friday"
+    },
+    {
+      "typeName": "Counting after",
+      "description": "7 − day.",
+      "exampleSnippet": "Meetings after Eshan"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-scheduling-puzzles-1",
+      "title": "Chain",
+      "question": "Eshan has the meeting on Thursday and Girish's meeting is on the day immediately before Eshan's. On which day is Girish's meeting?",
+      "givenInfo": [
+        "Eshan on Thursday"
+      ],
+      "conceptOrFormula": "Immediately before.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Read the clue",
+          "explanation": "Girish's day is exactly one day earlier than Eshan's Thursday."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Day before",
+          "explanation": "The day before Thursday is Wednesday."
+        }
+      ],
+      "finalAnswer": "Wednesday",
+      "whyItWorks": "Immediately before fixes the order.",
+      "commonTrap": "Answering Friday.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-scheduling-puzzles-2",
+      "title": "Gap clue",
+      "question": "Exactly two days lie between the meetings of Deepak and Girish. If Girish's meeting is on Thursday, on which days can Deepak's be?",
+      "givenInfo": [
+        "Girish on Thursday"
+      ],
+      "conceptOrFormula": "Difference 3.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Difference",
+          "explanation": "2 between means 3 days apart."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Days",
+          "explanation": "Thursday − 3 = Monday and Thursday + 3 = Sunday."
+        }
+      ],
+      "finalAnswer": "Monday or Sunday",
+      "whyItWorks": "Other clues pick one.",
+      "commonTrap": "Using 2 days apart.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-scheduling-puzzles-3",
+      "title": "Counting after",
+      "question": "In the week Chitra, Anita, Girish, Eshan, Bharat, Deepak, Fatima (Monday to Sunday), how many meetings are held after Eshan's?",
+      "givenInfo": [
+        "Eshan on Thursday"
+      ],
+      "conceptOrFormula": "7 − day.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Day number",
+          "explanation": "Eshan is day 4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "After",
+          "explanation": "7 − 4 = 3 meetings."
+        }
+      ],
+      "finalAnswer": "3",
+      "whyItWorks": "Bharat, Deepak, Fatima.",
+      "commonTrap": "Answering 4.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Week as numbers",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try assignments.",
+      "shortcutMethod": "Number the days 1 to 7, place the named anchors, then chains, then gaps, then exclusions."
+    },
+    "rulesForApplication": [
+      "Gap = k + 1.",
+      "Anchors first.",
+      "Exclusions last.",
+      "Verify."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Treating consecutive as ordered",
+      "whyItHappens": "Missing the other order.",
+      "howToAvoid": "Test both orders."
+    },
+    {
+      "mistake": "Wrapping around the week",
+      "whyItHappens": "Sunday does not meet Monday.",
+      "howToAvoid": "Use 1–7 only."
+    },
+    {
+      "mistake": "Using k instead of k + 1",
+      "whyItHappens": "Gap error.",
+      "howToAvoid": "Differ by k + 1."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 150,
+    "eliminationTechnique": "Strike out each day as you assign it.",
+    "questionSelectionAdvice": "Use exclusion clues only at the end.",
+    "recruiterInsight": "Day-named clues are free anchors."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-scheduling-puzzles-e1",
+        "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Monday.\n2. Fatima has the meeting on Sunday.\n3. Eshan has the meeting on Thursday.\n4. Girish's meeting is on the day immediately before Eshan's.\n5. Anita's meeting is earlier in the week than Girish's.\n6. Bharat's meeting is earlier in the week than Deepak's.\n\nWhose meeting is on Monday?",
+        "options": [
+          "Anita",
+          "Chitra",
+          "Bharat",
+          "Deepak"
+        ],
+        "correctAnswer": "Chitra",
+        "explanation": "From Monday to Sunday the meetings are held by Chitra, Anita, Girish, Eshan, Bharat, Deepak, Fatima, so Chitra is the answer.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-scheduling-puzzles-e2",
+        "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Monday.\n2. Fatima has the meeting on Sunday.\n3. Eshan has the meeting on Thursday.\n4. Girish's meeting is on the day immediately before Eshan's.\n5. Anita's meeting is earlier in the week than Girish's.\n6. Bharat's meeting is earlier in the week than Deepak's.\n\nWhose meeting is on Sunday?",
+        "options": [
+          "Fatima",
+          "Chitra",
+          "Deepak",
+          "Eshan"
+        ],
+        "correctAnswer": "Fatima",
+        "explanation": "From Monday to Sunday the meetings are held by Chitra, Anita, Girish, Eshan, Bharat, Deepak, Fatima, so Fatima is the answer.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-scheduling-puzzles-e3",
+        "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Monday.\n2. Fatima has the meeting on Sunday.\n3. Eshan has the meeting on Thursday.\n4. Girish's meeting is on the day immediately before Eshan's.\n5. Anita's meeting is earlier in the week than Girish's.\n6. Bharat's meeting is earlier in the week than Deepak's.\n\nOn which day is Anita's meeting?",
+        "options": [
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Tuesday"
+        ],
+        "correctAnswer": "Tuesday",
+        "explanation": "From Monday to Sunday the meetings are held by Chitra, Anita, Girish, Eshan, Bharat, Deepak, Fatima, so Anita is on Tuesday.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-scheduling-puzzles-i7",
+        "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Girish has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Deepak and Girish.\n3. Fatima's meeting is on the day immediately before Bharat's.\n4. Chitra has the meeting on Sunday.\n5. Eshan's meeting is on the day immediately before Chitra's.\n6. Anita's meeting is on the day immediately before Eshan's.\n\nWhose meeting is on Monday?",
+        "options": [
+          "Deepak",
+          "Bharat",
+          "Chitra",
+          "Eshan"
+        ],
+        "correctAnswer": "Deepak",
+        "explanation": "From Monday to Sunday the meetings are held by Deepak, Fatima, Bharat, Girish, Anita, Eshan, Chitra, so Deepak is the answer.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-scheduling-puzzles-i8",
+        "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Girish has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Deepak and Girish.\n3. Fatima's meeting is on the day immediately before Bharat's.\n4. Chitra has the meeting on Sunday.\n5. Eshan's meeting is on the day immediately before Chitra's.\n6. Anita's meeting is on the day immediately before Eshan's.\n\nWhose meeting is on Thursday?",
+        "options": [
+          "Chitra",
+          "Deepak",
+          "Eshan",
+          "Girish"
+        ],
+        "correctAnswer": "Girish",
+        "explanation": "From Monday to Sunday the meetings are held by Deepak, Fatima, Bharat, Girish, Anita, Eshan, Chitra, so Girish is the answer.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-scheduling-puzzles-i9",
+        "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Girish has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Deepak and Girish.\n3. Fatima's meeting is on the day immediately before Bharat's.\n4. Chitra has the meeting on Sunday.\n5. Eshan's meeting is on the day immediately before Chitra's.\n6. Anita's meeting is on the day immediately before Eshan's.\n\nOn which day is Fatima's meeting?",
+        "options": [
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Tuesday"
+        ],
+        "correctAnswer": "Tuesday",
+        "explanation": "From Monday to Sunday the meetings are held by Deepak, Fatima, Bharat, Girish, Anita, Eshan, Chitra, so Fatima is on Tuesday.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-scheduling-puzzles-a15",
+        "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Eshan and Chitra.\n3. Deepak has the meeting on Sunday.\n4. Fatima's meeting is on the day immediately before Bharat's.\n5. Anita's meeting is earlier in the week than Chitra's.\n6. Girish's meeting is earlier in the week than Anita's.\n\nWhose meeting is on Monday?",
+        "options": [
+          "Bharat",
+          "Chitra",
+          "Eshan",
+          "Deepak"
+        ],
+        "correctAnswer": "Eshan",
+        "explanation": "From Monday to Sunday the meetings are held by Eshan, Girish, Anita, Chitra, Fatima, Bharat, Deepak, so Eshan is the answer.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-scheduling-puzzles-a16",
+        "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Eshan and Chitra.\n3. Deepak has the meeting on Sunday.\n4. Fatima's meeting is on the day immediately before Bharat's.\n5. Anita's meeting is earlier in the week than Chitra's.\n6. Girish's meeting is earlier in the week than Anita's.\n\nWhose meeting is on Saturday?",
+        "options": [
+          "Deepak",
+          "Bharat",
+          "Eshan",
+          "Fatima"
+        ],
+        "correctAnswer": "Bharat",
+        "explanation": "From Monday to Sunday the meetings are held by Eshan, Girish, Anita, Chitra, Fatima, Bharat, Deepak, so Bharat is the answer.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-scheduling-puzzles-p17",
+        "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Eshan and Chitra.\n3. Deepak has the meeting on Sunday.\n4. Fatima's meeting is on the day immediately before Bharat's.\n5. Anita's meeting is earlier in the week than Chitra's.\n6. Girish's meeting is earlier in the week than Anita's.\n\nOn which day is Anita's meeting?",
+        "options": [
+          "Thursday",
+          "Wednesday",
+          "Friday",
+          "Saturday"
+        ],
+        "correctAnswer": "Wednesday",
+        "explanation": "From Monday to Sunday the meetings are held by Eshan, Girish, Anita, Chitra, Fatima, Bharat, Deepak, so Anita is on Wednesday.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-scheduling-puzzles-p18",
+        "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Eshan and Chitra.\n3. Deepak has the meeting on Sunday.\n4. Fatima's meeting is on the day immediately before Bharat's.\n5. Anita's meeting is earlier in the week than Chitra's.\n6. Girish's meeting is earlier in the week than Anita's.\n\nHow many days lie between the meetings of Girish and Chitra?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "1",
+        "explanation": "From Monday to Sunday the meetings are held by Eshan, Girish, Anita, Chitra, Fatima, Bharat, Deepak; Girish and Chitra are 2 places apart, so 1 day lies between them, which is 1.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-scheduling-puzzles-p19",
+        "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Eshan and Chitra.\n3. Deepak has the meeting on Sunday.\n4. Fatima's meeting is on the day immediately before Bharat's.\n5. Anita's meeting is earlier in the week than Chitra's.\n6. Girish's meeting is earlier in the week than Anita's.\n\nIf Eshan and Girish exchange their days, whose meeting is on the day immediately after Anita's?",
+        "options": [
+          "Deepak",
+          "Eshan",
+          "Fatima",
+          "Chitra"
+        ],
+        "correctAnswer": "Chitra",
+        "explanation": "From Monday to Sunday the meetings are held by Eshan, Girish, Anita, Chitra, Fatima, Bharat, Deepak. After Eshan and Girish exchange places the order is Girish, Eshan, Anita, Chitra, Fatima, Bharat, Deepak, so Chitra comes right after Anita.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Number the days.",
+      "Anchors.",
+      "Chains.",
+      "Gap arithmetic.",
+      "Exclusions."
+    ],
+    "quickFormulas": [
+      "Gap = k + 1",
+      "After = 7 − d"
+    ]
+  },
+  "keyTakeaways": [
+    "Days as numbers.",
+    "Anchors.",
+    "Gap arithmetic.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I place named-day anchors?",
+    "Can I convert gaps?",
+    "Can I count meetings after a day?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

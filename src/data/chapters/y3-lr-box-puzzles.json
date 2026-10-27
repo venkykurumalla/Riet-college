@@ -1,0 +1,420 @@
+{
+  "id": "y3-lr-box-puzzles",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 32,
+  "title": "Box-Stack Arrangement Puzzles",
+  "tagline": "Year 3 — Stacks of boxes: above and below, gaps, top and bottom anchors and counting questions",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A box-stack puzzle describes a vertical pile of boxes and asks for the order from top to bottom. It is a one-dimensional ordering like a row or a building, with vocabulary changed: above, below, immediately above, top, bottom, and \"exactly k boxes between\". The same rules solve it: fix top and bottom anchors, chain immediate neighbours, convert gap clues to a difference of k + 1, and use negative clues last.",
+    "placementRelevance": "Box and stack puzzles appear regularly in logical-reasoning sets, often with six to eight boxes and several colours.",
+    "realWorldContext": "Warehouse stacking, pallet loading and layered packing follow an order of this kind."
+  },
+  "learningObjectives": [
+    "Translate above/below into position numbers",
+    "Chain immediate neighbours",
+    "Use top and bottom anchors",
+    "Convert gap clues to a difference of k + 1",
+    "Answer counting and exchange questions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Floor-Based Arrangement Puzzles"
+    ],
+    "quickRefresher": "Position 1 is the top and position 7 the bottom. \"Above\" means a smaller position number."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Top of the stack: position 1. Bottom: position n.",
+      "Immediately above X: the position number one less than X's.",
+      "Exactly k boxes between X and Y: their positions differ by k + 1.",
+      "Next to X: immediately above or immediately below.",
+      "Boxes below X: n minus X's position."
+    ],
+    "theoreticalIntuition": "Treat the stack as a numbered list from the top. Every clue is a statement about two position numbers.",
+    "visualOrMentalModel": "Write positions 1 to 7. Place top and bottom, join immediate neighbours into blocks, fit blocks using the gap clues, and verify."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Gap clue",
+      "formula": "|p(X) − p(Y)| = k + 1",
+      "description": "k boxes between.",
+      "whenToUse": "Gaps.",
+      "simpleExample": "2 between: differ by 3"
+    },
+    {
+      "title": "Immediately above",
+      "formula": "p(X) = p(Y) − 1",
+      "description": "Adjacent.",
+      "whenToUse": "Chains.",
+      "simpleExample": "White above Blue"
+    },
+    {
+      "title": "Boxes below",
+      "formula": "n − p(X)",
+      "description": "Counting.",
+      "whenToUse": "Counts.",
+      "simpleExample": "Position 3 of 7: 4 below"
+    },
+    {
+      "title": "Boxes between",
+      "formula": "|p(X) − p(Y)| − 1",
+      "description": "Counting.",
+      "whenToUse": "Counts.",
+      "simpleExample": "Positions 1 and 4: 2"
+    },
+    {
+      "title": "Next to",
+      "formula": "Differ by 1",
+      "description": "Adjacent.",
+      "whenToUse": "Neighbour clues.",
+      "simpleExample": "Blue next to Yellow"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Seven boxes are stacked. The Blue box is at the bottom; the White box is immediately above Blue; the Yellow box is fourth from the top; the Black box is immediately above Yellow; exactly two boxes lie between the Green box and the Yellow box; the Red box is immediately above Black. From the bottom: Blue 7, White 6, Yellow 4, Black 3, Red 2. Green is two boxes away from Yellow, so Green is at position 1 (the position below, 7, is taken). Pink takes the last place, 5. The stack from the top is Green, Red, Black, Yellow, Pink, White, Blue.",
+      "An \"above\" clue says only that one box has a smaller number than the other. An \"immediately above\" clue fixes the exact neighbour. Use the exact clues to build blocks first, then place blocks by the weaker clues.",
+      "The gap clue is arithmetic. Two boxes with exactly two boxes between them have positions that differ by 3, such as 1 and 4 or 2 and 5.",
+      "Counting questions use the finished stack: boxes below X = 7 minus X's position; boxes between X and Y = difference of positions minus 1.",
+      "For exchange questions, write the stack again, swap the two named boxes, and read the neighbour asked about."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Blocks",
+        "content": "A chain such as Red–Black–Yellow behaves like one long box; slide it along the list until all clues fit."
+      },
+      {
+        "title": "Top vs bottom language",
+        "content": "Check whether the question counts from the top or the bottom; mixing them gives an off-by-one answer."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Top/bottom anchors",
+      "description": "Fix the ends.",
+      "exampleSnippet": "Blue at the bottom"
+    },
+    {
+      "typeName": "Chains",
+      "description": "Immediate neighbours.",
+      "exampleSnippet": "White above Blue"
+    },
+    {
+      "typeName": "Gap clues",
+      "description": "Difference k + 1.",
+      "exampleSnippet": "Green and Yellow"
+    },
+    {
+      "typeName": "Counting below",
+      "description": "n − p.",
+      "exampleSnippet": "Boxes below Red"
+    },
+    {
+      "typeName": "Exchange",
+      "description": "Swap then read.",
+      "exampleSnippet": "If Pink and Red swap"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-box-puzzles-1",
+      "title": "Gap clue",
+      "question": "Exactly two boxes lie between the Green box and the Yellow box. If Yellow is fourth from the top, which positions can Green take?",
+      "givenInfo": [
+        "Yellow at 4",
+        "2 between"
+      ],
+      "conceptOrFormula": "Difference 3.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Difference",
+          "explanation": "2 between means the positions differ by 3."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Positions",
+          "explanation": "4 − 3 = 1 or 4 + 3 = 7."
+        }
+      ],
+      "finalAnswer": "1st or 7th",
+      "whyItWorks": "Other clues decide which one.",
+      "commonTrap": "Using a difference of 2.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-box-puzzles-2",
+      "title": "Counting below",
+      "question": "In the stack Green, Red, Black, Yellow, Pink, White, Blue (top to bottom), how many boxes are below the Black box?",
+      "givenInfo": [
+        "Black is 3rd"
+      ],
+      "conceptOrFormula": "n − p.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Position",
+          "explanation": "Black is 3rd from the top."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Below",
+          "explanation": "7 − 3 = 4 boxes."
+        }
+      ],
+      "finalAnswer": "4",
+      "whyItWorks": "Yellow, Pink, White, Blue.",
+      "commonTrap": "Answering 3.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-box-puzzles-3",
+      "title": "Neighbour",
+      "question": "In the same stack, which box is immediately below the Yellow box?",
+      "givenInfo": [
+        "Yellow is 4th"
+      ],
+      "conceptOrFormula": "Read the next position.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Position",
+          "explanation": "Yellow is 4th from the top."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Next",
+          "explanation": "The 5th box is Pink."
+        }
+      ],
+      "finalAnswer": "Pink",
+      "whyItWorks": "Immediately above is Black.",
+      "commonTrap": "Answering Black.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Numbered list",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try arrangements.",
+      "shortcutMethod": "Number the stack, place anchors, make blocks, convert gaps to differences of k + 1."
+    },
+    "rulesForApplication": [
+      "Top = 1.",
+      "Gap = k + 1.",
+      "Blocks first.",
+      "Verify."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Treating above as immediately above",
+      "whyItHappens": "Too strict.",
+      "howToAvoid": "Check the word immediately."
+    },
+    {
+      "mistake": "Counting from the wrong end",
+      "whyItHappens": "Off-by-one.",
+      "howToAvoid": "Top = 1."
+    },
+    {
+      "mistake": "Using k instead of k + 1",
+      "whyItHappens": "Gap error.",
+      "howToAvoid": "Differ by k + 1."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 150,
+    "eliminationTechnique": "Cross out used positions.",
+    "questionSelectionAdvice": "Build blocks before using weaker clues.",
+    "recruiterInsight": "Always verify the final stack against each clue."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-box-puzzles-e1",
+        "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Blue box is at the bottom of the stack.\n2. The White box is placed immediately above the Blue box.\n3. The Yellow box is placed 4th from the top.\n4. The Black box is placed immediately above the Yellow box.\n5. Exactly 2 boxes are placed between the Green box and the Yellow box.\n6. The Red box is placed immediately above the Black box.\n\nWhich box is placed 1st from the top?",
+        "options": [
+          "Blue",
+          "Green",
+          "Yellow",
+          "White"
+        ],
+        "correctAnswer": "Green",
+        "explanation": "From the top of the stack to the bottom the boxes are Green, Red, Black, Yellow, Pink, White, Blue, so Green is the answer.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-box-puzzles-e2",
+        "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Blue box is at the bottom of the stack.\n2. The White box is placed immediately above the Blue box.\n3. The Yellow box is placed 4th from the top.\n4. The Black box is placed immediately above the Yellow box.\n5. Exactly 2 boxes are placed between the Green box and the Yellow box.\n6. The Red box is placed immediately above the Black box.\n\nWhich box is placed 7th from the top?",
+        "options": [
+          "Blue",
+          "Yellow",
+          "White",
+          "Black"
+        ],
+        "correctAnswer": "Blue",
+        "explanation": "From the top of the stack to the bottom the boxes are Green, Red, Black, Yellow, Pink, White, Blue, so Blue is the answer.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-box-puzzles-e3",
+        "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Blue box is at the bottom of the stack.\n2. The White box is placed immediately above the Blue box.\n3. The Yellow box is placed 4th from the top.\n4. The Black box is placed immediately above the Yellow box.\n5. Exactly 2 boxes are placed between the Green box and the Yellow box.\n6. The Red box is placed immediately above the Black box.\n\nThe Yellow box is placed at which position from the top?",
+        "options": [
+          "5",
+          "3",
+          "6",
+          "4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "From the top of the stack to the bottom the boxes are Green, Red, Black, Yellow, Pink, White, Blue, so Yellow is 4th from the top.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-box-puzzles-i7",
+        "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Pink box is at the top of the stack.\n2. Exactly 2 boxes are placed between the Pink box and the Red box.\n3. The Red box is placed immediately above the Green box.\n4. The Yellow box is at the bottom of the stack.\n5. The Blue box is placed next to the Yellow box.\n6. The Black box is placed somewhere above the White box.\n\nWhich box is placed 1st from the top?",
+        "options": [
+          "Pink",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "correctAnswer": "Pink",
+        "explanation": "From the top of the stack to the bottom the boxes are Pink, Black, White, Red, Green, Blue, Yellow, so Pink is the answer.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-box-puzzles-i8",
+        "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Pink box is at the top of the stack.\n2. Exactly 2 boxes are placed between the Pink box and the Red box.\n3. The Red box is placed immediately above the Green box.\n4. The Yellow box is at the bottom of the stack.\n5. The Blue box is placed next to the Yellow box.\n6. The Black box is placed somewhere above the White box.\n\nWhich box is placed 5th from the top?",
+        "options": [
+          "Yellow",
+          "White",
+          "Black",
+          "Green"
+        ],
+        "correctAnswer": "Green",
+        "explanation": "From the top of the stack to the bottom the boxes are Pink, Black, White, Red, Green, Blue, Yellow, so Green is the answer.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-box-puzzles-i9",
+        "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Pink box is at the top of the stack.\n2. Exactly 2 boxes are placed between the Pink box and the Red box.\n3. The Red box is placed immediately above the Green box.\n4. The Yellow box is at the bottom of the stack.\n5. The Blue box is placed next to the Yellow box.\n6. The Black box is placed somewhere above the White box.\n\nThe Green box is placed at which position from the top?",
+        "options": [
+          "6",
+          "4",
+          "7",
+          "5"
+        ],
+        "correctAnswer": "5",
+        "explanation": "From the top of the stack to the bottom the boxes are Pink, Black, White, Red, Green, Blue, Yellow, so Green is 5th from the top.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-box-puzzles-a15",
+        "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Black box is placed 4th from the top.\n2. Exactly 2 boxes are placed between the Blue box and the Black box.\n3. The White box is at the bottom of the stack.\n4. The Yellow box is placed immediately above the Red box.\n5. The Black box is placed immediately above the Pink box.\n6. The Green box is placed somewhere above the White box.\n\nWhich box is placed 1st from the top?",
+        "options": [
+          "Green",
+          "Yellow",
+          "Blue",
+          "White"
+        ],
+        "correctAnswer": "Blue",
+        "explanation": "From the top of the stack to the bottom the boxes are Blue, Yellow, Red, Black, Pink, Green, White, so Blue is the answer.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-box-puzzles-a16",
+        "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Black box is placed 4th from the top.\n2. Exactly 2 boxes are placed between the Blue box and the Black box.\n3. The White box is at the bottom of the stack.\n4. The Yellow box is placed immediately above the Red box.\n5. The Black box is placed immediately above the Pink box.\n6. The Green box is placed somewhere above the White box.\n\nWhich box is placed 6th from the top?",
+        "options": [
+          "Yellow",
+          "Green",
+          "White",
+          "Black"
+        ],
+        "correctAnswer": "Green",
+        "explanation": "From the top of the stack to the bottom the boxes are Blue, Yellow, Red, Black, Pink, Green, White, so Green is the answer.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-box-puzzles-p17",
+        "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Black box is placed 4th from the top.\n2. Exactly 2 boxes are placed between the Blue box and the Black box.\n3. The White box is at the bottom of the stack.\n4. The Yellow box is placed immediately above the Red box.\n5. The Black box is placed immediately above the Pink box.\n6. The Green box is placed somewhere above the White box.\n\nThe Pink box is placed at which position from the top?",
+        "options": [
+          "6",
+          "5",
+          "4",
+          "7"
+        ],
+        "correctAnswer": "5",
+        "explanation": "From the top of the stack to the bottom the boxes are Blue, Yellow, Red, Black, Pink, Green, White, so Pink is 5th from the top.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-box-puzzles-p18",
+        "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Black box is placed 4th from the top.\n2. Exactly 2 boxes are placed between the Blue box and the Black box.\n3. The White box is at the bottom of the stack.\n4. The Yellow box is placed immediately above the Red box.\n5. The Black box is placed immediately above the Pink box.\n6. The Green box is placed somewhere above the White box.\n\nHow many boxes are placed between the Blue box and the Black box?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correctAnswer": "2",
+        "explanation": "From the top of the stack to the bottom the boxes are Blue, Yellow, Red, Black, Pink, Green, White; Blue and Black are 3 places apart, so 2 boxes lie between them, which is 2.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-box-puzzles-p19",
+        "question": "Seven boxes coloured Red, Blue, Green, Yellow, White, Black and Pink are stacked one above the other in a single stack. The following facts are known:\n1. The Black box is placed 4th from the top.\n2. Exactly 2 boxes are placed between the Blue box and the Black box.\n3. The White box is at the bottom of the stack.\n4. The Yellow box is placed immediately above the Red box.\n5. The Black box is placed immediately above the Pink box.\n6. The Green box is placed somewhere above the White box.\n\nIf the Blue box and the White box exchange places, which box is placed immediately below the Yellow box?",
+        "options": [
+          "Yellow",
+          "White",
+          "Black",
+          "Red"
+        ],
+        "correctAnswer": "Red",
+        "explanation": "From the top of the stack to the bottom the boxes are Blue, Yellow, Red, Black, Pink, Green, White. After Blue and White exchange places the order is White, Yellow, Red, Black, Pink, Green, Blue, so Red comes right after Yellow.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Number positions.",
+      "Anchors.",
+      "Blocks.",
+      "Gap clues.",
+      "Counting."
+    ],
+    "quickFormulas": [
+      "Gap = k + 1",
+      "Below = n − p"
+    ]
+  },
+  "keyTakeaways": [
+    "Number the stack.",
+    "Blocks.",
+    "Gap arithmetic.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I convert gaps?",
+    "Can I build blocks?",
+    "Can I count boxes below?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

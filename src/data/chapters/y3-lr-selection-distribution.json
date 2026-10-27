@@ -1,0 +1,426 @@
+{
+  "id": "y3-lr-selection-distribution",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 34,
+  "title": "Selection and Distribution Problems",
+  "tagline": "Year 3 — Choosing people under conditions and distributing items among people: conditional, exclusion and either-or rules",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In a selection puzzle you choose a fixed number of people from a pool under conditions such as \"if A is chosen, B must be chosen\" or \"C and D cannot both be chosen\". In a distribution puzzle you assign items to people under similar rules. The method is to translate each condition into a precise logical statement, list the cases created by the strongest condition, and count or deduce from the cases that survive.",
+    "placementRelevance": "Selection and distribution sets with five or six conditions are a classic logical-reasoning type in company tests.",
+    "realWorldContext": "Choosing a project team with compatibility rules or allocating tasks to staff follows the same logic."
+  },
+  "learningObjectives": [
+    "Translate if-then, either-or and not-both conditions correctly",
+    "Enumerate valid selections systematically",
+    "Find people who must or cannot be selected",
+    "Count selections or distributions that satisfy all conditions",
+    "Use the contrapositive of an if-then rule"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Complex Seating Arrangements",
+      "Combinations"
+    ],
+    "quickRefresher": "\"If A then B\" is false only when A is chosen and B is not. Its contrapositive is \"if not B then not A\"."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "If A then B: choosing A forces B; B can be chosen without A.",
+      "A only if B: the same as \"if A then B\".",
+      "Not both: A and B cannot appear together; neither or exactly one is allowed.",
+      "Exactly one: one and only one of A, B is chosen.",
+      "Either both or neither: A and B are chosen together or left out together."
+    ],
+    "theoreticalIntuition": "Each condition removes some selections from the pool of all possible ones. Whatever is left is the answer set, and every question is about that set.",
+    "visualOrMentalModel": "List the strongest condition first, split into cases, build the valid selections case by case, then answer from the list."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "If-then",
+      "formula": "A → B ≡ ¬B → ¬A",
+      "description": "Conditional.",
+      "whenToUse": "Contrapositive.",
+      "simpleExample": "If Ajay then Bela"
+    },
+    {
+      "title": "Not both",
+      "formula": "¬(A ∧ B)",
+      "description": "Exclusion.",
+      "whenToUse": "Pairs.",
+      "simpleExample": "Chetan and Dhara"
+    },
+    {
+      "title": "At least one",
+      "formula": "A ∨ B",
+      "description": "Coverage.",
+      "whenToUse": "Either-or.",
+      "simpleExample": "Gopal or Dhara"
+    },
+    {
+      "title": "Count",
+      "formula": "C(n, k) before conditions",
+      "description": "Total selections.",
+      "whenToUse": "Upper bound.",
+      "simpleExample": "C(7,4) = 35"
+    },
+    {
+      "title": "Case split",
+      "formula": "Split on the most restrictive person",
+      "description": "Any set.",
+      "whenToUse": "Enumeration.",
+      "simpleExample": "Ajay in / Ajay out"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A committee of 4 is chosen from Ajay, Bela, Chetan, Dhara, Ela, Faiz and Gopal. If Ajay is selected, Bela must be selected; Chetan and Dhara cannot both be selected; Ela is selected only if Faiz is selected; at least one of Gopal and Dhara is selected. There are C(7,4) = 35 possible committees before conditions, and the conditions cut them to a short list that can be written out.",
+      "Split on Ajay. If Ajay is in, Bela is in, and two more members must come from the others while obeying the remaining conditions. If Ajay is out, choose four from the other six under the remaining conditions.",
+      "The contrapositive of \"if Ajay then Bela\" is \"if Bela is not selected, Ajay is not selected\". Use it to rule out Ajay as soon as you know Bela is out.",
+      "For distribution, list the items and the people, then place the forced items first. In the five-gift example, the book goes to Rahul, the watch and the cap go to the same person, the pen and the bag go to different people, every child gets something, and Rahul gets at most two items.",
+      "Counting questions are answered from the finished list; \"must be selected\" means present in every valid selection; \"can never be selected\" means present in none."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Necessary vs sufficient",
+        "content": "In \"A only if B\", B is necessary for A, not sufficient: B alone does not force A."
+      },
+      {
+        "title": "Counting without listing",
+        "content": "For large sets, count the cases of the strongest condition and add them, instead of listing every selection."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "If-then rules",
+      "description": "Forced partners.",
+      "exampleSnippet": "Ajay → Bela"
+    },
+    {
+      "typeName": "Exclusion rules",
+      "description": "Not both.",
+      "exampleSnippet": "Chetan, Dhara"
+    },
+    {
+      "typeName": "Either-or",
+      "description": "At least or exactly one.",
+      "exampleSnippet": "Gopal or Dhara"
+    },
+    {
+      "typeName": "Counting valid sets",
+      "description": "List then count.",
+      "exampleSnippet": "How many committees"
+    },
+    {
+      "typeName": "Distribution",
+      "description": "Assign items.",
+      "exampleSnippet": "Gifts to children"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-selection-distribution-1",
+      "title": "Contrapositive",
+      "question": "The rule is \"If Ajay is selected, Bela must be selected\". Bela is not selected. What follows about Ajay?",
+      "givenInfo": [
+        "A → B",
+        "Not B"
+      ],
+      "conceptOrFormula": "Contrapositive.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Contrapositive",
+          "explanation": "If Bela is not selected then Ajay is not selected."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply",
+          "explanation": "Bela is out, so Ajay is out."
+        }
+      ],
+      "finalAnswer": "Ajay is not selected",
+      "whyItWorks": "The rule does not say Bela forces Ajay.",
+      "commonTrap": "Concluding nothing.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-selection-distribution-2",
+      "title": "Either-or",
+      "question": "Exactly one of Ajay and Bela is selected for a team of 4 from 7 people. How many of the two are selected?",
+      "givenInfo": [
+        "Exactly one"
+      ],
+      "conceptOrFormula": "Read the condition.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Condition",
+          "explanation": "Exactly one means one and only one."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Count",
+          "explanation": "1."
+        }
+      ],
+      "finalAnswer": "1",
+      "whyItWorks": "Not both, not neither.",
+      "commonTrap": "Answering 2.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-selection-distribution-3",
+      "title": "Counting",
+      "question": "A committee of 2 is chosen from 4 people W, X, Y, Z with the condition that W and X cannot both be chosen. How many committees are possible?",
+      "givenInfo": [
+        "C(4,2) = 6"
+      ],
+      "conceptOrFormula": "Subtract the forbidden pair.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total",
+          "explanation": "C(4,2) = 6."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Forbidden",
+          "explanation": "Only {W, X} breaks the condition."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Valid",
+          "explanation": "6 − 1 = 5."
+        }
+      ],
+      "finalAnswer": "5",
+      "whyItWorks": "Pairs: WY, WZ, XY, XZ, YZ.",
+      "commonTrap": "Answering 6.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Case split then list",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try random committees.",
+      "shortcutMethod": "Split on the person in the most conditions, build each case, and answer questions from the final list."
+    },
+    "rulesForApplication": [
+      "If A then B ≡ if not B then not A.",
+      "Must = in every set.",
+      "Never = in no set.",
+      "Count from the list."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reading \"if A then B\" as \"if B then A\"",
+      "whyItHappens": "Converse error.",
+      "howToAvoid": "Use the contrapositive instead."
+    },
+    {
+      "mistake": "Treating \"only if\" backwards",
+      "whyItHappens": "A only if B means A → B.",
+      "howToAvoid": "Rewrite as if-then."
+    },
+    {
+      "mistake": "Missing a selection in the list",
+      "whyItHappens": "Wrong count.",
+      "howToAvoid": "Split into cases and tick each."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 180,
+    "eliminationTechnique": "Test each option against every condition.",
+    "questionSelectionAdvice": "Split on the most-mentioned person first.",
+    "recruiterInsight": "A short list of valid selections answers every question."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-selection-distribution-e1",
+        "question": "A committee of 4 is to be selected from 7 candidates: Ajay, Bela, Chetan, Dhara, Ela, Faiz, Gopal. The following conditions apply:\n1. If Ajay is selected, Bela must also be selected.\n2. Chetan and Dhara cannot both be selected.\n3. If Ela is selected, Faiz must also be selected.\n4. At least one of Gopal and Dhara must be selected.\n\nHow many different selections are possible?",
+        "options": [
+          "11",
+          "10",
+          "12",
+          "9"
+        ],
+        "correctAnswer": "10",
+        "explanation": "There are 10 valid selections, so the number of selections is 10.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-selection-distribution-e2",
+        "question": "A committee of 4 is to be selected from 7 candidates: Ajay, Bela, Chetan, Dhara, Ela, Faiz, Gopal. The following conditions apply:\n1. If Ajay is selected, Bela must also be selected.\n2. Chetan and Dhara cannot both be selected.\n3. If Ela is selected, Faiz must also be selected.\n4. At least one of Gopal and Dhara must be selected.\n\nWhich of the following is a valid selection?",
+        "options": [
+          "Ajay, Bela, Chetan, Gopal",
+          "Ajay, Bela, Chetan, Dhara",
+          "Ajay, Chetan, Dhara, Faiz",
+          "Ajay, Dhara, Faiz, Gopal"
+        ],
+        "correctAnswer": "Ajay, Bela, Chetan, Gopal",
+        "explanation": "Ajay, Bela, Chetan, Gopal satisfies every condition. Ajay, Bela, Chetan, Dhara breaks condition 2; Ajay, Chetan, Dhara, Faiz breaks condition 1; Ajay, Dhara, Faiz, Gopal breaks condition 1.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-selection-distribution-e3",
+        "question": "A committee of 4 is to be selected from 7 candidates: Ajay, Bela, Chetan, Dhara, Ela, Faiz, Gopal. The following conditions apply:\n1. If Ajay is selected, Bela must also be selected.\n2. Chetan and Dhara cannot both be selected.\n3. If Ela is selected, Faiz must also be selected.\n4. At least one of Gopal and Dhara must be selected.\n\nIn how many valid selections is Ajay included?",
+        "options": [
+          "5",
+          "6",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "There are 10 valid selections; Ajay appears in 4 of them, which is 4.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-selection-distribution-i7",
+        "question": "A team of 3 is to be selected from 7 candidates: Ajay, Bela, Chetan, Dhara, Ela, Faiz, Gopal. The following conditions apply:\n1. If Ajay is selected, Chetan must also be selected.\n2. Bela and Faiz cannot both be selected.\n3. Dhara and Gopal are either both selected or both left out.\n4. At least one of Ela and Ajay must be selected.\n\nHow many different selections are possible?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "5"
+        ],
+        "correctAnswer": "6",
+        "explanation": "The valid selections are {Ajay, Bela, Chetan}; {Ajay, Chetan, Ela}; {Ajay, Chetan, Faiz}; {Bela, Chetan, Ela}; {Chetan, Ela, Faiz}; {Dhara, Ela, Gopal}, so the number of selections is 6.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-selection-distribution-i8",
+        "question": "A team of 3 is to be selected from 7 candidates: Ajay, Bela, Chetan, Dhara, Ela, Faiz, Gopal. The following conditions apply:\n1. If Ajay is selected, Chetan must also be selected.\n2. Bela and Faiz cannot both be selected.\n3. Dhara and Gopal are either both selected or both left out.\n4. At least one of Ela and Ajay must be selected.\n\nWhich of the following is a valid selection?",
+        "options": [
+          "Ajay, Bela, Gopal",
+          "Ajay, Ela, Gopal",
+          "Bela, Dhara, Gopal",
+          "Ajay, Bela, Chetan"
+        ],
+        "correctAnswer": "Ajay, Bela, Chetan",
+        "explanation": "Ajay, Bela, Chetan satisfies every condition. Ajay, Bela, Gopal breaks condition 1; Ajay, Ela, Gopal breaks condition 1; Bela, Dhara, Gopal breaks condition 4.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-selection-distribution-i9",
+        "question": "A team of 3 is to be selected from 7 candidates: Ajay, Bela, Chetan, Dhara, Ela, Faiz, Gopal. The following conditions apply:\n1. If Ajay is selected, Chetan must also be selected.\n2. Bela and Faiz cannot both be selected.\n3. Dhara and Gopal are either both selected or both left out.\n4. At least one of Ela and Ajay must be selected.\n\nWhich of the following selections satisfies all the conditions?",
+        "options": [
+          "Ajay, Faiz, Gopal",
+          "Bela, Ela, Faiz",
+          "Chetan, Faiz, Gopal",
+          "Ajay, Chetan, Ela"
+        ],
+        "correctAnswer": "Ajay, Chetan, Ela",
+        "explanation": "Ajay, Chetan, Ela satisfies every condition. Ajay, Faiz, Gopal breaks condition 1; Bela, Ela, Faiz breaks condition 2; Chetan, Faiz, Gopal breaks condition 3.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-selection-distribution-a15",
+        "question": "A delegation of 4 is to be selected from 7 candidates: Ajay, Bela, Chetan, Dhara, Ela, Faiz, Gopal. The following conditions apply:\n1. Exactly one of Ajay and Bela is selected.\n2. If Chetan is selected, Dhara must also be selected.\n3. Ela and Gopal cannot both be selected.\n4. If Faiz is selected, Ajay must also be selected.\n\nHow many different selections are possible?",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "6"
+        ],
+        "correctAnswer": "7",
+        "explanation": "The valid selections are {Ajay, Chetan, Dhara, Ela}; {Ajay, Chetan, Dhara, Faiz}; {Ajay, Chetan, Dhara, Gopal}; {Ajay, Dhara, Ela, Faiz}; {Ajay, Dhara, Faiz, Gopal}; {Bela, Chetan, Dhara, Ela}; {Bela, Chetan, Dhara, Gopal}, so the number of selections is 7.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-selection-distribution-a16",
+        "question": "A delegation of 4 is to be selected from 7 candidates: Ajay, Bela, Chetan, Dhara, Ela, Faiz, Gopal. The following conditions apply:\n1. Exactly one of Ajay and Bela is selected.\n2. If Chetan is selected, Dhara must also be selected.\n3. Ela and Gopal cannot both be selected.\n4. If Faiz is selected, Ajay must also be selected.\n\nWhich of the following is a valid selection?",
+        "options": [
+          "Ajay, Bela, Dhara, Faiz",
+          "Ajay, Chetan, Dhara, Gopal",
+          "Ajay, Chetan, Faiz, Gopal",
+          "Bela, Dhara, Ela, Faiz"
+        ],
+        "correctAnswer": "Ajay, Chetan, Dhara, Gopal",
+        "explanation": "Ajay, Chetan, Dhara, Gopal satisfies every condition. Ajay, Bela, Dhara, Faiz breaks condition 1; Ajay, Chetan, Faiz, Gopal breaks condition 2; Bela, Dhara, Ela, Faiz breaks condition 4.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-selection-distribution-p17",
+        "question": "A delegation of 4 is to be selected from 7 candidates: Ajay, Bela, Chetan, Dhara, Ela, Faiz, Gopal. The following conditions apply:\n1. Exactly one of Ajay and Bela is selected.\n2. If Chetan is selected, Dhara must also be selected.\n3. Ela and Gopal cannot both be selected.\n4. If Faiz is selected, Ajay must also be selected.\n\nIn how many valid selections is Chetan included?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "4"
+        ],
+        "correctAnswer": "5",
+        "explanation": "The valid selections are {Ajay, Chetan, Dhara, Ela}; {Ajay, Chetan, Dhara, Faiz}; {Ajay, Chetan, Dhara, Gopal}; {Ajay, Dhara, Ela, Faiz}; {Ajay, Dhara, Faiz, Gopal}; {Bela, Chetan, Dhara, Ela}; {Bela, Chetan, Dhara, Gopal}; Chetan appears in 5 of them, which is 5.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-selection-distribution-p18",
+        "question": "Five gifts 5 items (book, pen, bag, watch, cap) are distributed among 3 people (Rahul, Sneha, Tarun); each item goes to exactly one person. The following conditions apply:\n1. Every person gets at least one item.\n2. book goes to Rahul.\n3. pen and bag go to different people.\n4. watch and cap go to the same person.\n5. Rahul gets at most 2 items.\n\nIn how many different ways can the items be distributed?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "7"
+        ],
+        "correctAnswer": "8",
+        "explanation": "There are 8 valid distributions, so the answer is 8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-selection-distribution-p19",
+        "question": "Five gifts 5 items (book, pen, bag, watch, cap) are distributed among 3 people (Rahul, Sneha, Tarun); each item goes to exactly one person. The following conditions apply:\n1. Every person gets at least one item.\n2. book goes to Rahul.\n3. pen and bag go to different people.\n4. watch and cap go to the same person.\n5. Rahul gets at most 2 items.\n\nIn how many valid distributions does Sneha get pen?",
+        "options": [
+          "4",
+          "5",
+          "2",
+          "3"
+        ],
+        "correctAnswer": "3",
+        "explanation": "There are 8 valid distributions; Sneha gets pen in 3 of them, which is 3.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "If-then and contrapositive.",
+      "Not both.",
+      "Either-or.",
+      "Case split.",
+      "Count from the list."
+    ],
+    "quickFormulas": [
+      "A → B ≡ ¬B → ¬A",
+      "C(n, k)"
+    ]
+  },
+  "keyTakeaways": [
+    "Translate conditions exactly.",
+    "Split cases.",
+    "Use the list.",
+    "Check each option."
+  ],
+  "selfCheckQuestions": [
+    "Can I use a contrapositive?",
+    "Can I list valid selections?",
+    "Can I count distributions?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

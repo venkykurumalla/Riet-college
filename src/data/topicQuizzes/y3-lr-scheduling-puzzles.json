@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-scheduling-puzzles",
+  "topicTitle": "Scheduling and Day-Assignment Puzzles",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Monday.\n2. Fatima has the meeting on Sunday.\n3. Eshan has the meeting on Thursday.\n4. Girish's meeting is on the day immediately before Eshan's.\n5. Anita's meeting is earlier in the week than Girish's.\n6. Bharat's meeting is earlier in the week than Deepak's.\n\nWhose meeting is on Monday?",
+      "options": [
+        "Anita",
+        "Chitra",
+        "Bharat",
+        "Deepak"
+      ],
+      "answerIndex": 1,
+      "explanation": "From Monday to Sunday the meetings are held by Chitra, Anita, Girish, Eshan, Bharat, Deepak, Fatima, so Chitra is the answer."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Monday.\n2. Fatima has the meeting on Sunday.\n3. Eshan has the meeting on Thursday.\n4. Girish's meeting is on the day immediately before Eshan's.\n5. Anita's meeting is earlier in the week than Girish's.\n6. Bharat's meeting is earlier in the week than Deepak's.\n\nWhose meeting is on Sunday?",
+      "options": [
+        "Fatima",
+        "Chitra",
+        "Deepak",
+        "Eshan"
+      ],
+      "answerIndex": 0,
+      "explanation": "From Monday to Sunday the meetings are held by Chitra, Anita, Girish, Eshan, Bharat, Deepak, Fatima, so Fatima is the answer."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Monday.\n2. Fatima has the meeting on Sunday.\n3. Eshan has the meeting on Thursday.\n4. Girish's meeting is on the day immediately before Eshan's.\n5. Anita's meeting is earlier in the week than Girish's.\n6. Bharat's meeting is earlier in the week than Deepak's.\n\nOn which day is Anita's meeting?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Tuesday"
+      ],
+      "answerIndex": 3,
+      "explanation": "From Monday to Sunday the meetings are held by Chitra, Anita, Girish, Eshan, Bharat, Deepak, Fatima, so Anita is on Tuesday."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Monday.\n2. Fatima has the meeting on Sunday.\n3. Eshan has the meeting on Thursday.\n4. Girish's meeting is on the day immediately before Eshan's.\n5. Anita's meeting is earlier in the week than Girish's.\n6. Bharat's meeting is earlier in the week than Deepak's.\n\nWhose meeting is on the day immediately after Eshan's?",
+      "options": [
+        "Chitra",
+        "Deepak",
+        "Bharat",
+        "Eshan"
+      ],
+      "answerIndex": 2,
+      "explanation": "From Monday to Sunday the meetings are held by Chitra, Anita, Girish, Eshan, Bharat, Deepak, Fatima, so Bharat comes right after Eshan."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Monday.\n2. Fatima has the meeting on Sunday.\n3. Eshan has the meeting on Thursday.\n4. Girish's meeting is on the day immediately before Eshan's.\n5. Anita's meeting is earlier in the week than Girish's.\n6. Bharat's meeting is earlier in the week than Deepak's.\n\nWhose meeting is on the day immediately before Eshan's?",
+      "options": [
+        "Chitra",
+        "Deepak",
+        "Girish",
+        "Eshan"
+      ],
+      "answerIndex": 2,
+      "explanation": "From Monday to Sunday the meetings are held by Chitra, Anita, Girish, Eshan, Bharat, Deepak, Fatima, so Girish comes right before Eshan."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Monday.\n2. Fatima has the meeting on Sunday.\n3. Eshan has the meeting on Thursday.\n4. Girish's meeting is on the day immediately before Eshan's.\n5. Anita's meeting is earlier in the week than Girish's.\n6. Bharat's meeting is earlier in the week than Deepak's.\n\nHow many meetings are held after Girish's?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "answerIndex": 1,
+      "explanation": "From Monday to Sunday the meetings are held by Chitra, Anita, Girish, Eshan, Bharat, Deepak, Fatima, so 4 come after Girish, which is 4."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Girish has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Deepak and Girish.\n3. Fatima's meeting is on the day immediately before Bharat's.\n4. Chitra has the meeting on Sunday.\n5. Eshan's meeting is on the day immediately before Chitra's.\n6. Anita's meeting is on the day immediately before Eshan's.\n\nWhose meeting is on Monday?",
+      "options": [
+        "Deepak",
+        "Bharat",
+        "Chitra",
+        "Eshan"
+      ],
+      "answerIndex": 0,
+      "explanation": "From Monday to Sunday the meetings are held by Deepak, Fatima, Bharat, Girish, Anita, Eshan, Chitra, so Deepak is the answer."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Girish has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Deepak and Girish.\n3. Fatima's meeting is on the day immediately before Bharat's.\n4. Chitra has the meeting on Sunday.\n5. Eshan's meeting is on the day immediately before Chitra's.\n6. Anita's meeting is on the day immediately before Eshan's.\n\nWhose meeting is on Thursday?",
+      "options": [
+        "Chitra",
+        "Deepak",
+        "Eshan",
+        "Girish"
+      ],
+      "answerIndex": 3,
+      "explanation": "From Monday to Sunday the meetings are held by Deepak, Fatima, Bharat, Girish, Anita, Eshan, Chitra, so Girish is the answer."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Girish has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Deepak and Girish.\n3. Fatima's meeting is on the day immediately before Bharat's.\n4. Chitra has the meeting on Sunday.\n5. Eshan's meeting is on the day immediately before Chitra's.\n6. Anita's meeting is on the day immediately before Eshan's.\n\nOn which day is Fatima's meeting?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Tuesday"
+      ],
+      "answerIndex": 3,
+      "explanation": "From Monday to Sunday the meetings are held by Deepak, Fatima, Bharat, Girish, Anita, Eshan, Chitra, so Fatima is on Tuesday."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Girish has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Deepak and Girish.\n3. Fatima's meeting is on the day immediately before Bharat's.\n4. Chitra has the meeting on Sunday.\n5. Eshan's meeting is on the day immediately before Chitra's.\n6. Anita's meeting is on the day immediately before Eshan's.\n\nWhose meeting is on the day immediately after Fatima's?",
+      "options": [
+        "Deepak",
+        "Eshan",
+        "Bharat",
+        "Fatima"
+      ],
+      "answerIndex": 2,
+      "explanation": "From Monday to Sunday the meetings are held by Deepak, Fatima, Bharat, Girish, Anita, Eshan, Chitra, so Bharat comes right after Fatima."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Girish has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Deepak and Girish.\n3. Fatima's meeting is on the day immediately before Bharat's.\n4. Chitra has the meeting on Sunday.\n5. Eshan's meeting is on the day immediately before Chitra's.\n6. Anita's meeting is on the day immediately before Eshan's.\n\nHow many days lie between the meetings of Deepak and Girish?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "From Monday to Sunday the meetings are held by Deepak, Fatima, Bharat, Girish, Anita, Eshan, Chitra; Deepak and Girish are 3 places apart, so 2 days lie between them, which is 2."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Girish has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Deepak and Girish.\n3. Fatima's meeting is on the day immediately before Bharat's.\n4. Chitra has the meeting on Sunday.\n5. Eshan's meeting is on the day immediately before Chitra's.\n6. Anita's meeting is on the day immediately before Eshan's.\n\nHow many meetings are held after Anita's?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 0,
+      "explanation": "From Monday to Sunday the meetings are held by Deepak, Fatima, Bharat, Girish, Anita, Eshan, Chitra, so 2 come after Anita, which is 2."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Girish has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Deepak and Girish.\n3. Fatima's meeting is on the day immediately before Bharat's.\n4. Chitra has the meeting on Sunday.\n5. Eshan's meeting is on the day immediately before Chitra's.\n6. Anita's meeting is on the day immediately before Eshan's.\n\nWhose meeting is on the day immediately before Chitra's?",
+      "options": [
+        "Eshan",
+        "Bharat",
+        "Chitra",
+        "Deepak"
+      ],
+      "answerIndex": 0,
+      "explanation": "From Monday to Sunday the meetings are held by Deepak, Fatima, Bharat, Girish, Anita, Eshan, Chitra, so Eshan comes right before Chitra."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Girish has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Deepak and Girish.\n3. Fatima's meeting is on the day immediately before Bharat's.\n4. Chitra has the meeting on Sunday.\n5. Eshan's meeting is on the day immediately before Chitra's.\n6. Anita's meeting is on the day immediately before Eshan's.\n\nIf Deepak and Bharat exchange their days, whose meeting is on the day immediately after Fatima's?",
+      "options": [
+        "Chitra",
+        "Eshan",
+        "Fatima",
+        "Deepak"
+      ],
+      "answerIndex": 3,
+      "explanation": "From Monday to Sunday the meetings are held by Deepak, Fatima, Bharat, Girish, Anita, Eshan, Chitra. After Deepak and Bharat exchange places the order is Bharat, Fatima, Deepak, Girish, Anita, Eshan, Chitra, so Deepak comes right after Fatima."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Eshan and Chitra.\n3. Deepak has the meeting on Sunday.\n4. Fatima's meeting is on the day immediately before Bharat's.\n5. Anita's meeting is earlier in the week than Chitra's.\n6. Girish's meeting is earlier in the week than Anita's.\n\nWhose meeting is on Monday?",
+      "options": [
+        "Bharat",
+        "Chitra",
+        "Eshan",
+        "Deepak"
+      ],
+      "answerIndex": 2,
+      "explanation": "From Monday to Sunday the meetings are held by Eshan, Girish, Anita, Chitra, Fatima, Bharat, Deepak, so Eshan is the answer."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Eshan and Chitra.\n3. Deepak has the meeting on Sunday.\n4. Fatima's meeting is on the day immediately before Bharat's.\n5. Anita's meeting is earlier in the week than Chitra's.\n6. Girish's meeting is earlier in the week than Anita's.\n\nWhose meeting is on Saturday?",
+      "options": [
+        "Deepak",
+        "Bharat",
+        "Eshan",
+        "Fatima"
+      ],
+      "answerIndex": 1,
+      "explanation": "From Monday to Sunday the meetings are held by Eshan, Girish, Anita, Chitra, Fatima, Bharat, Deepak, so Bharat is the answer."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Eshan and Chitra.\n3. Deepak has the meeting on Sunday.\n4. Fatima's meeting is on the day immediately before Bharat's.\n5. Anita's meeting is earlier in the week than Chitra's.\n6. Girish's meeting is earlier in the week than Anita's.\n\nOn which day is Anita's meeting?",
+      "options": [
+        "Thursday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "answerIndex": 1,
+      "explanation": "From Monday to Sunday the meetings are held by Eshan, Girish, Anita, Chitra, Fatima, Bharat, Deepak, so Anita is on Wednesday."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Eshan and Chitra.\n3. Deepak has the meeting on Sunday.\n4. Fatima's meeting is on the day immediately before Bharat's.\n5. Anita's meeting is earlier in the week than Chitra's.\n6. Girish's meeting is earlier in the week than Anita's.\n\nHow many days lie between the meetings of Girish and Chitra?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "From Monday to Sunday the meetings are held by Eshan, Girish, Anita, Chitra, Fatima, Bharat, Deepak; Girish and Chitra are 2 places apart, so 1 day lies between them, which is 1."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Eshan and Chitra.\n3. Deepak has the meeting on Sunday.\n4. Fatima's meeting is on the day immediately before Bharat's.\n5. Anita's meeting is earlier in the week than Chitra's.\n6. Girish's meeting is earlier in the week than Anita's.\n\nIf Eshan and Girish exchange their days, whose meeting is on the day immediately after Anita's?",
+      "options": [
+        "Deepak",
+        "Eshan",
+        "Fatima",
+        "Chitra"
+      ],
+      "answerIndex": 3,
+      "explanation": "From Monday to Sunday the meetings are held by Eshan, Girish, Anita, Chitra, Fatima, Bharat, Deepak. After Eshan and Girish exchange places the order is Girish, Eshan, Anita, Chitra, Fatima, Bharat, Deepak, so Chitra comes right after Anita."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Seven employees Anita, Bharat, Chitra, Deepak, Eshan, Fatima and Girish each have exactly one meeting with the manager, on different days from Monday to Sunday (one meeting per day, in that order). The following facts are known:\n1. Chitra has the meeting on Thursday.\n2. Exactly 2 days lie between the meetings of Eshan and Chitra.\n3. Deepak has the meeting on Sunday.\n4. Fatima's meeting is on the day immediately before Bharat's.\n5. Anita's meeting is earlier in the week than Chitra's.\n6. Girish's meeting is earlier in the week than Anita's.\n\nHow many meetings are held after Fatima's?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "answerIndex": 2,
+      "explanation": "From Monday to Sunday the meetings are held by Eshan, Girish, Anita, Chitra, Fatima, Bharat, Deepak, so 2 come after Fatima, which is 2."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/seating-arrangement/"
+}

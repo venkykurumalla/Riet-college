@@ -1,0 +1,419 @@
+{
+  "id": "y3-lr-grouping-problems",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 35,
+  "title": "Grouping and Team Formation Problems",
+  "tagline": "Year 3 — Dividing people into teams: together, apart and conditional rules; counting valid divisions",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A grouping puzzle divides a set of people into teams of equal size under rules such as \"A and B are in the same team\" or \"C and D are in different teams\". The teams are unordered, so a division such as {A,B,C} and {D,E,F} is the same as {D,E,F} and {A,B,C}. The method is to fix one person, apply the together and apart rules to build blocks, and then count the divisions that remain.",
+    "placementRelevance": "Team-formation and grouping sets with six to eight people are a standard logical-reasoning pattern.",
+    "realWorldContext": "Forming project groups, sports teams or lab pairs under compatibility rules is the same problem."
+  },
+  "learningObjectives": [
+    "Treat teams as unordered",
+    "Merge people who must be together into blocks",
+    "Use apart rules to separate blocks",
+    "Find people who are always or never together",
+    "Count valid divisions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Selection and Distribution Problems",
+      "Combinations"
+    ],
+    "quickRefresher": "Dividing 6 people into two unordered teams of 3 can be done in C(6,3) ÷ 2 = 10 ways before conditions."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Unordered groups: swapping the names of two equal-sized groups gives the same division.",
+      "Together rule: the two people share a group, so treat them as one block.",
+      "Apart rule: the two people are in different groups.",
+      "Conditional rule: if two people are together, a third joins them.",
+      "Division: a complete split of everyone into groups."
+    ],
+    "theoreticalIntuition": "A together rule glues people into a block; an apart rule keeps two blocks in different groups. After gluing and separating, few choices remain.",
+    "visualOrMentalModel": "Fix the first person in group 1, glue the together pairs, place the apart pairs in opposite groups, then fill the remaining seats and count."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Two equal groups",
+      "formula": "C(n, n/2) ÷ 2",
+      "description": "No conditions.",
+      "whenToUse": "Baseline.",
+      "simpleExample": "n = 6: 10"
+    },
+    {
+      "title": "Three pairs",
+      "formula": "(n − 1)(n − 3)…1",
+      "description": "Even n.",
+      "whenToUse": "Pairings.",
+      "simpleExample": "n = 6: 15"
+    },
+    {
+      "title": "Block merge",
+      "formula": "Count a glued pair as one person",
+      "description": "Together rule.",
+      "whenToUse": "Reduction.",
+      "simpleExample": "Asha + Bilal"
+    },
+    {
+      "title": "Always together",
+      "formula": "Same group in every division",
+      "description": "Question type.",
+      "whenToUse": "Forced mates.",
+      "simpleExample": "Check every division"
+    },
+    {
+      "title": "Count check",
+      "formula": "List divisions and tick",
+      "description": "Small cases.",
+      "whenToUse": "Verification.",
+      "simpleExample": "Valid list"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Six friends Asha, Bilal, Charu, Dev, Esha and Farid are split into two teams of 3. Asha and Bilal are in the same team; Charu and Dev are in different teams. Glue Asha and Bilal into a block of two; the third member of their team comes from Charu, Dev, Esha, Farid. If Charu joins, Dev must be in the other team, so the divisions are {Asha, Bilal, Charu} with {Dev, Esha, Farid}, and similarly for the others.",
+      "List the divisions by the third member of the Asha–Bilal team. A third member of Esha or Farid keeps Charu and Dev together in the other team, which breaks the apart rule. So only Charu or Dev can be the third member, and there are exactly two divisions.",
+      "Pairings use the same idea. For three pairs from six people, first pair the person with the most conditions, then pair the rest.",
+      "A person is \"always with\" another if in every valid division they share a group, and \"never with\" if they never share one. Check against the list.",
+      "For counts under a stated condition, filter the list of valid divisions by that condition."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Unordered double-counting",
+        "content": "If you label the groups 1 and 2, every division is counted twice; divide by 2 for equal groups."
+      },
+      {
+        "title": "Contradictory rules",
+        "content": "If a puzzle has zero valid divisions, a rule is misread; recheck the wording."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Together pair",
+      "description": "Block.",
+      "exampleSnippet": "Asha and Bilal"
+    },
+    {
+      "typeName": "Apart pair",
+      "description": "Separate.",
+      "exampleSnippet": "Charu and Dev"
+    },
+    {
+      "typeName": "Conditional rule",
+      "description": "If together then third.",
+      "exampleSnippet": "Rule on three people"
+    },
+    {
+      "typeName": "Always/never mates",
+      "description": "Check the list.",
+      "exampleSnippet": "Who is with Asha"
+    },
+    {
+      "typeName": "Counting",
+      "description": "Filter the list.",
+      "exampleSnippet": "How many divisions"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-grouping-problems-1",
+      "title": "Baseline count",
+      "question": "In how many ways can 6 people be divided into two unordered teams of 3 (no conditions)?",
+      "givenInfo": [
+        "6 people"
+      ],
+      "conceptOrFormula": "C(6,3) ÷ 2.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Choose a team",
+          "explanation": "C(6,3) = 20."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Unordered",
+          "explanation": "20 ÷ 2 = 10."
+        }
+      ],
+      "finalAnswer": "10",
+      "whyItWorks": "Each division is counted twice.",
+      "commonTrap": "Answering 20.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-grouping-problems-2",
+      "title": "Glue the pair",
+      "question": "Six people are divided into two teams of 3 with two of them (X and Y) always together. How many divisions are possible?",
+      "givenInfo": [
+        "X, Y together"
+      ],
+      "conceptOrFormula": "Choose the third member.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Block",
+          "explanation": "X and Y form a team with one more of the other 4 people."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choices",
+          "explanation": "4 ways to choose the third member."
+        }
+      ],
+      "finalAnswer": "4",
+      "whyItWorks": "The other team is then fixed.",
+      "commonTrap": "Answering 10.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-grouping-problems-3",
+      "title": "Apart rule",
+      "question": "Four people P, Q, R, S are divided into two teams of 2, with P and Q in different teams. How many divisions are possible?",
+      "givenInfo": [
+        "4 people"
+      ],
+      "conceptOrFormula": "Pair P with R or S.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "P's partner",
+          "explanation": "P can pair with R or S (not Q)."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divisions",
+          "explanation": "2 ways."
+        }
+      ],
+      "finalAnswer": "2",
+      "whyItWorks": "{P,R}{Q,S} and {P,S}{Q,R}.",
+      "commonTrap": "Answering 3.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Glue and split",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "List all divisions.",
+      "shortcutMethod": "Glue together pairs, separate apart pairs, fill the rest, count, and tick off against the list."
+    },
+    "rulesForApplication": [
+      "Teams are unordered.",
+      "Together = block.",
+      "Apart = opposite sides.",
+      "Always/never: check every division."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Counting ordered teams",
+      "whyItHappens": "Double counting.",
+      "howToAvoid": "Divide by 2 for equal teams."
+    },
+    {
+      "mistake": "Missing a division",
+      "whyItHappens": "Wrong count.",
+      "howToAvoid": "List by the third member systematically."
+    },
+    {
+      "mistake": "Treating conditional rules as always true",
+      "whyItHappens": "The rule fires only if the pair is together.",
+      "howToAvoid": "Apply it only in that case."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 180,
+    "eliminationTechnique": "Reject options that put an apart pair together.",
+    "questionSelectionAdvice": "List divisions by one person's teammates.",
+    "recruiterInsight": "Lists stay short once together/apart rules are used."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-grouping-problems-e1",
+        "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 3 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in the same group.\n2. Charu and Dev are in different groups.\n\nIn how many ways can the people be divided?",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "1"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The valid divisions are {Asha, Bilal, Charu} and {Dev, Esha, Farid}; {Asha, Bilal, Dev} and {Charu, Esha, Farid}, so the number of ways is 2.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-grouping-problems-e2",
+        "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 3 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in the same group.\n2. Charu and Dev are in different groups.\n\nWhich person is always in the same group as Asha?",
+        "options": [
+          "Bilal",
+          "Dev",
+          "Esha",
+          "Farid"
+        ],
+        "correctAnswer": "Bilal",
+        "explanation": "The valid divisions are {Asha, Bilal, Charu} and {Dev, Esha, Farid}; {Asha, Bilal, Dev} and {Charu, Esha, Farid}; Bilal is with Asha in every valid division.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-grouping-problems-e3",
+        "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 3 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in the same group.\n2. Charu and Dev are in different groups.\n\nIn how many valid divisions are Asha and Charu in the same group?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The valid divisions are {Asha, Bilal, Charu} and {Dev, Esha, Farid}; {Asha, Bilal, Dev} and {Charu, Esha, Farid}; Asha and Charu share a group in 1 of them, which is 1.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-grouping-problems-i7",
+        "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 2 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in different groups.\n2. Charu and Dev are in different groups.\n3. Esha is not in the same group as Asha or Charu.\n\nIn how many ways can the people be divided?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "5"
+        ],
+        "correctAnswer": "6",
+        "explanation": "The valid divisions are {Asha, Charu} and {Bilal, Dev} and {Esha, Farid}; {Asha, Charu} and {Bilal, Esha} and {Dev, Farid}; {Asha, Charu} and {Bilal, Farid} and {Dev, Esha}; {Asha, Dev} and {Bilal, Charu} and {Esha, Farid}; {Asha, Dev} and {Bilal, Esha} and {Charu, Farid}; {Asha, Farid} and {Bilal, Charu} and {Dev, Esha}, so the number of ways is 6.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-grouping-problems-i8",
+        "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 2 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in different groups.\n2. Charu and Dev are in different groups.\n3. Esha is not in the same group as Asha or Charu.\n\nWhich person is never in the same group as Esha?",
+        "options": [
+          "Dev",
+          "Farid",
+          "Bilal",
+          "Asha"
+        ],
+        "correctAnswer": "Asha",
+        "explanation": "The valid divisions are {Asha, Charu} and {Bilal, Dev} and {Esha, Farid}; {Asha, Charu} and {Bilal, Esha} and {Dev, Farid}; {Asha, Charu} and {Bilal, Farid} and {Dev, Esha}; {Asha, Dev} and {Bilal, Charu} and {Esha, Farid}; {Asha, Dev} and {Bilal, Esha} and {Charu, Farid}; {Asha, Farid} and {Bilal, Charu} and {Dev, Esha}; Asha is never with Esha.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-grouping-problems-i9",
+        "question": "Six friends 6 people (Asha, Bilal, Charu, Dev, Esha, Farid) are divided into groups of 2 (groups are not ordered). The following conditions apply:\n1. Asha and Bilal are in different groups.\n2. Charu and Dev are in different groups.\n3. Esha is not in the same group as Asha or Charu.\n\nIn how many valid divisions are Asha and Charu in the same group?",
+        "options": [
+          "4",
+          "5",
+          "2",
+          "3"
+        ],
+        "correctAnswer": "3",
+        "explanation": "The valid divisions are {Asha, Charu} and {Bilal, Dev} and {Esha, Farid}; {Asha, Charu} and {Bilal, Esha} and {Dev, Farid}; {Asha, Charu} and {Bilal, Farid} and {Dev, Esha}; {Asha, Dev} and {Bilal, Charu} and {Esha, Farid}; {Asha, Dev} and {Bilal, Esha} and {Charu, Farid}; {Asha, Farid} and {Bilal, Charu} and {Dev, Esha}; Asha and Charu share a group in 3 of them, which is 3.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-grouping-problems-a15",
+        "question": "Eight colleagues 8 people (Gita, Hari, Indu, Jai, Kiran, Lata, Manoj, Nisha) are divided into groups of 4 (groups are not ordered). The following conditions apply:\n1. Gita and Hari are in the same group.\n2. Indu and Jai are in different groups.\n3. Kiran and Lata are in different groups.\n4. Manoj is not in the same group as Gita or Kiran.\n\nIn how many ways can the people be divided?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "1"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}, so the number of ways is 2.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-grouping-problems-a16",
+        "question": "Eight colleagues 8 people (Gita, Hari, Indu, Jai, Kiran, Lata, Manoj, Nisha) are divided into groups of 4 (groups are not ordered). The following conditions apply:\n1. Gita and Hari are in the same group.\n2. Indu and Jai are in different groups.\n3. Kiran and Lata are in different groups.\n4. Manoj is not in the same group as Gita or Kiran.\n\nWhich person is always in the same group as Gita?",
+        "options": [
+          "Jai",
+          "Hari",
+          "Lata",
+          "Manoj"
+        ],
+        "correctAnswer": "Hari",
+        "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}; Hari is with Gita in every valid division.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-grouping-problems-p17",
+        "question": "Eight colleagues 8 people (Gita, Hari, Indu, Jai, Kiran, Lata, Manoj, Nisha) are divided into groups of 4 (groups are not ordered). The following conditions apply:\n1. Gita and Hari are in the same group.\n2. Indu and Jai are in different groups.\n3. Kiran and Lata are in different groups.\n4. Manoj is not in the same group as Gita or Kiran.\n\nIn how many valid divisions are Indu and Kiran in the same group?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}; Indu and Kiran share a group in 1 of them, which is 1.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-grouping-problems-p18",
+        "question": "Eight colleagues 8 people (Gita, Hari, Indu, Jai, Kiran, Lata, Manoj, Nisha) are divided into groups of 4 (groups are not ordered). The following conditions apply:\n1. Gita and Hari are in the same group.\n2. Indu and Jai are in different groups.\n3. Kiran and Lata are in different groups.\n4. Manoj is not in the same group as Gita or Kiran.\n\nIn how many valid divisions are Indu and Kiran in different groups?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}; Indu and Kiran are apart in 1 of them, which is 1.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-grouping-problems-p19",
+        "question": "Eight colleagues 8 people (Gita, Hari, Indu, Jai, Kiran, Lata, Manoj, Nisha) are divided into groups of 4 (groups are not ordered). The following conditions apply:\n1. Gita and Hari are in the same group.\n2. Indu and Jai are in different groups.\n3. Kiran and Lata are in different groups.\n4. Manoj is not in the same group as Gita or Kiran.\n\nIn how many valid divisions are Jai and Lata in the same group?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        "correctAnswer": "1",
+        "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}; Jai and Lata share a group in 1 of them, which is 1.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Unordered teams.",
+      "Blocks.",
+      "Apart rules.",
+      "Always/never.",
+      "Counting."
+    ],
+    "quickFormulas": [
+      "C(n, n/2) ÷ 2"
+    ]
+  },
+  "keyTakeaways": [
+    "Glue and split.",
+    "List systematically.",
+    "Divide by 2 for equal teams.",
+    "Filter for conditions."
+  ],
+  "selfCheckQuestions": [
+    "Can I count unordered divisions?",
+    "Can I glue together pairs?",
+    "Can I find always-together people?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}
