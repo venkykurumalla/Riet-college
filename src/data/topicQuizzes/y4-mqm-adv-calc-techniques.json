@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-mqm-adv-calc-techniques",
+  "topicTitle": "Advanced Calculation Techniques",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "53² equals",
+      "options": [
+        "3090",
+        "2809",
+        "2528",
+        "3511"
+      ],
+      "answerIndex": 1,
+      "explanation": "(50 + 3)² = 2,500 + 300 + 9 = 2,809."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "47 × 53 equals",
+      "options": [
+        "2491",
+        "2740",
+        "2242",
+        "3114"
+      ],
+      "answerIndex": 0,
+      "explanation": "50² − 3² = 2,500 − 9 = 2,491."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "37 × 99 equals",
+      "options": [
+        "4029",
+        "3297",
+        "4579",
+        "3663"
+      ],
+      "answerIndex": 3,
+      "explanation": "3,700 − 37 = 3,663."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "84 × 25 equals",
+      "options": [
+        "2310",
+        "1890",
+        "2100",
+        "2625"
+      ],
+      "answerIndex": 2,
+      "explanation": "8,400 ÷ 4 = 2,100."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "12.5% of 640 equals",
+      "options": [
+        "88",
+        "72",
+        "80",
+        "100"
+      ],
+      "answerIndex": 2,
+      "explanation": "12.5% = 1/8; 640 ÷ 8 = 80."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "346 × 11 equals",
+      "options": [
+        "4187",
+        "3806",
+        "3425",
+        "4758"
+      ],
+      "answerIndex": 1,
+      "explanation": "3 | 3+4 | 4+6 | 6 gives 3,806."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "96 × 97 equals",
+      "options": [
+        "9312",
+        "10243",
+        "8381",
+        "11640"
+      ],
+      "answerIndex": 0,
+      "explanation": "Base 100: deviations −4 and −3; 96 − 3 = 93 and 4 × 3 = 12, giving 9,312."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "104 × 106 equals",
+      "options": [
+        "12126",
+        "9922",
+        "13780",
+        "11024"
+      ],
+      "answerIndex": 3,
+      "explanation": "Base 100: 104 + 6 = 110 and 4 × 6 = 24, giving 11,024."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "68² equals",
+      "options": [
+        "5086",
+        "4162",
+        "5780",
+        "4624"
+      ],
+      "answerIndex": 3,
+      "explanation": "(70 − 2)² = 4,900 − 280 + 4 = 4,624."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "16⅔% of 540 equals",
+      "options": [
+        "99",
+        "81",
+        "90",
+        "113"
+      ],
+      "answerIndex": 2,
+      "explanation": "16⅔% = 1/6; 540 ÷ 6 = 90."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "999 × 45 equals",
+      "options": [
+        "49451",
+        "44955",
+        "40460",
+        "56194"
+      ],
+      "answerIndex": 1,
+      "explanation": "45,000 − 45 = 44,955."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "(8.5)² equals",
+      "options": [
+        "72.25",
+        "79.48",
+        "65.03",
+        "90.31"
+      ],
+      "answerIndex": 0,
+      "explanation": "(8 + 0.5)² = 64 + 8 + 0.25 = 72.25."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "72 × 68 equals",
+      "options": [
+        "4896",
+        "5386",
+        "4406",
+        "6120"
+      ],
+      "answerIndex": 0,
+      "explanation": "70² − 2² = 4,900 − 4 = 4,896."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "0.64 × 125 equals",
+      "options": [
+        "88",
+        "72",
+        "100",
+        "80"
+      ],
+      "answerIndex": 3,
+      "explanation": "125 = 1000/8: 0.64 × 1000 ÷ 8 = 80."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "2,001² − 1,999² equals",
+      "options": [
+        "8800",
+        "7200",
+        "8000",
+        "10000"
+      ],
+      "answerIndex": 2,
+      "explanation": "(a + b)(a − b) = 4,000 × 2 = 8,000."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "875 × 8 equals",
+      "options": [
+        "7700",
+        "7000",
+        "6300",
+        "8750"
+      ],
+      "answerIndex": 1,
+      "explanation": "875 = 7000/8, so 875 × 8 = 7,000."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "15% of 240 plus 25% of 160 equals",
+      "options": [
+        "84",
+        "76",
+        "68",
+        "95"
+      ],
+      "answerIndex": 1,
+      "explanation": "15% of 240 = 36; 25% of 160 = 40; total 76."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The value of 98² − 2² equals",
+      "options": [
+        "9600",
+        "10560",
+        "8640",
+        "12000"
+      ],
+      "answerIndex": 0,
+      "explanation": "(98 + 2)(98 − 2) = 100 × 96 = 9,600."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "(425 × 24) ÷ 100 equals",
+      "options": [
+        "112",
+        "92",
+        "128",
+        "102"
+      ],
+      "answerIndex": 3,
+      "explanation": "425 × 24 = 10,200; ÷ 100 = 102."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The last digit of 47 × 53 × 61 is",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "Last digits 7 × 3 = 21 → 1; 1 × 1 = 1."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

@@ -1,0 +1,420 @@
+{
+  "id": "y4-mqm-adv-calc-techniques",
+  "yearId": 4,
+  "category": "Advanced Aptitude / Mixed Problems",
+  "topicNumber": 3,
+  "title": "Advanced Calculation Techniques",
+  "tagline": "Year 4 — Algebraic identities, base-and-deviation, vedic-style methods and percentage fractions for fast exact arithmetic",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Fast exact arithmetic comes from a small toolkit: squaring numbers near a base, multiplying by 11, 25, 99 or 101, using (a + b)(a − b) = a² − b², and converting percentages to fractions. Each technique turns a long multiplication into two or three short steps. The tools are valid for every input; the skill is spotting when one applies.",
+    "placementRelevance": "Calculation time decides how many questions you attempt; these techniques save 15–30 seconds on each arithmetic-heavy question.",
+    "realWorldContext": "Mental arithmetic for bills, discounts and estimates uses the same shortcuts."
+  },
+  "learningObjectives": [
+    "Square numbers near 50 and 100 quickly",
+    "Multiply by 5, 9, 11, 25, 99 and 101",
+    "Use a² − b² and (a ± b)² for products",
+    "Use percentage–fraction equivalents",
+    "Verify with digit sums (casting out nines)"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Number System",
+      "Simplification",
+      "Percentages"
+    ],
+    "quickRefresher": "(a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a + b)(a − b) = a² − b²."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Base: a convenient round number near the numbers being multiplied.",
+      "Deviation: the difference between a number and the base.",
+      "Percentage–fraction equivalent: 12.5% = 1/8, 16.67% = 1/6 and so on.",
+      "Digit sum: the repeated sum of digits, used to check products.",
+      "Complement: what a number lacks to reach a base."
+    ],
+    "theoreticalIntuition": "Almost every awkward product is a nearby easy product plus a small correction.",
+    "visualOrMentalModel": "Look for a base (10, 50, 100) or an identity. Compute the easy product, then add or subtract the correction."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Square near 50",
+      "formula": "(50 + d)² = 2500 + 100d + d²",
+      "description": "Numbers near 50.",
+      "whenToUse": "Squares.",
+      "simpleExample": "53² = 2500 + 300 + 9 = 2,809"
+    },
+    {
+      "title": "Difference of squares",
+      "formula": "ab = ((a + b)/2)² − ((a − b)/2)²",
+      "description": "Close numbers.",
+      "whenToUse": "Products.",
+      "simpleExample": "47 × 53 = 50² − 3² = 2,491"
+    },
+    {
+      "title": "Multiply by 25",
+      "formula": "n × 25 = n × 100 ÷ 4",
+      "description": "Any n.",
+      "whenToUse": "Quick.",
+      "simpleExample": "84 × 25 = 8,400 ÷ 4 = 2,100"
+    },
+    {
+      "title": "Multiply by 99",
+      "formula": "n × 100 − n",
+      "description": "Any n.",
+      "whenToUse": "Quick.",
+      "simpleExample": "37 × 99 = 3,700 − 37 = 3,663"
+    },
+    {
+      "title": "Casting out nines",
+      "formula": "Digit sums multiply",
+      "description": "Check.",
+      "whenToUse": "Verification.",
+      "simpleExample": "47 × 53 ≡ 2 × 8 = 16 ≡ 7"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "To find 53², write 50 + 3: 2,500 + 2 × 50 × 3 + 9 = 2,809. For 47 × 53 use the same centre 50: 50² − 3² = 2,491.",
+      "For 37 × 99, write 3,700 − 37 = 3,663. For 84 × 25, divide 8,400 by 4 to get 2,100.",
+      "To multiply by 11, add adjacent digits: 346 × 11 = 3 | 3+4 | 4+6 | 6 = 3,806.",
+      "Percentage equivalents turn percentages into division: 12.5% of 640 = 640 ÷ 8 = 80; 16⅔% of 540 = 540 ÷ 6 = 90.",
+      "To check 47 × 53 = 2,491, digit sums: 47 → 11 → 2; 53 → 8; 2 × 8 = 16 → 7; 2,491 → 16 → 7 ✓."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Deviation method for 96 × 97",
+        "content": "Base 100: deviations −4 and −3. Cross-subtract 96 − 3 = 93 (or 97 − 4), then multiply deviations 12: 9,312."
+      },
+      {
+        "title": "Why casting out nines works",
+        "content": "A number leaves the same remainder mod 9 as its digit sum; products preserve remainders."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Squares",
+      "description": "Near 50 or 100.",
+      "exampleSnippet": "53²"
+    },
+    {
+      "typeName": "Products of close numbers",
+      "description": "a² − b².",
+      "exampleSnippet": "47 × 53"
+    },
+    {
+      "typeName": "Multiples of 25, 99, 101",
+      "description": "Easy base.",
+      "exampleSnippet": "84 × 25"
+    },
+    {
+      "typeName": "Percent as fractions",
+      "description": "Divide.",
+      "exampleSnippet": "12.5% of 640"
+    },
+    {
+      "typeName": "Checks",
+      "description": "Digit sums.",
+      "exampleSnippet": "47 × 53"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mqm-adv-calc-techniques-1",
+      "title": "Square near 50",
+      "question": "Find 53².",
+      "givenInfo": [
+        "53 = 50 + 3"
+      ],
+      "conceptOrFormula": "(50 + d)².",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Expand",
+          "explanation": "2,500 + 2 × 50 × 3 + 3²."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Add",
+          "explanation": "2,500 + 300 + 9 = 2,809."
+        }
+      ],
+      "finalAnswer": "2,809",
+      "whyItWorks": "Check by 53 × 53.",
+      "commonTrap": "Forgetting the middle term.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mqm-adv-calc-techniques-2",
+      "title": "Difference of squares",
+      "question": "Find 47 × 53.",
+      "givenInfo": [
+        "Centre 50"
+      ],
+      "conceptOrFormula": "a² − b².",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Centre",
+          "explanation": "47 × 53 = (50 − 3)(50 + 3)."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "2,500 − 9 = 2,491."
+        }
+      ],
+      "finalAnswer": "2,491",
+      "whyItWorks": "Symmetric about 50.",
+      "commonTrap": "Squaring one number.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mqm-adv-calc-techniques-3",
+      "title": "Multiply by 99",
+      "question": "Find 37 × 99.",
+      "givenInfo": [
+        "99 = 100 − 1"
+      ],
+      "conceptOrFormula": "n × 100 − n.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Hundreds",
+          "explanation": "3,700."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Subtract",
+          "explanation": "3,700 − 37 = 3,663."
+        }
+      ],
+      "finalAnswer": "3,663",
+      "whyItWorks": "Always n × 100 − n.",
+      "commonTrap": "Adding instead of subtracting.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Base and correction",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Long multiplication.",
+      "shortcutMethod": "Pick a base or identity, do the easy product, then correct."
+    },
+    "rulesForApplication": [
+      "Near 50: 2,500 + 100d + d².",
+      "Symmetric pair: centre² − gap².",
+      "25 = 100 ÷ 4.",
+      "99 = 100 − 1."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Dropping the middle term",
+      "whyItHappens": "Wrong square.",
+      "howToAvoid": "Use 2ab."
+    },
+    {
+      "mistake": "Wrong centre",
+      "whyItHappens": "Not symmetric.",
+      "howToAvoid": "Check the average."
+    },
+    {
+      "mistake": "Skipping the check",
+      "whyItHappens": "Slips.",
+      "howToAvoid": "Cast out nines."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Last digit of a product must match the product of last digits.",
+    "questionSelectionAdvice": "Memorise squares to 30 and fractions to 1/12.",
+    "recruiterInsight": "A shortcut that takes longer than direct multiplication is not a shortcut."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mqm-adv-calc-techniques-e1",
+        "question": "53² equals",
+        "options": [
+          "3090",
+          "2809",
+          "2528",
+          "3511"
+        ],
+        "correctAnswer": "2809",
+        "explanation": "(50 + 3)² = 2,500 + 300 + 9 = 2,809.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-adv-calc-techniques-e2",
+        "question": "47 × 53 equals",
+        "options": [
+          "2491",
+          "2740",
+          "2242",
+          "3114"
+        ],
+        "correctAnswer": "2491",
+        "explanation": "50² − 3² = 2,500 − 9 = 2,491.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-adv-calc-techniques-e3",
+        "question": "37 × 99 equals",
+        "options": [
+          "4029",
+          "3297",
+          "4579",
+          "3663"
+        ],
+        "correctAnswer": "3663",
+        "explanation": "3,700 − 37 = 3,663.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mqm-adv-calc-techniques-i7",
+        "question": "96 × 97 equals",
+        "options": [
+          "9312",
+          "10243",
+          "8381",
+          "11640"
+        ],
+        "correctAnswer": "9312",
+        "explanation": "Base 100: deviations −4 and −3; 96 − 3 = 93 and 4 × 3 = 12, giving 9,312.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-adv-calc-techniques-i8",
+        "question": "104 × 106 equals",
+        "options": [
+          "12126",
+          "9922",
+          "13780",
+          "11024"
+        ],
+        "correctAnswer": "11024",
+        "explanation": "Base 100: 104 + 6 = 110 and 4 × 6 = 24, giving 11,024.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-adv-calc-techniques-i9",
+        "question": "68² equals",
+        "options": [
+          "5086",
+          "4162",
+          "5780",
+          "4624"
+        ],
+        "correctAnswer": "4624",
+        "explanation": "(70 − 2)² = 4,900 − 280 + 4 = 4,624.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mqm-adv-calc-techniques-a15",
+        "question": "2,001² − 1,999² equals",
+        "options": [
+          "8800",
+          "7200",
+          "8000",
+          "10000"
+        ],
+        "correctAnswer": "8000",
+        "explanation": "(a + b)(a − b) = 4,000 × 2 = 8,000.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-adv-calc-techniques-a16",
+        "question": "875 × 8 equals",
+        "options": [
+          "7700",
+          "7000",
+          "6300",
+          "8750"
+        ],
+        "correctAnswer": "7000",
+        "explanation": "875 = 7000/8, so 875 × 8 = 7,000.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mqm-adv-calc-techniques-p17",
+        "question": "15% of 240 plus 25% of 160 equals",
+        "options": [
+          "84",
+          "76",
+          "68",
+          "95"
+        ],
+        "correctAnswer": "76",
+        "explanation": "15% of 240 = 36; 25% of 160 = 40; total 76.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-adv-calc-techniques-p18",
+        "question": "The value of 98² − 2² equals",
+        "options": [
+          "9600",
+          "10560",
+          "8640",
+          "12000"
+        ],
+        "correctAnswer": "9600",
+        "explanation": "(98 + 2)(98 − 2) = 100 × 96 = 9,600.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-adv-calc-techniques-p19",
+        "question": "(425 × 24) ÷ 100 equals",
+        "options": [
+          "112",
+          "92",
+          "128",
+          "102"
+        ],
+        "correctAnswer": "102",
+        "explanation": "425 × 24 = 10,200; ÷ 100 = 102.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Squares.",
+      "Symmetric products.",
+      "25, 99, 11.",
+      "Percent fractions.",
+      "Casting nines."
+    ],
+    "quickFormulas": [
+      "ab = c² − d²"
+    ]
+  },
+  "keyTakeaways": [
+    "Find a base.",
+    "Use identities.",
+    "Fractions for percent.",
+    "Check by digit sums."
+  ],
+  "selfCheckQuestions": [
+    "Can I square 53 mentally?",
+    "Can I use a² − b²?",
+    "Can I check a product?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic areas; examples in this chapter are original."
+    }
+  ]
+}
