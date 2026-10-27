@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-rev-di-tables",
+  "topicTitle": "DI Formula and Approach Tables",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A value rises from 100 to 125. The percentage increase is",
+      "options": [
+        "28%",
+        "25%",
+        "23%",
+        "31%"
+      ],
+      "answerIndex": 1,
+      "explanation": "25 ÷ 100 = 25%."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A value falls from 125 to 100. The percentage decrease is",
+      "options": [
+        "20%",
+        "22%",
+        "18%",
+        "25%"
+      ],
+      "answerIndex": 0,
+      "explanation": "25 ÷ 125 = 20%."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "30 out of 120 is what percentage?",
+      "options": [
+        "28%",
+        "23%",
+        "31%",
+        "25%"
+      ],
+      "answerIndex": 3,
+      "explanation": "30 ÷ 120 = 25%."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The average of 10, 20 and 30 is",
+      "options": [
+        "22",
+        "18",
+        "20",
+        "25"
+      ],
+      "answerIndex": 2,
+      "explanation": "60 ÷ 3 = 20."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The angle of a pie sector for a 25% share is (degrees)",
+      "options": [
+        "99",
+        "81",
+        "90",
+        "113"
+      ],
+      "answerIndex": 2,
+      "explanation": "0.25 × 360 = 90."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A share rising from 30% to 35% is a rise of how many percentage points?",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "35 − 30 = 5."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The same share rise (30% → 35%) is what percentage change (one decimal)?",
+      "options": [
+        "16.7%",
+        "18.4%",
+        "15%",
+        "20.9%"
+      ],
+      "answerIndex": 0,
+      "explanation": "5 ÷ 30 = 16.7%."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Marks 60 for 30 students and 40 for 20 students give an average of",
+      "options": [
+        "57",
+        "47",
+        "65",
+        "52"
+      ],
+      "answerIndex": 3,
+      "explanation": "2,600 ÷ 50 = 52."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The CAGR for 1,000 growing to 1,331 in 3 years is (%)",
+      "options": [
+        "11%",
+        "9%",
+        "13%",
+        "10%"
+      ],
+      "answerIndex": 3,
+      "explanation": "1.331 = 1.1³."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The total growth from 1,000 to 1,331 is (%)",
+      "options": [
+        "36.4%",
+        "29.8%",
+        "33.1%",
+        "41.4%"
+      ],
+      "answerIndex": 2,
+      "explanation": "331 ÷ 1,000 = 33.1%."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The ratio 30 : 20 in simplest form has first term",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "30 : 20 = 3 : 2."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The average of 12, 18 and 30 is",
+      "options": [
+        "20",
+        "22",
+        "18",
+        "25"
+      ],
+      "answerIndex": 0,
+      "explanation": "60 ÷ 3 = 20."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A pie sector of 54 degrees represents (%)",
+      "options": [
+        "15%",
+        "17%",
+        "14%",
+        "19%"
+      ],
+      "answerIndex": 0,
+      "explanation": "54 ÷ 360 = 15%."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Sales rise from 4,180 to 4,970. The percentage growth is approximately (%)",
+      "options": [
+        "21%",
+        "17%",
+        "24%",
+        "19%"
+      ],
+      "answerIndex": 3,
+      "explanation": "790 ÷ 4,180 = 18.9%, about 19%."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A price rises 20% and then falls 20%. The net change is (%)",
+      "options": [
+        "-5",
+        "-3",
+        "-4",
+        "-6"
+      ],
+      "answerIndex": 2,
+      "explanation": "1.2 × 0.8 = 0.96, a 4% fall."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The weighted average of 80 (weight 3) and 50 (weight 2) is",
+      "options": [
+        "75",
+        "68",
+        "61",
+        "85"
+      ],
+      "answerIndex": 1,
+      "explanation": "(240 + 100) ÷ 5 = 68."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "If total sales are 1,000 and a category has a 24% share, its sales are",
+      "options": [
+        "264",
+        "240",
+        "216",
+        "300"
+      ],
+      "answerIndex": 1,
+      "explanation": "0.24 × 1,000 = 240."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "If a series has year-on-year rates of 10% and 20%, the combined two-year growth is (%)",
+      "options": [
+        "32%",
+        "35%",
+        "29%",
+        "40%"
+      ],
+      "answerIndex": 0,
+      "explanation": "1.1 × 1.2 = 1.32."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A sector of 108 degrees in a pie of total 600 represents",
+      "options": [
+        "198",
+        "162",
+        "225",
+        "180"
+      ],
+      "answerIndex": 3,
+      "explanation": "108 ÷ 360 × 600 = 180."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The correct base for a percentage change is",
+      "options": [
+        "the new value",
+        "the average",
+        "the old (earlier) value",
+        "the total"
+      ],
+      "answerIndex": 2,
+      "explanation": "Change is measured against where you started."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

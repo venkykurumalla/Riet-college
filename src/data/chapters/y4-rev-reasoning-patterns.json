@@ -1,0 +1,420 @@
+{
+  "id": "y4-rev-reasoning-patterns",
+  "yearId": 4,
+  "category": "Mock Test & Revision Preparation",
+  "topicNumber": 47,
+  "title": "Reasoning Pattern Quick Reference",
+  "tagline": "Year 4 — Standard patterns and one-line methods for series, coding, ranking, directions, relations, arrangements and logic",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Reasoning questions fall into a small number of recurring patterns. This sheet lists them with a one-line method each: series (differences, ratios, squares), coding (shifts and positions), ranking (left + right − 1), direction (coordinates), blood relations (draw a tree), seating (anchors and chains; circular arrangements fix one person), syllogisms (Venn test), clocks (5.5° per minute) and calendars (odd days). Revision means recognising the pattern within seconds and applying its method.",
+    "placementRelevance": "Pattern recognition is the quickest way to bank marks in the reasoning section.",
+    "realWorldContext": "Recognising a familiar structure shortens any analysis."
+  },
+  "learningObjectives": [
+    "Recognise the pattern of a question",
+    "Apply the one-line method",
+    "Recall the counting formulas for arrangements",
+    "Use the clock and calendar rules",
+    "Check with a quick sanity test"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "All earlier reasoning chapters"
+    ],
+    "quickRefresher": "Total = left rank + right rank − 1. Circular arrangements of n: (n − 1)!. Clock: relative speed 5.5° per minute."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Pattern: a recurring question structure.",
+      "Method: a standard way to solve a pattern.",
+      "Anchor: a clue that fixes a position.",
+      "Odd days: remainder of days ÷ 7.",
+      "Relative speed on a clock: 5.5° per minute."
+    ],
+    "theoreticalIntuition": "A reasoning question is a known shape in a new story.",
+    "visualOrMentalModel": "Name the shape, recall the method, apply, sanity-check."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Ranking",
+      "formula": "left + right − 1",
+      "description": "Row.",
+      "whenToUse": "Total.",
+      "simpleExample": "12 and 29 → 40"
+    },
+    {
+      "title": "Circular arrangements",
+      "formula": "(n − 1)!",
+      "description": "Round table.",
+      "whenToUse": "Counting.",
+      "simpleExample": "6 → 120"
+    },
+    {
+      "title": "Persons between",
+      "formula": "difference − 1",
+      "description": "Two in a row.",
+      "whenToUse": "Count.",
+      "simpleExample": "3 and 8 → 4"
+    },
+    {
+      "title": "Clock angle",
+      "formula": "|30h − 5.5m|",
+      "description": "Time.",
+      "whenToUse": "Angle.",
+      "simpleExample": "4:30 → 45°"
+    },
+    {
+      "title": "Calendar",
+      "formula": "days mod 7",
+      "description": "Date gaps.",
+      "whenToUse": "Weekday.",
+      "simpleExample": "18 → 4"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "In a row of 40, the 12th from the left is 29th from the right: 40 − 12 + 1.",
+      "Six people around a circular table can sit in 5! = 120 ways.",
+      "At 4:30 the hour hand is at 135° and the minute hand at 180°, so the angle is 45°; the formula gives |120 − 165| = 45°.",
+      "From a Monday, 18 days later is 18 mod 7 = 4 days ahead: Friday.",
+      "In a coding question, test a shift of +1, then +2, then position values."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Syllogism quick test",
+        "content": "Draw circles and try to break the conclusion; if you can, it does not follow."
+      },
+      {
+        "title": "Blood relations",
+        "content": "Draw a tree; use generation lines and sex symbols."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Ranking",
+      "description": "Total.",
+      "exampleSnippet": "40"
+    },
+    {
+      "typeName": "Arrangements",
+      "description": "Circular.",
+      "exampleSnippet": "120"
+    },
+    {
+      "typeName": "Clocks",
+      "description": "Angle.",
+      "exampleSnippet": "45°"
+    },
+    {
+      "typeName": "Calendars",
+      "description": "Weekday.",
+      "exampleSnippet": "Friday"
+    },
+    {
+      "typeName": "Coding",
+      "description": "Shift.",
+      "exampleSnippet": "+1"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rev-reasoning-patterns-1",
+      "title": "Ranking",
+      "question": "A student is 12th from the left in a row of 40. Rank from the right?",
+      "givenInfo": [
+        "12th, 40"
+      ],
+      "conceptOrFormula": "Total − left + 1.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Formula",
+          "explanation": "right = total − left + 1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "40 − 12 + 1 = 29."
+        }
+      ],
+      "finalAnswer": "29th",
+      "whyItWorks": "Subtract 1 once.",
+      "commonTrap": "Answering 28.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rev-reasoning-patterns-2",
+      "title": "Circular",
+      "question": "In how many ways can 6 people sit around a round table?",
+      "givenInfo": [
+        "n = 6"
+      ],
+      "conceptOrFormula": "(n − 1)!.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Fix one",
+          "explanation": "Fix one person."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Arrange",
+          "explanation": "5! = 120."
+        }
+      ],
+      "finalAnswer": "120",
+      "whyItWorks": "Rotations are the same.",
+      "commonTrap": "Answering 720.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rev-reasoning-patterns-3",
+      "title": "Clock",
+      "question": "Angle between the hands at 4:30?",
+      "givenInfo": [
+        "4:30"
+      ],
+      "conceptOrFormula": "|30h − 5.5m|.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Compute",
+          "explanation": "|120 − 165|."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Angle",
+          "explanation": "45°."
+        }
+      ],
+      "finalAnswer": "45°",
+      "whyItWorks": "Take the smaller angle.",
+      "commonTrap": "Taking 135°.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Name the shape",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Solve each from scratch.",
+      "shortcutMethod": "Recognise the pattern, recall its method, apply and sanity-check."
+    },
+    "rulesForApplication": [
+      "Left + right − 1.",
+      "(n − 1)! for rings.",
+      "5.5° per minute.",
+      "Mod 7 for days."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using n! for circular tables",
+      "whyItHappens": "Overcount.",
+      "howToAvoid": "Use (n − 1)!."
+    },
+    {
+      "mistake": "Off-by-one in ranks",
+      "whyItHappens": "Wrong total.",
+      "howToAvoid": "Subtract 1."
+    },
+    {
+      "mistake": "Choosing the reflex clock angle",
+      "whyItHappens": "Wrong angle.",
+      "howToAvoid": "Use the smaller one."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 40,
+    "eliminationTechnique": "Reject answers that break a basic constraint.",
+    "questionSelectionAdvice": "Practise each pattern for a week.",
+    "recruiterInsight": "Recognition beats calculation."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rev-reasoning-patterns-e1",
+        "question": "In a row of 40, a student is 12th from the left. From the right the rank is",
+        "options": [
+          "32",
+          "29",
+          "26",
+          "36"
+        ],
+        "correctAnswer": "29",
+        "explanation": "40 − 12 + 1 = 29.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-reasoning-patterns-e2",
+        "question": "The number of ways 6 people can sit around a round table is",
+        "options": [
+          "120",
+          "132",
+          "108",
+          "150"
+        ],
+        "correctAnswer": "120",
+        "explanation": "5! = 120.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-reasoning-patterns-e3",
+        "question": "What comes next: 3, 6, 12, 24, ?",
+        "options": [
+          "53",
+          "43",
+          "60",
+          "48"
+        ],
+        "correctAnswer": "48",
+        "explanation": "Each term doubles, so 24 × 2 = 48.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rev-reasoning-patterns-i7",
+        "question": "If the 5th of a month is a Monday, the 23rd is how many days ahead of Monday (mod 7)?",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "correctAnswer": "4",
+        "explanation": "18 mod 7 = 4, so Friday.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-reasoning-patterns-i8",
+        "question": "The number of people between the 3rd and the 8th in a row is",
+        "options": [
+          "5",
+          "3",
+          "6",
+          "4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "8 − 3 − 1 = 4.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-reasoning-patterns-i9",
+        "question": "The angle between the hands at 6:00 is (degrees)",
+        "options": [
+          "198",
+          "162",
+          "225",
+          "180"
+        ],
+        "correctAnswer": "180",
+        "explanation": "|180 − 0| = 180.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rev-reasoning-patterns-a15",
+        "question": "Pointing to a girl, Arjun says \"She is the daughter of my father's only son.\" The girl is Arjun's",
+        "options": [
+          "sister",
+          "niece",
+          "daughter",
+          "cousin"
+        ],
+        "correctAnswer": "daughter",
+        "explanation": "Arjun's father's only son is Arjun.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-reasoning-patterns-a16",
+        "question": "Six people sit around a table with two particular persons always together. The number of ways is",
+        "options": [
+          "53",
+          "48",
+          "43",
+          "60"
+        ],
+        "correctAnswer": "48",
+        "explanation": "(5 − 1)! × 2 = 48.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rev-reasoning-patterns-p17",
+        "question": "The angle between the hands at 9:20 is (degrees, one decimal)",
+        "options": [
+          "176",
+          "160",
+          "144",
+          "200"
+        ],
+        "correctAnswer": "160",
+        "explanation": "|270 − 110| = 160.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-reasoning-patterns-p18",
+        "question": "If 1 January is a Monday in a non-leap year, 1 March is how many days ahead (mod 7)?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "correctAnswer": "3",
+        "explanation": "31 + 28 = 59; 59 mod 7 = 3, so Thursday.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-reasoning-patterns-p19",
+        "question": "In a coding where A = 1, B = 2, …, the value of CAB is",
+        "options": [
+          "7",
+          "5",
+          "8",
+          "6"
+        ],
+        "correctAnswer": "6",
+        "explanation": "3 + 1 + 2 = 6.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Series.",
+      "Ranking.",
+      "Arrangements.",
+      "Clocks.",
+      "Calendars."
+    ],
+    "quickFormulas": [
+      "(n − 1)!",
+      "left + right − 1",
+      "|30h − 5.5m|"
+    ]
+  },
+  "keyTakeaways": [
+    "Name shape.",
+    "Method.",
+    "Sanity.",
+    "Practise."
+  ],
+  "selfCheckQuestions": [
+    "Can I name a pattern quickly?",
+    "Can I recall counting rules?",
+    "Can I use the clock rule?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Revision of standard topic areas; the tables, traps and examples in this chapter are original."
+    }
+  ]
+}

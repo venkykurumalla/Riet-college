@@ -1,0 +1,444 @@
+{
+  "id": "y4-rev-quant-formulas",
+  "yearId": 4,
+  "category": "Mock Test & Revision Preparation",
+  "topicNumber": 46,
+  "title": "Quantitative Formula Quick Reference",
+  "tagline": "Year 4 — The formulas that cover most aptitude questions, each with a one-line use and a worked check",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "This is a revision sheet in text form. Each entry gives the formula, when to use it and a small worked check so that you can verify that you remember it correctly. The set covers percentages, profit and loss, ratio, averages, interest, time and work, time and distance, mixtures, permutations and combinations, and geometry. The best use of a quick reference is to cover the right-hand side and reproduce it from memory.",
+    "placementRelevance": "The night before a test, a formula sheet you have already practised is the most efficient revision.",
+    "realWorldContext": "Reference sheets and checklists support accurate work in any technical job."
+  },
+  "learningObjectives": [
+    "Recall the core formulas from memory",
+    "Apply each with a one-line check",
+    "Choose the right formula for a question",
+    "Avoid mixing similar formulas",
+    "Test yourself by covering the answers"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "All earlier quantitative chapters"
+    ],
+    "quickRefresher": "Revision means retrieval: try to produce the formula before reading it."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Formula: a rule expressing a relation.",
+      "Check: a small example that confirms the formula.",
+      "Retrieval practice: recalling instead of rereading.",
+      "Similar formulas: ones that are easy to confuse.",
+      "Unit: what the answer measures."
+    ],
+    "theoreticalIntuition": "A formula is a compressed story; the check restores the story.",
+    "visualOrMentalModel": "Cover the formula, recall it, then uncover and compare."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Percent change",
+      "formula": "(new − old) ÷ old × 100",
+      "description": "Growth.",
+      "whenToUse": "Percentages.",
+      "simpleExample": "80 → 100 is 25%"
+    },
+    {
+      "title": "Profit %",
+      "formula": "(SP − CP) ÷ CP × 100",
+      "description": "Profit.",
+      "whenToUse": "Base is cost.",
+      "simpleExample": "120 on 100 is 20%"
+    },
+    {
+      "title": "Simple interest",
+      "formula": "P·r·t ÷ 100",
+      "description": "Interest.",
+      "whenToUse": "Loans.",
+      "simpleExample": "5,000 × 8 × 3/100"
+    },
+    {
+      "title": "Compound amount",
+      "formula": "P(1 + r/100)ⁿ",
+      "description": "Growth.",
+      "whenToUse": "Compound.",
+      "simpleExample": "10,000, 10%, 2 y"
+    },
+    {
+      "title": "Average speed (equal distances)",
+      "formula": "2ab/(a + b)",
+      "description": "Two speeds.",
+      "whenToUse": "Round trips.",
+      "simpleExample": "60, 40 → 48"
+    },
+    {
+      "title": "Work together",
+      "formula": "1/T = 1/a + 1/b",
+      "description": "Two workers.",
+      "whenToUse": "Work.",
+      "simpleExample": "12, 24 → 8"
+    },
+    {
+      "title": "Nᴾᵣ and Nᶜᵣ",
+      "formula": "n!/(n − r)!, n!/(r!(n − r)!)",
+      "description": "Counting.",
+      "whenToUse": "Arrangements.",
+      "simpleExample": "5P3 = 60"
+    },
+    {
+      "title": "Circle",
+      "formula": "Area πr², circumference 2πr",
+      "description": "Circles.",
+      "whenToUse": "Mensuration.",
+      "simpleExample": "r = 7"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Percent change: from 80 to 100 the change is 20; 20 ÷ 80 = 25%.",
+      "Compound amount: ₹10,000 at 10% for 2 years is 10,000 × 1.21 = ₹12,100.",
+      "Average speed over equal distances at 60 and 40 km/h is 2 × 60 × 40 ÷ 100 = 48 km/h.",
+      "Two workers taking 12 and 24 days finish together in 8 days.",
+      "Arrangements of 3 from 5: 5P3 = 5 × 4 × 3 = 60; selections 5C3 = 10."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Similar formulas",
+        "content": "Simple vs compound interest; permutations vs combinations; average speed vs average of speeds."
+      },
+      {
+        "title": "Units",
+        "content": "Check units: km/h vs m/s, years vs months."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Percent",
+      "description": "Change.",
+      "exampleSnippet": "25%"
+    },
+    {
+      "typeName": "Interest",
+      "description": "SI and CI.",
+      "exampleSnippet": "₹12,100"
+    },
+    {
+      "typeName": "Rates",
+      "description": "Speed and work.",
+      "exampleSnippet": "48 km/h"
+    },
+    {
+      "typeName": "Counting",
+      "description": "P and C.",
+      "exampleSnippet": "60, 10"
+    },
+    {
+      "typeName": "Geometry",
+      "description": "Circle.",
+      "exampleSnippet": "154"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rev-quant-formulas-1",
+      "title": "Percent change",
+      "question": "A price goes from 80 to 100. Percent change?",
+      "givenInfo": [
+        "80 → 100"
+      ],
+      "conceptOrFormula": "Change over old.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Change",
+          "explanation": "20."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "20 ÷ 80 = 25%."
+        }
+      ],
+      "finalAnswer": "25%",
+      "whyItWorks": "Old is the base.",
+      "commonTrap": "Dividing by 100.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rev-quant-formulas-2",
+      "title": "Compound",
+      "question": "₹10,000 at 10% for 2 years. Amount?",
+      "givenInfo": [
+        "10,000",
+        "10%",
+        "2"
+      ],
+      "conceptOrFormula": "P(1 + r/100)ⁿ.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Factor",
+          "explanation": "1.1² = 1.21."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Amount",
+          "explanation": "₹12,100."
+        }
+      ],
+      "finalAnswer": "₹12,100",
+      "whyItWorks": "Interest on interest.",
+      "commonTrap": "Using simple interest.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rev-quant-formulas-3",
+      "title": "Average speed",
+      "question": "Equal distances at 60 and 40 km/h. Average speed?",
+      "givenInfo": [
+        "60",
+        "40"
+      ],
+      "conceptOrFormula": "2ab/(a + b).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Numerator",
+          "explanation": "2 × 60 × 40 = 4,800."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide",
+          "explanation": "4,800 ÷ 100 = 48."
+        }
+      ],
+      "finalAnswer": "48 km/h",
+      "whyItWorks": "Not 50.",
+      "commonTrap": "Taking the mean.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Cover and recall",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reread the sheet.",
+      "shortcutMethod": "Cover the right side, recall each formula, and confirm with the small check."
+    },
+    "rulesForApplication": [
+      "Retrieve first.",
+      "Check units.",
+      "Separate look-alikes.",
+      "Test daily."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Rereading instead of recalling",
+      "whyItHappens": "Weak memory.",
+      "howToAvoid": "Retrieve."
+    },
+    {
+      "mistake": "Confusing SI and CI",
+      "whyItHappens": "Wrong value.",
+      "howToAvoid": "Compare formulas."
+    },
+    {
+      "mistake": "Ignoring units",
+      "whyItHappens": "Wrong answer.",
+      "howToAvoid": "Check units."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "A formula that gives an absurd size is wrong.",
+    "questionSelectionAdvice": "Write the sheet from memory weekly.",
+    "recruiterInsight": "Formulas are tools; checks are proof."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rev-quant-formulas-e1",
+        "question": "A price rises from 80 to 100. The percentage increase is",
+        "options": [
+          "28%",
+          "25%",
+          "23%",
+          "31%"
+        ],
+        "correctAnswer": "25%",
+        "explanation": "(100 − 80) ÷ 80 = 25%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-quant-formulas-e2",
+        "question": "The simple interest on ₹5,000 at 8% for 3 years is (₹)",
+        "options": [
+          "1200",
+          "1320",
+          "1080",
+          "1500"
+        ],
+        "correctAnswer": "1200",
+        "explanation": "5,000 × 8 × 3 ÷ 100 = 1,200.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-quant-formulas-e3",
+        "question": "The compound amount of ₹10,000 at 10% for 2 years is (₹)",
+        "options": [
+          "13310",
+          "10890",
+          "15125",
+          "12100"
+        ],
+        "correctAnswer": "12100",
+        "explanation": "10,000 × 1.21 = 12,100.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rev-quant-formulas-i7",
+        "question": "5C3 equals",
+        "options": [
+          "10",
+          "11",
+          "9",
+          "13"
+        ],
+        "correctAnswer": "10",
+        "explanation": "5!/(3! 2!) = 10.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-quant-formulas-i8",
+        "question": "The area of a circle of radius 7 cm (π = 22/7, cm²) is",
+        "options": [
+          "169",
+          "139",
+          "193",
+          "154"
+        ],
+        "correctAnswer": "154",
+        "explanation": "22/7 × 49 = 154.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-quant-formulas-i9",
+        "question": "A profit of ₹20 on a cost of ₹100 is a profit percentage of",
+        "options": [
+          "22%",
+          "18%",
+          "25%",
+          "20%"
+        ],
+        "correctAnswer": "20%",
+        "explanation": "20 ÷ 100 = 20%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rev-quant-formulas-a15",
+        "question": "The volume of a cylinder of radius 7 cm and height 10 cm (π = 22/7, cm³) is",
+        "options": [
+          "1694",
+          "1386",
+          "1540",
+          "1925"
+        ],
+        "correctAnswer": "1540",
+        "explanation": "22/7 × 49 × 10 = 1,540.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-quant-formulas-a16",
+        "question": "8C3 equals",
+        "options": [
+          "62",
+          "56",
+          "50",
+          "70"
+        ],
+        "correctAnswer": "56",
+        "explanation": "8 × 7 × 6 ÷ 6 = 56.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rev-quant-formulas-p17",
+        "question": "The number of arrangements of 6 people around a circular table is",
+        "options": [
+          "132",
+          "120",
+          "108",
+          "150"
+        ],
+        "correctAnswer": "120",
+        "explanation": "(6 − 1)! = 120.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-quant-formulas-p18",
+        "question": "Two numbers in the ratio 3 : 5 have a sum of 64. The larger is",
+        "options": [
+          "40",
+          "44",
+          "36",
+          "50"
+        ],
+        "correctAnswer": "40",
+        "explanation": "64 × 5 ÷ 8 = 40.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-quant-formulas-p19",
+        "question": "Successive discounts of 20% and 10% are equal to a single discount of (%)",
+        "options": [
+          "31%",
+          "25%",
+          "35%",
+          "28%"
+        ],
+        "correctAnswer": "28%",
+        "explanation": "20 + 10 − 2 = 28.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Percent.",
+      "Interest.",
+      "Rates.",
+      "Counting.",
+      "Geometry."
+    ],
+    "quickFormulas": [
+      "(new − old)/old",
+      "P(1 + r/100)ⁿ",
+      "2ab/(a + b)"
+    ]
+  },
+  "keyTakeaways": [
+    "Recall.",
+    "Check.",
+    "Units.",
+    "Look-alikes."
+  ],
+  "selfCheckQuestions": [
+    "Can I write the sheet from memory?",
+    "Can I separate SI and CI?",
+    "Can I check units?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Revision of standard topic areas; the tables, traps and examples in this chapter are original."
+    }
+  ]
+}

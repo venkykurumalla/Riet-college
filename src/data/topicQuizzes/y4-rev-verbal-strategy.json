@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-rev-verbal-strategy",
+  "topicTitle": "Verbal Strategy Quick Reference",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Each of the students ____ given a book.",
+      "options": [
+        "were",
+        "was",
+        "are",
+        "have been"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"Each\" is singular, so \"was\"."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "I prefer tea ____ coffee.",
+      "options": [
+        "to",
+        "than",
+        "from",
+        "over to"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Prefer\" takes \"to\"."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Hardly had he reached the station ____ the train left.",
+      "options": [
+        "than",
+        "then",
+        "while",
+        "when"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Hardly\" pairs with \"when\"."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "No sooner had the teacher entered ____ the students stood up.",
+      "options": [
+        "when",
+        "then",
+        "than",
+        "while"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"No sooner\" pairs with \"than\"."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Neither the teacher nor the students ____ aware of the change.",
+      "options": [
+        "was",
+        "is",
+        "were",
+        "has been"
+      ],
+      "answerIndex": 2,
+      "explanation": "The verb agrees with the nearer subject, \"students\"."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the correct comparison.",
+      "options": [
+        "He is more taller than I am.",
+        "He is taller than I am.",
+        "He is taller as I am.",
+        "He is tallest than I am."
+      ],
+      "answerIndex": 1,
+      "explanation": "A comparative takes \"than\"; \"more taller\" is a double comparative."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "She is good ____ mathematics.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "with"
+      ],
+      "answerIndex": 0,
+      "explanation": "The idiom is \"good at\"."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "He is fond ____ music.",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "of"
+      ],
+      "answerIndex": 3,
+      "explanation": "The idiom is \"fond of\"."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The committee consists ____ five members.",
+      "options": [
+        "from",
+        "in",
+        "with",
+        "of"
+      ],
+      "answerIndex": 3,
+      "explanation": "The idiom is \"consists of\"."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Despite ____ the rain, the match went on.",
+      "options": [
+        "of the",
+        "that",
+        "the",
+        "for"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Despite\" is followed directly by a noun phrase."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "He insisted ____ paying the bill.",
+      "options": [
+        "to",
+        "on",
+        "at",
+        "for"
+      ],
+      "answerIndex": 1,
+      "explanation": "The idiom is \"insisted on\"."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "He is senior ____ me by two years.",
+      "options": [
+        "to",
+        "than",
+        "from",
+        "over"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Senior\" takes \"to\"."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A word with a praising tone, such as \"magnanimous\", most likely means",
+      "options": [
+        "generous",
+        "mean",
+        "angry",
+        "lazy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tone narrows the meaning."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "In a jumble, the opener is the sentence that",
+      "options": [
+        "starts with a pronoun",
+        "starts with \"however\"",
+        "has the longest length",
+        "introduces the topic without referring back"
+      ],
+      "answerIndex": 3,
+      "explanation": "An opener has no back-reference."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The connector that best fills \"He was exhausted; ____, he continued working.\" is",
+      "options": [
+        "therefore",
+        "because",
+        "nevertheless",
+        "moreover"
+      ],
+      "answerIndex": 2,
+      "explanation": "Continuing despite exhaustion is a contrast."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The idiom \"to burn the midnight oil\" means",
+      "options": [
+        "to waste oil",
+        "to work late into the night",
+        "to cook at midnight",
+        "to sleep early"
+      ],
+      "answerIndex": 1,
+      "explanation": "It describes working late."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "In reading comprehension, an option that uses \"always\" or \"never\" when the passage hedges is most likely",
+      "options": [
+        "right",
+        "wrong",
+        "neutral",
+        "missing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Extreme words often overstate the passage."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The first thing to do with a long passage is to",
+      "options": [
+        "read for the structure: claim, support, turn, conclusion",
+        "memorise every sentence",
+        "skip to the options",
+        "read the last line only"
+      ],
+      "answerIndex": 0,
+      "explanation": "Structure answers most questions."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A sentence where a list reads \"swimming, to cycle and going for walks\" has a problem with",
+      "options": [
+        "agreement",
+        "prepositions",
+        "spelling",
+        "parallel structure"
+      ],
+      "answerIndex": 3,
+      "explanation": "The items should share a form: swimming, cycling and going."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "In \"Walking down the street, a dog barked at me\", the error is a",
+      "options": [
+        "wrong tense",
+        "missing article",
+        "dangling modifier",
+        "double comparative"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Walking\" should be attached to the person walking."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

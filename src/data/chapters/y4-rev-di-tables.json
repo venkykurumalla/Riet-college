@@ -1,0 +1,441 @@
+{
+  "id": "y4-rev-di-tables",
+  "yearId": 4,
+  "category": "Mock Test & Revision Preparation",
+  "topicNumber": 49,
+  "title": "DI Formula and Approach Tables",
+  "tagline": "Year 4 — A one-page table of the formulas and approaches for tables, bar, line, pie and caselet data interpretation",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Data interpretation uses a small set of calculations again and again: percentage change, share of total, ratio, average, weighted average, CAGR, and the rule that a percentage must use the right base. This table pairs each calculation with its formula and the typical trap, and then gives an approach for each chart type: write the numbers, add derived columns, and use approximation when options are well separated.",
+    "placementRelevance": "A quick DI sheet saves time because you stop deriving the same formula in each set.",
+    "realWorldContext": "Business reporting uses the same small set of calculations."
+  },
+  "learningObjectives": [
+    "Recall the core DI formulas",
+    "State the typical trap for each",
+    "Choose an approach for each chart type",
+    "Decide when to approximate",
+    "Check bases and units"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "All earlier DI chapters"
+    ],
+    "quickRefresher": "Percent change = change ÷ old. Share = part ÷ whole. Weighted average = total ÷ total weight."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Base: the quantity a percentage refers to.",
+      "Weighted average: total ÷ total weight.",
+      "CAGR: constant yearly growth rate.",
+      "Percentage point: difference between two percentages.",
+      "Derived column: a column you compute."
+    ],
+    "theoreticalIntuition": "Most DI is the same eight calculations in different clothing.",
+    "visualOrMentalModel": "Write the numbers, name the calculation, check the base."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Percent change",
+      "formula": "(new − old) ÷ old",
+      "description": "Growth.",
+      "whenToUse": "Base is old.",
+      "simpleExample": "100 → 125 is 25%"
+    },
+    {
+      "title": "Share",
+      "formula": "Part ÷ total",
+      "description": "Pie.",
+      "whenToUse": "Base is total.",
+      "simpleExample": "30 of 120"
+    },
+    {
+      "title": "Ratio",
+      "formula": "Simplify by HCF",
+      "description": "Comparison.",
+      "whenToUse": "Order matters.",
+      "simpleExample": "30 : 20"
+    },
+    {
+      "title": "Average",
+      "formula": "Total ÷ count",
+      "description": "Mean.",
+      "whenToUse": "Count terms.",
+      "simpleExample": "(10 + 20 + 30)/3"
+    },
+    {
+      "title": "Weighted average",
+      "formula": "Σ(value × weight) ÷ Σ weight",
+      "description": "Mixed groups.",
+      "whenToUse": "Not simple mean.",
+      "simpleExample": "60 and 40"
+    },
+    {
+      "title": "CAGR",
+      "formula": "(end/start)^(1/n) − 1",
+      "description": "Growth over n years.",
+      "whenToUse": "Not total ÷ n.",
+      "simpleExample": "1.331^(1/3)"
+    },
+    {
+      "title": "Percentage points",
+      "formula": "Difference of two percentages",
+      "description": "Share changes.",
+      "whenToUse": "Not percent change.",
+      "simpleExample": "30% → 35%"
+    },
+    {
+      "title": "Approximation",
+      "formula": "Round to two figures",
+      "description": "Wide options.",
+      "whenToUse": "Check spacing.",
+      "simpleExample": "4,180 → 4,200"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Percent change from 100 to 125 is 25 ÷ 100 = 25%; the reverse change from 125 to 100 is 25 ÷ 125 = 20%.",
+      "A share rising from 30% to 35% is 5 percentage points, or about 16.7% in percentage terms.",
+      "A weighted average of marks 60 (30 students) and 40 (20 students) is (1,800 + 800) ÷ 50 = 52, not 50.",
+      "CAGR from 1,000 to 1,331 in 3 years is 10%: 1.331^(1/3) = 1.1.",
+      "For each chart type: write the numbers in a table, add derived columns, answer from the table."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Pie charts",
+        "content": "Shares must sum to 100%; angles are share × 3.6°."
+      },
+      {
+        "title": "Line charts",
+        "content": "Read the slope: steeper means faster change."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Growth",
+      "description": "Percent change.",
+      "exampleSnippet": "25%"
+    },
+    {
+      "typeName": "Shares",
+      "description": "Part/whole.",
+      "exampleSnippet": "25%"
+    },
+    {
+      "typeName": "Weighted mean",
+      "description": "Totals.",
+      "exampleSnippet": "52"
+    },
+    {
+      "typeName": "CAGR",
+      "description": "Compound.",
+      "exampleSnippet": "10%"
+    },
+    {
+      "typeName": "Points vs percent",
+      "description": "Care.",
+      "exampleSnippet": "5 vs 16.7"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rev-di-tables-1",
+      "title": "Percent change",
+      "question": "A value goes from 100 to 125. Percent increase? And the reverse change from 125 to 100?",
+      "givenInfo": [
+        "100, 125"
+      ],
+      "conceptOrFormula": "Use the old value as base.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Increase",
+          "explanation": "25 ÷ 100 = 25%."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Decrease",
+          "explanation": "25 ÷ 125 = 20%."
+        }
+      ],
+      "finalAnswer": "25% up, 20% down",
+      "whyItWorks": "The bases differ.",
+      "commonTrap": "Saying 25% both ways.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rev-di-tables-2",
+      "title": "Weighted average",
+      "question": "Marks 60 for 30 students and 40 for 20 students. Average?",
+      "givenInfo": [
+        "60, 30",
+        "40, 20"
+      ],
+      "conceptOrFormula": "Total ÷ total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Totals",
+          "explanation": "1,800 + 800 = 2,600."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Average",
+          "explanation": "2,600 ÷ 50 = 52."
+        }
+      ],
+      "finalAnswer": "52",
+      "whyItWorks": "Not 50.",
+      "commonTrap": "Taking the simple mean.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rev-di-tables-3",
+      "title": "Points vs percent",
+      "question": "A share rises from 30% to 35%. Percentage points and percent change?",
+      "givenInfo": [
+        "30%, 35%"
+      ],
+      "conceptOrFormula": "Two measures.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Points",
+          "explanation": "35 − 30 = 5."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "5 ÷ 30 = 16.7%."
+        }
+      ],
+      "finalAnswer": "5 points; 16.7%",
+      "whyItWorks": "Different measures.",
+      "commonTrap": "Mixing them.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Table, base, check",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Derive each time.",
+      "shortcutMethod": "Name the calculation, check the base, add derived columns, approximate when options are wide."
+    },
+    "rulesForApplication": [
+      "Old is the base.",
+      "Weighted means.",
+      "Points vs percent.",
+      "Check units."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Wrong base",
+      "whyItHappens": "Wrong percent.",
+      "howToAvoid": "Name the base."
+    },
+    {
+      "mistake": "Averaging percentages",
+      "whyItHappens": "Wrong mean.",
+      "howToAvoid": "Weighted."
+    },
+    {
+      "mistake": "Mixing points and percent",
+      "whyItHappens": "Wrong measure.",
+      "howToAvoid": "Read the question."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "Reject options that break a simple bound.",
+    "questionSelectionAdvice": "Write the sheet weekly.",
+    "recruiterInsight": "Eight calculations cover most DI."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rev-di-tables-e1",
+        "question": "A value rises from 100 to 125. The percentage increase is",
+        "options": [
+          "28%",
+          "25%",
+          "23%",
+          "31%"
+        ],
+        "correctAnswer": "25%",
+        "explanation": "25 ÷ 100 = 25%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-di-tables-e2",
+        "question": "A value falls from 125 to 100. The percentage decrease is",
+        "options": [
+          "20%",
+          "22%",
+          "18%",
+          "25%"
+        ],
+        "correctAnswer": "20%",
+        "explanation": "25 ÷ 125 = 20%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-di-tables-e3",
+        "question": "30 out of 120 is what percentage?",
+        "options": [
+          "28%",
+          "23%",
+          "31%",
+          "25%"
+        ],
+        "correctAnswer": "25%",
+        "explanation": "30 ÷ 120 = 25%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rev-di-tables-i7",
+        "question": "The same share rise (30% → 35%) is what percentage change (one decimal)?",
+        "options": [
+          "16.7%",
+          "18.4%",
+          "15%",
+          "20.9%"
+        ],
+        "correctAnswer": "16.7%",
+        "explanation": "5 ÷ 30 = 16.7%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-di-tables-i8",
+        "question": "Marks 60 for 30 students and 40 for 20 students give an average of",
+        "options": [
+          "57",
+          "47",
+          "65",
+          "52"
+        ],
+        "correctAnswer": "52",
+        "explanation": "2,600 ÷ 50 = 52.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-di-tables-i9",
+        "question": "The CAGR for 1,000 growing to 1,331 in 3 years is (%)",
+        "options": [
+          "11%",
+          "9%",
+          "13%",
+          "10%"
+        ],
+        "correctAnswer": "10%",
+        "explanation": "1.331 = 1.1³.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rev-di-tables-a15",
+        "question": "A price rises 20% and then falls 20%. The net change is (%)",
+        "options": [
+          "-5",
+          "-3",
+          "-4",
+          "-6"
+        ],
+        "correctAnswer": "-4",
+        "explanation": "1.2 × 0.8 = 0.96, a 4% fall.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-di-tables-a16",
+        "question": "The weighted average of 80 (weight 3) and 50 (weight 2) is",
+        "options": [
+          "75",
+          "68",
+          "61",
+          "85"
+        ],
+        "correctAnswer": "68",
+        "explanation": "(240 + 100) ÷ 5 = 68.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rev-di-tables-p17",
+        "question": "If total sales are 1,000 and a category has a 24% share, its sales are",
+        "options": [
+          "264",
+          "240",
+          "216",
+          "300"
+        ],
+        "correctAnswer": "240",
+        "explanation": "0.24 × 1,000 = 240.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-di-tables-p18",
+        "question": "If a series has year-on-year rates of 10% and 20%, the combined two-year growth is (%)",
+        "options": [
+          "32%",
+          "35%",
+          "29%",
+          "40%"
+        ],
+        "correctAnswer": "32%",
+        "explanation": "1.1 × 1.2 = 1.32.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-di-tables-p19",
+        "question": "A sector of 108 degrees in a pie of total 600 represents",
+        "options": [
+          "198",
+          "162",
+          "225",
+          "180"
+        ],
+        "correctAnswer": "180",
+        "explanation": "108 ÷ 360 × 600 = 180.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Percent change.",
+      "Share.",
+      "Weighted mean.",
+      "CAGR.",
+      "Points."
+    ],
+    "quickFormulas": [
+      "(new − old)/old",
+      "(end/start)^(1/n) − 1"
+    ]
+  },
+  "keyTakeaways": [
+    "Base.",
+    "Weights.",
+    "Points.",
+    "Approximate."
+  ],
+  "selfCheckQuestions": [
+    "Can I state the base?",
+    "Can I weight an average?",
+    "Can I tell points from percent?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Revision of standard topic areas; the tables, traps and examples in this chapter are original."
+    }
+  ]
+}

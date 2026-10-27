@@ -1,0 +1,418 @@
+{
+  "id": "y4-rev-verbal-strategy",
+  "yearId": 4,
+  "category": "Mock Test & Revision Preparation",
+  "topicNumber": 48,
+  "title": "Verbal Strategy Quick Reference",
+  "tagline": "Year 4 — One-page rules for grammar, vocabulary, jumbles, connectors and reading comprehension",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "This quick reference gathers the rules that decide most verbal items. Grammar: subject-verb agreement (each, every, neither take singular verbs), tense consistency, parallel structure, prepositions with fixed words, pronoun case. Vocabulary: context clues, tone and roots. Jumbles: opener, links, closer. Connectors: contrast, cause, result, condition. Reading comprehension: structure first, then lines. Use it as a retrieval exercise: cover each rule and recall it.",
+    "placementRelevance": "Verbal sections reward knowing a small set of rules well.",
+    "realWorldContext": "Clear, correct writing depends on the same rules."
+  },
+  "learningObjectives": [
+    "Recall core grammar rules",
+    "Apply context-clue methods",
+    "Order jumbles with openers and links",
+    "Choose connectors by relation",
+    "Answer RC questions from structure"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "All earlier verbal chapters"
+    ],
+    "quickRefresher": "Rules beat feelings: apply a rule, then check how it sounds."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Agreement: verb matches the subject in number.",
+      "Parallelism: items in a list share a form.",
+      "Context clue: a hint in the sentence.",
+      "Opener: a sentence that starts a paragraph.",
+      "Connector: a word showing a relation between ideas."
+    ],
+    "theoreticalIntuition": "A few rules explain the majority of errors.",
+    "visualOrMentalModel": "Identify the item type, recall its rule, apply it."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Agreement",
+      "formula": "Each/every/neither + singular",
+      "description": "Subjects.",
+      "whenToUse": "Grammar.",
+      "simpleExample": "Each of the boys has"
+    },
+    {
+      "title": "Nearest subject",
+      "formula": "Neither… nor: nearer subject",
+      "description": "Pairs.",
+      "whenToUse": "Grammar.",
+      "simpleExample": "were"
+    },
+    {
+      "title": "Comparatives",
+      "formula": "Never \"more taller\"",
+      "description": "Adjectives.",
+      "whenToUse": "Grammar.",
+      "simpleExample": "taller"
+    },
+    {
+      "title": "Fixed prepositions",
+      "formula": "good at, fond of, prefer to",
+      "description": "Phrases.",
+      "whenToUse": "Idiom.",
+      "simpleExample": "prefer tea to coffee"
+    },
+    {
+      "title": "Hardly/no sooner",
+      "formula": "hardly… when; no sooner… than",
+      "description": "Pairs.",
+      "whenToUse": "Idiom.",
+      "simpleExample": "hardly had he… when"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "\"Each of the students was given a book\": each is singular.",
+      "\"Neither the teacher nor the students were aware\": the verb agrees with the nearer subject.",
+      "\"He is taller than I am\": a comparison needs the full clause.",
+      "\"I prefer tea to coffee\": prefer takes to.",
+      "\"Hardly had he reached the station when the train left\": hardly takes when."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Tone in vocabulary",
+        "content": "A praising sentence rules out negative meanings."
+      },
+      {
+        "title": "RC order of work",
+        "content": "Read for structure, then answer detail and vocabulary questions first."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Agreement",
+      "description": "Singular words.",
+      "exampleSnippet": "Each"
+    },
+    {
+      "typeName": "Nearer subject",
+      "description": "Pairs.",
+      "exampleSnippet": "Neither… nor"
+    },
+    {
+      "typeName": "Comparatives",
+      "description": "No double.",
+      "exampleSnippet": "Taller"
+    },
+    {
+      "typeName": "Prepositions",
+      "description": "Fixed pairs.",
+      "exampleSnippet": "Prefer to"
+    },
+    {
+      "typeName": "Correlatives",
+      "description": "Pairs.",
+      "exampleSnippet": "Hardly… when"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rev-verbal-strategy-1",
+      "title": "Agreement",
+      "question": "Each of the students ____ given a book.",
+      "givenInfo": [
+        "Each of"
+      ],
+      "conceptOrFormula": "Singular.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rule",
+          "explanation": "\"Each\" is singular."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Verb",
+          "explanation": "was."
+        }
+      ],
+      "finalAnswer": "was",
+      "whyItWorks": "Not were.",
+      "commonTrap": "Choosing were.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rev-verbal-strategy-2",
+      "title": "Preposition",
+      "question": "I prefer tea ____ coffee.",
+      "givenInfo": [
+        "prefer"
+      ],
+      "conceptOrFormula": "Fixed pair.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rule",
+          "explanation": "\"prefer\" takes \"to\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose",
+          "explanation": "to."
+        }
+      ],
+      "finalAnswer": "to",
+      "whyItWorks": "Not than.",
+      "commonTrap": "Choosing than.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rev-verbal-strategy-3",
+      "title": "Correlative",
+      "question": "Hardly had he reached the station ____ the train left.",
+      "givenInfo": [
+        "hardly"
+      ],
+      "conceptOrFormula": "Correlative pair.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rule",
+          "explanation": "\"hardly\" pairs with \"when\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose",
+          "explanation": "when."
+        }
+      ],
+      "finalAnswer": "when",
+      "whyItWorks": "No sooner takes than.",
+      "commonTrap": "Choosing than.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Rule then check",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Pick by ear.",
+      "shortcutMethod": "Name the item type, recall its rule, apply it, then read the result aloud."
+    },
+    "rulesForApplication": [
+      "Singular each/every.",
+      "Nearer subject.",
+      "Prefer to.",
+      "Hardly when."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing by ear",
+      "whyItHappens": "Familiar errors.",
+      "howToAvoid": "Apply the rule."
+    },
+    {
+      "mistake": "Ignoring tone",
+      "whyItHappens": "Wrong meaning.",
+      "howToAvoid": "Check positive/negative."
+    },
+    {
+      "mistake": "Starting with the longest passage",
+      "whyItHappens": "Time lost.",
+      "howToAvoid": "Quick items first."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Eliminate options that break a rule.",
+    "questionSelectionAdvice": "Write the rules from memory weekly.",
+    "recruiterInsight": "The same ten rules decide most errors."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rev-verbal-strategy-e1",
+        "question": "Each of the students ____ given a book.",
+        "options": [
+          "were",
+          "was",
+          "are",
+          "have been"
+        ],
+        "correctAnswer": "was",
+        "explanation": "\"Each\" is singular, so \"was\".",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-verbal-strategy-e2",
+        "question": "I prefer tea ____ coffee.",
+        "options": [
+          "to",
+          "than",
+          "from",
+          "over to"
+        ],
+        "correctAnswer": "to",
+        "explanation": "\"Prefer\" takes \"to\".",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-verbal-strategy-e3",
+        "question": "Hardly had he reached the station ____ the train left.",
+        "options": [
+          "than",
+          "then",
+          "while",
+          "when"
+        ],
+        "correctAnswer": "when",
+        "explanation": "\"Hardly\" pairs with \"when\".",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rev-verbal-strategy-i7",
+        "question": "She is good ____ mathematics.",
+        "options": [
+          "at",
+          "in",
+          "on",
+          "with"
+        ],
+        "correctAnswer": "at",
+        "explanation": "The idiom is \"good at\".",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-verbal-strategy-i8",
+        "question": "He is fond ____ music.",
+        "options": [
+          "for",
+          "to",
+          "at",
+          "of"
+        ],
+        "correctAnswer": "of",
+        "explanation": "The idiom is \"fond of\".",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-verbal-strategy-i9",
+        "question": "The committee consists ____ five members.",
+        "options": [
+          "from",
+          "in",
+          "with",
+          "of"
+        ],
+        "correctAnswer": "of",
+        "explanation": "The idiom is \"consists of\".",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rev-verbal-strategy-a15",
+        "question": "The connector that best fills \"He was exhausted; ____, he continued working.\" is",
+        "options": [
+          "therefore",
+          "because",
+          "nevertheless",
+          "moreover"
+        ],
+        "correctAnswer": "nevertheless",
+        "explanation": "Continuing despite exhaustion is a contrast.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-verbal-strategy-a16",
+        "question": "The idiom \"to burn the midnight oil\" means",
+        "options": [
+          "to waste oil",
+          "to work late into the night",
+          "to cook at midnight",
+          "to sleep early"
+        ],
+        "correctAnswer": "to work late into the night",
+        "explanation": "It describes working late.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rev-verbal-strategy-p17",
+        "question": "In reading comprehension, an option that uses \"always\" or \"never\" when the passage hedges is most likely",
+        "options": [
+          "right",
+          "wrong",
+          "neutral",
+          "missing"
+        ],
+        "correctAnswer": "wrong",
+        "explanation": "Extreme words often overstate the passage.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-verbal-strategy-p18",
+        "question": "The first thing to do with a long passage is to",
+        "options": [
+          "read for the structure: claim, support, turn, conclusion",
+          "memorise every sentence",
+          "skip to the options",
+          "read the last line only"
+        ],
+        "correctAnswer": "read for the structure: claim, support, turn, conclusion",
+        "explanation": "Structure answers most questions.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-verbal-strategy-p19",
+        "question": "A sentence where a list reads \"swimming, to cycle and going for walks\" has a problem with",
+        "options": [
+          "agreement",
+          "prepositions",
+          "spelling",
+          "parallel structure"
+        ],
+        "correctAnswer": "parallel structure",
+        "explanation": "The items should share a form: swimming, cycling and going.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Agreement.",
+      "Prepositions.",
+      "Correlatives.",
+      "Tone.",
+      "Structure."
+    ],
+    "quickFormulas": [
+      "hardly… when; no sooner… than"
+    ]
+  },
+  "keyTakeaways": [
+    "Rule.",
+    "Apply.",
+    "Check.",
+    "Quick first."
+  ],
+  "selfCheckQuestions": [
+    "Can I recall ten rules?",
+    "Can I apply them quickly?",
+    "Can I order my verbal work?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Revision of standard topic areas; the tables, traps and examples in this chapter are original."
+    }
+  ]
+}
