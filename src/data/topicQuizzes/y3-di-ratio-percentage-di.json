@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-di-ratio-percentage-di",
+  "topicTitle": "Combined Ratio and Percentage DI",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nHow many boys are in Class I?",
+      "options": [
+        "198",
+        "180",
+        "162",
+        "225"
+      ],
+      "answerIndex": 1,
+      "explanation": "300 × 3/5 = 180. The answer is 180."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nHow many girls are in Class II?",
+      "options": [
+        "150",
+        "165",
+        "135",
+        "188"
+      ],
+      "answerIndex": 0,
+      "explanation": "400 × 3/8 = 150. The answer is 150."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nHow many girls are in Class III?",
+      "options": [
+        "165",
+        "135",
+        "188",
+        "150"
+      ],
+      "answerIndex": 3,
+      "explanation": "350 × 3/7 = 150. The answer is 150."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nHow many boys are in Class IV?",
+      "options": [
+        "308",
+        "252",
+        "280",
+        "350"
+      ],
+      "answerIndex": 2,
+      "explanation": "480 × 7/12 = 280. The answer is 280."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nHow many boys are in Class V?",
+      "options": [
+        "275",
+        "225",
+        "250",
+        "313"
+      ],
+      "answerIndex": 2,
+      "explanation": "500 × 1/2 = 250. The answer is 250."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the total number of students in all five classes?",
+      "options": [
+        "2233",
+        "2030",
+        "1827",
+        "2538"
+      ],
+      "answerIndex": 1,
+      "explanation": "300 + 400 + 350 + 480 + 500 = 2,030. The answer is 2030."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the total number of boys in the school?",
+      "options": [
+        "1160",
+        "1276",
+        "1044",
+        "1450"
+      ],
+      "answerIndex": 0,
+      "explanation": "180 + 250 + 200 + 280 + 250 = 1,160. The answer is 1160."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the total number of girls in the school?",
+      "options": [
+        "957",
+        "783",
+        "1088",
+        "870"
+      ],
+      "answerIndex": 3,
+      "explanation": "120 + 150 + 150 + 200 + 250 = 870. The answer is 870."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the ratio of boys to girls in the whole school?",
+      "options": [
+        "3 : 4",
+        "387 : 290",
+        "145 : 109",
+        "4 : 3"
+      ],
+      "answerIndex": 3,
+      "explanation": "Boys = 1,160 and girls = 870; the HCF is 290. The ratio is 4 : 3."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat percentage of Class III students are girls (to one decimal place)?",
+      "options": [
+        "47.2%",
+        "38.6%",
+        "42.9%",
+        "53.6%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Girls in III = 150 out of 350: 150 ÷ 350 = 42.9%. The answer is 42.9%."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhich class has the largest number of boys?",
+      "options": [
+        "I",
+        "IV",
+        "II",
+        "III"
+      ],
+      "answerIndex": 1,
+      "explanation": "Boys per class: I 180, II 250, III 200, IV 280, V 250. The largest is Class IV. Answer: IV."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nBy how many does the number of boys exceed the number of girls in Class IV?",
+      "options": [
+        "80",
+        "88",
+        "72",
+        "100"
+      ],
+      "answerIndex": 0,
+      "explanation": "280 − 200 = 80. The answer is 80."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the ratio of girls in Class II to girls in Class IV?",
+      "options": [
+        "3 : 4",
+        "4 : 3",
+        "151 : 200",
+        "75 : 101"
+      ],
+      "answerIndex": 0,
+      "explanation": "Girls in II = 150 and in IV = 200; the HCF is 50. The ratio is 3 : 4."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat percentage of all students in the school are boys (to one decimal place)?",
+      "options": [
+        "62.8%",
+        "51.4%",
+        "71.4%",
+        "57.1%"
+      ],
+      "answerIndex": 3,
+      "explanation": "1,160 out of 2,030: 1,160 ÷ 2,030 = 57.1%. The answer is 57.1%."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nBy what percentage is the number of boys in Class IV more than the number of boys in Class I (to one decimal place)?",
+      "options": [
+        "61.2%",
+        "50%",
+        "55.6%",
+        "69.5%"
+      ],
+      "answerIndex": 2,
+      "explanation": "(280 − 180) ÷ 180 = 55.6%. The answer is 55.6%."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nIn which class is the percentage of girls the highest?",
+      "options": [
+        "I",
+        "V",
+        "II",
+        "III"
+      ],
+      "answerIndex": 1,
+      "explanation": "Percentage of girls: I 40%, II 37.5%, III 42.9%, IV 41.7%, V 50%. The highest is Class V. Answer: V."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nIf 20 more girls join Class I, what is the new ratio of boys to girls in Class I?",
+      "options": [
+        "7 : 9",
+        "9 : 7",
+        "181 : 140",
+        "90 : 71"
+      ],
+      "answerIndex": 1,
+      "explanation": "If 20 girls join Class I there are 180 boys and 140 girls; the HCF is 20. The ratio is 9 : 7."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the average number of boys per class?",
+      "options": [
+        "232",
+        "255",
+        "209",
+        "290"
+      ],
+      "answerIndex": 0,
+      "explanation": "Total boys 1,160 ÷ 5 = 232. The answer is 232."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the ratio of the total boys in Classes I and II to the total girls in Classes III and IV?",
+      "options": [
+        "35 : 43",
+        "431 : 350",
+        "215 : 176",
+        "43 : 35"
+      ],
+      "answerIndex": 3,
+      "explanation": "Boys in I and II = 180 + 250 = 430; girls in III and IV = 150 + 200 = 350; the HCF is 10. The ratio is 43 : 35."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nThe number of students in Class V is what percentage more than in Class I (to one decimal place)?",
+      "options": [
+        "73.4%",
+        "60%",
+        "66.7%",
+        "83.4%"
+      ],
+      "answerIndex": 2,
+      "explanation": "(500 − 300) ÷ 300 = 66.7%. The answer is 66.7%."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/"
+}

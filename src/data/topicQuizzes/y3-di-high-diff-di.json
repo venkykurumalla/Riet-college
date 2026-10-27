@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-di-high-diff-di",
+  "topicTitle": "High-Difficulty DI — Multi-Step Computation",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the gross profit of Alfa (₹ lakh)?",
+      "options": [
+        "440",
+        "400",
+        "360",
+        "500"
+      ],
+      "answerIndex": 1,
+      "explanation": "Alfa's COGS is 50% of 800, so gross profit = 800 − 400 = 400. The answer is 400."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the gross profit of Beta (₹ lakh)?",
+      "options": [
+        "240",
+        "264",
+        "216",
+        "300"
+      ],
+      "answerIndex": 0,
+      "explanation": "Beta's COGS is 60% of 600 = 360, so gross profit = 240. The answer is 240."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat are the operating expenses of Gamma (₹ lakh)?",
+      "options": [
+        "165",
+        "135",
+        "188",
+        "150"
+      ],
+      "answerIndex": 3,
+      "explanation": "15% of 1,000 = 150. The answer is 150."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the profit before tax (PBT) of Alfa (₹ lakh)?",
+      "options": [
+        "352",
+        "288",
+        "320",
+        "400"
+      ],
+      "answerIndex": 2,
+      "explanation": "Gross profit 400 minus operating expenses 80 = 320. The answer is 320."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the profit before tax (PBT) of Delta (₹ lakh)?",
+      "options": [
+        "110",
+        "90",
+        "100",
+        "125"
+      ],
+      "answerIndex": 2,
+      "explanation": "Gross profit 150 minus operating expenses 50 = 100. The answer is 100."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the tax paid by Alfa (₹ lakh)?",
+      "options": [
+        "106",
+        "96",
+        "86",
+        "120"
+      ],
+      "answerIndex": 1,
+      "explanation": "30% of 320 = 96. The answer is 96."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the net profit of Alfa (₹ lakh)?",
+      "options": [
+        "224",
+        "246",
+        "202",
+        "280"
+      ],
+      "answerIndex": 0,
+      "explanation": "PBT 320 minus tax 96 = 224. The answer is 224."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the net profit of Beta (₹ lakh)?",
+      "options": [
+        "173.3",
+        "141.8",
+        "196.9",
+        "157.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "PBT = 240 − 30 = 210; tax 25% = 52.5; net = 157.5. The answer is 157.5."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the net profit of Gamma (₹ lakh)?",
+      "options": [
+        "396",
+        "324",
+        "450",
+        "360"
+      ],
+      "answerIndex": 3,
+      "explanation": "PBT = 600 − 150 = 450; tax 20% = 90; net = 360. The answer is 360."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the net profit of Delta (₹ lakh)?",
+      "options": [
+        "77",
+        "63",
+        "70",
+        "88"
+      ],
+      "answerIndex": 2,
+      "explanation": "PBT = 150 − 50 = 100; tax 30% = 30; net = 70. The answer is 70."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhich company has the highest net profit?",
+      "options": [
+        "Alfa",
+        "Gamma",
+        "Beta",
+        "Delta"
+      ],
+      "answerIndex": 1,
+      "explanation": "Net profits are Alfa 224, Beta 157.5, Gamma 360 and Delta 70, so Gamma is highest. Answer: Gamma."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the net profit margin of Alfa (net profit as a percentage of sales)?",
+      "options": [
+        "28%",
+        "30.8%",
+        "25.2%",
+        "35%"
+      ],
+      "answerIndex": 0,
+      "explanation": "224 ÷ 800 = 28%. The answer is 28%."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the net profit margin of Delta?",
+      "options": [
+        "14%",
+        "15.4%",
+        "12.6%",
+        "17.5%"
+      ],
+      "answerIndex": 0,
+      "explanation": "70 ÷ 500 = 14%. The answer is 14%."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the total sales of the four companies (₹ lakh)?",
+      "options": [
+        "3190",
+        "2610",
+        "3625",
+        "2900"
+      ],
+      "answerIndex": 3,
+      "explanation": "800 + 600 + 1,000 + 500 = 2,900. The answer is 2900."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the total net profit of the four companies (₹ lakh)?",
+      "options": [
+        "892.7",
+        "730.4",
+        "811.5",
+        "1014.4"
+      ],
+      "answerIndex": 2,
+      "explanation": "224 + 157.5 + 360 + 70 = 811.5. The answer is 811.5."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the combined net profit margin of the four companies (to one decimal)?",
+      "options": [
+        "30.8%",
+        "28%",
+        "25.2%",
+        "35%"
+      ],
+      "answerIndex": 1,
+      "explanation": "811.5 ÷ 2,900 = 28%. The answer is 28%."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhich company has the highest net profit margin?",
+      "options": [
+        "Alfa",
+        "Gamma",
+        "Beta",
+        "Delta"
+      ],
+      "answerIndex": 1,
+      "explanation": "Net margins: Alfa 28%, Beta 26.25%, Gamma 36%, Delta 14%. The highest is Gamma. Answer: Gamma."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nWhat is the ratio of the net profit of Alfa to that of Delta?",
+      "options": [
+        "16 : 5",
+        "5 : 16",
+        "45 : 14",
+        "28 : 9"
+      ],
+      "answerIndex": 0,
+      "explanation": "Net profits of Alfa and Delta are 224 and 70; the HCF is 14. The ratio is 16 : 5."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nIf Beta's tax rate were 20% instead of 25%, what would be its net profit (₹ lakh)?",
+      "options": [
+        "185",
+        "151",
+        "210",
+        "168"
+      ],
+      "answerIndex": 3,
+      "explanation": "Net = PBT × 80% = 210 × 0.8 = 168. The answer is 168."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Financial data of four companies (sales in ₹ lakh)\n\nCompany | Sales | COGS (% of sales) | Operating expenses (% of sales) | Tax (% of profit before tax)\nAlfa | 800 | 50% | 10% | 30%\nBeta | 600 | 60% | 5% | 25%\nGamma | 1000 | 40% | 15% | 20%\nDelta | 500 | 70% | 10% | 30%\n\nTotal tax paid by all four companies is what percentage of their total PBT (to one decimal)?",
+      "options": [
+        "27.4%",
+        "22.4%",
+        "24.9%",
+        "31.1%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Total PBT = 320 + 210 + 450 + 100 = 1,080; total tax = 1,080 − 811.5 = 268.5; 268.5 ÷ 1,080 = 24.9%. The answer is 24.9%."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/"
+}

@@ -1,0 +1,422 @@
+{
+  "id": "y3-di-ratio-percentage-di",
+  "yearId": 3,
+  "category": "Data Interpretation",
+  "topicNumber": 66,
+  "title": "Combined Ratio and Percentage DI",
+  "tagline": "Year 3 — Totals given with ratios: converting ratios to numbers and then to percentages, differences and combined ratios",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In many DI sets the data are given as totals and ratios rather than as direct numbers. The first step is to turn each ratio into actual values by splitting the total in the given ratio. After that you can compute percentages, differences and combined ratios. A particular trap is to add ratios directly (3 : 2 and 5 : 3 do not add to 8 : 5); you must convert to numbers first.",
+    "placementRelevance": "Ratio-based DI sets are common in company and bank tests.",
+    "realWorldContext": "Gender ratios, budget splits and market shares are often published as ratios."
+  },
+  "learningObjectives": [
+    "Split a total in a given ratio",
+    "Convert ratios to percentages",
+    "Combine ratios from different groups correctly",
+    "Compute differences and changes",
+    "Check results against totals"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Ratio-Based DI",
+      "Percentage-Based DI",
+      "Ratio and Proportion"
+    ],
+    "quickRefresher": "In a ratio a : b with total T, the first part is T × a ÷ (a + b) and the second is T × b ÷ (a + b)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Ratio: a comparison of two quantities by division.",
+      "Part: the share of the total for one term.",
+      "Combined ratio: ratio of totals, found from the actual numbers.",
+      "Percentage share: part ÷ total × 100.",
+      "Common mistake: adding terms of ratios directly."
+    ],
+    "theoreticalIntuition": "A ratio only tells you proportions. The total tells you the size. Together they fix the numbers.",
+    "visualOrMentalModel": "For each row compute the first and second parts. Then build a table of actual numbers and work from it."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Split",
+      "formula": "Part = total × a/(a + b)",
+      "description": "Ratio a : b.",
+      "whenToUse": "Primary.",
+      "simpleExample": "Class I boys: 300 × 3/5 = 180"
+    },
+    {
+      "title": "Percentage",
+      "formula": "Part ÷ total × 100",
+      "description": "After split.",
+      "whenToUse": "Share.",
+      "simpleExample": "Boys in I = 60%"
+    },
+    {
+      "title": "Combined",
+      "formula": "Sum of parts ÷ sum of parts",
+      "description": "Several rows.",
+      "whenToUse": "Group ratio.",
+      "simpleExample": "Boys : girls overall"
+    },
+    {
+      "title": "Difference",
+      "formula": "Larger − smaller part",
+      "description": "One row.",
+      "whenToUse": "Gap.",
+      "simpleExample": "Boys − girls in IV"
+    },
+    {
+      "title": "Change",
+      "formula": "Change ÷ old × 100",
+      "description": "Two values.",
+      "whenToUse": "Percent.",
+      "simpleExample": "Class III to IV"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Class I has 300 students in the ratio 3 : 2, so boys = 300 × 3/5 = 180 and girls = 120. Class II: 400 in 5 : 3 gives boys 250 and girls 150. Class III: 350 in 4 : 3 gives boys 200 and girls 150. Class IV: 480 in 7 : 5 gives boys 280 and girls 200. Class V: 500 in 1 : 1 gives 250 each.",
+      "To avoid fractions, check divisibility before using a ratio on a total.",
+      "The combined ratio is found from the sums of the actual numbers, not from the given ratios.",
+      "Percentages come from the parts: boys in class I are 180 ÷ 300 = 60%.",
+      "Always verify that the parts add to the total."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Adding ratios",
+        "content": "3 : 2 and 5 : 3 combine into (3x + 5y) : (2x + 3y) depending on the totals; there is no fixed answer without numbers."
+      },
+      {
+        "title": "Consistency of data",
+        "content": "Check that every part is whole before relying on a ratio."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Split a total",
+      "description": "Ratio parts.",
+      "exampleSnippet": "Class I"
+    },
+    {
+      "typeName": "Combine rows",
+      "description": "Sum then ratio.",
+      "exampleSnippet": "Boys : girls overall"
+    },
+    {
+      "typeName": "Percent share",
+      "description": "Part ÷ total.",
+      "exampleSnippet": "Boys in I"
+    },
+    {
+      "typeName": "Largest part",
+      "description": "Compare rows.",
+      "exampleSnippet": "Most boys"
+    },
+    {
+      "typeName": "What-if",
+      "description": "Add students.",
+      "exampleSnippet": "10 more girls"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-di-ratio-percentage-di-1",
+      "title": "Split",
+      "question": "Class I has 300 students in the ratio boys : girls = 3 : 2. How many boys are there?",
+      "givenInfo": [
+        "300",
+        "3 : 2"
+      ],
+      "conceptOrFormula": "Split the total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Parts",
+          "explanation": "3 + 2 = 5."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Boys",
+          "explanation": "300 × 3/5 = 180."
+        }
+      ],
+      "finalAnswer": "180",
+      "whyItWorks": "Girls are 120.",
+      "commonTrap": "Taking 3/2 of 300.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-di-ratio-percentage-di-2",
+      "title": "Percent share",
+      "question": "In Class I there are 180 boys among 300 students. What percentage are boys?",
+      "givenInfo": [
+        "180",
+        "300"
+      ],
+      "conceptOrFormula": "Part ÷ total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "180 ÷ 300 = 0.6."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "60%."
+        }
+      ],
+      "finalAnswer": "60%",
+      "whyItWorks": "Boys are 3 of 5 parts.",
+      "commonTrap": "Dividing by girls.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-di-ratio-percentage-di-3",
+      "title": "Combined ratio",
+      "question": "Class I has 180 boys and 120 girls; Class II has 250 boys and 150 girls. What is the ratio of boys to girls in the two classes together?",
+      "givenInfo": [
+        "Two classes"
+      ],
+      "conceptOrFormula": "Add the numbers.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Boys",
+          "explanation": "180 + 250 = 430."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Girls",
+          "explanation": "120 + 150 = 270; ratio 43 : 27."
+        }
+      ],
+      "finalAnswer": "43 : 27",
+      "whyItWorks": "Add numbers, not ratio terms.",
+      "commonTrap": "Adding 3 : 2 and 5 : 3 directly.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Numbers first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Work with ratios throughout.",
+      "shortcutMethod": "Convert every ratio into numbers once, then use a plain table."
+    },
+    "rulesForApplication": [
+      "Part = total × a/(a + b).",
+      "Never add ratios.",
+      "Check divisibility.",
+      "Verify the parts add up."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Adding ratio terms across rows",
+      "whyItHappens": "Meaningless.",
+      "howToAvoid": "Add actual numbers."
+    },
+    {
+      "mistake": "Using the ratio as a percentage",
+      "whyItHappens": "3 : 2 is 60% : 40%.",
+      "howToAvoid": "Convert via the total."
+    },
+    {
+      "mistake": "Using a non-whole result",
+      "whyItHappens": "Data error or misreading.",
+      "howToAvoid": "Recheck the ratio."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "Parts cannot exceed the total.",
+    "questionSelectionAdvice": "Add boys and girls columns to the table.",
+    "recruiterInsight": "Check the denominators before computing."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-di-ratio-percentage-di-e1",
+        "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nHow many boys are in Class I?",
+        "options": [
+          "198",
+          "180",
+          "162",
+          "225"
+        ],
+        "correctAnswer": "180",
+        "explanation": "300 × 3/5 = 180. The answer is 180.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-ratio-percentage-di-e2",
+        "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nHow many girls are in Class II?",
+        "options": [
+          "150",
+          "165",
+          "135",
+          "188"
+        ],
+        "correctAnswer": "150",
+        "explanation": "400 × 3/8 = 150. The answer is 150.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-ratio-percentage-di-e3",
+        "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nHow many girls are in Class III?",
+        "options": [
+          "165",
+          "135",
+          "188",
+          "150"
+        ],
+        "correctAnswer": "150",
+        "explanation": "350 × 3/7 = 150. The answer is 150.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-di-ratio-percentage-di-i7",
+        "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the total number of boys in the school?",
+        "options": [
+          "1160",
+          "1276",
+          "1044",
+          "1450"
+        ],
+        "correctAnswer": "1160",
+        "explanation": "180 + 250 + 200 + 280 + 250 = 1,160. The answer is 1160.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-ratio-percentage-di-i8",
+        "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the total number of girls in the school?",
+        "options": [
+          "957",
+          "783",
+          "1088",
+          "870"
+        ],
+        "correctAnswer": "870",
+        "explanation": "120 + 150 + 150 + 200 + 250 = 870. The answer is 870.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-ratio-percentage-di-i9",
+        "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the ratio of boys to girls in the whole school?",
+        "options": [
+          "3 : 4",
+          "387 : 290",
+          "145 : 109",
+          "4 : 3"
+        ],
+        "correctAnswer": "4 : 3",
+        "explanation": "Boys = 1,160 and girls = 870; the HCF is 290. The ratio is 4 : 3.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-di-ratio-percentage-di-a15",
+        "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nBy what percentage is the number of boys in Class IV more than the number of boys in Class I (to one decimal place)?",
+        "options": [
+          "61.2%",
+          "50%",
+          "55.6%",
+          "69.5%"
+        ],
+        "correctAnswer": "55.6%",
+        "explanation": "(280 − 180) ÷ 180 = 55.6%. The answer is 55.6%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-ratio-percentage-di-a16",
+        "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nIn which class is the percentage of girls the highest?",
+        "options": [
+          "I",
+          "V",
+          "II",
+          "III"
+        ],
+        "correctAnswer": "V",
+        "explanation": "Percentage of girls: I 40%, II 37.5%, III 42.9%, IV 41.7%, V 50%. The highest is Class V. Answer: V.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-di-ratio-percentage-di-p17",
+        "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nIf 20 more girls join Class I, what is the new ratio of boys to girls in Class I?",
+        "options": [
+          "7 : 9",
+          "9 : 7",
+          "181 : 140",
+          "90 : 71"
+        ],
+        "correctAnswer": "9 : 7",
+        "explanation": "If 20 girls join Class I there are 180 boys and 140 girls; the HCF is 20. The ratio is 9 : 7.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-ratio-percentage-di-p18",
+        "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the average number of boys per class?",
+        "options": [
+          "232",
+          "255",
+          "209",
+          "290"
+        ],
+        "correctAnswer": "232",
+        "explanation": "Total boys 1,160 ÷ 5 = 232. The answer is 232.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-ratio-percentage-di-p19",
+        "question": "School data: total students in each class and the ratio of boys to girls\n\nClass | Total students | Boys : Girls\nI | 300 | 3 : 2\nII | 400 | 5 : 3\nIII | 350 | 4 : 3\nIV | 480 | 7 : 5\nV | 500 | 1 : 1\n\nWhat is the ratio of the total boys in Classes I and II to the total girls in Classes III and IV?",
+        "options": [
+          "35 : 43",
+          "431 : 350",
+          "215 : 176",
+          "43 : 35"
+        ],
+        "correctAnswer": "43 : 35",
+        "explanation": "Boys in I and II = 180 + 250 = 430; girls in III and IV = 150 + 200 = 350; the HCF is 10. The ratio is 43 : 35.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Split a total.",
+      "Percent from parts.",
+      "Combined ratio.",
+      "Compare rows.",
+      "Verify."
+    ],
+    "quickFormulas": [
+      "a/(a + b) × total"
+    ]
+  },
+  "keyTakeaways": [
+    "Numbers first.",
+    "Never add ratios.",
+    "Verify totals.",
+    "Percent from parts."
+  ],
+  "selfCheckQuestions": [
+    "Can I split a total in a ratio?",
+    "Can I combine groups?",
+    "Can I convert to percentages?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}
