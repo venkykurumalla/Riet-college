@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-strat-recruiter-patterns",
+  "topicTitle": "Recruiter and Assessment Patterns",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A (hypothetical) section has 20 questions in 25 minutes. The time per question is (seconds)",
+      "options": [
+        "83",
+        "75",
+        "68",
+        "94"
+      ],
+      "answerIndex": 1,
+      "explanation": "1,500 ÷ 20 = 75."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A section has 15 questions in 20 minutes. The time per question is (seconds)",
+      "options": [
+        "80",
+        "88",
+        "72",
+        "100"
+      ],
+      "answerIndex": 0,
+      "explanation": "1,200 ÷ 15 = 80."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A section has 25 questions in 20 minutes. The time per question is (seconds)",
+      "options": [
+        "53",
+        "43",
+        "60",
+        "48"
+      ],
+      "answerIndex": 3,
+      "explanation": "1,200 ÷ 25 = 48."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The total number of questions in the three sections is",
+      "options": [
+        "66",
+        "54",
+        "60",
+        "75"
+      ],
+      "answerIndex": 2,
+      "explanation": "20 + 15 + 25 = 60."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The total time for the three sections (minutes) is",
+      "options": [
+        "72",
+        "59",
+        "65",
+        "81"
+      ],
+      "answerIndex": 2,
+      "explanation": "25 + 20 + 20 = 65."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "With 1 mark per question, the total marks are",
+      "options": [
+        "66",
+        "60",
+        "54",
+        "75"
+      ],
+      "answerIndex": 1,
+      "explanation": "60 questions × 1 mark."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A 60% cutoff on 60 marks needs (marks)",
+      "options": [
+        "36",
+        "40",
+        "32",
+        "45"
+      ],
+      "answerIndex": 0,
+      "explanation": "0.6 × 60 = 36."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A 50% cutoff on 60 marks needs (marks)",
+      "options": [
+        "33",
+        "27",
+        "38",
+        "30"
+      ],
+      "answerIndex": 3,
+      "explanation": "0.5 × 60 = 30."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Each attempted question at 90% accuracy with penalty 0.25 nets (marks)",
+      "options": [
+        "0.963",
+        "0.788",
+        "1.094",
+        "0.875"
+      ],
+      "answerIndex": 3,
+      "explanation": "0.9 − 0.025 = 0.875."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The attempts needed for 36 net marks at that rate (to the nearest whole number) are",
+      "options": [
+        "45",
+        "37",
+        "41",
+        "51"
+      ],
+      "answerIndex": 2,
+      "explanation": "36 ÷ 0.875 = 41.1, about 41."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "40 correct and 8 wrong with a 0.25 penalty give net marks of",
+      "options": [
+        "42",
+        "38",
+        "34",
+        "48"
+      ],
+      "answerIndex": 1,
+      "explanation": "40 − 2 = 38."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The average marks per minute over the whole test (to two decimals) is",
+      "options": [
+        "0.92",
+        "1.01",
+        "0.83",
+        "1.15"
+      ],
+      "answerIndex": 0,
+      "explanation": "60 ÷ 65 = 0.92."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "With a section time of 20 minutes and 25 questions, the planned time for 10 quick questions at 30 seconds each is (minutes)",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "300 s = 5 minutes."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The time left in that section for the other 15 questions (minutes) is",
+      "options": [
+        "17",
+        "14",
+        "19",
+        "15"
+      ],
+      "answerIndex": 3,
+      "explanation": "20 − 5 = 15."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The pace for those 15 questions (seconds, to the nearest whole number) is",
+      "options": [
+        "66",
+        "54",
+        "60",
+        "75"
+      ],
+      "answerIndex": 2,
+      "explanation": "900 ÷ 15 = 60."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A candidate wants 36 net marks and expects 90% accuracy. If total questions are 60, the percentage of questions to attempt is (nearest whole number)",
+      "options": [
+        "75%",
+        "68%",
+        "61%",
+        "85%"
+      ],
+      "answerIndex": 1,
+      "explanation": "41 ÷ 60 = 68%."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "With sectional cutoffs of 40% in each section (Aptitude 20 marks), the minimum marks in Aptitude are",
+      "options": [
+        "9",
+        "8",
+        "7",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "0.4 × 20 = 8."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Where should you check the exact sectional timer rule for a company's test?",
+      "options": [
+        "The official instructions from the employer or test provider",
+        "A friend's memory of last year",
+        "An unverified online forum post",
+        "You may assume it is the same for all companies"
+      ],
+      "answerIndex": 0,
+      "explanation": "Patterns change; only the official notice is reliable."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Which of these is NOT part of a pattern you should extract from an official notice?",
+      "options": [
+        "Number of sections",
+        "Time per section",
+        "Penalty rule",
+        "The names of the other candidates"
+      ],
+      "answerIndex": 3,
+      "explanation": "Candidates' identities are not part of the pattern."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "If the penalty were 0.5 instead of 0.25, the net marks per attempt at 90% accuracy would be",
+      "options": [
+        "0.94",
+        "0.77",
+        "0.85",
+        "1.06"
+      ],
+      "answerIndex": 2,
+      "explanation": "0.9 − 0.05 = 0.85."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

@@ -1,0 +1,421 @@
+{
+  "id": "y4-strat-time-pressure",
+  "yearId": 4,
+  "category": "Placement Strategy & Shortcuts",
+  "topicNumber": 36,
+  "title": "Performance Under Time Pressure",
+  "tagline": "Year 4 — Pacing tables, checkpoints, recovery from a bad stretch and the effect of rushing on accuracy",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Time pressure changes behaviour: people rush, skip checks and make more errors. The best defence is a plan made before the test: a pacing table with checkpoints, a rule for leaving stuck questions, and a short reset routine for when you notice panic. With these in place, a bad five minutes does not become a bad section. This chapter works through the arithmetic of pacing and the logic of recovery.",
+    "placementRelevance": "Timed sectional tests make pacing and composure decisive.",
+    "realWorldContext": "Working to deadlines uses the same plans and recovery habits."
+  },
+  "learningObjectives": [
+    "Build a pacing table with checkpoints",
+    "Compute time per question after a slow start",
+    "Use a leave-and-return rule",
+    "Use a short reset routine",
+    "Estimate the score impact of rushing"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Time Triage and Question Selection",
+      "Accuracy Management Under Pressure"
+    ],
+    "quickRefresher": "Required pace = time left ÷ questions left."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Pacing table: planned progress at set times.",
+      "Checkpoint: a time at which you compare progress with the table.",
+      "Reset: a deliberate pause to regain focus.",
+      "Recovery: returning to plan after a slow stretch.",
+      "Rush penalty: accuracy lost by hurrying."
+    ],
+    "theoreticalIntuition": "Pressure is felt when you do not know where you stand; a table tells you.",
+    "visualOrMentalModel": "At each checkpoint compute required pace; if behind, skip harder questions rather than rushing all."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Required pace",
+      "formula": "Time left ÷ questions left",
+      "description": "Any time.",
+      "whenToUse": "Control.",
+      "simpleExample": "900 ÷ 8"
+    },
+    {
+      "title": "Checkpoint",
+      "formula": "Done by t = t ÷ planned pace",
+      "description": "Plan.",
+      "whenToUse": "Table.",
+      "simpleExample": "10 min ÷ 80 s"
+    },
+    {
+      "title": "Catch-up",
+      "formula": "Skip q questions to regain pace",
+      "description": "Behind plan.",
+      "whenToUse": "Recovery.",
+      "simpleExample": "Skip 2"
+    },
+    {
+      "title": "Rush cost",
+      "formula": "Accuracy drop × attempts",
+      "description": "Planning.",
+      "whenToUse": "Cost.",
+      "simpleExample": "10% × 30"
+    },
+    {
+      "title": "Reset",
+      "formula": "10–20 seconds",
+      "description": "Panic.",
+      "whenToUse": "Routine.",
+      "simpleExample": "Pause and breathe"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Plan: 30 questions in 45 minutes (90 s each). Checkpoints: after 15 minutes, 10 questions; after 30 minutes, 20 questions.",
+      "If after 15 minutes only 8 are done, 30 minutes remain for 22 questions: 82 seconds each, below plan. Skip two of the hardest to return to a 90-second pace.",
+      "If you rush all remaining questions and lose 10% accuracy, you give up about 2 correct answers out of 20.",
+      "A reset routine: stop, take one slow breath, re-read the stem, then go on; it takes ten seconds.",
+      "Leave stuck questions at about twice the average time."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Front-loading",
+        "content": "It is better to be slightly ahead of plan early; late catch-up is harder."
+      },
+      {
+        "title": "Do not re-plan every minute",
+        "content": "Check at checkpoints only."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Pacing table",
+      "description": "Checkpoints.",
+      "exampleSnippet": "15 and 30 min"
+    },
+    {
+      "typeName": "Required pace",
+      "description": "Time left per question.",
+      "exampleSnippet": "82 s"
+    },
+    {
+      "typeName": "Catch-up",
+      "description": "Skip.",
+      "exampleSnippet": "2 questions"
+    },
+    {
+      "typeName": "Rush cost",
+      "description": "Accuracy.",
+      "exampleSnippet": "2 answers"
+    },
+    {
+      "typeName": "Reset",
+      "description": "Routine.",
+      "exampleSnippet": "10 seconds"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-strat-time-pressure-1",
+      "title": "Required pace",
+      "question": "30 minutes left for 22 questions. Required pace?",
+      "givenInfo": [
+        "1,800 s",
+        "22"
+      ],
+      "conceptOrFormula": "Time ÷ questions.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert",
+          "explanation": "30 minutes = 1,800 seconds."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide",
+          "explanation": "1,800 ÷ 22 = 81.8 s."
+        }
+      ],
+      "finalAnswer": "82 seconds",
+      "whyItWorks": "Below the 90-second plan.",
+      "commonTrap": "Dividing minutes.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-strat-time-pressure-2",
+      "title": "Catch-up",
+      "question": "To return to a 90-second pace with 1,800 seconds left, how many questions can you attempt?",
+      "givenInfo": [
+        "1,800 s"
+      ],
+      "conceptOrFormula": "Time ÷ pace.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "1,800 ÷ 90 = 20."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Skip",
+          "explanation": "22 − 20 = 2."
+        }
+      ],
+      "finalAnswer": "20 questions, skipping 2",
+      "whyItWorks": "Skip the hardest.",
+      "commonTrap": "Rushing all.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-strat-time-pressure-3",
+      "title": "Rush cost",
+      "question": "Rushing 20 questions lowers accuracy by 10 points. Correct answers lost?",
+      "givenInfo": [
+        "20",
+        "10%"
+      ],
+      "conceptOrFormula": "Product.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert",
+          "explanation": "10 points = 0.1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "20 × 0.1 = 2."
+        }
+      ],
+      "finalAnswer": "2 correct answers",
+      "whyItWorks": "The cost of panic.",
+      "commonTrap": "Ignoring accuracy.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Table, checkpoint, skip",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Hurry when behind.",
+      "shortcutMethod": "Compute required pace at checkpoints and skip the hardest questions instead of rushing all."
+    },
+    "rulesForApplication": [
+      "Pacing table.",
+      "Checkpoints only.",
+      "Skip the hardest.",
+      "Reset in ten seconds."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Rushing everything",
+      "whyItHappens": "Accuracy falls.",
+      "howToAvoid": "Skip selectively."
+    },
+    {
+      "mistake": "Checking the clock constantly",
+      "whyItHappens": "Distracting.",
+      "howToAvoid": "Use checkpoints."
+    },
+    {
+      "mistake": "No plan",
+      "whyItHappens": "Panic.",
+      "howToAvoid": "Make the table first."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 5,
+    "eliminationTechnique": "Eliminate quickly when behind.",
+    "questionSelectionAdvice": "Practise with a visible timer.",
+    "recruiterInsight": "A plan is a calm in advance."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-strat-time-pressure-e1",
+        "question": "A section of 30 questions in 45 minutes has a planned pace of (seconds per question)",
+        "options": [
+          "99",
+          "90",
+          "81",
+          "113"
+        ],
+        "correctAnswer": "90",
+        "explanation": "2,700 ÷ 30 = 90.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-time-pressure-e2",
+        "question": "At the planned pace, the number of questions done in 15 minutes is",
+        "options": [
+          "10",
+          "11",
+          "9",
+          "13"
+        ],
+        "correctAnswer": "10",
+        "explanation": "900 ÷ 90 = 10.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-time-pressure-e3",
+        "question": "At the planned pace, the number of questions done in 30 minutes is",
+        "options": [
+          "22",
+          "18",
+          "25",
+          "20"
+        ],
+        "correctAnswer": "20",
+        "explanation": "1,800 ÷ 90 = 20.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-strat-time-pressure-i7",
+        "question": "To return to a 90-second pace with 1,800 seconds left, the number of questions to attempt is",
+        "options": [
+          "20",
+          "22",
+          "18",
+          "25"
+        ],
+        "correctAnswer": "20",
+        "explanation": "1,800 ÷ 90 = 20.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-time-pressure-i8",
+        "question": "The number of questions to skip from the 22 left is",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "correctAnswer": "2",
+        "explanation": "22 − 20 = 2.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-time-pressure-i9",
+        "question": "Rushing 20 questions lowers accuracy by 10 percentage points. The correct answers lost are",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "correctAnswer": "2",
+        "explanation": "20 × 0.1 = 2.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-strat-time-pressure-a15",
+        "question": "With 25 minutes left and 26 questions left, the required pace (seconds, one decimal) is",
+        "options": [
+          "63.5",
+          "51.9",
+          "57.7",
+          "72.1"
+        ],
+        "correctAnswer": "57.7",
+        "explanation": "1,500 ÷ 26 = 57.7.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-time-pressure-a16",
+        "question": "At a realistic 75-second pace, the questions attempted in 25 minutes are",
+        "options": [
+          "22",
+          "20",
+          "18",
+          "25"
+        ],
+        "correctAnswer": "20",
+        "explanation": "1,500 ÷ 75 = 20.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-strat-time-pressure-p17",
+        "question": "So the number of questions to leave in that case is",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "8"
+        ],
+        "correctAnswer": "6",
+        "explanation": "26 − 20 = 6.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-time-pressure-p18",
+        "question": "If each of those 20 questions has 85% accuracy, the expected correct answers are",
+        "options": [
+          "17",
+          "19",
+          "15",
+          "21"
+        ],
+        "correctAnswer": "17",
+        "explanation": "20 × 0.85 = 17.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-time-pressure-p19",
+        "question": "If rushing all 26 questions drops accuracy to 60%, the expected correct answers (one decimal) are",
+        "options": [
+          "17.2",
+          "14",
+          "19.5",
+          "15.6"
+        ],
+        "correctAnswer": "15.6",
+        "explanation": "26 × 0.6 = 15.6.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Table.",
+      "Pace.",
+      "Skip.",
+      "Reset.",
+      "Rush cost."
+    ],
+    "quickFormulas": [
+      "Pace = time left ÷ questions left"
+    ]
+  },
+  "keyTakeaways": [
+    "Plan.",
+    "Checkpoints.",
+    "Skip.",
+    "Reset."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute required pace?",
+    "Can I decide what to skip?",
+    "Can I reset quickly?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Method and shortcut background; the strategy framework and examples in this chapter are original."
+    }
+  ]
+}

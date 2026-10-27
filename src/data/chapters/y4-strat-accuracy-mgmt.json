@@ -1,0 +1,422 @@
+{
+  "id": "y4-strat-accuracy-mgmt",
+  "yearId": 4,
+  "category": "Placement Strategy & Shortcuts",
+  "topicNumber": 34,
+  "title": "Accuracy Management Under Pressure",
+  "tagline": "Year 4 — Keeping accuracy high at speed: error types, quick checks, and the trade-off between attempts and accuracy",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Score equals correct answers, and correct answers equal attempts times accuracy. Raising attempts by 10% while accuracy falls by 10% lowers your score. Accuracy under pressure is protected by recognising your typical error types (misreading, arithmetic slip, wrong formula, wrong option marked) and by cheap checks: re-reading the question stem, checking units, and a last-digit test. The aim is the point where an extra check costs less than the errors it prevents.",
+    "placementRelevance": "Negative marking and sectional cutoffs make accuracy as important as speed.",
+    "realWorldContext": "Error-checking habits matter in any accuracy-critical work."
+  },
+  "learningObjectives": [
+    "Compute accuracy and score from attempts",
+    "Classify your own error types",
+    "Use cheap checks (units, stem, last digit)",
+    "Evaluate the attempts–accuracy trade-off",
+    "Set a checking budget"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Strategic Question Selection",
+      "Time Triage and Question Selection"
+    ],
+    "quickRefresher": "Accuracy = correct ÷ attempted. Score = correct (− penalty × wrong)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Accuracy: correct as a share of attempted.",
+      "Misreading error: answering a different question.",
+      "Slip: arithmetic mistake.",
+      "Marking error: the right answer, wrong option.",
+      "Check budget: seconds per question for verification."
+    ],
+    "theoreticalIntuition": "A wrong answer costs the marks plus the time it took; prevention is cheaper.",
+    "visualOrMentalModel": "Read the stem twice, write only what you need, check units and last digit, mark the option carefully."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Accuracy",
+      "formula": "Correct ÷ attempted",
+      "description": "Review.",
+      "whenToUse": "Quality.",
+      "simpleExample": "24 ÷ 28 = 85.7%"
+    },
+    {
+      "title": "Score",
+      "formula": "Attempted × accuracy",
+      "description": "Planning.",
+      "whenToUse": "Marks.",
+      "simpleExample": "28 × 0.857"
+    },
+    {
+      "title": "Trade-off",
+      "formula": "More attempts vs lower accuracy",
+      "description": "Planning.",
+      "whenToUse": "Decision.",
+      "simpleExample": "30 × 0.75 vs 26 × 0.9"
+    },
+    {
+      "title": "Check value",
+      "formula": "Errors prevented × marks − check time",
+      "description": "Planning.",
+      "whenToUse": "Decision.",
+      "simpleExample": "Worth if positive"
+    },
+    {
+      "title": "Error rate",
+      "formula": "Wrong ÷ attempted",
+      "description": "Review.",
+      "whenToUse": "Diagnose.",
+      "simpleExample": "4 ÷ 28"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A candidate attempts 28 and gets 24 right: accuracy 85.7%. Another attempts 32 with 75% accuracy and gets 24 right: the same score, but more risk with negative marking.",
+      "If the penalty is 0.25 per wrong, the first scores 24 − 1 = 23 and the second 24 − 2 = 22.",
+      "A 10-second check on each question that prevents 1 error in 20 saves 0.05 × (1 + 0.25) marks, about 0.06 per question; whether it is worth it depends on the time value.",
+      "Classify errors after each mock: misreads, slips, formula errors and marking errors need different fixes.",
+      "A quick last-digit check catches many slips for a few seconds."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Accuracy targets",
+        "content": "Many aspirants aim for 85–90% accuracy on attempted questions; set your own from your mocks."
+      },
+      {
+        "title": "Pressure effect",
+        "content": "Errors cluster late in a section; double-check marking near the end."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Accuracy",
+      "description": "Percent.",
+      "exampleSnippet": "85.7%"
+    },
+    {
+      "typeName": "Score with penalty",
+      "description": "Marks.",
+      "exampleSnippet": "23"
+    },
+    {
+      "typeName": "Trade-off",
+      "description": "Attempts vs accuracy.",
+      "exampleSnippet": "30 × 0.75"
+    },
+    {
+      "typeName": "Check value",
+      "description": "Cost-benefit.",
+      "exampleSnippet": "0.06 marks"
+    },
+    {
+      "typeName": "Error types",
+      "description": "Diagnose.",
+      "exampleSnippet": "Misread, slip"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-strat-accuracy-mgmt-1",
+      "title": "Accuracy",
+      "question": "28 attempted, 24 correct. Accuracy?",
+      "givenInfo": [
+        "28",
+        "24"
+      ],
+      "conceptOrFormula": "Correct over attempted.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "24 ÷ 28 = 0.857."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "85.7%."
+        }
+      ],
+      "finalAnswer": "85.7%",
+      "whyItWorks": "Base is attempted.",
+      "commonTrap": "Dividing by 30.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-strat-accuracy-mgmt-2",
+      "title": "Trade-off",
+      "question": "A: 26 attempts at 90% accuracy. B: 32 attempts at 75%. Which has more correct answers?",
+      "givenInfo": [
+        "26, 90%",
+        "32, 75%"
+      ],
+      "conceptOrFormula": "Attempts × accuracy.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "A",
+          "explanation": "26 × 0.9 = 23.4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "B",
+          "explanation": "32 × 0.75 = 24."
+        }
+      ],
+      "finalAnswer": "B has slightly more correct answers",
+      "whyItWorks": "With penalties A may win.",
+      "commonTrap": "Comparing attempts only.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-strat-accuracy-mgmt-3",
+      "title": "Penalty",
+      "question": "B (32 attempts, 24 correct, 8 wrong) with penalty 0.25. Score?",
+      "givenInfo": [
+        "24",
+        "8"
+      ],
+      "conceptOrFormula": "Marks minus penalty.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Penalty",
+          "explanation": "8 × 0.25 = 2."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Score",
+          "explanation": "24 − 2 = 22."
+        }
+      ],
+      "finalAnswer": "22",
+      "whyItWorks": "Accuracy matters with penalties.",
+      "commonTrap": "Ignoring the penalty.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Cheap checks",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Rush and hope.",
+      "shortcutMethod": "Read the stem twice, check units and last digit, and mark options carefully; track error types after each mock."
+    },
+    "rulesForApplication": [
+      "Stem twice.",
+      "Units.",
+      "Last digit.",
+      "Log errors."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Chasing attempts only",
+      "whyItHappens": "Accuracy falls.",
+      "howToAvoid": "Balance both."
+    },
+    {
+      "mistake": "Not logging errors",
+      "whyItHappens": "Same errors repeat.",
+      "howToAvoid": "Classify after each mock."
+    },
+    {
+      "mistake": "Marking too fast",
+      "whyItHappens": "Right answer lost.",
+      "howToAvoid": "Check the option letter."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 10,
+    "eliminationTechnique": "Eliminate to protect accuracy.",
+    "questionSelectionAdvice": "Review marking near the end.",
+    "recruiterInsight": "A habit of two quick checks beats a habit of re-solving."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-strat-accuracy-mgmt-e1",
+        "question": "28 questions attempted with 24 correct give an accuracy of",
+        "options": [
+          "94.3%",
+          "85.7%",
+          "77.1%",
+          "107.1%"
+        ],
+        "correctAnswer": "85.7%",
+        "explanation": "24 ÷ 28 = 85.7%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-accuracy-mgmt-e2",
+        "question": "30 attempted with 27 correct give an accuracy of",
+        "options": [
+          "90%",
+          "99%",
+          "81%",
+          "113%"
+        ],
+        "correctAnswer": "90%",
+        "explanation": "27 ÷ 30 = 90%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-accuracy-mgmt-e3",
+        "question": "24 correct and 8 wrong give an error rate on attempted questions of",
+        "options": [
+          "28%",
+          "23%",
+          "31%",
+          "25%"
+        ],
+        "correctAnswer": "25%",
+        "explanation": "8 ÷ 32 = 25%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-strat-accuracy-mgmt-i7",
+        "question": "26 attempts at 90% accuracy with penalty 0.25 per wrong: the score (to two decimals) is",
+        "options": [
+          "22.75",
+          "25.03",
+          "20.48",
+          "28.44"
+        ],
+        "correctAnswer": "22.75",
+        "explanation": "Correct 23.4, wrong 2.6: 23.4 − 0.65 = 22.75.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-accuracy-mgmt-i8",
+        "question": "With 32 attempts at 75% accuracy and penalty 0.25, the score is",
+        "options": [
+          "24",
+          "20",
+          "28",
+          "22"
+        ],
+        "correctAnswer": "22",
+        "explanation": "24 − 2 = 22.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-accuracy-mgmt-i9",
+        "question": "An extra check prevents 1 error in 20 questions. The marks saved per question with penalty 0.25 (two decimals) are",
+        "options": [
+          "0.07",
+          "0.05",
+          "0.08",
+          "0.06"
+        ],
+        "correctAnswer": "0.06",
+        "explanation": "0.05 × 1.25 = 0.06 (0.0625).",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-strat-accuracy-mgmt-a15",
+        "question": "If the check in the previous question prevents 2 errors (penalty 0.25), the marks saved are",
+        "options": [
+          "2.75",
+          "2.25",
+          "2.5",
+          "3.13"
+        ],
+        "correctAnswer": "2.5",
+        "explanation": "2 × 1.25 = 2.5.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-accuracy-mgmt-a16",
+        "question": "The 150 seconds spent on checking could instead attempt about how many 75-second questions?",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "correctAnswer": "2",
+        "explanation": "150 ÷ 75 = 2.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-strat-accuracy-mgmt-p17",
+        "question": "Which is better with penalty 0.25: 34 attempts at 70% or 28 attempts at 90%?",
+        "options": [
+          "34 attempts at 70%",
+          "28 attempts at 90%",
+          "They are equal",
+          "Cannot be compared"
+        ],
+        "correctAnswer": "28 attempts at 90%",
+        "explanation": "First: 23.8 correct, 10.2 wrong → 23.8 − 2.55 = 21.25. Second: 25.2 correct, 2.8 wrong → 25.2 − 0.7 = 24.5.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-accuracy-mgmt-p18",
+        "question": "With 100 attempts at a constant accuracy of 85% and penalty 0.25 the score is",
+        "options": [
+          "81.25",
+          "89.38",
+          "73.13",
+          "101.56"
+        ],
+        "correctAnswer": "81.25",
+        "explanation": "85 − 3.75 = 81.25.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-accuracy-mgmt-p19",
+        "question": "Raising accuracy from 85% to 90% on 100 attempts (penalty 0.25) raises the score by",
+        "options": [
+          "6.88",
+          "5.63",
+          "7.81",
+          "6.25"
+        ],
+        "correctAnswer": "6.25",
+        "explanation": "Scores 87.5 and 81.25; difference 6.25.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Accuracy.",
+      "Score.",
+      "Trade-off.",
+      "Checks.",
+      "Error log."
+    ],
+    "quickFormulas": [
+      "Score = attempts × accuracy"
+    ]
+  },
+  "keyTakeaways": [
+    "Balance.",
+    "Checks.",
+    "Log.",
+    "Mark carefully."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute accuracy?",
+    "Can I compare strategies?",
+    "Can I classify errors?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Method and shortcut background; the strategy framework and examples in this chapter are original."
+    }
+  ]
+}

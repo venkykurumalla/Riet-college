@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-strat-negative-marking",
+  "topicTitle": "Negative Marking Strategy",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Four options, 1 mark, penalty ¼. The expected value of a blind guess is",
+      "options": [
+        "0.0688",
+        "0.0625",
+        "0.0563",
+        "0.0781"
+      ],
+      "answerIndex": 1,
+      "explanation": "0.25 − 0.1875 = 0.0625."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Four options, 1 mark, penalty ⅓. The expected value of a blind guess (two decimals) is",
+      "options": [
+        "0",
+        "0.01",
+        "0.02",
+        "0.03"
+      ],
+      "answerIndex": 0,
+      "explanation": "0.25 − 0.75 × 0.333 = 0."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Four options, 1 mark, penalty ½. The expected value of a blind guess is",
+      "options": [
+        "-0.137",
+        "-0.112",
+        "-0.156",
+        "-0.125"
+      ],
+      "answerIndex": 3,
+      "explanation": "0.25 − 0.375 = −0.125."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "With 2 options eliminated, penalty ¼, 1 mark, the expected value of guessing is",
+      "options": [
+        "0.413",
+        "0.338",
+        "0.375",
+        "0.469"
+      ],
+      "answerIndex": 2,
+      "explanation": "0.5 − 0.125 = 0.375."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "With 1 option eliminated, the chance of a correct guess (%) is",
+      "options": [
+        "36.6%",
+        "30%",
+        "33.3%",
+        "41.6%"
+      ],
+      "answerIndex": 2,
+      "explanation": "1 ÷ 3 = 33.3%."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The break-even chance for marks 1 and penalty ¼ (%) is",
+      "options": [
+        "22%",
+        "20%",
+        "18%",
+        "25%"
+      ],
+      "answerIndex": 1,
+      "explanation": "0.25 ÷ 1.25 = 20%."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "With 1 option eliminated, penalty ¼, 1 mark, the expected value of guessing (three decimals) is",
+      "options": [
+        "0.167",
+        "0.184",
+        "0.15",
+        "0.209"
+      ],
+      "answerIndex": 0,
+      "explanation": "0.333 − 0.667 × 0.25 = 0.167."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The break-even chance for marks 1 and penalty ⅓ (%) is",
+      "options": [
+        "28%",
+        "23%",
+        "31%",
+        "25%"
+      ],
+      "answerIndex": 3,
+      "explanation": "(1/3) ÷ (4/3) = 25%."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The break-even chance for marks 1 and penalty ½ (%, one decimal) is",
+      "options": [
+        "36.6%",
+        "30%",
+        "41.6%",
+        "33.3%"
+      ],
+      "answerIndex": 3,
+      "explanation": "0.5 ÷ 1.5 = 33.3%."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Marks 4 and penalty 1: the break-even chance (%) is",
+      "options": [
+        "22%",
+        "18%",
+        "20%",
+        "25%"
+      ],
+      "answerIndex": 2,
+      "explanation": "1 ÷ 5 = 20%."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Marks 4, penalty 1, four options: the expected value of a blind guess is",
+      "options": [
+        "0.28",
+        "0.25",
+        "0.23",
+        "0.31"
+      ],
+      "answerIndex": 1,
+      "explanation": "1 − 0.75 = 0.25."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "With four options, the penalty that makes blind guessing exactly fair (as a fraction value, two decimals) for 1 mark is",
+      "options": [
+        "0.33",
+        "0.36",
+        "0.3",
+        "0.41"
+      ],
+      "answerIndex": 0,
+      "explanation": "1 ÷ (4 − 1) = 0.33."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "With five options, the fair penalty for 1 mark is",
+      "options": [
+        "0.25",
+        "0.28",
+        "0.23",
+        "0.31"
+      ],
+      "answerIndex": 0,
+      "explanation": "1 ÷ (5 − 1) = 0.25."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A section has 10 questions you cannot solve. Blindly guessing all (four options, penalty ¼) gives an expected score of",
+      "options": [
+        "0.688",
+        "0.563",
+        "0.781",
+        "0.625"
+      ],
+      "answerIndex": 3,
+      "explanation": "10 × 0.0625 = 0.625."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "If you eliminate 2 options in each of those 10 questions, the expected score is",
+      "options": [
+        "4.13",
+        "3.38",
+        "3.75",
+        "4.69"
+      ],
+      "answerIndex": 2,
+      "explanation": "10 × 0.375 = 3.75."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "With penalty ½ and 2 options eliminated, the expected value of a guess is",
+      "options": [
+        "0.28",
+        "0.25",
+        "0.23",
+        "0.31"
+      ],
+      "answerIndex": 1,
+      "explanation": "0.5 − 0.25 = 0.25."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "With penalty ½ and 1 option eliminated (p = ⅓), the expected value is (two decimals)",
+      "options": [
+        "0.01",
+        "0",
+        "0.02",
+        "0.03"
+      ],
+      "answerIndex": 1,
+      "explanation": "0.333 − 0.333 = 0."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "With penalty ⅓, one option eliminated and four options originally, should you guess?",
+      "options": [
+        "Yes, a small positive expected value",
+        "No, it is negative",
+        "It is exactly zero",
+        "Cannot be determined"
+      ],
+      "answerIndex": 0,
+      "explanation": "p = ⅓, E = ⅓ − ⅔ × ⅓ = 0.111 > 0."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "If there is no negative marking, the expected value of a blind guess among four options is",
+      "options": [
+        "0.28",
+        "0.23",
+        "0.31",
+        "0.25"
+      ],
+      "answerIndex": 3,
+      "explanation": "0.25 × 1 = 0.25."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "With marks 2 and penalty 0.5, the break-even chance (%) is",
+      "options": [
+        "22%",
+        "18%",
+        "20%",
+        "25%"
+      ],
+      "answerIndex": 2,
+      "explanation": "0.5 ÷ 2.5 = 20%."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

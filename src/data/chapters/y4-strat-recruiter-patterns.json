@@ -1,0 +1,423 @@
+{
+  "id": "y4-strat-recruiter-patterns",
+  "yearId": 4,
+  "category": "Placement Strategy & Shortcuts",
+  "topicNumber": 37,
+  "title": "Recruiter and Assessment Patterns",
+  "tagline": "Year 4 — Reading an official assessment notice and turning it into a plan: sections, time, marks, penalties and cutoffs",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Every assessment has a pattern: the sections, the number of questions, the time allowed, whether time is per section or overall, the marks and the penalty. These details change from company to company and from year to year, so this chapter gives no company-specific figures. It teaches how to read an official notice, extract the pattern into a one-page plan, and compute what it implies: time per question, marks per minute, the attempts needed to meet a stated cutoff, and the effect of the penalty rule.",
+    "placementRelevance": "Knowing the exact pattern lets you plan pacing and selection instead of guessing.",
+    "realWorldContext": "Reading terms, rules and specifications before starting work is a professional habit."
+  },
+  "learningObjectives": [
+    "Extract a pattern from an official notice",
+    "Compute time per question for each section",
+    "Compute marks needed for a stated cutoff",
+    "Reflect the penalty rule in strategy",
+    "Identify what to confirm with the recruiter"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Negative Marking Strategy",
+      "Time Triage and Question Selection"
+    ],
+    "quickRefresher": "Time per question = section time ÷ questions. Marks needed = cutoff percentage × total marks."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Pattern: the structure of an assessment.",
+      "Sectional timer: time is fixed per section.",
+      "Overall timer: one clock for the whole test.",
+      "Cutoff: the minimum score to pass a stage.",
+      "Official notice: the instructions from the employer or test provider."
+    ],
+    "theoreticalIntuition": "The pattern is the rulebook of the game. Read it before playing.",
+    "visualOrMentalModel": "Write one line per section: questions, minutes, marks, penalty. Then compute pace and cutoffs."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Pace",
+      "formula": "Minutes × 60 ÷ questions",
+      "description": "Each section.",
+      "whenToUse": "Plan.",
+      "simpleExample": "20 min, 15 questions"
+    },
+    {
+      "title": "Marks per minute",
+      "formula": "Total marks ÷ total minutes",
+      "description": "Whole test.",
+      "whenToUse": "Rate.",
+      "simpleExample": "60 ÷ 60"
+    },
+    {
+      "title": "Cutoff marks",
+      "formula": "Percent × total",
+      "description": "Pass mark.",
+      "whenToUse": "Target.",
+      "simpleExample": "60% of 60"
+    },
+    {
+      "title": "Attempts needed",
+      "formula": "Cutoff ÷ accuracy",
+      "description": "Planning.",
+      "whenToUse": "Target.",
+      "simpleExample": "36 ÷ 0.9"
+    },
+    {
+      "title": "Penalty effect",
+      "formula": "Net = correct − penalty × wrong",
+      "description": "Scoring.",
+      "whenToUse": "Net.",
+      "simpleExample": "40 − 5 × 0.25"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Suppose a (hypothetical) notice says: Aptitude 20 questions in 25 minutes, Reasoning 15 questions in 20 minutes, Verbal 25 questions in 20 minutes, each question 1 mark, 0.25 penalty. The paces are 75 s, 80 s and 48 s per question.",
+      "Total marks 60; a 60% cutoff needs 36 net marks.",
+      "With 90% accuracy and a 0.25 penalty, each attempt nets 0.9 − 0.025 = 0.875 marks, so 36 net marks need about 36 ÷ 0.875 = 41 attempts.",
+      "Confirm with the recruiter: whether sectional timers apply, whether you can go back, and the exact penalty.",
+      "Never rely on an unofficial claim about a pattern; patterns change."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Sectional timers",
+        "content": "With sectional timers you cannot move time between sections, so plan each section separately."
+      },
+      {
+        "title": "Cutoff stages",
+        "content": "Some tests have sectional cutoffs as well as an overall cutoff; check both."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Sections",
+      "description": "Questions and time.",
+      "exampleSnippet": "20 in 25 min"
+    },
+    {
+      "typeName": "Pace",
+      "description": "Seconds per question.",
+      "exampleSnippet": "75 s"
+    },
+    {
+      "typeName": "Cutoff",
+      "description": "Marks needed.",
+      "exampleSnippet": "36"
+    },
+    {
+      "typeName": "Penalty",
+      "description": "Net marks.",
+      "exampleSnippet": "0.875 per attempt"
+    },
+    {
+      "typeName": "Confirmations",
+      "description": "Ask the recruiter.",
+      "exampleSnippet": "Sectional timers"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-strat-recruiter-patterns-1",
+      "title": "Pace",
+      "question": "A section has 20 questions in 25 minutes. Time per question?",
+      "givenInfo": [
+        "20",
+        "25 min"
+      ],
+      "conceptOrFormula": "Seconds ÷ questions.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Seconds",
+          "explanation": "25 × 60 = 1,500."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Per question",
+          "explanation": "75 s."
+        }
+      ],
+      "finalAnswer": "75 seconds",
+      "whyItWorks": "Plan from the pattern.",
+      "commonTrap": "Taking 1.25 s.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-strat-recruiter-patterns-2",
+      "title": "Cutoff",
+      "question": "Total 60 marks and a 60% cutoff. Marks needed?",
+      "givenInfo": [
+        "60",
+        "60%"
+      ],
+      "conceptOrFormula": "Percent of total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert",
+          "explanation": "60% = 0.6."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Multiply",
+          "explanation": "0.6 × 60 = 36."
+        }
+      ],
+      "finalAnswer": "36 marks",
+      "whyItWorks": "Net marks after penalty.",
+      "commonTrap": "Taking 60.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-strat-recruiter-patterns-3",
+      "title": "Penalty",
+      "question": "40 correct, 8 wrong, penalty 0.25. Net marks?",
+      "givenInfo": [
+        "40",
+        "8",
+        "0.25"
+      ],
+      "conceptOrFormula": "Correct − penalty.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Penalty",
+          "explanation": "8 × 0.25 = 2."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Net",
+          "explanation": "40 − 2 = 38."
+        }
+      ],
+      "finalAnswer": "38",
+      "whyItWorks": "Read the rule.",
+      "commonTrap": "Ignoring the penalty.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Pattern to plan",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Rely on hearsay.",
+      "shortcutMethod": "Write the official pattern in one line per section, compute paces and cutoffs, and confirm unclear points with the recruiter."
+    },
+    "rulesForApplication": [
+      "Official source only.",
+      "Pace per section.",
+      "Cutoff from total.",
+      "Confirm the rules."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Trusting hearsay about a pattern",
+      "whyItHappens": "Outdated.",
+      "howToAvoid": "Use the official notice."
+    },
+    {
+      "mistake": "Ignoring sectional timers",
+      "whyItHappens": "Wrong pacing.",
+      "howToAvoid": "Plan per section."
+    },
+    {
+      "mistake": "Forgetting the penalty",
+      "whyItHappens": "Wrong strategy.",
+      "howToAvoid": "Include it."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 15,
+    "eliminationTechnique": "Use the pattern to decide guessing.",
+    "questionSelectionAdvice": "Keep a one-page pattern sheet per company.",
+    "recruiterInsight": "The figures in this chapter are examples, not real company data."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-strat-recruiter-patterns-e1",
+        "question": "A (hypothetical) section has 20 questions in 25 minutes. The time per question is (seconds)",
+        "options": [
+          "83",
+          "75",
+          "68",
+          "94"
+        ],
+        "correctAnswer": "75",
+        "explanation": "1,500 ÷ 20 = 75.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-recruiter-patterns-e2",
+        "question": "A section has 15 questions in 20 minutes. The time per question is (seconds)",
+        "options": [
+          "80",
+          "88",
+          "72",
+          "100"
+        ],
+        "correctAnswer": "80",
+        "explanation": "1,200 ÷ 15 = 80.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-recruiter-patterns-e3",
+        "question": "A section has 25 questions in 20 minutes. The time per question is (seconds)",
+        "options": [
+          "53",
+          "43",
+          "60",
+          "48"
+        ],
+        "correctAnswer": "48",
+        "explanation": "1,200 ÷ 25 = 48.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-strat-recruiter-patterns-i7",
+        "question": "A 60% cutoff on 60 marks needs (marks)",
+        "options": [
+          "36",
+          "40",
+          "32",
+          "45"
+        ],
+        "correctAnswer": "36",
+        "explanation": "0.6 × 60 = 36.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-recruiter-patterns-i8",
+        "question": "A 50% cutoff on 60 marks needs (marks)",
+        "options": [
+          "33",
+          "27",
+          "38",
+          "30"
+        ],
+        "correctAnswer": "30",
+        "explanation": "0.5 × 60 = 30.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-recruiter-patterns-i9",
+        "question": "Each attempted question at 90% accuracy with penalty 0.25 nets (marks)",
+        "options": [
+          "0.963",
+          "0.788",
+          "1.094",
+          "0.875"
+        ],
+        "correctAnswer": "0.875",
+        "explanation": "0.9 − 0.025 = 0.875.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-strat-recruiter-patterns-a15",
+        "question": "The pace for those 15 questions (seconds, to the nearest whole number) is",
+        "options": [
+          "66",
+          "54",
+          "60",
+          "75"
+        ],
+        "correctAnswer": "60",
+        "explanation": "900 ÷ 15 = 60.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-recruiter-patterns-a16",
+        "question": "A candidate wants 36 net marks and expects 90% accuracy. If total questions are 60, the percentage of questions to attempt is (nearest whole number)",
+        "options": [
+          "75%",
+          "68%",
+          "61%",
+          "85%"
+        ],
+        "correctAnswer": "68%",
+        "explanation": "41 ÷ 60 = 68%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-strat-recruiter-patterns-p17",
+        "question": "With sectional cutoffs of 40% in each section (Aptitude 20 marks), the minimum marks in Aptitude are",
+        "options": [
+          "9",
+          "8",
+          "7",
+          "10"
+        ],
+        "correctAnswer": "8",
+        "explanation": "0.4 × 20 = 8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-recruiter-patterns-p18",
+        "question": "Where should you check the exact sectional timer rule for a company's test?",
+        "options": [
+          "The official instructions from the employer or test provider",
+          "A friend's memory of last year",
+          "An unverified online forum post",
+          "You may assume it is the same for all companies"
+        ],
+        "correctAnswer": "The official instructions from the employer or test provider",
+        "explanation": "Patterns change; only the official notice is reliable.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-recruiter-patterns-p19",
+        "question": "Which of these is NOT part of a pattern you should extract from an official notice?",
+        "options": [
+          "Number of sections",
+          "Time per section",
+          "Penalty rule",
+          "The names of the other candidates"
+        ],
+        "correctAnswer": "The names of the other candidates",
+        "explanation": "Candidates' identities are not part of the pattern.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Read notice.",
+      "Pace.",
+      "Cutoff.",
+      "Penalty.",
+      "Confirm."
+    ],
+    "quickFormulas": [
+      "Pace = minutes × 60 ÷ questions"
+    ]
+  },
+  "keyTakeaways": [
+    "Official only.",
+    "Compute.",
+    "Plan per section.",
+    "Confirm."
+  ],
+  "selfCheckQuestions": [
+    "Can I extract a pattern?",
+    "Can I compute a cutoff?",
+    "Can I include the penalty?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Method and shortcut background; the strategy framework and examples in this chapter are original."
+    }
+  ]
+}

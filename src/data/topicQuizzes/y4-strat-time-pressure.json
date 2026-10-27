@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-strat-time-pressure",
+  "topicTitle": "Performance Under Time Pressure",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A section of 30 questions in 45 minutes has a planned pace of (seconds per question)",
+      "options": [
+        "99",
+        "90",
+        "81",
+        "113"
+      ],
+      "answerIndex": 1,
+      "explanation": "2,700 ÷ 30 = 90."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "At the planned pace, the number of questions done in 15 minutes is",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "13"
+      ],
+      "answerIndex": 0,
+      "explanation": "900 ÷ 90 = 10."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "At the planned pace, the number of questions done in 30 minutes is",
+      "options": [
+        "22",
+        "18",
+        "25",
+        "20"
+      ],
+      "answerIndex": 3,
+      "explanation": "1,800 ÷ 90 = 20."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "After 15 minutes only 8 questions are done. The questions left are",
+      "options": [
+        "24",
+        "20",
+        "22",
+        "28"
+      ],
+      "answerIndex": 2,
+      "explanation": "30 − 8 = 22."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The minutes left at that point are",
+      "options": [
+        "33",
+        "27",
+        "30",
+        "38"
+      ],
+      "answerIndex": 2,
+      "explanation": "45 − 15 = 30."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "30 minutes left for 22 questions give a required pace of (seconds, nearest whole number)",
+      "options": [
+        "90",
+        "82",
+        "74",
+        "103"
+      ],
+      "answerIndex": 1,
+      "explanation": "1,800 ÷ 22 = 81.8, about 82."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "To return to a 90-second pace with 1,800 seconds left, the number of questions to attempt is",
+      "options": [
+        "20",
+        "22",
+        "18",
+        "25"
+      ],
+      "answerIndex": 0,
+      "explanation": "1,800 ÷ 90 = 20."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The number of questions to skip from the 22 left is",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "answerIndex": 3,
+      "explanation": "22 − 20 = 2."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Rushing 20 questions lowers accuracy by 10 percentage points. The correct answers lost are",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "answerIndex": 3,
+      "explanation": "20 × 0.1 = 2."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A reset routine takes 10 seconds. Using it 3 times costs (seconds)",
+      "options": [
+        "33",
+        "27",
+        "30",
+        "38"
+      ],
+      "answerIndex": 2,
+      "explanation": "3 × 10 = 30."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "If a question exceeds twice the average of 80 seconds, the limit in seconds is",
+      "options": [
+        "176",
+        "160",
+        "144",
+        "200"
+      ],
+      "answerIndex": 1,
+      "explanation": "2 × 80 = 160."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A section of 40 questions in 50 minutes has a pace of (seconds)",
+      "options": [
+        "75",
+        "83",
+        "68",
+        "94"
+      ],
+      "answerIndex": 0,
+      "explanation": "3,000 ÷ 40 = 75."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "After 25 minutes of that section, the questions that should be done are about",
+      "options": [
+        "20",
+        "22",
+        "18",
+        "25"
+      ],
+      "answerIndex": 0,
+      "explanation": "1,500 ÷ 75 = 20."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "If 14 are done at that point, the questions behind plan are",
+      "options": [
+        "7",
+        "5",
+        "8",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "20 − 14 = 6."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "With 25 minutes left and 26 questions left, the required pace (seconds, one decimal) is",
+      "options": [
+        "63.5",
+        "51.9",
+        "57.7",
+        "72.1"
+      ],
+      "answerIndex": 2,
+      "explanation": "1,500 ÷ 26 = 57.7."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "At a realistic 75-second pace, the questions attempted in 25 minutes are",
+      "options": [
+        "22",
+        "20",
+        "18",
+        "25"
+      ],
+      "answerIndex": 1,
+      "explanation": "1,500 ÷ 75 = 20."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "So the number of questions to leave in that case is",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "26 − 20 = 6."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "If each of those 20 questions has 85% accuracy, the expected correct answers are",
+      "options": [
+        "17",
+        "19",
+        "15",
+        "21"
+      ],
+      "answerIndex": 0,
+      "explanation": "20 × 0.85 = 17."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "If rushing all 26 questions drops accuracy to 60%, the expected correct answers (one decimal) are",
+      "options": [
+        "17.2",
+        "14",
+        "19.5",
+        "15.6"
+      ],
+      "answerIndex": 3,
+      "explanation": "26 × 0.6 = 15.6."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "In the case above, which approach gives more expected correct answers?",
+      "options": [
+        "Rushing all 26",
+        "They are equal",
+        "Attempting 20 carefully",
+        "Cannot be compared"
+      ],
+      "answerIndex": 2,
+      "explanation": "17 correct against 15.6."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}
