@@ -1,0 +1,428 @@
+{
+  "id": "y4-mqm-multi-concept",
+  "yearId": 4,
+  "category": "Advanced Aptitude / Mixed Problems",
+  "topicNumber": 2,
+  "title": "Multi-Concept Quantitative Problems",
+  "tagline": "Year 4 — Single problems that need two or three topics in sequence: profit with ratios, mixtures with percentages, work with wages",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A multi-concept problem cannot be solved with one formula; the answer of one step feeds the next. The usual pairs are profit with discount, ratio with percentage, work with wages, interest with ratio, and speed with ratio. The key is to write the chain of quantities (cost, marked price, selling price, profit) and compute each link in order.",
+    "placementRelevance": "The harder questions in company papers are almost always of this type.",
+    "realWorldContext": "Budgeting, pricing and project costing chain several calculations in the same way."
+  },
+  "learningObjectives": [
+    "Break a problem into a chain of single-topic steps",
+    "Handle profit, discount and marked price together",
+    "Combine ratios with percentages",
+    "Split wages in proportion to work",
+    "Verify the final answer against an earlier step"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Mixed Quantitative — Integrated Problem Solving",
+      "Profit and Loss",
+      "Ratio and Proportion"
+    ],
+    "quickRefresher": "Marked price = cost × (1 + mark-up). Selling price = marked price × (1 − discount). Profit % = (SP − CP) ÷ CP × 100."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Chain: ordered quantities where each is computed from the previous one.",
+      "Mark-up: percentage added to cost to get the marked price.",
+      "Discount: percentage taken off the marked price.",
+      "Proportional wages: wages split in the ratio of work done.",
+      "Cross-check: recomputing from a different route."
+    ],
+    "theoreticalIntuition": "List the quantities in the order they depend on each other, and compute them as a chain.",
+    "visualOrMentalModel": "Write \"cost → marked → selling → profit\" (or the chain for the problem), fill known numbers, and compute one link at a time."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Marked and selling",
+      "formula": "SP = CP × (1 + m%)(1 − d%)",
+      "description": "Mark-up then discount.",
+      "whenToUse": "Retail.",
+      "simpleExample": "800 × 1.25 × 0.9 = 900"
+    },
+    {
+      "title": "Profit %",
+      "formula": "(SP − CP) ÷ CP × 100",
+      "description": "After SP.",
+      "whenToUse": "Profit.",
+      "simpleExample": "(900 − 800)/800 = 12.5%"
+    },
+    {
+      "title": "Wages",
+      "formula": "Share = total × work ÷ total work",
+      "description": "Shared job.",
+      "whenToUse": "Labour.",
+      "simpleExample": "Work 3 : 2 on ₹5,000"
+    },
+    {
+      "title": "Mixture value",
+      "formula": "Mean = total cost ÷ total quantity",
+      "description": "Mixing.",
+      "whenToUse": "Alligation.",
+      "simpleExample": "(3×40 + 5×60)/8"
+    },
+    {
+      "title": "Ratio then percent",
+      "formula": "Part = total × a/(a+b); % = part/total",
+      "description": "Splits.",
+      "whenToUse": "Shares.",
+      "simpleExample": "5/8 = 62.5%"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A shopkeeper marks goods 25% above cost of ₹800, so the marked price is ₹1,000. After a 10% discount the selling price is ₹900 and the profit is ₹100, which is 12.5% of the cost.",
+      "Two workers A and B do 3 : 2 of a job; the wages of ₹5,000 are split in the same ratio: ₹3,000 and ₹2,000.",
+      "To mix 3 kg of tea at ₹40 with 5 kg at ₹60, the total cost is 120 + 300 = ₹420 for 8 kg, so ₹52.5 per kg.",
+      "If a salary is split in the ratio 3 : 2 : 1 and the smallest share is ₹4,000, the total is ₹24,000 and the largest share ₹12,000.",
+      "Always check: the final selling price must exceed the cost if there is a profit."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Chains hide base changes",
+        "content": "A discount applies to the marked price, not the cost; a profit is on the cost, not the selling price."
+      },
+      {
+        "title": "Combine, then simplify",
+        "content": "Multiply the factors first (1.25 × 0.9 = 1.125) and apply once."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Mark-up and discount",
+      "description": "Two bases.",
+      "exampleSnippet": "Retail pricing"
+    },
+    {
+      "typeName": "Wages by work",
+      "description": "Ratios.",
+      "exampleSnippet": "Shared job"
+    },
+    {
+      "typeName": "Mixtures by cost",
+      "description": "Weighted mean.",
+      "exampleSnippet": "Tea blend"
+    },
+    {
+      "typeName": "Ratio and money",
+      "description": "Shares.",
+      "exampleSnippet": "Salary split"
+    },
+    {
+      "typeName": "Interest and ratio",
+      "description": "Split principal.",
+      "exampleSnippet": "Two investments"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mqm-multi-concept-1",
+      "title": "Chain",
+      "question": "Goods cost ₹800, are marked 25% above cost and sold at 10% discount. Find the profit percentage.",
+      "givenInfo": [
+        "800",
+        "25%",
+        "10%"
+      ],
+      "conceptOrFormula": "Cost → marked → selling.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Marked",
+          "explanation": "800 × 1.25 = 1,000."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Selling",
+          "explanation": "1,000 × 0.9 = 900."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Profit %",
+          "explanation": "100 ÷ 800 = 12.5%."
+        }
+      ],
+      "finalAnswer": "12.5%",
+      "whyItWorks": "Profit is on cost.",
+      "commonTrap": "Saying 15%.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mqm-multi-concept-2",
+      "title": "Wages",
+      "question": "A and B do 3 : 2 of a job and earn ₹5,000 together. What does A get?",
+      "givenInfo": [
+        "3 : 2",
+        "₹5,000"
+      ],
+      "conceptOrFormula": "Split by work.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Share",
+          "explanation": "3/5 of 5,000."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Value",
+          "explanation": "₹3,000."
+        }
+      ],
+      "finalAnswer": "₹3,000",
+      "whyItWorks": "In the ratio of work.",
+      "commonTrap": "Splitting equally.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mqm-multi-concept-3",
+      "title": "Mixture price",
+      "question": "3 kg tea at ₹40 and 5 kg at ₹60 are mixed. Find the price per kg.",
+      "givenInfo": [
+        "3 kg, 5 kg"
+      ],
+      "conceptOrFormula": "Total cost over total weight.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Cost",
+          "explanation": "120 + 300 = 420."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Per kg",
+          "explanation": "420 ÷ 8 = ₹52.5."
+        }
+      ],
+      "finalAnswer": "₹52.5",
+      "whyItWorks": "Weighted, not (40 + 60)/2.",
+      "commonTrap": "Taking 50.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Write the chain",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Do it all in the head.",
+      "shortcutMethod": "Write the chain of quantities and compute one link at a time; combine factors only at the end."
+    },
+    "rulesForApplication": [
+      "Discount on marked price.",
+      "Profit on cost.",
+      "Weighted means for mixtures.",
+      "Check the last link."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Profit on the selling price",
+      "whyItHappens": "Wrong base.",
+      "howToAvoid": "Divide by cost."
+    },
+    {
+      "mistake": "Discount on the cost",
+      "whyItHappens": "Wrong base.",
+      "howToAvoid": "Apply to marked price."
+    },
+    {
+      "mistake": "Plain average in a mixture",
+      "whyItHappens": "Ignores quantities.",
+      "howToAvoid": "Use total ÷ total."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 100,
+    "eliminationTechnique": "The selling price must be between cost and marked price when there is a discount.",
+    "questionSelectionAdvice": "Write the chain on paper.",
+    "recruiterInsight": "Longer chains are just repeated single steps."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mqm-multi-concept-e1",
+        "question": "Goods costing ₹800 are marked 25% above cost and sold at a 10% discount. The selling price is (₹)",
+        "options": [
+          "990",
+          "900",
+          "810",
+          "1125"
+        ],
+        "correctAnswer": "900",
+        "explanation": "Marked = 1,000; selling = 900.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-multi-concept-e2",
+        "question": "Goods costing ₹800 are marked 25% above cost and sold at a 10% discount. The profit percentage is",
+        "options": [
+          "12.5%",
+          "13.8%",
+          "11.3%",
+          "15.6%"
+        ],
+        "correctAnswer": "12.5%",
+        "explanation": "Profit 100 on cost 800 = 12.5%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-multi-concept-e3",
+        "question": "A and B do work in the ratio 3 : 2 and earn ₹5,000. A's share is (₹)",
+        "options": [
+          "3300",
+          "2700",
+          "3750",
+          "3000"
+        ],
+        "correctAnswer": "3000",
+        "explanation": "3/5 of 5,000 = 3,000.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mqm-multi-concept-i7",
+        "question": "A trader marks goods 40% above cost and gives 20% discount. His profit percentage is",
+        "options": [
+          "12%",
+          "13%",
+          "11%",
+          "15%"
+        ],
+        "correctAnswer": "12%",
+        "explanation": "1.4 × 0.8 = 1.12, a 12% profit.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-multi-concept-i8",
+        "question": "A and B can do a job in 10 and 15 days. They earn ₹6,000. B's share if both work together to the end is (₹)",
+        "options": [
+          "2640",
+          "2160",
+          "3000",
+          "2400"
+        ],
+        "correctAnswer": "2400",
+        "explanation": "Work ratio = 1/10 : 1/15 = 3 : 2; B gets 2/5 of 6,000 = 2,400.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-multi-concept-i9",
+        "question": "Milk at ₹40 per litre is mixed with water in the ratio 4 : 1 and sold at ₹40 per litre. The profit percentage is",
+        "options": [
+          "28%",
+          "23%",
+          "31%",
+          "25%"
+        ],
+        "correctAnswer": "25%",
+        "explanation": "Cost of 5 litres of mixture = 4 × 40 = 160; selling 5 × 40 = 200; profit 40/160 = 25%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mqm-multi-concept-a15",
+        "question": "A shopkeeper sells an article at a 10% discount and still gains 8%. His mark-up over cost (percent) is",
+        "options": [
+          "22%",
+          "18%",
+          "20%",
+          "25%"
+        ],
+        "correctAnswer": "20%",
+        "explanation": "Marked = cost × 1.08/0.9 = 1.2 × cost, so the mark-up is 20%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-multi-concept-a16",
+        "question": "Two alloys contain copper and zinc in 2 : 3 and 3 : 2. Equal weights are mixed. The percentage of copper is",
+        "options": [
+          "55%",
+          "50%",
+          "45%",
+          "63%"
+        ],
+        "correctAnswer": "50%",
+        "explanation": "Copper fraction = (2/5 + 3/5)/2 = 1/2 = 50%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mqm-multi-concept-p17",
+        "question": "A, B and C invest ₹6,000, ₹8,000 and ₹10,000 for 12, 9 and 6 months. The profit is ₹4,800. B's share is (₹)",
+        "options": [
+          "1863",
+          "1694",
+          "1525",
+          "2118"
+        ],
+        "correctAnswer": "1694",
+        "explanation": "Investment × time: 72,000 : 72,000 : 60,000 = 6 : 6 : 5; B gets 6/17 of 4,800 ≈ 1,694.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-multi-concept-p18",
+        "question": "A tank is filled by a pipe in 6 hours. After 2 hours a second pipe that fills it in 12 hours is also opened. The total time to fill is (hours)",
+        "options": [
+          "4.67",
+          "5.14",
+          "4.2",
+          "5.84"
+        ],
+        "correctAnswer": "4.67",
+        "explanation": "In 2 h: 1/3 filled. Remaining 2/3 at 1/4 per hour: 8/3 h; total 2 + 8/3 = 4.67.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-multi-concept-p19",
+        "question": "The average of 10 numbers is 40. When one number is replaced by 90 the average becomes 42. The replaced number was",
+        "options": [
+          "77",
+          "63",
+          "88",
+          "70"
+        ],
+        "correctAnswer": "70",
+        "explanation": "Total rises by 20, so the old number was 90 − 20 = 70.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Chain.",
+      "Mark-up/discount.",
+      "Wages.",
+      "Mixtures.",
+      "Check."
+    ],
+    "quickFormulas": [
+      "SP = CP(1 + m)(1 − d)"
+    ]
+  },
+  "keyTakeaways": [
+    "Chain first.",
+    "Right base.",
+    "Weighted mean.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I write the chain?",
+    "Can I choose the right base?",
+    "Can I split in a ratio?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic areas; examples in this chapter are original."
+    }
+  ]
+}

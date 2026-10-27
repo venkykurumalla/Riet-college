@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-mqm-problem-solving",
+  "topicTitle": "Mixed Quantitative — Integrated Problem Solving",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A ₹800 article is sold after successive discounts of 20% and 10%. The selling price is (₹)",
+      "options": [
+        "634",
+        "576",
+        "518",
+        "720"
+      ],
+      "answerIndex": 1,
+      "explanation": "Multiply the factors: 800 × 0.8 × 0.9 = 576."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Two numbers are in the ratio 3 : 5 and their sum is 160. The larger number is",
+      "options": [
+        "100",
+        "110",
+        "90",
+        "125"
+      ],
+      "answerIndex": 0,
+      "explanation": "160 × 5/8 = 100."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The simple interest on ₹5,000 at 8% per annum for 3 years is (₹)",
+      "options": [
+        "1320",
+        "1080",
+        "1500",
+        "1200"
+      ],
+      "answerIndex": 3,
+      "explanation": "5,000 × 8 × 3 ÷ 100 = 1,200."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The average of five numbers is 24. A sixth number, 36, is added. The new average is",
+      "options": [
+        "29",
+        "23",
+        "26",
+        "33"
+      ],
+      "answerIndex": 2,
+      "explanation": "Total = 120 + 36 = 156; 156 ÷ 6 = 26."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A car travels at 60 km/h for 2.5 hours. The distance is (km)",
+      "options": [
+        "165",
+        "135",
+        "150",
+        "188"
+      ],
+      "answerIndex": 2,
+      "explanation": "60 × 2.5 = 150."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A can do a job in 12 days and B in 24 days. Together they finish in (days)",
+      "options": [
+        "9",
+        "8",
+        "7",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "1/12 + 1/24 = 3/24, so 24/3 = 8 days."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The compound interest on ₹10,000 at 10% per annum for 2 years is (₹)",
+      "options": [
+        "2100",
+        "2310",
+        "1890",
+        "2625"
+      ],
+      "answerIndex": 0,
+      "explanation": "Amount = 10,000 × 1.21 = 12,100; interest = 2,100."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A train 240 m long crosses a pole in 12 seconds. Its speed is (km/h)",
+      "options": [
+        "79",
+        "65",
+        "90",
+        "72"
+      ],
+      "answerIndex": 3,
+      "explanation": "240 ÷ 12 = 20 m/s = 20 × 3.6 = 72 km/h."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "An article is sold for ₹600 at a profit of 25% on cost. The cost price is (₹)",
+      "options": [
+        "528",
+        "432",
+        "600",
+        "480"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cost = 600 ÷ 1.25 = 480."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A 40-litre mixture has milk and water in the ratio 3 : 1. After adding 10 litres of water, the percentage of milk is",
+      "options": [
+        "66%",
+        "54%",
+        "60%",
+        "75%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Milk = 30 L; total = 50 L; 30 ÷ 50 = 60%."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A town of 20,000 people grows by 10% and then falls by 10%. Its population is now",
+      "options": [
+        "21780",
+        "19800",
+        "17820",
+        "24750"
+      ],
+      "answerIndex": 1,
+      "explanation": "20,000 × 1.1 × 0.9 = 19,800."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Two pipes fill a tank in 12 and 20 hours, and a leak empties it in 30 hours. With all three open it fills in (hours)",
+      "options": [
+        "10",
+        "11",
+        "9",
+        "13"
+      ],
+      "answerIndex": 0,
+      "explanation": "1/12 + 1/20 − 1/30 = 6/60 = 1/10, so 10 hours."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A boat goes at 9 km/h in still water and the stream is 3 km/h. The time to go 36 km downstream is (hours)",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "Downstream speed = 12 km/h; 36 ÷ 12 = 3 hours."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "In how many ways can 5 different books be arranged on a shelf so that two particular books are together?",
+      "options": [
+        "53",
+        "43",
+        "60",
+        "48"
+      ],
+      "answerIndex": 3,
+      "explanation": "Treat the two as one: 4! × 2! = 24 × 2 = 48."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A sum amounts to ₹6,500 in 2 years and ₹7,250 in 3 years at simple interest. The rate per annum is",
+      "options": [
+        "17%",
+        "14%",
+        "15%",
+        "19%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Interest per year = 750; principal = 6,500 − 1,500 = 5,000; rate = 750 ÷ 5,000 = 15%."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Incomes of A and B are in the ratio 5 : 4 and expenditures in the ratio 3 : 2. Each saves ₹2,000. A's income is (₹)",
+      "options": [
+        "5500",
+        "5000",
+        "4500",
+        "6250"
+      ],
+      "answerIndex": 1,
+      "explanation": "5x − 3y = 2,000 and 4x − 2y = 2,000 give x = 1,000, so A earns 5 × 1,000 = 5,000."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A man travels half the distance at 60 km/h and the other half at 40 km/h. His average speed is (km/h)",
+      "options": [
+        "53",
+        "48",
+        "43",
+        "60"
+      ],
+      "answerIndex": 1,
+      "explanation": "Equal distances: 2ab/(a + b) = 4,800/100 = 48."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Two dice are thrown. The probability that the sum is 9 is",
+      "options": [
+        "1/9",
+        "1/6",
+        "1/12",
+        "5/36"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sum 9 occurs in 4 ways (3+6, 4+5, 5+4, 6+3): 4/36 = 1/9."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Two runners at 8 m/s and 6 m/s start together from the same point of a 400 m track in opposite directions. They first meet after (seconds, to one decimal)",
+      "options": [
+        "31.5",
+        "25.7",
+        "35.8",
+        "28.6"
+      ],
+      "answerIndex": 3,
+      "explanation": "Relative speed 14 m/s; 400 ÷ 14 = 28.6."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A town of 50,000 grows by 20% in the first year and by 10% in the second. Its population after two years is",
+      "options": [
+        "72600",
+        "59400",
+        "66000",
+        "82500"
+      ],
+      "answerIndex": 2,
+      "explanation": "50,000 × 1.2 × 1.1 = 66,000."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

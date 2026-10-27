@@ -1,0 +1,423 @@
+{
+  "id": "y4-mqm-problem-solving",
+  "yearId": 4,
+  "category": "Advanced Aptitude / Mixed Problems",
+  "topicNumber": 1,
+  "title": "Mixed Quantitative — Integrated Problem Solving",
+  "tagline": "Year 4 — Problems that draw on several topics at once: choosing the method before computing",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A real placement paper does not label questions by topic. One question is a percentage problem, the next is about trains, the next about work, and a tough one combines two of them. Integrated problem solving is the skill of recognising what a question is really asking, picking the shortest method and avoiding the topic-specific traps. This chapter practises that recognition with mixed sets in which every answer is computed.",
+    "placementRelevance": "Mixed quantitative sections are how most company tests present aptitude; speed comes from recognising the type in seconds.",
+    "realWorldContext": "Everyday decisions (discounts, interest, travel time, shared work) mix these same ideas."
+  },
+  "learningObjectives": [
+    "Classify a question by its structure, not its story",
+    "Choose between algebra, ratio and arithmetic methods",
+    "Combine two topics in one calculation",
+    "Check answers against the size expected",
+    "Keep units consistent across steps"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Percentages",
+      "Ratio and Proportion",
+      "Time, Speed and Distance",
+      "Time and Work",
+      "Interest"
+    ],
+    "quickRefresher": "Successive changes multiply; ratios share totals; speed × time = distance; work rates add; interest is on principal (simple) or on the growing balance (compound)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Structure: the mathematical shape of a problem (a ratio, a rate, a repeated change).",
+      "Successive change: changes applied one after the other, which multiply.",
+      "Rate: a quantity per unit of time or per unit of another quantity.",
+      "Consistency check: confirming units and the size of the answer.",
+      "Method choice: deciding between algebra, ratio or shortcut before computing."
+    ],
+    "theoreticalIntuition": "Strip the story away and ask what the numbers do: split, grow, repeat, or race. That tells you the method.",
+    "visualOrMentalModel": "Read the question once to name the structure, then write only the numbers needed. Estimate the size of the answer before computing."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Successive change",
+      "formula": "Final = start × (1 ± a%)(1 ± b%)",
+      "description": "Two or more changes.",
+      "whenToUse": "Discounts, growth.",
+      "simpleExample": "800 × 0.8 × 0.9 = 576"
+    },
+    {
+      "title": "Ratio split",
+      "formula": "Part = total × a/(a + b)",
+      "description": "Two-way split.",
+      "whenToUse": "Sharing.",
+      "simpleExample": "160 × 5/8 = 100"
+    },
+    {
+      "title": "Simple interest",
+      "formula": "SI = P × r × t / 100",
+      "description": "Interest on principal.",
+      "whenToUse": "Loans.",
+      "simpleExample": "5,000 × 8 × 3/100 = 1,200"
+    },
+    {
+      "title": "Compound interest",
+      "formula": "A = P(1 + r/100)ⁿ",
+      "description": "Annual compounding.",
+      "whenToUse": "Growth.",
+      "simpleExample": "10,000 at 10% for 2 years = 12,100"
+    },
+    {
+      "title": "Combined work",
+      "formula": "1/T = 1/a + 1/b",
+      "description": "Two workers.",
+      "whenToUse": "Work.",
+      "simpleExample": "1/12 + 1/24 = 1/8"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A shopkeeper allows 20% and then 10% off ₹800. The two discounts multiply: 800 × 0.8 × 0.9 = ₹576. A single 30% discount would give ₹560, which is wrong.",
+      "If A does a job in 12 days and B in 24, together they take 1/(1/12 + 1/24) = 8 days.",
+      "A train 240 m long crosses a pole in 12 s, so its speed is 240/12 = 20 m/s = 72 km/h.",
+      "A town of 20,000 grows 10% and then shrinks 10%: 20,000 × 1.1 × 0.9 = 19,800, a net 1% fall.",
+      "For a mixture of 40 L in the ratio 3 : 1 (milk : water), milk is 30 L. Adding 10 L of water makes the total 50 L and milk 60%."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Estimate first",
+        "content": "If the answer must lie between two numbers you can compute, estimate before the full calculation to catch slips."
+      },
+      {
+        "title": "Same story, different method",
+        "content": "A \"% of a %\" question is multiplication; a \"how many days\" question is rates; do not use the same tool for both."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Percentage and ratio",
+      "description": "Share then percentage.",
+      "exampleSnippet": "Mixtures"
+    },
+    {
+      "typeName": "Interest and growth",
+      "description": "Repeated multiplication.",
+      "exampleSnippet": "Population"
+    },
+    {
+      "typeName": "Speed and time",
+      "description": "Distance relations.",
+      "exampleSnippet": "Trains"
+    },
+    {
+      "typeName": "Work and rates",
+      "description": "Add rates.",
+      "exampleSnippet": "Pipes"
+    },
+    {
+      "typeName": "Counting",
+      "description": "Arrangements.",
+      "exampleSnippet": "Books together"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mqm-problem-solving-1",
+      "title": "Successive discounts",
+      "question": "A ₹800 article is sold after discounts of 20% and 10%. Find the price.",
+      "givenInfo": [
+        "800",
+        "20%, 10%"
+      ],
+      "conceptOrFormula": "Multiply the factors.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Factors",
+          "explanation": "0.8 × 0.9 = 0.72."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Price",
+          "explanation": "800 × 0.72 = ₹576."
+        }
+      ],
+      "finalAnswer": "₹576",
+      "whyItWorks": "Not a 30% discount.",
+      "commonTrap": "Adding 20% and 10%.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mqm-problem-solving-2",
+      "title": "Combined work",
+      "question": "A does a job in 12 days and B in 24 days. How long together?",
+      "givenInfo": [
+        "12 and 24 days"
+      ],
+      "conceptOrFormula": "Add rates.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rates",
+          "explanation": "1/12 + 1/24 = 3/24."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Time",
+          "explanation": "24/3 = 8 days."
+        }
+      ],
+      "finalAnswer": "8 days",
+      "whyItWorks": "Rates add, times do not.",
+      "commonTrap": "Averaging the times.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mqm-problem-solving-3",
+      "title": "Percent up then down",
+      "question": "A population of 20,000 grows 10% and then falls 10%. What is it now?",
+      "givenInfo": [
+        "20,000"
+      ],
+      "conceptOrFormula": "Multiply.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Factor",
+          "explanation": "1.1 × 0.9 = 0.99."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Value",
+          "explanation": "20,000 × 0.99 = 19,800."
+        }
+      ],
+      "finalAnswer": "19,800",
+      "whyItWorks": "Net change is −1%.",
+      "commonTrap": "Saying no change.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Name the structure",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Start calculating at once.",
+      "shortcutMethod": "Name the structure (split, grow, repeat, race), pick that method, and estimate the size of the answer first."
+    },
+    "rulesForApplication": [
+      "Successive changes multiply.",
+      "Rates add.",
+      "Estimate first.",
+      "Keep units aligned."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Adding successive percentages",
+      "whyItHappens": "Wrong base.",
+      "howToAvoid": "Multiply the factors."
+    },
+    {
+      "mistake": "Mixing km/h and m/s",
+      "whyItHappens": "Unit slip.",
+      "howToAvoid": "Convert once at the start."
+    },
+    {
+      "mistake": "Using the wrong topic tool",
+      "whyItHappens": "Method mismatch.",
+      "howToAvoid": "Name the structure first."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 75,
+    "eliminationTechnique": "Reject options that are far from your estimate.",
+    "questionSelectionAdvice": "Skip a problem whose structure you cannot name in 20 seconds.",
+    "recruiterInsight": "Mixed sets reward recognition over calculation."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mqm-problem-solving-e1",
+        "question": "A ₹800 article is sold after successive discounts of 20% and 10%. The selling price is (₹)",
+        "options": [
+          "634",
+          "576",
+          "518",
+          "720"
+        ],
+        "correctAnswer": "576",
+        "explanation": "Multiply the factors: 800 × 0.8 × 0.9 = 576.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-problem-solving-e2",
+        "question": "Two numbers are in the ratio 3 : 5 and their sum is 160. The larger number is",
+        "options": [
+          "100",
+          "110",
+          "90",
+          "125"
+        ],
+        "correctAnswer": "100",
+        "explanation": "160 × 5/8 = 100.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-problem-solving-e3",
+        "question": "The simple interest on ₹5,000 at 8% per annum for 3 years is (₹)",
+        "options": [
+          "1320",
+          "1080",
+          "1500",
+          "1200"
+        ],
+        "correctAnswer": "1200",
+        "explanation": "5,000 × 8 × 3 ÷ 100 = 1,200.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mqm-problem-solving-i7",
+        "question": "The compound interest on ₹10,000 at 10% per annum for 2 years is (₹)",
+        "options": [
+          "2100",
+          "2310",
+          "1890",
+          "2625"
+        ],
+        "correctAnswer": "2100",
+        "explanation": "Amount = 10,000 × 1.21 = 12,100; interest = 2,100.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-problem-solving-i8",
+        "question": "A train 240 m long crosses a pole in 12 seconds. Its speed is (km/h)",
+        "options": [
+          "79",
+          "65",
+          "90",
+          "72"
+        ],
+        "correctAnswer": "72",
+        "explanation": "240 ÷ 12 = 20 m/s = 20 × 3.6 = 72 km/h.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-problem-solving-i9",
+        "question": "An article is sold for ₹600 at a profit of 25% on cost. The cost price is (₹)",
+        "options": [
+          "528",
+          "432",
+          "600",
+          "480"
+        ],
+        "correctAnswer": "480",
+        "explanation": "Cost = 600 ÷ 1.25 = 480.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mqm-problem-solving-a15",
+        "question": "A sum amounts to ₹6,500 in 2 years and ₹7,250 in 3 years at simple interest. The rate per annum is",
+        "options": [
+          "17%",
+          "14%",
+          "15%",
+          "19%"
+        ],
+        "correctAnswer": "15%",
+        "explanation": "Interest per year = 750; principal = 6,500 − 1,500 = 5,000; rate = 750 ÷ 5,000 = 15%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-problem-solving-a16",
+        "question": "Incomes of A and B are in the ratio 5 : 4 and expenditures in the ratio 3 : 2. Each saves ₹2,000. A's income is (₹)",
+        "options": [
+          "5500",
+          "5000",
+          "4500",
+          "6250"
+        ],
+        "correctAnswer": "5000",
+        "explanation": "5x − 3y = 2,000 and 4x − 2y = 2,000 give x = 1,000, so A earns 5 × 1,000 = 5,000.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mqm-problem-solving-p17",
+        "question": "A man travels half the distance at 60 km/h and the other half at 40 km/h. His average speed is (km/h)",
+        "options": [
+          "53",
+          "48",
+          "43",
+          "60"
+        ],
+        "correctAnswer": "48",
+        "explanation": "Equal distances: 2ab/(a + b) = 4,800/100 = 48.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-problem-solving-p18",
+        "question": "Two dice are thrown. The probability that the sum is 9 is",
+        "options": [
+          "1/9",
+          "1/6",
+          "1/12",
+          "5/36"
+        ],
+        "correctAnswer": "1/9",
+        "explanation": "Sum 9 occurs in 4 ways (3+6, 4+5, 5+4, 6+3): 4/36 = 1/9.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-problem-solving-p19",
+        "question": "Two runners at 8 m/s and 6 m/s start together from the same point of a 400 m track in opposite directions. They first meet after (seconds, to one decimal)",
+        "options": [
+          "31.5",
+          "25.7",
+          "35.8",
+          "28.6"
+        ],
+        "correctAnswer": "28.6",
+        "explanation": "Relative speed 14 m/s; 400 ÷ 14 = 28.6.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Name the structure.",
+      "Successive change.",
+      "Rates add.",
+      "Interest.",
+      "Estimate."
+    ],
+    "quickFormulas": [
+      "Final = start × factors"
+    ]
+  },
+  "keyTakeaways": [
+    "Recognise first.",
+    "Multiply changes.",
+    "Add rates.",
+    "Check size."
+  ],
+  "selfCheckQuestions": [
+    "Can I name a problem's structure?",
+    "Can I choose the shortest method?",
+    "Can I estimate before computing?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic areas; examples in this chapter are original."
+    }
+  ]
+}
