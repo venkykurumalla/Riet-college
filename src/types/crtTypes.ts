@@ -224,3 +224,25 @@ export interface TopicQuizData {
   morePracticeUrl?: string; // link-only, never embedded
   questions: TopicQuizQuestion[];
 }
+
+// Extra reading material for a chapter (src/data/reading/<topicId>.json), loaded on demand.
+export interface CRTReadingExample {
+  level: 'Easy' | 'Medium' | 'Placement';
+  question: string;
+  steps: string[];
+  answer: string;
+  shortcut?: string; // aptitude topics: the quick method shown beside the normal one
+}
+
+export interface CRTReadingGuide {
+  topicId: string;
+  buildUp: { heading: string; paragraphs: string[] }[];
+  keyTerms: { term: string; meaning: string }[];
+  rules: { rule: string; condition: string }[];
+  recognise: string[];
+  workedExamples: CRTReadingExample[];
+  variations: { name: string; note: string }[];
+  mistakes: { wrong: string; why: string; corrected: string }[];
+  revisionTable: { headers: string[]; rows: string[][] };
+  tryIt: { question: string; answer: string; hint?: string }[];
+}
