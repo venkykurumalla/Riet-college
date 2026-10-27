@@ -125,12 +125,6 @@ export interface CRTTopic {
     questionSelectionAdvice: string;
     recruiterInsight: string;
   };
-  practiceSets: {
-    easy: CRTPracticeQuestion[];
-    intermediate: CRTPracticeQuestion[];
-    advanced: CRTPracticeQuestion[];
-    placementStyle?: CRTPracticeQuestion[];
-  };
   mixedChallengeSet?: CRTPracticeQuestion[];
   quickRevision: {
     summaryBullets: string[];

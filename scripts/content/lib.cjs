@@ -46,16 +46,6 @@ function expandQuiz(topicId, topicTitle, morePracticeUrl, qs) {
   return quiz;
 }
 
-const diffMap = { easy: 'Easy', medium: 'Intermediate', placement: 'Placement-Style' };
-const toPractice = (topicId, tag, q) => ({
-  id: `pq-${topicId}-${tag}${q.id}`,
-  question: q.question,
-  options: q.options,
-  correctAnswer: q.options[q.answerIndex],
-  explanation: q.explanation,
-  difficulty: diffMap[q.difficulty]
-});
-
 function expandChapter(c, quiz) {
   const qs = quiz.questions;
   const by = d => qs.filter(q => q.difficulty === d);
@@ -111,12 +101,6 @@ function expandChapter(c, quiz) {
       eliminationTechnique: c.tips.elim,
       questionSelectionAdvice: c.tips.advice,
       recruiterInsight: c.tips.insight
-    },
-    practiceSets: {
-      easy: by('easy').slice(0, 3).map(q => toPractice(c.id, 'e', q)),
-      intermediate: by('medium').slice(0, 3).map(q => toPractice(c.id, 'i', q)),
-      advanced: by('placement').slice(0, 2).map(q => toPractice(c.id, 'a', q)),
-      placementStyle: by('placement').slice(2, 5).map(q => toPractice(c.id, 'p', q))
     },
     quickRevision: { summaryBullets: c.revision, quickFormulas: c.quickFormulas },
     keyTakeaways: c.takeaways,

@@ -98,7 +98,7 @@ export const SyllabusSelectionPage: React.FC<SyllabusSelectionPageProps> = ({
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>Step-by-Step Solved Examples & Multi-Level Practice Sets</span>
+                  <span>Step-by-Step Solved Examples & Topic-Wise Quizzes</span>
                 </div>
               </div>
 

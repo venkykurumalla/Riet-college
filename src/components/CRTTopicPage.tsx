@@ -47,7 +47,6 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
   onBackToOverview
 }) => {
   const [isCompleted, setIsCompleted] = useState(false);
-  const [activePracticeTab, setActivePracticeTab] = useState<'easy' | 'intermediate' | 'advanced' | 'placementStyle'>('easy');
   const [revealedSolutions, setRevealedSolutions] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
@@ -56,7 +55,6 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
     setIsCompleted(prog.completed || prog.status === 'completed');
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setRevealedSolutions({});
-    setActivePracticeTab('easy');
   }, [topic.id, topic.yearId]);
 
   const handleToggleCompleted = () => {
@@ -85,20 +83,6 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
   const currentIndex = yearTopics.findIndex(t => t.id === topic.id);
   const prevTopic = currentIndex > 0 ? yearTopics[currentIndex - 1] : null;
   const nextTopic = currentIndex < yearTopics.length - 1 ? yearTopics[currentIndex + 1] : null;
-
-  const practiceTabs = [
-    { id: 'easy' as const, label: 'Level 1: Foundation', count: topic.practiceSets.easy?.length || 0 },
-    { id: 'intermediate' as const, label: 'Level 2: Intermediate', count: topic.practiceSets.intermediate?.length || 0 },
-    { id: 'advanced' as const, label: 'Level 3: Advanced', count: topic.practiceSets.advanced?.length || 0 },
-    ...(topic.practiceSets.placementStyle && topic.practiceSets.placementStyle.length > 0
-      ? [{ id: 'placementStyle' as const, label: 'Level 4: Placement Style', count: topic.practiceSets.placementStyle.length }]
-      : [])
-  ];
-
-  const activeQuestions =
-    activePracticeTab === 'placementStyle'
-      ? topic.practiceSets.placementStyle || []
-      : topic.practiceSets[activePracticeTab] || [];
 
   return (
     <motion.div
@@ -267,7 +251,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-5">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <Layers className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>4 & 5. Core Concepts, Models & Definitions</span>
+            <span>4. Core Concepts, Models & Definitions</span>
           </div>
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
             Theoretical Principles & Intuitive Models
@@ -306,7 +290,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <Target className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>6 & 7. Important Rules, Properties & Formula Sheet</span>
+            <span>5. Important Rules, Properties & Formula Sheet</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -352,7 +336,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <BookOpen className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>8. Comprehensive Chapter Narrative</span>
+            <span>6. Comprehensive Chapter Narrative</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -390,7 +374,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <Compass className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>9. Problem Types & Variations</span>
+            <span>7. Problem Types & Variations</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -425,7 +409,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
             <div>
               <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
                 <Lightbulb className="w-4 h-4 text-blue-600 shrink-0" />
-                <span>10. Comprehensive Solved Examples ({topic.solvedExamples.length} Fully Solved)</span>
+                <span>8. Comprehensive Solved Examples ({topic.solvedExamples.length} Fully Solved)</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
                 Detailed Step-by-Step Problem Demonstrations
@@ -536,7 +520,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
             <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
               <GitCompare className="w-4 h-4 text-blue-600 shrink-0" />
-              <span>11. Alternative Solving Approaches & Comparative Trade-Offs</span>
+              <span>9. Alternative Solving Approaches & Comparative Trade-Offs</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
               {topic.alternativeMethods.title}
@@ -571,7 +555,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <Zap className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>12. Faster / Shortcut Methods</span>
+            <span>10. Faster / Shortcut Methods</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -615,7 +599,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-amber-600 font-bold uppercase tracking-wider text-xs">
             <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0" />
-            <span>13. Common Mistakes & Recruiter Traps</span>
+            <span>11. Common Mistakes & Recruiter Traps</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -643,7 +627,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <Target className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>14. Placement Strategy & Question Triage</span>
+            <span>12. Placement Strategy & Question Triage</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -677,103 +661,12 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           </div>
         </div>
 
-        {/* 15. LARGE MULTI-TIER PRACTICE SECTION (15-30 QUESTIONS) */}
-        <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-6">
-          <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
-            <HelpCircle className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>15. Multi-Level Practice Problem Sets</span>
-          </div>
-
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-2 border-b border-slate-100">
-            <div>
-              <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
-                Curated Practice Questions & Solutions
-              </h2>
-              <p className="text-xs text-slate-500">
-                Categorized by progressive difficulty. Click any question to reveal its full step-by-step solution.
-              </p>
-            </div>
-
-            {/* Difficulty Tabs */}
-            <div className="flex items-center space-x-1 p-1 bg-slate-100 rounded-xl border border-slate-200 text-xs font-bold overflow-x-auto self-start sm:self-auto">
-              {practiceTabs.map(tab => (
-                <button
-                  key={tab.id}
-                  onClick={() => setActivePracticeTab(tab.id)}
-                  className={`px-3 py-1.5 rounded-lg whitespace-nowrap transition-colors cursor-pointer ${
-                    activePracticeTab === tab.id
-                      ? 'bg-blue-600 text-white shadow-xs'
-                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200'
-                  }`}
-                >
-                  {tab.label} ({tab.count})
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Active Questions List */}
-          <div className="space-y-4 pt-1">
-            {activeQuestions.map((q, qIdx) => {
-              const isRevealed = revealedSolutions[q.id];
-
-              return (
-                <div
-                  key={q.id}
-                  className="p-5 rounded-2xl bg-slate-50/80 border border-slate-200 space-y-3"
-                >
-                  <div className="flex items-start justify-between gap-3">
-                    <span className="font-extrabold text-xs text-blue-700 uppercase tracking-wider">
-                      Question {qIdx + 1} • {q.difficulty}
-                    </span>
-                    <button
-                      onClick={() => toggleSolution(q.id)}
-                      className="text-xs font-bold text-blue-600 hover:text-blue-800 transition-colors cursor-pointer flex items-center space-x-1"
-                    >
-                      <span>{isRevealed ? 'Hide Solution' : 'View Answer & Explanation'}</span>
-                      <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isRevealed ? 'rotate-180' : ''}`} />
-                    </button>
-                  </div>
-
-                  <p className="text-xs sm:text-sm font-semibold text-slate-900 leading-relaxed">
-                    {q.question}
-                  </p>
-
-                  {q.options && (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs pt-1">
-                      {q.options.map((opt, optIdx) => (
-                        <div
-                          key={optIdx}
-                          className="p-2.5 rounded-xl bg-white border border-slate-200 font-medium text-slate-800 shadow-2xs"
-                        >
-                          {opt}
-                        </div>
-                      ))}
-                    </div>
-                  )}
-
-                  {isRevealed && (
-                    <div className="p-4 rounded-xl bg-emerald-50/90 border border-emerald-200 text-xs text-emerald-950 space-y-1.5 animate-in fade-in duration-150">
-                      <div className="font-extrabold text-emerald-900 text-sm">
-                        Correct Answer: {q.correctAnswer}
-                      </div>
-                      <div className="text-emerald-800 leading-relaxed font-medium pt-1">
-                        <strong>Detailed Explanation:</strong> {q.explanation}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* 16. MIXED CHALLENGE SET */}
+        {/* 15. MIXED CHALLENGE SET */}
         {topic.mixedChallengeSet && topic.mixedChallengeSet.length > 0 && (
           <div className="rounded-3xl bg-slate-900 text-white p-6 sm:p-8 shadow-md space-y-5">
             <div className="flex items-center space-x-2 text-amber-400 font-bold uppercase tracking-wider text-xs">
               <Flame className="w-4 h-4 text-amber-400 shrink-0" />
-              <span>16. Mixed Challenge Problem Set</span>
+              <span>13. Mixed Challenge Problem Set</span>
             </div>
             <div>
               <h2 className="text-xl sm:text-2xl font-extrabold font-display">
@@ -840,11 +733,11 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           </div>
         )}
 
-        {/* 17. QUICK REVISION CHEAT-SHEET */}
+        {/* 16. QUICK REVISION CHEAT-SHEET */}
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <BookmarkCheck className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>17. Quick Revision Cheat-Sheet</span>
+            <span>14. Quick Revision Cheat-Sheet</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -881,11 +774,11 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           </div>
         </div>
 
-        {/* 18. KEY TAKEAWAYS */}
+        {/* 17. KEY TAKEAWAYS */}
         <div className="rounded-3xl bg-gradient-to-br from-blue-900 to-indigo-950 text-white p-6 sm:p-8 shadow-md space-y-4">
           <div className="flex items-center space-x-2 text-cyan-300 font-bold uppercase tracking-wider text-xs">
             <CheckSquare className="w-4 h-4 text-cyan-400 shrink-0" />
-            <span>18. Key Takeaways</span>
+            <span>15. Key Takeaways</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold font-display">
@@ -905,12 +798,12 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           </ul>
         </div>
 
-        {/* 19. SELF-CHECK REFLECTION */}
+        {/* 18. SELF-CHECK REFLECTION */}
         {topic.selfCheckQuestions && topic.selfCheckQuestions.length > 0 && (
           <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
             <div className="flex items-center space-x-2 text-emerald-700 font-bold uppercase tracking-wider text-xs">
               <Award className="w-4 h-4 text-emerald-600 shrink-0" />
-              <span>19. Self-Check Diagnostic Checklist</span>
+              <span>16. Self-Check Diagnostic Checklist</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
               Can You Confidently Solve These?
@@ -929,11 +822,11 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           </div>
         )}
 
-        {/* 20. SOURCES & REFERENCES */}
+        {/* 19. SOURCES & REFERENCES */}
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <FileText className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>20. Sources & Verified References</span>
+            <span>17. Sources & Verified References</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">

@@ -330,7 +330,7 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
                           {/* Action Footer */}
                           <div className="pt-3 border-t border-slate-200/80 flex items-center justify-between text-xs font-bold text-blue-700">
                             <span className="text-[11px] text-slate-500 font-medium">
-                              {topic.solvedExamples.length} Examples • {topic.practiceSets.easy.length + topic.practiceSets.intermediate.length + topic.practiceSets.advanced.length + (topic.practiceSets.placementStyle?.length || 0)} Practice Qs
+                              {topic.solvedExamples.length} Examples
                             </span>
                             <span className="flex items-center space-x-1 group-hover:translate-x-1 transition-transform">
                               <span>Open Chapter</span>

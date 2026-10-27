@@ -58,7 +58,7 @@ export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz }) =
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center space-x-2 text-indigo-700 font-bold uppercase tracking-wider text-xs">
           <ClipboardList className="w-4 h-4 shrink-0" />
-          <span>Topic Quiz • {quiz.topicTitle}</span>
+          <span>18. Topic Quiz • {quiz.topicTitle}</span>
         </div>
         {best !== undefined && (
           <span className="flex items-center gap-1 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-extrabold">
