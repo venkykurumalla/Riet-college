@@ -1,0 +1,419 @@
+{
+  "id": "y4-mrm-integrated-reasoning",
+  "yearId": 4,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 11,
+  "title": "Integrated Quantitative-Logical Reasoning",
+  "tagline": "Year 4 — Puzzles that mix logic and arithmetic: ages, sums, differences, multiples and ranking",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Integrated puzzles combine logical clues (oldest, younger than) with arithmetic clues (sums, differences, multiples). Every clue is a restriction on a small set of integers, so the strategy is to reduce the possibilities for each unknown, starting from the clue that is most specific, and to use the arithmetic clues to fix exact values once the ordering is known.",
+    "placementRelevance": "These puzzles are typical of the top-end reasoning sets and of integrated reasoning sections.",
+    "realWorldContext": "Allocating budgets under rules about totals and ordering uses the same reasoning."
+  },
+  "learningObjectives": [
+    "Translate each clue into a numeric restriction",
+    "Combine ordering with arithmetic clues",
+    "Use parity and multiples to eliminate values",
+    "Fix values from sums and differences",
+    "Verify the final values"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Multi-Constraint Logic Puzzles",
+      "Ages (quantitative)"
+    ],
+    "quickRefresher": "A difference clue links two unknowns; a sum clue links two unknowns; both together fix them."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Restriction: a condition an unknown must satisfy.",
+      "Ordering clue: says which is larger.",
+      "Difference clue: gives the gap between two values.",
+      "Parity: whether a number is odd or even.",
+      "Multiple clue: the value is divisible by a given number."
+    ],
+    "theoreticalIntuition": "Treat each person as an unknown with a short list of possible values. Each clue shortens a list.",
+    "visualOrMentalModel": "Write the allowed range, apply the extremes (oldest, youngest), then the difference and sum clues, then parity and multiples."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Difference",
+      "formula": "x − y = d",
+      "description": "Two unknowns.",
+      "whenToUse": "Link.",
+      "simpleExample": "Priya = Tara + 6"
+    },
+    {
+      "title": "Sum",
+      "formula": "x + y = s",
+      "description": "Two unknowns.",
+      "whenToUse": "Link.",
+      "simpleExample": "Ravi + Uma = 50"
+    },
+    {
+      "title": "Ordering",
+      "formula": "x > y",
+      "description": "Inequality.",
+      "whenToUse": "Bound.",
+      "simpleExample": "Uma > Ravi"
+    },
+    {
+      "title": "Multiple",
+      "formula": "x mod m = 0",
+      "description": "Restrict.",
+      "whenToUse": "Filter.",
+      "simpleExample": "Ravi multiple of 4"
+    },
+    {
+      "title": "Verify",
+      "formula": "All clues true",
+      "description": "End.",
+      "whenToUse": "Check.",
+      "simpleExample": "Final ages"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Five ages are in 20–32. Sunil is oldest, Tara youngest. Priya = Tara + 6 and Sunil = Priya + 3, so Sunil = Tara + 9. Tara is even, so Tara could be 20, 22, … and Sunil at most 32 gives Tara ≤ 23.",
+      "Ravi + Uma = 50 with Uma > Ravi and Ravi a multiple of 4. Ravi = 24, Uma = 26 (24 + 26 = 50) fits; Ravi = 20 would give Uma = 30 which would exceed Priya or break the order.",
+      "With Tara = 22: Priya = 28, Sunil = 31. Ravi = 24 and Uma = 26 lie between Tara and Priya as required (Tara youngest).",
+      "Check each clue on the final ages: Sunil 31 is oldest, Tara 22 youngest, 28 − 22 = 6, 24 + 26 = 50, 31 − 28 = 3, 24 is a multiple of 4, 22 is even.",
+      "If the puzzle seems to have two solutions, a clue has been misread."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Extremes first",
+        "content": "Oldest and youngest clues bound everyone else."
+      },
+      {
+        "title": "Parity and multiples",
+        "content": "These filter candidate values quickly after sums fix pairs."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Ages",
+      "description": "Differences and sums.",
+      "exampleSnippet": "Five friends"
+    },
+    {
+      "typeName": "Ranks",
+      "description": "Ordering.",
+      "exampleSnippet": "Oldest, youngest"
+    },
+    {
+      "typeName": "Multiples",
+      "description": "Divisibility.",
+      "exampleSnippet": "Multiple of 4"
+    },
+    {
+      "typeName": "Totals",
+      "description": "Sum clues.",
+      "exampleSnippet": "Ravi + Uma"
+    },
+    {
+      "typeName": "Checks",
+      "description": "All clues.",
+      "exampleSnippet": "Final ages"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mrm-integrated-reasoning-1",
+      "title": "Linking differences",
+      "question": "Priya is 6 years older than Tara and Sunil is 3 years older than Priya. By how much is Sunil older than Tara?",
+      "givenInfo": [
+        "6 and 3"
+      ],
+      "conceptOrFormula": "Add the gaps.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Write the links",
+          "explanation": "Priya = Tara + 6 and Sunil = Priya + 3."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Combine",
+          "explanation": "Sunil = Tara + 9."
+        }
+      ],
+      "finalAnswer": "9 years",
+      "whyItWorks": "Gaps add along a chain.",
+      "commonTrap": "Taking 3.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mrm-integrated-reasoning-2",
+      "title": "Sum and order",
+      "question": "Ravi + Uma = 50, Uma is older than Ravi, and Ravi is a multiple of 4. If Ravi is between 22 and 26, find Ravi.",
+      "givenInfo": [
+        "Sum 50"
+      ],
+      "conceptOrFormula": "Filter candidates.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Multiples of 4",
+          "explanation": "24 only between 22 and 26."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Check",
+          "explanation": "Uma = 26 > 24."
+        }
+      ],
+      "finalAnswer": "24",
+      "whyItWorks": "Uma is 26.",
+      "commonTrap": "Picking 25.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mrm-integrated-reasoning-3",
+      "title": "Verify",
+      "question": "Ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26. Is Tara the youngest?",
+      "givenInfo": [
+        "Final ages"
+      ],
+      "conceptOrFormula": "Compare.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "List the ages",
+          "explanation": "28, 24, 31, 22, 26."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Smallest",
+          "explanation": "22 is smallest, and it is Tara's."
+        }
+      ],
+      "finalAnswer": "Yes",
+      "whyItWorks": "The check confirms it.",
+      "commonTrap": "Skipping verification.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Extremes then links",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try values.",
+      "shortcutMethod": "Use the oldest/youngest clues to bound, then difference and sum clues to link, then multiples and parity to finish."
+    },
+    "rulesForApplication": [
+      "Bounds first.",
+      "Differences chain.",
+      "Sums pair.",
+      "Verify."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Ignoring the range",
+      "whyItHappens": "Too many cases.",
+      "howToAvoid": "State the range first."
+    },
+    {
+      "mistake": "Using a clue twice for different people",
+      "whyItHappens": "Mix-ups.",
+      "howToAvoid": "Label each unknown."
+    },
+    {
+      "mistake": "Not verifying",
+      "whyItHappens": "Silent error.",
+      "howToAvoid": "Check each clue."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 180,
+    "eliminationTechnique": "A value outside the range is impossible.",
+    "questionSelectionAdvice": "List allowed values per person.",
+    "recruiterInsight": "Arithmetic clues usually fix pairs."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mrm-integrated-reasoning-e1",
+        "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is Tara's age?",
+        "options": [
+          "23",
+          "22",
+          "21",
+          "24"
+        ],
+        "correctAnswer": "22",
+        "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26, so Tara is 22.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-integrated-reasoning-e2",
+        "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is Sunil's age?",
+        "options": [
+          "31",
+          "32",
+          "30",
+          "33"
+        ],
+        "correctAnswer": "31",
+        "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26, so Sunil is 31.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-integrated-reasoning-e3",
+        "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is Priya's age?",
+        "options": [
+          "29",
+          "27",
+          "30",
+          "28"
+        ],
+        "correctAnswer": "28",
+        "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26, so Priya is 28.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mrm-integrated-reasoning-i7",
+        "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is the sum of the ages of all five friends?",
+        "options": [
+          "131",
+          "132",
+          "130",
+          "133"
+        ],
+        "correctAnswer": "131",
+        "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; 28 + 24 + 31 + 22 + 26 = 131.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-integrated-reasoning-i8",
+        "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is the average age of the five friends?",
+        "options": [
+          "26",
+          "25.8",
+          "27.2",
+          "26.2"
+        ],
+        "correctAnswer": "26.2",
+        "explanation": "Total 131 ÷ 5 = 26.2.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-integrated-reasoning-i9",
+        "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nBy how many years is Sunil older than Tara?",
+        "options": [
+          "10",
+          "8",
+          "11",
+          "9"
+        ],
+        "correctAnswer": "9",
+        "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; 31 − 22 = 9.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mrm-integrated-reasoning-a15",
+        "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nThe ratio of Tara's age to Sunil's age in its simplest form is",
+        "options": [
+          "2 : 3",
+          "11 : 14",
+          "22 : 31",
+          "21 : 31"
+        ],
+        "correctAnswer": "22 : 31",
+        "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; 22 : 31 has no common factor.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-integrated-reasoning-a16",
+        "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nIn how many years will Priya be twice as old as Tara is now?",
+        "options": [
+          "14",
+          "16",
+          "15",
+          "18"
+        ],
+        "correctAnswer": "16",
+        "explanation": "Twice Tara's present age is 44; 44 − 28 = 16.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mrm-integrated-reasoning-p17",
+        "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is the average age of the three youngest friends?",
+        "options": [
+          "23",
+          "24",
+          "25",
+          "26"
+        ],
+        "correctAnswer": "24",
+        "explanation": "Three youngest: Tara 22, Ravi 24, Uma 26; average 72 ÷ 3 = 24.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-integrated-reasoning-p18",
+        "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nHow many years ago was Sunil exactly twice as old as Tara was then?",
+        "options": [
+          "13",
+          "9",
+          "11",
+          "15"
+        ],
+        "correctAnswer": "13",
+        "explanation": "Sunil − Tara = 9 always; Sunil is twice Tara when Tara is 9, which was 22 − 9 = 13 years ago (Tara 9, Sunil 18).",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-integrated-reasoning-p19",
+        "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nThe sum of the ages of the oldest and youngest friends is",
+        "options": [
+          "52",
+          "54",
+          "55",
+          "53"
+        ],
+        "correctAnswer": "53",
+        "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; 31 + 22 = 53.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Ranges.",
+      "Extremes.",
+      "Differences.",
+      "Sums.",
+      "Multiples."
+    ],
+    "quickFormulas": [
+      "x − y = d; x + y = s"
+    ]
+  },
+  "keyTakeaways": [
+    "Bound.",
+    "Link.",
+    "Filter.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I chain differences?",
+    "Can I use sums?",
+    "Can I filter by multiples?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-mrm-integrated-reasoning",
+  "topicTitle": "Integrated Quantitative-Logical Reasoning",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is Tara's age?",
+      "options": [
+        "23",
+        "22",
+        "21",
+        "24"
+      ],
+      "answerIndex": 1,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26, so Tara is 22."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is Sunil's age?",
+      "options": [
+        "31",
+        "32",
+        "30",
+        "33"
+      ],
+      "answerIndex": 0,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26, so Sunil is 31."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is Priya's age?",
+      "options": [
+        "29",
+        "27",
+        "30",
+        "28"
+      ],
+      "answerIndex": 3,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26, so Priya is 28."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is Ravi's age?",
+      "options": [
+        "25",
+        "23",
+        "24",
+        "26"
+      ],
+      "answerIndex": 2,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26, so Ravi is 24."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is Uma's age?",
+      "options": [
+        "27",
+        "25",
+        "26",
+        "28"
+      ],
+      "answerIndex": 2,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26, so Uma is 26."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWho is the second oldest?",
+      "options": [
+        "Ravi",
+        "Priya",
+        "Uma",
+        "Tara"
+      ],
+      "answerIndex": 1,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; in order: Sunil 31, Priya 28, Uma 26, Ravi 24, Tara 22, so Priya is second oldest."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is the sum of the ages of all five friends?",
+      "options": [
+        "131",
+        "132",
+        "130",
+        "133"
+      ],
+      "answerIndex": 0,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; 28 + 24 + 31 + 22 + 26 = 131."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is the average age of the five friends?",
+      "options": [
+        "26",
+        "25.8",
+        "27.2",
+        "26.2"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total 131 ÷ 5 = 26.2."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nBy how many years is Sunil older than Tara?",
+      "options": [
+        "10",
+        "8",
+        "11",
+        "9"
+      ],
+      "answerIndex": 3,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; 31 − 22 = 9."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWho is the third oldest?",
+      "options": [
+        "Priya",
+        "Ravi",
+        "Uma",
+        "Tara"
+      ],
+      "answerIndex": 2,
+      "explanation": "In order Sunil 31, Priya 28, Uma 26, Ravi 24, Tara 22, so Uma is third."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is the difference between the ages of Uma and Ravi?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; 26 − 24 = 2."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is the sum of the ages of Priya and Tara?",
+      "options": [
+        "50",
+        "51",
+        "49",
+        "52"
+      ],
+      "answerIndex": 0,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; 28 + 22 = 50."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nHow old will Ravi be when Tara is 30?",
+      "options": [
+        "32",
+        "30",
+        "31",
+        "33"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tara is 22; 8 years later Ravi is 24 + 8 = 32."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nHow many of the five friends are older than 25?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "3"
+      ],
+      "answerIndex": 3,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; 31, 28 and 26 are above 25: 3."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nThe ratio of Tara's age to Sunil's age in its simplest form is",
+      "options": [
+        "2 : 3",
+        "11 : 14",
+        "22 : 31",
+        "21 : 31"
+      ],
+      "answerIndex": 2,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; 22 : 31 has no common factor."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nIn how many years will Priya be twice as old as Tara is now?",
+      "options": [
+        "14",
+        "16",
+        "15",
+        "18"
+      ],
+      "answerIndex": 1,
+      "explanation": "Twice Tara's present age is 44; 44 − 28 = 16."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhat is the average age of the three youngest friends?",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "answerIndex": 1,
+      "explanation": "Three youngest: Tara 22, Ravi 24, Uma 26; average 72 ÷ 3 = 24."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nHow many years ago was Sunil exactly twice as old as Tara was then?",
+      "options": [
+        "13",
+        "9",
+        "11",
+        "15"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sunil − Tara = 9 always; Sunil is twice Tara when Tara is 9, which was 22 − 9 = 13 years ago (Tara 9, Sunil 18)."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nThe sum of the ages of the oldest and youngest friends is",
+      "options": [
+        "52",
+        "54",
+        "55",
+        "53"
+      ],
+      "answerIndex": 3,
+      "explanation": "The ages are Priya 28, Ravi 24, Sunil 31, Tara 22, Uma 26; 31 + 22 = 53."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Five friends Priya, Ravi, Sunil, Tara and Uma have different ages, each a whole number of years from 20 to 32. The following facts are known:\n1. Sunil is the oldest of the five.\n2. Tara is the youngest of the five.\n3. Priya is 6 years older than Tara.\n4. The sum of the ages of Ravi and Uma is 50.\n5. Uma is older than Ravi.\n6. Sunil is 3 years older than Priya.\n7. Ravi's age is a multiple of 4.\n8. Tara's age is an even number.\n\nWhich of the following pairs of friends has ages that add up to exactly 50?",
+      "options": [
+        "Ravi and Sunil",
+        "Sunil and Tara",
+        "Priya and Tara",
+        "Priya and Uma"
+      ],
+      "answerIndex": 2,
+      "explanation": "Priya 28 + Tara 22 = 50. The other pairs give 55, 53 and 54."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/seating-arrangement/"
+}

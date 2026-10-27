@@ -1,0 +1,419 @@
+{
+  "id": "y4-mrm-complex-arrangements",
+  "yearId": 4,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 10,
+  "title": "Complex Multi-Row Arrangements",
+  "tagline": "Year 4 — Three rows of three: front, behind, left, right and diagonal clues on a grid",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A multi-row arrangement places people in a grid of rows and columns instead of a single line. Each person has two coordinates, so clues are of four kinds: row clues (same row, front row), column clues (same column, directly behind), neighbour clues in a row (immediate left or right) and diagonal clues. The method is to draw the grid, write coordinates for each placed person, and let each clue fix one coordinate.",
+    "placementRelevance": "Grid arrangements appear as the harder variant of seating puzzles in company tests.",
+    "realWorldContext": "Seat plans, warehouse shelves and classroom layouts are grids."
+  },
+  "learningObjectives": [
+    "Draw and label a grid with coordinates",
+    "Interpret front, behind, left, right and diagonal clues",
+    "Use corner and centre clues as anchors",
+    "Combine row and column information",
+    "Verify against every clue"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Multiple-Row Seating Arrangements",
+      "Multi-Constraint Logic Puzzles"
+    ],
+    "quickRefresher": "Facing north, left is west. \"Behind\" means the next row back in the same column."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Grid: rows and columns of seats.",
+      "Coordinates: (row, column) of a person.",
+      "Directly behind: next row, same column.",
+      "Diagonal: next row, adjacent column.",
+      "Anchor: a corner or centre clue that fixes a seat exactly."
+    ],
+    "theoreticalIntuition": "A grid puzzle is two line puzzles at once; every clue fixes a row, a column, or both.",
+    "visualOrMentalModel": "Draw a 3 × 3 box, mark anchors first, then use behind and left clues to extend, and finally use same-row or same-column clues."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Seat index",
+      "formula": "3 × row + column",
+      "description": "Rows 0–2, columns 0–2.",
+      "whenToUse": "Bookkeeping.",
+      "simpleExample": "Centre = 4"
+    },
+    {
+      "title": "Behind",
+      "formula": "Row + 1, same column",
+      "description": "Behind clue.",
+      "whenToUse": "Vertical.",
+      "simpleExample": "Behind A"
+    },
+    {
+      "title": "Left",
+      "formula": "Same row, column − 1",
+      "description": "Left clue.",
+      "whenToUse": "Horizontal.",
+      "simpleExample": "Left of B"
+    },
+    {
+      "title": "Diagonal",
+      "formula": "Row + 1, column + 1",
+      "description": "Diagonal clue.",
+      "whenToUse": "Corner moves.",
+      "simpleExample": "Behind-right"
+    },
+    {
+      "title": "Same row/column",
+      "formula": "Share one coordinate",
+      "description": "Group clue.",
+      "whenToUse": "Weak.",
+      "simpleExample": "Use last"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Nine friends sit in 3 rows. A is in the front row at the east end; F is immediately left of A, so F is front row centre. D is directly behind A (middle row east end) and G is directly behind D (back row east end).",
+      "B is in the centre. H is immediately left of B, so H is middle row west. I is directly behind B (back row centre). E is back row west.",
+      "The front row west is left for C. The grid is C F A / H B D / E I G.",
+      "Same-row and same-column clues are weaker; use them to choose between two remaining seats.",
+      "Always read the finished grid against each clue."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Anchors",
+        "content": "Corner and centre clues give exact coordinates; start there."
+      },
+      {
+        "title": "Direction conventions",
+        "content": "Check the facing direction: left and right swap if the group faces south."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Anchors",
+      "description": "Corners and centre.",
+      "exampleSnippet": "A, B"
+    },
+    {
+      "typeName": "Vertical clues",
+      "description": "Behind.",
+      "exampleSnippet": "D behind A"
+    },
+    {
+      "typeName": "Horizontal clues",
+      "description": "Left/right.",
+      "exampleSnippet": "F left of A"
+    },
+    {
+      "typeName": "Diagonal clues",
+      "description": "Corner moves.",
+      "exampleSnippet": "F behind-right of A"
+    },
+    {
+      "typeName": "Group clues",
+      "description": "Same row/column.",
+      "exampleSnippet": "G and A"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mrm-complex-arrangements-1",
+      "title": "Anchor and chain",
+      "question": "A is front row east end; D is directly behind A; G is directly behind D. Where is G?",
+      "givenInfo": [
+        "A (0,2)"
+      ],
+      "conceptOrFormula": "Move one row back each time.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "D",
+          "explanation": "Middle row, east end."
+        },
+        {
+          "stepNumber": 2,
+          "title": "G",
+          "explanation": "Back row, east end."
+        }
+      ],
+      "finalAnswer": "Back row, east end",
+      "whyItWorks": "Same column as A.",
+      "commonTrap": "Putting G beside D.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mrm-complex-arrangements-2",
+      "title": "Left clue",
+      "question": "B is at the centre and H is immediately left of B. Where is H?",
+      "givenInfo": [
+        "B centre"
+      ],
+      "conceptOrFormula": "Same row, column − 1.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Row",
+          "explanation": "Middle row."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Column",
+          "explanation": "West end."
+        }
+      ],
+      "finalAnswer": "Middle row, west end",
+      "whyItWorks": "Left means west.",
+      "commonTrap": "Putting H behind B.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mrm-complex-arrangements-3",
+      "title": "Grid",
+      "question": "The grid is C F A / H B D / E I G (front to back). Who sits directly behind B?",
+      "givenInfo": [
+        "Middle row centre B"
+      ],
+      "conceptOrFormula": "Next row, same column.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Column",
+          "explanation": "Centre."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Back row centre",
+          "explanation": "I."
+        }
+      ],
+      "finalAnswer": "I",
+      "whyItWorks": "I is in the back row.",
+      "commonTrap": "Choosing D.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Draw the box",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Hold it in your head.",
+      "shortcutMethod": "Draw a 3 × 3 box, mark anchors, extend with behind and left clues, use group clues last."
+    },
+    "rulesForApplication": [
+      "Anchors first.",
+      "Behind = row + 1.",
+      "Left = west.",
+      "Verify."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Confusing front and back",
+      "whyItHappens": "Row reversed.",
+      "howToAvoid": "Define the front row first."
+    },
+    {
+      "mistake": "Mixing left and right",
+      "whyItHappens": "Facing direction.",
+      "howToAvoid": "Left = west."
+    },
+    {
+      "mistake": "Skipping verification",
+      "whyItHappens": "Missed clue.",
+      "howToAvoid": "Test each clue."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 200,
+    "eliminationTechnique": "A person cannot occupy two seats.",
+    "questionSelectionAdvice": "Label coordinates as you place.",
+    "recruiterInsight": "Weak clues decide only at the end."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mrm-complex-arrangements-e1",
+        "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits in the front row at the east end?",
+        "options": [
+          "D",
+          "A",
+          "E",
+          "F"
+        ],
+        "correctAnswer": "A",
+        "explanation": "The rows (front to back) are C F A / H B D / E I G, so A sits there.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-complex-arrangements-e2",
+        "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits in the front row at the west end?",
+        "options": [
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        "correctAnswer": "C",
+        "explanation": "The rows (front to back) are C F A / H B D / E I G, so C sits there.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-complex-arrangements-e3",
+        "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits directly behind A?",
+        "options": [
+          "B",
+          "C",
+          "E",
+          "D"
+        ],
+        "correctAnswer": "D",
+        "explanation": "The rows (front to back) are C F A / H B D / E I G, so D sits directly behind A.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mrm-complex-arrangements-i7",
+        "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits directly behind B?",
+        "options": [
+          "I",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswer": "I",
+        "explanation": "The rows (front to back) are C F A / H B D / E I G, so I sits directly behind B.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-complex-arrangements-i8",
+        "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits immediately to the right of H?",
+        "options": [
+          "C",
+          "D",
+          "E",
+          "B"
+        ],
+        "correctAnswer": "B",
+        "explanation": "The rows (front to back) are C F A / H B D / E I G, so B sits immediately to the right of H.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-complex-arrangements-i9",
+        "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits directly in front of G?",
+        "options": [
+          "E",
+          "F",
+          "G",
+          "D"
+        ],
+        "correctAnswer": "D",
+        "explanation": "The rows (front to back) are C F A / H B D / E I G, so D sits directly in front of G.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mrm-complex-arrangements-a15",
+        "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits in the front row at the east end?",
+        "options": [
+          "D",
+          "E",
+          "B",
+          "F"
+        ],
+        "correctAnswer": "B",
+        "explanation": "The rows (front to back) are I E B / G A H / D C F, so B sits there.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-complex-arrangements-a16",
+        "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits directly in front of F?",
+        "options": [
+          "B",
+          "H",
+          "C",
+          "D"
+        ],
+        "correctAnswer": "H",
+        "explanation": "The rows (front to back) are I E B / G A H / D C F, so H sits directly in front of F.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mrm-complex-arrangements-p17",
+        "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits directly behind E?",
+        "options": [
+          "E",
+          "A",
+          "F",
+          "G"
+        ],
+        "correctAnswer": "A",
+        "explanation": "The rows (front to back) are I E B / G A H / D C F, so A sits directly behind E.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-complex-arrangements-p18",
+        "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits immediately to the right of G?",
+        "options": [
+          "A",
+          "D",
+          "E",
+          "F"
+        ],
+        "correctAnswer": "A",
+        "explanation": "The rows (front to back) are I E B / G A H / D C F, so A sits immediately to the right of G.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-complex-arrangements-p19",
+        "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nIn which row does B sit?",
+        "options": [
+          "The middle row",
+          "The back row",
+          "Cannot be determined",
+          "The front row"
+        ],
+        "correctAnswer": "The front row",
+        "explanation": "The rows (front to back) are I E B / G A H / D C F, so B sits in the front row.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Draw grid.",
+      "Anchors.",
+      "Behind/left.",
+      "Diagonals.",
+      "Verify."
+    ],
+    "quickFormulas": [
+      "Seat = 3 × row + column"
+    ]
+  },
+  "keyTakeaways": [
+    "Draw.",
+    "Anchor.",
+    "Extend.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I read a behind clue?",
+    "Can I use diagonals?",
+    "Can I verify a grid?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

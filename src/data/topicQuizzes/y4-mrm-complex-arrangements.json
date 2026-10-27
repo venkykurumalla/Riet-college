@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-mrm-complex-arrangements",
+  "topicTitle": "Complex Multi-Row Arrangements",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits in the front row at the east end?",
+      "options": [
+        "D",
+        "A",
+        "E",
+        "F"
+      ],
+      "answerIndex": 1,
+      "explanation": "The rows (front to back) are C F A / H B D / E I G, so A sits there."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits in the front row at the west end?",
+      "options": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answerIndex": 0,
+      "explanation": "The rows (front to back) are C F A / H B D / E I G, so C sits there."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits directly behind A?",
+      "options": [
+        "B",
+        "C",
+        "E",
+        "D"
+      ],
+      "answerIndex": 3,
+      "explanation": "The rows (front to back) are C F A / H B D / E I G, so D sits directly behind A."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits immediately to the left of B?",
+      "options": [
+        "C",
+        "D",
+        "H",
+        "E"
+      ],
+      "answerIndex": 2,
+      "explanation": "The rows (front to back) are C F A / H B D / E I G, so H sits immediately to the left of B."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits in the back row at the west end?",
+      "options": [
+        "B",
+        "C",
+        "E",
+        "D"
+      ],
+      "answerIndex": 2,
+      "explanation": "The rows (front to back) are C F A / H B D / E I G, so E sits there."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits exactly in the centre of the whole arrangement?",
+      "options": [
+        "E",
+        "B",
+        "F",
+        "G"
+      ],
+      "answerIndex": 1,
+      "explanation": "The rows (front to back) are C F A / H B D / E I G, so B is in the centre."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits directly behind B?",
+      "options": [
+        "I",
+        "C",
+        "D",
+        "E"
+      ],
+      "answerIndex": 0,
+      "explanation": "The rows (front to back) are C F A / H B D / E I G, so I sits directly behind B."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits immediately to the right of H?",
+      "options": [
+        "C",
+        "D",
+        "E",
+        "B"
+      ],
+      "answerIndex": 3,
+      "explanation": "The rows (front to back) are C F A / H B D / E I G, so B sits immediately to the right of H."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nWho sits directly in front of G?",
+      "options": [
+        "E",
+        "F",
+        "G",
+        "D"
+      ],
+      "answerIndex": 3,
+      "explanation": "The rows (front to back) are C F A / H B D / E I G, so D sits directly in front of G."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the front row at the east end.\n2. F sits immediately to the left of A.\n3. B sits in the middle row at the centre.\n4. D sits directly behind A.\n5. H sits immediately to the left of B.\n6. G sits directly behind D.\n7. I sits directly behind B.\n8. E sits in the back row at the west end.\n\nIn which row does D sit?",
+      "options": [
+        "The front row",
+        "The back row",
+        "The middle row",
+        "Cannot be determined"
+      ],
+      "answerIndex": 2,
+      "explanation": "The rows (front to back) are C F A / H B D / E I G, so D sits in the middle row."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits exactly in the centre of the whole arrangement?",
+      "options": [
+        "C",
+        "A",
+        "D",
+        "E"
+      ],
+      "answerIndex": 1,
+      "explanation": "The rows (front to back) are I E B / G A H / D C F, so A is in the centre."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits directly behind A?",
+      "options": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answerIndex": 0,
+      "explanation": "The rows (front to back) are I E B / G A H / D C F, so C sits directly behind A."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits in the front row at the west end?",
+      "options": [
+        "I",
+        "B",
+        "C",
+        "D"
+      ],
+      "answerIndex": 0,
+      "explanation": "The rows (front to back) are I E B / G A H / D C F, so I sits there."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits immediately to the left of A?",
+      "options": [
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answerIndex": 3,
+      "explanation": "The rows (front to back) are I E B / G A H / D C F, so G sits immediately to the left of A."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits in the front row at the east end?",
+      "options": [
+        "D",
+        "E",
+        "B",
+        "F"
+      ],
+      "answerIndex": 2,
+      "explanation": "The rows (front to back) are I E B / G A H / D C F, so B sits there."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits directly in front of F?",
+      "options": [
+        "B",
+        "H",
+        "C",
+        "D"
+      ],
+      "answerIndex": 1,
+      "explanation": "The rows (front to back) are I E B / G A H / D C F, so H sits directly in front of F."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits directly behind E?",
+      "options": [
+        "E",
+        "A",
+        "F",
+        "G"
+      ],
+      "answerIndex": 1,
+      "explanation": "The rows (front to back) are I E B / G A H / D C F, so A sits directly behind E."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits immediately to the right of G?",
+      "options": [
+        "A",
+        "D",
+        "E",
+        "F"
+      ],
+      "answerIndex": 0,
+      "explanation": "The rows (front to back) are I E B / G A H / D C F, so A sits immediately to the right of G."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nIn which row does B sit?",
+      "options": [
+        "The middle row",
+        "The back row",
+        "Cannot be determined",
+        "The front row"
+      ],
+      "answerIndex": 3,
+      "explanation": "The rows (front to back) are I E B / G A H / D C F, so B sits in the front row."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Nine friends A to I sit in three rows of three seats, all facing north. The front row is the northernmost row. Left means west. The following facts are known:\n1. A sits in the middle row at the centre.\n2. C sits directly behind A.\n3. A sits immediately to the left of H.\n4. H sits directly behind B.\n5. E sits immediately to the left of B.\n6. F sits in the back row at the east end.\n7. D sits in the back row at the west end.\n8. F sits diagonally behind and to the right of A.\n9. G and A sit in the same row.\n\nWho sits in the middle row at the west end?",
+      "options": [
+        "D",
+        "E",
+        "G",
+        "F"
+      ],
+      "answerIndex": 2,
+      "explanation": "The rows (front to back) are I E B / G A H / D C F, so G sits there."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/seating-arrangement/"
+}
