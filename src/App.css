@@ -1,0 +1,9 @@
+/* Custom component animations and overrides */
+.card-hover {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -10px rgba(30, 58, 138, 0.15);
+}

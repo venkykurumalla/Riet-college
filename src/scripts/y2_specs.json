@@ -1,0 +1,438 @@
+{
+  "yearId": 2,
+  "yearName": "2nd Year",
+  "levelTitle": "2nd Year Intermediate CRT \u2014 Applied Numerical, Logical & Verbal Aptitude",
+  "description": "Comprehensive 2nd-year intermediate curriculum designed to expand problem-solving capabilities across applied commercial mathematics, kinematic systems, categorical deductions, grammar improvement, and standard graph interpretation.",
+  "targetFocus": [
+    "Applied Commercial Arithmetic: Partnership, mixtures, compound interest, discounts, and successive percentages",
+    "Kinematics & Work Systems: Time & work, pipes & cisterns, relative speed, trains, and boats & streams",
+    "Intermediate Deductive Logic: Coded blood relations, Venn diagrams, categorical syllogisms, and linear seating",
+    "Applied Verbal & Data Interpretation: Sentence improvement, error detection, para jumbles, and bar/line/pie charts"
+  ],
+  "categories": [
+    {
+      "category": "Quantitative Aptitude",
+      "description": "Intermediate applied mathematics: Partnership, mixtures, compound interest, discounts, time-work, TSD, trains, boats, and quadratic equations.",
+      "topics": [
+        {
+          "id": "y2-quant-adv-ratio-prop",
+          "topicNumber": 1,
+          "title": "Advanced Ratio and Proportion",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-partnership",
+          "topicNumber": 2,
+          "title": "Partnership Arithmetic",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-mixtures-allegations",
+          "topicNumber": 3,
+          "title": "Mixtures and Allegations",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-compound-interest",
+          "topicNumber": 4,
+          "title": "Compound Interest",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-discounts",
+          "topicNumber": 5,
+          "title": "Discounts & Marked Price",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-successive-percentages",
+          "topicNumber": 6,
+          "title": "Successive Percentage Applications",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-adv-averages",
+          "topicNumber": 7,
+          "title": "Advanced Averages & Weighted Means",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-time-work",
+          "topicNumber": 8,
+          "title": "Time and Work Fundamentals",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-work-wages",
+          "topicNumber": 9,
+          "title": "Work and Wages",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-pipes-cisterns",
+          "topicNumber": 10,
+          "title": "Pipes and Cisterns Basics",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-tsd-fundamentals",
+          "topicNumber": 11,
+          "title": "Time, Speed and Distance Fundamentals",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-relative-speed",
+          "topicNumber": 12,
+          "title": "Relative Speed",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-problems-trains",
+          "topicNumber": 13,
+          "title": "Problems on Trains",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-boats-streams",
+          "topicNumber": 14,
+          "title": "Boats and Streams",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-algebraic-expressions",
+          "topicNumber": 15,
+          "title": "Algebraic Expressions",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-linear-equations",
+          "topicNumber": 16,
+          "title": "Linear Equations",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-quadratic-equations",
+          "topicNumber": 17,
+          "title": "Quadratic Equations",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-basic-geometry",
+          "topicNumber": 18,
+          "title": "Basic Geometry",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-basic-mensuration",
+          "topicNumber": 19,
+          "title": "Basic Mensuration 2D",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-quant-probability-fundamentals",
+          "topicNumber": 20,
+          "title": "Probability Fundamentals",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "category": "Logical Reasoning",
+      "description": "Intermediate deductive reasoning: Advanced coding, coded blood relations, direction paths, Venn diagrams, syllogisms, and seating.",
+      "topics": [
+        {
+          "id": "y2-lr-adv-coding",
+          "topicNumber": 1,
+          "title": "Advanced Coding-Decoding",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-symbol-coding",
+          "topicNumber": 2,
+          "title": "Symbol-Based Coding",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-adv-blood-relations",
+          "topicNumber": 3,
+          "title": "Advanced Blood Relations",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-complex-direction",
+          "topicNumber": 4,
+          "title": "Complex Direction Problems",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-ordering-sequencing",
+          "topicNumber": 5,
+          "title": "Ordering and Sequencing",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-venn-diagrams",
+          "topicNumber": 6,
+          "title": "Venn Diagram Problems",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-syllogisms",
+          "topicNumber": 7,
+          "title": "Syllogisms Fundamentals",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-statements-conclusions",
+          "topicNumber": 8,
+          "title": "Statements and Conclusions",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-statements-assumptions",
+          "topicNumber": 9,
+          "title": "Statements and Assumptions",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-data-sufficiency-intro",
+          "topicNumber": 10,
+          "title": "Data Sufficiency \u2014 Introduction",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-basic-seating",
+          "topicNumber": 11,
+          "title": "Basic Seating Arrangement",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-linear-arrangement",
+          "topicNumber": 12,
+          "title": "Linear Arrangement",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-logical-connectives",
+          "topicNumber": 13,
+          "title": "Logical Connectives",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-lr-mathematical-reasoning",
+          "topicNumber": 14,
+          "title": "Mathematical Reasoning",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "category": "Verbal Ability",
+      "description": "Intermediate English fluency: Advanced tenses, error detection, sentence improvement, contextual vocab, and paragraph completion.",
+      "topics": [
+        {
+          "id": "y2-verbal-adv-tenses",
+          "topicNumber": 1,
+          "title": "Advanced Tenses & Sequence of Tenses",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-verbal-error-detection",
+          "topicNumber": 2,
+          "title": "Error Detection",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-verbal-sentence-improvement",
+          "topicNumber": 3,
+          "title": "Sentence Improvement & Phrase Replacement",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-verbal-sentence-completion",
+          "topicNumber": 4,
+          "title": "Sentence Completion",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-verbal-contextual-vocab",
+          "topicNumber": 5,
+          "title": "Contextual Vocabulary & Collocations",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-verbal-word-usage",
+          "topicNumber": 6,
+          "title": "Word Usage & Confusable Words",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-verbal-para-completion",
+          "topicNumber": 7,
+          "title": "Paragraph Completion",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-verbal-basic-para-jumbles",
+          "topicNumber": 8,
+          "title": "Basic Para Jumbles",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-verbal-rc-foundation",
+          "topicNumber": 9,
+          "title": "Reading Comprehension \u2014 Foundation",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-verbal-vocab-in-context",
+          "topicNumber": 10,
+          "title": "Vocabulary in Context",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        }
+      ]
+    },
+    {
+      "category": "Data Interpretation",
+      "description": "Intermediate graphical analysis: Bar graphs, line graphs, pie charts, percentage DI, ratio DI, and average DI.",
+      "topics": [
+        {
+          "id": "y2-di-bar-graphs",
+          "topicNumber": 1,
+          "title": "Bar Graphs",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-di-line-graphs",
+          "topicNumber": 2,
+          "title": "Line Graphs",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-di-pie-charts",
+          "topicNumber": 3,
+          "title": "Pie Charts",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-di-percentage-di",
+          "topicNumber": 4,
+          "title": "Percentage-Based DI",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-di-ratio-di",
+          "topicNumber": 5,
+          "title": "Ratio-Based DI",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        },
+        {
+          "id": "y2-di-average-di",
+          "topicNumber": 6,
+          "title": "Average-Based DI",
+          "tagline": "2nd Year Intermediate \u2014 Applied Principles, Multi-Step Problem Solving & Analytical Fluency",
+          "estimatedMinutes": 50,
+          "difficulty": "Intermediate"
+        }
+      ]
+    }
+  ]
+}

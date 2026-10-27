@@ -1,0 +1,302 @@
+{
+  "yearId": 1,
+  "yearName": "1st Year",
+  "levelTitle": "1st Year Foundation CRT \u2014 Core Mathematical, Logical & Verbal Fundamentals",
+  "description": "Comprehensive 1st-year foundational curriculum designed to build solid mathematical fluency, step-by-step logical deductions, grammatical precision, and table/chart reading skills.",
+  "targetFocus": [
+    "Building core arithmetic intuition: Number properties, divisibility, fractions, percentages, and ratios",
+    "Developing systematic reasoning: Number/letter series, analogies, basic coding-decoding, and direction sense",
+    "Mastering English grammar fundamentals: Parts of speech, tenses, subject-verb agreement, and vocabulary",
+    "Interpreting foundational data representations: Tabular data extraction and basic chart comparisons"
+  ],
+  "categories": [
+    {
+      "category": "Quantitative Foundation",
+      "description": "Foundational arithmetic, number properties, fractions, percentages, ratios, and simple interest.",
+      "topics": [
+        {
+          "id": "y1-quant-num-sys",
+          "topicNumber": 1,
+          "title": "Number System Fundamentals",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-quant-divisibility",
+          "topicNumber": 2,
+          "title": "Divisibility Basics",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-quant-hcf-lcm",
+          "topicNumber": 3,
+          "title": "HCF and LCM Fundamentals",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-quant-fractions-decimals",
+          "topicNumber": 4,
+          "title": "Fractions and Decimals",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-quant-simplification",
+          "topicNumber": 5,
+          "title": "Simplification & BODMAS / PEMDAS",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-quant-basic-percentages",
+          "topicNumber": 6,
+          "title": "Basic Percentages",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-quant-basic-ratio",
+          "topicNumber": 7,
+          "title": "Basic Ratio",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-quant-basic-proportion",
+          "topicNumber": 8,
+          "title": "Basic Proportion",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-quant-basic-averages",
+          "topicNumber": 9,
+          "title": "Basic Averages",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-quant-basic-profit-loss",
+          "topicNumber": 10,
+          "title": "Basic Profit and Loss",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-quant-basic-simple-interest",
+          "topicNumber": 11,
+          "title": "Basic Simple Interest",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-quant-basic-ages",
+          "topicNumber": 12,
+          "title": "Basic Problems on Ages",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        }
+      ]
+    },
+    {
+      "category": "Logical Reasoning Foundation",
+      "description": "Series completion, analogies, classification, basic coding-decoding, blood relations, and direction sense.",
+      "topics": [
+        {
+          "id": "y1-lr-number-series",
+          "topicNumber": 1,
+          "title": "Number Series",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-lr-letter-series",
+          "topicNumber": 2,
+          "title": "Letter Series",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-lr-analogy",
+          "topicNumber": 3,
+          "title": "Analogy",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-lr-classification",
+          "topicNumber": 4,
+          "title": "Classification",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-lr-odd-one-out",
+          "topicNumber": 5,
+          "title": "Odd One Out",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-lr-basic-coding",
+          "topicNumber": 6,
+          "title": "Basic Coding-Decoding",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-lr-basic-blood-relations",
+          "topicNumber": 7,
+          "title": "Basic Blood Relations",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-lr-basic-direction",
+          "topicNumber": 8,
+          "title": "Basic Direction Sense",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-lr-ranking-basics",
+          "topicNumber": 9,
+          "title": "Ranking Basics",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-lr-alphabetical-reasoning",
+          "topicNumber": 10,
+          "title": "Alphabetical Reasoning",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        }
+      ]
+    },
+    {
+      "category": "Verbal Foundation",
+      "description": "Parts of speech, basic tenses, articles, prepositions, subject-verb concord, and vocabulary basics.",
+      "topics": [
+        {
+          "id": "y1-verbal-parts-of-speech",
+          "topicNumber": 1,
+          "title": "Parts of Speech",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-verbal-basic-tenses",
+          "topicNumber": 2,
+          "title": "Basic Tenses",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-verbal-articles",
+          "topicNumber": 3,
+          "title": "Articles",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-verbal-prepositions",
+          "topicNumber": 4,
+          "title": "Prepositions",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-verbal-subject-verb-agreement",
+          "topicNumber": 5,
+          "title": "Subject-Verb Agreement",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-verbal-basic-vocabulary",
+          "topicNumber": 6,
+          "title": "Basic Vocabulary",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-verbal-synonyms-antonyms",
+          "topicNumber": 7,
+          "title": "Synonyms and Antonyms",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-verbal-basic-sentence-correction",
+          "topicNumber": 8,
+          "title": "Basic Sentence Correction",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        }
+      ]
+    },
+    {
+      "category": "Data Foundation",
+      "description": "Reading tables, simple charts, and introductory data interpretation calculations.",
+      "topics": [
+        {
+          "id": "y1-data-reading-tables",
+          "topicNumber": 1,
+          "title": "Reading Tables",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-data-basic-charts",
+          "topicNumber": 2,
+          "title": "Basic Charts",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        },
+        {
+          "id": "y1-data-basic-di",
+          "topicNumber": 3,
+          "title": "Basic Data Interpretation",
+          "tagline": "1st Year Foundation \u2014 Core Concepts, Step-by-Step Problem Solving & Verification",
+          "estimatedMinutes": 45,
+          "difficulty": "Foundation"
+        }
+      ]
+    }
+  ]
+}

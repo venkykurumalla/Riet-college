@@ -1,0 +1,620 @@
+{
+  "yearId": 3,
+  "yearName": "3rd Year",
+  "levelTitle": "3rd Year Advanced CRT \u2014 Analytical Depth, Complex Systems & Placement Problem Solving",
+  "description": "Comprehensive 3rd-year advanced curriculum designed to elevate candidates to competitive placement-ready standards across higher number theory, kinematics, combinatorics, multi-floor grid puzzles, dense textual comprehension, and complex multi-chart data analysis.",
+  "targetFocus": [
+    "Higher Quantitative Theory: Euler's totient, modular arithmetic, permutations, combinations, Bayes' theorem, AP/GP/AGP, and 3D mensuration",
+    "Multi-Dimensional Logical Deduction: Complex seating, floor & box puzzles, scheduling grids, 'only a few' syllogisms, and critical reasoning",
+    "Advanced Verbal & Rhetorical Analysis: Dense reading comprehension, deductive inferences, authorial tone, and critical argument analysis",
+    "Complex Data Interpretation & Analytics: Caselets, multi-table dashboards, missing data matrices, and CAGR growth models"
+  ],
+  "categories": [
+    {
+      "category": "Advanced Quantitative Aptitude",
+      "description": "Advanced number theory, modular remainders, kinematics, combinatorics, probability, algebra, progressions, geometry, clocks, and calendars.",
+      "topics": [
+        {
+          "id": "y3-quant-adv-number-properties",
+          "topicNumber": 1,
+          "title": "Advanced Number Properties & Factorials",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-remainder-theorems",
+          "topicNumber": 2,
+          "title": "Remainder Theorems: Euler, Fermat & Wilson",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-unit-digit-cycles",
+          "topicNumber": 3,
+          "title": "Unit Digit Cycles & Prime Power in Factorials",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-trailing-zeros",
+          "topicNumber": 4,
+          "title": "Trailing Zeros in Large Products & Factorials",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-adv-mixtures",
+          "topicNumber": 5,
+          "title": "Advanced Mixtures & Repeated Dilutions",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-adv-work-problems",
+          "topicNumber": 6,
+          "title": "Advanced Work Problems & Variable Efficiency",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-alternate-work",
+          "topicNumber": 7,
+          "title": "Alternate Work Patterns & Negative Work Destruction",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-adv-pipes-cisterns",
+          "topicNumber": 8,
+          "title": "Advanced Pipes and Cisterns with Flow Adjustments",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-adv-relative-speed",
+          "topicNumber": 9,
+          "title": "Advanced Relative Speed & Chasing Dynamics",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-circular-motion-races",
+          "topicNumber": 10,
+          "title": "Circular Motion & Linear Race Problems",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-adv-boats-streams",
+          "topicNumber": 11,
+          "title": "Advanced Boats and Streams with Current Shifts",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-adv-train-problems",
+          "topicNumber": 12,
+          "title": "Advanced Train Problems with Accelerated Platforms",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-permutations",
+          "topicNumber": 13,
+          "title": "Permutations: Restricted Arrangements",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-combinations",
+          "topicNumber": 14,
+          "title": "Combinations: Selections & Partitions",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-adv-probability",
+          "topicNumber": 15,
+          "title": "Advanced Probability & Conditional Case Trees",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-bayes-theorem",
+          "topicNumber": 16,
+          "title": "Bayes' Theorem Applications",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-algebraic-inequalities",
+          "topicNumber": 17,
+          "title": "Algebraic Inequalities & Modulus Systems",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-adv-polynomial-equations",
+          "topicNumber": 18,
+          "title": "Advanced Polynomial Equations & Maxima-Minima",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-sequences-series",
+          "topicNumber": 19,
+          "title": "Sequences and Series: Sigma Notations",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-arithmetic-progressions",
+          "topicNumber": 20,
+          "title": "Arithmetic Progressions (AP Advanced)",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-geometric-progressions",
+          "topicNumber": 21,
+          "title": "Geometric Progressions & Infinite Series (GP)",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-agp-hp",
+          "topicNumber": 22,
+          "title": "Arithmetico-Geometric Progressions (AGP) & HP",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-adv-geometry",
+          "topicNumber": 23,
+          "title": "Advanced Geometry: Circle Theorems & Cyclic Quads",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-coordinate-geometry",
+          "topicNumber": 24,
+          "title": "Coordinate Geometry & Linear Slopes",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-adv-mensuration-3d",
+          "topicNumber": 25,
+          "title": "Advanced Mensuration 3D: Frustums & Composite Solids",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-clocks",
+          "topicNumber": 26,
+          "title": "Clocks: Angular Displacements & Faulty Clocks",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-quant-calendars",
+          "topicNumber": 27,
+          "title": "Calendars: Modulo-7 Day Calculation & Odd Days",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "category": "Advanced Logical Reasoning",
+      "description": "Complex seating grids, floor and box puzzles, scheduling, advanced syllogisms, cause-effect, critical reasoning, and decision tables.",
+      "topics": [
+        {
+          "id": "y3-lr-complex-seating",
+          "topicNumber": 1,
+          "title": "Complex Seating Arrangements with Multiple Attributes",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-circular-seating",
+          "topicNumber": 2,
+          "title": "Circular Seating: Inward/Outward Mixed Facing",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-multiple-row-seating",
+          "topicNumber": 3,
+          "title": "Multiple-Row & Parallel Seating Arrangements",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-floor-puzzles",
+          "topicNumber": 4,
+          "title": "Floor-Based Multi-Story Building Logic Puzzles",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-box-puzzles",
+          "topicNumber": 5,
+          "title": "Box-Stacking Puzzles with Variable Heights",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-scheduling-puzzles",
+          "topicNumber": 6,
+          "title": "Scheduling & Time-Slot Puzzles with Day Shifts",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-selection-distribution",
+          "topicNumber": 7,
+          "title": "Selection and Distribution Puzzles with Quotas",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-grouping-problems",
+          "topicNumber": 8,
+          "title": "Grouping and Departmental Distribution Problems",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-adv-syllogisms",
+          "topicNumber": 9,
+          "title": "Advanced Syllogisms: 'Only a Few' & Possibilities",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-adv-statements-conclusions",
+          "topicNumber": 10,
+          "title": "Advanced Statements and Conclusions",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-statements-arguments",
+          "topicNumber": 11,
+          "title": "Statements and Arguments: Strong vs Weak Arguments",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-cause-and-effect",
+          "topicNumber": 12,
+          "title": "Cause and Effect Reasoning",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-assumptions-inferences",
+          "topicNumber": 13,
+          "title": "Assumptions and Inferences in Complex Passages",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-critical-reasoning",
+          "topicNumber": 14,
+          "title": "Critical Reasoning & Argument Flaw Identification",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-adv-data-sufficiency",
+          "topicNumber": 15,
+          "title": "Advanced Data Sufficiency in Logical Reasoning",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-complex-matrix-puzzles",
+          "topicNumber": 16,
+          "title": "Complex Multi-Attribute Matrix Grids (3+ Parameters)",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-lr-analytical-decision-problems",
+          "topicNumber": 17,
+          "title": "Analytical Decision-Making & Eligibility Criteria",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "category": "Advanced Verbal Ability",
+      "description": "Dense reading comprehension, inference deduction, author's tone, critical reasoning arguments, 6-sentence para jumbles, and rhetoric.",
+      "topics": [
+        {
+          "id": "y3-verbal-adv-rc",
+          "topicNumber": 1,
+          "title": "Advanced Reading Comprehension: Dense Passages",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-inference-comprehension",
+          "topicNumber": 2,
+          "title": "Inference-Based Comprehension & Deductions",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-author-tone",
+          "topicNumber": 3,
+          "title": "Author's Tone, Style & Rhetorical Perspective",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-main-idea",
+          "topicNumber": 4,
+          "title": "Main Idea, Central Thesis & Title Identification",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-critical-reasoning-verbal",
+          "topicNumber": 5,
+          "title": "Critical Reasoning \u2014 Verbal Argument Analysis",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-adv-para-jumbles",
+          "topicNumber": 6,
+          "title": "Advanced Para Jumbles: 6-Sentence Sequences",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-sentence-rearrangement",
+          "topicNumber": 7,
+          "title": "Sentence Rearrangement & Split Syntax",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-para-completion",
+          "topicNumber": 8,
+          "title": "Paragraph Completion & Coherent Summary Selection",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-adv-sentence-correction",
+          "topicNumber": 9,
+          "title": "Advanced Sentence Correction & Structural Parallelism",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-adv-error-detection",
+          "topicNumber": 10,
+          "title": "Advanced Error Detection & Subjunctive Mood Syntax",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-vocab-in-context",
+          "topicNumber": 11,
+          "title": "Vocabulary in Context: Nuanced Semantic Connotations",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-idiomatic-expressions",
+          "topicNumber": 12,
+          "title": "Idiomatic Expressions & Prepositional Collocations",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-logical-connectors",
+          "topicNumber": 13,
+          "title": "Logical Connectors & Discourse Markers",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-verbal-argument-evaluation",
+          "topicNumber": 14,
+          "title": "Argument Evaluation & Rhetorical Fallacy Detection",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "category": "Advanced Data Interpretation",
+      "description": "Caselet DI, multi-table analysis, mixed graphs, CAGR, fraction approximations, missing data reconstruction, and data sufficiency.",
+      "topics": [
+        {
+          "id": "y3-di-caselet-di",
+          "topicNumber": 1,
+          "title": "Caselet DI: Paragraphs to Structured Data Matrices",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-di-multi-table-di",
+          "topicNumber": 2,
+          "title": "Multi-Table Complex Data Interpretation",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-di-mixed-graph-di",
+          "topicNumber": 3,
+          "title": "Mixed Graph DI: Combined Pie, Bar & Line Charts",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-di-data-comparison",
+          "topicNumber": 4,
+          "title": "Data Comparison & Normalized Indices",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-di-multi-step-di",
+          "topicNumber": 5,
+          "title": "Multi-Step Cumulative Calculation DI",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-di-approximation-di",
+          "topicNumber": 6,
+          "title": "Approximation-Based DI & Fractional Benchmark Anchors",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-di-adv-percentage-di",
+          "topicNumber": 7,
+          "title": "Advanced Percentage DI & CAGR Analysis",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-di-adv-ratio-di",
+          "topicNumber": 8,
+          "title": "Advanced Ratio DI & Weighted Component Aggregates",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-di-missing-data-di",
+          "topicNumber": 9,
+          "title": "Data Interpretation with Missing Table Entries",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-di-adv-data-sufficiency",
+          "topicNumber": 10,
+          "title": "Advanced Data Sufficiency in Data Interpretation",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        }
+      ]
+    },
+    {
+      "category": "Advanced Analytical Problem Solving",
+      "description": "Multi-concept quantitative challenges, quantitative logical puzzles, constraint optimization, and placement caselets.",
+      "topics": [
+        {
+          "id": "y3-an-multi-concept-quant",
+          "topicNumber": 1,
+          "title": "Multi-Concept Quantitative Problem Solving",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-an-quant-logical-puzzles",
+          "topicNumber": 2,
+          "title": "Quantitative Logical Puzzles & Numerical Grid Deduction",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-an-constraint-optimization",
+          "topicNumber": 3,
+          "title": "Constraint-Based Aptitude Problems & Linear Optimization",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        },
+        {
+          "id": "y3-an-multi-step-placement",
+          "topicNumber": 4,
+          "title": "Multi-Step Placement Analytical Challenges",
+          "tagline": "3rd Year Advanced \u2014 Analytical Depth, Complex Models & Placement-Tier Problem Solving",
+          "estimatedMinutes": 60,
+          "difficulty": "Advanced"
+        }
+      ]
+    }
+  ]
+}

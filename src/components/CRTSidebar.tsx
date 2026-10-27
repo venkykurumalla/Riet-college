@@ -1,0 +1,343 @@
+import React, { useState } from 'react';
+import {
+  CheckCircle2,
+  Circle,
+  ChevronDown,
+  ChevronRight,
+  Brain,
+  Sparkles,
+  Search,
+  X,
+  GraduationCap,
+  ArrowLeft,
+  ClipboardList,
+  Star
+} from 'lucide-react';
+import { motion } from 'framer-motion';
+import { CRTYearId } from '../types/crtTypes';
+import { getCRTYearCurriculum } from '../data/crtCourseData';
+import { crtProgressService } from '../services/crtProgressService';
+import { getModuleId, hasQuiz, getBestScore } from '../data/quizData/index';
+
+interface CRTSidebarProps {
+  selectedYear: CRTYearId;
+  activeTopicId?: string;
+  activeQuizModuleId?: string;
+  onSelectYear: (yearId: CRTYearId) => void;
+  onSelectOverview: () => void;
+  onSelectTopic: (topicId: string) => void;
+  onSelectQuiz: (moduleId: string, categoryName: string) => void;
+  onOpenSearch: () => void;
+  onNavigateSelection: () => void;
+  isMobileOpen?: boolean;
+  onCloseMobile?: () => void;
+}
+
+export const CRTSidebar: React.FC<CRTSidebarProps> = ({
+  selectedYear,
+  activeTopicId,
+  activeQuizModuleId,
+  onSelectYear,
+  onSelectOverview,
+  onSelectTopic,
+  onSelectQuiz,
+  onOpenSearch,
+  onNavigateSelection,
+  isMobileOpen = false,
+  onCloseMobile
+}) => {
+  const [expandedCategories, setExpandedCategories] = useState<Record<string, boolean>>({
+    'Quantitative Aptitude': true,
+    'Logical Reasoning': true,
+    'Verbal Ability': true,
+    'Data Interpretation': true,
+    'Placement Strategy & Shortcuts': true
+  });
+
+  const yearData = getCRTYearCurriculum(selectedYear);
+  const yearProgress = crtProgressService.getYearProgress(selectedYear);
+  const allProgress = crtProgressService.getAllProgress();
+
+  const toggleCategory = (catName: string, e: React.MouseEvent) => {
+    e.stopPropagation();
+    setExpandedCategories(prev => ({ ...prev, [catName]: !prev[catName] }));
+  };
+
+  const content = (
+    <div className="flex flex-col h-full bg-white/95 backdrop-blur-xl border-r border-slate-200/90 w-72 shrink-0 select-none overflow-hidden">
+      
+      {/* Header */}
+      <div className="p-4 border-b border-slate-100 flex items-center justify-between">
+        <div className="flex items-center space-x-3">
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-700 text-white flex items-center justify-center font-bold shadow-xs">
+            <Brain className="w-5 h-5" />
+          </div>
+          <div>
+            <h2 className="text-sm font-extrabold text-slate-900 font-display leading-tight">
+              RIET CRT LMS
+            </h2>
+            <p className="text-[10px] text-blue-700 font-bold uppercase tracking-wider">
+              {yearData.yearName} • Placement Prep
+            </p>
+          </div>
+        </div>
+
+        {onCloseMobile && (
+          <button
+            onClick={onCloseMobile}
+            className="p-1.5 text-slate-400 hover:text-slate-600 lg:hidden cursor-pointer rounded-lg hover:bg-slate-100"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        )}
+      </div>
+
+      {/* Year Switcher Segmented Control */}
+      <div className="p-2.5 bg-slate-50/80 border-b border-slate-100">
+        <div className="relative grid grid-cols-4 gap-1 p-1 bg-slate-200/60 rounded-xl border border-slate-300/60 text-[11px] font-bold">
+          {([1, 2, 3, 4] as CRTYearId[]).map(yId => {
+            const isSelected = selectedYear === yId;
+
+            return (
+              <button
+                key={yId}
+                onClick={() => {
+                  onSelectYear(yId);
+                  onSelectOverview();
+                }}
+                className={`relative z-10 py-1.5 rounded-lg transition-colors cursor-pointer text-center ${
+                  isSelected ? 'text-white' : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                {isSelected && (
+                  <motion.div
+                    layoutId="sidebarYearHighlight"
+                    className="absolute inset-0 bg-blue-600 rounded-lg shadow-xs -z-10"
+                    transition={{
+                      type: 'spring',
+                      stiffness: 450,
+                      damping: 35
+                    }}
+                  />
+                )}
+                <span>{yId}yr</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Search Button */}
+      <div className="p-3 border-b border-slate-100">
+        <button
+          onClick={() => {
+            onOpenSearch();
+            onCloseMobile?.();
+          }}
+          className="w-full py-2 px-3 rounded-xl bg-slate-100 hover:bg-blue-50 text-slate-500 hover:text-blue-700 text-xs font-semibold flex items-center justify-between transition-colors cursor-pointer border border-slate-200/80"
+        >
+          <span className="flex items-center space-x-2">
+            <Search className="w-3.5 h-3.5 text-blue-600" />
+            <span>Search CRT topics...</span>
+          </span>
+          <kbd className="px-1.5 py-0.5 text-[10px] bg-white border border-slate-200 rounded-md font-mono text-slate-400">
+            Ctrl+K
+          </kbd>
+        </button>
+      </div>
+
+      {/* Selected Year Progress Meter */}
+      <div className="p-4 bg-slate-50/80 border-b border-slate-100">
+        <div className="flex items-center justify-between text-xs font-bold text-slate-700 mb-1.5">
+          <span className="flex items-center space-x-1">
+            <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+            <span>{yearData.yearName} Progress</span>
+          </span>
+          <span className="text-blue-700 font-extrabold">{yearProgress.percentage}%</span>
+        </div>
+        <div className="w-full h-2 bg-slate-200 rounded-full overflow-hidden">
+          <motion.div
+            initial={{ width: 0 }}
+            animate={{ width: `${yearProgress.percentage}%` }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            className="h-full bg-blue-600 rounded-full"
+          />
+        </div>
+        <div className="text-[11px] text-slate-500 mt-1 font-medium">
+          {yearProgress.completedTopics} of {yearProgress.totalTopics} topics completed
+        </div>
+      </div>
+
+      {/* Scrollable Topics Section */}
+      <div className="flex-1 overflow-y-auto p-3 space-y-4 no-scrollbar">
+        
+        {/* Overview Tab Link */}
+        <button
+          onClick={() => {
+            onSelectOverview();
+            onCloseMobile?.();
+          }}
+          className={`w-full text-left px-3 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center space-x-2 cursor-pointer ${
+            !activeTopicId
+              ? 'bg-blue-600 text-white shadow-xs'
+              : 'text-slate-700 hover:bg-slate-100'
+          }`}
+        >
+          <GraduationCap className="w-4 h-4" />
+          <span>{yearData.yearName} Syllabus Overview</span>
+        </button>
+
+        {/* Categories & Topics Accordion */}
+        <div className="space-y-3">
+          {yearData.categories.map(cat => {
+            const isExpanded = expandedCategories[cat.category] !== false;
+
+            return (
+              <div key={cat.category} className="space-y-1">
+                {/* Category Header */}
+                <div
+                  onClick={e => toggleCategory(cat.category, e)}
+                  className="flex items-center justify-between px-2.5 py-1.5 rounded-lg text-xs font-extrabold text-slate-700 hover:bg-slate-100 cursor-pointer"
+                >
+                  <div className="flex items-center space-x-1.5 truncate">
+                    {isExpanded ? (
+                      <ChevronDown className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                    ) : (
+                      <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                    )}
+                    <span className="truncate">{cat.category}</span>
+                  </div>
+                  <span className="text-[10px] font-mono text-slate-400 shrink-0">
+                    ({cat.topics.length})
+                  </span>
+                </div>
+
+                {/* Sub Topics List */}
+                {isExpanded && (
+                  <div className="pl-3 space-y-0.5 border-l-2 border-slate-100 ml-2 py-0.5">
+                    {cat.topics.map(topic => {
+                      const prog = allProgress[topic.id];
+                      const isCompleted = prog?.completed || prog?.status === 'completed';
+                      const isTopicActive = activeTopicId === topic.id;
+
+                      return (
+                        <button
+                          key={topic.id}
+                          onClick={() => {
+                            onSelectTopic(topic.id);
+                            onCloseMobile?.();
+                          }}
+                          className={`w-full text-left px-2.5 py-2 rounded-lg text-[11px] font-semibold transition-all flex items-center justify-between group cursor-pointer ${
+                            isTopicActive
+                              ? 'bg-blue-600 text-white shadow-2xs font-bold'
+                              : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
+                          }`}
+                        >
+                          <span className="truncate pr-2">
+                            {topic.topicNumber}. {topic.title.split('—')[0]}
+                          </span>
+
+                          <span className="shrink-0">
+                            {isCompleted ? (
+                              <CheckCircle2 className={`w-3.5 h-3.5 ${isTopicActive ? 'text-cyan-200' : 'text-emerald-600'}`} />
+                            ) : (
+                              <Circle className={`w-3 h-3 ${isTopicActive ? 'text-blue-200' : 'text-slate-300'}`} />
+                            )}
+                          </span>
+                        </button>
+                      );
+                    })}
+
+                    {/* Quiz Entry Point — last item of every module */}
+                    {(() => {
+                      const modId = getModuleId(selectedYear, cat.category);
+                      if (!modId || !hasQuiz(modId)) return null;
+                      const isQuizActive = activeQuizModuleId === modId;
+                      const best = getBestScore(modId);
+                      return (
+                        <button
+                          onClick={() => {
+                            onSelectQuiz(modId, cat.category);
+                            onCloseMobile?.();
+                          }}
+                          className={`w-full text-left px-2.5 py-2 rounded-lg text-[11px] font-bold transition-all flex items-center justify-between cursor-pointer mt-1 ${
+                            isQuizActive
+                              ? 'bg-indigo-600 text-white shadow-2xs'
+                              : 'text-indigo-700 bg-indigo-50 hover:bg-indigo-100 border border-indigo-200/60'
+                          }`}
+                        >
+                          <span className="flex items-center gap-1.5 truncate pr-1">
+                            <ClipboardList className="w-3 h-3 shrink-0" />
+                            <span>{cat.category.split(' ')[0]} Quiz</span>
+                          </span>
+                          {best !== null ? (
+                            <span className={`shrink-0 flex items-center gap-0.5 text-[10px] font-extrabold ${
+                              isQuizActive ? 'text-indigo-200' : 'text-amber-600'
+                            }`}>
+                              <Star className="w-2.5 h-2.5" />
+                              {best}/5
+                            </span>
+                          ) : (
+                            <span className={`shrink-0 text-[9px] font-bold uppercase tracking-wider ${
+                              isQuizActive ? 'text-indigo-200' : 'text-indigo-500'
+                            }`}>
+                              New
+                            </span>
+                          )}
+                        </button>
+                      );
+                    })()}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Switch Syllabus Link */}
+        <div className="pt-3 border-t border-slate-100">
+          <button
+            onClick={() => {
+              onNavigateSelection();
+              onCloseMobile?.();
+            }}
+            className="w-full text-left px-3 py-2 rounded-xl text-xs font-bold text-slate-600 hover:text-blue-700 hover:bg-blue-50 transition-colors flex items-center space-x-2 cursor-pointer"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" />
+            <span>Switch Syllabus Hub</span>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  );
+
+  return (
+    <>
+      {/* Desktop Sidebar */}
+      <aside className="hidden lg:block h-[calc(100vh-64px)] sticky top-16 shadow-xs shrink-0">
+        {content}
+      </aside>
+
+      {/* Mobile Drawer */}
+      {isMobileOpen && (
+        <div className="fixed inset-0 z-50 lg:hidden flex">
+          <div
+            className="fixed inset-0 bg-slate-900/50 backdrop-blur-xs"
+            onClick={onCloseMobile}
+          />
+          <motion.div
+            initial={{ x: -280 }}
+            animate={{ x: 0 }}
+            exit={{ x: -280 }}
+            transition={{ duration: 0.25, ease: 'easeOut' }}
+            className="relative z-10 w-72 max-w-[80vw] h-full shadow-2xl"
+          >
+            {content}
+          </motion.div>
+        </div>
+      )}
+    </>
+  );
+};
