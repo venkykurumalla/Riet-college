@@ -7,7 +7,7 @@ const chapter = {
   title: 'Sentence Completion',
   tagline: 'Year 2 — Using clue words, tone and logic to choose the right word for a blank',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
+  morePractice: 'https://www.indiabix.com/verbal-ability/completing-statements/',
   overview: 'A sentence-completion question has one or two blanks and four choices. The right choice makes the sentence logical, grammatical and consistent in tone. The sentence itself supplies clues: contrast words (but, although, despite, unlike), cause words (because, so, therefore), comparison words (like, as), and the general sense of the sentence. Finding the clue and the relationship it signals is the key skill.',
   placement: 'Sentence completion questions are commonly asked in the verbal ability section of company aptitude rounds, with single and double blanks.',
   realWorld: 'Choosing the right word in an email or report, so that a sentence says exactly what you intend, uses the same skill.',

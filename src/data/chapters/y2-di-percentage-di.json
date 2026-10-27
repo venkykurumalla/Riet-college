@@ -334,7 +334,7 @@
         "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nThe number of boys in college Q is what percentage of the number of students who passed in college Q (to one decimal place)?",
         "options": [
           "70.0%",
-          "78.6%",
+          "75.0%",
           "78.6%",
           "85.0%"
         ],
@@ -372,7 +372,7 @@
       },
       {
         "id": "pq-y2-di-percentage-di-p18",
-        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nIf 20% more students had passed in college S, how many would have passed?",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nIf the number who passed in college S had been 20% higher, how many would have passed?",
         "options": [
           "1440",
           "1320",

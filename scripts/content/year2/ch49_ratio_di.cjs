@@ -132,7 +132,7 @@ const quiz = [
   placement(T + 'The total number of literate persons (in thousands) in the five cities is', sum(names.map(lit)), [1700, 1800, 1900], '360 + 400 + 420 + 240 + 300 = 1720.'),
   placement(T + 'The number of females in C is what percentage of the number of females in A (to one decimal place)?', pct(female('C') / female('A') * 100), ['140.0%', '160.0%', '180.0%'], '400 ÷ 250 × 100 = 160%.'),
   placement(T + 'The ratio of the total number of males to the total number of females in the five cities (simplest form) is', ratio(allMale, allFemale), ['6 : 5', '11 : 9', '17 : 15'], '1510 : 1280 = 151 : 128.'),
-  placement(T + 'The difference between the number of literate and illiterate persons in city E (in thousands) is', lit('E') - ill('E'), [100, 120, 150], '300 − 150 = 150.'),
+  placement(T + 'The difference between the number of literate and illiterate persons in city E (in thousands) is', lit('E') - ill('E'), [100, 120, 180], '300 − 150 = 150.'),
   placement(T + 'The average number of illiterate persons (in thousands) per city is', round(sum(illAll) / 5, 1), [150, 160, 180], '(240 + 80 + 300 + 300 + 150) ÷ 5 = 1070 ÷ 5 = 214.')
 ];
 build(chapter, quiz);

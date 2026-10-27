@@ -12,7 +12,7 @@ const chapter = {
   title: 'Reading Comprehension Foundation',
   tagline: 'Year 2 — Reading a short passage and answering factual, vocabulary, inference and main-idea questions',
   minutes: 55,
-  morePractice: 'https://www.indiabix.com/verbal-ability/reading-comprehension/',
+  morePractice: 'https://www.indiabix.com/verbal-ability/comprehension/',
   overview: 'Reading comprehension (RC) tests whether you can understand a passage and answer questions about it. Question types are factual (what the passage says), vocabulary-in-context (what a word means here), inference (what must be true because of what is said), main idea (what the passage is mostly about) and tone or purpose. At this level the passages are short, and the answers can be checked against the text. The golden rule: answer from the passage, not from your own opinion.',
   placement: 'Reading comprehension is commonly asked in the verbal ability section of company aptitude rounds, and it is the most heavily weighted verbal skill because it reflects real reading ability.',
   realWorld: 'Understanding emails, reports and instructions quickly and accurately depends on the same skills.',

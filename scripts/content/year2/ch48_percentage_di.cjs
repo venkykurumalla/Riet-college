@@ -129,10 +129,10 @@ const quiz = [
   medium(T + 'By how many students does the number who passed in S exceed the number who passed in R?', passed('S') - passed('R'), [380, 400, 600], '1200 − 720 = 480.'),
   medium(T + 'How many girls are there in college Q?', girls('Q'), [600, 700, 750], '45% of 1500 = 675.'),
 
-  placement(T + 'The number of boys in college Q is what percentage of the number of students who passed in college Q (to one decimal place)?', pct(boys('Q') / passed('Q') * 100), ['70.0%', '78.6%', '85.0%'], 'Boys = 825. 825 ÷ 1050 × 100 = 78.6%.'),
+  placement(T + 'The number of boys in college Q is what percentage of the number of students who passed in college Q (to one decimal place)?', pct(boys('Q') / passed('Q') * 100), ['70.0%', '75.0%', '85.0%'], 'Boys = 825. 825 ÷ 1050 × 100 = 78.6%.'),
   placement(T + 'The total number of boys in colleges P and S together is', boys('P') + boys('S'), [1800, 2000, 2100], '720 + 1300 = 2020.'),
   placement(T + 'The number of students who passed in college P is what percentage of the total number of students in the five colleges (to one decimal place)?', pct(passed('P') / sum(total) * 100), ['12.5%', '16.0%', '20.0%'], '960 ÷ 6500 × 100 = 14.8%.'),
-  placement(T + 'If 20% more students had passed in college S, how many would have passed?', passed('S') * 1.2, [1320, 1400, 1500], '1200 × 1.2 = 1440.'),
+  placement(T + 'If the number who passed in college S had been 20% higher, how many would have passed?', passed('S') * 1.2, [1320, 1400, 1500], '1200 × 1.2 = 1440.'),
   placement(T + 'The average number of students per college is', sum(total) / 5, [1200, 1350, 1400], '6500 ÷ 5 = 1300.'),
   placement(T + 'The ratio of the number of students who passed in R to the number who passed in S (simplest form) is', ratio(passed('R'), passed('S')), ['2 : 3', '5 : 6', '4 : 5'], '720 : 1200 = 3 : 5.')
 ];

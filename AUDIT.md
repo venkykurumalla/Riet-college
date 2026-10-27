@@ -24,7 +24,8 @@ Definitions with worked numbers, real formula cards, 2-3 solved examples with re
 | Year | Status |
 |---|---|
 | 1st Year | **Rewritten.** 27 chapters rewritten; ch 1-6 kept with minimal edits; all 33 have a 20-question topic quiz. |
-| 2nd-4th Year | Not started (waiting for approval after 1st Year). |
+| 2nd Year | **Rewritten.** All 50 chapters rewritten; all 50 have a 20-question topic quiz. |
+| 3rd-4th Year | Not started (waiting for approval after 2nd Year). |
 
 ## Per-chapter table (original data)
 

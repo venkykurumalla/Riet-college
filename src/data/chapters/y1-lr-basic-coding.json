@@ -79,7 +79,7 @@
     "mainNarrative": [
       "Start by writing the original word and its code directly below. Count the steps between each letter and its code letter, with a sign for direction. In MONKEY and NPOLFZ every step is +1, so the rule is \"next letter\". The code for TIGER is therefore UJHFS.",
       "Some rules alternate or grow. If FRIEND becomes GQJDOC, the shifts are +1, −1, +1, −1, +1, −1. For BOARD, apply the same alternating shifts: C, N, B, Q, E. A progressive code such as PAPER → QCSIW uses +1, +2, +3, +4, +5.",
-      "A reversal can be pure (SCHOOL → LOOHCS) or combined with a shift. When both are used, decide the order from the example: reverse then shift, or shift then reverse. Testing the rule on the given pair tells you which.",
+      "A reversal can be pure (SCHOOL → LOOHCS) or combined with a shift. When a reversal and a constant shift are combined, the result is the same in either order. If the shift changes with position, the order matters and must be taken from the example.",
       "Word-based codes are solved by comparison. If \"pen pencil\" is \"ab cd\", \"pencil box\" is \"cd ef\" and \"pen bag\" is \"ab gh\", then the common word pencil matches the common code cd, pen matches ab, and the new word box matches ef."
     ],
     "deepDiveAspects": [

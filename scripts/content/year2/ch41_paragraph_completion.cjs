@@ -7,7 +7,7 @@ const chapter = {
   title: 'Paragraph Completion',
   tagline: 'Year 2 — Choosing the final sentence that fits the logic and tone of a paragraph',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
+  morePractice: 'https://www.indiabix.com/verbal-ability/paragraph-formation/',
   overview: 'In a paragraph-completion question you read a short paragraph with the last sentence missing and choose the option that completes it best. The right choice continues the idea of the paragraph, matches its tone, and fits the logical signal given by the last words (therefore, however, as a result, finally). Wrong options are usually off-topic, contradictory, too extreme or repeat the paragraph without adding anything.',
   placement: 'Paragraph completion questions are commonly asked in the verbal ability section of company aptitude rounds and help build reading comprehension skill.',
   realWorld: 'Writing a conclusion to an email or report, and checking that it follows from the argument, uses this skill.',

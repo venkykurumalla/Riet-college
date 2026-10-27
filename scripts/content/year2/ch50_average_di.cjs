@@ -134,7 +134,7 @@ const quiz = [
   placement(T + 'How many more marks in total must student A obtain to have an average of 80 in the four subjects?', 80 * 4 - tot('A'), [10, 15, 25], 'Needed total = 320. A has 300, so 20 more.'),
   placement(T + 'Student D\'s Maths marks are what percentage above the class average in Maths (to one decimal place)?', pct((mk('D', 'Maths') - avgSub('Maths')) / avgSub('Maths') * 100), ['12.5%', '18.0%', '20.0%'], '(90 − 77.8) ÷ 77.8 × 100 = 15.7%.'),
   placement(T + 'The average marks of student E is', avgS('E'), [70, 74, 75], '(72 + 68 + 78 + 74) ÷ 4 = 292 ÷ 4 = 73.'),
-  placement(T + 'If student C\'s Maths marks are increased by 10, the new average marks of C in the four subjects is', (tot('C') + 10) / 4, [70.5, 73, 75], 'New total = 292. Average = 292 ÷ 4 = 73.'),
+  placement(T + 'If student C\'s Maths marks are increased by 10, the new average marks of C in the four subjects is', (tot('C') + 10) / 4, [70.5, 72, 75], 'New total = 292. Average = 292 ÷ 4 = 73.'),
   placement(T + 'The difference between the highest and the lowest total marks among the five students is', tot(bestStudent) - Math.min(...students.map(tot)), [44, 52, 60], 'Highest 336 (D) and lowest 282 (C). Difference = 54.'),
   placement(T + 'The average of the five students\' average marks (overall) is', round(sum(students.map(avgS)) / 5, 1), [75.5, 77.0, 78.4], 'Row averages: 75, 81, 70.5, 84, 73. Their mean is 383.5 ÷ 5 = 76.7.')
 ];
