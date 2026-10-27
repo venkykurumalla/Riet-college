@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-quant-adv-averages",
+  "topicTitle": "Advanced Averages",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The average of 4 numbers is 15. A fifth number 20 is added. The new average is",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "17.5"
+      ],
+      "answerIndex": 1,
+      "explanation": "Total = 60 + 20 = 80. Average = 80 ÷ 5 = 16."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The average of three consecutive odd numbers is 15. The largest is",
+      "options": [
+        "17",
+        "15",
+        "16",
+        "19"
+      ],
+      "answerIndex": 0,
+      "explanation": "The numbers are 13, 15, 17. The largest is 17."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The average of the first 50 natural numbers is",
+      "options": [
+        "25",
+        "26",
+        "24.5",
+        "25.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "(1 + 50)/2 = 25.5."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A car travels for equal times at 40 km/h and 60 km/h. The average speed is",
+      "options": [
+        "48",
+        "52",
+        "50",
+        "45"
+      ],
+      "answerIndex": 2,
+      "explanation": "For equal times, average = (40 + 60)/2 = 50."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The average of 5 numbers is 30. If each number is increased by 4, the new average is",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "answerIndex": 2,
+      "explanation": "Each number rises by 4, so the average rises by 4, from 30 to 34."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "15 boys have an average mark of 40 and 25 girls have an average mark of 48. The average of all 40 students is",
+      "options": [
+        "44",
+        "45",
+        "46",
+        "44.5"
+      ],
+      "answerIndex": 1,
+      "explanation": "Total = 600 + 1200 = 1800. Average = 1800 ÷ 40 = 45."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A batsman's average after 12 innings is 48. He scores 100 in the 13th innings. His new average is",
+      "options": [
+        "52",
+        "50",
+        "51",
+        "53"
+      ],
+      "answerIndex": 0,
+      "explanation": "Total = 576 + 100 = 676. Average = 676 ÷ 13 = 52."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The average weight of 6 men increases by 1.5 kg when a man weighing 60 kg is replaced by a new man. The weight of the new man is",
+      "options": [
+        "66",
+        "72",
+        "75",
+        "69"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total rises by 6 × 1.5 = 9. New man = 60 + 9 = 69."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The average age of 10 men is 30. When one man is replaced by a 40-year-old, the average becomes 31. The age of the man replaced was",
+      "options": [
+        "28",
+        "32",
+        "35",
+        "30"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total rises by 10. So the replaced man = 40 − 10 = 30."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A man travels 2/3 of a distance at 40 km/h and the rest at 60 km/h. His average speed is",
+      "options": [
+        "48",
+        "50",
+        "45",
+        "46.67"
+      ],
+      "answerIndex": 2,
+      "explanation": "Time per km = (2/3)/40 + (1/3)/60 = 1/60 + 1/180 = 4/180 = 1/45. Speed = 45 km/h."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The average of 7 numbers is 15. The average of the first four is 14 and of the last four is 16. The fourth number is",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "4 × 14 + 4 × 16 = 120. Total of 7 = 105. The fourth is counted twice: 120 − 105 = 15."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The average mark of 30 students is 45. If the 5 lowest scores (average 40) are removed, the average of the remaining 25 is",
+      "options": [
+        "46",
+        "45",
+        "47",
+        "48"
+      ],
+      "answerIndex": 0,
+      "explanation": "Total = 1350. Remove 200: 1150. Average = 1150 ÷ 25 = 46."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The average of 8 consecutive numbers is 25.5. The smallest number is",
+      "options": [
+        "22",
+        "21",
+        "23",
+        "24"
+      ],
+      "answerIndex": 0,
+      "explanation": "Average = (first + last)/2 = 25.5, so first + last = 51, with last = first + 7. First = 22."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A man spends ₹1,500 per month for 3 months, ₹1,800 for 4 months and ₹2,100 for 5 months. His average monthly expense for the 12 months is",
+      "options": [
+        "1800",
+        "1900",
+        "1750",
+        "1850"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total = 4500 + 7200 + 10500 = 22,200. Average = 22,200 ÷ 12 = 1,850."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The average of 25 numbers is 40. A number 25 was read as 52. The correct average is",
+      "options": [
+        "39",
+        "40.54",
+        "38.92",
+        "38.5"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct total = 1000 − 52 + 25 = 973. Average = 973 ÷ 25 = 38.92."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The average age of 40 students is 15 years. When the teacher's age is included, the average rises by 0.5 year. The teacher's age is",
+      "options": [
+        "30",
+        "35.5",
+        "35",
+        "36"
+      ],
+      "answerIndex": 1,
+      "explanation": "New total = 41 × 15.5 = 635.5. Old total = 600. Teacher = 35.5."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The average of 9 numbers is 22. The average of the first five is 20 and of the last five is 24. The fifth number is",
+      "options": [
+        "20",
+        "22",
+        "24",
+        "26"
+      ],
+      "answerIndex": 1,
+      "explanation": "5 × 20 + 5 × 24 = 220. Total = 198. The fifth number is 220 − 198 = 22."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A man goes from A to B at 30 km/h and returns at 20 km/h. If the total travelling time is 5 hours, the distance AB is",
+      "options": [
+        "60",
+        "50",
+        "72",
+        "120"
+      ],
+      "answerIndex": 0,
+      "explanation": "Average speed = 2 × 30 × 20 ÷ 50 = 24 km/h. Total distance = 24 × 5 = 120, so AB = 60 km."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The average of 50 numbers is 38. If two numbers 45 and 55 are removed, the average of the remaining 48 numbers is",
+      "options": [
+        "38",
+        "37",
+        "36.5",
+        "37.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total = 1900. After removing 100: 1800. Average = 1800 ÷ 48 = 37.5."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A batsman's average rises by 3 after his 17th innings, in which he scored 87. His average after 17 innings is",
+      "options": [
+        "36",
+        "38",
+        "39",
+        "42"
+      ],
+      "answerIndex": 2,
+      "explanation": "Let the old average be a. 16a + 87 = 17(a + 3), so a = 36. New average = 39."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/average/"
+}

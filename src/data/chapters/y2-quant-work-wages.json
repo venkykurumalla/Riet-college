@@ -1,0 +1,449 @@
+{
+  "id": "y2-quant-work-wages",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 9,
+  "title": "Work and Wages",
+  "tagline": "Year 2 — Dividing payment in proportion to the work done",
+  "estimatedMinutes": 40,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "When several workers complete a job together and are paid a total amount, each worker's fair share is proportional to the work they did. Work done is the product of rate and time, so the wage ratio is the ratio of (work done), not of the days worked unless the workers are equally efficient. This chapter builds on time-and-work rates to share money.",
+    "placementRelevance": "Work and wages problems are commonly asked in company aptitude rounds, usually as a short extension of a time-and-work problem.",
+    "realWorldContext": "Paying contract labour, sharing a freelance fee among a team, and costing a project by man-days all use these ideas."
+  },
+  "learningObjectives": [
+    "Divide wages in the ratio of the work done",
+    "Find work done from rate and time",
+    "Find a wage per man-day",
+    "Handle workers who leave or join mid-job",
+    "Handle overtime and different daily rates"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Time and Work",
+      "Advanced Ratio and Proportion"
+    ],
+    "quickRefresher": "Work done = rate × time. Workers who finish a job together share the pay in the ratio of the fractions of the job each did."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Wages: payment for work, usually proportional to work done.",
+      "Wage ratio: ratio of the shares of the total payment.",
+      "Man-day: one worker working for one day; the cost of a job = man-days × wage per man-day.",
+      "Efficiency: work per day; ratio of efficiencies = inverse ratio of times.",
+      "Overtime: extra hours paid at a higher rate."
+    ],
+    "theoreticalIntuition": "Payment follows the work. If two workers work for the same time, the faster one has done more and earns more. If two workers have the same speed, the one who worked more days earns more. So the wage ratio is the ratio of (rate × time).",
+    "visualOrMentalModel": "First find each worker's fraction of the job. Then the share of wages equals that fraction of the total pay. Fractions add up to 1 when the job is complete."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Wage ratio",
+      "formula": "Wages ∝ rate × time worked",
+      "description": "Work done decides the share.",
+      "whenToUse": "All sharing questions.",
+      "simpleExample": "A 3 days, B 2 days at the same rate → 3 : 2"
+    },
+    {
+      "title": "Equal time, different speeds",
+      "formula": "Wage ratio = ratio of rates = inverse ratio of days alone",
+      "description": "Faster worker earns more.",
+      "whenToUse": "Workers finishing a job together.",
+      "simpleExample": "A 12 days, B 18 days → 18 : 12 = 3 : 2"
+    },
+    {
+      "title": "Cost of a job",
+      "formula": "Cost = men × days × daily wage",
+      "description": "Man-day approach.",
+      "whenToUse": "Contract costing.",
+      "simpleExample": "25 men, 12 days, ₹9,000 → ₹30 per man-day"
+    },
+    {
+      "title": "Late leaver",
+      "formula": "Add the work done together to the work done alone",
+      "description": "Compute each fraction.",
+      "whenToUse": "Worker leaves early.",
+      "simpleExample": "A leaves after 3 days → A : B = 1 : 4"
+    },
+    {
+      "title": "Overtime",
+      "formula": "Pay = normal hours × rate + extra hours × overtime rate",
+      "description": "Overtime is paid at a multiple.",
+      "whenToUse": "Hourly workers.",
+      "simpleExample": "8 × 60 + 3 × 90 = 750"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Find the fraction of the job done by each worker. If A takes 12 days and B takes 18 days and they work together for the whole job, A does 18/(12 + 18) = 3/5... more simply, the ratio of their rates is 1/12 : 1/18 = 3 : 2, so A gets 3/5 of the wages.",
+      "When both work for the same time, the wage ratio equals the ratio of their efficiencies. If three workers take 10, 15 and 30 days alone, their rates are 3 : 2 : 1 (on a base of 30 units). A ₹3,000 job is split ₹1,500, ₹1,000 and ₹500.",
+      "If a worker leaves midway, compute the work in two phases. A (15 days) and B (20 days) work 3 days together, then A leaves and B finishes. A does 3/15 = 1/5. B does 3/20 together and then the remaining 13/20, a total of 4/5. So A : B = 1 : 4.",
+      "To cost a job by man-days, find the wage per man-day. If 25 men working 12 days cost ₹9,000, then the cost per man-day is 9000 ÷ 300 = ₹30.",
+      "Overtime: for 11 hours a day, a worker paid ₹60 per hour for 8 hours and 1.5 times for the extra hours earns 8 × 60 + 3 × 90 = ₹750 per day."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Why not just days?",
+        "content": "Two workers can work the same number of days but at different speeds. Sharing by days alone is correct only when speeds are equal."
+      },
+      {
+        "title": "Third helper",
+        "content": "If A and B take 6 and 8 days and the three together take 3 days, then C's rate is 1/3 − 1/6 − 1/8 = 1/24, so wages are in the ratio 4 : 3 : 1."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Same rate, different days",
+      "description": "Ratio of days.",
+      "exampleSnippet": "A 3 days, B 2 days"
+    },
+    {
+      "typeName": "Different speeds, same job",
+      "description": "Ratio of rates.",
+      "exampleSnippet": "A 12 days, B 18 days"
+    },
+    {
+      "typeName": "One leaves early",
+      "description": "Phases of work.",
+      "exampleSnippet": "A leaves after 3 days"
+    },
+    {
+      "typeName": "Man-day costing",
+      "description": "Wage per man-day.",
+      "exampleSnippet": "25 men × 12 days"
+    },
+    {
+      "typeName": "Overtime",
+      "description": "Higher rate for extra hours.",
+      "exampleSnippet": "11 hours a day"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-work-wages-1",
+      "title": "Different speeds",
+      "question": "A can do a work in 12 days and B in 18 days. They finish a job together and are paid ₹6,000. How much does A receive?",
+      "givenInfo": [
+        "A: 12 days",
+        "B: 18 days",
+        "Pay ₹6,000"
+      ],
+      "conceptOrFormula": "Share in the ratio of rates.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rates",
+          "explanation": "A = 1/12 = 3/36, B = 1/18 = 2/36."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Ratio",
+          "explanation": "A : B = 3 : 2."
+        },
+        {
+          "stepNumber": 3,
+          "title": "A's share",
+          "explanation": "6000 × 3/5 = ₹3,600."
+        }
+      ],
+      "finalAnswer": "₹3,600",
+      "whyItWorks": "They worked the same number of days, so the faster worker did more.",
+      "commonTrap": "Dividing equally.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-work-wages-2",
+      "title": "One worker leaves early",
+      "question": "A can do a work in 15 days and B in 20 days. They work together for 3 days, then A leaves and B finishes the work. The total pay is ₹3,500. Find A's share.",
+      "givenInfo": [
+        "A: 15 days",
+        "B: 20 days",
+        "A works 3 days"
+      ],
+      "conceptOrFormula": "Work in two phases.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "A's work",
+          "explanation": "3/15 = 1/5."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Remaining after 3 days",
+          "explanation": "1 − (1/5 + 3/20) = 13/20, done by B."
+        },
+        {
+          "stepNumber": 3,
+          "title": "B's total",
+          "explanation": "3/20 + 13/20 = 4/5. A : B = 1 : 4."
+        },
+        {
+          "stepNumber": 4,
+          "title": "A's share",
+          "explanation": "3500 × 1/5 = ₹700."
+        }
+      ],
+      "finalAnswer": "₹700",
+      "whyItWorks": "A did one-fifth of the whole job.",
+      "commonTrap": "Sharing by days: 3 : 20.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-work-wages-3",
+      "title": "Man-day cost",
+      "question": "25 men working for 12 days are paid ₹9,000 in all. What is the cost for 20 men working for 15 days at the same rate?",
+      "givenInfo": [
+        "25 × 12 man-days → ₹9,000"
+      ],
+      "conceptOrFormula": "Cost per man-day.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Man-days",
+          "explanation": "25 × 12 = 300. Cost per man-day = 9000 ÷ 300 = ₹30."
+        },
+        {
+          "stepNumber": 2,
+          "title": "New man-days",
+          "explanation": "20 × 15 = 300."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Cost",
+          "explanation": "300 × 30 = ₹9,000."
+        }
+      ],
+      "finalAnswer": "₹9,000",
+      "whyItWorks": "The man-days are the same.",
+      "commonTrap": "Thinking more days costs more.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Rate ratio first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compute the work of each worker in full fractions.",
+      "shortcutMethod": "Convert days to units per day using the LCM, multiply by days worked and share the pay in that ratio."
+    },
+    "rulesForApplication": [
+      "Wage ∝ work done.",
+      "Same days → ratio of rates.",
+      "Same rate → ratio of days.",
+      "Fractions of work add to 1."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Sharing equally",
+      "whyItHappens": "Ignoring speed differences.",
+      "howToAvoid": "Use rates."
+    },
+    {
+      "mistake": "Using days only",
+      "whyItHappens": "Forgetting that speeds differ.",
+      "howToAvoid": "Use rate × time."
+    },
+    {
+      "mistake": "Mixing the order",
+      "whyItHappens": "Giving the larger share to the slower worker.",
+      "howToAvoid": "The faster worker earns more."
+    },
+    {
+      "mistake": "Wrong fractions for leavers",
+      "whyItHappens": "Ignoring the second phase.",
+      "howToAvoid": "Add both phases."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "The faster worker must have the larger share; the shares must add to the total.",
+    "questionSelectionAdvice": "Write units per day in a small table.",
+    "recruiterInsight": "Contract-costing questions are common in applied aptitude tests."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-work-wages-e1",
+        "question": "A works for 3 days and B for 2 days at the same rate. They are paid ₹1,000 together. A's share is",
+        "options": [
+          "500",
+          "600",
+          "400",
+          "750"
+        ],
+        "correctAnswer": "600",
+        "explanation": "Ratio 3 : 2. A = 1000 × 3/5 = 600.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-work-wages-e2",
+        "question": "A can do a job in 10 days and B in 15 days. They finish it together and are paid ₹3,000. A's share is",
+        "options": [
+          "1800",
+          "1500",
+          "1200",
+          "2000"
+        ],
+        "correctAnswer": "1800",
+        "explanation": "Rates 1/10 : 1/15 = 3 : 2. A = 3000 × 3/5 = 1800.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-work-wages-e3",
+        "question": "A worker earns ₹250 a day. For 12 days of work he earns",
+        "options": [
+          "2500",
+          "2800",
+          "3200",
+          "3000"
+        ],
+        "correctAnswer": "3000",
+        "explanation": "250 × 12 = 3000.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-work-wages-i7",
+        "question": "A can do a work in 12 days and B in 18 days. They finish it together for ₹6,000. A's share is",
+        "options": [
+          "3600",
+          "3000",
+          "2400",
+          "4000"
+        ],
+        "correctAnswer": "3600",
+        "explanation": "Rates 3 : 2. A = 6000 × 3/5 = 3600.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-work-wages-i8",
+        "question": "A, B and C can do a job in 10, 15 and 30 days alone. They finish together for ₹3,000. C's share is",
+        "options": [
+          "1000",
+          "300",
+          "600",
+          "500"
+        ],
+        "correctAnswer": "500",
+        "explanation": "Rates 3 : 2 : 1 (base 30). C = 3000 × 1/6 = 500.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-work-wages-i9",
+        "question": "A and B can do a work in 20 and 30 days. They work together to complete it and are paid ₹5,000. A's share is",
+        "options": [
+          "2500",
+          "2000",
+          "3500",
+          "3000"
+        ],
+        "correctAnswer": "3000",
+        "explanation": "Rates 3 : 2. A = 5000 × 3/5 = 3000.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-work-wages-a15",
+        "question": "A, B and C can do a work in 24, 30 and 40 days. They finish it together for ₹7,200. C's share is",
+        "options": [
+          "1200",
+          "1500",
+          "1800",
+          "2400"
+        ],
+        "correctAnswer": "1800",
+        "explanation": "Base 120: rates 5, 4, 3. Ratio 5 : 4 : 3. C = 7200 × 3/12 = 1800.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-work-wages-a16",
+        "question": "A (10 days) and B (15 days) work together for 2 days, then A leaves and B finishes. The total pay is ₹4,500. A's share is",
+        "options": [
+          "1500",
+          "900",
+          "750",
+          "1200"
+        ],
+        "correctAnswer": "900",
+        "explanation": "In 2 days together: A does 1/5. B does 2/15 + (1 − 1/3) = 4/5. Ratio 1 : 4. A = 4500 × 1/5 = 900.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-work-wages-p17",
+        "question": "A worker is paid ₹60 per hour for 8 hours and 1.5 times that rate for overtime. For 5 days of 11 hours each, he earns",
+        "options": [
+          "3300",
+          "3750",
+          "3600",
+          "4125"
+        ],
+        "correctAnswer": "3750",
+        "explanation": "Per day = 8 × 60 + 3 × 90 = 750. For 5 days = 3,750.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-work-wages-p18",
+        "question": "A can do a job in 6 days and B in 8 days. With C's help it is done in 3 days, for a total of ₹2,400. C's share is",
+        "options": [
+          "300",
+          "200",
+          "400",
+          "600"
+        ],
+        "correctAnswer": "300",
+        "explanation": "1/3 − 1/6 − 1/8 = 1/24 is C's rate. Ratio 4 : 3 : 1. C = 2400 × 1/8 = 300.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-work-wages-p19",
+        "question": "A and B can do a work in 12 days. A alone can do it in 20 days. They are paid ₹3,000 for completing it together. B's share is",
+        "options": [
+          "1000",
+          "1500",
+          "1800",
+          "1200"
+        ],
+        "correctAnswer": "1200",
+        "explanation": "B's rate = 1/12 − 1/20 = 1/30. Ratio A : B = 3 : 2. B = 3000 × 2/5 = 1200.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Wage ∝ work.",
+      "Rate ratio for equal time.",
+      "Man-day cost.",
+      "Phases for leavers.",
+      "Overtime."
+    ],
+    "quickFormulas": [
+      "Wage ratio = rate × time",
+      "Cost = men × days × wage"
+    ]
+  },
+  "keyTakeaways": [
+    "Pay follows work.",
+    "Faster earns more.",
+    "Use phases for changes.",
+    "Check the total."
+  ],
+  "selfCheckQuestions": [
+    "Can I split pay for workers with different speeds?",
+    "Can I split pay when one leaves early?",
+    "Can I cost a job by man-days?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Time and Work topic area; examples are original."
+    }
+  ]
+}

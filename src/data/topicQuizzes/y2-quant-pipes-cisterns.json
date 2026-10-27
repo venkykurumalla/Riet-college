@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-quant-pipes-cisterns",
+  "topicTitle": "Pipes and Cisterns",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A pipe fills a tank in 10 hours and another in 15 hours. Together they fill it in",
+      "options": [
+        "5",
+        "6",
+        "7.5",
+        "12.5"
+      ],
+      "answerIndex": 1,
+      "explanation": "1/10 + 1/15 = 1/6, so 6 hours."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A pipe fills a tank in 12 hours. In 3 hours it fills what fraction of the tank?",
+      "options": [
+        "1/4",
+        "1/3",
+        "1/6",
+        "1/2"
+      ],
+      "answerIndex": 0,
+      "explanation": "3/12 = 1/4."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A tank is filled by a pipe in 10 hours and emptied by another in 15 hours. With both open, the tank fills in",
+      "options": [
+        "25",
+        "20",
+        "5",
+        "30"
+      ],
+      "answerIndex": 3,
+      "explanation": "1/10 − 1/15 = 1/30, so 30 hours."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A pipe fills a tank in 6 hours. The tank is filled to half in",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "6"
+      ],
+      "answerIndex": 2,
+      "explanation": "Half the tank takes half the time: 3 hours."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "An outlet empties a full tank in 8 hours. In 2 hours it empties",
+      "options": [
+        "1/2",
+        "1/8",
+        "1/4",
+        "1/3"
+      ],
+      "answerIndex": 2,
+      "explanation": "2/8 = 1/4 of the tank."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Two pipes fill a tank in 12 hours and 12 hours. Together they fill it in",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rate = 1/12 + 1/12 = 1/6, so 6 hours."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Two pipes fill a tank in 6 and 8 hours, and an outlet empties it in 12 hours. With all three open, the tank fills in",
+      "options": [
+        "4.8",
+        "4",
+        "5",
+        "6"
+      ],
+      "answerIndex": 0,
+      "explanation": "Capacity 24: +4, +3, −2 per hour. Net 5. Time = 24 ÷ 5 = 4.8 hours."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A tap fills a tank in 6 hours. Because of a leak it takes 7.5 hours. The leak alone would empty the full tank in",
+      "options": [
+        "15",
+        "25",
+        "45",
+        "30"
+      ],
+      "answerIndex": 3,
+      "explanation": "Leak = 1/6 − 1/7.5 = 1/30. So 30 hours."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Pipe A fills a tank in 12 hours and pipe B in 18 hours. If both are opened together, the time to fill is",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "7.2"
+      ],
+      "answerIndex": 3,
+      "explanation": "1/12 + 1/18 = 5/36. Time = 36/5 = 7.2 hours."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A pipe fills a tank in 4 hours. Because of a leak it takes 5 hours. The leak would empty the full tank in",
+      "options": [
+        "9",
+        "16",
+        "20",
+        "25"
+      ],
+      "answerIndex": 2,
+      "explanation": "Leak = 1/4 − 1/5 = 1/20, so 20 hours."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Pipe A fills a tank in 20 hours and pipe B in 30 hours. Pipe A is open for the first 10 hours, then both are open. The total time to fill the tank is",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "answerIndex": 1,
+      "explanation": "A fills 1/2 in 10 hours. The remaining 1/2 at rate 1/20 + 1/30 = 1/12 takes 6 hours. Total 16 hours."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "An inlet fills a tank in 10 hours and an outlet empties it in 20 hours. Starting empty with both open, the time to fill half the tank is",
+      "options": [
+        "10",
+        "5",
+        "15",
+        "20"
+      ],
+      "answerIndex": 0,
+      "explanation": "Net = 1/10 − 1/20 = 1/20. Half the tank takes (1/2) ÷ (1/20) = 10 hours."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Pipe A is twice as fast as pipe B. Together they fill a tank in 12 hours. B alone takes",
+      "options": [
+        "36",
+        "18",
+        "24",
+        "48"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rates A = 2x, B = x, so 3x = 1/12 and x = 1/36. B takes 36 hours."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Three pipes fill a tank in 10, 20 and 30 hours. Together they fill it in (to two decimal places, in hours)",
+      "options": [
+        "5",
+        "6",
+        "6.5",
+        "5.45"
+      ],
+      "answerIndex": 3,
+      "explanation": "1/10 + 1/20 + 1/30 = 11/60. Time = 60/11 ≈ 5.45 hours."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "An inlet fills a tank in 8 hours and an outlet empties it in 12 hours. If the tank is half full and both are opened, the time to fill it is",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "24"
+      ],
+      "answerIndex": 2,
+      "explanation": "Net = 1/8 − 1/12 = 1/24. The remaining half takes (1/2) ÷ (1/24) = 12 hours."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A tank has two inlets that fill it in 20 and 30 hours and a leak that empties it in 60 hours. With the leak, both inlets together fill it in",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20"
+      ],
+      "answerIndex": 1,
+      "explanation": "1/20 + 1/30 − 1/60 = 3/60 + 2/60 − 1/60 = 4/60 = 1/15. So 15 hours."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Pipes A and B fill a tank in 15 and 20 hours. Both are opened, but B is closed after 6 hours. The tank is filled in a total of",
+      "options": [
+        "10",
+        "10.5",
+        "11",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "In 6 hours both fill 6 × (1/15 + 1/20) = 6 × 7/60 = 7/10. The remaining 3/10 by A alone takes (3/10) × 15 = 4.5 hours. Total 10.5 hours."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A cistern is normally filled in 8 hours but takes 2 hours longer because of a leak. A full cistern would be emptied by the leak in",
+      "options": [
+        "40",
+        "30",
+        "36",
+        "50"
+      ],
+      "answerIndex": 0,
+      "explanation": "Leak = 1/8 − 1/10 = 1/40. So 40 hours."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Pipe A fills a tank in 12 hours and pipe B empties it in 18 hours. Both are open for 6 hours, then B is closed. The time A then needs to fill the remaining tank is",
+      "options": [
+        "9",
+        "8",
+        "12",
+        "10"
+      ],
+      "answerIndex": 3,
+      "explanation": "In 6 hours the net is 6 × (1/12 − 1/18) = 6 × 1/36 = 1/6. Remaining 5/6 by A alone takes (5/6) × 12 = 10 hours."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Three pipes A, B and C can fill a tank in 6 hours. After working at it together for 2 hours, C is closed and A and B fill the rest in 7 hours. C alone can fill the tank in",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "answerIndex": 2,
+      "explanation": "Together in 2 hours they fill 1/3. Remaining 2/3 by A and B in 7 hours: rate = 2/21. C = 1/6 − 2/21 = 7/42 − 4/42 = 3/42 = 1/14, so 14 hours."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/pipes-and-cistern/"
+}

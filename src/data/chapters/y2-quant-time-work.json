@@ -1,0 +1,450 @@
+{
+  "id": "y2-quant-time-work",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 8,
+  "title": "Time and Work",
+  "tagline": "Year 2 — Rates of work, working together, leaving early and alternate days",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Time and work problems ask how long a job takes when one or more workers do it alone or together. The central idea is the rate of work: a worker who completes a job in n days does 1/n of the job per day. Rates of workers who work together add. Everything else, including leaving early, joining late and alternate days, is bookkeeping on these rates.",
+    "placementRelevance": "Time and work questions are commonly asked in company aptitude rounds and are a regular intermediate-level item, often with two or three workers and one twist.",
+    "realWorldContext": "Estimating the time to finish a project with several people, or how long a team needs after some members leave, uses the same idea."
+  },
+  "learningObjectives": [
+    "Convert days into work rates and add them",
+    "Solve problems with two or three workers working together",
+    "Solve leave-early and join-late problems",
+    "Use man-days for men, hours-per-day problems",
+    "Solve alternate-day and efficiency-ratio problems"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Proportion",
+      "Advanced Ratio and Proportion",
+      "Fractions and Decimals"
+    ],
+    "quickRefresher": "If a worker does a job in n days, the rate is 1/n job per day. In t days they do t/n of the job."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Rate of work: the fraction of the job done per unit time (1/n per day).",
+      "Combined rate: the sum of individual rates when workers work together.",
+      "Man-days: number of men × number of days; a measure of the total work.",
+      "Efficiency: how fast a worker works; ratio of efficiencies is the inverse of the ratio of times.",
+      "Alternate-day work: workers take turns, each day a different worker works."
+    ],
+    "theoreticalIntuition": "Think of the job as 1. If A needs 10 days and B needs 15 days, A does 1/10 and B 1/15 each day. Together they do 1/10 + 1/15 = 1/6 per day, so the job takes 6 days. A faster worker has a bigger rate and a shorter time.",
+    "visualOrMentalModel": "To avoid fractions, pick a convenient total work, the LCM of the days. For 10 and 15 days take 30 units: A does 3 units a day, B 2 units, together 5 units a day, so 30 ÷ 5 = 6 days."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Rate and time",
+      "formula": "Rate = 1/n,  Time = 1/Rate",
+      "description": "n is the time taken alone.",
+      "whenToUse": "Any single-worker question.",
+      "simpleExample": "n = 12 → 1/12 per day"
+    },
+    {
+      "title": "Working together",
+      "formula": "1/T = 1/a + 1/b  →  T = ab/(a + b)",
+      "description": "For two workers.",
+      "whenToUse": "Two workers together.",
+      "simpleExample": "10 and 15 → 150/25 = 6 days"
+    },
+    {
+      "title": "Three workers",
+      "formula": "1/T = 1/a + 1/b + 1/c",
+      "description": "Add all rates.",
+      "whenToUse": "Three workers.",
+      "simpleExample": "1/10 + 1/15 + 1/30 = 1/5"
+    },
+    {
+      "title": "Man-days",
+      "formula": "M₁ D₁ H₁ = M₂ D₂ H₂",
+      "description": "Men × days × hours per day is constant for one job.",
+      "whenToUse": "Men and days.",
+      "simpleExample": "12 men × 18 days = 216 man-days"
+    },
+    {
+      "title": "Efficiency",
+      "formula": "Efficiency ∝ 1/time",
+      "description": "Faster worker takes less time.",
+      "whenToUse": "A is twice as efficient as B.",
+      "simpleExample": "A : B = 2 : 1 → times 1 : 2"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Start with rates. A worker who takes 12 days does 1/12 of the work each day, so in 3 days they do 3/12 = 1/4. For two workers the combined rate is the sum, and the time is its reciprocal.",
+      "Use the LCM method to avoid fractions: take the total work as the LCM of the times. If A takes 20 days and B 30 days, the total is 60 units. A does 3 units/day and B 2 units/day, together 5 units/day, so 12 days.",
+      "For a worker who joins late or leaves early, compute the work done before the change, subtract from 1, and divide the remainder by the new combined rate. A (20 days) works 5 days alone: 1/4 done. Then A and B together (rate 1/12) finish the remaining 3/4 in 9 days, total 14 days.",
+      "For men and days, use man-days. 12 men finishing a job in 18 days is 216 man-days. After 6 days, 72 man-days are done and 144 remain. With 8 men that is 18 more days.",
+      "For alternate days, find the work done in a pair of days and see how many full pairs fit. If A (12 days) and B (18 days) work alternately, a pair does 1/12 + 1/18 = 5/36. After 14 days (7 pairs) 35/36 is done and A completes the last 1/36 on day 15."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Rate, not time, adds",
+        "content": "Times cannot be added for workers working together; rates can. The combined time is always shorter than the faster worker's time."
+      },
+      {
+        "title": "Working against each other",
+        "content": "Pipes and cisterns are the same idea with a negative rate for a leak or outlet. Time-and-work techniques apply directly."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Two or three workers together",
+      "description": "Add the rates.",
+      "exampleSnippet": "A 10 days, B 15 days, C 30 days"
+    },
+    {
+      "typeName": "Leaves early / joins late",
+      "description": "Work done so far.",
+      "exampleSnippet": "A leaves 5 days before the end"
+    },
+    {
+      "typeName": "Man-days",
+      "description": "Men, days and hours.",
+      "exampleSnippet": "12 men for 18 days"
+    },
+    {
+      "typeName": "Alternate days",
+      "description": "Pairs of days.",
+      "exampleSnippet": "A and B work alternately"
+    },
+    {
+      "typeName": "Efficiency ratios",
+      "description": "Times in inverse ratio.",
+      "exampleSnippet": "A is twice as good as B"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-time-work-1",
+      "title": "Working together",
+      "question": "A can do a piece of work in 10 days and B in 15 days. In how many days can they do it together?",
+      "givenInfo": [
+        "A: 10 days",
+        "B: 15 days"
+      ],
+      "conceptOrFormula": "Add the rates.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rates",
+          "explanation": "A = 1/10, B = 1/15."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Combined",
+          "explanation": "1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Time",
+          "explanation": "6 days."
+        }
+      ],
+      "finalAnswer": "6 days",
+      "whyItWorks": "The combined rate is the sum of the rates.",
+      "commonTrap": "Adding the times to get 25.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-time-work-2",
+      "title": "Joining late",
+      "question": "A can do a work in 20 days and B in 30 days. A starts and works for 5 days, then B joins. In how many days in all is the work finished?",
+      "givenInfo": [
+        "A: 20 days",
+        "B: 30 days",
+        "A works 5 days alone"
+      ],
+      "conceptOrFormula": "Work done, remainder, combined rate.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Work by A in 5 days",
+          "explanation": "5/20 = 1/4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Remaining",
+          "explanation": "3/4."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Together",
+          "explanation": "Rate = 1/20 + 1/30 = 1/12. Time = (3/4) ÷ (1/12) = 9 days."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Total",
+          "explanation": "5 + 9 = 14 days."
+        }
+      ],
+      "finalAnswer": "14 days",
+      "whyItWorks": "The total includes the first 5 days.",
+      "commonTrap": "Answering 9 days.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-time-work-3",
+      "title": "Men and days",
+      "question": "12 men can complete a work in 18 days. After 6 days, 4 men leave. In how many more days will the remaining men finish the work?",
+      "givenInfo": [
+        "12 men, 18 days",
+        "4 men leave after 6 days"
+      ],
+      "conceptOrFormula": "Man-days.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total man-days",
+          "explanation": "12 × 18 = 216."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Done in 6 days",
+          "explanation": "12 × 6 = 72. Remaining 144."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Remaining men",
+          "explanation": "8 men: 144 ÷ 8 = 18 days."
+        }
+      ],
+      "finalAnswer": "18 days",
+      "whyItWorks": "The total work stays 216 man-days.",
+      "commonTrap": "Using 12 men for the remaining days.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "LCM units",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Add fractions of the work each time.",
+      "shortcutMethod": "Take the LCM of all days as the total units, find each worker's units per day, add and divide."
+    },
+    "rulesForApplication": [
+      "Total work = LCM of days.",
+      "Faster worker has a bigger rate.",
+      "Man-days stay constant.",
+      "Subtract the work done before changes in the team."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Adding times",
+      "whyItHappens": "Adding days of two workers.",
+      "howToAvoid": "Add the rates."
+    },
+    {
+      "mistake": "Forgetting the days already worked",
+      "whyItHappens": "Reporting only the remaining days.",
+      "howToAvoid": "Add the early days."
+    },
+    {
+      "mistake": "Mixing efficiency and time",
+      "whyItHappens": "Using the efficiency ratio as the time ratio.",
+      "howToAvoid": "They are inverse."
+    },
+    {
+      "mistake": "Ignoring that leaving workers still did their part",
+      "whyItHappens": "Assuming workers who left did nothing.",
+      "howToAvoid": "Subtract the work they completed."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 80,
+    "eliminationTechnique": "The combined time must be less than the shortest individual time.",
+    "questionSelectionAdvice": "Use LCM units and a quick table of units per day.",
+    "recruiterInsight": "This is the base for work and wages and for pipes and cisterns."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-time-work-e1",
+        "question": "A can do a work in 10 days and B in 15 days. Together they can do it in",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "12.5"
+        ],
+        "correctAnswer": "6",
+        "explanation": "1/10 + 1/15 = 1/6, so 6 days.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-time-work-e2",
+        "question": "A can complete a work in 12 days. The fraction of the work A does in 3 days is",
+        "options": [
+          "1/4",
+          "1/3",
+          "1/6",
+          "1/2"
+        ],
+        "correctAnswer": "1/4",
+        "explanation": "3/12 = 1/4.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-time-work-e3",
+        "question": "A can do a work in 20 days. After working for 5 days, the fraction of work left is",
+        "options": [
+          "1/4",
+          "4/5",
+          "1/2",
+          "3/4"
+        ],
+        "correctAnswer": "3/4",
+        "explanation": "5/20 = 1/4 is done, so 3/4 is left.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-time-work-i7",
+        "question": "A, B and C can complete a job in 10, 15 and 30 days respectively. Together they will finish it in",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "8"
+        ],
+        "correctAnswer": "5",
+        "explanation": "1/10 + 1/15 + 1/30 = 6/30 = 1/5, so 5 days.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-time-work-i8",
+        "question": "A and B can do a work in 12 days, B and C in 15 days, and A and C in 20 days. All three together can do it in",
+        "options": [
+          "8",
+          "12",
+          "15",
+          "10"
+        ],
+        "correctAnswer": "10",
+        "explanation": "(A + B) + (B + C) + (A + C) = 1/12 + 1/15 + 1/20 = 12/60 = 1/5, so A + B + C = 1/10. They take 10 days.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-time-work-i9",
+        "question": "A can do a work in 20 days and B in 30 days. A starts and works for 5 days, then B joins. The total time to finish is",
+        "options": [
+          "9",
+          "12",
+          "15",
+          "14"
+        ],
+        "correctAnswer": "14",
+        "explanation": "A does 1/4 in 5 days. The rest 3/4 at rate 1/12 takes 9 days. Total 14 days.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-time-work-a15",
+        "question": "A and B can finish a job in 30 and 20 days. They start together but A leaves 5 days before the job is finished. The job takes",
+        "options": [
+          "12",
+          "15",
+          "14",
+          "16"
+        ],
+        "correctAnswer": "14",
+        "explanation": "Let the time be t. t/20 + (t − 5)/30 = 1 gives 3t + 2t − 10 = 60, so t = 14.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-time-work-a16",
+        "question": "A and B together can do a work in 6 days. A alone takes 5 days less than B alone. A alone takes",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "15"
+        ],
+        "correctAnswer": "10",
+        "explanation": "Let A = x and B = x + 5. 1/x + 1/(x + 5) = 1/6 gives x² − 7x − 30 = 0, so x = 10.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-time-work-p17",
+        "question": "A can do 1/3 of a work in 4 days and B can do 1/4 of it in 6 days. Together they can do the whole work in",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "10"
+        ],
+        "correctAnswer": "8",
+        "explanation": "A alone = 12 days and B alone = 24 days. 1/12 + 1/24 = 1/8, so 8 days.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-time-work-p18",
+        "question": "15 men can complete a work in 20 days. After 10 days, 5 men leave. The total time taken to complete the work is",
+        "options": [
+          "25",
+          "20",
+          "24",
+          "30"
+        ],
+        "correctAnswer": "25",
+        "explanation": "Total = 300 man-days. 150 done in 10 days. 10 men do the remaining 150 in 15 days. Total 25 days.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-time-work-p19",
+        "question": "A does half of a work in 8 days. Then B joins and together they finish the rest in 4 days. B alone can do the whole work in",
+        "options": [
+          "12",
+          "20",
+          "24",
+          "16"
+        ],
+        "correctAnswer": "16",
+        "explanation": "A's rate = (1/2)/8 = 1/16. Together rate = (1/2)/4 = 1/8. B = 1/8 − 1/16 = 1/16, so 16 days.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Rate = 1/n.",
+      "T = ab/(a + b).",
+      "LCM method.",
+      "Man-days constant.",
+      "Efficiency ∝ 1/time."
+    ],
+    "quickFormulas": [
+      "ab/(a+b)",
+      "M D H = constant"
+    ]
+  },
+  "keyTakeaways": [
+    "Rates add.",
+    "Use LCM units.",
+    "Track the work done.",
+    "Check the answer against the fastest worker."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the combined time for three workers?",
+    "Can I handle a worker who leaves early?",
+    "Can I use man-days?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Time and Work topic area; examples are original."
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "id": "y2-quant-adv-averages",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 7,
+  "title": "Advanced Averages",
+  "tagline": "Year 2 — Weighted averages, overlapping groups, corrections and average speed",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Year 1 averages were direct: sum divided by count, joining and leaving. Year 2 extends to weighted averages of several groups, overlapping groups, wrongly read data corrected later, averages changing across innings, and average speed over unequal parts of a journey. The tool remains Sum = Average × Count, used with careful bookkeeping.",
+    "placementRelevance": "Average questions are commonly asked in company aptitude rounds, and multi-step ones with overlapping or corrected data are a typical intermediate-level item.",
+    "realWorldContext": "Batting averages, class marks, average fuel consumption and average temperature over several days all use these methods."
+  },
+  "learningObjectives": [
+    "Compute weighted averages of groups of different sizes",
+    "Solve overlapping groups where one item is counted twice",
+    "Correct an average after a wrongly read value",
+    "Find a missing value when the average changes",
+    "Compute average speed for equal distances, equal times and unequal parts"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Averages",
+      "Advanced Ratio and Proportion"
+    ],
+    "quickRefresher": "Sum = Average × Count. Average speed = total distance ÷ total time."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Weighted average: (Σ nᵢaᵢ) ÷ Σ nᵢ.",
+      "Overlap: an item belonging to two groups so that adding the group totals counts it twice.",
+      "Correction: when a wrong value x was used instead of y, the corrected sum is old sum − x + y.",
+      "Average speed for equal distances: 2xy/(x + y). For equal times: (x + y)/2.",
+      "Change in average × number of items = change in total."
+    ],
+    "theoreticalIntuition": "An average is a balance point. Moving one item by d changes the total by d and the average by d ÷ n. So every average-change question reduces to a difference of totals.",
+    "visualOrMentalModel": "Always convert to totals first. Do the arithmetic on totals (add, remove, replace, correct), then divide again at the end."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Weighted average",
+      "formula": "(n₁a₁ + n₂a₂ + …) ÷ (n₁ + n₂ + …)",
+      "description": "Weights are group sizes.",
+      "whenToUse": "Combining classes.",
+      "simpleExample": "(15×40 + 25×48) ÷ 40 = 45"
+    },
+    {
+      "title": "Correction",
+      "formula": "Correct average = Old average + (y − x)/n",
+      "description": "x was used instead of y.",
+      "whenToUse": "Wrongly read data.",
+      "simpleExample": "25 read as 52: 40 − 27/25 = 38.92"
+    },
+    {
+      "title": "Change in average",
+      "formula": "New item = Old average + (change × new count)",
+      "description": "Joining or replacing.",
+      "whenToUse": "Innings and class problems.",
+      "simpleExample": "100 in 13th: avg 48 → 52"
+    },
+    {
+      "title": "Average speed (equal distances)",
+      "formula": "2xy ÷ (x + y)",
+      "description": "Harmonic mean.",
+      "whenToUse": "Go and return.",
+      "simpleExample": "30 and 20 → 24"
+    },
+    {
+      "title": "Overlap",
+      "formula": "Overlapping item = (sum of group totals) − (total of all)",
+      "description": "Counted twice.",
+      "whenToUse": "First-five and last-five groups.",
+      "simpleExample": "5×20 + 5×24 − 9×22 = 22"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "For weighted averages, multiply each group average by its size, add the totals and divide by the total number. 15 boys averaging 40 and 25 girls averaging 48 have totals 600 and 1200; the combined average is 1800 ÷ 40 = 45.",
+      "For overlapping groups, add the totals of the two groups and subtract the total of all items; the difference is the item counted twice. With 9 numbers averaging 22, first five averaging 20 and last five averaging 24, the fifth is 100 + 120 − 198 = 22.",
+      "For corrections, find the change in total (new − wrong value) and divide by the count. If 25 numbers average 40 and one value 25 was misread as 52, the true total is 1000 − 27 = 973 and the average 38.92.",
+      "For innings problems, the average after one more innings is (old total + new score) ÷ (n + 1). A batsman with average 48 after 12 innings scoring 100 in the 13th has (576 + 100) ÷ 13 = 52.",
+      "For average speed over equal distances, use 2xy/(x + y). For unequal parts, find the time of each part: with 2/3 of the distance at 40 km/h and 1/3 at 60 km/h, the time per km is (2/3)/40 + (1/3)/60 = 1/45, so 45 km/h."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Average of an AP",
+        "content": "For consecutive or equally spaced numbers, the average equals the middle value (or the mean of the first and last). Eight consecutive numbers with average 25.5 start at 22."
+      },
+      {
+        "title": "Why average speed is harmonic",
+        "content": "Equal distances at different speeds take different times, so the slower speed counts for more. Hence the average is less than the simple mean."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Weighted groups",
+      "description": "Combine class averages.",
+      "exampleSnippet": "15 boys and 25 girls"
+    },
+    {
+      "typeName": "Overlapping groups",
+      "description": "Find the repeated item.",
+      "exampleSnippet": "First five and last five of nine"
+    },
+    {
+      "typeName": "Corrections",
+      "description": "Fix a misread value.",
+      "exampleSnippet": "25 read as 52"
+    },
+    {
+      "typeName": "Innings and replacements",
+      "description": "Change in average.",
+      "exampleSnippet": "100 in the 13th innings"
+    },
+    {
+      "typeName": "Average speed",
+      "description": "Equal or unequal parts.",
+      "exampleSnippet": "30 km/h out, 20 km/h back"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-adv-averages-1",
+      "title": "Weighted average",
+      "question": "A class has 15 boys with average mark 40 and 25 girls with average mark 48. Find the average of the whole class.",
+      "givenInfo": [
+        "n₁ = 15, a₁ = 40",
+        "n₂ = 25, a₂ = 48"
+      ],
+      "conceptOrFormula": "Weighted average.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Totals",
+          "explanation": "15 × 40 = 600 and 25 × 48 = 1200."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Combine",
+          "explanation": "(600 + 1200) ÷ 40 = 45."
+        }
+      ],
+      "finalAnswer": "45",
+      "whyItWorks": "Girls are more numerous, so the average is closer to 48.",
+      "commonTrap": "Using (40 + 48)/2 = 44.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-adv-averages-2",
+      "title": "Overlapping groups",
+      "question": "The average of 9 numbers is 22. The average of the first five is 20 and of the last five is 24. Find the fifth number.",
+      "givenInfo": [
+        "9 numbers, avg 22",
+        "First five avg 20",
+        "Last five avg 24"
+      ],
+      "conceptOrFormula": "The fifth number is in both groups.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total of all",
+          "explanation": "9 × 22 = 198."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Group totals",
+          "explanation": "5 × 20 = 100 and 5 × 24 = 120, together 220."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Overlap",
+          "explanation": "220 − 198 = 22."
+        }
+      ],
+      "finalAnswer": "22",
+      "whyItWorks": "The two groups together count the fifth number twice.",
+      "commonTrap": "Forgetting the double count.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-adv-averages-3",
+      "title": "Correcting an average",
+      "question": "The average of 25 numbers was found to be 40. Later it was discovered that 25 had been read as 52. Find the correct average.",
+      "givenInfo": [
+        "n = 25, avg = 40",
+        "wrong 52, correct 25"
+      ],
+      "conceptOrFormula": "Correct the total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Wrong total",
+          "explanation": "25 × 40 = 1000."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Correct total",
+          "explanation": "1000 − 52 + 25 = 973."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Correct average",
+          "explanation": "973 ÷ 25 = 38.92."
+        }
+      ],
+      "finalAnswer": "38.92",
+      "whyItWorks": "The total falls by 27.",
+      "commonTrap": "Adding 27 instead of subtracting.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Total-first method",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reason with averages directly.",
+      "shortcutMethod": "Convert to totals, update the total once, divide. For corrections, change in average = change in sum ÷ n."
+    },
+    "rulesForApplication": [
+      "Use totals, not averages.",
+      "Overlap = sum of group totals − total.",
+      "Equal distance average speed = 2xy/(x+y).",
+      "Check the answer is within the data range."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Averaging averages",
+      "whyItHappens": "Ignoring group sizes.",
+      "howToAvoid": "Use weights."
+    },
+    {
+      "mistake": "Wrong sign in corrections",
+      "whyItHappens": "Adding instead of subtracting.",
+      "howToAvoid": "New total = old − wrong + correct."
+    },
+    {
+      "mistake": "Forgetting overlap",
+      "whyItHappens": "Counting a shared item once.",
+      "howToAvoid": "Add group totals, subtract the whole."
+    },
+    {
+      "mistake": "Simple mean for speed",
+      "whyItHappens": "(x + y)/2 for equal distances.",
+      "howToAvoid": "Use 2xy/(x + y)."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 75,
+    "eliminationTechnique": "A combined average must lie between the group averages.",
+    "questionSelectionAdvice": "Write totals in a small table; avoid mental juggling.",
+    "recruiterInsight": "Average-based DI questions use the same bookkeeping."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-adv-averages-e1",
+        "question": "The average of 4 numbers is 15. A fifth number 20 is added. The new average is",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "17.5"
+        ],
+        "correctAnswer": "16",
+        "explanation": "Total = 60 + 20 = 80. Average = 80 ÷ 5 = 16.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-adv-averages-e2",
+        "question": "The average of three consecutive odd numbers is 15. The largest is",
+        "options": [
+          "17",
+          "15",
+          "16",
+          "19"
+        ],
+        "correctAnswer": "17",
+        "explanation": "The numbers are 13, 15, 17. The largest is 17.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-adv-averages-e3",
+        "question": "The average of the first 50 natural numbers is",
+        "options": [
+          "25",
+          "26",
+          "24.5",
+          "25.5"
+        ],
+        "correctAnswer": "25.5",
+        "explanation": "(1 + 50)/2 = 25.5.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-adv-averages-i7",
+        "question": "A batsman's average after 12 innings is 48. He scores 100 in the 13th innings. His new average is",
+        "options": [
+          "52",
+          "50",
+          "51",
+          "53"
+        ],
+        "correctAnswer": "52",
+        "explanation": "Total = 576 + 100 = 676. Average = 676 ÷ 13 = 52.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-adv-averages-i8",
+        "question": "The average weight of 6 men increases by 1.5 kg when a man weighing 60 kg is replaced by a new man. The weight of the new man is",
+        "options": [
+          "66",
+          "72",
+          "75",
+          "69"
+        ],
+        "correctAnswer": "69",
+        "explanation": "Total rises by 6 × 1.5 = 9. New man = 60 + 9 = 69.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-adv-averages-i9",
+        "question": "The average age of 10 men is 30. When one man is replaced by a 40-year-old, the average becomes 31. The age of the man replaced was",
+        "options": [
+          "28",
+          "32",
+          "35",
+          "30"
+        ],
+        "correctAnswer": "30",
+        "explanation": "Total rises by 10. So the replaced man = 40 − 10 = 30.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-adv-averages-a15",
+        "question": "The average of 25 numbers is 40. A number 25 was read as 52. The correct average is",
+        "options": [
+          "39",
+          "40.54",
+          "38.92",
+          "38.5"
+        ],
+        "correctAnswer": "38.92",
+        "explanation": "Correct total = 1000 − 52 + 25 = 973. Average = 973 ÷ 25 = 38.92.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-adv-averages-a16",
+        "question": "The average age of 40 students is 15 years. When the teacher's age is included, the average rises by 0.5 year. The teacher's age is",
+        "options": [
+          "30",
+          "35.5",
+          "35",
+          "36"
+        ],
+        "correctAnswer": "35.5",
+        "explanation": "New total = 41 × 15.5 = 635.5. Old total = 600. Teacher = 35.5.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-adv-averages-p17",
+        "question": "The average of 9 numbers is 22. The average of the first five is 20 and of the last five is 24. The fifth number is",
+        "options": [
+          "20",
+          "22",
+          "24",
+          "26"
+        ],
+        "correctAnswer": "22",
+        "explanation": "5 × 20 + 5 × 24 = 220. Total = 198. The fifth number is 220 − 198 = 22.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-adv-averages-p18",
+        "question": "A man goes from A to B at 30 km/h and returns at 20 km/h. If the total travelling time is 5 hours, the distance AB is",
+        "options": [
+          "60",
+          "50",
+          "72",
+          "120"
+        ],
+        "correctAnswer": "60",
+        "explanation": "Average speed = 2 × 30 × 20 ÷ 50 = 24 km/h. Total distance = 24 × 5 = 120, so AB = 60 km.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-adv-averages-p19",
+        "question": "The average of 50 numbers is 38. If two numbers 45 and 55 are removed, the average of the remaining 48 numbers is",
+        "options": [
+          "38",
+          "37",
+          "36.5",
+          "37.5"
+        ],
+        "correctAnswer": "37.5",
+        "explanation": "Total = 1900. After removing 100: 1800. Average = 1800 ÷ 48 = 37.5.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Sum = avg × n.",
+      "Weighted average.",
+      "Overlap formula.",
+      "Correction formula.",
+      "Average speed."
+    ],
+    "quickFormulas": [
+      "(Σnᵢaᵢ)/Σnᵢ",
+      "2xy/(x+y)"
+    ]
+  },
+  "keyTakeaways": [
+    "Work with totals.",
+    "Account for overlap.",
+    "Correct by the difference.",
+    "Use harmonic mean for equal distances."
+  ],
+  "selfCheckQuestions": [
+    "Can I find a missing value from averages of overlapping groups?",
+    "Can I correct an average?",
+    "Can I compute average speed for unequal parts?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Average topic area; examples are original."
+    }
+  ]
+}
