@@ -1,0 +1,419 @@
+{
+  "id": "y3-verbal-para-completion",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 52,
+  "title": "Paragraph Completion — Tone-Matching",
+  "tagline": "Year 3 — Choosing the closing sentence that fits the logic, direction and tone of the paragraph",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A paragraph-completion question gives a paragraph without its final sentence and asks you to choose the sentence that finishes it best. The right sentence continues the direction of the argument (support, contrast or result), keeps the tone (formal, ironic, sad, cautious), stays in scope, and neither repeats nor leaps ahead. Wrong options typically fail on one of these four.",
+    "placementRelevance": "Paragraph-completion items appear in verbal sections along with para jumbles and sentence completion.",
+    "realWorldContext": "Ending an email, a report or a paragraph in the right voice uses the same judgement."
+  },
+  "learningObjectives": [
+    "Identify the direction: support, contrast or result",
+    "Match tone and register",
+    "Reject repetition and irrelevance",
+    "Choose balanced endings for balanced paragraphs",
+    "Prefer the option that closes the thought"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Para Jumbles — 6 Sentences",
+      "Logical Connectors in Written Discourse"
+    ],
+    "quickRefresher": "The last sentence of a paragraph usually gives the result, the conclusion or the next step."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Direction: whether the paragraph is supporting, contrasting or concluding.",
+      "Tone: the attitude of the paragraph (formal, ironic, regretful, cautious, persuasive).",
+      "Scope: the topic limits of the paragraph.",
+      "Repetition: restating an earlier sentence without adding anything.",
+      "Leap: jumping to a new topic or an extreme claim."
+    ],
+    "theoreticalIntuition": "Read the paragraph as a sentence that has not finished yet. The ending should feel like the only natural way to stop.",
+    "visualOrMentalModel": "Name the direction and tone in two words (\"sad, result\"; \"balanced, conclusion\"). Keep only options that match both, then discard repeats and leaps."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Direction check",
+      "formula": "Support, contrast or result?",
+      "description": "First.",
+      "whenToUse": "Step 1.",
+      "simpleExample": "Praise → expect a result"
+    },
+    {
+      "title": "Tone check",
+      "formula": "Same register as the paragraph",
+      "description": "Second.",
+      "whenToUse": "Step 2.",
+      "simpleExample": "Formal letter → polite close"
+    },
+    {
+      "title": "Scope check",
+      "formula": "Same topic only",
+      "description": "Third.",
+      "whenToUse": "Step 3.",
+      "simpleExample": "No new subject"
+    },
+    {
+      "title": "Balance check",
+      "formula": "Two sides → balanced close",
+      "description": "Debates.",
+      "whenToUse": "Step 4.",
+      "simpleExample": "Depends on design"
+    },
+    {
+      "title": "Repeat check",
+      "formula": "Adds something new",
+      "description": "Final.",
+      "whenToUse": "Step 5.",
+      "simpleExample": "Not a restatement"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Take a paragraph that praises a restaurant: \"The restaurant had received glowing reviews for its food. Critics praised the fresh ingredients, the generous portions and the friendly staff.\" The direction is a result of the praise: \"It is no surprise that the tables are booked weeks in advance.\" An option about the building being constructed in 1950 leaves the topic.",
+      "For a balanced paragraph (\"Critics say the policy will raise prices. Supporters say it will protect local jobs.\"), a balanced ending fits: \"Both claims may be partly true, so the answer depends on how the policy is designed.\" An option that declares the policy harmful picks a side that the paragraph has not taken.",
+      "A formal letter needs a formal close: \"We thank you for your interest and wish you every success in the future.\" A casual or boastful ending would clash with the register.",
+      "In an ironic paragraph, the ending should extend the irony: after a slogan promising \"service with a smile\" and forty minutes on hold, the line about the recorded voice thanking him for his patience carries the joke further.",
+      "A suspense paragraph needs a suspenseful ending: \"Somewhere below, a door creaked slowly open.\" A calm summary would break the mood."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Hedged endings",
+        "content": "In scientific paragraphs, an ending that asks for more evidence matches a paragraph that reports early results."
+      },
+      {
+        "title": "The restatement trap",
+        "content": "An option that merely repeats the previous sentence is wrong even if it matches the tone."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Result endings",
+      "description": "Follow from praise or blame.",
+      "exampleSnippet": "Restaurant review"
+    },
+    {
+      "typeName": "Balanced endings",
+      "description": "Two sides.",
+      "exampleSnippet": "Policy debate"
+    },
+    {
+      "typeName": "Formal endings",
+      "description": "Letters.",
+      "exampleSnippet": "Rejection letter"
+    },
+    {
+      "typeName": "Ironic endings",
+      "description": "Extend the joke.",
+      "exampleSnippet": "Hold music"
+    },
+    {
+      "typeName": "Suspense endings",
+      "description": "Add tension.",
+      "exampleSnippet": "Lights out"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-para-completion-1",
+      "title": "Result",
+      "question": "A paragraph says critics praised a restaurant's fresh food and friendly staff. Which ending fits: \"It is no surprise that its tables are booked weeks ahead\" or \"The building was constructed in 1950\"?",
+      "givenInfo": [
+        "Praise"
+      ],
+      "conceptOrFormula": "Direction check.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Direction",
+          "explanation": "Praise leads to a result."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choice",
+          "explanation": "Advance booking follows from praise; the building is off-topic."
+        }
+      ],
+      "finalAnswer": "It is no surprise that its tables are booked weeks ahead",
+      "whyItWorks": "The other leaves the topic.",
+      "commonTrap": "Choosing the building.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-para-completion-2",
+      "title": "Balance",
+      "question": "Critics say a policy raises prices; supporters say it protects jobs. Which ending fits best?",
+      "givenInfo": [
+        "Two sides"
+      ],
+      "conceptOrFormula": "Balance check.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Balance",
+          "explanation": "The paragraph has not taken a side."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choice",
+          "explanation": "A balanced ending fits."
+        }
+      ],
+      "finalAnswer": "Both claims may be partly true, so the answer depends on how the policy is designed",
+      "whyItWorks": "Picking a side jumps ahead.",
+      "commonTrap": "Declaring the policy harmful.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-para-completion-3",
+      "title": "Tone",
+      "question": "A letter says \"I regret to inform you that your application has not been successful.\" Which ending fits?",
+      "givenInfo": [
+        "Formal letter"
+      ],
+      "conceptOrFormula": "Tone check.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Register",
+          "explanation": "Polite and formal."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choice",
+          "explanation": "A courteous close fits."
+        }
+      ],
+      "finalAnswer": "We thank you for your interest and wish you every success in the future",
+      "whyItWorks": "A casual or boastful ending clashes.",
+      "commonTrap": "Choosing a joke.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Direction, tone, scope",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Pick the sentence that sounds good.",
+      "shortcutMethod": "Decide direction and tone first, then discard options that leave the topic, repeat, or leap to extremes."
+    },
+    "rulesForApplication": [
+      "Praise → result.",
+      "Two sides → balanced close.",
+      "Formal letter → formal close.",
+      "No restatement."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing a repeat",
+      "whyItHappens": "Adds nothing.",
+      "howToAvoid": "Look for new content that closes."
+    },
+    {
+      "mistake": "Choosing an extreme ending",
+      "whyItHappens": "Leaps ahead.",
+      "howToAvoid": "Stay with the evidence."
+    },
+    {
+      "mistake": "Ignoring tone",
+      "whyItHappens": "Clashing register.",
+      "howToAvoid": "Match tone first."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 45,
+    "eliminationTechnique": "Eliminate off-topic options first.",
+    "questionSelectionAdvice": "Read the paragraph in your head with each option in turn.",
+    "recruiterInsight": "The best ending sounds inevitable."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-para-completion-e1",
+        "question": "Choose the sentence that best completes the paragraph.\n\nThe restaurant had received glowing reviews for its food. Critics praised the fresh ingredients, the generous portions and the friendly staff.\n\nWhich sentence best completes the paragraph?",
+        "options": [
+          "The building where it stands was constructed in 1950.",
+          "It is no surprise that its tables are booked weeks in advance.",
+          "Many people prefer cooking at home.",
+          "The owner has decided to retire next year."
+        ],
+        "correctAnswer": "It is no surprise that its tables are booked weeks in advance.",
+        "explanation": "The paragraph praises the restaurant, so a result of that praise fits. The other options leave the topic.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-para-completion-e2",
+        "question": "Choose the sentence that best completes the paragraph.\n\nAnita had prepared for the interview for weeks. She practised her answers, researched the company and arrived early.\n\nWhich sentence best completes the paragraph?",
+        "options": [
+          "When her name was called, she walked in feeling calm and ready.",
+          "The company had been founded in 1990.",
+          "She often forgot her umbrella.",
+          "Interviews are held in many cities."
+        ],
+        "correctAnswer": "When her name was called, she walked in feeling calm and ready.",
+        "explanation": "Her preparation leads naturally to a calm, ready entrance. The other options are irrelevant.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-para-completion-e3",
+        "question": "Choose the sentence that best completes the paragraph.\n\nThe new bridge was meant to ease traffic. Instead, it has made things worse.\n\nWhich sentence best completes the paragraph?",
+        "options": [
+          "The bridge was designed by a famous architect.",
+          "Bridges have been built for thousands of years.",
+          "The river below is clean.",
+          "Drivers now spend longer in queues than they did before it opened."
+        ],
+        "correctAnswer": "Drivers now spend longer in queues than they did before it opened.",
+        "explanation": "The paragraph says things got worse, so the ending should show how.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-para-completion-i7",
+        "question": "Choose the sentence that best completes the paragraph.\n\nSome argue that cities should ban cars from their centres. They point to cleaner air and quieter streets. Others reply that shops and residents depend on deliveries and access.\n\nWhich sentence best completes the paragraph?",
+        "options": [
+          "A workable policy will probably have to balance both concerns.",
+          "Cars should therefore be banned immediately.",
+          "Shops should move out of city centres.",
+          "Quiet streets are not worth having."
+        ],
+        "correctAnswer": "A workable policy will probably have to balance both concerns.",
+        "explanation": "The paragraph presents two sides and takes neither, so a balanced close fits.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-para-completion-i8",
+        "question": "Choose the sentence that best completes the paragraph.\n\nThe first draft of the report was clear but long. The editor cut it by a third, removing repeated points and long examples.\n\nWhich sentence best completes the paragraph?",
+        "options": [
+          "The editor was paid for the work.",
+          "The report was printed in colour.",
+          "Long reports are common in business.",
+          "The shorter version lost none of its clarity and was easier to read."
+        ],
+        "correctAnswer": "The shorter version lost none of its clarity and was easier to read.",
+        "explanation": "The paragraph is about the effect of editing; the ending reports the result.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-para-completion-i9",
+        "question": "Choose the sentence that best completes the paragraph.\n\nThe old village school closed last year. Its bell no longer rings at nine, and the playground is overgrown with weeds.\n\nWhich sentence best completes the paragraph?",
+        "options": [
+          "The new school has a computer laboratory.",
+          "Bells are made of brass.",
+          "Weeds grow quickly in the rainy season.",
+          "The village feels quieter and emptier without the sound of children."
+        ],
+        "correctAnswer": "The village feels quieter and emptier without the sound of children.",
+        "explanation": "The paragraph has a quiet, regretful tone; the ending extends it.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-para-completion-a15",
+        "question": "Choose the sentence that best completes the paragraph.\n\nCritics of the policy say it will raise prices. Supporters say it will protect local jobs.\n\nWhich sentence best completes the paragraph?",
+        "options": [
+          "The policy is certainly harmful.",
+          "The supporters are clearly mistaken.",
+          "Both claims may be partly true, so the answer depends on how the policy is designed.",
+          "Prices never change when policies change."
+        ],
+        "correctAnswer": "Both claims may be partly true, so the answer depends on how the policy is designed.",
+        "explanation": "The paragraph presents two sides; the balanced ending avoids picking one.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-para-completion-a16",
+        "question": "Choose the sentence that best completes the paragraph.\n\nThe experiment failed for the third time. Instead of giving up, the team went back through every step of the procedure.\n\nWhich sentence best completes the paragraph?",
+        "options": [
+          "The experiment was cancelled by the director.",
+          "Eventually they found a small error in the way the samples were stored.",
+          "Scientists never make mistakes.",
+          "Laboratories are expensive to build."
+        ],
+        "correctAnswer": "Eventually they found a small error in the way the samples were stored.",
+        "explanation": "The paragraph shows persistence; the ending rewards it with a finding.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-para-completion-p17",
+        "question": "Choose the sentence that best completes the paragraph.\n\nThe company's slogan promised \"service with a smile\". After forty minutes on hold, however, one customer was beginning to doubt it.\n\nWhich sentence best completes the paragraph?",
+        "options": [
+          "Customers are generally happy with the company.",
+          "The only thing smiling at that moment was the recorded voice that kept thanking him for his patience.",
+          "The slogan was written by a famous poet.",
+          "Forty minutes is a short wait."
+        ],
+        "correctAnswer": "The only thing smiling at that moment was the recorded voice that kept thanking him for his patience.",
+        "explanation": "The paragraph is ironic; the ending extends the irony.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-para-completion-p18",
+        "question": "Choose the sentence that best completes the paragraph.\n\nThe study found a strong link between sleep and memory. It does not, however, prove that poor sleep causes poor memory.\n\nWhich sentence best completes the paragraph?",
+        "options": [
+          "Other factors, such as stress, may affect both at once.",
+          "Poor sleep has no effect on anything.",
+          "Memory is stored in the stomach.",
+          "Everyone should sleep for twelve hours."
+        ],
+        "correctAnswer": "Other factors, such as stress, may affect both at once.",
+        "explanation": "The paragraph warns against assuming cause; the ending offers an alternative explanation.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-para-completion-p19",
+        "question": "Choose the sentence that best completes the paragraph.\n\nEvery year thousands of trees are cut down to make way for new roads. Replanting is possible, but young saplings take decades to provide the shade and habitat that old trees do.\n\nWhich sentence best completes the paragraph?",
+        "options": [
+          "Roads should never be built anywhere.",
+          "Saplings grow into old trees overnight.",
+          "Shade is not needed in cities.",
+          "We should therefore think carefully before felling a mature tree and protect those we already have."
+        ],
+        "correctAnswer": "We should therefore think carefully before felling a mature tree and protect those we already have.",
+        "explanation": "The paragraph argues that replacement is slow; the ending draws the sensible conclusion.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Direction.",
+      "Tone.",
+      "Scope.",
+      "Balance.",
+      "No repetition."
+    ],
+    "quickFormulas": [
+      "Direction + tone + scope"
+    ]
+  },
+  "keyTakeaways": [
+    "Name the direction.",
+    "Match the tone.",
+    "Stay in scope.",
+    "Avoid repetition."
+  ],
+  "selfCheckQuestions": [
+    "Can I name direction and tone?",
+    "Can I reject a repeat?",
+    "Can I balance a two-sided paragraph?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-verbal-sentence-rearrangement",
+  "topicTitle": "Sentence Rearrangement Within Paragraphs",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. The marathon takes its name from a Greek legend.\nP. On arrival he delivered his message and then collapsed.\nQ. According to the story, a messenger ran from the battlefield at Marathon to Athens to announce a victory.\nR. When the modern Olympic Games began in 1896, organisers recalled the story and added a long race to honour it.\nS. He covered about forty kilometres without rest.\nS6. The distance was later fixed at 42.195 kilometres, and it has not changed since 1921.\n\nWhich of the following gives the correct order of P, Q, R and S?",
+      "options": [
+        "SQPR",
+        "QSPR",
+        "QSRP",
+        "QPSR"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is QSPR. S1 introduces the subject; each middle sentence then picks up the one before it by time or reference, and S6 draws the conclusion."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. The marathon takes its name from a Greek legend.\nP. On arrival he delivered his message and then collapsed.\nQ. According to the story, a messenger ran from the battlefield at Marathon to Athens to announce a victory.\nR. When the modern Olympic Games began in 1896, organisers recalled the story and added a long race to honour it.\nS. He covered about forty kilometres without rest.\nS6. The distance was later fixed at 42.195 kilometres, and it has not changed since 1921.\n\nWhich sentence follows S1 most logically?",
+      "options": [
+        "Q",
+        "P",
+        "R",
+        "S"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is QSPR. So the sentence that follows S1 is Q."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. The marathon takes its name from a Greek legend.\nP. On arrival he delivered his message and then collapsed.\nQ. According to the story, a messenger ran from the battlefield at Marathon to Athens to announce a victory.\nR. When the modern Olympic Games began in 1896, organisers recalled the story and added a long race to honour it.\nS. He covered about forty kilometres without rest.\nS6. The distance was later fixed at 42.195 kilometres, and it has not changed since 1921.\n\nWhich sentence comes immediately before S6?",
+      "options": [
+        "P",
+        "Q",
+        "S",
+        "R"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is QSPR. So the sentence immediately before S6 is R."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. The marathon takes its name from a Greek legend.\nP. On arrival he delivered his message and then collapsed.\nQ. According to the story, a messenger ran from the battlefield at Marathon to Athens to announce a victory.\nR. When the modern Olympic Games began in 1896, organisers recalled the story and added a long race to honour it.\nS. He covered about forty kilometres without rest.\nS6. The distance was later fixed at 42.195 kilometres, and it has not changed since 1921.\n\nWhich sentence is second in the correct order of P, Q, R and S?",
+      "options": [
+        "P",
+        "Q",
+        "S",
+        "R"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is QSPR. So the second sentence is S."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. The marathon takes its name from a Greek legend.\nP. On arrival he delivered his message and then collapsed.\nQ. According to the story, a messenger ran from the battlefield at Marathon to Athens to announce a victory.\nR. When the modern Olympic Games began in 1896, organisers recalled the story and added a long race to honour it.\nS. He covered about forty kilometres without rest.\nS6. The distance was later fixed at 42.195 kilometres, and it has not changed since 1921.\n\nWhich sentence is third in the correct order of P, Q, R and S?",
+      "options": [
+        "Q",
+        "R",
+        "P",
+        "S"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is QSPR. So the third sentence is P."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Tea was discovered, according to Chinese tradition, by accident.\nP. He tasted the infusion and found it refreshing.\nQ. By the Tang dynasty tea had become a national drink, with its own etiquette and its own poets.\nR. Emperor Shennong was boiling drinking water when a few leaves from a nearby bush drifted into the pot.\nS. Word of the new drink spread through the court, and cultivation of the bush began.\nS6. Traders later carried it along the Silk Road, and from there it reached the rest of the world.\n\nWhich of the following gives the correct order of P, Q, R and S?",
+      "options": [
+        "PRSQ",
+        "RPSQ",
+        "RPQS",
+        "RSPQ"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is RPSQ. S1 introduces the subject; each middle sentence then picks up the one before it by time or reference, and S6 draws the conclusion."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Tea was discovered, according to Chinese tradition, by accident.\nP. He tasted the infusion and found it refreshing.\nQ. By the Tang dynasty tea had become a national drink, with its own etiquette and its own poets.\nR. Emperor Shennong was boiling drinking water when a few leaves from a nearby bush drifted into the pot.\nS. Word of the new drink spread through the court, and cultivation of the bush began.\nS6. Traders later carried it along the Silk Road, and from there it reached the rest of the world.\n\nWhich sentence follows S1 most logically?",
+      "options": [
+        "R",
+        "P",
+        "Q",
+        "S"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is RPSQ. So the sentence that follows S1 is R."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Tea was discovered, according to Chinese tradition, by accident.\nP. He tasted the infusion and found it refreshing.\nQ. By the Tang dynasty tea had become a national drink, with its own etiquette and its own poets.\nR. Emperor Shennong was boiling drinking water when a few leaves from a nearby bush drifted into the pot.\nS. Word of the new drink spread through the court, and cultivation of the bush began.\nS6. Traders later carried it along the Silk Road, and from there it reached the rest of the world.\n\nWhich sentence comes immediately before S6?",
+      "options": [
+        "P",
+        "R",
+        "S",
+        "Q"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is RPSQ. So the sentence immediately before S6 is Q."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Tea was discovered, according to Chinese tradition, by accident.\nP. He tasted the infusion and found it refreshing.\nQ. By the Tang dynasty tea had become a national drink, with its own etiquette and its own poets.\nR. Emperor Shennong was boiling drinking water when a few leaves from a nearby bush drifted into the pot.\nS. Word of the new drink spread through the court, and cultivation of the bush began.\nS6. Traders later carried it along the Silk Road, and from there it reached the rest of the world.\n\nWhich sentence is second in the correct order of P, Q, R and S?",
+      "options": [
+        "Q",
+        "R",
+        "S",
+        "P"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is RPSQ. So the second sentence is P."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Tea was discovered, according to Chinese tradition, by accident.\nP. He tasted the infusion and found it refreshing.\nQ. By the Tang dynasty tea had become a national drink, with its own etiquette and its own poets.\nR. Emperor Shennong was boiling drinking water when a few leaves from a nearby bush drifted into the pot.\nS. Word of the new drink spread through the court, and cultivation of the bush began.\nS6. Traders later carried it along the Silk Road, and from there it reached the rest of the world.\n\nWhich sentence is third in the correct order of P, Q, R and S?",
+      "options": [
+        "P",
+        "Q",
+        "S",
+        "R"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is RPSQ. So the third sentence is S."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Compound interest is often called the most powerful idea in personal finance.\nP. Over several decades, however, the compounding balance pulls far ahead.\nQ. Under compound interest, the interest earned in one year is added to the balance and itself earns interest in later years.\nR. In the early years the difference between the two is small.\nS. Under simple interest, you earn a fixed amount each year on the money you first deposited.\nS6. This is why starting to save early matters more than saving large amounts later.\n\nWhich of the following gives the correct order of P, Q, R and S?",
+      "options": [
+        "QSRP",
+        "SQRP",
+        "SQPR",
+        "SRQP"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is SQRP. S1 introduces the subject; each middle sentence then picks up the one before it by time or reference, and S6 draws the conclusion."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Compound interest is often called the most powerful idea in personal finance.\nP. Over several decades, however, the compounding balance pulls far ahead.\nQ. Under compound interest, the interest earned in one year is added to the balance and itself earns interest in later years.\nR. In the early years the difference between the two is small.\nS. Under simple interest, you earn a fixed amount each year on the money you first deposited.\nS6. This is why starting to save early matters more than saving large amounts later.\n\nWhich sentence follows S1 most logically?",
+      "options": [
+        "S",
+        "P",
+        "Q",
+        "R"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is SQRP. So the sentence that follows S1 is S."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Compound interest is often called the most powerful idea in personal finance.\nP. Over several decades, however, the compounding balance pulls far ahead.\nQ. Under compound interest, the interest earned in one year is added to the balance and itself earns interest in later years.\nR. In the early years the difference between the two is small.\nS. Under simple interest, you earn a fixed amount each year on the money you first deposited.\nS6. This is why starting to save early matters more than saving large amounts later.\n\nWhich sentence comes immediately before S6?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is SQRP. So the sentence immediately before S6 is P."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Compound interest is often called the most powerful idea in personal finance.\nP. Over several decades, however, the compounding balance pulls far ahead.\nQ. Under compound interest, the interest earned in one year is added to the balance and itself earns interest in later years.\nR. In the early years the difference between the two is small.\nS. Under simple interest, you earn a fixed amount each year on the money you first deposited.\nS6. This is why starting to save early matters more than saving large amounts later.\n\nWhich sentence is second in the correct order of P, Q, R and S?",
+      "options": [
+        "P",
+        "R",
+        "S",
+        "Q"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is SQRP. So the second sentence is Q."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Compound interest is often called the most powerful idea in personal finance.\nP. Over several decades, however, the compounding balance pulls far ahead.\nQ. Under compound interest, the interest earned in one year is added to the balance and itself earns interest in later years.\nR. In the early years the difference between the two is small.\nS. Under simple interest, you earn a fixed amount each year on the money you first deposited.\nS6. This is why starting to save early matters more than saving large amounts later.\n\nWhich sentence is third in the correct order of P, Q, R and S?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is SQRP. So the third sentence is R."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Before the telephone, urgent news travelled only as fast as a person or a telegraph wire could carry it.\nP. Within a few decades, however, businesses had installed telephones, and exchanges connected whole cities.\nQ. The telephone changed the pace of commerce and of family life alike.\nR. At first many people saw it as a curiosity rather than a tool.\nS. In 1876 Alexander Graham Bell patented a device that could carry the human voice along a wire.\nS6. Its descendant, the mobile phone, now fits in a pocket and has made the wire unnecessary.\n\nWhich of the following gives the correct order of P, Q, R and S?",
+      "options": [
+        "RSPQ",
+        "SRPQ",
+        "SRQP",
+        "SPRQ"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is SRPQ. S1 introduces the subject; each middle sentence then picks up the one before it by time or reference, and S6 draws the conclusion."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Before the telephone, urgent news travelled only as fast as a person or a telegraph wire could carry it.\nP. Within a few decades, however, businesses had installed telephones, and exchanges connected whole cities.\nQ. The telephone changed the pace of commerce and of family life alike.\nR. At first many people saw it as a curiosity rather than a tool.\nS. In 1876 Alexander Graham Bell patented a device that could carry the human voice along a wire.\nS6. Its descendant, the mobile phone, now fits in a pocket and has made the wire unnecessary.\n\nWhich sentence follows S1 most logically?",
+      "options": [
+        "P",
+        "S",
+        "Q",
+        "R"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is SRPQ. So the sentence that follows S1 is S."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Before the telephone, urgent news travelled only as fast as a person or a telegraph wire could carry it.\nP. Within a few decades, however, businesses had installed telephones, and exchanges connected whole cities.\nQ. The telephone changed the pace of commerce and of family life alike.\nR. At first many people saw it as a curiosity rather than a tool.\nS. In 1876 Alexander Graham Bell patented a device that could carry the human voice along a wire.\nS6. Its descendant, the mobile phone, now fits in a pocket and has made the wire unnecessary.\n\nWhich sentence comes immediately before S6?",
+      "options": [
+        "Q",
+        "P",
+        "R",
+        "S"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is SRPQ. So the sentence immediately before S6 is Q."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Before the telephone, urgent news travelled only as fast as a person or a telegraph wire could carry it.\nP. Within a few decades, however, businesses had installed telephones, and exchanges connected whole cities.\nQ. The telephone changed the pace of commerce and of family life alike.\nR. At first many people saw it as a curiosity rather than a tool.\nS. In 1876 Alexander Graham Bell patented a device that could carry the human voice along a wire.\nS6. Its descendant, the mobile phone, now fits in a pocket and has made the wire unnecessary.\n\nWhich sentence is second in the correct order of P, Q, R and S?",
+      "options": [
+        "P",
+        "Q",
+        "S",
+        "R"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is SRPQ. So the second sentence is R."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Before the telephone, urgent news travelled only as fast as a person or a telegraph wire could carry it.\nP. Within a few decades, however, businesses had installed telephones, and exchanges connected whole cities.\nQ. The telephone changed the pace of commerce and of family life alike.\nR. At first many people saw it as a curiosity rather than a tool.\nS. In 1876 Alexander Graham Bell patented a device that could carry the human voice along a wire.\nS6. Its descendant, the mobile phone, now fits in a pocket and has made the wire unnecessary.\n\nWhich sentence is third in the correct order of P, Q, R and S?",
+      "options": [
+        "Q",
+        "R",
+        "P",
+        "S"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is SRPQ. So the third sentence is P."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/ordering-of-sentences/"
+}

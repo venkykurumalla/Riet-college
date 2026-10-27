@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-verbal-para-completion",
+  "topicTitle": "Paragraph Completion — Tone-Matching",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the sentence that best completes the paragraph.\n\nThe restaurant had received glowing reviews for its food. Critics praised the fresh ingredients, the generous portions and the friendly staff.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "The building where it stands was constructed in 1950.",
+        "It is no surprise that its tables are booked weeks in advance.",
+        "Many people prefer cooking at home.",
+        "The owner has decided to retire next year."
+      ],
+      "answerIndex": 1,
+      "explanation": "The paragraph praises the restaurant, so a result of that praise fits. The other options leave the topic."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the sentence that best completes the paragraph.\n\nAnita had prepared for the interview for weeks. She practised her answers, researched the company and arrived early.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "When her name was called, she walked in feeling calm and ready.",
+        "The company had been founded in 1990.",
+        "She often forgot her umbrella.",
+        "Interviews are held in many cities."
+      ],
+      "answerIndex": 0,
+      "explanation": "Her preparation leads naturally to a calm, ready entrance. The other options are irrelevant."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Choose the sentence that best completes the paragraph.\n\nThe new bridge was meant to ease traffic. Instead, it has made things worse.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "The bridge was designed by a famous architect.",
+        "Bridges have been built for thousands of years.",
+        "The river below is clean.",
+        "Drivers now spend longer in queues than they did before it opened."
+      ],
+      "answerIndex": 3,
+      "explanation": "The paragraph says things got worse, so the ending should show how."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the sentence that best completes the paragraph.\n\nMangroves protect coastlines from storms. They also shelter young fish.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "Mangroves are found only in cold climates.",
+        "Fish are a popular food in many countries.",
+        "Clearing them therefore harms both coastal communities and fisheries.",
+        "Storms have become more common this decade."
+      ],
+      "answerIndex": 2,
+      "explanation": "The two benefits lead to the consequence of losing them."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the sentence that best completes the paragraph.\n\nI regret to inform you that your application has not been successful. The panel received a large number of strong applications.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "Please try to be more careful next time.",
+        "You should not have applied in the first place.",
+        "We thank you for your interest and wish you every success in the future.",
+        "The panel enjoyed its lunch."
+      ],
+      "answerIndex": 2,
+      "explanation": "A formal rejection letter closes with courtesy."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the sentence that best completes the paragraph.\n\nDogs have been companions to people for thousands of years. They guard homes, herd animals and comfort their owners.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "Cats prefer to be alone.",
+        "Few other animals have worked alongside humans in so many ways.",
+        "Dogs cannot be trained at all.",
+        "Pet food is sold in supermarkets."
+      ],
+      "answerIndex": 1,
+      "explanation": "The ending draws a conclusion from the list of roles."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the sentence that best completes the paragraph.\n\nSome argue that cities should ban cars from their centres. They point to cleaner air and quieter streets. Others reply that shops and residents depend on deliveries and access.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "A workable policy will probably have to balance both concerns.",
+        "Cars should therefore be banned immediately.",
+        "Shops should move out of city centres.",
+        "Quiet streets are not worth having."
+      ],
+      "answerIndex": 0,
+      "explanation": "The paragraph presents two sides and takes neither, so a balanced close fits."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the sentence that best completes the paragraph.\n\nThe first draft of the report was clear but long. The editor cut it by a third, removing repeated points and long examples.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "The editor was paid for the work.",
+        "The report was printed in colour.",
+        "Long reports are common in business.",
+        "The shorter version lost none of its clarity and was easier to read."
+      ],
+      "answerIndex": 3,
+      "explanation": "The paragraph is about the effect of editing; the ending reports the result."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the sentence that best completes the paragraph.\n\nThe old village school closed last year. Its bell no longer rings at nine, and the playground is overgrown with weeds.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "The new school has a computer laboratory.",
+        "Bells are made of brass.",
+        "Weeds grow quickly in the rainy season.",
+        "The village feels quieter and emptier without the sound of children."
+      ],
+      "answerIndex": 3,
+      "explanation": "The paragraph has a quiet, regretful tone; the ending extends it."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Choose the sentence that best completes the paragraph.\n\nMedicines should be taken exactly as prescribed. Stopping early or doubling a dose can be dangerous.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "Medicines are always expensive.",
+        "Many people enjoy taking medicines.",
+        "If you are unsure, ask your doctor or pharmacist before changing anything.",
+        "Doubling a dose is sometimes fun."
+      ],
+      "answerIndex": 2,
+      "explanation": "The paragraph is a caution; the ending gives safe advice."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the sentence that best completes the paragraph.\n\nLearning a second language is hard at first. Yet it trains memory, sharpens attention and opens doors to new cultures.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "Most people give up within a week.",
+        "The early effort is therefore a small price for lasting rewards.",
+        "Languages have existed for a long time.",
+        "Learning is hard for everyone, so it should be avoided."
+      ],
+      "answerIndex": 1,
+      "explanation": "The paragraph moves from difficulty to benefit; the ending weighs them."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the sentence that best completes the paragraph.\n\nThe film has a famous cast and a huge budget. Unfortunately, its plot is thin and its dialogue is stiff.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "In the end, expensive spectacle cannot make up for a weak script.",
+        "The film will be loved by every viewer.",
+        "Famous actors are always disappointing.",
+        "The budget was spent on advertising."
+      ],
+      "answerIndex": 0,
+      "explanation": "The paragraph criticises the film; the ending sums up the criticism."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the sentence that best completes the paragraph.\n\nWhen I left my hometown at eighteen, I was sure I would never miss it.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "Years later, I find myself recalling its streets and smells with surprising affection.",
+        "Hometowns are always small.",
+        "I have never travelled since.",
+        "I was eighteen years old at the time."
+      ],
+      "answerIndex": 0,
+      "explanation": "The opening sets up a contrast with later feelings; the ending delivers it."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the sentence that best completes the paragraph.\n\nEarly results from the trial look promising. Most patients who received the treatment showed improvement.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "The treatment is therefore ready for every patient.",
+        "Trials are always successful.",
+        "Doctors should stop other treatments immediately.",
+        "However, larger studies will be needed before firm conclusions can be drawn."
+      ],
+      "answerIndex": 3,
+      "explanation": "Early results call for caution, so a hedged ending fits."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the sentence that best completes the paragraph.\n\nCritics of the policy say it will raise prices. Supporters say it will protect local jobs.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "The policy is certainly harmful.",
+        "The supporters are clearly mistaken.",
+        "Both claims may be partly true, so the answer depends on how the policy is designed.",
+        "Prices never change when policies change."
+      ],
+      "answerIndex": 2,
+      "explanation": "The paragraph presents two sides; the balanced ending avoids picking one."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the sentence that best completes the paragraph.\n\nThe experiment failed for the third time. Instead of giving up, the team went back through every step of the procedure.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "The experiment was cancelled by the director.",
+        "Eventually they found a small error in the way the samples were stored.",
+        "Scientists never make mistakes.",
+        "Laboratories are expensive to build."
+      ],
+      "answerIndex": 1,
+      "explanation": "The paragraph shows persistence; the ending rewards it with a finding."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the sentence that best completes the paragraph.\n\nThe company's slogan promised \"service with a smile\". After forty minutes on hold, however, one customer was beginning to doubt it.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "Customers are generally happy with the company.",
+        "The only thing smiling at that moment was the recorded voice that kept thanking him for his patience.",
+        "The slogan was written by a famous poet.",
+        "Forty minutes is a short wait."
+      ],
+      "answerIndex": 1,
+      "explanation": "The paragraph is ironic; the ending extends the irony."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the sentence that best completes the paragraph.\n\nThe study found a strong link between sleep and memory. It does not, however, prove that poor sleep causes poor memory.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "Other factors, such as stress, may affect both at once.",
+        "Poor sleep has no effect on anything.",
+        "Memory is stored in the stomach.",
+        "Everyone should sleep for twelve hours."
+      ],
+      "answerIndex": 0,
+      "explanation": "The paragraph warns against assuming cause; the ending offers an alternative explanation."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the sentence that best completes the paragraph.\n\nEvery year thousands of trees are cut down to make way for new roads. Replanting is possible, but young saplings take decades to provide the shade and habitat that old trees do.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "Roads should never be built anywhere.",
+        "Saplings grow into old trees overnight.",
+        "Shade is not needed in cities.",
+        "We should therefore think carefully before felling a mature tree and protect those we already have."
+      ],
+      "answerIndex": 3,
+      "explanation": "The paragraph argues that replacement is slow; the ending draws the sensible conclusion."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the sentence that best completes the paragraph.\n\nThe lights went out just as she reached the top of the stairs. She stood still, listening.\n\nWhich sentence best completes the paragraph?",
+      "options": [
+        "The electricity company sends bills every month.",
+        "She decided to cook dinner.",
+        "Somewhere below, a door creaked slowly open.",
+        "Staircases are usually made of wood."
+      ],
+      "answerIndex": 2,
+      "explanation": "The paragraph builds suspense; the ending adds to it."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/completing-statements/"
+}

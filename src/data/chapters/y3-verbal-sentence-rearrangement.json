@@ -1,0 +1,418 @@
+{
+  "id": "y3-verbal-sentence-rearrangement",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 51,
+  "title": "Sentence Rearrangement Within Paragraphs",
+  "tagline": "Year 3 — Four jumbled sentences between a fixed opening and a fixed closing sentence",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In this format the first and last sentences of a paragraph are given (S1 and S6), and four sentences in between, labelled P, Q, R and S, are jumbled. The fixed ends make the task easier than a full jumble, because S1 tells you what the paragraph is about and S6 tells you where it must arrive. The job is to build the bridge between them.",
+    "placementRelevance": "Sentence-rearrangement items with S1 and S6 given are a classic of verbal sections in campus and bank tests.",
+    "realWorldContext": "Fitting new points into the middle of a drafted document uses the same cues."
+  },
+  "learningObjectives": [
+    "Use S1 to predict what must come first",
+    "Use S6 to predict what must come last",
+    "Link middle sentences by pronouns and time words",
+    "Check the order by reading S1 to S6 in one go",
+    "Eliminate options using one reliable link"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Para Jumbles — 6 Sentences"
+    ],
+    "quickRefresher": "Look for sentences that begin with a reference (he, it, this, there) or a time word (at first, later, within a few decades)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "S1 and S6: the given first and last sentences.",
+      "Bridge: the four middle sentences that connect S1 to S6.",
+      "Link: a word or idea connecting two adjacent sentences.",
+      "Anchor link: a link so strong that it settles the position of two sentences.",
+      "Chronological order: events in the order they happened."
+    ],
+    "theoreticalIntuition": "S1 poses a topic and S6 gives a result. The middle tells how you got from one to the other, usually in time or cause order.",
+    "visualOrMentalModel": "Read S1 and S6 first. Predict the first middle sentence by asking what S1 leads to. Then link the others by time words and pronouns."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Prediction",
+      "formula": "S1 leads to the first middle sentence",
+      "description": "Start.",
+      "whenToUse": "Step 1.",
+      "simpleExample": "Legend → according to the story"
+    },
+    {
+      "title": "Reference link",
+      "formula": "\"He\" follows the sentence that names him",
+      "description": "Pronouns.",
+      "whenToUse": "Anchor.",
+      "simpleExample": "The messenger, then he covered"
+    },
+    {
+      "title": "Time words",
+      "formula": "At first → within a few decades → today",
+      "description": "Histories.",
+      "whenToUse": "Order.",
+      "simpleExample": "Telephone"
+    },
+    {
+      "title": "Contrast words",
+      "formula": "\"However\" follows what it contrasts with",
+      "description": "Contrasts.",
+      "whenToUse": "Anchor.",
+      "simpleExample": "Early years then however"
+    },
+    {
+      "title": "Closing check",
+      "formula": "S6 follows naturally from the last middle sentence",
+      "description": "End.",
+      "whenToUse": "Verify.",
+      "simpleExample": "Distance fixed"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "S1: \"The marathon takes its name from a Greek legend.\" The natural next sentence is the story (\"According to the story, a messenger ran…\"). Then \"He covered about forty kilometres\" needs the messenger; \"On arrival he delivered his message\" needs the journey; \"When the modern Olympic Games began…\" moves from the legend to the modern race; S6 gives the final distance.",
+      "S1: \"Tea was discovered… by accident.\" The accident comes first (the leaves drifting into the pot), then the emperor tasting it, then the news spreading, then the Tang dynasty, then the Silk Road in S6.",
+      "S1: \"Compound interest is often called the most powerful idea…\" The simple-interest definition comes first so that \"Under compound interest\" can contrast with it. \"In the early years the difference between the two is small\" follows both definitions. \"Over several decades, however…\" contrasts with the early years and leads to S6.",
+      "Use one anchor first. \"He covered about forty kilometres\" must follow the sentence naming the messenger; once that pair is fixed, the others fall into place.",
+      "Finally, read S1, then the order, then S6. A jump in sense means a pair is wrongly placed."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Contrast pairs",
+        "content": "\"Under simple interest… Under compound interest…\" is a contrast pair: define the baseline first."
+      },
+      {
+        "title": "Time words",
+        "content": "\"At first\", \"within a few decades\" and \"now\" give a time ladder; place them in order."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "History",
+      "description": "Chronology.",
+      "exampleSnippet": "Marathon, tea"
+    },
+    {
+      "typeName": "Explanation",
+      "description": "Definition then contrast.",
+      "exampleSnippet": "Compound interest"
+    },
+    {
+      "typeName": "Technology",
+      "description": "Invention then spread.",
+      "exampleSnippet": "Telephone"
+    },
+    {
+      "typeName": "Reference links",
+      "description": "Pronouns.",
+      "exampleSnippet": "He, it"
+    },
+    {
+      "typeName": "Closers",
+      "description": "Result sentence.",
+      "exampleSnippet": "Distance fixed"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-sentence-rearrangement-1",
+      "title": "First middle sentence",
+      "question": "S1: \"The marathon takes its name from a Greek legend.\" Which sentence follows: \"According to the story, a messenger ran from the battlefield at Marathon to Athens\" or \"He covered about forty kilometres without rest\"?",
+      "givenInfo": [
+        "S1 mentions a legend"
+      ],
+      "conceptOrFormula": "Predict from S1.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Prediction",
+          "explanation": "S1 promises a story."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choice",
+          "explanation": "The first sentence tells the story; \"He\" needs the messenger first."
+        }
+      ],
+      "finalAnswer": "According to the story, a messenger ran from the battlefield at Marathon to Athens",
+      "whyItWorks": "The second sentence needs the first.",
+      "commonTrap": "Starting with \"He\".",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-sentence-rearrangement-2",
+      "title": "Contrast link",
+      "question": "In a paragraph on interest, which comes first: \"Under simple interest, you earn a fixed amount each year\" or \"Under compound interest, interest earned is added to the balance\"?",
+      "givenInfo": [
+        "Contrast pair"
+      ],
+      "conceptOrFormula": "Baseline first.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Baseline",
+          "explanation": "Simple interest is the base case."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Contrast",
+          "explanation": "Compound interest follows with \"Under compound…\"."
+        }
+      ],
+      "finalAnswer": "Under simple interest, you earn a fixed amount each year",
+      "whyItWorks": "The baseline is stated first.",
+      "commonTrap": "Reversing.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-sentence-rearrangement-3",
+      "title": "Closing check",
+      "question": "After \"The telephone changed the pace of commerce and of family life alike\" which fits as S6: \"Its descendant, the mobile phone, now fits in a pocket\" or \"In 1876 Bell patented a device\"?",
+      "givenInfo": [
+        "Final sentence"
+      ],
+      "conceptOrFormula": "Latest in time.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Time",
+          "explanation": "The mobile phone is the latest stage."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fit",
+          "explanation": "It follows \"Its descendant\"."
+        }
+      ],
+      "finalAnswer": "Its descendant, the mobile phone, now fits in a pocket",
+      "whyItWorks": "The patent belongs at the start.",
+      "commonTrap": "Choosing the patent.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Predict, link, check",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try all 24 orders.",
+      "shortcutMethod": "Predict the first middle sentence from S1, link pairs by pronouns and time words, and check the result against S6."
+    },
+    "rulesForApplication": [
+      "S1 predicts the start.",
+      "S6 predicts the end.",
+      "Pronouns need antecedents.",
+      "Read it through."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Ignoring S6",
+      "whyItHappens": "Missing the endpoint.",
+      "howToAvoid": "Check that the order arrives at S6."
+    },
+    {
+      "mistake": "Starting with a pronoun",
+      "whyItHappens": "No antecedent.",
+      "howToAvoid": "The first middle sentence names its subject."
+    },
+    {
+      "mistake": "Breaking a contrast pair",
+      "whyItHappens": "Wrong order.",
+      "howToAvoid": "Baseline first, contrast second."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 75,
+    "eliminationTechnique": "Use the first-sentence prediction to drop half of the options.",
+    "questionSelectionAdvice": "Find one anchor pair and build around it.",
+    "recruiterInsight": "Time words are the most reliable links."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-sentence-rearrangement-e1",
+        "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. The marathon takes its name from a Greek legend.\nP. On arrival he delivered his message and then collapsed.\nQ. According to the story, a messenger ran from the battlefield at Marathon to Athens to announce a victory.\nR. When the modern Olympic Games began in 1896, organisers recalled the story and added a long race to honour it.\nS. He covered about forty kilometres without rest.\nS6. The distance was later fixed at 42.195 kilometres, and it has not changed since 1921.\n\nWhich of the following gives the correct order of P, Q, R and S?",
+        "options": [
+          "SQPR",
+          "QSPR",
+          "QSRP",
+          "QPSR"
+        ],
+        "correctAnswer": "QSPR",
+        "explanation": "The correct order is QSPR. S1 introduces the subject; each middle sentence then picks up the one before it by time or reference, and S6 draws the conclusion.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-sentence-rearrangement-e2",
+        "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. The marathon takes its name from a Greek legend.\nP. On arrival he delivered his message and then collapsed.\nQ. According to the story, a messenger ran from the battlefield at Marathon to Athens to announce a victory.\nR. When the modern Olympic Games began in 1896, organisers recalled the story and added a long race to honour it.\nS. He covered about forty kilometres without rest.\nS6. The distance was later fixed at 42.195 kilometres, and it has not changed since 1921.\n\nWhich sentence follows S1 most logically?",
+        "options": [
+          "Q",
+          "P",
+          "R",
+          "S"
+        ],
+        "correctAnswer": "Q",
+        "explanation": "The correct order is QSPR. So the sentence that follows S1 is Q.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-sentence-rearrangement-e3",
+        "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. The marathon takes its name from a Greek legend.\nP. On arrival he delivered his message and then collapsed.\nQ. According to the story, a messenger ran from the battlefield at Marathon to Athens to announce a victory.\nR. When the modern Olympic Games began in 1896, organisers recalled the story and added a long race to honour it.\nS. He covered about forty kilometres without rest.\nS6. The distance was later fixed at 42.195 kilometres, and it has not changed since 1921.\n\nWhich sentence comes immediately before S6?",
+        "options": [
+          "P",
+          "Q",
+          "S",
+          "R"
+        ],
+        "correctAnswer": "R",
+        "explanation": "The correct order is QSPR. So the sentence immediately before S6 is R.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-sentence-rearrangement-i7",
+        "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Tea was discovered, according to Chinese tradition, by accident.\nP. He tasted the infusion and found it refreshing.\nQ. By the Tang dynasty tea had become a national drink, with its own etiquette and its own poets.\nR. Emperor Shennong was boiling drinking water when a few leaves from a nearby bush drifted into the pot.\nS. Word of the new drink spread through the court, and cultivation of the bush began.\nS6. Traders later carried it along the Silk Road, and from there it reached the rest of the world.\n\nWhich sentence follows S1 most logically?",
+        "options": [
+          "R",
+          "P",
+          "Q",
+          "S"
+        ],
+        "correctAnswer": "R",
+        "explanation": "The correct order is RPSQ. So the sentence that follows S1 is R.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-sentence-rearrangement-i8",
+        "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Tea was discovered, according to Chinese tradition, by accident.\nP. He tasted the infusion and found it refreshing.\nQ. By the Tang dynasty tea had become a national drink, with its own etiquette and its own poets.\nR. Emperor Shennong was boiling drinking water when a few leaves from a nearby bush drifted into the pot.\nS. Word of the new drink spread through the court, and cultivation of the bush began.\nS6. Traders later carried it along the Silk Road, and from there it reached the rest of the world.\n\nWhich sentence comes immediately before S6?",
+        "options": [
+          "P",
+          "R",
+          "S",
+          "Q"
+        ],
+        "correctAnswer": "Q",
+        "explanation": "The correct order is RPSQ. So the sentence immediately before S6 is Q.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-sentence-rearrangement-i9",
+        "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Tea was discovered, according to Chinese tradition, by accident.\nP. He tasted the infusion and found it refreshing.\nQ. By the Tang dynasty tea had become a national drink, with its own etiquette and its own poets.\nR. Emperor Shennong was boiling drinking water when a few leaves from a nearby bush drifted into the pot.\nS. Word of the new drink spread through the court, and cultivation of the bush began.\nS6. Traders later carried it along the Silk Road, and from there it reached the rest of the world.\n\nWhich sentence is second in the correct order of P, Q, R and S?",
+        "options": [
+          "Q",
+          "R",
+          "S",
+          "P"
+        ],
+        "correctAnswer": "P",
+        "explanation": "The correct order is RPSQ. So the second sentence is P.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-sentence-rearrangement-a15",
+        "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Compound interest is often called the most powerful idea in personal finance.\nP. Over several decades, however, the compounding balance pulls far ahead.\nQ. Under compound interest, the interest earned in one year is added to the balance and itself earns interest in later years.\nR. In the early years the difference between the two is small.\nS. Under simple interest, you earn a fixed amount each year on the money you first deposited.\nS6. This is why starting to save early matters more than saving large amounts later.\n\nWhich sentence is third in the correct order of P, Q, R and S?",
+        "options": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ],
+        "correctAnswer": "R",
+        "explanation": "The correct order is SQRP. So the third sentence is R.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-sentence-rearrangement-a16",
+        "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Before the telephone, urgent news travelled only as fast as a person or a telegraph wire could carry it.\nP. Within a few decades, however, businesses had installed telephones, and exchanges connected whole cities.\nQ. The telephone changed the pace of commerce and of family life alike.\nR. At first many people saw it as a curiosity rather than a tool.\nS. In 1876 Alexander Graham Bell patented a device that could carry the human voice along a wire.\nS6. Its descendant, the mobile phone, now fits in a pocket and has made the wire unnecessary.\n\nWhich of the following gives the correct order of P, Q, R and S?",
+        "options": [
+          "RSPQ",
+          "SRPQ",
+          "SRQP",
+          "SPRQ"
+        ],
+        "correctAnswer": "SRPQ",
+        "explanation": "The correct order is SRPQ. S1 introduces the subject; each middle sentence then picks up the one before it by time or reference, and S6 draws the conclusion.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-sentence-rearrangement-p17",
+        "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Before the telephone, urgent news travelled only as fast as a person or a telegraph wire could carry it.\nP. Within a few decades, however, businesses had installed telephones, and exchanges connected whole cities.\nQ. The telephone changed the pace of commerce and of family life alike.\nR. At first many people saw it as a curiosity rather than a tool.\nS. In 1876 Alexander Graham Bell patented a device that could carry the human voice along a wire.\nS6. Its descendant, the mobile phone, now fits in a pocket and has made the wire unnecessary.\n\nWhich sentence follows S1 most logically?",
+        "options": [
+          "P",
+          "S",
+          "Q",
+          "R"
+        ],
+        "correctAnswer": "S",
+        "explanation": "The correct order is SRPQ. So the sentence that follows S1 is S.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-sentence-rearrangement-p18",
+        "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Before the telephone, urgent news travelled only as fast as a person or a telegraph wire could carry it.\nP. Within a few decades, however, businesses had installed telephones, and exchanges connected whole cities.\nQ. The telephone changed the pace of commerce and of family life alike.\nR. At first many people saw it as a curiosity rather than a tool.\nS. In 1876 Alexander Graham Bell patented a device that could carry the human voice along a wire.\nS6. Its descendant, the mobile phone, now fits in a pocket and has made the wire unnecessary.\n\nWhich sentence comes immediately before S6?",
+        "options": [
+          "Q",
+          "P",
+          "R",
+          "S"
+        ],
+        "correctAnswer": "Q",
+        "explanation": "The correct order is SRPQ. So the sentence immediately before S6 is Q.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-sentence-rearrangement-p19",
+        "question": "The first and the last sentences of a paragraph are given as S1 and S6. The four middle sentences are jumbled.\nS1. Before the telephone, urgent news travelled only as fast as a person or a telegraph wire could carry it.\nP. Within a few decades, however, businesses had installed telephones, and exchanges connected whole cities.\nQ. The telephone changed the pace of commerce and of family life alike.\nR. At first many people saw it as a curiosity rather than a tool.\nS. In 1876 Alexander Graham Bell patented a device that could carry the human voice along a wire.\nS6. Its descendant, the mobile phone, now fits in a pocket and has made the wire unnecessary.\n\nWhich sentence is second in the correct order of P, Q, R and S?",
+        "options": [
+          "P",
+          "Q",
+          "S",
+          "R"
+        ],
+        "correctAnswer": "R",
+        "explanation": "The correct order is SRPQ. So the second sentence is R.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Predict from S1.",
+      "Link pronouns.",
+      "Time words.",
+      "Contrast pairs.",
+      "Check with S6."
+    ],
+    "quickFormulas": [
+      "S1 → bridge → S6"
+    ]
+  },
+  "keyTakeaways": [
+    "Predict.",
+    "Anchor.",
+    "Chain.",
+    "Check."
+  ],
+  "selfCheckQuestions": [
+    "Can I predict the first middle sentence?",
+    "Can I find an anchor pair?",
+    "Can I check the order against S6?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}
