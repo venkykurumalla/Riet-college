@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-ada-high-speed-di-approx",
+  "topicTitle": "High-Speed DI with Approximation",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nCompany A's growth from 2021 to 2023 is approximately",
+      "options": [
+        "about 28%",
+        "about 25%",
+        "about 21%",
+        "about 32%"
+      ],
+      "answerIndex": 1,
+      "explanation": "(4,260 − 3,420) ÷ 3,420 = 24.6%. Rounded, the answer is about 25%."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nCompany C's growth from 2021 to 2023 is approximately",
+      "options": [
+        "about 28%",
+        "about 33%",
+        "about 24%",
+        "about 37%"
+      ],
+      "answerIndex": 0,
+      "explanation": "(3,540 − 2,760) ÷ 2,760 = 28.3%. Rounded, the answer is about 28%."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nCompany E's growth from 2021 to 2023 is approximately",
+      "options": [
+        "about 46%",
+        "about 34%",
+        "about 52%",
+        "about 40%"
+      ],
+      "answerIndex": 3,
+      "explanation": "(2,610 − 1,860) ÷ 1,860 = 40.3%. Rounded, the answer is about 40%."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe total revenue of all five companies in 2023 (₹ crore) is approximately",
+      "options": [
+        "about 23759",
+        "about 17561",
+        "about 20660",
+        "about 26858"
+      ],
+      "answerIndex": 2,
+      "explanation": "4,260 + 5,870 + 3,540 + 4,380 + 2,610 = 20660. Rounded, the answer is about 20660."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nCompany D's growth is approximately",
+      "options": [
+        "about 10%",
+        "about 4%",
+        "about 7%",
+        "about 13%"
+      ],
+      "answerIndex": 2,
+      "explanation": "(4,380 − 4,090) ÷ 4,090 = 7.1%. Rounded, the answer is about 7%."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe total revenue of all companies in 2021 (₹ crore) is approximately",
+      "options": [
+        "about 19907",
+        "about 17310",
+        "about 14714",
+        "about 22503"
+      ],
+      "answerIndex": 1,
+      "explanation": "3,420 + 5,180 + 2,760 + 4,090 + 1,860 = 17310. Rounded, the answer is about 17310."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nCompany B contributes approximately what percentage of the 2023 total?",
+      "options": [
+        "about 28%",
+        "about 33%",
+        "about 24%",
+        "about 37%"
+      ],
+      "answerIndex": 0,
+      "explanation": "5,870 ÷ 20660 = 28.4%. Rounded, the answer is about 28%."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nRevenue per employee of Company A in 2023 (₹ crore) is approximately",
+      "options": [
+        "about 10",
+        "about 4",
+        "about 13",
+        "about 7"
+      ],
+      "answerIndex": 3,
+      "explanation": "4,260 ÷ 610 = 6.98. Rounded, the answer is about 7."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe overall growth of total revenue from 2021 to 2023 is approximately",
+      "options": [
+        "about 22%",
+        "about 16%",
+        "about 25%",
+        "about 19%"
+      ],
+      "answerIndex": 3,
+      "explanation": "(20660 − 17310) ÷ 17310 = 19.4%. Rounded, the answer is about 19%."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nWhich company recorded the highest growth?",
+      "options": [
+        "A",
+        "B",
+        "E",
+        "C"
+      ],
+      "answerIndex": 2,
+      "explanation": "Growth rates: A 24.6%, B 13.3%, C 28.3%, D 7.1%, E 40.3%; the highest is E."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nCompany C contributes approximately what percentage of the 2021 total?",
+      "options": [
+        "about 19%",
+        "about 16%",
+        "about 13%",
+        "about 22%"
+      ],
+      "answerIndex": 1,
+      "explanation": "2,760 ÷ 17310 = 15.9%. Rounded, the answer is about 16%."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nRevenue per employee of Company E in 2023 (₹ crore) is approximately",
+      "options": [
+        "about 7",
+        "about 10",
+        "about 4",
+        "about 13"
+      ],
+      "answerIndex": 0,
+      "explanation": "2,610 ÷ 350 = 7.46. Rounded, the answer is about 7."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nCompanies A and D together contributed approximately what percentage of the 2023 total?",
+      "options": [
+        "about 42%",
+        "about 48%",
+        "about 36%",
+        "about 54%"
+      ],
+      "answerIndex": 0,
+      "explanation": "(4,260 + 4,380) ÷ 20660 = 41.8%. Rounded, the answer is about 42%."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe 2023 revenue of Company B is approximately how many times that of Company E?",
+      "options": [
+        "About 1.5 times",
+        "About 3 times",
+        "About 2.8 times",
+        "About 2.2 times"
+      ],
+      "answerIndex": 3,
+      "explanation": "5,870 ÷ 2,610 = 2.25, so about 2.2 times."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nOverall revenue per employee of the five companies in 2023 (₹ crore) is approximately",
+      "options": [
+        "about 10",
+        "about 4",
+        "about 7",
+        "about 13"
+      ],
+      "answerIndex": 2,
+      "explanation": "20660 ÷ 3100 = 6.66. Rounded, the answer is about 7."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe increase in total revenue from 2021 to 2023 (₹ crore) is approximately",
+      "options": [
+        "about 3852",
+        "about 3350",
+        "about 2848",
+        "about 4355"
+      ],
+      "answerIndex": 1,
+      "explanation": "20660 − 17310 = 3350. Rounded, the answer is about 3350."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe 2023 revenue of Company D exceeds that of Company C by approximately what percentage?",
+      "options": [
+        "about 27%",
+        "about 24%",
+        "about 20%",
+        "about 31%"
+      ],
+      "answerIndex": 1,
+      "explanation": "(4,380 − 3,540) ÷ 3,540 = 23.7%. Rounded, the answer is about 24%."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nIf Company E grows by 25% in 2024, its revenue will be approximately (₹ crore)",
+      "options": [
+        "about 3263",
+        "about 3752",
+        "about 2773",
+        "about 4241"
+      ],
+      "answerIndex": 0,
+      "explanation": "2,610 × 1.25 = 3262.5. Rounded, the answer is about 3263."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe share of Companies B and C together in the 2021 total is approximately",
+      "options": [
+        "about 53%",
+        "about 39%",
+        "about 60%",
+        "about 46%"
+      ],
+      "answerIndex": 3,
+      "explanation": "(5,180 + 2,760) ÷ 17310 = 45.9%. Rounded, the answer is about 46%."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe average revenue per company in 2023 (₹ crore) is approximately",
+      "options": [
+        "about 4752",
+        "about 3512",
+        "about 4132",
+        "about 5372"
+      ],
+      "answerIndex": 2,
+      "explanation": "20660 ÷ 5 = 4132. Rounded, the answer is about 4132."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/"
+}

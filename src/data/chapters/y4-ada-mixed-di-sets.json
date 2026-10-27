@@ -1,0 +1,422 @@
+{
+  "id": "y4-ada-mixed-di-sets",
+  "yearId": 4,
+  "category": "Data Interpretation",
+  "topicNumber": 26,
+  "title": "Mixed DI Sets — All Chart Types",
+  "tagline": "Year 4 — Bar, line, pie and table in one set: converting each view to numbers and chaining them",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A mixed DI set gives several kinds of chart in one set: a bar chart for totals, a line chart for a rate, a pie chart for shares and a table for category rates. The way through is to convert every chart into numbers first, and then to chain them: total × share = category amount, amount × rate = profit. Check that percentages in a pie add to 100 and that you apply each rate to the right base.",
+    "placementRelevance": "Mixed sets are the capstone DI items in company tests.",
+    "realWorldContext": "Board packs combine all four views in exactly this way."
+  },
+  "learningObjectives": [
+    "Convert bar, line, pie and table to numbers",
+    "Chain total, share and rate",
+    "Check that shares sum to 100%",
+    "Compare growth and margins across views",
+    "Verify with a second route"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Multi-Chart Dashboard Analysis",
+      "Integrated DI Sets (3+ Charts)"
+    ],
+    "quickRefresher": "Category sales = total × share. Category profit = category sales × margin. Overall profit = total × overall margin."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Bar chart: totals by period.",
+      "Line chart: a rate across periods.",
+      "Pie chart: shares of a whole.",
+      "Table: rates by category.",
+      "Chain: successive derived quantities."
+    ],
+    "theoreticalIntuition": "All four views describe the same business; each gives one factor of the answer.",
+    "visualOrMentalModel": "Write numbers beside each chart, compute the category table, then answer."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Category sales",
+      "formula": "Total × share",
+      "description": "Pie and bar.",
+      "whenToUse": "First.",
+      "simpleExample": "1,200 × 32% = 384"
+    },
+    {
+      "title": "Category profit",
+      "formula": "Sales × margin",
+      "description": "Pie, table.",
+      "whenToUse": "Second.",
+      "simpleExample": "384 × 8% = 30.72"
+    },
+    {
+      "title": "Overall profit",
+      "formula": "Sales × margin",
+      "description": "Bar, line.",
+      "whenToUse": "Check.",
+      "simpleExample": "1,200 × 14% = 168"
+    },
+    {
+      "title": "Reconcile",
+      "formula": "Sum of category profits vs overall",
+      "description": "Check.",
+      "whenToUse": "Consistency.",
+      "simpleExample": "≈ 25.6% of sales"
+    },
+    {
+      "title": "Growth",
+      "formula": "Change ÷ old",
+      "description": "Bar.",
+      "whenToUse": "Percent.",
+      "simpleExample": "1,000 → 1,200"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "2023 sales are ₹1,200 crore; by category: Electronics 384, Apparel 288, Grocery 336, Home 192 (sum 1,200).",
+      "Category profits: Electronics 8% = 30.72; Apparel 15% = 43.2; Grocery 6% = 20.16; Home 12% = 23.04; total 117.12 crore.",
+      "The overall margin on the line chart for 2023 is 14%, giving 168 crore. The two figures differ (117.12 versus 168), so the data are not reconciled; questions will state which to use.",
+      "Sales growth 2022 to 2023 is (1,200 − 1,000) ÷ 1,000 = 20%.",
+      "Overall profit by year: 80, 108, 150, 168."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Inconsistent views",
+        "content": "In real data two views may not reconcile; use the one the question names."
+      },
+      {
+        "title": "Pie checks",
+        "content": "Shares must add to 100%."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Bar totals",
+      "description": "Read values.",
+      "exampleSnippet": "Sales by year"
+    },
+    {
+      "typeName": "Line rates",
+      "description": "Margins.",
+      "exampleSnippet": "By year"
+    },
+    {
+      "typeName": "Pie shares",
+      "description": "Percent of total.",
+      "exampleSnippet": "Categories"
+    },
+    {
+      "typeName": "Chains",
+      "description": "Total × share × rate.",
+      "exampleSnippet": "Category profit"
+    },
+    {
+      "typeName": "Growth",
+      "description": "Percent change.",
+      "exampleSnippet": "2022 to 2023"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-ada-mixed-di-sets-1",
+      "title": "Category sales",
+      "question": "2023 sales are ₹1,200 crore and Electronics is 32%. Electronics sales?",
+      "givenInfo": [
+        "1,200",
+        "32%"
+      ],
+      "conceptOrFormula": "Total × share.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert the share",
+          "explanation": "32% = 0.32."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Multiply",
+          "explanation": "1,200 × 0.32 = ₹384 crore."
+        }
+      ],
+      "finalAnswer": "₹384 crore",
+      "whyItWorks": "Pie share of total.",
+      "commonTrap": "Using 2022 sales.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-ada-mixed-di-sets-2",
+      "title": "Category profit",
+      "question": "Electronics sales ₹384 crore, margin 8%. Profit?",
+      "givenInfo": [
+        "384",
+        "8%"
+      ],
+      "conceptOrFormula": "Sales × margin.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rate",
+          "explanation": "8% = 0.08."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Profit",
+          "explanation": "384 × 0.08 = ₹30.72 crore."
+        }
+      ],
+      "finalAnswer": "₹30.72 crore",
+      "whyItWorks": "Margin on its own sales.",
+      "commonTrap": "Using total sales.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-ada-mixed-di-sets-3",
+      "title": "Overall profit",
+      "question": "2023 sales ₹1,200 crore with an overall margin of 14%. Profit?",
+      "givenInfo": [
+        "1,200",
+        "14%"
+      ],
+      "conceptOrFormula": "Sales × margin.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert the margin",
+          "explanation": "14% = 0.14."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Multiply",
+          "explanation": "1,200 × 0.14 = ₹168 crore."
+        }
+      ],
+      "finalAnswer": "₹168 crore",
+      "whyItWorks": "Line-chart margin.",
+      "commonTrap": "Using category margins.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Numbers beside each chart",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Read charts one by one.",
+      "shortcutMethod": "Write numbers beside each chart, build the category table once, then answer."
+    },
+    "rulesForApplication": [
+      "Shares sum to 100%.",
+      "Total × share × rate.",
+      "Use the view named.",
+      "Verify."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Applying a margin to the wrong base",
+      "whyItHappens": "Wrong value.",
+      "howToAvoid": "Margin on the same sales."
+    },
+    {
+      "mistake": "Using the wrong year",
+      "whyItHappens": "Wrong value.",
+      "howToAvoid": "Read the year."
+    },
+    {
+      "mistake": "Assuming views reconcile",
+      "whyItHappens": "Surprise.",
+      "howToAvoid": "Use the named view."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 150,
+    "eliminationTechnique": "Category sales cannot exceed total sales.",
+    "questionSelectionAdvice": "Build the category table first.",
+    "recruiterInsight": "Each chart supplies one factor."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-ada-mixed-di-sets-e1",
+        "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat were the 2022 sales (₹ crore)?",
+        "options": [
+          "1100",
+          "1000",
+          "900",
+          "1250"
+        ],
+        "correctAnswer": "1000",
+        "explanation": "The bar for 2022 shows 1,000.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-ada-mixed-di-sets-e2",
+        "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat was the overall margin in 2022 (%)?",
+        "options": [
+          "15",
+          "17",
+          "14",
+          "19"
+        ],
+        "correctAnswer": "15",
+        "explanation": "The line for 2022 shows 15%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-ada-mixed-di-sets-e3",
+        "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat were the Electronics sales in 2023 (₹ crore)?",
+        "options": [
+          "422",
+          "346",
+          "480",
+          "384"
+        ],
+        "correctAnswer": "384",
+        "explanation": "32% of 1,200 = 384.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-ada-mixed-di-sets-i7",
+        "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat was the overall profit in 2022 (₹ crore)?",
+        "options": [
+          "150",
+          "165",
+          "135",
+          "188"
+        ],
+        "correctAnswer": "150",
+        "explanation": "15% of 1,000 = 150.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-ada-mixed-di-sets-i8",
+        "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nBy what percentage did sales grow from 2022 to 2023?",
+        "options": [
+          "22%",
+          "18%",
+          "25%",
+          "20%"
+        ],
+        "correctAnswer": "20%",
+        "explanation": "(1,200 − 1,000) ÷ 1,000 = 20%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-ada-mixed-di-sets-i9",
+        "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat was the profit from Apparel in 2023 (₹ crore)?",
+        "options": [
+          "47.5",
+          "38.9",
+          "54",
+          "43.2"
+        ],
+        "correctAnswer": "43.2",
+        "explanation": "288 × 15% = 43.2.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-ada-mixed-di-sets-a15",
+        "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nBy how much do the line-chart profit and the sum of category profits differ for 2023 (₹ crore)?",
+        "options": [
+          "55.97",
+          "45.79",
+          "50.88",
+          "63.6"
+        ],
+        "correctAnswer": "50.88",
+        "explanation": "168 − 117.12 = 50.88.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-ada-mixed-di-sets-a16",
+        "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nThe profit of Apparel is what percentage of the sum of category profits in 2023 (to one decimal)?",
+        "options": [
+          "40.6%",
+          "36.9%",
+          "33.2%",
+          "46.1%"
+        ],
+        "correctAnswer": "36.9%",
+        "explanation": "43.2 ÷ 117.12 = 36.9%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-ada-mixed-di-sets-p17",
+        "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat is the ratio of Grocery sales to Home sales in 2023?",
+        "options": [
+          "4 : 7",
+          "7 : 4",
+          "337 : 192",
+          "168 : 97"
+        ],
+        "correctAnswer": "7 : 4",
+        "explanation": "336 : 192; divide by 48 to get 7 : 4.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-ada-mixed-di-sets-p18",
+        "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nOverall profit rose from 2020 to 2023 by (₹ crore)",
+        "options": [
+          "88",
+          "97",
+          "79",
+          "110"
+        ],
+        "correctAnswer": "88",
+        "explanation": "Profit 2020 = 80; 2023 = 168; difference 88.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-ada-mixed-di-sets-p19",
+        "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nThe overall profit of 2023 is what percentage more than that of 2022 (to one decimal)?",
+        "options": [
+          "13.2%",
+          "10.8%",
+          "15%",
+          "12%"
+        ],
+        "correctAnswer": "12%",
+        "explanation": "(168 − 150) ÷ 150 = 12%.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Convert.",
+      "Chain.",
+      "Check shares.",
+      "Growth.",
+      "Verify."
+    ],
+    "quickFormulas": [
+      "Category profit = total × share × margin"
+    ]
+  },
+  "keyTakeaways": [
+    "Numbers first.",
+    "Chain.",
+    "Shares.",
+    "Named view."
+  ],
+  "selfCheckQuestions": [
+    "Can I chain total, share and rate?",
+    "Can I check a pie?",
+    "Can I compute growth?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}

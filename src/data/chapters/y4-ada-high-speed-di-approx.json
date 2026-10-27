@@ -1,0 +1,421 @@
+{
+  "id": "y4-ada-high-speed-di-approx",
+  "yearId": 4,
+  "category": "Data Interpretation",
+  "topicNumber": 25,
+  "title": "High-Speed DI with Approximation",
+  "tagline": "Year 4 — Estimating growth, shares and ratios from large tables in seconds by rounding to two figures",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In a timed DI section you cannot afford exact division on every question. When the options are well separated, rounding the data to two significant figures gives an answer accurate enough to pick the right one. The method is to round, compute with easy numbers, and compare with the options; when two options lie within 2–3% of each other, switch to exact calculation for that question only.",
+    "placementRelevance": "Speed in DI decides how many sets you finish; approximation is the main speed tool.",
+    "realWorldContext": "Managers estimate growth and shares in meetings without a calculator."
+  },
+  "learningObjectives": [
+    "Round to two significant figures",
+    "Estimate percentage growth and shares",
+    "Use benchmark fractions",
+    "Judge the precision from the option spacing",
+    "Switch to exact calculation when options are close"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Approximation Techniques in DI (Year 3)",
+      "Approximation and Estimation"
+    ],
+    "quickRefresher": "Growth ≈ change ÷ old. Round numerator and denominator in a way that keeps the ratio close."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Two significant figures: round 4,260 to 4,300.",
+      "Benchmark: 10%, 25%, 1/3 and so on.",
+      "Option spacing: gaps between choices.",
+      "Error budget: how much error you can afford.",
+      "Exact switch: calculating precisely when needed."
+    ],
+    "theoreticalIntuition": "If the options are 8% apart, a 2% error cannot change your answer.",
+    "visualOrMentalModel": "Round, estimate, compare with the options; refine only if two options are close."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Growth",
+      "formula": "Round change and old",
+      "description": "Percent change.",
+      "whenToUse": "Estimate.",
+      "simpleExample": "840/3,400 ≈ 24.7%"
+    },
+    {
+      "title": "Share",
+      "formula": "Round part and total",
+      "description": "Percent share.",
+      "whenToUse": "Estimate.",
+      "simpleExample": "5,870/19,260"
+    },
+    {
+      "title": "Per head",
+      "formula": "Round both",
+      "description": "Productivity.",
+      "whenToUse": "Estimate.",
+      "simpleExample": "4,260/610"
+    },
+    {
+      "title": "Total",
+      "formula": "Round each then add",
+      "description": "Sum.",
+      "whenToUse": "Estimate.",
+      "simpleExample": "Sum of five"
+    },
+    {
+      "title": "Exact switch",
+      "formula": "Close options",
+      "description": "Safety.",
+      "whenToUse": "Calculate.",
+      "simpleExample": "Within 3%"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Company A grew from 3,420 to 4,260: the change is 840, about 24.6% of 3,420; estimate 840 ÷ 3,400 ≈ 25%.",
+      "Company C grew from 2,760 to 3,540: change 780; 780 ÷ 2,760 = 28.3%; estimate 780 ÷ 2,800 ≈ 28%.",
+      "Total revenue in 2023 is 4,260 + 5,870 + 3,540 + 4,380 + 2,610 = 20,660; a rounded sum gives about 20,700.",
+      "Revenue per employee of company B is 5,870 ÷ 940 ≈ 6.2 crore.",
+      "If the options were 24%, 25% and 26%, you would calculate exactly."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Round in the same direction for a ratio",
+        "content": "Rounding numerator and denominator both up cancels part of the error."
+      },
+      {
+        "title": "Benchmarks",
+        "content": "1/3 = 33.3%, 1/6 = 16.7%, 1/8 = 12.5%."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Growth",
+      "description": "Rounded change.",
+      "exampleSnippet": "A and C"
+    },
+    {
+      "typeName": "Share",
+      "description": "Rounded total.",
+      "exampleSnippet": "Company B"
+    },
+    {
+      "typeName": "Per employee",
+      "description": "Rounded ratio.",
+      "exampleSnippet": "Revenue"
+    },
+    {
+      "typeName": "Totals",
+      "description": "Rounded sums.",
+      "exampleSnippet": "2023 total"
+    },
+    {
+      "typeName": "Close options",
+      "description": "Exact.",
+      "exampleSnippet": "24, 25, 26"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-ada-high-speed-di-approx-1",
+      "title": "Growth",
+      "question": "Company A rose from 3,420 to 4,260. Estimate the growth.",
+      "givenInfo": [
+        "3,420",
+        "4,260"
+      ],
+      "conceptOrFormula": "Round and divide.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Change",
+          "explanation": "4,260 − 3,420 ≈ 840."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide",
+          "explanation": "840 ÷ 3,400 ≈ 25%."
+        }
+      ],
+      "finalAnswer": "About 25%",
+      "whyItWorks": "Exact 24.6%.",
+      "commonTrap": "Dividing by the new value.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-ada-high-speed-di-approx-2",
+      "title": "Per head",
+      "question": "B has revenue 5,870 and 940 employees. Estimate revenue per employee.",
+      "givenInfo": [
+        "5,870",
+        "940"
+      ],
+      "conceptOrFormula": "Round both.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Round",
+          "explanation": "5,900 ÷ 940."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide",
+          "explanation": "≈ 6.3."
+        }
+      ],
+      "finalAnswer": "About 6.2 crore",
+      "whyItWorks": "Exact 6.24.",
+      "commonTrap": "Dividing by 100.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-ada-high-speed-di-approx-3",
+      "title": "Exact switch",
+      "question": "Options are 24%, 25% and 26%. What should you do?",
+      "givenInfo": [
+        "Close options"
+      ],
+      "conceptOrFormula": "Check spacing.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Spacing",
+          "explanation": "Only 1% apart."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Decision",
+          "explanation": "Calculate exactly."
+        }
+      ],
+      "finalAnswer": "Calculate exactly",
+      "whyItWorks": "Estimate cannot separate them.",
+      "commonTrap": "Estimating anyway.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Round, estimate, compare",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Exact division each time.",
+      "shortcutMethod": "Round to two figures, estimate, compare; switch to exact only if options are within 2–3%."
+    },
+    "rulesForApplication": [
+      "Two figures.",
+      "Benchmarks.",
+      "Check spacing.",
+      "Exact if close."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Over-rounding",
+      "whyItHappens": "Wrong option.",
+      "howToAvoid": "Check spacing."
+    },
+    {
+      "mistake": "Wrong base",
+      "whyItHappens": "Large error.",
+      "howToAvoid": "Old is the base."
+    },
+    {
+      "mistake": "Rounding oppositely in a ratio",
+      "whyItHappens": "Error adds.",
+      "howToAvoid": "Round the same direction."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 40,
+    "eliminationTechnique": "Reject options far from the estimate.",
+    "questionSelectionAdvice": "Estimate first.",
+    "recruiterInsight": "Approximation is a trained skill."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-ada-high-speed-di-approx-e1",
+        "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nCompany A's growth from 2021 to 2023 is approximately",
+        "options": [
+          "about 28%",
+          "about 25%",
+          "about 21%",
+          "about 32%"
+        ],
+        "correctAnswer": "about 25%",
+        "explanation": "(4,260 − 3,420) ÷ 3,420 = 24.6%. Rounded, the answer is about 25%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-ada-high-speed-di-approx-e2",
+        "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nCompany C's growth from 2021 to 2023 is approximately",
+        "options": [
+          "about 28%",
+          "about 33%",
+          "about 24%",
+          "about 37%"
+        ],
+        "correctAnswer": "about 28%",
+        "explanation": "(3,540 − 2,760) ÷ 2,760 = 28.3%. Rounded, the answer is about 28%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-ada-high-speed-di-approx-e3",
+        "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nCompany E's growth from 2021 to 2023 is approximately",
+        "options": [
+          "about 46%",
+          "about 34%",
+          "about 52%",
+          "about 40%"
+        ],
+        "correctAnswer": "about 40%",
+        "explanation": "(2,610 − 1,860) ÷ 1,860 = 40.3%. Rounded, the answer is about 40%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-ada-high-speed-di-approx-i7",
+        "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nCompany B contributes approximately what percentage of the 2023 total?",
+        "options": [
+          "about 28%",
+          "about 33%",
+          "about 24%",
+          "about 37%"
+        ],
+        "correctAnswer": "about 28%",
+        "explanation": "5,870 ÷ 20660 = 28.4%. Rounded, the answer is about 28%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-ada-high-speed-di-approx-i8",
+        "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nRevenue per employee of Company A in 2023 (₹ crore) is approximately",
+        "options": [
+          "about 10",
+          "about 4",
+          "about 13",
+          "about 7"
+        ],
+        "correctAnswer": "about 7",
+        "explanation": "4,260 ÷ 610 = 6.98. Rounded, the answer is about 7.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-ada-high-speed-di-approx-i9",
+        "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe overall growth of total revenue from 2021 to 2023 is approximately",
+        "options": [
+          "about 22%",
+          "about 16%",
+          "about 25%",
+          "about 19%"
+        ],
+        "correctAnswer": "about 19%",
+        "explanation": "(20660 − 17310) ÷ 17310 = 19.4%. Rounded, the answer is about 19%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-ada-high-speed-di-approx-a15",
+        "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nOverall revenue per employee of the five companies in 2023 (₹ crore) is approximately",
+        "options": [
+          "about 10",
+          "about 4",
+          "about 7",
+          "about 13"
+        ],
+        "correctAnswer": "about 7",
+        "explanation": "20660 ÷ 3100 = 6.66. Rounded, the answer is about 7.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-ada-high-speed-di-approx-a16",
+        "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe increase in total revenue from 2021 to 2023 (₹ crore) is approximately",
+        "options": [
+          "about 3852",
+          "about 3350",
+          "about 2848",
+          "about 4355"
+        ],
+        "correctAnswer": "about 3350",
+        "explanation": "20660 − 17310 = 3350. Rounded, the answer is about 3350.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-ada-high-speed-di-approx-p17",
+        "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe 2023 revenue of Company D exceeds that of Company C by approximately what percentage?",
+        "options": [
+          "about 27%",
+          "about 24%",
+          "about 20%",
+          "about 31%"
+        ],
+        "correctAnswer": "about 24%",
+        "explanation": "(4,380 − 3,540) ÷ 3,540 = 23.7%. Rounded, the answer is about 24%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-ada-high-speed-di-approx-p18",
+        "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nIf Company E grows by 25% in 2024, its revenue will be approximately (₹ crore)",
+        "options": [
+          "about 3263",
+          "about 3752",
+          "about 2773",
+          "about 4241"
+        ],
+        "correctAnswer": "about 3263",
+        "explanation": "2,610 × 1.25 = 3262.5. Rounded, the answer is about 3263.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-ada-high-speed-di-approx-p19",
+        "question": "Revenue (₹ crore) of five companies, and employees in 2023\n\nCompany | Revenue 2021 | Revenue 2023 | Employees 2023\nA | 3420 | 4260 | 610\nB | 5180 | 5870 | 940\nC | 2760 | 3540 | 480\nD | 4090 | 4380 | 720\nE | 1860 | 2610 | 350\n\nThe share of Companies B and C together in the 2021 total is approximately",
+        "options": [
+          "about 53%",
+          "about 39%",
+          "about 60%",
+          "about 46%"
+        ],
+        "correctAnswer": "about 46%",
+        "explanation": "(5,180 + 2,760) ÷ 17310 = 45.9%. Rounded, the answer is about 46%.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Round.",
+      "Growth.",
+      "Share.",
+      "Per head.",
+      "Exact switch."
+    ],
+    "quickFormulas": [
+      "Estimate before calculating"
+    ]
+  },
+  "keyTakeaways": [
+    "Two figures.",
+    "Benchmarks.",
+    "Spacing.",
+    "Exact when close."
+  ],
+  "selfCheckQuestions": [
+    "Can I estimate growth?",
+    "Can I judge spacing?",
+    "Can I switch to exact?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}

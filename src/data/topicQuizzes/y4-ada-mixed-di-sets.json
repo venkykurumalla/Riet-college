@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-ada-mixed-di-sets",
+  "topicTitle": "Mixed DI Sets — All Chart Types",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat were the 2022 sales (₹ crore)?",
+      "options": [
+        "1100",
+        "1000",
+        "900",
+        "1250"
+      ],
+      "answerIndex": 1,
+      "explanation": "The bar for 2022 shows 1,000."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat was the overall margin in 2022 (%)?",
+      "options": [
+        "15",
+        "17",
+        "14",
+        "19"
+      ],
+      "answerIndex": 0,
+      "explanation": "The line for 2022 shows 15%."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat were the Electronics sales in 2023 (₹ crore)?",
+      "options": [
+        "422",
+        "346",
+        "480",
+        "384"
+      ],
+      "answerIndex": 3,
+      "explanation": "32% of 1,200 = 384."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat were the Apparel sales in 2023 (₹ crore)?",
+      "options": [
+        "317",
+        "259",
+        "288",
+        "360"
+      ],
+      "answerIndex": 2,
+      "explanation": "24% of 1,200 = 288."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat were the Grocery sales in 2023 (₹ crore)?",
+      "options": [
+        "370",
+        "302",
+        "336",
+        "420"
+      ],
+      "answerIndex": 2,
+      "explanation": "28% of 1,200 = 336."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat were the Home sales in 2023 (₹ crore)?",
+      "options": [
+        "211",
+        "192",
+        "173",
+        "240"
+      ],
+      "answerIndex": 1,
+      "explanation": "16% of 1,200 = 192."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat was the overall profit in 2022 (₹ crore)?",
+      "options": [
+        "150",
+        "165",
+        "135",
+        "188"
+      ],
+      "answerIndex": 0,
+      "explanation": "15% of 1,000 = 150."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nBy what percentage did sales grow from 2022 to 2023?",
+      "options": [
+        "22%",
+        "18%",
+        "25%",
+        "20%"
+      ],
+      "answerIndex": 3,
+      "explanation": "(1,200 − 1,000) ÷ 1,000 = 20%."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat was the profit from Apparel in 2023 (₹ crore)?",
+      "options": [
+        "47.5",
+        "38.9",
+        "54",
+        "43.2"
+      ],
+      "answerIndex": 3,
+      "explanation": "288 × 15% = 43.2."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat was the profit from Electronics in 2023 (₹ crore)?",
+      "options": [
+        "33.79",
+        "27.65",
+        "30.72",
+        "38.4"
+      ],
+      "answerIndex": 2,
+      "explanation": "384 × 8% = 30.72."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhich category had the highest profit in 2023?",
+      "options": [
+        "Electronics",
+        "Apparel",
+        "Grocery",
+        "Home"
+      ],
+      "answerIndex": 1,
+      "explanation": "Category profits: Electronics 30.72, Apparel 43.2, Grocery 20.16, Home 23.04; the highest is Apparel."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat were the total sales over the four years (₹ crore)?",
+      "options": [
+        "3900",
+        "4290",
+        "3510",
+        "4875"
+      ],
+      "answerIndex": 0,
+      "explanation": "800 + 900 + 1,000 + 1,200 = 3,900."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat was the overall profit in 2023 (₹ crore) using the line-chart margin?",
+      "options": [
+        "168",
+        "185",
+        "151",
+        "210"
+      ],
+      "answerIndex": 0,
+      "explanation": "14% of 1,200 = 168."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat was the total of the category profits in 2023 (₹ crore, using the table margins)?",
+      "options": [
+        "128.83",
+        "105.41",
+        "146.4",
+        "117.12"
+      ],
+      "answerIndex": 3,
+      "explanation": "30.72 + 43.2 + 20.16 + 23.04 = 117.12."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nBy how much do the line-chart profit and the sum of category profits differ for 2023 (₹ crore)?",
+      "options": [
+        "55.97",
+        "45.79",
+        "50.88",
+        "63.6"
+      ],
+      "answerIndex": 2,
+      "explanation": "168 − 117.12 = 50.88."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nThe profit of Apparel is what percentage of the sum of category profits in 2023 (to one decimal)?",
+      "options": [
+        "40.6%",
+        "36.9%",
+        "33.2%",
+        "46.1%"
+      ],
+      "answerIndex": 1,
+      "explanation": "43.2 ÷ 117.12 = 36.9%."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhat is the ratio of Grocery sales to Home sales in 2023?",
+      "options": [
+        "4 : 7",
+        "7 : 4",
+        "337 : 192",
+        "168 : 97"
+      ],
+      "answerIndex": 1,
+      "explanation": "336 : 192; divide by 48 to get 7 : 4."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nOverall profit rose from 2020 to 2023 by (₹ crore)",
+      "options": [
+        "88",
+        "97",
+        "79",
+        "110"
+      ],
+      "answerIndex": 0,
+      "explanation": "Profit 2020 = 80; 2023 = 168; difference 88."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nThe overall profit of 2023 is what percentage more than that of 2022 (to one decimal)?",
+      "options": [
+        "13.2%",
+        "10.8%",
+        "15%",
+        "12%"
+      ],
+      "answerIndex": 3,
+      "explanation": "(168 − 150) ÷ 150 = 12%."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Bar chart: total sales (₹ crore)\n\nYear | 2020 | 2021 | 2022 | 2023\nSales | 800 | 900 | 1000 | 1200\n\nLine chart: overall profit margin (% of sales)\n\nYear | 2020 | 2021 | 2022 | 2023\nMargin % | 10% | 12% | 15% | 14%\n\nPie chart: share of 2023 sales by category, and table: profit margin of each category in 2023\n\nCategory | Share of sales | Margin %\nElectronics | 32% | 8%\nApparel | 24% | 15%\nGrocery | 28% | 6%\nHome | 16% | 12%\n\nWhich year had the highest overall margin?",
+      "options": [
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "answerIndex": 2,
+      "explanation": "Margins are 10, 12, 15 and 14%; the highest is 15% in 2022."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/"
+}
