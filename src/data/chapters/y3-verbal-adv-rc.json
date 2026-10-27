@@ -1,0 +1,419 @@
+{
+  "id": "y3-verbal-adv-rc",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 45,
+  "title": "Advanced Reading Comprehension — Long Passages",
+  "tagline": "Year 3 — Reading 150–250 word passages for structure, detail, inference, tone and vocabulary under time pressure",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Advanced reading comprehension tests whether you can follow an argument across a long passage, not just locate a sentence. Each passage has a structure (a claim, support, a qualification and a conclusion), and each question targets a part of it: the main idea, a stated detail, an implication, the author's attitude, or the meaning of a word in context. Reading with the structure in mind makes questions quick to answer and wrong options easy to spot.",
+    "placementRelevance": "Passages of 150–250 words with 5–7 questions are standard in company and campus verbal sections.",
+    "realWorldContext": "Reading reports, policy notes and emails and extracting what matters is the same skill."
+  },
+  "learningObjectives": [
+    "Read for structure: claim, support, qualification, conclusion",
+    "Separate stated detail from inference",
+    "Answer \"not mentioned\" and \"except\" questions by elimination",
+    "Judge the author's attitude from word choice",
+    "Choose vocabulary meanings from context"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Reading Comprehension (basic)",
+      "Vocabulary"
+    ],
+    "quickRefresher": "The main idea is what the whole passage is about; a detail is a single fact. Wrong options are often true statements that are too narrow, too broad or not in the passage."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Main idea: the central point the whole passage supports.",
+      "Detail question: asks for a fact stated in the passage.",
+      "Inference: a conclusion the passage supports but does not state.",
+      "Tone: the author's attitude, shown by word choice (cautious, critical, enthusiastic).",
+      "Out of scope: an option that may be true in life but is not supported by the passage."
+    ],
+    "theoreticalIntuition": "A good passage has a skeleton. Find the sentence that states the claim and the sentence that qualifies it (\"though\", \"but\", \"yet\"); most questions are about those two.",
+    "visualOrMentalModel": "First pass: one line per paragraph. Second pass: go to the lines that the question points to. Check each option against the passage; reject the extreme, the narrow and the unsupported."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Main idea test",
+      "formula": "Does the option cover the whole passage?",
+      "description": "Main idea questions.",
+      "whenToUse": "Scope check.",
+      "simpleExample": "Too narrow or too broad: reject"
+    },
+    {
+      "title": "Detail test",
+      "formula": "Find the line; paraphrase is allowed",
+      "description": "Detail questions.",
+      "whenToUse": "Evidence.",
+      "simpleExample": "Hot nights and health"
+    },
+    {
+      "title": "Inference test",
+      "formula": "Would the passage lose sense if this were false?",
+      "description": "Inference questions.",
+      "whenToUse": "Support check.",
+      "simpleExample": "Single-building cool roofs"
+    },
+    {
+      "title": "Tone test",
+      "formula": "Look at adjectives and qualifiers",
+      "description": "Tone questions.",
+      "whenToUse": "Word choice.",
+      "simpleExample": "Cautiously optimistic"
+    },
+    {
+      "title": "Except test",
+      "formula": "Three options are in the text; one is not",
+      "description": "NOT/EXCEPT questions.",
+      "whenToUse": "Elimination.",
+      "simpleExample": "Increased rainfall"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "In the heat-island passage, the claim is that cities are warmer than the countryside because of many combined factors. The support is the list of causes and consequences. The qualification is in the last sentence: remedies work best across whole neighbourhoods. The main idea therefore covers causes, effects and remedies, not just one of them.",
+      "For a detail question, find the exact sentence. \"Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly\" answers a question on why hot nights are harmful.",
+      "An inference must be supported, not merely possible. Since the passage says cool roofs work best across whole neighbourhoods, painting one house is likely to have a limited effect on the temperature of the area.",
+      "A \"NOT mentioned\" question is solved by eliminating the three options that appear in the passage. Dark roofs, a lack of trees and vehicle heat are all stated; increased rainfall over cities is not.",
+      "Tone shows in the qualifiers. \"Early results suggest\" and \"can lower\" are hedged words, so the author is cautiously optimistic about the remedies."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Too narrow, too broad",
+        "content": "A main-idea option that covers only one paragraph is too narrow; one that goes beyond the passage is too broad."
+      },
+      {
+        "title": "Analogies in passages",
+        "content": "When an author uses an analogy (a farm with one pollinator is like an economy with one industry), the question usually asks what the analogy is meant to show."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Main idea",
+      "description": "Whole-passage scope.",
+      "exampleSnippet": "Heat island passage"
+    },
+    {
+      "typeName": "Detail",
+      "description": "Find the sentence.",
+      "exampleSnippet": "Hot nights"
+    },
+    {
+      "typeName": "Inference",
+      "description": "Supported implication.",
+      "exampleSnippet": "Single-building roofs"
+    },
+    {
+      "typeName": "Tone",
+      "description": "Qualifiers.",
+      "exampleSnippet": "Cautiously optimistic"
+    },
+    {
+      "typeName": "Vocabulary in context",
+      "description": "Sense from the sentence.",
+      "exampleSnippet": "Absorb"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-adv-rc-1",
+      "title": "Main idea",
+      "question": "A passage describes why cities are warmer than the countryside, what harm this causes, and how some cities are responding. What is its main idea?",
+      "givenInfo": [
+        "Causes, effects, remedies"
+      ],
+      "conceptOrFormula": "Scope check.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scope",
+          "explanation": "The passage covers all three parts."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose",
+          "explanation": "The option that covers all three."
+        }
+      ],
+      "finalAnswer": "The causes, effects and possible remedies of the urban heat island effect",
+      "whyItWorks": "An option about only one part is too narrow.",
+      "commonTrap": "Choosing an option about air conditioners alone.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-adv-rc-2",
+      "title": "Inference",
+      "question": "The passage says cool roofs work best across whole neighbourhoods. What can be inferred about painting a single house with light colours?",
+      "givenInfo": [
+        "Whole neighbourhoods"
+      ],
+      "conceptOrFormula": "Supported implication.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Stated",
+          "explanation": "The measures work best when applied widely."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Implied",
+          "explanation": "One house is unlikely to change the neighbourhood much."
+        }
+      ],
+      "finalAnswer": "It is likely to have only a limited effect on the neighbourhood temperature",
+      "whyItWorks": "The passage does not call it useless.",
+      "commonTrap": "Calling it useless.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-adv-rc-3",
+      "title": "Tone",
+      "question": "The passage says \"early results suggest\" that remedies \"can lower\" temperatures. What is the author's attitude?",
+      "givenInfo": [
+        "Hedged words"
+      ],
+      "conceptOrFormula": "Read the qualifiers.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Qualifiers",
+          "explanation": "\"Suggest\" and \"can\" are cautious."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Attitude",
+          "explanation": "Hopeful but careful."
+        }
+      ],
+      "finalAnswer": "Cautiously optimistic",
+      "whyItWorks": "Neither dismissive nor enthusiastic.",
+      "commonTrap": "Choosing enthusiastic.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Skeleton first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Read every word equally.",
+      "shortcutMethod": "Mark the claim, the support and the qualification; answer detail questions from the line, inference questions from the qualification, and tone from the qualifiers."
+    },
+    "rulesForApplication": [
+      "One line per paragraph.",
+      "Find the evidence line.",
+      "Reject too narrow or too broad.",
+      "Hedges signal tone."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing a true but irrelevant option",
+      "whyItHappens": "Out of scope.",
+      "howToAvoid": "Check the passage, not general knowledge."
+    },
+    {
+      "mistake": "Treating inference as certainty",
+      "whyItHappens": "Over-reading.",
+      "howToAvoid": "Choose the most supported option."
+    },
+    {
+      "mistake": "Missing the \"except\"",
+      "whyItHappens": "Reverses the question.",
+      "howToAvoid": "Underline NOT/EXCEPT first."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 180,
+    "eliminationTechnique": "Eliminate options with absolute words unless the passage uses them.",
+    "questionSelectionAdvice": "Do vocabulary-in-context questions first; they are quick.",
+    "recruiterInsight": "Every wrong option fails on scope, support or direction."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-adv-rc-e1",
+        "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nThe passage is mainly about",
+        "options": [
+          "the harmful effects of air conditioners in cities",
+          "the causes, effects and possible remedies of the urban heat island effect",
+          "why the countryside is cooler than it should be",
+          "how electricity is generated for big cities"
+        ],
+        "correctAnswer": "the causes, effects and possible remedies of the urban heat island effect",
+        "explanation": "The passage lists causes (dark surfaces, trapped heat, lack of trees), consequences (health, electricity) and remedies (cool roofs, parks). The other options each cover only a fragment.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-adv-rc-e2",
+        "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nAccording to the passage, hot nights are harmful because",
+        "options": [
+          "the body cannot recover from the heat of the day, which raises health risks for the elderly",
+          "they make people use less electricity",
+          "they cause factories to close",
+          "they stop plants from releasing moisture"
+        ],
+        "correctAnswer": "the body cannot recover from the heat of the day, which raises health risks for the elderly",
+        "explanation": "The passage says hot nights prevent the body from recovering after a hot day, raising the risk of illness among the elderly.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-adv-rc-e3",
+        "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nIn the passage, the word \"absorb\" is closest in meaning to",
+        "options": [
+          "reflect",
+          "conceal",
+          "release",
+          "take in"
+        ],
+        "correctAnswer": "take in",
+        "explanation": "Dark roofs \"absorb sunlight during the day and release it slowly\", so absorb means take in, the opposite of release.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-adv-rc-i7",
+        "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nWhich of the following is NOT mentioned in the passage as a reason why cities are warmer?",
+        "options": [
+          "Increased rainfall over cities",
+          "Dark roofs and roads absorbing sunlight",
+          "The lack of trees",
+          "Heat released by vehicles and factories"
+        ],
+        "correctAnswer": "Increased rainfall over cities",
+        "explanation": "Dark surfaces, the lack of trees, and vehicles and factories are all stated. Rainfall is never mentioned.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-adv-rc-i8",
+        "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nIt can be inferred from the passage that painting a single house with a light colour",
+        "options": [
+          "will make the neighbourhood cooler by a few degrees",
+          "is more effective than planting a park",
+          "will increase the demand for electricity",
+          "is likely to have only a limited effect on the temperature of the neighbourhood"
+        ],
+        "correctAnswer": "is likely to have only a limited effect on the temperature of the neighbourhood",
+        "explanation": "The passage says such measures work best when applied across whole neighbourhoods, which implies a single house has a limited effect.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-adv-rc-i9",
+        "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nThe author's attitude towards the remedies mentioned in the passage is best described as",
+        "options": [
+          "dismissive",
+          "wholeheartedly enthusiastic",
+          "indifferent",
+          "cautiously optimistic"
+        ],
+        "correctAnswer": "cautiously optimistic",
+        "explanation": "The phrases \"early results suggest\" and \"can lower\" are hedged, so the attitude is hopeful but careful.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-adv-rc-a15",
+        "question": "Read the passage and answer the question.\n\nAlthough honeybees receive most of the attention, many crops depend on wild pollinators such as bumblebees, hoverflies and solitary bees. Farmers who rely only on hired honeybee hives can find that fruit set is poor in cold or wet weather, when honeybees stay indoors but bumblebees keep working. Wild pollinators need nesting sites and a steady supply of flowers, both of which shrink when field margins are cleared and hedgerows removed. Studies on orchards have found that fields bordered by wild flowers receive more visits from pollinators and produce more evenly shaped fruit. The lesson is not that hired hives are useless; they remain valuable at times of peak bloom. It is that a farm with only one pollinator is as vulnerable as an economy with only one industry. Preserving a margin of wild habitat costs the farmer a little land but works like insurance against a bad season.\n\nWhich of the following would the author most likely recommend to an orchard owner?",
+        "options": [
+          "Replace hired hives with wild bumblebees entirely",
+          "Clear hedgerows to make room for more trees",
+          "Leave a margin of wild flowers around the fields while still hiring hives at peak bloom",
+          "Avoid hiring hives in cold weather"
+        ],
+        "correctAnswer": "Leave a margin of wild flowers around the fields while still hiring hives at peak bloom",
+        "explanation": "The author says hired hives remain valuable at peak bloom and that preserving wild habitat works like insurance, so both together fit best.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-rc-a16",
+        "question": "Read the passage and answer the question.\n\nFew people now write by hand for more than a signature or a shopping list, and the loss is rarely mourned. Typing is faster, and a typed page is easier to read, edit and share. Yet some researchers argue that we pay a hidden price. In experiments, students who took lecture notes by hand remembered concepts better than those who typed, apparently because the slowness of handwriting forces the writer to choose and summarise instead of recording every word. Typists tend to copy, and copying does not require understanding. This does not mean that schools should abandon keyboards. It suggests that the tool should suit the task: a keyboard for drafts that will be revised many times, a pen for material that must be understood and remembered. The danger lies in choosing a tool by habit rather than by purpose.\n\nWhich of the following statements is best supported by the passage?",
+        "options": [
+          "Handwriting is always faster than typing",
+          "Copying words does not require the writer to understand them",
+          "Typed pages are harder to edit",
+          "Researchers have proved that typing harms memory"
+        ],
+        "correctAnswer": "Copying words does not require the writer to understand them",
+        "explanation": "The passage says typists tend to copy and \"copying does not require understanding\".",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-adv-rc-p17",
+        "question": "Read the passage and answer the question.\n\nFew people now write by hand for more than a signature or a shopping list, and the loss is rarely mourned. Typing is faster, and a typed page is easier to read, edit and share. Yet some researchers argue that we pay a hidden price. In experiments, students who took lecture notes by hand remembered concepts better than those who typed, apparently because the slowness of handwriting forces the writer to choose and summarise instead of recording every word. Typists tend to copy, and copying does not require understanding. This does not mean that schools should abandon keyboards. It suggests that the tool should suit the task: a keyboard for drafts that will be revised many times, a pen for material that must be understood and remembered. The danger lies in choosing a tool by habit rather than by purpose.\n\nThe sentence \"The danger lies in choosing a tool by habit rather than by purpose\" mainly serves to",
+        "options": [
+          "introduce a new experiment",
+          "sum up the author's central recommendation",
+          "criticise typing speed",
+          "describe a research method"
+        ],
+        "correctAnswer": "sum up the author's central recommendation",
+        "explanation": "It restates the central point: the tool should be chosen for the task, not by habit.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-rc-p18",
+        "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nWhich of the following best describes how the passage is organised?",
+        "options": [
+          "It describes a phenomenon, explains its causes and effects, and then outlines responses with a qualification",
+          "It states a problem and rejects all solutions",
+          "It compares two cities and chooses the cooler one",
+          "It tells a story and ends with a moral"
+        ],
+        "correctAnswer": "It describes a phenomenon, explains its causes and effects, and then outlines responses with a qualification",
+        "explanation": "The passage defines the heat island effect, gives causes and consequences, then describes remedies and notes where they work best.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-rc-p19",
+        "question": "Read the passage and answer the question.\n\nAlthough honeybees receive most of the attention, many crops depend on wild pollinators such as bumblebees, hoverflies and solitary bees. Farmers who rely only on hired honeybee hives can find that fruit set is poor in cold or wet weather, when honeybees stay indoors but bumblebees keep working. Wild pollinators need nesting sites and a steady supply of flowers, both of which shrink when field margins are cleared and hedgerows removed. Studies on orchards have found that fields bordered by wild flowers receive more visits from pollinators and produce more evenly shaped fruit. The lesson is not that hired hives are useless; they remain valuable at times of peak bloom. It is that a farm with only one pollinator is as vulnerable as an economy with only one industry. Preserving a margin of wild habitat costs the farmer a little land but works like insurance against a bad season.\n\nThe phrase \"works like insurance\" in the passage implies that preserving wild habitat",
+        "options": [
+          "guarantees a profit every season",
+          "is compulsory for all farmers",
+          "replaces the need for hired hives",
+          "protects the farmer against losses in an unfavourable season"
+        ],
+        "correctAnswer": "protects the farmer against losses in an unfavourable season",
+        "explanation": "Insurance protects against a bad outcome; here it protects against a bad season. It does not guarantee profit or replace hives.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Skeleton.",
+      "Main idea.",
+      "Details.",
+      "Inference.",
+      "Tone."
+    ],
+    "quickFormulas": [
+      "Claim, support, qualification"
+    ]
+  },
+  "keyTakeaways": [
+    "Read for structure.",
+    "Evidence for details.",
+    "Hedges for tone.",
+    "Scope for main ideas."
+  ],
+  "selfCheckQuestions": [
+    "Can I state the main idea in one line?",
+    "Can I tell an inference from a detail?",
+    "Can I read tone from qualifiers?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

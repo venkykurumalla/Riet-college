@@ -1,0 +1,254 @@
+{
+  "topicId": "y3-verbal-adv-rc",
+  "topicTitle": "Advanced Reading Comprehension — Long Passages",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nThe passage is mainly about",
+      "options": [
+        "the harmful effects of air conditioners in cities",
+        "the causes, effects and possible remedies of the urban heat island effect",
+        "why the countryside is cooler than it should be",
+        "how electricity is generated for big cities"
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage lists causes (dark surfaces, trapped heat, lack of trees), consequences (health, electricity) and remedies (cool roofs, parks). The other options each cover only a fragment."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nAccording to the passage, hot nights are harmful because",
+      "options": [
+        "the body cannot recover from the heat of the day, which raises health risks for the elderly",
+        "they make people use less electricity",
+        "they cause factories to close",
+        "they stop plants from releasing moisture"
+      ],
+      "answerIndex": 0,
+      "explanation": "The passage says hot nights prevent the body from recovering after a hot day, raising the risk of illness among the elderly."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nIn the passage, the word \"absorb\" is closest in meaning to",
+      "options": [
+        "reflect",
+        "conceal",
+        "release",
+        "take in"
+      ],
+      "answerIndex": 3,
+      "explanation": "Dark roofs \"absorb sunlight during the day and release it slowly\", so absorb means take in, the opposite of release."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nAlthough honeybees receive most of the attention, many crops depend on wild pollinators such as bumblebees, hoverflies and solitary bees. Farmers who rely only on hired honeybee hives can find that fruit set is poor in cold or wet weather, when honeybees stay indoors but bumblebees keep working. Wild pollinators need nesting sites and a steady supply of flowers, both of which shrink when field margins are cleared and hedgerows removed. Studies on orchards have found that fields bordered by wild flowers receive more visits from pollinators and produce more evenly shaped fruit. The lesson is not that hired hives are useless; they remain valuable at times of peak bloom. It is that a farm with only one pollinator is as vulnerable as an economy with only one industry. Preserving a margin of wild habitat costs the farmer a little land but works like insurance against a bad season.\n\nThe passage is mainly about",
+      "options": [
+        "how to keep honeybees indoors in cold weather",
+        "why bumblebees are better than honeybees in all conditions",
+        "why crops need wild pollinators as well as hired honeybee hives",
+        "how orchard fruit is made evenly shaped"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage argues that wild pollinators complement hired hives and that wild habitat on a farm acts as insurance. The other options are details or overstatements."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nAlthough honeybees receive most of the attention, many crops depend on wild pollinators such as bumblebees, hoverflies and solitary bees. Farmers who rely only on hired honeybee hives can find that fruit set is poor in cold or wet weather, when honeybees stay indoors but bumblebees keep working. Wild pollinators need nesting sites and a steady supply of flowers, both of which shrink when field margins are cleared and hedgerows removed. Studies on orchards have found that fields bordered by wild flowers receive more visits from pollinators and produce more evenly shaped fruit. The lesson is not that hired hives are useless; they remain valuable at times of peak bloom. It is that a farm with only one pollinator is as vulnerable as an economy with only one industry. Preserving a margin of wild habitat costs the farmer a little land but works like insurance against a bad season.\n\nAccording to the passage, honeybees stay indoors in",
+      "options": [
+        "hot, dry weather",
+        "peak bloom",
+        "cold or wet weather",
+        "winter only"
+      ],
+      "answerIndex": 2,
+      "explanation": "The second sentence says honeybees stay indoors in cold or wet weather while bumblebees keep working."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nFew people now write by hand for more than a signature or a shopping list, and the loss is rarely mourned. Typing is faster, and a typed page is easier to read, edit and share. Yet some researchers argue that we pay a hidden price. In experiments, students who took lecture notes by hand remembered concepts better than those who typed, apparently because the slowness of handwriting forces the writer to choose and summarise instead of recording every word. Typists tend to copy, and copying does not require understanding. This does not mean that schools should abandon keyboards. It suggests that the tool should suit the task: a keyboard for drafts that will be revised many times, a pen for material that must be understood and remembered. The danger lies in choosing a tool by habit rather than by purpose.\n\nIn the passage, the word \"mourned\" is closest in meaning to",
+      "options": [
+        "celebrated",
+        "grieved over",
+        "forgotten",
+        "imitated"
+      ],
+      "answerIndex": 1,
+      "explanation": "The loss of handwriting is \"rarely mourned\", meaning people rarely feel sad about it."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nWhich of the following is NOT mentioned in the passage as a reason why cities are warmer?",
+      "options": [
+        "Increased rainfall over cities",
+        "Dark roofs and roads absorbing sunlight",
+        "The lack of trees",
+        "Heat released by vehicles and factories"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dark surfaces, the lack of trees, and vehicles and factories are all stated. Rainfall is never mentioned."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nIt can be inferred from the passage that painting a single house with a light colour",
+      "options": [
+        "will make the neighbourhood cooler by a few degrees",
+        "is more effective than planting a park",
+        "will increase the demand for electricity",
+        "is likely to have only a limited effect on the temperature of the neighbourhood"
+      ],
+      "answerIndex": 3,
+      "explanation": "The passage says such measures work best when applied across whole neighbourhoods, which implies a single house has a limited effect."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nThe author's attitude towards the remedies mentioned in the passage is best described as",
+      "options": [
+        "dismissive",
+        "wholeheartedly enthusiastic",
+        "indifferent",
+        "cautiously optimistic"
+      ],
+      "answerIndex": 3,
+      "explanation": "The phrases \"early results suggest\" and \"can lower\" are hedged, so the attitude is hopeful but careful."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nAlthough honeybees receive most of the attention, many crops depend on wild pollinators such as bumblebees, hoverflies and solitary bees. Farmers who rely only on hired honeybee hives can find that fruit set is poor in cold or wet weather, when honeybees stay indoors but bumblebees keep working. Wild pollinators need nesting sites and a steady supply of flowers, both of which shrink when field margins are cleared and hedgerows removed. Studies on orchards have found that fields bordered by wild flowers receive more visits from pollinators and produce more evenly shaped fruit. The lesson is not that hired hives are useless; they remain valuable at times of peak bloom. It is that a farm with only one pollinator is as vulnerable as an economy with only one industry. Preserving a margin of wild habitat costs the farmer a little land but works like insurance against a bad season.\n\nAccording to the passage, why can farms that rely only on hired hives have poor fruit set?",
+      "options": [
+        "Hired hives are not allowed in orchards",
+        "Bumblebees compete with honeybees for flowers",
+        "Honeybees stay indoors in cold or wet weather",
+        "Hedgerows attract too many pollinators"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says that in cold or wet weather honeybees stay indoors, so fruit set can be poor, whereas bumblebees keep working."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nAlthough honeybees receive most of the attention, many crops depend on wild pollinators such as bumblebees, hoverflies and solitary bees. Farmers who rely only on hired honeybee hives can find that fruit set is poor in cold or wet weather, when honeybees stay indoors but bumblebees keep working. Wild pollinators need nesting sites and a steady supply of flowers, both of which shrink when field margins are cleared and hedgerows removed. Studies on orchards have found that fields bordered by wild flowers receive more visits from pollinators and produce more evenly shaped fruit. The lesson is not that hired hives are useless; they remain valuable at times of peak bloom. It is that a farm with only one pollinator is as vulnerable as an economy with only one industry. Preserving a margin of wild habitat costs the farmer a little land but works like insurance against a bad season.\n\nThe author compares a farm with one pollinator to an economy with one industry in order to show that",
+      "options": [
+        "farms and economies are managed in the same way",
+        "depending on a single source makes a system vulnerable",
+        "wild pollinators are an industry",
+        "honeybees are a poor investment"
+      ],
+      "answerIndex": 1,
+      "explanation": "The analogy illustrates vulnerability from relying on one source, which is the point about having only one pollinator."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nAlthough honeybees receive most of the attention, many crops depend on wild pollinators such as bumblebees, hoverflies and solitary bees. Farmers who rely only on hired honeybee hives can find that fruit set is poor in cold or wet weather, when honeybees stay indoors but bumblebees keep working. Wild pollinators need nesting sites and a steady supply of flowers, both of which shrink when field margins are cleared and hedgerows removed. Studies on orchards have found that fields bordered by wild flowers receive more visits from pollinators and produce more evenly shaped fruit. The lesson is not that hired hives are useless; they remain valuable at times of peak bloom. It is that a farm with only one pollinator is as vulnerable as an economy with only one industry. Preserving a margin of wild habitat costs the farmer a little land but works like insurance against a bad season.\n\nIt can be inferred from the passage that clearing hedgerows around a farm is likely to",
+      "options": [
+        "reduce the number of wild pollinators visiting the fields",
+        "increase the number of hired hives needed at peak bloom",
+        "make the fruit more evenly shaped",
+        "increase nesting sites for solitary bees"
+      ],
+      "answerIndex": 0,
+      "explanation": "Wild pollinators need nesting sites and flowers, which shrink when hedgerows are removed, so their numbers are likely to fall."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nFew people now write by hand for more than a signature or a shopping list, and the loss is rarely mourned. Typing is faster, and a typed page is easier to read, edit and share. Yet some researchers argue that we pay a hidden price. In experiments, students who took lecture notes by hand remembered concepts better than those who typed, apparently because the slowness of handwriting forces the writer to choose and summarise instead of recording every word. Typists tend to copy, and copying does not require understanding. This does not mean that schools should abandon keyboards. It suggests that the tool should suit the task: a keyboard for drafts that will be revised many times, a pen for material that must be understood and remembered. The danger lies in choosing a tool by habit rather than by purpose.\n\nAccording to the passage, why did students who wrote notes by hand remember concepts better?",
+      "options": [
+        "The slowness of handwriting forced them to choose and summarise",
+        "They wrote more words than the typists",
+        "They copied every word accurately",
+        "They used better pens"
+      ],
+      "answerIndex": 0,
+      "explanation": "The passage says the slowness forces the writer to choose and summarise instead of recording every word."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nFew people now write by hand for more than a signature or a shopping list, and the loss is rarely mourned. Typing is faster, and a typed page is easier to read, edit and share. Yet some researchers argue that we pay a hidden price. In experiments, students who took lecture notes by hand remembered concepts better than those who typed, apparently because the slowness of handwriting forces the writer to choose and summarise instead of recording every word. Typists tend to copy, and copying does not require understanding. This does not mean that schools should abandon keyboards. It suggests that the tool should suit the task: a keyboard for drafts that will be revised many times, a pen for material that must be understood and remembered. The danger lies in choosing a tool by habit rather than by purpose.\n\nThe author would most likely agree that",
+      "options": [
+        "schools should ban keyboards",
+        "typing is always worse than handwriting",
+        "drafts should always be written by hand",
+        "the choice of tool should depend on the purpose of the writing"
+      ],
+      "answerIndex": 3,
+      "explanation": "The author concludes that the tool should suit the task and warns against choosing by habit."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nAlthough honeybees receive most of the attention, many crops depend on wild pollinators such as bumblebees, hoverflies and solitary bees. Farmers who rely only on hired honeybee hives can find that fruit set is poor in cold or wet weather, when honeybees stay indoors but bumblebees keep working. Wild pollinators need nesting sites and a steady supply of flowers, both of which shrink when field margins are cleared and hedgerows removed. Studies on orchards have found that fields bordered by wild flowers receive more visits from pollinators and produce more evenly shaped fruit. The lesson is not that hired hives are useless; they remain valuable at times of peak bloom. It is that a farm with only one pollinator is as vulnerable as an economy with only one industry. Preserving a margin of wild habitat costs the farmer a little land but works like insurance against a bad season.\n\nWhich of the following would the author most likely recommend to an orchard owner?",
+      "options": [
+        "Replace hired hives with wild bumblebees entirely",
+        "Clear hedgerows to make room for more trees",
+        "Leave a margin of wild flowers around the fields while still hiring hives at peak bloom",
+        "Avoid hiring hives in cold weather"
+      ],
+      "answerIndex": 2,
+      "explanation": "The author says hired hives remain valuable at peak bloom and that preserving wild habitat works like insurance, so both together fit best."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nFew people now write by hand for more than a signature or a shopping list, and the loss is rarely mourned. Typing is faster, and a typed page is easier to read, edit and share. Yet some researchers argue that we pay a hidden price. In experiments, students who took lecture notes by hand remembered concepts better than those who typed, apparently because the slowness of handwriting forces the writer to choose and summarise instead of recording every word. Typists tend to copy, and copying does not require understanding. This does not mean that schools should abandon keyboards. It suggests that the tool should suit the task: a keyboard for drafts that will be revised many times, a pen for material that must be understood and remembered. The danger lies in choosing a tool by habit rather than by purpose.\n\nWhich of the following statements is best supported by the passage?",
+      "options": [
+        "Handwriting is always faster than typing",
+        "Copying words does not require the writer to understand them",
+        "Typed pages are harder to edit",
+        "Researchers have proved that typing harms memory"
+      ],
+      "answerIndex": 1,
+      "explanation": "The passage says typists tend to copy and \"copying does not require understanding\"."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nFew people now write by hand for more than a signature or a shopping list, and the loss is rarely mourned. Typing is faster, and a typed page is easier to read, edit and share. Yet some researchers argue that we pay a hidden price. In experiments, students who took lecture notes by hand remembered concepts better than those who typed, apparently because the slowness of handwriting forces the writer to choose and summarise instead of recording every word. Typists tend to copy, and copying does not require understanding. This does not mean that schools should abandon keyboards. It suggests that the tool should suit the task: a keyboard for drafts that will be revised many times, a pen for material that must be understood and remembered. The danger lies in choosing a tool by habit rather than by purpose.\n\nThe sentence \"The danger lies in choosing a tool by habit rather than by purpose\" mainly serves to",
+      "options": [
+        "introduce a new experiment",
+        "sum up the author's central recommendation",
+        "criticise typing speed",
+        "describe a research method"
+      ],
+      "answerIndex": 1,
+      "explanation": "It restates the central point: the tool should be chosen for the task, not by habit."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nCities are usually several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The cause is not a single factor but a combination. Dark roofs and roads absorb sunlight during the day and release it slowly at night, so the air does not cool as it does over open land. Concrete and glass trap heat between tall buildings, and the lack of trees removes the shade and the moisture that plants normally release. Vehicles, air conditioners and factories add heat of their own. The consequences go beyond discomfort. Hot nights prevent the body from recovering after a hot day, which raises the risk of illness among the elderly. Demand for electricity rises sharply, and the power stations that supply it release more heat and pollution. Some cities have begun to respond with cool roofs painted in light colours, parks, and rules that require new buildings to include green space. Early results suggest that such measures can lower local temperatures by a few degrees, though they work best when applied across whole neighbourhoods rather than on single buildings.\n\nWhich of the following best describes how the passage is organised?",
+      "options": [
+        "It describes a phenomenon, explains its causes and effects, and then outlines responses with a qualification",
+        "It states a problem and rejects all solutions",
+        "It compares two cities and chooses the cooler one",
+        "It tells a story and ends with a moral"
+      ],
+      "answerIndex": 0,
+      "explanation": "The passage defines the heat island effect, gives causes and consequences, then describes remedies and notes where they work best."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nAlthough honeybees receive most of the attention, many crops depend on wild pollinators such as bumblebees, hoverflies and solitary bees. Farmers who rely only on hired honeybee hives can find that fruit set is poor in cold or wet weather, when honeybees stay indoors but bumblebees keep working. Wild pollinators need nesting sites and a steady supply of flowers, both of which shrink when field margins are cleared and hedgerows removed. Studies on orchards have found that fields bordered by wild flowers receive more visits from pollinators and produce more evenly shaped fruit. The lesson is not that hired hives are useless; they remain valuable at times of peak bloom. It is that a farm with only one pollinator is as vulnerable as an economy with only one industry. Preserving a margin of wild habitat costs the farmer a little land but works like insurance against a bad season.\n\nThe phrase \"works like insurance\" in the passage implies that preserving wild habitat",
+      "options": [
+        "guarantees a profit every season",
+        "is compulsory for all farmers",
+        "replaces the need for hired hives",
+        "protects the farmer against losses in an unfavourable season"
+      ],
+      "answerIndex": 3,
+      "explanation": "Insurance protects against a bad outcome; here it protects against a bad season. It does not guarantee profit or replace hives."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/comprehension/"
+}
