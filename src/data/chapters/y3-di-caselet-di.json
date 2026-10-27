@@ -1,0 +1,422 @@
+{
+  "id": "y3-di-caselet-di",
+  "yearId": 3,
+  "category": "Data Interpretation",
+  "topicNumber": 59,
+  "title": "Caselet Data Interpretation",
+  "tagline": "Year 3 — Data hidden in a paragraph: building the table yourself and then answering from it",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A caselet gives data in sentences instead of a table or chart. The first job is to convert the paragraph into a small table of numbers, filling in everything that can be calculated directly (percentages of a total, remaining parts, ratios). After that, every question is arithmetic on the table. The common errors are applying a percentage to the wrong base and missing a part of the total.",
+    "placementRelevance": "Caselets are used in DI sections of company and bank tests because they test careful reading as well as calculation.",
+    "realWorldContext": "Summarising a business situation described in a report or email into numbers is the same skill."
+  },
+  "learningObjectives": [
+    "Extract numbers and relationships from a paragraph",
+    "Build a table before answering",
+    "Apply percentages to the correct base",
+    "Handle \"remaining\" and ratio statements",
+    "Check that parts add up to the total"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Percentage-Based DI",
+      "Ratio-Based DI"
+    ],
+    "quickRefresher": "Part = percentage × base ÷ 100. Remaining = total − known parts. A ratio a : b splits a total into a/(a + b) and b/(a + b)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Caselet: a paragraph that contains data.",
+      "Base: the quantity a percentage is taken of.",
+      "Remaining part: total minus the parts already given.",
+      "Derived value: a number you calculate from the given data.",
+      "Consistency check: the parts must add up to the total."
+    ],
+    "theoreticalIntuition": "A caselet is a table in disguise. Draw the table, fill every cell you can, and the questions become lookups.",
+    "visualOrMentalModel": "Underline every number and what it refers to. Write a table with one row per category. Fill totals first, then derived columns, then answer."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Percentage of base",
+      "formula": "Part = % × base ÷ 100",
+      "description": "Base is the total or a subgroup.",
+      "whenToUse": "Streams, shares.",
+      "simpleExample": "35% of 800 = 280"
+    },
+    {
+      "title": "Remaining",
+      "formula": "Rest = total − sum of parts",
+      "description": "After subtracting.",
+      "whenToUse": "Rest categories.",
+      "simpleExample": "100 − 25 − 35 − 30 = 10%"
+    },
+    {
+      "title": "Ratio split",
+      "formula": "Part = total × a/(a + b)",
+      "description": "Two-way split.",
+      "whenToUse": "Own vehicle : walk.",
+      "simpleExample": "180 × 3/5 = 108"
+    },
+    {
+      "title": "Profit",
+      "formula": "Profit per unit = SP − cost; cost = SP ÷ (1 + p%)",
+      "description": "Profit on cost.",
+      "whenToUse": "Shops.",
+      "simpleExample": "50 ÷ 1.25 = 40"
+    },
+    {
+      "title": "Consistency",
+      "formula": "Parts add to the total",
+      "description": "Check.",
+      "whenToUse": "Catch errors.",
+      "simpleExample": "200 + 280 + 240 + 80 = 800"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively. The Law share is 100 − 25 − 35 − 30 = 10%, so the streams have 200, 280, 240 and 80 students. Girls are 60% of 200 = 120, 40% of 280 = 112, 50% of 240 = 120 and 30% of 80 = 24. Total girls = 376 and boys = 800 − 376 = 424.",
+      "A percentage must be applied to the right base. The percentage of girls in Science applies to the Science students (280), not to the whole college.",
+      "A shop sells three items P, Q and R in a month. It sells 120 units of P at ₹50 each with a profit of 25% on cost, 80 units of Q at ₹120 each with a profit of 20% on cost, and 150 units of R at ₹44 each with a profit of 10% on cost. The cost per unit is ₹40 for P (50 ÷ 1.25), ₹100 for Q (120 ÷ 1.2) and ₹40 for R (44 ÷ 1.1). Profits per unit are ₹10, ₹20 and ₹4, so the total profit is 1200 + 1600 + 600 = ₹3,400.",
+      "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2. Bus = 270, metro = 150, remaining 180. Split 3 : 2 gives own vehicle 108 and walking 72.",
+      "Always verify: 270 + 150 + 108 + 72 = 600."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Percentage of a percentage",
+        "content": "\"40% of the 35% in Science\" is 0.40 × 0.35 = 14% of the college, not 75%."
+      },
+      {
+        "title": "Profit on cost versus on selling price",
+        "content": "Profit on cost uses cost as the base: SP = cost × (1 + p%)."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Population split",
+      "description": "Shares and subgroups.",
+      "exampleSnippet": "College streams"
+    },
+    {
+      "typeName": "Business case",
+      "description": "Revenue and profit.",
+      "exampleSnippet": "Shop items"
+    },
+    {
+      "typeName": "Survey",
+      "description": "Percent and ratio split.",
+      "exampleSnippet": "Travel modes"
+    },
+    {
+      "typeName": "Ratio rests",
+      "description": "Split the remainder.",
+      "exampleSnippet": "3 : 2"
+    },
+    {
+      "typeName": "Consistency",
+      "description": "Add to total.",
+      "exampleSnippet": "600"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-di-caselet-di-1",
+      "title": "Percentage of base",
+      "question": "Of 800 students, 35% are in Science and 40% of them are girls. How many girls are in Science?",
+      "givenInfo": [
+        "800",
+        "35%",
+        "40%"
+      ],
+      "conceptOrFormula": "Apply the percentage to the right base.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Science students",
+          "explanation": "35% of 800 = 280."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Girls",
+          "explanation": "40% of 280 = 112."
+        }
+      ],
+      "finalAnswer": "112",
+      "whyItWorks": "The base for 40% is the Science group.",
+      "commonTrap": "Taking 40% of 800.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-di-caselet-di-2",
+      "title": "Ratio split",
+      "question": "Out of 600 people, 45% travel by bus and 25% by metro. The rest use own vehicle or walk in the ratio 3 : 2. How many walk?",
+      "givenInfo": [
+        "600 people"
+      ],
+      "conceptOrFormula": "Find the remainder, then split.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Remainder",
+          "explanation": "100 − 45 − 25 = 30%, which is 180 people."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Walk",
+          "explanation": "180 × 2/5 = 72."
+        }
+      ],
+      "finalAnswer": "72",
+      "whyItWorks": "108 use their own vehicle.",
+      "commonTrap": "Taking 2/5 of 600.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-di-caselet-di-3",
+      "title": "Profit",
+      "question": "A shop sells 120 units of P at ₹50 with a profit of 25% on cost. What is its total profit on P?",
+      "givenInfo": [
+        "SP 50",
+        "25% on cost"
+      ],
+      "conceptOrFormula": "Find the cost first.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Cost",
+          "explanation": "50 ÷ 1.25 = ₹40."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Profit per unit",
+          "explanation": "50 − 40 = ₹10; total = 120 × 10 = ₹1,200."
+        }
+      ],
+      "finalAnswer": "₹1,200",
+      "whyItWorks": "Profit on cost uses cost as the base.",
+      "commonTrap": "Taking 25% of 50.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Table first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compute from the paragraph each time.",
+      "shortcutMethod": "Convert the paragraph into a small table, fill the totals and derived columns once, then answer by lookups."
+    },
+    "rulesForApplication": [
+      "Table before arithmetic.",
+      "Check the base.",
+      "Add to the total.",
+      "Rest = total − parts."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Wrong base for a percentage",
+      "whyItHappens": "Applying 40% to everyone.",
+      "howToAvoid": "Use the subgroup."
+    },
+    {
+      "mistake": "Missing the \"rest\"",
+      "whyItHappens": "Losing a category.",
+      "howToAvoid": "Compute rest = total − parts."
+    },
+    {
+      "mistake": "Profit on cost vs on SP",
+      "whyItHappens": "Wrong cost.",
+      "howToAvoid": "Divide by (1 + p%)."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 120,
+    "eliminationTechnique": "A part cannot exceed its total.",
+    "questionSelectionAdvice": "Write the table with total row and column.",
+    "recruiterInsight": "One caselet carries six or seven questions, so build the table once."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-di-caselet-di-e1",
+        "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nHow many students are in the Science stream?",
+        "options": [
+          "308",
+          "280",
+          "252",
+          "350"
+        ],
+        "correctAnswer": "280",
+        "explanation": "35% of 800 = 280. The answer is 280.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-caselet-di-e2",
+        "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nHow many girls are in the Arts stream?",
+        "options": [
+          "120",
+          "132",
+          "108",
+          "150"
+        ],
+        "correctAnswer": "120",
+        "explanation": "Arts has 25% of 800 = 200 students, and 60% of 200 = 120. The answer is 120.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-caselet-di-e3",
+        "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nHow many students are in the Law stream?",
+        "options": [
+          "88",
+          "72",
+          "100",
+          "80"
+        ],
+        "correctAnswer": "80",
+        "explanation": "Law has 100 − 25 − 35 − 30 = 10% of the students: 10% of 800 = 80. The answer is 80.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-di-caselet-di-i7",
+        "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nWhat is the ratio of girls in Science to girls in Law?",
+        "options": [
+          "14 : 3",
+          "3 : 14",
+          "113 : 24",
+          "56 : 13"
+        ],
+        "correctAnswer": "14 : 3",
+        "explanation": "Girls in Science = 112 and in Law = 24; 112 : 24 simplifies by 8. The ratio is 14 : 3.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-caselet-di-i8",
+        "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nGirls are what percentage of all students?",
+        "options": [
+          "42%",
+          "52%",
+          "50%",
+          "47%"
+        ],
+        "correctAnswer": "47%",
+        "explanation": "Girls = 376 out of 800: 376 ÷ 800 × 100 = 47%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-caselet-di-i9",
+        "question": "A shop sells three items P, Q and R in a month. It sells 120 units of P at ₹50 each with a profit of 25% on cost, 80 units of Q at ₹120 each with a profit of 20% on cost, and 150 units of R at ₹44 each with a profit of 10% on cost.\n\nWhat is the total revenue from the sale of Q?",
+        "options": [
+          "10560",
+          "8640",
+          "12000",
+          "9600"
+        ],
+        "correctAnswer": "9600",
+        "explanation": "80 × ₹120 = ₹9,600. The answer is 9600.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-di-caselet-di-a15",
+        "question": "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2.\n\nHow many people travel by metro?",
+        "options": [
+          "165",
+          "135",
+          "150",
+          "188"
+        ],
+        "correctAnswer": "150",
+        "explanation": "25% of 600 = 150. The answer is 150.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-caselet-di-a16",
+        "question": "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2.\n\nHow many people use their own vehicle?",
+        "options": [
+          "119",
+          "108",
+          "97",
+          "135"
+        ],
+        "correctAnswer": "108",
+        "explanation": "The rest is 30% of 600 = 180; 3/5 of 180 = 108. The answer is 108.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-di-caselet-di-p17",
+        "question": "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2.\n\nHow many people walk to work?",
+        "options": [
+          "79",
+          "72",
+          "65",
+          "90"
+        ],
+        "correctAnswer": "72",
+        "explanation": "The rest is 180; 2/5 of 180 = 72. The answer is 72.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-caselet-di-p18",
+        "question": "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2.\n\nWhat is the ratio of bus users to walkers?",
+        "options": [
+          "15 : 4",
+          "4 : 15",
+          "271 : 72",
+          "135 : 37"
+        ],
+        "correctAnswer": "15 : 4",
+        "explanation": "Bus users = 270 and walkers = 72; the HCF is 18. The ratio is 15 : 4.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-caselet-di-p19",
+        "question": "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2.\n\nHow many more people travel by metro than walk?",
+        "options": [
+          "86",
+          "70",
+          "98",
+          "78"
+        ],
+        "correctAnswer": "78",
+        "explanation": "150 − 72 = 78. The answer is 78.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Build the table.",
+      "Right base.",
+      "Rest and ratio.",
+      "Profit on cost.",
+      "Check totals."
+    ],
+    "quickFormulas": [
+      "Part = % × base ÷ 100"
+    ]
+  },
+  "keyTakeaways": [
+    "Table first.",
+    "Correct base.",
+    "Check totals.",
+    "Compute rest."
+  ],
+  "selfCheckQuestions": [
+    "Can I turn a caselet into a table?",
+    "Can I choose the right base?",
+    "Can I split a remainder in a ratio?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}

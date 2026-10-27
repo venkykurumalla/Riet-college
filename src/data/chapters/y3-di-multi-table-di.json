@@ -1,0 +1,422 @@
+{
+  "id": "y3-di-multi-table-di",
+  "yearId": 3,
+  "category": "Data Interpretation",
+  "topicNumber": 60,
+  "title": "Multi-Table DI Sets",
+  "tagline": "Year 3 — Two or three linked tables: combining rows and columns across tables to answer questions",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A multi-table set gives two or three tables that describe the same entities (schools, branches, products) from different angles. Each question usually needs a number from one table and a number from another, combined by multiplication, division or addition. The main task is to identify which tables and which cells a question needs and to combine them with the correct operation.",
+    "placementRelevance": "Multi-table sets are a staple of DI sections in company tests.",
+    "realWorldContext": "Combining a staffing table with a salary table, or enrolment with pass rates, is routine in reports."
+  },
+  "learningObjectives": [
+    "Match entities across tables",
+    "Combine counts and percentages to get new counts",
+    "Compute totals, averages and ratios from derived values",
+    "Compare derived quantities across entities",
+    "Avoid mixing units between tables"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Table-Based DI",
+      "Percentage-Based DI"
+    ],
+    "quickRefresher": "Count = percentage × base ÷ 100; revenue = number × rate. Always check the unit of each table."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Linked tables: tables that share rows or columns.",
+      "Derived value: number computed from cells in different tables.",
+      "Aggregate: a total or average over entities.",
+      "Unit: what a number measures (students, ₹, %).",
+      "Base: the quantity a percentage refers to."
+    ],
+    "theoreticalIntuition": "The tables are columns of a single big table split for printing. Rebuild the big table mentally by matching on the common row labels.",
+    "visualOrMentalModel": "For each question, say which quantities are needed (for example students and pass %), find them in the tables, and combine them with the right operation."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Count from %",
+      "formula": "Passed = students × pass % ÷ 100",
+      "description": "Tables 1 and 2.",
+      "whenToUse": "Derived count.",
+      "simpleExample": "S3: 300 × 60% = 180"
+    },
+    {
+      "title": "Failed",
+      "formula": "Failed = students − passed",
+      "description": "After passed.",
+      "whenToUse": "Complement.",
+      "simpleExample": "S2: 250 − 180 = 70"
+    },
+    {
+      "title": "Revenue",
+      "formula": "Students × fee",
+      "description": "Tables 1 and 3.",
+      "whenToUse": "Money.",
+      "simpleExample": "S1: 200 × 1,200"
+    },
+    {
+      "title": "Overall rate",
+      "formula": "Total passed ÷ total students × 100",
+      "description": "Aggregate.",
+      "whenToUse": "Weighted.",
+      "simpleExample": "793 ÷ 1,300"
+    },
+    {
+      "title": "Average of rates",
+      "formula": "Not the plain average of percentages",
+      "description": "Different bases.",
+      "whenToUse": "Trap.",
+      "simpleExample": "Weighted average needed"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Table 1 gives students (200, 250, 300, 150, 400), Table 2 gives pass percentages (80, 72, 60, 76, 55) and Table 3 gives the annual fee (₹1,200, ₹1,500, ₹1,000, ₹1,800, ₹900). The number who passed in S3 is 300 × 60% = 180; in S4 it is 150 × 76% = 114.",
+      "To find the overall pass percentage, add the passes (160 + 180 + 180 + 114 + 220 = 854) and divide by the total number of students (1,300): about 65.7%. The plain average of the five percentages (68.6%) is wrong because the schools have different sizes.",
+      "Fee revenue for a school is students × fee: S2 gives 250 × 1,500 = ₹3,75,000. The total over all schools is the sum of these products.",
+      "Comparisons across schools need derived values. The school with the highest number of failures is found by computing students − passed for each.",
+      "Always check that a quantity from one table is paired with the right school in another."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Weighted vs simple average",
+        "content": "The overall pass percentage weights each school's percentage by its number of students."
+      },
+      {
+        "title": "Units",
+        "content": "Never add a count and a percentage; convert first."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Count from percent",
+      "description": "Two tables.",
+      "exampleSnippet": "Passed students"
+    },
+    {
+      "typeName": "Money",
+      "description": "Count × rate.",
+      "exampleSnippet": "Fee revenue"
+    },
+    {
+      "typeName": "Aggregate",
+      "description": "Total and overall %.",
+      "exampleSnippet": "Overall pass %"
+    },
+    {
+      "typeName": "Rankings",
+      "description": "Highest or lowest.",
+      "exampleSnippet": "Most failures"
+    },
+    {
+      "typeName": "Ratios",
+      "description": "Between schools.",
+      "exampleSnippet": "S1 passes : S5 passes"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-di-multi-table-di-1",
+      "title": "Combining two tables",
+      "question": "Table 1: S3 has 300 students. Table 2: S3 pass percentage is 60%. How many students of S3 passed?",
+      "givenInfo": [
+        "300",
+        "60%"
+      ],
+      "conceptOrFormula": "Percent of base.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Base",
+          "explanation": "S3 appeared: 300."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Passed",
+          "explanation": "60% of 300 = 180."
+        }
+      ],
+      "finalAnswer": "180",
+      "whyItWorks": "Failed = 120.",
+      "commonTrap": "Adding 300 and 60.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-di-multi-table-di-2",
+      "title": "Revenue",
+      "question": "S2 has 250 students and charges ₹1,500 a year per student. What is the annual fee revenue?",
+      "givenInfo": [
+        "250",
+        "₹1,500"
+      ],
+      "conceptOrFormula": "Count × rate.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pick the cells",
+          "explanation": "Students 250 from Table 1 and fee ₹1,500 from Table 3."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Multiply",
+          "explanation": "250 × 1,500 = ₹3,75,000."
+        }
+      ],
+      "finalAnswer": "₹3,75,000",
+      "whyItWorks": "Both tables are needed.",
+      "commonTrap": "Adding the numbers.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-di-multi-table-di-3",
+      "title": "Overall rate",
+      "question": "Five schools together had 854 passes among 1,300 students. What is the overall pass percentage?",
+      "givenInfo": [
+        "854",
+        "1,300"
+      ],
+      "conceptOrFormula": "Weighted rate.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "854 ÷ 1,300 = 0.657."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "About 65.7%."
+        }
+      ],
+      "finalAnswer": "65.7%",
+      "whyItWorks": "Do not average the five percentages.",
+      "commonTrap": "Averaging the percentages.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Rebuild the big table",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Hunt for numbers on each question.",
+      "shortcutMethod": "Add derived columns (passed, failed, revenue) once, then answer every question from that extended table."
+    },
+    "rulesForApplication": [
+      "Count = % × base.",
+      "Overall rate is weighted.",
+      "Match rows.",
+      "Check units."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Averaging percentages directly",
+      "whyItHappens": "Different bases.",
+      "howToAvoid": "Use totals."
+    },
+    {
+      "mistake": "Mismatched rows",
+      "whyItHappens": "Wrong school.",
+      "howToAvoid": "Match labels."
+    },
+    {
+      "mistake": "Mixing units",
+      "whyItHappens": "Counts and percentages.",
+      "howToAvoid": "Convert first."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 100,
+    "eliminationTechnique": "A derived count cannot exceed its base.",
+    "questionSelectionAdvice": "Add derived columns before reading questions.",
+    "recruiterInsight": "Derived values serve many questions in the set."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-di-multi-table-di-e1",
+        "question": "Table 1: Number of students who appeared in the annual examination\n\nSchool | S1 | S2 | S3 | S4 | S5\nStudents | 200 | 250 | 300 | 150 | 400\n\nTable 2: Pass percentage\n\nSchool | S1 | S2 | S3 | S4 | S5\nPass % | 80% | 72% | 60% | 76% | 55%\n\nTable 3: Annual fee per student (₹)\n\nSchool | S1 | S2 | S3 | S4 | S5\nFee (₹) | 1200 | 1500 | 1000 | 1800 | 900\n\nHow many students passed in S1?",
+        "options": [
+          "176",
+          "160",
+          "144",
+          "200"
+        ],
+        "correctAnswer": "160",
+        "explanation": "S1 passed 80% of 200 = 160. The answer is 160.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-multi-table-di-e2",
+        "question": "Table 1: Number of students who appeared in the annual examination\n\nSchool | S1 | S2 | S3 | S4 | S5\nStudents | 200 | 250 | 300 | 150 | 400\n\nTable 2: Pass percentage\n\nSchool | S1 | S2 | S3 | S4 | S5\nPass % | 80% | 72% | 60% | 76% | 55%\n\nTable 3: Annual fee per student (₹)\n\nSchool | S1 | S2 | S3 | S4 | S5\nFee (₹) | 1200 | 1500 | 1000 | 1800 | 900\n\nHow many students passed in S3?",
+        "options": [
+          "180",
+          "198",
+          "162",
+          "225"
+        ],
+        "correctAnswer": "180",
+        "explanation": "S3 passed 60% of 300 = 180. The answer is 180.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-multi-table-di-e3",
+        "question": "Table 1: Number of students who appeared in the annual examination\n\nSchool | S1 | S2 | S3 | S4 | S5\nStudents | 200 | 250 | 300 | 150 | 400\n\nTable 2: Pass percentage\n\nSchool | S1 | S2 | S3 | S4 | S5\nPass % | 80% | 72% | 60% | 76% | 55%\n\nTable 3: Annual fee per student (₹)\n\nSchool | S1 | S2 | S3 | S4 | S5\nFee (₹) | 1200 | 1500 | 1000 | 1800 | 900\n\nHow many students failed in S2?",
+        "options": [
+          "77",
+          "63",
+          "88",
+          "70"
+        ],
+        "correctAnswer": "70",
+        "explanation": "S2 passed 72% of 250 = 180, so 250 − 180 = 70 failed. The answer is 70.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-di-multi-table-di-i7",
+        "question": "Table 1: Number of students who appeared in the annual examination\n\nSchool | S1 | S2 | S3 | S4 | S5\nStudents | 200 | 250 | 300 | 150 | 400\n\nTable 2: Pass percentage\n\nSchool | S1 | S2 | S3 | S4 | S5\nPass % | 80% | 72% | 60% | 76% | 55%\n\nTable 3: Annual fee per student (₹)\n\nSchool | S1 | S2 | S3 | S4 | S5\nFee (₹) | 1200 | 1500 | 1000 | 1800 | 900\n\nWhat is the total number of students who passed in all five schools?",
+        "options": [
+          "854",
+          "939",
+          "769",
+          "1068"
+        ],
+        "correctAnswer": "854",
+        "explanation": "160 + 180 + 180 + 114 + 220 = 854. The answer is 854.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-multi-table-di-i8",
+        "question": "Table 1: Number of students who appeared in the annual examination\n\nSchool | S1 | S2 | S3 | S4 | S5\nStudents | 200 | 250 | 300 | 150 | 400\n\nTable 2: Pass percentage\n\nSchool | S1 | S2 | S3 | S4 | S5\nPass % | 80% | 72% | 60% | 76% | 55%\n\nTable 3: Annual fee per student (₹)\n\nSchool | S1 | S2 | S3 | S4 | S5\nFee (₹) | 1200 | 1500 | 1000 | 1800 | 900\n\nWhat is the overall pass percentage of all five schools together (to one decimal place)?",
+        "options": [
+          "68.6%",
+          "64.2%",
+          "66.8%",
+          "65.7%"
+        ],
+        "correctAnswer": "65.7%",
+        "explanation": "Total passes 854 out of 1,300: 854 ÷ 1,300 × 100 = 65.7%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-multi-table-di-i9",
+        "question": "Table 1: Number of students who appeared in the annual examination\n\nSchool | S1 | S2 | S3 | S4 | S5\nStudents | 200 | 250 | 300 | 150 | 400\n\nTable 2: Pass percentage\n\nSchool | S1 | S2 | S3 | S4 | S5\nPass % | 80% | 72% | 60% | 76% | 55%\n\nTable 3: Annual fee per student (₹)\n\nSchool | S1 | S2 | S3 | S4 | S5\nFee (₹) | 1200 | 1500 | 1000 | 1800 | 900\n\nWhich school has the highest number of students who failed?",
+        "options": [
+          "S1",
+          "S2",
+          "S3",
+          "S5"
+        ],
+        "correctAnswer": "S5",
+        "explanation": "Failures are S1 40, S2 70, S3 120, S4 36, S5 180; the highest is S5 with 180.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-di-multi-table-di-a15",
+        "question": "Table 1: Number of students who appeared in the annual examination\n\nSchool | S1 | S2 | S3 | S4 | S5\nStudents | 200 | 250 | 300 | 150 | 400\n\nTable 2: Pass percentage\n\nSchool | S1 | S2 | S3 | S4 | S5\nPass % | 80% | 72% | 60% | 76% | 55%\n\nTable 3: Annual fee per student (₹)\n\nSchool | S1 | S2 | S3 | S4 | S5\nFee (₹) | 1200 | 1500 | 1000 | 1800 | 900\n\nWhat is the total annual fee revenue of all five schools (in ₹)?",
+        "options": [
+          "1699500",
+          "1390500",
+          "1545000",
+          "1931250"
+        ],
+        "correctAnswer": "1545000",
+        "explanation": "2,40,000 + 3,75,000 + 3,00,000 + 2,70,000 + 3,60,000 = ₹15,45,000. The answer is 1545000.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-multi-table-di-a16",
+        "question": "Table 1: Number of students who appeared in the annual examination\n\nSchool | S1 | S2 | S3 | S4 | S5\nStudents | 200 | 250 | 300 | 150 | 400\n\nTable 2: Pass percentage\n\nSchool | S1 | S2 | S3 | S4 | S5\nPass % | 80% | 72% | 60% | 76% | 55%\n\nTable 3: Annual fee per student (₹)\n\nSchool | S1 | S2 | S3 | S4 | S5\nFee (₹) | 1200 | 1500 | 1000 | 1800 | 900\n\nWhich school has the highest annual fee revenue?",
+        "options": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "correctAnswer": "S2",
+        "explanation": "Revenues are S1 ₹2,40,000, S2 ₹3,75,000, S3 ₹3,00,000, S4 ₹2,70,000, S5 ₹3,60,000; the highest is S2.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-di-multi-table-di-p17",
+        "question": "Table 1: Number of students who appeared in the annual examination\n\nSchool | S1 | S2 | S3 | S4 | S5\nStudents | 200 | 250 | 300 | 150 | 400\n\nTable 2: Pass percentage\n\nSchool | S1 | S2 | S3 | S4 | S5\nPass % | 80% | 72% | 60% | 76% | 55%\n\nTable 3: Annual fee per student (₹)\n\nSchool | S1 | S2 | S3 | S4 | S5\nFee (₹) | 1200 | 1500 | 1000 | 1800 | 900\n\nWhat is the average fee revenue per student across all five schools (to the nearest rupee)?",
+        "options": [
+          "₹1,000",
+          "₹1,188",
+          "₹1,300",
+          "₹1,400"
+        ],
+        "correctAnswer": "₹1,188",
+        "explanation": "Total revenue ₹15,45,000 ÷ 1,300 students = ₹1188.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-multi-table-di-p18",
+        "question": "Table 1: Number of students who appeared in the annual examination\n\nSchool | S1 | S2 | S3 | S4 | S5\nStudents | 200 | 250 | 300 | 150 | 400\n\nTable 2: Pass percentage\n\nSchool | S1 | S2 | S3 | S4 | S5\nPass % | 80% | 72% | 60% | 76% | 55%\n\nTable 3: Annual fee per student (₹)\n\nSchool | S1 | S2 | S3 | S4 | S5\nFee (₹) | 1200 | 1500 | 1000 | 1800 | 900\n\nThe plain average of the five pass percentages is 68.6%. Why is it different from the overall pass percentage?",
+        "options": [
+          "Because the schools have different numbers of students",
+          "Because the pass percentages are rounded",
+          "Because the tables are in different units",
+          "Because the plain average is always higher"
+        ],
+        "correctAnswer": "Because the schools have different numbers of students",
+        "explanation": "The overall rate weights each school by its size (854 ÷ 1,300), so it differs from the plain average of percentages.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-multi-table-di-p19",
+        "question": "Table 1: Number of students who appeared in the annual examination\n\nSchool | S1 | S2 | S3 | S4 | S5\nStudents | 200 | 250 | 300 | 150 | 400\n\nTable 2: Pass percentage\n\nSchool | S1 | S2 | S3 | S4 | S5\nPass % | 80% | 72% | 60% | 76% | 55%\n\nTable 3: Annual fee per student (₹)\n\nSchool | S1 | S2 | S3 | S4 | S5\nFee (₹) | 1200 | 1500 | 1000 | 1800 | 900\n\nIf 20 more students had passed in S3, what would its pass percentage be (nearest whole number)?",
+        "options": [
+          "74",
+          "60",
+          "84",
+          "67"
+        ],
+        "correctAnswer": "67",
+        "explanation": "Passed would be 200 out of 300: 200 ÷ 300 × 100 ≈ 67. The answer is 67.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Match rows.",
+      "Percent of base.",
+      "Weighted overall.",
+      "Revenue.",
+      "Units."
+    ],
+    "quickFormulas": [
+      "Overall % = total part ÷ total base"
+    ]
+  },
+  "keyTakeaways": [
+    "Derived columns.",
+    "Weighted rates.",
+    "Match labels.",
+    "Units."
+  ],
+  "selfCheckQuestions": [
+    "Can I combine two tables?",
+    "Can I compute an overall rate?",
+    "Can I rank derived values?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}

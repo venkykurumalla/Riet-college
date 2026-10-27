@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-di-caselet-di",
+  "topicTitle": "Caselet Data Interpretation",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nHow many students are in the Science stream?",
+      "options": [
+        "308",
+        "280",
+        "252",
+        "350"
+      ],
+      "answerIndex": 1,
+      "explanation": "35% of 800 = 280. The answer is 280."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nHow many girls are in the Arts stream?",
+      "options": [
+        "120",
+        "132",
+        "108",
+        "150"
+      ],
+      "answerIndex": 0,
+      "explanation": "Arts has 25% of 800 = 200 students, and 60% of 200 = 120. The answer is 120."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nHow many students are in the Law stream?",
+      "options": [
+        "88",
+        "72",
+        "100",
+        "80"
+      ],
+      "answerIndex": 3,
+      "explanation": "Law has 100 − 25 − 35 − 30 = 10% of the students: 10% of 800 = 80. The answer is 80."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nWhat is the total number of girls in the college?",
+      "options": [
+        "414",
+        "338",
+        "376",
+        "470"
+      ],
+      "answerIndex": 2,
+      "explanation": "Girls: 120 + 112 + 120 + 24 = 376. The answer is 376."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nWhat is the total number of boys in the college?",
+      "options": [
+        "466",
+        "382",
+        "424",
+        "530"
+      ],
+      "answerIndex": 2,
+      "explanation": "Boys = 800 − 376 = 424. The answer is 424."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nWhat percentage of Commerce students are boys?",
+      "options": [
+        "40%",
+        "50%",
+        "60%",
+        "30%"
+      ],
+      "answerIndex": 1,
+      "explanation": "Girls in Commerce are 50%, so boys are 100 − 50 = 50%. Answer: 50%."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nWhat is the ratio of girls in Science to girls in Law?",
+      "options": [
+        "14 : 3",
+        "3 : 14",
+        "113 : 24",
+        "56 : 13"
+      ],
+      "answerIndex": 0,
+      "explanation": "Girls in Science = 112 and in Law = 24; 112 : 24 simplifies by 8. The ratio is 14 : 3."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A college has 800 students in four streams. Arts has 25% of the students, Science 35%, Commerce 30% and Law the rest. The percentages of girls in Arts, Science, Commerce and Law are 60%, 40%, 50% and 30% respectively.\n\nGirls are what percentage of all students?",
+      "options": [
+        "42%",
+        "52%",
+        "50%",
+        "47%"
+      ],
+      "answerIndex": 3,
+      "explanation": "Girls = 376 out of 800: 376 ÷ 800 × 100 = 47%."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A shop sells three items P, Q and R in a month. It sells 120 units of P at ₹50 each with a profit of 25% on cost, 80 units of Q at ₹120 each with a profit of 20% on cost, and 150 units of R at ₹44 each with a profit of 10% on cost.\n\nWhat is the total revenue from the sale of Q?",
+      "options": [
+        "10560",
+        "8640",
+        "12000",
+        "9600"
+      ],
+      "answerIndex": 3,
+      "explanation": "80 × ₹120 = ₹9,600. The answer is 9600."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A shop sells three items P, Q and R in a month. It sells 120 units of P at ₹50 each with a profit of 25% on cost, 80 units of Q at ₹120 each with a profit of 20% on cost, and 150 units of R at ₹44 each with a profit of 10% on cost.\n\nWhat is the total revenue from all three items (in ₹)?",
+      "options": [
+        "24420",
+        "19980",
+        "22200",
+        "27750"
+      ],
+      "answerIndex": 2,
+      "explanation": "6,000 + 9,600 + 6,600 = ₹22,200. The answer is 22200."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A shop sells three items P, Q and R in a month. It sells 120 units of P at ₹50 each with a profit of 25% on cost, 80 units of Q at ₹120 each with a profit of 20% on cost, and 150 units of R at ₹44 each with a profit of 10% on cost.\n\nWhat is the cost price of one unit of Q (in ₹)?",
+      "options": [
+        "110",
+        "100",
+        "90",
+        "125"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cost = 120 ÷ 1.20 = ₹100. The answer is 100."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A shop sells three items P, Q and R in a month. It sells 120 units of P at ₹50 each with a profit of 25% on cost, 80 units of Q at ₹120 each with a profit of 20% on cost, and 150 units of R at ₹44 each with a profit of 10% on cost.\n\nWhat is the total profit from the three items (in ₹)?",
+      "options": [
+        "3400",
+        "3740",
+        "3060",
+        "4250"
+      ],
+      "answerIndex": 0,
+      "explanation": "Profits: P 120 × 10 = 1,200; Q 80 × 20 = 1,600; R 150 × 4 = 600. Total ₹3,400. The answer is 3400."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A shop sells three items P, Q and R in a month. It sells 120 units of P at ₹50 each with a profit of 25% on cost, 80 units of Q at ₹120 each with a profit of 20% on cost, and 150 units of R at ₹44 each with a profit of 10% on cost.\n\nWhat is the ratio of revenue from P to revenue from Q?",
+      "options": [
+        "5 : 8",
+        "8 : 5",
+        "6001 : 9600",
+        "3000 : 4801"
+      ],
+      "answerIndex": 0,
+      "explanation": "Revenue from P = 6,000 and from Q = 9,600; the HCF is 1,200. The ratio is 5 : 8."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A shop sells three items P, Q and R in a month. It sells 120 units of P at ₹50 each with a profit of 25% on cost, 80 units of Q at ₹120 each with a profit of 20% on cost, and 150 units of R at ₹44 each with a profit of 10% on cost.\n\nWhich item gives the highest total profit?",
+      "options": [
+        "P",
+        "R",
+        "P and R equally",
+        "Q"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total profits are P ₹1,200, Q ₹1,600 and R ₹600, so Q gives the highest profit. Answer: Q."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2.\n\nHow many people travel by metro?",
+      "options": [
+        "165",
+        "135",
+        "150",
+        "188"
+      ],
+      "answerIndex": 2,
+      "explanation": "25% of 600 = 150. The answer is 150."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2.\n\nHow many people use their own vehicle?",
+      "options": [
+        "119",
+        "108",
+        "97",
+        "135"
+      ],
+      "answerIndex": 1,
+      "explanation": "The rest is 30% of 600 = 180; 3/5 of 180 = 108. The answer is 108."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2.\n\nHow many people walk to work?",
+      "options": [
+        "79",
+        "72",
+        "65",
+        "90"
+      ],
+      "answerIndex": 1,
+      "explanation": "The rest is 180; 2/5 of 180 = 72. The answer is 72."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2.\n\nWhat is the ratio of bus users to walkers?",
+      "options": [
+        "15 : 4",
+        "4 : 15",
+        "271 : 72",
+        "135 : 37"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bus users = 270 and walkers = 72; the HCF is 18. The ratio is 15 : 4."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2.\n\nHow many more people travel by metro than walk?",
+      "options": [
+        "86",
+        "70",
+        "98",
+        "78"
+      ],
+      "answerIndex": 3,
+      "explanation": "150 − 72 = 78. The answer is 78."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "In a survey of 600 people, 45% travel to work by bus and 25% by metro. The rest either use their own vehicle or walk, in the ratio 3 : 2.\n\nWhat percentage of the people use their own vehicle?",
+      "options": [
+        "15%",
+        "20%",
+        "18%",
+        "12%"
+      ],
+      "answerIndex": 2,
+      "explanation": "108 out of 600 = 18%. Answer: 18%."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/"
+}
