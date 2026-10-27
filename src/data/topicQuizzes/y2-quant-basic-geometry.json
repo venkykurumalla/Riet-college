@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-quant-basic-geometry",
+  "topicTitle": "Basic Geometry",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Two angles of a triangle are 50° and 60°. The third angle is",
+      "options": [
+        "60°",
+        "70°",
+        "80°",
+        "90°"
+      ],
+      "answerIndex": 1,
+      "explanation": "180 − 50 − 60 = 70°."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The complement of 35° is",
+      "options": [
+        "55°",
+        "145°",
+        "65°",
+        "35°"
+      ],
+      "answerIndex": 0,
+      "explanation": "90 − 35 = 55°."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The supplement of 110° is",
+      "options": [
+        "80°",
+        "60°",
+        "250°",
+        "70°"
+      ],
+      "answerIndex": 3,
+      "explanation": "180 − 110 = 70°."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Each angle of an equilateral triangle is",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answerIndex": 2,
+      "explanation": "180 ÷ 3 = 60°."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The sum of the interior angles of a quadrilateral is",
+      "options": [
+        "180°",
+        "270°",
+        "360°",
+        "540°"
+      ],
+      "answerIndex": 2,
+      "explanation": "(4 − 2) × 180 = 360°."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The hypotenuse of a right triangle with legs 6 cm and 8 cm is",
+      "options": [
+        "9 cm",
+        "10 cm",
+        "12 cm",
+        "14 cm"
+      ],
+      "answerIndex": 1,
+      "explanation": "√(36 + 64) = 10 cm."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The sum of the interior angles of a hexagon is",
+      "options": [
+        "720°",
+        "540°",
+        "900°",
+        "1080°"
+      ],
+      "answerIndex": 0,
+      "explanation": "(6 − 2) × 180 = 720°."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Each interior angle of a regular hexagon is",
+      "options": [
+        "108°",
+        "135°",
+        "60°",
+        "120°"
+      ],
+      "answerIndex": 3,
+      "explanation": "720° ÷ 6 = 120°."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A polygon has an interior angle sum of 1080°. The number of its sides is",
+      "options": [
+        "6",
+        "7",
+        "10",
+        "8"
+      ],
+      "answerIndex": 3,
+      "explanation": "(n − 2) × 180 = 1080 gives n = 8."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Each exterior angle of a regular polygon is 36°. The number of sides is",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "answerIndex": 2,
+      "explanation": "360 ÷ 36 = 10."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "An exterior angle of a triangle is 120° and one opposite interior angle is 50°. The other opposite interior angle is",
+      "options": [
+        "60°",
+        "70°",
+        "80°",
+        "130°"
+      ],
+      "answerIndex": 1,
+      "explanation": "120 − 50 = 70°."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Two parallel lines are cut by a transversal. If an alternate interior angle is 65°, the co-interior angle is",
+      "options": [
+        "115°",
+        "65°",
+        "25°",
+        "295°"
+      ],
+      "answerIndex": 0,
+      "explanation": "Co-interior angles add to 180°: 180 − 65 = 115°."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Which set of lengths forms a right-angled triangle?",
+      "options": [
+        "7, 24, 25",
+        "6, 8, 12",
+        "5, 6, 7",
+        "9, 12, 16"
+      ],
+      "answerIndex": 0,
+      "explanation": "7² + 24² = 49 + 576 = 625 = 25²."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The angle in a semicircle is",
+      "options": [
+        "60°",
+        "180°",
+        "45°",
+        "90°"
+      ],
+      "answerIndex": 3,
+      "explanation": "The angle subtended by a diameter at the circumference is 90°."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "An arc subtends an angle of 100° at the centre of a circle. The angle it subtends at a point on the remaining circle is",
+      "options": [
+        "200°",
+        "100°",
+        "50°",
+        "25°"
+      ],
+      "answerIndex": 2,
+      "explanation": "Angle at the circumference = 100 ÷ 2 = 50°."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Two sides of a triangle are 7 cm and 10 cm. Which of these cannot be the third side?",
+      "options": [
+        "4 cm",
+        "18 cm",
+        "10 cm",
+        "16 cm"
+      ],
+      "answerIndex": 1,
+      "explanation": "The third side must be between 3 and 17 cm, so 18 cm is impossible."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The apex angle of an isosceles triangle is 40°. Each base angle is",
+      "options": [
+        "40°",
+        "70°",
+        "60°",
+        "80°"
+      ],
+      "answerIndex": 1,
+      "explanation": "(180 − 40) ÷ 2 = 70°."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The diagonal of a rectangle of sides 6 cm and 8 cm is",
+      "options": [
+        "10 cm",
+        "12 cm",
+        "14 cm",
+        "9 cm"
+      ],
+      "answerIndex": 0,
+      "explanation": "√(6² + 8²) = 10 cm."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The number of diagonals of a hexagon is",
+      "options": [
+        "6",
+        "12",
+        "15",
+        "9"
+      ],
+      "answerIndex": 3,
+      "explanation": "n(n − 3)/2 = 6 × 3/2 = 9."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The angles of a triangle are in the ratio 2 : 3 : 4. The largest angle is",
+      "options": [
+        "60°",
+        "70°",
+        "80°",
+        "90°"
+      ],
+      "answerIndex": 2,
+      "explanation": "Parts = 9, one part = 20°. Largest = 4 × 20 = 80°."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/area/"
+}

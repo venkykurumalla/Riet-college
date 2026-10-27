@@ -1,0 +1,448 @@
+{
+  "id": "y2-quant-linear-equations",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 16,
+  "title": "Linear Equations",
+  "tagline": "Year 2 — One and two variables, word problems and consistency",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "A linear equation has variables only to the first power. One equation in one variable, like 3x + 5 = 20, is solved by isolating x. Two equations in two variables, like x + y = 10 and x − y = 2, are solved by substitution or elimination. Many word problems (ages, money, digits, shares) become linear equations once you name the unknowns.",
+    "placementRelevance": "Linear equations are commonly asked in company aptitude rounds, directly and as the engine of age, digit and money problems.",
+    "realWorldContext": "Budget splits, break-even calculations, mixture quantities and speed-time relations are solved with linear equations."
+  },
+  "learningObjectives": [
+    "Solve linear equations in one variable",
+    "Solve two equations in two variables by elimination and substitution",
+    "Translate word problems into equations",
+    "Solve digit, age, money and fraction problems",
+    "Decide whether a pair of equations has one, no or infinitely many solutions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Algebraic Expressions",
+      "Problems on Ages"
+    ],
+    "quickRefresher": "Whatever you do to one side of an equation, do to the other. A pair of equations with two unknowns needs two independent equations."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Linear equation: ax + b = 0 form, variables to the power 1.",
+      "Solution: values that make the equation true.",
+      "Elimination: add or subtract the equations to remove one variable.",
+      "Substitution: express one variable in terms of the other and substitute.",
+      "Consistency: a pair a₁x + b₁y = c₁, a₂x + b₂y = c₂ has a unique solution if a₁/a₂ ≠ b₁/b₂, no solution if a₁/a₂ = b₁/b₂ ≠ c₁/c₂, infinitely many if all three ratios are equal."
+    ],
+    "theoreticalIntuition": "An equation is a balance. Operations that keep the balance (adding the same number, multiplying both sides) do not change the solution. Two unknowns need two balances, and combining them removes one unknown.",
+    "visualOrMentalModel": "In a word problem, define the unknown for exactly what is asked, write each sentence as an equation, and solve. Check by substituting back into the story."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "One variable",
+      "formula": "ax + b = c → x = (c − b)/a",
+      "description": "Isolate x.",
+      "whenToUse": "3x + 5 = 20 → x = 5",
+      "simpleExample": "3x + 5 = 20"
+    },
+    {
+      "title": "Elimination",
+      "formula": "Multiply to match coefficients, then add or subtract",
+      "description": "Removes one variable.",
+      "whenToUse": "Two-variable systems.",
+      "simpleExample": "x + y = 10, x − y = 2 → x = 6"
+    },
+    {
+      "title": "Cramer-type shortcut",
+      "formula": "x = (c₁b₂ − c₂b₁)/(a₁b₂ − a₂b₁), y = (a₁c₂ − a₂c₁)/(a₁b₂ − a₂b₁)",
+      "description": "Direct formula.",
+      "whenToUse": "When numbers are awkward.",
+      "simpleExample": "3x + 2y = 16, x + y = 6 → x = 4"
+    },
+    {
+      "title": "Two-digit numbers",
+      "formula": "Number = 10a + b; reversed = 10b + a",
+      "description": "Digits a and b.",
+      "whenToUse": "Digit problems.",
+      "simpleExample": "a + b = 9, b − a = 3 → 36"
+    },
+    {
+      "title": "Consistency",
+      "formula": "a₁/a₂ vs b₁/b₂ vs c₁/c₂",
+      "description": "Compare ratios.",
+      "whenToUse": "Value of k for identical lines.",
+      "simpleExample": "2x+3y=5 and 4x+ky=10 → k = 6"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "For one variable, move terms so x is alone. 3x + 5 = 20 gives 3x = 15 and x = 5. For fractions, multiply by the LCM: (x + 1)/2 − (x − 1)/3 = 3 becomes 3(x + 1) − 2(x − 1) = 18, so x + 5 = 18 and x = 13.",
+      "For two variables, use elimination. From 3x + 2y = 16 and x + y = 6, double the second to get 2x + 2y = 12, then subtract: x = 4 and y = 2. Substitution gives the same result: y = 6 − x, so 3x + 12 − 2x = 16.",
+      "Word problems: name the unknowns. Three pens and two pencils cost ₹34; two pens and three pencils cost ₹31. With pen = p and pencil = q: 3p + 2q = 34 and 2p + 3q = 31. Eliminate q: 9p + 6q = 102 and 4p + 6q = 62, so 5p = 40 and p = 8, q = 5.",
+      "Digit problems: let the digits be a and b. If the digits add to 9 and reversing them increases the number by 27, then (10b + a) − (10a + b) = 9(b − a) = 27, so b − a = 3. With a + b = 9 the digits are 3 and 6, and the number is 36.",
+      "Consistency: the equations 2x + 3y = 5 and 4x + ky = 10 describe the same line when the ratios of all coefficients are equal: 2/4 = 3/k = 5/10, so k = 6."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Substitute to check",
+        "content": "After solving, substitute the values back into both equations and, for word problems, into the story. This catches mistakes in translation."
+      },
+      {
+        "title": "Number of unknowns and equations",
+        "content": "With fewer equations than unknowns you get a family of solutions; the question will then give integer or range conditions that fix the answer."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "One variable",
+      "description": "Direct.",
+      "exampleSnippet": "3x + 5 = 20"
+    },
+    {
+      "typeName": "Two variables",
+      "description": "Elimination.",
+      "exampleSnippet": "x + y = 10, x − y = 2"
+    },
+    {
+      "typeName": "Word problems",
+      "description": "Pens and pencils.",
+      "exampleSnippet": "3p + 2q = 34"
+    },
+    {
+      "typeName": "Digits",
+      "description": "Two-digit numbers.",
+      "exampleSnippet": "Sum 9; reversed adds 27"
+    },
+    {
+      "typeName": "Consistency",
+      "description": "Find k.",
+      "exampleSnippet": "Identical lines"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-linear-equations-1",
+      "title": "Elimination",
+      "question": "Solve 3x + 2y = 16 and x + y = 6.",
+      "givenInfo": [
+        "3x + 2y = 16",
+        "x + y = 6"
+      ],
+      "conceptOrFormula": "Eliminate y.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Double the second",
+          "explanation": "2x + 2y = 12."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Subtract",
+          "explanation": "(3x + 2y) − (2x + 2y) = 16 − 12, so x = 4."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Find y",
+          "explanation": "y = 6 − 4 = 2."
+        }
+      ],
+      "finalAnswer": "x = 4, y = 2",
+      "whyItWorks": "Check: 12 + 4 = 16.",
+      "commonTrap": "Subtracting the wrong sides.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-linear-equations-2",
+      "title": "Pens and pencils",
+      "question": "3 pens and 2 pencils cost ₹34 and 2 pens and 3 pencils cost ₹31. Find the price of a pen.",
+      "givenInfo": [
+        "3p + 2q = 34",
+        "2p + 3q = 31"
+      ],
+      "conceptOrFormula": "Eliminate q.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Multiply",
+          "explanation": "×3: 9p + 6q = 102. ×2: 4p + 6q = 62."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Subtract",
+          "explanation": "5p = 40, so p = 8."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Pencil",
+          "explanation": "3(8) + 2q = 34, so q = 5."
+        }
+      ],
+      "finalAnswer": "₹8",
+      "whyItWorks": "Check: 2(8) + 3(5) = 31.",
+      "commonTrap": "Dividing the totals equally.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-linear-equations-3",
+      "title": "Two-digit number",
+      "question": "The sum of the digits of a two-digit number is 9. If the digits are reversed, the number increases by 27. Find the number.",
+      "givenInfo": [
+        "a + b = 9",
+        "(10b + a) − (10a + b) = 27"
+      ],
+      "conceptOrFormula": "Number = 10a + b.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Second equation",
+          "explanation": "9b − 9a = 27, so b − a = 3."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Solve",
+          "explanation": "a + b = 9 and b − a = 3 give b = 6, a = 3."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Number",
+          "explanation": "36."
+        }
+      ],
+      "finalAnswer": "36",
+      "whyItWorks": "Reversed number 63 = 36 + 27.",
+      "commonTrap": "Mixing the tens and units digits.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Elimination first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Substitute and expand every time.",
+      "shortcutMethod": "Multiply to match one coefficient, add or subtract, and solve; or use the Cramer formula for awkward numbers."
+    },
+    "rulesForApplication": [
+      "Define unknowns for what is asked.",
+      "Check by substitution.",
+      "Digit problems: 10a + b.",
+      "Identical lines: equal ratios."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Wrong translation",
+      "whyItHappens": "Writing \"3 less than x\" as 3 − x.",
+      "howToAvoid": "Say it aloud: x − 3."
+    },
+    {
+      "mistake": "Sign slip in elimination",
+      "whyItHappens": "Subtracting a negative incorrectly.",
+      "howToAvoid": "Write each step."
+    },
+    {
+      "mistake": "Not checking",
+      "whyItHappens": "Leaving the answer unverified.",
+      "howToAvoid": "Substitute in the story."
+    },
+    {
+      "mistake": "Wrong digit forms",
+      "whyItHappens": "Using ab as a × b.",
+      "howToAvoid": "Use 10a + b."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 70,
+    "eliminationTechnique": "Test the options in the original equations; only one satisfies both.",
+    "questionSelectionAdvice": "Practice translating sentences.",
+    "recruiterInsight": "Linear equations underlie ages, mixtures and speeds."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-linear-equations-e1",
+        "question": "Solve 3x + 5 = 20. x equals",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "15"
+        ],
+        "correctAnswer": "5",
+        "explanation": "3x = 15, so x = 5.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-linear-equations-e2",
+        "question": "Solve 2x − 7 = 9. x equals",
+        "options": [
+          "8",
+          "1",
+          "7",
+          "16"
+        ],
+        "correctAnswer": "8",
+        "explanation": "2x = 16, so x = 8.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-linear-equations-e3",
+        "question": "Solve x/4 + 3 = 8. x equals",
+        "options": [
+          "5",
+          "12",
+          "44",
+          "20"
+        ],
+        "correctAnswer": "20",
+        "explanation": "x/4 = 5, so x = 20.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-linear-equations-i7",
+        "question": "If 3x + 2y = 16 and x + y = 6, then y equals",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "2",
+        "explanation": "x = 4 (from 3x + 2(6 − x) = 16), so y = 2.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-linear-equations-i8",
+        "question": "3 pens and 2 pencils cost ₹34 and 2 pens and 3 pencils cost ₹31. The price of one pen is (in ₹)",
+        "options": [
+          "6",
+          "7",
+          "9",
+          "8"
+        ],
+        "correctAnswer": "8",
+        "explanation": "9p + 6q = 102 and 4p + 6q = 62 give 5p = 40, so p = 8.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-linear-equations-i9",
+        "question": "A is 3 times as old as B. After 10 years A will be twice as old as B. A's present age is",
+        "options": [
+          "20",
+          "25",
+          "36",
+          "30"
+        ],
+        "correctAnswer": "30",
+        "explanation": "A = 3B. 3B + 10 = 2(B + 10) gives B = 10, so A = 30.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-linear-equations-a15",
+        "question": "The sum of the digits of a two-digit number is 11. The number is 9 more than the number formed by reversing its digits. The number is",
+        "options": [
+          "56",
+          "74",
+          "65",
+          "83"
+        ],
+        "correctAnswer": "65",
+        "explanation": "a − b = 1 and a + b = 11 give a = 6, b = 5. The number is 65.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-linear-equations-a16",
+        "question": "₹3,600 is shared among A, B and C. A gets one-third of what B and C get together, and B gets one-half of what A and C get together. C's share is (in ₹)",
+        "options": [
+          "1200",
+          "1500",
+          "1000",
+          "1800"
+        ],
+        "correctAnswer": "1500",
+        "explanation": "A = total/4 = 900 and B = total/3 = 1200. C = 3600 − 2100 = 1500.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-linear-equations-p17",
+        "question": "Four years ago A was 3 times as old as B. Six years from now A will be twice as old as B. A's present age is",
+        "options": [
+          "30",
+          "34",
+          "32",
+          "36"
+        ],
+        "correctAnswer": "34",
+        "explanation": "a − 4 = 3(b − 4) gives a = 3b − 8. a + 6 = 2(b + 6) gives 3b − 2 = 2b + 12, so b = 14 and a = 34.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-linear-equations-p18",
+        "question": "Solve (x + 1)/2 − (x − 1)/3 = 3. x equals",
+        "options": [
+          "13",
+          "11",
+          "12",
+          "15"
+        ],
+        "correctAnswer": "13",
+        "explanation": "3(x + 1) − 2(x − 1) = 18 gives x + 5 = 18, so x = 13.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-linear-equations-p19",
+        "question": "If 3x + 4y = 24 and 5x − 4y = 8, then x + y equals",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "7"
+        ],
+        "correctAnswer": "7",
+        "explanation": "Adding: 8x = 32, so x = 4. Then 12 + 4y = 24, so y = 3. x + y = 7.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Isolate x.",
+      "Elimination and substitution.",
+      "10a + b for digits.",
+      "Check by substitution.",
+      "Consistency ratios."
+    ],
+    "quickFormulas": [
+      "10a + b",
+      "a₁/a₂ = b₁/b₂ = c₁/c₂"
+    ]
+  },
+  "keyTakeaways": [
+    "Define unknowns clearly.",
+    "Eliminate or substitute.",
+    "Check.",
+    "Translate carefully."
+  ],
+  "selfCheckQuestions": [
+    "Can I solve two equations by elimination?",
+    "Can I model a digit problem?",
+    "Can I find k for identical lines?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Linear equations as used in word problems; examples are original."
+    },
+    {
+      "sourceName": "NCERT Mathematics, Class 9–10",
+      "sourceType": "Textbook",
+      "referenceNote": "Linear equations in one and two variables."
+    }
+  ]
+}

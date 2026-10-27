@@ -1,0 +1,439 @@
+{
+  "id": "y2-quant-basic-mensuration",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 19,
+  "title": "Basic Mensuration",
+  "tagline": "Year 2 — Perimeter, area and volume of common shapes",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Mensuration is the measurement of shapes: perimeter (length around), area (surface covered) and volume (space occupied). A small set of formulas covers rectangles, squares, triangles, circles, trapeziums, cubes, cuboids, cylinders, cones and spheres. The skill is in choosing the right formula and keeping units consistent (cm, cm², cm³).",
+    "placementRelevance": "Mensuration questions are commonly asked in company aptitude rounds, often combined with ratio, percentage and cost.",
+    "realWorldContext": "Painting a wall, tiling a floor, filling a tank and fencing a field all use these formulas."
+  },
+  "learningObjectives": [
+    "Compute perimeter and area of plane figures",
+    "Compute volume and surface area of common solids",
+    "Handle paths and borders around rectangles",
+    "Use percentage changes in dimensions to find the change in area",
+    "Convert units (m³ to litres)"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Geometry",
+      "Successive Percentages"
+    ],
+    "quickRefresher": "Use π = 22/7 when the radius is a multiple of 7, and 3.14 otherwise, unless π is left in the answer."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Perimeter: total length of the boundary. Area: surface enclosed. Volume: space enclosed by a solid.",
+      "Total surface area (TSA): area of all faces; lateral (curved) surface area (CSA): area of the sides only.",
+      "Units: length cm, area cm², volume cm³; 1 m³ = 1000 litres.",
+      "Radius r, diameter d = 2r, height h, slant height l.",
+      "Trapezium: a quadrilateral with one pair of parallel sides."
+    ],
+    "theoreticalIntuition": "Area counts squares and volume counts cubes. Doubling every length multiplies area by 4 and volume by 8. This scaling idea explains the percentage-change problems.",
+    "visualOrMentalModel": "Write the formula, substitute with units, and check the answer has the right units. Use 22/7 for circles with radius 7, 14, 21."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Rectangle and square",
+      "formula": "Area = l × b;  Perimeter = 2(l + b);  Square: a², 4a",
+      "description": "Square is a special rectangle.",
+      "whenToUse": "Fields, floors.",
+      "simpleExample": "12 × 8 = 96; 2(12 + 8) = 40"
+    },
+    {
+      "title": "Triangle and trapezium",
+      "formula": "Triangle = ½ × base × height;  Trapezium = ½ (a + b) h",
+      "description": "Height is perpendicular.",
+      "whenToUse": "Triangles and trapeziums.",
+      "simpleExample": "½ × 10 × 6 = 30"
+    },
+    {
+      "title": "Circle",
+      "formula": "Circumference = 2πr;  Area = πr²",
+      "description": "π ≈ 22/7.",
+      "whenToUse": "Circles.",
+      "simpleExample": "r = 7: 44 and 154"
+    },
+    {
+      "title": "Cuboid and cube",
+      "formula": "V = lbh;  TSA = 2(lb + bh + hl);  Cube: a³, 6a²",
+      "description": "Cube is a special cuboid.",
+      "whenToUse": "Boxes and tanks.",
+      "simpleExample": "10 × 8 × 5 → TSA 340"
+    },
+    {
+      "title": "Cylinder, cone, sphere",
+      "formula": "Cylinder V = πr²h, CSA = 2πrh;  Cone V = ⅓πr²h;  Sphere V = 4/3 πr³, S = 4πr²",
+      "description": "Memorise.",
+      "whenToUse": "Round solids.",
+      "simpleExample": "r = 7, h = 10 → V = 1540"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "For rectangles use A = lb and P = 2(l + b). A 12 m by 8 m field has area 96 m² and perimeter 40 m. For a triangle, A = ½ × base × height, and for a trapezium A = ½(a + b)h with a and b the parallel sides.",
+      "For a circle, circumference = 2πr and area = πr². With π = 22/7 and r = 7, the circumference is 44 and the area is 154. Given a circumference of 44 you can find r = 7 and then the area.",
+      "For a path around a rectangle, subtract the inner area from the outer area. A 40 m by 30 m park with a 2 m path inside: inner 36 × 26 = 936, outer 1200, path area 264 m².",
+      "For solids: cuboid V = lbh, TSA = 2(lb + bh + hl); cube V = a³, TSA = 6a²; cylinder V = πr²h, CSA = 2πrh; cone V = ⅓πr²h; sphere V = ⁴⁄₃πr³. A cylinder with r = 7 and h = 10 has V = (22/7) × 49 × 10 = 1540.",
+      "When a dimension changes by a percentage, areas change by the product of multipliers. A radius up 10% raises the area by 1.1² = 1.21, a 21% increase. Volumes change by the cube of a scale factor."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Scaling",
+        "content": "If lengths are multiplied by k, areas are multiplied by k² and volumes by k³."
+      },
+      {
+        "title": "Unit trap",
+        "content": "1 m³ = 1000 litres, but 1 m² = 10,000 cm². Always check which unit the question wants."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Plane figures",
+      "description": "Rectangle, triangle, circle.",
+      "exampleSnippet": "12 × 8"
+    },
+    {
+      "typeName": "Paths and borders",
+      "description": "Outer minus inner.",
+      "exampleSnippet": "40 × 30 park"
+    },
+    {
+      "typeName": "Solids",
+      "description": "Volume and surface area.",
+      "exampleSnippet": "Cuboid 10 × 8 × 5"
+    },
+    {
+      "typeName": "Percentage change",
+      "description": "Scaling.",
+      "exampleSnippet": "Radius up 10%"
+    },
+    {
+      "typeName": "Unit conversion",
+      "description": "Litres and cubic metres.",
+      "exampleSnippet": "5 × 4 × 3 m tank"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-basic-mensuration-1",
+      "title": "Path around a park",
+      "question": "A rectangular park is 40 m long and 30 m wide. A path 2 m wide runs inside along its boundary. Find the area of the path.",
+      "givenInfo": [
+        "Park 40 × 30",
+        "Path width 2 m"
+      ],
+      "conceptOrFormula": "Area of path = outer − inner.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Outer",
+          "explanation": "40 × 30 = 1200 m²."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Inner",
+          "explanation": "(40 − 4) × (30 − 4) = 36 × 26 = 936 m²."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Path",
+          "explanation": "1200 − 936 = 264 m²."
+        }
+      ],
+      "finalAnswer": "264 m²",
+      "whyItWorks": "The path takes 2 m from each side, so the inner rectangle loses 4 m in each dimension.",
+      "commonTrap": "Subtracting 2 m only once.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-basic-mensuration-2",
+      "title": "Cylinder volume",
+      "question": "Find the volume of a cylinder with radius 7 cm and height 10 cm. (Use π = 22/7.)",
+      "givenInfo": [
+        "r = 7",
+        "h = 10"
+      ],
+      "conceptOrFormula": "V = πr²h.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Substitute",
+          "explanation": "(22/7) × 7 × 7 × 10."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "22 × 7 × 10 = 1540 cm³."
+        }
+      ],
+      "finalAnswer": "1540 cm³",
+      "whyItWorks": "Base area 154 cm² times height 10 cm.",
+      "commonTrap": "Using diameter for r.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-basic-mensuration-3",
+      "title": "Percentage change in radius",
+      "question": "The radius of a circle is increased by 10%. By what percentage does its area increase?",
+      "givenInfo": [
+        "r × 1.1"
+      ],
+      "conceptOrFormula": "Area ∝ r².",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "New area",
+          "explanation": "π(1.1r)² = 1.21πr²."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Increase",
+          "explanation": "21%."
+        }
+      ],
+      "finalAnswer": "21%",
+      "whyItWorks": "Area scales with the square of the radius.",
+      "commonTrap": "Saying 10%.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Scale factor",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Recompute the whole figure after each change.",
+      "shortcutMethod": "Use k for lengths, k² for areas and k³ for volumes; for circles with r = 7k use π = 22/7."
+    },
+    "rulesForApplication": [
+      "Area unit²; volume unit³.",
+      "1 m³ = 1000 L.",
+      "Path = outer − inner.",
+      "π = 22/7 for multiples of 7."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Wrong formula",
+      "whyItHappens": "Using πr for area.",
+      "howToAvoid": "Area is πr²."
+    },
+    {
+      "mistake": "Radius vs diameter",
+      "whyItHappens": "Using d for r.",
+      "howToAvoid": "r = d/2."
+    },
+    {
+      "mistake": "Wrong unit",
+      "whyItHappens": "Giving cm instead of cm².",
+      "howToAvoid": "Check units."
+    },
+    {
+      "mistake": "Missing the second side of a path",
+      "whyItHappens": "Reducing by the width once.",
+      "howToAvoid": "A path takes the width twice."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Check units and magnitude; options with wrong units can be removed.",
+    "questionSelectionAdvice": "Memorise the solid formulas.",
+    "recruiterInsight": "Use scaling for percentage-change questions."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-basic-mensuration-e1",
+        "question": "The area of a rectangle 12 m long and 8 m wide is (m²)",
+        "options": [
+          "20",
+          "96",
+          "40",
+          "80"
+        ],
+        "correctAnswer": "96",
+        "explanation": "12 × 8 = 96.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-basic-mensuration-e2",
+        "question": "The perimeter of a rectangle 12 m by 8 m is (m)",
+        "options": [
+          "40",
+          "20",
+          "48",
+          "96"
+        ],
+        "correctAnswer": "40",
+        "explanation": "2(12 + 8) = 40.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-basic-mensuration-e3",
+        "question": "The area of a square of side 9 cm is (cm²)",
+        "options": [
+          "36",
+          "18",
+          "72",
+          "81"
+        ],
+        "correctAnswer": "81",
+        "explanation": "9² = 81.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-basic-mensuration-i7",
+        "question": "The circumference of a circle of radius 14 cm is (π = 22/7) (cm)",
+        "options": [
+          "88",
+          "44",
+          "176",
+          "616"
+        ],
+        "correctAnswer": "88",
+        "explanation": "2 × (22/7) × 14 = 88.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-basic-mensuration-i8",
+        "question": "The area of a trapezium with parallel sides 8 cm and 12 cm and height 5 cm is (cm²)",
+        "options": [
+          "40",
+          "60",
+          "100",
+          "50"
+        ],
+        "correctAnswer": "50",
+        "explanation": "½ × (8 + 12) × 5 = 50.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-basic-mensuration-i9",
+        "question": "The volume of a cylinder with radius 7 cm and height 10 cm is (π = 22/7) (cm³)",
+        "options": [
+          "440",
+          "770",
+          "3080",
+          "1540"
+        ],
+        "correctAnswer": "1540",
+        "explanation": "(22/7) × 49 × 10 = 1540.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-basic-mensuration-a15",
+        "question": "If the radius of a circle is increased by 10%, its area increases by",
+        "options": [
+          "10%",
+          "20%",
+          "21%",
+          "22%"
+        ],
+        "correctAnswer": "21%",
+        "explanation": "1.1² = 1.21.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-basic-mensuration-a16",
+        "question": "The volume of a cone with radius 3 cm and height 7 cm is (π = 22/7) (cm³)",
+        "options": [
+          "198",
+          "66",
+          "22",
+          "132"
+        ],
+        "correctAnswer": "66",
+        "explanation": "⅓ × (22/7) × 9 × 7 = 66.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-basic-mensuration-p17",
+        "question": "The curved surface area of a cylinder with radius 7 cm and height 10 cm is (π = 22/7) (cm²)",
+        "options": [
+          "220",
+          "440",
+          "880",
+          "1540"
+        ],
+        "correctAnswer": "440",
+        "explanation": "2 × (22/7) × 7 × 10 = 440.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-basic-mensuration-p18",
+        "question": "A tank measures 5 m × 4 m × 3 m. Its capacity in litres is",
+        "options": [
+          "60000",
+          "6000",
+          "600",
+          "120000"
+        ],
+        "correctAnswer": "60000",
+        "explanation": "60 m³ = 60,000 litres.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-basic-mensuration-p19",
+        "question": "The volume of a cube is 216 cm³. Its total surface area is (cm²)",
+        "options": [
+          "36",
+          "144",
+          "324",
+          "216"
+        ],
+        "correctAnswer": "216",
+        "explanation": "Side = 6. TSA = 6 × 36 = 216.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Rectangle, triangle, circle.",
+      "Cuboid, cube.",
+      "Cylinder, cone, sphere.",
+      "Scaling k, k², k³.",
+      "Path = outer − inner."
+    ],
+    "quickFormulas": [
+      "πr²",
+      "2πr",
+      "πr²h",
+      "4/3 πr³"
+    ]
+  },
+  "keyTakeaways": [
+    "Right formula.",
+    "Right units.",
+    "Scale factors.",
+    "Outer − inner."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the TSA of a cuboid?",
+    "Can I find the area of a path?",
+    "Can I apply scale factors?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Area, Volume and Surface Area topic areas; examples are original."
+    },
+    {
+      "sourceName": "NCERT Mathematics, Class 8–9 (Mensuration)",
+      "sourceType": "Textbook",
+      "referenceNote": "Areas and volumes."
+    }
+  ]
+}

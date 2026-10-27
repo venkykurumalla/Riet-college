@@ -1,0 +1,427 @@
+{
+  "id": "y2-quant-basic-geometry",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 18,
+  "title": "Basic Geometry",
+  "tagline": "Year 2 — Lines, angles, triangles, polygons and circles",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Geometry studies shapes, sizes and angles. For aptitude tests the most useful ideas are the angle facts for straight lines and parallel lines, the angle sum of triangles and polygons, the Pythagoras theorem, and a few circle facts. Most questions are one or two steps once you recall the right fact.",
+    "placementRelevance": "Basic geometry questions are commonly asked in company aptitude rounds as angle chasing, polygon facts and right-triangle problems.",
+    "realWorldContext": "Construction layouts, screen sizes, road junctions and design drawings all use these facts."
+  },
+  "learningObjectives": [
+    "Use angle relations for straight lines and parallel lines",
+    "Apply the angle sum of a triangle and polygon",
+    "Use the exterior angle theorem and the triangle inequality",
+    "Apply the Pythagoras theorem and common triples",
+    "Use basic circle facts"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Mensuration (area, perimeter)",
+      "Linear Equations"
+    ],
+    "quickRefresher": "A straight angle is 180° and a full turn is 360°. Complementary angles add to 90° and supplementary angles to 180°."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Complementary angles sum to 90°; supplementary angles sum to 180°.",
+      "Triangle: angle sum 180°; the exterior angle equals the sum of the two opposite interior angles.",
+      "Polygon with n sides: interior angle sum = (n − 2) × 180°; each exterior angle of a regular polygon = 360°/n; number of diagonals = n(n − 3)/2.",
+      "Pythagoras: in a right triangle, hypotenuse² = base² + height².",
+      "Circle: angle in a semicircle = 90°; the angle at the centre is twice the angle at the circumference on the same arc."
+    ],
+    "theoreticalIntuition": "Geometry facts are conservation laws. Angles along a line always add to 180°, angles round a point to 360°, and angles in a triangle to 180°. Once you find a single missing angle, the rest follow.",
+    "visualOrMentalModel": "Mark everything you know on a quick sketch. Look for straight lines, parallel lines, triangles and circles, and write the corresponding angle fact."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Triangle",
+      "formula": "Sum of angles = 180°;  Exterior angle = sum of opposite interior angles",
+      "description": "Two angles give the third.",
+      "whenToUse": "Triangle questions.",
+      "simpleExample": "50° + 60° → third 70°"
+    },
+    {
+      "title": "Parallel lines",
+      "formula": "Corresponding and alternate angles are equal; co-interior angles add to 180°",
+      "description": "Transversal cutting parallels.",
+      "whenToUse": "Parallel line questions.",
+      "simpleExample": "Alternate 65° → co-interior 115°"
+    },
+    {
+      "title": "Polygons",
+      "formula": "Interior sum = (n − 2) × 180°;  Exterior of regular = 360°/n;  Diagonals = n(n − 3)/2",
+      "description": "n is the number of sides.",
+      "whenToUse": "Polygon questions.",
+      "simpleExample": "Hexagon: 720°, each 120°, 9 diagonals"
+    },
+    {
+      "title": "Pythagoras",
+      "formula": "c² = a² + b²",
+      "description": "Right triangles only.",
+      "whenToUse": "Right-angled triangles.",
+      "simpleExample": "6, 8 → 10"
+    },
+    {
+      "title": "Circle",
+      "formula": "Angle in a semicircle = 90°;  Angle at centre = 2 × angle at circumference",
+      "description": "Same arc.",
+      "whenToUse": "Circle angle questions.",
+      "simpleExample": "100° at centre → 50° at circumference"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The triangle angle sum is the workhorse: if two angles are 50° and 60°, the third is 70°. The exterior angle of a triangle equals the sum of the two opposite interior angles, so an exterior angle of 120° with one opposite angle 50° gives the other as 70°.",
+      "Parallel lines cut by a transversal give pairs of equal angles (corresponding and alternate) and pairs adding to 180° (co-interior). If one angle is 65°, the equal one is 65° and the co-interior one is 115°.",
+      "For polygons, the interior angle sum is (n − 2) × 180°. A hexagon (n = 6) has 720°, so each angle of a regular hexagon is 120°. A regular polygon with exterior angle 36° has 360/36 = 10 sides. The number of diagonals of a hexagon is 6 × 3/2 = 9.",
+      "The Pythagoras theorem handles right triangles. Learn the triples 3-4-5, 5-12-13, 8-15-17 and 7-24-25. A rectangle with sides 6 and 8 has diagonal 10.",
+      "For circles, the angle in a semicircle is 90°, and the angle subtended at the centre by an arc is twice the angle at the circumference. A 100° angle at the centre means 50° at the circumference. Triangle inequality: each side is less than the sum and more than the difference of the other two."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Isosceles triangles",
+        "content": "Equal sides have equal opposite angles. If the apex angle is 40°, each base angle is (180 − 40)/2 = 70°."
+      },
+      {
+        "title": "Triangle inequality",
+        "content": "With sides 7 and 10, the third side must be between 3 and 17. A value of 18 is impossible."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Angle chasing",
+      "description": "Straight lines and triangles.",
+      "exampleSnippet": "Third angle of a triangle"
+    },
+    {
+      "typeName": "Parallel lines",
+      "description": "Alternate and co-interior angles.",
+      "exampleSnippet": "65° and 115°"
+    },
+    {
+      "typeName": "Polygons",
+      "description": "Angle sum, sides, diagonals.",
+      "exampleSnippet": "Hexagon"
+    },
+    {
+      "typeName": "Right triangles",
+      "description": "Pythagoras.",
+      "exampleSnippet": "6, 8, 10"
+    },
+    {
+      "typeName": "Circles",
+      "description": "Centre and circumference angles.",
+      "exampleSnippet": "100° at centre"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-basic-geometry-1",
+      "title": "Exterior angle",
+      "question": "An exterior angle of a triangle is 120° and one of the opposite interior angles is 50°. Find the other opposite interior angle.",
+      "givenInfo": [
+        "Exterior angle 120°",
+        "One interior opposite angle 50°"
+      ],
+      "conceptOrFormula": "Exterior angle = sum of opposite interior angles.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Set up",
+          "explanation": "120° = 50° + x."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Solve",
+          "explanation": "x = 70°."
+        }
+      ],
+      "finalAnswer": "70°",
+      "whyItWorks": "Check: 50 + 70 + 60 (the adjacent interior) = 180.",
+      "commonTrap": "Subtracting from 180 directly: 130.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-basic-geometry-2",
+      "title": "Regular polygon",
+      "question": "Each exterior angle of a regular polygon is 36°. Find the number of sides and the sum of its interior angles.",
+      "givenInfo": [
+        "Exterior angle 36°"
+      ],
+      "conceptOrFormula": "n = 360° ÷ exterior angle.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Number of sides",
+          "explanation": "360 ÷ 36 = 10."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Interior sum",
+          "explanation": "(10 − 2) × 180 = 1440°."
+        }
+      ],
+      "finalAnswer": "10 sides; 1440°",
+      "whyItWorks": "Exterior angles of any polygon add to 360°.",
+      "commonTrap": "Using interior angle sum for exterior angles.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-basic-geometry-3",
+      "title": "Circle angle",
+      "question": "The angle subtended by an arc at the centre of a circle is 100°. Find the angle subtended by the same arc at a point on the remaining part of the circle.",
+      "givenInfo": [
+        "Angle at centre 100°"
+      ],
+      "conceptOrFormula": "Angle at the centre is twice that at the circumference.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide by 2",
+          "explanation": "100° ÷ 2 = 50°."
+        }
+      ],
+      "finalAnswer": "50°",
+      "whyItWorks": "The centre angle is twice the circumference angle for the same arc.",
+      "commonTrap": "Doubling instead of halving.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Fact lookup",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Derive every angle from scratch.",
+      "shortcutMethod": "Recall the fact that matches the figure (180° line, 180° triangle, (n−2)×180°, 360°/n) and compute in one line."
+    },
+    "rulesForApplication": [
+      "Triangle 180°.",
+      "Polygon (n − 2) × 180°.",
+      "Regular exterior 360°/n.",
+      "Know Pythagorean triples."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Confusing complementary and supplementary",
+      "whyItHappens": "Using 180 instead of 90.",
+      "howToAvoid": "Complementary = 90."
+    },
+    {
+      "mistake": "Using Pythagoras on non-right triangles",
+      "whyItHappens": "Applying to any triangle.",
+      "howToAvoid": "Check for a right angle."
+    },
+    {
+      "mistake": "Wrong polygon formula",
+      "whyItHappens": "Using n × 180.",
+      "howToAvoid": "Use (n − 2) × 180."
+    },
+    {
+      "mistake": "Halving vs doubling in circles",
+      "whyItHappens": "Mixing which angle is at the centre.",
+      "howToAvoid": "Centre angle is larger."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 45,
+    "eliminationTechnique": "Angles in a triangle must be positive and sum to 180°.",
+    "questionSelectionAdvice": "Sketch the figure even if given.",
+    "recruiterInsight": "Geometry facts also appear inside mensuration problems."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-basic-geometry-e1",
+        "question": "Two angles of a triangle are 50° and 60°. The third angle is",
+        "options": [
+          "60°",
+          "70°",
+          "80°",
+          "90°"
+        ],
+        "correctAnswer": "70°",
+        "explanation": "180 − 50 − 60 = 70°.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-basic-geometry-e2",
+        "question": "The complement of 35° is",
+        "options": [
+          "55°",
+          "145°",
+          "65°",
+          "35°"
+        ],
+        "correctAnswer": "55°",
+        "explanation": "90 − 35 = 55°.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-basic-geometry-e3",
+        "question": "The supplement of 110° is",
+        "options": [
+          "80°",
+          "60°",
+          "250°",
+          "70°"
+        ],
+        "correctAnswer": "70°",
+        "explanation": "180 − 110 = 70°.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-basic-geometry-i7",
+        "question": "The sum of the interior angles of a hexagon is",
+        "options": [
+          "720°",
+          "540°",
+          "900°",
+          "1080°"
+        ],
+        "correctAnswer": "720°",
+        "explanation": "(6 − 2) × 180 = 720°.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-basic-geometry-i8",
+        "question": "Each interior angle of a regular hexagon is",
+        "options": [
+          "108°",
+          "135°",
+          "60°",
+          "120°"
+        ],
+        "correctAnswer": "120°",
+        "explanation": "720° ÷ 6 = 120°.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-basic-geometry-i9",
+        "question": "A polygon has an interior angle sum of 1080°. The number of its sides is",
+        "options": [
+          "6",
+          "7",
+          "10",
+          "8"
+        ],
+        "correctAnswer": "8",
+        "explanation": "(n − 2) × 180 = 1080 gives n = 8.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-basic-geometry-a15",
+        "question": "An arc subtends an angle of 100° at the centre of a circle. The angle it subtends at a point on the remaining circle is",
+        "options": [
+          "200°",
+          "100°",
+          "50°",
+          "25°"
+        ],
+        "correctAnswer": "50°",
+        "explanation": "Angle at the circumference = 100 ÷ 2 = 50°.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-basic-geometry-a16",
+        "question": "Two sides of a triangle are 7 cm and 10 cm. Which of these cannot be the third side?",
+        "options": [
+          "4 cm",
+          "18 cm",
+          "10 cm",
+          "16 cm"
+        ],
+        "correctAnswer": "18 cm",
+        "explanation": "The third side must be between 3 and 17 cm, so 18 cm is impossible.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-basic-geometry-p17",
+        "question": "The apex angle of an isosceles triangle is 40°. Each base angle is",
+        "options": [
+          "40°",
+          "70°",
+          "60°",
+          "80°"
+        ],
+        "correctAnswer": "70°",
+        "explanation": "(180 − 40) ÷ 2 = 70°.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-basic-geometry-p18",
+        "question": "The diagonal of a rectangle of sides 6 cm and 8 cm is",
+        "options": [
+          "10 cm",
+          "12 cm",
+          "14 cm",
+          "9 cm"
+        ],
+        "correctAnswer": "10 cm",
+        "explanation": "√(6² + 8²) = 10 cm.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-basic-geometry-p19",
+        "question": "The number of diagonals of a hexagon is",
+        "options": [
+          "6",
+          "12",
+          "15",
+          "9"
+        ],
+        "correctAnswer": "9",
+        "explanation": "n(n − 3)/2 = 6 × 3/2 = 9.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Triangle 180°.",
+      "Exterior angle theorem.",
+      "Polygon formulas.",
+      "Pythagoras triples.",
+      "Circle angle facts."
+    ],
+    "quickFormulas": [
+      "(n−2) × 180°",
+      "360°/n",
+      "n(n−3)/2"
+    ]
+  },
+  "keyTakeaways": [
+    "Mark known angles.",
+    "Recall the fact.",
+    "Check the sum.",
+    "Use triples."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the interior angle of a regular hexagon?",
+    "Can I use the exterior angle theorem?",
+    "Can I state the angle in a semicircle?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Geometry and mensuration topic area; examples are original."
+    },
+    {
+      "sourceName": "NCERT Mathematics, Class 7–9 (Geometry)",
+      "sourceType": "Textbook",
+      "referenceNote": "Angles, triangles, polygons and circles."
+    }
+  ]
+}

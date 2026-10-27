@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-quant-linear-equations",
+  "topicTitle": "Linear Equations",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Solve 3x + 5 = 20. x equals",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "15"
+      ],
+      "answerIndex": 1,
+      "explanation": "3x = 15, so x = 5."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Solve 2x − 7 = 9. x equals",
+      "options": [
+        "8",
+        "1",
+        "7",
+        "16"
+      ],
+      "answerIndex": 0,
+      "explanation": "2x = 16, so x = 8."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Solve x/4 + 3 = 8. x equals",
+      "options": [
+        "5",
+        "12",
+        "44",
+        "20"
+      ],
+      "answerIndex": 3,
+      "explanation": "x/4 = 5, so x = 20."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Solve 5(x − 2) = 25. x equals",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "answerIndex": 2,
+      "explanation": "x − 2 = 5, so x = 7."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The sum of two numbers is 40 and their difference is 10. The larger number is",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "answerIndex": 2,
+      "explanation": "Larger = (40 + 10)/2 = 25."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "If x + y = 10 and x − y = 2, then x equals",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "Adding: 2x = 12, so x = 6."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "If 3x + 2y = 16 and x + y = 6, then y equals",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "x = 4 (from 3x + 2(6 − x) = 16), so y = 2."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "3 pens and 2 pencils cost ₹34 and 2 pens and 3 pencils cost ₹31. The price of one pen is (in ₹)",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "8"
+      ],
+      "answerIndex": 3,
+      "explanation": "9p + 6q = 102 and 4p + 6q = 62 give 5p = 40, so p = 8."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A is 3 times as old as B. After 10 years A will be twice as old as B. A's present age is",
+      "options": [
+        "20",
+        "25",
+        "36",
+        "30"
+      ],
+      "answerIndex": 3,
+      "explanation": "A = 3B. 3B + 10 = 2(B + 10) gives B = 10, so A = 30."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The sum of the digits of a two-digit number is 9. If the digits are reversed, the number increases by 27. The number is",
+      "options": [
+        "27",
+        "45",
+        "36",
+        "54"
+      ],
+      "answerIndex": 2,
+      "explanation": "b − a = 3 and a + b = 9 give a = 3, b = 6. The number is 36."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A number divided by 2 plus the same number divided by 3 gives 25. The number is",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "150"
+      ],
+      "answerIndex": 1,
+      "explanation": "x/2 + x/3 = 5x/6 = 25, so x = 30."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The perimeter of a rectangle is 52 cm and its length is 6 cm more than its breadth. The length is (cm)",
+      "options": [
+        "16",
+        "10",
+        "14",
+        "20"
+      ],
+      "answerIndex": 0,
+      "explanation": "2(2b + 6) = 52 gives b = 10. Length = 16."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "₹500 is paid in 7 notes of ₹50 and ₹100. The number of ₹100 notes is",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "50a + 100b = 500 with a + b = 7 gives a = 4 and b = 3."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "For what value of k do 2x + 3y = 5 and 4x + ky = 10 represent the same line?",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "2/4 = 3/k = 5/10, so k = 6."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The sum of the digits of a two-digit number is 11. The number is 9 more than the number formed by reversing its digits. The number is",
+      "options": [
+        "56",
+        "74",
+        "65",
+        "83"
+      ],
+      "answerIndex": 2,
+      "explanation": "a − b = 1 and a + b = 11 give a = 6, b = 5. The number is 65."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "₹3,600 is shared among A, B and C. A gets one-third of what B and C get together, and B gets one-half of what A and C get together. C's share is (in ₹)",
+      "options": [
+        "1200",
+        "1500",
+        "1000",
+        "1800"
+      ],
+      "answerIndex": 1,
+      "explanation": "A = total/4 = 900 and B = total/3 = 1200. C = 3600 − 2100 = 1500."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Four years ago A was 3 times as old as B. Six years from now A will be twice as old as B. A's present age is",
+      "options": [
+        "30",
+        "34",
+        "32",
+        "36"
+      ],
+      "answerIndex": 1,
+      "explanation": "a − 4 = 3(b − 4) gives a = 3b − 8. a + 6 = 2(b + 6) gives 3b − 2 = 2b + 12, so b = 14 and a = 34."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Solve (x + 1)/2 − (x − 1)/3 = 3. x equals",
+      "options": [
+        "13",
+        "11",
+        "12",
+        "15"
+      ],
+      "answerIndex": 0,
+      "explanation": "3(x + 1) − 2(x − 1) = 18 gives x + 5 = 18, so x = 13."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "If 3x + 4y = 24 and 5x − 4y = 8, then x + y equals",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "7"
+      ],
+      "answerIndex": 3,
+      "explanation": "Adding: 8x = 32, so x = 4. Then 12 + 4y = 24, so y = 3. x + y = 7."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "3 times a number plus 2 times another number is 19, and the first number plus 4 times the second is 13. The larger number is",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "a = 13 − 4b. 3(13 − 4b) + 2b = 19 gives 39 − 10b = 19, so b = 2 and a = 5."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/problems-on-ages/"
+}

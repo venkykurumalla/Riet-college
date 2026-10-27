@@ -1,0 +1,435 @@
+{
+  "id": "y2-quant-probability-fundamentals",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 20,
+  "title": "Probability Fundamentals",
+  "tagline": "Year 2 — Sample spaces, events, and the basic rules of probability",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Probability measures how likely an event is, on a scale from 0 (impossible) to 1 (certain). For equally likely outcomes, the probability of an event is the number of favourable outcomes divided by the total number of outcomes. The sample space lists all possible outcomes. With a few rules (complement, addition, multiplication for independent events) many aptitude problems on coins, dice, cards and bags can be solved.",
+    "placementRelevance": "Probability questions are commonly asked in company aptitude rounds, usually with coins, dice, cards or balls in a bag.",
+    "realWorldContext": "Weather forecasts, quality control and risk estimates all use probability."
+  },
+  "learningObjectives": [
+    "Write the sample space for coins, dice and cards",
+    "Compute the probability of an event as favourable ÷ total",
+    "Use the complement rule and the addition rule",
+    "Use the multiplication rule for independent events",
+    "Handle draws with and without replacement"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Permutations and combinations basics (counting)",
+      "Fractions and Decimals"
+    ],
+    "quickRefresher": "Number of ways to choose r items from n: nCr = n!/(r!(n − r)!). A standard deck has 52 cards: 4 suits of 13, 12 face cards, 4 aces."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Experiment: an action with uncertain outcomes (tossing a coin). Sample space S: set of all outcomes.",
+      "Event: a subset of the sample space. P(E) = n(E)/n(S) for equally likely outcomes.",
+      "Complement: P(not E) = 1 − P(E).",
+      "Mutually exclusive events cannot happen together: P(A or B) = P(A) + P(B). In general P(A or B) = P(A) + P(B) − P(A and B).",
+      "Independent events: P(A and B) = P(A) × P(B)."
+    ],
+    "theoreticalIntuition": "Probability is relative frequency: if you repeat the experiment many times, the fraction of times the event occurs approaches P(E). Counting favourable and total outcomes carefully is most of the work.",
+    "visualOrMentalModel": "List the outcomes systematically (a table for two dice, a tree for coins), count the favourable ones, and divide. If the event is \"at least one\", use the complement."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Basic rule",
+      "formula": "P(E) = favourable ÷ total",
+      "description": "Equally likely outcomes.",
+      "whenToUse": "Any single-draw question.",
+      "simpleExample": "Even number on a die: 3/6 = 1/2"
+    },
+    {
+      "title": "Complement",
+      "formula": "P(not E) = 1 − P(E)",
+      "description": "Handy for \"at least one\".",
+      "whenToUse": "\"At least one head\" in 3 coins.",
+      "simpleExample": "1 − 1/8 = 7/8"
+    },
+    {
+      "title": "Addition rule",
+      "formula": "P(A or B) = P(A) + P(B) − P(A and B)",
+      "description": "Subtract the overlap.",
+      "whenToUse": "\"King or heart\".",
+      "simpleExample": "4/52 + 13/52 − 1/52 = 16/52"
+    },
+    {
+      "title": "Independent events",
+      "formula": "P(A and B) = P(A) × P(B)",
+      "description": "Separate tosses and throws.",
+      "whenToUse": "Several tosses.",
+      "simpleExample": "1/2 × 1/2 = 1/4"
+    },
+    {
+      "title": "Without replacement",
+      "formula": "Multiply the changing fractions",
+      "description": "The second draw has fewer items.",
+      "whenToUse": "Balls in a bag.",
+      "simpleExample": "5/8 × 4/7 = 5/14"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Define the sample space first. A coin has {H, T}. A die has {1, …, 6}. Two dice have 36 equally likely ordered pairs. A deck has 52 cards. The probability of an event is the count of favourable outcomes divided by the count of all outcomes.",
+      "Use the complement for \"at least one\". Tossing three coins has 8 outcomes; only TTT has no head, so P(at least one head) = 1 − 1/8 = 7/8.",
+      "For \"or\" questions, use the addition rule and subtract the overlap. In a deck, P(king or heart) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13, because the king of hearts is counted in both groups.",
+      "For independent events multiply: two heads in two tosses is 1/2 × 1/2 = 1/4. For draws without replacement, the denominators change: from 5 red and 3 green balls, P(both red) = (5/8) × (4/7) = 5/14.",
+      "For dice sums, tabulate the 36 pairs. A sum of 7 occurs in 6 ways, so P = 6/36 = 1/6; a sum of 8 occurs in 5 ways, so P = 5/36."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Independent vs mutually exclusive",
+        "content": "Mutually exclusive events cannot happen together (probability of both is 0). Independent events do not influence each other. They are different ideas."
+      },
+      {
+        "title": "Combinations in probability",
+        "content": "When balls are drawn together, use combinations: one white and one black from 4 white and 6 black has 4 × 6 = 24 favourable ways out of C(10, 2) = 45, so P = 8/15."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Single draw",
+      "description": "Favourable ÷ total.",
+      "exampleSnippet": "Even number on a die"
+    },
+    {
+      "typeName": "At least one",
+      "description": "Complement.",
+      "exampleSnippet": "Three coins"
+    },
+    {
+      "typeName": "Or events",
+      "description": "Addition rule.",
+      "exampleSnippet": "King or heart"
+    },
+    {
+      "typeName": "Independent events",
+      "description": "Multiply.",
+      "exampleSnippet": "Two coins"
+    },
+    {
+      "typeName": "Without replacement",
+      "description": "Changing denominators.",
+      "exampleSnippet": "Two red balls"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-probability-fundamentals-1",
+      "title": "At least one head",
+      "question": "Three coins are tossed. Find the probability of getting at least one head.",
+      "givenInfo": [
+        "Sample space of 8 outcomes"
+      ],
+      "conceptOrFormula": "Complement.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "No heads",
+          "explanation": "Only TTT: probability 1/8."
+        },
+        {
+          "stepNumber": 2,
+          "title": "At least one",
+          "explanation": "1 − 1/8 = 7/8."
+        }
+      ],
+      "finalAnswer": "7/8",
+      "whyItWorks": "It is easier to count the single outcome with no head.",
+      "commonTrap": "Counting favourable outcomes one by one and missing one.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-probability-fundamentals-2",
+      "title": "King or heart",
+      "question": "A card is drawn from a pack of 52. Find the probability that it is a king or a heart.",
+      "givenInfo": [
+        "4 kings, 13 hearts, 1 king of hearts"
+      ],
+      "conceptOrFormula": "Addition rule with overlap.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Count",
+          "explanation": "4 + 13 − 1 = 16."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Probability",
+          "explanation": "16/52 = 4/13."
+        }
+      ],
+      "finalAnswer": "4/13",
+      "whyItWorks": "The king of hearts is in both groups and must be counted once.",
+      "commonTrap": "Using 17/52.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-probability-fundamentals-3",
+      "title": "Without replacement",
+      "question": "A bag has 5 red and 3 green balls. Two balls are drawn one after another without replacement. Find the probability that both are red.",
+      "givenInfo": [
+        "5 red, 3 green"
+      ],
+      "conceptOrFormula": "Multiply changing probabilities.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "First red",
+          "explanation": "5/8."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Second red",
+          "explanation": "4/7 (one red is gone)."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Both",
+          "explanation": "(5/8) × (4/7) = 20/56 = 5/14."
+        }
+      ],
+      "finalAnswer": "5/14",
+      "whyItWorks": "The second draw has 4 reds among 7 balls.",
+      "commonTrap": "Using 5/8 twice.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Complement and tables",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Count every favourable outcome.",
+      "shortcutMethod": "Use 1 − P(none) for \"at least one\", a 6 × 6 table for dice sums, and multiply fractions for sequential draws."
+    },
+    "rulesForApplication": [
+      "0 ≤ P ≤ 1.",
+      "P(not E) = 1 − P(E).",
+      "Subtract overlaps in \"or\".",
+      "Without replacement: update the denominator."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Counting outcomes unequally",
+      "whyItHappens": "Treating HT and TH as the same.",
+      "howToAvoid": "Use ordered outcomes."
+    },
+    {
+      "mistake": "Ignoring the overlap",
+      "whyItHappens": "Adding without subtracting.",
+      "howToAvoid": "Use the addition rule."
+    },
+    {
+      "mistake": "Replacing without saying",
+      "whyItHappens": "Assuming replacement.",
+      "howToAvoid": "Read the wording."
+    },
+    {
+      "mistake": "Forgetting to simplify",
+      "whyItHappens": "Leaving 16/52.",
+      "howToAvoid": "Reduce to 4/13."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 70,
+    "eliminationTechnique": "A probability must be between 0 and 1; discard options outside.",
+    "questionSelectionAdvice": "Write the sample space before counting.",
+    "recruiterInsight": "Dice-sum tables appear often."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-probability-fundamentals-e1",
+        "question": "A coin is tossed. The probability of getting a head is",
+        "options": [
+          "1/4",
+          "1/2",
+          "1",
+          "2"
+        ],
+        "correctAnswer": "1/2",
+        "explanation": "One favourable outcome out of two: 1/2.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-probability-fundamentals-e2",
+        "question": "A die is thrown. The probability of an even number is",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/6",
+          "2/3"
+        ],
+        "correctAnswer": "1/2",
+        "explanation": "Even numbers: 2, 4, 6. So 3/6 = 1/2.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-probability-fundamentals-e3",
+        "question": "A die is thrown. The probability of a prime number is",
+        "options": [
+          "1/3",
+          "1/6",
+          "2/3",
+          "1/2"
+        ],
+        "correctAnswer": "1/2",
+        "explanation": "Primes: 2, 3, 5. So 3/6 = 1/2.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-probability-fundamentals-i7",
+        "question": "Two coins are tossed. The probability of two heads is",
+        "options": [
+          "1/4",
+          "1/2",
+          "1/3",
+          "3/4"
+        ],
+        "correctAnswer": "1/4",
+        "explanation": "1 outcome (HH) out of 4.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-probability-fundamentals-i8",
+        "question": "Two dice are thrown. The probability that the sum is 7 is",
+        "options": [
+          "1/12",
+          "5/36",
+          "7/36",
+          "1/6"
+        ],
+        "correctAnswer": "1/6",
+        "explanation": "6 pairs out of 36: 1/6.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-probability-fundamentals-i9",
+        "question": "Three coins are tossed. The probability of at least one head is",
+        "options": [
+          "1/8",
+          "3/4",
+          "1/2",
+          "7/8"
+        ],
+        "correctAnswer": "7/8",
+        "explanation": "1 − 1/8 = 7/8.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-probability-fundamentals-a15",
+        "question": "Two dice are thrown. The probability that the sum is 8 is",
+        "options": [
+          "1/6",
+          "1/9",
+          "5/36",
+          "7/36"
+        ],
+        "correctAnswer": "5/36",
+        "explanation": "Pairs: (2,6), (3,5), (4,4), (5,3), (6,2) = 5. So 5/36.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-probability-fundamentals-a16",
+        "question": "A card is drawn from a pack of 52. The probability that it is a king or a heart is",
+        "options": [
+          "17/52",
+          "4/13",
+          "1/4",
+          "5/26"
+        ],
+        "correctAnswer": "4/13",
+        "explanation": "4 + 13 − 1 = 16 favourable cards: 16/52 = 4/13.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-probability-fundamentals-p17",
+        "question": "Three coins are tossed. The probability of getting exactly two heads is",
+        "options": [
+          "1/8",
+          "3/8",
+          "1/4",
+          "1/2"
+        ],
+        "correctAnswer": "3/8",
+        "explanation": "HHT, HTH, THH: 3 out of 8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-probability-fundamentals-p18",
+        "question": "A bag has 4 white and 6 black balls. Two balls are drawn together. The probability that one is white and one is black is",
+        "options": [
+          "8/15",
+          "2/5",
+          "12/25",
+          "4/9"
+        ],
+        "correctAnswer": "8/15",
+        "explanation": "4 × 6 = 24 favourable out of C(10, 2) = 45: 24/45 = 8/15.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-probability-fundamentals-p19",
+        "question": "The probability that a leap year has 53 Sundays is",
+        "options": [
+          "1/7",
+          "3/7",
+          "5/7",
+          "2/7"
+        ],
+        "correctAnswer": "2/7",
+        "explanation": "A leap year has 52 weeks and 2 extra days. 2 of the 7 possible pairs include a Sunday: 2/7.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "P = favourable/total.",
+      "Complement.",
+      "Addition rule.",
+      "Independent: multiply.",
+      "Without replacement."
+    ],
+    "quickFormulas": [
+      "P(E) = n(E)/n(S)",
+      "P(A∪B) = P(A)+P(B)−P(A∩B)"
+    ]
+  },
+  "keyTakeaways": [
+    "Define the sample space.",
+    "Use complements.",
+    "Subtract overlaps.",
+    "Multiply independents."
+  ],
+  "selfCheckQuestions": [
+    "Can I list the outcomes of two dice?",
+    "Can I use the complement?",
+    "Can I draw without replacement?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Probability topic area; examples are original."
+    },
+    {
+      "sourceName": "NCERT Mathematics, Class 9–10 (Probability)",
+      "sourceType": "Textbook",
+      "referenceNote": "Basic probability."
+    }
+  ]
+}
