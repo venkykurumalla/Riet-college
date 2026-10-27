@@ -1,0 +1,381 @@
+{
+  "id": "y1-quant-fractions-decimals",
+  "yearId": 1,
+  "category": "Quantitative Foundation",
+  "topicNumber": 4,
+  "title": "Fractions and Decimals",
+  "tagline": "Year 1 Foundation — Operations, Comparisons & Conversions",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "Fractions and decimals are the numerical language of proportional reasoning. From splitting a bill to calculating percentage changes, fractions underpin almost every quantitative aptitude topic. This chapter builds fluency in fraction arithmetic, comparison, and decimal conversion.",
+    "placementRelevance": "Fraction operations appear in ratio, proportion, percentage, profit/loss, and simple interest problems. Conversion between fractions and decimals is tested directly in simplification sections of TCS, Infosys, and Wipro assessments.",
+    "realWorldContext": "Engineering tolerances are expressed as decimals. Probability values are fractions. Recipe scaling, material ratios, and financial division all use fraction arithmetic. Decimals are the standard output format in all computational results."
+  },
+  "learningObjectives": [
+    "Understand and apply core principles of Fractions and Decimals",
+    "Identify the correct problem type and method in Fractions and Decimals",
+    "Solve Fractions and Decimals questions within 45–60 seconds using shortcuts",
+    "Avoid common calculation traps in Fractions and Decimals"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "HCF and LCM Fundamentals",
+      "Basic arithmetic"
+    ],
+    "quickRefresher": "Know how to simplify a fraction with the HCF and how to find a common denominator with the LCM."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Fraction: An expression p/q where p = numerator (top), q = denominator (bottom), q ≠ 0.",
+      "Proper Fraction: |numerator| < |denominator|. Example: 3/7.",
+      "Improper Fraction: |numerator| ≥ |denominator|. Example: 9/4.",
+      "Mixed Number: Whole number plus proper fraction. Example: 2¼ = 9/4.",
+      "Equivalent Fractions: Fractions with same value. 1/2 = 2/4 = 3/6 = 50/100.",
+      "Decimal: A fraction whose denominator is a power of 10. 3.75 = 375/100 = 15/4.",
+      "Terminating Decimal: Ends after finite digits. Example: 3/4 = 0.75.",
+      "Recurring Decimal: Repeats infinitely. Example: 1/3 = 0.333…, 1/7 = 0.142857142857…"
+    ],
+    "theoreticalIntuition": "Every fraction p/q converts to a decimal by dividing p by q. The decimal terminates if and only if the denominator (in lowest terms) has only 2 and 5 as prime factors. Otherwise it recurs. This single rule tells you instantly whether a fraction gives a clean decimal — crucial for mental arithmetic.",
+    "visualOrMentalModel": "Visualize fractions as slices of a pie. 3/4 means the pie is cut into 4 equal slices and you take 3. To compare 3/7 and 4/9: cross-multiply: 3×9=27 vs 4×7=28. Since 27<28, we have 3/7 < 4/9. To add fractions: align denominators first, then add numerators."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Fraction Addition/Subtraction",
+      "formula": "a/b ± c/d = (ad ± bc)/bd",
+      "variables": "",
+      "description": "Convert to common denominator before adding or subtracting.",
+      "whenToUse": "Adding or subtracting unlike fractions.",
+      "simpleExample": "1/3 + 1/4 = (4+3)/12 = 7/12."
+    },
+    {
+      "title": "Fraction Multiplication",
+      "formula": "a/b × c/d = ac/bd",
+      "variables": "",
+      "description": "Multiply numerators together and denominators together.",
+      "whenToUse": "Finding fractions of fractions.",
+      "simpleExample": "2/3 × 3/4 = 6/12 = 1/2."
+    },
+    {
+      "title": "Fraction Division",
+      "formula": "a/b ÷ c/d = a/b × d/c = ad/bc",
+      "variables": "",
+      "description": "Flip the second fraction (reciprocal) and multiply.",
+      "whenToUse": "Dividing fractions.",
+      "simpleExample": "3/4 ÷ 3/8 = 3/4 × 8/3 = 24/12 = 2."
+    },
+    {
+      "title": "Fraction to Decimal",
+      "formula": "p/q → divide p by q",
+      "variables": "",
+      "description": "If denominator has only factors 2 and 5, decimal terminates; otherwise it recurs.",
+      "whenToUse": "Converting for comparison or computation.",
+      "simpleExample": "7/8 = 0.875 (terminates since 8=2³). 1/3 = 0.333… (recurs since 3 is neither 2 nor 5)."
+    },
+    {
+      "title": "Comparing Fractions (Cross Multiplication)",
+      "formula": "a/b vs c/d: compare ad vs bc",
+      "variables": "",
+      "description": "Cross multiply to compare without converting to decimals.",
+      "whenToUse": "Fast fraction comparison.",
+      "simpleExample": "5/8 vs 7/11: 5×11=55 vs 7×8=56. 55<56 → 5/8 < 7/11."
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "To add or subtract fractions, the first step is finding the LCM of the denominators — the Least Common Denominator (LCD). Convert each fraction to an equivalent form with the LCD as denominator, then add or subtract numerators. The result may need simplification by dividing numerator and denominator by their HCF.",
+      "Comparing fractions without converting to decimals: use the cross-multiplication method. For a/b vs c/d, compute a×d and b×c. If a×d > b×c, then a/b > c/d. This avoids decimal computation entirely. Example: 5/8 vs 7/11: cross products are 55 and 56. Since 55<56, we get 5/8 < 7/11.",
+      "Reciprocal and division: the reciprocal of p/q is q/p. Dividing by a fraction is multiplying by its reciprocal. Dividing by 3/4 is multiplying by 4/3. This is because (p/q) ÷ (r/s) = (p/q) × (s/r). Memorize: keep-change-flip (keep first fraction, change ÷ to ×, flip second fraction).",
+      "Decimal to fraction conversion: terminate at the rightmost digit. 0.375 = 375/1000. Simplify by dividing both by HCF: HCF(375,1000) = 125. So 375/1000 = 3/8. For recurring: 0.333… = x → 10x = 3.333… → 10x − x = 3 → x = 3/9 = 1/3. This algebraic method handles all recurring decimals."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Converting Recurring Decimals to Fractions",
+        "content": "For 0.abcabc… (period 3): multiply by 10³=1000, subtract original: 999×x = abc → x = abc/999. Example: 0.142857142857…: period 6, so multiply by 10⁶: 999999x = 142857 → x = 142857/999999 = 1/7. This confirms 1/7 = 0.142857̄."
+      },
+      {
+        "title": "Fractions in Placement Word Problems",
+        "content": "Word problems use fractions in phrases like: 'two-thirds of the total', 'one-fourth more than', 'ratio of 3:5'. Translate each phrase directly: 'two-thirds of 360' = (2/3)×360 = 240. 'One-fourth more than 80' = 80 + 80/4 = 80 + 20 = 100. 'Ratio 3:5 out of total 160' = 3/(3+5)×160 = 60 and 5/8×160=100."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Fraction Simplification",
+      "description": "Reduce fractions to lowest terms using HCF.",
+      "exampleSnippet": "Simplify 72/96: HCF=24. Answer: 3/4."
+    },
+    {
+      "typeName": "Fraction Comparison",
+      "description": "Order multiple fractions from least to greatest.",
+      "exampleSnippet": "Arrange 3/5, 5/8, 7/11 in ascending order."
+    },
+    {
+      "typeName": "Mixed Number Arithmetic",
+      "description": "Add/subtract/multiply mixed numbers.",
+      "exampleSnippet": "2⅓ + 1¾ = ?"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-frac-1",
+      "title": "Adding Unlike Fractions",
+      "question": "Calculate 3/4 + 5/6.",
+      "givenInfo": [
+        "Fraction 1 = 3/4",
+        "Fraction 2 = 5/6"
+      ],
+      "conceptOrFormula": "a/b + c/d = (ad + bc)/bd",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find LCM of 4 and 6",
+          "explanation": "LCM(4,6) = 12",
+          "math": "LCM(4,6)=12"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Convert to equivalent fractions",
+          "explanation": "3/4 = 9/12, 5/6 = 10/12",
+          "math": "\\frac{3}{4}=\\frac{9}{12},\\quad\\frac{5}{6}=\\frac{10}{12}"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Add numerators",
+          "explanation": "9/12 + 10/12 = 19/12 = 1 7/12",
+          "math": "\\frac{9+10}{12}=\\frac{19}{12}"
+        }
+      ],
+      "finalAnswer": "19/12 = 1 7/12",
+      "whyItWorks": "Common denominator aligns the fractional units so numerators can be added directly.",
+      "commonTrap": "Adding denominators (4+6=10) — NEVER add denominators. Only numerators are added after finding a common denominator.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-frac-2",
+      "title": "Converting Recurring Decimal to Fraction",
+      "question": "Express 0.272727… as a fraction in lowest terms.",
+      "givenInfo": [
+        "Decimal: 0.272727… (period 2)"
+      ],
+      "conceptOrFormula": "For repeating block of n digits: multiply by 10ⁿ, subtract original.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Let x = 0.272727…",
+          "explanation": "x = 0.272727…",
+          "math": "x=0.\\overline{27}"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Multiply by 100 (period = 2)",
+          "explanation": "100x = 27.272727…",
+          "math": "100x=27.\\overline{27}"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Subtract original",
+          "explanation": "100x − x = 27 → 99x = 27 → x = 27/99 = 3/11",
+          "math": "99x=27\\implies x=\\frac{27}{99}=\\frac{3}{11}"
+        }
+      ],
+      "finalAnswer": "3/11",
+      "whyItWorks": "Multiplying by 10^(period length) shifts decimal so subtraction eliminates the repeating part.",
+      "commonTrap": "Using 10 instead of 100 (period length is 2, not 1).",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-fractions-3",
+      "title": "Tank problem with fractions",
+      "question": "A tank is 3/5 full. After 18 litres are removed, it is 3/10 full. Find the capacity of the tank.",
+      "givenInfo": [
+        "Initial fraction = 3/5",
+        "Final fraction = 3/10",
+        "Water removed = 18 litres"
+      ],
+      "conceptOrFormula": "The fraction removed corresponds to the quantity removed.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the fraction removed",
+          "explanation": "3/5 − 3/10 = 6/10 − 3/10 = 3/10 of the tank.",
+          "math": "3/5 − 3/10 = 3/10"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Relate to the quantity",
+          "explanation": "3/10 of the capacity = 18 litres."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Solve for the capacity",
+          "explanation": "Capacity = 18 ÷ (3/10) = 18 × 10/3 = 60 litres.",
+          "math": "18 × 10/3 = 60"
+        }
+      ],
+      "finalAnswer": "60 litres",
+      "whyItWorks": "The difference of two fractions of the same whole is the fraction of the whole that was removed.",
+      "commonTrap": "Treating 18 litres as 3/5 of the tank.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Fraction Speed Techniques",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Convert all fractions to decimals before comparing or operating (time-consuming, error-prone).",
+      "shortcutMethod": "Cross-multiply for comparison. Cancel common factors before multiplying. Use LCM denominator only when adding/subtracting."
+    },
+    "rulesForApplication": [
+      "Cancel common factors BEFORE multiplying: (3/4)×(8/9) → cancel 3 and 9 (÷3) and 4 and 8 (÷4) → (1/1)×(2/3) = 2/3. Much faster than 24/36=2/3.",
+      "For recurring decimal to fraction: denominator = string of 9s of length equal to repeating period. 0.abcabc… = abc/999.",
+      "Comparing many fractions: cross-multiply pairwise or convert to decimal only the 'borderline' candidates."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Adding denominators instead of numerators",
+      "whyItHappens": "Students write a/b + c/d = (a+c)/(b+d).",
+      "howToAvoid": "Find LCM of denominators, convert, then add ONLY numerators."
+    },
+    {
+      "mistake": "Not simplifying before multiplying",
+      "whyItHappens": "Working with large numbers increases error risk.",
+      "howToAvoid": "Cancel common factors between any numerator and any denominator before multiplying."
+    },
+    {
+      "mistake": "Confusing terminating vs recurring",
+      "whyItHappens": "Forgetting the denominator rule.",
+      "howToAvoid": "Fraction terminates iff denominator (in lowest terms) has only 2s and 5s as prime factors."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 40,
+    "eliminationTechnique": "For comparison MCQs: cross-multiply the two borderline fractions. Eliminate obviously large or small fractions first.",
+    "questionSelectionAdvice": "Simplify fractions before any operation. Use cross-multiplication for comparison. Recognize recurring decimal patterns by checking denominator's prime factors.",
+    "recruiterInsight": "Fraction operations are foundational for TCS simplification sections and Wipro quantitative aptitude — expect 2–3 direct questions."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-frac-e1",
+        "question": "5/6 + 7/9 =",
+        "options": [
+          "1 5/18",
+          "1 7/18",
+          "1 11/18",
+          "2 1/18"
+        ],
+        "correctAnswer": "1 11/18",
+        "explanation": "LCM(6,9)=18. 5/6=15/18, 7/9=14/18. Sum=29/18=1 11/18.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-frac-e2",
+        "question": "Which is greater: 4/7 or 5/9?",
+        "options": [
+          "4/7",
+          "5/9",
+          "Equal",
+          "Cannot determine"
+        ],
+        "correctAnswer": "4/7",
+        "explanation": "Cross multiply: 4×9=36 vs 5×7=35. 36>35 → 4/7 > 5/9.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-frac-i1",
+        "question": "(3/5) ÷ (9/25) =",
+        "options": [
+          "5/3",
+          "3/5",
+          "5/9",
+          "27/125"
+        ],
+        "correctAnswer": "5/3",
+        "explanation": "(3/5)×(25/9) = 75/45 = 5/3.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-frac-i2",
+        "question": "Express 0.4545… as a fraction.",
+        "options": [
+          "4/9",
+          "5/11",
+          "9/20",
+          "45/99"
+        ],
+        "correctAnswer": "5/11",
+        "explanation": "x=0.45̄. 100x=45.45̄. 99x=45. x=45/99=5/11.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-frac-a1",
+        "question": "Of a class, 2/5 are boys. Of the boys, 3/4 play sports. Of all students, what fraction plays sports?",
+        "options": [
+          "3/10",
+          "2/5",
+          "3/5",
+          "6/25"
+        ],
+        "correctAnswer": "3/10",
+        "explanation": "Fraction of sports players = (2/5)×(3/4) = 6/20 = 3/10.",
+        "difficulty": "Advanced"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-frac-p1",
+        "question": "A fraction when added to twice its reciprocal gives 3. Find the fraction.",
+        "options": [
+          "1",
+          "2",
+          "1/2",
+          "3/2"
+        ],
+        "correctAnswer": "1",
+        "explanation": "Let fraction=x. x+2/x=3 → x²-3x+2=0 → (x-1)(x-2)=0 → x=1 or x=2. Both satisfy. From options: x=1 or x=2 (check: 1+2=3✓, 2+1=3✓). Answer: 1 (first valid from options).",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Proper fraction: |num|<|den|. Improper: |num|≥|den|. Mixed: whole + proper.",
+      "Add/subtract: find LCM of denominators, then add numerators only.",
+      "Multiply: cancel common factors first, then multiply straight across.",
+      "Divide: keep first, multiply by reciprocal of second.",
+      "Recurring decimal → fraction: 0.abc… (period n) = abc/999…9 (n nines)."
+    ],
+    "quickFormulas": [
+      "a/b + c/d = (ad+bc)/bd",
+      "a/b ÷ c/d = ad/bc",
+      "0.ā̄b̄c̄ (period 3) = abc/999"
+    ]
+  },
+  "keyTakeaways": [
+    "Cancellation before multiplication prevents arithmetic with large numbers — always look for common factors first.",
+    "Cross multiplication is the fastest fraction comparison tool — no decimal conversion needed.",
+    "Recurring decimal to fraction: denominator is n nines where n is the period length."
+  ],
+  "selfCheckQuestions": [
+    "Simplify 84/126 to lowest terms.",
+    "Which is larger: 11/15 or 13/18? Use cross multiplication.",
+    "Convert 0.363636… to a fraction."
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Chapter: Fractions and Decimals"
+    },
+    {
+      "sourceName": "NCERT Mathematics Class 7",
+      "sourceType": "Reference",
+      "referenceNote": "Chapter 2: Fractions and Decimals"
+    }
+  ]
+}

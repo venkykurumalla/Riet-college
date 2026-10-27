@@ -1,0 +1,440 @@
+{
+  "id": "y1-data-basic-charts",
+  "yearId": 1,
+  "category": "Data Interpretation",
+  "topicNumber": 32,
+  "title": "Basic Charts (Bar and Pie)",
+  "tagline": "Year 1 Foundation — Reading bar charts and pie charts and converting between values, percentages and angles",
+  "estimatedMinutes": 40,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "A bar chart shows values as bars whose height or length is proportional to the value, so the bars can be compared at a glance. A pie chart is a circle divided into sectors, where each sector shows one item's share of the whole. Questions on charts ask you to read values, compare items, compute percentages, and convert between percentages, central angles and actual amounts. The arithmetic is simple, but the reading must be exact.",
+    "placementRelevance": "Bar and pie chart sets are commonly asked in company aptitude rounds. In the exam the chart is a picture; this chapter shows how to turn the picture into a small table of numbers and answer from it.",
+    "realWorldContext": "Business dashboards, budget summaries, exam result statistics and market-share reports are all drawn as bar and pie charts."
+  },
+  "learningObjectives": [
+    "Read exact values from a bar chart using its scale",
+    "Compare bars by difference, ratio and percentage",
+    "Convert between percentage, central angle and actual amount in a pie chart",
+    "Compute averages and totals from bar values",
+    "Combine information from a pie chart with a given total"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Reading Data Tables",
+      "Basic Percentages",
+      "Basic Ratio"
+    ],
+    "quickRefresher": "A full circle is 360°. A share of 1% corresponds to 3.6° of the circle. Amount = share ÷ 100 × total."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Bar chart: a chart in which each category is shown as a bar whose length represents its value. The axis scale shows the unit of each gridline.",
+      "Pie chart: a circle divided into sectors; the whole circle (360°) represents the total.",
+      "Central angle: the angle at the centre of the circle for a sector. Central angle = share ÷ 100 × 360°.",
+      "Scale: the value represented by each division of the axis (for example 1 gridline = 10 units).",
+      "Share: the part of the total that a category represents, as a percentage."
+    ],
+    "theoreticalIntuition": "The picture is only a way to show a small table. The first job is to read the chart into numbers. For a bar chart that means reading each bar against the scale; for a pie chart it means writing down each percentage or angle. After that the question is ordinary arithmetic.",
+    "visualOrMentalModel": "Always write the values next to the chart in your rough work. Check that the pie shares add to 100% (or the angles add to 360°) before you start. This catches reading errors immediately."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Percentage to central angle",
+      "formula": "Angle = Share % × 3.6°",
+      "description": "One per cent of a circle is 3.6°.",
+      "whenToUse": "Pie chart angle questions.",
+      "simpleExample": "Food 30% → 30 × 3.6 = 108°"
+    },
+    {
+      "title": "Angle to percentage",
+      "formula": "Share % = Angle ÷ 3.6",
+      "description": "Reverse of the previous rule.",
+      "whenToUse": "When angles are given.",
+      "simpleExample": "72° → 72 ÷ 3.6 = 20%"
+    },
+    {
+      "title": "Amount from share",
+      "formula": "Amount = Share % × Total ÷ 100",
+      "description": "Needs the total for the whole chart.",
+      "whenToUse": "Rupee or unit amounts from a pie chart.",
+      "simpleExample": "25% of ₹40,000 = ₹10,000"
+    },
+    {
+      "title": "Percentage increase between bars",
+      "formula": "(Later − Earlier) ÷ Earlier × 100",
+      "description": "The earlier bar is the base.",
+      "whenToUse": "Comparing two bars.",
+      "simpleExample": "Jan 40 → May 75: 35 ÷ 40 × 100 = 87.5%"
+    },
+    {
+      "title": "Average of bars",
+      "formula": "Sum of all bars ÷ number of bars",
+      "description": "Use the exact number of bars.",
+      "whenToUse": "Average questions.",
+      "simpleExample": "(40 + 55 + 45 + 60 + 75 + 55) ÷ 6 = 55"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Read the title, the axes and the scale before anything else. If the scale says \"1 division = 10 units\", a bar that reaches the fourth division stands for 40 units. In tests, bars usually end on gridlines or halfway between them, so reading to the nearest half-division is enough.",
+      "For bar charts, write the value of every bar in a small table in your rough work. Most questions then ask for the highest or lowest bar, the difference between two bars, the average, the ratio of two bars, or the percentage by which one bar exceeds another.",
+      "For pie charts, the sectors may be labelled with percentages or with angles. Convert between them with the factor 3.6: 30% is 108°, and 72° is 20%. The shares must add to 100% and the angles to 360°.",
+      "To find an actual amount from a pie chart you need the total that the whole circle stands for. The family's income is ₹40,000, so the 25% sector for rent is ₹10,000. If the total changes while the shares stay the same, each amount changes in the same proportion.",
+      "When two items are compared, decide whether you need the difference (subtract), the ratio (divide and simplify), or the percentage (difference over the base). The base is the earlier or the reference item, and the question wording tells you which."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "A shortcut for angles",
+        "content": "Because 360 = 3.6 × 100, the sector angle for any percentage p is 3.6p. For 15%, 3.6 × 15 = 54°. Quick check: 10% is 36°, and 5% is half of that, 18°, so 15% = 36 + 18 = 54°."
+      },
+      {
+        "title": "Why pie charts hide absolute values",
+        "content": "A pie chart shows shares, not amounts. Two pies with the same shares can stand for very different totals. Always look for the total or the amount of a single sector before answering a question about amounts."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Reading a bar",
+      "description": "Value, highest, lowest.",
+      "exampleSnippet": "Which month had the highest sales?"
+    },
+    {
+      "typeName": "Comparing bars",
+      "description": "Difference, ratio, percentage.",
+      "exampleSnippet": "By what percentage is May above January?"
+    },
+    {
+      "typeName": "Pie angles",
+      "description": "Percentage ↔ angle.",
+      "exampleSnippet": "Central angle for 30%."
+    },
+    {
+      "typeName": "Pie amounts",
+      "description": "Share of a total.",
+      "exampleSnippet": "Amount spent on rent."
+    },
+    {
+      "typeName": "Combined questions",
+      "description": "Changes in total or share.",
+      "exampleSnippet": "Savings after a transport increase."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-data-basic-charts-1",
+      "title": "Percentage and angle in a pie chart",
+      "question": "In a pie chart, Food takes 30% of the family's monthly income of ₹40,000. Find (a) the central angle of the Food sector and (b) the amount spent on Food.",
+      "givenInfo": [
+        "Share of Food = 30%",
+        "Total income = ₹40,000"
+      ],
+      "conceptOrFormula": "Angle = share × 3.6°, Amount = share × total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the angle",
+          "explanation": "30 × 3.6 = 108°.",
+          "math": "30 × 3.6 = 108"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Find the amount",
+          "explanation": "30% of 40,000 = 0.30 × 40,000 = ₹12,000."
+        }
+      ],
+      "finalAnswer": "(a) 108°, (b) ₹12,000",
+      "whyItWorks": "The same 30% is used for both: as a fraction of 360° for the angle and as a fraction of the total for the amount.",
+      "commonTrap": "Using 30° as the angle by mixing up percent and degrees.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-data-basic-charts-2",
+      "title": "Percentage difference between two bars",
+      "question": "The bar chart shows sales of 40 units in January and 75 units in May. By what percentage are the May sales above the January sales?",
+      "givenInfo": [
+        "Jan = 40",
+        "May = 75"
+      ],
+      "conceptOrFormula": "Percentage increase = (Later − Earlier) ÷ Earlier × 100.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the difference",
+          "explanation": "75 − 40 = 35."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide by the earlier value",
+          "explanation": "35 ÷ 40 = 0.875."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Convert to a percentage",
+          "explanation": "0.875 × 100 = 87.5%."
+        }
+      ],
+      "finalAnswer": "87.5%",
+      "whyItWorks": "January is the reference, so it is the base.",
+      "commonTrap": "Dividing by 75 to get 46.7%.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-data-basic-charts-3",
+      "title": "Average from a bar chart",
+      "question": "The shop sold 40, 55, 45, 60, 75 and 55 units in six months. Find the average monthly sales and the number of months with sales above the average.",
+      "givenInfo": [
+        "Values: 40, 55, 45, 60, 75, 55"
+      ],
+      "conceptOrFormula": "Average = Total ÷ Number of bars.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total",
+          "explanation": "40 + 55 + 45 + 60 + 75 + 55 = 330."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Average",
+          "explanation": "330 ÷ 6 = 55."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Compare each bar",
+          "explanation": "Above 55: April (60) and May (75). February and June equal the average, so they are not above it."
+        }
+      ],
+      "finalAnswer": "Average = 55 units; 2 months above average",
+      "whyItWorks": "The average is the level to which all bars would be flattened.",
+      "commonTrap": "Counting the bars equal to the average as above it.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "3.6 and 10% blocks",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compute each sector angle by writing share ÷ 100 × 360 in full.",
+      "shortcutMethod": "Multiply the percentage by 3.6, or use 10% = 36° and build up (15% = 36 + 18 = 54°). For amounts, find 10% of the total and scale."
+    },
+    "rulesForApplication": [
+      "1% = 3.6°; 10% = 36°; 25% = 90°; 50% = 180°.",
+      "Shares add to 100% and angles to 360°; use this as a check.",
+      "Percentage change uses the earlier value as the base.",
+      "Write bar values in a small table before answering."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Misreading the scale",
+      "whyItHappens": "Treating each gridline as 1 when it is 10.",
+      "howToAvoid": "Look at the axis labels before reading any bar."
+    },
+    {
+      "mistake": "Using the wrong base for percentage",
+      "whyItHappens": "Dividing by the later bar.",
+      "howToAvoid": "The earlier or reference bar is the base."
+    },
+    {
+      "mistake": "Confusing angle and percentage",
+      "whyItHappens": "Writing 30° for 30%.",
+      "howToAvoid": "Multiply by 3.6."
+    },
+    {
+      "mistake": "Forgetting the total in a pie chart",
+      "whyItHappens": "Trying to find an amount from shares alone.",
+      "howToAvoid": "Find the total (or one amount) first."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Use rough values: if you estimate a share as about 30% of 40,000, discard options far from 12,000.",
+    "questionSelectionAdvice": "Do the direct questions first; percentage and ratio questions take slightly longer.",
+    "recruiterInsight": "The \"write the data down\" habit saves time on every later question in the set."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-data-basic-charts-e1",
+        "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nIn which month were the sales the highest?",
+        "options": [
+          "Apr",
+          "May",
+          "Jun",
+          "Feb"
+        ],
+        "correctAnswer": "May",
+        "explanation": "The bars are 40, 55, 45, 60, 75 and 55. The tallest is May (75).",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-data-basic-charts-e2",
+        "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nHow many units were sold in April?",
+        "options": [
+          "60",
+          "55",
+          "45",
+          "75"
+        ],
+        "correctAnswer": "60",
+        "explanation": "Read the April bar: 60 units.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-data-basic-charts-e3",
+        "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nIn which month were the sales the lowest?",
+        "options": [
+          "Mar",
+          "Feb",
+          "Jun",
+          "Jan"
+        ],
+        "correctAnswer": "Jan",
+        "explanation": "The lowest bar is January (40).",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-data-basic-charts-i7",
+        "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nWhat are the total sales over the six months?",
+        "options": [
+          "330",
+          "315",
+          "325",
+          "345"
+        ],
+        "correctAnswer": "330",
+        "explanation": "Total = 40 + 55 + 45 + 60 + 75 + 55 = 330.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-data-basic-charts-i8",
+        "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nWhat is the average monthly sales?",
+        "options": [
+          "50",
+          "52.5",
+          "57.5",
+          "55"
+        ],
+        "correctAnswer": "55",
+        "explanation": "Average = 330 ÷ 6 = 55.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-data-basic-charts-i9",
+        "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nBy what percentage are the May sales above the January sales?",
+        "options": [
+          "46.7%",
+          "75%",
+          "35%",
+          "87.5%"
+        ],
+        "correctAnswer": "87.5%",
+        "explanation": "Increase = 35. Percentage = 35 ÷ 40 × 100 = 87.5%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-data-basic-charts-a15",
+        "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nIf the family's income rises by 20% and the shares stay the same, the new amount spent on Food will be",
+        "options": [
+          "₹12,000",
+          "₹13,200",
+          "₹14,400",
+          "₹15,000"
+        ],
+        "correctAnswer": "₹14,400",
+        "explanation": "New income = ₹48,000. Food = 30% of ₹48,000 = ₹14,400.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-data-basic-charts-a16",
+        "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nIf ₹2,000 more is spent on Transport and the same ₹2,000 is taken out of Savings, the new share of Savings is",
+        "options": [
+          "12%",
+          "15%",
+          "16%",
+          "18%"
+        ],
+        "correctAnswer": "15%",
+        "explanation": "New savings = ₹8,000 − ₹2,000 = ₹6,000. Share = 6,000 ÷ 40,000 × 100 = 15%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-data-basic-charts-p17",
+        "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nThe May sales exceed the March sales by what percentage (to one decimal place)?",
+        "options": [
+          "40.0%",
+          "66.7%",
+          "60.0%",
+          "75.0%"
+        ],
+        "correctAnswer": "66.7%",
+        "explanation": "Difference = 75 − 45 = 30. Percentage = 30 ÷ 45 × 100 = 66.7%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-data-basic-charts-p18",
+        "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nThe ratio of the January sales to the May sales in the simplest form is",
+        "options": [
+          "8 : 15",
+          "4 : 7",
+          "2 : 3",
+          "5 : 8"
+        ],
+        "correctAnswer": "8 : 15",
+        "explanation": "Jan : May = 40 : 75. Dividing both by 5 gives 8 : 15.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-data-basic-charts-p19",
+        "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nThe difference between the central angles of the Food and Savings sectors is",
+        "options": [
+          "18°",
+          "30°",
+          "54°",
+          "36°"
+        ],
+        "correctAnswer": "36°",
+        "explanation": "Food = 108° and Savings = 72°. The difference is 36°.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Read title, scale and units.",
+      "1% = 3.6°; angle = share × 3.6.",
+      "Amount = share × total ÷ 100.",
+      "Percentage change: earlier bar is the base.",
+      "Write bar values in a table."
+    ],
+    "quickFormulas": [
+      "Angle = % × 3.6°",
+      "Amount = % × Total/100",
+      "Avg = Sum/n"
+    ]
+  },
+  "keyTakeaways": [
+    "Convert pictures into numbers.",
+    "Use 3.6 for angles.",
+    "Know the base for percentages.",
+    "Check totals: 100% and 360°."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the angle for 15%?",
+    "Can I find the amount for a sector from the total?",
+    "Can I compute a percentage increase between two bars?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Bar and pie chart data interpretation as a topic area; the data and examples here are original."
+    }
+  ]
+}

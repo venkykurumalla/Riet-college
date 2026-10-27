@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-verbal-basic-vocabulary",
+  "topicTitle": "Basic Vocabulary",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The word \"abundant\" means",
+      "options": [
+        "scarce",
+        "plentiful",
+        "rare",
+        "tiny"
+      ],
+      "answerIndex": 1,
+      "explanation": "Abundant means existing in large quantities, i.e. plentiful."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The word \"brief\" means",
+      "options": [
+        "short",
+        "long",
+        "heavy",
+        "loud"
+      ],
+      "answerIndex": 0,
+      "explanation": "Brief means lasting a short time or using few words."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The word \"rapid\" means",
+      "options": [
+        "slow",
+        "quiet",
+        "weak",
+        "fast"
+      ],
+      "answerIndex": 3,
+      "explanation": "Rapid means happening at great speed."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The word \"ancient\" means",
+      "options": [
+        "very new",
+        "very big",
+        "very old",
+        "very cheap"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ancient means belonging to a very distant past."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The word \"reluctant\" means",
+      "options": [
+        "eager",
+        "careful",
+        "unwilling",
+        "sleepy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Reluctant means not willing to do something."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The word \"delicious\" means",
+      "options": [
+        "very bitter",
+        "very tasty",
+        "very hot",
+        "very cold"
+      ],
+      "answerIndex": 1,
+      "explanation": "Delicious describes food that tastes very good."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Which prefix gives the opposite of \"responsible\"?",
+      "options": [
+        "ir-",
+        "un-",
+        "im-",
+        "dis-"
+      ],
+      "answerIndex": 0,
+      "explanation": "Before the letter r the negative prefix is ir-, giving irresponsible."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Which prefix gives the opposite of \"possible\"?",
+      "options": [
+        "un-",
+        "ir-",
+        "dis-",
+        "im-"
+      ],
+      "answerIndex": 3,
+      "explanation": "Before the letter p the negative prefix is im-, giving impossible."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The noun form of the verb \"decide\" is",
+      "options": [
+        "decisive",
+        "decidingly",
+        "decided",
+        "decision"
+      ],
+      "answerIndex": 3,
+      "explanation": "Decide → decision (noun). Decisive is an adjective."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The adjective form of the noun \"danger\" is",
+      "options": [
+        "dangerly",
+        "endanger",
+        "dangerous",
+        "dangering"
+      ],
+      "answerIndex": 2,
+      "explanation": "The suffix -ous forms the adjective: dangerous."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the correct word: \"He gave me good ___ on how to prepare for the interview.\"",
+      "options": [
+        "advise",
+        "advice",
+        "advices",
+        "advised"
+      ],
+      "answerIndex": 1,
+      "explanation": "Advice is the noun; advise is the verb. The adjective \"good\" needs a noun."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the correct word: \"Heavy rain can ___ the harvest.\"",
+      "options": [
+        "affect",
+        "effect",
+        "effects",
+        "affection"
+      ],
+      "answerIndex": 0,
+      "explanation": "Affect is a verb meaning to influence; effect is usually a noun."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "One word for \"a person who writes books\" is",
+      "options": [
+        "author",
+        "actor",
+        "editor",
+        "reader"
+      ],
+      "answerIndex": 0,
+      "explanation": "An author writes books."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The word \"frugal\" means",
+      "options": [
+        "careless",
+        "greedy",
+        "jealous",
+        "careful with money"
+      ],
+      "answerIndex": 3,
+      "explanation": "A frugal person spends money carefully and avoids waste."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "One word for \"a person who loves mankind and gives help to others\" is",
+      "options": [
+        "pessimist",
+        "optimist",
+        "philanthropist",
+        "patriot"
+      ],
+      "answerIndex": 2,
+      "explanation": "A philanthropist works to improve the lives of others, often by giving money or time."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the correctly spelt word.",
+      "options": [
+        "Accomodation",
+        "Accommodation",
+        "Acommodation",
+        "Accomodasion"
+      ],
+      "answerIndex": 1,
+      "explanation": "The word has a double c and a double m."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The word \"benevolent\" means",
+      "options": [
+        "cruel",
+        "kind and generous",
+        "careless",
+        "lazy"
+      ],
+      "answerIndex": 1,
+      "explanation": "The root bene means good, so benevolent means well-meaning and kind."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The idiom \"a piece of cake\" means",
+      "options": [
+        "something very easy",
+        "something very sweet",
+        "something very costly",
+        "something very rare"
+      ],
+      "answerIndex": 0,
+      "explanation": "The phrase is used for a task that is very easy to do."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the correct word: \"The school ___ announced the results.\"",
+      "options": [
+        "principle",
+        "principals",
+        "principally",
+        "principal"
+      ],
+      "answerIndex": 3,
+      "explanation": "Principal means the head of a school; principle means a rule. Here the head announces the results."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The word \"meticulous\" means",
+      "options": [
+        "very careless",
+        "very fast",
+        "very careful about details",
+        "very loud"
+      ],
+      "answerIndex": 2,
+      "explanation": "A meticulous person pays close attention to every detail."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

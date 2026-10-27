@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-data-basic-di",
+  "topicTitle": "Basic Data Interpretation Sets",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat was the revenue in 2022 (₹ lakh)?",
+      "options": [
+        "100",
+        "120",
+        "110",
+        "150"
+      ],
+      "answerIndex": 1,
+      "explanation": "Read the 2022 row: revenue = 120."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat were the expenses in 2023 (₹ lakh)?",
+      "options": [
+        "110",
+        "90",
+        "100",
+        "135"
+      ],
+      "answerIndex": 0,
+      "explanation": "Read the 2023 row: expenses = 110."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat was the profit in 2021 (₹ lakh)?",
+      "options": [
+        "20",
+        "25",
+        "40",
+        "30"
+      ],
+      "answerIndex": 3,
+      "explanation": "Profit = 100 − 70 = 30."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nIn which year was the revenue the highest?",
+      "options": [
+        "2022",
+        "2023",
+        "2024",
+        "2020"
+      ],
+      "answerIndex": 2,
+      "explanation": "The revenue values rise every year, so the highest is in 2024 (180)."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nIn which year was the profit the lowest?",
+      "options": [
+        "2021",
+        "2022",
+        "2020",
+        "2023"
+      ],
+      "answerIndex": 2,
+      "explanation": "Profits are 20, 30, 30, 40 and 45. The lowest is in 2020."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nBy how much did the revenue increase from 2023 to 2024 (₹ lakh)?",
+      "options": [
+        "20",
+        "30",
+        "25",
+        "35"
+      ],
+      "answerIndex": 1,
+      "explanation": "Increase = 180 − 150 = 30."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nBy what percentage did the revenue increase from 2020 to 2022?",
+      "options": [
+        "50%",
+        "33.3%",
+        "40%",
+        "60%"
+      ],
+      "answerIndex": 0,
+      "explanation": "Increase = 40. Percentage = 40 ÷ 80 × 100 = 50%."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat is the average annual revenue over the five years (₹ lakh)?",
+      "options": [
+        "120",
+        "124",
+        "130",
+        "126"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total revenue = 630. Average = 630 ÷ 5 = 126."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat is the total profit over the five years (₹ lakh)?",
+      "options": [
+        "150",
+        "160",
+        "175",
+        "165"
+      ],
+      "answerIndex": 3,
+      "explanation": "Profits: 20, 30, 30, 40, 45. Total = 165."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nIn 2021, the profit was what percentage of the revenue?",
+      "options": [
+        "25%",
+        "35%",
+        "30%",
+        "42.9%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Profit % of revenue = 30 ÷ 100 × 100 = 30%."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat is the ratio of revenue to expenses in 2024 in the simplest form?",
+      "options": [
+        "3 : 2",
+        "4 : 3",
+        "5 : 4",
+        "7 : 5"
+      ],
+      "answerIndex": 1,
+      "explanation": "180 : 135. Dividing both by 45 gives 4 : 3."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nIn which year was the profit the same as in the previous year?",
+      "options": [
+        "2022",
+        "2021",
+        "2023",
+        "2024"
+      ],
+      "answerIndex": 0,
+      "explanation": "Profits: 2021 = 30 and 2022 = 30. They are equal, so the year is 2022."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nBy what percentage did the expenses increase from 2022 to 2024?",
+      "options": [
+        "50%",
+        "45%",
+        "40%",
+        "55%"
+      ],
+      "answerIndex": 0,
+      "explanation": "Increase = 135 − 90 = 45. Percentage = 45 ÷ 90 × 100 = 50%."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nBy how much did the profit increase from 2020 to 2024 (₹ lakh)?",
+      "options": [
+        "20",
+        "30",
+        "35",
+        "25"
+      ],
+      "answerIndex": 3,
+      "explanation": "Profit 2024 = 45 and profit 2020 = 20. Increase = 25."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nIn 2021, the profit was what percentage of the expenses (to one decimal place)?",
+      "options": [
+        "30.0%",
+        "40.0%",
+        "42.9%",
+        "45.5%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Profit % of expenses = 30 ÷ 70 × 100 = 42.9%."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nIf revenue grows by 20% and expenses by 10% in 2025 over 2024, the profit in 2025 will be (₹ lakh)",
+      "options": [
+        "60",
+        "67.5",
+        "65",
+        "72"
+      ],
+      "answerIndex": 1,
+      "explanation": "Revenue 2025 = 180 × 1.2 = 216. Expenses = 135 × 1.1 = 148.5. Profit = 216 − 148.5 = 67.5."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nBy what percentage did the profit increase from 2020 to 2024?",
+      "options": [
+        "100%",
+        "125%",
+        "112.5%",
+        "150%"
+      ],
+      "answerIndex": 1,
+      "explanation": "Profit 2020 = 20, 2024 = 45. Percentage = 25 ÷ 20 × 100 = 125%."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat is the average yearly increase in revenue from 2020 to 2024 (₹ lakh per year)?",
+      "options": [
+        "25",
+        "20",
+        "30",
+        "33.3"
+      ],
+      "answerIndex": 0,
+      "explanation": "Total increase = 180 − 80 = 100 over 4 intervals. Average = 25."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nIn which year was the percentage increase in expenses over the previous year the highest?",
+      "options": [
+        "2021",
+        "2023",
+        "2024",
+        "2022"
+      ],
+      "answerIndex": 3,
+      "explanation": "Expense growth: 2021 = 16.7%, 2022 = 28.6%, 2023 = 22.2%, 2024 = 22.7%. The highest is in 2022."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nThe total expenses of the five years are what percentage of the total revenue (to one decimal place)?",
+      "options": [
+        "65.0%",
+        "70.5%",
+        "73.8%",
+        "80.0%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Total expenses = 465 and total revenue = 630. Percentage = 465 ÷ 630 × 100 = 73.8%."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/table-charts/"
+}

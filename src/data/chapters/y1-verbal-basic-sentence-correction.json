@@ -1,0 +1,434 @@
+{
+  "id": "y1-verbal-basic-sentence-correction",
+  "yearId": 1,
+  "category": "Verbal Ability",
+  "topicNumber": 30,
+  "title": "Basic Sentence Correction",
+  "tagline": "Year 1 Foundation — Finding and fixing common errors in sentences",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "Sentence correction asks you to find the error in a sentence or to choose the correct version from several options. The errors in basic questions fall into a small number of families: subject-verb agreement, wrong tense or verb form, wrong preposition, wrong article, wrong pronoun case, adjective used for an adverb, double comparatives, and unnecessary words. A systematic approach is to read the sentence once for meaning, then check it against a short list of error types.",
+    "placementRelevance": "Sentence correction and error-spotting items are commonly asked in the verbal ability section of company aptitude rounds. They draw on all the earlier grammar chapters, so they are a good test of how well those topics have been learned.",
+    "realWorldContext": "Proofreading emails, resumes and reports before sending uses the same checklist: agreement, tense, prepositions, articles, pronouns."
+  },
+  "learningObjectives": [
+    "Apply an error-checklist to any sentence",
+    "Spot subject-verb disagreement, wrong tense and wrong verb forms",
+    "Spot wrong prepositions, articles, pronoun cases and adjective/adverb confusions",
+    "Recognise double comparatives, unnecessary words and wrong word order in reported questions",
+    "Choose the grammatically correct and natural option"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Parts of Speech",
+      "Basic Tenses",
+      "Articles",
+      "Prepositions",
+      "Subject-Verb Agreement"
+    ],
+    "quickRefresher": "Keep the earlier rules ready: the verb agrees with its subject; since + point, for + period; prefer to; articles by sound; object pronouns after prepositions; adjectives modify nouns, adverbs modify verbs."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Error spotting: finding the part of a sentence that is grammatically wrong.",
+      "Sentence improvement: choosing the best replacement for an underlined part.",
+      "Double comparative: using both more and -er (more smarter), which is wrong.",
+      "Reported question: a question reported indirectly, which takes statement word order (She asked where I lived).",
+      "Redundancy: using two words that mean the same (return back, repeat again)."
+    ],
+    "theoreticalIntuition": "Most errors fall into the same ten or so families. Instead of searching blindly for a mistake, run the sentence through a checklist. After a few weeks of practice, the checklist becomes automatic and you can spot the error almost on first reading.",
+    "visualOrMentalModel": "Read the sentence once. Underline the subject and the verb and ask whether they agree. Check the tense against any time word. Check each preposition and article. Check the pronouns. Finally check for extra words. Most sentences fail on one of these tests."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Agreement check",
+      "formula": "Subject (singular/plural) must match the verb",
+      "description": "Ignore phrases between the subject and the verb.",
+      "whenToUse": "First check for every sentence.",
+      "simpleExample": "She doesn't like tea (not \"don't\")"
+    },
+    {
+      "title": "Verb-form check",
+      "formula": "After did/does/do and modals use the base form; after has/have/had use the past participle",
+      "description": "Common slips: \"did not came\", \"has went\".",
+      "whenToUse": "Second check.",
+      "simpleExample": "He did not come yesterday"
+    },
+    {
+      "title": "Adjective/adverb check",
+      "formula": "Verbs take adverbs (sings well, runs fast); linking verbs take adjectives (looks good)",
+      "description": "Good is an adjective; well is an adverb.",
+      "whenToUse": "Third check.",
+      "simpleExample": "She sings well (not \"very good\")"
+    },
+    {
+      "title": "Comparison check",
+      "formula": "Use either -er or more, not both; use \"than\", not \"then\"",
+      "description": "Double comparatives are wrong.",
+      "whenToUse": "Comparison sentences.",
+      "simpleExample": "He is smarter than his brother"
+    },
+    {
+      "title": "Reported speech check",
+      "formula": "No \"that\" before a reported question; use statement word order",
+      "description": "She asked me where I lived.",
+      "whenToUse": "Reported questions.",
+      "simpleExample": "She told me (not \"said me\")"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Begin with agreement. \"She don't like tea\" fails because the singular subject she needs the singular auxiliary doesn't. \"Each of the boys have a book\" fails because the real subject is each (singular), so has is needed. \"The furniture are old\" fails because furniture is uncountable and takes a singular verb.",
+      "Next check the verb forms and tenses. After do, does or did the main verb stays in the base form: \"He did not come yesterday.\" After has, have or had the verb takes the past participle: \"He has gone.\" Time words such as yesterday, ago and last year need the simple past: \"I saw him yesterday\".",
+      "Then check the small words. Prepositions follow fixed patterns: prefer to, look forward to meeting, in spite of the rain (or despite the rain), agree with someone (no \"am agree\"). Articles depend on sound: an MBA, a university.",
+      "Adjectives and adverbs: \"She sings very good\" is wrong because sings (a verb) needs the adverb well. \"More smarter\" is a double comparative; use smarter or more intelligent. Do not write \"than\" as \"then\" in comparisons.",
+      "Reported questions use statement order and no \"that\": \"She asked me where I lived\" (not \"She asked me that where I lived\"). Use told with an object (She told me) and said without one (She said that...). Avoid redundancy such as \"return back\" and \"repeat again\"."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "\"The reason is because\"",
+        "content": "The reason is that something happened; because already means \"for the reason that\", so \"the reason is because\" is redundant. Write \"The reason is that he was late\"."
+      },
+      {
+        "title": "\"Look forward to\" takes -ing",
+        "content": "In the phrase look forward to, to is a preposition, so it is followed by a noun or -ing form: \"I look forward to meeting you\" (not \"to meet you\"). The same applies to \"be used to\" and \"object to\"."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Agreement errors",
+      "description": "Subject and verb do not match.",
+      "exampleSnippet": "Each of the boys have a book."
+    },
+    {
+      "typeName": "Verb-form and tense errors",
+      "description": "Wrong form after an auxiliary.",
+      "exampleSnippet": "He did not came yesterday."
+    },
+    {
+      "typeName": "Adjective/adverb and comparison errors",
+      "description": "Good/well, more smarter.",
+      "exampleSnippet": "She sings very good."
+    },
+    {
+      "typeName": "Preposition and article errors",
+      "description": "Wrong small word.",
+      "exampleSnippet": "Despite of the rain."
+    },
+    {
+      "typeName": "Reported speech errors",
+      "description": "Order and word choice.",
+      "exampleSnippet": "She asked me that where I lived."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-verbal-basic-sentence-correction-1",
+      "title": "Agreement and auxiliary",
+      "question": "Find the error: \"She don't like tea.\"",
+      "givenInfo": [
+        "Sentence: She don't like tea."
+      ],
+      "conceptOrFormula": "The singular third-person subject needs the singular auxiliary.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Identify subject and verb",
+          "explanation": "The subject is \"she\"; the auxiliary is \"don't\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Check agreement",
+          "explanation": "Singular third person takes \"doesn't\"."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Rewrite",
+          "explanation": "\"She doesn't like tea.\""
+        }
+      ],
+      "finalAnswer": "She doesn't like tea.",
+      "whyItWorks": "Do/does must agree with the subject.",
+      "commonTrap": "Changing \"like\" to \"likes\" and keeping \"don't\".",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-verbal-basic-sentence-correction-2",
+      "title": "Verb form after did",
+      "question": "Find the error: \"He did not came yesterday.\"",
+      "givenInfo": [
+        "Sentence: He did not came yesterday."
+      ],
+      "conceptOrFormula": "After did not, the main verb is in the base form.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Spot the auxiliary",
+          "explanation": "\"Did not\" already shows the past tense."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fix the main verb",
+          "explanation": "Use the base form: come."
+        }
+      ],
+      "finalAnswer": "He did not come yesterday.",
+      "whyItWorks": "The tense is carried by \"did\", so the main verb stays in its base form.",
+      "commonTrap": "Changing \"yesterday\" or \"did\" instead of \"came\".",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-verbal-basic-sentence-correction-3",
+      "title": "Reported question",
+      "question": "Find the error: \"She asked me that where I lived.\"",
+      "givenInfo": [
+        "Sentence: She asked me that where I lived."
+      ],
+      "conceptOrFormula": "A reported question takes statement word order and no \"that\".",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Spot the extra word",
+          "explanation": "\"That\" is not used before a reported question."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Rewrite",
+          "explanation": "\"She asked me where I lived.\""
+        }
+      ],
+      "finalAnswer": "She asked me where I lived.",
+      "whyItWorks": "A reported question is joined by the question word itself.",
+      "commonTrap": "Keeping \"that\" and changing \"lived\".",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Checklist of ten",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Read and reread the sentence until something feels wrong.",
+      "shortcutMethod": "Check in this order: subject-verb agreement, tense and verb form, preposition, article, pronoun, adjective/adverb, comparison, reported speech, redundancy, word order. Most errors appear in the first four."
+    },
+    "rulesForApplication": [
+      "Strike out phrases between the subject and the verb before checking agreement.",
+      "After do/does/did and modals use the base verb.",
+      "Look forward to + -ing; prefer to; in spite of / despite (no \"of\" after despite).",
+      "Good is an adjective, well is an adverb."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Searching randomly for the error",
+      "whyItHappens": "Reading for \"feel\" rather than for rules.",
+      "howToAvoid": "Use the checklist in a fixed order."
+    },
+    {
+      "mistake": "Correcting the wrong word",
+      "whyItHappens": "Changing a correct part and leaving the real error.",
+      "howToAvoid": "Find the error type first, then fix only that part."
+    },
+    {
+      "mistake": "Choosing an option that is correct but changes the meaning",
+      "whyItHappens": "Picking a grammatically correct sentence with a different meaning.",
+      "howToAvoid": "Check the meaning against the original."
+    },
+    {
+      "mistake": "Missing \"no error\"",
+      "whyItHappens": "Assuming that every sentence has an error.",
+      "howToAvoid": "If the checklist finds nothing, the sentence is correct."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Compare the options; the part that differs is usually where the error lies.",
+    "questionSelectionAdvice": "Do these after finishing easier verbal items; apply the checklist consistently.",
+    "recruiterInsight": "Because the same ten error types recur, practice gives rapid gains in speed."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-verbal-basic-sentence-correction-e1",
+        "question": "Choose the correct sentence (auxiliary verb).",
+        "options": [
+          "She don't like tea.",
+          "She doesn't like tea.",
+          "She doesn't likes tea.",
+          "She not like tea."
+        ],
+        "correctAnswer": "She doesn't like tea.",
+        "explanation": "The subject \"she\" is third person singular, so the auxiliary is \"doesn't\" and the main verb stays in the base form.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-basic-sentence-correction-e2",
+        "question": "Choose the correct sentence (habit in the present).",
+        "options": [
+          "He goes to school daily.",
+          "He go to school daily.",
+          "He going to school daily.",
+          "He gone to school daily."
+        ],
+        "correctAnswer": "He goes to school daily.",
+        "explanation": "A habit in the simple present with a singular subject takes goes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-basic-sentence-correction-e3",
+        "question": "Choose the correct sentence (plural subject).",
+        "options": [
+          "They is playing in the park.",
+          "They am playing in the park.",
+          "They was playing in the park now.",
+          "They are playing in the park."
+        ],
+        "correctAnswer": "They are playing in the park.",
+        "explanation": "The plural subject \"they\" takes \"are\" with the present continuous.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-verbal-basic-sentence-correction-i7",
+        "question": "Choose the correct sentence (subject \"each\").",
+        "options": [
+          "Each of the boys has a book.",
+          "Each of the boys have a book.",
+          "Each of the boys are having a book.",
+          "Each of the boy has a book."
+        ],
+        "correctAnswer": "Each of the boys has a book.",
+        "explanation": "\"Each\" is the subject and is singular, so the verb is \"has\"; the noun after \"of\" is plural.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-basic-sentence-correction-i8",
+        "question": "Choose the correct sentence (verb after \"did not\").",
+        "options": [
+          "He did not came yesterday.",
+          "He did not comes yesterday.",
+          "He not came yesterday.",
+          "He did not come yesterday."
+        ],
+        "correctAnswer": "He did not come yesterday.",
+        "explanation": "After \"did not\" the main verb is in the base form: come.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-basic-sentence-correction-i9",
+        "question": "Choose the correct sentence (subject \"neither\").",
+        "options": [
+          "Neither of them are ready.",
+          "Neither of them were ready.",
+          "Neither of them be ready.",
+          "Neither of them is ready."
+        ],
+        "correctAnswer": "Neither of them is ready.",
+        "explanation": "\"Neither\" is singular, so \"is\" is correct.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-verbal-basic-sentence-correction-a15",
+        "question": "Choose the correct sentence (uncountable noun \"furniture\").",
+        "options": [
+          "Our furniture are old.",
+          "Our furnitures are old.",
+          "Our furniture is old.",
+          "Our furniture were old."
+        ],
+        "correctAnswer": "Our furniture is old.",
+        "explanation": "\"Furniture\" is uncountable and takes a singular verb; it has no plural form.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-basic-sentence-correction-a16",
+        "question": "Choose the correct sentence (\"look forward to\").",
+        "options": [
+          "I look forward to meet you.",
+          "I look forward to meeting you.",
+          "I look forward for meeting you.",
+          "I am look forward to meeting you."
+        ],
+        "correctAnswer": "I look forward to meeting you.",
+        "explanation": "In \"look forward to\", \"to\" is a preposition and is followed by an -ing form.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-verbal-basic-sentence-correction-p17",
+        "question": "Choose the correct sentence (\"the reason is\").",
+        "options": [
+          "The reason is because he was late.",
+          "The reason is that he was late.",
+          "The reason is for he was late.",
+          "The reason being because he was late."
+        ],
+        "correctAnswer": "The reason is that he was late.",
+        "explanation": "\"The reason is because\" is redundant; use \"the reason is that\".",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-basic-sentence-correction-p18",
+        "question": "Choose the correct sentence (\"despite\").",
+        "options": [
+          "Despite the rain, we went out.",
+          "Despite of the rain, we went out.",
+          "Despite from the rain, we went out.",
+          "In despite of the rain, we went out."
+        ],
+        "correctAnswer": "Despite the rain, we went out.",
+        "explanation": "\"Despite\" is not followed by \"of\"; the alternative is \"in spite of the rain\".",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-basic-sentence-correction-p19",
+        "question": "Choose the correct sentence (reported question).",
+        "options": [
+          "She asked me that where I lived.",
+          "She asked me where did I live.",
+          "She asked me where do I live.",
+          "She asked me where I lived."
+        ],
+        "correctAnswer": "She asked me where I lived.",
+        "explanation": "A reported question takes statement word order, with no \"that\".",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Agreement, tense, prepositions, articles, pronouns.",
+      "After did/does/do and modals, use the base form.",
+      "Good (adjective) versus well (adverb).",
+      "No double comparatives; than not then.",
+      "Reported questions: no \"that\", statement order."
+    ],
+    "quickFormulas": [
+      "Do/does/did + base verb",
+      "Look forward to + -ing",
+      "Prefer X to Y"
+    ]
+  },
+  "keyTakeaways": [
+    "Use a checklist.",
+    "Fix only the error.",
+    "Check meaning and grammar.",
+    "Practise a little every day."
+  ],
+  "selfCheckQuestions": [
+    "Can I fix \"He did not came yesterday\"?",
+    "Can I explain why \"more smarter\" is wrong?",
+    "Can I turn \"She asked me that where I lived\" into a correct sentence?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Common grammatical errors; examples in this chapter are original."
+    }
+  ]
+}

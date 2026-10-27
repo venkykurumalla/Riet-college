@@ -1,0 +1,439 @@
+{
+  "id": "y1-data-reading-tables",
+  "yearId": 1,
+  "category": "Data Interpretation",
+  "topicNumber": 31,
+  "title": "Reading Data Tables",
+  "tagline": "Year 1 Foundation — Locating values, comparing rows and columns, and doing the arithmetic a table question needs",
+  "estimatedMinutes": 40,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "A data table arranges numbers in rows and columns under headings. Table-based data interpretation (DI) questions ask you to read a value, compare values, and then use simple arithmetic such as totals, differences, averages, ratios and percentages. The skill is not hard mathematics but careful reading: finding the right row and the right column, noticing the units, and choosing the shortest calculation.",
+    "placementRelevance": "Table-based DI sets are commonly asked in company aptitude rounds, usually as a table followed by four or five questions. They reward accuracy and a calm, methodical approach.",
+    "realWorldContext": "Placement reports, sales sheets, exam results and bank statements are all tables. Reading them correctly is a daily skill for engineers and analysts."
+  },
+  "learningObjectives": [
+    "Locate a value at the intersection of a row and a column",
+    "Find totals, differences and averages across rows and columns",
+    "Compute percentage change, percentage of total and ratios from table values",
+    "Read units and headings carefully",
+    "Use approximation to save time where options allow it"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Percentages",
+      "Basic Averages",
+      "Basic Ratio"
+    ],
+    "quickRefresher": "Percentage change = (new − old) ÷ old × 100. Percentage of total = part ÷ total × 100. Average = sum ÷ count. Ratio a : b is simplified by dividing both terms by their HCF."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Row: a horizontal line of values (all values for one year, say). Column: a vertical line of values (all values for one branch, say).",
+      "Cell: the single value where a row and a column meet.",
+      "Heading and unit: the label of a row or column and the unit of its values (students, ₹ lakh, tonnes).",
+      "Total: the sum of the values in a row or column. Difference: one value minus another.",
+      "Percentage increase or decrease: the change between two values expressed as a percentage of the earlier value."
+    ],
+    "theoreticalIntuition": "A table question is a three-step process: (1) read the question and decide which cells are needed, (2) pick up only those numbers, (3) do the shortest calculation. Skimming the whole table first for a \"feel\" for its size is useful, but computing everything in advance is a waste of time.",
+    "visualOrMentalModel": "Put one finger on the row heading and another on the column heading and slide them together until they meet. Say the value aloud, with its unit, before doing any arithmetic."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Reading a cell",
+      "formula": "Value = cell at (row, column)",
+      "description": "Match the heading and the year or category exactly.",
+      "whenToUse": "Direct reading questions.",
+      "simpleExample": "CSE in 2023 = 150"
+    },
+    {
+      "title": "Totals and averages",
+      "formula": "Total = sum of values;  Average = Total ÷ number of values",
+      "description": "Check that you use the right number of values.",
+      "whenToUse": "Sum and mean questions.",
+      "simpleExample": "ECE average over 4 years = (90 + 100 + 95 + 110) ÷ 4 = 98.75"
+    },
+    {
+      "title": "Percentage change",
+      "formula": "(New − Old) ÷ Old × 100",
+      "description": "The base is the earlier value.",
+      "whenToUse": "Growth questions.",
+      "simpleExample": "CSE 2021 → 2024: (165 − 120) ÷ 120 × 100 = 37.5%"
+    },
+    {
+      "title": "Percentage of total",
+      "formula": "Part ÷ Total × 100",
+      "description": "The base is the total.",
+      "whenToUse": "Share questions.",
+      "simpleExample": "Civil in 2022 = 50 ÷ 340 × 100 ≈ 14.7%"
+    },
+    {
+      "title": "Ratio",
+      "formula": "a : b simplified by their HCF",
+      "description": "Reduce to the simplest form.",
+      "whenToUse": "Comparison questions.",
+      "simpleExample": "120 : 60 = 2 : 1"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Always read the title and the units first. A table of \"students placed\" and a table of \"salary in ₹ lakh\" can look alike, but the arithmetic and the interpretation differ. If a column says \"in thousands\", then every value must be multiplied by 1000 when a question asks for the actual number.",
+      "To answer a question, find only the cells that matter. \"Total students placed in 2022\" needs one row; \"Highest value for CSE\" needs one column; \"Increase in ECE between 2021 and 2024\" needs two cells of the same column. Reading the question twice often saves more time than any shortcut.",
+      "Percentages from tables follow two patterns. Percentage change uses the earlier value as the base: the CSE count rose from 120 to 165, so the increase is 45 ÷ 120 × 100 = 37.5%. Percentage of total uses the total as the base: in 2022 the civil branch placed 50 out of 340 students, which is about 14.7%.",
+      "Many options are close together, which allows approximation. If the options for 150 ÷ 363 × 100 are 38.1, 41.3, 43.5 and 45.0, a rough calculation (150 ÷ 360 ≈ 0.42) is enough to choose 41.3.",
+      "Common traps are mixing rows and columns, using the wrong base in a percentage, and forgetting the unit. When your answer looks unusual (for example more than 100% for a share), recheck the cells you used."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Comparing growth across rows",
+        "content": "Absolute increase and percentage increase can rank the rows differently. CSE grew by 45 students and CIVIL by 7, so CSE has the larger absolute growth; the percentage growth is 37.5% versus 15.6%. Read the question to know which one is asked for."
+      },
+      {
+        "title": "Checking totals as a safety step",
+        "content": "If a table includes a total row or column, use it to verify your reading of individual cells. If the numbers do not add up, you may have misread a value."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct reading",
+      "description": "Find a single value.",
+      "exampleSnippet": "CSE in 2023."
+    },
+    {
+      "typeName": "Totals and differences",
+      "description": "Add or subtract values.",
+      "exampleSnippet": "Total placed in 2022."
+    },
+    {
+      "typeName": "Averages",
+      "description": "Mean of a row or column.",
+      "exampleSnippet": "Average of ECE over 4 years."
+    },
+    {
+      "typeName": "Percentage questions",
+      "description": "Change or share.",
+      "exampleSnippet": "Percentage increase of CSE 2021–2024."
+    },
+    {
+      "typeName": "Ratio and comparison",
+      "description": "Compare two cells.",
+      "exampleSnippet": "CSE : MECH in 2021."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-data-reading-tables-1",
+      "title": "Total of a row",
+      "question": "Using the table of students placed, find the total number of students placed in 2022.",
+      "givenInfo": [
+        "Row 2022: CSE 135, ECE 100, MECH 55, CIVIL 50"
+      ],
+      "conceptOrFormula": "A total is the sum of all values in the row.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pick the row",
+          "explanation": "Row 2022 has the values 135, 100, 55 and 50."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Add",
+          "explanation": "135 + 100 = 235. Then 235 + 55 = 290. Then 290 + 50 = 340."
+        }
+      ],
+      "finalAnswer": "340",
+      "whyItWorks": "Adding in pairs makes the sum easy to check.",
+      "commonTrap": "Using the 2023 row by mistake.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-data-reading-tables-2",
+      "title": "Percentage change",
+      "question": "By what percentage did CSE placements increase from 2021 to 2024?",
+      "givenInfo": [
+        "CSE 2021 = 120",
+        "CSE 2024 = 165"
+      ],
+      "conceptOrFormula": "Percentage change = (New − Old) ÷ Old × 100.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the increase",
+          "explanation": "165 − 120 = 45."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide by the old value",
+          "explanation": "45 ÷ 120 = 0.375."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Convert to a percentage",
+          "explanation": "0.375 × 100 = 37.5%."
+        }
+      ],
+      "finalAnswer": "37.5%",
+      "whyItWorks": "The base is the earlier value, 120.",
+      "commonTrap": "Dividing 45 by 165 to get 27.3%.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-data-reading-tables-3",
+      "title": "Percentage of a total",
+      "question": "What percentage of the students placed in 2022 belonged to CIVIL (to one decimal place)?",
+      "givenInfo": [
+        "CIVIL 2022 = 50",
+        "Total 2022 = 340"
+      ],
+      "conceptOrFormula": "Share = Part ÷ Total × 100.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Write the fraction",
+          "explanation": "50 ÷ 340."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "50 ÷ 340 = 0.14706."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Convert and round",
+          "explanation": "0.14706 × 100 = 14.7%."
+        }
+      ],
+      "finalAnswer": "14.7%",
+      "whyItWorks": "The total of the row is the base.",
+      "commonTrap": "Using a column total instead of the row total.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Pick-only-what-you-need",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compute the total of every row and column before reading the questions.",
+      "shortcutMethod": "Read the question first, pick up only the cells it needs, and use approximation when the options are far apart. Keep a small side note for any total you compute, because later questions often reuse it."
+    },
+    "rulesForApplication": [
+      "Read the title, units and headings before the questions.",
+      "Percentage change uses the old value as the base; percentage of total uses the total.",
+      "Round numbers to make a rough check against the options.",
+      "Reuse totals you have already worked out."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reading the wrong row or column",
+      "whyItHappens": "Moving the finger a line too far.",
+      "howToAvoid": "Say the row and column headings aloud before reading the value."
+    },
+    {
+      "mistake": "Using the wrong base for a percentage",
+      "whyItHappens": "Dividing by the new value or by the wrong total.",
+      "howToAvoid": "Decide whether the question asks for change (old base) or share (total base)."
+    },
+    {
+      "mistake": "Ignoring the unit",
+      "whyItHappens": "Treating \"in thousands\" as plain numbers.",
+      "howToAvoid": "Note the unit at the top of the table before calculating."
+    },
+    {
+      "mistake": "Careless addition",
+      "whyItHappens": "Adding a long column mentally.",
+      "howToAvoid": "Add in pairs and cross-check with the totals if given."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Use approximation: round the values and compare with the options before doing exact arithmetic.",
+    "questionSelectionAdvice": "Do the direct-reading questions first, then the percentage and ratio ones.",
+    "recruiterInsight": "The data is always right in front of you; accuracy of reading is the main skill being tested."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-data-reading-tables-e1",
+        "question": "Number of students placed, by branch and year:\n\nYear | CSE | ECE | MECH | CIVIL\n2021 | 120 | 90 | 60 | 45\n2022 | 135 | 100 | 55 | 50\n2023 | 150 | 95 | 70 | 48\n2024 | 165 | 110 | 75 | 52\n\nHow many CSE students were placed in 2023?",
+        "options": [
+          "135",
+          "150",
+          "165",
+          "95"
+        ],
+        "correctAnswer": "150",
+        "explanation": "Read the row 2023 and the column CSE: 150.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-data-reading-tables-e2",
+        "question": "Number of students placed, by branch and year:\n\nYear | CSE | ECE | MECH | CIVIL\n2021 | 120 | 90 | 60 | 45\n2022 | 135 | 100 | 55 | 50\n2023 | 150 | 95 | 70 | 48\n2024 | 165 | 110 | 75 | 52\n\nWhat is the total number of students placed in 2022?",
+        "options": [
+          "340",
+          "315",
+          "363",
+          "325"
+        ],
+        "correctAnswer": "340",
+        "explanation": "Add the 2022 row: 135 + 100 + 55 + 50 = 340.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-data-reading-tables-e3",
+        "question": "Number of students placed, by branch and year:\n\nYear | CSE | ECE | MECH | CIVIL\n2021 | 120 | 90 | 60 | 45\n2022 | 135 | 100 | 55 | 50\n2023 | 150 | 95 | 70 | 48\n2024 | 165 | 110 | 75 | 52\n\nWhich branch had the lowest placements in 2021?",
+        "options": [
+          "MECH",
+          "ECE",
+          "CSE",
+          "CIVIL"
+        ],
+        "correctAnswer": "CIVIL",
+        "explanation": "In 2021 the values are 120, 90, 60 and 45. The lowest is CIVIL (45).",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-data-reading-tables-i7",
+        "question": "Number of students placed, by branch and year:\n\nYear | CSE | ECE | MECH | CIVIL\n2021 | 120 | 90 | 60 | 45\n2022 | 135 | 100 | 55 | 50\n2023 | 150 | 95 | 70 | 48\n2024 | 165 | 110 | 75 | 52\n\nBy what percentage did CSE placements increase from 2021 to 2024?",
+        "options": [
+          "37.5%",
+          "27.3%",
+          "45%",
+          "33.3%"
+        ],
+        "correctAnswer": "37.5%",
+        "explanation": "Increase = 165 − 120 = 45. Percentage = 45 ÷ 120 × 100 = 37.5%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-data-reading-tables-i8",
+        "question": "Number of students placed, by branch and year:\n\nYear | CSE | ECE | MECH | CIVIL\n2021 | 120 | 90 | 60 | 45\n2022 | 135 | 100 | 55 | 50\n2023 | 150 | 95 | 70 | 48\n2024 | 165 | 110 | 75 | 52\n\nWhat is the average number of ECE students placed per year?",
+        "options": [
+          "95",
+          "100",
+          "98",
+          "98.75"
+        ],
+        "correctAnswer": "98.75",
+        "explanation": "Total = 90 + 100 + 95 + 110 = 395. Average = 395 ÷ 4 = 98.75.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-data-reading-tables-i9",
+        "question": "Number of students placed, by branch and year:\n\nYear | CSE | ECE | MECH | CIVIL\n2021 | 120 | 90 | 60 | 45\n2022 | 135 | 100 | 55 | 50\n2023 | 150 | 95 | 70 | 48\n2024 | 165 | 110 | 75 | 52\n\nWhat is the ratio of CSE to MECH placements in 2021?",
+        "options": [
+          "3 : 2",
+          "1 : 2",
+          "4 : 3",
+          "2 : 1"
+        ],
+        "correctAnswer": "2 : 1",
+        "explanation": "120 : 60 simplifies (divide by 60) to 2 : 1.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-data-reading-tables-a15",
+        "question": "Number of students placed, by branch and year:\n\nYear | CSE | ECE | MECH | CIVIL\n2021 | 120 | 90 | 60 | 45\n2022 | 135 | 100 | 55 | 50\n2023 | 150 | 95 | 70 | 48\n2024 | 165 | 110 | 75 | 52\n\nThe CSE and ECE branches together accounted for what percentage of the total placements in 2024 (to one decimal place)?",
+        "options": [
+          "62.4%",
+          "72.5%",
+          "68.4%",
+          "75.0%"
+        ],
+        "correctAnswer": "68.4%",
+        "explanation": "CSE + ECE = 165 + 110 = 275. Total = 402. Share = 275 ÷ 402 × 100 = 68.4%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-data-reading-tables-a16",
+        "question": "Number of students placed, by branch and year:\n\nYear | CSE | ECE | MECH | CIVIL\n2021 | 120 | 90 | 60 | 45\n2022 | 135 | 100 | 55 | 50\n2023 | 150 | 95 | 70 | 48\n2024 | 165 | 110 | 75 | 52\n\nWhich branch showed the greatest absolute increase in placements from 2021 to 2024?",
+        "options": [
+          "ECE",
+          "CSE",
+          "MECH",
+          "CIVIL"
+        ],
+        "correctAnswer": "CSE",
+        "explanation": "Increases: CSE 45, ECE 20, MECH 15, CIVIL 7. CSE has the greatest increase.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-data-reading-tables-p17",
+        "question": "Number of students placed, by branch and year:\n\nYear | CSE | ECE | MECH | CIVIL\n2021 | 120 | 90 | 60 | 45\n2022 | 135 | 100 | 55 | 50\n2023 | 150 | 95 | 70 | 48\n2024 | 165 | 110 | 75 | 52\n\nIf CSE placements in 2025 grow by the same number as the 2023–2024 increase, how many CSE students will be placed in 2025?",
+        "options": [
+          "170",
+          "180",
+          "175",
+          "185"
+        ],
+        "correctAnswer": "180",
+        "explanation": "Increase in 2024 = 165 − 150 = 15. So 2025 = 165 + 15 = 180.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-data-reading-tables-p18",
+        "question": "Number of students placed, by branch and year:\n\nYear | CSE | ECE | MECH | CIVIL\n2021 | 120 | 90 | 60 | 45\n2022 | 135 | 100 | 55 | 50\n2023 | 150 | 95 | 70 | 48\n2024 | 165 | 110 | 75 | 52\n\nCSE placements in 2023 were what percentage of the 2023 total (to one decimal place)?",
+        "options": [
+          "41.3%",
+          "38.1%",
+          "43.5%",
+          "45.0%"
+        ],
+        "correctAnswer": "41.3%",
+        "explanation": "Total 2023 = 363. Share = 150 ÷ 363 × 100 = 41.3%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-data-reading-tables-p19",
+        "question": "Number of students placed, by branch and year:\n\nYear | CSE | ECE | MECH | CIVIL\n2021 | 120 | 90 | 60 | 45\n2022 | 135 | 100 | 55 | 50\n2023 | 150 | 95 | 70 | 48\n2024 | 165 | 110 | 75 | 52\n\nThe ratio of the total CSE placements to the total CIVIL placements over the four years, in the simplest form, is",
+        "options": [
+          "3 : 1",
+          "57 : 20",
+          "19 : 6",
+          "38 : 13"
+        ],
+        "correctAnswer": "38 : 13",
+        "explanation": "CSE total = 570 and CIVIL total = 195. Dividing both by their HCF (15) gives the ratio.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Read title, units and headings first.",
+      "Pick only the needed cells.",
+      "Percentage change: old base. Percentage of total: total base.",
+      "Ratio: simplify using the HCF.",
+      "Approximate when options are far apart."
+    ],
+    "quickFormulas": [
+      "% change = (new − old)/old × 100",
+      "% share = part/total × 100",
+      "Average = total/count"
+    ]
+  },
+  "keyTakeaways": [
+    "Careful reading beats fast calculation.",
+    "Know which base to use.",
+    "Units matter.",
+    "Approximate when you can."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute the percentage increase between two cells?",
+    "Can I find the share of one cell in its row total?",
+    "Can I simplify the ratio of two cells?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Table-based data interpretation as a topic area; the data and examples here are original."
+    }
+  ]
+}

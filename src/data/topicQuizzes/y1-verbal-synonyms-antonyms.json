@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-verbal-synonyms-antonyms",
+  "topicTitle": "Synonyms and Antonyms",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the synonym of \"begin\".",
+      "options": [
+        "finish",
+        "start",
+        "stop",
+        "rest"
+      ],
+      "answerIndex": 1,
+      "explanation": "Begin and start both mean to commence an action."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the antonym of \"strong\".",
+      "options": [
+        "weak",
+        "heavy",
+        "large",
+        "tall"
+      ],
+      "answerIndex": 0,
+      "explanation": "Strong means having great power; its opposite is weak."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Choose the synonym of \"smart\".",
+      "options": [
+        "slow",
+        "quiet",
+        "lazy",
+        "clever"
+      ],
+      "answerIndex": 3,
+      "explanation": "Smart (in the sense of intelligent) means clever."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the antonym of \"ancient\".",
+      "options": [
+        "old",
+        "historic",
+        "modern",
+        "classic"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ancient means very old; modern means of the present time."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the synonym of \"huge\".",
+      "options": [
+        "tiny",
+        "average",
+        "enormous",
+        "narrow"
+      ],
+      "answerIndex": 2,
+      "explanation": "Huge and enormous both mean extremely large."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the antonym of \"victory\".",
+      "options": [
+        "triumph",
+        "defeat",
+        "success",
+        "prize"
+      ],
+      "answerIndex": 1,
+      "explanation": "Victory means winning; defeat means losing."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the synonym of \"courageous\".",
+      "options": [
+        "brave",
+        "careful",
+        "curious",
+        "foolish"
+      ],
+      "answerIndex": 0,
+      "explanation": "Courageous means having courage, i.e. brave."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the antonym of \"generous\".",
+      "options": [
+        "kind",
+        "rich",
+        "poor",
+        "stingy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Generous means willing to give freely; stingy means unwilling to give."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the synonym of \"conceal\".",
+      "options": [
+        "reveal",
+        "show",
+        "discover",
+        "hide"
+      ],
+      "answerIndex": 3,
+      "explanation": "To conceal is to keep something from being seen, i.e. to hide."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Choose the antonym of \"expand\".",
+      "options": [
+        "grow",
+        "stretch",
+        "contract",
+        "spread"
+      ],
+      "answerIndex": 2,
+      "explanation": "To expand is to become larger; to contract is to become smaller."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the synonym of \"tranquil\".",
+      "options": [
+        "noisy",
+        "calm",
+        "busy",
+        "angry"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tranquil means peaceful and quiet, i.e. calm."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the antonym of \"scarce\".",
+      "options": [
+        "plentiful",
+        "rare",
+        "limited",
+        "short"
+      ],
+      "answerIndex": 0,
+      "explanation": "Scarce means not enough; plentiful means more than enough."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the synonym of \"obstinate\".",
+      "options": [
+        "stubborn",
+        "flexible",
+        "gentle",
+        "wise"
+      ],
+      "answerIndex": 0,
+      "explanation": "Obstinate means refusing to change one's mind, i.e. stubborn."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the antonym of \"permanent\".",
+      "options": [
+        "fixed",
+        "lasting",
+        "steady",
+        "temporary"
+      ],
+      "answerIndex": 3,
+      "explanation": "Permanent means lasting forever; temporary means lasting for a short time."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the synonym of \"candid\".",
+      "options": [
+        "polite",
+        "secretive",
+        "frank",
+        "shy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Candid means open and honest in speech, i.e. frank."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the antonym of \"diligent\".",
+      "options": [
+        "careful",
+        "lazy",
+        "quick",
+        "strict"
+      ],
+      "answerIndex": 1,
+      "explanation": "Diligent means hard-working; lazy means unwilling to work."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the synonym of \"mitigate\".",
+      "options": [
+        "worsen",
+        "lessen",
+        "ignore",
+        "invite"
+      ],
+      "answerIndex": 1,
+      "explanation": "To mitigate is to make something less severe, i.e. to lessen it."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the antonym of \"transparent\".",
+      "options": [
+        "opaque",
+        "clear",
+        "thin",
+        "glassy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Transparent means allowing light to pass through so that things can be seen; opaque means not allowing this."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the synonym of \"ephemeral\".",
+      "options": [
+        "eternal",
+        "valuable",
+        "heavy",
+        "short-lived"
+      ],
+      "answerIndex": 3,
+      "explanation": "Ephemeral means lasting for a very short time."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the antonym of \"zenith\".",
+      "options": [
+        "peak",
+        "summit",
+        "nadir",
+        "crown"
+      ],
+      "answerIndex": 2,
+      "explanation": "Zenith is the highest point; nadir is the lowest point."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/synonyms/"
+}

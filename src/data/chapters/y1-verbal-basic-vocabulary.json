@@ -1,0 +1,435 @@
+{
+  "id": "y1-verbal-basic-vocabulary",
+  "yearId": 1,
+  "category": "Verbal Ability",
+  "topicNumber": 28,
+  "title": "Basic Vocabulary",
+  "tagline": "Year 1 Foundation — Word meanings, word formation, confusable words and context clues",
+  "estimatedMinutes": 40,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "Vocabulary is the set of words you know and can use correctly. For placement tests, vocabulary questions ask you to give the meaning of a word, pick the right word for a blank, choose the word with the correct spelling or form, or substitute one word for a phrase. A strong vocabulary is built less by memorising long lists and more by learning word parts (prefixes, roots, suffixes), word families, and the context in which words appear.",
+    "placementRelevance": "Vocabulary questions are commonly asked in the verbal ability section of company aptitude rounds, in the form of meanings, fill-in-the-blanks, one-word substitutions and confusable-word pairs.",
+    "realWorldContext": "The right word makes an email clear and professional. Choosing \"advice\" instead of \"advise\", or \"effect\" instead of \"affect\", is the kind of detail a reader notices."
+  },
+  "learningObjectives": [
+    "Learn word meanings from context, word parts and word families",
+    "Use prefixes and suffixes to form opposites and other word classes",
+    "Distinguish commonly confused words (advice/advise, affect/effect, principal/principle)",
+    "Learn common one-word substitutions",
+    "Build a daily routine for learning and revising new words"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Parts of Speech"
+    ],
+    "quickRefresher": "A word family groups words from the same root in different parts of speech: decide (verb), decision (noun), decisive (adjective), decisively (adverb)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Prefix: a group of letters added to the beginning of a word that changes its meaning (un-, in-, im-, il-, ir-, dis-, re-, mis-).",
+      "Suffix: a group of letters added to the end of a word that changes its class or meaning (-tion, -ness, -ous, -ful, -ly).",
+      "Root: the core part of a word that carries its basic meaning (bene = good, mal = bad, port = carry).",
+      "Context clue: a hint in the sentence that suggests the meaning of an unknown word.",
+      "One-word substitution: a single word that replaces a phrase (a person who writes books = author)."
+    ],
+    "theoreticalIntuition": "You rarely need to know a word perfectly to answer a vocabulary question. If you recognise a prefix, root or suffix, or you can tell from the sentence whether the word is positive or negative, you can often eliminate three of the four options.",
+    "visualOrMentalModel": "Break an unfamiliar word into parts. \"Benevolent\": bene = good, vol = wish. So \"benevolent\" has something to do with wishing good, which means kind and generous. This works for hundreds of words."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Negative prefixes",
+      "formula": "un- (unhappy), in- (inactive), im- before m/p (impossible), il- before l (illegal), ir- before r (irregular), dis- (dislike), non- (nonsense)",
+      "description": "Choose by the first letter of the base word.",
+      "whenToUse": "Opposite and word-formation questions.",
+      "simpleExample": "responsible → irresponsible"
+    },
+    {
+      "title": "Common suffixes",
+      "formula": "-tion/-sion (noun: decision), -ness (noun: kindness), -ous/-ful (adjective: dangerous, careful), -ly (adverb: quickly)",
+      "description": "Suffixes change the part of speech.",
+      "whenToUse": "Word-form questions.",
+      "simpleExample": "danger → dangerous (adjective)"
+    },
+    {
+      "title": "Useful roots",
+      "formula": "bene = good (benefit), mal = bad (malfunction), port = carry (transport), dict = say (predict), spect = look (inspect)",
+      "description": "One root unlocks many words.",
+      "whenToUse": "Meaning-from-parts questions.",
+      "simpleExample": "benevolent = wishing good"
+    },
+    {
+      "title": "Confusable pairs",
+      "formula": "advice (noun) / advise (verb); affect (verb: to influence) / effect (noun: a result); principal (head or main) / principle (rule); stationary (still) / stationery (paper)",
+      "description": "Learn each pair together.",
+      "whenToUse": "Choose-the-correct-word blanks.",
+      "simpleExample": "Rain can affect the harvest; the effect was bad."
+    },
+    {
+      "title": "One-word substitution",
+      "formula": "a person who writes books = author; a person who loves mankind = philanthropist; a place where books are kept = library",
+      "description": "Learn the common ones.",
+      "whenToUse": "Phrase-to-word questions.",
+      "simpleExample": "a person who loves mankind → philanthropist"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Start with context. When you meet an unknown word, ask whether the sentence is positive or negative and what kind of word is needed. In \"The soldiers were reluctant to fight\", reluctant must be a negative word (unwilling), because the soldiers did not want to fight.",
+      "Learn the common prefixes and suffixes. In- becomes im- before m and p (impossible, immature), il- before l (illegal) and ir- before r (irregular, irresponsible). Suffixes change the class: decide → decision (noun), danger → dangerous (adjective), quick → quickly (adverb).",
+      "Group words in families. Learning decide, decision, decisive and decisively together gives you four forms for the price of one, and these forms are exactly what word-form questions test.",
+      "Confusable words are a favourite in tests. Advice is a noun (\"good advice\") and advise is a verb (\"I advise you to study\"). Affect is usually a verb meaning to influence and effect is usually a noun meaning a result. Principal means chief or head (the principal of the college) and principle means a rule or belief.",
+      "Learn one-word substitutions as small stories: an author writes books, a philanthropist loves mankind and gives to the needy, a librarian looks after books. Revise ten new words a day: write the word, its meaning, a short sentence and one related word."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Idioms and phrases",
+        "content": "Idioms are fixed phrases whose meaning is different from the words alone. \"A piece of cake\" means something very easy; \"to break the ice\" means to start a conversation in an awkward situation. Learn idioms with an example sentence."
+      },
+      {
+        "title": "Spelling patterns",
+        "content": "Many tested words have a double letter: accommodation, committee, necessary, occurrence. Learn them as groups: \"accommodation\" has double c and double m."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Meaning of a word",
+      "description": "Choose the meaning from four options.",
+      "exampleSnippet": "\"Abundant\" means plentiful."
+    },
+    {
+      "typeName": "Prefix and suffix",
+      "description": "Make an opposite or change the class.",
+      "exampleSnippet": "responsible → irresponsible"
+    },
+    {
+      "typeName": "Confusable words",
+      "description": "Choose the correct word for a blank.",
+      "exampleSnippet": "He gave me good ___. (advice/advise)"
+    },
+    {
+      "typeName": "One-word substitutions",
+      "description": "Replace a phrase with a word.",
+      "exampleSnippet": "A person who writes books → author"
+    },
+    {
+      "typeName": "Spelling",
+      "description": "Choose the correct spelling.",
+      "exampleSnippet": "Accommodation"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-verbal-basic-vocabulary-1",
+      "title": "Meaning from word parts",
+      "question": "What does \"benevolent\" mean? (cruel / kind and generous / careless / lazy)",
+      "givenInfo": [
+        "Word: benevolent"
+      ],
+      "conceptOrFormula": "Use roots: bene = good, vol = wish.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Break the word",
+          "explanation": "bene (good) + vol (wish) + -ent (adjective ending)."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Combine the meaning",
+          "explanation": "\"Wishing good\" suggests kindness and generosity."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Choose the option",
+          "explanation": "\"Kind and generous\" matches."
+        }
+      ],
+      "finalAnswer": "kind and generous",
+      "whyItWorks": "The root bene appears in benefit, beneficial and benefactor, all positive.",
+      "commonTrap": "Guessing \"cruel\" because the word looks like \"violent\".",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-verbal-basic-vocabulary-2",
+      "title": "Confusable words",
+      "question": "Choose the correct word: \"He gave me good ___ on how to prepare for the interview.\" (advice / advise)",
+      "givenInfo": [
+        "Options: advice, advise"
+      ],
+      "conceptOrFormula": "Advice is a noun; advise is a verb.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the class of the word needed",
+          "explanation": "\"Good ___\" needs a noun after the adjective good."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Match the options",
+          "explanation": "Advice is the noun; advise is the verb."
+        }
+      ],
+      "finalAnswer": "advice",
+      "whyItWorks": "The adjective \"good\" is followed by a noun.",
+      "commonTrap": "Choosing \"advise\" because it looks more familiar.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-verbal-basic-vocabulary-3",
+      "title": "Prefixes",
+      "question": "Which prefix gives the opposite of \"responsible\"? (un- / im- / ir- / dis-)",
+      "givenInfo": [
+        "Base word: responsible"
+      ],
+      "conceptOrFormula": "Choose the prefix by the first letter of the base word.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Look at the first letter",
+          "explanation": "Responsible begins with r."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply the rule",
+          "explanation": "Before r the negative prefix is ir-."
+        }
+      ],
+      "finalAnswer": "ir- (irresponsible)",
+      "whyItWorks": "Negative prefixes follow patterns: im- before m/p, il- before l, ir- before r.",
+      "commonTrap": "Using un- for every opposite.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Parts-and-context method",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Memorise long lists of words with meanings.",
+      "shortcutMethod": "For an unknown word, split it into prefix, root and suffix, decide if the sentence is positive or negative, and eliminate options that do not fit. Learn confusable words in pairs."
+    },
+    "rulesForApplication": [
+      "Positive or negative? Decide this first from the sentence.",
+      "in- becomes im-, il- or ir- before m/p, l and r.",
+      "Learn word families rather than single words.",
+      "Learn confusable pairs together: advice/advise, affect/effect, principal/principle."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Confusing a noun and a verb form",
+      "whyItHappens": "Writing \"advise\" for the noun advice.",
+      "howToAvoid": "Check the class of the word needed in the blank."
+    },
+    {
+      "mistake": "Using un- for every opposite",
+      "whyItHappens": "\"unregular\", \"unpossible\".",
+      "howToAvoid": "Learn im-, il-, ir- patterns."
+    },
+    {
+      "mistake": "Guessing meaning from looks",
+      "whyItHappens": "Thinking that benevolent is like violent.",
+      "howToAvoid": "Check the root before guessing."
+    },
+    {
+      "mistake": "Mis-spelling double-letter words",
+      "whyItHappens": "\"accomodation\", \"recomend\".",
+      "howToAvoid": "Learn commonly misspelled words in groups."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "If the sentence is positive in tone, drop options with negative meanings, and vice versa.",
+    "questionSelectionAdvice": "Learn words in short daily sessions rather than long weekly lists.",
+    "recruiterInsight": "Word parts and context solve most vocabulary questions even when the word is new."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-verbal-basic-vocabulary-e1",
+        "question": "The word \"abundant\" means",
+        "options": [
+          "scarce",
+          "plentiful",
+          "rare",
+          "tiny"
+        ],
+        "correctAnswer": "plentiful",
+        "explanation": "Abundant means existing in large quantities, i.e. plentiful.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-basic-vocabulary-e2",
+        "question": "The word \"brief\" means",
+        "options": [
+          "short",
+          "long",
+          "heavy",
+          "loud"
+        ],
+        "correctAnswer": "short",
+        "explanation": "Brief means lasting a short time or using few words.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-basic-vocabulary-e3",
+        "question": "The word \"rapid\" means",
+        "options": [
+          "slow",
+          "quiet",
+          "weak",
+          "fast"
+        ],
+        "correctAnswer": "fast",
+        "explanation": "Rapid means happening at great speed.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-verbal-basic-vocabulary-i7",
+        "question": "Which prefix gives the opposite of \"responsible\"?",
+        "options": [
+          "ir-",
+          "un-",
+          "im-",
+          "dis-"
+        ],
+        "correctAnswer": "ir-",
+        "explanation": "Before the letter r the negative prefix is ir-, giving irresponsible.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-basic-vocabulary-i8",
+        "question": "Which prefix gives the opposite of \"possible\"?",
+        "options": [
+          "un-",
+          "ir-",
+          "dis-",
+          "im-"
+        ],
+        "correctAnswer": "im-",
+        "explanation": "Before the letter p the negative prefix is im-, giving impossible.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-basic-vocabulary-i9",
+        "question": "The noun form of the verb \"decide\" is",
+        "options": [
+          "decisive",
+          "decidingly",
+          "decided",
+          "decision"
+        ],
+        "correctAnswer": "decision",
+        "explanation": "Decide → decision (noun). Decisive is an adjective.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-verbal-basic-vocabulary-a15",
+        "question": "One word for \"a person who loves mankind and gives help to others\" is",
+        "options": [
+          "pessimist",
+          "optimist",
+          "philanthropist",
+          "patriot"
+        ],
+        "correctAnswer": "philanthropist",
+        "explanation": "A philanthropist works to improve the lives of others, often by giving money or time.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-basic-vocabulary-a16",
+        "question": "Choose the correctly spelt word.",
+        "options": [
+          "Accomodation",
+          "Accommodation",
+          "Acommodation",
+          "Accomodasion"
+        ],
+        "correctAnswer": "Accommodation",
+        "explanation": "The word has a double c and a double m.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-verbal-basic-vocabulary-p17",
+        "question": "The word \"benevolent\" means",
+        "options": [
+          "cruel",
+          "kind and generous",
+          "careless",
+          "lazy"
+        ],
+        "correctAnswer": "kind and generous",
+        "explanation": "The root bene means good, so benevolent means well-meaning and kind.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-basic-vocabulary-p18",
+        "question": "The idiom \"a piece of cake\" means",
+        "options": [
+          "something very easy",
+          "something very sweet",
+          "something very costly",
+          "something very rare"
+        ],
+        "correctAnswer": "something very easy",
+        "explanation": "The phrase is used for a task that is very easy to do.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-basic-vocabulary-p19",
+        "question": "Choose the correct word: \"The school ___ announced the results.\"",
+        "options": [
+          "principle",
+          "principals",
+          "principally",
+          "principal"
+        ],
+        "correctAnswer": "principal",
+        "explanation": "Principal means the head of a school; principle means a rule. Here the head announces the results.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Prefixes: un-, in-/im-/il-/ir-, dis-, non-.",
+      "Suffixes change the class: -tion, -ness, -ous, -ful, -ly.",
+      "Roots: bene, mal, port, dict, spect.",
+      "Confusable pairs: advice/advise, affect/effect, principal/principle.",
+      "Learn ten new words a day with a sentence."
+    ],
+    "quickFormulas": [
+      "in- → im- (m, p), il- (l), ir- (r)",
+      "advice (n) / advise (v)",
+      "affect (v) / effect (n)"
+    ]
+  },
+  "keyTakeaways": [
+    "Word parts unlock meaning.",
+    "Context decides.",
+    "Pairs of confusable words need to be learned together.",
+    "Revise daily."
+  ],
+  "selfCheckQuestions": [
+    "Can I form the opposite of \"regular\" and \"legal\"?",
+    "Can I explain the difference between affect and effect?",
+    "Can I give the one-word substitution for \"a person who loves mankind\"?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Word formation, prefixes and suffixes; examples in this chapter are original."
+    },
+    {
+      "sourceName": "Oxford Advanced Learner's Dictionary",
+      "sourceType": "Reference",
+      "referenceNote": "Meanings and usage of the words discussed."
+    }
+  ]
+}

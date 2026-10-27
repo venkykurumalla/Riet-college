@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-data-basic-charts",
+  "topicTitle": "Basic Charts (Bar and Pie)",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nIn which month were the sales the highest?",
+      "options": [
+        "Apr",
+        "May",
+        "Jun",
+        "Feb"
+      ],
+      "answerIndex": 1,
+      "explanation": "The bars are 40, 55, 45, 60, 75 and 55. The tallest is May (75)."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nHow many units were sold in April?",
+      "options": [
+        "60",
+        "55",
+        "45",
+        "75"
+      ],
+      "answerIndex": 0,
+      "explanation": "Read the April bar: 60 units."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nIn which month were the sales the lowest?",
+      "options": [
+        "Mar",
+        "Feb",
+        "Jun",
+        "Jan"
+      ],
+      "answerIndex": 3,
+      "explanation": "The lowest bar is January (40)."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nBy how many units were the May sales higher than the January sales?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "answerIndex": 2,
+      "explanation": "May − Jan = 75 − 40 = 35."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nWhat is the central angle of the sector for Food?",
+      "options": [
+        "90°",
+        "120°",
+        "108°",
+        "30°"
+      ],
+      "answerIndex": 2,
+      "explanation": "Angle = 30 × 3.6 = 108°."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nHow much does the family spend on Rent?",
+      "options": [
+        "₹8,000",
+        "₹10,000",
+        "₹12,000",
+        "₹6,000"
+      ],
+      "answerIndex": 1,
+      "explanation": "25% of ₹40,000 = ₹10,000."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nWhat are the total sales over the six months?",
+      "options": [
+        "330",
+        "315",
+        "325",
+        "345"
+      ],
+      "answerIndex": 0,
+      "explanation": "Total = 40 + 55 + 45 + 60 + 75 + 55 = 330."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nWhat is the average monthly sales?",
+      "options": [
+        "50",
+        "52.5",
+        "57.5",
+        "55"
+      ],
+      "answerIndex": 3,
+      "explanation": "Average = 330 ÷ 6 = 55."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nBy what percentage are the May sales above the January sales?",
+      "options": [
+        "46.7%",
+        "75%",
+        "35%",
+        "87.5%"
+      ],
+      "answerIndex": 3,
+      "explanation": "Increase = 35. Percentage = 35 ÷ 40 × 100 = 87.5%."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nIn how many months were the sales strictly above the average?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "The average is 55. Only April (60) and May (75) are above it."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nWhat is the central angle of the sector for Education?",
+      "options": [
+        "45°",
+        "54°",
+        "60°",
+        "72°"
+      ],
+      "answerIndex": 1,
+      "explanation": "Angle = 15 × 3.6 = 54°."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nHow much does the family save each month?",
+      "options": [
+        "₹8,000",
+        "₹6,000",
+        "₹10,000",
+        "₹12,000"
+      ],
+      "answerIndex": 0,
+      "explanation": "20% of ₹40,000 = ₹8,000."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nWhat is the ratio of the amount spent on Food to the amount spent on Transport?",
+      "options": [
+        "3 : 1",
+        "2 : 1",
+        "5 : 2",
+        "4 : 1"
+      ],
+      "answerIndex": 0,
+      "explanation": "Food : Transport = 30 : 10 = 3 : 1."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nHow much is spent on Rent and Education together?",
+      "options": [
+        "₹14,000",
+        "₹18,000",
+        "₹20,000",
+        "₹16,000"
+      ],
+      "answerIndex": 3,
+      "explanation": "(25% + 15%) of ₹40,000 = 40% of ₹40,000 = ₹16,000."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nIf the family's income rises by 20% and the shares stay the same, the new amount spent on Food will be",
+      "options": [
+        "₹12,000",
+        "₹13,200",
+        "₹14,400",
+        "₹15,000"
+      ],
+      "answerIndex": 2,
+      "explanation": "New income = ₹48,000. Food = 30% of ₹48,000 = ₹14,400."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nIf ₹2,000 more is spent on Transport and the same ₹2,000 is taken out of Savings, the new share of Savings is",
+      "options": [
+        "12%",
+        "15%",
+        "16%",
+        "18%"
+      ],
+      "answerIndex": 1,
+      "explanation": "New savings = ₹8,000 − ₹2,000 = ₹6,000. Share = 6,000 ÷ 40,000 × 100 = 15%."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nThe May sales exceed the March sales by what percentage (to one decimal place)?",
+      "options": [
+        "40.0%",
+        "66.7%",
+        "60.0%",
+        "75.0%"
+      ],
+      "answerIndex": 1,
+      "explanation": "Difference = 75 − 45 = 30. Percentage = 30 ÷ 45 × 100 = 66.7%."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nThe ratio of the January sales to the May sales in the simplest form is",
+      "options": [
+        "8 : 15",
+        "4 : 7",
+        "2 : 3",
+        "5 : 8"
+      ],
+      "answerIndex": 0,
+      "explanation": "Jan : May = 40 : 75. Dividing both by 5 gives 8 : 15."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Pie chart: how a family spends a monthly income of ₹40,000.\n\nItem | Share of income\nRent | 25%\nFood | 30%\nEducation | 15%\nTransport | 10%\nSavings | 20%\n\nThe difference between the central angles of the Food and Savings sectors is",
+      "options": [
+        "18°",
+        "30°",
+        "54°",
+        "36°"
+      ],
+      "answerIndex": 3,
+      "explanation": "Food = 108° and Savings = 72°. The difference is 36°."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Bar chart: units of a product sold by a shop in six months.\n\nMonth | Units sold\nJan | 40\nFeb | 55\nMar | 45\nApr | 60\nMay | 75\nJun | 55\n\nIf each unit is sold for ₹500, the revenue from the April sales is",
+      "options": [
+        "₹27,500",
+        "₹33,000",
+        "₹30,000",
+        "₹37,500"
+      ],
+      "answerIndex": 2,
+      "explanation": "Revenue = 60 × ₹500 = ₹30,000."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/bar-charts/"
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-verbal-basic-sentence-correction",
+  "topicTitle": "Basic Sentence Correction",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the correct sentence (auxiliary verb).",
+      "options": [
+        "She don't like tea.",
+        "She doesn't like tea.",
+        "She doesn't likes tea.",
+        "She not like tea."
+      ],
+      "answerIndex": 1,
+      "explanation": "The subject \"she\" is third person singular, so the auxiliary is \"doesn't\" and the main verb stays in the base form."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the correct sentence (habit in the present).",
+      "options": [
+        "He goes to school daily.",
+        "He go to school daily.",
+        "He going to school daily.",
+        "He gone to school daily."
+      ],
+      "answerIndex": 0,
+      "explanation": "A habit in the simple present with a singular subject takes goes."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Choose the correct sentence (plural subject).",
+      "options": [
+        "They is playing in the park.",
+        "They am playing in the park.",
+        "They was playing in the park now.",
+        "They are playing in the park."
+      ],
+      "answerIndex": 3,
+      "explanation": "The plural subject \"they\" takes \"are\" with the present continuous."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the correct sentence (subject \"I\").",
+      "options": [
+        "I has a pen.",
+        "I haves a pen.",
+        "I have a pen.",
+        "I am having a pen."
+      ],
+      "answerIndex": 2,
+      "explanation": "The subject \"I\" takes \"have\"."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the correct sentence (plural noun).",
+      "options": [
+        "The childrens are playing.",
+        "The childs are playing.",
+        "The children are playing.",
+        "The childrens is playing."
+      ],
+      "answerIndex": 2,
+      "explanation": "The plural of child is children (irregular); it already ends in -ren."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the correct sentence (comparison).",
+      "options": [
+        "She is taller then me.",
+        "She is taller than me.",
+        "She is more taller than me.",
+        "She is tallest than me."
+      ],
+      "answerIndex": 1,
+      "explanation": "The comparative takes \"than\", not \"then\", and \"taller\" is already a comparative."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the correct sentence (subject \"each\").",
+      "options": [
+        "Each of the boys has a book.",
+        "Each of the boys have a book.",
+        "Each of the boys are having a book.",
+        "Each of the boy has a book."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Each\" is the subject and is singular, so the verb is \"has\"; the noun after \"of\" is plural."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the correct sentence (verb after \"did not\").",
+      "options": [
+        "He did not came yesterday.",
+        "He did not comes yesterday.",
+        "He not came yesterday.",
+        "He did not come yesterday."
+      ],
+      "answerIndex": 3,
+      "explanation": "After \"did not\" the main verb is in the base form: come."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the correct sentence (subject \"neither\").",
+      "options": [
+        "Neither of them are ready.",
+        "Neither of them were ready.",
+        "Neither of them be ready.",
+        "Neither of them is ready."
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Neither\" is singular, so \"is\" is correct."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Choose the correct sentence (adjective or adverb).",
+      "options": [
+        "She sings very good.",
+        "She sings very goodly.",
+        "She sings very well.",
+        "She sing very well."
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Sings\" is a verb and needs the adverb well; good is an adjective."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the correct sentence (double comparative).",
+      "options": [
+        "He is more smarter than his brother.",
+        "He is smarter than his brother.",
+        "He is smarter then his brother.",
+        "He is most smarter than his brother."
+      ],
+      "answerIndex": 1,
+      "explanation": "Use either -er or more, never both, and use \"than\" in a comparison."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the correct sentence (uncountable noun \"news\").",
+      "options": [
+        "The news is good.",
+        "The news are good.",
+        "The news were good.",
+        "The news be good."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"News\" is an uncountable noun that takes a singular verb."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the correct sentence (verb \"agree\").",
+      "options": [
+        "I agree with you.",
+        "I am agree with you.",
+        "I am agreeing with you.",
+        "I agreeing with you."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Agree\" is a verb; \"am agree\" is wrong."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the correct sentence (told or said).",
+      "options": [
+        "She said me that she was late.",
+        "She told that she was late me.",
+        "She says me she was late.",
+        "She told me that she was late."
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Tell\" takes an object (told me); \"say\" does not."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the correct sentence (uncountable noun \"furniture\").",
+      "options": [
+        "Our furniture are old.",
+        "Our furnitures are old.",
+        "Our furniture is old.",
+        "Our furniture were old."
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Furniture\" is uncountable and takes a singular verb; it has no plural form."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the correct sentence (\"look forward to\").",
+      "options": [
+        "I look forward to meet you.",
+        "I look forward to meeting you.",
+        "I look forward for meeting you.",
+        "I am look forward to meeting you."
+      ],
+      "answerIndex": 1,
+      "explanation": "In \"look forward to\", \"to\" is a preposition and is followed by an -ing form."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the correct sentence (\"the reason is\").",
+      "options": [
+        "The reason is because he was late.",
+        "The reason is that he was late.",
+        "The reason is for he was late.",
+        "The reason being because he was late."
+      ],
+      "answerIndex": 1,
+      "explanation": "\"The reason is because\" is redundant; use \"the reason is that\"."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the correct sentence (\"despite\").",
+      "options": [
+        "Despite the rain, we went out.",
+        "Despite of the rain, we went out.",
+        "Despite from the rain, we went out.",
+        "In despite of the rain, we went out."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Despite\" is not followed by \"of\"; the alternative is \"in spite of the rain\"."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the correct sentence (reported question).",
+      "options": [
+        "She asked me that where I lived.",
+        "She asked me where did I live.",
+        "She asked me where do I live.",
+        "She asked me where I lived."
+      ],
+      "answerIndex": 3,
+      "explanation": "A reported question takes statement word order, with no \"that\"."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the correct sentence (neither-nor).",
+      "options": [
+        "Neither Ravi nor his friends is coming.",
+        "Neither Ravi nor his friends was coming.",
+        "Neither Ravi nor his friends are coming.",
+        "Neither Ravi nor his friends has coming."
+      ],
+      "answerIndex": 2,
+      "explanation": "With neither-nor the verb agrees with the nearer subject, \"his friends\" (plural), so \"are\"."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/spotting-errors/"
+}

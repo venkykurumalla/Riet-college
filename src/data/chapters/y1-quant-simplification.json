@@ -1,0 +1,372 @@
+{
+  "id": "y1-quant-simplification",
+  "yearId": 1,
+  "category": "Quantitative Foundation",
+  "topicNumber": 5,
+  "title": "Simplification & BODMAS/PEMDAS",
+  "tagline": "Year 1 Foundation — Simplification & BODMAS/PEMDAS from First Principles",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "Simplification is the art of reducing a complex arithmetic expression to a single number using the correct order of operations. BODMAS (Brackets, Orders, Division, Multiplication, Addition, Subtraction) — also known as PEMDAS — is the universal rule that prevents ambiguity. Without BODMAS, the expression 2 + 3 × 4 could be interpreted as 20 or 14; BODMAS mandates 14.",
+    "placementRelevance": "Simplification questions are commonly asked in company aptitude rounds, either directly or inside other questions. Speed and accuracy in BODMAS decide how many of them you can answer in time.",
+    "realWorldContext": "Every calculator, spreadsheet, and programming language follows BODMAS/PEMDAS internally. Excel formulas, SQL expressions, and Python arithmetic all rely on this order. Financial modelling and engineering calculations require strict operator precedence."
+  },
+  "learningObjectives": [
+    "Apply BODMAS/PEMDAS order correctly to multi-operation expressions",
+    "Simplify expressions involving nested brackets, fractions, and decimals",
+    "Use approximation to quickly estimate answers for option elimination",
+    "Avoid sign errors and bracket-expansion mistakes under time pressure"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Fractions and Decimals",
+      "Basic arithmetic"
+    ],
+    "quickRefresher": "Be fluent in fraction and decimal operations and in squares and square roots of small numbers."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "BODMAS: Brackets → Orders (powers/roots) → Division & Multiplication (left to right) → Addition & Subtraction (left to right).",
+      "Brackets hierarchy: Vinculum (bar) → Parentheses () → Braces {} → Square brackets [].",
+      "Of means multiplication: '½ of 36' = ½ × 36 = 18.",
+      "Division and Multiplication have EQUAL precedence — evaluate LEFT to RIGHT, not D before M.",
+      "Addition and Subtraction have EQUAL precedence — evaluate LEFT to RIGHT, not A before S."
+    ],
+    "theoreticalIntuition": "BODMAS is not an arbitrary convention — it ensures mathematical consistency. Multiplication distributes over addition (a × (b+c) = ab + ac), so multiplication must bind tighter than addition. Powers distribute over multiplication similarly, so they come first. The brackets override everything because they explicitly group operations.",
+    "visualOrMentalModel": "Think of BODMAS as a priority queue: Brackets have the highest priority (process first), then Orders, then Div/Mul (same level — go left to right), then Add/Sub (same level — go left to right). Mark each operation with its priority level, then execute from highest to lowest."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "BODMAS Order",
+      "formula": "B → O → D/M (left→right) → A/S (left→right)",
+      "variables": "B=Brackets, O=Orders, D=Division, M=Multiplication, A=Addition, S=Subtraction",
+      "description": "The universal operator precedence rule for arithmetic.",
+      "whenToUse": "Every simplification problem.",
+      "simpleExample": "8 + 2 × 5 = 8 + 10 = 18 (NOT 50)"
+    },
+    {
+      "title": "'Of' means multiply",
+      "formula": "'of' = ×",
+      "description": "'Of' in expressions means multiplication and has the same precedence as × and ÷.",
+      "whenToUse": "Expressions like '¼ of 80'.",
+      "simpleExample": "¼ of 80 = ¼ × 80 = 20"
+    },
+    {
+      "title": "Nested brackets — inside out",
+      "formula": "Evaluate innermost bracket first, then work outward",
+      "description": "Vinculum (bar) → () → {} → []",
+      "whenToUse": "Complex expressions with multiple bracket layers.",
+      "simpleExample": "[10 + {5 × (3+2)}] = [10 + {5×5}] = [10+25] = 35"
+    },
+    {
+      "title": "Fraction simplification shortcut",
+      "formula": "Cancel common factors before multiplying",
+      "description": "Reduce fractions early to avoid large numbers.",
+      "whenToUse": "Products of fractions.",
+      "simpleExample": "(12/15) × (25/36) → cancel 12&36 (÷12), 15&25 (÷5) → (1/1.25)×(5/3) = 5/9"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The most common error in simplification is evaluating left to right without respecting operator precedence. Consider 12 ÷ 4 × 3: many students compute 12 ÷ 12 = 1, but since ÷ and × have equal precedence, we go left to right: 12 ÷ 4 = 3, then 3 × 3 = 9.",
+      "When 'of' appears in an expression, treat it as multiplication. For example: ½ of 36 + 8 = 18 + 8 = 26. The 'of' binds to its operands before addition.",
+      "For expressions with nested brackets, always start from the innermost bracket and work outward. In [{(2+3) × 4} - 5], first compute (2+3)=5, then {5×4}=20, then [20-5]=15.",
+      "Approximation is your secret weapon in MCQ tests. If the expression evaluates to roughly 47 and the options are 23, 35, 47, 61 — pick 47 without computing the exact value. Round difficult decimals to nearby integers for quick estimation."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Why D/M and A/S Are Same-Level",
+        "content": "Division is multiplication by the reciprocal (a÷b = a×(1/b)), and subtraction is addition of the negative (a−b = a+(−b)). Since they are inverse operations of each other, they must have the same precedence. The left-to-right rule resolves ties."
+      },
+      {
+        "title": "Vinculum (Bar) — The Forgotten Bracket",
+        "content": "A vinculum is a horizontal bar over a group of terms, acting as an implicit bracket. In the expression 5 + (12 − 3̄+1̄), the bar groups 3+1 first: 5 + (12 − 4) = 5 + 8 = 13. Vinculums appear in some aptitude tests as fraction bars: everything above the bar is one group, everything below is another."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Pure BODMAS",
+      "description": "Simplify using correct order of operations.",
+      "exampleSnippet": "15 + 5 × 3 − 8 ÷ 2 = ?"
+    },
+    {
+      "typeName": "Fraction chains",
+      "description": "Simplify products or sums of multiple fractions.",
+      "exampleSnippet": "(3/4) × (8/9) × (15/16) = ?"
+    },
+    {
+      "typeName": "Nested brackets",
+      "description": "Expressions with (), {}, [].",
+      "exampleSnippet": "[50 − {20 + (8 − 3)}] = ?"
+    },
+    {
+      "typeName": "Decimal simplification",
+      "description": "Simplify expressions involving decimals.",
+      "exampleSnippet": "0.5 × 0.4 + 0.3 × 0.2 = ?"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-simp-1",
+      "title": "Basic BODMAS Application",
+      "question": "Simplify: 18 + 12 ÷ 3 × 2 − 5",
+      "givenInfo": [
+        "Expression: 18 + 12 ÷ 3 × 2 − 5"
+      ],
+      "conceptOrFormula": "BODMAS: Division and Multiplication before Addition and Subtraction (left to right).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Division first (left to right)",
+          "explanation": "12 ÷ 3 = 4. Expression becomes: 18 + 4 × 2 − 5",
+          "math": "12 ÷ 3 = 4"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Multiplication next",
+          "explanation": "4 × 2 = 8. Expression becomes: 18 + 8 − 5",
+          "math": "4 × 2 = 8"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Addition and Subtraction (left to right)",
+          "explanation": "18 + 8 = 26, then 26 − 5 = 21.",
+          "math": "18 + 8 − 5 = 21"
+        }
+      ],
+      "finalAnswer": "21",
+      "whyItWorks": "Division binds before addition, and multiplication binds before subtraction. Left-to-right within same precedence level.",
+      "commonTrap": "Computing 18+12=30 first (ignoring BODMAS) gives 30÷3×2−5 = 15, which is wrong.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-simp-2",
+      "title": "Nested Brackets",
+      "question": "Simplify: [48 − {18 + (6 − 2)}]",
+      "givenInfo": [
+        "Expression with nested brackets: [], {}, ()"
+      ],
+      "conceptOrFormula": "Evaluate innermost bracket first, work outward.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Innermost bracket ()",
+          "explanation": "(6 − 2) = 4. Expression: [48 − {18 + 4}]",
+          "math": "(6 − 2) = 4"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Braces {}",
+          "explanation": "{18 + 4} = 22. Expression: [48 − 22]",
+          "math": "{18 + 4} = 22"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Square brackets []",
+          "explanation": "[48 − 22] = 26.",
+          "math": "48 − 22 = 26"
+        }
+      ],
+      "finalAnswer": "26",
+      "whyItWorks": "Inside-out evaluation ensures every operation respects its containing scope.",
+      "commonTrap": "Forgetting to carry the subtraction sign when evaluating brackets.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-simp-3",
+      "title": "Fraction Chain with 'Of'",
+      "question": "Simplify: ¾ of 48 + 15 ÷ 5 − 8",
+      "givenInfo": [
+        "¾ of 48",
+        "15 ÷ 5",
+        "subtract 8"
+      ],
+      "conceptOrFormula": "'Of' = multiplication. Apply BODMAS after converting 'of'.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "'Of' = multiply",
+          "explanation": "¾ of 48 = ¾ × 48 = 36.",
+          "math": "(3/4) × 48 = 36"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Division",
+          "explanation": "15 ÷ 5 = 3.",
+          "math": "15 ÷ 5 = 3"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Add and subtract (left to right)",
+          "explanation": "36 + 3 − 8 = 31.",
+          "math": "36 + 3 − 8 = 31"
+        }
+      ],
+      "finalAnswer": "31",
+      "whyItWorks": "'Of', multiplication, and division all have the same precedence level — process left to right, then add/subtract.",
+      "commonTrap": "Treating 'of' as lower precedence than addition, computing 48 + 15 first.",
+      "difficulty": "Intermediate"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Simplification Speed Techniques",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Evaluate every operation step by step, writing out intermediate results.",
+      "shortcutMethod": "Scan for 'of', brackets, and high-precedence operations first. Use approximation to eliminate 2-3 options, then compute precisely only if needed."
+    },
+    "rulesForApplication": [
+      "Always convert 'of' to × immediately before anything else.",
+      "For decimal simplification, convert to fractions if the fractions are simpler (0.125 = 1/8, 0.375 = 3/8).",
+      "Use estimation: 4.97 × 8.02 ≈ 5 × 8 = 40 to eliminate far-off options."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Evaluating left to right without BODMAS",
+      "whyItHappens": "Students read expressions linearly like sentences.",
+      "howToAvoid": "Always scan the entire expression first. Mark all × ÷ operations, do them first, then + −."
+    },
+    {
+      "mistake": "Treating 'of' as addition or ignoring it",
+      "whyItHappens": "The word 'of' doesn't look like a math operator.",
+      "howToAvoid": "Replace 'of' with '×' in every expression before solving."
+    },
+    {
+      "mistake": "Doing D before M always (or A before S always)",
+      "whyItHappens": "BODMAS abbreviation suggests D comes before M.",
+      "howToAvoid": "D and M have EQUAL precedence — go left to right. Same for A and S."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 45,
+    "eliminationTechnique": "Round all values to nearest integer, compute approximately, and match the closest option. This works whenever the options are well spread out.",
+    "questionSelectionAdvice": "Simplification is low-risk, predictable. Always attempt these questions first in any aptitude test.",
+    "recruiterInsight": "Simplification tests arithmetic speed and accuracy — the two traits most correlated with on-the-job calculation tasks."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-simp-e1",
+        "question": "Simplify: 5 + 3 × 4 − 2",
+        "options": [
+          "30",
+          "15",
+          "24",
+          "12"
+        ],
+        "correctAnswer": "15",
+        "explanation": "BODMAS: 3×4=12 first. Then 5+12−2 = 15.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-simp-e2",
+        "question": "Simplify: (8 + 2) × 3",
+        "options": [
+          "14",
+          "30",
+          "26",
+          "18"
+        ],
+        "correctAnswer": "30",
+        "explanation": "Brackets first: (8+2)=10. Then 10×3 = 30.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-simp-i1",
+        "question": "Simplify: 36 ÷ 6 × 3 + 4 − 2",
+        "options": [
+          "20",
+          "4",
+          "16",
+          "10"
+        ],
+        "correctAnswer": "20",
+        "explanation": "Left to right for ÷ and ×: 36÷6=6, 6×3=18. Then 18+4−2 = 20.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-simp-i2",
+        "question": "Simplify: [25 − {10 + (3 + 2)}]",
+        "options": [
+          "10",
+          "15",
+          "8",
+          "20"
+        ],
+        "correctAnswer": "10",
+        "explanation": "Innermost: (3+2)=5. Then {10+5}=15. Then [25−15]=10.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-simp-a1",
+        "question": "Simplify: ⅔ of 45 + 18 ÷ 3 − 7",
+        "options": [
+          "27",
+          "29",
+          "31",
+          "23"
+        ],
+        "correctAnswer": "29",
+        "explanation": "⅔ of 45 = 30. 18÷3 = 6. 30+6−7 = 29.",
+        "difficulty": "Advanced"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-simp-p1",
+        "question": "Simplify: 3/4 × 16 + 2/5 of 25 − 12 ÷ 4",
+        "options": [
+          "19",
+          "22",
+          "25",
+          "15"
+        ],
+        "correctAnswer": "19",
+        "explanation": "3/4 × 16 = 12. 2/5 of 25 = 2/5 × 25 = 10. 12 ÷ 4 = 3. Total: 12 + 10 − 3 = 19.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "BODMAS: Brackets → Orders → Division/Multiplication (L→R) → Addition/Subtraction (L→R).",
+      "'Of' = multiplication. Always convert before solving.",
+      "D and M have EQUAL precedence — go LEFT to RIGHT. Same for A and S.",
+      "Nested brackets: innermost first → outward. () → {} → [].",
+      "Use approximation in MCQs to eliminate 2–3 options instantly."
+    ],
+    "quickFormulas": [
+      "BODMAS order: B → O → D/M → A/S",
+      "'of' = ×",
+      "Vinculum → () → {} → []"
+    ]
+  },
+  "keyTakeaways": [
+    "BODMAS is not optional — it is the ONLY correct way to evaluate arithmetic expressions.",
+    "D and M are same-level operators. A and S are same-level operators. Left-to-right breaks ties.",
+    "Approximation saves 30+ seconds on MCQ simplification questions."
+  ],
+  "selfCheckQuestions": [
+    "Simplify without a calculator: 24 ÷ 8 × 3 + 6 − 2. What is your answer?",
+    "What does '⅕ of 100 + 15' equal? Show your BODMAS steps.",
+    "True or False: In BODMAS, Division always comes before Multiplication."
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Chapter: Simplification"
+    },
+    {
+      "sourceName": "How to Prepare for QA — Arun Sharma",
+      "sourceType": "Reference",
+      "referenceNote": "Simplification section"
+    }
+  ]
+}

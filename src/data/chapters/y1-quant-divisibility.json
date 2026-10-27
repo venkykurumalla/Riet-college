@@ -1,0 +1,382 @@
+{
+  "id": "y1-quant-divisibility",
+  "yearId": 1,
+  "category": "Quantitative Foundation",
+  "topicNumber": 2,
+  "title": "Divisibility Rules",
+  "tagline": "Year 1 Foundation — Mental Shortcuts for Exact Division Testing",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "Divisibility rules are instant mental tests that confirm whether one integer exactly divides another — without performing long division. Knowing the rules for 2 to 13 removes a great deal of calculation when filtering options in aptitude questions.",
+    "placementRelevance": "Divisibility rules underpin HCF, LCM, simplification, and factor analysis. All major campus placement tests (TCS, Infosys, Wipro, Cognizant) include 2–4 divisibility-based questions either directly or as sub-steps of larger problems.",
+    "realWorldContext": "Every programming language uses modulus (%) to check divisibility. Div-by-2 checks odd/even data routing. Div-by-7 is used in calendar algorithms. Div-by-360 or 365 determines angular and calendar cycles. These rules have direct engineering applications."
+  },
+  "learningObjectives": [
+    "Understand and apply core principles of Divisibility Rules",
+    "Identify the correct problem type and method in Divisibility Rules",
+    "Solve Divisibility Rules questions within 45–60 seconds using shortcuts",
+    "Avoid common calculation traps in Divisibility Rules"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Number System Fundamentals",
+      "Multiplication tables up to 12"
+    ],
+    "quickRefresher": "Know the tables up to 12 and the meaning of \"divisible by\" and \"remainder\"."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Divisibility: A is divisible by B if A ÷ B gives remainder 0. Written B | A.",
+      "Factor/Divisor: B is a factor of A if B | A. Example: 6 is a factor of 42.",
+      "Multiple: A is a multiple of B if B | A. Example: 42 is a multiple of 6.",
+      "Remainder: A = B×Q + R where 0 ≤ R < B. Divisibility holds when R = 0.",
+      "Co-prime Component Rule: If gcd(a,b)=1 and N is divisible by both a and b, then N is divisible by a×b."
+    ],
+    "theoreticalIntuition": "Divisibility rules derive from modular arithmetic. Since 10 ≡ 1 (mod 9), each digit in any base-10 number contributes its face value to the number's residue mod 9 — giving the digit-sum rule. Since 10 ≡ 0 (mod 5), only the units digit determines divisibility by 5. Each rule has a mathematical reason, not just a pattern to memorize.",
+    "visualOrMentalModel": "Imagine divisibility as 'equal sharing'. Can 144 students be arranged in exactly 9 equal rows? Compute 1+4+4 = 9 → divisible by 9 → yes, 16 per row. This digit-sum shortcut replaces 144 ÷ 9 entirely and takes under 3 seconds."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Divisibility by 2",
+      "formula": "Last digit ∈ {0,2,4,6,8}",
+      "variables": "",
+      "description": "Number is even if and only if its last digit is even.",
+      "whenToUse": "Always — fastest filter.",
+      "simpleExample": "3,468: last digit 8 → divisible by 2."
+    },
+    {
+      "title": "Divisibility by 3",
+      "formula": "Digit sum ≡ 0 (mod 3)",
+      "variables": "",
+      "description": "Sum all digits; divisible by 3 iff sum is.",
+      "whenToUse": "Quick thirds filter.",
+      "simpleExample": "4,521: 4+5+2+1=12 → divisible by 3."
+    },
+    {
+      "title": "Divisibility by 4",
+      "formula": "Last two digits form a number divisible by 4",
+      "variables": "",
+      "description": "Hundreds and higher place values are always divisible by 4.",
+      "whenToUse": "Checking fours in large numbers.",
+      "simpleExample": "7,836: 36÷4=9 → divisible by 4."
+    },
+    {
+      "title": "Divisibility by 9",
+      "formula": "Digit sum ≡ 0 (mod 9)",
+      "variables": "",
+      "description": "Same as rule for 3 but digit sum must be divisible by 9.",
+      "whenToUse": "Ninths and eighteens.",
+      "simpleExample": "5,832: 5+8+3+2=18 → divisible by 9."
+    },
+    {
+      "title": "Divisibility by 11",
+      "formula": "(Sum of odd-position digits) − (Sum of even-position digits) ≡ 0 (mod 11)",
+      "variables": "",
+      "description": "Alternating digit sum from rightmost position.",
+      "whenToUse": "Large number divisibility by 11.",
+      "simpleExample": "29,678: odd-pos from right=8+6+2=16, even-pos=7+9=16. 16-16=0 → divisible by 11."
+    },
+    {
+      "title": "Total Number of Factors",
+      "formula": "If N=p^a × q^b × r^c, then #factors = (a+1)(b+1)(c+1)",
+      "variables": "",
+      "description": "Counts all positive divisors of N including 1 and N.",
+      "whenToUse": "Factor count, HCF/LCM prep.",
+      "simpleExample": "360=2³×3²×5¹ → (4)(3)(2)=24 factors."
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The rule for 2 is trivially explained: in base 10, every place value above the units (10, 100, 1000, …) is a multiple of 2. So only the units digit contributes to the number's odd/even status. The same logic — powers of 10 divisible by 4 beyond the tens place — explains why only the last two digits determine divisibility by 4, and the last three digits for divisibility by 8.",
+      "The digit-sum rules for 3 and 9 arise because 10 ≡ 1 (mod 3) and 10 ≡ 1 (mod 9). This means 10^k ≡ 1 for every positive k in both mod 3 and mod 9. Therefore any number N = d_n×10^n + … + d_1×10 + d_0 has the same remainder as d_n + … + d_1 + d_0 when divided by 3 or 9. This is why digit sums work perfectly for these divisors.",
+      "For divisibility by 7, the standard shortcut is: double the units digit, subtract from the number formed by the remaining digits, and repeat until you reach a small number. If that number is 0 or divisible by 7, the original is too. Example: Is 826 divisible by 7? Double 6 = 12. 82 - 12 = 70. 70 ÷ 7 = 10 → yes. (826 = 7×118 ✓). This works because 2×10 ≡ 1 (mod 7), so subtracting the doubled unit digit is equivalent to reducing mod 7.",
+      "For composite divisors, split into co-prime factor pairs: div by 6 = div by 2 AND 3; div by 12 = div by 4 AND 3; div by 15 = div by 3 AND 5; div by 18 = div by 2 AND 9; div by 45 = div by 9 AND 5. This decomposition holds ONLY when the two factors are co-prime — you cannot say div by 4 = div by 2 AND 2, since gcd(2,2) ≠ 1."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Complete Divisibility Rules Reference (2–13)",
+        "content": "2: last digit even. 3: digit sum div by 3. 4: last 2 digits div by 4. 5: last digit 0 or 5. 6: div by 2 AND 3. 7: double last digit, subtract from rest, repeat. 8: last 3 digits div by 8. 9: digit sum div by 9. 10: last digit 0. 11: alternating digit sum. 12: div by 4 AND 3. 13: 4× last digit + rest, repeat."
+      },
+      {
+        "title": "Finding Total Factors and Factor-Sum",
+        "content": "For N = p^a × q^b: Total factors = (a+1)(b+1). Sum of all factors = [(p^(a+1)−1)/(p−1)] × [(q^(b+1)−1)/(q−1)]. Number of even factors = total factors − odd factors (found by setting all powers of 2 to zero). These formulas are essential for advanced HCF/LCM and number theory placement questions."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct Divisibility Test",
+      "description": "Apply rules to check if a large number is divisible by 2–13.",
+      "exampleSnippet": "Is 7,623 divisible by both 3 and 11?"
+    },
+    {
+      "typeName": "Missing Digit for Divisibility",
+      "description": "Find unknown digit to satisfy a divisibility condition.",
+      "exampleSnippet": "4_72 is divisible by 9. What is the missing digit?"
+    },
+    {
+      "typeName": "Factor Count",
+      "description": "Use prime factorization to count all factors.",
+      "exampleSnippet": "How many factors does 120 have?"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-div-1",
+      "title": "Finding a Missing Digit for Divisibility by 9",
+      "question": "Find digit d such that 5d,832 is divisible by 9.",
+      "givenInfo": [
+        "Number: 5d832",
+        "Condition: divisible by 9"
+      ],
+      "conceptOrFormula": "Digit sum ≡ 0 (mod 9).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Sum known digits",
+          "explanation": "5+d+8+3+2 = 18+d",
+          "math": "5+d+8+3+2=18+d"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set up condition",
+          "explanation": "18+d must be divisible by 9. Since 18 is already divisible by 9, d must be 0 or 9.",
+          "math": "18+d\\equiv0\\pmod{9}\\implies d=0\\text{ or }d=9"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Both values are valid single digits",
+          "explanation": "d=0 gives 50,832 (digit sum 18 ✓). d=9 gives 59,832 (digit sum 27 ✓)."
+        }
+      ],
+      "finalAnswer": "d = 0 or d = 9",
+      "whyItWorks": "Digit sum rule for 9 is exact. 18 is already a multiple of 9, so adding any multiple of 9 preserves divisibility.",
+      "commonTrap": "Assuming only one value of d. Always check if multiple single digits satisfy the equation.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-div-2",
+      "title": "Counting Total Factors of 360",
+      "question": "How many total factors does 360 have?",
+      "givenInfo": [
+        "N = 360"
+      ],
+      "conceptOrFormula": "Total factors = (a+1)(b+1)(c+1) for N = p^a × q^b × r^c.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Prime factorize 360",
+          "explanation": "360 = 8×45 = 2³×3²×5¹",
+          "math": "360=2^3\\times3^2\\times5^1"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply formula",
+          "explanation": "Total factors = (3+1)(2+1)(1+1) = 4×3×2 = 24",
+          "math": "(3+1)(2+1)(1+1)=24"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Spot verification",
+          "explanation": "Some factors: 1,2,3,4,5,6,8,9,10,12,15,18,20,24,30,36,40,45,60,72,90,120,180,360 → count = 24 ✓"
+        }
+      ],
+      "finalAnswer": "24 total factors",
+      "whyItWorks": "The formula counts all combinations of prime power selections from 0 to max exponent for each prime.",
+      "commonTrap": "Using exponents directly (3×2×1=6) instead of (exponent+1) — always add 1 to each exponent.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-divisibility-3",
+      "title": "Smallest 5-digit number divisible by 88",
+      "question": "Find the smallest 5-digit number that is divisible by 88.",
+      "givenInfo": [
+        "88 = 8 × 11, and 8 and 11 are co-prime"
+      ],
+      "conceptOrFormula": "A number is divisible by 88 if it is divisible by both 8 and 11. Start from the smallest 5-digit number and add the shortfall.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide the smallest 5-digit number by 88",
+          "explanation": "10000 = 88 × 113 + 56, so the remainder is 56.",
+          "math": "10000 − 9944 = 56"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Add the shortfall",
+          "explanation": "To reach the next multiple of 88, add 88 − 56 = 32. The number is 10032.",
+          "math": "10000 + 32 = 10032"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Check with the rules",
+          "explanation": "For 8: the last three digits 032 = 32 are divisible by 8. For 11: (1 + 0 + 2) − (0 + 3) = 0, which is divisible by 11."
+        }
+      ],
+      "finalAnswer": "10032",
+      "whyItWorks": "Adding the shortfall from the remainder gives the next exact multiple, and the divisibility rules for 8 and 11 confirm it.",
+      "commonTrap": "Starting from 9999 and moving up or down by the wrong amount.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Divisibility Speed Shortcuts",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Perform long division for each divisibility check (10–15 seconds per test).",
+      "shortcutMethod": "Apply the appropriate digit/ending rule (2–13) for an instant test in under 5 seconds per divisor."
+    },
+    "rulesForApplication": [
+      "Div by 6: last digit even AND digit sum divisible by 3 — both conditions simultaneously.",
+      "Div by 12: last two digits divisible by 4 AND digit sum divisible by 3.",
+      "Div by 8: last THREE digits form a number divisible by 8. Example: 5,832 → 832÷8=104 → yes.",
+      "Factor count formula: (a+1)(b+1)(c+1)… — always add 1 to each prime exponent."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Applying rule for 3 to check divisibility by 9",
+      "whyItHappens": "Div by 3 does NOT guarantee div by 9 (12 is div by 3 but not 9).",
+      "howToAvoid": "For 9: digit sum must be a multiple of 9 specifically."
+    },
+    {
+      "mistake": "Using only last digit for divisibility by 4",
+      "whyItHappens": "Divisibility by 4 requires last TWO digits, not one.",
+      "howToAvoid": "Take last two digits together. 7,834: 34÷4=8.5 → NOT divisible by 4."
+    },
+    {
+      "mistake": "Forgetting +1 in factor count formula",
+      "whyItHappens": "Students use (a)(b)(c) instead of (a+1)(b+1)(c+1).",
+      "howToAvoid": "The +1 accounts for the zero-power choice (not including that prime factor). Always add 1."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "For div-by-9 MCQs: compute digit sum of each option in 2 seconds. Eliminate any whose digit sum is not a multiple of 9.",
+    "questionSelectionAdvice": "Memorize all rules 2–13. 30%+ of quantitative aptitude questions implicitly use a divisibility check as a first step.",
+    "recruiterInsight": "TCS NQT, Infosys Intellect, and Wipro Elite NTH each include 2–4 divisibility questions. Speed of mental application separates top scorers."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-div-e1",
+        "question": "Which is divisible by both 3 and 5?",
+        "options": [
+          "125",
+          "135",
+          "145",
+          "155"
+        ],
+        "correctAnswer": "135",
+        "explanation": "135 ends in 5 → div by 5. 1+3+5=9 → div by 3. ✓",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-div-e2",
+        "question": "How many factors does 36 have?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "correctAnswer": "9",
+        "explanation": "36=2²×3². Factors=(2+1)(2+1)=9.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-div-i1",
+        "question": "A number 4d125 is divisible by 9. Find d.",
+        "options": [
+          "3",
+          "5",
+          "6",
+          "7"
+        ],
+        "correctAnswer": "6",
+        "explanation": "4+d+1+2+5=12+d. For div by 9: 12+d=18 → d=6.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-div-i2",
+        "question": "How many factors does 72 have?",
+        "options": [
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "correctAnswer": "12",
+        "explanation": "72=2³×3². Factors=(3+1)(2+1)=12.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-div-a1",
+        "question": "How many integers from 1–200 are divisible by neither 4 nor 6?",
+        "options": [
+          "100",
+          "117",
+          "133",
+          "150"
+        ],
+        "correctAnswer": "133",
+        "explanation": "By 4:50, by 6:33, by LCM(4,6)=12:16. By 4 or 6: 50+33-16=67. Neither: 200-67=133.",
+        "difficulty": "Advanced"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-div-p1",
+        "question": "Largest 4-digit number divisible by both 8 and 9:",
+        "options": [
+          "9936",
+          "9864",
+          "9720",
+          "9888"
+        ],
+        "correctAnswer": "9936",
+        "explanation": "LCM(8,9)=72. 9999÷72=138.87 → 138×72=9936. Check: 9936÷8=1242 ✓, 9936÷9=1104 ✓.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "2: last digit even. 3/9: digit sum. 4: last 2 digits. 5: last digit 0/5. 8: last 3 digits. 11: alternating digit sum.",
+      "Composite rule: check co-prime components separately (6=2×3, 12=4×3, 15=3×5).",
+      "Total factors = (a+1)(b+1)(c+1)… — never forget the +1.",
+      "Missing digit: set digit sum = nearest multiple of divisor and solve for unknown."
+    ],
+    "quickFormulas": [
+      "Total factors: (a+1)(b+1)(c+1)",
+      "Div by 9: digit sum mod 9 = 0",
+      "Div by 11: |odd-pos sum − even-pos sum| mod 11 = 0"
+    ]
+  },
+  "keyTakeaways": [
+    "Divisibility rules for 2 to 13 save a lot of calculation time — learn them all before any placement test.",
+    "The factor count formula (a+1)(b+1)… is foundational for HCF, LCM, and number theory.",
+    "Composite divisor rules (6, 12, 15, 18, 45) are derived from co-prime pairs — understand the reason, not just the rule."
+  ],
+  "selfCheckQuestions": [
+    "Without dividing, is 123,456 divisible by 9? Show digit sum.",
+    "How many factors does 240 have?",
+    "Write divisibility rules for 2,3,4,5,6,8,9,10,11 from memory."
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Chapter: Divisibility Rules and Factor Analysis"
+    },
+    {
+      "sourceName": "NCERT Mathematics Class 6",
+      "sourceType": "Reference",
+      "referenceNote": "Chapter 3: Playing with Numbers"
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "id": "y1-verbal-synonyms-antonyms",
+  "yearId": 1,
+  "category": "Verbal Ability",
+  "topicNumber": 29,
+  "title": "Synonyms and Antonyms",
+  "tagline": "Year 1 Foundation — Words with the same and opposite meanings, and how to choose between them",
+  "estimatedMinutes": 40,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "A synonym is a word with the same or nearly the same meaning as another word (begin and start). An antonym is a word with the opposite meaning (strong and weak). Placement tests ask for the closest synonym or antonym of a given word, often with options that include a confusing near-miss. Success depends on knowing the core meaning of the word, whether it is positive or negative in tone, and which part of speech it is.",
+    "placementRelevance": "Synonym and antonym questions are commonly asked in the verbal ability section of company aptitude rounds. They are quick, so accuracy and a steady vocabulary routine pay off directly.",
+    "realWorldContext": "Writers use synonyms to avoid repeating the same word and to find a more precise one. Antonyms help to contrast ideas clearly in reports and emails."
+  },
+  "learningObjectives": [
+    "Identify the closest synonym and the exact antonym of a word",
+    "Recognise shades of meaning and tone (positive, negative, neutral)",
+    "Use prefixes to form antonyms and to spot trap options",
+    "Eliminate options that are related but not opposite",
+    "Build a routine for pairing every new word with a synonym and an antonym"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Vocabulary"
+    ],
+    "quickRefresher": "The class of the word matters: a synonym of a verb is a verb, and a synonym of an adjective is an adjective. The tone matters too: stubborn (negative) is not the same as determined (positive), although both describe someone who does not change their mind."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Synonym: a word that has the same or nearly the same meaning as another word in a given context.",
+      "Antonym: a word that has the opposite meaning. Types include gradable (hot/cold), complementary (alive/dead) and relational (buy/sell).",
+      "Connotation: the feeling a word carries beyond its dictionary meaning (positive, negative or neutral).",
+      "Near-miss option: a distractor that is related in meaning but not a true synonym or antonym.",
+      "Context: the sentence in which the word appears, which often decides the correct meaning of a word with more than one sense."
+    ],
+    "theoreticalIntuition": "The correct option is the one you could substitute into the sentence without changing its meaning (synonym) or whose meaning reverses the original (antonym). Be careful with words that have several meanings: \"fair\" can mean just, light-coloured or fairly good, and the context tells you which one is meant.",
+    "visualOrMentalModel": "For a synonym, put the answer in place of the word in a short sentence and check that it reads naturally. For an antonym, check that the answer really is the opposite and not merely different. \"Cold\" is the antonym of \"hot\", but \"wet\" is not."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Substitution test (synonym)",
+      "formula": "Replace the word with the option in a sentence",
+      "description": "The meaning must stay the same.",
+      "whenToUse": "Synonym questions.",
+      "simpleExample": "The soldier was brave → courageous works"
+    },
+    {
+      "title": "Opposite test (antonym)",
+      "formula": "The option must reverse the meaning",
+      "description": "Check that it is not merely different.",
+      "whenToUse": "Antonym questions.",
+      "simpleExample": "generous ↔ stingy"
+    },
+    {
+      "title": "Tone check",
+      "formula": "Positive ↔ positive in synonyms; positive ↔ negative in antonyms",
+      "description": "Match or reverse the tone.",
+      "whenToUse": "Choosing among near-miss options.",
+      "simpleExample": "obstinate (negative) → stubborn (negative)"
+    },
+    {
+      "title": "Prefix antonyms",
+      "formula": "un-, in-, im-, dis-, non- build many antonyms",
+      "description": "Not every antonym uses a prefix.",
+      "whenToUse": "Quick elimination.",
+      "simpleExample": "permanent ↔ temporary (no prefix)"
+    },
+    {
+      "title": "Common word pairs",
+      "formula": "conceal = hide; tranquil = calm; candid = frank; mitigate = lessen; expand ↔ contract; scarce ↔ plentiful; transparent ↔ opaque; zenith ↔ nadir",
+      "description": "Revise a few new pairs every day.",
+      "whenToUse": "Vocabulary building.",
+      "simpleExample": "ephemeral = short-lived"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "For a synonym, find the option whose meaning matches the word most closely in the usual sense. The word courageous means brave. An option such as \"foolish\" is not a synonym even though foolish people may take risks. Always avoid options that are only loosely connected.",
+      "For an antonym, find the true opposite. The antonym of generous is stingy (unwilling to give). The option \"rich\" is not an antonym; a rich person can be generous or stingy. Remember that antonyms are about meaning, not about spelling or prefixes.",
+      "Many questions give one correct answer and one or two near-misses. \"Candid\" means frank and honest. \"Polite\" and \"secretive\" are traps: polite is different in meaning, and secretive is nearly opposite. Check the tone and the main sense before choosing.",
+      "Words with several meanings change their synonyms with context. In \"a fair judge\", fair means just; in \"a fair complexion\", it means light. If the question gives no sentence, choose the most common meaning.",
+      "To build vocabulary quickly, write each new word with one synonym, one antonym and a sentence. Revise the same words after one day, one week and one month. This spaced revision is more effective than reading a long list once."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Degrees of meaning",
+        "content": "Synonyms are rarely identical. Small, tiny and minute all relate to size but at different degrees; huge, enormous and gigantic are all very large. In tests, choose the option closest in degree to the given word."
+      },
+      {
+        "title": "Antonyms with prefixes versus without",
+        "content": "Some antonyms are formed with prefixes (possible → impossible), while others are separate words (permanent ↔ temporary). Do not assume that every antonym takes a prefix. Check whether the prefixed word is meaningful and commonly used."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct synonym",
+      "description": "Find the closest word.",
+      "exampleSnippet": "Synonym of begin."
+    },
+    {
+      "typeName": "Direct antonym",
+      "description": "Find the opposite.",
+      "exampleSnippet": "Antonym of strong."
+    },
+    {
+      "typeName": "Near-miss traps",
+      "description": "Related but wrong options.",
+      "exampleSnippet": "Synonym of obstinate."
+    },
+    {
+      "typeName": "Context-based",
+      "description": "The sentence decides the meaning.",
+      "exampleSnippet": "Antonym of \"fair\" in a fair complexion."
+    },
+    {
+      "typeName": "Advanced pairs",
+      "description": "Less common words.",
+      "exampleSnippet": "Antonym of zenith."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-verbal-synonyms-antonyms-1",
+      "title": "Synonym with a near-miss",
+      "question": "Choose the synonym of \"obstinate\": (flexible / stubborn / gentle / wise)",
+      "givenInfo": [
+        "Word: obstinate"
+      ],
+      "conceptOrFormula": "Match the core meaning and the tone.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the core meaning",
+          "explanation": "Obstinate means unwilling to change one's opinion or behaviour, despite good reasons."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Check the tone",
+          "explanation": "The tone is negative (unreasonably firm)."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Compare the options",
+          "explanation": "Stubborn has the same meaning and tone. Flexible is the opposite; gentle and wise are unrelated."
+        }
+      ],
+      "finalAnswer": "stubborn",
+      "whyItWorks": "The substitution test works: \"an obstinate child\" = \"a stubborn child\".",
+      "commonTrap": "Choosing \"wise\" because both are about personality.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-verbal-synonyms-antonyms-2",
+      "title": "Antonym that is not simply \"different\"",
+      "question": "Choose the antonym of \"generous\": (rich / stingy / kind / poor)",
+      "givenInfo": [
+        "Word: generous"
+      ],
+      "conceptOrFormula": "An antonym reverses the meaning.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the meaning",
+          "explanation": "Generous means willing to give freely."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Reverse it",
+          "explanation": "The opposite is unwilling to give, which is stingy."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Reject the traps",
+          "explanation": "Rich and poor describe wealth, not giving; kind is a synonym."
+        }
+      ],
+      "finalAnswer": "stingy",
+      "whyItWorks": "A person who is poor can still be generous; the relationship is about giving, not money.",
+      "commonTrap": "Choosing \"poor\" because it looks opposite to \"rich\".",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-verbal-synonyms-antonyms-3",
+      "title": "Antonym without a prefix",
+      "question": "Choose the antonym of \"permanent\": (temporary / impermanent / fixed / lasting)",
+      "givenInfo": [
+        "Word: permanent"
+      ],
+      "conceptOrFormula": "Prefixes do not always create the opposite word used in tests.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the meaning",
+          "explanation": "Permanent means lasting for a long time or forever."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Find the opposite",
+          "explanation": "Temporary means lasting only for a short time."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Check the other options",
+          "explanation": "Fixed and lasting are close to permanent."
+        }
+      ],
+      "finalAnswer": "temporary",
+      "whyItWorks": "Temporary is the standard antonym of permanent.",
+      "commonTrap": "Hunting for a prefixed form.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Substitute and reverse",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compare every option with every meaning of the word.",
+      "shortcutMethod": "Say the word in a simple sentence. Test each option by replacing it (synonym) or by checking that it flips the meaning (antonym). Cross out options that are merely related."
+    },
+    "rulesForApplication": [
+      "Match the part of speech and the tone.",
+      "If two options are synonyms of each other, neither is likely to be the answer to an antonym question.",
+      "Prefix-formed words are not always the intended antonym.",
+      "If the word has several meanings, choose the one in the sentence or the commonest one."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing a related word instead of a synonym",
+      "whyItHappens": "Picking \"wise\" for \"obstinate\".",
+      "howToAvoid": "Use the substitution test."
+    },
+    {
+      "mistake": "Choosing \"different\" instead of \"opposite\"",
+      "whyItHappens": "Picking \"poor\" as the antonym of \"generous\".",
+      "howToAvoid": "Check that the option reverses the same quality."
+    },
+    {
+      "mistake": "Ignoring tone",
+      "whyItHappens": "Mixing positive and negative words.",
+      "howToAvoid": "Match or reverse the tone as required."
+    },
+    {
+      "mistake": "Assuming a prefix always makes the antonym",
+      "whyItHappens": "Choosing \"impermanent\" over \"temporary\".",
+      "howToAvoid": "Consider the standard antonym first."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 15,
+    "eliminationTechnique": "Remove options that are synonyms of each other; one of the remaining may be the answer to an antonym question.",
+    "questionSelectionAdvice": "Do these questions quickly. If you do not know the word, use the prefix, root and tone to eliminate options.",
+    "recruiterInsight": "A little daily reading and a notebook of new words gives better results than any last-minute list."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-verbal-synonyms-antonyms-e1",
+        "question": "Choose the synonym of \"begin\".",
+        "options": [
+          "finish",
+          "start",
+          "stop",
+          "rest"
+        ],
+        "correctAnswer": "start",
+        "explanation": "Begin and start both mean to commence an action.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-synonyms-antonyms-e2",
+        "question": "Choose the antonym of \"strong\".",
+        "options": [
+          "weak",
+          "heavy",
+          "large",
+          "tall"
+        ],
+        "correctAnswer": "weak",
+        "explanation": "Strong means having great power; its opposite is weak.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-synonyms-antonyms-e3",
+        "question": "Choose the synonym of \"smart\".",
+        "options": [
+          "slow",
+          "quiet",
+          "lazy",
+          "clever"
+        ],
+        "correctAnswer": "clever",
+        "explanation": "Smart (in the sense of intelligent) means clever.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-verbal-synonyms-antonyms-i7",
+        "question": "Choose the synonym of \"courageous\".",
+        "options": [
+          "brave",
+          "careful",
+          "curious",
+          "foolish"
+        ],
+        "correctAnswer": "brave",
+        "explanation": "Courageous means having courage, i.e. brave.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-synonyms-antonyms-i8",
+        "question": "Choose the antonym of \"generous\".",
+        "options": [
+          "kind",
+          "rich",
+          "poor",
+          "stingy"
+        ],
+        "correctAnswer": "stingy",
+        "explanation": "Generous means willing to give freely; stingy means unwilling to give.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-synonyms-antonyms-i9",
+        "question": "Choose the synonym of \"conceal\".",
+        "options": [
+          "reveal",
+          "show",
+          "discover",
+          "hide"
+        ],
+        "correctAnswer": "hide",
+        "explanation": "To conceal is to keep something from being seen, i.e. to hide.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-verbal-synonyms-antonyms-a15",
+        "question": "Choose the synonym of \"candid\".",
+        "options": [
+          "polite",
+          "secretive",
+          "frank",
+          "shy"
+        ],
+        "correctAnswer": "frank",
+        "explanation": "Candid means open and honest in speech, i.e. frank.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-synonyms-antonyms-a16",
+        "question": "Choose the antonym of \"diligent\".",
+        "options": [
+          "careful",
+          "lazy",
+          "quick",
+          "strict"
+        ],
+        "correctAnswer": "lazy",
+        "explanation": "Diligent means hard-working; lazy means unwilling to work.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-verbal-synonyms-antonyms-p17",
+        "question": "Choose the synonym of \"mitigate\".",
+        "options": [
+          "worsen",
+          "lessen",
+          "ignore",
+          "invite"
+        ],
+        "correctAnswer": "lessen",
+        "explanation": "To mitigate is to make something less severe, i.e. to lessen it.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-synonyms-antonyms-p18",
+        "question": "Choose the antonym of \"transparent\".",
+        "options": [
+          "opaque",
+          "clear",
+          "thin",
+          "glassy"
+        ],
+        "correctAnswer": "opaque",
+        "explanation": "Transparent means allowing light to pass through so that things can be seen; opaque means not allowing this.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-synonyms-antonyms-p19",
+        "question": "Choose the synonym of \"ephemeral\".",
+        "options": [
+          "eternal",
+          "valuable",
+          "heavy",
+          "short-lived"
+        ],
+        "correctAnswer": "short-lived",
+        "explanation": "Ephemeral means lasting for a very short time.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Synonym = same meaning; antonym = opposite meaning.",
+      "Check the part of speech and the tone.",
+      "Substitution test for synonyms; reversal test for antonyms.",
+      "Beware of near-miss options.",
+      "Learn new words in pairs with a sentence."
+    ],
+    "quickFormulas": [
+      "Substitution test",
+      "Reversal test",
+      "Tone check"
+    ]
+  },
+  "keyTakeaways": [
+    "Meaning and tone decide.",
+    "Opposite is not the same as different.",
+    "Context settles words with many meanings.",
+    "Daily revision builds vocabulary."
+  ],
+  "selfCheckQuestions": [
+    "Can I give a synonym and an antonym of \"generous\"?",
+    "Can I spot a near-miss option?",
+    "Can I explain why \"temporary\" is the antonym of \"permanent\"?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Oxford Advanced Learner's Dictionary",
+      "sourceType": "Reference",
+      "referenceNote": "Meanings of the words discussed."
+    },
+    {
+      "sourceName": "Roget's Thesaurus",
+      "sourceType": "Reference",
+      "referenceNote": "Groups of synonyms and antonyms."
+    }
+  ]
+}

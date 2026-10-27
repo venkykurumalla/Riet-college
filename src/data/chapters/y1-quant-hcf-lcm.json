@@ -1,0 +1,371 @@
+{
+  "id": "y1-quant-hcf-lcm",
+  "yearId": 1,
+  "category": "Quantitative Foundation",
+  "topicNumber": 3,
+  "title": "HCF and LCM Fundamentals",
+  "tagline": "Year 1 Foundation — Greatest Common Factor & Least Common Multiple",
+  "estimatedMinutes": 55,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "HCF (Highest Common Factor) and LCM (Least Common Multiple) are two of the most important operations in elementary number theory. They model real-world problems of equal division, scheduling, tiling, and concurrent events. HCF and LCM questions are commonly asked in company aptitude rounds.",
+    "placementRelevance": "HCF and LCM are commonly tested directly in company aptitude rounds and are embedded in work/time, distance/time, and fraction problems. The fundamental identity HCF×LCM = A×B is the fastest tool for finding missing values.",
+    "realWorldContext": "Operating systems use LCM for scheduling CPU tasks at equal intervals. Network protocols use HCF to align data packet sizes. Civil engineers use HCF to cut materials into maximum equal-sized pieces. LCM governs synchronization of repeating processes."
+  },
+  "learningObjectives": [
+    "Understand and apply core principles of HCF and LCM Fundamentals",
+    "Identify the correct problem type and method in HCF and LCM Fundamentals",
+    "Solve HCF and LCM Fundamentals questions within 45–60 seconds using shortcuts",
+    "Avoid common calculation traps in HCF and LCM Fundamentals"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Number System Fundamentals",
+      "Divisibility Rules",
+      "Prime factorisation"
+    ],
+    "quickRefresher": "Be able to write a number as a product of primes and to test divisibility quickly."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "HCF (Highest Common Factor): The largest integer that divides two or more given numbers exactly. Also called GCD (Greatest Common Divisor). HCF(12, 18) = 6.",
+      "LCM (Least Common Multiple): The smallest positive integer that is divisible by two or more given numbers. LCM(4, 6) = 12.",
+      "Key Identity: HCF(A,B) × LCM(A,B) = A × B — fundamental for solving problems when 3 of the 4 values are known.",
+      "Co-prime numbers: HCF = 1, so LCM = A × B.",
+      "HCF ≤ min(A,B) and LCM ≥ max(A,B) — use these inequalities to eliminate impossible options."
+    ],
+    "theoreticalIntuition": "HCF answers: 'What is the largest equal unit I can cut both A and B into?' LCM answers: 'What is the smallest time when both periodic events A and B coincide?' These framings make problem identification instant: equal distribution/cutting → HCF; scheduling/cycling → LCM.",
+    "visualOrMentalModel": "HCF = intersection of prime factor sets (minimum exponents of COMMON primes). LCM = union of prime factor sets (maximum exponents of ALL primes). Visualize: HCF(36,48): 36=2²×3², 48=2⁴×3 → common primes are 2 and 3 → take min powers: HCF=2²×3=12. LCM: take max powers: 2⁴×3²=144."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "HCF × LCM = A × B",
+      "formula": "HCF(A,B) × LCM(A,B) = A × B",
+      "variables": "A, B = the two numbers",
+      "description": "Fundamental identity — works for exactly TWO numbers only.",
+      "whenToUse": "When 3 of the 4 quantities are known.",
+      "simpleExample": "HCF=6, LCM=36, A=12 → B=6×36/12=18."
+    },
+    {
+      "title": "HCF by Prime Factorization",
+      "formula": "HCF = product of LOWEST powers of COMMON prime factors",
+      "variables": "",
+      "description": "Factorize both numbers, take minimum exponent of each shared prime.",
+      "whenToUse": "Standard HCF calculation method.",
+      "simpleExample": "HCF(36,48): 36=2²×3², 48=2⁴×3¹. Common: 2(min 2,4)=2², 3(min 2,1)=3¹. HCF=4×3=12."
+    },
+    {
+      "title": "LCM by Prime Factorization",
+      "formula": "LCM = product of HIGHEST powers of ALL prime factors",
+      "variables": "",
+      "description": "Collect all primes from both numbers with maximum exponent.",
+      "whenToUse": "Standard LCM calculation method.",
+      "simpleExample": "LCM(36,48): primes 2(max 4)=2⁴, 3(max 2)=3². LCM=16×9=144."
+    },
+    {
+      "title": "HCF by Euclidean Algorithm",
+      "formula": "HCF(A,B) = HCF(B, A mod B), repeat until remainder=0",
+      "variables": "",
+      "description": "Efficient for large numbers. Last non-zero remainder is HCF.",
+      "whenToUse": "Large numbers where factorization is slow.",
+      "simpleExample": "HCF(252,105): 252=2×105+42 → HCF(105,42): 105=2×42+21 → HCF(42,21): 42=2×21+0 → HCF=21."
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "HCF finds the maximum equal unit. If you want to cut a 48 m rope and a 36 m rope into the largest possible equal pieces with no leftover, each piece must be HCF(48, 36) = 12 m, giving 4 pieces from the first and 3 from the second — 7 total, zero waste. The HCF is the 'common measure' that divides both quantities perfectly.",
+      "LCM finds the minimum common cycle. If Bus A departs every 12 minutes and Bus B every 18 minutes, and both depart at 9:00 AM, they next depart together after LCM(12, 18) = 36 minutes — at 9:36 AM. LCM is the 'first point of synchronization' of two or more repeating events.",
+      "The product formula HCF×LCM = A×B is the most powerful shortcut in this chapter. When any three of the four quantities are known, substitute and solve for the fourth in a single step. Many placement questions give HCF and LCM and ask for a second number given the first — do not factorize; use the formula directly.",
+      "For three or more numbers: HCF(A,B,C) = HCF(HCF(A,B), C) and LCM(A,B,C) = LCM(LCM(A,B), C). The product formula CANNOT be extended to three numbers — it strictly applies to pairs only."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Euclidean Algorithm — Mathematical Basis",
+        "content": "The algorithm uses the fact that HCF(A,B) = HCF(B, A mod B). This holds because any common divisor of A and B must also divide A − B, A − 2B, …, and ultimately A mod B (which is A minus some multiple of B). Repeated application reduces the problem until one value becomes 0, at which point the other equals the HCF. For HCF(1071, 462): 1071=2×462+147 → HCF(462,147): 462=3×147+21 → HCF(147,21): 147=7×21+0 → HCF=21."
+      },
+      {
+        "title": "HCF/LCM Problem Type Recognition Guide",
+        "content": "Type 1 — Equal distribution/Maximum equal piece: HCF. Example: 'Largest tiles to cover floor without cutting'. Type 2 — Scheduling/When do they meet again: LCM. Example: 'When do three bells ring together'. Type 3 — 'Largest number that divides A, B, C leaving same remainder R': HCF(A−R, B−R, C−R). Type 4 — 'Smallest number divisible by A and B': LCM. Type 5 — 'Smallest number that when divided by A and B leaves remainder R': LCM(A,B)+R."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Equal Distribution (HCF)",
+      "description": "Find maximum equal-size groups from two or more quantities.",
+      "exampleSnippet": "Two pieces of ribbon 48m and 36m — find maximum equal piece length."
+    },
+    {
+      "typeName": "Scheduling (LCM)",
+      "description": "Find when two or more periodic events first coincide.",
+      "exampleSnippet": "Bells ring every 4, 6, 9 minutes — when do they ring together?"
+    },
+    {
+      "typeName": "Missing Number via Product Formula",
+      "description": "Use HCF×LCM=A×B to find an unknown.",
+      "exampleSnippet": "HCF=11, LCM=693, one number=77. Find the other."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-hcf-1",
+      "title": "Finding Missing Number Using HCF×LCM = A×B",
+      "question": "The HCF of two numbers is 11 and their LCM is 693. If one number is 77, find the other.",
+      "givenInfo": [
+        "HCF = 11",
+        "LCM = 693",
+        "First number A = 77"
+      ],
+      "conceptOrFormula": "HCF×LCM = A×B → B = (HCF×LCM)/A",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Apply product formula",
+          "explanation": "A×B = HCF×LCM = 11×693 = 7,623",
+          "math": "11\\times693=7623"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Find B",
+          "explanation": "B = 7,623 ÷ 77 = 99",
+          "math": "B=\\frac{7623}{77}=99"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Verify",
+          "explanation": "77=7×11, 99=9×11. HCF=11 ✓. LCM=7×9×11=693 ✓"
+        }
+      ],
+      "finalAnswer": "99",
+      "whyItWorks": "The product formula is the fastest route when 3 of the 4 values (HCF, LCM, A, B) are known.",
+      "commonTrap": "Manually finding LCM instead of using the formula — wastes 40+ seconds.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-hcf-2",
+      "title": "Three Bells Ringing Together — LCM Application",
+      "question": "Three bells ring at intervals of 12, 15, and 20 minutes. If they all ring together at 6:00 AM, when do they next ring together?",
+      "givenInfo": [
+        "Intervals: 12, 15, 20 minutes",
+        "Start: 6:00 AM"
+      ],
+      "conceptOrFormula": "Next simultaneous ring = after LCM(12, 15, 20) minutes.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Prime factorize each",
+          "explanation": "12=2²×3, 15=3×5, 20=2²×5",
+          "math": "12=2^2\\times3,\\;15=3\\times5,\\;20=2^2\\times5"
+        },
+        {
+          "stepNumber": 2,
+          "title": "LCM = max power of each prime",
+          "explanation": "LCM = 2²×3×5 = 4×3×5 = 60 minutes",
+          "math": "LCM=2^2\\times3\\times5=60"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Calculate time",
+          "explanation": "60 minutes after 6:00 AM = 7:00 AM"
+        }
+      ],
+      "finalAnswer": "7:00 AM",
+      "whyItWorks": "LCM gives the minimum time that is a multiple of all three intervals — the first simultaneous occurrence.",
+      "commonTrap": "Adding intervals (12+15+20=47) or multiplying them instead of computing LCM.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-hcf-lcm-3",
+      "title": "Least number leaving the same remainder",
+      "question": "Find the least number which, when divided by 6, 9 and 15, leaves a remainder of 4 in each case.",
+      "givenInfo": [
+        "Divisors: 6, 9, 15",
+        "Remainder in each case: 4"
+      ],
+      "conceptOrFormula": "Required number = LCM of the divisors + common remainder.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the LCM",
+          "explanation": "6 = 2 × 3, 9 = 3², 15 = 3 × 5. LCM = 2 × 3² × 5 = 90.",
+          "math": "LCM = 90"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Add the remainder",
+          "explanation": "The number is a multiple of 90 plus 4. The least such number is 90 + 4 = 94.",
+          "math": "90 + 4 = 94"
+        },
+        {
+          "stepNumber": 3,
+          "title": "Check",
+          "explanation": "94 ÷ 6 leaves 4, 94 ÷ 9 leaves 4, 94 ÷ 15 leaves 4."
+        }
+      ],
+      "finalAnswer": "94",
+      "whyItWorks": "A multiple of the LCM leaves remainder 0 for every divisor, so adding 4 leaves remainder 4 for each.",
+      "commonTrap": "Giving the LCM (90) as the answer.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "HCF and LCM Speed Methods",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "List all factors of each number and pick the greatest common one (slow for large numbers).",
+      "shortcutMethod": "Euclidean algorithm for HCF (4–6 steps). Product formula HCF×LCM=A×B to find missing values instantly."
+    },
+    "rulesForApplication": [
+      "Co-prime numbers: HCF=1, so LCM = A×B directly.",
+      "Product formula works ONLY for TWO numbers — do not use for three.",
+      "Smallest number divisible by A and B leaving remainder R: LCM(A,B) + R.",
+      "HCF(A,B,C) = HCF(HCF(A,B), C) — compute iteratively."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Extending product formula to 3 numbers",
+      "whyItHappens": "HCF×LCM = A×B strictly holds for TWO numbers only.",
+      "howToAvoid": "For 3 numbers, find HCF or LCM step by step: HCF(HCF(A,B),C)."
+    },
+    {
+      "mistake": "Confusing HCF and LCM problem types",
+      "whyItHappens": "Applying LCM where HCF is needed.",
+      "howToAvoid": "Equal cutting/maximum divisor → HCF. Scheduling/minimum common cycle → LCM."
+    },
+    {
+      "mistake": "Euclidean algorithm in wrong direction",
+      "whyItHappens": "Dividing smaller by larger in the first step.",
+      "howToAvoid": "Always divide LARGER by SMALLER. HCF(A,B) where A>B: compute A mod B, then HCF(B, A mod B)."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 55,
+    "eliminationTechnique": "HCF MCQs: answer must divide both given numbers. LCM MCQs: answer must be divisible by both. These filters instantly eliminate 2–3 options.",
+    "questionSelectionAdvice": "Identify problem type first (equal cutting → HCF; scheduling → LCM). Then choose Euclidean algorithm or product formula depending on what information is given.",
+    "recruiterInsight": "HCF/LCM is tested in TCS NQT, Infosys Intellect, and Cognizant GenC aptitude rounds. It also appears embedded in work/time and pipes problems."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-hcf-e1",
+        "question": "LCM of 4, 6, and 9:",
+        "options": [
+          "24",
+          "36",
+          "48",
+          "72"
+        ],
+        "correctAnswer": "36",
+        "explanation": "4=2², 6=2×3, 9=3². LCM=2²×3²=36.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-hcf-e2",
+        "question": "HCF of 48 and 64:",
+        "options": [
+          "8",
+          "12",
+          "16",
+          "24"
+        ],
+        "correctAnswer": "16",
+        "explanation": "48=2⁴×3, 64=2⁶. HCF=2⁴=16.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-hcf-i1",
+        "question": "LCM of two numbers is 168 and HCF is 14. One number is 56. Find the other.",
+        "options": [
+          "28",
+          "42",
+          "56",
+          "84"
+        ],
+        "correctAnswer": "42",
+        "explanation": "A×B=HCF×LCM=14×168=2352. B=2352÷56=42.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-hcf-i2",
+        "question": "Traffic signals change every 30, 45, 60 seconds. Simultaneous at noon. Next simultaneous:",
+        "options": [
+          "12:03",
+          "12:04",
+          "12:05",
+          "12:06"
+        ],
+        "correctAnswer": "12:03",
+        "explanation": "LCM(30,45,60): 2²×3²×5=180 seconds=3 minutes. Next: 12:03.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-hcf-a1",
+        "question": "HCF of two numbers is 12 and sum is 96. How many such pairs?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correctAnswer": "2",
+        "explanation": "12a+12b=96 → a+b=8, gcd(a,b)=1. Co-prime pairs: (1,7),(3,5) → 2 distinct unordered pairs: {12,84} and {36,60}.",
+        "difficulty": "Advanced"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-hcf-p1",
+        "question": "Smallest 4-digit multiple of 12, 15, and 20:",
+        "options": [
+          "1020",
+          "1060",
+          "1080",
+          "1200"
+        ],
+        "correctAnswer": "1020",
+        "explanation": "LCM(12,15,20)=60. 1000÷60=16.67 → ⌈16.67⌉=17 → 17×60=1020. Verify: 1020÷12=85✓, 1020÷15=68✓, 1020÷20=51✓.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "HCF = largest common divisor (equal cutting). LCM = smallest common multiple (scheduling).",
+      "HCF×LCM = A×B — works for TWO numbers only.",
+      "HCF: min powers of common primes. LCM: max powers of all primes.",
+      "Euclidean: HCF(A,B)=HCF(B, A mod B) — fastest for large numbers.",
+      "Smallest N leaving remainder R when divided by A and B: LCM(A,B)+R."
+    ],
+    "quickFormulas": [
+      "HCF×LCM=A×B",
+      "LCM(A,B,C)=LCM(LCM(A,B),C)",
+      "Smallest N divisible by A,B leaving R: LCM(A,B)+R"
+    ]
+  },
+  "keyTakeaways": [
+    "The product formula HCF×LCM=A×B is the single most useful shortcut in this chapter.",
+    "Always identify problem type first: equal cutting → HCF; cycling/scheduling → LCM.",
+    "The Euclidean algorithm handles any size numbers in 4–6 steps — practise until it is reflexive."
+  ],
+  "selfCheckQuestions": [
+    "Find HCF(252,105) using Euclidean algorithm. Show every step.",
+    "Two lights blink every 8 and 12 seconds. When do they next blink together?",
+    "HCF of 24 and 36 is 12. Find LCM using the formula only."
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Chapter: HCF and LCM"
+    },
+    {
+      "sourceName": "Schaum's Discrete Mathematics",
+      "sourceType": "Reference",
+      "referenceNote": "Chapter on Number Theory — Euclidean Algorithm"
+    }
+  ]
+}

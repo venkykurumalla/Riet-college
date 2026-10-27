@@ -1,0 +1,446 @@
+{
+  "id": "y1-data-basic-di",
+  "yearId": 1,
+  "category": "Data Interpretation",
+  "topicNumber": 33,
+  "title": "Basic Data Interpretation Sets",
+  "tagline": "Year 1 Foundation — Solving a full set of questions from one table, step by step",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "A data interpretation (DI) set gives one table or chart and then asks four to five questions about it. The questions in a basic set are of a few standard kinds: read a value, find a difference, compute a percentage change, work out an average, form a ratio, or derive a new quantity such as profit from two given columns. This chapter shows how to approach a whole set efficiently: read once, extract what is common, answer the easy questions first and keep a running record of derived values.",
+    "placementRelevance": "DI sets are commonly asked in company aptitude rounds, and a single set can carry as many marks as four or five separate questions. A sound routine turns the set into a reliable source of marks.",
+    "realWorldContext": "Company annual reports, project dashboards and performance reviews present data in exactly this form, and decisions are made from the derived figures such as profit and growth rate."
+  },
+  "learningObjectives": [
+    "Read a data set once and note its title, units and derived quantities",
+    "Derive new columns (profit, growth, share) once and reuse them",
+    "Choose between absolute change, percentage change and ratio",
+    "Solve the easiest questions first and use approximation when options allow",
+    "Check that the answers fit the data (sign, size, units)"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Reading Data Tables",
+      "Basic Charts (Bar and Pie)",
+      "Basic Percentages",
+      "Basic Ratio",
+      "Basic Averages"
+    ],
+    "quickRefresher": "Profit = Revenue − Expenses. Percentage profit on expenses = Profit ÷ Expenses × 100. Percentage growth = (New − Old) ÷ Old × 100. Average = Total ÷ Count."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Data set: the table or chart together with its title, units and any notes.",
+      "Derived quantity: a value computed from the given data, such as profit (revenue − expenses) or growth rate.",
+      "Absolute change: the difference between two values. Relative (percentage) change: the difference divided by the earlier value.",
+      "Share: a part as a percentage of a whole (for example expenses as a percentage of revenue).",
+      "Base: the value that a percentage or ratio is measured against."
+    ],
+    "theoreticalIntuition": "In a DI set, the questions are linked: the same few derived values (profit each year, total revenue, growth rate) keep reappearing. Work them out once, write them next to the table, and every later question becomes a single look-up or one-step calculation.",
+    "visualOrMentalModel": "Treat the table as a small spreadsheet. Add a new column in your rough work for each derived quantity that is likely to be needed (here, Profit). Fill it for all rows once."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Derived column",
+      "formula": "Profit = Revenue − Expenses",
+      "description": "Compute for each row once.",
+      "whenToUse": "Questions about profit, profit growth, profit share.",
+      "simpleExample": "2021: 100 − 70 = 30"
+    },
+    {
+      "title": "Percentage change",
+      "formula": "(New − Old) ÷ Old × 100",
+      "description": "The earlier value is the base.",
+      "whenToUse": "Growth of revenue, expenses or profit.",
+      "simpleExample": "Revenue 2020 → 2022: 40 ÷ 80 × 100 = 50%"
+    },
+    {
+      "title": "Percentage on expenses or revenue",
+      "formula": "Profit ÷ Expenses × 100 or Profit ÷ Revenue × 100",
+      "description": "Read which base the question uses.",
+      "whenToUse": "Profit percentage questions.",
+      "simpleExample": "2021: 30 ÷ 100 = 30% of revenue; 30 ÷ 70 ≈ 42.9% of expenses"
+    },
+    {
+      "title": "Average over years",
+      "formula": "Sum of values ÷ number of years",
+      "description": "Count the years in the table.",
+      "whenToUse": "Average annual revenue or profit.",
+      "simpleExample": "(80 + 100 + 120 + 150 + 180) ÷ 5 = 126"
+    },
+    {
+      "title": "Average annual growth (absolute)",
+      "formula": "(Last − First) ÷ number of intervals",
+      "description": "Intervals = years − 1.",
+      "whenToUse": "Average increase per year.",
+      "simpleExample": "(180 − 80) ÷ 4 = 25"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Spend the first 20 to 30 seconds on the whole set. Read the title, the units (here ₹ lakh) and any note such as \"Profit = Revenue − Expenses\". Then scan the questions to see which derived quantities you will need. In this set, profit appears in many questions, so computing it for every year first is a good investment.",
+      "Solve the questions in order of difficulty. Direct readings (revenue in 2022, expenses in 2023) take seconds. Differences and totals come next. Percentage and ratio questions take longer and may be left for the end if time is short.",
+      "Percentage questions need the right base. \"Percentage rise in revenue from 2020 to 2022\" uses 2020 as the base: 40 ÷ 80 = 50%. \"Profit as a percentage of revenue\" uses revenue as the base; \"profit as a percentage of expenses\" uses expenses. Read the wording carefully.",
+      "Averages and growth rates: the average annual revenue is the total divided by the number of years. The average yearly increase uses the number of intervals, one fewer than the number of years: (180 − 80) ÷ 4 = 25.",
+      "Check the reasonableness of every answer. A percentage change should have the same sign as the movement of the data; an average must lie between the smallest and largest values; and a ratio of two numbers close to each other should be close to 1."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Compare growth rates carefully",
+        "content": "A year with a large absolute increase need not have a large percentage increase. Revenue rose by 30 in both 2023 and 2024, but the percentage increase was 25% in 2023 and 20% in 2024, because the base was larger in 2024."
+      },
+      {
+        "title": "Using approximation",
+        "content": "If options are far apart, round values before computing. For example, 45 ÷ 135 is exactly one-third, so 33.3%. A quick fraction often gives the answer with no long division."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct and derived values",
+      "description": "Read or compute profit.",
+      "exampleSnippet": "Profit in 2021."
+    },
+    {
+      "typeName": "Growth questions",
+      "description": "Percentage change between two years.",
+      "exampleSnippet": "Revenue 2020 → 2022."
+    },
+    {
+      "typeName": "Average questions",
+      "description": "Average annual revenue or profit.",
+      "exampleSnippet": "Average revenue over five years."
+    },
+    {
+      "typeName": "Ratio and share questions",
+      "description": "Ratios and percentages of a total.",
+      "exampleSnippet": "Revenue : expenses in 2024."
+    },
+    {
+      "typeName": "Projection questions",
+      "description": "Apply a growth rate to forecast.",
+      "exampleSnippet": "Revenue grows 20% next year."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-data-basic-di-1",
+      "title": "Derived column and percentage on expenses",
+      "question": "Using the revenue and expenses table, find the profit in 2021 and the profit as a percentage of expenses in that year (to one decimal place).",
+      "givenInfo": [
+        "2021: Revenue = 100, Expenses = 70 (₹ lakh)"
+      ],
+      "conceptOrFormula": "Profit = Revenue − Expenses; Profit % on expenses = Profit ÷ Expenses × 100.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Profit",
+          "explanation": "100 − 70 = 30."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide by expenses",
+          "explanation": "30 ÷ 70 = 0.4286."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Convert",
+          "explanation": "0.4286 × 100 = 42.9%."
+        }
+      ],
+      "finalAnswer": "Profit = ₹30 lakh; 42.9% of expenses",
+      "whyItWorks": "The question says \"on expenses\", so expenses is the base.",
+      "commonTrap": "Dividing by revenue to get 30%.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-data-basic-di-2",
+      "title": "Percentage change in revenue",
+      "question": "By what percentage did revenue rise between 2020 and 2022?",
+      "givenInfo": [
+        "2020: 80",
+        "2022: 120"
+      ],
+      "conceptOrFormula": "Percentage change = (New − Old) ÷ Old × 100.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Increase",
+          "explanation": "120 − 80 = 40."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide by the old value",
+          "explanation": "40 ÷ 80 = 0.5."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Convert",
+          "explanation": "0.5 × 100 = 50%."
+        }
+      ],
+      "finalAnswer": "50%",
+      "whyItWorks": "The old value, 80, is the base.",
+      "commonTrap": "Dividing by 120 to get 33.3%.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-data-basic-di-3",
+      "title": "Average and total",
+      "question": "Find the average annual revenue and the total profit over the five years.",
+      "givenInfo": [
+        "Revenue: 80, 100, 120, 150, 180",
+        "Profit: 20, 30, 30, 40, 45"
+      ],
+      "conceptOrFormula": "Average = Total ÷ Count; Total = sum.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total revenue",
+          "explanation": "80 + 100 + 120 + 150 + 180 = 630."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Average revenue",
+          "explanation": "630 ÷ 5 = 126."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Total profit",
+          "explanation": "20 + 30 + 30 + 40 + 45 = 165."
+        }
+      ],
+      "finalAnswer": "Average revenue = ₹126 lakh; total profit = ₹165 lakh",
+      "whyItWorks": "The profit column derived earlier makes the total a simple addition.",
+      "commonTrap": "Dividing the total revenue by 4 (the number of intervals).",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Build the derived column first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Calculate profit afresh in each question.",
+      "shortcutMethod": "Write the derived column (profit) beside the table once. Every later question then needs only a look-up or one step. Use simple fractions (45/135 = 1/3) to avoid long division."
+    },
+    "rulesForApplication": [
+      "Read title, units and notes first.",
+      "Derive common quantities once and reuse them.",
+      "Percentage change: earlier value is the base; shares: whole is the base.",
+      "Average growth per year uses the number of intervals."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Recalculating the same value repeatedly",
+      "whyItHappens": "Working out profit in every question.",
+      "howToAvoid": "Add a derived column once."
+    },
+    {
+      "mistake": "Wrong base for a percentage",
+      "whyItHappens": "Using revenue when the question says \"on expenses\".",
+      "howToAvoid": "Underline the base words in the question."
+    },
+    {
+      "mistake": "Counting years instead of intervals",
+      "whyItHappens": "Dividing by 5 when asked for the average annual increase.",
+      "howToAvoid": "Use years − 1 for growth over intervals."
+    },
+    {
+      "mistake": "Skipping the sanity check",
+      "whyItHappens": "Accepting a percentage above 100 for a share.",
+      "howToAvoid": "Check that the answer lies in a sensible range."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "Round values and compare with the options before exact calculations; the options in DI are usually spread out.",
+    "questionSelectionAdvice": "Attempt the entire set in one go, easy questions first. Switching sets costs time because you must re-read the data.",
+    "recruiterInsight": "A neat side table of derived values is the biggest time-saver in a DI set."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-data-basic-di-e1",
+        "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat was the revenue in 2022 (₹ lakh)?",
+        "options": [
+          "100",
+          "120",
+          "110",
+          "150"
+        ],
+        "correctAnswer": "120",
+        "explanation": "Read the 2022 row: revenue = 120.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-data-basic-di-e2",
+        "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat were the expenses in 2023 (₹ lakh)?",
+        "options": [
+          "110",
+          "90",
+          "100",
+          "135"
+        ],
+        "correctAnswer": "110",
+        "explanation": "Read the 2023 row: expenses = 110.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-data-basic-di-e3",
+        "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat was the profit in 2021 (₹ lakh)?",
+        "options": [
+          "20",
+          "25",
+          "40",
+          "30"
+        ],
+        "correctAnswer": "30",
+        "explanation": "Profit = 100 − 70 = 30.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-data-basic-di-i7",
+        "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nBy what percentage did the revenue increase from 2020 to 2022?",
+        "options": [
+          "50%",
+          "33.3%",
+          "40%",
+          "60%"
+        ],
+        "correctAnswer": "50%",
+        "explanation": "Increase = 40. Percentage = 40 ÷ 80 × 100 = 50%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-data-basic-di-i8",
+        "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat is the average annual revenue over the five years (₹ lakh)?",
+        "options": [
+          "120",
+          "124",
+          "130",
+          "126"
+        ],
+        "correctAnswer": "126",
+        "explanation": "Total revenue = 630. Average = 630 ÷ 5 = 126.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-data-basic-di-i9",
+        "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat is the total profit over the five years (₹ lakh)?",
+        "options": [
+          "150",
+          "160",
+          "175",
+          "165"
+        ],
+        "correctAnswer": "165",
+        "explanation": "Profits: 20, 30, 30, 40, 45. Total = 165.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-data-basic-di-a15",
+        "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nIn 2021, the profit was what percentage of the expenses (to one decimal place)?",
+        "options": [
+          "30.0%",
+          "40.0%",
+          "42.9%",
+          "45.5%"
+        ],
+        "correctAnswer": "42.9%",
+        "explanation": "Profit % of expenses = 30 ÷ 70 × 100 = 42.9%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-data-basic-di-a16",
+        "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nIf revenue grows by 20% and expenses by 10% in 2025 over 2024, the profit in 2025 will be (₹ lakh)",
+        "options": [
+          "60",
+          "67.5",
+          "65",
+          "72"
+        ],
+        "correctAnswer": "67.5",
+        "explanation": "Revenue 2025 = 180 × 1.2 = 216. Expenses = 135 × 1.1 = 148.5. Profit = 216 − 148.5 = 67.5.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-data-basic-di-p17",
+        "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nBy what percentage did the profit increase from 2020 to 2024?",
+        "options": [
+          "100%",
+          "125%",
+          "112.5%",
+          "150%"
+        ],
+        "correctAnswer": "125%",
+        "explanation": "Profit 2020 = 20, 2024 = 45. Percentage = 25 ÷ 20 × 100 = 125%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-data-basic-di-p18",
+        "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nWhat is the average yearly increase in revenue from 2020 to 2024 (₹ lakh per year)?",
+        "options": [
+          "25",
+          "20",
+          "30",
+          "33.3"
+        ],
+        "correctAnswer": "25",
+        "explanation": "Total increase = 180 − 80 = 100 over 4 intervals. Average = 25.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-data-basic-di-p19",
+        "question": "Revenue and expenses of a company (₹ lakh):\n\nYear | Revenue | Expenses\n2020 | 80 | 60\n2021 | 100 | 70\n2022 | 120 | 90\n2023 | 150 | 110\n2024 | 180 | 135\n\nProfit = Revenue − Expenses.\n\nIn which year was the percentage increase in expenses over the previous year the highest?",
+        "options": [
+          "2021",
+          "2023",
+          "2024",
+          "2022"
+        ],
+        "correctAnswer": "2022",
+        "explanation": "Expense growth: 2021 = 16.7%, 2022 = 28.6%, 2023 = 22.2%, 2024 = 22.7%. The highest is in 2022.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Read the data once: title, units, notes.",
+      "Derive common quantities once.",
+      "Know the base in every percentage.",
+      "Growth per year uses intervals.",
+      "Check the answer for sense."
+    ],
+    "quickFormulas": [
+      "Profit = Revenue − Expenses",
+      "% change = (new − old)/old × 100",
+      "Average growth = (last − first)/(years − 1)"
+    ]
+  },
+  "keyTakeaways": [
+    "Plan the set before answering.",
+    "Derived columns save time.",
+    "The base decides the percentage.",
+    "Sanity-check each answer."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute profit for every year and total profit?",
+    "Can I say which base the question uses for a percentage?",
+    "Can I find the average annual increase over a period?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation sets as a topic area; the data and examples here are original."
+    }
+  ]
+}
