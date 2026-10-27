@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-di-pie-charts",
+  "topicTitle": "Pie Chart Interpretation",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nWhat is the central angle of the sector for Salary in 2022?",
+      "options": [
+        "90°",
+        "108°",
+        "120°",
+        "30°"
+      ],
+      "answerIndex": 1,
+      "explanation": "30 × 3.6 = 108°."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nHow much was spent on Rent in 2022?",
+      "options": [
+        "₹60,000",
+        "₹50,000",
+        "₹72,000",
+        "₹40,000"
+      ],
+      "answerIndex": 0,
+      "explanation": "12% of ₹5,00,000 = ₹60,000."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nWhich item had the largest share of expenditure in 2022?",
+      "options": [
+        "Raw material",
+        "Marketing",
+        "Miscellaneous",
+        "Salary"
+      ],
+      "answerIndex": 3,
+      "explanation": "Salary has 30%, the largest share."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nHow much was spent on Raw material in 2023?",
+      "options": [
+        "₹1,50,000",
+        "₹1,80,000",
+        "₹1,62,000",
+        "₹1,25,000"
+      ],
+      "answerIndex": 2,
+      "explanation": "27% of ₹6,00,000 = ₹1,62,000."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nRent and Miscellaneous together made up what percentage of the 2022 expenditure?",
+      "options": [
+        "25%",
+        "30%",
+        "27%",
+        "35%"
+      ],
+      "answerIndex": 2,
+      "explanation": "12% + 15% = 27%."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nWhat is the central angle of the sector for Marketing in 2023?",
+      "options": [
+        "60°",
+        "72°",
+        "75°",
+        "90°"
+      ],
+      "answerIndex": 1,
+      "explanation": "20 × 3.6 = 72°."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nBy how much (in ₹) did the expenditure on Marketing increase from 2022 to 2023?",
+      "options": [
+        "₹30,000",
+        "₹20,000",
+        "₹40,000",
+        "₹45,000"
+      ],
+      "answerIndex": 0,
+      "explanation": "₹1,20,000 − ₹90,000 = ₹30,000."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nBy what percentage did the expenditure on Marketing increase from 2022 to 2023 (to one decimal place)?",
+      "options": [
+        "11.1%",
+        "25.0%",
+        "30.0%",
+        "33.3%"
+      ],
+      "answerIndex": 3,
+      "explanation": "30,000 ÷ 90,000 × 100 = 33.3%."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nThe share of Rent fell from 12% to 10%. The amount spent on Rent",
+      "options": [
+        "rose",
+        "fell",
+        "doubled",
+        "stayed the same"
+      ],
+      "answerIndex": 3,
+      "explanation": "Both amounts are ₹60,000 (12% of ₹5,00,000 and 10% of ₹6,00,000)."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nThe ratio of the amount spent on Salary in 2022 to that in 2023 (simplest form) is",
+      "options": [
+        "5 : 6",
+        "15 : 17",
+        "25 : 28",
+        "10 : 11"
+      ],
+      "answerIndex": 2,
+      "explanation": "₹1,50,000 : ₹1,68,000 = 25 : 28."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nBy how much (in ₹) did the total expenditure increase from 2022 to 2023?",
+      "options": [
+        "₹50,000",
+        "₹1,00,000",
+        "₹1,20,000",
+        "₹80,000"
+      ],
+      "answerIndex": 1,
+      "explanation": "₹6,00,000 − ₹5,00,000 = ₹1,00,000."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nWhich item showed the highest percentage increase in amount from 2022 to 2023?",
+      "options": [
+        "Marketing",
+        "Salary",
+        "Raw material",
+        "Miscellaneous"
+      ],
+      "answerIndex": 0,
+      "explanation": "The percentage increases are 12%, 29.6%, 0%, 33.3%, 20%. Marketing has the highest."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nThe amount spent on Salary in 2023 was",
+      "options": [
+        "₹1,68,000",
+        "₹1,50,000",
+        "₹1,80,000",
+        "₹1,40,000"
+      ],
+      "answerIndex": 0,
+      "explanation": "28% of ₹6,00,000 = ₹1,68,000."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nThe amount spent on Miscellaneous in 2023 exceeded that in 2022 by",
+      "options": [
+        "₹10,000",
+        "₹20,000",
+        "₹25,000",
+        "₹15,000"
+      ],
+      "answerIndex": 3,
+      "explanation": "₹90,000 − ₹75,000 = ₹15,000."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nIn 2023, the expenditure on Raw material was what percentage of that on Salary (to one decimal place)?",
+      "options": [
+        "90.0%",
+        "100.0%",
+        "96.4%",
+        "104.0%"
+      ],
+      "answerIndex": 2,
+      "explanation": "1,62,000 ÷ 1,68,000 × 100 = 96.4%."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nIn 2022, the combined amount spent on Salary and Raw material was",
+      "options": [
+        "₹2,50,000",
+        "₹2,75,000",
+        "₹3,00,000",
+        "₹2,00,000"
+      ],
+      "answerIndex": 1,
+      "explanation": "₹1,50,000 + ₹1,25,000 = ₹2,75,000."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nIf the expenditure on Marketing in 2024 is 25% more than in 2023, it will be",
+      "options": [
+        "₹1,35,000",
+        "₹1,50,000",
+        "₹1,44,000",
+        "₹1,60,000"
+      ],
+      "answerIndex": 1,
+      "explanation": "₹1,20,000 × 1.25 = ₹1,50,000."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nThe difference between the central angles of Salary in 2022 and Salary in 2023 is",
+      "options": [
+        "7.2°",
+        "3.6°",
+        "10.8°",
+        "2°"
+      ],
+      "answerIndex": 0,
+      "explanation": "108° − 100.8° = 7.2°."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nThe ratio of the amount on Marketing in 2023 to that on Miscellaneous in 2022 (simplest form) is",
+      "options": [
+        "4 : 3",
+        "3 : 2",
+        "16 : 9",
+        "8 : 5"
+      ],
+      "answerIndex": 3,
+      "explanation": "₹1,20,000 : ₹75,000 = 8 : 5."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nIn 2023, Salary and Marketing together made up what percentage of the total expenditure?",
+      "options": [
+        "45%",
+        "50%",
+        "48%",
+        "55%"
+      ],
+      "answerIndex": 2,
+      "explanation": "28% + 20% = 48%."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/pie-charts/"
+}

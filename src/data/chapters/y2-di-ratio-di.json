@@ -1,0 +1,437 @@
+{
+  "id": "y2-di-ratio-di",
+  "yearId": 2,
+  "category": "Data Interpretation",
+  "topicNumber": 49,
+  "title": "Ratio-Based DI",
+  "tagline": "Year 2 — Tables where the data is given as ratios of totals",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "In a ratio-based DI set the table gives a total and one or more ratios that split it, such as the ratio of males to females or of literate to illiterate persons. To work with it, convert each ratio into actual numbers: if the total is 600 thousand and the ratio is 7 : 5, one part is 50 thousand, so there are 350 thousand males and 250 thousand females. After that, every question is arithmetic on numbers.",
+    "placementRelevance": "Ratio-based DI sets are commonly asked in company aptitude rounds and combine ratio skills with table reading.",
+    "realWorldContext": "Demographic reports, gender ratios in companies and quality-control splits are presented as ratios."
+  },
+  "learningObjectives": [
+    "Convert a ratio and a total into actual numbers",
+    "Handle two ratios on the same total",
+    "Compare groups using derived numbers",
+    "Compute ratios of derived numbers across rows",
+    "Compute totals and percentages from ratios"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Ratio and Proportion",
+      "Percentage-Based DI"
+    ],
+    "quickRefresher": "To split T in the ratio a : b, one part = T ÷ (a + b); the shares are a × part and b × part."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Ratio a : b: the two quantities are in proportion a to b.",
+      "Part value: total divided by the sum of the ratio terms.",
+      "Derived number: a count obtained from a total and a ratio.",
+      "Two ratios on one total: each ratio splits the same total in a different way.",
+      "Simplified ratio: both terms divided by their HCF."
+    ],
+    "theoreticalIntuition": "A ratio is a recipe for splitting a total. Add the terms to get the number of parts, divide the total by that to get one part, and then multiply. Different ratios on the same row split the same total in different ways, so each must be converted separately.",
+    "visualOrMentalModel": "Make a table of derived numbers: males, females, literate, illiterate for each city. Do it once and use it for every question."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Splitting a total",
+      "formula": "First share = T × a/(a + b);  second = T × b/(a + b)",
+      "description": "Add the ratio terms.",
+      "whenToUse": "Any ratio cell.",
+      "simpleExample": "600 in 7 : 5 → 350 and 250"
+    },
+    {
+      "title": "Two ratios",
+      "formula": "Split the same total twice, independently",
+      "description": "Do not combine them.",
+      "whenToUse": "Males and literate.",
+      "simpleExample": "A: males 350; literate 360"
+    },
+    {
+      "title": "Ratio of derived numbers",
+      "formula": "Simplify by the HCF",
+      "description": "Across rows or columns.",
+      "whenToUse": "Ratio questions.",
+      "simpleExample": "Literate in A : B = 360 : 400 = 9 : 10"
+    },
+    {
+      "title": "Totals across rows",
+      "formula": "Σ derived numbers",
+      "description": "Add the column.",
+      "whenToUse": "Total males.",
+      "simpleExample": "1510 males, 1280 females"
+    },
+    {
+      "title": "Percentage from a ratio",
+      "formula": "a/(a + b) × 100",
+      "description": "Convert the ratio to a share.",
+      "whenToUse": "Share questions.",
+      "simpleExample": "7 : 5 → 58.3% male"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Start with one row. City A has a population of 600 (thousand) with males to females 7 : 5. The ratio has 12 parts, so one part is 50 thousand: males 350, females 250. The literate to illiterate ratio is 3 : 2 with 5 parts, so one part is 120: literate 360, illiterate 240.",
+      "Do the same for every row to make a table of numbers. For C: males 320, females 400, literate 420, illiterate 300. For D: males 270, females 270, literate 240, illiterate 300.",
+      "Then answer the questions from the numbers. The city with the least illiterate population is B (480 × 1/6 = 80 thousand). The total number of females in all five cities is 250 + 180 + 400 + 270 + 180 = 1280 thousand.",
+      "For ratio questions across rows, simplify the derived numbers: literate in A to literate in B is 360 : 400 = 9 : 10.",
+      "Check that the derived numbers add up. Males plus females should equal the city total, and literate plus illiterate should equal the same total."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Two ratios do not combine",
+        "content": "You cannot find the number of literate males from the two given ratios alone, because they split the total in different ways. Questions are designed so that you do not need it."
+      },
+      {
+        "title": "Whole-number check",
+        "content": "In a well-posed table, derived numbers are usually whole. A fraction signals a misread ratio."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Split a total",
+      "description": "Males and females.",
+      "exampleSnippet": "City A"
+    },
+    {
+      "typeName": "Second ratio",
+      "description": "Literate and illiterate.",
+      "exampleSnippet": "City B"
+    },
+    {
+      "typeName": "Totals across cities",
+      "description": "Σ.",
+      "exampleSnippet": "All females"
+    },
+    {
+      "typeName": "Ratios of derived numbers",
+      "description": "Across rows.",
+      "exampleSnippet": "Literate A : B"
+    },
+    {
+      "typeName": "Percentages",
+      "description": "Share of total.",
+      "exampleSnippet": "Literate in C as a percentage"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-di-ratio-di-1",
+      "title": "Split by a ratio",
+      "question": "City A has a population of 600 thousand with males to females in the ratio 7 : 5. How many males and females are there?",
+      "givenInfo": [
+        "600 thousand",
+        "7 : 5"
+      ],
+      "conceptOrFormula": "One part = total ÷ sum of terms.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Parts",
+          "explanation": "7 + 5 = 12."
+        },
+        {
+          "stepNumber": 2,
+          "title": "One part",
+          "explanation": "600 ÷ 12 = 50."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Numbers",
+          "explanation": "Males 350, females 250."
+        }
+      ],
+      "finalAnswer": "350 thousand males and 250 thousand females",
+      "whyItWorks": "The ratio has 12 parts.",
+      "commonTrap": "Using 7 and 5 directly.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-di-ratio-di-2",
+      "title": "Two ratios",
+      "question": "In city B (480 thousand), literate to illiterate is 5 : 1. How many illiterate persons are there?",
+      "givenInfo": [
+        "480",
+        "5 : 1"
+      ],
+      "conceptOrFormula": "One part = 480 ÷ 6.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Parts",
+          "explanation": "5 + 1 = 6."
+        },
+        {
+          "stepNumber": 2,
+          "title": "One part",
+          "explanation": "80."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Illiterate",
+          "explanation": "1 × 80 = 80 thousand."
+        }
+      ],
+      "finalAnswer": "80 thousand",
+      "whyItWorks": "Illiterate is one part.",
+      "commonTrap": "Using 480/5.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-di-ratio-di-3",
+      "title": "Ratio of derived numbers",
+      "question": "What is the ratio of the number of literate persons in A to that in B?",
+      "givenInfo": [
+        "A: 360",
+        "B: 400"
+      ],
+      "conceptOrFormula": "Simplify.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Derived",
+          "explanation": "Literate A = 600 × 3/5 = 360; literate B = 400."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Ratio",
+          "explanation": "360 : 400 = 9 : 10."
+        }
+      ],
+      "finalAnswer": "9 : 10",
+      "whyItWorks": "Divide both by 40.",
+      "commonTrap": "Comparing the ratios 3 : 2 and 5 : 1.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Part value",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Set up equations each time.",
+      "shortcutMethod": "Divide the total by the sum of the ratio terms to get one part, then multiply. Make a table of numbers once."
+    },
+    "rulesForApplication": [
+      "Parts = sum of terms.",
+      "Separate splits for separate ratios.",
+      "Check males + females = total.",
+      "Simplify ratios of numbers."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using ratio terms as numbers",
+      "whyItHappens": "Treating 7 and 5 as counts.",
+      "howToAvoid": "Multiply by the part value."
+    },
+    {
+      "mistake": "Dividing by the wrong sum",
+      "whyItHappens": "Dividing by one term.",
+      "howToAvoid": "Divide by the sum."
+    },
+    {
+      "mistake": "Combining two ratios",
+      "whyItHappens": "Multiplying them.",
+      "howToAvoid": "Split separately."
+    },
+    {
+      "mistake": "Units",
+      "whyItHappens": "Forgetting thousands.",
+      "howToAvoid": "State units."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 80,
+    "eliminationTechnique": "Males + females must equal the total; use it to reject options.",
+    "questionSelectionAdvice": "Derive the table first.",
+    "recruiterInsight": "The part value method is the whole technique."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-di-ratio-di-e1",
+        "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nHow many thousand males are there in city A?",
+        "options": [
+          "250",
+          "350",
+          "300",
+          "420"
+        ],
+        "correctAnswer": "350",
+        "explanation": "600 × 7/12 = 350.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-di-ratio-di-e2",
+        "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nHow many thousand females are there in city C?",
+        "options": [
+          "400",
+          "320",
+          "360",
+          "450"
+        ],
+        "correctAnswer": "400",
+        "explanation": "720 × 5/9 = 400.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-di-ratio-di-e3",
+        "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nHow many thousand literate persons are there in city B?",
+        "options": [
+          "300",
+          "360",
+          "450",
+          "400"
+        ],
+        "correctAnswer": "400",
+        "explanation": "480 × 5/6 = 400.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-di-ratio-di-i7",
+        "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nWhat is the total number of males (in thousands) in the five cities?",
+        "options": [
+          "1510",
+          "1400",
+          "1480",
+          "1560"
+        ],
+        "correctAnswer": "1510",
+        "explanation": "350 + 300 + 320 + 270 + 270 = 1510.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-di-ratio-di-i8",
+        "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nWhat is the total number of females (in thousands) in the five cities?",
+        "options": [
+          "1200",
+          "1250",
+          "1300",
+          "1280"
+        ],
+        "correctAnswer": "1280",
+        "explanation": "250 + 180 + 400 + 270 + 180 = 1280.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-di-ratio-di-i9",
+        "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nIn which city is the number of illiterate persons the smallest?",
+        "options": [
+          "A",
+          "D",
+          "E",
+          "B"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Illiterate persons (thousands): A 240, B 80, C 300, D 300, E 150. The smallest is B.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-di-ratio-di-a15",
+        "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe number of illiterate persons in city A is what percentage of the population of city A?",
+        "options": [
+          "30%",
+          "35%",
+          "40%",
+          "45%"
+        ],
+        "correctAnswer": "40%",
+        "explanation": "240 ÷ 600 × 100 = 40%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-ratio-di-a16",
+        "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe total number of literate persons (in thousands) in the five cities is",
+        "options": [
+          "1700",
+          "1720",
+          "1800",
+          "1900"
+        ],
+        "correctAnswer": "1720",
+        "explanation": "360 + 400 + 420 + 240 + 300 = 1720.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-di-ratio-di-p17",
+        "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe number of females in C is what percentage of the number of females in A (to one decimal place)?",
+        "options": [
+          "140.0%",
+          "160%",
+          "160.0%",
+          "180.0%"
+        ],
+        "correctAnswer": "160%",
+        "explanation": "400 ÷ 250 × 100 = 160%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-ratio-di-p18",
+        "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe ratio of the total number of males to the total number of females in the five cities (simplest form) is",
+        "options": [
+          "151 : 128",
+          "6 : 5",
+          "11 : 9",
+          "17 : 15"
+        ],
+        "correctAnswer": "151 : 128",
+        "explanation": "1510 : 1280 = 151 : 128.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-ratio-di-p19",
+        "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe difference between the number of literate and illiterate persons in city E (in thousands) is",
+        "options": [
+          "100",
+          "120",
+          "150",
+          "150"
+        ],
+        "correctAnswer": "150",
+        "explanation": "300 − 150 = 150.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Part value.",
+      "Separate splits.",
+      "Totals across rows.",
+      "Simplify ratios.",
+      "Sum check."
+    ],
+    "quickFormulas": [
+      "One part = T/(a + b)"
+    ]
+  },
+  "keyTakeaways": [
+    "Parts.",
+    "Table of numbers.",
+    "Separate ratios.",
+    "Check sums."
+  ],
+  "selfCheckQuestions": [
+    "Can I split 600 in 7 : 5?",
+    "Can I handle two ratios?",
+    "Can I simplify a ratio of derived numbers?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Ratio-based tabular data; data and examples are original."
+    }
+  ]
+}

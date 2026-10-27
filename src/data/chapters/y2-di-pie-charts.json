@@ -1,0 +1,433 @@
+{
+  "id": "y2-di-pie-charts",
+  "yearId": 2,
+  "category": "Data Interpretation",
+  "topicNumber": 47,
+  "title": "Pie Chart Interpretation",
+  "tagline": "Year 2 — Sectors, percentages, angles and comparing two pie charts",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "A pie chart shows how a total is divided into parts. Each sector's angle at the centre (out of 360°) corresponds to its share of the total. In Year 2 you meet two pie charts side by side, for two years, with different totals. A common trap is comparing percentages across the two charts without taking the totals into account: a smaller percentage of a larger total can be a larger amount.",
+    "placementRelevance": "Pie chart sets are commonly asked in company aptitude rounds, often with two pies and a request to compare amounts across them.",
+    "realWorldContext": "Budget breakdowns, market shares and expense reports are shown as pie charts."
+  },
+  "learningObjectives": [
+    "Convert percentages to angles (× 3.6) and back (÷ 3.6)",
+    "Find amounts from share and total",
+    "Compare amounts across two pie charts with different totals",
+    "Compute percentage change in amounts, not in shares",
+    "Compute ratios of amounts"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Charts (Bar and Pie)",
+      "Percentage-Based DI basics"
+    ],
+    "quickRefresher": "Amount = share ÷ 100 × total. Angle = share × 3.6°. Percentage change = (new − old) ÷ old × 100."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Sector: one slice of the pie, representing one category.",
+      "Central angle: the angle at the centre; 360° is the whole.",
+      "Share: the sector as a percentage of the total.",
+      "Percentage points: the difference between two shares (28% to 30% is 2 points).",
+      "Absolute amount: share × total; it can rise even when the share falls."
+    ],
+    "theoreticalIntuition": "The pie tells you shares, not amounts. To compare years you must convert each share to an amount using its own total. A share that falls from 30% to 28% can still mean more money if the total has grown.",
+    "visualOrMentalModel": "Make a table of amounts for each year: share × total. Then every comparison is between two cells of this table."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Angle and share",
+      "formula": "Angle = share × 3.6°;  Share = angle ÷ 3.6",
+      "description": "Whole pie = 100% = 360°.",
+      "whenToUse": "Angle questions.",
+      "simpleExample": "30% → 108°"
+    },
+    {
+      "title": "Amount",
+      "formula": "Amount = share ÷ 100 × total",
+      "description": "Use that year's total.",
+      "whenToUse": "Amounts.",
+      "simpleExample": "30% of ₹5,00,000 = ₹1,50,000"
+    },
+    {
+      "title": "Change in amount",
+      "formula": "(Amount₂₀₂₃ − Amount₂₀₂₂) ÷ Amount₂₀₂₂ × 100",
+      "description": "Convert shares to amounts first.",
+      "whenToUse": "Growth questions.",
+      "simpleExample": "Marketing: 90,000 → 1,20,000 = 33.3%"
+    },
+    {
+      "title": "Ratio of amounts",
+      "formula": "Simplify amount₁ : amount₂",
+      "description": "Different totals allowed.",
+      "whenToUse": "Ratio questions.",
+      "simpleExample": "Salary 2022 : 2023 = 25 : 28"
+    },
+    {
+      "title": "Percentage points",
+      "formula": "Difference of shares",
+      "description": "Not the same as percentage change.",
+      "whenToUse": "Share comparisons.",
+      "simpleExample": "30% → 28% is 2 points"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Start with the shares and the total. In 2022 the total expenditure is ₹5,00,000 and salary is 30%, so the salary amount is ₹1,50,000 and its sector angle is 30 × 3.6 = 108°.",
+      "To compare years, build a table of amounts. In 2023 (total ₹6,00,000), salary is 28%, which is ₹1,68,000. So salary rose in amount even though its share fell from 30% to 28%.",
+      "Percentage change is computed on amounts. Marketing was 18% of ₹5,00,000 = ₹90,000 and 20% of ₹6,00,000 = ₹1,20,000. The increase is 30,000 ÷ 90,000 = 33.3%, which is larger than that of any other item.",
+      "For rent, the shares are 12% and 10%. The amounts are ₹60,000 in both years, so the rent did not change in rupees although its share fell.",
+      "For ratios of amounts across the two pies, use the amounts: Salary in 2022 to salary in 2023 is 1,50,000 : 1,68,000 = 25 : 28."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Share falls, amount rises",
+        "content": "If the total grows faster than the share falls, the amount rises. Always compute the amounts before commenting on growth."
+      },
+      {
+        "title": "Angles across pies",
+        "content": "Angles depend on shares only. The same angle in two pies with different totals stands for different amounts."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Angles and shares",
+      "description": "Convert.",
+      "exampleSnippet": "Salary 30% → 108°"
+    },
+    {
+      "typeName": "Amounts",
+      "description": "Share × total.",
+      "exampleSnippet": "Rent in 2022"
+    },
+    {
+      "typeName": "Comparing years",
+      "description": "Amount table.",
+      "exampleSnippet": "Marketing 2022 vs 2023"
+    },
+    {
+      "typeName": "Percentage change in amount",
+      "description": "Not in shares.",
+      "exampleSnippet": "Marketing"
+    },
+    {
+      "typeName": "Ratios",
+      "description": "Amounts.",
+      "exampleSnippet": "Salary 2022 : 2023"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-di-pie-charts-1",
+      "title": "Angle and amount",
+      "question": "In 2022, salary was 30% of the total expenditure of ₹5,00,000. Find the central angle and the amount.",
+      "givenInfo": [
+        "30%",
+        "Total ₹5,00,000"
+      ],
+      "conceptOrFormula": "3.6 per cent and share × total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Angle",
+          "explanation": "30 × 3.6 = 108°."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Amount",
+          "explanation": "30% of 5,00,000 = ₹1,50,000."
+        }
+      ],
+      "finalAnswer": "108° and ₹1,50,000",
+      "whyItWorks": "Angle uses the share; amount uses the total.",
+      "commonTrap": "Using 30° or ₹30,000.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-di-pie-charts-2",
+      "title": "Compare amounts across years",
+      "question": "By what percentage did the expenditure on marketing increase from 2022 to 2023 (to one decimal place)?",
+      "givenInfo": [
+        "2022: 18% of 5,00,000",
+        "2023: 20% of 6,00,000"
+      ],
+      "conceptOrFormula": "Convert to amounts first.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "2022 amount",
+          "explanation": "₹90,000."
+        },
+        {
+          "stepNumber": 2,
+          "title": "2023 amount",
+          "explanation": "₹1,20,000."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Percentage change",
+          "explanation": "30,000 ÷ 90,000 × 100 = 33.3%."
+        }
+      ],
+      "finalAnswer": "33.3%",
+      "whyItWorks": "Percentage change is on amounts.",
+      "commonTrap": "Using shares: (20 − 18)/18 = 11.1%.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-di-pie-charts-3",
+      "title": "Share falls, amount same",
+      "question": "The share of rent fell from 12% to 10%. What happened to the amount spent on rent?",
+      "givenInfo": [
+        "2022: 12% of 5,00,000",
+        "2023: 10% of 6,00,000"
+      ],
+      "conceptOrFormula": "Compute both amounts.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "2022",
+          "explanation": "₹60,000."
+        },
+        {
+          "stepNumber": 2,
+          "title": "2023",
+          "explanation": "₹60,000."
+        }
+      ],
+      "finalAnswer": "It stayed the same at ₹60,000",
+      "whyItWorks": "The total grew in the same proportion as the share fell.",
+      "commonTrap": "Concluding that rent fell.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Amount table first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compare percentages directly.",
+      "shortcutMethod": "Convert each share to an amount using its own total, then compare, take ratios and compute percentage changes on the amounts."
+    },
+    "rulesForApplication": [
+      "Angle = share × 3.6.",
+      "Amount = share × total.",
+      "Percentage change on amounts.",
+      "Percentage points for share differences."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Comparing shares across different totals",
+      "whyItHappens": "Concluding amounts from shares.",
+      "howToAvoid": "Compute amounts."
+    },
+    {
+      "mistake": "Confusing percentage points and percentage change",
+      "whyItHappens": "Treating 2 points as 2%.",
+      "howToAvoid": "Use amounts for change."
+    },
+    {
+      "mistake": "Using the wrong total",
+      "whyItHappens": "Using the other year's total.",
+      "howToAvoid": "Use the year of the pie."
+    },
+    {
+      "mistake": "Forgetting 3.6",
+      "whyItHappens": "Using 1° per 1%.",
+      "howToAvoid": "Multiply by 3.6."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 75,
+    "eliminationTechnique": "If the totals differ, reject options that compare shares as if they were amounts.",
+    "questionSelectionAdvice": "Build the amount table first.",
+    "recruiterInsight": "Two-pie sets are mostly about not mixing shares and amounts."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-di-pie-charts-e1",
+        "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nWhat is the central angle of the sector for Salary in 2022?",
+        "options": [
+          "90°",
+          "108°",
+          "120°",
+          "30°"
+        ],
+        "correctAnswer": "108°",
+        "explanation": "30 × 3.6 = 108°.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-di-pie-charts-e2",
+        "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nHow much was spent on Rent in 2022?",
+        "options": [
+          "₹60,000",
+          "₹50,000",
+          "₹72,000",
+          "₹40,000"
+        ],
+        "correctAnswer": "₹60,000",
+        "explanation": "12% of ₹5,00,000 = ₹60,000.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-di-pie-charts-e3",
+        "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nWhich item had the largest share of expenditure in 2022?",
+        "options": [
+          "Raw material",
+          "Marketing",
+          "Miscellaneous",
+          "Salary"
+        ],
+        "correctAnswer": "Salary",
+        "explanation": "Salary has 30%, the largest share.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-di-pie-charts-i7",
+        "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nBy how much (in ₹) did the expenditure on Marketing increase from 2022 to 2023?",
+        "options": [
+          "₹30,000",
+          "₹20,000",
+          "₹40,000",
+          "₹45,000"
+        ],
+        "correctAnswer": "₹30,000",
+        "explanation": "₹1,20,000 − ₹90,000 = ₹30,000.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-di-pie-charts-i8",
+        "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nBy what percentage did the expenditure on Marketing increase from 2022 to 2023 (to one decimal place)?",
+        "options": [
+          "11.1%",
+          "25.0%",
+          "30.0%",
+          "33.3%"
+        ],
+        "correctAnswer": "33.3%",
+        "explanation": "30,000 ÷ 90,000 × 100 = 33.3%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-di-pie-charts-i9",
+        "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nThe share of Rent fell from 12% to 10%. The amount spent on Rent",
+        "options": [
+          "rose",
+          "fell",
+          "doubled",
+          "stayed the same"
+        ],
+        "correctAnswer": "stayed the same",
+        "explanation": "Both amounts are ₹60,000 (12% of ₹5,00,000 and 10% of ₹6,00,000).",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-di-pie-charts-a15",
+        "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nIn 2023, the expenditure on Raw material was what percentage of that on Salary (to one decimal place)?",
+        "options": [
+          "90.0%",
+          "100.0%",
+          "96.4%",
+          "104.0%"
+        ],
+        "correctAnswer": "96.4%",
+        "explanation": "1,62,000 ÷ 1,68,000 × 100 = 96.4%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-pie-charts-a16",
+        "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nIn 2022, the combined amount spent on Salary and Raw material was",
+        "options": [
+          "₹2,50,000",
+          "₹2,75,000",
+          "₹3,00,000",
+          "₹2,00,000"
+        ],
+        "correctAnswer": "₹2,75,000",
+        "explanation": "₹1,50,000 + ₹1,25,000 = ₹2,75,000.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-di-pie-charts-p17",
+        "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nIf the expenditure on Marketing in 2024 is 25% more than in 2023, it will be",
+        "options": [
+          "₹1,35,000",
+          "₹1,50,000",
+          "₹1,44,000",
+          "₹1,60,000"
+        ],
+        "correctAnswer": "₹1,50,000",
+        "explanation": "₹1,20,000 × 1.25 = ₹1,50,000.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-pie-charts-p18",
+        "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nThe difference between the central angles of Salary in 2022 and Salary in 2023 is",
+        "options": [
+          "7.2°",
+          "3.6°",
+          "10.8°",
+          "2°"
+        ],
+        "correctAnswer": "7.2°",
+        "explanation": "108° − 100.8° = 7.2°.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-pie-charts-p19",
+        "question": "Pie chart data: share of each item in the company's total expenditure.\n\nItem | 2022 (total ₹5,00,000) | 2023 (total ₹6,00,000)\nSalary | 30% | 28%\nRaw material | 25% | 27%\nRent | 12% | 10%\nMarketing | 18% | 20%\nMiscellaneous | 15% | 15%\n\nThe ratio of the amount on Marketing in 2023 to that on Miscellaneous in 2022 (simplest form) is",
+        "options": [
+          "4 : 3",
+          "3 : 2",
+          "16 : 9",
+          "8 : 5"
+        ],
+        "correctAnswer": "8 : 5",
+        "explanation": "₹1,20,000 : ₹75,000 = 8 : 5.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Angle = share × 3.6.",
+      "Amount = share × total.",
+      "Compare amounts.",
+      "Points vs change.",
+      "Ratio of amounts."
+    ],
+    "quickFormulas": [
+      "Angle = % × 3.6",
+      "Amount = % × total/100"
+    ]
+  },
+  "keyTakeaways": [
+    "Amount table.",
+    "Use each total.",
+    "Percentage change on amounts.",
+    "Angles from shares."
+  ],
+  "selfCheckQuestions": [
+    "Can I find an angle from a share?",
+    "Can I compare amounts across pies?",
+    "Can I compute a percentage change in an amount?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Pie chart data interpretation; data and examples are original."
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "id": "y2-di-bar-graphs",
+  "yearId": 2,
+  "category": "Data Interpretation",
+  "topicNumber": 45,
+  "title": "Bar Graph Interpretation",
+  "tagline": "Year 2 — Multi-series bar charts: reading, comparing, percentage change and ratios",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "A bar graph shows values as bars whose heights are proportional to the quantities. In Year 2 you meet multi-series bar graphs, where several bars sit side by side for each year or category. Questions combine reading values with totals, differences, averages, percentage changes and ratios. The data is the same as in a table; the picture only makes comparison easier.",
+    "placementRelevance": "Bar graph sets are commonly asked in company aptitude rounds. In an exam you read the heights from the picture; here the values are given as a table so that you can practise the calculations.",
+    "realWorldContext": "Production reports, sales comparisons and annual dashboards use multi-series bar charts."
+  },
+  "learningObjectives": [
+    "Read exact values from multi-series bars using the scale",
+    "Compute totals, differences and averages across series and years",
+    "Compute percentage change and share of total",
+    "Compare growth across series and years",
+    "Use approximation when options are far apart"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Charts (Bar and Pie)",
+      "Percentage-Based DI basics",
+      "Advanced Averages"
+    ],
+    "quickRefresher": "Percentage change = (new − old) ÷ old × 100. Share = part ÷ total × 100. Ratio a : b is simplified by dividing both terms by their HCF."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Series: one set of bars of the same colour (one company or category).",
+      "Scale: the value of one unit of the axis.",
+      "Year-on-year (YoY) change: change from one year to the next.",
+      "Share of total: a value as a percentage of the sum of all series in that year.",
+      "Base: the quantity a percentage is measured against."
+    ],
+    "theoreticalIntuition": "A multi-series bar chart is a table drawn with bars. Write the numbers into a small table, then every question is arithmetic on a few cells. The most common errors are reading a wrong bar and using the wrong base for a percentage.",
+    "visualOrMentalModel": "Write down the values for each series and year. Underline what the question asks (which series, which year, total or difference) and use only those cells."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Total and difference",
+      "formula": "Total = sum of series in a year;  Difference = one series − another",
+      "description": "Use the right year.",
+      "whenToUse": "Direct questions.",
+      "simpleExample": "A − C in 2022 = 60 − 38 = 22"
+    },
+    {
+      "title": "Average",
+      "formula": "Average = Sum ÷ number of years (or series)",
+      "description": "Count the terms.",
+      "whenToUse": "Mean questions.",
+      "simpleExample": "A over 5 years = 259 ÷ 5 = 51.8"
+    },
+    {
+      "title": "Percentage change",
+      "formula": "(New − Old) ÷ Old × 100",
+      "description": "Old is the base.",
+      "whenToUse": "Growth.",
+      "simpleExample": "A 2019→2023: 26/40 = 65%"
+    },
+    {
+      "title": "Share of total",
+      "formula": "Value ÷ total of all series × 100",
+      "description": "Total of that year.",
+      "whenToUse": "Share.",
+      "simpleExample": "B in 2022 = 52/150 = 34.7%"
+    },
+    {
+      "title": "Ratio",
+      "formula": "Simplify by the HCF",
+      "description": "Same year, two series.",
+      "whenToUse": "Ratios.",
+      "simpleExample": "B : C in 2021 = 50 : 40 = 5 : 4"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "First convert the graph to numbers. With three series (A, B, C) and five years, write a 5 × 3 table of the values. After that every question refers to specific cells.",
+      "For totals and differences, choose the year. The total production in 2023 is 66 + 58 + 45 = 169 thousand. The difference between A and C in 2022 is 60 − 38 = 22 thousand.",
+      "For averages, divide by the number of terms: the average of A over five years is (40 + 48 + 45 + 60 + 66) ÷ 5 = 51.8 thousand.",
+      "For percentage change, use the earlier value as the base: A rose from 40 to 66, an increase of 26 ÷ 40 = 65%. For a share, divide by that year's total: B in 2022 is 52 ÷ 150 = 34.7% of the total.",
+      "To find the year with the largest change, compute the year-on-year changes of the series. A changed by +8, −3, +15 and +6, so the greatest rise was in 2022."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Reading from the picture",
+        "content": "In an exam the heights fall on gridlines or midway between them. Read to the nearest half-division and note the scale before reading values."
+      },
+      {
+        "title": "Percentage points vs percentages",
+        "content": "If a share rises from 30% to 35%, it rises by 5 percentage points but by about 16.7% in percentage terms. Read the question to see which is asked."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct reading",
+      "description": "Single cell.",
+      "exampleSnippet": "A in 2021"
+    },
+    {
+      "typeName": "Totals and differences",
+      "description": "Across series.",
+      "exampleSnippet": "Total in 2023"
+    },
+    {
+      "typeName": "Averages",
+      "description": "Across years.",
+      "exampleSnippet": "A over five years"
+    },
+    {
+      "typeName": "Percentage questions",
+      "description": "Change and share.",
+      "exampleSnippet": "A 2019 → 2023"
+    },
+    {
+      "typeName": "Comparisons",
+      "description": "Which year or series.",
+      "exampleSnippet": "Year of greatest rise"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-di-bar-graphs-1",
+      "title": "Total of a year",
+      "question": "Using the bar data, find the total production of the three companies in 2023.",
+      "givenInfo": [
+        "A 66, B 58, C 45"
+      ],
+      "conceptOrFormula": "Sum the series.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pick the year",
+          "explanation": "2023: 66, 58 and 45."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Add",
+          "explanation": "66 + 58 + 45 = 169."
+        }
+      ],
+      "finalAnswer": "169 thousand",
+      "whyItWorks": "Add only the chosen year.",
+      "commonTrap": "Adding across years.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-di-bar-graphs-2",
+      "title": "Percentage change",
+      "question": "By what percentage did company A's production increase from 2019 to 2023?",
+      "givenInfo": [
+        "A: 40 → 66"
+      ],
+      "conceptOrFormula": "Earlier year is the base.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Increase",
+          "explanation": "66 − 40 = 26."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide",
+          "explanation": "26 ÷ 40 = 0.65."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Percent",
+          "explanation": "65%."
+        }
+      ],
+      "finalAnswer": "65%",
+      "whyItWorks": "2019 is the base.",
+      "commonTrap": "Dividing by 66.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-di-bar-graphs-3",
+      "title": "Share of total",
+      "question": "What percentage of the total production in 2022 was produced by B (to one decimal place)?",
+      "givenInfo": [
+        "B = 52",
+        "Total 2022 = 150"
+      ],
+      "conceptOrFormula": "Share = part ÷ total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total 2022",
+          "explanation": "60 + 52 + 38 = 150."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Share",
+          "explanation": "52 ÷ 150 × 100 = 34.7%."
+        }
+      ],
+      "finalAnswer": "34.7%",
+      "whyItWorks": "The total for that year is the base.",
+      "commonTrap": "Using the total of all years.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Table first, then choose cells",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Read the graph for every question.",
+      "shortcutMethod": "Convert the graph to a small table, underline what is asked and pick only those cells. Use approximation when options are spread."
+    },
+    "rulesForApplication": [
+      "Check the scale and units.",
+      "Percentage change: old is the base.",
+      "Share: total of that year.",
+      "Count the terms for averages."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reading the wrong bar",
+      "whyItHappens": "Mixing colours or years.",
+      "howToAvoid": "Write the table."
+    },
+    {
+      "mistake": "Wrong base",
+      "whyItHappens": "Using the new value.",
+      "howToAvoid": "Use the earlier one."
+    },
+    {
+      "mistake": "Counting terms wrong",
+      "whyItHappens": "Dividing by the wrong number.",
+      "howToAvoid": "Count the years."
+    },
+    {
+      "mistake": "Ignoring units",
+      "whyItHappens": "Forgetting thousands.",
+      "howToAvoid": "State the unit."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 70,
+    "eliminationTechnique": "Use rough values to reject options far from the estimate.",
+    "questionSelectionAdvice": "Do direct and total questions first.",
+    "recruiterInsight": "The same table can be reused for all questions in the set."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-di-bar-graphs-e1",
+        "question": "Bar chart data: cars produced (in thousands) by three companies.\n\nYear | A | B | C\n2019 | 40 | 35 | 30\n2020 | 48 | 42 | 36\n2021 | 45 | 50 | 40\n2022 | 60 | 52 | 38\n2023 | 66 | 58 | 45\n\nHow many thousand cars did company A produce in 2021?",
+        "options": [
+          "48",
+          "45",
+          "50",
+          "60"
+        ],
+        "correctAnswer": "45",
+        "explanation": "Read the row 2021, column A: 45.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-di-bar-graphs-e2",
+        "question": "Bar chart data: cars produced (in thousands) by three companies.\n\nYear | A | B | C\n2019 | 40 | 35 | 30\n2020 | 48 | 42 | 36\n2021 | 45 | 50 | 40\n2022 | 60 | 52 | 38\n2023 | 66 | 58 | 45\n\nWhat was the total production (in thousands) of the three companies in 2023?",
+        "options": [
+          "169",
+          "159",
+          "175",
+          "180"
+        ],
+        "correctAnswer": "169",
+        "explanation": "Add the 2023 row: 66 + 58 + 45 = 169.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-di-bar-graphs-e3",
+        "question": "Bar chart data: cars produced (in thousands) by three companies.\n\nYear | A | B | C\n2019 | 40 | 35 | 30\n2020 | 48 | 42 | 36\n2021 | 45 | 50 | 40\n2022 | 60 | 52 | 38\n2023 | 66 | 58 | 45\n\nWhich company produced the most cars in 2020?",
+        "options": [
+          "B",
+          "C",
+          "A and B equally",
+          "A"
+        ],
+        "correctAnswer": "A",
+        "explanation": "In 2020 the values are 48, 42 and 36, so A was the highest.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-di-bar-graphs-i7",
+        "question": "Bar chart data: cars produced (in thousands) by three companies.\n\nYear | A | B | C\n2019 | 40 | 35 | 30\n2020 | 48 | 42 | 36\n2021 | 45 | 50 | 40\n2022 | 60 | 52 | 38\n2023 | 66 | 58 | 45\n\nWhat was the average annual production (in thousands) of company A over the five years?",
+        "options": [
+          "51.8",
+          "50",
+          "52.5",
+          "54"
+        ],
+        "correctAnswer": "51.8",
+        "explanation": "Total = 40 + 48 + 45 + 60 + 66 = 259. Average = 259 ÷ 5 = 51.8.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-di-bar-graphs-i8",
+        "question": "Bar chart data: cars produced (in thousands) by three companies.\n\nYear | A | B | C\n2019 | 40 | 35 | 30\n2020 | 48 | 42 | 36\n2021 | 45 | 50 | 40\n2022 | 60 | 52 | 38\n2023 | 66 | 58 | 45\n\nBy what percentage did the production of A increase from 2019 to 2023?",
+        "options": [
+          "39.4%",
+          "52.0%",
+          "75.0%",
+          "65%"
+        ],
+        "correctAnswer": "65%",
+        "explanation": "Increase = 26. 26 ÷ 40 × 100 = 65%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-di-bar-graphs-i9",
+        "question": "Bar chart data: cars produced (in thousands) by three companies.\n\nYear | A | B | C\n2019 | 40 | 35 | 30\n2020 | 48 | 42 | 36\n2021 | 45 | 50 | 40\n2022 | 60 | 52 | 38\n2023 | 66 | 58 | 45\n\nWhat is the ratio of the production of B to that of C in 2021 (simplest form)?",
+        "options": [
+          "3 : 2",
+          "4 : 3",
+          "6 : 5",
+          "5 : 4"
+        ],
+        "correctAnswer": "5 : 4",
+        "explanation": "50 : 40 = 5 : 4.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-di-bar-graphs-a15",
+        "question": "Bar chart data: cars produced (in thousands) by three companies.\n\nYear | A | B | C\n2019 | 40 | 35 | 30\n2020 | 48 | 42 | 36\n2021 | 45 | 50 | 40\n2022 | 60 | 52 | 38\n2023 | 66 | 58 | 45\n\nThe production of A in 2023 was what percentage of the total production of all three in 2023 (to one decimal place)?",
+        "options": [
+          "35.0%",
+          "42.5%",
+          "39.1%",
+          "45.0%"
+        ],
+        "correctAnswer": "39.1%",
+        "explanation": "66 ÷ 169 × 100 = 39.1%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-bar-graphs-a16",
+        "question": "Bar chart data: cars produced (in thousands) by three companies.\n\nYear | A | B | C\n2019 | 40 | 35 | 30\n2020 | 48 | 42 | 36\n2021 | 45 | 50 | 40\n2022 | 60 | 52 | 38\n2023 | 66 | 58 | 45\n\nIf the production of B rises by 10% in 2024 over 2023, it will be (in thousands)",
+        "options": [
+          "60.5",
+          "63.8",
+          "63",
+          "64.5"
+        ],
+        "correctAnswer": "63.8",
+        "explanation": "58 × 1.1 = 63.8.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-di-bar-graphs-p17",
+        "question": "Bar chart data: cars produced (in thousands) by three companies.\n\nYear | A | B | C\n2019 | 40 | 35 | 30\n2020 | 48 | 42 | 36\n2021 | 45 | 50 | 40\n2022 | 60 | 52 | 38\n2023 | 66 | 58 | 45\n\nThe ratio of the total production of A to that of B over the five years is",
+        "options": [
+          "7 : 6",
+          "259 : 237",
+          "37 : 33",
+          "8 : 7"
+        ],
+        "correctAnswer": "259 : 237",
+        "explanation": "A total = 259 and B total = 237. The ratio in simplest form is 259 : 237.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-bar-graphs-p18",
+        "question": "Bar chart data: cars produced (in thousands) by three companies.\n\nYear | A | B | C\n2019 | 40 | 35 | 30\n2020 | 48 | 42 | 36\n2021 | 45 | 50 | 40\n2022 | 60 | 52 | 38\n2023 | 66 | 58 | 45\n\nThe average production (in thousands) of the three companies in 2020 is",
+        "options": [
+          "42",
+          "40",
+          "44",
+          "48"
+        ],
+        "correctAnswer": "42",
+        "explanation": "(48 + 42 + 36) ÷ 3 = 42.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-bar-graphs-p19",
+        "question": "Bar chart data: cars produced (in thousands) by three companies.\n\nYear | A | B | C\n2019 | 40 | 35 | 30\n2020 | 48 | 42 | 36\n2021 | 45 | 50 | 40\n2022 | 60 | 52 | 38\n2023 | 66 | 58 | 45\n\nIn which year was the difference between the highest and the lowest producer the largest?",
+        "options": [
+          "2019",
+          "2020",
+          "2023",
+          "2022"
+        ],
+        "correctAnswer": "2022",
+        "explanation": "The spreads are 10, 12, 10, 22, 21. The largest (22) is in 2022.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Table first.",
+      "Totals, differences, averages.",
+      "Percentage change base.",
+      "Share of total.",
+      "Ratio simplification."
+    ],
+    "quickFormulas": [
+      "(new − old)/old × 100",
+      "part/total × 100"
+    ]
+  },
+  "keyTakeaways": [
+    "Convert to numbers.",
+    "Choose cells.",
+    "Know the base.",
+    "Check units."
+  ],
+  "selfCheckQuestions": [
+    "Can I find YoY changes?",
+    "Can I find a share of total?",
+    "Can I simplify a ratio?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Bar chart data interpretation; data and examples are original."
+    }
+  ]
+}

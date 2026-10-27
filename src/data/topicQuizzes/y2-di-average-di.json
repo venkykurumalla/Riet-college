@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-di-average-di",
+  "topicTitle": "Average-Based DI",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhat is the total marks of student A?",
+      "options": [
+        "290",
+        "300",
+        "310",
+        "320"
+      ],
+      "answerIndex": 1,
+      "explanation": "78 + 82 + 74 + 66 = 300."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhat is the average marks of student A?",
+      "options": [
+        "75",
+        "72",
+        "76",
+        "80"
+      ],
+      "answerIndex": 0,
+      "explanation": "300 ÷ 4 = 75."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhich student scored the highest marks in Maths?",
+      "options": [
+        "B",
+        "A",
+        "E",
+        "D"
+      ],
+      "answerIndex": 3,
+      "explanation": "Maths marks: A 78, B 85, C 64, D 90, E 72. The highest is D (90)."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhat is the total marks of student C?",
+      "options": [
+        "272",
+        "290",
+        "282",
+        "300"
+      ],
+      "answerIndex": 2,
+      "explanation": "64 + 70 + 68 + 80 = 282."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nIn which subject did student B score the highest?",
+      "options": [
+        "Maths",
+        "Physics",
+        "Chemistry",
+        "English"
+      ],
+      "answerIndex": 2,
+      "explanation": "B scored 85, 79, 88, 72. The highest is Chemistry (88)."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhat is the total marks of student D?",
+      "options": [
+        "326",
+        "336",
+        "340",
+        "346"
+      ],
+      "answerIndex": 1,
+      "explanation": "90 + 86 + 84 + 76 = 336."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhich student has the highest total marks?",
+      "options": [
+        "D",
+        "B",
+        "A",
+        "E"
+      ],
+      "answerIndex": 0,
+      "explanation": "Totals: A 300, B 324, C 282, D 336, E 292. The highest is D."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhat is the average marks in Maths of the five students?",
+      "options": [
+        "76.8",
+        "78.6",
+        "80",
+        "77.8"
+      ],
+      "answerIndex": 3,
+      "explanation": "(78 + 85 + 64 + 90 + 72) ÷ 5 = 389 ÷ 5 = 77.8."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nIn which subject is the average marks of the five students the highest?",
+      "options": [
+        "Maths",
+        "Physics",
+        "English",
+        "Chemistry"
+      ],
+      "answerIndex": 3,
+      "explanation": "Averages: Maths 77.8, Physics 77.0, Chemistry 78.4, English 73.6. The highest is Chemistry."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nIn which subject is the average marks of the five students the lowest?",
+      "options": [
+        "Maths",
+        "Physics",
+        "English",
+        "Chemistry"
+      ],
+      "answerIndex": 2,
+      "explanation": "English has the lowest average, 73.6."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhat is the average marks of student B?",
+      "options": [
+        "78",
+        "81",
+        "80",
+        "84"
+      ],
+      "answerIndex": 1,
+      "explanation": "(85 + 79 + 88 + 72) ÷ 4 = 324 ÷ 4 = 81."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhat is the total of all the marks in the table?",
+      "options": [
+        "1534",
+        "1500",
+        "1550",
+        "1580"
+      ],
+      "answerIndex": 0,
+      "explanation": "300 + 324 + 282 + 336 + 292 = 1534."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhat is the overall average of all the marks in the table?",
+      "options": [
+        "76.7",
+        "75",
+        "77.5",
+        "78.2"
+      ],
+      "answerIndex": 0,
+      "explanation": "1534 ÷ 20 = 76.7."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nBy how many marks is the average in Chemistry higher than the average in English?",
+      "options": [
+        "3.4",
+        "5",
+        "6.2",
+        "4.8"
+      ],
+      "answerIndex": 3,
+      "explanation": "78.4 − 73.6 = 4.8."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nHow many more marks in total must student A obtain to have an average of 80 in the four subjects?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "answerIndex": 2,
+      "explanation": "Needed total = 320. A has 300, so 20 more."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nStudent D's Maths marks are what percentage above the class average in Maths (to one decimal place)?",
+      "options": [
+        "12.5%",
+        "15.7%",
+        "18.0%",
+        "20.0%"
+      ],
+      "answerIndex": 1,
+      "explanation": "(90 − 77.8) ÷ 77.8 × 100 = 15.7%."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nThe average marks of student E is",
+      "options": [
+        "70",
+        "73",
+        "74",
+        "75"
+      ],
+      "answerIndex": 1,
+      "explanation": "(72 + 68 + 78 + 74) ÷ 4 = 292 ÷ 4 = 73."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nIf student C's Maths marks are increased by 10, the new average marks of C in the four subjects is",
+      "options": [
+        "73",
+        "70.5",
+        "73",
+        "75"
+      ],
+      "answerIndex": 0,
+      "explanation": "New total = 292. Average = 292 ÷ 4 = 73."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nThe difference between the highest and the lowest total marks among the five students is",
+      "options": [
+        "44",
+        "52",
+        "60",
+        "54"
+      ],
+      "answerIndex": 3,
+      "explanation": "Highest 336 (D) and lowest 282 (C). Difference = 54."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nThe average of the five students' average marks (overall) is",
+      "options": [
+        "75.5",
+        "77",
+        "76.7",
+        "78.4"
+      ],
+      "answerIndex": 2,
+      "explanation": "Row averages: 75, 81, 70.5, 84, 73. Their mean is 383.5 ÷ 5 = 76.7."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/table-charts/"
+}

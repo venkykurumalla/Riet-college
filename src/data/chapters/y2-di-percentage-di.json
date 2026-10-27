@@ -1,0 +1,432 @@
+{
+  "id": "y2-di-percentage-di",
+  "yearId": 2,
+  "category": "Data Interpretation",
+  "topicNumber": 48,
+  "title": "Percentage-Based DI",
+  "tagline": "Year 2 — Tables where values are given as percentages of totals",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "In a percentage-based DI set, the table gives totals and also percentages of those totals, for example the percentage of girls or the percentage who passed. To answer questions you must convert percentages into actual numbers by multiplying by the right total, and sometimes to convert back to a percentage of a different total. The key is to know which total each percentage refers to.",
+    "placementRelevance": "Percentage-based DI sets are commonly asked in company aptitude rounds, and they test accuracy with percentages more than speed of reading.",
+    "realWorldContext": "Survey results, pass percentages and market shares are reported as percentages of different totals."
+  },
+  "learningObjectives": [
+    "Convert a percentage of a total into a number",
+    "Use complements (boys = 100% − girls)",
+    "Compute overall percentages from group data",
+    "Compare groups by numbers rather than by percentages",
+    "Compute ratios and differences from derived numbers"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Percentages",
+      "Bar Graph Interpretation",
+      "Reading Data Tables"
+    ],
+    "quickRefresher": "Number = percentage ÷ 100 × total. The complement of x% is (100 − x)%. Overall percentage = total of parts ÷ total of wholes × 100."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Base (or total): the quantity that the percentage is a part of.",
+      "Complement: the rest, (100 − x)%.",
+      "Derived column: a new column of numbers computed from percentages and totals.",
+      "Overall percentage: sum of parts ÷ sum of totals, not the average of percentages.",
+      "Percentage point difference: difference between two percentages."
+    ],
+    "theoreticalIntuition": "A percentage is meaningless without its total. Once you convert every percentage to an actual number (a derived column), the rest of the problem is simple arithmetic on numbers. Averaging percentages directly gives wrong answers because the groups have different sizes.",
+    "visualOrMentalModel": "Add derived columns to the table: girls, boys, passed. Do this once, then use the new columns to answer all questions."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Number from percentage",
+      "formula": "Number = % ÷ 100 × total",
+      "description": "Use the correct total.",
+      "whenToUse": "Any percentage cell.",
+      "simpleExample": "40% of 1200 = 480"
+    },
+    {
+      "title": "Complement",
+      "formula": "Boys % = 100 − girls %",
+      "description": "The rest of the total.",
+      "whenToUse": "Complementary groups.",
+      "simpleExample": "Girls 40% → boys 60%"
+    },
+    {
+      "title": "Overall percentage",
+      "formula": "Σ parts ÷ Σ totals × 100",
+      "description": "Not the mean of percentages.",
+      "whenToUse": "Combined groups.",
+      "simpleExample": "4680 ÷ 6500 = 72%"
+    },
+    {
+      "title": "Comparing groups",
+      "formula": "Compare numbers, not percentages",
+      "description": "Totals differ.",
+      "whenToUse": "Which college has more?",
+      "simpleExample": "S: 60% of 2000 = 1200 passed"
+    },
+    {
+      "title": "Ratio of two derived numbers",
+      "formula": "Simplify by the HCF",
+      "description": "Same college or different.",
+      "whenToUse": "Ratio questions.",
+      "simpleExample": "Girls : boys in T = 550 : 450 = 11 : 9"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "First, derive the numbers. College P has 1200 students of whom 40% are girls: 480 girls and 720 boys. 80% passed: 960 students. Do this for each college and write the numbers in new columns.",
+      "Compare using numbers, not percentages. College R has the highest pass percentage (90%) but only 800 students, so 720 passed. College S has only 60% pass rate but 2000 students, so 1200 passed, the most of any college.",
+      "For overall percentages, add the numbers: the total number of students is 6500 and the total number who passed is 960 + 1050 + 720 + 1200 + 750 = 4680, so the overall pass percentage is 4680 ÷ 6500 × 100 = 72%. The simple average of the five percentages would give 75%, which is wrong.",
+      "For ratios, use derived numbers: girls : boys in college T is 550 : 450 = 11 : 9.",
+      "Always check that the numbers are whole and sensible; a percentage of a total that gives a fraction of a person suggests a misread."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Average of percentages is not overall",
+        "content": "Because groups differ in size, the overall percentage is a weighted average. Always go through the totals."
+      },
+      {
+        "title": "Percentage points vs percent",
+        "content": "If the pass rate rises from 70% to 80%, it rises by 10 percentage points and by 14.3% in relative terms."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Number from a percentage",
+      "description": "Direct.",
+      "exampleSnippet": "Girls in P"
+    },
+    {
+      "typeName": "Complements",
+      "description": "Boys.",
+      "exampleSnippet": "Boys in R"
+    },
+    {
+      "typeName": "Overall percentage",
+      "description": "Σ/Σ.",
+      "exampleSnippet": "Overall pass percentage"
+    },
+    {
+      "typeName": "Comparing groups",
+      "description": "By number.",
+      "exampleSnippet": "Most passed"
+    },
+    {
+      "typeName": "Ratios",
+      "description": "Girls to boys.",
+      "exampleSnippet": "College T"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-di-percentage-di-1",
+      "title": "Derived numbers",
+      "question": "How many girls are there in college P, and how many boys?",
+      "givenInfo": [
+        "Total 1200",
+        "40% girls"
+      ],
+      "conceptOrFormula": "Number = % × total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Girls",
+          "explanation": "40% of 1200 = 480."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Boys",
+          "explanation": "1200 − 480 = 720."
+        }
+      ],
+      "finalAnswer": "480 girls and 720 boys",
+      "whyItWorks": "The rest are boys.",
+      "commonTrap": "Using 40 and 60.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-di-percentage-di-2",
+      "title": "Overall percentage",
+      "question": "What is the overall pass percentage of the five colleges together?",
+      "givenInfo": [
+        "Totals and pass percentages"
+      ],
+      "conceptOrFormula": "Σ parts ÷ Σ totals.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Passed",
+          "explanation": "960 + 1050 + 720 + 1200 + 750 = 4680."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Total",
+          "explanation": "6500."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Overall",
+          "explanation": "4680 ÷ 6500 × 100 = 72%."
+        }
+      ],
+      "finalAnswer": "72%",
+      "whyItWorks": "Larger colleges count for more.",
+      "commonTrap": "Averaging the five percentages (75%).",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-di-percentage-di-3",
+      "title": "Compare by number",
+      "question": "Which college had the highest number of students who passed?",
+      "givenInfo": [
+        "Pass numbers"
+      ],
+      "conceptOrFormula": "Compare numbers.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Numbers",
+          "explanation": "P 960, Q 1050, R 720, S 1200, T 750."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Highest",
+          "explanation": "S."
+        }
+      ],
+      "finalAnswer": "S",
+      "whyItWorks": "A large college can lead even with a lower pass rate.",
+      "commonTrap": "Choosing R, which has the highest pass percentage.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Derived columns",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Recompute percentages in every question.",
+      "shortcutMethod": "Add columns for girls, boys and passed once. Use them for every later question."
+    },
+    "rulesForApplication": [
+      "Know the base.",
+      "Overall = Σ parts / Σ totals.",
+      "Compare numbers.",
+      "Use complements."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using the wrong total",
+      "whyItHappens": "Mixing colleges.",
+      "howToAvoid": "Use the row total."
+    },
+    {
+      "mistake": "Averaging percentages",
+      "whyItHappens": "Ignoring sizes.",
+      "howToAvoid": "Weight by totals."
+    },
+    {
+      "mistake": "Comparing percentages across groups",
+      "whyItHappens": "Ignoring totals.",
+      "howToAvoid": "Compare numbers."
+    },
+    {
+      "mistake": "Forgetting complements",
+      "whyItHappens": "Missing boys.",
+      "howToAvoid": "100 − girls %."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 80,
+    "eliminationTechnique": "Reject answers that treat a percentage as a number or vice versa.",
+    "questionSelectionAdvice": "Derive columns first.",
+    "recruiterInsight": "Overall percentages are the usual trap."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-di-percentage-di-e1",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many girls are there in college P?",
+        "options": [
+          "400",
+          "480",
+          "600",
+          "720"
+        ],
+        "correctAnswer": "480",
+        "explanation": "40% of 1200 = 480.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-di-percentage-di-e2",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many students passed in college Q?",
+        "options": [
+          "1050",
+          "900",
+          "1000",
+          "1200"
+        ],
+        "correctAnswer": "1050",
+        "explanation": "70% of 1500 = 1050.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-di-percentage-di-e3",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many boys are there in college R?",
+        "options": [
+          "300",
+          "480",
+          "600",
+          "400"
+        ],
+        "correctAnswer": "400",
+        "explanation": "50% of 800 are girls, so boys = 400.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-di-percentage-di-i7",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many students passed in all five colleges together?",
+        "options": [
+          "4680",
+          "4500",
+          "4800",
+          "4900"
+        ],
+        "correctAnswer": "4680",
+        "explanation": "960 + 1050 + 720 + 1200 + 750 = 4680.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-di-percentage-di-i8",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nWhich college had the highest number of students who passed?",
+        "options": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ],
+        "correctAnswer": "S",
+        "explanation": "The numbers who passed are 960, 1050, 720, 1200 and 750. The highest is S.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-di-percentage-di-i9",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nWhat is the overall pass percentage of the five colleges (students passed ÷ total students)?",
+        "options": [
+          "70%",
+          "73%",
+          "75%",
+          "72%"
+        ],
+        "correctAnswer": "72%",
+        "explanation": "4680 ÷ 6500 × 100 = 72%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-di-percentage-di-a15",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nThe number of boys in college Q is what percentage of the number of students who passed in college Q (to one decimal place)?",
+        "options": [
+          "70.0%",
+          "78.6%",
+          "78.6%",
+          "85.0%"
+        ],
+        "correctAnswer": "78.6%",
+        "explanation": "Boys = 825. 825 ÷ 1050 × 100 = 78.6%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-percentage-di-a16",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nThe total number of boys in colleges P and S together is",
+        "options": [
+          "1800",
+          "2020",
+          "2000",
+          "2100"
+        ],
+        "correctAnswer": "2020",
+        "explanation": "720 + 1300 = 2020.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-di-percentage-di-p17",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nThe number of students who passed in college P is what percentage of the total number of students in the five colleges (to one decimal place)?",
+        "options": [
+          "12.5%",
+          "14.8%",
+          "16.0%",
+          "20.0%"
+        ],
+        "correctAnswer": "14.8%",
+        "explanation": "960 ÷ 6500 × 100 = 14.8%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-percentage-di-p18",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nIf 20% more students had passed in college S, how many would have passed?",
+        "options": [
+          "1440",
+          "1320",
+          "1400",
+          "1500"
+        ],
+        "correctAnswer": "1440",
+        "explanation": "1200 × 1.2 = 1440.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-percentage-di-p19",
+        "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nThe average number of students per college is",
+        "options": [
+          "1200",
+          "1350",
+          "1400",
+          "1300"
+        ],
+        "correctAnswer": "1300",
+        "explanation": "6500 ÷ 5 = 1300.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Number = % × total.",
+      "Complement.",
+      "Overall percentage.",
+      "Compare numbers.",
+      "Ratios from numbers."
+    ],
+    "quickFormulas": [
+      "% × total / 100",
+      "Σparts/Σtotal × 100"
+    ]
+  },
+  "keyTakeaways": [
+    "Derived columns.",
+    "Right base.",
+    "Weighted overall.",
+    "Numbers for comparison."
+  ],
+  "selfCheckQuestions": [
+    "Can I find girls from a percentage?",
+    "Can I compute an overall percentage?",
+    "Can I compare colleges by number?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Tabular data interpretation; data and examples are original."
+    }
+  ]
+}

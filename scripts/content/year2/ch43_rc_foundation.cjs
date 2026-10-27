@@ -65,7 +65,7 @@ const chapter = {
       q: PA + '\n\nHow far did the children have to walk to study?',
       given: ['Passage about Rahul'],
       concept: 'Find the line.',
-      steps: [['Scan', '"Five kilometres to the nearest town".']],
+      steps: [['Scan for the key words', 'The question asks about distance to school.'], ['Locate the line', '"Five kilometres to the nearest town".']],
       ans: 'Five kilometres', why: 'Stated directly.', trap: 'Choosing a number from memory.'
     },
     {

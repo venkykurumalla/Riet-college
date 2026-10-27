@@ -1,0 +1,425 @@
+{
+  "id": "y2-di-average-di",
+  "yearId": 2,
+  "category": "Data Interpretation",
+  "topicNumber": 50,
+  "title": "Average-Based DI",
+  "tagline": "Year 2 — Averages across rows and columns, comparisons and effects of changes",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Average-based DI sets give a table of marks, sales or other quantities, and ask for averages across rows (per student) and across columns (per subject), for the whole table, and for the effect of changes such as adding a mark. Because an average is a total divided by a count, the easiest approach is to compute row totals and column totals first and then divide when needed.",
+    "placementRelevance": "Average-based DI sets are commonly asked in company aptitude rounds and test accuracy in addition and division more than any new concept.",
+    "realWorldContext": "Class results, performance reports and monthly summaries are all averaged across rows and columns."
+  },
+  "learningObjectives": [
+    "Compute row and column totals once and reuse them",
+    "Compute averages across a row, a column or the whole table",
+    "Compare averages and find the highest and lowest",
+    "Find the marks needed to reach a target average",
+    "Compute percentages and differences from averages"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Averages",
+      "Reading Data Tables"
+    ],
+    "quickRefresher": "Average = total ÷ count. Total = average × count. The grand total equals the sum of row totals and also the sum of column totals."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Row total: sum of values across a row (one student).",
+      "Column total: sum of values down a column (one subject).",
+      "Row average: row total ÷ number of columns. Column average: column total ÷ number of rows.",
+      "Grand total: sum of all values; overall average = grand total ÷ number of values.",
+      "Target average: the average you want to reach; needed total = target × count."
+    ],
+    "theoreticalIntuition": "Averages are totals in disguise. If you hold the row totals and column totals, you can answer almost any average question with a single division. The grand total gives a useful check: row totals and column totals must add to the same number.",
+    "visualOrMentalModel": "Add a total column and a total row to the table. Use these totals for all later questions, and check the grand total from both directions."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Row and column averages",
+      "formula": "Row avg = row total ÷ 4;  Column avg = column total ÷ 5",
+      "description": "Count the cells.",
+      "whenToUse": "Per student, per subject.",
+      "simpleExample": "A: 300 ÷ 4 = 75"
+    },
+    {
+      "title": "Overall average",
+      "formula": "Grand total ÷ number of values",
+      "description": "Same from rows or columns.",
+      "whenToUse": "Whole-table average.",
+      "simpleExample": "1516 ÷ 20 = 75.8"
+    },
+    {
+      "title": "Target average",
+      "formula": "Needed total = target × count",
+      "description": "Subtract what you have.",
+      "whenToUse": "Marks needed.",
+      "simpleExample": "For 80 average in 4 subjects: 320"
+    },
+    {
+      "title": "Difference of averages",
+      "formula": "Avg₁ − Avg₂",
+      "description": "Compute each first.",
+      "whenToUse": "Comparisons.",
+      "simpleExample": "Maths avg − English avg"
+    },
+    {
+      "title": "Percentage above average",
+      "formula": "(value − average) ÷ average × 100",
+      "description": "Average is the base.",
+      "whenToUse": "Relative performance.",
+      "simpleExample": "(90 − 75.8) ÷ 75.8"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Add a total column and a total row. Student A has 78 + 82 + 74 + 66 = 300, so average 75. Maths has 78 + 85 + 64 + 90 + 72 = 389 over five students, an average of 77.8.",
+      "The grand total is the sum of all row totals: 300 + 324 + 282 + 336 + 292 = 1534. Check by summing the column totals: 389 + 385 + 392 + 368 = 1534. The overall average is 1534 ÷ 20 = 76.7.",
+      "To find the best student, compare row totals; to find the best subject, compare column totals or averages. Student D has the highest total (336), and Chemistry has the highest average (392 ÷ 5 = 78.4).",
+      "For a target average, work with totals. To average 80 in four subjects, a student needs 320. Student A has 300, so would need 20 more marks, which is a rise of 5 in each subject on average.",
+      "For relative comparisons, use the average as the base: if the class average in Maths is 77.8, then D's 90 is (90 − 77.8) ÷ 77.8 × 100 = 15.7% above the average."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Average of averages",
+        "content": "Because every row has the same number of cells, the average of the row averages equals the overall average. With unequal counts this fails."
+      },
+      {
+        "title": "Effect of a change",
+        "content": "If one mark changes by d, the row total changes by d and the row average by d ÷ 4, the column average by d ÷ 5 and the overall average by d ÷ 20."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Row averages",
+      "description": "Per student.",
+      "exampleSnippet": "A"
+    },
+    {
+      "typeName": "Column averages",
+      "description": "Per subject.",
+      "exampleSnippet": "Maths"
+    },
+    {
+      "typeName": "Overall average",
+      "description": "Whole table.",
+      "exampleSnippet": "Grand ÷ 20"
+    },
+    {
+      "typeName": "Target average",
+      "description": "Marks needed.",
+      "exampleSnippet": "80 average"
+    },
+    {
+      "typeName": "Comparisons",
+      "description": "Highest and lowest.",
+      "exampleSnippet": "Best subject"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-di-average-di-1",
+      "title": "Row average",
+      "question": "Find the average marks of student A.",
+      "givenInfo": [
+        "78, 82, 74, 66"
+      ],
+      "conceptOrFormula": "Total ÷ 4.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total",
+          "explanation": "78 + 82 + 74 + 66 = 300."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Average",
+          "explanation": "300 ÷ 4 = 75."
+        }
+      ],
+      "finalAnswer": "75",
+      "whyItWorks": "Four subjects.",
+      "commonTrap": "Dividing by 5.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-di-average-di-2",
+      "title": "Column average",
+      "question": "Find the average marks in Maths for the five students.",
+      "givenInfo": [
+        "78, 85, 64, 90, 72"
+      ],
+      "conceptOrFormula": "Total ÷ 5.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total",
+          "explanation": "78 + 85 + 64 + 90 + 72 = 389."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Average",
+          "explanation": "389 ÷ 5 = 77.8."
+        }
+      ],
+      "finalAnswer": "77.8",
+      "whyItWorks": "Five students.",
+      "commonTrap": "Dividing by 4.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-di-average-di-3",
+      "title": "Target average",
+      "question": "How many more marks in total does student A need to reach an average of 80 in the four subjects?",
+      "givenInfo": [
+        "A total 300",
+        "Target 80"
+      ],
+      "conceptOrFormula": "Needed total = target × count.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Needed",
+          "explanation": "80 × 4 = 320."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Extra",
+          "explanation": "320 − 300 = 20."
+        }
+      ],
+      "finalAnswer": "20",
+      "whyItWorks": "Averages are totals divided by the count.",
+      "commonTrap": "Comparing averages directly.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Totals first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compute each average from scratch.",
+      "shortcutMethod": "Add a total row and a total column. Use them for every question and check the grand total from both directions."
+    },
+    "rulesForApplication": [
+      "Row ÷ columns; column ÷ rows.",
+      "Grand total check.",
+      "Target = average × count.",
+      "Average is the base for percentages."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Dividing by the wrong count",
+      "whyItHappens": "Using 5 for a row.",
+      "howToAvoid": "Count cells."
+    },
+    {
+      "mistake": "Skipping the grand total check",
+      "whyItHappens": "Arithmetic slips.",
+      "howToAvoid": "Add both ways."
+    },
+    {
+      "mistake": "Averaging averages with unequal counts",
+      "whyItHappens": "Wrong weights.",
+      "howToAvoid": "Use totals."
+    },
+    {
+      "mistake": "Wrong base",
+      "whyItHappens": "Using the value as the base.",
+      "howToAvoid": "Use the average."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 80,
+    "eliminationTechnique": "An average must lie between the smallest and largest values in its row or column.",
+    "questionSelectionAdvice": "Compute all totals first.",
+    "recruiterInsight": "The grand total check catches most errors."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-di-average-di-e1",
+        "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhat is the total marks of student A?",
+        "options": [
+          "290",
+          "300",
+          "310",
+          "320"
+        ],
+        "correctAnswer": "300",
+        "explanation": "78 + 82 + 74 + 66 = 300.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-di-average-di-e2",
+        "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhat is the average marks of student A?",
+        "options": [
+          "75",
+          "72",
+          "76",
+          "80"
+        ],
+        "correctAnswer": "75",
+        "explanation": "300 ÷ 4 = 75.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-di-average-di-e3",
+        "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhich student scored the highest marks in Maths?",
+        "options": [
+          "B",
+          "A",
+          "E",
+          "D"
+        ],
+        "correctAnswer": "D",
+        "explanation": "Maths marks: A 78, B 85, C 64, D 90, E 72. The highest is D (90).",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-di-average-di-i7",
+        "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhich student has the highest total marks?",
+        "options": [
+          "D",
+          "B",
+          "A",
+          "E"
+        ],
+        "correctAnswer": "D",
+        "explanation": "Totals: A 300, B 324, C 282, D 336, E 292. The highest is D.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-di-average-di-i8",
+        "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nWhat is the average marks in Maths of the five students?",
+        "options": [
+          "76.8",
+          "78.6",
+          "80",
+          "77.8"
+        ],
+        "correctAnswer": "77.8",
+        "explanation": "(78 + 85 + 64 + 90 + 72) ÷ 5 = 389 ÷ 5 = 77.8.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-di-average-di-i9",
+        "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nIn which subject is the average marks of the five students the highest?",
+        "options": [
+          "Maths",
+          "Physics",
+          "English",
+          "Chemistry"
+        ],
+        "correctAnswer": "Chemistry",
+        "explanation": "Averages: Maths 77.8, Physics 77.0, Chemistry 78.4, English 73.6. The highest is Chemistry.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-di-average-di-a15",
+        "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nHow many more marks in total must student A obtain to have an average of 80 in the four subjects?",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "correctAnswer": "20",
+        "explanation": "Needed total = 320. A has 300, so 20 more.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-average-di-a16",
+        "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nStudent D's Maths marks are what percentage above the class average in Maths (to one decimal place)?",
+        "options": [
+          "12.5%",
+          "15.7%",
+          "18.0%",
+          "20.0%"
+        ],
+        "correctAnswer": "15.7%",
+        "explanation": "(90 − 77.8) ÷ 77.8 × 100 = 15.7%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-di-average-di-p17",
+        "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nThe average marks of student E is",
+        "options": [
+          "70",
+          "73",
+          "74",
+          "75"
+        ],
+        "correctAnswer": "73",
+        "explanation": "(72 + 68 + 78 + 74) ÷ 4 = 292 ÷ 4 = 73.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-average-di-p18",
+        "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nIf student C's Maths marks are increased by 10, the new average marks of C in the four subjects is",
+        "options": [
+          "73",
+          "70.5",
+          "73",
+          "75"
+        ],
+        "correctAnswer": "73",
+        "explanation": "New total = 292. Average = 292 ÷ 4 = 73.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-di-average-di-p19",
+        "question": "Average DI: marks (out of 100) of five students in four subjects.\n\nStudent | Maths | Physics | Chemistry | English\nA | 78 | 82 | 74 | 66\nB | 85 | 79 | 88 | 72\nC | 64 | 70 | 68 | 80\nD | 90 | 86 | 84 | 76\nE | 72 | 68 | 78 | 74\n\nThe difference between the highest and the lowest total marks among the five students is",
+        "options": [
+          "44",
+          "52",
+          "60",
+          "54"
+        ],
+        "correctAnswer": "54",
+        "explanation": "Highest 336 (D) and lowest 282 (C). Difference = 54.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Totals first.",
+      "Row ÷ columns.",
+      "Column ÷ rows.",
+      "Target average.",
+      "Average as the base."
+    ],
+    "quickFormulas": [
+      "Total = avg × count"
+    ]
+  },
+  "keyTakeaways": [
+    "Totals.",
+    "Right count.",
+    "Check both ways.",
+    "Target = average × count."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute a row average?",
+    "Can I compute a column average?",
+    "Can I find marks needed for a target?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Tabular data interpretation; data and examples are original."
+    }
+  ]
+}

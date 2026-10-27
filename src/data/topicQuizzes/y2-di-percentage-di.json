@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-di-percentage-di",
+  "topicTitle": "Percentage-Based DI",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many girls are there in college P?",
+      "options": [
+        "400",
+        "480",
+        "600",
+        "720"
+      ],
+      "answerIndex": 1,
+      "explanation": "40% of 1200 = 480."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many students passed in college Q?",
+      "options": [
+        "1050",
+        "900",
+        "1000",
+        "1200"
+      ],
+      "answerIndex": 0,
+      "explanation": "70% of 1500 = 1050."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many boys are there in college R?",
+      "options": [
+        "300",
+        "480",
+        "600",
+        "400"
+      ],
+      "answerIndex": 3,
+      "explanation": "50% of 800 are girls, so boys = 400."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nWhat is the total number of students in the five colleges?",
+      "options": [
+        "6000",
+        "6200",
+        "6500",
+        "7000"
+      ],
+      "answerIndex": 2,
+      "explanation": "1200 + 1500 + 800 + 2000 + 1000 = 6500."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nWhich college has the highest percentage of passed students?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "answerIndex": 2,
+      "explanation": "The pass percentages are 80, 70, 90, 60, 75. The highest is R (90%)."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many students passed in college T?",
+      "options": [
+        "650",
+        "750",
+        "800",
+        "900"
+      ],
+      "answerIndex": 1,
+      "explanation": "75% of 1000 = 750."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many students passed in all five colleges together?",
+      "options": [
+        "4680",
+        "4500",
+        "4800",
+        "4900"
+      ],
+      "answerIndex": 0,
+      "explanation": "960 + 1050 + 720 + 1200 + 750 = 4680."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nWhich college had the highest number of students who passed?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "answerIndex": 3,
+      "explanation": "The numbers who passed are 960, 1050, 720, 1200 and 750. The highest is S."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nWhat is the overall pass percentage of the five colleges (students passed ÷ total students)?",
+      "options": [
+        "70%",
+        "73%",
+        "75%",
+        "72%"
+      ],
+      "answerIndex": 3,
+      "explanation": "4680 ÷ 6500 × 100 = 72%."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many boys are there in college S?",
+      "options": [
+        "700",
+        "1200",
+        "1300",
+        "1400"
+      ],
+      "answerIndex": 2,
+      "explanation": "35% of 2000 = 700 girls, so boys = 1300."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nWhat is the ratio of girls to boys in college T (simplest form)?",
+      "options": [
+        "5 : 4",
+        "11 : 9",
+        "12 : 11",
+        "55 : 45"
+      ],
+      "answerIndex": 1,
+      "explanation": "550 : 450 = 11 : 9."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many girls are there in all five colleges together?",
+      "options": [
+        "2805",
+        "2700",
+        "2850",
+        "3000"
+      ],
+      "answerIndex": 0,
+      "explanation": "480 + 675 + 400 + 700 + 550 = 2805."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nBy how many students does the number who passed in S exceed the number who passed in R?",
+      "options": [
+        "480",
+        "380",
+        "400",
+        "600"
+      ],
+      "answerIndex": 0,
+      "explanation": "1200 − 720 = 480."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nHow many girls are there in college Q?",
+      "options": [
+        "600",
+        "700",
+        "750",
+        "675"
+      ],
+      "answerIndex": 3,
+      "explanation": "45% of 1500 = 675."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nThe number of boys in college Q is what percentage of the number of students who passed in college Q (to one decimal place)?",
+      "options": [
+        "70.0%",
+        "78.6%",
+        "78.6%",
+        "85.0%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Boys = 825. 825 ÷ 1050 × 100 = 78.6%."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nThe total number of boys in colleges P and S together is",
+      "options": [
+        "1800",
+        "2020",
+        "2000",
+        "2100"
+      ],
+      "answerIndex": 1,
+      "explanation": "720 + 1300 = 2020."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nThe number of students who passed in college P is what percentage of the total number of students in the five colleges (to one decimal place)?",
+      "options": [
+        "12.5%",
+        "14.8%",
+        "16.0%",
+        "20.0%"
+      ],
+      "answerIndex": 1,
+      "explanation": "960 ÷ 6500 × 100 = 14.8%."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nIf 20% more students had passed in college S, how many would have passed?",
+      "options": [
+        "1440",
+        "1320",
+        "1400",
+        "1500"
+      ],
+      "answerIndex": 0,
+      "explanation": "1200 × 1.2 = 1440."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nThe average number of students per college is",
+      "options": [
+        "1200",
+        "1350",
+        "1400",
+        "1300"
+      ],
+      "answerIndex": 3,
+      "explanation": "6500 ÷ 5 = 1300."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Percentage DI: students of five colleges.\n\nCollege | Total students | % girls | % passed\nP | 1200 | 40% | 80%\nQ | 1500 | 45% | 70%\nR | 800 | 50% | 90%\nS | 2000 | 35% | 60%\nT | 1000 | 55% | 75%\n\nThe ratio of the number of students who passed in R to the number who passed in S (simplest form) is",
+      "options": [
+        "2 : 3",
+        "5 : 6",
+        "3 : 5",
+        "4 : 5"
+      ],
+      "answerIndex": 2,
+      "explanation": "720 : 1200 = 3 : 5."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/table-charts/"
+}

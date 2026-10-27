@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-di-ratio-di",
+  "topicTitle": "Ratio-Based DI",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nHow many thousand males are there in city A?",
+      "options": [
+        "250",
+        "350",
+        "300",
+        "420"
+      ],
+      "answerIndex": 1,
+      "explanation": "600 × 7/12 = 350."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nHow many thousand females are there in city C?",
+      "options": [
+        "400",
+        "320",
+        "360",
+        "450"
+      ],
+      "answerIndex": 0,
+      "explanation": "720 × 5/9 = 400."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nHow many thousand literate persons are there in city B?",
+      "options": [
+        "300",
+        "360",
+        "450",
+        "400"
+      ],
+      "answerIndex": 3,
+      "explanation": "480 × 5/6 = 400."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nHow many thousand illiterate persons are there in city D?",
+      "options": [
+        "240",
+        "270",
+        "300",
+        "360"
+      ],
+      "answerIndex": 2,
+      "explanation": "540 × 5/9 = 300."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nHow many thousand females are there in city A?",
+      "options": [
+        "300",
+        "350",
+        "250",
+        "420"
+      ],
+      "answerIndex": 2,
+      "explanation": "600 × 5/12 = 250."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nHow many thousand males are there in city E?",
+      "options": [
+        "180",
+        "270",
+        "250",
+        "300"
+      ],
+      "answerIndex": 1,
+      "explanation": "450 × 3/5 = 270."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nWhat is the total number of males (in thousands) in the five cities?",
+      "options": [
+        "1510",
+        "1400",
+        "1480",
+        "1560"
+      ],
+      "answerIndex": 0,
+      "explanation": "350 + 300 + 320 + 270 + 270 = 1510."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nWhat is the total number of females (in thousands) in the five cities?",
+      "options": [
+        "1200",
+        "1250",
+        "1300",
+        "1280"
+      ],
+      "answerIndex": 3,
+      "explanation": "250 + 180 + 400 + 270 + 180 = 1280."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nIn which city is the number of illiterate persons the smallest?",
+      "options": [
+        "A",
+        "D",
+        "E",
+        "B"
+      ],
+      "answerIndex": 3,
+      "explanation": "Illiterate persons (thousands): A 240, B 80, C 300, D 300, E 150. The smallest is B."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe ratio of the number of literate persons in A to that in B (simplest form) is",
+      "options": [
+        "3 : 5",
+        "8 : 9",
+        "9 : 10",
+        "6 : 7"
+      ],
+      "answerIndex": 2,
+      "explanation": "360 : 400 = 9 : 10."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nHow many thousand literate persons are there in city C?",
+      "options": [
+        "360",
+        "420",
+        "400",
+        "480"
+      ],
+      "answerIndex": 1,
+      "explanation": "720 × 7/12 = 420."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nIn city B, the number of males exceeds the number of females by (thousands)",
+      "options": [
+        "120",
+        "100",
+        "110",
+        "150"
+      ],
+      "answerIndex": 0,
+      "explanation": "Males 300, females 180. Difference = 120."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nHow many thousand literate persons are there in city E?",
+      "options": [
+        "300",
+        "250",
+        "280",
+        "320"
+      ],
+      "answerIndex": 0,
+      "explanation": "450 × 2/3 = 300."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nIn city D, the number of males is what percentage of the population?",
+      "options": [
+        "40%",
+        "45%",
+        "55%",
+        "50%"
+      ],
+      "answerIndex": 3,
+      "explanation": "Males : females = 1 : 1, so males are 50%."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe number of illiterate persons in city A is what percentage of the population of city A?",
+      "options": [
+        "30%",
+        "35%",
+        "40%",
+        "45%"
+      ],
+      "answerIndex": 2,
+      "explanation": "240 ÷ 600 × 100 = 40%."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe total number of literate persons (in thousands) in the five cities is",
+      "options": [
+        "1700",
+        "1720",
+        "1800",
+        "1900"
+      ],
+      "answerIndex": 1,
+      "explanation": "360 + 400 + 420 + 240 + 300 = 1720."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe number of females in C is what percentage of the number of females in A (to one decimal place)?",
+      "options": [
+        "140.0%",
+        "160%",
+        "160.0%",
+        "180.0%"
+      ],
+      "answerIndex": 1,
+      "explanation": "400 ÷ 250 × 100 = 160%."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe ratio of the total number of males to the total number of females in the five cities (simplest form) is",
+      "options": [
+        "151 : 128",
+        "6 : 5",
+        "11 : 9",
+        "17 : 15"
+      ],
+      "answerIndex": 0,
+      "explanation": "1510 : 1280 = 151 : 128."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe difference between the number of literate and illiterate persons in city E (in thousands) is",
+      "options": [
+        "100",
+        "120",
+        "150",
+        "150"
+      ],
+      "answerIndex": 3,
+      "explanation": "300 − 150 = 150."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Ratio DI: population (in thousands) of five cities with the ratios of males to females and of literate to illiterate persons.\n\nCity | Population | Male : Female | Literate : Illiterate\nA | 600 | 7 : 5 | 3 : 2\nB | 480 | 5 : 3 | 5 : 1\nC | 720 | 4 : 5 | 7 : 5\nD | 540 | 1 : 1 | 4 : 5\nE | 450 | 3 : 2 | 2 : 1\n\nThe average number of illiterate persons (in thousands) per city is",
+      "options": [
+        "150",
+        "160",
+        "214",
+        "180"
+      ],
+      "answerIndex": 2,
+      "explanation": "(240 + 80 + 300 + 300 + 150) ÷ 5 = 1070 ÷ 5 = 214."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/table-charts/"
+}

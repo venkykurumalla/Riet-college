@@ -132,7 +132,12 @@
       "steps": [
         {
           "stepNumber": 1,
-          "title": "Scan",
+          "title": "Scan for the key words",
+          "explanation": "The question asks about distance to school."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Locate the line",
           "explanation": "\"Five kilometres to the nearest town\"."
         }
       ],
