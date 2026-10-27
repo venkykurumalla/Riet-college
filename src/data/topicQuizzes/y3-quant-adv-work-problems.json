@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-adv-work-problems",
+  "topicTitle": "Advanced Work Problems — Efficiency Variation",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A can do a job in 20 days and B in 30 days. Together they finish in (days)",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "15"
+      ],
+      "answerIndex": 1,
+      "explanation": "1/20 + 1/30 = 1/12, so 12 days."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A takes 10 days and B takes 15 days to do a job. The ratio of their efficiencies A : B is",
+      "options": [
+        "3 : 2",
+        "2 : 3",
+        "5 : 3",
+        "1 : 3"
+      ],
+      "answerIndex": 0,
+      "explanation": "Efficiency is inversely proportional to time: 15 : 10 = 3 : 2."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "If A is twice as efficient as B and B alone takes 24 days, A alone takes (days)",
+      "options": [
+        "6",
+        "18",
+        "48",
+        "12"
+      ],
+      "answerIndex": 3,
+      "explanation": "A takes half the time: 12 days."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "12 men can do a job in 10 days. 15 men can do it in (days)",
+      "options": [
+        "6",
+        "9",
+        "8",
+        "12"
+      ],
+      "answerIndex": 2,
+      "explanation": "120 ÷ 15 = 8."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A job takes 8 men 9 days. If 6 men work, they take (days)",
+      "options": [
+        "10",
+        "14",
+        "12",
+        "15"
+      ],
+      "answerIndex": 2,
+      "explanation": "72 ÷ 6 = 12."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "If A is 25% more efficient than B and B takes 20 days, A takes (days)",
+      "options": [
+        "15",
+        "16",
+        "18",
+        "25"
+      ],
+      "answerIndex": 1,
+      "explanation": "The efficiency ratio is 5 : 4, so the times are 4 : 5. A = 20 × 4/5 = 16."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "6 men working 9 hours a day complete a job in 10 days. 9 men working 5 hours a day will take (days)",
+      "options": [
+        "12",
+        "8",
+        "10",
+        "15"
+      ],
+      "answerIndex": 0,
+      "explanation": "540 man-hours ÷ 45 per day = 12."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "20 workers can finish a job in 30 days. After 10 days, 5 workers leave. The remaining workers need how many more days? (to one decimal place)",
+      "options": [
+        "20",
+        "24",
+        "30",
+        "26.7"
+      ],
+      "answerIndex": 3,
+      "explanation": "Left = 600 − 200 = 400 man-days. 400 ÷ 15 = 26.7 days."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A can do a job in 20 days and B in 30 days. A starts, and after 5 days B joins. The total time is (days)",
+      "options": [
+        "12",
+        "15",
+        "16",
+        "14"
+      ],
+      "answerIndex": 3,
+      "explanation": "A does 1/4 in 5 days. The remaining 3/4 at 1/12 per day takes 9 days. Total 14."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A can do a job in 12 days, B in 15 days. They work together for 3 days, and A leaves. B finishes the rest alone in (days)",
+      "options": [
+        "6",
+        "7",
+        "8.25",
+        "8"
+      ],
+      "answerIndex": 2,
+      "explanation": "In 3 days they do 3 × 9/60 = 27/60. Left 33/60; B does 4/60 per day, so 8.25 days."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A is thrice as efficient as B. Together they finish a job in 18 days. A alone takes (days)",
+      "options": [
+        "20",
+        "24",
+        "27",
+        "36"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rates 3x and x: 4x = 1/18, so A = 3/72 = 1/24. A takes 24 days."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "15 men finish a job in 20 days. How many men will finish it in 12 days?",
+      "options": [
+        "25",
+        "20",
+        "26",
+        "30"
+      ],
+      "answerIndex": 0,
+      "explanation": "300 ÷ 12 = 25 men."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A worker's efficiency rises by 20%. He earlier took 30 days for a job. He now takes (days)",
+      "options": [
+        "25",
+        "24",
+        "26",
+        "28"
+      ],
+      "answerIndex": 0,
+      "explanation": "Time = 30 ÷ 1.2 = 25."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "4 men and 6 women can finish a job in 8 days; 3 men and 7 women can finish it in 10 days. The ratio of the efficiency of a man to that of a woman is",
+      "options": [
+        "1 : 1",
+        "2 : 1",
+        "3 : 2",
+        "11 : 1"
+      ],
+      "answerIndex": 3,
+      "explanation": "8(4m + 6w) = 10(3m + 7w) gives 32m + 48w = 30m + 70w, so 2m = 22w and m : w = 11 : 1."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A and B can finish a job in 12 and 18 days. They work together for 4 days, then B leaves. A finishes the rest in (days)",
+      "options": [
+        "4",
+        "5",
+        "5.33",
+        "6"
+      ],
+      "answerIndex": 2,
+      "explanation": "In 4 days they do 4 × 5/36 = 5/9. Left 4/9 at A's rate 1/12: 16/3 = 5.33 days."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A can do a job in 10 days. B is 25% less efficient than A. They work together for 4 days. The fraction of the job left is",
+      "options": [
+        "1/3",
+        "3/10",
+        "2/5",
+        "1/2"
+      ],
+      "answerIndex": 1,
+      "explanation": "B's rate = 0.75 × 1/10 = 3/40. Together 7/40 per day. In 4 days 28/40 = 7/10 is done, so 3/10 is left."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Efficiencies of A, B and C are in the ratio 2 : 3 : 5. A alone takes 30 days. All three together take (days)",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rates 2, 3, 5 units; A's 2 units take 30 days so total job = 60 units. Together 10 units a day: 6 days."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "20 men were to finish a job in 40 days. After 10 days, 10 more men joined. The job finished in how many days from the start?",
+      "options": [
+        "30",
+        "25",
+        "31",
+        "35"
+      ],
+      "answerIndex": 0,
+      "explanation": "Total 800 man-days. After 10 days 600 remain. 30 men take 20 days. Total 30."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A takes 24 days and B takes 36 days to do a job. They work on alternate days, starting with A. The job is finished in (days)",
+      "options": [
+        "24",
+        "28",
+        "30",
+        "29"
+      ],
+      "answerIndex": 3,
+      "explanation": "A + B pair does 1/24 + 1/36 = 5/72 per two days. After 28 days (14 pairs) 70/72 is done. A then does 3/72 on day 29, completing the job."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A and B together finish a job in 6 days. A alone takes 5 days less than B alone. A alone takes (days)",
+      "options": [
+        "8",
+        "12",
+        "10",
+        "15"
+      ],
+      "answerIndex": 2,
+      "explanation": "Let A = x and B = x + 5. 1/x + 1/(x + 5) = 1/6 gives x² − 7x − 30 = 0, so x = 10."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/time-and-work/"
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-alternate-work",
+  "topicTitle": "Alternate Day Work Schedules",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A does 3 units and B does 2 units of work per day and they work on alternate days. In 2 days (one cycle) they do (units)",
+      "options": [
+        "2",
+        "5",
+        "3",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "3 + 2 = 5 units per two-day cycle."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A takes 20 days and B takes 30 days to do a job. If the job is taken as 60 units, A's daily work is (units)",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "60 ÷ 20 = 3 units per day."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A takes 20 days and B takes 30 days. They work on alternate days starting with A. The job finishes in (days)",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "24"
+      ],
+      "answerIndex": 3,
+      "explanation": "60 units ÷ 5 per cycle = 12 cycles = 24 days."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A job is 30 units. A does 3 units per day and B does 2 units per day, alternately starting with A. The days needed are",
+      "options": [
+        "10",
+        "13",
+        "12",
+        "14"
+      ],
+      "answerIndex": 2,
+      "explanation": "Six cycles of 5 units give 30 units in 12 days."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "If three workers do 4, 3 and 2 units on alternate days respectively, the work per three-day cycle is (units)",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "answerIndex": 2,
+      "explanation": "4 + 3 + 2 = 9."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A and B do 5 and 3 units a day alternately, A first. After 8 days the work done is (units)",
+      "options": [
+        "28",
+        "32",
+        "30",
+        "36"
+      ],
+      "answerIndex": 1,
+      "explanation": "Four cycles of 8 units = 32."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A takes 12 days and B takes 18 days. They work on alternate days starting with A. The job takes (days)",
+      "options": [
+        "15",
+        "14",
+        "16",
+        "18"
+      ],
+      "answerIndex": 0,
+      "explanation": "36 units; cycle 5; 7 cycles = 35 units in 14 days; A does the last unit on day 15."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A takes 12 days and B takes 18 days. They work on alternate days starting with B. The job takes (days)",
+      "options": [
+        "14",
+        "16",
+        "17",
+        "15"
+      ],
+      "answerIndex": 3,
+      "explanation": "B does 2 and A does 3 per cycle; 7 cycles give 35 units in 14 days, and B does the last unit on day 15."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A, B and C do 4, 3 and 2 units per day in turn, A first, on a 40-unit job. The number of days is",
+      "options": [
+        "12",
+        "14",
+        "15",
+        "13"
+      ],
+      "answerIndex": 3,
+      "explanation": "Four cycles give 36 units in 12 days. A does the last 4 units on day 13."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A takes 10 days and B takes 15 days. They work on alternate days, A first. The job takes (days)",
+      "options": [
+        "10",
+        "13",
+        "12",
+        "11"
+      ],
+      "answerIndex": 2,
+      "explanation": "30 units; A 3, B 2; cycle 5; 6 cycles = 12 days."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A takes 8 days and B takes 12 days. They work on alternate days, A first. The job takes (days)",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "11"
+      ],
+      "answerIndex": 1,
+      "explanation": "24 units; A 3, B 2; 4 cycles give 20 units in 8 days; the remaining 4 units take A (day 9) and B (day 10): 10 days."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A takes 6 days, B takes 12 days; they work on alternate days starting with B. The job takes (days)",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "9"
+      ],
+      "answerIndex": 0,
+      "explanation": "12 units; A does 2 and B does 1; starting with B: cycle 3 units; 4 cycles give 12 units in 8 days."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A and B do 7 and 5 units per day alternately, A first. A 100-unit job takes (days)",
+      "options": [
+        "17",
+        "16",
+        "18",
+        "20"
+      ],
+      "answerIndex": 0,
+      "explanation": "8 cycles (16 days) give 96 units; A does the remaining 4 on day 17."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "If A does 5 units on his day and B does 3 on his, and the job is 50 units with A first, B does the last day's work if",
+      "options": [
+        "A completes the job",
+        "the job ends exactly",
+        "B never works",
+        "the remaining units after the last complete cycle are more than 5"
+      ],
+      "answerIndex": 3,
+      "explanation": "If more than A's 5 units are left in a cycle, B must finish it."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A takes 24 days and B takes 36 days to do a job. They work on alternate days, A first. The job takes (days)",
+      "options": [
+        "28",
+        "30",
+        "29",
+        "31"
+      ],
+      "answerIndex": 2,
+      "explanation": "72 units; cycle 5; 14 cycles = 70 units in 28 days; A completes the last 2 units on day 29."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A can do a job in 15 days and B in 20 days. They work on alternate days starting with B. The job takes (days)",
+      "options": [
+        "16",
+        "18",
+        "17",
+        "19"
+      ],
+      "answerIndex": 1,
+      "explanation": "60 units; B does 3 and A does 4 per day; cycle 7; 8 cycles = 56 units in 16 days; B does 3 on day 17 and A does the last unit on day 18."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Three workers A, B and C can finish a job in 10, 15 and 30 days. Working in turn, A first, they finish in (days)",
+      "options": [
+        "10",
+        "15",
+        "11",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "30 units; outputs 3, 2, 1; cycle 6; 5 cycles = 30 units in 15 days."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A does 6 units a day and B does 4. The job is 59 units; they alternate, A first. The days needed are",
+      "options": [
+        "12",
+        "11",
+        "13",
+        "14"
+      ],
+      "answerIndex": 0,
+      "explanation": "5 cycles give 50 units in 10 days; A does 6 (56) on day 11; B does 4 on day 12 to finish."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A can do 1/10 of a job per day and B can do 1/15. They alternate, A first. The fraction of the job done after 10 days is",
+      "options": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "5/6"
+      ],
+      "answerIndex": 3,
+      "explanation": "Five cycles of 1/10 + 1/15 = 1/6 give 5/6."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Two workers alternate and the job needs 12 and 18 days alone. If B starts, the job finishes on day",
+      "options": [
+        "14",
+        "16",
+        "15",
+        "18"
+      ],
+      "answerIndex": 2,
+      "explanation": "36 units; B 2 and A 3; 7 cycles = 35 units in 14 days; B finishes the last unit on day 15."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/time-and-work/"
+}

@@ -1,0 +1,435 @@
+{
+  "id": "y3-quant-alternate-work",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 7,
+  "title": "Alternate Day Work Schedules",
+  "tagline": "Year 3 — Workers taking turns by day, cycle work and the last partial cycle",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In an alternate-day schedule the workers do not work together; they take turns, one on each day, in a fixed order. The work done in one complete cycle is the sum of their daily outputs. The job is finished after some whole number of cycles plus a partial last cycle. The method is to find the work per cycle, count the full cycles that fit before the job is completed, and then see who finishes the remainder.",
+    "placementRelevance": "Alternate-day work questions are commonly asked in company aptitude rounds as a harder variant of time and work, usually with two or three workers.",
+    "realWorldContext": "Shift rosters, rotating machine operators and duty rotations between teams are alternate-day schedules."
+  },
+  "learningObjectives": [
+    "Compute the work done in one cycle of the rotation",
+    "Find the number of full cycles before the job ends",
+    "Identify who completes the last part",
+    "Handle three or more workers in rotation",
+    "Handle changes of order or different starting workers"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Work Problems",
+      "Time and Work"
+    ],
+    "quickRefresher": "Use LCM units so each worker's daily output is a whole number. Total units = LCM of the times."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Cycle: one complete round of the rotation (each worker works one day).",
+      "Cycle output: the sum of the daily outputs of all workers in the cycle.",
+      "Full cycles: the number of complete rounds before the remaining work is less than one cycle output.",
+      "Last partial cycle: the final days in which the remaining work is finished.",
+      "Alternate with a start: the order matters when the job ends part-way through a cycle."
+    ],
+    "theoreticalIntuition": "A rotation turns many days into repeated blocks. After you account for as many complete blocks as possible, only a short tail remains, and the tail is solved by looking at one worker at a time.",
+    "visualOrMentalModel": "Convert to units, add the daily outputs for the cycle output, divide the total by it to find full cycles (keeping the remainder), then run the tail day by day."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Cycle output",
+      "formula": "Σ daily outputs of the workers in the rotation",
+      "description": "Use units per day.",
+      "whenToUse": "Every rotation.",
+      "simpleExample": "A 3 + B 2 = 5 units per two days"
+    },
+    {
+      "title": "Full cycles",
+      "formula": "⌊(total − last-worker output) ÷ cycle output⌋",
+      "description": "Leave room for the finishing day.",
+      "whenToUse": "Counting cycles.",
+      "simpleExample": "60 units: 11 cycles of 5 = 55 units"
+    },
+    {
+      "title": "Tail",
+      "formula": "Remainder ÷ next worker's output",
+      "description": "Day-by-day.",
+      "whenToUse": "Finishing the job.",
+      "simpleExample": "5 units left: A does 3, B does 2"
+    },
+    {
+      "title": "Total days",
+      "formula": "(cycles × workers in a cycle) + days in the tail",
+      "description": "Count each day.",
+      "whenToUse": "Final answer.",
+      "simpleExample": "11 × 2 + 2 = 24 days"
+    },
+    {
+      "title": "Finishing before the cycle ends",
+      "formula": "If the remainder ≤ the first worker's output, the first worker finishes it",
+      "description": "Order matters.",
+      "whenToUse": "Who finishes.",
+      "simpleExample": "Remainder 3 → A finishes"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Choose units. If A takes 20 days and B takes 30 days, take the job as 60 units: A does 3 units a day and B does 2. In a two-day cycle (A then B) they do 5 units.",
+      "Count full cycles. 60 ÷ 5 = 12 exactly, so after 12 cycles (24 days) the job is done, with B finishing on the last day. If A starts, A works first in every cycle.",
+      "Handle the tail carefully. For A = 12 days and B = 18 days with 36 units, A does 3 and B does 2. A cycle yields 5 units, 7 cycles (14 days) yield 35, and the remaining 1 unit is done by A on day 15.",
+      "The order of work can change the total time. If B starts in the same example, B does 2 then A does 3 in each cycle; after 7 cycles 35 units are done and B finishes the last unit on day 15 as well. When the remainder is small enough for the first worker, the starter finishes.",
+      "For three workers, the cycle has three days. A, B, C with outputs 4, 3, 2 do 9 units per cycle. A 40-unit job is done in 4 full cycles (36 units, 12 days) plus 4 more units: A does 4 on day 13."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "When the starter changes the answer",
+        "content": "If the job ends exactly after a complete cycle, the answer is the same whichever worker starts. If it ends part-way, the answer may differ by a day."
+      },
+      {
+        "title": "Leave and join",
+        "content": "If one worker is absent in a cycle, drop his output for that cycle and continue with the others."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Two workers alternate",
+      "description": "A then B.",
+      "exampleSnippet": "A 20 days, B 30 days"
+    },
+    {
+      "typeName": "Three workers rotate",
+      "description": "A, B, C.",
+      "exampleSnippet": "4, 3, 2 units"
+    },
+    {
+      "typeName": "Different starters",
+      "description": "B first.",
+      "exampleSnippet": "Order swap"
+    },
+    {
+      "typeName": "Tail questions",
+      "description": "Who finishes?",
+      "exampleSnippet": "Remainder 1 unit"
+    },
+    {
+      "typeName": "Partial cycles",
+      "description": "Count days.",
+      "exampleSnippet": "7 cycles + 1 day"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-alternate-work-1",
+      "title": "Two workers in turn",
+      "question": "A can do a job in 12 days and B in 18 days. They work on alternate days, A first. In how many days is the job finished?",
+      "givenInfo": [
+        "A 12 days",
+        "B 18 days"
+      ],
+      "conceptOrFormula": "Units and cycles.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Units",
+          "explanation": "Total = 36. A does 3 and B does 2 per day."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Cycle",
+          "explanation": "3 + 2 = 5 units per two days. After 7 cycles (14 days) 35 units are done."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Tail",
+          "explanation": "1 unit is left: A does it on day 15."
+        }
+      ],
+      "finalAnswer": "15 days",
+      "whyItWorks": "A starts the next cycle and needs only 1 unit.",
+      "commonTrap": "Dividing 36 by 5 and rounding up to 8 cycles (16 days).",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-alternate-work-2",
+      "title": "Exact cycles",
+      "question": "A takes 20 days and B takes 30 days. They work on alternate days, starting with A. When is the job finished?",
+      "givenInfo": [
+        "A 20, B 30"
+      ],
+      "conceptOrFormula": "Check whether the job ends on a cycle boundary.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Units",
+          "explanation": "Total 60: A 3, B 2."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Cycle",
+          "explanation": "5 units per two days, so 60/5 = 12 full cycles."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Days",
+          "explanation": "12 × 2 = 24 days."
+        }
+      ],
+      "finalAnswer": "24 days",
+      "whyItWorks": "The job ends exactly after B's day.",
+      "commonTrap": "Counting 23 days.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-alternate-work-3",
+      "title": "Three workers",
+      "question": "A, B and C can do 4, 3 and 2 units of a 40-unit job per day respectively and work in turn, A first. How many days does the job take?",
+      "givenInfo": [
+        "4, 3, 2 units"
+      ],
+      "conceptOrFormula": "Three-day cycle.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Cycle",
+          "explanation": "9 units per 3 days."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Full cycles",
+          "explanation": "4 cycles: 36 units in 12 days."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Tail",
+          "explanation": "4 units left: A does 4 on day 13."
+        }
+      ],
+      "finalAnswer": "13 days",
+      "whyItWorks": "A finishes the job.",
+      "commonTrap": "Rounding up to 5 cycles.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Cycles then tail",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Simulate day by day.",
+      "shortcutMethod": "Divide the total by the cycle output, keep the full cycles, and finish the remainder day by day."
+    },
+    "rulesForApplication": [
+      "Units per day for each worker.",
+      "Full cycles first.",
+      "Check who starts the tail.",
+      "Remainder ≤ first worker's output → he finishes."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Rounding cycles up",
+      "whyItHappens": "Using the ceiling for the last cycle.",
+      "howToAvoid": "Run the tail day by day."
+    },
+    {
+      "mistake": "Ignoring the order",
+      "whyItHappens": "Assuming the starter does not matter.",
+      "howToAvoid": "Check the tail."
+    },
+    {
+      "mistake": "Adding times",
+      "whyItHappens": "Adding the days of A and B.",
+      "howToAvoid": "Use units per day."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "The answer must be between half the shorter time and the longer time of the two.",
+    "questionSelectionAdvice": "Write the cycle output and the tail on two lines.",
+    "recruiterInsight": "A day-by-day check of the tail removes most errors."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-alternate-work-e1",
+        "question": "A does 3 units and B does 2 units of work per day and they work on alternate days. In 2 days (one cycle) they do (units)",
+        "options": [
+          "2",
+          "5",
+          "3",
+          "6"
+        ],
+        "correctAnswer": "5",
+        "explanation": "3 + 2 = 5 units per two-day cycle.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-alternate-work-e2",
+        "question": "A takes 20 days and B takes 30 days to do a job. If the job is taken as 60 units, A's daily work is (units)",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "correctAnswer": "3",
+        "explanation": "60 ÷ 20 = 3 units per day.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-alternate-work-e3",
+        "question": "A takes 20 days and B takes 30 days. They work on alternate days starting with A. The job finishes in (days)",
+        "options": [
+          "20",
+          "25",
+          "30",
+          "24"
+        ],
+        "correctAnswer": "24",
+        "explanation": "60 units ÷ 5 per cycle = 12 cycles = 24 days.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-alternate-work-i7",
+        "question": "A takes 12 days and B takes 18 days. They work on alternate days starting with A. The job takes (days)",
+        "options": [
+          "15",
+          "14",
+          "16",
+          "18"
+        ],
+        "correctAnswer": "15",
+        "explanation": "36 units; cycle 5; 7 cycles = 35 units in 14 days; A does the last unit on day 15.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-alternate-work-i8",
+        "question": "A takes 12 days and B takes 18 days. They work on alternate days starting with B. The job takes (days)",
+        "options": [
+          "14",
+          "16",
+          "17",
+          "15"
+        ],
+        "correctAnswer": "15",
+        "explanation": "B does 2 and A does 3 per cycle; 7 cycles give 35 units in 14 days, and B does the last unit on day 15.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-alternate-work-i9",
+        "question": "A, B and C do 4, 3 and 2 units per day in turn, A first, on a 40-unit job. The number of days is",
+        "options": [
+          "12",
+          "14",
+          "15",
+          "13"
+        ],
+        "correctAnswer": "13",
+        "explanation": "Four cycles give 36 units in 12 days. A does the last 4 units on day 13.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-alternate-work-a15",
+        "question": "A takes 24 days and B takes 36 days to do a job. They work on alternate days, A first. The job takes (days)",
+        "options": [
+          "28",
+          "30",
+          "29",
+          "31"
+        ],
+        "correctAnswer": "29",
+        "explanation": "72 units; cycle 5; 14 cycles = 70 units in 28 days; A completes the last 2 units on day 29.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-alternate-work-a16",
+        "question": "A can do a job in 15 days and B in 20 days. They work on alternate days starting with B. The job takes (days)",
+        "options": [
+          "16",
+          "18",
+          "17",
+          "19"
+        ],
+        "correctAnswer": "18",
+        "explanation": "60 units; B does 3 and A does 4 per day; cycle 7; 8 cycles = 56 units in 16 days; B does 3 on day 17 and A does the last unit on day 18.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-alternate-work-p17",
+        "question": "Three workers A, B and C can finish a job in 10, 15 and 30 days. Working in turn, A first, they finish in (days)",
+        "options": [
+          "10",
+          "15",
+          "11",
+          "12"
+        ],
+        "correctAnswer": "15",
+        "explanation": "30 units; outputs 3, 2, 1; cycle 6; 5 cycles = 30 units in 15 days.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-alternate-work-p18",
+        "question": "A does 6 units a day and B does 4. The job is 59 units; they alternate, A first. The days needed are",
+        "options": [
+          "12",
+          "11",
+          "13",
+          "14"
+        ],
+        "correctAnswer": "12",
+        "explanation": "5 cycles give 50 units in 10 days; A does 6 (56) on day 11; B does 4 on day 12 to finish.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-alternate-work-p19",
+        "question": "A can do 1/10 of a job per day and B can do 1/15. They alternate, A first. The fraction of the job done after 10 days is",
+        "options": [
+          "1/2",
+          "1/3",
+          "2/3",
+          "5/6"
+        ],
+        "correctAnswer": "5/6",
+        "explanation": "Five cycles of 1/10 + 1/15 = 1/6 give 5/6.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Units per day.",
+      "Cycle output.",
+      "Full cycles.",
+      "Tail.",
+      "Order matters."
+    ],
+    "quickFormulas": [
+      "cycles = total ÷ cycle output"
+    ]
+  },
+  "keyTakeaways": [
+    "Cycle structure.",
+    "Tail check.",
+    "Order.",
+    "Units."
+  ],
+  "selfCheckQuestions": [
+    "Can I find cycle output?",
+    "Can I find who finishes?",
+    "Can I do three workers?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

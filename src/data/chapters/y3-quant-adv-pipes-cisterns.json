@@ -1,0 +1,432 @@
+{
+  "id": "y3-quant-adv-pipes-cisterns",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 8,
+  "title": "Advanced Pipes and Cisterns — Leak Scenarios",
+  "tagline": "Year 3 — Leaks, partial opening, timed valves and cisterns filling in stages",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Year 2 pipes and cisterns used inlets and outlets that stay open. Year 3 adds leaks that appear only after the tank has partly filled, pipes opened and closed at stated times, pipes that work in alternate hours, and capacity questions in litres. The rates still add, with outlets negative; the new difficulty is phases.",
+    "placementRelevance": "Advanced pipe questions are commonly asked in company aptitude rounds, typically with a leak discovered after some time or pipes that open in turn.",
+    "realWorldContext": "Filling reservoirs with seepage, bathtubs with a slow drain and chemical tanks with timed valves are of this type."
+  },
+  "learningObjectives": [
+    "Find the leak rate from filling times with and without the leak",
+    "Solve problems with phases of different open pipes",
+    "Handle pipes working in alternate hours",
+    "Compute capacity in litres from rates",
+    "Find the time to empty a partly full tank"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Pipes and Cisterns",
+      "Advanced Work Problems"
+    ],
+    "quickRefresher": "Inlet rate = +1/time. Outlet or leak rate = −1/time. Net rate = sum. Work done = Σ rate × time."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Leak: an unintended outlet; its rate is the difference between the inlet rate and the net rate.",
+      "Phase: a period with a fixed set of open pipes.",
+      "Alternate hours: pipes open one at a time in turn, each for one hour.",
+      "Capacity: the volume the tank holds (the whole job = 1).",
+      "Net rate: the signed sum of the rates of open pipes."
+    ],
+    "theoreticalIntuition": "A tank is a job where outlets undo work. Filling a tank with a leak is like paying a tax: a fixed fraction of the inflow is lost every hour. Because rates add, a leak that appears midway simply changes the net rate from then on.",
+    "visualOrMentalModel": "Write the rate of every pipe (units per hour using the LCM as capacity), list the phases with their open pipes and times, and add the units per phase until the capacity is reached."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Leak rate",
+      "formula": "Leak = inlet rate − net rate",
+      "description": "Net = 1/(time with leak).",
+      "whenToUse": "Leak questions.",
+      "simpleExample": "1/6 − 1/7.5 = 1/30"
+    },
+    {
+      "title": "Phase work",
+      "formula": "Σ (net rate × time)",
+      "description": "Phases add.",
+      "whenToUse": "Timed valves.",
+      "simpleExample": "3 hours at 1/6 + 2 hours at 1/10"
+    },
+    {
+      "title": "Alternate hours",
+      "formula": "Output per cycle = sum of the pipes",
+      "description": "Like alternate-day work.",
+      "whenToUse": "Pipes in turn.",
+      "simpleExample": "A 1/6, B 1/8 alternate"
+    },
+    {
+      "title": "Time to empty a part",
+      "formula": "fraction ÷ |net outlet rate|",
+      "description": "Fraction of the tank.",
+      "whenToUse": "Partly filled tanks.",
+      "simpleExample": "(1/2) ÷ (1/30) = 15 h"
+    },
+    {
+      "title": "Capacity from rates",
+      "formula": "Capacity = rate (L/h) × time (h)",
+      "description": "Litres per hour given.",
+      "whenToUse": "Litre questions.",
+      "simpleExample": "12 L/h × 5 h = 60 L"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "To find a leak, compare the filling time with and without it. A pipe fills a tank in 6 hours; with a leak it takes 7.5 hours. The leak rate is 1/6 − 1/7.5 = 1/30, so the leak alone empties a full tank in 30 hours.",
+      "Phases: a tank is filled by a pipe (6 hours) for 3 hours, then a leak opens. After 3 hours the tank is half full. The net rate becomes 1/6 − 1/30 = 2/15, so the remaining half takes (1/2) ÷ (2/15) = 3.75 hours: 6.75 hours in all.",
+      "Alternate hours: if pipe A fills in 6 hours and pipe B in 8 hours and they work alternately (A first), the output per two hours is 1/6 + 1/8 = 7/24. After 6 cycles (12 hours) 42/24 would exceed the capacity, so use 3 cycles (6 hours, 21/24) and finish with A in the 7th hour: 1/6 = 4/24 ≥ 3/24 needed, so it takes just over 6.75 hours.",
+      "For litres, convert rates: a pipe that delivers 12 litres per minute and a leak that loses 2 litres per minute give a net 10 litres per minute, so a 600-litre tank fills in 60 minutes.",
+      "To empty a partly full tank, use the outlet rate only: with a leak of 1/30 per hour, half a tank empties in 15 hours."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Leak is not constant in reality",
+        "content": "In the problems the leak rate is fixed; in practice leaks depend on water level. Treat them as constant unless told otherwise."
+      },
+      {
+        "title": "Check with fractions",
+        "content": "Fractions of the tank filled in each phase must add to 1 at the end. Use this to check."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Find the leak rate",
+      "description": "Two filling times.",
+      "exampleSnippet": "6 h and 7.5 h"
+    },
+    {
+      "typeName": "Leak after some time",
+      "description": "Two phases.",
+      "exampleSnippet": "Leak opens at half-full"
+    },
+    {
+      "typeName": "Alternate pipes",
+      "description": "Turns.",
+      "exampleSnippet": "A then B"
+    },
+    {
+      "typeName": "Litre problems",
+      "description": "Capacity.",
+      "exampleSnippet": "12 L/min inlet"
+    },
+    {
+      "typeName": "Empty a partial tank",
+      "description": "Fraction ÷ rate.",
+      "exampleSnippet": "Half a tank"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-adv-pipes-cisterns-1",
+      "title": "Leak found",
+      "question": "A pipe fills a tank in 6 hours. Because of a leak it takes 7.5 hours. How long does the leak alone take to empty the tank?",
+      "givenInfo": [
+        "6 h",
+        "7.5 h"
+      ],
+      "conceptOrFormula": "Leak = inlet − net.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rates",
+          "explanation": "Inlet 1/6; net 1/7.5 = 2/15."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Leak",
+          "explanation": "1/6 − 2/15 = 1/30."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Time",
+          "explanation": "30 hours."
+        }
+      ],
+      "finalAnswer": "30 hours",
+      "whyItWorks": "The leak removes what the inlet adds beyond the net.",
+      "commonTrap": "Subtracting times: 1.5 hours.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-adv-pipes-cisterns-2",
+      "title": "Leak after half-fill",
+      "question": "A pipe can fill a tank in 6 hours. After 3 hours a leak that empties a full tank in 30 hours appears. Find the total time to fill the tank.",
+      "givenInfo": [
+        "Inlet 6 h",
+        "Leak 30 h after 3 h"
+      ],
+      "conceptOrFormula": "Two phases.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Phase 1",
+          "explanation": "3 hours fill 1/2."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Net rate",
+          "explanation": "1/6 − 1/30 = 2/15."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Phase 2",
+          "explanation": "(1/2) ÷ (2/15) = 3.75 hours."
+        }
+      ],
+      "finalAnswer": "6.75 hours",
+      "whyItWorks": "The leak slows only the second half.",
+      "commonTrap": "Applying the leak from the start.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-adv-pipes-cisterns-3",
+      "title": "Capacity in litres",
+      "question": "An inlet delivers 12 litres per minute and a leak loses 2 litres per minute. How long does it take to fill a 600-litre tank?",
+      "givenInfo": [
+        "12 L/min",
+        "−2 L/min"
+      ],
+      "conceptOrFormula": "Net litres per minute.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Net",
+          "explanation": "12 − 2 = 10 L/min."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Time",
+          "explanation": "600 ÷ 10 = 60 minutes."
+        }
+      ],
+      "finalAnswer": "60 minutes",
+      "whyItWorks": "Rates in litres add like fractions.",
+      "commonTrap": "Ignoring the leak.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Rate table by phase",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Recompute from scratch for every phase.",
+      "shortcutMethod": "List the pipes in each phase with their rates, find the net rate, and add the fraction filled in each phase."
+    },
+    "rulesForApplication": [
+      "Outlets are negative.",
+      "Phases add.",
+      "Leak = inlet − net.",
+      "Check fractions sum to 1."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Applying the leak to the whole time",
+      "whyItHappens": "Ignoring when it starts.",
+      "howToAvoid": "Split into phases."
+    },
+    {
+      "mistake": "Adding times",
+      "whyItHappens": "Using time differences.",
+      "howToAvoid": "Use rates."
+    },
+    {
+      "mistake": "Forgetting the sign of an outlet",
+      "whyItHappens": "Adding an outlet.",
+      "howToAvoid": "Outlets are negative."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "With a leak, the time must exceed the leak-free time.",
+    "questionSelectionAdvice": "Use the LCM capacity to avoid fractions.",
+    "recruiterInsight": "Treat phases like work-and-time phases."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-adv-pipes-cisterns-e1",
+        "question": "A pipe fills a tank in 6 hours; with a leak it takes 7.5 hours. The leak empties a full tank in (hours)",
+        "options": [
+          "15",
+          "30",
+          "25",
+          "45"
+        ],
+        "correctAnswer": "30",
+        "explanation": "Leak = 1/6 − 1/7.5 = 1/30.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-pipes-cisterns-e2",
+        "question": "An inlet delivers 12 litres per minute and a leak loses 2 litres per minute. A 600-litre tank fills in (minutes)",
+        "options": [
+          "60",
+          "50",
+          "55",
+          "75"
+        ],
+        "correctAnswer": "60",
+        "explanation": "Net = 10 L/min, so 600 ÷ 10 = 60.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-pipes-cisterns-e3",
+        "question": "A leak empties a full tank in 20 hours. In 5 hours it empties what fraction of the tank?",
+        "options": [
+          "1/5",
+          "1/3",
+          "1/2",
+          "1/4"
+        ],
+        "correctAnswer": "1/4",
+        "explanation": "5/20 = 1/4.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-adv-pipes-cisterns-i7",
+        "question": "A pipe fills a tank in 6 hours. After 3 hours a leak that empties a full tank in 30 hours appears. The total time to fill the tank is (hours)",
+        "options": [
+          "6.75",
+          "6.5",
+          "7",
+          "7.5"
+        ],
+        "correctAnswer": "6.75",
+        "explanation": "Half the tank in 3 h. The rest at 2/15 per hour takes 3.75 h. Total 6.75.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-pipes-cisterns-i8",
+        "question": "A tank is filled by a pipe in 4 hours but takes 5 hours because of a leak. The leak empties the full tank in (hours)",
+        "options": [
+          "9",
+          "16",
+          "25",
+          "20"
+        ],
+        "correctAnswer": "20",
+        "explanation": "1/4 − 1/5 = 1/20.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-pipes-cisterns-i9",
+        "question": "Pipe A fills a tank in 12 hours and a leak empties it in 20 hours. Both are open. The tank fills in (hours)",
+        "options": [
+          "24",
+          "32",
+          "36",
+          "30"
+        ],
+        "correctAnswer": "30",
+        "explanation": "1/12 − 1/20 = 1/30.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-adv-pipes-cisterns-a15",
+        "question": "A tank can be filled in 9 hours by pipe A and emptied in 12 hours by pipe B. Starting empty, both are opened. The time to fill the tank is (hours)",
+        "options": [
+          "24",
+          "30",
+          "36",
+          "48"
+        ],
+        "correctAnswer": "36",
+        "explanation": "1/9 − 1/12 = 1/36.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-pipes-cisterns-a16",
+        "question": "A tap fills a tank in 5 hours. After 1 hour a leak develops that would empty a full tank in 20 hours. The total time to fill the tank is (hours)",
+        "options": [
+          "5",
+          "6.33",
+          "6",
+          "7"
+        ],
+        "correctAnswer": "6.33",
+        "explanation": "1 hour fills 1/5. The net rate is 3/20, so 4/5 takes (4/5) ÷ (3/20) = 16/3 h. Total = 1 + 5.33 = 6.33.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-adv-pipes-cisterns-p17",
+        "question": "Three pipes fill a tank in 6, 8 and 12 hours. They work in turn for 1 hour each, starting with the 6-hour pipe. The time to fill the tank (nearest 0.1 hour) is (hours)",
+        "options": [
+          "7",
+          "7.7",
+          "8",
+          "8.5"
+        ],
+        "correctAnswer": "7.7",
+        "explanation": "A cycle fills 9/24. Two cycles (6 h) fill 18/24 and the 7th hour adds 4/24, giving 22/24. The 8-hour pipe needs 2/24 ÷ 3/24 = 0.67 h more: 7.67 ≈ 7.7 hours.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-pipes-cisterns-p18",
+        "question": "A tap fills a bathtub at 15 litres per minute and the drain empties it at 5 litres per minute. A 200-litre tub takes (minutes)",
+        "options": [
+          "20",
+          "10",
+          "13.3",
+          "40"
+        ],
+        "correctAnswer": "20",
+        "explanation": "Net = 10 L/min, so 200 ÷ 10 = 20.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-pipes-cisterns-p19",
+        "question": "A leak empties a full tank in 24 hours. A tap alone fills it in 8 hours. With the leak, the tank fills in (hours)",
+        "options": [
+          "10",
+          "14",
+          "16",
+          "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "1/8 − 1/24 = 1/12.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Leak = inlet − net.",
+      "Phases add.",
+      "Alternate hours cycle.",
+      "Litres per minute.",
+      "Fractions sum to 1."
+    ],
+    "quickFormulas": [
+      "Leak = 1/a − 1/b"
+    ]
+  },
+  "keyTakeaways": [
+    "Signs.",
+    "Phases.",
+    "Rates not times.",
+    "Check totals."
+  ],
+  "selfCheckQuestions": [
+    "Can I find a leak rate?",
+    "Can I do a two-phase fill?",
+    "Can I convert to litres?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "id": "y3-quant-adv-mixtures",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 5,
+  "title": "Advanced Mixtures — Three-Component Alligation",
+  "tagline": "Year 3 — Three-ingredient means, chained alligation, concentration changes and repeated replacement",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Year 2 handled two ingredients and the alligation cross. Year 3 mixes three or more ingredients, chains the cross when a mixture is itself used as an ingredient, tracks the concentration of a solution when water or pure acid is added, and handles replacement with different liquids. The weighted-average idea stays the same: the mean is the quantity-weighted average of the parts.",
+    "placementRelevance": "Advanced mixture questions are commonly asked in the harder quantitative items of company aptitude rounds, usually with a chain of two operations.",
+    "realWorldContext": "Blending grades of tea, preparing alloys and diluting chemical solutions in the laboratory follow exactly these rules."
+  },
+  "learningObjectives": [
+    "Compute the mean value of a three-component mixture",
+    "Chain two alligation crosses",
+    "Track concentrations after adding water or pure solute",
+    "Solve repeated-replacement problems with different removals",
+    "Work backwards from a target mean"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Mixtures and Alligation",
+      "Advanced Ratio and Proportion"
+    ],
+    "quickRefresher": "Mean = Σ(quantity × value) ÷ Σ quantity. Alligation: cheaper : dearer = (dearer − mean) : (mean − cheaper). Water has value 0."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Weighted mean of several parts: Σ qᵢvᵢ / Σ qᵢ.",
+      "Chained alligation: first combine two ingredients into a composite whose value is their mean, then use the composite as a single ingredient.",
+      "Concentration: the fraction of the pure substance in a solution (alcohol 20% means 20 parts in 100).",
+      "Pure solute added: increases both the amount of solute and the total.",
+      "Replacement: removing x from a vessel of Q and replacing by another liquid multiplies the original by (1 − x/Q)."
+    ],
+    "theoreticalIntuition": "Every ingredient pulls the mean towards its own value in proportion to its quantity. With three ingredients, a clean way is to merge two into a temporary mixture, find its mean, and then treat the temporary mixture as one ingredient.",
+    "visualOrMentalModel": "Write each ingredient as (quantity, value). Add the products and the quantities, divide, and compare with the target. For unknown quantities, merge two ingredients and apply the cross twice."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Three-component mean",
+      "formula": "(q₁v₁ + q₂v₂ + q₃v₃) ÷ (q₁ + q₂ + q₃)",
+      "description": "Weighted average.",
+      "whenToUse": "Cost or concentration of the blend.",
+      "simpleExample": "(3×40 + 5×60 + 2×50) ÷ 10 = 52"
+    },
+    {
+      "title": "Chained alligation",
+      "formula": "Mean of the first two, then cross with the third",
+      "description": "Two crosses.",
+      "whenToUse": "Find the ratio of three items.",
+      "simpleExample": "20 & 30 (1:1) then 40 for 32 → 4 : 4 : 7"
+    },
+    {
+      "title": "Adding pure solute",
+      "formula": "(solute + x) ÷ (total + x) = target",
+      "description": "Solve for x.",
+      "whenToUse": "Fortification.",
+      "simpleExample": "(6 + x)/(30 + x) = 0.4 → x = 10"
+    },
+    {
+      "title": "Adding water",
+      "formula": "New % = old amount of solute ÷ (total + water)",
+      "description": "Solute stays the same.",
+      "whenToUse": "Dilution.",
+      "simpleExample": "16/(40 + 10) = 32%"
+    },
+    {
+      "title": "Repeated replacement",
+      "formula": "Original left = Q Π (1 − xᵢ/Qᵢ)",
+      "description": "Amounts may differ each time.",
+      "whenToUse": "Several removals.",
+      "simpleExample": "60 × 54/60 × 48/60 = 43.2"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "For three ingredients, compute the weighted mean. 3 kg at ₹40, 5 kg at ₹60 and 2 kg at ₹50 cost 120 + 300 + 100 = ₹520 for 10 kg, a mean of ₹52 per kg.",
+      "To find the ratio of three items for a target mean, merge two of them. To make ₹32 from ₹20, ₹30 and ₹40 with the first two in equal parts, their composite is worth ₹25, and (40 − 32) : (32 − 25) = 8 : 7. Splitting the composite equally gives the ratio 4 : 4 : 7.",
+      "For concentration problems, the amount of pure solute is what is preserved when water is added. 40 L of 40% solution holds 16 L of solute. Adding 10 L of water gives 16/50 = 32%. Adding pure solute raises both the solute and the total, so write (6 + x)/(30 + x) = 0.4 to get x = 10.",
+      "Repeated replacement with different amounts multiplies the surviving fractions. From 60 L of milk, remove 6 L and replace with water (fraction left 54/60), then remove 12 L of the mixture (fraction left 48/60): milk = 60 × 0.9 × 0.8 = 43.2 L.",
+      "Selling a mixture at a profit uses the mixture cost: if 3 kg at ₹60 and 2 kg at ₹75 are mixed, the cost is ₹66 per kg and a 20% profit price is ₹79.20."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Solving for an unknown quantity",
+        "content": "When one quantity is missing, set up the weighted-mean equation and solve the linear equation, or use the cross if only two parts are unknown."
+      },
+      {
+        "title": "Water as a zero-value ingredient",
+        "content": "Water has concentration or price 0, so dilution problems are alligation problems with one end at zero."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Three-ingredient mean",
+      "description": "Weighted average.",
+      "exampleSnippet": "3, 5, 2 kg"
+    },
+    {
+      "typeName": "Chained alligation",
+      "description": "Two crosses.",
+      "exampleSnippet": "₹20, ₹30, ₹40 → ₹32"
+    },
+    {
+      "typeName": "Concentration changes",
+      "description": "Add water or solute.",
+      "exampleSnippet": "40 L of 40%"
+    },
+    {
+      "typeName": "Repeated replacement",
+      "description": "Different removals.",
+      "exampleSnippet": "60 L milk"
+    },
+    {
+      "typeName": "Selling price of a blend",
+      "description": "Cost then profit.",
+      "exampleSnippet": "3 kg at ₹60 and 2 kg at ₹75"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-adv-mixtures-1",
+      "title": "Three-ingredient mean",
+      "question": "3 kg of tea at ₹40, 5 kg at ₹60 and 2 kg at ₹50 are mixed. Find the cost per kg of the mixture.",
+      "givenInfo": [
+        "3 kg ₹40",
+        "5 kg ₹60",
+        "2 kg ₹50"
+      ],
+      "conceptOrFormula": "Weighted average.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total cost",
+          "explanation": "120 + 300 + 100 = ₹520."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Total weight",
+          "explanation": "3 + 5 + 2 = 10 kg."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Mean",
+          "explanation": "520 ÷ 10 = ₹52 per kg."
+        }
+      ],
+      "finalAnswer": "₹52 per kg",
+      "whyItWorks": "Each part is weighted by its quantity.",
+      "commonTrap": "Averaging the three prices to get ₹50.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-adv-mixtures-2",
+      "title": "Adding pure solute",
+      "question": "How much pure acid must be added to 30 litres of a 20% acid solution to make it 40%?",
+      "givenInfo": [
+        "30 L, 20%",
+        "target 40%"
+      ],
+      "conceptOrFormula": "Solute plus x over total plus x.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Solute now",
+          "explanation": "0.2 × 30 = 6 L."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Equation",
+          "explanation": "(6 + x)/(30 + x) = 0.4."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Solve",
+          "explanation": "6 + x = 12 + 0.4x, so 0.6x = 6 and x = 10 L."
+        }
+      ],
+      "finalAnswer": "10 litres",
+      "whyItWorks": "Check: 16/40 = 40%.",
+      "commonTrap": "Adding x to the solute only.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-adv-mixtures-3",
+      "title": "Repeated replacement",
+      "question": "A vessel holds 60 L of milk. 6 L is removed and replaced with water; then 12 L of the mixture is removed and replaced with water. How much milk is left?",
+      "givenInfo": [
+        "60 L",
+        "6 L then 12 L"
+      ],
+      "conceptOrFormula": "Multiply surviving fractions.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "First step",
+          "explanation": "60 × 54/60 = 54 L of milk."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Second step",
+          "explanation": "Fraction left = 48/60 = 0.8."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Milk left",
+          "explanation": "54 × 0.8 = 43.2 L."
+        }
+      ],
+      "finalAnswer": "43.2 litres",
+      "whyItWorks": "The second removal takes mixture, not pure milk.",
+      "commonTrap": "Subtracting 6 + 12 from 60.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Merge two, then cross",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Solve simultaneous equations for three unknowns.",
+      "shortcutMethod": "Merge two ingredients into a temporary mixture with its mean value, then apply one cross with the third."
+    },
+    "rulesForApplication": [
+      "Weighted mean = Σqv/Σq.",
+      "Water is value 0.",
+      "Solute is preserved when diluting.",
+      "Replacement fractions multiply."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Averaging prices without weights",
+      "whyItHappens": "Treating ingredients as equal.",
+      "howToAvoid": "Weight each by quantity."
+    },
+    {
+      "mistake": "Subtracting replacement amounts",
+      "whyItHappens": "Subtracting removed volumes.",
+      "howToAvoid": "Multiply the surviving fractions."
+    },
+    {
+      "mistake": "Changing the solute when adding water",
+      "whyItHappens": "Recomputing the solute.",
+      "howToAvoid": "Keep solute fixed, change only the total."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 100,
+    "eliminationTechnique": "The mean must lie between the lowest and highest ingredient values; reject others.",
+    "questionSelectionAdvice": "Merge the two closest ingredients first.",
+    "recruiterInsight": "Chained alligation is a two-step cross."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-adv-mixtures-e1",
+        "question": "3 kg of tea at ₹40, 5 kg at ₹60 and 2 kg at ₹50 are mixed. The cost per kg is",
+        "options": [
+          "50",
+          "52",
+          "55",
+          "48"
+        ],
+        "correctAnswer": "52",
+        "explanation": "(120 + 300 + 100) ÷ 10 = 52.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-mixtures-e2",
+        "question": "Rice at ₹30, ₹40 and ₹50 per kg is mixed in the ratio 1 : 1 : 2. The cost per kg is",
+        "options": [
+          "42.5",
+          "40",
+          "42",
+          "45"
+        ],
+        "correctAnswer": "42.5",
+        "explanation": "(30 + 40 + 2 × 50) ÷ 4 = 170 ÷ 4 = 42.5.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-mixtures-e3",
+        "question": "A 40-litre mixture has milk and water in the ratio 5 : 3. The quantity of water is (litres)",
+        "options": [
+          "12",
+          "18",
+          "24",
+          "15"
+        ],
+        "correctAnswer": "15",
+        "explanation": "40 × 3/8 = 15.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-adv-mixtures-i7",
+        "question": "Rice at ₹20, ₹30 and ₹40 is mixed to get ₹32 per kg, with the ₹20 and ₹30 rice in equal parts. The ratio of the three quantities is",
+        "options": [
+          "4 : 4 : 7",
+          "1 : 1 : 1",
+          "2 : 2 : 5",
+          "3 : 3 : 7"
+        ],
+        "correctAnswer": "4 : 4 : 7",
+        "explanation": "The first two make a ₹25 composite. (40 − 32) : (32 − 25) = 8 : 7, so composite : ₹40 = 8 : 7, and splitting the composite equally gives 4 : 4 : 7.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-mixtures-i8",
+        "question": "A vessel has 100 litres of milk. 10 litres are removed and replaced with water, three times in all. The milk left is (litres)",
+        "options": [
+          "70",
+          "72",
+          "75.5",
+          "72.9"
+        ],
+        "correctAnswer": "72.9",
+        "explanation": "100 × 0.9³ = 72.9.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-mixtures-i9",
+        "question": "40 litres of a 40% alcohol solution has 10 litres of water added. The new concentration is",
+        "options": [
+          "30%",
+          "35%",
+          "36%",
+          "32%"
+        ],
+        "correctAnswer": "32%",
+        "explanation": "Alcohol = 16 L. Total = 50 L. 16/50 = 32%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-adv-mixtures-a15",
+        "question": "A mixture of milk and water is in the ratio 7 : 3. When 20 litres of the mixture are removed and replaced with water, the ratio becomes 7 : 5. The initial quantity of the mixture was (litres)",
+        "options": [
+          "100",
+          "140",
+          "120",
+          "150"
+        ],
+        "correctAnswer": "120",
+        "explanation": "Milk after removal = 0.7(T − 20). New milk fraction = 7/12. So 0.7T − 14 = 7T/12, giving T = 120.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-mixtures-a16",
+        "question": "A container has 60 litres of milk. 6 litres are removed and replaced with water, and then 12 litres of the mixture are removed and replaced with water. The milk left is (litres)",
+        "options": [
+          "40",
+          "43.2",
+          "45",
+          "48.6"
+        ],
+        "correctAnswer": "43.2",
+        "explanation": "60 × 0.9 × 0.8 = 43.2.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-adv-mixtures-p17",
+        "question": "Tea of ₹126, ₹135 and ₹142 per kg is mixed in the ratio 2 : 3 : 5. The cost per kg of the mixture is (₹)",
+        "options": [
+          "135",
+          "136.7",
+          "136",
+          "137.2"
+        ],
+        "correctAnswer": "136.7",
+        "explanation": "(252 + 405 + 710) ÷ 10 = 136.7.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-mixtures-p18",
+        "question": "3 kg of rice at ₹60 and 2 kg at ₹75 are mixed and sold at a 20% profit. The selling price per kg is (₹)",
+        "options": [
+          "79.2",
+          "72",
+          "75.6",
+          "80"
+        ],
+        "correctAnswer": "79.2",
+        "explanation": "Cost = 330/5 = 66. Selling price = 66 × 1.2 = 79.2.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-mixtures-p19",
+        "question": "Milk costs ₹24 per litre. Water is added and the mixture is sold at ₹24 per litre, giving a 25% profit. The ratio of water to milk is",
+        "options": [
+          "1 : 5",
+          "1 : 3",
+          "2 : 5",
+          "1 : 4"
+        ],
+        "correctAnswer": "1 : 4",
+        "explanation": "Cost of the mixture = 24/1.25 = 19.2. Water : milk = (24 − 19.2) : 19.2 = 4.8 : 19.2 = 1 : 4.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Weighted mean.",
+      "Merge then cross.",
+      "Solute preserved.",
+      "Fractions multiply.",
+      "Water = 0."
+    ],
+    "quickFormulas": [
+      "Σqv/Σq",
+      "(s + x)/(T + x)"
+    ]
+  },
+  "keyTakeaways": [
+    "Weight by quantity.",
+    "Two crosses for three items.",
+    "Track solute.",
+    "Multiply fractions."
+  ],
+  "selfCheckQuestions": [
+    "Can I find a three-ingredient mean?",
+    "Can I chain two crosses?",
+    "Can I add acid to reach a target?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

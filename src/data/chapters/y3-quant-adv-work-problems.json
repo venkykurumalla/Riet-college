@@ -1,0 +1,439 @@
+{
+  "id": "y3-quant-adv-work-problems",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 6,
+  "title": "Advanced Work Problems — Efficiency Variation",
+  "tagline": "Year 3 — Efficiency ratios, workers who change speed, partial completion and man-hours",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Basic time-and-work problems add the rates of workers who work together. Advanced problems vary the efficiency: workers are compared by an efficiency ratio, work at a different speed after a break, are replaced by more or fewer workers part-way, or have different working hours per day. The method is to measure the work in units (for example LCM units) and to track how many units are done in each phase.",
+    "placementRelevance": "Advanced work problems are commonly asked in company aptitude rounds, usually with two or three phases and a ratio of efficiencies.",
+    "realWorldContext": "Staffing a project, planning overtime and estimating completion when team size changes depend on these calculations."
+  },
+  "learningObjectives": [
+    "Use efficiency ratios to compare workers",
+    "Solve multi-phase problems with changing team size",
+    "Use man-hours with different hours per day",
+    "Handle workers of different efficiency leaving or joining",
+    "Find the completion time after a speed change"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Time and Work",
+      "Work and Wages",
+      "Advanced Ratio and Proportion"
+    ],
+    "quickRefresher": "Rate = work ÷ time. Efficiency is proportional to rate. Total work = rate × time summed over all phases."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Efficiency: the amount of work a worker does per unit time; efficiency ratio is the inverse of the time ratio.",
+      "Work units: a convenient total, usually the LCM of the given times.",
+      "Man-hours: workers × hours per day × days; constant for a given job with equal efficiency.",
+      "Phase: a period during which the team and rates stay the same.",
+      "Productivity change: a percentage change in a worker's rate."
+    ],
+    "theoreticalIntuition": "Work is a quantity that accumulates in phases. Choose units so that every worker's daily output is a whole number, add the output of each phase, and stop when the total reaches the job size.",
+    "visualOrMentalModel": "Take total work = LCM of the times. Write the units per day of each worker, add the phase outputs, subtract from the total and divide by the new rate."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Efficiency ratio",
+      "formula": "A : B = time of B : time of A",
+      "description": "Inverse of times.",
+      "whenToUse": "Comparing workers.",
+      "simpleExample": "A takes 10, B takes 15 → 3 : 2"
+    },
+    {
+      "title": "Man-hours",
+      "formula": "M₁H₁D₁ = M₂H₂D₂",
+      "description": "Workers × hours × days.",
+      "whenToUse": "Changed team or hours.",
+      "simpleExample": "6 men 9 h 10 days = 540"
+    },
+    {
+      "title": "Phase work",
+      "formula": "Work = Σ rateᵢ × timeᵢ",
+      "description": "Add the phases.",
+      "whenToUse": "Multi-phase problems.",
+      "simpleExample": "A alone 5 days then A + B"
+    },
+    {
+      "title": "Efficiency change",
+      "formula": "New time = old time × old rate ÷ new rate",
+      "description": "Scale the time.",
+      "whenToUse": "Speed up or slow down.",
+      "simpleExample": "25% faster → time × 4/5"
+    },
+    {
+      "title": "Replacement",
+      "formula": "Units done so far, units left ÷ new rate",
+      "description": "Update the team.",
+      "whenToUse": "Workers leave or join.",
+      "simpleExample": "20 men for 10 days of 30, then 5 leave"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Use LCM units. A takes 20 days and B takes 30, so take the job as 60 units: A does 3 units a day and B does 2. Together they do 5 units a day and finish in 12 days. A is 50% more efficient than B, matching the ratio 3 : 2.",
+      "For multi-phase problems, add the work of each phase. If A works alone for 5 days (15 units) and then A and B work together, the remaining 45 units take 9 days at 5 units a day, so the total is 14 days.",
+      "For changes in efficiency, scale the time. A worker who becomes 25% more efficient takes 4/5 of the original time. If 20 workers can finish a job in 30 days and after 10 days 5 workers leave, the remaining two-thirds of the work (400 of 600 man-days) is done by 15 workers in 400 ÷ 15 ≈ 26.7 days.",
+      "For man-hours, keep the product constant. 6 men working 9 hours a day complete a job in 10 days, which is 540 man-hours. 9 men working 5 hours a day need 540 ÷ 45 = 12 days.",
+      "For a worker whose rate changes, compute the output before and after the change separately. A worker who produces 10 units a day for 4 days and then 14 units a day does 40 + 14t after the change."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Efficiency as a percentage",
+        "content": "If A is 25% more efficient than B, then A : B = 5 : 4 in rate and 4 : 5 in time. Convert percentages to ratios before computing."
+      },
+      {
+        "title": "Idle days",
+        "content": "If a worker is absent on some days, subtract those days from his working time before computing his share of the work."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Efficiency ratios",
+      "description": "Compare times.",
+      "exampleSnippet": "A 20 days, B 30 days"
+    },
+    {
+      "typeName": "Multi-phase",
+      "description": "Add phases.",
+      "exampleSnippet": "A alone then together"
+    },
+    {
+      "typeName": "Man-hours",
+      "description": "Hours per day.",
+      "exampleSnippet": "6 men 9 hours"
+    },
+    {
+      "typeName": "Replacement",
+      "description": "Team changes.",
+      "exampleSnippet": "5 workers leave"
+    },
+    {
+      "typeName": "Absence",
+      "description": "Missing days.",
+      "exampleSnippet": "A absent 3 days"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-adv-work-problems-1",
+      "title": "Efficiency and units",
+      "question": "A can do a job in 20 days and B in 30 days. They work together; how long do they take, and how much more efficient is A than B?",
+      "givenInfo": [
+        "A 20 days",
+        "B 30 days"
+      ],
+      "conceptOrFormula": "LCM units.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Units",
+          "explanation": "Total = 60 units. A does 3, B does 2 per day."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Together",
+          "explanation": "5 units a day, so 12 days."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Efficiency",
+          "explanation": "A : B = 3 : 2, so A is 50% more efficient."
+        }
+      ],
+      "finalAnswer": "12 days; A is 50% more efficient",
+      "whyItWorks": "Efficiency is inversely proportional to time.",
+      "commonTrap": "Saying A is 33% more efficient.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-adv-work-problems-2",
+      "title": "Team changes mid-job",
+      "question": "20 workers can finish a job in 30 days. After 10 days, 5 workers leave. How many more days do the remaining workers need?",
+      "givenInfo": [
+        "20 workers, 30 days",
+        "5 leave after 10 days"
+      ],
+      "conceptOrFormula": "Man-days.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total",
+          "explanation": "20 × 30 = 600 man-days."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Done",
+          "explanation": "20 × 10 = 200. Left 400."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Remaining workers",
+          "explanation": "15 workers: 400 ÷ 15 = 26.67 days."
+        }
+      ],
+      "finalAnswer": "About 26.7 days",
+      "whyItWorks": "The work left stays 400 man-days.",
+      "commonTrap": "Using 20 workers for the remaining time.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-adv-work-problems-3",
+      "title": "Hours per day",
+      "question": "6 men working 9 hours a day complete a job in 10 days. In how many days will 9 men working 5 hours a day complete it?",
+      "givenInfo": [
+        "6 × 9 × 10",
+        "9 × 5 × d"
+      ],
+      "conceptOrFormula": "Constant man-hours.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total",
+          "explanation": "6 × 9 × 10 = 540 man-hours."
+        },
+        {
+          "stepNumber": 2,
+          "title": "New rate",
+          "explanation": "9 × 5 = 45 man-hours per day."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Days",
+          "explanation": "540 ÷ 45 = 12."
+        }
+      ],
+      "finalAnswer": "12 days",
+      "whyItWorks": "Man-hours measure the job.",
+      "commonTrap": "Ignoring the change in hours per day.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Units and man-hours",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Use fractions of work at every step.",
+      "shortcutMethod": "Choose LCM units, list units per day, add the phases, and divide the remainder by the new rate."
+    },
+    "rulesForApplication": [
+      "Efficiency ratio = inverse of times.",
+      "Man-hours constant.",
+      "Phases add.",
+      "Convert percentages to ratios."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using the time ratio as the efficiency ratio",
+      "whyItHappens": "Not inverting.",
+      "howToAvoid": "Efficiency is the inverse of time."
+    },
+    {
+      "mistake": "Ignoring work already done",
+      "whyItHappens": "Using the full job for the second phase.",
+      "howToAvoid": "Subtract the first phase."
+    },
+    {
+      "mistake": "Ignoring hours per day",
+      "whyItHappens": "Treating all days as equal.",
+      "howToAvoid": "Use man-hours."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 100,
+    "eliminationTechnique": "The completion time must lie between the times for the fastest and the slowest team.",
+    "questionSelectionAdvice": "Write a phase table with units per day.",
+    "recruiterInsight": "Multi-phase problems are two or three simple steps."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-adv-work-problems-e1",
+        "question": "A can do a job in 20 days and B in 30 days. Together they finish in (days)",
+        "options": [
+          "10",
+          "12",
+          "14",
+          "15"
+        ],
+        "correctAnswer": "12",
+        "explanation": "1/20 + 1/30 = 1/12, so 12 days.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-work-problems-e2",
+        "question": "A takes 10 days and B takes 15 days to do a job. The ratio of their efficiencies A : B is",
+        "options": [
+          "3 : 2",
+          "2 : 3",
+          "5 : 3",
+          "1 : 3"
+        ],
+        "correctAnswer": "3 : 2",
+        "explanation": "Efficiency is inversely proportional to time: 15 : 10 = 3 : 2.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-work-problems-e3",
+        "question": "If A is twice as efficient as B and B alone takes 24 days, A alone takes (days)",
+        "options": [
+          "6",
+          "18",
+          "48",
+          "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "A takes half the time: 12 days.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-adv-work-problems-i7",
+        "question": "6 men working 9 hours a day complete a job in 10 days. 9 men working 5 hours a day will take (days)",
+        "options": [
+          "12",
+          "8",
+          "10",
+          "15"
+        ],
+        "correctAnswer": "12",
+        "explanation": "540 man-hours ÷ 45 per day = 12.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-work-problems-i8",
+        "question": "20 workers can finish a job in 30 days. After 10 days, 5 workers leave. The remaining workers need how many more days? (to one decimal place)",
+        "options": [
+          "20",
+          "24",
+          "30",
+          "26.7"
+        ],
+        "correctAnswer": "26.7",
+        "explanation": "Left = 600 − 200 = 400 man-days. 400 ÷ 15 = 26.7 days.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-work-problems-i9",
+        "question": "A can do a job in 20 days and B in 30 days. A starts, and after 5 days B joins. The total time is (days)",
+        "options": [
+          "12",
+          "15",
+          "16",
+          "14"
+        ],
+        "correctAnswer": "14",
+        "explanation": "A does 1/4 in 5 days. The remaining 3/4 at 1/12 per day takes 9 days. Total 14.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-adv-work-problems-a15",
+        "question": "A and B can finish a job in 12 and 18 days. They work together for 4 days, then B leaves. A finishes the rest in (days)",
+        "options": [
+          "4",
+          "5",
+          "5.33",
+          "6"
+        ],
+        "correctAnswer": "5.33",
+        "explanation": "In 4 days they do 4 × 5/36 = 5/9. Left 4/9 at A's rate 1/12: 16/3 = 5.33 days.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-work-problems-a16",
+        "question": "A can do a job in 10 days. B is 25% less efficient than A. They work together for 4 days. The fraction of the job left is",
+        "options": [
+          "1/3",
+          "3/10",
+          "2/5",
+          "1/2"
+        ],
+        "correctAnswer": "3/10",
+        "explanation": "B's rate = 0.75 × 1/10 = 3/40. Together 7/40 per day. In 4 days 28/40 = 7/10 is done, so 3/10 is left.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-adv-work-problems-p17",
+        "question": "Efficiencies of A, B and C are in the ratio 2 : 3 : 5. A alone takes 30 days. All three together take (days)",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "8"
+        ],
+        "correctAnswer": "6",
+        "explanation": "Rates 2, 3, 5 units; A's 2 units take 30 days so total job = 60 units. Together 10 units a day: 6 days.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-work-problems-p18",
+        "question": "20 men were to finish a job in 40 days. After 10 days, 10 more men joined. The job finished in how many days from the start?",
+        "options": [
+          "30",
+          "25",
+          "31",
+          "35"
+        ],
+        "correctAnswer": "30",
+        "explanation": "Total 800 man-days. After 10 days 600 remain. 30 men take 20 days. Total 30.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-work-problems-p19",
+        "question": "A takes 24 days and B takes 36 days to do a job. They work on alternate days, starting with A. The job is finished in (days)",
+        "options": [
+          "24",
+          "28",
+          "30",
+          "29"
+        ],
+        "correctAnswer": "29",
+        "explanation": "A + B pair does 1/24 + 1/36 = 5/72 per two days. After 28 days (14 pairs) 70/72 is done. A then does 3/72 on day 29, completing the job.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "LCM units.",
+      "Efficiency inverse of time.",
+      "Man-hours constant.",
+      "Phases add.",
+      "Percent to ratio."
+    ],
+    "quickFormulas": [
+      "M₁H₁D₁ = M₂H₂D₂",
+      "Efficiency ∝ 1/time"
+    ]
+  },
+  "keyTakeaways": [
+    "Units per day.",
+    "Add phases.",
+    "Hours count.",
+    "Invert for efficiency."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute efficiency from times?",
+    "Can I do a two-phase problem?",
+    "Can I use man-hours?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}
