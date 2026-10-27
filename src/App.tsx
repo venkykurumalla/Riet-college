@@ -10,6 +10,7 @@ import { LMSSidebar } from './components/LMSSidebar';
 import { CRTOverviewPage } from './components/CRTOverviewPage';
 import { CRTTopicPage } from './components/CRTTopicPage';
 import { CRTSidebar } from './components/CRTSidebar';
+import { CRTYearSelector } from './components/CRTYearSelector';
 import { CRTModuleQuiz } from './components/CRTModuleQuiz';
 import { SearchModal } from './components/SearchModal';
 import { RIETAssistant } from './components/RIETAssistant';
@@ -86,6 +87,12 @@ export const App: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setCrtSelectedYear(yearId);
     setView({ type: 'crt-overview', yearId });
+  };
+
+  // Year tab: switch year (opens that year's overview); re-clicking the active year does nothing
+  const handleCRTYearTab = (yearId: CRTYearId) => {
+    if (yearId === crtSelectedYear) return;
+    handleSelectCRTYear(yearId);
   };
 
   const handleSelectCRTQuiz = (moduleId: string, categoryName: string, yearId?: CRTYearId) => {
@@ -190,7 +197,6 @@ export const App: React.FC = () => {
             selectedYear={crtSelectedYear}
             activeTopicId={view.type === 'crt-topic' ? view.topicId : undefined}
             activeQuizModuleId={view.type === 'crt-quiz' ? view.moduleId : undefined}
-            onSelectYear={handleSelectCRTYear}
             onSelectOverview={() => handleOpenCRT(crtSelectedYear)}
             onSelectTopic={topicId => handleSelectCRTTopic(topicId, crtSelectedYear)}
             onSelectQuiz={(moduleId, categoryName) => handleSelectCRTQuiz(moduleId, categoryName, crtSelectedYear)}
@@ -202,12 +208,20 @@ export const App: React.FC = () => {
 
           {/* CRT Main Reading Area */}
           <main className="flex-1 min-w-0 pb-16">
+
+            {/* Single year selector: sticky and visible on overview, chapter and quiz pages */}
+            <div className="sticky top-16 sm:top-20 z-30 flex justify-end px-4 sm:px-6 lg:px-8 py-2 bg-slate-50/90 backdrop-blur-md border-b border-slate-200/70">
+              <CRTYearSelector
+                selectedYear={crtSelectedYear}
+                onSelectYear={handleCRTYearTab}
+              />
+            </div>
             
             {/* VIEW: CRT YEAR SYLLABUS OVERVIEW */}
             {view.type === 'crt-overview' && (
               <CRTOverviewPage
                 selectedYear={view.yearId}
-                onSelectYear={handleSelectCRTYear}
+                onSelectYear={handleCRTYearTab}
                 onSelectTopic={topicId => handleSelectCRTTopic(topicId, view.yearId)}
                 onNavigateBackToSelection={handleOpenSyllabusSelection}
               />

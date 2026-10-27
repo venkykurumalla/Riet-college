@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   Brain,
   Sparkles,
@@ -11,11 +11,10 @@ import {
   Layers,
   Award
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { CRTYearId, CRTTopic } from '../types/crtTypes';
 import { getCRTYearCurriculum } from '../data/crtCourseData';
 import { crtProgressService } from '../services/crtProgressService';
-import { CRTYearSelector } from './CRTYearSelector';
 import { CRTSourcesModal } from './CRTSourcesModal';
 
 interface CRTOverviewPageProps {
@@ -32,51 +31,15 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
   onNavigateBackToSelection
 }) => {
   const [isSourcesOpen, setIsSourcesOpen] = useState(false);
-  const prevYearRef = useRef<CRTYearId>(selectedYear);
-  const [direction, setDirection] = useState<number>(0);
-
-  useEffect(() => {
-    if (selectedYear > prevYearRef.current) {
-      setDirection(1); // Moving Right
-    } else if (selectedYear < prevYearRef.current) {
-      setDirection(-1); // Moving Left
-    }
-    prevYearRef.current = selectedYear;
-  }, [selectedYear]);
-
   const yearData = getCRTYearCurriculum(selectedYear);
   const yearProgress = crtProgressService.getYearProgress(selectedYear);
   const allYearsProgress = crtProgressService.getAllYearsProgress();
   const allProgress = crtProgressService.getAllProgress();
 
-  const pageVariants = {
-    enter: (dir: number) => ({
-      x: dir > 0 ? 25 : dir < 0 ? -25 : 0,
-      opacity: 0
-    }),
-    center: {
-      x: 0,
-      opacity: 1,
-      transition: {
-        duration: 0.35,
-        ease: [0.25, 1, 0.5, 1] as const
-      }
-    },
-    exit: (dir: number) => ({
-      x: dir > 0 ? -25 : 25,
-      opacity: 0,
-      transition: {
-        duration: 0.2,
-        ease: [0.25, 1, 0.5, 1] as const
-      }
-    })
-  };
-
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 space-y-8 min-w-0">
       
-      {/* Top Bar: Back Link + Top Right Liquid Glass Year Selector */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div>
         <button
           onClick={onNavigateBackToSelection}
           className="inline-flex items-center space-x-2 text-xs sm:text-sm font-bold text-slate-500 hover:text-blue-700 transition-colors cursor-pointer self-start"
@@ -84,27 +47,10 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
           <ArrowLeft className="w-4 h-4" />
           <span>Back to Syllabus Selection</span>
         </button>
-
-        {/* Liquid Glass Year Selector */}
-        <div className="self-start sm:self-auto">
-          <CRTYearSelector
-            selectedYear={selectedYear}
-            onSelectYear={onSelectYear}
-          />
-        </div>
       </div>
 
-      {/* Directional Animated Content Container */}
-      <AnimatePresence mode="wait" custom={direction}>
-        <motion.div
-          key={selectedYear}
-          custom={direction}
-          variants={pageVariants}
-          initial="enter"
-          animate="center"
-          exit="exit"
-          className="space-y-8"
-        >
+      {/* Year content: one short fade when the year changes */}
+      <div key={selectedYear} className="space-y-8 animate-year-fade">
           {/* Main CRT Banner Card */}
           <div className="rounded-3xl bg-white border border-slate-200/90 p-6 sm:p-8 shadow-sm space-y-6">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 pb-6 border-b border-slate-100">
@@ -345,8 +291,7 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
               ))}
             </div>
           </div>
-        </motion.div>
-      </AnimatePresence>
+      </div>
 
       {/* Sources and References Modal */}
       <CRTSourcesModal

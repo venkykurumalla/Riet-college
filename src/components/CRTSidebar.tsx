@@ -23,7 +23,6 @@ interface CRTSidebarProps {
   selectedYear: CRTYearId;
   activeTopicId?: string;
   activeQuizModuleId?: string;
-  onSelectYear: (yearId: CRTYearId) => void;
   onSelectOverview: () => void;
   onSelectTopic: (topicId: string) => void;
   onSelectQuiz: (moduleId: string, categoryName: string) => void;
@@ -37,7 +36,6 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
   selectedYear,
   activeTopicId,
   activeQuizModuleId,
-  onSelectYear,
   onSelectOverview,
   onSelectTopic,
   onSelectQuiz,
@@ -90,41 +88,6 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
             <X className="w-5 h-5" />
           </button>
         )}
-      </div>
-
-      {/* Year Switcher Segmented Control */}
-      <div className="p-2.5 bg-slate-50/80 border-b border-slate-100">
-        <div className="relative grid grid-cols-4 gap-1 p-1 bg-slate-200/60 rounded-xl border border-slate-300/60 text-[11px] font-bold">
-          {([1, 2, 3, 4] as CRTYearId[]).map(yId => {
-            const isSelected = selectedYear === yId;
-
-            return (
-              <button
-                key={yId}
-                onClick={() => {
-                  onSelectYear(yId);
-                  onSelectOverview();
-                }}
-                className={`relative z-10 py-1.5 rounded-lg transition-colors cursor-pointer text-center ${
-                  isSelected ? 'text-white' : 'text-slate-600 hover:text-slate-900'
-                }`}
-              >
-                {isSelected && (
-                  <motion.div
-                    layoutId="sidebarYearHighlight"
-                    className="absolute inset-0 bg-blue-600 rounded-lg shadow-xs -z-10"
-                    transition={{
-                      type: 'spring',
-                      stiffness: 450,
-                      damping: 35
-                    }}
-                  />
-                )}
-                <span>{yId}yr</span>
-              </button>
-            );
-          })}
-        </div>
       </div>
 
       {/* Search Button */}
@@ -321,7 +284,7 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
   return (
     <>
       {/* Desktop Sidebar */}
-      <aside className="hidden lg:block h-[calc(100vh-64px)] sticky top-16 shadow-xs shrink-0">
+      <aside className="hidden lg:block h-[calc(100vh-64px)] sm:h-[calc(100vh-80px)] sticky top-16 sm:top-20 shadow-xs shrink-0">
         {content}
       </aside>
 
