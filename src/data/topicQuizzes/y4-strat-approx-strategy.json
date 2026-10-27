@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-strat-approx-strategy",
+  "topicTitle": "Approximation Strategy for Timed Tests",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Two options are 420 and 450. The relative gap between them (to one decimal) is",
+      "options": [
+        "7.8%",
+        "7.1%",
+        "6.4%",
+        "8.9%"
+      ],
+      "answerIndex": 1,
+      "explanation": "30 ÷ 420 = 7.1%."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The relative error in rounding 4,180 to 4,200 (to two decimals) is",
+      "options": [
+        "0.48%",
+        "0.53%",
+        "0.43%",
+        "0.6%"
+      ],
+      "answerIndex": 0,
+      "explanation": "20 ÷ 4,180 = 0.48%."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Options 24%, 25% and 26%: the relative gap between 24 and 26 (to one decimal) is",
+      "options": [
+        "9.1%",
+        "7.5%",
+        "10.4%",
+        "8.3%"
+      ],
+      "answerIndex": 3,
+      "explanation": "2 ÷ 24 = 8.3%."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The half-gap for options with a gap of 7.1% is (to one decimal)",
+      "options": [
+        "4%",
+        "3.2%",
+        "3.6%",
+        "4.5%"
+      ],
+      "answerIndex": 2,
+      "explanation": "7.1 ÷ 2 = 3.6 (3.55)."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Rounding 52 to 50 gives a relative error of (to one decimal)",
+      "options": [
+        "4.2%",
+        "3.4%",
+        "3.8%",
+        "4.8%"
+      ],
+      "answerIndex": 2,
+      "explanation": "2 ÷ 52 = 3.8%."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Options differ by 15%. A rough estimate has up to 3% error. What should you do?",
+      "options": [
+        "Calculate exactly",
+        "Estimate",
+        "Skip the question",
+        "Guess"
+      ],
+      "answerIndex": 1,
+      "explanation": "The error 3% is below half the gap, 7.5%, so estimating is safe."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The relative gap between options 1,180 and 1,210 (to one decimal) is",
+      "options": [
+        "2.5%",
+        "2.8%",
+        "2.3%",
+        "3.1%"
+      ],
+      "answerIndex": 0,
+      "explanation": "30 ÷ 1,180 = 2.5%."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Options 1,180 and 1,210 with a rough estimate having 4% error: what should you do?",
+      "options": [
+        "Estimate",
+        "Choose either",
+        "Take the average",
+        "Calculate exactly"
+      ],
+      "answerIndex": 3,
+      "explanation": "The gap is 2.5%, half is 1.3%, and the estimate error 4% exceeds it."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Rounding 3.9 to 4 and squaring gives a relative error in the square of about (to the nearest whole number)",
+      "options": [
+        "6%",
+        "4%",
+        "8%",
+        "5%"
+      ],
+      "answerIndex": 3,
+      "explanation": "(16 − 15.21) ÷ 15.21 = 5.2%, about 5%."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "In a product, rounding 52 to 50 and 4,180 to 4,200 changes the product by about (percent, to one decimal)",
+      "options": [
+        "3.7%",
+        "3.1%",
+        "3.4%",
+        "4.3%"
+      ],
+      "answerIndex": 2,
+      "explanation": "50 × 4,200 = 210,000 versus 217,360: an error of 3.4%."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The relative gap between 8,500 and 8,900 (to one decimal) is",
+      "options": [
+        "5.2%",
+        "4.7%",
+        "4.2%",
+        "5.9%"
+      ],
+      "answerIndex": 1,
+      "explanation": "400 ÷ 8,500 = 4.7%."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A question has options 8,500 and 8,900. An estimate has 2% error. What should you do?",
+      "options": [
+        "Estimate",
+        "Calculate exactly",
+        "Skip",
+        "Choose the smaller"
+      ],
+      "answerIndex": 0,
+      "explanation": "The half-gap is 2.4%, so 2% is within the budget."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The exact value of 4,180 × 52 is",
+      "options": [
+        "217360",
+        "239096",
+        "195624",
+        "271700"
+      ],
+      "answerIndex": 0,
+      "explanation": "4,180 × 52 = 217,360."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The percentage error when 4,180 × 52 is estimated as 210,000 (one decimal) is",
+      "options": [
+        "3.7%",
+        "3.1%",
+        "4.3%",
+        "3.4%"
+      ],
+      "answerIndex": 3,
+      "explanation": "7,360 ÷ 217,360 = 3.4%."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Options are 96, 100 and 104. The relative gap between 96 and 100 (to one decimal) is",
+      "options": [
+        "4.6%",
+        "3.8%",
+        "4.2%",
+        "5.3%"
+      ],
+      "answerIndex": 2,
+      "explanation": "4 ÷ 96 = 4.2%."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "For options 96, 100 and 104, an estimate within ±1% is",
+      "options": [
+        "not enough",
+        "enough",
+        "useless",
+        "only enough for the largest"
+      ],
+      "answerIndex": 1,
+      "explanation": "The half-gap is about 2.1%, so ±1% separates them."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "If you round both numerator and denominator of 4,180 ÷ 52 up to 4,200 ÷ 52, the relative error in the quotient (to one decimal) is",
+      "options": [
+        "0.6%",
+        "0.5%",
+        "0.4%",
+        "0.8%"
+      ],
+      "answerIndex": 1,
+      "explanation": "Only the numerator changed: 20 ÷ 4,180 = 0.5%."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The exact value of 4,180 ÷ 52 (to one decimal) is",
+      "options": [
+        "80.4",
+        "88.4",
+        "72.4",
+        "100.5"
+      ],
+      "answerIndex": 0,
+      "explanation": "4,180 ÷ 52 = 80.4."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Two estimates of a quantity are 80 and 82. The relative gap (to one decimal) is",
+      "options": [
+        "2.8%",
+        "2.3%",
+        "3.1%",
+        "2.5%"
+      ],
+      "answerIndex": 3,
+      "explanation": "2 ÷ 80 = 2.5%."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A result from your estimate is 30% away from every option. What should you do?",
+      "options": [
+        "Pick the nearest option",
+        "Round more",
+        "Recheck the problem set-up",
+        "Ignore it"
+      ],
+      "answerIndex": 2,
+      "explanation": "A large mismatch usually means an error in the set-up, not in rounding."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

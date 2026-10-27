@@ -1,0 +1,420 @@
+{
+  "id": "y4-strat-time-triage",
+  "yearId": 4,
+  "category": "Placement Strategy & Shortcuts",
+  "topicNumber": 32,
+  "title": "Time Triage and Question Selection",
+  "tagline": "Year 4 — Classifying questions at first glance and spending time where marks per minute are highest",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Triage means sorting questions by how quickly they will pay marks. At a first glance, a question is quick (under 45 seconds), medium (about 90 seconds) or long (over two minutes). Marks per minute decide the order: all quick questions first, then medium, then long ones with whatever time remains. Triage turns a section from a sequence of questions into a time budget.",
+    "placementRelevance": "Sectional timers in online tests make triage the biggest strategic lever.",
+    "realWorldContext": "Prioritising tasks by value per unit time is the same skill."
+  },
+  "learningObjectives": [
+    "Classify a question at first glance",
+    "Compute marks per minute",
+    "Plan a section as a time budget",
+    "Choose the order of attempt",
+    "Leave questions that fail the time test"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Time-Bound Quantitative Drills",
+      "Option Elimination Strategies"
+    ],
+    "quickRefresher": "Marks per minute = marks ÷ minutes. A question is worth attempting while its marks per minute exceeds your average."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Triage: sorting by priority.",
+      "Quick question: under 45 seconds.",
+      "Marks per minute: marks ÷ time.",
+      "Budget: total time split across questions.",
+      "First pass: the quick and medium questions."
+    ],
+    "theoreticalIntuition": "Every question costs time and pays marks; spend time where the rate is highest.",
+    "visualOrMentalModel": "At first glance tag Q, M or L. Do Q, then M, then L if time remains."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Marks per minute",
+      "formula": "Marks ÷ minutes",
+      "description": "Each question.",
+      "whenToUse": "Priority.",
+      "simpleExample": "1 mark in 0.75 min = 1.33"
+    },
+    {
+      "title": "Budget",
+      "formula": "Time = Σ questions × time each",
+      "description": "Plan.",
+      "whenToUse": "Check.",
+      "simpleExample": "12 × 45 s"
+    },
+    {
+      "title": "Time left",
+      "formula": "Total − used",
+      "description": "Mid-section.",
+      "whenToUse": "Adjust.",
+      "simpleExample": "40 − 20"
+    },
+    {
+      "title": "Average time",
+      "formula": "Time ÷ questions",
+      "description": "Plan.",
+      "whenToUse": "Pace.",
+      "simpleExample": "2,400 ÷ 30"
+    },
+    {
+      "title": "Skip rule",
+      "formula": "Time > 2 × average",
+      "description": "Any.",
+      "whenToUse": "Discipline.",
+      "simpleExample": "> 160 s"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Take a 40-minute section with 30 questions: 12 quick (45 s), 10 medium (90 s) and 8 long (150 s). Quick items take 9 minutes, medium 15 minutes, long 20 minutes: a total of 44 minutes, which is 4 over. Skip about two long questions.",
+      "Marks per minute: a quick question gives 1 ÷ 0.75 = 1.33 marks per minute; a medium one 0.67; a long one 0.4.",
+      "If a long question has already used 4 minutes, its marks per minute has dropped to 0.25; leave it.",
+      "Plan checkpoints: after 10 minutes, the quick questions should be done.",
+      "If you finish the first pass early, spend time on the long questions you marked."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Equal marks assumption",
+        "content": "If questions carry different marks, use marks per minute with the actual marks."
+      },
+      {
+        "title": "Sectional timers",
+        "content": "You cannot carry time from one section to another; plan each section separately."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "First glance",
+      "description": "Tag the type.",
+      "exampleSnippet": "Q, M, L"
+    },
+    {
+      "typeName": "Rate",
+      "description": "Marks per minute.",
+      "exampleSnippet": "1.33"
+    },
+    {
+      "typeName": "Budget",
+      "description": "Sum of times.",
+      "exampleSnippet": "44 minutes"
+    },
+    {
+      "typeName": "Skip",
+      "description": "Over twice average.",
+      "exampleSnippet": "> 160 s"
+    },
+    {
+      "typeName": "Second pass",
+      "description": "Return.",
+      "exampleSnippet": "Long questions"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-strat-time-triage-1",
+      "title": "Marks per minute",
+      "question": "A question gives 1 mark and takes 45 seconds. Marks per minute?",
+      "givenInfo": [
+        "1 mark",
+        "45 s"
+      ],
+      "conceptOrFormula": "Marks over minutes.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Minutes",
+          "explanation": "45 s = 0.75 min."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Rate",
+          "explanation": "1 ÷ 0.75 = 1.33."
+        }
+      ],
+      "finalAnswer": "1.33",
+      "whyItWorks": "Higher is better.",
+      "commonTrap": "Using seconds.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-strat-time-triage-2",
+      "title": "Budget",
+      "question": "12 quick questions at 45 seconds each take how long?",
+      "givenInfo": [
+        "12 × 45 s"
+      ],
+      "conceptOrFormula": "Multiply.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Seconds",
+          "explanation": "540."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Minutes",
+          "explanation": "9."
+        }
+      ],
+      "finalAnswer": "9 minutes",
+      "whyItWorks": "Plan before starting.",
+      "commonTrap": "Forgetting conversion.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-strat-time-triage-3",
+      "title": "Skip",
+      "question": "The average time per question is 80 seconds. When should you consider skipping?",
+      "givenInfo": [
+        "Average 80 s"
+      ],
+      "conceptOrFormula": "Twice the average.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Threshold",
+          "explanation": "2 × 80 = 160 s."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Action",
+          "explanation": "Skip after about 160 s."
+        }
+      ],
+      "finalAnswer": "After about 160 seconds",
+      "whyItWorks": "Time is a budget.",
+      "commonTrap": "Never skipping.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Q, M, L",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Go in order.",
+      "shortcutMethod": "Tag at first glance, do quick questions first, then medium, then long if time remains."
+    },
+    "rulesForApplication": [
+      "Tag first.",
+      "Marks per minute.",
+      "Budget the section.",
+      "Skip at 2 × average."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Going in order",
+      "whyItHappens": "Easy marks left at the end.",
+      "howToAvoid": "Triage first."
+    },
+    {
+      "mistake": "Over-investing in a long question",
+      "whyItHappens": "Time lost.",
+      "howToAvoid": "Skip at 2 × average."
+    },
+    {
+      "mistake": "Not planning a budget",
+      "whyItHappens": "Late panic.",
+      "howToAvoid": "Add up the plan."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 10,
+    "eliminationTechnique": "Mark long questions and return.",
+    "questionSelectionAdvice": "Practise tagging on mock tests.",
+    "recruiterInsight": "Good triage is invisible: the section just feels calm."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-strat-time-triage-e1",
+        "question": "A question worth 1 mark takes 45 seconds. Its marks per minute (to two decimals) is",
+        "options": [
+          "1.46",
+          "1.33",
+          "1.2",
+          "1.66"
+        ],
+        "correctAnswer": "1.33",
+        "explanation": "1 ÷ 0.75 = 1.33.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-time-triage-e2",
+        "question": "12 quick questions at 45 seconds each take (minutes)",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "11"
+        ],
+        "correctAnswer": "9",
+        "explanation": "540 s = 9 minutes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-time-triage-e3",
+        "question": "10 medium questions at 90 seconds each take (minutes)",
+        "options": [
+          "17",
+          "14",
+          "19",
+          "15"
+        ],
+        "correctAnswer": "15",
+        "explanation": "900 s = 15 minutes.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-strat-time-triage-i7",
+        "question": "The plan of 12 quick, 10 medium and 8 long questions takes how many minutes in all?",
+        "options": [
+          "44",
+          "48",
+          "40",
+          "55"
+        ],
+        "correctAnswer": "44",
+        "explanation": "9 + 15 + 20 = 44.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-time-triage-i8",
+        "question": "The plan takes 44 minutes but only 40 are available. The minutes to cut are",
+        "options": [
+          "5",
+          "3",
+          "6",
+          "4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "44 − 40 = 4.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-time-triage-i9",
+        "question": "Skipping long questions (150 s each) to save 4 minutes needs skipping at least how many?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "correctAnswer": "2",
+        "explanation": "240 ÷ 150 = 1.6, so 2 questions.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-strat-time-triage-a15",
+        "question": "A section has 30 questions in 45 minutes. If 12 quick questions take 9 minutes, the minutes left for the other 18 questions are",
+        "options": [
+          "40",
+          "32",
+          "36",
+          "45"
+        ],
+        "correctAnswer": "36",
+        "explanation": "45 − 9 = 36.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-time-triage-a16",
+        "question": "With 36 minutes for 18 questions, the average time per question (seconds) is",
+        "options": [
+          "132",
+          "120",
+          "108",
+          "150"
+        ],
+        "correctAnswer": "120",
+        "explanation": "2,160 ÷ 18 = 120.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-strat-time-triage-p17",
+        "question": "Questions carry 1 mark (45 s), 2 marks (150 s) and 3 marks (300 s). Marks per minute for the 3-mark question is",
+        "options": [
+          "0.7",
+          "0.6",
+          "0.5",
+          "0.8"
+        ],
+        "correctAnswer": "0.6",
+        "explanation": "3 ÷ 5 min = 0.6.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-time-triage-p18",
+        "question": "For the 2-mark question in the previous item, marks per minute (to one decimal) is",
+        "options": [
+          "0.8",
+          "0.9",
+          "0.7",
+          "1"
+        ],
+        "correctAnswer": "0.8",
+        "explanation": "2 ÷ 2.5 = 0.8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-time-triage-p19",
+        "question": "With the rates 1.33, 0.8 and 0.6, the question to attempt first has marks per minute of",
+        "options": [
+          "1.46",
+          "1.2",
+          "1.66",
+          "1.33"
+        ],
+        "correctAnswer": "1.33",
+        "explanation": "The 1-mark, 45-second question has the highest rate, 1.33.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Tagging.",
+      "Rate.",
+      "Budget.",
+      "Skip.",
+      "Second pass."
+    ],
+    "quickFormulas": [
+      "Rate = marks ÷ minutes"
+    ]
+  },
+  "keyTakeaways": [
+    "Tag.",
+    "Rate.",
+    "Budget.",
+    "Return."
+  ],
+  "selfCheckQuestions": [
+    "Can I tag at a glance?",
+    "Can I compute marks per minute?",
+    "Can I plan a budget?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Method and shortcut background; the strategy framework and examples in this chapter are original."
+    }
+  ]
+}

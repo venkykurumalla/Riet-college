@@ -1,0 +1,419 @@
+{
+  "id": "y4-strat-approx-strategy",
+  "yearId": 4,
+  "category": "Placement Strategy & Shortcuts",
+  "topicNumber": 31,
+  "title": "Approximation Strategy for Timed Tests",
+  "tagline": "Year 4 — Deciding in seconds whether to estimate or calculate, and choosing the precision from the option spacing",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Approximation is a strategic decision as much as an arithmetic skill. For every question you must decide in a few seconds whether an estimate will separate the options, how precise it must be, and whether to fall back to exact calculation. The decision rule is simple: compute the gap between the nearest options as a percentage; if your estimate's possible error is smaller than half that gap, estimate; otherwise calculate.",
+    "placementRelevance": "Timed tests reward candidates who estimate when they can and calculate only when they must.",
+    "realWorldContext": "Estimating before committing resources is standard practice in planning."
+  },
+  "learningObjectives": [
+    "Compute the relative gap between options",
+    "Estimate the error of a rounding",
+    "Apply the half-gap rule",
+    "Choose the rounding that keeps error small",
+    "Fall back to exact calculation when needed"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Approximation and Estimation",
+      "High-Speed DI with Approximation"
+    ],
+    "quickRefresher": "Relative error = |estimate − exact| ÷ exact. Relative gap = difference between options ÷ the smaller option."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Relative gap: the size of the difference between two options in percent.",
+      "Half-gap rule: estimate only if the error is less than half the gap.",
+      "Rounding error: difference caused by rounding.",
+      "Precision: how close an estimate must be.",
+      "Fallback: exact calculation."
+    ],
+    "theoreticalIntuition": "The question is not how accurate you can be, but how accurate you must be.",
+    "visualOrMentalModel": "Look at the options first. Find the smallest gap. Choose a rounding whose error is clearly smaller than half of it."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Relative gap",
+      "formula": "(larger − smaller) ÷ smaller",
+      "description": "Two options.",
+      "whenToUse": "Gap.",
+      "simpleExample": "(450 − 420)/420 = 7.1%"
+    },
+    {
+      "title": "Half-gap rule",
+      "formula": "Error < gap/2",
+      "description": "Decision.",
+      "whenToUse": "Rule.",
+      "simpleExample": "3.5% budget"
+    },
+    {
+      "title": "Rounding error",
+      "formula": "|est − exact| ÷ exact",
+      "description": "Estimates.",
+      "whenToUse": "Error.",
+      "simpleExample": "4,200 vs 4,180: 0.5%"
+    },
+    {
+      "title": "Percent error of squares",
+      "formula": "Rounding 3.9 to 4: ≈ 5%",
+      "description": "Squares.",
+      "whenToUse": "Effect.",
+      "simpleExample": "Errors double"
+    },
+    {
+      "title": "Product error",
+      "formula": "Errors add",
+      "description": "Products.",
+      "whenToUse": "Effect.",
+      "simpleExample": "1% + 2% ≈ 3%"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Options 420 and 450 differ by 30, a gap of 7.1%. The half-gap is 3.6%: an estimate with error under 2% is enough.",
+      "Rounding 4,180 to 4,200 gives an error of 20 ÷ 4,180 = 0.48%.",
+      "For a product, the relative errors of the factors add: rounding 52 to 50 (3.8%) and 4,180 to 4,200 (0.5%) gives about 4.3%.",
+      "If the options are 24%, 25%, 26%, the gap is 4%; half is 2%; rough rounding (error over 4%) is not enough, so calculate.",
+      "When estimate and options disagree by a large margin, recheck: you may have mis-set the problem."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Errors in squares",
+        "content": "Squaring doubles the relative error."
+      },
+      {
+        "title": "Round in opposite directions",
+        "content": "In a product, rounding one up and one down partially cancels."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Gap",
+      "description": "Option spacing.",
+      "exampleSnippet": "420 vs 450"
+    },
+    {
+      "typeName": "Error",
+      "description": "Rounding.",
+      "exampleSnippet": "4,180 → 4,200"
+    },
+    {
+      "typeName": "Product",
+      "description": "Errors add.",
+      "exampleSnippet": "52 × 4,180"
+    },
+    {
+      "typeName": "Squares",
+      "description": "Errors double.",
+      "exampleSnippet": "3.9²"
+    },
+    {
+      "typeName": "Fallback",
+      "description": "Exact.",
+      "exampleSnippet": "24, 25, 26"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-strat-approx-strategy-1",
+      "title": "Relative gap",
+      "question": "Two options are 420 and 450. What is the relative gap?",
+      "givenInfo": [
+        "420, 450"
+      ],
+      "conceptOrFormula": "Difference over smaller.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Difference",
+          "explanation": "30."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "30 ÷ 420 = 7.1%."
+        }
+      ],
+      "finalAnswer": "7.1%",
+      "whyItWorks": "Half-gap about 3.6%.",
+      "commonTrap": "Dividing by 450.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-strat-approx-strategy-2",
+      "title": "Rounding error",
+      "question": "Rounding 4,180 to 4,200: relative error?",
+      "givenInfo": [
+        "4,180, 4,200"
+      ],
+      "conceptOrFormula": "Error over exact.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Error",
+          "explanation": "20."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "20 ÷ 4,180 = 0.48%."
+        }
+      ],
+      "finalAnswer": "0.48%",
+      "whyItWorks": "Under the budget.",
+      "commonTrap": "Dividing by 4,200.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-strat-approx-strategy-3",
+      "title": "Decision",
+      "question": "Options 24%, 25%, 26% and a rough estimate with 4% error. Estimate or calculate?",
+      "givenInfo": [
+        "Gap 4%"
+      ],
+      "conceptOrFormula": "Half-gap rule.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Half-gap",
+          "explanation": "2%."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compare",
+          "explanation": "Error 4% > 2%."
+        }
+      ],
+      "finalAnswer": "Calculate",
+      "whyItWorks": "The estimate is too rough.",
+      "commonTrap": "Estimating anyway.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Gap, half, decide",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Always compute exactly.",
+      "shortcutMethod": "Find the smallest option gap, halve it, and estimate if your error is smaller than that."
+    },
+    "rulesForApplication": [
+      "Gap first.",
+      "Half-gap rule.",
+      "Errors add in products.",
+      "Recheck outliers."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Estimating when options are close",
+      "whyItHappens": "Wrong option.",
+      "howToAvoid": "Use the half-gap rule."
+    },
+    {
+      "mistake": "Rounding both up in a quotient",
+      "whyItHappens": "Error adds.",
+      "howToAvoid": "Round the same way."
+    },
+    {
+      "mistake": "Ignoring squared errors",
+      "whyItHappens": "Underestimate.",
+      "howToAvoid": "Errors double in squares."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "Eliminate options far from the estimate.",
+    "questionSelectionAdvice": "Always look at the options first.",
+    "recruiterInsight": "The skill is deciding, not estimating."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-strat-approx-strategy-e1",
+        "question": "Two options are 420 and 450. The relative gap between them (to one decimal) is",
+        "options": [
+          "7.8%",
+          "7.1%",
+          "6.4%",
+          "8.9%"
+        ],
+        "correctAnswer": "7.1%",
+        "explanation": "30 ÷ 420 = 7.1%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-approx-strategy-e2",
+        "question": "The relative error in rounding 4,180 to 4,200 (to two decimals) is",
+        "options": [
+          "0.48%",
+          "0.53%",
+          "0.43%",
+          "0.6%"
+        ],
+        "correctAnswer": "0.48%",
+        "explanation": "20 ÷ 4,180 = 0.48%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-approx-strategy-e3",
+        "question": "Options 24%, 25% and 26%: the relative gap between 24 and 26 (to one decimal) is",
+        "options": [
+          "9.1%",
+          "7.5%",
+          "10.4%",
+          "8.3%"
+        ],
+        "correctAnswer": "8.3%",
+        "explanation": "2 ÷ 24 = 8.3%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-strat-approx-strategy-i7",
+        "question": "The relative gap between options 1,180 and 1,210 (to one decimal) is",
+        "options": [
+          "2.5%",
+          "2.8%",
+          "2.3%",
+          "3.1%"
+        ],
+        "correctAnswer": "2.5%",
+        "explanation": "30 ÷ 1,180 = 2.5%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-approx-strategy-i8",
+        "question": "Options 1,180 and 1,210 with a rough estimate having 4% error: what should you do?",
+        "options": [
+          "Estimate",
+          "Choose either",
+          "Take the average",
+          "Calculate exactly"
+        ],
+        "correctAnswer": "Calculate exactly",
+        "explanation": "The gap is 2.5%, half is 1.3%, and the estimate error 4% exceeds it.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-approx-strategy-i9",
+        "question": "Rounding 3.9 to 4 and squaring gives a relative error in the square of about (to the nearest whole number)",
+        "options": [
+          "6%",
+          "4%",
+          "8%",
+          "5%"
+        ],
+        "correctAnswer": "5%",
+        "explanation": "(16 − 15.21) ÷ 15.21 = 5.2%, about 5%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-strat-approx-strategy-a15",
+        "question": "Options are 96, 100 and 104. The relative gap between 96 and 100 (to one decimal) is",
+        "options": [
+          "4.6%",
+          "3.8%",
+          "4.2%",
+          "5.3%"
+        ],
+        "correctAnswer": "4.2%",
+        "explanation": "4 ÷ 96 = 4.2%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-approx-strategy-a16",
+        "question": "For options 96, 100 and 104, an estimate within ±1% is",
+        "options": [
+          "not enough",
+          "enough",
+          "useless",
+          "only enough for the largest"
+        ],
+        "correctAnswer": "enough",
+        "explanation": "The half-gap is about 2.1%, so ±1% separates them.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-strat-approx-strategy-p17",
+        "question": "If you round both numerator and denominator of 4,180 ÷ 52 up to 4,200 ÷ 52, the relative error in the quotient (to one decimal) is",
+        "options": [
+          "0.6%",
+          "0.5%",
+          "0.4%",
+          "0.8%"
+        ],
+        "correctAnswer": "0.5%",
+        "explanation": "Only the numerator changed: 20 ÷ 4,180 = 0.5%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-approx-strategy-p18",
+        "question": "The exact value of 4,180 ÷ 52 (to one decimal) is",
+        "options": [
+          "80.4",
+          "88.4",
+          "72.4",
+          "100.5"
+        ],
+        "correctAnswer": "80.4",
+        "explanation": "4,180 ÷ 52 = 80.4.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-approx-strategy-p19",
+        "question": "Two estimates of a quantity are 80 and 82. The relative gap (to one decimal) is",
+        "options": [
+          "2.8%",
+          "2.3%",
+          "3.1%",
+          "2.5%"
+        ],
+        "correctAnswer": "2.5%",
+        "explanation": "2 ÷ 80 = 2.5%.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Gap.",
+      "Half-gap.",
+      "Error.",
+      "Products.",
+      "Fallback."
+    ],
+    "quickFormulas": [
+      "Estimate if error < gap/2"
+    ]
+  },
+  "keyTakeaways": [
+    "Options first.",
+    "Half-gap.",
+    "Combine errors.",
+    "Calculate if close."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute a gap?",
+    "Can I apply the half-gap rule?",
+    "Can I estimate error?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Method and shortcut background; the strategy framework and examples in this chapter are original."
+    }
+  ]
+}

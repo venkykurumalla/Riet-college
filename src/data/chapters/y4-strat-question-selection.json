@@ -1,0 +1,422 @@
+{
+  "id": "y4-strat-question-selection",
+  "yearId": 4,
+  "category": "Placement Strategy & Shortcuts",
+  "topicNumber": 33,
+  "title": "Strategic Question Selection",
+  "tagline": "Year 4 — Choosing which questions to attempt using chance of success, time cost and marks, including negative marking",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Question selection refines triage with probability. Each question has marks, a time cost and a chance that you solve it correctly. Its expected value is chance × marks minus (1 − chance) × penalty, and its value per minute divides that by the time. Attempting questions in descending order of expected value per minute maximises the expected score. The estimates are rough, but the habit of asking \"what is my chance?\" prevents poor choices.",
+    "placementRelevance": "Sectional-cutoff tests with negative marking reward selective attempts.",
+    "realWorldContext": "Choosing projects by expected payoff per unit effort is the same idea."
+  },
+  "learningObjectives": [
+    "Compute expected marks of a question",
+    "Include negative marking",
+    "Compute expected marks per minute",
+    "Rank questions for attempt",
+    "Set a minimum confidence for attempting"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Time Triage and Question Selection"
+    ],
+    "quickRefresher": "Expected marks = p × m − (1 − p) × n, where p is the chance of being correct, m the marks and n the penalty."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Chance of success: your estimated probability of being correct.",
+      "Expected marks: average marks if repeated many times.",
+      "Penalty: marks lost for a wrong answer.",
+      "Break-even chance: p where expected marks are zero.",
+      "Value per minute: expected marks ÷ time."
+    ],
+    "theoreticalIntuition": "A question is worth attempting when its expected value is positive and its rate is higher than your alternatives.",
+    "visualOrMentalModel": "Estimate p, compute p × m − (1 − p) × n, divide by minutes, and rank."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Expected marks",
+      "formula": "p·m − (1 − p)·n",
+      "description": "Each question.",
+      "whenToUse": "Value.",
+      "simpleExample": "0.6 × 1 − 0.4 × 0.25"
+    },
+    {
+      "title": "Break-even chance",
+      "formula": "n ÷ (m + n)",
+      "description": "Penalty n.",
+      "whenToUse": "Threshold.",
+      "simpleExample": "0.25/1.25 = 20%"
+    },
+    {
+      "title": "Value per minute",
+      "formula": "E ÷ minutes",
+      "description": "Ranking.",
+      "whenToUse": "Rate.",
+      "simpleExample": "0.5 ÷ 0.75"
+    },
+    {
+      "title": "Total expected",
+      "formula": "Σ values",
+      "description": "Attempt set.",
+      "whenToUse": "Score.",
+      "simpleExample": "Sum"
+    },
+    {
+      "title": "Guess with elimination",
+      "formula": "p = 1/(options left)",
+      "description": "Guessing.",
+      "whenToUse": "Chance.",
+      "simpleExample": "1/2 after 2 removed"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A question you will get right with probability 0.6, worth 1 mark with a 0.25 penalty: expected marks = 0.6 − 0.4 × 0.25 = 0.5.",
+      "Break-even chance = 0.25 ÷ 1.25 = 20%. Attempt whenever your chance exceeds 20%.",
+      "A question with p = 0.9 taking 45 seconds has expected value 0.9 − 0.025 = 0.875, a rate of 1.17 per minute.",
+      "A question with p = 0.5 taking 150 seconds: expected 0.5 − 0.125 = 0.375, rate 0.15 per minute.",
+      "Rank by rate: attempt the first before the second."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Calibration",
+        "content": "Your estimated p is often too high; track your actual accuracy on mocks."
+      },
+      {
+        "title": "Penalty-free sections",
+        "content": "If there is no penalty, attempt every question; the break-even chance is 0."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Expected marks",
+      "description": "p, m, n.",
+      "exampleSnippet": "0.5"
+    },
+    {
+      "typeName": "Break-even",
+      "description": "Threshold.",
+      "exampleSnippet": "20%"
+    },
+    {
+      "typeName": "Rate",
+      "description": "Per minute.",
+      "exampleSnippet": "1.17"
+    },
+    {
+      "typeName": "Ranking",
+      "description": "Order.",
+      "exampleSnippet": "Highest first"
+    },
+    {
+      "typeName": "Guessing",
+      "description": "Elimination.",
+      "exampleSnippet": "50%"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-strat-question-selection-1",
+      "title": "Expected marks",
+      "question": "p = 0.6, marks 1, penalty 0.25. Expected marks?",
+      "givenInfo": [
+        "0.6",
+        "1",
+        "0.25"
+      ],
+      "conceptOrFormula": "p·m − (1 − p)·n.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Gain",
+          "explanation": "0.6 × 1 = 0.6."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Loss",
+          "explanation": "0.4 × 0.25 = 0.1; E = 0.5."
+        }
+      ],
+      "finalAnswer": "0.5",
+      "whyItWorks": "Positive, so attempt.",
+      "commonTrap": "Ignoring the penalty.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-strat-question-selection-2",
+      "title": "Break-even",
+      "question": "Marks 1, penalty 0.25. Break-even chance?",
+      "givenInfo": [
+        "1",
+        "0.25"
+      ],
+      "conceptOrFormula": "n ÷ (m + n).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Formula",
+          "explanation": "0.25 ÷ 1.25."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Result",
+          "explanation": "20%."
+        }
+      ],
+      "finalAnswer": "20%",
+      "whyItWorks": "Attempt above 20%.",
+      "commonTrap": "Taking 25%.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-strat-question-selection-3",
+      "title": "Rate",
+      "question": "Expected marks 0.875 in 45 seconds. Rate per minute?",
+      "givenInfo": [
+        "0.875",
+        "0.75 min"
+      ],
+      "conceptOrFormula": "Divide.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert",
+          "explanation": "45 s = 0.75 min."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Rate",
+          "explanation": "0.875 ÷ 0.75 = 1.17."
+        }
+      ],
+      "finalAnswer": "1.17",
+      "whyItWorks": "Higher rate first.",
+      "commonTrap": "Using seconds.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Chance, marks, minutes",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try every question.",
+      "shortcutMethod": "Estimate p, compute expected marks and rate, and attempt in descending order of rate."
+    },
+    "rulesForApplication": [
+      "E = pm − (1 − p)n.",
+      "Break-even n/(m + n).",
+      "Rank by rate.",
+      "No penalty: attempt all."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Overestimating p",
+      "whyItHappens": "Too many risky attempts.",
+      "howToAvoid": "Calibrate on mocks."
+    },
+    {
+      "mistake": "Ignoring the penalty",
+      "whyItHappens": "Wrong E.",
+      "howToAvoid": "Include n."
+    },
+    {
+      "mistake": "Forgetting time",
+      "whyItHappens": "Rate ignored.",
+      "howToAvoid": "Divide by minutes."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 15,
+    "eliminationTechnique": "Eliminate to raise p.",
+    "questionSelectionAdvice": "Track your accuracy per topic.",
+    "recruiterInsight": "Your honest p is the key input."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-strat-question-selection-e1",
+        "question": "p = 0.6, marks 1, penalty 0.25. The expected marks are",
+        "options": [
+          "0.55",
+          "0.5",
+          "0.45",
+          "0.63"
+        ],
+        "correctAnswer": "0.5",
+        "explanation": "0.6 × 1 − 0.4 × 0.25 = 0.5.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-question-selection-e2",
+        "question": "p = 0.8, marks 1, penalty 0.25. The expected marks are",
+        "options": [
+          "0.75",
+          "0.83",
+          "0.68",
+          "0.94"
+        ],
+        "correctAnswer": "0.75",
+        "explanation": "0.8 − 0.05 = 0.75.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-question-selection-e3",
+        "question": "With marks 1 and penalty 0.25, the break-even chance (as a percentage) is",
+        "options": [
+          "22%",
+          "18%",
+          "25%",
+          "20%"
+        ],
+        "correctAnswer": "20%",
+        "explanation": "0.25 ÷ 1.25 = 20%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-strat-question-selection-i7",
+        "question": "p = 0.9, marks 1, penalty 0.25. The expected marks (three decimals) are",
+        "options": [
+          "0.875",
+          "0.963",
+          "0.788",
+          "1.094"
+        ],
+        "correctAnswer": "0.875",
+        "explanation": "0.9 − 0.025 = 0.875.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-question-selection-i8",
+        "question": "Expected marks 0.875 in 45 seconds give a rate per minute of (two decimals)",
+        "options": [
+          "1.29",
+          "1.05",
+          "1.46",
+          "1.17"
+        ],
+        "correctAnswer": "1.17",
+        "explanation": "0.875 ÷ 0.75 = 1.17.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-question-selection-i9",
+        "question": "p = 0.5, marks 1, penalty 0.25, time 150 seconds. The expected marks are",
+        "options": [
+          "0.413",
+          "0.338",
+          "0.469",
+          "0.375"
+        ],
+        "correctAnswer": "0.375",
+        "explanation": "0.5 − 0.125 = 0.375.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-strat-question-selection-a15",
+        "question": "Questions A (p 0.9, 45 s) and B (p 0.5, 150 s), marks 1, penalty 0.25. The rate of A (per minute, two decimals) is",
+        "options": [
+          "1.29",
+          "1.05",
+          "1.17",
+          "1.46"
+        ],
+        "correctAnswer": "1.17",
+        "explanation": "0.875 ÷ 0.75 = 1.17.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-question-selection-a16",
+        "question": "The rate of question B (per minute, two decimals) is",
+        "options": [
+          "0.17",
+          "0.15",
+          "0.14",
+          "0.19"
+        ],
+        "correctAnswer": "0.15",
+        "explanation": "0.375 ÷ 2.5 = 0.15.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-strat-question-selection-p17",
+        "question": "Which question should be attempted first, A (rate 1.17) or B (rate 0.15)?",
+        "options": [
+          "B",
+          "A",
+          "Both together",
+          "Neither"
+        ],
+        "correctAnswer": "A",
+        "explanation": "A has the higher expected marks per minute.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-question-selection-p18",
+        "question": "A section has five questions each with p = 0.6, marks 1 and penalty 0.25. The total expected marks are",
+        "options": [
+          "2.5",
+          "2.8",
+          "2.3",
+          "3.1"
+        ],
+        "correctAnswer": "2.5",
+        "explanation": "5 × 0.5 = 2.5.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-question-selection-p19",
+        "question": "If your real accuracy is 0.5 instead of 0.6 on those five questions, the total expected marks are",
+        "options": [
+          "2.063",
+          "1.688",
+          "2.344",
+          "1.875"
+        ],
+        "correctAnswer": "1.875",
+        "explanation": "5 × 0.375 = 1.875.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Expected marks.",
+      "Break-even.",
+      "Rate.",
+      "Rank.",
+      "Calibrate."
+    ],
+    "quickFormulas": [
+      "E = pm − (1 − p)n"
+    ]
+  },
+  "keyTakeaways": [
+    "Estimate p.",
+    "Include penalty.",
+    "Rate.",
+    "Rank."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute E?",
+    "Can I find break-even?",
+    "Can I rank by rate?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Method and shortcut background; the strategy framework and examples in this chapter are original."
+    }
+  ]
+}

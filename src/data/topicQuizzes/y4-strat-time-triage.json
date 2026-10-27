@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-strat-time-triage",
+  "topicTitle": "Time Triage and Question Selection",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A question worth 1 mark takes 45 seconds. Its marks per minute (to two decimals) is",
+      "options": [
+        "1.46",
+        "1.33",
+        "1.2",
+        "1.66"
+      ],
+      "answerIndex": 1,
+      "explanation": "1 ÷ 0.75 = 1.33."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "12 quick questions at 45 seconds each take (minutes)",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "11"
+      ],
+      "answerIndex": 0,
+      "explanation": "540 s = 9 minutes."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "10 medium questions at 90 seconds each take (minutes)",
+      "options": [
+        "17",
+        "14",
+        "19",
+        "15"
+      ],
+      "answerIndex": 3,
+      "explanation": "900 s = 15 minutes."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "8 long questions at 150 seconds each take (minutes)",
+      "options": [
+        "22",
+        "18",
+        "20",
+        "25"
+      ],
+      "answerIndex": 2,
+      "explanation": "1,200 s = 20 minutes."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A 40-minute section has 30 questions. The average time per question (seconds) is",
+      "options": [
+        "88",
+        "72",
+        "80",
+        "100"
+      ],
+      "answerIndex": 2,
+      "explanation": "2,400 ÷ 30 = 80."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A question worth 1 mark takes 90 seconds. Its marks per minute (two decimals) is",
+      "options": [
+        "0.74",
+        "0.67",
+        "0.6",
+        "0.84"
+      ],
+      "answerIndex": 1,
+      "explanation": "1 ÷ 1.5 = 0.67."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The plan of 12 quick, 10 medium and 8 long questions takes how many minutes in all?",
+      "options": [
+        "44",
+        "48",
+        "40",
+        "55"
+      ],
+      "answerIndex": 0,
+      "explanation": "9 + 15 + 20 = 44."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The plan takes 44 minutes but only 40 are available. The minutes to cut are",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "4"
+      ],
+      "answerIndex": 3,
+      "explanation": "44 − 40 = 4."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Skipping long questions (150 s each) to save 4 minutes needs skipping at least how many?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "answerIndex": 3,
+      "explanation": "240 ÷ 150 = 1.6, so 2 questions."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A long question worth 1 mark takes 150 seconds. Its marks per minute (two decimals) is",
+      "options": [
+        "0.5",
+        "0.3",
+        "0.4",
+        "0.6"
+      ],
+      "answerIndex": 2,
+      "explanation": "1 ÷ 2.5 = 0.4."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A question has used 4 minutes with no result. If it were solved now, 1 mark per 4 minutes gives marks per minute of",
+      "options": [
+        "0.28",
+        "0.25",
+        "0.23",
+        "0.31"
+      ],
+      "answerIndex": 1,
+      "explanation": "1 ÷ 4 = 0.25."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "After 20 minutes of a 40-minute section, 12 questions are done. The time left per remaining question (18 left, seconds, one decimal) is",
+      "options": [
+        "66.7",
+        "73.4",
+        "60",
+        "83.4"
+      ],
+      "answerIndex": 0,
+      "explanation": "1,200 ÷ 18 = 66.7."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A section has 25 questions in 30 minutes. The average time per question (seconds) is",
+      "options": [
+        "72",
+        "79",
+        "65",
+        "90"
+      ],
+      "answerIndex": 0,
+      "explanation": "1,800 ÷ 25 = 72."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The threshold to consider skipping a question, if the average is 80 seconds and the rule is twice the average (seconds), is",
+      "options": [
+        "176",
+        "144",
+        "200",
+        "160"
+      ],
+      "answerIndex": 3,
+      "explanation": "2 × 80 = 160."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A section has 30 questions in 45 minutes. If 12 quick questions take 9 minutes, the minutes left for the other 18 questions are",
+      "options": [
+        "40",
+        "32",
+        "36",
+        "45"
+      ],
+      "answerIndex": 2,
+      "explanation": "45 − 9 = 36."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "With 36 minutes for 18 questions, the average time per question (seconds) is",
+      "options": [
+        "132",
+        "120",
+        "108",
+        "150"
+      ],
+      "answerIndex": 1,
+      "explanation": "2,160 ÷ 18 = 120."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Questions carry 1 mark (45 s), 2 marks (150 s) and 3 marks (300 s). Marks per minute for the 3-mark question is",
+      "options": [
+        "0.7",
+        "0.6",
+        "0.5",
+        "0.8"
+      ],
+      "answerIndex": 1,
+      "explanation": "3 ÷ 5 min = 0.6."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "For the 2-mark question in the previous item, marks per minute (to one decimal) is",
+      "options": [
+        "0.8",
+        "0.9",
+        "0.7",
+        "1"
+      ],
+      "answerIndex": 0,
+      "explanation": "2 ÷ 2.5 = 0.8."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "With the rates 1.33, 0.8 and 0.6, the question to attempt first has marks per minute of",
+      "options": [
+        "1.46",
+        "1.2",
+        "1.66",
+        "1.33"
+      ],
+      "answerIndex": 3,
+      "explanation": "The 1-mark, 45-second question has the highest rate, 1.33."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A 1-mark question is taking 3 minutes. The best action is",
+      "options": [
+        "Continue until solved",
+        "Guess at random without reading",
+        "Skip and return later if time remains",
+        "Restart the section"
+      ],
+      "answerIndex": 2,
+      "explanation": "Its marks per minute has fallen to 0.33, below the average of the section."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}
