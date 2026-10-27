@@ -1,0 +1,436 @@
+{
+  "id": "y3-quant-adv-number-properties",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 1,
+  "title": "Advanced Number Properties",
+  "tagline": "Year 3 — Divisor counts and sums, co-primes, perfect squares and prime-factor reasoning",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Year 1 and 2 used divisibility rules and HCF and LCM. Year 3 uses the prime factorisation of a number as a complete description of it. From the factorisation N = p^a × q^b × r^c you can count the divisors, add them, count the odd and even divisors, count the perfect-square or perfect-cube divisors, and count the numbers below N that are co-prime to it. These results turn long listing problems into one-line calculations.",
+    "placementRelevance": "Number-property questions are commonly asked in company aptitude rounds in the harder quantitative sections, often as \"how many factors\" or \"how many numbers up to N are co-prime to N\".",
+    "realWorldContext": "Gear teeth and cycle lengths (LCM and HCF), cryptographic keys (products of two large primes) and scheduling problems are built on the same factor structure."
+  },
+  "learningObjectives": [
+    "Write a number in prime-factor form and use it for counting",
+    "Count and add divisors, including odd, even, square and cube divisors",
+    "Use Euler's totient to count numbers co-prime to N",
+    "Solve HCF-LCM pair problems using prime exponents"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "HCF and LCM Fundamentals",
+      "Divisibility Rules",
+      "Number System Fundamentals"
+    ],
+    "quickRefresher": "Every integer greater than 1 is a product of primes in exactly one way (apart from order). Two numbers are co-prime when their HCF is 1."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Prime factorisation: N = p₁^a₁ × p₂^a₂ × … × pₖ^aₖ with distinct primes pᵢ.",
+      "Number of divisors τ(N) = (a₁ + 1)(a₂ + 1)…(aₖ + 1). Sum of divisors σ(N) = Π (pᵢ^(aᵢ+1) − 1)/(pᵢ − 1).",
+      "Euler's totient φ(N): the count of integers from 1 to N that are co-prime to N; φ(N) = N × Π (1 − 1/pᵢ).",
+      "Perfect number: a number equal to the sum of its proper divisors (6, 28, 496).",
+      "A number has an odd count of divisors exactly when it is a perfect square."
+    ],
+    "theoreticalIntuition": "A divisor of N is built by choosing, for each prime, how many copies (from 0 up to its exponent) to use. Counting divisors is therefore counting independent choices, which is why the counts multiply.",
+    "visualOrMentalModel": "Factorise once, write the exponents in a row, and read off every count: add 1 to each exponent and multiply for the divisor count; keep only even exponent choices for squares; drop the prime 2 for odd divisors."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Number of divisors",
+      "formula": "τ(N) = (a₁ + 1)(a₂ + 1)…",
+      "description": "Exponents of the prime factorisation.",
+      "whenToUse": "Counting factors.",
+      "simpleExample": "72 = 2³ × 3² → 4 × 3 = 12"
+    },
+    {
+      "title": "Sum of divisors",
+      "formula": "σ(N) = Π (p^(a+1) − 1)/(p − 1)",
+      "description": "One bracket per prime.",
+      "whenToUse": "Sum of factors.",
+      "simpleExample": "360 = 2³·3²·5 → 15 × 13 × 6 = 1170"
+    },
+    {
+      "title": "Odd and even divisors",
+      "formula": "Odd = divisors of the odd part;  Even = total − odd",
+      "description": "Remove the 2s.",
+      "whenToUse": "Odd/even counts.",
+      "simpleExample": "72: odd 3, even 9"
+    },
+    {
+      "title": "Co-primes below N",
+      "formula": "φ(N) = N Π (1 − 1/p)",
+      "description": "Only the distinct primes matter.",
+      "whenToUse": "Euler questions.",
+      "simpleExample": "φ(36) = 36 × ½ × ⅔ = 12"
+    },
+    {
+      "title": "HCF-LCM pairs",
+      "formula": "If HCF = h and LCM = l then a = hx, b = hy with x, y co-prime and xy = l/h",
+      "description": "Count co-prime factor pairs.",
+      "whenToUse": "Pair counting.",
+      "simpleExample": "HCF 6, LCM 36 → xy = 6"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Factorise first. 360 = 2³ × 3² × 5. The divisor count is (3 + 1)(2 + 1)(1 + 1) = 24 and the divisor sum is (2⁴ − 1)/1 × (3³ − 1)/2 × (5² − 1)/4 = 15 × 13 × 6 = 1170.",
+      "For odd and even divisors, remove the factor 2. The odd part of 72 = 2³ × 3² is 9, which has 3 divisors, so 72 has 3 odd divisors and 12 − 3 = 9 even ones.",
+      "Perfect-square divisors need every exponent even. In 360 = 2³·3²·5 the exponent choices that stay even are 0 or 2 for the prime 2, 0 or 2 for 3 and only 0 for 5, giving 2 × 2 × 1 = 4 square divisors (1, 4, 9, 36). Perfect-cube divisors need exponents that are multiples of 3.",
+      "To count integers up to N that are co-prime to N use φ. For N = 36 = 2²·3², φ = 36 × (1/2) × (2/3) = 12. For N = 30, φ = 30 × (1/2)(2/3)(4/5) = 8.",
+      "For pairs with given HCF h and LCM l, write the numbers as hx and hy with x and y co-prime and xy = l/h. For HCF 6 and LCM 36, xy = 6, so (x, y) is (1, 6), (6, 1), (2, 3) or (3, 2): four ordered pairs."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Pairs of divisors",
+        "content": "Divisors come in pairs (d, N/d). If N has τ divisors, N can be written as a product of two factors in τ/2 ways (τ/2 + ½ if N is a square, counting the pair d = N/d once)."
+      },
+      {
+        "title": "Product of all divisors",
+        "content": "The product of all divisors of N is N^(τ/2). For N = 36 (τ = 9) it is 36^4.5 = 6⁹ = 10,077,696."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Counting divisors",
+      "description": "Total, odd, even.",
+      "exampleSnippet": "Divisors of 144"
+    },
+    {
+      "typeName": "Sum of divisors",
+      "description": "σ(N).",
+      "exampleSnippet": "Sum for 360"
+    },
+    {
+      "typeName": "Special divisors",
+      "description": "Squares, cubes.",
+      "exampleSnippet": "Square divisors of 360"
+    },
+    {
+      "typeName": "Co-prime counts",
+      "description": "Euler φ.",
+      "exampleSnippet": "Co-primes to 30"
+    },
+    {
+      "typeName": "Pair counting",
+      "description": "HCF-LCM pairs.",
+      "exampleSnippet": "HCF 6, LCM 36"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-adv-number-properties-1",
+      "title": "Divisor count and sum",
+      "question": "Find the number of divisors and the sum of divisors of 360.",
+      "givenInfo": [
+        "360 = 2³ × 3² × 5"
+      ],
+      "conceptOrFormula": "τ and σ from the exponents.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Factorise",
+          "explanation": "360 = 2³ × 3² × 5."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Count",
+          "explanation": "(3 + 1)(2 + 1)(1 + 1) = 24."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Sum",
+          "explanation": "(2⁴ − 1)(3³ − 1)/2 × (5² − 1)/4 = 15 × 13 × 6 = 1170."
+        }
+      ],
+      "finalAnswer": "24 divisors; sum 1170",
+      "whyItWorks": "Each divisor is a choice of exponents.",
+      "commonTrap": "Forgetting to add 1 to each exponent.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-adv-number-properties-2",
+      "title": "Co-primes",
+      "question": "How many positive integers less than 30 are co-prime to 30?",
+      "givenInfo": [
+        "30 = 2 × 3 × 5"
+      ],
+      "conceptOrFormula": "Euler's totient.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Distinct primes",
+          "explanation": "2, 3 and 5."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply the formula",
+          "explanation": "φ(30) = 30 × (1/2) × (2/3) × (4/5)."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Compute",
+          "explanation": "= 8."
+        }
+      ],
+      "finalAnswer": "8",
+      "whyItWorks": "Numbers sharing no prime factor with 30 are 1, 7, 11, 13, 17, 19, 23, 29.",
+      "commonTrap": "Counting the number 30 itself.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-adv-number-properties-3",
+      "title": "HCF-LCM pairs",
+      "question": "How many ordered pairs of positive integers have HCF 6 and LCM 36?",
+      "givenInfo": [
+        "HCF 6",
+        "LCM 36"
+      ],
+      "conceptOrFormula": "a = 6x, b = 6y, xy = 6, x and y co-prime.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Set up",
+          "explanation": "xy = 36/6 = 6."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Co-prime factor pairs of 6",
+          "explanation": "(1, 6), (6, 1), (2, 3), (3, 2)."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Count",
+          "explanation": "4 ordered pairs."
+        }
+      ],
+      "finalAnswer": "4",
+      "whyItWorks": "Each pair gives numbers (6, 36), (36, 6), (12, 18), (18, 12).",
+      "commonTrap": "Including (x, y) not co-prime, such as (1, 6) only.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Exponent row",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "List all divisors and count them.",
+      "shortcutMethod": "Write the exponents of the prime factorisation and apply the product, sum or totient formula directly."
+    },
+    "rulesForApplication": [
+      "τ: add 1 to each exponent and multiply.",
+      "Odd divisors: ignore the factor 2.",
+      "Squares: even exponents only.",
+      "φ uses only the distinct primes."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Forgetting to add 1 to exponents",
+      "whyItHappens": "Multiplying the exponents themselves.",
+      "howToAvoid": "Add 1 first: exponent 3 gives 4 choices (0, 1, 2, 3)."
+    },
+    {
+      "mistake": "Counting 1 or N wrongly in φ",
+      "whyItHappens": "Including N itself.",
+      "howToAvoid": "φ counts numbers below N (for N > 1)."
+    },
+    {
+      "mistake": "Mixing co-prime and prime",
+      "whyItHappens": "1 is co-prime but not prime.",
+      "howToAvoid": "Co-prime means HCF = 1."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 80,
+    "eliminationTechnique": "The divisor count of a non-square number is even; reject odd options.",
+    "questionSelectionAdvice": "Always factorise first and write the exponent row.",
+    "recruiterInsight": "Divisor and totient counts appear in cycle-length and remainder questions later."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-adv-number-properties-e1",
+        "question": "The number of divisors of 144 is",
+        "options": [
+          "12",
+          "15",
+          "14",
+          "20"
+        ],
+        "correctAnswer": "15",
+        "explanation": "144 = 2⁴ × 3², so (4 + 1)(2 + 1) = 15.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-number-properties-e2",
+        "question": "The sum of all divisors of 28 is",
+        "options": [
+          "56",
+          "28",
+          "54",
+          "60"
+        ],
+        "correctAnswer": "56",
+        "explanation": "The divisors are 1, 2, 4, 7, 14 and 28, which add to 56.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-number-properties-e3",
+        "question": "The smallest number having exactly 6 divisors is",
+        "options": [
+          "8",
+          "16",
+          "18",
+          "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "12 = 2² × 3 has (2 + 1)(1 + 1) = 6 divisors, and no smaller number has 6.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-adv-number-properties-i7",
+        "question": "The sum of all divisors of 360 is",
+        "options": [
+          "1170",
+          "1080",
+          "1200",
+          "1000"
+        ],
+        "correctAnswer": "1170",
+        "explanation": "360 = 2³ × 3² × 5. Sum = 15 × 13 × 6 = 1170.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-number-properties-i8",
+        "question": "The number of integers from 1 to 36 that are co-prime to 36 is",
+        "options": [
+          "10",
+          "14",
+          "18",
+          "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "φ(36) = 36 × (1/2) × (2/3) = 12.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-number-properties-i9",
+        "question": "In how many ways can 360 be written as a product of two distinct positive factors (order ignored)?",
+        "options": [
+          "10",
+          "11",
+          "24",
+          "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "360 has 24 divisors, which pair up into 12 pairs.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-adv-number-properties-a15",
+        "question": "How many integers from 1 to 30 are co-prime to 30?",
+        "options": [
+          "6",
+          "10",
+          "8",
+          "12"
+        ],
+        "correctAnswer": "8",
+        "explanation": "φ(30) = 30 × (1/2)(2/3)(4/5) = 8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-number-properties-a16",
+        "question": "The smallest number having exactly 12 divisors is",
+        "options": [
+          "48",
+          "60",
+          "72",
+          "36"
+        ],
+        "correctAnswer": "60",
+        "explanation": "60 = 2² × 3 × 5 has 3 × 2 × 2 = 12 divisors; no smaller number has 12.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-adv-number-properties-p17",
+        "question": "The largest 3-digit number having exactly 3 divisors is",
+        "options": [
+          "841",
+          "961",
+          "899",
+          "991"
+        ],
+        "correctAnswer": "961",
+        "explanation": "Numbers with exactly 3 divisors are squares of primes. 31² = 961 is the largest below 1000.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-number-properties-p18",
+        "question": "The number of divisors of 2⁵ × 3³ × 5² that are perfect cubes is",
+        "options": [
+          "4",
+          "3",
+          "6",
+          "8"
+        ],
+        "correctAnswer": "4",
+        "explanation": "Cube divisors need exponents that are multiples of 3: 2 has {0, 3}, 3 has {0, 3}, 5 has {0}. So 2 × 2 × 1 = 4.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-number-properties-p19",
+        "question": "The number of ordered pairs of positive integers with HCF 6 and LCM 36 is",
+        "options": [
+          "2",
+          "3",
+          "6",
+          "4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "Write the numbers as 6x and 6y with xy = 6 and x, y co-prime: (1, 6), (6, 1), (2, 3), (3, 2): 4.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Factorise first.",
+      "τ = Π(a + 1).",
+      "σ formula per prime.",
+      "φ from distinct primes.",
+      "Pairs: xy = l/h co-prime."
+    ],
+    "quickFormulas": [
+      "τ = Π(a + 1)",
+      "φ(N) = N Π(1 − 1/p)"
+    ]
+  },
+  "keyTakeaways": [
+    "Prime factorisation describes everything.",
+    "Counts multiply.",
+    "Squares have an odd divisor count.",
+    "Use totient for co-primes."
+  ],
+  "selfCheckQuestions": [
+    "Can I count the divisors of 360?",
+    "Can I find φ(36)?",
+    "Can I count HCF-LCM pairs?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

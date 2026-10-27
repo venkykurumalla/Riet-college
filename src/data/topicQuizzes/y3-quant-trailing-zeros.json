@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-trailing-zeros",
+  "topicTitle": "Trailing Zeros in Factorials and Products",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The number of trailing zeros in 25! is",
+      "options": [
+        "4",
+        "6",
+        "5",
+        "7"
+      ],
+      "answerIndex": 1,
+      "explanation": "⌊25/5⌋ + ⌊25/25⌋ = 5 + 1 = 6."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The number of trailing zeros in 10! is",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "⌊10/5⌋ = 2."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The number of trailing zeros in 100! is",
+      "options": [
+        "20",
+        "22",
+        "25",
+        "24"
+      ],
+      "answerIndex": 3,
+      "explanation": "⌊100/5⌋ + ⌊100/25⌋ = 20 + 4 = 24."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The number of trailing zeros in 2¹⁰ × 5¹² is",
+      "options": [
+        "2",
+        "12",
+        "10",
+        "22"
+      ],
+      "answerIndex": 2,
+      "explanation": "Zeros = min(10, 12) = 10."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The number of trailing zeros in 50! is",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answerIndex": 2,
+      "explanation": "⌊50/5⌋ + ⌊50/25⌋ = 10 + 2 = 12."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The number of trailing zeros in 20 × 25 × 30 is",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "20 × 25 × 30 = 15000, which ends in 3 zeros."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The number of trailing zeros in 15 × 15 × 15 × 12 × 12 × 12 × 12 is",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "15³ has 5³ and 12⁴ has 2⁸. Zeros = min(8, 3) = 3."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The exponent of 3 in 50! is",
+      "options": [
+        "16",
+        "20",
+        "24",
+        "22"
+      ],
+      "answerIndex": 3,
+      "explanation": "⌊50/3⌋ + ⌊50/9⌋ + ⌊50/27⌋ = 16 + 5 + 1 = 22."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The exponent of 2 in 50! is",
+      "options": [
+        "25",
+        "40",
+        "49",
+        "47"
+      ],
+      "answerIndex": 3,
+      "explanation": "25 + 12 + 6 + 3 + 1 = 47."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The number of trailing zeros in 25⁶ × 4⁶ is",
+      "options": [
+        "6",
+        "10",
+        "12",
+        "24"
+      ],
+      "answerIndex": 2,
+      "explanation": "25⁶ × 4⁶ = 100⁶, which has 12 zeros."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The number of trailing zeros in 200! is",
+      "options": [
+        "40",
+        "49",
+        "45",
+        "50"
+      ],
+      "answerIndex": 1,
+      "explanation": "40 + 8 + 1 = 49."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The highest power of 6 that divides 20! is",
+      "options": [
+        "8",
+        "7",
+        "10",
+        "18"
+      ],
+      "answerIndex": 0,
+      "explanation": "v₂(20!) = 18 and v₃(20!) = 8. The highest power of 6 is min(18, 8) = 8."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The number of zeros at the end of 5 × 10 × 15 × 20 × 25 is",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "6"
+      ],
+      "answerIndex": 0,
+      "explanation": "5 × 10 × 15 × 20 × 25 = 375000. The exponent of 2 is 3 and of 5 is 6, so there are min(3, 6) = 3 zeros."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The number of trailing zeros in 1000! is",
+      "options": [
+        "200",
+        "240",
+        "250",
+        "249"
+      ],
+      "answerIndex": 3,
+      "explanation": "200 + 40 + 8 + 1 = 249."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The highest power of 12 that divides 50! is 12 raised to",
+      "options": [
+        "20",
+        "23",
+        "22",
+        "47"
+      ],
+      "answerIndex": 2,
+      "explanation": "12 = 2² × 3. v₂ = 47 gives 23; v₃ = 22. The minimum is 22."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The number of trailing zeros in 1 × 2 × 3 × … × 30 (that is, 30!) is",
+      "options": [
+        "5",
+        "7",
+        "6",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "⌊30/5⌋ + ⌊30/25⌋ = 6 + 1 = 7."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The number of zeros at the end of 40! − 39! (as 39! × 39) is",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "40! − 39! = 39!(40 − 1) = 39! × 39. The factor 39 has no 5, so the zeros are those of 39!: ⌊39/5⌋ + ⌊39/25⌋ = 7 + 1 = 8."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The highest power of 10 that divides 3⁴⁸ × 5²⁰ × 2²⁶ is",
+      "options": [
+        "20",
+        "18",
+        "26",
+        "28"
+      ],
+      "answerIndex": 0,
+      "explanation": "The exponent of 2 is 26 and of 5 is 20, so 10²⁰ divides it."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The smallest n for which n! ends in at least 5 zeros is",
+      "options": [
+        "20",
+        "24",
+        "30",
+        "25"
+      ],
+      "answerIndex": 3,
+      "explanation": "v₅(20!) = 4 + 0 = 4 and v₅(25!) = 5 + 1 = 6. The first n with at least 5 zeros is 25."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The number of trailing zeros in 100! + 101! + 102! is",
+      "options": [
+        "20",
+        "22",
+        "24",
+        "25"
+      ],
+      "answerIndex": 2,
+      "explanation": "100! + 101! + 102! = 100!(1 + 101 + 101 × 102) = 100! × 10404, and 10404 has no factor 5, so the zeros are those of 100!: 24."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
+}

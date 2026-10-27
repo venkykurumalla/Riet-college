@@ -19,7 +19,23 @@ function expandQuiz(topicId, topicTitle, morePracticeUrl, qs) {
   const questions = qs.map((q, i) => {
     if (q.wrongs.length !== 3) throw new Error(`${topicId} Q${i + 1}: need exactly 3 wrong options`);
     const answerIndex = (i * 3 + 1 + (i >> 2)) % 4;
-    const options = [...q.wrongs];
+    // Repair numeric distractors that collide with the correct answer or each other.
+    const seen = new Set([String(q.correct).replace(/[,\s]/g, '')]);
+    const numeric = !isNaN(Number(String(q.correct).replace(/[,\s₹%°]/g, '')));
+    const base = Number(String(q.correct).replace(/[,\s₹%°]/g, ''));
+    const suffix = numeric ? String(q.correct).replace(/[\d.,\s-]/g, '') : '';
+    const fix = w => {
+      const key = String(w).replace(/[,\s]/g, '');
+      if (!seen.has(key) || !numeric) { seen.add(key); return w; }
+      for (const d of [1, -1, 2, -2, 3, -3, 5, -5, 10, -10, 20, 50]) {
+        const c = Math.round((base + d * (Math.abs(base) >= 10 ? 1 : 1)) * 100) / 100;
+        const cand = String(c) + suffix;
+        if (c >= 0 && !seen.has(cand)) { seen.add(cand); return cand; }
+      }
+      return w;
+    };
+    const wrongs = q.wrongs.map(fix);
+    const options = [...wrongs];
     options.splice(answerIndex, 0, q.correct);
     const out = { id: i + 1, difficulty: q.difficulty, question: q.question, options, answerIndex, explanation: q.explanation };
     if (q.shortcut) out.shortcut = q.shortcut;

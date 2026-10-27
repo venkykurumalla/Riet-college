@@ -1,0 +1,438 @@
+{
+  "id": "y3-quant-remainder-theorems",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 2,
+  "title": "Remainder Theorems (Chinese, Fermat's)",
+  "tagline": "Year 3 — Modular arithmetic, Fermat's little theorem, Euler's theorem and the Chinese remainder theorem",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Remainder problems ask for the remainder when a very large number (a power, a product, a factorial) is divided by a small number. Modular arithmetic lets you replace numbers by their remainders at every step. Three theorems shorten the work: Fermat's little theorem for prime moduli, Euler's theorem for general moduli, and the Chinese remainder theorem for combining conditions on different moduli.",
+    "placementRelevance": "Remainder-theorem questions are commonly asked in the hardest quantitative items of company aptitude rounds, often in the form \"remainder when 2^100 is divided by 7\".",
+    "realWorldContext": "Check digits, hash functions, calendar calculations and public-key cryptography all use modular arithmetic."
+  },
+  "learningObjectives": [
+    "Reduce sums, products and powers modulo n",
+    "Use Fermat's little theorem aⁿ⁻¹ ≡ 1 (mod p)",
+    "Use Euler's theorem with φ(n)",
+    "Combine congruences with the Chinese remainder theorem",
+    "Use Wilson's theorem and remainders of factorials"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Number Properties",
+      "Divisibility Rules"
+    ],
+    "quickRefresher": "a ≡ b (mod n) means n divides a − b. If a leaves remainder r when divided by n, then a ≡ r (mod n)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "a ≡ b (mod n): a and b leave the same remainder on division by n.",
+      "Fermat's little theorem: if p is prime and p does not divide a, then a^(p−1) ≡ 1 (mod p).",
+      "Euler's theorem: if gcd(a, n) = 1 then a^φ(n) ≡ 1 (mod n).",
+      "Wilson's theorem: (p − 1)! ≡ −1 (mod p) for prime p.",
+      "Chinese remainder theorem: congruences x ≡ r₁ (mod m₁) and x ≡ r₂ (mod m₂) with co-prime moduli have a unique solution modulo m₁m₂."
+    ],
+    "theoreticalIntuition": "Remainders behave like numbers on a clock face of size n. Adding, multiplying and raising to a power on the clock face gives the same remainder as doing it with the big numbers first. Powers on a clock go round in cycles, and the theorems tell you how long the cycle is.",
+    "visualOrMentalModel": "Reduce the base first (find its remainder), find the cycle length of the powers (using the theorem or by listing), reduce the exponent modulo the cycle length, and compute the small power."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Fermat",
+      "formula": "a^(p−1) ≡ 1 (mod p)",
+      "description": "p prime, p ∤ a.",
+      "whenToUse": "Prime moduli.",
+      "simpleExample": "2⁶ ≡ 1 (mod 7)"
+    },
+    {
+      "title": "Euler",
+      "formula": "a^φ(n) ≡ 1 (mod n)",
+      "description": "gcd(a, n) = 1.",
+      "whenToUse": "Composite moduli.",
+      "simpleExample": "3⁸ ≡ 1 (mod 15) since φ(15) = 8"
+    },
+    {
+      "title": "Reducing powers",
+      "formula": "a^k ≡ a^(k mod cycle) (mod n)",
+      "description": "Use the cycle length.",
+      "whenToUse": "Large exponents.",
+      "simpleExample": "2¹⁰⁰ mod 7: cycle 3"
+    },
+    {
+      "title": "Wilson",
+      "formula": "(p − 1)! ≡ −1 (mod p)",
+      "description": "p prime.",
+      "whenToUse": "Factorial remainders.",
+      "simpleExample": "6! ≡ −1 ≡ 6 (mod 7)"
+    },
+    {
+      "title": "Chinese remainder",
+      "formula": "x ≡ r₁ (mod m₁), x ≡ r₂ (mod m₂), gcd(m₁, m₂) = 1 → x unique mod m₁m₂",
+      "description": "Find by listing or substitution.",
+      "whenToUse": "Two-condition problems.",
+      "simpleExample": "x ≡ 2 (mod 3), x ≡ 3 (mod 5) → x ≡ 8 (mod 15)"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Work modulo n at every step. To find 7^100 mod 5, reduce 7 to 2, so the question is 2^100 mod 5. By Fermat, 2⁴ ≡ 1 (mod 5), and 100 is a multiple of 4, so the remainder is 1.",
+      "When the modulus is not prime, find the cycle by listing powers or use Euler. Powers of 2 modulo 7 are 2, 4, 1 and then repeat with period 3. Since 100 = 3 × 33 + 1, 2^100 ≡ 2¹ = 2 (mod 7).",
+      "For factorials, use the fact that n! contains every factor up to n. For n at or above the modulus (or above the largest prime factor needed) the factorial is divisible by the modulus, so the remainder is 0. For prime p, Wilson's theorem gives (p − 1)! ≡ −1.",
+      "For two conditions with co-prime moduli, list numbers satisfying the larger modulus until one satisfies the other. x ≡ 3 (mod 5) gives 3, 8, 13, …; the first with x ≡ 2 (mod 3) is 8, so x ≡ 8 (mod 15).",
+      "A useful trick: a number that leaves remainder r on division by each of several divisors is LCM(divisors) × k + r."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Negative remainders",
+        "content": "Working with −1 is often easier than with n − 1. 99 ≡ −1 (mod 100), so 99^101 ≡ (−1)^101 = −1 ≡ 99 (mod 100)."
+      },
+      {
+        "title": "Binomial shortcut",
+        "content": "(n − 1)^k ≡ (−1)^k (mod n). So 16^23 mod 17 is the same as (−1)^23 = −1 ≡ 16."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Power remainders",
+      "description": "Cycle method.",
+      "exampleSnippet": "2¹⁰⁰ mod 7"
+    },
+    {
+      "typeName": "Fermat/Euler",
+      "description": "Theorem use.",
+      "exampleSnippet": "3¹⁰⁰ mod 11"
+    },
+    {
+      "typeName": "Factorial remainders",
+      "description": "Wilson.",
+      "exampleSnippet": "6! mod 7"
+    },
+    {
+      "typeName": "Two conditions",
+      "description": "CRT.",
+      "exampleSnippet": "x ≡ 2 (mod 3), 3 (mod 5)"
+    },
+    {
+      "typeName": "Negative remainder trick",
+      "description": "(n − 1)^k.",
+      "exampleSnippet": "99^101 mod 100"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-remainder-theorems-1",
+      "title": "Power by cycle",
+      "question": "Find the remainder when 2¹⁰⁰ is divided by 7.",
+      "givenInfo": [
+        "2¹⁰⁰",
+        "modulus 7"
+      ],
+      "conceptOrFormula": "Find the cycle of powers.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "List powers",
+          "explanation": "2¹ = 2, 2² = 4, 2³ = 8 ≡ 1 (mod 7): cycle length 3."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Reduce the exponent",
+          "explanation": "100 = 3 × 33 + 1."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Result",
+          "explanation": "2¹⁰⁰ ≡ 2¹ = 2."
+        }
+      ],
+      "finalAnswer": "2",
+      "whyItWorks": "The powers repeat every 3 steps.",
+      "commonTrap": "Using the cycle length 4 from other bases.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-remainder-theorems-2",
+      "title": "Fermat's theorem",
+      "question": "Find the remainder when 3¹⁰⁰ is divided by 11.",
+      "givenInfo": [
+        "3¹⁰⁰",
+        "p = 11"
+      ],
+      "conceptOrFormula": "3¹⁰ ≡ 1 (mod 11).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Apply Fermat",
+          "explanation": "3¹⁰ ≡ 1 (mod 11)."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Reduce",
+          "explanation": "3¹⁰⁰ = (3¹⁰)¹⁰ ≡ 1."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Remainder",
+          "explanation": "1."
+        }
+      ],
+      "finalAnswer": "1",
+      "whyItWorks": "The exponent 100 is a multiple of 10.",
+      "commonTrap": "Applying Fermat with modulus 11 but exponent 11.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-remainder-theorems-3",
+      "title": "Chinese remainder",
+      "question": "Find the smallest positive number that leaves remainder 2 when divided by 3 and remainder 3 when divided by 5.",
+      "givenInfo": [
+        "x ≡ 2 (mod 3)",
+        "x ≡ 3 (mod 5)"
+      ],
+      "conceptOrFormula": "List numbers for one condition.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "List x ≡ 3 (mod 5)",
+          "explanation": "3, 8, 13, 18, …"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Test mod 3",
+          "explanation": "3 leaves 0, 8 leaves 2."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Result",
+          "explanation": "x = 8."
+        }
+      ],
+      "finalAnswer": "8",
+      "whyItWorks": "The solution repeats every 15.",
+      "commonTrap": "Taking the sum of the two remainders.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Reduce first, cycle second",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compute the huge power and divide.",
+      "shortcutMethod": "Reduce the base, find the cycle length (Fermat/Euler or listing), reduce the exponent, and compute the small power."
+    },
+    "rulesForApplication": [
+      "Reduce at every step.",
+      "p prime: cycle divides p − 1.",
+      "Use −1 for n − 1.",
+      "CRT: list the larger modulus."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Applying Fermat to a composite modulus",
+      "whyItHappens": "Using a^(n−1) ≡ 1 for any n.",
+      "howToAvoid": "Fermat needs a prime modulus; use Euler otherwise."
+    },
+    {
+      "mistake": "Forgetting gcd(a, n) = 1",
+      "whyItHappens": "Using the theorem when a and n share a factor.",
+      "howToAvoid": "Check the gcd first."
+    },
+    {
+      "mistake": "Reducing the exponent incorrectly",
+      "whyItHappens": "Taking the exponent mod n instead of mod the cycle.",
+      "howToAvoid": "Reduce modulo the cycle length."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "A remainder must be less than the divisor; discard larger options.",
+    "questionSelectionAdvice": "Always check whether the base is ±1 modulo n.",
+    "recruiterInsight": "Remainder problems are the base of cycle problems in unit digits."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-remainder-theorems-e1",
+        "question": "The remainder when 2¹⁰⁰ is divided by 7 is",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "6"
+        ],
+        "correctAnswer": "2",
+        "explanation": "2 has cycle length 3 modulo 7 (2, 4, 1). 100 leaves remainder 1 on division by 3, so the remainder is 2.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-remainder-theorems-e2",
+        "question": "The remainder when 7¹⁰⁰ is divided by 5 is",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "1",
+        "explanation": "7 ≡ 2 (mod 5) and 2⁴ ≡ 1. 100 is a multiple of 4, so the remainder is 1.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-remainder-theorems-e3",
+        "question": "The remainder when 10²⁵ is divided by 9 is",
+        "options": [
+          "0",
+          "3",
+          "9",
+          "1"
+        ],
+        "correctAnswer": "1",
+        "explanation": "10 ≡ 1 (mod 9), so 10²⁵ ≡ 1.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-remainder-theorems-i7",
+        "question": "The remainder when 3¹⁰⁰ is divided by 11 is",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "9"
+        ],
+        "correctAnswer": "1",
+        "explanation": "3¹⁰ ≡ 1 (mod 11), so 3¹⁰⁰ = (3¹⁰)¹⁰ ≡ 1.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-remainder-theorems-i8",
+        "question": "The remainder when 99⁹⁹ is divided by 100 is",
+        "options": [
+          "1",
+          "9",
+          "49",
+          "99"
+        ],
+        "correctAnswer": "99",
+        "explanation": "99 ≡ −1 (mod 100), so 99⁹⁹ ≡ (−1)⁹⁹ = −1 ≡ 99.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-remainder-theorems-i9",
+        "question": "The remainder when 6! is divided by 7 is",
+        "options": [
+          "1",
+          "5",
+          "0",
+          "6"
+        ],
+        "correctAnswer": "6",
+        "explanation": "6! = 720 = 7 × 102 + 6, so the remainder is 6 (Wilson: 6! ≡ −1 ≡ 6).",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-remainder-theorems-a15",
+        "question": "The smallest number which leaves remainder 5 when divided by 6, 8 and 12 is",
+        "options": [
+          "29",
+          "57",
+          "5",
+          "125"
+        ],
+        "correctAnswer": "5",
+        "explanation": "LCM(6, 8, 12) = 24, so the number is 24 + 5 = 29.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-remainder-theorems-a16",
+        "question": "The remainder when 17¹⁷ is divided by 16 is",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "15"
+        ],
+        "correctAnswer": "1",
+        "explanation": "17 ≡ 1 (mod 16), so 17¹⁷ ≡ 1.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-remainder-theorems-p17",
+        "question": "The remainder when 5⁹⁹ is divided by 13 is",
+        "options": [
+          "1",
+          "8",
+          "5",
+          "12"
+        ],
+        "correctAnswer": "8",
+        "explanation": "Powers of 5 mod 13 repeat 5, 12, 8, 1 (period 4). 99 leaves remainder 3 on division by 4, so the remainder is 8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-remainder-theorems-p18",
+        "question": "The remainder when 3⁴⁰ is divided by 80 is",
+        "options": [
+          "1",
+          "3",
+          "9",
+          "27"
+        ],
+        "correctAnswer": "1",
+        "explanation": "3⁴ = 81 ≡ 1 (mod 80), so 3⁴⁰ = (3⁴)¹⁰ ≡ 1.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-remainder-theorems-p19",
+        "question": "A number leaves remainder 4 on division by 5 and remainder 5 on division by 6. The smallest such positive number is",
+        "options": [
+          "11",
+          "19",
+          "23",
+          "29"
+        ],
+        "correctAnswer": "29",
+        "explanation": "The number is 1 less than a common multiple: 30 − 1 = 29.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Reduce the base.",
+      "Find the cycle.",
+      "Fermat and Euler.",
+      "Wilson.",
+      "CRT by listing."
+    ],
+    "quickFormulas": [
+      "a^(p−1) ≡ 1 (mod p)",
+      "a^φ(n) ≡ 1 (mod n)"
+    ]
+  },
+  "keyTakeaways": [
+    "Work with remainders.",
+    "Cycles repeat.",
+    "Use −1 tricks.",
+    "Check theorem conditions."
+  ],
+  "selfCheckQuestions": [
+    "Can I find 2¹⁰⁰ mod 7?",
+    "Can I use Fermat?",
+    "Can I solve two congruences?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "id": "y3-quant-unit-digit-cycles",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 3,
+  "title": "Unit Digit Cycles for Powers",
+  "tagline": "Year 3 — The repeating pattern of last digits and how to read it for very large powers",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "The last digit of a power depends only on the last digit of the base, and the last digits of successive powers repeat in a short cycle. Knowing the cycle for each digit lets you find the unit digit of numbers like 7^2023 without computing them. The same idea, extended to two digits, gives the last two digits of a power.",
+    "placementRelevance": "Unit-digit questions are commonly asked in company aptitude rounds, usually as \"the unit digit of 7^123 + 3^45\" or of a product of several powers.",
+    "realWorldContext": "Checksums, hashing and calendar-like cycles are built on the same repeating patterns."
+  },
+  "learningObjectives": [
+    "Know the cycle of unit digits for bases 0 to 9",
+    "Reduce the exponent by the cycle length",
+    "Handle sums and products of powers",
+    "Find the last two digits of a power",
+    "Handle tower exponents such as a^(b^c)"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Remainder Theorems",
+      "Number System Fundamentals"
+    ],
+    "quickRefresher": "The unit digit of a product is the unit digit of the product of the unit digits. For a sum, add the unit digits."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Cycle length (period): the number of steps after which the unit digits repeat.",
+      "Cycles: 0, 1, 5, 6 have length 1; 4 and 9 have length 2; 2, 3, 7, 8 have length 4.",
+      "Cycle of 2: 2, 4, 8, 6. Of 3: 3, 9, 7, 1. Of 7: 7, 9, 3, 1. Of 8: 8, 4, 2, 6. Of 4: 4, 6. Of 9: 9, 1.",
+      "Exponent reduction: the unit digit of aⁿ depends on n modulo the cycle length (use the full cycle when the remainder is 0).",
+      "Last two digits: work modulo 100."
+    ],
+    "theoreticalIntuition": "Only the last digit is ever needed, so the base can be replaced by its last digit. Then the powers cycle, and a huge exponent is just a position in a short cycle.",
+    "visualOrMentalModel": "Take the last digit of the base, recall its cycle, divide the exponent by the cycle length and use the remainder as the position (a remainder 0 means the last element of the cycle)."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Cycle table",
+      "formula": "2: 2,4,8,6;  3: 3,9,7,1;  7: 7,9,3,1;  8: 8,4,2,6;  4: 4,6;  9: 9,1",
+      "description": "Digits 0, 1, 5, 6 never change.",
+      "whenToUse": "Any unit digit.",
+      "simpleExample": "7^123 → 123 mod 4 = 3 → 3"
+    },
+    {
+      "title": "Reducing the exponent",
+      "formula": "Position = exponent mod cycle (0 → last)",
+      "description": "Use the cycle of the last digit.",
+      "whenToUse": "Large exponents.",
+      "simpleExample": "2^100: 100 mod 4 = 0 → 6"
+    },
+    {
+      "title": "Sums and products",
+      "formula": "Unit digit of the sum or product of the unit digits",
+      "description": "Compute each term's unit digit first.",
+      "whenToUse": "Combined expressions.",
+      "simpleExample": "7^123 + 3^45 → 3 + 3 = 6"
+    },
+    {
+      "title": "Last two digits",
+      "formula": "a^n mod 100",
+      "description": "Cycles are longer (up to 20).",
+      "whenToUse": "Two-digit questions.",
+      "simpleExample": "7⁴ = 2401 → ends 01"
+    },
+    {
+      "title": "Towers",
+      "formula": "Unit digit of a^(b^c): reduce b^c modulo the cycle length of a",
+      "description": "Work top-down.",
+      "whenToUse": "Tower questions.",
+      "simpleExample": "2^(3^2) = 2⁹ → 2"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Take the last digit of the base. Powers of 7 end in 7, 9, 3, 1 and repeat every 4. For 7^123, 123 = 4 × 30 + 3, so the unit digit is the 3rd in the cycle: 3.",
+      "When the exponent is a multiple of the cycle length, the unit digit is the last element of the cycle. 2^100: the cycle 2, 4, 8, 6 has length 4 and 100 is a multiple of 4, so the unit digit is 6.",
+      "For sums and products, take unit digits term by term. 2^2023 ends in 8 (2023 mod 4 = 3) and 3^2024 ends in 1 (2024 mod 4 = 0), so the product ends in 8 and the sum ends in 9.",
+      "Digits 4 and 9 have a cycle of 2: the powers of 4 end in 4 if the exponent is odd and 6 if even; the powers of 9 end in 9 if odd and 1 if even.",
+      "For a tower such as 2^(3^2), compute the exponent first: 3² = 9, then 2⁹: 9 mod 4 = 1, so the unit digit is 2. For the last two digits, 7⁴ = 2401 ends in 01, so 7^(4k) ends in 01."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Last two digits of powers of 7",
+        "content": "7¹ = 07, 7² = 49, 7³ = 43, 7⁴ = 01, then it repeats every 4. So 7^100 ends in 01 and 7^101 in 07."
+      },
+      {
+        "title": "Why factorials end in 0",
+        "content": "From 5! onward every factorial contains the factors 2 and 5, so the unit digit is 0. Only 1! to 4! (1, 2, 6, 24) matter."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Single power",
+      "description": "One cycle.",
+      "exampleSnippet": "7^123"
+    },
+    {
+      "typeName": "Sum or product of powers",
+      "description": "Combine digits.",
+      "exampleSnippet": "2^2023 × 3^2024"
+    },
+    {
+      "typeName": "Cycle of 4 or 9",
+      "description": "Odd/even.",
+      "exampleSnippet": "4^101"
+    },
+    {
+      "typeName": "Last two digits",
+      "description": "Mod 100.",
+      "exampleSnippet": "7^100"
+    },
+    {
+      "typeName": "Tower exponents",
+      "description": "Top-down.",
+      "exampleSnippet": "2^(3^2)"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-unit-digit-cycles-1",
+      "title": "Unit digit of a power",
+      "question": "Find the unit digit of 7¹²³.",
+      "givenInfo": [
+        "Base 7",
+        "Exponent 123"
+      ],
+      "conceptOrFormula": "Cycle of 7 is 7, 9, 3, 1.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Cycle",
+          "explanation": "7, 9, 3, 1, length 4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Reduce",
+          "explanation": "123 = 4 × 30 + 3."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Read",
+          "explanation": "The 3rd element is 3."
+        }
+      ],
+      "finalAnswer": "3",
+      "whyItWorks": "The pattern repeats every 4 powers.",
+      "commonTrap": "Using the exponent itself instead of its remainder.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-unit-digit-cycles-2",
+      "title": "Product of powers",
+      "question": "Find the unit digit of 2²⁰²³ × 3²⁰²⁴.",
+      "givenInfo": [
+        "2^2023",
+        "3^2024"
+      ],
+      "conceptOrFormula": "Unit digits multiply.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "2^2023",
+          "explanation": "2023 mod 4 = 3 → 8."
+        },
+        {
+          "stepNumber": 2,
+          "title": "3^2024",
+          "explanation": "2024 mod 4 = 0 → last of 3, 9, 7, 1 → 1."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Product",
+          "explanation": "8 × 1 = 8."
+        }
+      ],
+      "finalAnswer": "8",
+      "whyItWorks": "Only the unit digits matter.",
+      "commonTrap": "Treating remainder 0 as the first element.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-unit-digit-cycles-3",
+      "title": "Sum of factorials",
+      "question": "Find the unit digit of 1! + 2! + 3! + … + 50!.",
+      "givenInfo": [
+        "Factorials up to 50!"
+      ],
+      "conceptOrFormula": "Factorials from 5! end in 0.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Large factorials",
+          "explanation": "5! and above end in 0."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Small ones",
+          "explanation": "1 + 2 + 6 + 24 = 33."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Unit digit",
+          "explanation": "3."
+        }
+      ],
+      "finalAnswer": "3",
+      "whyItWorks": "Only 1! to 4! contribute.",
+      "commonTrap": "Adding all fifty terms.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Cycle table",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Multiply the base repeatedly.",
+      "shortcutMethod": "Remember the cycles of 2, 3, 7, 8 (length 4), 4, 9 (length 2) and read the position from the exponent remainder."
+    },
+    "rulesForApplication": [
+      "Remainder 0 means the last in the cycle.",
+      "0, 1, 5, 6 never change.",
+      "For sums, add unit digits.",
+      "For last two digits, find a power ending in 01."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Treating remainder 0 as position 0",
+      "whyItHappens": "Reading the first element for a multiple of the cycle length.",
+      "howToAvoid": "Use the last element of the cycle."
+    },
+    {
+      "mistake": "Using the wrong cycle",
+      "whyItHappens": "Mixing the cycles of 3 and 7.",
+      "howToAvoid": "Write the cycle out."
+    },
+    {
+      "mistake": "Forgetting that unit digit of a sum needs unit digits of terms",
+      "whyItHappens": "Adding the full numbers.",
+      "howToAvoid": "Reduce each term first."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 45,
+    "eliminationTechnique": "Unit digits of squares can only be 0, 1, 4, 5, 6 or 9; reject other options in square questions.",
+    "questionSelectionAdvice": "Memorise the four cycles of length 4.",
+    "recruiterInsight": "Unit-digit questions are very fast once the table is known."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-unit-digit-cycles-e1",
+        "question": "The unit digit of 7¹²³ is",
+        "options": [
+          "1",
+          "3",
+          "7",
+          "9"
+        ],
+        "correctAnswer": "3",
+        "explanation": "The cycle of 7 is 7, 9, 3, 1. 123 leaves remainder 3 on division by 4, giving 3.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-unit-digit-cycles-e2",
+        "question": "The unit digit of 2¹⁰⁰ is",
+        "options": [
+          "6",
+          "2",
+          "4",
+          "8"
+        ],
+        "correctAnswer": "6",
+        "explanation": "The cycle of 2 is 2, 4, 8, 6. 100 is a multiple of 4, so the unit digit is 6.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-unit-digit-cycles-e3",
+        "question": "The unit digit of 4¹⁰¹ is",
+        "options": [
+          "6",
+          "2",
+          "8",
+          "4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "The powers of 4 end in 4 for odd exponents: 4.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-unit-digit-cycles-i7",
+        "question": "The unit digit of 2²⁰²³ × 3²⁰²⁴ is",
+        "options": [
+          "8",
+          "2",
+          "4",
+          "6"
+        ],
+        "correctAnswer": "8",
+        "explanation": "2²⁰²³ ends in 8 and 3²⁰²⁴ ends in 1. The product ends in 8.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-unit-digit-cycles-i8",
+        "question": "The unit digit of 7⁴⁵ + 3⁴⁵ is",
+        "options": [
+          "1",
+          "4",
+          "6",
+          "0"
+        ],
+        "correctAnswer": "0",
+        "explanation": "7⁴⁵ ends in 7 and 3⁴⁵ ends in 3 (45 leaves 1 on division by 4). 7 + 3 = 10, so the unit digit is 0.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-unit-digit-cycles-i9",
+        "question": "The unit digit of 1! + 2! + 3! + … + 50! is",
+        "options": [
+          "1",
+          "4",
+          "9",
+          "3"
+        ],
+        "correctAnswer": "3",
+        "explanation": "5! and above end in 0. 1 + 2 + 6 + 24 = 33, so the unit digit is 3.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-unit-digit-cycles-a15",
+        "question": "The unit digit of 2^(3^2) is",
+        "options": [
+          "4",
+          "6",
+          "2",
+          "8"
+        ],
+        "correctAnswer": "2",
+        "explanation": "3² = 9, so 2⁹: 9 leaves 1 on division by 4: 2.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-unit-digit-cycles-a16",
+        "question": "The unit digit of 7^(7^7) is",
+        "options": [
+          "1",
+          "3",
+          "7",
+          "9"
+        ],
+        "correctAnswer": "3",
+        "explanation": "Find 7⁷ modulo 4: 7 ≡ −1, so 7⁷ ≡ −1 ≡ 3. Then 7³ ends in 3.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-unit-digit-cycles-p17",
+        "question": "The last two digits of 7⁹⁹ are",
+        "options": [
+          "07",
+          "43",
+          "49",
+          "57"
+        ],
+        "correctAnswer": "43",
+        "explanation": "7⁴ ≡ 01 (mod 100). 99 = 4 × 24 + 3, so 7⁹⁹ ≡ 7³ = 343 ≡ 43. The last two digits are 43.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-unit-digit-cycles-p18",
+        "question": "The unit digit of 17¹⁷ × 13¹³ × 19¹⁹ is",
+        "options": [
+          "9",
+          "1",
+          "3",
+          "10"
+        ],
+        "correctAnswer": "9",
+        "explanation": "17¹⁷ ends in 7, 13¹³ ends in 3, 19¹⁹ ends in 9. 7 × 3 = 21 → 1, then 1 × 9 = 9. The unit digit is 9.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-unit-digit-cycles-p19",
+        "question": "The unit digit of 2²⁰²⁴ + 3²⁰²⁴ is",
+        "options": [
+          "1",
+          "5",
+          "9",
+          "7"
+        ],
+        "correctAnswer": "7",
+        "explanation": "2²⁰²⁴ ends in 6 and 3²⁰²⁴ ends in 1. The sum ends in 7.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Last digit of the base.",
+      "Cycle lengths 1, 2, 4.",
+      "Remainder 0 → last.",
+      "Sums/products by unit digits.",
+      "Last two digits mod 100."
+    ],
+    "quickFormulas": [
+      "Cycles: 2, 3, 7, 8 → 4; 4, 9 → 2"
+    ]
+  },
+  "keyTakeaways": [
+    "Cycles are short.",
+    "Reduce the exponent.",
+    "Unit digits combine.",
+    "Factorials end in 0 from 5!."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the unit digit of 7^123?",
+    "Can I handle a product of two powers?",
+    "Can I find the last two digits of 7^100?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}
