@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-mrm-high-diff-logic",
+  "topicTitle": "High-Difficulty Logic Sets",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nHow many of the five islanders are knights?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight; 2 knights."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nWho is a knight among A, C and E?",
+      "options": [
+        "E",
+        "A",
+        "C",
+        "AC"
+      ],
+      "answerIndex": 0,
+      "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nIs A a knight or a knave?",
+      "options": [
+        "Knight",
+        "Cannot be determined",
+        "Both",
+        "Knave"
+      ],
+      "answerIndex": 3,
+      "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nWho stands first in the queue?",
+      "options": [
+        "P",
+        "Q",
+        "T",
+        "R"
+      ],
+      "answerIndex": 2,
+      "explanation": "The queue from the front is T, P, S, Q, U, R."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nWho stands last in the queue?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "answerIndex": 2,
+      "explanation": "The queue from the front is T, P, S, Q, U, R."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nWho stands in the third position?",
+      "options": [
+        "Q",
+        "S",
+        "R",
+        "T"
+      ],
+      "answerIndex": 1,
+      "explanation": "The queue from the front is T, P, S, Q, U, R."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nWhich of the following is a knave?",
+      "options": [
+        "D",
+        "B",
+        "E",
+        "No one"
+      ],
+      "answerIndex": 0,
+      "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight; D is a knave."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nWhich pair are both knights?",
+      "options": [
+        "A and B",
+        "C and D",
+        "A and E",
+        "B and E"
+      ],
+      "answerIndex": 3,
+      "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight; the knights are B and E."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nE says at least two of A, B, C, D are knaves. How many of them are knaves?",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "answerIndex": 3,
+      "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight; A, C and D are knaves: 3."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nWho stands between P and Q?",
+      "options": [
+        "P",
+        "Q",
+        "S",
+        "R"
+      ],
+      "answerIndex": 2,
+      "explanation": "The queue from the front is T, P, S, Q, U, R; S is between them."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nHow many people stand behind Q?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "The queue from the front is T, P, S, Q, U, R; 2 people stand behind Q."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nWho stands immediately before Q?",
+      "options": [
+        "S",
+        "P",
+        "Q",
+        "R"
+      ],
+      "answerIndex": 0,
+      "explanation": "The queue from the front is T, P, S, Q, U, R."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nWho stands immediately after U?",
+      "options": [
+        "R",
+        "P",
+        "Q",
+        "S"
+      ],
+      "answerIndex": 0,
+      "explanation": "The queue from the front is T, P, S, Q, U, R."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nWhat is the position of S from the front?",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "3"
+      ],
+      "answerIndex": 3,
+      "explanation": "The queue from the front is T, P, S, Q, U, R; S is 3rd."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nHow many of the following statements are true: A's, C's and D's?",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "3"
+      ],
+      "answerIndex": 2,
+      "explanation": "A, C and D are knaves, so all three statements are false: 0 true."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nIf B were actually a knave and spoke the same words, which would be wrong?",
+      "options": [
+        "A would be a knave",
+        "A would be a knight",
+        "C would be a knight",
+        "Nothing changes"
+      ],
+      "answerIndex": 1,
+      "explanation": "B's statement \"A is a knave\" would then be false, so A would be a knight, which changes the puzzle."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nHow many people stand between T and R?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "The queue from the front is T, P, S, Q, U, R; T is at 1 and R at 6: 4 between."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nWho stands exactly in the middle two positions (third and fourth)?",
+      "options": [
+        "S and Q",
+        "P and S",
+        "Q and U",
+        "T and R"
+      ],
+      "answerIndex": 0,
+      "explanation": "The queue from the front is T, P, S, Q, U, R."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nIf P and U exchange places, what is U's new position from the front?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "answerIndex": 3,
+      "explanation": "The queue from the front is T, P, S, Q, U, R; P is at 2, so U moves to position 2."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nHow many people stand between S and U?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "The queue from the front is T, P, S, Q, U, R; S is 3rd and U 5th: 1 between."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/"
+}

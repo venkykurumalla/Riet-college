@@ -1,0 +1,420 @@
+{
+  "id": "y4-mrm-time-bound-drills",
+  "yearId": 4,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 13,
+  "title": "Time-Bound Reasoning Drills",
+  "tagline": "Year 4 — Short reasoning items to be done in 30–45 seconds, and a method for pacing a reasoning section",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In a timed reasoning section, quick items (series, odd-one-out, ranks, directions, coding, simple relations) should take 30–45 seconds each, leaving the saved time for puzzles. This chapter is a drill of such items, together with a simple pacing method: classify each question on a first glance, do the quick ones first, and mark puzzles for a second pass.",
+    "placementRelevance": "Online reasoning sections give about a minute per question on average; quick items bank time for the long puzzles.",
+    "realWorldContext": "Triage under time pressure is a general workplace skill."
+  },
+  "learningObjectives": [
+    "Solve quick items in under 45 seconds",
+    "Classify a question at first glance",
+    "Use two passes through a section",
+    "Estimate time left per remaining question",
+    "Avoid over-investing in one puzzle"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Mixed Reasoning Assessment Sets"
+    ],
+    "quickRefresher": "Time per remaining question = time left ÷ questions left."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Quick item: solvable in under 45 seconds.",
+      "Pass: one run through the section.",
+      "Triage: deciding which questions to do now.",
+      "Checkpoint: a planned time for progress review.",
+      "Time budget: total seconds divided by questions."
+    ],
+    "theoreticalIntuition": "The score comes from marks per minute. Quick items have the highest marks per minute.",
+    "visualOrMentalModel": "On the first glance classify: quick, medium, puzzle. Do quick ones, then medium, then puzzles with the time left."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Time per question",
+      "formula": "Total ÷ questions",
+      "description": "Plan.",
+      "whenToUse": "Pace.",
+      "simpleExample": "2,700 s ÷ 30"
+    },
+    {
+      "title": "Time left per question",
+      "formula": "Remaining time ÷ remaining questions",
+      "description": "Mid-section.",
+      "whenToUse": "Adjust.",
+      "simpleExample": "600 ÷ 8"
+    },
+    {
+      "title": "Series",
+      "formula": "Differences, ratios",
+      "description": "Series.",
+      "whenToUse": "Quick.",
+      "simpleExample": "3, 7, 11, 15"
+    },
+    {
+      "title": "Rank",
+      "formula": "Left + right − 1",
+      "description": "Rank.",
+      "whenToUse": "Quick.",
+      "simpleExample": "12 and 29"
+    },
+    {
+      "title": "Direction",
+      "formula": "Net north/east",
+      "description": "Walks.",
+      "whenToUse": "Quick.",
+      "simpleExample": "6 N, 8 E"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A section of 30 questions in 45 minutes gives 90 seconds each. Quick items should take 30–45 seconds, which saves 45–60 seconds on each.",
+      "Do a first pass: quick items and medium items. Mark puzzles with more than five clues for the second pass.",
+      "At the 30-minute mark, suppose 8 questions remain and 15 minutes are left: 900 ÷ 8 = 112 seconds each.",
+      "If a puzzle has gone past about 3 minutes with no progress, leave it and return.",
+      "Practise quick items daily until they take under 40 seconds."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Marks per minute",
+        "content": "Quick items earn the same marks as hard ones in a fraction of the time."
+      },
+      {
+        "title": "Second pass",
+        "content": "Puzzles returned to later often look simpler after a break."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Series",
+      "description": "Differences.",
+      "exampleSnippet": "3, 7, 11"
+    },
+    {
+      "typeName": "Ranks",
+      "description": "Totals.",
+      "exampleSnippet": "Left + right − 1"
+    },
+    {
+      "typeName": "Directions",
+      "description": "Net distance.",
+      "exampleSnippet": "6 N, 8 E"
+    },
+    {
+      "typeName": "Pacing",
+      "description": "Time per question.",
+      "exampleSnippet": "90 s"
+    },
+    {
+      "typeName": "Triage",
+      "description": "Classify.",
+      "exampleSnippet": "Quick, medium, puzzle"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mrm-time-bound-drills-1",
+      "title": "Pace",
+      "question": "A section has 30 questions in 45 minutes. Average time per question?",
+      "givenInfo": [
+        "30",
+        "45 min"
+      ],
+      "conceptOrFormula": "Seconds ÷ questions.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Seconds",
+          "explanation": "45 × 60 = 2,700."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Pace",
+          "explanation": "2,700 ÷ 30 = 90 s."
+        }
+      ],
+      "finalAnswer": "90 seconds",
+      "whyItWorks": "Quick items need less.",
+      "commonTrap": "Dividing minutes by questions.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mrm-time-bound-drills-2",
+      "title": "Mid-section",
+      "question": "15 minutes remain for 8 questions. Time per question?",
+      "givenInfo": [
+        "900 s",
+        "8"
+      ],
+      "conceptOrFormula": "Time left ÷ questions left.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert",
+          "explanation": "15 minutes = 900 seconds."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide",
+          "explanation": "900 ÷ 8 = 112.5 s."
+        }
+      ],
+      "finalAnswer": "112.5 seconds",
+      "whyItWorks": "More than the plan, so do not rush.",
+      "commonTrap": "Ignoring the saved time.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mrm-time-bound-drills-3",
+      "title": "Series",
+      "question": "Find the next term: 3, 7, 11, 15, ?",
+      "givenInfo": [
+        "Differences 4"
+      ],
+      "conceptOrFormula": "Common difference.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Difference",
+          "explanation": "7 − 3 = 4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Next",
+          "explanation": "15 + 4 = 19."
+        }
+      ],
+      "finalAnswer": "19",
+      "whyItWorks": "Constant difference.",
+      "commonTrap": "Taking 20.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Quick first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Go in order.",
+      "shortcutMethod": "Classify at first glance; do quick items first; return to puzzles with the time saved."
+    },
+    "rulesForApplication": [
+      "Quick under 45 s.",
+      "Two passes.",
+      "Leave puzzles after 3 minutes.",
+      "Recompute pace mid-section."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Starting with the hardest puzzle",
+      "whyItHappens": "Time sink.",
+      "howToAvoid": "Quick first."
+    },
+    {
+      "mistake": "Never checking the clock",
+      "whyItHappens": "Late panic.",
+      "howToAvoid": "Checkpoints."
+    },
+    {
+      "mistake": "Polishing a quick item",
+      "whyItHappens": "Wasted seconds.",
+      "howToAvoid": "Move on."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 40,
+    "eliminationTechnique": "Eliminate two options fast, then decide.",
+    "questionSelectionAdvice": "Practise timed drills daily.",
+    "recruiterInsight": "Speed on quick items funds the puzzles."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mrm-time-bound-drills-e1",
+        "question": "What comes next: 3, 7, 11, 15, ?",
+        "options": [
+          "21",
+          "19",
+          "17",
+          "24"
+        ],
+        "correctAnswer": "19",
+        "explanation": "The common difference is 4, so the next term is 15 + 4 = 19.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-time-bound-drills-e2",
+        "question": "What comes next: 2, 4, 8, 16, ?",
+        "options": [
+          "32",
+          "35",
+          "29",
+          "40"
+        ],
+        "correctAnswer": "32",
+        "explanation": "Each term doubles, so 16 × 2 = 32.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-time-bound-drills-e3",
+        "question": "In a row of 30, a boy is 9th from the left. His rank from the right is",
+        "options": [
+          "24",
+          "20",
+          "28",
+          "22"
+        ],
+        "correctAnswer": "22",
+        "explanation": "30 − 9 + 1 = 22.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mrm-time-bound-drills-i7",
+        "question": "What comes next: 1, 4, 9, 16, 25, ?",
+        "options": [
+          "36",
+          "40",
+          "32",
+          "45"
+        ],
+        "correctAnswer": "36",
+        "explanation": "Squares: 6² = 36.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-time-bound-drills-i8",
+        "question": "15 minutes remain for 8 questions. The time per question is (seconds)",
+        "options": [
+          "123.8",
+          "101.3",
+          "140.6",
+          "112.5"
+        ],
+        "correctAnswer": "112.5",
+        "explanation": "900 ÷ 8 = 112.5.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-time-bound-drills-i9",
+        "question": "If CAT = 24 (3 + 1 + 20) in a code where letters equal positions, then DOG equals",
+        "options": [
+          "24",
+          "27",
+          "30",
+          "26"
+        ],
+        "correctAnswer": "26",
+        "explanation": "D = 4, O = 15, G = 7: 4 + 15 + 7 = 26.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mrm-time-bound-drills-a15",
+        "question": "What comes next: 2, 6, 12, 20, 30, ?",
+        "options": [
+          "46",
+          "38",
+          "42",
+          "53"
+        ],
+        "correctAnswer": "42",
+        "explanation": "Terms are n(n + 1): 6 × 7 = 42.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-time-bound-drills-a16",
+        "question": "20 minutes remain, and the remaining 10 questions include 4 puzzles. If quick items take 60 seconds each, the seconds left per puzzle are",
+        "options": [
+          "231",
+          "210",
+          "189",
+          "263"
+        ],
+        "correctAnswer": "210",
+        "explanation": "1,200 − 360 = 840; 840 ÷ 4 = 210.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mrm-time-bound-drills-p17",
+        "question": "Pointing to a man, a woman says, \"He is the son of my mother's only child.\" The man is her",
+        "options": [
+          "Brother",
+          "Son",
+          "Nephew",
+          "Cousin"
+        ],
+        "correctAnswer": "Son",
+        "explanation": "Her mother's only child is herself, so the man is her son.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-time-bound-drills-p18",
+        "question": "How many triangles are there in a figure formed by joining the three vertices of a triangle to a point inside it? (count all)",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "correctAnswer": "4",
+        "explanation": "Three small triangles plus the outer triangle: 4.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-time-bound-drills-p19",
+        "question": "A clock shows 6:00. The angle between the hands is (degrees)",
+        "options": [
+          "198",
+          "162",
+          "225",
+          "180"
+        ],
+        "correctAnswer": "180",
+        "explanation": "At 6:00 the hands are opposite, so the angle is 180°.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Pace.",
+      "Triage.",
+      "Quick types.",
+      "Two passes.",
+      "Checkpoints."
+    ],
+    "quickFormulas": [
+      "Time left ÷ questions left"
+    ]
+  },
+  "keyTakeaways": [
+    "Quick first.",
+    "Two passes.",
+    "Check the clock.",
+    "Leave stuck items."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute my pace?",
+    "Can I triage at a glance?",
+    "Can I leave a stuck puzzle?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

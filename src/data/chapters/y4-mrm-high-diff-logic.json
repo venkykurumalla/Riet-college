@@ -1,0 +1,419 @@
+{
+  "id": "y4-mrm-high-diff-logic",
+  "yearId": 4,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 12,
+  "title": "High-Difficulty Logic Sets",
+  "tagline": "Year 4 — Truth-teller puzzles, queue orderings with conditionals and other puzzles that need systematic case testing",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "High-difficulty logic sets are solved by systematic case testing rather than inspiration. Knights-and-knaves puzzles, orderings with conditional rules and constraint puzzles with several negative clues all have small search spaces: five speakers have only 32 truth assignments and six people only 720 orders. The skill is to prune the search with the strongest clues and to test the surviving cases completely.",
+    "placementRelevance": "These are the hardest logic items in company reasoning sections; solving one correctly can decide a cutoff.",
+    "realWorldContext": "Debugging a system with several contradictory reports uses the same case-by-case reasoning."
+  },
+  "learningObjectives": [
+    "Model statements as true or false for each speaker",
+    "Test cases systematically and prune early",
+    "Handle conditional clues (if… then…)",
+    "Combine ordering clues with gap and adjacency clues",
+    "Verify the final answer against every statement"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Multi-Constraint Logic Puzzles",
+      "Statements and Conclusions"
+    ],
+    "quickRefresher": "A knight's statement is true; a knave's statement is false. A conditional \"if p then q\" is false only when p is true and q is false."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Knight: always tells the truth.",
+      "Knave: always lies.",
+      "Consistent assignment: every statement has the truth value its speaker requires.",
+      "Conditional clue: if p then q.",
+      "Pruning: discarding cases that break a clue early."
+    ],
+    "theoreticalIntuition": "A puzzle with a small number of possible worlds can be solved by checking worlds, just more cleverly than checking all.",
+    "visualOrMentalModel": "Pick the speaker whose statement refers to the fewest others, assume knight, follow the consequences, and then test the other case."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Assignments",
+      "formula": "2ⁿ for n speakers",
+      "description": "Truth cases.",
+      "whenToUse": "Search size.",
+      "simpleExample": "5 speakers: 32"
+    },
+    {
+      "title": "Knight rule",
+      "formula": "Statement true ⇔ speaker is a knight",
+      "description": "Each statement.",
+      "whenToUse": "Consistency.",
+      "simpleExample": "A says \"B and C are knights\""
+    },
+    {
+      "title": "Conditional",
+      "formula": "p → q false only if p true, q false",
+      "description": "If-then clues.",
+      "whenToUse": "Logic.",
+      "simpleExample": "If P before Q …"
+    },
+    {
+      "title": "Gap clue",
+      "formula": "Positions differ by k + 1",
+      "description": "Orderings.",
+      "whenToUse": "Count.",
+      "simpleExample": "One between: 2"
+    },
+    {
+      "title": "Verify",
+      "formula": "All clues true",
+      "description": "End.",
+      "whenToUse": "Safety.",
+      "simpleExample": "No clue broken"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Five islanders speak. A says B and C are both knights; B says A is a knave; C says D is a knight; D says E is a knave; E says at least two of A, B, C, D are knaves. Suppose A is a knight: then B is a knight, so A is a knave, a contradiction. So A is a knave. B says A is a knave, which is true, so B is a knight. A's statement is false, so B and C are not both knights; B is a knight, so C is a knave. C's statement is false, so D is a knave. D's statement is false, so E is a knight. Check E: A, C and D are knaves, so at least two knaves: true.",
+      "For the queue: R is last. P is before Q with exactly one person between them, S immediately after P and U immediately after Q. So the pattern P S Q U (positions k to k + 3) fits. T must be before S and not next to Q: T is first.",
+      "The order is T, P, S, Q, U, R. Check: T not next to Q ✓, T before S ✓, one person (S) between P and Q ✓.",
+      "Whenever a case leads to a contradiction, discard it completely rather than patch it.",
+      "Finish by reading every statement against the final answer."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Start from the most constrained speaker",
+        "content": "A statement about one other person gives the quickest consequences."
+      },
+      {
+        "title": "Contradiction as information",
+        "content": "Showing that \"A is a knight\" is impossible proves A is a knave."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Knights and knaves",
+      "description": "Test cases.",
+      "exampleSnippet": "Five islanders"
+    },
+    {
+      "typeName": "Queue with gaps",
+      "description": "Chains and gaps.",
+      "exampleSnippet": "Six people"
+    },
+    {
+      "typeName": "Conditional clues",
+      "description": "If-then.",
+      "exampleSnippet": "P before Q"
+    },
+    {
+      "typeName": "Negative clues",
+      "description": "Not adjacent.",
+      "exampleSnippet": "T and Q"
+    },
+    {
+      "typeName": "Verification",
+      "description": "All statements.",
+      "exampleSnippet": "Final order"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mrm-high-diff-logic-1",
+      "title": "Contradiction",
+      "question": "A says \"B and C are both knights\" and B says \"A is a knave\". Can A be a knight?",
+      "givenInfo": [
+        "A, B"
+      ],
+      "conceptOrFormula": "Assume knight.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "If A is a knight",
+          "explanation": "B is a knight, so B's statement \"A is a knave\" is true: A is a knave."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Result",
+          "explanation": "Contradiction, so A is a knave."
+        }
+      ],
+      "finalAnswer": "No, A is a knave",
+      "whyItWorks": "The assumption leads to a contradiction.",
+      "commonTrap": "Stopping at the first assumption.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mrm-high-diff-logic-2",
+      "title": "Gap and chain",
+      "question": "P is before Q with exactly one person between, S is immediately after P, U immediately after Q. What is the pattern?",
+      "givenInfo": [
+        "Gap of one"
+      ],
+      "conceptOrFormula": "Chain the clues.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "P and S",
+          "explanation": "P S adjacent."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Then Q",
+          "explanation": "Q is two after P, so P S Q, then U: P S Q U."
+        }
+      ],
+      "finalAnswer": "P S Q U",
+      "whyItWorks": "S fills the gap.",
+      "commonTrap": "Placing S elsewhere.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mrm-high-diff-logic-3",
+      "title": "Verify",
+      "question": "The queue is T, P, S, Q, U, R. Is T next to Q?",
+      "givenInfo": [
+        "Positions 1 and 4"
+      ],
+      "conceptOrFormula": "Compare positions.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Positions",
+          "explanation": "T is 1st and Q is 4th."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Gap",
+          "explanation": "They are three apart."
+        }
+      ],
+      "finalAnswer": "No",
+      "whyItWorks": "The clue says T is not next to Q.",
+      "commonTrap": "Not checking.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Assume and test",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Guess the answer.",
+      "shortcutMethod": "Assume the most constrained speaker is a knight, follow consequences, and test the other case if a contradiction appears."
+    },
+    "rulesForApplication": [
+      "Test cases fully.",
+      "Contradiction rules out a case.",
+      "Chain gaps and adjacency.",
+      "Verify all clues."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Stopping before a contradiction appears",
+      "whyItHappens": "False solution.",
+      "howToAvoid": "Follow consequences to the end."
+    },
+    {
+      "mistake": "Patching a failing case",
+      "whyItHappens": "Wrong logic.",
+      "howToAvoid": "Discard it."
+    },
+    {
+      "mistake": "Forgetting a clue",
+      "whyItHappens": "Wrong order.",
+      "howToAvoid": "Tick every clue."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 240,
+    "eliminationTechnique": "Options that break one clue are out.",
+    "questionSelectionAdvice": "Write the cases in a small table.",
+    "recruiterInsight": "A puzzle with a unique answer always yields to case testing."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mrm-high-diff-logic-e1",
+        "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nHow many of the five islanders are knights?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "2",
+        "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight; 2 knights.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-high-diff-logic-e2",
+        "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nWho is a knight among A, C and E?",
+        "options": [
+          "E",
+          "A",
+          "C",
+          "AC"
+        ],
+        "correctAnswer": "E",
+        "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-high-diff-logic-e3",
+        "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nIs A a knight or a knave?",
+        "options": [
+          "Knight",
+          "Cannot be determined",
+          "Both",
+          "Knave"
+        ],
+        "correctAnswer": "Knave",
+        "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mrm-high-diff-logic-i7",
+        "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nWhich of the following is a knave?",
+        "options": [
+          "D",
+          "B",
+          "E",
+          "No one"
+        ],
+        "correctAnswer": "D",
+        "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight; D is a knave.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-high-diff-logic-i8",
+        "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nWhich pair are both knights?",
+        "options": [
+          "A and B",
+          "C and D",
+          "A and E",
+          "B and E"
+        ],
+        "correctAnswer": "B and E",
+        "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight; the knights are B and E.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-high-diff-logic-i9",
+        "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nE says at least two of A, B, C, D are knaves. How many of them are knaves?",
+        "options": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ],
+        "correctAnswer": "3",
+        "explanation": "Testing all possible assignments, only one is consistent: A is a knave, B is a knight, C is a knave, D is a knave, E is a knight; A, C and D are knaves: 3.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mrm-high-diff-logic-a15",
+        "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nHow many of the following statements are true: A's, C's and D's?",
+        "options": [
+          "1",
+          "2",
+          "0",
+          "3"
+        ],
+        "correctAnswer": "0",
+        "explanation": "A, C and D are knaves, so all three statements are false: 0 true.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-high-diff-logic-a16",
+        "question": "On an island each person is either a knight (always tells the truth) or a knave (always lies). Five islanders make these statements:\nA: \"B and C are both knights.\"\nB: \"A is a knave.\"\nC: \"D is a knight.\"\nD: \"E is a knave.\"\nE: \"At least two of A, B, C and D are knaves.\"\n\nIf B were actually a knave and spoke the same words, which would be wrong?",
+        "options": [
+          "A would be a knave",
+          "A would be a knight",
+          "C would be a knight",
+          "Nothing changes"
+        ],
+        "correctAnswer": "A would be a knight",
+        "explanation": "B's statement \"A is a knave\" would then be false, so A would be a knight, which changes the puzzle.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mrm-high-diff-logic-p17",
+        "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nHow many people stand between T and R?",
+        "options": [
+          "5",
+          "4",
+          "3",
+          "6"
+        ],
+        "correctAnswer": "4",
+        "explanation": "The queue from the front is T, P, S, Q, U, R; T is at 1 and R at 6: 4 between.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-high-diff-logic-p18",
+        "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nWho stands exactly in the middle two positions (third and fourth)?",
+        "options": [
+          "S and Q",
+          "P and S",
+          "Q and U",
+          "T and R"
+        ],
+        "correctAnswer": "S and Q",
+        "explanation": "The queue from the front is T, P, S, Q, U, R.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-high-diff-logic-p19",
+        "question": "Six people P, Q, R, S, T and U stand in a queue (position 1 is the front). The following facts are known:\n1. P stands somewhere before Q.\n2. S stands immediately after P.\n3. T does not stand next to Q.\n4. U stands immediately after Q.\n5. T stands somewhere before S.\n6. Exactly one person stands between P and Q.\n7. R stands last in the queue.\n\nIf P and U exchange places, what is U's new position from the front?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The queue from the front is T, P, S, Q, U, R; P is at 2, so U moves to position 2.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Assignments.",
+      "Contradiction.",
+      "Conditionals.",
+      "Gaps.",
+      "Verify."
+    ],
+    "quickFormulas": [
+      "2ⁿ cases"
+    ]
+  },
+  "keyTakeaways": [
+    "Assume.",
+    "Follow.",
+    "Discard.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I test a case?",
+    "Can I use contradiction?",
+    "Can I verify?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}
