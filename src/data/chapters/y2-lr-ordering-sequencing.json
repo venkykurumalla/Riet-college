@@ -302,12 +302,12 @@
         "id": "pq-y2-lr-ordering-sequencing-i7",
         "question": "A is taller than B. C is shorter than B but taller than D. E is the tallest. The second tallest is",
         "options": [
-          "A",
-          "B",
-          "C",
-          "D"
+          "Person A",
+          "Person B",
+          "Person C",
+          "Person D"
         ],
-        "correctAnswer": "A",
+        "correctAnswer": "Person A",
         "explanation": "E > A > B > C > D, so A is second.",
         "difficulty": "Intermediate"
       },
@@ -343,12 +343,12 @@
         "id": "pq-y2-lr-ordering-sequencing-a15",
         "question": "A is faster than B, C is slower than D, B is faster than D and E is faster than A. The third fastest is",
         "options": [
-          "A",
-          "D",
-          "B",
-          "C"
+          "Person A",
+          "Person D",
+          "Person B",
+          "Person C"
         ],
-        "correctAnswer": "B",
+        "correctAnswer": "Person B",
         "explanation": "E > A > B > D > C. The third is B.",
         "difficulty": "Placement-Style"
       },

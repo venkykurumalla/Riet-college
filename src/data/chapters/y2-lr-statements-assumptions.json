@@ -1,0 +1,423 @@
+{
+  "id": "y2-lr-statements-assumptions",
+  "yearId": 2,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 29,
+  "title": "Statements and Assumptions",
+  "tagline": "Year 2 — Finding the unstated premise on which a statement depends",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "An assumption is something taken for granted by the speaker or writer, without being stated, which must be true for the statement to make sense. In an assumption question you are given a statement and two or more candidate assumptions, and you must pick those that are implicit. The test is: \"If the assumption were false, would the statement become pointless or unreasonable?\"",
+    "placementRelevance": "Statements and assumptions questions are commonly asked in company reasoning rounds, mostly with advertisements, advice and announcements.",
+    "realWorldContext": "Analysing an advertisement, a policy proposal or an argument in a meeting involves spotting the premises that its author takes for granted."
+  },
+  "learningObjectives": [
+    "Distinguish assumptions from conclusions and from restatements",
+    "Apply the \"negation test\" to check whether an assumption is necessary",
+    "Reject assumptions that are too strong, too general or unrelated",
+    "Recognise typical assumptions in advertisements, advice and announcements",
+    "Handle questions with one or two assumptions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Statements and Conclusions"
+    ],
+    "quickRefresher": "A conclusion follows from a statement; an assumption lies behind it. A restatement is neither."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Assumption: an unstated belief that the speaker takes for granted, necessary for the statement to hold.",
+      "Negation test: if the opposite of the assumption makes the statement meaningless, the assumption is implicit.",
+      "Strong words (all, always, only, never, best) usually make an assumption invalid.",
+      "Advertisement assumption: \"people want what is advertised\" and \"people will respond\".",
+      "Advice assumption: the advice is useful and can be followed."
+    ],
+    "theoreticalIntuition": "People speak with background beliefs that they do not state. A shopkeeper who says \"Buy our toothpaste for strong teeth\" assumes people want strong teeth and that toothpaste can help. An assumption is such a hidden belief, necessary to make the statement sensible.",
+    "visualOrMentalModel": "For each assumption, flip it to its opposite and ask whether the statement would still make sense. If not, it is implicit. If the statement still works, the assumption is not necessary."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Negation test",
+      "formula": "Negate the assumption; does the statement collapse?",
+      "description": "If yes, it is implicit.",
+      "whenToUse": "Every assumption.",
+      "simpleExample": "\"Lift is working\" negated → advice to use the lift is pointless"
+    },
+    {
+      "title": "Strong-word filter",
+      "formula": "Reject assumptions with all, always, only, never, best, everyone",
+      "description": "Too extreme to be taken for granted.",
+      "whenToUse": "Choosing between options.",
+      "simpleExample": "No other soap keeps skin fresh → reject"
+    },
+    {
+      "title": "Restatement filter",
+      "formula": "An assumption is not a repeat of the statement",
+      "description": "It must be something unstated.",
+      "whenToUse": "Restatements.",
+      "simpleExample": "\"Her sister is getting married\" repeated → not an assumption"
+    },
+    {
+      "title": "Cause-purpose rule",
+      "formula": "A statement about doing X to achieve Y assumes X can achieve Y",
+      "description": "Means-end link.",
+      "whenToUse": "Advice, decisions.",
+      "simpleExample": "Install cameras to reduce accidents"
+    },
+    {
+      "title": "Advertisement rule",
+      "formula": "Ads assume people want the benefit and may respond",
+      "description": "Usual implicit premises.",
+      "whenToUse": "Advertisements.",
+      "simpleExample": "Strong teeth"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Read the statement and ask: \"What must the speaker believe for this to be a sensible thing to say?\" In \"Use the lift if you are going above the second floor\", the speaker must believe the lift is working and available.",
+      "Apply the negation test to each candidate. If the lift were out of order, the advice would be pointless, so \"the lift is working\" is implicit. The candidate \"People going above the second floor use only the stairs\" is not necessary for the advice.",
+      "Reject extreme assumptions. \"No other soap keeps the skin fresh\" is too strong; an advertisement need not claim this. Likewise \"all roads are jammed\" is not needed to recommend the metro.",
+      "Reject restatements. If the statement says Rohit wants leave to attend his sister's wedding, \"his sister is getting married\" repeats the statement and is not an assumption. The assumption would be that such leave is likely to be approved.",
+      "Means-end statements (\"do X to achieve Y\") assume X helps achieve Y. A city that installs speed cameras to reduce accidents assumes that speeding contributes to accidents and that cameras deter speeding."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Assumptions vs conclusions",
+        "content": "A conclusion is a consequence of the statement; an assumption is a precondition. Ask: does it come after (conclusion) or before (assumption)?"
+      },
+      {
+        "title": "Two good assumptions",
+        "content": "Sometimes both assumptions are valid. When the statement relies on two separate hidden beliefs, both pass the negation test."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Advertisements",
+      "description": "Benefit and response.",
+      "exampleSnippet": "Buy this toothpaste for strong teeth"
+    },
+    {
+      "typeName": "Advice",
+      "description": "Advice can be followed.",
+      "exampleSnippet": "Use the lift"
+    },
+    {
+      "typeName": "Decisions and policies",
+      "description": "Means-end link.",
+      "exampleSnippet": "Install speed cameras"
+    },
+    {
+      "typeName": "Announcements",
+      "description": "Audience can receive.",
+      "exampleSnippet": "Apply on the website"
+    },
+    {
+      "typeName": "Reasons",
+      "description": "Because clauses.",
+      "exampleSnippet": "Study at night because evenings are noisy"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-statements-assumptions-1",
+      "title": "Advice",
+      "question": "Statement: Please use the lift if you are going above the second floor. Assumptions: I. The lift is working. II. People going above the second floor use only the stairs.",
+      "givenInfo": [
+        "Advice to use the lift"
+      ],
+      "conceptOrFormula": "Negation test.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Assumption I",
+          "explanation": "If the lift is not working, the advice is pointless: implicit."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Assumption II",
+          "explanation": "The advice does not rely on this: not implicit."
+        }
+      ],
+      "finalAnswer": "Only assumption I is implicit",
+      "whyItWorks": "Advice presumes it can be followed.",
+      "commonTrap": "Accepting II because it sounds related.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-statements-assumptions-2",
+      "title": "Advertisement",
+      "question": "Statement: Use Brightmax toothpaste for strong teeth. Assumptions: I. People want strong teeth. II. Other toothpastes are harmful.",
+      "givenInfo": [
+        "Advertisement"
+      ],
+      "conceptOrFormula": "Benefit and no extremes.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Assumption I",
+          "explanation": "The ad assumes people want strong teeth: implicit."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Assumption II",
+          "explanation": "Too strong, not required: not implicit."
+        }
+      ],
+      "finalAnswer": "Only assumption I is implicit",
+      "whyItWorks": "An advertisement does not need to claim rivals are harmful.",
+      "commonTrap": "Accepting extreme claims.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-statements-assumptions-3",
+      "title": "Means and end",
+      "question": "Statement: To reduce accidents, the city has decided to install speed cameras. Assumptions: I. Speeding contributes to accidents. II. Speed cameras will deter speeding.",
+      "givenInfo": [
+        "Decision with a purpose"
+      ],
+      "conceptOrFormula": "Means-end link.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Assumption I",
+          "explanation": "If speeding did not contribute, the plan would not reduce accidents: implicit."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Assumption II",
+          "explanation": "If cameras did not deter, the plan would fail: implicit."
+        }
+      ],
+      "finalAnswer": "Both I and II are implicit",
+      "whyItWorks": "Both are links in the chain from the decision to the goal.",
+      "commonTrap": "Rejecting one as obvious.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Flip and check",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Judge which assumption sounds right.",
+      "shortcutMethod": "Negate each candidate and ask if the statement still makes sense. Reject extreme, unrelated and restating candidates."
+    },
+    "rulesForApplication": [
+      "Negation test.",
+      "Reject strong words.",
+      "Reject restatements.",
+      "Look for means-end links."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Accepting consequences",
+      "whyItHappens": "Treating a result as an assumption.",
+      "howToAvoid": "Assumptions come before."
+    },
+    {
+      "mistake": "Accepting extreme claims",
+      "whyItHappens": "Selecting \"all\" or \"best\".",
+      "howToAvoid": "Filter strong words."
+    },
+    {
+      "mistake": "Accepting restatements",
+      "whyItHappens": "Repeating the statement.",
+      "howToAvoid": "It must be unstated."
+    },
+    {
+      "mistake": "Ignoring the negation test",
+      "whyItHappens": "Using feelings.",
+      "howToAvoid": "Flip it."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 40,
+    "eliminationTechnique": "Reject candidates with strong words first.",
+    "questionSelectionAdvice": "Apply the negation test to each.",
+    "recruiterInsight": "Advertisements and advice are the most common."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-statements-assumptions-e1",
+        "question": "Statement: Please use the lift if you are going above the second floor.\nAssumptions: I. The lift is working. II. People going above the second floor use only the stairs.\nWhich of the following is correct?",
+        "options": [
+          "Only assumption II is implicit",
+          "Only assumption I is implicit",
+          "Both I and II are implicit",
+          "Neither I nor II is implicit"
+        ],
+        "correctAnswer": "Only assumption I is implicit",
+        "explanation": "The advice presumes the lift is available. II is not needed.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-statements-assumptions-e2",
+        "question": "Statement: Use Brightmax toothpaste for strong teeth.\nAssumptions: I. People want strong teeth. II. Other toothpastes are harmful.\nWhich of the following is correct?",
+        "options": [
+          "Only assumption I is implicit",
+          "Only assumption II is implicit",
+          "Both I and II are implicit",
+          "Neither I nor II is implicit"
+        ],
+        "correctAnswer": "Only assumption I is implicit",
+        "explanation": "The advertisement presumes people want strong teeth. II is too strong.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-statements-assumptions-e3",
+        "question": "Statement: The teacher said: \"Read the chapter before coming to class.\"\nAssumptions: I. Students have access to the chapter. II. The teacher will test the students.\nWhich of the following is correct?",
+        "options": [
+          "Only assumption II is implicit",
+          "Both I and II are implicit",
+          "Neither I nor II is implicit",
+          "Only assumption I is implicit"
+        ],
+        "correctAnswer": "Only assumption I is implicit",
+        "explanation": "The instruction presumes access. A test is not necessary.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-statements-assumptions-i7",
+        "question": "Statement: The government has increased bus fares, so people will shift to trains.\nAssumptions: I. Train fares are lower than the new bus fares. II. People travel only by bus.\nWhich of the following is correct?",
+        "options": [
+          "Only assumption I is implicit",
+          "Only assumption II is implicit",
+          "Both I and II are implicit",
+          "Neither I nor II is implicit"
+        ],
+        "correctAnswer": "Only assumption I is implicit",
+        "explanation": "Shifting presumes trains are cheaper. II contradicts the shift.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-statements-assumptions-i8",
+        "question": "Statement: Apply for the job on our website only.\nAssumptions: I. Candidates have internet access. II. Applications by post are illegal.\nWhich of the following is correct?",
+        "options": [
+          "Only assumption II is implicit",
+          "Both I and II are implicit",
+          "Neither I nor II is implicit",
+          "Only assumption I is implicit"
+        ],
+        "correctAnswer": "Only assumption I is implicit",
+        "explanation": "The instruction presumes online access. II is too strong.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-statements-assumptions-i9",
+        "question": "Statement: A says to B: \"Give me your phone; I will call him.\"\nAssumptions: I. A's own phone is not available. II. B has a phone.\nWhich of the following is correct?",
+        "options": [
+          "Only assumption I is implicit",
+          "Only assumption II is implicit",
+          "Neither I nor II is implicit",
+          "Both I and II are implicit"
+        ],
+        "correctAnswer": "Both I and II are implicit",
+        "explanation": "The request presumes A has no phone at hand and that B has one.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-statements-assumptions-a15",
+        "question": "Statement: To reduce accidents, the city has decided to install speed cameras.\nAssumptions: I. Speeding contributes to accidents. II. Speed cameras will deter speeding.\nWhich of the following is correct?",
+        "options": [
+          "Only assumption I is implicit",
+          "Only assumption II is implicit",
+          "Both I and II are implicit",
+          "Neither I nor II is implicit"
+        ],
+        "correctAnswer": "Both I and II are implicit",
+        "explanation": "Both links are necessary for the plan to reduce accidents.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-statements-assumptions-a16",
+        "question": "Statement: An advertisement: \"Only 1000 units of this phone are available; hurry.\"\nAssumptions: I. People tend to buy quickly if stock is limited. II. This phone is the best in the market.\nWhich of the following is correct?",
+        "options": [
+          "Only assumption II is implicit",
+          "Only assumption I is implicit",
+          "Both I and II are implicit",
+          "Neither I nor II is implicit"
+        ],
+        "correctAnswer": "Only assumption I is implicit",
+        "explanation": "The ad presumes scarcity prompts action. \"Best\" is not needed.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-statements-assumptions-p17",
+        "question": "Statement: The principal ordered that all mobile phones be switched off in class.\nAssumptions: I. Phones can disturb the class. II. Phones are used for studying.\nWhich of the following is correct?",
+        "options": [
+          "Only assumption II is implicit",
+          "Only assumption I is implicit",
+          "Both I and II are implicit",
+          "Neither I nor II is implicit"
+        ],
+        "correctAnswer": "Only assumption I is implicit",
+        "explanation": "The order presumes phones can disturb. II is not needed.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-statements-assumptions-p18",
+        "question": "Statement: She turned off the AC to save electricity.\nAssumptions: I. The AC consumes electricity. II. She is poor.\nWhich of the following is correct?",
+        "options": [
+          "Only assumption I is implicit",
+          "Only assumption II is implicit",
+          "Both I and II are implicit",
+          "Neither I nor II is implicit"
+        ],
+        "correctAnswer": "Only assumption I is implicit",
+        "explanation": "The action presumes the AC uses electricity. II is irrelevant.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-statements-assumptions-p19",
+        "question": "Statement: Rohit applied for three days' leave to attend his sister's wedding.\nAssumptions: I. Leave is likely to be granted for such a reason. II. Rohit's sister is getting married.\nWhich of the following is correct?",
+        "options": [
+          "Only assumption II is implicit",
+          "Both I and II are implicit",
+          "Neither I nor II is implicit",
+          "Only assumption I is implicit"
+        ],
+        "correctAnswer": "Only assumption I is implicit",
+        "explanation": "II restates the statement. The unstated assumption is that the leave may be granted.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Assumption is unstated.",
+      "Negation test.",
+      "Reject strong words.",
+      "Reject restatements.",
+      "Means-end link."
+    ],
+    "quickFormulas": [
+      "Negate → statement fails → implicit"
+    ]
+  },
+  "keyTakeaways": [
+    "Hidden premise.",
+    "Flip and check.",
+    "No extremes.",
+    "No restatements."
+  ],
+  "selfCheckQuestions": [
+    "Can I apply the negation test?",
+    "Can I reject an extreme assumption?",
+    "Can I find the means-end link?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Statement and Assumption topic area; examples are original."
+    }
+  ]
+}

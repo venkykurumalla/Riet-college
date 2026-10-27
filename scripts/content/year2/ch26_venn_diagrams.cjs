@@ -124,7 +124,7 @@ const quiz = [
   medium('In a class of 60, 35 take Maths, 30 take Physics and 15 take both. The number taking neither is', 60 - (35 + 30 - 15), [5, 15, 20], 'At least one = 50. Neither = 10.'),
   medium('Which diagram best represents Women, Mothers and Doctors?', 'Mothers inside Women; Doctors overlapping both partly', ['Three separate circles', 'Three concentric circles', 'Women and Doctors disjoint'], 'Every mother is a woman, and doctors may or may not be women or mothers, so Doctors overlap partly.'),
 
-  medium(SET3 + 'How many students play football only?', T.B - T.AB - T.BC + T.ABC, [15, 20, 25], '40 − 15 − 10 + 5 = 20.'),
+  medium(SET3 + 'How many students play football only?', T.B - T.AB - T.BC + T.ABC, [15, 25, 30], '40 − 15 − 10 + 5 = 20.'),
   placement(SET3 + 'How many students play exactly one of the three sports?', onlyA + (T.B - T.AB - T.BC + T.ABC) + (T.C - T.AC - T.BC + T.ABC), [45, 55, 60], 'Cricket only 27, football only 20, hockey only 30 − 8 − 10 + 5 = 17. Total = 27 + 20 + 17 = 64.'),
   placement('In a school, 70% like cricket, 60% like football and 10% like neither. The percentage who like both is', 70 + 60 - 90, [30, 50, 60], 'At least one = 90%. 70 + 60 − both = 90, so both = 40%.'),
   placement('Of 120 people, 70 like tea, 50 like coffee and 30 like both. The number who like exactly one is', 70 + 50 - 2 * 30, [50, 70, 100], 'Only tea = 40 and only coffee = 20. Exactly one = 60.'),

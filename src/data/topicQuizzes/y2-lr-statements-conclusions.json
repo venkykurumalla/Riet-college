@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-statements-conclusions",
+  "topicTitle": "Statements and Conclusions",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Statement: All employees of the company must wear ID cards.\nConclusions: I. An employee without an ID card breaks the rule. II. ID cards are given only to employees.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "I restates the rule. II is outside information."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Statement: The library is open from 9 a.m. to 5 p.m. on weekdays.\nConclusions: I. The library is closed on weekdays at 6 p.m. II. The library is open on Sundays.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "6 p.m. is outside the opening hours. Nothing is said about Sundays."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Statement: Some students of the college passed with distinction.\nConclusions: I. All students of the college failed. II. At least one student of the college passed with distinction.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only conclusion II follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "II restates \"some\". I contradicts the statement."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Statement: Rain has been heavy this year.\nConclusions: I. Crop yield is higher. II. There was rain this year.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "II is directly implied. I adds an assumption."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Statement: No smoking is allowed in the office.\nConclusions: I. Smokers cannot smoke in the office. II. Smoking is allowed outside the office.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "I restates the rule. Nothing is said about outside."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Statement: Ravi scored 80 and Meena scored 75.\nConclusions: I. Ravi scored more than Meena. II. Meena is weaker than Ravi in every subject.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "80 > 75. Subject-wise performance is unknown."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Statement: Only graduates are eligible to apply for the post.\nConclusions: I. A non-graduate cannot apply. II. All graduates will get the post.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Eligibility does not mean selection."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Statement: All the trains to Chennai from this station leave before noon.\nConclusions: I. No train to Chennai leaves this station after noon. II. There are many trains to Chennai.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only conclusion I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "I restates the statement. The number of trains is not given."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Statement: Mina is taller than Rina, and Rina is taller than Tina.\nConclusions: I. Mina is taller than Tina. II. Tina is the shortest of the three.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mina > Rina > Tina, so both follow."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Statement: The use of plastic bags has been banned in the city.\nConclusions: I. Shopkeepers cannot legally give plastic bags. II. All pollution will end.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "I follows from the ban. II is an unsupported claim."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Statement: Every student of class X must take either Science or Commerce.\nConclusions: I. A class X student who takes neither is not following the rule. II. Class X students cannot take both subjects.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "I follows. The statement does not forbid taking both."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Statement: In the examination, 90% of the candidates passed.\nConclusions: I. 10% of the candidates did not pass. II. The examination was easy.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "100% − 90% = 10%. Difficulty is not stated."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Statement: Neither Ravi nor Kiran attended the meeting.\nConclusions: I. Ravi did not attend the meeting. II. Kiran attended the meeting.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Neither means both were absent."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Statement: Few people in the town own a car.\nConclusions: I. Most people in the town do not own a car. II. Many people own cars.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only conclusion I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "Few means a small number, so most do not."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Statement: The company announced that it will not give a bonus this year.\nConclusions: I. Employees will get no bonus this year. II. The company is making losses.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "I restates the announcement. The reason is not given."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Statement: All the doctors in the hospital are on strike from tomorrow.\nConclusions: I. Patients will not get treatment from the hospital's doctors tomorrow. II. The hospital will be shut permanently.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "I follows. II goes far beyond the statement."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Statement: The price of onions rose by 20% last month. This month the price fell by 20%.\nConclusions: I. The price now is the same as two months ago. II. The price now is less than it was two months ago.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "1.2 × 0.8 = 0.96, so the price is lower, not equal."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Statement: Among five boys, Ram is not the tallest and Shyam is taller than Ram.\nConclusions: I. Shyam is the tallest. II. Ram is not the shortest.\nWhich of the following is correct?",
+      "options": [
+        "Neither I nor II follows",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both I and II follow"
+      ],
+      "answerIndex": 0,
+      "explanation": "Others may be taller than Shyam, and Ram could be the shortest. Neither is certain."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Statement: Each of the 40 students of a class has opted for at least one of English and Hindi.\nConclusions: I. No student has opted for neither subject. II. Every student has opted for both subjects.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only conclusion I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "I restates \"at least one\". II is not stated."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Statement: The bank has decided to open branches in all villages with a population over 5,000.\nConclusions: I. A village with 6,000 people will get a branch. II. Villages with 3,000 people will not get a branch.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "I follows. The statement does not rule out other branches."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/statement-and-conclusion/"
+}

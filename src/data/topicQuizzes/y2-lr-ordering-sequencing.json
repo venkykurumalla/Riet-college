@@ -85,10 +85,10 @@
       "difficulty": "medium",
       "question": "A is taller than B. C is shorter than B but taller than D. E is the tallest. The second tallest is",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Person A",
+        "Person B",
+        "Person C",
+        "Person D"
       ],
       "answerIndex": 0,
       "explanation": "E > A > B > C > D, so A is second."
@@ -130,17 +130,17 @@
         "3, 2, 1, 4"
       ],
       "answerIndex": 2,
-      "explanation": "Wake up, bath, breakfast, go to school."
+      "explanation": "The order is 2, 1, 3, 4: wake up, bath, breakfast, go to school."
     },
     {
       "id": 11,
       "difficulty": "medium",
       "question": "A is older than B, C is younger than B and D is older than A. The youngest is",
       "options": [
-        "A",
-        "C",
-        "B",
-        "D"
+        "Person A",
+        "Person C",
+        "Person B",
+        "Person D"
       ],
       "answerIndex": 1,
       "explanation": "D > A > B > C. C is the youngest."
@@ -189,10 +189,10 @@
       "difficulty": "placement",
       "question": "A is faster than B, C is slower than D, B is faster than D and E is faster than A. The third fastest is",
       "options": [
-        "A",
-        "D",
-        "B",
-        "C"
+        "Person A",
+        "Person D",
+        "Person B",
+        "Person C"
       ],
       "answerIndex": 2,
       "explanation": "E > A > B > D > C. The third is B."

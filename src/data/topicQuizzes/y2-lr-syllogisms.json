@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-syllogisms",
+  "topicTitle": "Syllogisms",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Statements: All cats are dogs. All dogs are birds.\nConclusions: I. All cats are birds. II. All birds are cats.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "C inside D inside B: all cats are birds follows; all birds are cats does not."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Statements: Some pens are books. All books are tables.\nConclusions: I. Some pens are tables. II. All tables are books.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "The pens that are books are inside tables. Not all tables need be books."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Statements: No flower is a tree. All trees are plants.\nConclusions: I. No flower is a plant. II. Some plants are not flowers.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Neither conclusion follows",
+        "Only conclusion II follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "Trees are plants and are not flowers, so some plants are not flowers. Flowers may still be plants, so I does not follow."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Statements: Some A are B.\nConclusions: I. Some B are A. II. All A are B.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Some\" statements convert. II does not follow."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Statements: All A are B.\nConclusions: I. Some A are B. II. Some B are A.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "A is inside B, so some A are B and some B are A."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Statements: No A is B.\nConclusions: I. No B is A. II. All A are B.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "The No statement converts. II contradicts the statement."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Statements: All A are B. Some B are C.\nConclusions: I. Some A are C. II. Some C are B.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "II is the converse of \"Some B are C\". I does not follow because the overlap with C may be outside A."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Statements: Some A are B. Some B are C.\nConclusions: I. Some A are C. II. Some C are A.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "Two particular statements give no conclusion about A and C."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Statements: All A are B. No B is C.\nConclusions: I. No A is C. II. Some A are C.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows",
+        "Only conclusion I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "A is inside B and B is separate from C, so no A is C. II contradicts it."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Statements: No A is B. No B is C.\nConclusions: I. No A is C. II. All A are C.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither conclusion follows",
+        "Both conclusions follow"
+      ],
+      "answerIndex": 2,
+      "explanation": "Two negative statements give no conclusion; I and II are both uncertain."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Statements: Some A are B. All B are C.\nConclusions: I. Some A are C. II. Some C are B.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "The overlap of A and B lies inside C, and B is inside C, so some C are B."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Statements: All A are B. Some A are C.\nConclusions: I. Some B are C. II. All C are B.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "The part of A that is C is also in B, so some B are C. C may extend outside B."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Statements: Some A are not B. All B are C.\nConclusions: I. Some A are not C. II. No A is C.\nWhich of the following is correct?",
+      "options": [
+        "Neither conclusion follows",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow"
+      ],
+      "answerIndex": 0,
+      "explanation": "The A that is not B may still be in C. Neither follows."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Statements: All A are B. All C are B.\nConclusions: I. All A are C. II. Some C are A.\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "A and C are both inside B but may not touch."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Statement: All A are B.\nConclusions: I. Some B are not A. II. All B are A.\nWhich of the following is correct?",
+      "options": [
+        "Only I follows",
+        "Only II follows",
+        "Either I or II follows",
+        "Neither follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "If A is smaller than B, I is true. If A = B, II is true. One of them is always true, so either I or II follows."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Statements: All A are B. All B are C. Some C are D.\nConclusions: I. Some A are D. II. Some D are C. III. All A are C.\nWhich of the following is correct?",
+      "options": [
+        "Only I and II follow",
+        "Only II and III follow",
+        "Only I and III follow",
+        "All follow"
+      ],
+      "answerIndex": 1,
+      "explanation": "A inside B inside C gives III. II is the converse of the third statement. I does not follow because the D overlap may be outside A."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Statements: No A is B. Some B are C. All C are D.\nConclusions: I. Some C are not A. II. Some D are not A.\nWhich of the following is correct?",
+      "options": [
+        "Only I follows",
+        "Both conclusions follow",
+        "Only II follows",
+        "Neither follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "Some B are C, and those C are not A (no A is B), so I. They are also D, so some D are not A."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Statements: Some doctors are teachers. All teachers are singers. No singer is a dancer.\nConclusions: I. Some doctors are singers. II. No teacher is a dancer. III. Some doctors are not dancers.\nWhich of the following is correct?",
+      "options": [
+        "All three follow",
+        "Only I and II follow",
+        "Only II and III follow",
+        "Only I follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Doctors who are teachers are singers (I). Teachers are singers, who are not dancers (II). Those doctors are not dancers (III)."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Statements: All A are B. No B is C. Some D are C.\nConclusions: I. Some D are not B. II. Some D are not A. III. Some B are D.\nWhich of the following is correct?",
+      "options": [
+        "Only I follows",
+        "All three follow",
+        "Only II and III follow",
+        "Only I and II follow"
+      ],
+      "answerIndex": 3,
+      "explanation": "The D that are C are not B (no B is C), so I. Those D are also not A (all A are B), so II. III need not hold."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Statements: Some A are B. No B is C.\nConclusions: I. Some A are not C. II. No A is C. III. Some B are not A.\nWhich of the following is correct?",
+      "options": [
+        "Only II follows",
+        "Only I and III follow",
+        "Only I follows",
+        "All follow"
+      ],
+      "answerIndex": 2,
+      "explanation": "The A that are B cannot be C, so some A are not C. II and III need not hold."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/syllogism/"
+}

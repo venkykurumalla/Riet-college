@@ -1,0 +1,423 @@
+{
+  "id": "y2-lr-statements-conclusions",
+  "yearId": 2,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 28,
+  "title": "Statements and Conclusions",
+  "tagline": "Year 2 — Deciding which inferences follow definitely from a given statement",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "In a statements-and-conclusions question you are given one or two statements and some conclusions, and you must decide which conclusions follow from the statements alone. A conclusion follows if it is a necessary consequence of the statement. It does not follow if it brings in new facts, if it only might be true, or if it contradicts the statement. The golden rule is: use only the information given, nothing from outside.",
+    "placementRelevance": "Statements and conclusions questions are commonly asked in company reasoning rounds, with two conclusions and four fixed options.",
+    "realWorldContext": "Reading a news report, a policy notice or a contract and deciding what it definitely says versus what you are assuming uses this skill."
+  },
+  "learningObjectives": [
+    "Decide whether a conclusion is a necessary consequence of the statement",
+    "Reject conclusions that add outside information",
+    "Recognise a conclusion that is only possible or probable",
+    "Handle statements with \"only\", \"all\", \"some\", \"few\" and \"neither-nor\"",
+    "Handle two-statement and either-or cases"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Syllogisms"
+    ],
+    "quickRefresher": "\"All\" covers the whole; \"some\" means at least one; \"few\" means a small number, so most are not; \"only\" restricts."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Conclusion: a statement that is claimed to follow from the given statements.",
+      "Follows: necessarily true if the statement is true.",
+      "Does not follow: not necessarily true, or adds new facts, or contradicts the statement.",
+      "Direct inference: a conclusion that is a restatement or an immediate consequence of the statement.",
+      "Either-or: two conclusions of which exactly one must be true."
+    ],
+    "theoreticalIntuition": "Treat the statement as the whole universe. A conclusion that needs any fact outside that universe cannot follow. Ask for each conclusion: \"If the statement is true, must this be true?\" If the answer is not a clear yes, it does not follow.",
+    "visualOrMentalModel": "Underline the key words in the statement (all, only, some, few, not, neither). Then test each conclusion by trying to imagine a situation where the statement is true but the conclusion is false. If you can, the conclusion does not follow."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "The test",
+      "formula": "Statement true ⇒ conclusion must be true",
+      "description": "Use no outside facts.",
+      "whenToUse": "Every conclusion.",
+      "simpleExample": "\"Only graduates may apply\" ⇒ a non-graduate cannot apply"
+    },
+    {
+      "title": "\"Only\" statements",
+      "formula": "\"Only X can do Y\" ⇒ nobody who is not X can do Y",
+      "description": "It does not say all X can.",
+      "whenToUse": "Restriction.",
+      "simpleExample": "All graduates will get the post does not follow"
+    },
+    {
+      "title": "\"Few\" and \"some\"",
+      "formula": "\"Few are A\" ⇒ most are not A;  \"Some are A\" ⇒ at least one is A",
+      "description": "Quantity words matter.",
+      "whenToUse": "Quantity statements.",
+      "simpleExample": "Few people own a car ⇒ most do not"
+    },
+    {
+      "title": "Percentages",
+      "formula": "90% passed ⇒ 10% did not pass",
+      "description": "Complement.",
+      "whenToUse": "Data statements.",
+      "simpleExample": "10% did not pass follows"
+    },
+    {
+      "title": "Ordering statements",
+      "formula": "A > B and B > C ⇒ A > C and C is the least of the three",
+      "description": "Chain.",
+      "whenToUse": "Comparisons.",
+      "simpleExample": "Mina > Rina > Tina"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Read the statement carefully and note its exact scope. \"All employees must wear ID cards\" makes it correct to say that an employee without an ID card breaks the rule; it does not say anything about who issues the cards, so \"ID cards are given only to employees\" does not follow.",
+      "Be strict about outside information. \"Rain has been heavy this year\" supports \"there was rain this year\", but not \"crop yield is higher\". Effects, causes and opinions that are not in the statement cannot be concluded.",
+      "Quantity words matter. \"Few people own a car\" means most do not own one, so \"most people do not own a car\" follows, while \"many own cars\" does not. \"Some students passed with distinction\" means at least one did.",
+      "\"Only\" restricts. \"Only graduates are eligible\" means a non-graduate cannot apply, but not that every graduate will get the job. \"Neither Ravi nor Kiran attended\" means both were absent, so \"Ravi did not attend\" follows.",
+      "For calculated statements, use arithmetic. If 90% of candidates passed, then 10% did not. If the price rose 20% and fell 20%, the final price is 0.96 of the original, so it is less than the original."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Probability words",
+        "content": "A conclusion that says \"may\" or \"is likely\" is usually too weak to be marked as following unless the statement itself says so. Look at whether it is a necessity."
+      },
+      {
+        "title": "Two statements",
+        "content": "With two statements, combine them first (as in syllogisms), then test each conclusion. A conclusion needing a third fact does not follow."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct restatements",
+      "description": "Immediate consequence.",
+      "exampleSnippet": "A non-graduate cannot apply"
+    },
+    {
+      "typeName": "Outside information",
+      "description": "Rejected.",
+      "exampleSnippet": "Crop yield is higher"
+    },
+    {
+      "typeName": "Quantity words",
+      "description": "Few, some, most.",
+      "exampleSnippet": "Few own cars"
+    },
+    {
+      "typeName": "Arithmetic statements",
+      "description": "Percentages and changes.",
+      "exampleSnippet": "90% passed"
+    },
+    {
+      "typeName": "Comparisons",
+      "description": "Chain.",
+      "exampleSnippet": "A taller than B"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-statements-conclusions-1",
+      "title": "Restriction with \"only\"",
+      "question": "Statement: Only graduates are eligible to apply for the post. Conclusions: I. A non-graduate cannot apply. II. All graduates will get the post.",
+      "givenInfo": [
+        "Only graduates are eligible"
+      ],
+      "conceptOrFormula": "\"Only\" restricts, it does not guarantee.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Conclusion I",
+          "explanation": "If only graduates are eligible, a non-graduate is not eligible: follows."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Conclusion II",
+          "explanation": "Eligibility does not mean selection: does not follow."
+        }
+      ],
+      "finalAnswer": "Only conclusion I follows",
+      "whyItWorks": "Eligible does not mean selected.",
+      "commonTrap": "Confusing eligibility with selection.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-statements-conclusions-2",
+      "title": "Outside information",
+      "question": "Statement: Rain has been heavy this year. Conclusions: I. Crop yield is higher. II. There was rain this year.",
+      "givenInfo": [
+        "Heavy rain this year"
+      ],
+      "conceptOrFormula": "Use only the statement.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Conclusion I",
+          "explanation": "Higher yield is an extra assumption: does not follow."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Conclusion II",
+          "explanation": "Heavy rain implies rain: follows."
+        }
+      ],
+      "finalAnswer": "Only conclusion II follows",
+      "whyItWorks": "The statement says nothing about crop yield.",
+      "commonTrap": "Assuming the common-sense effect.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-statements-conclusions-3",
+      "title": "Quantity word",
+      "question": "Statement: Few people in the town own a car. Conclusions: I. Most people in the town do not own a car. II. Many people own cars.",
+      "givenInfo": [
+        "Few own cars"
+      ],
+      "conceptOrFormula": "\"Few\" means a small number.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Conclusion I",
+          "explanation": "If few own cars, most do not: follows."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Conclusion II",
+          "explanation": "\"Many\" contradicts \"few\": does not follow."
+        }
+      ],
+      "finalAnswer": "Only conclusion I follows",
+      "whyItWorks": "Few is the opposite of many.",
+      "commonTrap": "Treating few as some.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Counter-example test",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Check conclusions against general knowledge.",
+      "shortcutMethod": "For each conclusion, try to build a situation where the statement is true and the conclusion false. If you can, reject it."
+    },
+    "rulesForApplication": [
+      "Use only the statement.",
+      "\"Only\" does not mean \"all\".",
+      "Few means most are not.",
+      "Check both conclusions separately."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using general knowledge",
+      "whyItHappens": "Accepting what is usually true.",
+      "howToAvoid": "Use only the statement."
+    },
+    {
+      "mistake": "Accepting probable conclusions",
+      "whyItHappens": "Treating \"may be\" as true.",
+      "howToAvoid": "The conclusion must be necessary."
+    },
+    {
+      "mistake": "Ignoring the quantifier",
+      "whyItHappens": "Treating few as many.",
+      "howToAvoid": "Underline the quantifier."
+    },
+    {
+      "mistake": "Judging both together",
+      "whyItHappens": "Letting one conclusion influence the other.",
+      "howToAvoid": "Test each separately."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 40,
+    "eliminationTechnique": "Reject any conclusion with a new noun or fact.",
+    "questionSelectionAdvice": "Underline quantifiers.",
+    "recruiterInsight": "Most items have exactly one direct restatement."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-statements-conclusions-e1",
+        "question": "Statement: All employees of the company must wear ID cards.\nConclusions: I. An employee without an ID card breaks the rule. II. ID cards are given only to employees.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Only conclusion I follows",
+          "Both I and II follow",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "I restates the rule. II is outside information.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-statements-conclusions-e2",
+        "question": "Statement: The library is open from 9 a.m. to 5 p.m. on weekdays.\nConclusions: I. The library is closed on weekdays at 6 p.m. II. The library is open on Sundays.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Both I and II follow",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "6 p.m. is outside the opening hours. Nothing is said about Sundays.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-statements-conclusions-e3",
+        "question": "Statement: Some students of the college passed with distinction.\nConclusions: I. All students of the college failed. II. At least one student of the college passed with distinction.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Both I and II follow",
+          "Neither I nor II follows",
+          "Only conclusion II follows"
+        ],
+        "correctAnswer": "Only conclusion II follows",
+        "explanation": "II restates \"some\". I contradicts the statement.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-statements-conclusions-i7",
+        "question": "Statement: Only graduates are eligible to apply for the post.\nConclusions: I. A non-graduate cannot apply. II. All graduates will get the post.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Both I and II follow",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "Eligibility does not mean selection.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-statements-conclusions-i8",
+        "question": "Statement: All the trains to Chennai from this station leave before noon.\nConclusions: I. No train to Chennai leaves this station after noon. II. There are many trains to Chennai.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Both I and II follow",
+          "Neither I nor II follows",
+          "Only conclusion I follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "I restates the statement. The number of trains is not given.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-statements-conclusions-i9",
+        "question": "Statement: Mina is taller than Rina, and Rina is taller than Tina.\nConclusions: I. Mina is taller than Tina. II. Tina is the shortest of the three.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Neither I nor II follows",
+          "Both I and II follow"
+        ],
+        "correctAnswer": "Both I and II follow",
+        "explanation": "Mina > Rina > Tina, so both follow.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-statements-conclusions-a15",
+        "question": "Statement: The company announced that it will not give a bonus this year.\nConclusions: I. Employees will get no bonus this year. II. The company is making losses.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Both I and II follow",
+          "Only conclusion I follows",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "I restates the announcement. The reason is not given.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-statements-conclusions-a16",
+        "question": "Statement: All the doctors in the hospital are on strike from tomorrow.\nConclusions: I. Patients will not get treatment from the hospital's doctors tomorrow. II. The hospital will be shut permanently.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Only conclusion I follows",
+          "Both I and II follow",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "I follows. II goes far beyond the statement.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-statements-conclusions-p17",
+        "question": "Statement: The price of onions rose by 20% last month. This month the price fell by 20%.\nConclusions: I. The price now is the same as two months ago. II. The price now is less than it was two months ago.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Both I and II follow",
+          "Neither I nor II follows"
+        ],
+        "correctAnswer": "Only conclusion II follows",
+        "explanation": "1.2 × 0.8 = 0.96, so the price is lower, not equal.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-statements-conclusions-p18",
+        "question": "Statement: Among five boys, Ram is not the tallest and Shyam is taller than Ram.\nConclusions: I. Shyam is the tallest. II. Ram is not the shortest.\nWhich of the following is correct?",
+        "options": [
+          "Neither I nor II follows",
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Both I and II follow"
+        ],
+        "correctAnswer": "Neither I nor II follows",
+        "explanation": "Others may be taller than Shyam, and Ram could be the shortest. Neither is certain.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-statements-conclusions-p19",
+        "question": "Statement: Each of the 40 students of a class has opted for at least one of English and Hindi.\nConclusions: I. No student has opted for neither subject. II. Every student has opted for both subjects.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Both I and II follow",
+          "Neither I nor II follows",
+          "Only conclusion I follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "I restates \"at least one\". II is not stated.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Statement only.",
+      "Counter-example test.",
+      "Quantifiers.",
+      "Only vs all.",
+      "Percent complement."
+    ],
+    "quickFormulas": [
+      "True statement ⇒ conclusion must be true"
+    ]
+  },
+  "keyTakeaways": [
+    "No outside facts.",
+    "Necessary only.",
+    "Watch quantifiers.",
+    "Test separately."
+  ],
+  "selfCheckQuestions": [
+    "Can I reject an outside-information conclusion?",
+    "Can I interpret \"few\"?",
+    "Can I decode \"only\"?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Statement and Conclusion topic area; examples are original."
+    }
+  ]
+}

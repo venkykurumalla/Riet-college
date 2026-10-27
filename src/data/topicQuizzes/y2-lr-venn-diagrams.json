@@ -190,9 +190,9 @@
       "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play football only?",
       "options": [
         "15",
+        "25",
         "20",
-        "20",
-        "25"
+        "30"
       ],
       "answerIndex": 2,
       "explanation": "40 − 15 − 10 + 5 = 20."

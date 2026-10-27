@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-statements-assumptions",
+  "topicTitle": "Statements and Assumptions",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Statement: Please use the lift if you are going above the second floor.\nAssumptions: I. The lift is working. II. People going above the second floor use only the stairs.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Only assumption I is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 1,
+      "explanation": "The advice presumes the lift is available. II is not needed."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Statement: Use Brightmax toothpaste for strong teeth.\nAssumptions: I. People want strong teeth. II. Other toothpastes are harmful.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 0,
+      "explanation": "The advertisement presumes people want strong teeth. II is too strong."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Statement: The teacher said: \"Read the chapter before coming to class.\"\nAssumptions: I. Students have access to the chapter. II. The teacher will test the students.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit",
+        "Only assumption I is implicit"
+      ],
+      "answerIndex": 3,
+      "explanation": "The instruction presumes access. A test is not necessary."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Statement: Travel by metro to avoid traffic jams.\nAssumptions: I. The metro is free of road traffic jams. II. All roads in the city are jammed.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Only assumption I is implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 2,
+      "explanation": "The advice presumes the metro avoids jams. II is too strong."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Statement: Do not touch the wire; it is live.\nAssumptions: I. Touching a live wire is harmful. II. The wire will become dead tomorrow.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Only assumption I is implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 2,
+      "explanation": "The warning presumes harm. II is unrelated."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Statement: He decided to study at night because the evenings are noisy.\nAssumptions: I. Nights are quieter than evenings. II. He cannot study during the day.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Only assumption I is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 1,
+      "explanation": "The decision presumes the night is quieter. II is not needed."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Statement: The government has increased bus fares, so people will shift to trains.\nAssumptions: I. Train fares are lower than the new bus fares. II. People travel only by bus.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 0,
+      "explanation": "Shifting presumes trains are cheaper. II contradicts the shift."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Statement: Apply for the job on our website only.\nAssumptions: I. Candidates have internet access. II. Applications by post are illegal.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit",
+        "Only assumption I is implicit"
+      ],
+      "answerIndex": 3,
+      "explanation": "The instruction presumes online access. II is too strong."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Statement: A says to B: \"Give me your phone; I will call him.\"\nAssumptions: I. A's own phone is not available. II. B has a phone.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Neither I nor II is implicit",
+        "Both I and II are implicit"
+      ],
+      "answerIndex": 3,
+      "explanation": "The request presumes A has no phone at hand and that B has one."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Statement: Use this soap; it keeps skin fresh.\nAssumptions: I. People want fresh skin. II. No other soap keeps skin fresh.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Only assumption I is implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 2,
+      "explanation": "The ad presumes people want fresh skin. II is extreme."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Statement: Mr. X proposed to expand his business by opening three new shops.\nAssumptions: I. Mr. X expects the new shops to be profitable. II. Mr. X has no existing shops.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Only assumption I is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 1,
+      "explanation": "Expansion presumes expected profit. II is not required and contradicts \"expand\"."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Statement: Do not miss the 10 a.m. bus; the next one is at 1 p.m.\nAssumptions: I. People may want to travel before 1 p.m. II. The 1 p.m. bus will be late.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 0,
+      "explanation": "The warning presumes some want an earlier trip. II is unrelated."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Statement: The company has decided to give a 10% hike to all employees.\nAssumptions: I. The company can afford the hike. II. All employees will leave otherwise.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 0,
+      "explanation": "The decision presumes the company can pay. II is extreme."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Statement: Please carry your ID card for entry.\nAssumptions: I. Entry is restricted to ID card holders. II. All visitors already have ID cards.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit",
+        "Only assumption I is implicit"
+      ],
+      "answerIndex": 3,
+      "explanation": "The request presumes entry depends on ID. II is not needed."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Statement: To reduce accidents, the city has decided to install speed cameras.\nAssumptions: I. Speeding contributes to accidents. II. Speed cameras will deter speeding.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 2,
+      "explanation": "Both links are necessary for the plan to reduce accidents."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Statement: An advertisement: \"Only 1000 units of this phone are available; hurry.\"\nAssumptions: I. People tend to buy quickly if stock is limited. II. This phone is the best in the market.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Only assumption I is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 1,
+      "explanation": "The ad presumes scarcity prompts action. \"Best\" is not needed."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Statement: The principal ordered that all mobile phones be switched off in class.\nAssumptions: I. Phones can disturb the class. II. Phones are used for studying.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Only assumption I is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 1,
+      "explanation": "The order presumes phones can disturb. II is not needed."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Statement: She turned off the AC to save electricity.\nAssumptions: I. The AC consumes electricity. II. She is poor.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption I is implicit",
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 0,
+      "explanation": "The action presumes the AC uses electricity. II is irrelevant."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Statement: Rohit applied for three days' leave to attend his sister's wedding.\nAssumptions: I. Leave is likely to be granted for such a reason. II. Rohit's sister is getting married.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Neither I nor II is implicit",
+        "Only assumption I is implicit"
+      ],
+      "answerIndex": 3,
+      "explanation": "II restates the statement. The unstated assumption is that the leave may be granted."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Statement: Fruit-sellers display fruits in colourful baskets.\nAssumptions: I. Colourful displays attract customers. II. All fruit-sellers are rich.\nWhich of the following is correct?",
+      "options": [
+        "Only assumption II is implicit",
+        "Both I and II are implicit",
+        "Only assumption I is implicit",
+        "Neither I nor II is implicit"
+      ],
+      "answerIndex": 2,
+      "explanation": "The practice presumes attraction. II is irrelevant and extreme."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/statement-and-assumption/"
+}

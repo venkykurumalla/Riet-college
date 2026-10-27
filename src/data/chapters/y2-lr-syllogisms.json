@@ -1,0 +1,443 @@
+{
+  "id": "y2-lr-syllogisms",
+  "yearId": 2,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 27,
+  "title": "Syllogisms",
+  "tagline": "Year 2 — Drawing valid conclusions from All, No, Some and Some-not statements",
+  "estimatedMinutes": 55,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "A syllogism gives two or more statements about classes of objects (All A are B, No A is B, Some A are B, Some A are not B) and asks which conclusions must follow. A conclusion follows only if it is true in every possible Venn-diagram arrangement of the statements, not merely in one. The reliable method is to draw all possible diagrams and test each conclusion against all of them.",
+    "placementRelevance": "Syllogism questions are commonly asked in company reasoning rounds, usually with two statements and two or three conclusions.",
+    "realWorldContext": "Deductive reasoning is the basis of logical arguments in law, programming conditions and database queries."
+  },
+  "learningObjectives": [
+    "Know the four statement types and their Venn pictures",
+    "Know the conversion rules between statements",
+    "Combine two statements to derive new conclusions",
+    "Test conclusions against every possible diagram",
+    "Recognise complementary (either-or) conclusions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Venn Diagrams",
+      "Classification / Odd One Out"
+    ],
+    "quickRefresher": "A universal statement (All, No) talks about the whole class. A particular statement (Some, Some not) talks about part of it. Particular statements do not allow strong conclusions."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "All A are B (A): the A circle lies inside the B circle (or equals it).",
+      "No A is B (E): the A and B circles are separate.",
+      "Some A are B (I): the circles overlap, at least partly.",
+      "Some A are not B (O): at least part of A lies outside B.",
+      "A conclusion \"follows\" if it is true in every diagram consistent with the statements."
+    ],
+    "theoreticalIntuition": "The statements describe a picture, but usually several pictures fit. A conclusion that is true in all of them is a valid deduction. A conclusion that is true in some and false in others is only a possibility, so it does not follow.",
+    "visualOrMentalModel": "Draw the most general picture first (circles barely touching), then redraw with circles inside each other where the statements allow. Check each conclusion in every picture."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Conversion",
+      "formula": "No A is B ⇒ No B is A;  Some A are B ⇒ Some B are A;  All A are B ⇒ Some B are A",
+      "description": "Direct conversions.",
+      "whenToUse": "Reversing a statement.",
+      "simpleExample": "All cats are dogs ⇒ some dogs are cats"
+    },
+    {
+      "title": "All + All",
+      "formula": "All A are B, All B are C ⇒ All A are C",
+      "description": "Chain of universal statements.",
+      "whenToUse": "Two \"All\" statements.",
+      "simpleExample": "All cats are dogs, all dogs are birds"
+    },
+    {
+      "title": "All + No",
+      "formula": "All A are B, No B is C ⇒ No A is C",
+      "description": "A is inside B, B is separate from C.",
+      "whenToUse": "Universal + negative.",
+      "simpleExample": "No A is C"
+    },
+    {
+      "title": "Some + All",
+      "formula": "Some A are B, All B are C ⇒ Some A are C",
+      "description": "Overlap is preserved.",
+      "whenToUse": "Particular + universal.",
+      "simpleExample": "Some pens are books, all books are tables"
+    },
+    {
+      "title": "Either-or pair",
+      "formula": "Some A are B and No A is B (and similar) are complementary",
+      "description": "One of them must be true.",
+      "whenToUse": "Either-or conclusions.",
+      "simpleExample": "Some B are not A / All B are A"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The four statement types give four pictures. All A are B: A inside B. No A is B: separate circles. Some A are B: overlapping circles. Some A are not B: part of A outside B. Remember that \"Some\" means at least one.",
+      "Two universal statements usually chain. All cats are dogs and all dogs are birds give all cats are birds, but not all birds are cats. A universal affirmative plus a universal negative gives a universal negative: all A are B and no B is C give no A is C.",
+      "A particular statement with a universal one gives a particular conclusion. Some pens are books and all books are tables give some pens are tables. Two particular statements (Some A are B, Some B are C) give no conclusion between A and C, because the overlaps may be in different parts of B.",
+      "To test a conclusion, draw all possible diagrams. If the conclusion fails in even one, it does not follow. If one of two conclusions must be true in every diagram (such as \"Some B are not A\" and \"All B are A\" when \"All A are B\" is given), then \"either I or II follows\".",
+      "For three statements, combine in pairs step by step, then test each conclusion against the combined picture."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Existential import",
+        "content": "Aptitude tests usually assume the classes are non-empty, so \"All A are B\" implies \"Some A are B\". Follow the convention of the test."
+      },
+      {
+        "title": "Possibility vs necessity",
+        "content": "The phrase \"follows\" means \"must be true\". A conclusion that could be true but need not be is rejected."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Two statements, two conclusions",
+      "description": "Standard.",
+      "exampleSnippet": "All A are B; Some B are C"
+    },
+    {
+      "typeName": "Three statements",
+      "description": "Chain.",
+      "exampleSnippet": "All A are B; All B are C; Some C are D"
+    },
+    {
+      "typeName": "Converse conclusions",
+      "description": "Check conversion.",
+      "exampleSnippet": "Some A are B ⇒ Some B are A"
+    },
+    {
+      "typeName": "Either-or",
+      "description": "Complementary pair.",
+      "exampleSnippet": "All B are A / Some B are not A"
+    },
+    {
+      "typeName": "Negative combinations",
+      "description": "No with All.",
+      "exampleSnippet": "No A is B; All B are C"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-syllogisms-1",
+      "title": "All plus All",
+      "question": "Statements: All cats are dogs. All dogs are birds. Conclusions: I. All cats are birds. II. All birds are cats.",
+      "givenInfo": [
+        "All C are D",
+        "All D are B"
+      ],
+      "conceptOrFormula": "Chain of universal statements.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Draw",
+          "explanation": "C inside D inside B."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Conclusion I",
+          "explanation": "C is inside B, so all cats are birds: follows."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Conclusion II",
+          "explanation": "B is bigger than C, so not all birds are cats: does not follow."
+        }
+      ],
+      "finalAnswer": "Only conclusion I follows",
+      "whyItWorks": "A smaller class is always inside the larger.",
+      "commonTrap": "Reversing an All statement.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-syllogisms-2",
+      "title": "Some plus All",
+      "question": "Statements: Some pens are books. All books are tables. Conclusions: I. Some pens are tables. II. All tables are books.",
+      "givenInfo": [
+        "Some P are B",
+        "All B are T"
+      ],
+      "conceptOrFormula": "The overlap with B lies inside T.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Draw",
+          "explanation": "P overlaps B; B is inside T."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Conclusion I",
+          "explanation": "The pens that are books are inside T: follows."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Conclusion II",
+          "explanation": "T may be larger than B: does not follow."
+        }
+      ],
+      "finalAnswer": "Only conclusion I follows",
+      "whyItWorks": "The overlap region stays inside T.",
+      "commonTrap": "Concluding all tables are books.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-syllogisms-3",
+      "title": "Either-or",
+      "question": "Statement: All A are B. Conclusions: I. Some B are not A. II. All B are A.",
+      "givenInfo": [
+        "All A are B"
+      ],
+      "conceptOrFormula": "In some diagrams A = B; in others A is smaller.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Case 1",
+          "explanation": "A inside B with extra B: I is true, II false."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Case 2",
+          "explanation": "A = B: I false, II true."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Combine",
+          "explanation": "One of I or II is true in every case."
+        }
+      ],
+      "finalAnswer": "Either I or II follows",
+      "whyItWorks": "The two conclusions are complementary.",
+      "commonTrap": "Saying neither follows.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Draw all cases",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reason in words.",
+      "shortcutMethod": "Draw the minimum and the maximum overlap pictures; a conclusion must hold in both. Use the combination table for All/No/Some."
+    },
+    "rulesForApplication": [
+      "All + All = All.",
+      "All + No = No.",
+      "Some + All = Some.",
+      "Some + Some = no conclusion."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reversing an All statement",
+      "whyItHappens": "Concluding \"All B are A\".",
+      "howToAvoid": "Only \"Some B are A\" follows."
+    },
+    {
+      "mistake": "Concluding from two Some statements",
+      "whyItHappens": "Joining A and C.",
+      "howToAvoid": "No conclusion."
+    },
+    {
+      "mistake": "Accepting a possible conclusion",
+      "whyItHappens": "Treating \"could be true\" as true.",
+      "howToAvoid": "Must be true in every diagram."
+    },
+    {
+      "mistake": "Missing either-or",
+      "whyItHappens": "Marking neither.",
+      "howToAvoid": "Check complementary pairs."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 70,
+    "eliminationTechnique": "Eliminate conclusions with \"All\" or \"No\" that come from \"Some\" statements.",
+    "questionSelectionAdvice": "Draw each time.",
+    "recruiterInsight": "The combination table solves most items."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-syllogisms-e1",
+        "question": "Statements: All cats are dogs. All dogs are birds.\nConclusions: I. All cats are birds. II. All birds are cats.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Only conclusion I follows",
+          "Both conclusions follow",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "C inside D inside B: all cats are birds follows; all birds are cats does not.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-syllogisms-e2",
+        "question": "Statements: Some pens are books. All books are tables.\nConclusions: I. Some pens are tables. II. All tables are books.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Both conclusions follow",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "The pens that are books are inside tables. Not all tables need be books.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-syllogisms-e3",
+        "question": "Statements: No flower is a tree. All trees are plants.\nConclusions: I. No flower is a plant. II. Some plants are not flowers.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Both conclusions follow",
+          "Neither conclusion follows",
+          "Only conclusion II follows"
+        ],
+        "correctAnswer": "Only conclusion II follows",
+        "explanation": "Trees are plants and are not flowers, so some plants are not flowers. Flowers may still be plants, so I does not follow.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-syllogisms-i7",
+        "question": "Statements: All A are B. Some B are C.\nConclusions: I. Some A are C. II. Some C are B.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Only conclusion I follows",
+          "Both conclusions follow",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion II follows",
+        "explanation": "II is the converse of \"Some B are C\". I does not follow because the overlap with C may be outside A.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-syllogisms-i8",
+        "question": "Statements: Some A are B. Some B are C.\nConclusions: I. Some A are C. II. Some C are A.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Both conclusions follow",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Neither conclusion follows",
+        "explanation": "Two particular statements give no conclusion about A and C.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-syllogisms-i9",
+        "question": "Statements: All A are B. No B is C.\nConclusions: I. No A is C. II. Some A are C.\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Both conclusions follow",
+          "Neither conclusion follows",
+          "Only conclusion I follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "A is inside B and B is separate from C, so no A is C. II contradicts it.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-syllogisms-a15",
+        "question": "Statement: All A are B.\nConclusions: I. Some B are not A. II. All B are A.\nWhich of the following is correct?",
+        "options": [
+          "Only I follows",
+          "Only II follows",
+          "Either I or II follows",
+          "Neither follows"
+        ],
+        "correctAnswer": "Either I or II follows",
+        "explanation": "If A is smaller than B, I is true. If A = B, II is true. One of them is always true, so either I or II follows.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-syllogisms-a16",
+        "question": "Statements: All A are B. All B are C. Some C are D.\nConclusions: I. Some A are D. II. Some D are C. III. All A are C.\nWhich of the following is correct?",
+        "options": [
+          "Only I and II follow",
+          "Only II and III follow",
+          "Only I and III follow",
+          "All follow"
+        ],
+        "correctAnswer": "Only II and III follow",
+        "explanation": "A inside B inside C gives III. II is the converse of the third statement. I does not follow because the D overlap may be outside A.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-syllogisms-p17",
+        "question": "Statements: No A is B. Some B are C. All C are D.\nConclusions: I. Some C are not A. II. Some D are not A.\nWhich of the following is correct?",
+        "options": [
+          "Only I follows",
+          "Both conclusions follow",
+          "Only II follows",
+          "Neither follows"
+        ],
+        "correctAnswer": "Both conclusions follow",
+        "explanation": "Some B are C, and those C are not A (no A is B), so I. They are also D, so some D are not A.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-syllogisms-p18",
+        "question": "Statements: Some doctors are teachers. All teachers are singers. No singer is a dancer.\nConclusions: I. Some doctors are singers. II. No teacher is a dancer. III. Some doctors are not dancers.\nWhich of the following is correct?",
+        "options": [
+          "All three follow",
+          "Only I and II follow",
+          "Only II and III follow",
+          "Only I follows"
+        ],
+        "correctAnswer": "All three follow",
+        "explanation": "Doctors who are teachers are singers (I). Teachers are singers, who are not dancers (II). Those doctors are not dancers (III).",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-syllogisms-p19",
+        "question": "Statements: All A are B. No B is C. Some D are C.\nConclusions: I. Some D are not B. II. Some D are not A. III. Some B are D.\nWhich of the following is correct?",
+        "options": [
+          "Only I follows",
+          "All three follow",
+          "Only II and III follow",
+          "Only I and II follow"
+        ],
+        "correctAnswer": "Only I and II follow",
+        "explanation": "The D that are C are not B (no B is C), so I. Those D are also not A (all A are B), so II. III need not hold.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Four statement types.",
+      "Conversions.",
+      "All + All, All + No, Some + All.",
+      "Either-or.",
+      "Draw all diagrams."
+    ],
+    "quickFormulas": [
+      "All + All = All",
+      "All + No = No",
+      "Some + All = Some"
+    ]
+  },
+  "keyTakeaways": [
+    "Draw all cases.",
+    "Must be true in every case.",
+    "Use the table.",
+    "Check either-or."
+  ],
+  "selfCheckQuestions": [
+    "Can I combine All and No?",
+    "Can I reject a possible-but-not-certain conclusion?",
+    "Can I spot an either-or pair?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Syllogism topic area; examples are original."
+    }
+  ]
+}
