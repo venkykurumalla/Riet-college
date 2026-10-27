@@ -1,0 +1,430 @@
+{
+  "id": "y1-lr-ranking-basics",
+  "yearId": 1,
+  "category": "Logical Reasoning",
+  "topicNumber": 21,
+  "title": "Ranking and Position Basics",
+  "tagline": "Year 1 Foundation — Positions from the left, right, top and bottom of a row",
+  "estimatedMinutes": 40,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "Ranking and position questions tell you where someone stands in a row, queue or class list and ask for another position or the total number of people. The main idea is that a position from one end and a position from the other end together count everyone once, plus the person themself counted twice. This gives the key formula: Total = (position from one end) + (position from the other end) − 1.",
+    "placementRelevance": "Ranking questions are commonly asked in the reasoning section of company aptitude rounds. They are quick once you know the single formula and the handling of \"between\" and \"exchange\" problems.",
+    "realWorldContext": "Class ranks, queues at a counter, race finishes and sports leaderboards all use positions from the top and from the bottom."
+  },
+  "learningObjectives": [
+    "Convert a position from one end into a position from the other end",
+    "Find the total number of people from two positions of the same person",
+    "Count the people between two positions",
+    "Handle position-exchange questions",
+    "Order people by comparisons such as taller, older or heavier"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic arithmetic",
+      "Number Series"
+    ],
+    "quickRefresher": "A person who is 5th from the left has 4 people to their left. In a row of n people, someone 3rd from the left has n − 3 people to their right."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Position from the left (or top): the number obtained by counting from the left end (or top), including the person.",
+      "Position from the right (or bottom): the number obtained by counting from the other end, including the person.",
+      "Total number of people: the length of the row.",
+      "Between: the number of people strictly between two named people, not counting either of them.",
+      "Exchange of positions: two people swap places; the new position of each is the old position of the other."
+    ],
+    "theoreticalIntuition": "If you count someone from the left and then from the right, everyone except that person is counted exactly once and the person is counted twice. So the two counts add up to one more than the total. That is why the total is (left + right − 1).",
+    "visualOrMentalModel": "Imagine a row of boxes. Mark A in the box that is 5th from the left and 8th from the right. There are 4 boxes before A and 7 boxes after A, plus A itself: 4 + 1 + 7 = 12 boxes in total, which equals 5 + 8 − 1."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Total from two positions",
+      "formula": "Total = L + R − 1",
+      "description": "L and R are the positions of the same person from the two ends.",
+      "whenToUse": "When the total is unknown.",
+      "simpleExample": "15th from front and 20th from back → 15 + 20 − 1 = 34"
+    },
+    {
+      "title": "Position from the other end",
+      "formula": "Position from right = Total − Position from left + 1",
+      "description": "Rearranged form of the total formula.",
+      "whenToUse": "When the total is given.",
+      "simpleExample": "7th from top in 40 → 40 − 7 + 1 = 34th from bottom"
+    },
+    {
+      "title": "People between",
+      "formula": "Between = (larger position − smaller position) − 1, using positions from the same end",
+      "description": "Both positions must be from the same end.",
+      "whenToUse": "\"How many are there between A and B?\"",
+      "simpleExample": "Between 6th and 15th → 15 − 6 − 1 = 8"
+    },
+    {
+      "title": "Exchange problems",
+      "formula": "New position of A = old position of B (from the same end)",
+      "description": "Use this to find the total.",
+      "whenToUse": "\"After they exchange, A is 15th from left.\"",
+      "simpleExample": "A takes B's old place, which is 7th from right → total = 15 + 7 − 1 = 21"
+    },
+    {
+      "title": "Total from two different people",
+      "formula": "Total = (position of first from front) + (people between) + (position of second from back)",
+      "description": "Count the people in three blocks.",
+      "whenToUse": "Problems that give two people and the gap.",
+      "simpleExample": "9 + 11 + 6 = 26"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The first skill is switching ends. If the total is 40 and someone is 7th from the top, the number of people below them is 33, so their position from the bottom is 34. Written as a formula: from the bottom = total − from the top + 1.",
+      "When the same person is described from both ends, add the two positions and subtract one. A person who is 15th from the front and 20th from the back stands in a queue of 15 + 20 − 1 = 34.",
+      "For \"between\" problems, convert both positions to the same end first. In a row of 40, A is 14th from the left and B is 19th from the right, so B is 40 − 19 + 1 = 22nd from the left. The people between them are 22 − 14 − 1 = 7.",
+      "In exchange problems, the new position of the first person equals the old position of the second. If A, initially 10th from the left, becomes 15th from the left after exchanging with B who is 7th from the right, then 15th from the left is B's old place, so total = 15 + 7 − 1 = 21.",
+      "For comparison-based ordering (A is taller than B, B is taller than C), write the people in a line from tallest to shortest and place new facts into the line one by one."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Rank \"above\" and \"below\"",
+        "content": "If someone is 10th from the top, there are 9 people above them. \"Ranks below\" means position numbers get larger: 5 ranks below the 7th person is the 12th person."
+      },
+      {
+        "title": "Why the \"−1\" appears",
+        "content": "Counting from both ends counts the target person twice. Subtracting 1 removes the double count. If you forget the −1 your answer is always one too large."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Find the other position",
+      "description": "Total and one position given.",
+      "exampleSnippet": "Total 40, 7th from the top."
+    },
+    {
+      "typeName": "Find the total",
+      "description": "Both positions of the same person given.",
+      "exampleSnippet": "15th from front, 20th from back."
+    },
+    {
+      "typeName": "Between two people",
+      "description": "Count people strictly between.",
+      "exampleSnippet": "14th from left and 19th from right in a row of 40."
+    },
+    {
+      "typeName": "Exchange of places",
+      "description": "Positions after swapping.",
+      "exampleSnippet": "A becomes 15th from the left after exchanging with B."
+    },
+    {
+      "typeName": "Order by comparison",
+      "description": "Taller, older, heavier.",
+      "exampleSnippet": "A is taller than B; B is taller than C."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-lr-ranking-basics-1",
+      "title": "Finding the total number of people",
+      "question": "Ravi is 15th from the front and 20th from the back in a queue. How many people are in the queue?",
+      "givenInfo": [
+        "Position from front = 15",
+        "Position from back = 20"
+      ],
+      "conceptOrFormula": "Total = L + R − 1.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Add the two positions",
+          "explanation": "15 + 20 = 35."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Subtract the double count",
+          "explanation": "35 − 1 = 34."
+        }
+      ],
+      "finalAnswer": "34",
+      "whyItWorks": "Ravi is counted in both numbers, so we subtract one.",
+      "commonTrap": "Adding the two positions and giving 35.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-lr-ranking-basics-2",
+      "title": "Counting people between",
+      "question": "In a row of 40 students, A is 14th from the left and B is 19th from the right. How many students are between A and B?",
+      "givenInfo": [
+        "Total = 40",
+        "A = 14th from left",
+        "B = 19th from right"
+      ],
+      "conceptOrFormula": "Convert B to a position from the left, then subtract.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "B from the left",
+          "explanation": "40 − 19 + 1 = 22nd from the left."
+        },
+        {
+          "stepNumber": 2,
+          "title": "People between",
+          "explanation": "22 − 14 − 1 = 7."
+        }
+      ],
+      "finalAnswer": "7",
+      "whyItWorks": "The students in positions 15 to 21 from the left are between A and B.",
+      "commonTrap": "Not converting B's position to the same end as A, which leads to the wrong subtraction.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-lr-ranking-basics-3",
+      "title": "Exchange of places",
+      "question": "A is 10th from the left and B is 7th from the right in a row. When they exchange places, A becomes 15th from the left. How many people are in the row?",
+      "givenInfo": [
+        "A: 10th from left, B: 7th from right",
+        "After exchange, A is 15th from left"
+      ],
+      "conceptOrFormula": "A takes B's old place.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Locate B's old position",
+          "explanation": "B's old place is where A now stands: 15th from the left."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Use the total formula",
+          "explanation": "The same place is 7th from the right, so total = 15 + 7 − 1 = 21."
+        }
+      ],
+      "finalAnswer": "21",
+      "whyItWorks": "The new position of A equals the old position of B.",
+      "commonTrap": "Using A's old position (10th from left) to calculate the total.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "The \"L + R − 1\" rule",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Draw the whole row and count boxes.",
+      "shortcutMethod": "Use the formula L + R − 1 for total, Total − P + 1 to flip ends, and (difference of positions) − 1 for between. Never draw more than a short strip with only the key people marked."
+    },
+    "rulesForApplication": [
+      "Total = L + R − 1.",
+      "Switching ends: new position = total − old position + 1.",
+      "Between = difference of positions − 1 (both from the same end).",
+      "In exchange problems, the new position of one is the old position of the other."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Forgetting the −1",
+      "whyItHappens": "Adding positions to get the total.",
+      "howToAvoid": "Say aloud \"the person is counted twice\" and subtract one."
+    },
+    {
+      "mistake": "Mixing ends in a \"between\" count",
+      "whyItHappens": "Subtracting a left position from a right position.",
+      "howToAvoid": "Convert both to the same end first."
+    },
+    {
+      "mistake": "Counting the end people in \"between\"",
+      "whyItHappens": "Using difference without subtracting 1.",
+      "howToAvoid": "Between excludes both named people."
+    },
+    {
+      "mistake": "Wrong direction in \"ranks below\"",
+      "whyItHappens": "Subtracting ranks instead of adding.",
+      "howToAvoid": "Lower rank means a larger number."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 45,
+    "eliminationTechnique": "Check each option against the formula; the total must be consistent with both positions.",
+    "questionSelectionAdvice": "These are quick questions; do them early and carefully, because the traps are small.",
+    "recruiterInsight": "A short sketch of the row with positions marked prevents almost all errors."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-lr-ranking-basics-e1",
+        "question": "In a class of 40 students, Meena is 7th from the top. Her rank from the bottom is",
+        "options": [
+          "33",
+          "34",
+          "35",
+          "32"
+        ],
+        "correctAnswer": "34",
+        "explanation": "Position from the bottom = 40 − 7 + 1 = 34.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-ranking-basics-e2",
+        "question": "Aman is 12th from the top and 18th from the bottom in a class. The number of students in the class is",
+        "options": [
+          "29",
+          "30",
+          "31",
+          "28"
+        ],
+        "correctAnswer": "29",
+        "explanation": "Total = 12 + 18 − 1 = 29.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-ranking-basics-e3",
+        "question": "In a row of 25 boys, Rohan is 10th from the left. His position from the right is",
+        "options": [
+          "15",
+          "14",
+          "17",
+          "16"
+        ],
+        "correctAnswer": "16",
+        "explanation": "Position from the right = 25 − 10 + 1 = 16.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-lr-ranking-basics-i7",
+        "question": "In a row of 40 students, A is 14th from the left and B is 19th from the right. How many students are between them?",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "5"
+        ],
+        "correctAnswer": "7",
+        "explanation": "B is 40 − 19 + 1 = 22nd from the left. Between = 22 − 14 − 1 = 7.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-ranking-basics-i8",
+        "question": "A is 10th from the left and B is 7th from the right in a row. When they exchange places, A becomes 15th from the left. The number of people in the row is",
+        "options": [
+          "22",
+          "23",
+          "20",
+          "21"
+        ],
+        "correctAnswer": "21",
+        "explanation": "A now stands in B's old place, which is 15th from the left and 7th from the right. Total = 15 + 7 − 1 = 21.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-ranking-basics-i9",
+        "question": "In a class of 45, Rahul ranks 12th from the top. His rank from the bottom is",
+        "options": [
+          "33",
+          "35",
+          "32",
+          "34"
+        ],
+        "correctAnswer": "34",
+        "explanation": "Rank from the bottom = 45 − 12 + 1 = 34.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-lr-ranking-basics-a15",
+        "question": "In a class, Anu is 10th from the top and 31st from the bottom. Priya is 8 ranks below Anu. Priya's rank from the bottom is",
+        "options": [
+          "22",
+          "24",
+          "23",
+          "21"
+        ],
+        "correctAnswer": "23",
+        "explanation": "Class size = 10 + 31 − 1 = 40. Priya's rank from the top = 10 + 8 = 18. From the bottom: 40 − 18 + 1 = 23.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-ranking-basics-a16",
+        "question": "A is 11th from the left and B is 16th from the right in a row. When they exchange places, A becomes 23rd from the left. The number of children in the row is",
+        "options": [
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "correctAnswer": "38",
+        "explanation": "A now stands in B's old place, 23rd from the left and 16th from the right. Total = 23 + 16 − 1 = 38.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-lr-ranking-basics-p17",
+        "question": "In a row of 25 persons, A is 6th from the left and B is 9th from the right. The number of persons between them is",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "correctAnswer": "10",
+        "explanation": "B is 25 − 9 + 1 = 17th from the left. Between = 17 − 6 − 1 = 10.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-ranking-basics-p18",
+        "question": "A student ranks 15th in a class of 50. After a retest he moves up 7 places. His new rank from the bottom is",
+        "options": [
+          "43",
+          "42",
+          "44",
+          "41"
+        ],
+        "correctAnswer": "43",
+        "explanation": "New rank from the top = 15 − 7 = 8. From the bottom = 50 − 8 + 1 = 43.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-ranking-basics-p19",
+        "question": "In a queue of 40 people, Tom is 9th from the front and Jerry is 12th from the back (Jerry stands behind Tom). The number of people between them is",
+        "options": [
+          "18",
+          "20",
+          "21",
+          "19"
+        ],
+        "correctAnswer": "19",
+        "explanation": "Jerry's position from the front = 40 − 12 + 1 = 29. Between = 29 − 9 − 1 = 19.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Total = L + R − 1.",
+      "Position from the other end = total − position + 1.",
+      "Between = difference − 1.",
+      "Exchange: new position of A = old position of B.",
+      "Lower rank means a larger number."
+    ],
+    "quickFormulas": [
+      "Total = L + R − 1",
+      "R = Total − L + 1",
+      "Between = (p₂ − p₁) − 1"
+    ]
+  },
+  "keyTakeaways": [
+    "Both positions count the person, so subtract one.",
+    "Convert to a common end before counting between.",
+    "Use the exchange idea for total problems.",
+    "Draw a short strip when confused."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the position from the bottom when the position from the top is 7 in a class of 40?",
+    "Can I find the total if someone is 9th from the left and 12th from the right?",
+    "Can I count the people between the 6th and the 15th person?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The Ranking and Order of Position topic area; examples in this chapter are original."
+    }
+  ]
+}

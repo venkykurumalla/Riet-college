@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-lr-ranking-basics",
+  "topicTitle": "Ranking and Position Basics",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "In a class of 40 students, Meena is 7th from the top. Her rank from the bottom is",
+      "options": [
+        "33",
+        "34",
+        "35",
+        "32"
+      ],
+      "answerIndex": 1,
+      "explanation": "Position from the bottom = 40 − 7 + 1 = 34."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Aman is 12th from the top and 18th from the bottom in a class. The number of students in the class is",
+      "options": [
+        "29",
+        "30",
+        "31",
+        "28"
+      ],
+      "answerIndex": 0,
+      "explanation": "Total = 12 + 18 − 1 = 29."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "In a row of 25 boys, Rohan is 10th from the left. His position from the right is",
+      "options": [
+        "15",
+        "14",
+        "17",
+        "16"
+      ],
+      "answerIndex": 3,
+      "explanation": "Position from the right = 25 − 10 + 1 = 16."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A person is 11th from the front and 14th from the back in a queue. The number of people in the queue is",
+      "options": [
+        "25",
+        "26",
+        "24",
+        "23"
+      ],
+      "answerIndex": 2,
+      "explanation": "Total = 11 + 14 − 1 = 24."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "How many people are there between the 6th and the 15th person in a row (both counted from the left)?",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "7"
+      ],
+      "answerIndex": 2,
+      "explanation": "Between = 15 − 6 − 1 = 8."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "In a row of 56 children, Gita is 25th from the left. Her position from the right is",
+      "options": [
+        "31",
+        "32",
+        "30",
+        "33"
+      ],
+      "answerIndex": 1,
+      "explanation": "Position from the right = 56 − 25 + 1 = 32."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "In a row of 40 students, A is 14th from the left and B is 19th from the right. How many students are between them?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "B is 40 − 19 + 1 = 22nd from the left. Between = 22 − 14 − 1 = 7."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A is 10th from the left and B is 7th from the right in a row. When they exchange places, A becomes 15th from the left. The number of people in the row is",
+      "options": [
+        "22",
+        "23",
+        "20",
+        "21"
+      ],
+      "answerIndex": 3,
+      "explanation": "A now stands in B's old place, which is 15th from the left and 7th from the right. Total = 15 + 7 − 1 = 21."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "In a class of 45, Rahul ranks 12th from the top. His rank from the bottom is",
+      "options": [
+        "33",
+        "35",
+        "32",
+        "34"
+      ],
+      "answerIndex": 3,
+      "explanation": "Rank from the bottom = 45 − 12 + 1 = 34."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "In a row of 30 boys, A is 8th from the left and B is 8th from the right. How many boys are between A and B?",
+      "options": [
+        "13",
+        "15",
+        "14",
+        "16"
+      ],
+      "answerIndex": 2,
+      "explanation": "B is 30 − 8 + 1 = 23rd from the left. Between = 23 − 8 − 1 = 14."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "In a class of 35, Kiran is 7th from the top and Manoj is 5 ranks below Kiran. Manoj's rank from the bottom is",
+      "options": [
+        "23",
+        "24",
+        "25",
+        "22"
+      ],
+      "answerIndex": 1,
+      "explanation": "Manoj's rank from the top = 7 + 5 = 12. From the bottom: 35 − 12 + 1 = 24."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A is taller than B, B is taller than C and C is taller than D. Who is the second tallest?",
+      "options": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "answerIndex": 0,
+      "explanation": "The order from tallest is A, B, C, D, so B is the second tallest."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "In a row of 31 trees, the position of the middle tree from the left is",
+      "options": [
+        "16",
+        "15",
+        "17",
+        "14"
+      ],
+      "answerIndex": 0,
+      "explanation": "There are 15 trees on each side of the middle tree, so its position is 15 + 1 = 16."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "In a queue, X is 9th from the front and Y is 6th from the back. There are 11 people between them. The number of people in the queue is",
+      "options": [
+        "25",
+        "27",
+        "28",
+        "26"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total = 9 + 11 + 6 = 26 (X and Y are counted within their own positions)."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "In a class, Anu is 10th from the top and 31st from the bottom. Priya is 8 ranks below Anu. Priya's rank from the bottom is",
+      "options": [
+        "22",
+        "24",
+        "23",
+        "21"
+      ],
+      "answerIndex": 2,
+      "explanation": "Class size = 10 + 31 − 1 = 40. Priya's rank from the top = 10 + 8 = 18. From the bottom: 40 − 18 + 1 = 23."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A is 11th from the left and B is 16th from the right in a row. When they exchange places, A becomes 23rd from the left. The number of children in the row is",
+      "options": [
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "answerIndex": 1,
+      "explanation": "A now stands in B's old place, 23rd from the left and 16th from the right. Total = 23 + 16 − 1 = 38."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "In a row of 25 persons, A is 6th from the left and B is 9th from the right. The number of persons between them is",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "B is 25 − 9 + 1 = 17th from the left. Between = 17 − 6 − 1 = 10."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A student ranks 15th in a class of 50. After a retest he moves up 7 places. His new rank from the bottom is",
+      "options": [
+        "43",
+        "42",
+        "44",
+        "41"
+      ],
+      "answerIndex": 0,
+      "explanation": "New rank from the top = 15 − 7 = 8. From the bottom = 50 − 8 + 1 = 43."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "In a queue of 40 people, Tom is 9th from the front and Jerry is 12th from the back (Jerry stands behind Tom). The number of people between them is",
+      "options": [
+        "18",
+        "20",
+        "21",
+        "19"
+      ],
+      "answerIndex": 3,
+      "explanation": "Jerry's position from the front = 40 − 12 + 1 = 29. Between = 29 − 9 − 1 = 19."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Among five friends P, Q, R, S, T: P is older than Q, R is older than P, S is younger than Q, and T is older than R. Who is the youngest?",
+      "options": [
+        "Q",
+        "P",
+        "S",
+        "T"
+      ],
+      "answerIndex": 2,
+      "explanation": "The order from oldest is T, R, P, Q, S. So S is the youngest."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/ranking-test/"
+}

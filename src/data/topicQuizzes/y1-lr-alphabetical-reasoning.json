@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-lr-alphabetical-reasoning",
+  "topicTitle": "Alphabetical Reasoning",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Which letter is the 5th to the right of D?",
+      "options": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "answerIndex": 1,
+      "explanation": "D is the 4th letter. 4 + 5 = 9, which is I."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Which letter is the 3rd to the left of H?",
+      "options": [
+        "E",
+        "D",
+        "F",
+        "K"
+      ],
+      "answerIndex": 0,
+      "explanation": "H is the 8th letter. 8 − 3 = 5, which is E."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "How many letters are there between C and J in the English alphabet?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "C = 3 and J = 10. Letters between them: 10 − 3 − 1 = 6 (D, E, F, G, H, I)."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Which letter is the 8th from the right end of the alphabet?",
+      "options": [
+        "R",
+        "T",
+        "S",
+        "H"
+      ],
+      "answerIndex": 2,
+      "explanation": "Position from the left = 27 − 8 = 19, which is S."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Which letter is midway between B and H?",
+      "options": [
+        "D",
+        "F",
+        "E",
+        "C"
+      ],
+      "answerIndex": 2,
+      "explanation": "B = 2 and H = 8. The midpoint is (2 + 8)/2 = 5, which is E."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Which letter is the 4th to the right of M?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "N"
+      ],
+      "answerIndex": 1,
+      "explanation": "M = 13. 13 + 4 = 17, which is Q."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "In the word TEACHER, how many pairs of letters have as many letters between them in the word as in the English alphabet?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answerIndex": 0,
+      "explanation": "Check every pair of positions and compare the gap in the word with the gap in the alphabet. The pairs that match number 3."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "If the letters of the word CALM are arranged in alphabetical order, the third letter from the left is",
+      "options": [
+        "A",
+        "C",
+        "M",
+        "L"
+      ],
+      "answerIndex": 3,
+      "explanation": "The sorted word is A, C, L, M. The third letter is L."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "If the letters of the word BRAIN are arranged in alphabetical order, the middle letter is",
+      "options": [
+        "A",
+        "B",
+        "N",
+        "I"
+      ],
+      "answerIndex": 3,
+      "explanation": "The sorted word is A, B, I, N, R. The middle (third) letter is I."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Which letter is the 6th to the left of the 10th letter from the right end of the alphabet?",
+      "options": [
+        "J",
+        "L",
+        "K",
+        "Q"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 10th from the right is at position 27 − 10 = 17 (Q). 6 places to its left is position 11, which is K."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Which letter is the 9th to the right of the 12th letter from the left?",
+      "options": [
+        "T",
+        "U",
+        "V",
+        "S"
+      ],
+      "answerIndex": 1,
+      "explanation": "The 12th letter is L. 12 + 9 = 21, which is U."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "How many letters are there between the 4th letter from the left and the 4th letter from the right in the alphabet?",
+      "options": [
+        "18",
+        "17",
+        "19",
+        "20"
+      ],
+      "answerIndex": 0,
+      "explanation": "The 4th from the left is D (4). The 4th from the right is W (23). Letters between them: 23 − 4 − 1 = 18."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The letter that is the mirror image of J in the alphabet (same distance from the other end) is",
+      "options": [
+        "Q",
+        "P",
+        "R",
+        "S"
+      ],
+      "answerIndex": 0,
+      "explanation": "J is the 10th letter. Its mirror is at position 27 − 10 = 17, which is Q."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Which letter is the immediate predecessor of the 16th letter from the left?",
+      "options": [
+        "N",
+        "P",
+        "Q",
+        "O"
+      ],
+      "answerIndex": 3,
+      "explanation": "The 16th letter is P. The letter immediately before it is O."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "If the letters of the word DEPARTMENT are arranged in alphabetical order, how many letters remain in the same position as in the original word?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sorted: A, D, E, E, M, N, P, R, T, T against D, E, P, A, R, T, M, E, N, T. Only the last position matches (T)."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Which letter is the 11th to the right of the letter that is the 8th to the left of S?",
+      "options": [
+        "U",
+        "V",
+        "W",
+        "T"
+      ],
+      "answerIndex": 1,
+      "explanation": "S = 19. 8 to the left: 19 − 8 = 11 (K). 11 to the right of K: 11 + 11 = 22, which is V."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "In the word DISCOVERY, how many pairs of letters have as many letters between them in the word as in the English alphabet?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "answerIndex": 1,
+      "explanation": "Compare the gap of every pair of letters in the word with the gap in the alphabet. The number of pairs that match is 4."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Write the letters of the alphabet in reverse order (Z first). Which letter is the 10th from the left in this arrangement?",
+      "options": [
+        "Q",
+        "P",
+        "R",
+        "J"
+      ],
+      "answerIndex": 0,
+      "explanation": "In the reversed alphabet the 10th letter is the 10th from the right of the normal alphabet: 27 − 10 = 17, which is Q."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "If the letters of the word STAR are arranged in alphabetical order, the letter that is second from the right is",
+      "options": [
+        "A",
+        "R",
+        "T",
+        "S"
+      ],
+      "answerIndex": 3,
+      "explanation": "The sorted word is A, R, S, T. The second letter from the right is S."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Which letter is the 4th to the right of the letter midway between D and N?",
+      "options": [
+        "L",
+        "N",
+        "M",
+        "I"
+      ],
+      "answerIndex": 2,
+      "explanation": "D = 4, N = 14, so the midpoint is (4 + 14)/2 = 9 (I). The 4th to its right is 9 + 4 = 13, which is M."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/alphabet-test/"
+}
