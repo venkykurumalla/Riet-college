@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-strat-speed-math-shortcuts",
+  "topicTitle": "Speed Mathematics Shortcuts",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "48 × 5 equals",
+      "options": [
+        "264",
+        "240",
+        "216",
+        "300"
+      ],
+      "answerIndex": 1,
+      "explanation": "48 × 10 = 480; halve: 240."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "36 × 25 equals",
+      "options": [
+        "900",
+        "990",
+        "810",
+        "1125"
+      ],
+      "answerIndex": 0,
+      "explanation": "3,600 ÷ 4 = 900."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "24 × 125 equals",
+      "options": [
+        "3300",
+        "2700",
+        "3750",
+        "3000"
+      ],
+      "answerIndex": 3,
+      "explanation": "24,000 ÷ 8 = 3,000."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "47 × 99 equals",
+      "options": [
+        "5118",
+        "4188",
+        "4653",
+        "5816"
+      ],
+      "answerIndex": 2,
+      "explanation": "4,700 − 47 = 4,653."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "35² equals",
+      "options": [
+        "1348",
+        "1103",
+        "1225",
+        "1531"
+      ],
+      "answerIndex": 2,
+      "explanation": "3 × 4 = 12, then 25: 1,225."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "12.5% of 480 equals",
+      "options": [
+        "66",
+        "60",
+        "54",
+        "75"
+      ],
+      "answerIndex": 1,
+      "explanation": "480 ÷ 8 = 60."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "45² equals",
+      "options": [
+        "2025",
+        "2228",
+        "1823",
+        "2531"
+      ],
+      "answerIndex": 0,
+      "explanation": "4 × 5 = 20, then 25: 2,025."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "37.5% of 480 equals",
+      "options": [
+        "198",
+        "162",
+        "225",
+        "180"
+      ],
+      "answerIndex": 3,
+      "explanation": "3/8 of 480 = 3 × 60 = 180."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "64 × 15 equals",
+      "options": [
+        "1056",
+        "864",
+        "1200",
+        "960"
+      ],
+      "answerIndex": 3,
+      "explanation": "64 × 10 = 640 plus half of that, 320: 960."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "360 ÷ 25 equals",
+      "options": [
+        "15.8",
+        "13",
+        "14.4",
+        "18"
+      ],
+      "answerIndex": 2,
+      "explanation": "360 × 4 = 1,440; ÷ 100 = 14.4."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "73 × 11 equals",
+      "options": [
+        "883",
+        "803",
+        "723",
+        "1004"
+      ],
+      "answerIndex": 1,
+      "explanation": "7 | 7+3 | 3 gives 7 | 10 | 3, carry: 803."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "16⅔% of 540 equals",
+      "options": [
+        "90",
+        "99",
+        "81",
+        "113"
+      ],
+      "answerIndex": 0,
+      "explanation": "540 ÷ 6 = 90."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "88 × 25 equals",
+      "options": [
+        "2200",
+        "2420",
+        "1980",
+        "2750"
+      ],
+      "answerIndex": 0,
+      "explanation": "8,800 ÷ 4 = 2,200."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "8.5 × 20 equals",
+      "options": [
+        "187",
+        "153",
+        "213",
+        "170"
+      ],
+      "answerIndex": 3,
+      "explanation": "8.5 × 2 = 17; × 10 = 170."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "125 × 64 equals",
+      "options": [
+        "8800",
+        "7200",
+        "8000",
+        "10000"
+      ],
+      "answerIndex": 2,
+      "explanation": "64 × 1000 ÷ 8 = 8,000."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "72 × 99 equals",
+      "options": [
+        "7841",
+        "7128",
+        "6415",
+        "8910"
+      ],
+      "answerIndex": 1,
+      "explanation": "7,200 − 72 = 7,128."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "85² equals",
+      "options": [
+        "7948",
+        "7225",
+        "6503",
+        "9031"
+      ],
+      "answerIndex": 1,
+      "explanation": "8 × 9 = 72, then 25: 7,225."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "45% of 360 equals",
+      "options": [
+        "162",
+        "178",
+        "146",
+        "203"
+      ],
+      "answerIndex": 0,
+      "explanation": "10% = 36; 40% = 144; 5% = 18; total 162."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "2,400 ÷ 125 equals",
+      "options": [
+        "21.1",
+        "17.3",
+        "24",
+        "19.2"
+      ],
+      "answerIndex": 3,
+      "explanation": "2,400 × 8 = 19,200; ÷ 1,000 = 19.2."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "999 × 12 equals",
+      "options": [
+        "13187",
+        "10789",
+        "11988",
+        "14985"
+      ],
+      "answerIndex": 2,
+      "explanation": "12,000 − 12 = 11,988."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

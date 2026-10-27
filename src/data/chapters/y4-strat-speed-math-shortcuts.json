@@ -1,0 +1,419 @@
+{
+  "id": "y4-strat-speed-math-shortcuts",
+  "yearId": 4,
+  "category": "Placement Strategy & Shortcuts",
+  "topicNumber": 27,
+  "title": "Speed Mathematics Shortcuts",
+  "tagline": "Year 4 — Multiplying and dividing by 5, 25, 125, 9, 11 and 99, squares ending in 5, and percentage-to-fraction conversions",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A shortcut is a way to replace a long calculation by two short ones. The most useful speed shortcuts rest on four facts: 5 = 10 ÷ 2, 25 = 100 ÷ 4, 125 = 1000 ÷ 8, and 9 or 99 = 10 or 100 minus 1. Together with squares of numbers ending in 5 and percentage–fraction equivalents, they cover most multiplication and division in aptitude tests. A shortcut is only worth using if it is faster than direct calculation for you, so each one here is shown with its reason and a quick check.",
+    "placementRelevance": "Saving 15–20 seconds on arithmetic-heavy questions adds several questions to your attempt count in a timed section.",
+    "realWorldContext": "Quick mental arithmetic helps with bills, discounts and estimates."
+  },
+  "learningObjectives": [
+    "Multiply and divide by 5, 25 and 125 using halving and quartering",
+    "Multiply by 9, 99 and 11 quickly",
+    "Square numbers ending in 5",
+    "Convert percentages to fractions for quick calculation",
+    "Check results with the last digit"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Calculation Techniques",
+      "Percentages"
+    ],
+    "quickRefresher": "5 = 10 ÷ 2; 25 = 100 ÷ 4; 125 = 1000 ÷ 8; 99 = 100 − 1; (10a + 5)² = a(a + 1) hundred + 25."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Shortcut: a faster equivalent calculation.",
+      "Complement: the amount needed to reach a base such as 100.",
+      "Percentage–fraction equivalent: 12.5% = 1/8 and so on.",
+      "Last-digit check: the final digit of a product follows from the final digits.",
+      "Break-even speed: the point where a shortcut beats direct calculation."
+    ],
+    "theoreticalIntuition": "Multiplying by 5 is multiplying by 10 and halving; the same logic covers 25 and 125.",
+    "visualOrMentalModel": "Look at the multiplier: if it is near a power of ten, or divides one, use that."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "× 5",
+      "formula": "n × 10 ÷ 2",
+      "description": "Any n.",
+      "whenToUse": "Quick.",
+      "simpleExample": "48 × 5 = 480 ÷ 2 = 240"
+    },
+    {
+      "title": "× 25",
+      "formula": "n × 100 ÷ 4",
+      "description": "Any n.",
+      "whenToUse": "Quick.",
+      "simpleExample": "36 × 25 = 3,600 ÷ 4 = 900"
+    },
+    {
+      "title": "× 125",
+      "formula": "n × 1000 ÷ 8",
+      "description": "Any n.",
+      "whenToUse": "Quick.",
+      "simpleExample": "24 × 125 = 3,000"
+    },
+    {
+      "title": "× 99",
+      "formula": "n × 100 − n",
+      "description": "Any n.",
+      "whenToUse": "Quick.",
+      "simpleExample": "47 × 99 = 4,653"
+    },
+    {
+      "title": "Square ending 5",
+      "formula": "a(a + 1) then 25",
+      "description": "15², 25², 35²…",
+      "whenToUse": "Quick.",
+      "simpleExample": "35² = 12|25 = 1,225"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "48 × 5: multiply by 10 to get 480, then halve to 240.",
+      "36 × 25: 3,600 ÷ 4 = 900. 24 × 125: 24,000 ÷ 8 = 3,000.",
+      "47 × 99: 4,700 − 47 = 4,653.",
+      "35²: 3 × 4 = 12, then 25: 1,225.",
+      "Percentages as fractions: 12.5% of 480 is 480 ÷ 8 = 60; 37.5% = 3/8 so 3 × 60 = 180."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Division by 5, 25",
+        "content": "× 2, × 4 then ÷ 10, ÷ 100: 360 ÷ 25 = 360 × 4 ÷ 100 = 14.4."
+      },
+      {
+        "title": "Last-digit check",
+        "content": "A product of numbers ending in 7 and 3 ends in 1."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Multiplication by 5, 25, 125",
+      "description": "Halving rules.",
+      "exampleSnippet": "36 × 25"
+    },
+    {
+      "typeName": "Near powers of ten",
+      "description": "99, 101.",
+      "exampleSnippet": "47 × 99"
+    },
+    {
+      "typeName": "Squares ending in 5",
+      "description": "a(a + 1).",
+      "exampleSnippet": "35²"
+    },
+    {
+      "typeName": "Percent as fractions",
+      "description": "1/8 and so on.",
+      "exampleSnippet": "12.5%"
+    },
+    {
+      "typeName": "Checks",
+      "description": "Last digit.",
+      "exampleSnippet": "Product ends"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-strat-speed-math-shortcuts-1",
+      "title": "Multiply by 25",
+      "question": "Find 36 × 25.",
+      "givenInfo": [
+        "25 = 100/4"
+      ],
+      "conceptOrFormula": "Multiply by 100, divide by 4.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "×100",
+          "explanation": "3,600."
+        },
+        {
+          "stepNumber": 2,
+          "title": "÷4",
+          "explanation": "900."
+        }
+      ],
+      "finalAnswer": "900",
+      "whyItWorks": "Check: 36 × 25 ends in 00.",
+      "commonTrap": "Long multiplication.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-strat-speed-math-shortcuts-2",
+      "title": "Square ending in 5",
+      "question": "Find 35².",
+      "givenInfo": [
+        "35 = 3|5"
+      ],
+      "conceptOrFormula": "a(a + 1) then 25.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "a(a + 1)",
+          "explanation": "3 × 4 = 12."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Append 25",
+          "explanation": "1,225."
+        }
+      ],
+      "finalAnswer": "1,225",
+      "whyItWorks": "Rule for numbers ending in 5.",
+      "commonTrap": "Squaring 35 as 30² + 5².",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-strat-speed-math-shortcuts-3",
+      "title": "Percent as fraction",
+      "question": "Find 37.5% of 480.",
+      "givenInfo": [
+        "37.5% = 3/8"
+      ],
+      "conceptOrFormula": "Fraction.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Eighth",
+          "explanation": "480 ÷ 8 = 60."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Three eighths",
+          "explanation": "3 × 60 = 180."
+        }
+      ],
+      "finalAnswer": "180",
+      "whyItWorks": "37.5% = 3/8.",
+      "commonTrap": "Decimal multiplication.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Look at the multiplier",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Multiply digit by digit.",
+      "shortcutMethod": "Match the multiplier to 5, 25, 125, 99 or 11 and apply its two-step rule; check the last digit."
+    },
+    "rulesForApplication": [
+      "×5 = ×10 ÷ 2.",
+      "×25 = ×100 ÷ 4.",
+      "×125 = ×1000 ÷ 8.",
+      "×99 = ×100 − n."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using a shortcut that is slower for you",
+      "whyItHappens": "Time lost.",
+      "howToAvoid": "Practise only the ones that help."
+    },
+    {
+      "mistake": "Forgetting the correction",
+      "whyItHappens": "Off by n.",
+      "howToAvoid": "For ×99 subtract n."
+    },
+    {
+      "mistake": "Misplacing the decimal",
+      "whyItHappens": "Factor of ten.",
+      "howToAvoid": "Check the size."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "Use the last digit to kill options.",
+    "questionSelectionAdvice": "Practise each shortcut for a week.",
+    "recruiterInsight": "Two-step shortcuts beat long multiplication."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-strat-speed-math-shortcuts-e1",
+        "question": "48 × 5 equals",
+        "options": [
+          "264",
+          "240",
+          "216",
+          "300"
+        ],
+        "correctAnswer": "240",
+        "explanation": "48 × 10 = 480; halve: 240.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-speed-math-shortcuts-e2",
+        "question": "36 × 25 equals",
+        "options": [
+          "900",
+          "990",
+          "810",
+          "1125"
+        ],
+        "correctAnswer": "900",
+        "explanation": "3,600 ÷ 4 = 900.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-speed-math-shortcuts-e3",
+        "question": "24 × 125 equals",
+        "options": [
+          "3300",
+          "2700",
+          "3750",
+          "3000"
+        ],
+        "correctAnswer": "3000",
+        "explanation": "24,000 ÷ 8 = 3,000.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-strat-speed-math-shortcuts-i7",
+        "question": "45² equals",
+        "options": [
+          "2025",
+          "2228",
+          "1823",
+          "2531"
+        ],
+        "correctAnswer": "2025",
+        "explanation": "4 × 5 = 20, then 25: 2,025.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-speed-math-shortcuts-i8",
+        "question": "37.5% of 480 equals",
+        "options": [
+          "198",
+          "162",
+          "225",
+          "180"
+        ],
+        "correctAnswer": "180",
+        "explanation": "3/8 of 480 = 3 × 60 = 180.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-speed-math-shortcuts-i9",
+        "question": "64 × 15 equals",
+        "options": [
+          "1056",
+          "864",
+          "1200",
+          "960"
+        ],
+        "correctAnswer": "960",
+        "explanation": "64 × 10 = 640 plus half of that, 320: 960.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-strat-speed-math-shortcuts-a15",
+        "question": "125 × 64 equals",
+        "options": [
+          "8800",
+          "7200",
+          "8000",
+          "10000"
+        ],
+        "correctAnswer": "8000",
+        "explanation": "64 × 1000 ÷ 8 = 8,000.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-speed-math-shortcuts-a16",
+        "question": "72 × 99 equals",
+        "options": [
+          "7841",
+          "7128",
+          "6415",
+          "8910"
+        ],
+        "correctAnswer": "7128",
+        "explanation": "7,200 − 72 = 7,128.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-strat-speed-math-shortcuts-p17",
+        "question": "85² equals",
+        "options": [
+          "7948",
+          "7225",
+          "6503",
+          "9031"
+        ],
+        "correctAnswer": "7225",
+        "explanation": "8 × 9 = 72, then 25: 7,225.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-speed-math-shortcuts-p18",
+        "question": "45% of 360 equals",
+        "options": [
+          "162",
+          "178",
+          "146",
+          "203"
+        ],
+        "correctAnswer": "162",
+        "explanation": "10% = 36; 40% = 144; 5% = 18; total 162.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-speed-math-shortcuts-p19",
+        "question": "2,400 ÷ 125 equals",
+        "options": [
+          "21.1",
+          "17.3",
+          "24",
+          "19.2"
+        ],
+        "correctAnswer": "19.2",
+        "explanation": "2,400 × 8 = 19,200; ÷ 1,000 = 19.2.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "×5, 25, 125.",
+      "×99.",
+      "Squares ending 5.",
+      "Percent fractions.",
+      "Last digit."
+    ],
+    "quickFormulas": [
+      "×25 = ×100 ÷ 4"
+    ]
+  },
+  "keyTakeaways": [
+    "Match multiplier.",
+    "Two steps.",
+    "Check size.",
+    "Practise."
+  ],
+  "selfCheckQuestions": [
+    "Can I multiply by 25 mentally?",
+    "Can I square 45?",
+    "Can I use 37.5% = 3/8?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Method and shortcut background; the strategy framework and examples in this chapter are original."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-strat-mental-calculation",
+  "topicTitle": "Mental Calculation Techniques",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "398 + 247 equals",
+      "options": [
+        "710",
+        "645",
+        "581",
+        "806"
+      ],
+      "answerIndex": 1,
+      "explanation": "400 + 247 − 2 = 645."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "1,000 − 647 equals",
+      "options": [
+        "353",
+        "388",
+        "318",
+        "441"
+      ],
+      "answerIndex": 0,
+      "explanation": "Complements: 353."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "347 + 285 equals",
+      "options": [
+        "695",
+        "569",
+        "790",
+        "632"
+      ],
+      "answerIndex": 3,
+      "explanation": "500 + 120 + 12 = 632."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "23 × 17 equals",
+      "options": [
+        "430",
+        "352",
+        "391",
+        "489"
+      ],
+      "answerIndex": 2,
+      "explanation": "230 + 161 = 391."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "35 × 14 equals",
+      "options": [
+        "539",
+        "441",
+        "490",
+        "613"
+      ],
+      "answerIndex": 2,
+      "explanation": "70 × 7 = 490."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "502 − 198 equals",
+      "options": [
+        "334",
+        "304",
+        "274",
+        "380"
+      ],
+      "answerIndex": 1,
+      "explanation": "502 − 200 + 2 = 304."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "47 × 12 equals",
+      "options": [
+        "564",
+        "620",
+        "508",
+        "705"
+      ],
+      "answerIndex": 0,
+      "explanation": "470 + 94 = 564."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "1,000 − 386 equals",
+      "options": [
+        "675",
+        "553",
+        "768",
+        "614"
+      ],
+      "answerIndex": 3,
+      "explanation": "Complements: 614."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "56 × 25 equals",
+      "options": [
+        "1540",
+        "1260",
+        "1750",
+        "1400"
+      ],
+      "answerIndex": 3,
+      "explanation": "5,600 ÷ 4 = 1,400."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "299 × 6 equals",
+      "options": [
+        "1973",
+        "1615",
+        "1794",
+        "2243"
+      ],
+      "answerIndex": 2,
+      "explanation": "300 × 6 − 6 = 1,794."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "725 + 398 equals",
+      "options": [
+        "1235",
+        "1123",
+        "1011",
+        "1404"
+      ],
+      "answerIndex": 1,
+      "explanation": "725 + 400 − 2 = 1,123."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "45 × 18 equals",
+      "options": [
+        "810",
+        "891",
+        "729",
+        "1013"
+      ],
+      "answerIndex": 0,
+      "explanation": "90 × 9 = 810."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "8 × 7 × 25 equals",
+      "options": [
+        "1400",
+        "1540",
+        "1260",
+        "1750"
+      ],
+      "answerIndex": 0,
+      "explanation": "8 × 25 = 200; × 7 = 1,400."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "3,000 − 1,486 equals",
+      "options": [
+        "1665",
+        "1363",
+        "1893",
+        "1514"
+      ],
+      "answerIndex": 3,
+      "explanation": "3,000 − 1,500 + 14 = 1,514."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "17 × 19 equals",
+      "options": [
+        "355",
+        "291",
+        "323",
+        "404"
+      ],
+      "answerIndex": 2,
+      "explanation": "17 × 20 − 17 = 323."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "64 × 125 equals",
+      "options": [
+        "8800",
+        "8000",
+        "7200",
+        "10000"
+      ],
+      "answerIndex": 1,
+      "explanation": "64 ÷ 8 × 1000 = 8,000."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "1.25 × 48 equals",
+      "options": [
+        "66",
+        "60",
+        "54",
+        "75"
+      ],
+      "answerIndex": 1,
+      "explanation": "48 + 12 = 60 (a quarter of 48 is 12)."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "984 + 1,016 equals",
+      "options": [
+        "2000",
+        "2200",
+        "1800",
+        "2500"
+      ],
+      "answerIndex": 0,
+      "explanation": "984 + 16 = 1,000; + 1,000 = 2,000."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "48 × 15 equals",
+      "options": [
+        "792",
+        "648",
+        "900",
+        "720"
+      ],
+      "answerIndex": 3,
+      "explanation": "480 + 240 = 720."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "0.75 × 88 equals",
+      "options": [
+        "73",
+        "59",
+        "66",
+        "83"
+      ],
+      "answerIndex": 2,
+      "explanation": "Three quarters of 88 = 66."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

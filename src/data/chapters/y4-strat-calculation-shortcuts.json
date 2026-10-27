@@ -1,0 +1,419 @@
+{
+  "id": "y4-strat-calculation-shortcuts",
+  "yearId": 4,
+  "category": "Placement Strategy & Shortcuts",
+  "topicNumber": 29,
+  "title": "Calculation Shortcut Mastery",
+  "tagline": "Year 4 — Digital roots, successive percentages a + b + ab/100, rule of 72, divisibility tests and quick LCM/HCF checks",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Beyond everyday mental methods there is a set of exact shortcuts that apply to whole classes of aptitude problems: the successive-change formula a + b + ab/100, the digital-root check for products, the rule of 72 for doubling time, divisibility tests for 3, 4, 8, 9 and 11, and quick LCM/HCF tricks. These are worth learning precisely because they apply to many question types.",
+    "placementRelevance": "Percent change, compound growth, divisibility and LCM questions appear in most aptitude papers; shortcuts cut each to a few seconds.",
+    "realWorldContext": "Quick checks catch arithmetic slips in any calculation."
+  },
+  "learningObjectives": [
+    "Use a + b + ab/100 for successive changes",
+    "Check products with digital roots",
+    "Estimate doubling time with the rule of 72",
+    "Apply divisibility tests",
+    "Find LCM and HCF quickly"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Speed Mathematics Shortcuts",
+      "Mental Calculation Techniques"
+    ],
+    "quickRefresher": "Net change after +a% and +b%: a + b + ab/100 percent."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Digital root: repeated digit sum of a number.",
+      "Rule of 72: doubling time ≈ 72 ÷ rate (%).",
+      "Divisibility test: a quick rule to check a divisor.",
+      "Successive change: changes applied one after another.",
+      "HCF × LCM = product of two numbers."
+    ],
+    "theoreticalIntuition": "Many exact results can be produced or checked from the digits alone.",
+    "visualOrMentalModel": "For percent changes use the formula; for checks use digital roots; for divisibility use the test."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Successive change",
+      "formula": "a + b + ab/100",
+      "description": "Two changes.",
+      "whenToUse": "Net %.",
+      "simpleExample": "+20% then −10% = +8%"
+    },
+    {
+      "title": "Digital root check",
+      "formula": "Root of product = root of product of roots",
+      "description": "Multiplication.",
+      "whenToUse": "Check.",
+      "simpleExample": "47 × 53 → 2 × 8 = 16 → 7"
+    },
+    {
+      "title": "Rule of 72",
+      "formula": "72 ÷ rate",
+      "description": "Doubling.",
+      "whenToUse": "Estimate.",
+      "simpleExample": "8% → 9 years"
+    },
+    {
+      "title": "Divisibility",
+      "formula": "3, 9: digit sum; 4: last two; 11: alternating",
+      "description": "Tests.",
+      "whenToUse": "Checks.",
+      "simpleExample": "2,376 divisible by 9"
+    },
+    {
+      "title": "HCF × LCM",
+      "formula": "HCF × LCM = a × b",
+      "description": "Two numbers.",
+      "whenToUse": "Quick.",
+      "simpleExample": "12, 18: 6 × 36"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "+20% then −10%: 20 − 10 − 200/100 = 8, so a net 8% rise.",
+      "Check 47 × 53 = 2,491: roots 2 and 8 give 16 → 7; 2,491 → 16 → 7 ✓.",
+      "At 8% growth money doubles in about 72 ÷ 8 = 9 years.",
+      "2,376: digit sum 18, so divisible by 9; 2,376 ÷ 11? alternating sum 2 − 3 + 7 − 6 = 0, so divisible by 11.",
+      "HCF of 12 and 18 is 6, so LCM = 12 × 18 ÷ 6 = 36."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Successive discounts",
+        "content": "Discounts of 20% and 10% give 20 + 10 − 2 = 28% net discount."
+      },
+      {
+        "title": "Digital roots catch most slips",
+        "content": "They fail only for errors that are multiples of 9."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Net percentage",
+      "description": "Formula.",
+      "exampleSnippet": "+20, −10"
+    },
+    {
+      "typeName": "Checking",
+      "description": "Digital roots.",
+      "exampleSnippet": "47 × 53"
+    },
+    {
+      "typeName": "Doubling",
+      "description": "Rule of 72.",
+      "exampleSnippet": "8%"
+    },
+    {
+      "typeName": "Divisibility",
+      "description": "Tests.",
+      "exampleSnippet": "2,376"
+    },
+    {
+      "typeName": "HCF-LCM",
+      "description": "Product rule.",
+      "exampleSnippet": "12, 18"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-strat-calculation-shortcuts-1",
+      "title": "Net change",
+      "question": "A price rises 20% and then falls 10%. Net change?",
+      "givenInfo": [
+        "+20, −10"
+      ],
+      "conceptOrFormula": "a + b + ab/100.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Formula",
+          "explanation": "20 − 10 + (20 × −10)/100."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "10 − 2 = +8%."
+        }
+      ],
+      "finalAnswer": "+8%",
+      "whyItWorks": "Not +10%.",
+      "commonTrap": "Adding.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-strat-calculation-shortcuts-2",
+      "title": "Rule of 72",
+      "question": "At 8% compound growth, about how long to double?",
+      "givenInfo": [
+        "8%"
+      ],
+      "conceptOrFormula": "72 ÷ rate.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "72 ÷ 8."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Years",
+          "explanation": "9 years."
+        }
+      ],
+      "finalAnswer": "About 9 years",
+      "whyItWorks": "An estimate.",
+      "commonTrap": "Taking 100/8.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-strat-calculation-shortcuts-3",
+      "title": "LCM",
+      "question": "HCF of 12 and 18 is 6. Find the LCM.",
+      "givenInfo": [
+        "HCF 6"
+      ],
+      "conceptOrFormula": "Product rule.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Product",
+          "explanation": "12 × 18 = 216."
+        },
+        {
+          "stepNumber": 2,
+          "title": "LCM",
+          "explanation": "216 ÷ 6 = 36."
+        }
+      ],
+      "finalAnswer": "36",
+      "whyItWorks": "HCF × LCM = product.",
+      "commonTrap": "Multiplying 12 and 18 only.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Formula, check, test",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compute from scratch.",
+      "shortcutMethod": "Use a + b + ab/100, digital roots, 72 ÷ rate and the divisibility tests."
+    },
+    "rulesForApplication": [
+      "Net % formula.",
+      "Root check.",
+      "72 ÷ rate.",
+      "HCF × LCM."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Adding percentages",
+      "whyItHappens": "Wrong net.",
+      "howToAvoid": "Use the formula."
+    },
+    {
+      "mistake": "Trusting a check blindly",
+      "whyItHappens": "Misses multiples of 9.",
+      "howToAvoid": "Use with estimation."
+    },
+    {
+      "mistake": "Applying the rule of 72 to large rates",
+      "whyItHappens": "Poor accuracy.",
+      "howToAvoid": "Use for 5–15%."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "A failed root check kills an option.",
+    "questionSelectionAdvice": "Learn divisibility by 7, 11, 13 too.",
+    "recruiterInsight": "Checks are cheaper than rework."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-strat-calculation-shortcuts-e1",
+        "question": "A price rises 20% and then falls 10%. The net change is (%)",
+        "options": [
+          "9",
+          "8",
+          "7",
+          "10"
+        ],
+        "correctAnswer": "8",
+        "explanation": "20 − 10 − 2 = +8.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-calculation-shortcuts-e2",
+        "question": "Two successive discounts of 20% and 10% give a net discount of (%)",
+        "options": [
+          "28",
+          "31",
+          "25",
+          "35"
+        ],
+        "correctAnswer": "28",
+        "explanation": "20 + 10 − 2 = 28.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-calculation-shortcuts-e3",
+        "question": "At 8% compound growth, money doubles in about (years)",
+        "options": [
+          "10",
+          "8",
+          "11",
+          "9"
+        ],
+        "correctAnswer": "9",
+        "explanation": "72 ÷ 8 = 9.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-strat-calculation-shortcuts-i7",
+        "question": "A number rises 25% and then 20%. The net rise is (%)",
+        "options": [
+          "50",
+          "55",
+          "45",
+          "63"
+        ],
+        "correctAnswer": "50",
+        "explanation": "25 + 20 + 5 = 50.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-calculation-shortcuts-i8",
+        "question": "A price falls 20% and then rises 25%. The net change is (%)",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "correctAnswer": "0",
+        "explanation": "−20 + 25 − 5 = 0.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-calculation-shortcuts-i9",
+        "question": "Check using digital roots: is 47 × 53 = 2,491 consistent?",
+        "options": [
+          "No, the root of the product should be 6",
+          "No, the root should be 8",
+          "Cannot be checked",
+          "Yes"
+        ],
+        "correctAnswer": "Yes",
+        "explanation": "Roots: 47 → 2, 53 → 8; product root 16 → 7; 2,491 → 7 ✓.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-strat-calculation-shortcuts-a15",
+        "question": "A price rises 10% each year for two years. The total rise is (%)",
+        "options": [
+          "23",
+          "19",
+          "21",
+          "26"
+        ],
+        "correctAnswer": "21",
+        "explanation": "10 + 10 + 1 = 21.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-calculation-shortcuts-a16",
+        "question": "Three successive rises of 10% give a total rise of (%)",
+        "options": [
+          "36.4",
+          "33.1",
+          "29.8",
+          "41.4"
+        ],
+        "correctAnswer": "33.1",
+        "explanation": "1.1³ = 1.331, a 33.1% rise.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-strat-calculation-shortcuts-p17",
+        "question": "A number is increased by 50% and then decreased by 50%. The net change is (%)",
+        "options": [
+          "-28",
+          "-25",
+          "-22",
+          "-31"
+        ],
+        "correctAnswer": "-25",
+        "explanation": "50 − 50 − 25 = −25.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-calculation-shortcuts-p18",
+        "question": "Which number is divisible by 8?",
+        "options": [
+          "3,128",
+          "3,126",
+          "3,130",
+          "3,132"
+        ],
+        "correctAnswer": "3,128",
+        "explanation": "3,128 ends in 128 = 8 × 16, so 3,128 is divisible by 8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-calculation-shortcuts-p19",
+        "question": "The LCM of two numbers is 180 and their HCF is 6. If one is 36, the other is",
+        "options": [
+          "33",
+          "27",
+          "38",
+          "30"
+        ],
+        "correctAnswer": "30",
+        "explanation": "Product = 180 × 6 = 1,080; 1,080 ÷ 36 = 30.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Net %.",
+      "Digital roots.",
+      "Rule of 72.",
+      "Divisibility.",
+      "HCF-LCM."
+    ],
+    "quickFormulas": [
+      "a + b + ab/100"
+    ]
+  },
+  "keyTakeaways": [
+    "Formula.",
+    "Check.",
+    "Estimate.",
+    "Test."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute a net percentage?",
+    "Can I use a digital root?",
+    "Can I use 72?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Method and shortcut background; the strategy framework and examples in this chapter are original."
+    }
+  ]
+}

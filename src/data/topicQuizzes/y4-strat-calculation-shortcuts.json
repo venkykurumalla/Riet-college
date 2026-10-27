@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-strat-calculation-shortcuts",
+  "topicTitle": "Calculation Shortcut Mastery",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A price rises 20% and then falls 10%. The net change is (%)",
+      "options": [
+        "9",
+        "8",
+        "7",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "20 − 10 − 2 = +8."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Two successive discounts of 20% and 10% give a net discount of (%)",
+      "options": [
+        "28",
+        "31",
+        "25",
+        "35"
+      ],
+      "answerIndex": 0,
+      "explanation": "20 + 10 − 2 = 28."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "At 8% compound growth, money doubles in about (years)",
+      "options": [
+        "10",
+        "8",
+        "11",
+        "9"
+      ],
+      "answerIndex": 3,
+      "explanation": "72 ÷ 8 = 9."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The HCF of 12 and 18 is 6. Their LCM is",
+      "options": [
+        "40",
+        "32",
+        "36",
+        "45"
+      ],
+      "answerIndex": 2,
+      "explanation": "12 × 18 ÷ 6 = 36."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The digital root of 2,491 is",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "9"
+      ],
+      "answerIndex": 2,
+      "explanation": "2 + 4 + 9 + 1 = 16 → 7."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Which of these numbers is divisible by 9?",
+      "options": [
+        "2,375",
+        "2,376",
+        "2,378",
+        "2,380"
+      ],
+      "answerIndex": 1,
+      "explanation": "Digit sum of 2,376 is 18, a multiple of 9."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A number rises 25% and then 20%. The net rise is (%)",
+      "options": [
+        "50",
+        "55",
+        "45",
+        "63"
+      ],
+      "answerIndex": 0,
+      "explanation": "25 + 20 + 5 = 50."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A price falls 20% and then rises 25%. The net change is (%)",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 3,
+      "explanation": "−20 + 25 − 5 = 0."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Check using digital roots: is 47 × 53 = 2,491 consistent?",
+      "options": [
+        "No, the root of the product should be 6",
+        "No, the root should be 8",
+        "Cannot be checked",
+        "Yes"
+      ],
+      "answerIndex": 3,
+      "explanation": "Roots: 47 → 2, 53 → 8; product root 16 → 7; 2,491 → 7 ✓."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "At 12% growth, money doubles in about (years)",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "8"
+      ],
+      "answerIndex": 2,
+      "explanation": "72 ÷ 12 = 6."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Which number is divisible by 11?",
+      "options": [
+        "2,375",
+        "2,376",
+        "2,377",
+        "2,379"
+      ],
+      "answerIndex": 1,
+      "explanation": "For 2,376 the alternating sum is 2 − 3 + 7 − 6 = 0, so it is divisible by 11."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The LCM of 8 and 12 is",
+      "options": [
+        "24",
+        "26",
+        "22",
+        "30"
+      ],
+      "answerIndex": 0,
+      "explanation": "HCF 4; LCM = 96 ÷ 4 = 24."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A discount of 30% followed by 20% equals a single discount of (%)",
+      "options": [
+        "44",
+        "48",
+        "40",
+        "55"
+      ],
+      "answerIndex": 0,
+      "explanation": "30 + 20 − 6 = 44."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The HCF of 36 and 48 is",
+      "options": [
+        "13",
+        "11",
+        "15",
+        "12"
+      ],
+      "answerIndex": 3,
+      "explanation": "36 = 12 × 3; 48 = 12 × 4."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A price rises 10% each year for two years. The total rise is (%)",
+      "options": [
+        "23",
+        "19",
+        "21",
+        "26"
+      ],
+      "answerIndex": 2,
+      "explanation": "10 + 10 + 1 = 21."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Three successive rises of 10% give a total rise of (%)",
+      "options": [
+        "36.4",
+        "33.1",
+        "29.8",
+        "41.4"
+      ],
+      "answerIndex": 1,
+      "explanation": "1.1³ = 1.331, a 33.1% rise."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A number is increased by 50% and then decreased by 50%. The net change is (%)",
+      "options": [
+        "-28",
+        "-25",
+        "-22",
+        "-31"
+      ],
+      "answerIndex": 1,
+      "explanation": "50 − 50 − 25 = −25."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Which number is divisible by 8?",
+      "options": [
+        "3,128",
+        "3,126",
+        "3,130",
+        "3,132"
+      ],
+      "answerIndex": 0,
+      "explanation": "3,128 ends in 128 = 8 × 16, so 3,128 is divisible by 8."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The LCM of two numbers is 180 and their HCF is 6. If one is 36, the other is",
+      "options": [
+        "33",
+        "27",
+        "38",
+        "30"
+      ],
+      "answerIndex": 3,
+      "explanation": "Product = 180 × 6 = 1,080; 1,080 ÷ 36 = 30."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Using 72, a sum at 6% doubles in about (years)",
+      "options": [
+        "13",
+        "11",
+        "12",
+        "15"
+      ],
+      "answerIndex": 2,
+      "explanation": "72 ÷ 6 = 12."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

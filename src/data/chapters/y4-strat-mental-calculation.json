@@ -1,0 +1,418 @@
+{
+  "id": "y4-strat-mental-calculation",
+  "yearId": 4,
+  "category": "Placement Strategy & Shortcuts",
+  "topicNumber": 28,
+  "title": "Mental Calculation Techniques",
+  "tagline": "Year 4 — Left-to-right addition, complement subtraction, rounding with adjustment, splitting and halving-doubling without paper",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Mental calculation is a set of habits more than formulas: work left to right so that the largest part of the answer is fixed first, round a number to a friendly value and adjust, split a multiplication into easy parts, and use doubling and halving to make a product easy. These habits cut the time and the writing needed for arithmetic, and they make estimation natural.",
+    "placementRelevance": "Online tests often disable or limit rough work, so mental methods save time and reduce errors.",
+    "realWorldContext": "Everyday mental arithmetic uses these same habits."
+  },
+  "learningObjectives": [
+    "Add and subtract left to right",
+    "Round and adjust",
+    "Split products into easy parts",
+    "Double and halve to simplify",
+    "Check by estimation"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Speed Mathematics Shortcuts"
+    ],
+    "quickRefresher": "Rounding and adjusting: 398 + 247 = 400 + 247 − 2."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Left-to-right: starting with the largest place value.",
+      "Complement: the amount to reach a round number.",
+      "Round-and-adjust: use a round number then correct.",
+      "Splitting: a × (b + c) = ab + ac.",
+      "Doubling-halving: a × b = 2a × b/2."
+    ],
+    "theoreticalIntuition": "The mind keeps small numbers easily; give it small numbers.",
+    "visualOrMentalModel": "Round to a friendly number, compute, correct; split big products into tens and units."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Round and adjust",
+      "formula": "398 + 247 = 400 + 247 − 2",
+      "description": "Near round.",
+      "whenToUse": "Addition.",
+      "simpleExample": "645"
+    },
+    {
+      "title": "Complement",
+      "formula": "1,000 − 647 = 353",
+      "description": "Subtraction.",
+      "whenToUse": "From a round number.",
+      "simpleExample": "353"
+    },
+    {
+      "title": "Split",
+      "formula": "23 × 17 = 23 × 10 + 23 × 7",
+      "description": "Products.",
+      "whenToUse": "Break.",
+      "simpleExample": "391"
+    },
+    {
+      "title": "Double-halve",
+      "formula": "35 × 14 = 70 × 7",
+      "description": "Even factor.",
+      "whenToUse": "Simplify.",
+      "simpleExample": "490"
+    },
+    {
+      "title": "Left-to-right",
+      "formula": "347 + 285: 300 + 200, 40 + 80, 7 + 5",
+      "description": "Addition.",
+      "whenToUse": "Parts.",
+      "simpleExample": "632"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "398 + 247: add 400 + 247 = 647 and take away 2: 645.",
+      "1,000 − 647: complements digit by digit (9, 9, 10): 353.",
+      "23 × 17: 23 × 10 = 230 and 23 × 7 = 161; total 391.",
+      "35 × 14: double 35 and halve 14 to get 70 × 7 = 490.",
+      "347 + 285: 300 + 200 = 500; 40 + 80 = 120; 7 + 5 = 12; 500 + 120 + 12 = 632."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Check by estimation",
+        "content": "A product should be near the product of rounded numbers."
+      },
+      {
+        "title": "Negative adjustments",
+        "content": "When you round up, subtract the extra afterwards."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Addition",
+      "description": "Left-to-right.",
+      "exampleSnippet": "347 + 285"
+    },
+    {
+      "typeName": "Subtraction",
+      "description": "Complement.",
+      "exampleSnippet": "1,000 − 647"
+    },
+    {
+      "typeName": "Multiplication",
+      "description": "Split.",
+      "exampleSnippet": "23 × 17"
+    },
+    {
+      "typeName": "Simplify",
+      "description": "Double-halve.",
+      "exampleSnippet": "35 × 14"
+    },
+    {
+      "typeName": "Rounding",
+      "description": "Adjust.",
+      "exampleSnippet": "398 + 247"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-strat-mental-calculation-1",
+      "title": "Round and adjust",
+      "question": "Find 398 + 247.",
+      "givenInfo": [
+        "398 ≈ 400"
+      ],
+      "conceptOrFormula": "Round then adjust.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Round",
+          "explanation": "400 + 247 = 647."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Adjust",
+          "explanation": "647 − 2 = 645."
+        }
+      ],
+      "finalAnswer": "645",
+      "whyItWorks": "We added 2 extra.",
+      "commonTrap": "Forgetting to subtract.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-strat-mental-calculation-2",
+      "title": "Split",
+      "question": "Find 23 × 17.",
+      "givenInfo": [
+        "17 = 10 + 7"
+      ],
+      "conceptOrFormula": "Split the multiplier.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Parts",
+          "explanation": "23 × 10 = 230; 23 × 7 = 161."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Add",
+          "explanation": "391."
+        }
+      ],
+      "finalAnswer": "391",
+      "whyItWorks": "Two easy products.",
+      "commonTrap": "Long multiplication.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-strat-mental-calculation-3",
+      "title": "Double-halve",
+      "question": "Find 35 × 14.",
+      "givenInfo": [
+        "14 even"
+      ],
+      "conceptOrFormula": "Double and halve.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Transform",
+          "explanation": "35 × 14 = 70 × 7."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "490."
+        }
+      ],
+      "finalAnswer": "490",
+      "whyItWorks": "Product unchanged.",
+      "commonTrap": "Halving both.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Round, split, halve",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Write it all out.",
+      "shortcutMethod": "Round and adjust sums, split products, and double-halve to simplify."
+    },
+    "rulesForApplication": [
+      "Left to right.",
+      "Round then correct.",
+      "Split.",
+      "Double-halve."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Forgetting to adjust",
+      "whyItHappens": "Off by the rounding.",
+      "howToAvoid": "Write the adjustment first."
+    },
+    {
+      "mistake": "Working right to left mentally",
+      "whyItHappens": "Carry confusion.",
+      "howToAvoid": "Go left to right."
+    },
+    {
+      "mistake": "Splitting badly",
+      "whyItHappens": "More steps.",
+      "howToAvoid": "Split into tens and units."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 25,
+    "eliminationTechnique": "Check last digit and size.",
+    "questionSelectionAdvice": "Practise 20 mental sums daily.",
+    "recruiterInsight": "Mental methods feed estimation."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-strat-mental-calculation-e1",
+        "question": "398 + 247 equals",
+        "options": [
+          "710",
+          "645",
+          "581",
+          "806"
+        ],
+        "correctAnswer": "645",
+        "explanation": "400 + 247 − 2 = 645.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-mental-calculation-e2",
+        "question": "1,000 − 647 equals",
+        "options": [
+          "353",
+          "388",
+          "318",
+          "441"
+        ],
+        "correctAnswer": "353",
+        "explanation": "Complements: 353.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-strat-mental-calculation-e3",
+        "question": "347 + 285 equals",
+        "options": [
+          "695",
+          "569",
+          "790",
+          "632"
+        ],
+        "correctAnswer": "632",
+        "explanation": "500 + 120 + 12 = 632.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-strat-mental-calculation-i7",
+        "question": "47 × 12 equals",
+        "options": [
+          "564",
+          "620",
+          "508",
+          "705"
+        ],
+        "correctAnswer": "564",
+        "explanation": "470 + 94 = 564.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-mental-calculation-i8",
+        "question": "1,000 − 386 equals",
+        "options": [
+          "675",
+          "553",
+          "768",
+          "614"
+        ],
+        "correctAnswer": "614",
+        "explanation": "Complements: 614.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-strat-mental-calculation-i9",
+        "question": "56 × 25 equals",
+        "options": [
+          "1540",
+          "1260",
+          "1750",
+          "1400"
+        ],
+        "correctAnswer": "1400",
+        "explanation": "5,600 ÷ 4 = 1,400.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-strat-mental-calculation-a15",
+        "question": "17 × 19 equals",
+        "options": [
+          "355",
+          "291",
+          "323",
+          "404"
+        ],
+        "correctAnswer": "323",
+        "explanation": "17 × 20 − 17 = 323.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-mental-calculation-a16",
+        "question": "64 × 125 equals",
+        "options": [
+          "8800",
+          "8000",
+          "7200",
+          "10000"
+        ],
+        "correctAnswer": "8000",
+        "explanation": "64 ÷ 8 × 1000 = 8,000.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-strat-mental-calculation-p17",
+        "question": "1.25 × 48 equals",
+        "options": [
+          "66",
+          "60",
+          "54",
+          "75"
+        ],
+        "correctAnswer": "60",
+        "explanation": "48 + 12 = 60 (a quarter of 48 is 12).",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-mental-calculation-p18",
+        "question": "984 + 1,016 equals",
+        "options": [
+          "2000",
+          "2200",
+          "1800",
+          "2500"
+        ],
+        "correctAnswer": "2000",
+        "explanation": "984 + 16 = 1,000; + 1,000 = 2,000.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-strat-mental-calculation-p19",
+        "question": "48 × 15 equals",
+        "options": [
+          "792",
+          "648",
+          "900",
+          "720"
+        ],
+        "correctAnswer": "720",
+        "explanation": "480 + 240 = 720.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Left to right.",
+      "Round-adjust.",
+      "Complement.",
+      "Split.",
+      "Double-halve."
+    ],
+    "quickFormulas": [
+      "a(b + c) = ab + ac"
+    ]
+  },
+  "keyTakeaways": [
+    "Round.",
+    "Adjust.",
+    "Split.",
+    "Check."
+  ],
+  "selfCheckQuestions": [
+    "Can I round and adjust?",
+    "Can I split a product?",
+    "Can I double-halve?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Method and shortcut background; the strategy framework and examples in this chapter are original."
+    }
+  ]
+}
