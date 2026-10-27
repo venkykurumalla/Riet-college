@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-rec-difficulty-recognition",
+  "topicTitle": "Difficulty Level Recognition",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A question needs 1 step, combines 1 topic and has ordinary numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Medium",
+        "Easy",
+        "Hard",
+        "Cannot be decided"
+      ],
+      "answerIndex": 1,
+      "explanation": "Score = 1 + 2 × (1 − 1) + 0 = 1, which is Easy."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A question needs 2 steps, combines 1 topic and has ordinary numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Easy",
+        "Medium",
+        "Hard",
+        "Cannot be decided"
+      ],
+      "answerIndex": 0,
+      "explanation": "Score = 2 + 2 × (1 − 1) + 0 = 2, which is Easy."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A question needs 1 step, combines 1 topic and has large or awkward numbers. By the scoring rule, its difficulty score is",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "answerIndex": 3,
+      "explanation": "Score = 1 + 2 × (1 − 1) + 1 = 2."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A question needs 3 steps, combines 1 topic and has ordinary numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Medium",
+        "Hard",
+        "Easy",
+        "Cannot be decided"
+      ],
+      "answerIndex": 2,
+      "explanation": "Score = 3 + 2 × (1 − 1) + 0 = 3, which is Easy."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A question needs 2 steps, combines 2 topics and has ordinary numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Easy",
+        "Hard",
+        "Medium",
+        "Cannot be decided"
+      ],
+      "answerIndex": 2,
+      "explanation": "Score = 2 + 2 × (2 − 1) + 0 = 4, which is Medium."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A question needs 3 steps, combines 1 topic and has large or awkward numbers. By the scoring rule, its difficulty score is",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "Score = 3 + 2 × (1 − 1) + 1 = 4."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A question needs 3 steps, combines 2 topics and has ordinary numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Medium",
+        "Easy",
+        "Hard",
+        "Cannot be decided"
+      ],
+      "answerIndex": 0,
+      "explanation": "Score = 3 + 2 × (2 − 1) + 0 = 5, which is Medium."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A question needs 4 steps, combines 1 topic and has large or awkward numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Easy",
+        "Hard",
+        "Cannot be decided",
+        "Medium"
+      ],
+      "answerIndex": 3,
+      "explanation": "Score = 4 + 2 × (1 − 1) + 1 = 5, which is Medium."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A question needs 4 steps, combines 2 topics and has ordinary numbers. By the scoring rule, its difficulty score is",
+      "options": [
+        "7",
+        "5",
+        "8",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "Score = 4 + 2 × (2 − 1) + 0 = 6."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A question needs 5 steps, combines 1 topic and has ordinary numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Easy",
+        "Hard",
+        "Medium",
+        "Cannot be decided"
+      ],
+      "answerIndex": 2,
+      "explanation": "Score = 5 + 2 × (1 − 1) + 0 = 5, which is Medium."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A question needs 3 steps, combines 3 topics and has ordinary numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Easy",
+        "Hard",
+        "Medium",
+        "Cannot be decided"
+      ],
+      "answerIndex": 1,
+      "explanation": "Score = 3 + 2 × (3 − 1) + 0 = 7, which is Hard."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A question needs 2 steps, combines 2 topics and has large or awkward numbers. By the scoring rule, its difficulty score is",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "7"
+      ],
+      "answerIndex": 0,
+      "explanation": "Score = 2 + 2 × (2 − 1) + 1 = 5."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A question needs 5 steps, combines 2 topics and has ordinary numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Hard",
+        "Easy",
+        "Medium",
+        "Cannot be decided"
+      ],
+      "answerIndex": 0,
+      "explanation": "Score = 5 + 2 × (2 − 1) + 0 = 7, which is Hard."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A question needs 4 steps, combines 2 topics and has large or awkward numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Easy",
+        "Medium",
+        "Cannot be decided",
+        "Hard"
+      ],
+      "answerIndex": 3,
+      "explanation": "Score = 4 + 2 × (2 − 1) + 1 = 7, which is Hard."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A question needs 6 steps, combines 2 topics and has ordinary numbers. By the scoring rule, its difficulty score is",
+      "options": [
+        "9",
+        "7",
+        "8",
+        "10"
+      ],
+      "answerIndex": 2,
+      "explanation": "Score = 6 + 2 × (2 − 1) + 0 = 8."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A question needs 5 steps, combines 3 topics and has large or awkward numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Easy",
+        "Hard",
+        "Medium",
+        "Cannot be decided"
+      ],
+      "answerIndex": 1,
+      "explanation": "Score = 5 + 2 × (3 − 1) + 1 = 10, which is Hard."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A question needs 7 steps, combines 1 topic and has ordinary numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Easy",
+        "Hard",
+        "Medium",
+        "Cannot be decided"
+      ],
+      "answerIndex": 1,
+      "explanation": "Score = 7 + 2 × (1 − 1) + 0 = 7, which is Hard."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A question needs 3 steps, combines 3 topics and has large or awkward numbers. By the scoring rule, its difficulty score is",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "10"
+      ],
+      "answerIndex": 0,
+      "explanation": "Score = 3 + 2 × (3 − 1) + 1 = 8."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A question needs 4 steps, combines 3 topics and has ordinary numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Easy",
+        "Medium",
+        "Cannot be decided",
+        "Hard"
+      ],
+      "answerIndex": 3,
+      "explanation": "Score = 4 + 2 × (3 − 1) + 0 = 8, which is Hard."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A question needs 6 steps, combines 3 topics and has large or awkward numbers. By the scoring rule, its difficulty band is",
+      "options": [
+        "Easy",
+        "Medium",
+        "Hard",
+        "Cannot be decided"
+      ],
+      "answerIndex": 2,
+      "explanation": "Score = 6 + 2 × (3 − 1) + 1 = 11, which is Hard."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

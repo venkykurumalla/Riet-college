@@ -1,0 +1,420 @@
+{
+  "id": "y4-rec-difficulty-recognition",
+  "yearId": 4,
+  "category": "Recruiter / Assessment Preparation",
+  "topicNumber": 42,
+  "title": "Difficulty Level Recognition",
+  "tagline": "Year 4 — Judging at first glance how hard a question is, using steps, topics combined and size of numbers",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Good test-takers can tell in a few seconds how hard a question will be. This chapter gives a simple scoring rule you can apply at first glance: count the steps, add 2 for each extra topic combined, add 1 if the numbers are large or awkward. A score of 3 or less is Easy, 4 to 6 Medium and 7 or more Hard. The rule is a training device, not a law: it helps you decide order and time. The rules and figures used in examples are hypothetical teaching rules, not the policy of any real company or platform.",
+    "placementRelevance": "Recognising difficulty quickly is the basis of triage and of the skip decision.",
+    "realWorldContext": "Estimating effort before starting a task is a standard professional skill."
+  },
+  "learningObjectives": [
+    "Count steps and topics at first glance",
+    "Apply the scoring rule",
+    "Map the score to a band and a time budget",
+    "Spot trap features that hide difficulty",
+    "Calibrate the rule against your own timings"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Time Triage and Question Selection",
+      "Strategic Question Selection"
+    ],
+    "quickRefresher": "Difficulty score = steps + 2 × (topics − 1) + 1 if large numbers. Bands: ≤3 Easy, 4–6 Medium, ≥7 Hard."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Step: one distinct calculation or deduction.",
+      "Topic: a different area combined in the question.",
+      "Large numbers: numbers that make arithmetic slow.",
+      "Band: Easy, Medium or Hard.",
+      "Calibration: adjusting the rule to your timings."
+    ],
+    "theoreticalIntuition": "Difficulty is mostly about the number of things you must hold in your head.",
+    "visualOrMentalModel": "Count steps, count topics, check numbers, add, and read the band."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Score",
+      "formula": "steps + 2(topics − 1) + large",
+      "description": "Any question.",
+      "whenToUse": "Rule.",
+      "simpleExample": "3 + 2 + 1 = 6"
+    },
+    {
+      "title": "Time budget",
+      "formula": "≈ 20 s × score",
+      "description": "Planning.",
+      "whenToUse": "Estimate.",
+      "simpleExample": "Score 6 → 120 s"
+    },
+    {
+      "title": "Band",
+      "formula": "≤3 E, 4–6 M, ≥7 H",
+      "description": "Score.",
+      "whenToUse": "Class.",
+      "simpleExample": "6 = Medium"
+    },
+    {
+      "title": "Trap check",
+      "formula": "Hidden second topic?",
+      "description": "Wording.",
+      "whenToUse": "Add 2.",
+      "simpleExample": "Percent + ratio"
+    },
+    {
+      "title": "Calibrate",
+      "formula": "Compare with real time",
+      "description": "After mocks.",
+      "whenToUse": "Adjust.",
+      "simpleExample": "20 s per point"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "\"Find 20% of 450\": one step, one topic, ordinary numbers: score 1, Easy, about 20 seconds.",
+      "\"A shop gives successive discounts of 20% and 10% on ₹750 and then adds 5% tax\": three steps, one topic: score 3, Easy-to-Medium boundary, about 60 seconds.",
+      "\"Two pipes and a leak fill a tank; the leak starts after 2 hours\": four steps, one topic with a phase change: score 4 or 5, Medium.",
+      "\"Mixture of alloys sold at a profit with a discount\": three or four steps and two topics (mixtures, profit): 4 + 2 = 6, Medium to Hard.",
+      "A word problem with large awkward numbers adds 1 and often 20 seconds."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Hidden topics",
+        "content": "A \"percent\" question that needs a ratio is two topics; count both."
+      },
+      {
+        "title": "Wording length",
+        "content": "Long wording does not make a question hard unless it adds steps."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Steps",
+      "description": "Count.",
+      "exampleSnippet": "3"
+    },
+    {
+      "typeName": "Topics",
+      "description": "Combined areas.",
+      "exampleSnippet": "2"
+    },
+    {
+      "typeName": "Large numbers",
+      "description": "Add 1.",
+      "exampleSnippet": "Yes"
+    },
+    {
+      "typeName": "Band",
+      "description": "Class.",
+      "exampleSnippet": "Medium"
+    },
+    {
+      "typeName": "Time",
+      "description": "20 s × score.",
+      "exampleSnippet": "120 s"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rec-difficulty-recognition-1",
+      "title": "Score",
+      "question": "A question needs 3 steps, combines 2 topics and has ordinary numbers. Score and band?",
+      "givenInfo": [
+        "3 steps",
+        "2 topics"
+      ],
+      "conceptOrFormula": "Apply the rule.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Compute",
+          "explanation": "3 + 2 × (2 − 1) = 5."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Band",
+          "explanation": "Medium."
+        }
+      ],
+      "finalAnswer": "5, Medium",
+      "whyItWorks": "Score 4–6 is Medium.",
+      "commonTrap": "Forgetting the topic term.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rec-difficulty-recognition-2",
+      "title": "Time",
+      "question": "Score 6. Estimated time at 20 seconds per point?",
+      "givenInfo": [
+        "6"
+      ],
+      "conceptOrFormula": "Multiply.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rule",
+          "explanation": "About 20 seconds per point."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Multiply",
+          "explanation": "6 × 20 = 120 seconds."
+        }
+      ],
+      "finalAnswer": "120 seconds",
+      "whyItWorks": "Plan the time.",
+      "commonTrap": "Using 60.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rec-difficulty-recognition-3",
+      "title": "Hidden topic",
+      "question": "A percent question also needs a ratio to finish. How many topics?",
+      "givenInfo": [
+        "Percent, ratio"
+      ],
+      "conceptOrFormula": "Count.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "List",
+          "explanation": "The question uses percent and also a ratio."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Count",
+          "explanation": "Two topics, so add 2 to the score."
+        }
+      ],
+      "finalAnswer": "2",
+      "whyItWorks": "Add 2 to the score.",
+      "commonTrap": "Counting 1.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Steps, topics, size",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Judge by wording length.",
+      "shortcutMethod": "Score = steps + 2 per extra topic + 1 for large numbers; ≤3 Easy, 4–6 Medium, ≥7 Hard."
+    },
+    "rulesForApplication": [
+      "Count steps.",
+      "Count topics.",
+      "Check numbers.",
+      "Read the band."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Judging by length of wording",
+      "whyItHappens": "Misjudged.",
+      "howToAvoid": "Count steps."
+    },
+    {
+      "mistake": "Missing a hidden topic",
+      "whyItHappens": "Underestimated.",
+      "howToAvoid": "Re-read for second topic."
+    },
+    {
+      "mistake": "Never calibrating",
+      "whyItHappens": "Rule drifts.",
+      "howToAvoid": "Compare with timings."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 10,
+    "eliminationTechnique": "Hard questions are the first to skip.",
+    "questionSelectionAdvice": "Tag difficulty on every mock question.",
+    "recruiterInsight": "The rule is a training aid."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rec-difficulty-recognition-e1",
+        "question": "A question needs 1 step, combines 1 topic and has ordinary numbers. By the scoring rule, its difficulty band is",
+        "options": [
+          "Medium",
+          "Easy",
+          "Hard",
+          "Cannot be decided"
+        ],
+        "correctAnswer": "Easy",
+        "explanation": "Score = 1 + 2 × (1 − 1) + 0 = 1, which is Easy.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-difficulty-recognition-e2",
+        "question": "A question needs 2 steps, combines 1 topic and has ordinary numbers. By the scoring rule, its difficulty band is",
+        "options": [
+          "Easy",
+          "Medium",
+          "Hard",
+          "Cannot be decided"
+        ],
+        "correctAnswer": "Easy",
+        "explanation": "Score = 2 + 2 × (1 − 1) + 0 = 2, which is Easy.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-difficulty-recognition-e3",
+        "question": "A question needs 1 step, combines 1 topic and has large or awkward numbers. By the scoring rule, its difficulty score is",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "correctAnswer": "2",
+        "explanation": "Score = 1 + 2 × (1 − 1) + 1 = 2.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rec-difficulty-recognition-i7",
+        "question": "A question needs 3 steps, combines 2 topics and has ordinary numbers. By the scoring rule, its difficulty band is",
+        "options": [
+          "Medium",
+          "Easy",
+          "Hard",
+          "Cannot be decided"
+        ],
+        "correctAnswer": "Medium",
+        "explanation": "Score = 3 + 2 × (2 − 1) + 0 = 5, which is Medium.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-difficulty-recognition-i8",
+        "question": "A question needs 4 steps, combines 1 topic and has large or awkward numbers. By the scoring rule, its difficulty band is",
+        "options": [
+          "Easy",
+          "Hard",
+          "Cannot be decided",
+          "Medium"
+        ],
+        "correctAnswer": "Medium",
+        "explanation": "Score = 4 + 2 × (1 − 1) + 1 = 5, which is Medium.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-difficulty-recognition-i9",
+        "question": "A question needs 4 steps, combines 2 topics and has ordinary numbers. By the scoring rule, its difficulty score is",
+        "options": [
+          "7",
+          "5",
+          "8",
+          "6"
+        ],
+        "correctAnswer": "6",
+        "explanation": "Score = 4 + 2 × (2 − 1) + 0 = 6.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rec-difficulty-recognition-a15",
+        "question": "A question needs 6 steps, combines 2 topics and has ordinary numbers. By the scoring rule, its difficulty score is",
+        "options": [
+          "9",
+          "7",
+          "8",
+          "10"
+        ],
+        "correctAnswer": "8",
+        "explanation": "Score = 6 + 2 × (2 − 1) + 0 = 8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-difficulty-recognition-a16",
+        "question": "A question needs 5 steps, combines 3 topics and has large or awkward numbers. By the scoring rule, its difficulty band is",
+        "options": [
+          "Easy",
+          "Hard",
+          "Medium",
+          "Cannot be decided"
+        ],
+        "correctAnswer": "Hard",
+        "explanation": "Score = 5 + 2 × (3 − 1) + 1 = 10, which is Hard.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rec-difficulty-recognition-p17",
+        "question": "A question needs 7 steps, combines 1 topic and has ordinary numbers. By the scoring rule, its difficulty band is",
+        "options": [
+          "Easy",
+          "Hard",
+          "Medium",
+          "Cannot be decided"
+        ],
+        "correctAnswer": "Hard",
+        "explanation": "Score = 7 + 2 × (1 − 1) + 0 = 7, which is Hard.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-difficulty-recognition-p18",
+        "question": "A question needs 3 steps, combines 3 topics and has large or awkward numbers. By the scoring rule, its difficulty score is",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "correctAnswer": "8",
+        "explanation": "Score = 3 + 2 × (3 − 1) + 1 = 8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-difficulty-recognition-p19",
+        "question": "A question needs 4 steps, combines 3 topics and has ordinary numbers. By the scoring rule, its difficulty band is",
+        "options": [
+          "Easy",
+          "Medium",
+          "Cannot be decided",
+          "Hard"
+        ],
+        "correctAnswer": "Hard",
+        "explanation": "Score = 4 + 2 × (3 − 1) + 0 = 8, which is Hard.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Steps.",
+      "Topics.",
+      "Numbers.",
+      "Band.",
+      "Calibrate."
+    ],
+    "quickFormulas": [
+      "Score = steps + 2(topics − 1) + large"
+    ]
+  },
+  "keyTakeaways": [
+    "Count.",
+    "Add.",
+    "Band.",
+    "Calibrate."
+  ],
+  "selfCheckQuestions": [
+    "Can I score a question?",
+    "Can I map to a time?",
+    "Can I spot a hidden topic?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Official instructions published by each test provider and employer",
+      "sourceType": "Official",
+      "referenceNote": "Exam patterns and rules change; this chapter teaches how to read and plan around the official instructions and quotes no company-specific figures."
+    }
+  ]
+}

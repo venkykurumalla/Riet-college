@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-rec-proctoring-compliance",
+  "topicTitle": "Online Proctoring Compliance",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The most reliable source for the proctoring rules of a test is",
+      "options": [
+        "a friend's account",
+        "the official instructions from the employer or provider",
+        "a forum post",
+        "last year's rules"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rules differ and change."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Before a proctored test you should",
+      "options": [
+        "read the rules and prepare ID, device, network and room",
+        "wait until the test starts",
+        "borrow an unfamiliar device",
+        "skip the identity check"
+      ],
+      "answerIndex": 0,
+      "explanation": "Preparation avoids avoidable problems."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "If the instructions say to keep your face in the camera frame, you should",
+      "options": [
+        "move away when thinking",
+        "cover the camera",
+        "switch the camera off",
+        "stay in frame throughout"
+      ],
+      "answerIndex": 3,
+      "explanation": "Follow the stated rule."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "May you photograph test questions to share later?",
+      "options": [
+        "Yes, if no one sees",
+        "Yes, after the test",
+        "No, it is a violation",
+        "Only the easy ones"
+      ],
+      "answerIndex": 2,
+      "explanation": "Capturing or sharing questions is not allowed."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "If your internet connection drops during the test, you should",
+      "options": [
+        "ignore it",
+        "ask a friend to log in",
+        "try to reconnect and report through the official support channel",
+        "restart the whole device without telling anyone"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use the official procedure."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Items on your desk during the test should be",
+      "options": [
+        "anything useful",
+        "only those the instructions permit",
+        "a phone for backup",
+        "notes you wrote"
+      ],
+      "answerIndex": 1,
+      "explanation": "Unpermitted items risk violations."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "If an instruction is unclear, you should",
+      "options": [
+        "ask the support channel before the test starts",
+        "guess what it means",
+        "ignore it",
+        "ask another candidate during the test"
+      ],
+      "answerIndex": 0,
+      "explanation": "Clarify before starting."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Why do integrity rules exist?",
+      "options": [
+        "To make tests harder",
+        "To save time",
+        "To confuse candidates",
+        "To keep results fair for all candidates"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fairness protects every candidate."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Identity verification is done to confirm that",
+      "options": [
+        "the device is expensive",
+        "the room is large",
+        "the questions are easy",
+        "the person taking the test is the registered candidate"
+      ],
+      "answerIndex": 3,
+      "explanation": "It confirms who is taking the test."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A noisy environment during a proctored test is best handled by",
+      "options": [
+        "ignoring the noise",
+        "asking others to be loud",
+        "choosing a quiet room beforehand",
+        "leaving the frame"
+      ],
+      "answerIndex": 2,
+      "explanation": "Prepare the space in advance."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "If someone enters the room during the test, you should",
+      "options": [
+        "talk with them at length",
+        "follow the instructions and report if required, without leaving the frame improperly",
+        "pass them the questions",
+        "switch off the camera"
+      ],
+      "answerIndex": 1,
+      "explanation": "Keep within the rules and use the official channel."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Logging in early on the test day helps because it",
+      "options": [
+        "leaves time for identity and system checks",
+        "gives extra test time",
+        "shows the questions",
+        "raises your score"
+      ],
+      "answerIndex": 0,
+      "explanation": "Early login absorbs setup delays."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Which action is a rule violation?",
+      "options": [
+        "Using unpermitted notes during the test",
+        "Reading the instructions",
+        "Using the permitted rough sheet",
+        "Asking support about a rule"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unpermitted materials break the rules."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Rough work on paper is allowed only if",
+      "options": [
+        "you decide it is fine",
+        "a friend says so",
+        "it is dark",
+        "the instructions permit it"
+      ],
+      "answerIndex": 3,
+      "explanation": "Follow the stated rules."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A technical problem occurs. What should you note for the support request?",
+      "options": [
+        "Nothing",
+        "The answers to questions",
+        "The time and what happened",
+        "Other candidates' names"
+      ],
+      "answerIndex": 2,
+      "explanation": "Time and symptom help support resolve the issue."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A candidate sees a question and posts it online to ask for help during the test. This is",
+      "options": [
+        "good teamwork",
+        "a serious integrity violation",
+        "allowed if anonymous",
+        "harmless"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sharing questions during a test is a violation."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The best practice for a trial run is to",
+      "options": [
+        "use a different device",
+        "use the official demo with the same device and network",
+        "skip it",
+        "practise only on paper"
+      ],
+      "answerIndex": 1,
+      "explanation": "A trial run reveals problems early."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "If the test requires the microphone, you should",
+      "options": [
+        "allow it as instructed and keep the room quiet",
+        "mute and hide it",
+        "cover it",
+        "ignore the rule"
+      ],
+      "answerIndex": 0,
+      "explanation": "Comply with stated requirements."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "After a rule violation is alleged, the best response is to",
+      "options": [
+        "hide evidence",
+        "argue with other candidates",
+        "delete messages",
+        "be honest and follow the official process"
+      ],
+      "answerIndex": 3,
+      "explanation": "Honest cooperation is the right course."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Honest compliance with proctoring rules mainly protects",
+      "options": [
+        "only the provider",
+        "only the employer",
+        "your own result and the fairness of the test",
+        "nobody"
+      ],
+      "answerIndex": 2,
+      "explanation": "It protects you and every other candidate."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

@@ -1,0 +1,422 @@
+{
+  "id": "y4-rec-speed-accuracy-tradeoff",
+  "yearId": 4,
+  "category": "Recruiter / Assessment Preparation",
+  "topicNumber": 44,
+  "title": "Speed vs Accuracy Trade-off Mastery",
+  "tagline": "Year 4 — Finding the pace that maximises score when faster means less accurate, with and without negative marking",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Going faster lets you attempt more questions but usually lowers accuracy; going slower raises accuracy but reduces attempts. The best pace is the one that maximises correct answers (minus penalties). If you measure your accuracy at several paces in mocks, you can compute the score for each and choose. This chapter uses a hypothetical accuracy table to teach the method: score = attempts × accuracy for no penalty, and attempts × (accuracy − penalty × (1 − accuracy)) with a penalty. The rules and figures used in examples are hypothetical teaching rules, not the policy of any real company or platform.",
+    "placementRelevance": "Finding your own optimal pace is the most personal and most valuable strategic exercise.",
+    "realWorldContext": "Balancing speed and quality is a standard trade-off in professional work."
+  },
+  "learningObjectives": [
+    "Compute attempts at a given pace",
+    "Compute expected correct answers and net marks",
+    "Compare paces and choose the best",
+    "See how penalties shift the best pace",
+    "Measure your own accuracy at different paces"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Accuracy Management Under Pressure",
+      "Performance Under Time Pressure"
+    ],
+    "quickRefresher": "Attempts = time ÷ pace. Correct = attempts × accuracy. Net = correct − penalty × wrong."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Pace: seconds per question.",
+      "Accuracy curve: accuracy at each pace.",
+      "Net marks: marks after penalties.",
+      "Optimal pace: pace with the highest net marks.",
+      "Sensitivity: how much the result changes with pace."
+    ],
+    "theoreticalIntuition": "The best pace balances two curves: more attempts and falling accuracy.",
+    "visualOrMentalModel": "For each pace compute attempts, correct and net; pick the highest."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Attempts",
+      "formula": "Time ÷ pace",
+      "description": "Each pace.",
+      "whenToUse": "Count.",
+      "simpleExample": "3,600 ÷ 75 = 48"
+    },
+    {
+      "title": "Correct",
+      "formula": "Attempts × accuracy",
+      "description": "Each pace.",
+      "whenToUse": "Marks.",
+      "simpleExample": "48 × 0.8"
+    },
+    {
+      "title": "Net",
+      "formula": "Correct − penalty × wrong",
+      "description": "Penalty.",
+      "whenToUse": "Score.",
+      "simpleExample": "38.4 − 2.4"
+    },
+    {
+      "title": "Compare",
+      "formula": "Highest net wins",
+      "description": "Choice.",
+      "whenToUse": "Decision.",
+      "simpleExample": "75 s"
+    },
+    {
+      "title": "Penalty effect",
+      "formula": "Higher penalty favours slower",
+      "description": "Planning.",
+      "whenToUse": "Shift.",
+      "simpleExample": "0.5 penalty"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Hypothetical accuracy table (3,600 seconds available): 60 s gives 70% accuracy, 75 s gives 80%, 90 s gives 88%, 120 s gives 92%.",
+      "Attempts: 60, 48, 40, 30. Correct: 42, 38.4, 35.2, 27.6. With no penalty, 60 s is best (42).",
+      "With penalty 0.25: net = correct − 0.25 × wrong: 60 s: 42 − 4.5 = 37.5; 75 s: 38.4 − 2.4 = 36; 90 s: 35.2 − 1.2 = 34; 120 s: 27.6 − 0.6 = 27. Still 60 s is best.",
+      "With penalty 1 (very high): 60 s: 42 − 18 = 24; 75 s: 38.4 − 9.6 = 28.8; 90 s: 35.2 − 4.8 = 30.4; 120 s: 27.6 − 2.4 = 25.2: 90 s is best.",
+      "Measure your own accuracy curve on mocks before choosing a pace."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Plateau",
+        "content": "Beyond a certain pace extra time barely raises accuracy."
+      },
+      {
+        "title": "Question mix",
+        "content": "Easy questions have a flatter curve; hard questions a steeper one."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Attempts",
+      "description": "Time ÷ pace.",
+      "exampleSnippet": "60 at 60 s"
+    },
+    {
+      "typeName": "Correct",
+      "description": "Attempts × accuracy.",
+      "exampleSnippet": "42"
+    },
+    {
+      "typeName": "Net",
+      "description": "With penalty.",
+      "exampleSnippet": "37.5"
+    },
+    {
+      "typeName": "Best pace",
+      "description": "Highest net.",
+      "exampleSnippet": "60 s"
+    },
+    {
+      "typeName": "High penalty",
+      "description": "Shift.",
+      "exampleSnippet": "90 s"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rec-speed-accuracy-tradeoff-1",
+      "title": "Attempts",
+      "question": "3,600 seconds at a pace of 75 s. Attempts?",
+      "givenInfo": [
+        "3,600",
+        "75"
+      ],
+      "conceptOrFormula": "Time ÷ pace.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Set up",
+          "explanation": "Attempts = time ÷ pace."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide",
+          "explanation": "3,600 ÷ 75 = 48."
+        }
+      ],
+      "finalAnswer": "48",
+      "whyItWorks": "Whole questions only.",
+      "commonTrap": "Using minutes.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rec-speed-accuracy-tradeoff-2",
+      "title": "Correct",
+      "question": "48 attempts at 80% accuracy. Correct answers?",
+      "givenInfo": [
+        "48",
+        "80%"
+      ],
+      "conceptOrFormula": "Multiply.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert",
+          "explanation": "80% = 0.8."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Multiply",
+          "explanation": "48 × 0.8 = 38.4."
+        }
+      ],
+      "finalAnswer": "38.4",
+      "whyItWorks": "Expected value.",
+      "commonTrap": "Using 80.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rec-speed-accuracy-tradeoff-3",
+      "title": "Net",
+      "question": "Correct 42 of 60 attempts, penalty 0.25. Net marks?",
+      "givenInfo": [
+        "42",
+        "18 wrong"
+      ],
+      "conceptOrFormula": "Subtract penalty.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Penalty",
+          "explanation": "18 × 0.25 = 4.5."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Net",
+          "explanation": "42 − 4.5 = 37.5."
+        }
+      ],
+      "finalAnswer": "37.5",
+      "whyItWorks": "Penalty reduces the score.",
+      "commonTrap": "Ignoring it.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Table and compare",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Go as fast as possible.",
+      "shortcutMethod": "Tabulate attempts, correct and net for each pace; pick the best; recompute if the penalty changes."
+    },
+    "rulesForApplication": [
+      "Attempts = time/pace.",
+      "Correct = attempts × accuracy.",
+      "Net with penalty.",
+      "Measure your curve."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Assuming faster is better",
+      "whyItHappens": "Accuracy drops.",
+      "howToAvoid": "Compare net."
+    },
+    {
+      "mistake": "Ignoring penalties",
+      "whyItHappens": "Wrong best.",
+      "howToAvoid": "Include them."
+    },
+    {
+      "mistake": "Using someone else's curve",
+      "whyItHappens": "Wrong pace.",
+      "howToAvoid": "Measure your own."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 15,
+    "eliminationTechnique": "Eliminate to raise accuracy at a fast pace.",
+    "questionSelectionAdvice": "Run mocks at two paces and compare.",
+    "recruiterInsight": "The best pace is personal."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rec-speed-accuracy-tradeoff-e1",
+        "question": "3,600 seconds at 60 s per question give attempts of",
+        "options": [
+          "66",
+          "60",
+          "54",
+          "75"
+        ],
+        "correctAnswer": "60",
+        "explanation": "3,600 ÷ 60 = 60.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-speed-accuracy-tradeoff-e2",
+        "question": "3,600 seconds at 75 s per question give attempts of",
+        "options": [
+          "48",
+          "53",
+          "43",
+          "60"
+        ],
+        "correctAnswer": "48",
+        "explanation": "3,600 ÷ 75 = 48.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-speed-accuracy-tradeoff-e3",
+        "question": "3,600 seconds at 90 s per question give attempts of",
+        "options": [
+          "44",
+          "36",
+          "50",
+          "40"
+        ],
+        "correctAnswer": "40",
+        "explanation": "3,600 ÷ 90 = 40.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rec-speed-accuracy-tradeoff-i7",
+        "question": "40 attempts at 88% accuracy give correct answers of (one decimal)",
+        "options": [
+          "35.2",
+          "38.7",
+          "31.7",
+          "44"
+        ],
+        "correctAnswer": "35.2",
+        "explanation": "40 × 0.88 = 35.2.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-speed-accuracy-tradeoff-i8",
+        "question": "30 attempts at 92% accuracy give correct answers of (one decimal)",
+        "options": [
+          "30.4",
+          "24.8",
+          "34.5",
+          "27.6"
+        ],
+        "correctAnswer": "27.6",
+        "explanation": "30 × 0.92 = 27.6.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-speed-accuracy-tradeoff-i9",
+        "question": "With no penalty, which pace gives the most correct answers?",
+        "options": [
+          "75 s",
+          "90 s",
+          "120 s",
+          "60 s"
+        ],
+        "correctAnswer": "60 s",
+        "explanation": "Correct answers: 42, 38.4, 35.2, 27.6; the highest is 42 at 60 s.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rec-speed-accuracy-tradeoff-a15",
+        "question": "At 60 s with penalty 1, the net marks are (one decimal)",
+        "options": [
+          "26.4",
+          "21.6",
+          "24",
+          "30"
+        ],
+        "correctAnswer": "24",
+        "explanation": "42 − 18 = 24.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-speed-accuracy-tradeoff-a16",
+        "question": "At 90 s with penalty 1, the net marks are (one decimal)",
+        "options": [
+          "33.4",
+          "30.4",
+          "27.4",
+          "38"
+        ],
+        "correctAnswer": "30.4",
+        "explanation": "35.2 − 4.8 = 30.4.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rec-speed-accuracy-tradeoff-p17",
+        "question": "At 75 s with penalty 1, the net marks are (one decimal)",
+        "options": [
+          "31.7",
+          "28.8",
+          "25.9",
+          "36"
+        ],
+        "correctAnswer": "28.8",
+        "explanation": "38.4 − 9.6 = 28.8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-speed-accuracy-tradeoff-p18",
+        "question": "With penalty 1, the best pace is",
+        "options": [
+          "90 s",
+          "60 s",
+          "75 s",
+          "120 s"
+        ],
+        "correctAnswer": "90 s",
+        "explanation": "Net marks at 60, 75, 90, 120 s: 24, 28.8, 30.4, 25.2; the highest is at 90 s.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-speed-accuracy-tradeoff-p19",
+        "question": "As the penalty grows, the best pace tends to become",
+        "options": [
+          "faster",
+          "unchanged",
+          "random",
+          "slower"
+        ],
+        "correctAnswer": "slower",
+        "explanation": "Higher penalties reward accuracy over attempts.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Attempts.",
+      "Correct.",
+      "Net.",
+      "Compare.",
+      "Penalty shift."
+    ],
+    "quickFormulas": [
+      "Net = correct − penalty × wrong"
+    ]
+  },
+  "keyTakeaways": [
+    "Tabulate.",
+    "Compare net.",
+    "Include penalty.",
+    "Personalise."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute attempts?",
+    "Can I compute net marks?",
+    "Can I choose a pace?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Official instructions published by each test provider and employer",
+      "sourceType": "Official",
+      "referenceNote": "Exam patterns and rules change; this chapter teaches how to read and plan around the official instructions and quotes no company-specific figures."
+    }
+  ]
+}

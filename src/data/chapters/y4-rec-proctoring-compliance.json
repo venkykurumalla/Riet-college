@@ -1,0 +1,419 @@
+{
+  "id": "y4-rec-proctoring-compliance",
+  "yearId": 4,
+  "category": "Recruiter / Assessment Preparation",
+  "topicNumber": 45,
+  "title": "Online Proctoring Compliance",
+  "tagline": "Year 4 — Following proctoring instructions: identity checks, camera and microphone, environment, devices and what to do when something goes wrong",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Many online assessments are proctored: the test provider checks identity, may watch through the camera and screen, and records the session. The rules differ between employers and providers, so the only reliable guide is the official instructions. In general, compliance means: verify your identity as instructed, set up a quiet and tidy space, keep to the permitted devices and materials, stay in the camera frame if required, do not share or capture questions, and report technical problems through the official channel. Honesty and compliance protect you; violations can disqualify you. The rules and figures used in examples are hypothetical teaching rules, not the policy of any real company or platform.",
+    "placementRelevance": "A technical or rule violation can end an attempt regardless of the score.",
+    "realWorldContext": "Following procedure in a regulated process is a professional expectation."
+  },
+  "learningObjectives": [
+    "Prepare identity documents and environment",
+    "Follow device and material rules",
+    "Behave in line with camera and screen rules",
+    "Handle technical problems correctly",
+    "Understand why integrity rules exist"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Online Assessment Platforms",
+      "Platform-Specific Strategies"
+    ],
+    "quickRefresher": "When in doubt, follow the official instructions or ask the designated support channel before the test starts."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Proctoring: supervision of a test, live or recorded.",
+      "Identity verification: showing that you are the candidate.",
+      "Permitted materials: items the instructions allow.",
+      "Violation: breaking a stated rule.",
+      "Support channel: the official way to report problems."
+    ],
+    "theoreticalIntuition": "Proctoring is about trust; clear compliance protects your result.",
+    "visualOrMentalModel": "Before: read the rules, prepare ID and space. During: stay within rules. After a problem: stop and use the support channel."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Before",
+      "formula": "Rules, ID, space, device, power",
+      "description": "Preparation.",
+      "whenToUse": "Checklist.",
+      "simpleExample": "Day before"
+    },
+    {
+      "title": "During",
+      "formula": "Stay in frame, no other tools",
+      "description": "Test.",
+      "whenToUse": "Behaviour.",
+      "simpleExample": "As instructed"
+    },
+    {
+      "title": "Problem",
+      "formula": "Stop, note, report",
+      "description": "Technical.",
+      "whenToUse": "Procedure.",
+      "simpleExample": "Support channel"
+    },
+    {
+      "title": "Integrity",
+      "formula": "Do not share questions",
+      "description": "Always.",
+      "whenToUse": "Principle.",
+      "simpleExample": "Never"
+    },
+    {
+      "title": "Doubt",
+      "formula": "Ask before starting",
+      "description": "Unclear rule.",
+      "whenToUse": "Action.",
+      "simpleExample": "Support"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The day before: read the instructions, charge the device, check the network, prepare identity documents, and choose a quiet room.",
+      "On the day: log in early, complete identity checks as instructed, clear the desk of unauthorised items, and keep your face in the frame if the instructions require it.",
+      "If the connection drops: do not try to improvise. Reconnect if possible and report through the official support channel immediately, noting the time and the problem.",
+      "Do not photograph, copy or share questions: it is a violation and unfair to others.",
+      "If an instruction is unclear, ask the support channel before the test starts."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Why integrity rules exist",
+        "content": "They make results fair for all candidates and keep tests usable for employers."
+      },
+      {
+        "title": "Privacy",
+        "content": "Read what the provider records and why; it is stated in the instructions."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Preparation",
+      "description": "Checklist.",
+      "exampleSnippet": "ID, device, room"
+    },
+    {
+      "typeName": "Behaviour",
+      "description": "During the test.",
+      "exampleSnippet": "In frame"
+    },
+    {
+      "typeName": "Technical problem",
+      "description": "Report.",
+      "exampleSnippet": "Support channel"
+    },
+    {
+      "typeName": "Integrity",
+      "description": "No sharing.",
+      "exampleSnippet": "Never"
+    },
+    {
+      "typeName": "Doubt",
+      "description": "Ask first.",
+      "exampleSnippet": "Before the test"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rec-proctoring-compliance-1",
+      "title": "Preparation",
+      "question": "What should you do the day before a proctored test?",
+      "givenInfo": [
+        "Proctored"
+      ],
+      "conceptOrFormula": "Checklist.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Read",
+          "explanation": "The official instructions."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Prepare",
+          "explanation": "ID, charged device, network, quiet room."
+        }
+      ],
+      "finalAnswer": "Read the rules and prepare ID, device, network and room",
+      "whyItWorks": "Avoid surprises.",
+      "commonTrap": "Leaving it to the day.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rec-proctoring-compliance-2",
+      "title": "Problem",
+      "question": "The connection drops mid-test. What is the right action?",
+      "givenInfo": [
+        "Technical issue"
+      ],
+      "conceptOrFormula": "Procedure.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "explanation": "Try to reconnect."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "explanation": "Report through the official support channel with the time."
+        }
+      ],
+      "finalAnswer": "Reconnect if possible and report through the official support channel",
+      "whyItWorks": "Do not improvise.",
+      "commonTrap": "Ignoring it.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rec-proctoring-compliance-3",
+      "title": "Integrity",
+      "question": "May you photograph a question to discuss later?",
+      "givenInfo": [
+        "Question capture"
+      ],
+      "conceptOrFormula": "Rule.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Check the rule",
+          "explanation": "Capturing questions is not permitted."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Result",
+          "explanation": "It is a violation, so the answer is no."
+        }
+      ],
+      "finalAnswer": "No",
+      "whyItWorks": "It is unfair and can disqualify.",
+      "commonTrap": "Assuming it is harmless.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Prepare, comply, report",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Improvise on the day.",
+      "shortcutMethod": "Read the rules, prepare ID and space, follow them during the test, and report problems through the official channel."
+    },
+    "rulesForApplication": [
+      "Official rules.",
+      "Stay in frame.",
+      "No sharing.",
+      "Report problems."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Not reading the rules",
+      "whyItHappens": "Violation.",
+      "howToAvoid": "Read them fully."
+    },
+    {
+      "mistake": "Using an unpermitted item",
+      "whyItHappens": "Disqualification risk.",
+      "howToAvoid": "Keep the desk clear."
+    },
+    {
+      "mistake": "Improvising on a technical issue",
+      "whyItHappens": "Worse outcome.",
+      "howToAvoid": "Use the support channel."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 5,
+    "eliminationTechnique": "N/A: integrity beats speed.",
+    "questionSelectionAdvice": "Do a trial run with the official demo.",
+    "recruiterInsight": "Honest compliance protects your result."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rec-proctoring-compliance-e1",
+        "question": "The most reliable source for the proctoring rules of a test is",
+        "options": [
+          "a friend's account",
+          "the official instructions from the employer or provider",
+          "a forum post",
+          "last year's rules"
+        ],
+        "correctAnswer": "the official instructions from the employer or provider",
+        "explanation": "Rules differ and change.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-proctoring-compliance-e2",
+        "question": "Before a proctored test you should",
+        "options": [
+          "read the rules and prepare ID, device, network and room",
+          "wait until the test starts",
+          "borrow an unfamiliar device",
+          "skip the identity check"
+        ],
+        "correctAnswer": "read the rules and prepare ID, device, network and room",
+        "explanation": "Preparation avoids avoidable problems.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-proctoring-compliance-e3",
+        "question": "If the instructions say to keep your face in the camera frame, you should",
+        "options": [
+          "move away when thinking",
+          "cover the camera",
+          "switch the camera off",
+          "stay in frame throughout"
+        ],
+        "correctAnswer": "stay in frame throughout",
+        "explanation": "Follow the stated rule.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rec-proctoring-compliance-i7",
+        "question": "If an instruction is unclear, you should",
+        "options": [
+          "ask the support channel before the test starts",
+          "guess what it means",
+          "ignore it",
+          "ask another candidate during the test"
+        ],
+        "correctAnswer": "ask the support channel before the test starts",
+        "explanation": "Clarify before starting.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-proctoring-compliance-i8",
+        "question": "Why do integrity rules exist?",
+        "options": [
+          "To make tests harder",
+          "To save time",
+          "To confuse candidates",
+          "To keep results fair for all candidates"
+        ],
+        "correctAnswer": "To keep results fair for all candidates",
+        "explanation": "Fairness protects every candidate.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-proctoring-compliance-i9",
+        "question": "Identity verification is done to confirm that",
+        "options": [
+          "the device is expensive",
+          "the room is large",
+          "the questions are easy",
+          "the person taking the test is the registered candidate"
+        ],
+        "correctAnswer": "the person taking the test is the registered candidate",
+        "explanation": "It confirms who is taking the test.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rec-proctoring-compliance-a15",
+        "question": "A technical problem occurs. What should you note for the support request?",
+        "options": [
+          "Nothing",
+          "The answers to questions",
+          "The time and what happened",
+          "Other candidates' names"
+        ],
+        "correctAnswer": "The time and what happened",
+        "explanation": "Time and symptom help support resolve the issue.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-proctoring-compliance-a16",
+        "question": "A candidate sees a question and posts it online to ask for help during the test. This is",
+        "options": [
+          "good teamwork",
+          "a serious integrity violation",
+          "allowed if anonymous",
+          "harmless"
+        ],
+        "correctAnswer": "a serious integrity violation",
+        "explanation": "Sharing questions during a test is a violation.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rec-proctoring-compliance-p17",
+        "question": "The best practice for a trial run is to",
+        "options": [
+          "use a different device",
+          "use the official demo with the same device and network",
+          "skip it",
+          "practise only on paper"
+        ],
+        "correctAnswer": "use the official demo with the same device and network",
+        "explanation": "A trial run reveals problems early.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-proctoring-compliance-p18",
+        "question": "If the test requires the microphone, you should",
+        "options": [
+          "allow it as instructed and keep the room quiet",
+          "mute and hide it",
+          "cover it",
+          "ignore the rule"
+        ],
+        "correctAnswer": "allow it as instructed and keep the room quiet",
+        "explanation": "Comply with stated requirements.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-proctoring-compliance-p19",
+        "question": "After a rule violation is alleged, the best response is to",
+        "options": [
+          "hide evidence",
+          "argue with other candidates",
+          "delete messages",
+          "be honest and follow the official process"
+        ],
+        "correctAnswer": "be honest and follow the official process",
+        "explanation": "Honest cooperation is the right course.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Prepare.",
+      "Rules.",
+      "Frame.",
+      "Report.",
+      "Integrity."
+    ],
+    "quickFormulas": [
+      "Rules first"
+    ]
+  },
+  "keyTakeaways": [
+    "Read rules.",
+    "Prepare.",
+    "Comply.",
+    "Report."
+  ],
+  "selfCheckQuestions": [
+    "Can I prepare for a proctored test?",
+    "Can I handle a technical problem?",
+    "Can I explain why rules exist?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Official instructions published by each test provider and employer",
+      "sourceType": "Official",
+      "referenceNote": "Exam patterns and rules change; this chapter teaches how to read and plan around the official instructions and quotes no company-specific figures."
+    }
+  ]
+}

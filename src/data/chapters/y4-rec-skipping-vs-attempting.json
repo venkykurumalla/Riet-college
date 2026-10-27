@@ -1,0 +1,420 @@
+{
+  "id": "y4-rec-skipping-vs-attempting",
+  "yearId": 4,
+  "category": "Recruiter / Assessment Preparation",
+  "topicNumber": 43,
+  "title": "Skip or Attempt Decision Framework",
+  "tagline": "Year 4 — A five-question checklist for deciding in ten seconds whether to attempt, eliminate-and-guess, or skip",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "The decision to attempt or skip should be quick and rule-based. A five-question checklist works: (1) Do I recognise the type? (2) Is the estimated time within twice my pace? (3) Is my chance of being right above the break-even chance? (4) Can I eliminate options? (5) Is there a quicker question waiting? Each \"no\" pushes towards skipping; two or more \"no\" answers mean skip or guess by elimination. The rules and figures used in examples are hypothetical teaching rules, not the policy of any real company or platform.",
+    "placementRelevance": "Disciplined skipping is the main difference between candidates of similar ability.",
+    "realWorldContext": "Saying no to low-value tasks is a time-management skill."
+  },
+  "learningObjectives": [
+    "Apply the five-question checklist",
+    "Compute break-even and compare with your chance",
+    "Decide between attempt, eliminate-and-guess and skip",
+    "Handle sectional and no-return rules",
+    "Review decisions after a mock"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Difficulty Level Recognition",
+      "Negative Marking Strategy"
+    ],
+    "quickRefresher": "Break-even chance = penalty ÷ (marks + penalty). Skip threshold = twice your average pace."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Checklist: a fixed list of questions asked of each question.",
+      "Attempt: solve fully.",
+      "Eliminate-and-guess: remove options and pick.",
+      "Skip: leave it (and return if allowed).",
+      "Break-even chance: the minimum worthwhile chance."
+    ],
+    "theoreticalIntuition": "A fixed checklist removes emotion from the decision.",
+    "visualOrMentalModel": "Ask the five questions in ten seconds; count the \"no\" answers."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Break-even",
+      "formula": "n ÷ (m + n)",
+      "description": "Penalty.",
+      "whenToUse": "Threshold.",
+      "simpleExample": "20%"
+    },
+    {
+      "title": "Time test",
+      "formula": "Estimate ≤ 2 × pace",
+      "description": "Time.",
+      "whenToUse": "Check.",
+      "simpleExample": "≤ 160 s"
+    },
+    {
+      "title": "Expected value",
+      "formula": "pm − (1 − p)n",
+      "description": "Guess.",
+      "whenToUse": "Value.",
+      "simpleExample": "0.25"
+    },
+    {
+      "title": "Decision rule",
+      "formula": "0–1 no: attempt; 2+ no: skip/guess",
+      "description": "Checklist.",
+      "whenToUse": "Rule.",
+      "simpleExample": "2 no"
+    },
+    {
+      "title": "After-mock review",
+      "formula": "Count wrong skips",
+      "description": "Review.",
+      "whenToUse": "Tune.",
+      "simpleExample": "Weekly"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A question you recognise, estimated at 100 seconds with a 75-second pace (threshold 150 s), with a 70% chance and penalty 0.25: attempt.",
+      "A question you do not recognise, estimated at 200 seconds, with chance 25% and elimination possible for two options: two or more \"no\" answers, so eliminate and guess or skip.",
+      "With break-even 20% and chance 15%, skip unless you can eliminate options to lift the chance.",
+      "Under no return, convert \"skip\" into \"eliminate and answer\" if there is no penalty.",
+      "After each mock, count questions you skipped that you could have solved, and tune."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Overconfidence",
+        "content": "Check your actual accuracy on similar questions to calibrate p."
+      },
+      {
+        "title": "Anxiety skips",
+        "content": "Skipping because a question looks long, not because it is, loses easy marks; apply the checklist."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Recognise",
+      "description": "Type known?",
+      "exampleSnippet": "Yes"
+    },
+    {
+      "typeName": "Time",
+      "description": "Within threshold?",
+      "exampleSnippet": "100 vs 150"
+    },
+    {
+      "typeName": "Chance",
+      "description": "Above break-even?",
+      "exampleSnippet": "70% vs 20%"
+    },
+    {
+      "typeName": "Eliminate",
+      "description": "Possible?",
+      "exampleSnippet": "Two options"
+    },
+    {
+      "typeName": "Alternative",
+      "description": "Quicker question?",
+      "exampleSnippet": "Next one"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rec-skipping-vs-attempting-1",
+      "title": "Time test",
+      "question": "Pace 75 s, estimate 100 s. Within the twice-pace threshold?",
+      "givenInfo": [
+        "75",
+        "100"
+      ],
+      "conceptOrFormula": "Compare.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Threshold",
+          "explanation": "2 × 75 = 150."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compare",
+          "explanation": "100 ≤ 150: yes."
+        }
+      ],
+      "finalAnswer": "Yes",
+      "whyItWorks": "Attempt.",
+      "commonTrap": "Using pace.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rec-skipping-vs-attempting-2",
+      "title": "Break-even",
+      "question": "Marks 1, penalty 0.25. Your chance is 15%. Attempt blindly?",
+      "givenInfo": [
+        "15%"
+      ],
+      "conceptOrFormula": "Compare.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Break-even",
+          "explanation": "20%."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compare",
+          "explanation": "15% < 20%."
+        }
+      ],
+      "finalAnswer": "No, below break-even",
+      "whyItWorks": "Eliminate to raise it.",
+      "commonTrap": "Guessing anyway.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rec-skipping-vs-attempting-3",
+      "title": "Decision",
+      "question": "Two \"no\" answers in the checklist. What do you do?",
+      "givenInfo": [
+        "2 no"
+      ],
+      "conceptOrFormula": "Rule.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Count",
+          "explanation": "Two answers are no."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Rule",
+          "explanation": "2+ no means skip or eliminate-and-guess."
+        }
+      ],
+      "finalAnswer": "Skip or eliminate and guess",
+      "whyItWorks": "Do not solve fully.",
+      "commonTrap": "Attempting fully.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Five questions",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Gut feeling.",
+      "shortcutMethod": "Ask: recognise? time? chance? eliminate? quicker one waiting? Two or more \"no\" means skip or guess."
+    },
+    "rulesForApplication": [
+      "Break-even first.",
+      "Time threshold.",
+      "Eliminate.",
+      "Review skips."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Gut-feel skips",
+      "whyItHappens": "Missed marks.",
+      "howToAvoid": "Use the checklist."
+    },
+    {
+      "mistake": "Attempting everything",
+      "whyItHappens": "Time lost.",
+      "howToAvoid": "Skip low-chance items."
+    },
+    {
+      "mistake": "Not reviewing skips",
+      "whyItHappens": "No learning.",
+      "howToAvoid": "Review after mocks."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 10,
+    "eliminationTechnique": "Eliminate before skipping.",
+    "questionSelectionAdvice": "Practise the checklist on mock questions.",
+    "recruiterInsight": "A rule beats a mood."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rec-skipping-vs-attempting-e1",
+        "question": "The twice-pace skip threshold for a pace of 75 seconds is (seconds)",
+        "options": [
+          "165",
+          "150",
+          "135",
+          "188"
+        ],
+        "correctAnswer": "150",
+        "explanation": "2 × 75 = 150.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-skipping-vs-attempting-e2",
+        "question": "For marks 1 and penalty 0.25 the break-even chance (%) is",
+        "options": [
+          "20%",
+          "22%",
+          "18%",
+          "25%"
+        ],
+        "correctAnswer": "20%",
+        "explanation": "0.25 ÷ 1.25 = 20%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rec-skipping-vs-attempting-e3",
+        "question": "Pace 75 s, estimated time 100 s: is the time test passed?",
+        "options": [
+          "No",
+          "Only if the question is easy",
+          "Cannot be decided",
+          "Yes"
+        ],
+        "correctAnswer": "Yes",
+        "explanation": "100 ≤ 150.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rec-skipping-vs-attempting-i7",
+        "question": "Expected marks with chance 0.7, marks 1, penalty 0.25 are",
+        "options": [
+          "0.625",
+          "0.688",
+          "0.563",
+          "0.781"
+        ],
+        "correctAnswer": "0.625",
+        "explanation": "0.7 − 0.075 = 0.625.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-skipping-vs-attempting-i8",
+        "question": "Expected marks with chance 0.15, marks 1, penalty 0.25 are (three decimals)",
+        "options": [
+          "-0.0687",
+          "-0.0562",
+          "-0.0781",
+          "-0.0625"
+        ],
+        "correctAnswer": "-0.0625",
+        "explanation": "0.15 − 0.2125 = −0.0625.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rec-skipping-vs-attempting-i9",
+        "question": "A checklist gives two \"no\" answers. The rule says",
+        "options": [
+          "attempt fully",
+          "abandon the test",
+          "ask the invigilator",
+          "skip or eliminate and guess"
+        ],
+        "correctAnswer": "skip or eliminate and guess",
+        "explanation": "2+ \"no\" answers mean do not solve fully.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rec-skipping-vs-attempting-a15",
+        "question": "Between those two questions, which should be attempted first?",
+        "options": [
+          "The 100-second question",
+          "They are equal",
+          "The 45-second question",
+          "Neither"
+        ],
+        "correctAnswer": "The 45-second question",
+        "explanation": "0.667 beats 0.375 per minute.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-skipping-vs-attempting-a16",
+        "question": "A candidate skipped 6 questions in a mock; 4 of them could have been solved in under 90 seconds. The percentage of skips that were wrong is",
+        "options": [
+          "73.4%",
+          "66.7%",
+          "60%",
+          "83.4%"
+        ],
+        "correctAnswer": "66.7%",
+        "explanation": "4 ÷ 6 = 66.7%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rec-skipping-vs-attempting-p17",
+        "question": "A candidate who skips only because a question looks long should",
+        "options": [
+          "skip all long questions",
+          "estimate the steps before skipping",
+          "attempt all long questions",
+          "guess at once"
+        ],
+        "correctAnswer": "estimate the steps before skipping",
+        "explanation": "Length is not difficulty; count the steps.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-skipping-vs-attempting-p18",
+        "question": "Marks 4 and penalty 1: the break-even chance (%) is",
+        "options": [
+          "20%",
+          "22%",
+          "18%",
+          "25%"
+        ],
+        "correctAnswer": "20%",
+        "explanation": "1 ÷ 5 = 20%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rec-skipping-vs-attempting-p19",
+        "question": "With chance 0.3, marks 4, penalty 1, the expected marks are",
+        "options": [
+          "0.55",
+          "0.45",
+          "0.63",
+          "0.5"
+        ],
+        "correctAnswer": "0.5",
+        "explanation": "1.2 − 0.7 = 0.5.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Five questions.",
+      "Break-even.",
+      "Time.",
+      "Eliminate.",
+      "Review."
+    ],
+    "quickFormulas": [
+      "Break-even = n/(m + n)"
+    ]
+  },
+  "keyTakeaways": [
+    "Checklist.",
+    "Thresholds.",
+    "Eliminate.",
+    "Review."
+  ],
+  "selfCheckQuestions": [
+    "Can I run the checklist?",
+    "Can I compute break-even?",
+    "Can I decide fast?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Official instructions published by each test provider and employer",
+      "sourceType": "Official",
+      "referenceNote": "Exam patterns and rules change; this chapter teaches how to read and plan around the official instructions and quotes no company-specific figures."
+    }
+  ]
+}

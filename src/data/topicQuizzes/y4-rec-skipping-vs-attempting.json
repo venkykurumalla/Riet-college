@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-rec-skipping-vs-attempting",
+  "topicTitle": "Skip or Attempt Decision Framework",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The twice-pace skip threshold for a pace of 75 seconds is (seconds)",
+      "options": [
+        "165",
+        "150",
+        "135",
+        "188"
+      ],
+      "answerIndex": 1,
+      "explanation": "2 × 75 = 150."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "For marks 1 and penalty 0.25 the break-even chance (%) is",
+      "options": [
+        "20%",
+        "22%",
+        "18%",
+        "25%"
+      ],
+      "answerIndex": 0,
+      "explanation": "0.25 ÷ 1.25 = 20%."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Pace 75 s, estimated time 100 s: is the time test passed?",
+      "options": [
+        "No",
+        "Only if the question is easy",
+        "Cannot be decided",
+        "Yes"
+      ],
+      "answerIndex": 3,
+      "explanation": "100 ≤ 150."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Pace 75 s, estimated time 200 s: is the time test passed?",
+      "options": [
+        "Yes",
+        "Only with elimination",
+        "No",
+        "Cannot be decided"
+      ],
+      "answerIndex": 2,
+      "explanation": "200 > 150."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Chance 15% and break-even 20%: attempt blindly?",
+      "options": [
+        "Yes",
+        "Only at night",
+        "No",
+        "Always"
+      ],
+      "answerIndex": 2,
+      "explanation": "15% is below break-even."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Chance 70% and break-even 20%: attempt?",
+      "options": [
+        "No",
+        "Yes",
+        "Only if long",
+        "Skip"
+      ],
+      "answerIndex": 1,
+      "explanation": "70% is above break-even."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Expected marks with chance 0.7, marks 1, penalty 0.25 are",
+      "options": [
+        "0.625",
+        "0.688",
+        "0.563",
+        "0.781"
+      ],
+      "answerIndex": 0,
+      "explanation": "0.7 − 0.075 = 0.625."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Expected marks with chance 0.15, marks 1, penalty 0.25 are (three decimals)",
+      "options": [
+        "-0.0687",
+        "-0.0562",
+        "-0.0781",
+        "-0.0625"
+      ],
+      "answerIndex": 3,
+      "explanation": "0.15 − 0.2125 = −0.0625."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A checklist gives two \"no\" answers. The rule says",
+      "options": [
+        "attempt fully",
+        "abandon the test",
+        "ask the invigilator",
+        "skip or eliminate and guess"
+      ],
+      "answerIndex": 3,
+      "explanation": "2+ \"no\" answers mean do not solve fully."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A checklist gives zero \"no\" answers. The rule says",
+      "options": [
+        "skip",
+        "guess",
+        "attempt",
+        "flag only"
+      ],
+      "answerIndex": 2,
+      "explanation": "All five yes: attempt."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "With 2 options eliminated (chance 50%), marks 1, penalty 0.25, the expected marks are",
+      "options": [
+        "0.413",
+        "0.375",
+        "0.338",
+        "0.469"
+      ],
+      "answerIndex": 1,
+      "explanation": "0.5 − 0.125 = 0.375."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Under no return and no penalty, a \"skip\" should become",
+      "options": [
+        "eliminate and answer",
+        "leave blank",
+        "solve for 5 minutes",
+        "ignore"
+      ],
+      "answerIndex": 0,
+      "explanation": "A blank earns nothing and a guess costs nothing."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A question needing 100 s with expected marks 0.625 has a rate per minute of (two decimals)",
+      "options": [
+        "0.375",
+        "0.413",
+        "0.338",
+        "0.469"
+      ],
+      "answerIndex": 0,
+      "explanation": "0.625 ÷ 1.667 = 0.375."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A quicker question needing 45 s with expected marks 0.5 has a rate per minute of",
+      "options": [
+        "0.734",
+        "0.6",
+        "0.834",
+        "0.667"
+      ],
+      "answerIndex": 3,
+      "explanation": "0.5 ÷ 0.75 = 0.667."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Between those two questions, which should be attempted first?",
+      "options": [
+        "The 100-second question",
+        "They are equal",
+        "The 45-second question",
+        "Neither"
+      ],
+      "answerIndex": 2,
+      "explanation": "0.667 beats 0.375 per minute."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A candidate skipped 6 questions in a mock; 4 of them could have been solved in under 90 seconds. The percentage of skips that were wrong is",
+      "options": [
+        "73.4%",
+        "66.7%",
+        "60%",
+        "83.4%"
+      ],
+      "answerIndex": 1,
+      "explanation": "4 ÷ 6 = 66.7%."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A candidate who skips only because a question looks long should",
+      "options": [
+        "skip all long questions",
+        "estimate the steps before skipping",
+        "attempt all long questions",
+        "guess at once"
+      ],
+      "answerIndex": 1,
+      "explanation": "Length is not difficulty; count the steps."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Marks 4 and penalty 1: the break-even chance (%) is",
+      "options": [
+        "20%",
+        "22%",
+        "18%",
+        "25%"
+      ],
+      "answerIndex": 0,
+      "explanation": "1 ÷ 5 = 20%."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "With chance 0.3, marks 4, penalty 1, the expected marks are",
+      "options": [
+        "0.55",
+        "0.45",
+        "0.63",
+        "0.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "1.2 − 0.7 = 0.5."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "After a mock, the most useful review of skipped questions is to",
+      "options": [
+        "count how many you skipped only",
+        "forget them",
+        "check which could have been solved within the threshold",
+        "redo only the hardest"
+      ],
+      "answerIndex": 2,
+      "explanation": "Review tunes your decision rule."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}
