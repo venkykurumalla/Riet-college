@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-di-flow-chart-di",
+  "topicTitle": "Flow Chart and Network DI",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nHow many units does the factory send to W2?",
+      "options": [
+        "198",
+        "180",
+        "162",
+        "225"
+      ],
+      "answerIndex": 1,
+      "explanation": "The arrow F to W2 shows 180. The answer is 180."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nHow many units does the factory produce and send in total?",
+      "options": [
+        "400",
+        "440",
+        "360",
+        "500"
+      ],
+      "answerIndex": 0,
+      "explanation": "120 + 180 + 100 = 400. The answer is 400."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nHow many units go from W1 to S2?",
+      "options": [
+        "44",
+        "36",
+        "50",
+        "40"
+      ],
+      "answerIndex": 3,
+      "explanation": "The arrow W1 to S2 shows 40. The answer is 40."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nHow many units does S2 receive in total?",
+      "options": [
+        "121",
+        "99",
+        "110",
+        "138"
+      ],
+      "answerIndex": 2,
+      "explanation": "S2 receives 40 from W1 and 70 from W2: 110. The answer is 110."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nHow many units does S1 receive in total?",
+      "options": [
+        "66",
+        "54",
+        "60",
+        "75"
+      ],
+      "answerIndex": 2,
+      "explanation": "Only W1 supplies S1: 60. The answer is 60."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nHow many units are lost at W1?",
+      "options": [
+        "22",
+        "20",
+        "18",
+        "25"
+      ],
+      "answerIndex": 1,
+      "explanation": "W1 receives 120 and ships 60 + 40 = 100, so 120 − 100 = 20 are lost. The answer is 20."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nWhat is the total number of units received by all four stores?",
+      "options": [
+        "360",
+        "396",
+        "324",
+        "450"
+      ],
+      "answerIndex": 0,
+      "explanation": "60 + 110 + 90 + 100 = 360. The answer is 360."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nWhat is the total number of units lost at the three warehouses?",
+      "options": [
+        "44",
+        "36",
+        "50",
+        "40"
+      ],
+      "answerIndex": 3,
+      "explanation": "Losses: W1 20, W2 10, W3 10; total 40. The answer is 40."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nWhat percentage of the units produced is lost?",
+      "options": [
+        "11%",
+        "9%",
+        "12.5%",
+        "10%"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total loss = 40 out of 400 produced: 40 ÷ 400 = 10%. The answer is 10%."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nWhat is the ratio of units received by S1 to those received by S4?",
+      "options": [
+        "5 : 3",
+        "61 : 100",
+        "3 : 5",
+        "10 : 17"
+      ],
+      "answerIndex": 2,
+      "explanation": "S1 receives 60 and S4 receives 100; the HCF is 20. The ratio is 3 : 5."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nWhich warehouse ships out the largest number of units?",
+      "options": [
+        "W1",
+        "W2",
+        "W3",
+        "W1 and W3 equally"
+      ],
+      "answerIndex": 1,
+      "explanation": "Outflows are W1 100, W2 170 and W3 90, so W2 ships the most. Answer: W2."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nWhat percentage of W2's shipments goes to S2 (to one decimal place)?",
+      "options": [
+        "41.2%",
+        "45.3%",
+        "37.1%",
+        "51.5%"
+      ],
+      "answerIndex": 0,
+      "explanation": "W2 ships 170 in all; 70 of them go to S2: 70 ÷ 170 = 41.2%. The answer is 41.2%."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nWhat is the shortest distance from A to F (in km)?",
+      "options": [
+        "13 km",
+        "15 km",
+        "11 km",
+        "18 km"
+      ],
+      "answerIndex": 0,
+      "explanation": "Checking the routes, the shortest is A–C–B–D–E–F = 13 km. Answer: 13 km."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nWhich route from A to F is the shortest?",
+      "options": [
+        "A–B–D–F",
+        "A–C–D–F",
+        "A–B–D–E–F",
+        "A–C–B–D–E–F"
+      ],
+      "answerIndex": 3,
+      "explanation": "The route A–C–B–D–E–F totals 13 km, which is shorter than A–B–D–F (15 km), A–C–D–F (16 km) and A–B–D–E–F (16 km). Answer: A–C–B–D–E–F."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nWhat is the length of the route A–B–D–F (in km)?",
+      "options": [
+        "17",
+        "14",
+        "15",
+        "19"
+      ],
+      "answerIndex": 2,
+      "explanation": "4 + 5 + 6 = 15. The answer is 15."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nBy how many km is the route A–B–D–F longer than the shortest route from A to F?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "15 − 13 = 2. The answer is 2."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nHow many different routes (without visiting any town twice) are there from A to F?",
+      "options": [
+        "14",
+        "13",
+        "12",
+        "16"
+      ],
+      "answerIndex": 1,
+      "explanation": "Listing all routes from A and counting those that reach F gives 13. The answer is 13."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nWhat is the shortest distance from A to E (in km)?",
+      "options": [
+        "10 km",
+        "12 km",
+        "8 km",
+        "14 km"
+      ],
+      "answerIndex": 0,
+      "explanation": "The shortest route to E is A–C–B–D–E = 10 km. Answer: 10 km."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nA courier travels A–C–D–F. How long is this route (in km)?",
+      "options": [
+        "18",
+        "14",
+        "20",
+        "16"
+      ],
+      "answerIndex": 3,
+      "explanation": "2 + 8 + 6 = 16. The answer is 16."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nHow many routes from A to F pass through town E?",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "11"
+      ],
+      "answerIndex": 2,
+      "explanation": "Among the 13 routes from A to F, those that include E number 9. The answer is 9."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/"
+}

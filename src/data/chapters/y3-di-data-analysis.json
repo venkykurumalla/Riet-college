@@ -1,0 +1,419 @@
+{
+  "id": "y3-di-data-analysis",
+  "yearId": 3,
+  "category": "Data Interpretation",
+  "topicNumber": 64,
+  "title": "Data Analysis and Trend Identification",
+  "tagline": "Year 3 — Reading a time series: rises, falls, averages, moving averages, growth and simple forecasts",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A trend is the general direction of a series over time. Data analysis questions ask you to find it and to describe it with numbers: the biggest rise or fall, how many periods were above average, the growth between two periods, a moving average that smooths short-term ups and downs, and a simple forecast that extends the average change. The skill is to compute the right summary and to describe what it says without over-reading.",
+    "placementRelevance": "Time-series and trend questions appear in DI sections to test analysis as well as arithmetic.",
+    "realWorldContext": "Reading monthly sales, website traffic or temperature records and deciding whether things are rising is everyday analysis."
+  },
+  "learningObjectives": [
+    "Compute period-to-period changes",
+    "Find the period of greatest rise or fall",
+    "Compute averages and compare periods with them",
+    "Use moving averages and quarterly totals",
+    "Make a simple forecast from average change"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Line Graph Interpretation",
+      "Averages"
+    ],
+    "quickRefresher": "Change = later − earlier. Average = total ÷ number of periods. Growth % = change ÷ earlier × 100."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Trend: the overall direction of a series.",
+      "Period-to-period change: difference between consecutive values.",
+      "Moving average: average of a fixed number of consecutive periods.",
+      "Seasonality: a repeated pattern within a year.",
+      "Forecast: a projection based on past change."
+    ],
+    "theoreticalIntuition": "A trend is the story of the series in one sentence. Compute differences to find the story and averages to summarise it.",
+    "visualOrMentalModel": "List the changes between consecutive periods. Mark positive and negative ones. The largest and the sign pattern describe the trend."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Change",
+      "formula": "Later − earlier",
+      "description": "Consecutive.",
+      "whenToUse": "Rise/fall.",
+      "simpleExample": "Mar to Apr: +17"
+    },
+    {
+      "title": "Average",
+      "formula": "Total ÷ n",
+      "description": "12 months.",
+      "whenToUse": "Summary.",
+      "simpleExample": "2,020 ÷ 12"
+    },
+    {
+      "title": "Moving average",
+      "formula": "Mean of 3 consecutive values",
+      "description": "Smoothing.",
+      "whenToUse": "Trend.",
+      "simpleExample": "Jan–Mar: 126.7"
+    },
+    {
+      "title": "Growth",
+      "formula": "Change ÷ earlier × 100",
+      "description": "Two periods.",
+      "whenToUse": "Percent.",
+      "simpleExample": "Jan to Dec: 91.7%"
+    },
+    {
+      "title": "Forecast",
+      "formula": "Last value + average change",
+      "description": "Steady trend.",
+      "whenToUse": "Projection.",
+      "simpleExample": "230 + 10"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Changes between months: +12, −4, +17, +15, −5, +15, +15, −5, +20, +15, +15. The largest rise is +20 (August to September: wait, from 180 in September to 200 in October), so October has the largest rise over the previous month.",
+      "The series dips in March, June and September but rises overall: from 120 in January to 230 in December. The overall growth is (230 − 120) ÷ 120 = 91.7%.",
+      "The yearly total is 2,020 and the monthly average is 168.3. Months above average are July to December (the later half) and May? Check: May is 160, below 168.3.",
+      "Quarterly totals smooth monthly noise: 380, 460, 535, 645. Sales rise in every quarter.",
+      "A simple forecast uses the average monthly change: (230 − 120) ÷ 11 = 10. If it continues, the next month would be 240."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Moving average",
+        "content": "A three-month moving average removes dips; it makes the upward trend clearer."
+      },
+      {
+        "title": "Forecast limits",
+        "content": "A forecast assumes the past pattern continues; it is an estimate, not a fact."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Largest rise",
+      "description": "Max change.",
+      "exampleSnippet": "October"
+    },
+    {
+      "typeName": "Months above average",
+      "description": "Compare with mean.",
+      "exampleSnippet": "Count"
+    },
+    {
+      "typeName": "Moving average",
+      "description": "Smooth.",
+      "exampleSnippet": "Three-month"
+    },
+    {
+      "typeName": "Quarter totals",
+      "description": "Sum in blocks.",
+      "exampleSnippet": "Q4 highest"
+    },
+    {
+      "typeName": "Forecast",
+      "description": "Average change.",
+      "exampleSnippet": "Next month"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-di-data-analysis-1",
+      "title": "Largest rise",
+      "question": "Sales were 180 in September and 200 in October; 160 in May and 155 in June. Which month-to-month change is larger?",
+      "givenInfo": [
+        "Two changes"
+      ],
+      "conceptOrFormula": "Compute each change.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Sep to Oct",
+          "explanation": "200 − 180 = +20."
+        },
+        {
+          "stepNumber": 2,
+          "title": "May to Jun",
+          "explanation": "155 − 160 = −5."
+        }
+      ],
+      "finalAnswer": "September to October (+20)",
+      "whyItWorks": "One is a rise, the other a fall.",
+      "commonTrap": "Ignoring the sign.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-di-data-analysis-2",
+      "title": "Moving average",
+      "question": "Sales for January, February and March are 120, 132 and 128. What is their three-month average?",
+      "givenInfo": [
+        "Three values"
+      ],
+      "conceptOrFormula": "Add and divide.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Sum",
+          "explanation": "120 + 132 + 128 = 380."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Average",
+          "explanation": "380 ÷ 3 = 126.7."
+        }
+      ],
+      "finalAnswer": "126.7",
+      "whyItWorks": "Divide by 3.",
+      "commonTrap": "Dividing by 2.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-di-data-analysis-3",
+      "title": "Forecast",
+      "question": "Sales rose from 120 (January) to 230 (December), 11 steps. What is the average monthly change?",
+      "givenInfo": [
+        "11 steps"
+      ],
+      "conceptOrFormula": "Total change over steps.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total change",
+          "explanation": "230 − 120 = 110."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Per step",
+          "explanation": "110 ÷ 11 = 10."
+        }
+      ],
+      "finalAnswer": "10",
+      "whyItWorks": "There are 11 steps between 12 months.",
+      "commonTrap": "Dividing by 12.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Differences first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Scan the numbers.",
+      "shortcutMethod": "Write the list of month-to-month changes once; the biggest rise, the dips and the average change all come from that list."
+    },
+    "rulesForApplication": [
+      "n values have n − 1 changes.",
+      "Sign matters.",
+      "Compare with the mean.",
+      "Forecast with average change."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Dividing by 12 for the average change",
+      "whyItHappens": "12 months have 11 changes.",
+      "howToAvoid": "Divide by n − 1."
+    },
+    {
+      "mistake": "Ignoring signs",
+      "whyItHappens": "A fall is not a rise.",
+      "howToAvoid": "Keep + and −."
+    },
+    {
+      "mistake": "Treating a forecast as certain",
+      "whyItHappens": "It is an estimate.",
+      "howToAvoid": "State the assumption."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "The average must lie between the minimum and maximum.",
+    "questionSelectionAdvice": "Compute changes in one pass.",
+    "recruiterInsight": "Describe the trend in a sentence before computing anything."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-di-data-analysis-e1",
+        "question": "Monthly sales (₹ lakh) of a company in one year\n\nMonth | Sales (₹ lakh)\nJan | 120\nFeb | 132\nMar | 128\nApr | 145\nMay | 160\nJun | 155\nJul | 170\nAug | 185\nSep | 180\nOct | 200\nNov | 215\nDec | 230\n\nWhat were the sales in July (₹ lakh)?",
+        "options": [
+          "187",
+          "170",
+          "153",
+          "213"
+        ],
+        "correctAnswer": "170",
+        "explanation": "The table shows 170 for July. The answer is 170.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-data-analysis-e2",
+        "question": "Monthly sales (₹ lakh) of a company in one year\n\nMonth | Sales (₹ lakh)\nJan | 120\nFeb | 132\nMar | 128\nApr | 145\nMay | 160\nJun | 155\nJul | 170\nAug | 185\nSep | 180\nOct | 200\nNov | 215\nDec | 230\n\nIn which month were the sales the highest?",
+        "options": [
+          "Dec",
+          "Jan",
+          "Feb",
+          "Mar"
+        ],
+        "correctAnswer": "Dec",
+        "explanation": "The highest value is 230 in December. Answer: Dec.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-data-analysis-e3",
+        "question": "Monthly sales (₹ lakh) of a company in one year\n\nMonth | Sales (₹ lakh)\nJan | 120\nFeb | 132\nMar | 128\nApr | 145\nMay | 160\nJun | 155\nJul | 170\nAug | 185\nSep | 180\nOct | 200\nNov | 215\nDec | 230\n\nIn which month were the sales the lowest?",
+        "options": [
+          "Feb",
+          "Mar",
+          "Apr",
+          "Jan"
+        ],
+        "correctAnswer": "Jan",
+        "explanation": "The lowest value is 120 in January. Answer: Jan.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-di-data-analysis-i7",
+        "question": "Monthly sales (₹ lakh) of a company in one year\n\nMonth | Sales (₹ lakh)\nJan | 120\nFeb | 132\nMar | 128\nApr | 145\nMay | 160\nJun | 155\nJul | 170\nAug | 185\nSep | 180\nOct | 200\nNov | 215\nDec | 230\n\nWhat was the average monthly sales (₹ lakh, to one decimal)?",
+        "options": [
+          "168.3",
+          "185.1",
+          "151.5",
+          "210.4"
+        ],
+        "correctAnswer": "168.3",
+        "explanation": "Total 2,020 ÷ 12 = 168.3. The answer is 168.3.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-data-analysis-i8",
+        "question": "Monthly sales (₹ lakh) of a company in one year\n\nMonth | Sales (₹ lakh)\nJan | 120\nFeb | 132\nMar | 128\nApr | 145\nMay | 160\nJun | 155\nJul | 170\nAug | 185\nSep | 180\nOct | 200\nNov | 215\nDec | 230\n\nIn which month was the increase over the previous month the largest?",
+        "options": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Oct"
+        ],
+        "correctAnswer": "Oct",
+        "explanation": "Month-to-month changes are +12, −4, +17, +15, −5, +15, +15, −5, +20, +15, +15 (from Feb to Dec); the largest is +20 in Oct. Answer: Oct.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-data-analysis-i9",
+        "question": "Monthly sales (₹ lakh) of a company in one year\n\nMonth | Sales (₹ lakh)\nJan | 120\nFeb | 132\nMar | 128\nApr | 145\nMay | 160\nJun | 155\nJul | 170\nAug | 185\nSep | 180\nOct | 200\nNov | 215\nDec | 230\n\nIn how many months were sales lower than in the previous month?",
+        "options": [
+          "4",
+          "2",
+          "5",
+          "3"
+        ],
+        "correctAnswer": "3",
+        "explanation": "Falls occurred in March (−4), June (−5) and September (−5): 3 months. The answer is 3.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-di-data-analysis-a15",
+        "question": "Monthly sales (₹ lakh) of a company in one year\n\nMonth | Sales (₹ lakh)\nJan | 120\nFeb | 132\nMar | 128\nApr | 145\nMay | 160\nJun | 155\nJul | 170\nAug | 185\nSep | 180\nOct | 200\nNov | 215\nDec | 230\n\nWhat is the average monthly change in sales between January and December (₹ lakh)?",
+        "options": [
+          "11",
+          "9",
+          "10",
+          "13"
+        ],
+        "correctAnswer": "10",
+        "explanation": "Total change 110 over 11 monthly steps: 110 ÷ 11 = 10. The answer is 10.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-data-analysis-a16",
+        "question": "Monthly sales (₹ lakh) of a company in one year\n\nMonth | Sales (₹ lakh)\nJan | 120\nFeb | 132\nMar | 128\nApr | 145\nMay | 160\nJun | 155\nJul | 170\nAug | 185\nSep | 180\nOct | 200\nNov | 215\nDec | 230\n\nIf the trend of the average monthly change continues, what would be the expected sales in the next January (₹ lakh)?",
+        "options": [
+          "264",
+          "240",
+          "216",
+          "300"
+        ],
+        "correctAnswer": "240",
+        "explanation": "Last value 230 plus the average change 10 = 240. The answer is 240.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-di-data-analysis-p17",
+        "question": "Monthly sales (₹ lakh) of a company in one year\n\nMonth | Sales (₹ lakh)\nJan | 120\nFeb | 132\nMar | 128\nApr | 145\nMay | 160\nJun | 155\nJul | 170\nAug | 185\nSep | 180\nOct | 200\nNov | 215\nDec | 230\n\nWhich statement best describes the trend of sales?",
+        "options": [
+          "Steadily falling",
+          "Rising overall with small dips in some months",
+          "Constant throughout the year",
+          "Rising every single month"
+        ],
+        "correctAnswer": "Rising overall with small dips in some months",
+        "explanation": "Sales go from 120 to 230, with small falls in March, June and September, so the trend is upward with dips. Answer: rising overall with small dips.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-data-analysis-p18",
+        "question": "Monthly sales (₹ lakh) of a company in one year\n\nMonth | Sales (₹ lakh)\nJan | 120\nFeb | 132\nMar | 128\nApr | 145\nMay | 160\nJun | 155\nJul | 170\nAug | 185\nSep | 180\nOct | 200\nNov | 215\nDec | 230\n\nBy what percentage did sales in the fourth quarter exceed those in the first quarter?",
+        "options": [
+          "69.7%",
+          "76.7%",
+          "62.7%",
+          "87.1%"
+        ],
+        "correctAnswer": "69.7%",
+        "explanation": "Quarter 4 total = 645, quarter 1 total = 380; difference 265 ÷ 380 = 69.7%. The answer is 69.7%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-data-analysis-p19",
+        "question": "Monthly sales (₹ lakh) of a company in one year\n\nMonth | Sales (₹ lakh)\nJan | 120\nFeb | 132\nMar | 128\nApr | 145\nMay | 160\nJun | 155\nJul | 170\nAug | 185\nSep | 180\nOct | 200\nNov | 215\nDec | 230\n\nWhat is the largest fall in sales between consecutive months (₹ lakh)?",
+        "options": [
+          "6",
+          "4",
+          "8",
+          "5"
+        ],
+        "correctAnswer": "5",
+        "explanation": "The falls are 4 (Mar), 5 (Jun) and 5 (Sep), so the largest fall is 5. The answer is 5.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Changes.",
+      "Average.",
+      "Moving average.",
+      "Quarter totals.",
+      "Forecast."
+    ],
+    "quickFormulas": [
+      "Average change = total change ÷ (n − 1)"
+    ]
+  },
+  "keyTakeaways": [
+    "List changes.",
+    "n − 1 steps.",
+    "Compare with the mean.",
+    "Forecast carefully."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the biggest rise?",
+    "Can I count months above average?",
+    "Can I forecast simply?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}

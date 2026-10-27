@@ -1,0 +1,420 @@
+{
+  "id": "y3-di-flow-chart-di",
+  "yearId": 3,
+  "category": "Data Interpretation",
+  "topicNumber": 63,
+  "title": "Flow Chart and Network DI",
+  "tagline": "Year 3 — Quantities moving through stages or links: flows, losses, shortest routes and route counts",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A flow chart shows how a quantity (units, money, people) moves from a source through stages to destinations, with numbers on the arrows. A network shows places joined by links with distances or costs. The questions ask for totals into and out of a node, losses where outflow is less than inflow, shares of a flow, and in a network, shortest routes and the number of routes. The key rule is conservation: what goes in either comes out or is lost.",
+    "placementRelevance": "Flow charts and network diagrams appear in DI sets as a visual variant of table problems.",
+    "realWorldContext": "Supply chains, call routing and delivery networks are all flow charts or networks."
+  },
+  "learningObjectives": [
+    "Compute inflow and outflow at a node",
+    "Find losses by conservation",
+    "Compute shares of a flow",
+    "Find shortest routes in a small network",
+    "Count the possible routes"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Table-Based DI",
+      "Percentage-Based DI"
+    ],
+    "quickRefresher": "Inflow − outflow = loss (or stock kept). A route length is the sum of the distances of its roads."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Node: a point where flows meet (factory, warehouse, store, town).",
+      "Inflow: total arriving at a node.",
+      "Outflow: total leaving a node.",
+      "Loss: inflow minus outflow when some units do not move on.",
+      "Route: a path from one node to another that visits no node twice."
+    ],
+    "theoreticalIntuition": "Treat each node as a bucket: what pours in either pours out or stays. Add the arrows into and out of each node.",
+    "visualOrMentalModel": "Make a small table of nodes with inflow, outflow and loss. For networks, list the routes from the start and add their distances."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Loss",
+      "formula": "Inflow − outflow",
+      "description": "Each warehouse.",
+      "whenToUse": "Conservation.",
+      "simpleExample": "W1: 120 − 100 = 20"
+    },
+    {
+      "title": "Share of flow",
+      "formula": "Part ÷ node outflow × 100",
+      "description": "One arrow.",
+      "whenToUse": "Percent.",
+      "simpleExample": "W2 to S2: 70/170"
+    },
+    {
+      "title": "Total loss",
+      "formula": "Sum of node losses",
+      "description": "Whole chart.",
+      "whenToUse": "Aggregate.",
+      "simpleExample": "20 + 10 + 10"
+    },
+    {
+      "title": "Route length",
+      "formula": "Sum of road distances",
+      "description": "Any route.",
+      "whenToUse": "Networks.",
+      "simpleExample": "A–C–B–D–E–F = 13"
+    },
+    {
+      "title": "Shortest route",
+      "formula": "Compare all routes",
+      "description": "Small networks.",
+      "whenToUse": "Minimum.",
+      "simpleExample": "List and add"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "In the supply chain, the factory ships 120 + 180 + 100 = 400 units. W1 receives 120 and ships out 60 + 40 = 100, so 20 units are lost. W2 receives 180 and ships 70 + 60 + 40 = 170 (loss 10). W3 receives 100 and ships 30 + 60 = 90 (loss 10). The total loss is 40 units and the stores receive 360.",
+      "The share of an arrow is measured against the node's outflow (or inflow, if the question says so): W2 sends 70 of its 170 units to S2, which is about 41.2%.",
+      "For stores, add all arrows into them: S1 60, S2 40 + 70 = 110, S3 60 + 30 = 90, S4 40 + 60 = 100.",
+      "In the road network, list routes and add distances. The route A–C–B–D–E–F is 2 + 1 + 5 + 2 + 3 = 13 km, the shortest from A to F. A longer route is A–B–D–F = 4 + 5 + 6 = 15 km.",
+      "To count routes, extend each path step by step without visiting a town twice, and count the paths that end at the target."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Conservation check",
+        "content": "If inflow ≠ outflow and no loss is stated, you have misread an arrow."
+      },
+      {
+        "title": "Shortest route",
+        "content": "The shortest route need not use the fewest roads; it uses the smallest total distance."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Inflow and outflow",
+      "description": "Sum arrows.",
+      "exampleSnippet": "Warehouse W2"
+    },
+    {
+      "typeName": "Losses",
+      "description": "Difference.",
+      "exampleSnippet": "Total loss"
+    },
+    {
+      "typeName": "Shares",
+      "description": "Percent of flow.",
+      "exampleSnippet": "W2 to S2"
+    },
+    {
+      "typeName": "Shortest route",
+      "description": "Add distances.",
+      "exampleSnippet": "A to F"
+    },
+    {
+      "typeName": "Counting routes",
+      "description": "List paths.",
+      "exampleSnippet": "A to F"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-di-flow-chart-di-1",
+      "title": "Loss at a node",
+      "question": "Warehouse W1 receives 120 units and ships 60 units to S1 and 40 units to S2. How many units are lost?",
+      "givenInfo": [
+        "120 in",
+        "60 + 40 out"
+      ],
+      "conceptOrFormula": "Inflow − outflow.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Outflow",
+          "explanation": "60 + 40 = 100."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Loss",
+          "explanation": "120 − 100 = 20."
+        }
+      ],
+      "finalAnswer": "20",
+      "whyItWorks": "Units not shipped are lost.",
+      "commonTrap": "Adding 120 and 100.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-di-flow-chart-di-2",
+      "title": "Share of a flow",
+      "question": "W2 ships 70, 60 and 40 units to S2, S3 and S4. What percentage of its shipments goes to S2?",
+      "givenInfo": [
+        "70 of 170"
+      ],
+      "conceptOrFormula": "Part ÷ total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total",
+          "explanation": "70 + 60 + 40 = 170."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "70 ÷ 170 = 41.2%."
+        }
+      ],
+      "finalAnswer": "41.2%",
+      "whyItWorks": "The base is W2's outflow.",
+      "commonTrap": "Dividing by 180.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-di-flow-chart-di-3",
+      "title": "Route length",
+      "question": "The road A–C is 2 km, C–B is 1 km, B–D is 5 km, D–E is 2 km and E–F is 3 km. What is the length of the route A–C–B–D–E–F?",
+      "givenInfo": [
+        "Five roads"
+      ],
+      "conceptOrFormula": "Add distances.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Add",
+          "explanation": "2 + 1 = 3; 3 + 5 = 8."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Finish",
+          "explanation": "8 + 2 + 3 = 13 km."
+        }
+      ],
+      "finalAnswer": "13 km",
+      "whyItWorks": "Use every road on the route.",
+      "commonTrap": "Skipping a road.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Node table",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Trace arrows each time.",
+      "shortcutMethod": "Compute inflow, outflow and loss for every node once; for networks list the routes and their lengths once."
+    },
+    "rulesForApplication": [
+      "Loss = in − out.",
+      "Share uses the node total.",
+      "Add all arrows.",
+      "List routes systematically."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Missing an arrow",
+      "whyItHappens": "Wrong total.",
+      "howToAvoid": "Tick each arrow as used."
+    },
+    {
+      "mistake": "Wrong base for a share",
+      "whyItHappens": "Using total production.",
+      "howToAvoid": "Use the node total."
+    },
+    {
+      "mistake": "Skipping a route",
+      "whyItHappens": "Miscount.",
+      "howToAvoid": "Branch systematically."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 100,
+    "eliminationTechnique": "No node can send out more than it receives.",
+    "questionSelectionAdvice": "Write inflow, outflow and loss beside each node.",
+    "recruiterInsight": "Counting routes is easier if you branch from the start in order."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-di-flow-chart-di-e1",
+        "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nHow many units does the factory send to W2?",
+        "options": [
+          "198",
+          "180",
+          "162",
+          "225"
+        ],
+        "correctAnswer": "180",
+        "explanation": "The arrow F to W2 shows 180. The answer is 180.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-flow-chart-di-e2",
+        "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nHow many units does the factory produce and send in total?",
+        "options": [
+          "400",
+          "440",
+          "360",
+          "500"
+        ],
+        "correctAnswer": "400",
+        "explanation": "120 + 180 + 100 = 400. The answer is 400.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-flow-chart-di-e3",
+        "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nHow many units go from W1 to S2?",
+        "options": [
+          "44",
+          "36",
+          "50",
+          "40"
+        ],
+        "correctAnswer": "40",
+        "explanation": "The arrow W1 to S2 shows 40. The answer is 40.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-di-flow-chart-di-i7",
+        "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nWhat is the total number of units received by all four stores?",
+        "options": [
+          "360",
+          "396",
+          "324",
+          "450"
+        ],
+        "correctAnswer": "360",
+        "explanation": "60 + 110 + 90 + 100 = 360. The answer is 360.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-flow-chart-di-i8",
+        "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nWhat is the total number of units lost at the three warehouses?",
+        "options": [
+          "44",
+          "36",
+          "50",
+          "40"
+        ],
+        "correctAnswer": "40",
+        "explanation": "Losses: W1 20, W2 10, W3 10; total 40. The answer is 40.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-flow-chart-di-i9",
+        "question": "A factory F supplies three warehouses W1, W2 and W3 (units shipped on each route). The warehouses supply four stores S1 to S4. Units not shipped onward from a warehouse are lost (damaged or expired).\n\nFlow data (units shipped)\n\nFrom | To | Units\nF | W1 | 120\nF | W2 | 180\nF | W3 | 100\nW1 | S1 | 60\nW1 | S2 | 40\nW2 | S2 | 70\nW2 | S3 | 60\nW2 | S4 | 40\nW3 | S3 | 30\nW3 | S4 | 60\n\nWhat percentage of the units produced is lost?",
+        "options": [
+          "11%",
+          "9%",
+          "12.5%",
+          "10%"
+        ],
+        "correctAnswer": "10%",
+        "explanation": "Total loss = 40 out of 400 produced: 40 ÷ 400 = 10%. The answer is 10%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-di-flow-chart-di-a15",
+        "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nWhat is the length of the route A–B–D–F (in km)?",
+        "options": [
+          "17",
+          "14",
+          "15",
+          "19"
+        ],
+        "correctAnswer": "15",
+        "explanation": "4 + 5 + 6 = 15. The answer is 15.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-flow-chart-di-a16",
+        "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nBy how many km is the route A–B–D–F longer than the shortest route from A to F?",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "correctAnswer": "2",
+        "explanation": "15 − 13 = 2. The answer is 2.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-di-flow-chart-di-p17",
+        "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nHow many different routes (without visiting any town twice) are there from A to F?",
+        "options": [
+          "14",
+          "13",
+          "12",
+          "16"
+        ],
+        "correctAnswer": "13",
+        "explanation": "Listing all routes from A and counting those that reach F gives 13. The answer is 13.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-flow-chart-di-p18",
+        "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nWhat is the shortest distance from A to E (in km)?",
+        "options": [
+          "10 km",
+          "12 km",
+          "8 km",
+          "14 km"
+        ],
+        "correctAnswer": "10 km",
+        "explanation": "The shortest route to E is A–C–B–D–E = 10 km. Answer: 10 km.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-flow-chart-di-p19",
+        "question": "The road network below joins six towns A to F. The distances (in km) of the direct roads are given.\n\nRoad data (distance in km)\n\nTown 1 | Town 2 | Distance\nA | B | 4\nA | C | 2\nB | C | 1\nB | D | 5\nC | D | 8\nC | E | 10\nD | E | 2\nD | F | 6\nE | F | 3\n\nA courier travels A–C–D–F. How long is this route (in km)?",
+        "options": [
+          "18",
+          "14",
+          "20",
+          "16"
+        ],
+        "correctAnswer": "16",
+        "explanation": "2 + 8 + 6 = 16. The answer is 16.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Inflow/outflow.",
+      "Loss.",
+      "Share.",
+      "Route length.",
+      "Counting routes."
+    ],
+    "quickFormulas": [
+      "Loss = inflow − outflow"
+    ]
+  },
+  "keyTakeaways": [
+    "Node table.",
+    "Conservation.",
+    "Right base.",
+    "List routes."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute losses?",
+    "Can I compute a share of a flow?",
+    "Can I find the shortest route?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}
