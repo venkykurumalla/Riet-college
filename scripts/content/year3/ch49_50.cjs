@@ -81,6 +81,7 @@ const q49 = [
   P(cr('No member of the club who pays dues late is allowed to vote. Some members who are allowed to vote hold office.', FOLLOW, 'Some office-holders of the club do not pay dues late.', ['All office-holders are allowed to vote.', 'No office-holder pays dues late.', 'Some members who pay dues late hold office and vote.'], 'The voting members who hold office are allowed to vote, so they do not pay late; hence some office-holders do not pay late.')),
   P(cr('A city built a ring road to reduce congestion in its centre, yet congestion in the centre has increased since it opened.', PARA, 'The faster travel on the ring road encouraged many more people to drive into the city centre.', ['The ring road is longer than the old road.', 'Congestion was worse before the ring road.', 'The city centre has many shops.'], 'If easier travel increased the number of drivers entering the centre, congestion could rise despite the ring road.'))
 ];
+q49.push(M(cr('The principal argues that the school should abolish its uniform, because students at schools without uniforms report higher self-esteem.', FLAW, 'overlooks other differences between the schools that could explain the difference in self-esteem', ['uses a sample that is too large to be reliable', 'attacks students who wear uniforms', 'assumes that uniforms are expensive'], 'Schools with and without uniforms may differ in many other ways, so the higher self-esteem need not be due to the absence of uniforms.')));
 build(ch49, q49);
 
 // ---------------- Chapter 50: advanced para jumbles ----------------

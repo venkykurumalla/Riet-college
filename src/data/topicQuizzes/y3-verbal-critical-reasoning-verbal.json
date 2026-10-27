@@ -248,6 +248,19 @@
       ],
       "answerIndex": 3,
       "explanation": "If easier travel increased the number of drivers entering the centre, congestion could rise despite the ring road."
+    },
+    {
+      "id": 20,
+      "difficulty": "medium",
+      "question": "Argument: The principal argues that the school should abolish its uniform, because students at schools without uniforms report higher self-esteem.\n\nThe reasoning in the argument is flawed because it",
+      "options": [
+        "uses a sample that is too large to be reliable",
+        "attacks students who wear uniforms",
+        "overlooks other differences between the schools that could explain the difference in self-esteem",
+        "assumes that uniforms are expensive"
+      ],
+      "answerIndex": 2,
+      "explanation": "Schools with and without uniforms may differ in many other ways, so the higher self-esteem need not be due to the absence of uniforms."
     }
   ],
   "morePracticeUrl": "https://www.indiabix.com/verbal-ability/"

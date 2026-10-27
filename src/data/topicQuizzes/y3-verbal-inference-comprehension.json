@@ -248,6 +248,19 @@
       ],
       "answerIndex": 3,
       "explanation": "The analyst uses accidents per 1,000 cyclists to show that safety can improve while the total rises."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nWhen the town library announced that it would close on Sundays to save money, attendance at its weekday evening sessions fell by a third within two months. Yet the library's own survey, conducted a year earlier, had shown that fewer than one in ten borrowers came on Sundays. The librarian suggested that many visitors had combined a Sunday visit with a family outing and that, once that habit was broken, they had stopped coming at all.\n\nWhich of the following can be inferred about the library's earlier survey?",
+      "options": [
+        "It was conducted after the closure was announced",
+        "It showed that Sunday visitors were the library's most frequent users",
+        "It measured Sunday use but not how Sunday habits affected use on other days",
+        "It was inaccurate in counting borrowers"
+      ],
+      "answerIndex": 2,
+      "explanation": "The survey found that fewer than one in ten borrowers came on Sundays, but the librarian's explanation depends on Sunday habits that the survey did not capture."
     }
   ],
   "morePracticeUrl": "https://www.indiabix.com/verbal-ability/comprehension/"

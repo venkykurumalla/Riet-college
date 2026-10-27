@@ -248,6 +248,19 @@
       ],
       "answerIndex": 3,
       "explanation": "Insurance protects against a bad outcome; here it protects against a bad season. It does not guarantee profit or replace hives."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nFew people now write by hand for more than a signature or a shopping list, and the loss is rarely mourned. Typing is faster, and a typed page is easier to read, edit and share. Yet some researchers argue that we pay a hidden price. In experiments, students who took lecture notes by hand remembered concepts better than those who typed, apparently because the slowness of handwriting forces the writer to choose and summarise instead of recording every word. Typists tend to copy, and copying does not require understanding. This does not mean that schools should abandon keyboards. It suggests that the tool should suit the task: a keyboard for drafts that will be revised many times, a pen for material that must be understood and remembered. The danger lies in choosing a tool by habit rather than by purpose.\n\nIt can be inferred from the passage that a student who types lecture notes but summarises them in his own words",
+      "options": [
+        "will remember less than a student who writes by hand",
+        "will type faster than any other student",
+        "may avoid the disadvantage the researchers describe",
+        "should switch to a pen immediately"
+      ],
+      "answerIndex": 2,
+      "explanation": "The disadvantage arises because typists tend to copy; a typist who summarises does what the slowness of handwriting would otherwise force."
     }
   ],
   "morePracticeUrl": "https://www.indiabix.com/verbal-ability/comprehension/"
