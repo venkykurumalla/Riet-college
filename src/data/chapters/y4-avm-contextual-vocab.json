@@ -1,0 +1,418 @@
+{
+  "id": "y4-avm-contextual-vocab",
+  "yearId": 4,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 18,
+  "title": "High-Level Contextual Vocabulary",
+  "tagline": "Year 4 — Less common words (ephemeral, ostensible, perfunctory) understood from sentence clues and word parts",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Advanced vocabulary questions use less common words in sentences that give enough clues to decide the meaning. The clues are contrast, restatement, example, cause and tone, and the word parts (prefixes and roots) often confirm the guess. This chapter practises 20 such words and the method of reading the sentence first and the options second.",
+    "placementRelevance": "Higher-level vocabulary appears in reading comprehension and in direct word-meaning questions of company and bank tests.",
+    "realWorldContext": "Professional reading includes unfamiliar words; context lets you follow without a dictionary."
+  },
+  "learningObjectives": [
+    "Use contrast, restatement and example clues",
+    "Use tone to rule out opposite meanings",
+    "Use roots and prefixes as confirmation",
+    "Test options by substitution",
+    "Handle words with positive or negative flavour"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Vocabulary in Context (Year 3)"
+    ],
+    "quickRefresher": "Replace the word with each option; the right one keeps the sentence sensible and the tone consistent."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Restatement clue: the sentence explains the word.",
+      "Contrast clue: but, however, unlike signal the opposite.",
+      "Tone: approval or disapproval carried by the sentence.",
+      "Root: a word part with a stable meaning.",
+      "Substitution test: putting an option in place of the word."
+    ],
+    "theoreticalIntuition": "The sentence is the dictionary; the options are only a menu.",
+    "visualOrMentalModel": "Cover the word, guess a simple substitute, then find it among the options."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Restatement",
+      "formula": "Sentence explains the word",
+      "description": "Common.",
+      "whenToUse": "Clearest clue.",
+      "simpleExample": "\"Only a few days\" → ephemeral"
+    },
+    {
+      "title": "Contrast",
+      "formula": "But/however flips tone",
+      "description": "Contrast sentences.",
+      "whenToUse": "Opposite.",
+      "simpleExample": "Despite setbacks → sanguine"
+    },
+    {
+      "title": "Example",
+      "formula": "Details show category",
+      "description": "Lists.",
+      "whenToUse": "Category.",
+      "simpleExample": "Praised at every turn → obsequious"
+    },
+    {
+      "title": "Root",
+      "formula": "bene = good, mal = bad",
+      "description": "Unknown word.",
+      "whenToUse": "Support.",
+      "simpleExample": "Pernicious: per + nex (death)"
+    },
+    {
+      "title": "Substitution",
+      "formula": "Test options in place",
+      "description": "Always.",
+      "whenToUse": "Confirm.",
+      "simpleExample": "Read aloud"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "\"The ephemeral beauty of the cherry blossom lasts only a few days.\" The sentence restates the word: ephemeral means short-lived.",
+      "\"Despite the setbacks, she remained sanguine\" contrasts with setbacks, so sanguine is positive: optimistic.",
+      "\"His obsequious manner… he praised the manager at every turn\" gives the example: excessively eager to please.",
+      "\"The ostensible reason for the visit was a courtesy call, but he wanted to negotiate\": the \"but\" shows that the stated reason is not the real one, so ostensible means apparent.",
+      "\"A cursory inspection missed the crack\" suggests a hasty, not thorough, inspection."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Positive versus negative",
+        "content": "If the sentence praises, avoid negative options; the tone limits the choice."
+      },
+      {
+        "title": "Roots",
+        "content": "Equivocate: equi (equal) + voc (voice): to speak with two voices."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Restatement",
+      "description": "Sentence explains.",
+      "exampleSnippet": "Ephemeral"
+    },
+    {
+      "typeName": "Contrast",
+      "description": "But/despite.",
+      "exampleSnippet": "Sanguine"
+    },
+    {
+      "typeName": "Example",
+      "description": "Details.",
+      "exampleSnippet": "Obsequious"
+    },
+    {
+      "typeName": "Tone",
+      "description": "Approval.",
+      "exampleSnippet": "Venerate"
+    },
+    {
+      "typeName": "Roots",
+      "description": "Word parts.",
+      "exampleSnippet": "Equivocate"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-avm-contextual-vocab-1",
+      "title": "Restatement",
+      "question": "The ephemeral beauty of the blossom lasts only a few days. What does \"ephemeral\" mean?",
+      "givenInfo": [
+        "Only a few days"
+      ],
+      "conceptOrFormula": "Use the restatement.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Clue",
+          "explanation": "\"Lasts only a few days\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "Short-lived."
+        }
+      ],
+      "finalAnswer": "Short-lived",
+      "whyItWorks": "The opposite is lasting.",
+      "commonTrap": "Choosing delicate.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-avm-contextual-vocab-2",
+      "title": "Contrast",
+      "question": "Despite the setbacks, she remained sanguine. What does \"sanguine\" mean?",
+      "givenInfo": [
+        "Despite setbacks"
+      ],
+      "conceptOrFormula": "Contrast.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Contrast",
+          "explanation": "\"Despite\" signals the opposite of discouraged."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "Optimistic."
+        }
+      ],
+      "finalAnswer": "Optimistic",
+      "whyItWorks": "Positive tone.",
+      "commonTrap": "Choosing angry.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-avm-contextual-vocab-3",
+      "title": "Example",
+      "question": "His obsequious manner made colleagues uneasy; he praised the manager at every turn. What does it mean?",
+      "givenInfo": [
+        "Praised at every turn"
+      ],
+      "conceptOrFormula": "Use the example.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Example",
+          "explanation": "Constant praise."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "Excessively eager to please."
+        }
+      ],
+      "finalAnswer": "Excessively eager to please",
+      "whyItWorks": "Negative tone.",
+      "commonTrap": "Choosing polite.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Sentence first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Guess from the word.",
+      "shortcutMethod": "Read the sentence for restatement, contrast or example, guess a substitute, then match it."
+    },
+    "rulesForApplication": [
+      "Restatement first.",
+      "Contrast flips.",
+      "Tone limits.",
+      "Substitute."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing the best-known meaning",
+      "whyItHappens": "Wrong sense.",
+      "howToAvoid": "Test in the sentence."
+    },
+    {
+      "mistake": "Ignoring tone",
+      "whyItHappens": "Wrong sign.",
+      "howToAvoid": "Check positive/negative."
+    },
+    {
+      "mistake": "Trusting the sound",
+      "whyItHappens": "False friend.",
+      "howToAvoid": "Use the clues."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Drop options with the wrong tone.",
+    "questionSelectionAdvice": "Learn roots.",
+    "recruiterInsight": "You can often answer without knowing the word."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-avm-contextual-vocab-e1",
+        "question": "The ephemeral beauty of the cherry blossom lasts only a few days.\n\nIn this sentence, \"ephemeral\" is closest in meaning to",
+        "options": [
+          "fragile",
+          "short-lived",
+          "colourful",
+          "eternal"
+        ],
+        "correctAnswer": "short-lived",
+        "explanation": "The sentence restates the meaning: it lasts only a few days.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-avm-contextual-vocab-e2",
+        "question": "Smartphones have become ubiquitous in the city; almost everyone carries one.\n\nIn this sentence, \"ubiquitous\" is closest in meaning to",
+        "options": [
+          "found everywhere",
+          "expensive",
+          "forbidden",
+          "rare"
+        ],
+        "correctAnswer": "found everywhere",
+        "explanation": "The restatement \"almost everyone carries one\" shows the meaning.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-avm-contextual-vocab-e3",
+        "question": "Despite the setbacks, she remained sanguine about the outcome.\n\nIn this sentence, \"sanguine\" is closest in meaning to",
+        "options": [
+          "furious",
+          "indifferent",
+          "anxious",
+          "optimistic"
+        ],
+        "correctAnswer": "optimistic",
+        "explanation": "The word contrasts with setbacks, so it is positive.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-avm-contextual-vocab-i7",
+        "question": "The ostensible reason for the visit was a courtesy call, but he wanted to negotiate.\n\nIn this sentence, \"ostensible\" is closest in meaning to",
+        "options": [
+          "apparent",
+          "hidden",
+          "genuine",
+          "offensive"
+        ],
+        "correctAnswer": "apparent",
+        "explanation": "\"But\" shows the stated reason was not the real one.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-avm-contextual-vocab-i8",
+        "question": "The recalcitrant mule refused to move however hard the farmer pulled.\n\nIn this sentence, \"recalcitrant\" is closest in meaning to",
+        "options": [
+          "weak",
+          "friendly",
+          "frightened",
+          "stubbornly resistant to control"
+        ],
+        "correctAnswer": "stubbornly resistant to control",
+        "explanation": "Refusing to move despite pulling shows stubborn resistance.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-avm-contextual-vocab-i9",
+        "question": "Asked whether he agreed, he gave a laconic reply: \"Yes.\"\n\nIn this sentence, \"laconic\" is closest in meaning to",
+        "options": [
+          "rude",
+          "confused",
+          "lengthy",
+          "using very few words"
+        ],
+        "correctAnswer": "using very few words",
+        "explanation": "The reply was a single word.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-avm-contextual-vocab-a15",
+        "question": "The villagers venerate the old teacher and visit her every festival.\n\nIn this sentence, \"venerate\" is closest in meaning to",
+        "options": [
+          "fear",
+          "ignore",
+          "regard with deep respect",
+          "envy"
+        ],
+        "correctAnswer": "regard with deep respect",
+        "explanation": "Visiting her every festival shows deep respect.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-contextual-vocab-a16",
+        "question": "Her expression was inscrutable; no one could tell what she thought.\n\nIn this sentence, \"inscrutable\" is closest in meaning to",
+        "options": [
+          "cheerful",
+          "impossible to read or understand",
+          "angry",
+          "obvious"
+        ],
+        "correctAnswer": "impossible to read or understand",
+        "explanation": "The restatement says no one could tell her thoughts.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-avm-contextual-vocab-p17",
+        "question": "A cursory inspection of the bridge missed the crack that later grew.\n\nIn this sentence, \"cursory\" is closest in meaning to",
+        "options": [
+          "detailed",
+          "hasty and not thorough",
+          "expert",
+          "frequent"
+        ],
+        "correctAnswer": "hasty and not thorough",
+        "explanation": "A hasty inspection missed the crack.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-contextual-vocab-p18",
+        "question": "His impetuous decision to resign surprised everyone, for he had not discussed it with anyone.\n\nIn this sentence, \"impetuous\" is closest in meaning to",
+        "options": [
+          "acting suddenly without thought",
+          "carefully planned",
+          "cowardly",
+          "reluctant"
+        ],
+        "correctAnswer": "acting suddenly without thought",
+        "explanation": "He decided without discussion, suddenly.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-contextual-vocab-p19",
+        "question": "The mercurial star was charming one day and sullen the next.\n\nIn this sentence, \"mercurial\" is closest in meaning to",
+        "options": [
+          "steady",
+          "famous",
+          "wealthy",
+          "changeable in mood"
+        ],
+        "correctAnswer": "changeable in mood",
+        "explanation": "The two contrasting days show changeable moods.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Clues.",
+      "Tone.",
+      "Roots.",
+      "Substitution.",
+      "Practice words."
+    ],
+    "quickFormulas": [
+      "Sentence is the dictionary"
+    ]
+  },
+  "keyTakeaways": [
+    "Clues.",
+    "Tone.",
+    "Roots.",
+    "Test."
+  ],
+  "selfCheckQuestions": [
+    "Can I find a restatement?",
+    "Can I use tone?",
+    "Can I test by substitution?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

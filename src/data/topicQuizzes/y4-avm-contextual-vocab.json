@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-avm-contextual-vocab",
+  "topicTitle": "High-Level Contextual Vocabulary",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The ephemeral beauty of the cherry blossom lasts only a few days.\n\nIn this sentence, \"ephemeral\" is closest in meaning to",
+      "options": [
+        "fragile",
+        "short-lived",
+        "colourful",
+        "eternal"
+      ],
+      "answerIndex": 1,
+      "explanation": "The sentence restates the meaning: it lasts only a few days."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Smartphones have become ubiquitous in the city; almost everyone carries one.\n\nIn this sentence, \"ubiquitous\" is closest in meaning to",
+      "options": [
+        "found everywhere",
+        "expensive",
+        "forbidden",
+        "rare"
+      ],
+      "answerIndex": 0,
+      "explanation": "The restatement \"almost everyone carries one\" shows the meaning."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Despite the setbacks, she remained sanguine about the outcome.\n\nIn this sentence, \"sanguine\" is closest in meaning to",
+      "options": [
+        "furious",
+        "indifferent",
+        "anxious",
+        "optimistic"
+      ],
+      "answerIndex": 3,
+      "explanation": "The word contrasts with setbacks, so it is positive."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The truculent customer shouted at the staff and refused to wait.\n\nIn this sentence, \"truculent\" is closest in meaning to",
+      "options": [
+        "polite",
+        "puzzled",
+        "aggressively defiant",
+        "tired"
+      ],
+      "answerIndex": 2,
+      "explanation": "Shouting and refusing to wait show aggressive defiance."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "His obsequious manner made colleagues uneasy; he praised the manager at every turn.\n\nIn this sentence, \"obsequious\" is closest in meaning to",
+      "options": [
+        "quietly confident",
+        "openly rude",
+        "excessively eager to please",
+        "highly skilled"
+      ],
+      "answerIndex": 2,
+      "explanation": "Praising at every turn is excessive eagerness to please."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A pragmatic leader chooses what works rather than what is elegant.\n\nIn this sentence, \"pragmatic\" is closest in meaning to",
+      "options": [
+        "idealistic",
+        "practical",
+        "stubborn",
+        "careless"
+      ],
+      "answerIndex": 1,
+      "explanation": "The contrast with elegance shows a practical outlook."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The ostensible reason for the visit was a courtesy call, but he wanted to negotiate.\n\nIn this sentence, \"ostensible\" is closest in meaning to",
+      "options": [
+        "apparent",
+        "hidden",
+        "genuine",
+        "offensive"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"But\" shows the stated reason was not the real one."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The recalcitrant mule refused to move however hard the farmer pulled.\n\nIn this sentence, \"recalcitrant\" is closest in meaning to",
+      "options": [
+        "weak",
+        "friendly",
+        "frightened",
+        "stubbornly resistant to control"
+      ],
+      "answerIndex": 3,
+      "explanation": "Refusing to move despite pulling shows stubborn resistance."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Asked whether he agreed, he gave a laconic reply: \"Yes.\"\n\nIn this sentence, \"laconic\" is closest in meaning to",
+      "options": [
+        "rude",
+        "confused",
+        "lengthy",
+        "using very few words"
+      ],
+      "answerIndex": 3,
+      "explanation": "The reply was a single word."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Pressed for a decision, the minister began to equivocate, giving answers that could mean either yes or no.\n\nIn this sentence, \"equivocate\" is closest in meaning to",
+      "options": [
+        "refuse to speak",
+        "shout",
+        "speak ambiguously to avoid commitment",
+        "agree eagerly"
+      ],
+      "answerIndex": 2,
+      "explanation": "The restatement describes ambiguous answers."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "He gave the report only a perfunctory glance before signing it.\n\nIn this sentence, \"perfunctory\" is closest in meaning to",
+      "options": [
+        "careful",
+        "done with little interest or care",
+        "angry",
+        "lengthy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Signing after a glance shows minimal effort."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The new drainage should ameliorate the flooding in the lower streets.\n\nIn this sentence, \"ameliorate\" is closest in meaning to",
+      "options": [
+        "make better",
+        "worsen",
+        "announce",
+        "ignore"
+      ],
+      "answerIndex": 0,
+      "explanation": "Drainage is meant to improve the flooding."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The pernicious rumour slowly destroyed his reputation.\n\nIn this sentence, \"pernicious\" is closest in meaning to",
+      "options": [
+        "harmful in a gradual, subtle way",
+        "harmless",
+        "amusing",
+        "sudden"
+      ],
+      "answerIndex": 0,
+      "explanation": "It destroyed his reputation slowly, so it was harmful."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The evidence for the theory is tenuous, resting on a single observation.\n\nIn this sentence, \"tenuous\" is closest in meaning to",
+      "options": [
+        "overwhelming",
+        "recent",
+        "public",
+        "weak or slight"
+      ],
+      "answerIndex": 3,
+      "explanation": "A single observation is a slight basis."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The villagers venerate the old teacher and visit her every festival.\n\nIn this sentence, \"venerate\" is closest in meaning to",
+      "options": [
+        "fear",
+        "ignore",
+        "regard with deep respect",
+        "envy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Visiting her every festival shows deep respect."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Her expression was inscrutable; no one could tell what she thought.\n\nIn this sentence, \"inscrutable\" is closest in meaning to",
+      "options": [
+        "cheerful",
+        "impossible to read or understand",
+        "angry",
+        "obvious"
+      ],
+      "answerIndex": 1,
+      "explanation": "The restatement says no one could tell her thoughts."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A cursory inspection of the bridge missed the crack that later grew.\n\nIn this sentence, \"cursory\" is closest in meaning to",
+      "options": [
+        "detailed",
+        "hasty and not thorough",
+        "expert",
+        "frequent"
+      ],
+      "answerIndex": 1,
+      "explanation": "A hasty inspection missed the crack."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "His impetuous decision to resign surprised everyone, for he had not discussed it with anyone.\n\nIn this sentence, \"impetuous\" is closest in meaning to",
+      "options": [
+        "acting suddenly without thought",
+        "carefully planned",
+        "cowardly",
+        "reluctant"
+      ],
+      "answerIndex": 0,
+      "explanation": "He decided without discussion, suddenly."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The mercurial star was charming one day and sullen the next.\n\nIn this sentence, \"mercurial\" is closest in meaning to",
+      "options": [
+        "steady",
+        "famous",
+        "wealthy",
+        "changeable in mood"
+      ],
+      "answerIndex": 3,
+      "explanation": "The two contrasting days show changeable moods."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The abstemious monk ate little and drank only water.\n\nIn this sentence, \"abstemious\" is closest in meaning to",
+      "options": [
+        "greedy",
+        "ill",
+        "sparing in food and drink",
+        "wealthy"
+      ],
+      "answerIndex": 2,
+      "explanation": "The restatement describes eating little and drinking only water."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/synonyms/"
+}

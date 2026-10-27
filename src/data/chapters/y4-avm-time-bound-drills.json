@@ -1,0 +1,419 @@
+{
+  "id": "y4-avm-time-bound-drills",
+  "yearId": 4,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 20,
+  "title": "Time-Bound Verbal Drills",
+  "tagline": "Year 4 — Quick verbal items under 30 seconds: synonyms, antonyms, one-word substitutes, fill-blanks and error spotting",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Quick verbal items (a synonym, an antonym, a one-word substitute, a fill-blank, a simple error) should take 20–30 seconds each. They reward vocabulary and grammar knowledge and cost little time, so they should be answered first in any timed section. This chapter is a drill of such items, with a pacing method: answer what you know at once, mark doubtful items, and leave long passages for last.",
+    "placementRelevance": "Online verbal sections often open with such quick items; speed here buys time for passages.",
+    "realWorldContext": "Quick, accurate language checks are part of everyday writing."
+  },
+  "learningObjectives": [
+    "Answer quick items in under 30 seconds",
+    "Use elimination of two options",
+    "Mark and skip doubtful words",
+    "Use grammar rules for instant fixes",
+    "Budget time between quick items and passages"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Integrated Verbal Ability Sets",
+      "High-Level Contextual Vocabulary"
+    ],
+    "quickRefresher": "If you do not know a word, use its root or the sentence; if still unsure, eliminate and guess."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Quick item: answered in under 30 seconds.",
+      "Elimination: removing options you know are wrong.",
+      "Mark and skip: leaving a doubtful item for later.",
+      "One-word substitute: a single word for a phrase.",
+      "Pace: time per question."
+    ],
+    "theoreticalIntuition": "Know-it-or-not decisions should take seconds; spend the saved time on passages.",
+    "visualOrMentalModel": "Read, decide, mark, move. Do not agonise over words you do not know."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Time plan",
+      "formula": "Quick items 20–30 s; passages 3–4 min",
+      "description": "Section plan.",
+      "whenToUse": "Budget.",
+      "simpleExample": "10 quick items = 5 min"
+    },
+    {
+      "title": "Elimination",
+      "formula": "Remove two options",
+      "description": "Doubt.",
+      "whenToUse": "Guess.",
+      "simpleExample": "50% chance"
+    },
+    {
+      "title": "Suffix clue",
+      "formula": "-less = without; -ful = full of",
+      "description": "Words.",
+      "whenToUse": "Roots.",
+      "simpleExample": "Fearless"
+    },
+    {
+      "title": "Prefix clue",
+      "formula": "un-, dis-, in- = not",
+      "description": "Antonyms.",
+      "whenToUse": "Roots.",
+      "simpleExample": "Dishonest"
+    },
+    {
+      "title": "Rule check",
+      "formula": "Agreement, tense",
+      "description": "Grammar.",
+      "whenToUse": "Rules.",
+      "simpleExample": "Each … is"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A section with 10 quick items should take about 5 minutes. If you spend two minutes on one word, you lose three quick items.",
+      "Use roots: \"fearless\" is without fear; \"dishonest\" is not honest.",
+      "One-word substitutes: a person who walks in sleep is a somnambulist; a fear of heights is acrophobia.",
+      "For grammar, use the rule: each is singular, so \"each of the students was\".",
+      "Mark doubtful items and return only if time remains."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Elimination odds",
+        "content": "Removing two options doubles the chance of a correct guess."
+      },
+      {
+        "title": "Do not over-think",
+        "content": "Easy items answered fast leave time for harder ones."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Synonyms",
+      "description": "Quick.",
+      "exampleSnippet": "Frank"
+    },
+    {
+      "typeName": "Antonyms",
+      "description": "Prefix clue.",
+      "exampleSnippet": "Honest"
+    },
+    {
+      "typeName": "One-word",
+      "description": "Definition.",
+      "exampleSnippet": "Somnambulist"
+    },
+    {
+      "typeName": "Fill-blanks",
+      "description": "Context.",
+      "exampleSnippet": "Rarely"
+    },
+    {
+      "typeName": "Error spotting",
+      "description": "Rule.",
+      "exampleSnippet": "Each … was"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-avm-time-bound-drills-1",
+      "title": "Time budget",
+      "question": "You plan 10 quick items at 30 seconds each. How long is that?",
+      "givenInfo": [
+        "10 × 30 s"
+      ],
+      "conceptOrFormula": "Multiply.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Product",
+          "explanation": "10 × 30 = 300 s."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Minutes",
+          "explanation": "5 minutes."
+        }
+      ],
+      "finalAnswer": "5 minutes",
+      "whyItWorks": "Keep to plan.",
+      "commonTrap": "Taking 30 seconds total.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-avm-time-bound-drills-2",
+      "title": "Root clue",
+      "question": "What does \"fearless\" mean?",
+      "givenInfo": [
+        "-less"
+      ],
+      "conceptOrFormula": "Suffix.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Suffix",
+          "explanation": "-less means without."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Meaning",
+          "explanation": "Without fear."
+        }
+      ],
+      "finalAnswer": "Without fear",
+      "whyItWorks": "Suffix clue.",
+      "commonTrap": "Choosing full of fear.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-avm-time-bound-drills-3",
+      "title": "Elimination",
+      "question": "You can remove two of four options. What is the chance of guessing correctly?",
+      "givenInfo": [
+        "4 options"
+      ],
+      "conceptOrFormula": "Two remain.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Left",
+          "explanation": "2 options."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Chance",
+          "explanation": "1 in 2 = 50%."
+        }
+      ],
+      "finalAnswer": "50%",
+      "whyItWorks": "Doubles from 25%.",
+      "commonTrap": "Saying 25%.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Decide fast",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Think until sure.",
+      "shortcutMethod": "Answer at once, eliminate if unsure, mark and move on; spend the saved time on passages."
+    },
+    "rulesForApplication": [
+      "20–30 seconds.",
+      "Use roots.",
+      "Eliminate.",
+      "Mark and skip."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Dwelling on one word",
+      "whyItHappens": "Time lost.",
+      "howToAvoid": "Mark and skip."
+    },
+    {
+      "mistake": "Not using roots",
+      "whyItHappens": "Missed clue.",
+      "howToAvoid": "Check prefixes."
+    },
+    {
+      "mistake": "Rechecking easy items",
+      "whyItHappens": "Waste.",
+      "howToAvoid": "Move on."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 25,
+    "eliminationTechnique": "Eliminate the two most obviously wrong options first.",
+    "questionSelectionAdvice": "Practise 10 items every day.",
+    "recruiterInsight": "Accuracy on quick items is mostly vocabulary built over time."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-avm-time-bound-drills-e1",
+        "question": "Choose the word closest in meaning to \"brief\".",
+        "options": [
+          "bright",
+          "short",
+          "broad",
+          "brittle"
+        ],
+        "correctAnswer": "short",
+        "explanation": "Brief means lasting a short time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-avm-time-bound-drills-e2",
+        "question": "Choose the word opposite in meaning to \"honest\".",
+        "options": [
+          "dishonest",
+          "truthful",
+          "faithful",
+          "careful"
+        ],
+        "correctAnswer": "dishonest",
+        "explanation": "The prefix dis- reverses the meaning.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-avm-time-bound-drills-e3",
+        "question": "One word for \"a person who walks in his sleep\":",
+        "options": [
+          "insomniac",
+          "optimist",
+          "pedestrian",
+          "somnambulist"
+        ],
+        "correctAnswer": "somnambulist",
+        "explanation": "A somnambulist is a sleepwalker.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-avm-time-bound-drills-i7",
+        "question": "Choose the correct word: She rarely ____ late.",
+        "options": [
+          "comes",
+          "come",
+          "coming",
+          "came to"
+        ],
+        "correctAnswer": "comes",
+        "explanation": "The third-person singular present takes \"comes\".",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-avm-time-bound-drills-i8",
+        "question": "Choose the word opposite in meaning to \"expand\".",
+        "options": [
+          "grow",
+          "stretch",
+          "build",
+          "shrink"
+        ],
+        "correctAnswer": "shrink",
+        "explanation": "To expand is to become larger; to shrink is the opposite.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-avm-time-bound-drills-i9",
+        "question": "Find the error: Each of the students / were given / a book / by the teacher.",
+        "options": [
+          "Each of the students",
+          "a book",
+          "by the teacher",
+          "were given"
+        ],
+        "correctAnswer": "were given",
+        "explanation": "\"Each\" is singular, so \"was given\".",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-avm-time-bound-drills-a15",
+        "question": "One word for \"a government by the people\":",
+        "options": [
+          "autocracy",
+          "monarchy",
+          "democracy",
+          "bureaucracy"
+        ],
+        "correctAnswer": "democracy",
+        "explanation": "Democracy means government by the people.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-time-bound-drills-a16",
+        "question": "Choose the word opposite in meaning to \"optimistic\".",
+        "options": [
+          "hopeful",
+          "pessimistic",
+          "cheerful",
+          "confident"
+        ],
+        "correctAnswer": "pessimistic",
+        "explanation": "Pessimistic is the opposite.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-avm-time-bound-drills-p17",
+        "question": "Find the error: He is / more taller / than his brother / by two inches.",
+        "options": [
+          "He is",
+          "more taller",
+          "than his brother",
+          "by two inches"
+        ],
+        "correctAnswer": "more taller",
+        "explanation": "\"Taller\" is already comparative; \"more\" is redundant.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-time-bound-drills-p18",
+        "question": "Choose the correct preposition: She is good ____ mathematics.",
+        "options": [
+          "at",
+          "in",
+          "on",
+          "with"
+        ],
+        "correctAnswer": "at",
+        "explanation": "The idiom is \"good at\".",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-time-bound-drills-p19",
+        "question": "Choose the word closest in meaning to \"abundant\".",
+        "options": [
+          "scarce",
+          "tiny",
+          "costly",
+          "plentiful"
+        ],
+        "correctAnswer": "plentiful",
+        "explanation": "Abundant means existing in large quantities.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Pace.",
+      "Roots.",
+      "Elimination.",
+      "One-word substitutes.",
+      "Rules."
+    ],
+    "quickFormulas": [
+      "Quick = 20–30 s"
+    ]
+  },
+  "keyTakeaways": [
+    "Decide fast.",
+    "Use roots.",
+    "Eliminate.",
+    "Mark."
+  ],
+  "selfCheckQuestions": [
+    "Can I answer in 30 seconds?",
+    "Can I use roots?",
+    "Can I eliminate fast?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

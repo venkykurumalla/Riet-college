@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-avm-integrated-verbal-sets",
+  "topicTitle": "Integrated Verbal Ability Sets",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the word closest in meaning to \"candid\".",
+      "options": [
+        "secretive",
+        "frank",
+        "polite",
+        "cheerful"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"Candid\" means open and honest, which is frank."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the word opposite in meaning to \"scarce\".",
+      "options": [
+        "plentiful",
+        "rare",
+        "costly",
+        "tiny"
+      ],
+      "answerIndex": 0,
+      "explanation": "Scarce means in short supply; plentiful is the opposite."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "She was so ____ in her book that she forgot lunch.",
+      "options": [
+        "enraged",
+        "entitled",
+        "embarrassed",
+        "engrossed"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Engrossed\" means completely absorbed, which explains forgetting lunch."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "Neither of the boys have finished his work.",
+        "Neither of the boys has finished their works.",
+        "Neither of the boys has finished his work.",
+        "Neither of the boy has finished his work."
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Neither\" is singular, so \"has\" and \"his\" agree with it."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The idiom \"to turn over a new leaf\" means",
+      "options": [
+        "to read a book",
+        "to leave a job",
+        "to begin behaving better",
+        "to waste time"
+      ],
+      "answerIndex": 2,
+      "explanation": "It means to start afresh with improved behaviour."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Order the sentences: P He opened the door. Q A cold wind rushed in. R It was a stormy night. S Suddenly there was a knock.",
+      "options": [
+        "RPSQ",
+        "RSPQ",
+        "SRPQ",
+        "RSQP"
+      ],
+      "answerIndex": 1,
+      "explanation": "The scene (R), the knock (S), opening the door (P), the wind (Q)."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Passage: Bees communicate the location of flowers by dancing. The angle of the dance shows direction and its length shows distance. Researchers whose robotic bee performed the dance successfully sent real bees to chosen locations. The experiment shows that",
+      "options": [
+        "the dance carries enough information to guide other bees",
+        "robots are better than bees",
+        "bees cannot find flowers alone",
+        "the dance is only decoration"
+      ],
+      "answerIndex": 0,
+      "explanation": "Real bees followed the robot's dance, so the dance carries the guiding information."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Find the part with the error: Each of the players / were given / a medal / by the captain.",
+      "options": [
+        "Each of the players",
+        "a medal",
+        "by the captain",
+        "were given"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Each\" is singular, so \"was given\"."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the word closest in meaning to \"frugal\".",
+      "options": [
+        "careless",
+        "generous",
+        "greedy",
+        "thrifty"
+      ],
+      "answerIndex": 3,
+      "explanation": "Frugal means careful with money."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Although the plan looked ____, it failed in practice.",
+      "options": [
+        "hopeless",
+        "unsafe",
+        "promising",
+        "unfinished"
+      ],
+      "answerIndex": 2,
+      "explanation": "The contrast \"although … failed\" needs a positive word: promising."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Complete the sentence: The more you practise,",
+      "options": [
+        "you become better",
+        "the better you become",
+        "better become you",
+        "the becoming is better"
+      ],
+      "answerIndex": 1,
+      "explanation": "The pattern \"the more …, the better …\" is a fixed structure."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the grammatically correct comparison.",
+      "options": [
+        "He is taller than I am.",
+        "He is taller than me am.",
+        "He is taller as I am.",
+        "He is more taller than I am."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Than I am\" completes the comparison grammatically."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the word opposite in meaning to \"generous\".",
+      "options": [
+        "stingy",
+        "kind",
+        "rich",
+        "wise"
+      ],
+      "answerIndex": 0,
+      "explanation": "A generous person gives freely; a stingy one does not."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The idiom \"a storm in a teacup\" means",
+      "options": [
+        "a tea party",
+        "a sudden weather change",
+        "a serious disaster",
+        "a big fuss over a small matter"
+      ],
+      "answerIndex": 3,
+      "explanation": "It describes great excitement about something unimportant."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Order the sentences: P She studied hard for months. Q Her result was outstanding. R Priya wanted a place in the medical college. S Last week the list was published.",
+      "options": [
+        "PRSQ",
+        "RSPQ",
+        "RPSQ",
+        "RPQS"
+      ],
+      "answerIndex": 2,
+      "explanation": "Her aim (R), her work (P), the list (S), her result (Q)."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Passage: Paper is made from wood pulp, but recycled paper needs less energy and water. However, recycling cannot continue for ever, because the fibres shorten each time and eventually become too short to bind. Which conclusion is supported?",
+      "options": [
+        "Recycling is useless",
+        "Recycling reduces but cannot remove the need for fresh fibre",
+        "Fresh fibre is never needed",
+        "Recycled paper is stronger than new paper"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fibres shorten with each cycle, so fresh fibre is still needed."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the correct indirect question.",
+      "options": [
+        "He did not know where was the station.",
+        "He did not know where the station was.",
+        "He did not knew where the station was.",
+        "He did not know where the station is was."
+      ],
+      "answerIndex": 1,
+      "explanation": "In an indirect question the verb follows the subject: \"where the station was\"."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the word closest in meaning to \"adjourned\" in \"The meeting was adjourned\".",
+      "options": [
+        "suspended until a later time",
+        "cancelled for ever",
+        "started",
+        "made public"
+      ],
+      "answerIndex": 0,
+      "explanation": "To adjourn is to break off until a later time."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Neither the teacher nor the students ____ aware of the change.",
+      "options": [
+        "was",
+        "is",
+        "has been",
+        "were"
+      ],
+      "answerIndex": 3,
+      "explanation": "The verb agrees with the nearer subject, \"students\", so \"were\"."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "He was exhausted; ____, he continued working.",
+      "options": [
+        "therefore",
+        "because",
+        "nevertheless",
+        "moreover"
+      ],
+      "answerIndex": 2,
+      "explanation": "Working despite exhaustion is a contrast."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/"
+}

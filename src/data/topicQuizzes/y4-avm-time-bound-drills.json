@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-avm-time-bound-drills",
+  "topicTitle": "Time-Bound Verbal Drills",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the word closest in meaning to \"brief\".",
+      "options": [
+        "bright",
+        "short",
+        "broad",
+        "brittle"
+      ],
+      "answerIndex": 1,
+      "explanation": "Brief means lasting a short time."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the word opposite in meaning to \"honest\".",
+      "options": [
+        "dishonest",
+        "truthful",
+        "faithful",
+        "careful"
+      ],
+      "answerIndex": 0,
+      "explanation": "The prefix dis- reverses the meaning."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "One word for \"a person who walks in his sleep\":",
+      "options": [
+        "insomniac",
+        "optimist",
+        "pedestrian",
+        "somnambulist"
+      ],
+      "answerIndex": 3,
+      "explanation": "A somnambulist is a sleepwalker."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "One word for \"fear of heights\":",
+      "options": [
+        "claustrophobia",
+        "agoraphobia",
+        "acrophobia",
+        "hydrophobia"
+      ],
+      "answerIndex": 2,
+      "explanation": "Acrophobia is fear of heights."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the correct word: He lives ____ the river.",
+      "options": [
+        "nearly",
+        "nearby of",
+        "near",
+        "nearer to of"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Near the river\" is the natural phrase."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the word closest in meaning to \"ancient\".",
+      "options": [
+        "very new",
+        "very old",
+        "very big",
+        "very rare"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ancient means belonging to the distant past."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the correct word: She rarely ____ late.",
+      "options": [
+        "comes",
+        "come",
+        "coming",
+        "came to"
+      ],
+      "answerIndex": 0,
+      "explanation": "The third-person singular present takes \"comes\"."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the word opposite in meaning to \"expand\".",
+      "options": [
+        "grow",
+        "stretch",
+        "build",
+        "shrink"
+      ],
+      "answerIndex": 3,
+      "explanation": "To expand is to become larger; to shrink is the opposite."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Find the error: Each of the students / were given / a book / by the teacher.",
+      "options": [
+        "Each of the students",
+        "a book",
+        "by the teacher",
+        "were given"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Each\" is singular, so \"was given\"."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Choose the word closest in meaning to \"vacant\".",
+      "options": [
+        "busy",
+        "noisy",
+        "empty",
+        "dirty"
+      ],
+      "answerIndex": 2,
+      "explanation": "A vacant seat is an empty one."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "One word for \"a person who loves books\":",
+      "options": [
+        "bibliographer",
+        "bibliophile",
+        "librarian",
+        "novelist"
+      ],
+      "answerIndex": 1,
+      "explanation": "A bibliophile loves books."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the correct form: The news ____ good.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have been"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"News\" is uncountable and singular."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the word opposite in meaning to \"victory\".",
+      "options": [
+        "defeat",
+        "battle",
+        "success",
+        "peace"
+      ],
+      "answerIndex": 0,
+      "explanation": "Defeat is the opposite of victory."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the word closest in meaning to \"hasten\".",
+      "options": [
+        "delay",
+        "rest",
+        "prevent",
+        "hurry"
+      ],
+      "answerIndex": 3,
+      "explanation": "To hasten is to hurry."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "One word for \"a government by the people\":",
+      "options": [
+        "autocracy",
+        "monarchy",
+        "democracy",
+        "bureaucracy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Democracy means government by the people."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the word opposite in meaning to \"optimistic\".",
+      "options": [
+        "hopeful",
+        "pessimistic",
+        "cheerful",
+        "confident"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pessimistic is the opposite."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Find the error: He is / more taller / than his brother / by two inches.",
+      "options": [
+        "He is",
+        "more taller",
+        "than his brother",
+        "by two inches"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"Taller\" is already comparative; \"more\" is redundant."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the correct preposition: She is good ____ mathematics.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "with"
+      ],
+      "answerIndex": 0,
+      "explanation": "The idiom is \"good at\"."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the word closest in meaning to \"abundant\".",
+      "options": [
+        "scarce",
+        "tiny",
+        "costly",
+        "plentiful"
+      ],
+      "answerIndex": 3,
+      "explanation": "Abundant means existing in large quantities."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "One word for \"a speech delivered without preparation\":",
+      "options": [
+        "monologue",
+        "oration",
+        "extempore",
+        "sermon"
+      ],
+      "answerIndex": 2,
+      "explanation": "An extempore speech is delivered without preparation."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/"
+}
