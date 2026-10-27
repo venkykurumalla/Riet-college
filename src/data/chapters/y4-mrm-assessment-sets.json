@@ -1,0 +1,421 @@
+{
+  "id": "y4-mrm-assessment-sets",
+  "yearId": 4,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 8,
+  "title": "Mixed Reasoning Assessment Sets",
+  "tagline": "Year 4 — A full mix of reasoning question types in one set: series, coding, ranking, direction, relations, calendar and logic",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Company reasoning sections mix many small question types: number series, coding-decoding, ranking, direction sense, blood relations, calendars, clocks, simple syllogisms and short puzzles. Each type has a standard method that takes under a minute once practised. This chapter gives a mixed set and the method for each type so that you can switch quickly.",
+    "placementRelevance": "The first half of most reasoning sections is this kind of quick item; scoring well here buys time for puzzles.",
+    "realWorldContext": "Switching quickly between small analytical tasks is typical of day-to-day work."
+  },
+  "learningObjectives": [
+    "Recognise the type within seconds",
+    "Apply the standard method for each type",
+    "Compute ranks, directions and calendars without diagrams where possible",
+    "Solve truth-teller puzzles by case testing",
+    "Manage time across mixed items"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Number Series",
+      "Coding-Decoding",
+      "Direction Sense",
+      "Blood Relations"
+    ],
+    "quickRefresher": "Ranks: total = rank from left + rank from right − 1. Calendar: days ahead mod 7. Direction: track coordinates."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Series: numbers following a rule.",
+      "Coding: letters or numbers changed by a fixed rule.",
+      "Rank from both ends: total = left + right − 1.",
+      "Displacement: straight-line distance from start.",
+      "Odd days: remainder of days when divided by 7."
+    ],
+    "theoreticalIntuition": "Every small type has one trick. The skill is recognising which.",
+    "visualOrMentalModel": "Name the type, apply the trick, verify once, move on."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Total from ranks",
+      "formula": "Left + right − 1",
+      "description": "Ranking.",
+      "whenToUse": "Row of people.",
+      "simpleExample": "12th and 29th give 40"
+    },
+    {
+      "title": "Letter shift",
+      "formula": "Add or subtract k from each letter",
+      "description": "Coding.",
+      "whenToUse": "Code questions.",
+      "simpleExample": "CAT → DBU"
+    },
+    {
+      "title": "Displacement",
+      "formula": "√(x² + y²)",
+      "description": "Direction.",
+      "whenToUse": "Walks.",
+      "simpleExample": "6 N and 8 E = 10"
+    },
+    {
+      "title": "Day ahead",
+      "formula": "n mod 7",
+      "description": "Calendars.",
+      "whenToUse": "Day questions.",
+      "simpleExample": "18 days = 4"
+    },
+    {
+      "title": "Series check",
+      "formula": "Differences and ratios",
+      "description": "Series.",
+      "whenToUse": "Missing term.",
+      "simpleExample": "2,5,10,17,26"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A row of 40 has Ravi 12th from the left. From the right he is 40 − 12 + 1 = 29th.",
+      "In a code CAT becomes DBU: each letter moves one step forward. So DOG becomes EPH.",
+      "A walks 6 m north and 8 m east: the distance from the start is √(36 + 64) = 10 m.",
+      "If the 5th of a month is a Monday, the 23rd is 18 days later; 18 mod 7 = 4, so Friday.",
+      "For truth-teller puzzles, assume each person in turn is truthful and test for contradiction."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Series types",
+        "content": "Check differences, then differences of differences, then ratios, then squares and cubes."
+      },
+      {
+        "title": "Case testing",
+        "content": "With three speakers there are only eight truth assignments; test them systematically."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Series",
+      "description": "Differences.",
+      "exampleSnippet": "2, 5, 10, 17"
+    },
+    {
+      "typeName": "Coding",
+      "description": "Shifts.",
+      "exampleSnippet": "CAT → DBU"
+    },
+    {
+      "typeName": "Ranking",
+      "description": "Left + right − 1.",
+      "exampleSnippet": "Row of 40"
+    },
+    {
+      "typeName": "Direction",
+      "description": "Coordinates.",
+      "exampleSnippet": "6 N, 8 E"
+    },
+    {
+      "typeName": "Calendar",
+      "description": "Mod 7.",
+      "exampleSnippet": "23rd of the month"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mrm-assessment-sets-1",
+      "title": "Ranking",
+      "question": "Ravi is 12th from the left in a row of 40. What is his rank from the right?",
+      "givenInfo": [
+        "12th, 40"
+      ],
+      "conceptOrFormula": "Total = left + right − 1.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rearrange",
+          "explanation": "Right = total − left + 1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "40 − 12 + 1 = 29."
+        }
+      ],
+      "finalAnswer": "29th",
+      "whyItWorks": "Do not subtract 12 only.",
+      "commonTrap": "Answering 28.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mrm-assessment-sets-2",
+      "title": "Coding",
+      "question": "In a code CAT is DBU. What is DOG?",
+      "givenInfo": [
+        "CAT → DBU"
+      ],
+      "conceptOrFormula": "Shift each letter.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rule",
+          "explanation": "Each letter + 1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply",
+          "explanation": "D→E, O→P, G→H: EPH."
+        }
+      ],
+      "finalAnswer": "EPH",
+      "whyItWorks": "Same shift for all.",
+      "commonTrap": "Shifting by 2.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mrm-assessment-sets-3",
+      "title": "Calendar",
+      "question": "The 5th of a month is a Monday. What day is the 23rd?",
+      "givenInfo": [
+        "5th Monday"
+      ],
+      "conceptOrFormula": "Mod 7.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Gap",
+          "explanation": "23 − 5 = 18 days."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Day",
+          "explanation": "18 mod 7 = 4, Monday + 4 = Friday."
+        }
+      ],
+      "finalAnswer": "Friday",
+      "whyItWorks": "Four days past Monday.",
+      "commonTrap": "Counting 18 days directly.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Type, trick, verify",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reason from scratch.",
+      "shortcutMethod": "Name the type, apply its trick, verify once, and move on."
+    },
+    "rulesForApplication": [
+      "Left + right − 1.",
+      "Mod 7 for days.",
+      "Coordinates for walks.",
+      "Test cases for liars."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Off-by-one in ranks",
+      "whyItHappens": "Total wrong.",
+      "howToAvoid": "Subtract 1 once."
+    },
+    {
+      "mistake": "Counting days instead of mod 7",
+      "whyItHappens": "Slow.",
+      "howToAvoid": "Reduce modulo 7."
+    },
+    {
+      "mistake": "Stopping at one hypothesis",
+      "whyItHappens": "Missed contradiction.",
+      "howToAvoid": "Test all cases."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 45,
+    "eliminationTechnique": "Reject answers that violate an obvious constraint.",
+    "questionSelectionAdvice": "Practise each type until under 40 s.",
+    "recruiterInsight": "Mixed sets reward switching speed."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mrm-assessment-sets-e1",
+        "question": "What comes next: 3, 6, 12, 24, ?",
+        "options": [
+          "53",
+          "48",
+          "43",
+          "60"
+        ],
+        "correctAnswer": "48",
+        "explanation": "Each term doubles: 24 × 2 = 48.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-assessment-sets-e2",
+        "question": "If CAT is coded as DBU, then DOG is coded as",
+        "options": [
+          "EPH",
+          "FQI",
+          "CNF",
+          "EQI"
+        ],
+        "correctAnswer": "EPH",
+        "explanation": "Each letter moves one step forward: D→E, O→P, G→H.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-assessment-sets-e3",
+        "question": "Ravi is 12th from the left in a row of 40 students. His position from the right is",
+        "options": [
+          "32",
+          "26",
+          "36",
+          "29"
+        ],
+        "correctAnswer": "29",
+        "explanation": "Total = left + right − 1, so right = 40 − 12 + 1 = 29.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mrm-assessment-sets-i7",
+        "question": "What comes next: 2, 5, 10, 17, 26, ?",
+        "options": [
+          "37",
+          "41",
+          "33",
+          "46"
+        ],
+        "correctAnswer": "37",
+        "explanation": "The terms are n² + 1 (1²+1 … 5²+1); the next is 6² + 1 = 37.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-assessment-sets-i8",
+        "question": "If MANGO is written as NBOHP, then APPLE is written as",
+        "options": [
+          "BQQLF",
+          "ZOOKD",
+          "BQQMG",
+          "BQQMF"
+        ],
+        "correctAnswer": "BQQMF",
+        "explanation": "Each letter moves one step forward.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-assessment-sets-i9",
+        "question": "A person faces north, turns right, walks 5 m, turns right, walks 5 m, turns left and walks 5 m. He is now facing",
+        "options": [
+          "North",
+          "West",
+          "South",
+          "East"
+        ],
+        "correctAnswer": "East",
+        "explanation": "North → right → East → right → South → left → East.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mrm-assessment-sets-a15",
+        "question": "The angle between the hands of a clock at 4:30 is",
+        "options": [
+          "30°",
+          "60°",
+          "45°",
+          "75°"
+        ],
+        "correctAnswer": "45°",
+        "explanation": "Hour hand at 4 × 30 + 15 = 135°; minute hand at 180°; difference 45°.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-assessment-sets-a16",
+        "question": "What comes next: 1, 2, 6, 24, 120, ?",
+        "options": [
+          "792",
+          "720",
+          "648",
+          "900"
+        ],
+        "correctAnswer": "720",
+        "explanation": "Factorials: 1!, 2!, 3!, 4!, 5!; next is 6! = 720.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mrm-assessment-sets-p17",
+        "question": "A 3 × 3 × 3 cube is painted on all faces and cut into 27 unit cubes. The number of unit cubes with exactly one painted face is",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "8"
+        ],
+        "correctAnswer": "6",
+        "explanation": "One per face centre: 6 faces × 1 = 6.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-assessment-sets-p18",
+        "question": "A says \"B is lying\", B says \"C is lying\", and C says \"A and B are both lying\". Who is telling the truth?",
+        "options": [
+          "Only B",
+          "Only A",
+          "Only C",
+          "A and C"
+        ],
+        "correctAnswer": "Only B",
+        "explanation": "Testing all eight cases, only the case with B truthful and A, C lying is consistent.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-assessment-sets-p19",
+        "question": "If 1 January 2024 is a Monday, then 1 March 2024 is a",
+        "options": [
+          "Thursday",
+          "Saturday",
+          "Wednesday",
+          "Friday"
+        ],
+        "correctAnswer": "Friday",
+        "explanation": "Jan has 31 days and Feb 2024 has 29: 60 days; 60 mod 7 = 4; Monday + 4 = Friday.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Series.",
+      "Coding.",
+      "Ranks.",
+      "Directions.",
+      "Calendars."
+    ],
+    "quickFormulas": [
+      "Total = left + right − 1"
+    ]
+  },
+  "keyTakeaways": [
+    "Recognise.",
+    "Apply the trick.",
+    "Verify.",
+    "Move on."
+  ],
+  "selfCheckQuestions": [
+    "Can I name the type quickly?",
+    "Can I compute a rank?",
+    "Can I test cases?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

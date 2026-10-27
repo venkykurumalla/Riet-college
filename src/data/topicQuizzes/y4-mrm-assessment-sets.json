@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-mrm-assessment-sets",
+  "topicTitle": "Mixed Reasoning Assessment Sets",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "What comes next: 3, 6, 12, 24, ?",
+      "options": [
+        "53",
+        "48",
+        "43",
+        "60"
+      ],
+      "answerIndex": 1,
+      "explanation": "Each term doubles: 24 × 2 = 48."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "If CAT is coded as DBU, then DOG is coded as",
+      "options": [
+        "EPH",
+        "FQI",
+        "CNF",
+        "EQI"
+      ],
+      "answerIndex": 0,
+      "explanation": "Each letter moves one step forward: D→E, O→P, G→H."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Ravi is 12th from the left in a row of 40 students. His position from the right is",
+      "options": [
+        "32",
+        "26",
+        "36",
+        "29"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total = left + right − 1, so right = 40 − 12 + 1 = 29."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A man walks 6 m north and then 8 m east. His distance from the start is (m)",
+      "options": [
+        "11",
+        "9",
+        "10",
+        "13"
+      ],
+      "answerIndex": 2,
+      "explanation": "√(6² + 8²) = √100 = 10."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Pointing to a girl, Arjun says, \"She is the daughter of my father's only son.\" The girl is Arjun's",
+      "options": [
+        "sister",
+        "niece",
+        "daughter",
+        "cousin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Arjun's father's only son is Arjun himself, so the girl is Arjun's daughter."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Which number does NOT belong: 27, 64, 125, 150?",
+      "options": [
+        "27",
+        "150",
+        "64",
+        "125"
+      ],
+      "answerIndex": 1,
+      "explanation": "27, 64 and 125 are cubes (3³, 4³, 5³); 150 is not."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "What comes next: 2, 5, 10, 17, 26, ?",
+      "options": [
+        "37",
+        "41",
+        "33",
+        "46"
+      ],
+      "answerIndex": 0,
+      "explanation": "The terms are n² + 1 (1²+1 … 5²+1); the next is 6² + 1 = 37."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "If MANGO is written as NBOHP, then APPLE is written as",
+      "options": [
+        "BQQLF",
+        "ZOOKD",
+        "BQQMG",
+        "BQQMF"
+      ],
+      "answerIndex": 3,
+      "explanation": "Each letter moves one step forward."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A person faces north, turns right, walks 5 m, turns right, walks 5 m, turns left and walks 5 m. He is now facing",
+      "options": [
+        "North",
+        "West",
+        "South",
+        "East"
+      ],
+      "answerIndex": 3,
+      "explanation": "North → right → East → right → South → left → East."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Priya is 7th from the top and 18th from the bottom in a class. The class strength is",
+      "options": [
+        "26",
+        "22",
+        "24",
+        "30"
+      ],
+      "answerIndex": 2,
+      "explanation": "7 + 18 − 1 = 24."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The sum of the ages of A and B is 50 and A is 10 years older than B. A's age is",
+      "options": [
+        "33",
+        "30",
+        "27",
+        "38"
+      ],
+      "answerIndex": 1,
+      "explanation": "A = (50 + 10)/2 = 30."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "If the 5th of a month is a Monday, the 23rd of that month is a",
+      "options": [
+        "Friday",
+        "Thursday",
+        "Saturday",
+        "Wednesday"
+      ],
+      "answerIndex": 0,
+      "explanation": "18 days later; 18 mod 7 = 4; Monday + 4 days = Friday."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "All roses are flowers and no flower is a stone. Which must be true?",
+      "options": [
+        "No rose is a stone",
+        "Some stones are roses",
+        "All flowers are roses",
+        "Some flowers are stones"
+      ],
+      "answerIndex": 0,
+      "explanation": "Roses lie inside flowers, which are separate from stones."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Book : Reading :: Fork : ?",
+      "options": [
+        "Cooking",
+        "Metal",
+        "Kitchen",
+        "Eating"
+      ],
+      "answerIndex": 3,
+      "explanation": "A book is used for reading; a fork is used for eating."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The angle between the hands of a clock at 4:30 is",
+      "options": [
+        "30°",
+        "60°",
+        "45°",
+        "75°"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hour hand at 4 × 30 + 15 = 135°; minute hand at 180°; difference 45°."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "What comes next: 1, 2, 6, 24, 120, ?",
+      "options": [
+        "792",
+        "720",
+        "648",
+        "900"
+      ],
+      "answerIndex": 1,
+      "explanation": "Factorials: 1!, 2!, 3!, 4!, 5!; next is 6! = 720."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A 3 × 3 × 3 cube is painted on all faces and cut into 27 unit cubes. The number of unit cubes with exactly one painted face is",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "One per face centre: 6 faces × 1 = 6."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A says \"B is lying\", B says \"C is lying\", and C says \"A and B are both lying\". Who is telling the truth?",
+      "options": [
+        "Only B",
+        "Only A",
+        "Only C",
+        "A and C"
+      ],
+      "answerIndex": 0,
+      "explanation": "Testing all eight cases, only the case with B truthful and A, C lying is consistent."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "If 1 January 2024 is a Monday, then 1 March 2024 is a",
+      "options": [
+        "Thursday",
+        "Saturday",
+        "Wednesday",
+        "Friday"
+      ],
+      "answerIndex": 3,
+      "explanation": "Jan has 31 days and Feb 2024 has 29: 60 days; 60 mod 7 = 4; Monday + 4 = Friday."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "In a row of 5 people, A is to the left of B, C is to the right of B, D is between A and B and E is at the right end. Who is in the middle?",
+      "options": [
+        "A",
+        "C",
+        "B",
+        "E"
+      ],
+      "answerIndex": 2,
+      "explanation": "Order from left: A, D, B, C, E, so the person in the middle (third) is B."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/"
+}

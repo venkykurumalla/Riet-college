@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-mrm-multi-constraint-puzzles",
+  "topicTitle": "Multi-Constraint Logic Puzzles",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits at the left end?",
+      "options": [
+        "D",
+        "B",
+        "E",
+        "F"
+      ],
+      "answerIndex": 1,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; B is at the left end."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits at the right end?",
+      "options": [
+        "A",
+        "C",
+        "D",
+        "E"
+      ],
+      "answerIndex": 0,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; A is at the right end."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits immediately right of E?",
+      "options": [
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answerIndex": 3,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; G is immediately right of E."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits immediately left of D?",
+      "options": [
+        "C",
+        "D",
+        "G",
+        "E"
+      ],
+      "answerIndex": 2,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; G is immediately left of D."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits in the fifth seat from the left?",
+      "options": [
+        "B",
+        "C",
+        "F",
+        "D"
+      ],
+      "answerIndex": 2,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; F is fifth from the left."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits second from the right?",
+      "options": [
+        "E",
+        "C",
+        "F",
+        "G"
+      ],
+      "answerIndex": 1,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; C is second from the right."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nHow many people sit between B and D?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answerIndex": 0,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; 2 people sit between B and D, which is 2."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits between G and F?",
+      "options": [
+        "C",
+        "E",
+        "F",
+        "D"
+      ],
+      "answerIndex": 3,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; D sits between G and F."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nHow many people sit to the right of F?",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "3"
+      ],
+      "answerIndex": 3,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; 3 people sit to the right of F, which is 3."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits third from the left?",
+      "options": [
+        "A",
+        "B",
+        "G",
+        "C"
+      ],
+      "answerIndex": 2,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; G is third from the left."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nIf A and B exchange seats, who sits immediately left of E?",
+      "options": [
+        "B",
+        "A",
+        "C",
+        "G"
+      ],
+      "answerIndex": 1,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; After the exchange A is at the left end, so A is immediately left of E."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits immediately left of A?",
+      "options": [
+        "C",
+        "B",
+        "D",
+        "E"
+      ],
+      "answerIndex": 0,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; C is immediately left of A."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nHow many people sit between E and H?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; 3 people sit between E and H, which is 3."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho is the neighbour of both D and H?",
+      "options": [
+        "G",
+        "E",
+        "C",
+        "F"
+      ],
+      "answerIndex": 3,
+      "explanation": "From left to right the order is B, E, G, D, F, H, C, A; F is immediately right of D and immediately left of H."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Five friends Anil, Bharti, Chetan, Disha and Eknath each have a different profession (pilot, chef, tailor, nurse, clerk), live in a different city (Agra, Bhopal, Cochin, Dehradun, Erode) and play a different sport (golf, hockey, tennis, kabaddi, squash). The following facts are known:\n1. The pilot lives in Cochin.\n2. Chetan lives in Erode.\n3. The nurse lives in Bhopal.\n4. The person who plays golf is a pilot.\n5. Eknath is a clerk.\n6. The person who lives in Agra plays tennis.\n7. The person who plays hockey lives in Erode.\n8. The person who plays squash lives in Bhopal.\n9. Eknath plays kabaddi.\n10. The chef plays tennis.\n11. Disha is a nurse.\n12. Bharti does not play golf.\n\nWhat is Anil's profession?",
+      "options": [
+        "chef",
+        "tailor",
+        "pilot",
+        "nurse"
+      ],
+      "answerIndex": 2,
+      "explanation": "Working out the grid gives: Anil: pilot / Cochin / golf; Bharti: chef / Agra / tennis; Chetan: tailor / Erode / hockey; Disha: nurse / Bhopal / squash; Eknath: clerk / Dehradun / kabaddi. So the answer is pilot."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Five friends Anil, Bharti, Chetan, Disha and Eknath each have a different profession (pilot, chef, tailor, nurse, clerk), live in a different city (Agra, Bhopal, Cochin, Dehradun, Erode) and play a different sport (golf, hockey, tennis, kabaddi, squash). The following facts are known:\n1. The pilot lives in Cochin.\n2. Chetan lives in Erode.\n3. The nurse lives in Bhopal.\n4. The person who plays golf is a pilot.\n5. Eknath is a clerk.\n6. The person who lives in Agra plays tennis.\n7. The person who plays hockey lives in Erode.\n8. The person who plays squash lives in Bhopal.\n9. Eknath plays kabaddi.\n10. The chef plays tennis.\n11. Disha is a nurse.\n12. Bharti does not play golf.\n\nIn which city does Bharti live?",
+      "options": [
+        "Bhopal",
+        "Agra",
+        "Cochin",
+        "Dehradun"
+      ],
+      "answerIndex": 1,
+      "explanation": "Working out the grid gives: Anil: pilot / Cochin / golf; Bharti: chef / Agra / tennis; Chetan: tailor / Erode / hockey; Disha: nurse / Bhopal / squash; Eknath: clerk / Dehradun / kabaddi. So the answer is Agra."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Five friends Anil, Bharti, Chetan, Disha and Eknath each have a different profession (pilot, chef, tailor, nurse, clerk), live in a different city (Agra, Bhopal, Cochin, Dehradun, Erode) and play a different sport (golf, hockey, tennis, kabaddi, squash). The following facts are known:\n1. The pilot lives in Cochin.\n2. Chetan lives in Erode.\n3. The nurse lives in Bhopal.\n4. The person who plays golf is a pilot.\n5. Eknath is a clerk.\n6. The person who lives in Agra plays tennis.\n7. The person who plays hockey lives in Erode.\n8. The person who plays squash lives in Bhopal.\n9. Eknath plays kabaddi.\n10. The chef plays tennis.\n11. Disha is a nurse.\n12. Bharti does not play golf.\n\nWhat is Chetan's profession?",
+      "options": [
+        "pilot",
+        "tailor",
+        "chef",
+        "nurse"
+      ],
+      "answerIndex": 1,
+      "explanation": "Working out the grid gives: Anil: pilot / Cochin / golf; Bharti: chef / Agra / tennis; Chetan: tailor / Erode / hockey; Disha: nurse / Bhopal / squash; Eknath: clerk / Dehradun / kabaddi. So the answer is tailor."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Five friends Anil, Bharti, Chetan, Disha and Eknath each have a different profession (pilot, chef, tailor, nurse, clerk), live in a different city (Agra, Bhopal, Cochin, Dehradun, Erode) and play a different sport (golf, hockey, tennis, kabaddi, squash). The following facts are known:\n1. The pilot lives in Cochin.\n2. Chetan lives in Erode.\n3. The nurse lives in Bhopal.\n4. The person who plays golf is a pilot.\n5. Eknath is a clerk.\n6. The person who lives in Agra plays tennis.\n7. The person who plays hockey lives in Erode.\n8. The person who plays squash lives in Bhopal.\n9. Eknath plays kabaddi.\n10. The chef plays tennis.\n11. Disha is a nurse.\n12. Bharti does not play golf.\n\nWho plays squash?",
+      "options": [
+        "Disha",
+        "Anil",
+        "Bharti",
+        "Chetan"
+      ],
+      "answerIndex": 0,
+      "explanation": "Working out the grid gives: Anil: pilot / Cochin / golf; Bharti: chef / Agra / tennis; Chetan: tailor / Erode / hockey; Disha: nurse / Bhopal / squash; Eknath: clerk / Dehradun / kabaddi. So the answer is Disha."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Five friends Anil, Bharti, Chetan, Disha and Eknath each have a different profession (pilot, chef, tailor, nurse, clerk), live in a different city (Agra, Bhopal, Cochin, Dehradun, Erode) and play a different sport (golf, hockey, tennis, kabaddi, squash). The following facts are known:\n1. The pilot lives in Cochin.\n2. Chetan lives in Erode.\n3. The nurse lives in Bhopal.\n4. The person who plays golf is a pilot.\n5. Eknath is a clerk.\n6. The person who lives in Agra plays tennis.\n7. The person who plays hockey lives in Erode.\n8. The person who plays squash lives in Bhopal.\n9. Eknath plays kabaddi.\n10. The chef plays tennis.\n11. Disha is a nurse.\n12. Bharti does not play golf.\n\nWhich sport does Disha play?",
+      "options": [
+        "golf",
+        "hockey",
+        "tennis",
+        "squash"
+      ],
+      "answerIndex": 3,
+      "explanation": "Working out the grid gives: Anil: pilot / Cochin / golf; Bharti: chef / Agra / tennis; Chetan: tailor / Erode / hockey; Disha: nurse / Bhopal / squash; Eknath: clerk / Dehradun / kabaddi. So the answer is squash."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Five friends Anil, Bharti, Chetan, Disha and Eknath each have a different profession (pilot, chef, tailor, nurse, clerk), live in a different city (Agra, Bhopal, Cochin, Dehradun, Erode) and play a different sport (golf, hockey, tennis, kabaddi, squash). The following facts are known:\n1. The pilot lives in Cochin.\n2. Chetan lives in Erode.\n3. The nurse lives in Bhopal.\n4. The person who plays golf is a pilot.\n5. Eknath is a clerk.\n6. The person who lives in Agra plays tennis.\n7. The person who plays hockey lives in Erode.\n8. The person who plays squash lives in Bhopal.\n9. Eknath plays kabaddi.\n10. The chef plays tennis.\n11. Disha is a nurse.\n12. Bharti does not play golf.\n\nWho lives in Dehradun?",
+      "options": [
+        "Anil",
+        "Bharti",
+        "Eknath",
+        "Chetan"
+      ],
+      "answerIndex": 2,
+      "explanation": "Working out the grid gives: Anil: pilot / Cochin / golf; Bharti: chef / Agra / tennis; Chetan: tailor / Erode / hockey; Disha: nurse / Bhopal / squash; Eknath: clerk / Dehradun / kabaddi. So the answer is Eknath."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/"
+}

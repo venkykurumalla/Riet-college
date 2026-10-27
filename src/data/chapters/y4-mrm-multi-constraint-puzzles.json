@@ -1,0 +1,419 @@
+{
+  "id": "y4-mrm-multi-constraint-puzzles",
+  "yearId": 4,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 9,
+  "title": "Multi-Constraint Logic Puzzles",
+  "tagline": "Year 4 — Eight-person orderings and five-person, three-attribute grids with many clues and negatives",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Multi-constraint puzzles give more clues than a quick glance can use, so you must process them in order of strength: exact positions first, chains next, either-or splits after that, and negative clues last. Two forms are common: a long ordering with 8 people and a grid with 5 people and 3 attributes. The method is the same: record every clue, merge linked clues into bundles, and test cases only when a clue offers two options.",
+    "placementRelevance": "These puzzles carry 4–6 questions and are the usual \"difficult set\" in the reasoning section.",
+    "realWorldContext": "Scheduling and matching with many rules uses the same constraint reasoning."
+  },
+  "learningObjectives": [
+    "Rank clues by strength",
+    "Build chains and bundles",
+    "Use case splitting for either-or clues",
+    "Apply negative clues last",
+    "Verify the final arrangement against every clue"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Complex Seating Arrangements (7+ People)",
+      "Complex Matrix and Grid Puzzles"
+    ],
+    "quickRefresher": "A clue with one possible placement is strongest. Linked clues merge columns. Negative clues only eliminate."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Chain: neighbours linked in a fixed order.",
+      "Bundle: values known to belong to the same person.",
+      "Either-or clue: offers two placements; split into cases.",
+      "Elimination: removing possibilities using negatives.",
+      "Verification: checking the result against all clues."
+    ],
+    "theoreticalIntuition": "Each clue removes possibilities. Strong clues first means fewer cases later.",
+    "visualOrMentalModel": "List clues by strength, place the strongest, extend chains, split only when needed, and verify."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Gap clue",
+      "formula": "Positions differ by k + 1",
+      "description": "k people between.",
+      "whenToUse": "Gaps.",
+      "simpleExample": "One between: difference 2"
+    },
+    {
+      "title": "Chain",
+      "formula": "X immediately left of Y",
+      "description": "Neighbours.",
+      "whenToUse": "Blocks.",
+      "simpleExample": "G D F H"
+    },
+    {
+      "title": "Bundle",
+      "formula": "A ↔ B same person",
+      "description": "Linked clue.",
+      "whenToUse": "Merge.",
+      "simpleExample": "Pilot ↔ Cochin"
+    },
+    {
+      "title": "Case split",
+      "formula": "Test both options",
+      "description": "Either-or.",
+      "whenToUse": "Eliminate.",
+      "simpleExample": "Ends clue"
+    },
+    {
+      "title": "Verify",
+      "formula": "Test all clues",
+      "description": "End.",
+      "whenToUse": "Safety.",
+      "simpleExample": "No clue broken"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Eight friends in a row: B and A are at the two ends; E is immediately right of B; G is immediately left of D; one person is between E and D; F is immediately right of D; H immediately right of F; C immediately left of A. If A were at the left end, C would need the seat to A's left, which does not exist, so B is at the left end and A at the right end. B, E, then G, D, F, H and C, A.",
+      "For the five-person grid, merge links: pilot ↔ Cochin ↔ golf; nurse ↔ Bhopal ↔ squash; hockey ↔ Erode (Chetan); Agra ↔ tennis ↔ chef. Eknath is a clerk who plays kabaddi, so he lives in Dehradun. Disha is the nurse, so she lives in Bhopal and plays squash. Chetan, in Erode, is the tailor who plays hockey. The remaining two, Anil and Bharti, take the pilot and chef bundles; Bharti does not play golf, so Bharti is the chef in Agra playing tennis and Anil is the pilot in Cochin playing golf.",
+      "Notice how many clues were redundant for the first deduction: pick the strongest and let the rest confirm.",
+      "Negative clues rarely place a person on their own; use them to choose between two remaining options.",
+      "Always re-read each clue against the final grid."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Redundant clues",
+        "content": "Some clues confirm what you already know; do not waste time on them until the end."
+      },
+      {
+        "title": "Two-option stalemate",
+        "content": "If you reach two options with no clue to separate them, a clue was missed or misread."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Long ordering",
+      "description": "Chains and gaps.",
+      "exampleSnippet": "8 people"
+    },
+    {
+      "typeName": "Grid with bundles",
+      "description": "Linked clues.",
+      "exampleSnippet": "5 × 3"
+    },
+    {
+      "typeName": "Either-or ends",
+      "description": "Case split.",
+      "exampleSnippet": "A and B at the ends"
+    },
+    {
+      "typeName": "Negative clues",
+      "description": "Eliminate.",
+      "exampleSnippet": "Bharti not golf"
+    },
+    {
+      "typeName": "Verification",
+      "description": "Check all.",
+      "exampleSnippet": "Final grid"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mrm-multi-constraint-puzzles-1",
+      "title": "Ends clue",
+      "question": "B and A sit at the two ends; E is immediately right of B and C is immediately left of A. Who is at the left end?",
+      "givenInfo": [
+        "Ends clue"
+      ],
+      "conceptOrFormula": "Test the cases.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Case A at left",
+          "explanation": "C would need to be left of A: impossible."
+        },
+        {
+          "stepNumber": 2,
+          "title": "So",
+          "explanation": "B at left, A at right."
+        }
+      ],
+      "finalAnswer": "B",
+      "whyItWorks": "The other case fails.",
+      "commonTrap": "Guessing A.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mrm-multi-constraint-puzzles-2",
+      "title": "Bundle",
+      "question": "The pilot lives in Cochin and the golfer is a pilot. Which city does the golfer live in?",
+      "givenInfo": [
+        "Two links"
+      ],
+      "conceptOrFormula": "Chain the links.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Link 1",
+          "explanation": "Golfer = pilot."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Link 2",
+          "explanation": "Pilot = Cochin."
+        }
+      ],
+      "finalAnswer": "Cochin",
+      "whyItWorks": "Bundles merge.",
+      "commonTrap": "Leaving it open.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mrm-multi-constraint-puzzles-3",
+      "title": "Negative clue",
+      "question": "Two people (Anil, Bharti) share the pilot and chef bundles and Bharti does not play golf (pilot bundle). Who is the pilot?",
+      "givenInfo": [
+        "Negative clue"
+      ],
+      "conceptOrFormula": "Eliminate.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pilot bundle plays golf",
+          "explanation": "Bharti is excluded."
+        },
+        {
+          "stepNumber": 2,
+          "title": "So",
+          "explanation": "Anil is the pilot."
+        }
+      ],
+      "finalAnswer": "Anil",
+      "whyItWorks": "The negative separates the two.",
+      "commonTrap": "Calling it undetermined.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Strongest first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Go in clue order.",
+      "shortcutMethod": "Sort clues by strength, place chains, split either-or clues, apply negatives last and verify."
+    },
+    "rulesForApplication": [
+      "Exact positions first.",
+      "Merge linked clues.",
+      "Split only when needed.",
+      "Verify."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Going in clue order",
+      "whyItHappens": "Many cases.",
+      "howToAvoid": "Sort by strength."
+    },
+    {
+      "mistake": "Applying negatives early",
+      "whyItHappens": "Weak start.",
+      "howToAvoid": "Use them last."
+    },
+    {
+      "mistake": "Not verifying",
+      "whyItHappens": "Hidden error.",
+      "howToAvoid": "Re-read clues."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 240,
+    "eliminationTechnique": "An option that breaks any single clue is wrong.",
+    "questionSelectionAdvice": "Draw the final grid before answering.",
+    "recruiterInsight": "Eight clues do not mean eight steps."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mrm-multi-constraint-puzzles-e1",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits at the left end?",
+        "options": [
+          "D",
+          "B",
+          "E",
+          "F"
+        ],
+        "correctAnswer": "B",
+        "explanation": "From left to right the order is B, E, G, D, F, H, C, A; B is at the left end.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-multi-constraint-puzzles-e2",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits at the right end?",
+        "options": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "correctAnswer": "A",
+        "explanation": "From left to right the order is B, E, G, D, F, H, C, A; A is at the right end.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mrm-multi-constraint-puzzles-e3",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits immediately right of E?",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "correctAnswer": "G",
+        "explanation": "From left to right the order is B, E, G, D, F, H, C, A; G is immediately right of E.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mrm-multi-constraint-puzzles-i7",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nHow many people sit between B and D?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        "correctAnswer": "2",
+        "explanation": "From left to right the order is B, E, G, D, F, H, C, A; 2 people sit between B and D, which is 2.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-multi-constraint-puzzles-i8",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nWho sits between G and F?",
+        "options": [
+          "C",
+          "E",
+          "F",
+          "D"
+        ],
+        "correctAnswer": "D",
+        "explanation": "From left to right the order is B, E, G, D, F, H, C, A; D sits between G and F.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mrm-multi-constraint-puzzles-i9",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. The following facts are known:\n1. B and A sit at the two extreme ends (in either order).\n2. E sits immediately to the right of B.\n3. G sits immediately to the left of D.\n4. Exactly 1 person sits between E and D.\n5. F sits immediately to the right of D.\n6. H sits immediately to the right of F.\n7. C sits immediately to the left of A.\n\nHow many people sit to the right of F?",
+        "options": [
+          "4",
+          "2",
+          "5",
+          "3"
+        ],
+        "correctAnswer": "3",
+        "explanation": "From left to right the order is B, E, G, D, F, H, C, A; 3 people sit to the right of F, which is 3.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mrm-multi-constraint-puzzles-a15",
+        "question": "Five friends Anil, Bharti, Chetan, Disha and Eknath each have a different profession (pilot, chef, tailor, nurse, clerk), live in a different city (Agra, Bhopal, Cochin, Dehradun, Erode) and play a different sport (golf, hockey, tennis, kabaddi, squash). The following facts are known:\n1. The pilot lives in Cochin.\n2. Chetan lives in Erode.\n3. The nurse lives in Bhopal.\n4. The person who plays golf is a pilot.\n5. Eknath is a clerk.\n6. The person who lives in Agra plays tennis.\n7. The person who plays hockey lives in Erode.\n8. The person who plays squash lives in Bhopal.\n9. Eknath plays kabaddi.\n10. The chef plays tennis.\n11. Disha is a nurse.\n12. Bharti does not play golf.\n\nWhat is Anil's profession?",
+        "options": [
+          "chef",
+          "tailor",
+          "pilot",
+          "nurse"
+        ],
+        "correctAnswer": "pilot",
+        "explanation": "Working out the grid gives: Anil: pilot / Cochin / golf; Bharti: chef / Agra / tennis; Chetan: tailor / Erode / hockey; Disha: nurse / Bhopal / squash; Eknath: clerk / Dehradun / kabaddi. So the answer is pilot.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-multi-constraint-puzzles-a16",
+        "question": "Five friends Anil, Bharti, Chetan, Disha and Eknath each have a different profession (pilot, chef, tailor, nurse, clerk), live in a different city (Agra, Bhopal, Cochin, Dehradun, Erode) and play a different sport (golf, hockey, tennis, kabaddi, squash). The following facts are known:\n1. The pilot lives in Cochin.\n2. Chetan lives in Erode.\n3. The nurse lives in Bhopal.\n4. The person who plays golf is a pilot.\n5. Eknath is a clerk.\n6. The person who lives in Agra plays tennis.\n7. The person who plays hockey lives in Erode.\n8. The person who plays squash lives in Bhopal.\n9. Eknath plays kabaddi.\n10. The chef plays tennis.\n11. Disha is a nurse.\n12. Bharti does not play golf.\n\nIn which city does Bharti live?",
+        "options": [
+          "Bhopal",
+          "Agra",
+          "Cochin",
+          "Dehradun"
+        ],
+        "correctAnswer": "Agra",
+        "explanation": "Working out the grid gives: Anil: pilot / Cochin / golf; Bharti: chef / Agra / tennis; Chetan: tailor / Erode / hockey; Disha: nurse / Bhopal / squash; Eknath: clerk / Dehradun / kabaddi. So the answer is Agra.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mrm-multi-constraint-puzzles-p17",
+        "question": "Five friends Anil, Bharti, Chetan, Disha and Eknath each have a different profession (pilot, chef, tailor, nurse, clerk), live in a different city (Agra, Bhopal, Cochin, Dehradun, Erode) and play a different sport (golf, hockey, tennis, kabaddi, squash). The following facts are known:\n1. The pilot lives in Cochin.\n2. Chetan lives in Erode.\n3. The nurse lives in Bhopal.\n4. The person who plays golf is a pilot.\n5. Eknath is a clerk.\n6. The person who lives in Agra plays tennis.\n7. The person who plays hockey lives in Erode.\n8. The person who plays squash lives in Bhopal.\n9. Eknath plays kabaddi.\n10. The chef plays tennis.\n11. Disha is a nurse.\n12. Bharti does not play golf.\n\nWhat is Chetan's profession?",
+        "options": [
+          "pilot",
+          "tailor",
+          "chef",
+          "nurse"
+        ],
+        "correctAnswer": "tailor",
+        "explanation": "Working out the grid gives: Anil: pilot / Cochin / golf; Bharti: chef / Agra / tennis; Chetan: tailor / Erode / hockey; Disha: nurse / Bhopal / squash; Eknath: clerk / Dehradun / kabaddi. So the answer is tailor.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-multi-constraint-puzzles-p18",
+        "question": "Five friends Anil, Bharti, Chetan, Disha and Eknath each have a different profession (pilot, chef, tailor, nurse, clerk), live in a different city (Agra, Bhopal, Cochin, Dehradun, Erode) and play a different sport (golf, hockey, tennis, kabaddi, squash). The following facts are known:\n1. The pilot lives in Cochin.\n2. Chetan lives in Erode.\n3. The nurse lives in Bhopal.\n4. The person who plays golf is a pilot.\n5. Eknath is a clerk.\n6. The person who lives in Agra plays tennis.\n7. The person who plays hockey lives in Erode.\n8. The person who plays squash lives in Bhopal.\n9. Eknath plays kabaddi.\n10. The chef plays tennis.\n11. Disha is a nurse.\n12. Bharti does not play golf.\n\nWho plays squash?",
+        "options": [
+          "Disha",
+          "Anil",
+          "Bharti",
+          "Chetan"
+        ],
+        "correctAnswer": "Disha",
+        "explanation": "Working out the grid gives: Anil: pilot / Cochin / golf; Bharti: chef / Agra / tennis; Chetan: tailor / Erode / hockey; Disha: nurse / Bhopal / squash; Eknath: clerk / Dehradun / kabaddi. So the answer is Disha.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mrm-multi-constraint-puzzles-p19",
+        "question": "Five friends Anil, Bharti, Chetan, Disha and Eknath each have a different profession (pilot, chef, tailor, nurse, clerk), live in a different city (Agra, Bhopal, Cochin, Dehradun, Erode) and play a different sport (golf, hockey, tennis, kabaddi, squash). The following facts are known:\n1. The pilot lives in Cochin.\n2. Chetan lives in Erode.\n3. The nurse lives in Bhopal.\n4. The person who plays golf is a pilot.\n5. Eknath is a clerk.\n6. The person who lives in Agra plays tennis.\n7. The person who plays hockey lives in Erode.\n8. The person who plays squash lives in Bhopal.\n9. Eknath plays kabaddi.\n10. The chef plays tennis.\n11. Disha is a nurse.\n12. Bharti does not play golf.\n\nWhich sport does Disha play?",
+        "options": [
+          "golf",
+          "hockey",
+          "tennis",
+          "squash"
+        ],
+        "correctAnswer": "squash",
+        "explanation": "Working out the grid gives: Anil: pilot / Cochin / golf; Bharti: chef / Agra / tennis; Chetan: tailor / Erode / hockey; Disha: nurse / Bhopal / squash; Eknath: clerk / Dehradun / kabaddi. So the answer is squash.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Clue strength.",
+      "Chains.",
+      "Bundles.",
+      "Cases.",
+      "Verify."
+    ],
+    "quickFormulas": [
+      "Gap = k + 1"
+    ]
+  },
+  "keyTakeaways": [
+    "Sort clues.",
+    "Merge.",
+    "Split late.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I sort clues by strength?",
+    "Can I merge linked clues?",
+    "Can I verify a grid?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}
