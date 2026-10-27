@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-avm-complex-inferences",
+  "topicTitle": "Complex Inference Chains",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Statements: If the project is approved, the budget is released. If the budget is released, hiring begins. Hiring has not begun.\n\nWhich of the following must be true?",
+      "options": [
+        "The budget was released.",
+        "The project was not approved.",
+        "The project was approved.",
+        "Hiring will begin soon."
+      ],
+      "answerIndex": 1,
+      "explanation": "Checking every possible situation that fits the statements, \"The project was not approved.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Statements: If the project is approved, the budget is released. If the budget is released, hiring begins. Hiring has not begun.\n\nWhich of the following conclusions is valid?",
+      "options": [
+        "The budget was not released.",
+        "The project was approved.",
+        "Hiring will begin soon.",
+        "Either the project was approved or the budget was released."
+      ],
+      "answerIndex": 0,
+      "explanation": "Checking every possible situation that fits the statements, \"The budget was not released.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Statements: If the project is approved, the budget is released. If the budget is released, hiring begins. Hiring has not begun.\n\nWhich of the following can be deduced from the statements?",
+      "options": [
+        "Hiring will begin soon.",
+        "Either the project was approved or the budget was released.",
+        "The budget was released.",
+        "The project was not approved."
+      ],
+      "answerIndex": 3,
+      "explanation": "Checking every possible situation that fits the statements, \"The project was not approved.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Statements: If it rains, the match is cancelled. If the match is cancelled, tickets are refunded. It rains.\n\nWhich of the following cannot be false?",
+      "options": [
+        "The match is not cancelled.",
+        "Tickets are not refunded.",
+        "Tickets are refunded.",
+        "It does not rain."
+      ],
+      "answerIndex": 2,
+      "explanation": "Checking every possible situation that fits the statements, \"Tickets are refunded.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Statements: If it rains, the match is cancelled. If the match is cancelled, tickets are refunded. It rains.\n\nWhich of the following must be true?",
+      "options": [
+        "Tickets are not refunded.",
+        "It does not rain.",
+        "Either the match is not cancelled or tickets are refunded.",
+        "The match is not cancelled."
+      ],
+      "answerIndex": 2,
+      "explanation": "Checking every possible situation that fits the statements, \"Either the match is not cancelled or tickets are refunded.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Statements: If it rains, the match is cancelled. If the match is cancelled, tickets are refunded. It rains.\n\nWhich of the following conclusions is valid?",
+      "options": [
+        "It does not rain.",
+        "Tickets are refunded.",
+        "The match is not cancelled.",
+        "Tickets are not refunded."
+      ],
+      "answerIndex": 1,
+      "explanation": "Checking every possible situation that fits the statements, \"Tickets are refunded.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Statements: A candidate gets an interview only if the candidate passes the aptitude test. A candidate gets an offer only if the candidate gets an interview. Meena did not pass the aptitude test.\n\nWhich of the following can be deduced from the statements?",
+      "options": [
+        "Meena did not get an offer.",
+        "Meena got an interview.",
+        "Meena got an offer.",
+        "Meena either got an interview or an offer."
+      ],
+      "answerIndex": 0,
+      "explanation": "Checking every possible situation that fits the statements, \"Meena did not get an offer.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Statements: A candidate gets an interview only if the candidate passes the aptitude test. A candidate gets an offer only if the candidate gets an interview. Meena did not pass the aptitude test.\n\nWhich of the following cannot be false?",
+      "options": [
+        "Meena got an offer.",
+        "Meena either got an interview or an offer.",
+        "Meena got an interview.",
+        "Meena did not get an interview."
+      ],
+      "answerIndex": 3,
+      "explanation": "Checking every possible situation that fits the statements, \"Meena did not get an interview.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Statements: A candidate gets an interview only if the candidate passes the aptitude test. A candidate gets an offer only if the candidate gets an interview. Meena did not pass the aptitude test.\n\nWhich of the following must be true?",
+      "options": [
+        "Meena either got an interview or an offer.",
+        "Meena got an interview.",
+        "Meena got an offer.",
+        "Meena did not get an offer."
+      ],
+      "answerIndex": 3,
+      "explanation": "Checking every possible situation that fits the statements, \"Meena did not get an offer.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Statements: Exactly one of the two plans, Plan A and Plan B, will be adopted. If Plan A is adopted, the road will be widened. The road will not be widened.\n\nWhich of the following conclusions is valid?",
+      "options": [
+        "Plan A will be adopted.",
+        "Neither plan will be adopted.",
+        "Plan B will be adopted.",
+        "Both plans will be adopted."
+      ],
+      "answerIndex": 2,
+      "explanation": "Checking every possible situation that fits the statements, \"Plan B will be adopted.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Statements: Exactly one of the two plans, Plan A and Plan B, will be adopted. If Plan A is adopted, the road will be widened. The road will not be widened.\n\nWhich of the following can be deduced from the statements?",
+      "options": [
+        "Neither plan will be adopted.",
+        "Plan B will be adopted.",
+        "Both plans will be adopted.",
+        "The road will be widened if Plan B is adopted."
+      ],
+      "answerIndex": 1,
+      "explanation": "Checking every possible situation that fits the statements, \"Plan B will be adopted.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Statements: Exactly one of the two plans, Plan A and Plan B, will be adopted. If Plan A is adopted, the road will be widened. The road will not be widened.\n\nWhich of the following cannot be false?",
+      "options": [
+        "Plan B will be adopted.",
+        "Both plans will be adopted.",
+        "The road will be widened if Plan B is adopted.",
+        "Plan A will be adopted."
+      ],
+      "answerIndex": 0,
+      "explanation": "Checking every possible situation that fits the statements, \"Plan B will be adopted.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Statements: The shop is open if and only if the manager is present. If the manager is present, the alarm is off. The alarm is on.\n\nWhich of the following must be true?",
+      "options": [
+        "The shop is not open.",
+        "The shop is open.",
+        "The manager is present.",
+        "The shop is open or the manager is present."
+      ],
+      "answerIndex": 0,
+      "explanation": "Checking every possible situation that fits the statements, \"The shop is not open.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Statements: The shop is open if and only if the manager is present. If the manager is present, the alarm is off. The alarm is on.\n\nWhich of the following conclusions is valid?",
+      "options": [
+        "The manager is present.",
+        "The shop is open or the manager is present.",
+        "The shop is open.",
+        "The shop is not open."
+      ],
+      "answerIndex": 3,
+      "explanation": "Checking every possible situation that fits the statements, \"The shop is not open.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Statements: The shop is open if and only if the manager is present. If the manager is present, the alarm is off. The alarm is on.\n\nWhich of the following can be deduced from the statements?",
+      "options": [
+        "The shop is open or the manager is present.",
+        "The shop is open.",
+        "The manager is not present.",
+        "The manager is present."
+      ],
+      "answerIndex": 2,
+      "explanation": "Checking every possible situation that fits the statements, \"The manager is not present.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Statements: Either the printer is faulty or the cable is loose (or both). If the cable is loose, the signal drops. The signal does not drop.\n\nWhich of the following cannot be false?",
+      "options": [
+        "The cable is loose.",
+        "The printer is faulty.",
+        "The printer is not faulty.",
+        "The signal will drop."
+      ],
+      "answerIndex": 1,
+      "explanation": "Checking every possible situation that fits the statements, \"The printer is faulty.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Statements: Either the printer is faulty or the cable is loose (or both). If the cable is loose, the signal drops. The signal does not drop.\n\nWhich of the following must be true?",
+      "options": [
+        "The printer is not faulty.",
+        "The printer is faulty.",
+        "The signal will drop.",
+        "The cable is loose."
+      ],
+      "answerIndex": 1,
+      "explanation": "Checking every possible situation that fits the statements, \"The printer is faulty.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Statements: Either the printer is faulty or the cable is loose (or both). If the cable is loose, the signal drops. The signal does not drop.\n\nWhich of the following conclusions is valid?",
+      "options": [
+        "The cable is not loose.",
+        "The signal will drop.",
+        "The cable is loose.",
+        "The printer is not faulty."
+      ],
+      "answerIndex": 0,
+      "explanation": "Checking every possible situation that fits the statements, \"The cable is not loose.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Statements: If the project is approved, the budget is released. If the budget is released, hiring begins. Hiring has not begun.\n\nWhich of the following cannot be false?",
+      "options": [
+        "Either the project was approved or the budget was released.",
+        "The budget was released.",
+        "The project was approved.",
+        "The project was not approved."
+      ],
+      "answerIndex": 3,
+      "explanation": "Checking every possible situation that fits the statements, \"The project was not approved.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Statements: If it rains, the match is cancelled. If the match is cancelled, tickets are refunded. It rains.\n\nWhich of the following can be deduced from the statements?",
+      "options": [
+        "The match is not cancelled.",
+        "Tickets are not refunded.",
+        "The match is cancelled.",
+        "It does not rain."
+      ],
+      "answerIndex": 2,
+      "explanation": "Checking every possible situation that fits the statements, \"The match is cancelled.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/"
+}

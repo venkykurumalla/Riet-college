@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-avm-adv-critical-reasoning",
+  "topicTitle": "Advanced Critical Reasoning",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Argument: Many of our competitors have moved to remote work and reported lower office costs. Our office lease is expensive. We should therefore consider moving to remote work.\n\nWhich of the following is the main conclusion of the argument?",
+      "options": [
+        "Many competitors have moved to remote work.",
+        "We should consider moving to remote work.",
+        "Competitors reported lower office costs.",
+        "Our office lease is expensive."
+      ],
+      "answerIndex": 1,
+      "explanation": "The word \"therefore\" marks the conclusion; the rest are premises."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Argument: The city should install more streetlights, because well-lit streets deter crime.\n\nWhich of the following is an assumption on which the argument depends?",
+      "options": [
+        "The streets targeted by the plan are currently poorly lit.",
+        "Streetlights are cheap to run.",
+        "Crime is highest at night in every city.",
+        "Residents have asked for streetlights."
+      ],
+      "answerIndex": 0,
+      "explanation": "If the targeted streets were already well lit, more lights would add nothing, so the plan assumes they are poorly lit."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Argument: A coffee chain says its new loyalty app increases visits, because average weekly visits per member rose after the app launched.\n\nWhich of the following, if true, most strengthens the argument?",
+      "options": [
+        "The app was downloaded a million times.",
+        "The coffee is cheaper than in other chains.",
+        "Members receive a free drink each month.",
+        "Weekly visits of non-members stayed unchanged over the same period."
+      ],
+      "answerIndex": 3,
+      "explanation": "It rules out a general rise in visits, so the app is more likely the cause."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Argument: A coffee chain says its new loyalty app increases visits, because average weekly visits per member rose after the app launched.\n\nWhich of the following, if true, most weakens the argument?",
+      "options": [
+        "The app was easy to use.",
+        "Members receive a free drink each month.",
+        "A new office block opened next door in the same month, adding thousands of potential customers.",
+        "The chain has opened fifty shops."
+      ],
+      "answerIndex": 2,
+      "explanation": "The office block gives another reason for more visits."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Argument: Everyone in our department who was promoted this year works late, so working late leads to promotion.\n\nThe reasoning in the argument is flawed because it",
+      "options": [
+        "relies on a very large sample",
+        "attacks those who do not work late",
+        "mistakes a correlation for a cause",
+        "assumes that promotion is rare"
+      ],
+      "answerIndex": 2,
+      "explanation": "Promoted people working late does not show that late work caused the promotion."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Argument: All the candidates shortlisted have degrees in engineering. Some shortlisted candidates also have MBAs.\n\nWhich of the following must be true if the statements above are true?",
+      "options": [
+        "All people with MBAs are shortlisted.",
+        "Some people with MBAs have degrees in engineering.",
+        "No shortlisted candidate lacks an MBA.",
+        "Engineering graduates are the best candidates."
+      ],
+      "answerIndex": 1,
+      "explanation": "The shortlisted candidates with MBAs also have engineering degrees, so some MBA holders are engineers."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Argument: A restaurant lowered the price of its set meal, yet its profit rose.\n\nWhich of the following best resolves the apparent paradox?",
+      "options": [
+        "The lower price attracted so many more customers that total profit increased.",
+        "Competitors also lowered their prices.",
+        "The set meal is made of cheaper ingredients.",
+        "The restaurant has a large dining room."
+      ],
+      "answerIndex": 0,
+      "explanation": "If many more customers came, total profit can rise even with a lower profit per meal."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Argument: Students who attended the revision sessions scored higher than those who did not, so the sessions improved scores.\n\nWhich of the following is an assumption on which the argument depends?",
+      "options": [
+        "All students were invited to the sessions.",
+        "The sessions were held in the afternoon.",
+        "Teachers prepared the sessions carefully.",
+        "The students who attended were not already the higher-scoring students."
+      ],
+      "answerIndex": 3,
+      "explanation": "If better students were the ones who attended, their higher scores would not show the effect of the sessions."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Argument: A poll of 200 visitors to a gym found that 85 per cent support a ban on junk-food advertising. The council concludes that most residents support the ban.\n\nThe reasoning in the argument is flawed because it",
+      "options": [
+        "uses a sample that is too large",
+        "attacks opponents of the ban",
+        "assumes a ban is easy to enforce",
+        "bases a claim about all residents on a group that is not representative"
+      ],
+      "answerIndex": 3,
+      "explanation": "Gym visitors may be more health-conscious than the average resident."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Argument: A company says electric delivery vans will cut its costs, because electricity is cheaper than diesel per kilometre.\n\nWhich of the following, if true, most weakens the argument?",
+      "options": [
+        "Electric vans are quieter.",
+        "Electricity prices vary by region.",
+        "The vans cost much more to buy and their batteries must be replaced often, so the total cost per kilometre is higher.",
+        "Drivers like the vans."
+      ],
+      "answerIndex": 2,
+      "explanation": "Fuel is only part of the cost; higher purchase and battery costs could outweigh the saving."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Argument: A school claims its new reading programme works, because reading scores rose by 10 per cent.\n\nWhich of the following would be most useful in evaluating the claim?",
+      "options": [
+        "How much the programme cost",
+        "How scores changed in similar schools that did not use the programme",
+        "How many teachers liked the programme",
+        "How long the programme has been used"
+      ],
+      "answerIndex": 1,
+      "explanation": "A comparison with similar schools shows whether the rise is due to the programme."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Argument: Every successful manager I know reads a lot, so reading a lot makes managers successful.\n\nWhich of the following arguments is most similar in its reasoning?",
+      "options": [
+        "Every happy person I know drinks tea, so drinking tea makes people happy.",
+        "Every manager reads, and Rahul is a manager, so Rahul reads.",
+        "Reading is good, so managers should read.",
+        "Some managers read, so all managers read."
+      ],
+      "answerIndex": 0,
+      "explanation": "Both infer a cause from an association among the people observed."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Argument: Allowing flexible working hours will raise productivity, because employees will work when they are most alert.\n\nWhich of the following, if true, most strengthens the argument?",
+      "options": [
+        "Employees report that their alertness differs greatly across the day.",
+        "Flexible hours are popular.",
+        "Some offices already have flexible hours.",
+        "Employees like their managers."
+      ],
+      "answerIndex": 0,
+      "explanation": "It supports the claim that when employees work matters to productivity."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Argument: Since the new bridge cuts travel time by 20 minutes, commuters will switch to using it.\n\nWhich of the following is an assumption on which the argument depends?",
+      "options": [
+        "All commuters travel by car.",
+        "The bridge has four lanes.",
+        "Commuters dislike the old road.",
+        "The bridge is not so costly to use that it offsets the time saved."
+      ],
+      "answerIndex": 3,
+      "explanation": "If the toll outweighs the time saved, commuters would not switch."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Argument: The company's hiring freeze will save money. However, a freeze overloads existing staff and raises turnover, and replacing staff costs more than the salary saved. So the freeze is likely to cost more than it saves.\n\nWhich of the following is the main conclusion of the argument?",
+      "options": [
+        "A hiring freeze saves salary.",
+        "A freeze overloads existing staff.",
+        "The hiring freeze is likely to cost more than it saves.",
+        "Replacing staff is costly."
+      ],
+      "answerIndex": 2,
+      "explanation": "The last sentence, introduced by \"So\", is the conclusion."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Argument: Each part of the machine is cheap, so the machine is cheap.\n\nThe reasoning in the argument is flawed because it",
+      "options": [
+        "attacks the sellers of the machine",
+        "assumes that the whole has a property because each part has it",
+        "relies on an expert",
+        "uses a sample that is too small"
+      ],
+      "answerIndex": 1,
+      "explanation": "The sum of many cheap parts may still be expensive: a composition error."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Argument: Cities with more police officers have more crime, so more police cause more crime.\n\nWhich of the following, if true, most weakens the argument?",
+      "options": [
+        "Police officers are well trained.",
+        "Cities add police officers when crime is already rising.",
+        "Crime is reported more in cities.",
+        "Most crimes are minor."
+      ],
+      "answerIndex": 1,
+      "explanation": "It reverses the direction of cause: crime leads to more police."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Argument: Hospitals have added beds, yet waiting times for admission have increased.\n\nWhich of the following best resolves the apparent paradox?",
+      "options": [
+        "The number of patients seeking admission has grown faster than the number of beds.",
+        "Beds are cleaned more often.",
+        "Hospitals have more doctors.",
+        "The new beds are more comfortable."
+      ],
+      "answerIndex": 0,
+      "explanation": "If demand grew faster than supply, waiting times can rise even as beds increase."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Argument: A ban on single-use cups will reduce litter, because people will bring their own cups.\n\nWhich of the following is an assumption on which the argument depends?",
+      "options": [
+        "Cafés will lose customers.",
+        "Reusable cups are cheap.",
+        "Litter is a serious problem.",
+        "Customers will actually bring reusable cups rather than switching to other disposable items."
+      ],
+      "answerIndex": 3,
+      "explanation": "If people switch to other disposables, litter would not fall."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Argument: No employee who has been late more than three times is eligible for the bonus. Some eligible employees are in the sales team.\n\nWhich of the following must be true if the statements above are true?",
+      "options": [
+        "All sales team members are eligible.",
+        "No sales team member has been late.",
+        "Some members of the sales team have been late no more than three times.",
+        "Some sales team members are late more than three times."
+      ],
+      "answerIndex": 2,
+      "explanation": "Eligible employees have not been late more than three times; some of them are in sales."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/"
+}

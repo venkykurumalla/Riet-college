@@ -1,0 +1,419 @@
+{
+  "id": "y4-avm-adv-critical-reasoning",
+  "yearId": 4,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 16,
+  "title": "Advanced Critical Reasoning",
+  "tagline": "Year 4 — Hidden assumptions, causal flaws, sampling errors, paradoxes, evaluation of evidence and parallel reasoning in short arguments",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Advanced critical reasoning goes beyond naming the conclusion. It asks you to rank evidence, find the weakest link, tell correlation from cause, notice an unrepresentative sample, resolve an apparent contradiction and evaluate what extra information would settle a dispute. Each type is a question about the gap between premises and conclusion, so the first move is always to state that gap in one line.",
+    "placementRelevance": "Advanced critical-reasoning items are the discriminating questions in management and campus verbal sections.",
+    "realWorldContext": "Judging proposals, studies and claims in reports uses these same questions."
+  },
+  "learningObjectives": [
+    "State the gap in one line",
+    "Spot correlation-versus-cause and reverse-cause arguments",
+    "Identify unrepresentative samples and part-whole errors",
+    "Choose the most useful evidence to evaluate a claim",
+    "Resolve paradoxes with a reconciling fact"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Critical Reasoning in Verbal Context",
+      "Argument Evaluation in Verbal Problems"
+    ],
+    "quickRefresher": "Strengthen: close the gap or rule out alternatives. Weaken: open the gap or supply an alternative. Assumption: negate it and the argument fails."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Gap: the unstated link between premise and conclusion.",
+      "Alternative explanation: another cause for the same evidence.",
+      "Unrepresentative sample: a group that differs from the population.",
+      "Composition error: assuming the whole has a property because each part does.",
+      "Evaluation: choosing information that would best test the claim."
+    ],
+    "theoreticalIntuition": "Every flawed argument skips a step. Naming the skipped step answers the question.",
+    "visualOrMentalModel": "Write \"Premise → Conclusion; gap: assumes…\". Then test each option against the gap."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Correlation trap",
+      "formula": "A with B ⇏ A causes B",
+      "description": "Causal claims.",
+      "whenToUse": "Alternative cause.",
+      "simpleExample": "Working late and promotion"
+    },
+    {
+      "title": "Reverse cause",
+      "formula": "B may cause A",
+      "description": "Causal claims.",
+      "whenToUse": "Direction.",
+      "simpleExample": "Police and crime"
+    },
+    {
+      "title": "Sample test",
+      "formula": "Is the sample like the population?",
+      "description": "Surveys.",
+      "whenToUse": "Representativeness.",
+      "simpleExample": "Gym visitors"
+    },
+    {
+      "title": "Evaluate",
+      "formula": "Ask for the control group",
+      "description": "Evidence questions.",
+      "whenToUse": "Comparison.",
+      "simpleExample": "Similar schools"
+    },
+    {
+      "title": "Paradox",
+      "formula": "Find a fact true for both observations",
+      "description": "Paradox questions.",
+      "whenToUse": "Reconcile.",
+      "simpleExample": "More customers"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "\"Everyone promoted this year works late, so working late leads to promotion.\" The gap: perhaps people who are ambitious both work late and get promoted, or promoted people are given more work. The flaw is mistaking correlation for cause.",
+      "\"Cities with more police have more crime, so police cause crime.\" Weaken it by reversing the direction: cities add police when crime is already rising.",
+      "\"A poll of gym visitors found 85% support a ban on junk-food advertising, so most residents support it.\" The sample is not representative of the residents.",
+      "To evaluate \"the reading programme works because scores rose 10%\", ask how scores changed in similar schools without the programme.",
+      "To resolve a paradox such as lower prices with higher profit, find a fact that makes both true: so many more customers came that the total margin rose."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Necessary versus sufficient",
+        "content": "An assumption need only make the argument possible, not prove it."
+      },
+      {
+        "title": "Composition and division",
+        "content": "A property of the parts need not hold for the whole, and vice versa."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Cause",
+      "description": "Alternative or reverse.",
+      "exampleSnippet": "Police and crime"
+    },
+    {
+      "typeName": "Sampling",
+      "description": "Representativeness.",
+      "exampleSnippet": "Gym poll"
+    },
+    {
+      "typeName": "Evaluation",
+      "description": "Control group.",
+      "exampleSnippet": "Reading programme"
+    },
+    {
+      "typeName": "Paradox",
+      "description": "Reconcile.",
+      "exampleSnippet": "Lower price, higher profit"
+    },
+    {
+      "typeName": "Composition",
+      "description": "Parts to whole.",
+      "exampleSnippet": "Cheap parts"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-avm-adv-critical-reasoning-1",
+      "title": "Reverse cause",
+      "question": "Cities with more police have more crime, so more police cause more crime. Which fact weakens this most?",
+      "givenInfo": [
+        "Correlation"
+      ],
+      "conceptOrFormula": "Reverse the direction.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Gap",
+          "explanation": "Maybe crime brings police."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fact",
+          "explanation": "Cities add police when crime is already rising."
+        }
+      ],
+      "finalAnswer": "Cities add police when crime is already rising",
+      "whyItWorks": "It reverses the direction.",
+      "commonTrap": "Choosing the cost of police.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-avm-adv-critical-reasoning-2",
+      "title": "Sampling",
+      "question": "A poll of gym visitors shows 85% support a junk-food advertising ban. The council concludes most residents support it. What is wrong?",
+      "givenInfo": [
+        "Gym visitors"
+      ],
+      "conceptOrFormula": "Check the sample.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Sample",
+          "explanation": "Gym visitors are health-conscious."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Flaw",
+          "explanation": "Not representative of all residents."
+        }
+      ],
+      "finalAnswer": "The sample is not representative of residents",
+      "whyItWorks": "Different population.",
+      "commonTrap": "Calling the sample too large.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-avm-adv-critical-reasoning-3",
+      "title": "Evaluate",
+      "question": "A school says its reading programme works because scores rose 10%. What information is most useful?",
+      "givenInfo": [
+        "10% rise"
+      ],
+      "conceptOrFormula": "Control group.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Question",
+          "explanation": "Did similar schools also rise?"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Info",
+          "explanation": "Scores in similar schools without the programme."
+        }
+      ],
+      "finalAnswer": "How scores changed in similar schools without the programme",
+      "whyItWorks": "A comparison isolates the effect.",
+      "commonTrap": "Asking the cost.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Say the gap",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Read options first.",
+      "shortcutMethod": "State the gap in one line, then choose the option that widens, closes or crosses it."
+    },
+    "rulesForApplication": [
+      "Correlation is not cause.",
+      "Check the sample.",
+      "Evaluate with a control.",
+      "Paradox: find the reconciler."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Picking an option that repeats the premise",
+      "whyItHappens": "No new information.",
+      "howToAvoid": "Choose one that changes likelihood."
+    },
+    {
+      "mistake": "Choosing too strong an assumption",
+      "whyItHappens": "Not needed.",
+      "howToAvoid": "Choose the minimal bridge."
+    },
+    {
+      "mistake": "Ignoring direction of cause",
+      "whyItHappens": "Reverse cause missed.",
+      "howToAvoid": "Ask which way."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 100,
+    "eliminationTechnique": "Eliminate options that do not touch the gap.",
+    "questionSelectionAdvice": "Rephrase the argument in \"because\" form.",
+    "recruiterInsight": "Wrong options are often true but irrelevant."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-avm-adv-critical-reasoning-e1",
+        "question": "Argument: Many of our competitors have moved to remote work and reported lower office costs. Our office lease is expensive. We should therefore consider moving to remote work.\n\nWhich of the following is the main conclusion of the argument?",
+        "options": [
+          "Many competitors have moved to remote work.",
+          "We should consider moving to remote work.",
+          "Competitors reported lower office costs.",
+          "Our office lease is expensive."
+        ],
+        "correctAnswer": "We should consider moving to remote work.",
+        "explanation": "The word \"therefore\" marks the conclusion; the rest are premises.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-avm-adv-critical-reasoning-e2",
+        "question": "Argument: The city should install more streetlights, because well-lit streets deter crime.\n\nWhich of the following is an assumption on which the argument depends?",
+        "options": [
+          "The streets targeted by the plan are currently poorly lit.",
+          "Streetlights are cheap to run.",
+          "Crime is highest at night in every city.",
+          "Residents have asked for streetlights."
+        ],
+        "correctAnswer": "The streets targeted by the plan are currently poorly lit.",
+        "explanation": "If the targeted streets were already well lit, more lights would add nothing, so the plan assumes they are poorly lit.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-avm-adv-critical-reasoning-e3",
+        "question": "Argument: A coffee chain says its new loyalty app increases visits, because average weekly visits per member rose after the app launched.\n\nWhich of the following, if true, most strengthens the argument?",
+        "options": [
+          "The app was downloaded a million times.",
+          "The coffee is cheaper than in other chains.",
+          "Members receive a free drink each month.",
+          "Weekly visits of non-members stayed unchanged over the same period."
+        ],
+        "correctAnswer": "Weekly visits of non-members stayed unchanged over the same period.",
+        "explanation": "It rules out a general rise in visits, so the app is more likely the cause.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-avm-adv-critical-reasoning-i7",
+        "question": "Argument: A restaurant lowered the price of its set meal, yet its profit rose.\n\nWhich of the following best resolves the apparent paradox?",
+        "options": [
+          "The lower price attracted so many more customers that total profit increased.",
+          "Competitors also lowered their prices.",
+          "The set meal is made of cheaper ingredients.",
+          "The restaurant has a large dining room."
+        ],
+        "correctAnswer": "The lower price attracted so many more customers that total profit increased.",
+        "explanation": "If many more customers came, total profit can rise even with a lower profit per meal.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-avm-adv-critical-reasoning-i8",
+        "question": "Argument: Students who attended the revision sessions scored higher than those who did not, so the sessions improved scores.\n\nWhich of the following is an assumption on which the argument depends?",
+        "options": [
+          "All students were invited to the sessions.",
+          "The sessions were held in the afternoon.",
+          "Teachers prepared the sessions carefully.",
+          "The students who attended were not already the higher-scoring students."
+        ],
+        "correctAnswer": "The students who attended were not already the higher-scoring students.",
+        "explanation": "If better students were the ones who attended, their higher scores would not show the effect of the sessions.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-avm-adv-critical-reasoning-i9",
+        "question": "Argument: A poll of 200 visitors to a gym found that 85 per cent support a ban on junk-food advertising. The council concludes that most residents support the ban.\n\nThe reasoning in the argument is flawed because it",
+        "options": [
+          "uses a sample that is too large",
+          "attacks opponents of the ban",
+          "assumes a ban is easy to enforce",
+          "bases a claim about all residents on a group that is not representative"
+        ],
+        "correctAnswer": "bases a claim about all residents on a group that is not representative",
+        "explanation": "Gym visitors may be more health-conscious than the average resident.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-avm-adv-critical-reasoning-a15",
+        "question": "Argument: The company's hiring freeze will save money. However, a freeze overloads existing staff and raises turnover, and replacing staff costs more than the salary saved. So the freeze is likely to cost more than it saves.\n\nWhich of the following is the main conclusion of the argument?",
+        "options": [
+          "A hiring freeze saves salary.",
+          "A freeze overloads existing staff.",
+          "The hiring freeze is likely to cost more than it saves.",
+          "Replacing staff is costly."
+        ],
+        "correctAnswer": "The hiring freeze is likely to cost more than it saves.",
+        "explanation": "The last sentence, introduced by \"So\", is the conclusion.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-adv-critical-reasoning-a16",
+        "question": "Argument: Each part of the machine is cheap, so the machine is cheap.\n\nThe reasoning in the argument is flawed because it",
+        "options": [
+          "attacks the sellers of the machine",
+          "assumes that the whole has a property because each part has it",
+          "relies on an expert",
+          "uses a sample that is too small"
+        ],
+        "correctAnswer": "assumes that the whole has a property because each part has it",
+        "explanation": "The sum of many cheap parts may still be expensive: a composition error.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-avm-adv-critical-reasoning-p17",
+        "question": "Argument: Cities with more police officers have more crime, so more police cause more crime.\n\nWhich of the following, if true, most weakens the argument?",
+        "options": [
+          "Police officers are well trained.",
+          "Cities add police officers when crime is already rising.",
+          "Crime is reported more in cities.",
+          "Most crimes are minor."
+        ],
+        "correctAnswer": "Cities add police officers when crime is already rising.",
+        "explanation": "It reverses the direction of cause: crime leads to more police.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-adv-critical-reasoning-p18",
+        "question": "Argument: Hospitals have added beds, yet waiting times for admission have increased.\n\nWhich of the following best resolves the apparent paradox?",
+        "options": [
+          "The number of patients seeking admission has grown faster than the number of beds.",
+          "Beds are cleaned more often.",
+          "Hospitals have more doctors.",
+          "The new beds are more comfortable."
+        ],
+        "correctAnswer": "The number of patients seeking admission has grown faster than the number of beds.",
+        "explanation": "If demand grew faster than supply, waiting times can rise even as beds increase.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-adv-critical-reasoning-p19",
+        "question": "Argument: A ban on single-use cups will reduce litter, because people will bring their own cups.\n\nWhich of the following is an assumption on which the argument depends?",
+        "options": [
+          "Cafés will lose customers.",
+          "Reusable cups are cheap.",
+          "Litter is a serious problem.",
+          "Customers will actually bring reusable cups rather than switching to other disposable items."
+        ],
+        "correctAnswer": "Customers will actually bring reusable cups rather than switching to other disposable items.",
+        "explanation": "If people switch to other disposables, litter would not fall.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Gap.",
+      "Cause.",
+      "Sample.",
+      "Evaluate.",
+      "Paradox."
+    ],
+    "quickFormulas": [
+      "Premise → gap → conclusion"
+    ]
+  },
+  "keyTakeaways": [
+    "Name the gap.",
+    "Alternatives.",
+    "Sample.",
+    "Control."
+  ],
+  "selfCheckQuestions": [
+    "Can I state the gap?",
+    "Can I spot reverse cause?",
+    "Can I resolve a paradox?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

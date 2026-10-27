@@ -1,0 +1,422 @@
+{
+  "id": "y4-avm-complex-inferences",
+  "yearId": 4,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 17,
+  "title": "Complex Inference Chains",
+  "tagline": "Year 4 — Chaining if-then statements, contrapositives, only-if and either-or to find what must be true",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A complex inference question gives several linked conditional statements and one or two facts, and asks what must follow. The tools are chaining (if p then q, if q then r gives if p then r), the contrapositive (not q gives not p), the reading of \"only if\" and \"if and only if\", and elimination in either-or statements. Because each combination of true and false values is a possible world, a conclusion must be true in every world consistent with the statements.",
+    "placementRelevance": "Chained inference items appear in the advanced logical and verbal sections of company tests.",
+    "realWorldContext": "Reading policies and contracts (\"if X then Y\") and deciding what follows is the same reasoning."
+  },
+  "learningObjectives": [
+    "Chain conditional statements",
+    "Use the contrapositive correctly",
+    "Translate \"only if\" and \"if and only if\"",
+    "Eliminate in either-or statements",
+    "Reject invalid reversals (denying the antecedent)"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Assumptions, Inferences, and Courses of Action",
+      "Advanced Critical Reasoning"
+    ],
+    "quickRefresher": "\"If p then q\" is equivalent to \"if not q then not p\", but not to \"if q then p\". \"p only if q\" means \"if p then q\"."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Chain: if p then q and if q then r give if p then r.",
+      "Contrapositive: if not q then not p.",
+      "Converse: if q then p (not equivalent).",
+      "Only if: p only if q means if p then q.",
+      "If and only if: p and q are both true or both false."
+    ],
+    "theoreticalIntuition": "A conditional is a one-way street. You may travel forward from cause to effect, and you may reason backwards only by denying the effect.",
+    "visualOrMentalModel": "Write each statement as an arrow. Follow arrows forward from known true facts and backwards from known false facts."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Chain",
+      "formula": "p → q, q → r ⇒ p → r",
+      "description": "Two conditionals.",
+      "whenToUse": "Forward.",
+      "simpleExample": "Approved → budget → hiring"
+    },
+    {
+      "title": "Contrapositive",
+      "formula": "p → q ⇒ ¬q → ¬p",
+      "description": "Negated result.",
+      "whenToUse": "Backward.",
+      "simpleExample": "No hiring ⇒ not approved"
+    },
+    {
+      "title": "Only if",
+      "formula": "p only if q ⇒ p → q",
+      "description": "Reading.",
+      "whenToUse": "Translate.",
+      "simpleExample": "Interview only if test"
+    },
+    {
+      "title": "Either-or",
+      "formula": "p ∨ q, ¬p ⇒ q",
+      "description": "Elimination.",
+      "whenToUse": "Forward.",
+      "simpleExample": "Printer or cable"
+    },
+    {
+      "title": "Invalid reversal",
+      "formula": "p → q, ¬p ⇏ ¬q",
+      "description": "Denying the antecedent.",
+      "whenToUse": "Trap.",
+      "simpleExample": "Not approved ⇏ no budget"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "If the project is approved the budget is released; if the budget is released hiring begins; hiring has not begun. Going backwards: no hiring means the budget was not released (contrapositive of the second statement), which means the project was not approved (contrapositive of the first).",
+      "Meena did not pass the aptitude test. An interview needs a pass, so she did not get an interview; an offer needs an interview, so no offer. We cannot conclude anything about whether someone who passed gets an offer.",
+      "Exactly one plan is adopted; if Plan A then the road is widened; the road is not widened. So Plan A is not adopted, and therefore Plan B is.",
+      "The shop is open if and only if the manager is present; if the manager is present the alarm is off; the alarm is on. So the manager is not present, hence the shop is not open.",
+      "Either the printer is faulty or the cable is loose; if the cable is loose the signal drops; the signal does not drop. So the cable is not loose, and the printer is faulty."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Denying the antecedent",
+        "content": "From \"if p then q\" and \"not p\" you cannot conclude \"not q\"; q may be true for other reasons."
+      },
+      {
+        "title": "Checking by worlds",
+        "content": "With three yes-no facts there are only eight worlds; if you are unsure, list those that fit the statements."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Chains",
+      "description": "Forward.",
+      "exampleSnippet": "Approval chain"
+    },
+    {
+      "typeName": "Contrapositives",
+      "description": "Backward.",
+      "exampleSnippet": "No hiring"
+    },
+    {
+      "typeName": "Only if",
+      "description": "Translate.",
+      "exampleSnippet": "Interview"
+    },
+    {
+      "typeName": "Either-or",
+      "description": "Eliminate.",
+      "exampleSnippet": "Printer"
+    },
+    {
+      "typeName": "If and only if",
+      "description": "Both ways.",
+      "exampleSnippet": "Shop and manager"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-avm-complex-inferences-1",
+      "title": "Contrapositive",
+      "question": "If the project is approved the budget is released; the budget was not released. What follows?",
+      "givenInfo": [
+        "A → B",
+        "¬B"
+      ],
+      "conceptOrFormula": "Deny the result.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Contrapositive",
+          "explanation": "Not B gives not A."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Conclusion",
+          "explanation": "The project was not approved."
+        }
+      ],
+      "finalAnswer": "The project was not approved",
+      "whyItWorks": "Backward through the arrow.",
+      "commonTrap": "Concluding approved.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-avm-complex-inferences-2",
+      "title": "Invalid reversal",
+      "question": "If it rains the match is cancelled. The match was cancelled. Did it rain?",
+      "givenInfo": [
+        "R → S",
+        "S"
+      ],
+      "conceptOrFormula": "Check the converse.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Arrow",
+          "explanation": "Rain leads to cancellation."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Reverse",
+          "explanation": "Cancellation could have other causes."
+        }
+      ],
+      "finalAnswer": "It cannot be concluded",
+      "whyItWorks": "Affirming the consequent.",
+      "commonTrap": "Saying it rained.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-avm-complex-inferences-3",
+      "title": "Either-or",
+      "question": "Either the printer is faulty or the cable is loose. The cable is not loose. What follows?",
+      "givenInfo": [
+        "P or Q",
+        "not Q"
+      ],
+      "conceptOrFormula": "Eliminate.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Remove",
+          "explanation": "Q is false."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Left",
+          "explanation": "P must be true."
+        }
+      ],
+      "finalAnswer": "The printer is faulty",
+      "whyItWorks": "One side is eliminated.",
+      "commonTrap": "Calling it undetermined.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Arrows and worlds",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Guess from wording.",
+      "shortcutMethod": "Write arrows, go forward from truths and backward from falsehoods; if unsure, list the worlds that fit."
+    },
+    "rulesForApplication": [
+      "Contrapositive is valid.",
+      "Converse is not.",
+      "Only if = arrow.",
+      "Eliminate in either-or."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reversing the arrow",
+      "whyItHappens": "Converse error.",
+      "howToAvoid": "Use the contrapositive instead."
+    },
+    {
+      "mistake": "Treating \"only if\" as \"if\"",
+      "whyItHappens": "Wrong arrow.",
+      "howToAvoid": "Translate p only if q to p → q."
+    },
+    {
+      "mistake": "Concluding from a negated antecedent",
+      "whyItHappens": "Invalid.",
+      "howToAvoid": "Nothing follows."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 75,
+    "eliminationTechnique": "Eliminate options that reverse an arrow.",
+    "questionSelectionAdvice": "Write letters for each statement.",
+    "recruiterInsight": "Valid conclusions follow in every possible world."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-avm-complex-inferences-e1",
+        "question": "Statements: If the project is approved, the budget is released. If the budget is released, hiring begins. Hiring has not begun.\n\nWhich of the following must be true?",
+        "options": [
+          "The budget was released.",
+          "The project was not approved.",
+          "The project was approved.",
+          "Hiring will begin soon."
+        ],
+        "correctAnswer": "The project was not approved.",
+        "explanation": "Checking every possible situation that fits the statements, \"The project was not approved.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-avm-complex-inferences-e2",
+        "question": "Statements: If the project is approved, the budget is released. If the budget is released, hiring begins. Hiring has not begun.\n\nWhich of the following conclusions is valid?",
+        "options": [
+          "The budget was not released.",
+          "The project was approved.",
+          "Hiring will begin soon.",
+          "Either the project was approved or the budget was released."
+        ],
+        "correctAnswer": "The budget was not released.",
+        "explanation": "Checking every possible situation that fits the statements, \"The budget was not released.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-avm-complex-inferences-e3",
+        "question": "Statements: If the project is approved, the budget is released. If the budget is released, hiring begins. Hiring has not begun.\n\nWhich of the following can be deduced from the statements?",
+        "options": [
+          "Hiring will begin soon.",
+          "Either the project was approved or the budget was released.",
+          "The budget was released.",
+          "The project was not approved."
+        ],
+        "correctAnswer": "The project was not approved.",
+        "explanation": "Checking every possible situation that fits the statements, \"The project was not approved.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-avm-complex-inferences-i7",
+        "question": "Statements: A candidate gets an interview only if the candidate passes the aptitude test. A candidate gets an offer only if the candidate gets an interview. Meena did not pass the aptitude test.\n\nWhich of the following can be deduced from the statements?",
+        "options": [
+          "Meena did not get an offer.",
+          "Meena got an interview.",
+          "Meena got an offer.",
+          "Meena either got an interview or an offer."
+        ],
+        "correctAnswer": "Meena did not get an offer.",
+        "explanation": "Checking every possible situation that fits the statements, \"Meena did not get an offer.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-avm-complex-inferences-i8",
+        "question": "Statements: A candidate gets an interview only if the candidate passes the aptitude test. A candidate gets an offer only if the candidate gets an interview. Meena did not pass the aptitude test.\n\nWhich of the following cannot be false?",
+        "options": [
+          "Meena got an offer.",
+          "Meena either got an interview or an offer.",
+          "Meena got an interview.",
+          "Meena did not get an interview."
+        ],
+        "correctAnswer": "Meena did not get an interview.",
+        "explanation": "Checking every possible situation that fits the statements, \"Meena did not get an interview.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-avm-complex-inferences-i9",
+        "question": "Statements: A candidate gets an interview only if the candidate passes the aptitude test. A candidate gets an offer only if the candidate gets an interview. Meena did not pass the aptitude test.\n\nWhich of the following must be true?",
+        "options": [
+          "Meena either got an interview or an offer.",
+          "Meena got an interview.",
+          "Meena got an offer.",
+          "Meena did not get an offer."
+        ],
+        "correctAnswer": "Meena did not get an offer.",
+        "explanation": "Checking every possible situation that fits the statements, \"Meena did not get an offer.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-avm-complex-inferences-a15",
+        "question": "Statements: The shop is open if and only if the manager is present. If the manager is present, the alarm is off. The alarm is on.\n\nWhich of the following can be deduced from the statements?",
+        "options": [
+          "The shop is open or the manager is present.",
+          "The shop is open.",
+          "The manager is not present.",
+          "The manager is present."
+        ],
+        "correctAnswer": "The manager is not present.",
+        "explanation": "Checking every possible situation that fits the statements, \"The manager is not present.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-complex-inferences-a16",
+        "question": "Statements: Either the printer is faulty or the cable is loose (or both). If the cable is loose, the signal drops. The signal does not drop.\n\nWhich of the following cannot be false?",
+        "options": [
+          "The cable is loose.",
+          "The printer is faulty.",
+          "The printer is not faulty.",
+          "The signal will drop."
+        ],
+        "correctAnswer": "The printer is faulty.",
+        "explanation": "Checking every possible situation that fits the statements, \"The printer is faulty.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-avm-complex-inferences-p17",
+        "question": "Statements: Either the printer is faulty or the cable is loose (or both). If the cable is loose, the signal drops. The signal does not drop.\n\nWhich of the following must be true?",
+        "options": [
+          "The printer is not faulty.",
+          "The printer is faulty.",
+          "The signal will drop.",
+          "The cable is loose."
+        ],
+        "correctAnswer": "The printer is faulty.",
+        "explanation": "Checking every possible situation that fits the statements, \"The printer is faulty.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-complex-inferences-p18",
+        "question": "Statements: Either the printer is faulty or the cable is loose (or both). If the cable is loose, the signal drops. The signal does not drop.\n\nWhich of the following conclusions is valid?",
+        "options": [
+          "The cable is not loose.",
+          "The signal will drop.",
+          "The cable is loose.",
+          "The printer is not faulty."
+        ],
+        "correctAnswer": "The cable is not loose.",
+        "explanation": "Checking every possible situation that fits the statements, \"The cable is not loose.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-avm-complex-inferences-p19",
+        "question": "Statements: If the project is approved, the budget is released. If the budget is released, hiring begins. Hiring has not begun.\n\nWhich of the following cannot be false?",
+        "options": [
+          "Either the project was approved or the budget was released.",
+          "The budget was released.",
+          "The project was approved.",
+          "The project was not approved."
+        ],
+        "correctAnswer": "The project was not approved.",
+        "explanation": "Checking every possible situation that fits the statements, \"The project was not approved.\" is true in all of them. Each of the other options is false in at least one situation that fits the statements.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Chains.",
+      "Contrapositive.",
+      "Only if.",
+      "Either-or.",
+      "Invalid reversals."
+    ],
+    "quickFormulas": [
+      "p → q ≡ ¬q → ¬p"
+    ]
+  },
+  "keyTakeaways": [
+    "Arrows.",
+    "Backwards by denial.",
+    "No converse.",
+    "List worlds."
+  ],
+  "selfCheckQuestions": [
+    "Can I use a contrapositive?",
+    "Can I translate only if?",
+    "Can I spot a converse error?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}
