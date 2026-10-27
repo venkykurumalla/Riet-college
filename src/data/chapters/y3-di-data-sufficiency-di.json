@@ -1,0 +1,419 @@
+{
+  "id": "y3-di-data-sufficiency-di",
+  "yearId": 3,
+  "category": "Data Interpretation",
+  "topicNumber": 70,
+  "title": "Data Sufficiency in DI Contexts",
+  "tagline": "Year 3 — Deciding whether partial data from a table or graph is enough to answer a question",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Data sufficiency in DI gives a data setting (a table, a graph or a business situation) with some values missing, and two statements that each supply extra information. You decide whether I alone, II alone, both together or neither suffices to answer the question. As in basic data sufficiency, the test is whether all worlds consistent with the statements give the same answer; for yes/no questions the answer must always be yes or always be no.",
+    "placementRelevance": "These items appear in management-oriented DI and reasoning sections.",
+    "realWorldContext": "Deciding whether you have enough figures to make a decision, before collecting more, is a real skill."
+  },
+  "learningObjectives": [
+    "Treat missing table values as unknowns",
+    "Test each statement alone first",
+    "Combine statements only when needed",
+    "Handle yes/no questions with consistency",
+    "Spot statements that repeat or add nothing"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Data Sufficiency",
+      "Percentage-Based DI"
+    ],
+    "quickRefresher": "A statement is sufficient only if it leads to a single answer. A range is not enough."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Unknown: a table value that is not given.",
+      "Sufficient: leads to one definite answer.",
+      "Together: both statements used at once.",
+      "Consistent: no contradiction between the statements.",
+      "Equation count: the number of independent equations should match the number of unknowns."
+    ],
+    "theoreticalIntuition": "Picture all the tables that fit the statement. If every one of them gives the same answer, the statement is enough.",
+    "visualOrMentalModel": "List the unknowns. For each statement count the independent equations or conditions. If there is one condition for two unknowns, it is insufficient. Combine only if each alone fails."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Alone test",
+      "formula": "Two worlds with different answers?",
+      "description": "Each statement.",
+      "whenToUse": "Primary.",
+      "simpleExample": "Several totals possible"
+    },
+    {
+      "title": "Equation count",
+      "formula": "Unknowns = independent equations",
+      "description": "Arithmetic.",
+      "whenToUse": "Quick.",
+      "simpleExample": "2 unknowns, 2 equations"
+    },
+    {
+      "title": "Yes/no consistency",
+      "formula": "Always yes or always no",
+      "description": "Yes/no questions.",
+      "whenToUse": "Rule.",
+      "simpleExample": "Even + even is always even"
+    },
+    {
+      "title": "Range statements",
+      "formula": "Narrow but not unique",
+      "description": "Inequalities.",
+      "whenToUse": "Trap.",
+      "simpleExample": "More than 45"
+    },
+    {
+      "title": "Redundant statements",
+      "formula": "II repeats I",
+      "description": "Both.",
+      "whenToUse": "Adds nothing.",
+      "simpleExample": "a + b = 10 twice"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Company X produced 40 thousand cars. Statement I says Y produced 25% more: Y = 50 and the total is 90. Statement I alone is sufficient. Statement II says Y produced more than 45 thousand, which allows 46, 47, … so it is not sufficient.",
+      "Ravi's total mark is asked. \"He scored more in Maths than in English\" leaves many totals. \"The average of his two marks is 70\" gives a total of 140. Statement II alone suffices.",
+      "Boys and girls: \"boys are 20 more than girls\" and \"the class has 60 students\" are two independent equations for two unknowns; together they give 20 girls and 40 boys. Neither alone suffices.",
+      "For yes/no questions, \"Does Anita earn more than Beena?\" with \"Anita earns ₹10 thousand more than Beena\" is always yes, so sufficient. \"Anita earns ₹40 thousand\" leaves Beena unknown and is not.",
+      "A pair of statements may still be insufficient. \"x is prime and below 20\" and \"x is odd and above 10\" leave 11, 13, 17 and 19."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Table context",
+        "content": "The setting (a table or graph) supplies values common to both statements; only the missing values need statements."
+      },
+      {
+        "title": "Implied constraints",
+        "content": "Check the ranges given in the setting: they can make a statement sufficient (for example \"a profit at most ₹10\")."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Equations",
+      "description": "Unknowns and statements.",
+      "exampleSnippet": "Boys and girls"
+    },
+    {
+      "typeName": "Yes/no",
+      "description": "Always the same.",
+      "exampleSnippet": "Anita and Beena"
+    },
+    {
+      "typeName": "Ranges",
+      "description": "Not enough.",
+      "exampleSnippet": "More than 45"
+    },
+    {
+      "typeName": "Both needed",
+      "description": "Combine.",
+      "exampleSnippet": "Sum and difference"
+    },
+    {
+      "typeName": "Neither",
+      "description": "Still several.",
+      "exampleSnippet": "Prime and odd"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-di-data-sufficiency-di-1",
+      "title": "I alone",
+      "question": "X produced 40 thousand cars. I. Y produced 25% more than X. II. Y produced more than 45 thousand. What is the total of X and Y?",
+      "givenInfo": [
+        "X = 40"
+      ],
+      "conceptOrFormula": "Test each alone.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "I",
+          "explanation": "Y = 50, so total 90."
+        },
+        {
+          "stepNumber": 2,
+          "title": "II",
+          "explanation": "Y could be 46, 47, … so not unique."
+        }
+      ],
+      "finalAnswer": "Statement I alone is sufficient, but statement II alone is not",
+      "whyItWorks": "I fixes Y exactly.",
+      "commonTrap": "Combining unnecessarily.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-di-data-sufficiency-di-2",
+      "title": "Both needed",
+      "question": "How many girls? I. There are 20 more boys than girls. II. The class has 60 students. Which is correct?",
+      "givenInfo": [
+        "Two unknowns"
+      ],
+      "conceptOrFormula": "Equation count.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Alone",
+          "explanation": "Each is one equation for two unknowns."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Together",
+          "explanation": "b = g + 20 and b + g = 60 give g = 20."
+        }
+      ],
+      "finalAnswer": "Both statements together are needed; neither alone is sufficient",
+      "whyItWorks": "Two independent equations, two unknowns.",
+      "commonTrap": "Calling I sufficient.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-di-data-sufficiency-di-3",
+      "title": "Not even together",
+      "question": "What is x? I. x is a prime number less than 20. II. x is odd and greater than 10. Which is correct?",
+      "givenInfo": [
+        "Whole number x"
+      ],
+      "conceptOrFormula": "Intersect.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "I",
+          "explanation": "x is 2, 3, 5, 7, 11, 13, 17 or 19."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Together",
+          "explanation": "x is 11, 13, 17 or 19: four values."
+        }
+      ],
+      "finalAnswer": "Even both statements together are not sufficient",
+      "whyItWorks": "The answer is not unique.",
+      "commonTrap": "Picking 11.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Count unknowns",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Solve fully.",
+      "shortcutMethod": "Count unknowns and independent conditions; test each statement for two different worlds before combining."
+    },
+    "rulesForApplication": [
+      "Alone first.",
+      "Equations match unknowns.",
+      "Yes/no needs consistency.",
+      "A range is not enough."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Combining too early",
+      "whyItHappens": "Misses single-statement cases.",
+      "howToAvoid": "Test alone first."
+    },
+    {
+      "mistake": "Treating a range as an answer",
+      "whyItHappens": "Not unique.",
+      "howToAvoid": "Need one value."
+    },
+    {
+      "mistake": "Using outside data",
+      "whyItHappens": "Not allowed.",
+      "howToAvoid": "Use the setting and statements only."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "If statements repeat each other, together adds nothing.",
+    "questionSelectionAdvice": "Write unknowns and conditions as a short list.",
+    "recruiterInsight": "Decide quickly; you need not solve."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-di-data-sufficiency-di-e1",
+        "question": "The growth rates of companies A and B in a table are multiples of 5 from 5% to 30%.\n\nQuestion: Is the growth of A higher than that of B?\nI. A grew by 25% and B grew by less than 20%.\nII. A grew by more than 10%.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Even both statements together are not sufficient"
+        ],
+        "correctAnswer": "Statement I alone is sufficient, but statement II alone is not",
+        "explanation": "Statement I alone fixes the answer as Yes. Statement II alone leaves several answers possible (for example Yes and No). Taken together they fix the answer as Yes. Answer: Statement I alone is sufficient, but statement II alone is not.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-data-sufficiency-di-e2",
+        "question": "An article was bought for ₹100, ₹200, ₹300, ₹400 or ₹500 and sold at a price that is a multiple of ₹10 between ₹120 and ₹700.\n\nQuestion: What was the profit percentage?\nI. The selling price was ₹300.\nII. The cost price was more than ₹150.\n\nWhich of the following is correct?",
+        "options": [
+          "Even both statements together are not sufficient",
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Both statements together are needed; neither alone is sufficient"
+        ],
+        "correctAnswer": "Even both statements together are not sufficient",
+        "explanation": "Statement I alone leaves several answers possible (for example 200 and 50). Statement II alone leaves several answers possible (for example -40 and -35). Taken together they still leave several answers possible (for example 50 and 0). Answer: Even both statements together are not sufficient.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-data-sufficiency-di-e3",
+        "question": "A table shows Ravi's marks in Maths (m) and English (e); both are multiples of 10 from 0 to 100.\n\nQuestion: What is Ravi's total mark?\nI. Ravi scored more in Maths than in English.\nII. The average of his two marks is 70.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Even both statements together are not sufficient",
+          "Statement II alone is sufficient, but statement I alone is not"
+        ],
+        "correctAnswer": "Statement II alone is sufficient, but statement I alone is not",
+        "explanation": "Statement I alone leaves several answers possible (for example 10 and 20). Statement II alone fixes the answer as 140. Taken together they fix the answer as 140. Answer: Statement II alone is sufficient, but statement I alone is not.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-di-data-sufficiency-di-i7",
+        "question": "A school has 100 students. The number of girls g is a whole number from 1 to 99.\n\nQuestion: What percentage of the students are girls?\nI. The girls are fewer than the boys.\nII. The number of girls is a multiple of 5.\n\nWhich of the following is correct?",
+        "options": [
+          "Even both statements together are not sufficient",
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Both statements together are needed; neither alone is sufficient"
+        ],
+        "correctAnswer": "Even both statements together are not sufficient",
+        "explanation": "Statement I alone leaves several answers possible (for example 1 and 2). Statement II alone leaves several answers possible (for example 5 and 10). Taken together they still leave several answers possible (for example 5 and 10). Answer: Even both statements together are not sufficient.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-data-sufficiency-di-i8",
+        "question": "Three numbers a, b and c are whole numbers from 1 to 9.\n\nQuestion: What is the average of a, b and c?\nI. a + b = 10.\nII. c = 4.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Even both statements together are not sufficient",
+          "Both statements together are needed; neither alone is sufficient"
+        ],
+        "correctAnswer": "Both statements together are needed; neither alone is sufficient",
+        "explanation": "Statement I alone leaves several answers possible (for example 3.67 and 4). Statement II alone leaves several answers possible (for example 2 and 2.33). Taken together they fix the answer as 4.67. Answer: Both statements together are needed; neither alone is sufficient.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-data-sufficiency-di-i9",
+        "question": "A school has boys b and girls g, each at most 40.\n\nQuestion: What is the ratio of boys to girls?\nI. The number of boys is 3 times the number of girls.\nII. The total number of students is 40.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Even both statements together are not sufficient",
+          "Statement I alone is sufficient, but statement II alone is not"
+        ],
+        "correctAnswer": "Statement I alone is sufficient, but statement II alone is not",
+        "explanation": "Statement I alone fixes the answer as 3. Statement II alone leaves several answers possible (for example 0.026 and 0.053). Taken together they fix the answer as 3. Answer: Statement I alone is sufficient, but statement II alone is not.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-di-data-sufficiency-di-a15",
+        "question": "x is a whole number from 1 to 40.\n\nQuestion: What is x?\nI. x is a prime number less than 20.\nII. x is odd and greater than 10.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Even both statements together are not sufficient",
+          "Both statements together are needed; neither alone is sufficient"
+        ],
+        "correctAnswer": "Even both statements together are not sufficient",
+        "explanation": "Statement I alone leaves several answers possible (for example 2 and 3). Statement II alone leaves several answers possible (for example 11 and 13). Taken together they still leave several answers possible (for example 11 and 13). Answer: Even both statements together are not sufficient.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-data-sufficiency-di-a16",
+        "question": "Towns A and B have populations a and b (in thousands), each a multiple of 10 from 10 to 90.\n\nQuestion: What is the population of town B?\nI. The population of A is 40 thousand.\nII. The total population of A and B is 100 thousand.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Even both statements together are not sufficient"
+        ],
+        "correctAnswer": "Both statements together are needed; neither alone is sufficient",
+        "explanation": "Statement I alone leaves several answers possible (for example 10 and 20). Statement II alone leaves several answers possible (for example 90 and 80). Taken together they fix the answer as 60. Answer: Both statements together are needed; neither alone is sufficient.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-di-data-sufficiency-di-p17",
+        "question": "The monthly incomes of Anita (a) and Beena (b), in thousands of rupees, are multiples of 10 from 10 to 60.\n\nQuestion: Does Anita earn more than Beena?\nI. Anita earns ₹10 thousand more than Beena.\nII. Anita earns ₹40 thousand.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Even both statements together are not sufficient"
+        ],
+        "correctAnswer": "Statement I alone is sufficient, but statement II alone is not",
+        "explanation": "Statement I alone fixes the answer as Yes. Statement II alone leaves several answers possible (for example Yes and No). Taken together they fix the answer as Yes. Answer: Statement I alone is sufficient, but statement II alone is not.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-data-sufficiency-di-p18",
+        "question": "A shop's marked price m is ₹200, 300, 400 or 500 and its selling price s is ₹150, 200, 250 or 300 (s is below m).\n\nQuestion: What was the discount percentage?\nI. The marked price was ₹400.\nII. The selling price was ₹300.\n\nWhich of the following is correct?",
+        "options": [
+          "Both statements together are needed; neither alone is sufficient",
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Even both statements together are not sufficient"
+        ],
+        "correctAnswer": "Both statements together are needed; neither alone is sufficient",
+        "explanation": "Statement I alone leaves several answers possible (for example 62.5 and 50). Statement II alone leaves several answers possible (for example 25 and 40). Taken together they fix the answer as 25. Answer: Both statements together are needed; neither alone is sufficient.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-data-sufficiency-di-p19",
+        "question": "Sales rose from an old value to a new value, each one of 100, 200, 300, 400 or 500.\n\nQuestion: What was the percentage increase in sales?\nI. The new sales were more than the old sales.\nII. The new sales were double the old sales.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Even both statements together are not sufficient",
+          "Statement II alone is sufficient, but statement I alone is not"
+        ],
+        "correctAnswer": "Statement II alone is sufficient, but statement I alone is not",
+        "explanation": "Statement I alone leaves several answers possible (for example 100 and 200). Statement II alone fixes the answer as 100. Taken together they fix the answer as 100. Answer: Statement II alone is sufficient, but statement I alone is not.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Alone first.",
+      "Equation count.",
+      "Yes/no rule.",
+      "Ranges.",
+      "Together."
+    ],
+    "quickFormulas": [
+      "Unknowns vs equations"
+    ]
+  },
+  "keyTakeaways": [
+    "Test alone.",
+    "Count equations.",
+    "Consistency.",
+    "No outside data."
+  ],
+  "selfCheckQuestions": [
+    "Can I test each statement alone?",
+    "Can I count unknowns?",
+    "Can I handle yes/no?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}

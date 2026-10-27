@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-di-data-sufficiency-di",
+  "topicTitle": "Data Sufficiency in DI Contexts",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The growth rates of companies A and B in a table are multiples of 5 from 5% to 30%.\n\nQuestion: Is the growth of A higher than that of B?\nI. A grew by 25% and B grew by less than 20%.\nII. A grew by more than 10%.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Statement I alone fixes the answer as Yes. Statement II alone leaves several answers possible (for example Yes and No). Taken together they fix the answer as Yes. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "An article was bought for ₹100, ₹200, ₹300, ₹400 or ₹500 and sold at a price that is a multiple of ₹10 between ₹120 and ₹700.\n\nQuestion: What was the profit percentage?\nI. The selling price was ₹300.\nII. The cost price was more than ₹150.\n\nWhich of the following is correct?",
+      "options": [
+        "Even both statements together are not sufficient",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Statement I alone leaves several answers possible (for example 200 and 50). Statement II alone leaves several answers possible (for example -40 and -35). Taken together they still leave several answers possible (for example 50 and 0). Answer: Even both statements together are not sufficient."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A table shows Ravi's marks in Maths (m) and English (e); both are multiples of 10 from 0 to 100.\n\nQuestion: What is Ravi's total mark?\nI. Ravi scored more in Maths than in English.\nII. The average of his two marks is 70.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient",
+        "Statement II alone is sufficient, but statement I alone is not"
+      ],
+      "answerIndex": 3,
+      "explanation": "Statement I alone leaves several answers possible (for example 10 and 20). Statement II alone fixes the answer as 140. Taken together they fix the answer as 140. Answer: Statement II alone is sufficient, but statement I alone is not."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A class has b boys and g girls, each at most 50.\n\nQuestion: How many girls are in the class?\nI. There are 20 more boys than girls.\nII. The class has 60 students in all.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Statement I alone leaves several answers possible (for example 1 and 2). Statement II alone leaves several answers possible (for example 50 and 49). Taken together they fix the answer as 20. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A bar graph shows that Company X produced 40 thousand cars in 2023. The production y of Company Y (in whole thousands) is at most 100.\n\nQuestion: What was the total production of X and Y?\nI. Y produced 25% more than X.\nII. Y produced more than 45 thousand cars.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Statement I alone fixes the answer as 90. Statement II alone leaves several answers possible (for example 86 and 87). Taken together they fix the answer as 90. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The revenue of a company in 2022 was ₹400, 450, 500, 550 or 600 crore, and it grew in 2023 by 5%, 10% or 20%.\n\nQuestion: Is the revenue in 2023 more than ₹500 crore?\nI. The revenue grew in 2023.\nII. The revenue in 2022 was ₹600 crore and the growth was at least 5%.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Statement I alone leaves several answers possible (for example No and Yes). Statement II alone fixes the answer as Yes. Taken together they fix the answer as Yes. Answer: Statement II alone is sufficient, but statement I alone is not."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A school has 100 students. The number of girls g is a whole number from 1 to 99.\n\nQuestion: What percentage of the students are girls?\nI. The girls are fewer than the boys.\nII. The number of girls is a multiple of 5.\n\nWhich of the following is correct?",
+      "options": [
+        "Even both statements together are not sufficient",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Statement I alone leaves several answers possible (for example 1 and 2). Statement II alone leaves several answers possible (for example 5 and 10). Taken together they still leave several answers possible (for example 5 and 10). Answer: Even both statements together are not sufficient."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Three numbers a, b and c are whole numbers from 1 to 9.\n\nQuestion: What is the average of a, b and c?\nI. a + b = 10.\nII. c = 4.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Even both statements together are not sufficient",
+        "Both statements together are needed; neither alone is sufficient"
+      ],
+      "answerIndex": 3,
+      "explanation": "Statement I alone leaves several answers possible (for example 3.67 and 4). Statement II alone leaves several answers possible (for example 2 and 2.33). Taken together they fix the answer as 4.67. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A school has boys b and girls g, each at most 40.\n\nQuestion: What is the ratio of boys to girls?\nI. The number of boys is 3 times the number of girls.\nII. The total number of students is 40.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient",
+        "Statement I alone is sufficient, but statement II alone is not"
+      ],
+      "answerIndex": 3,
+      "explanation": "Statement I alone fixes the answer as 3. Statement II alone leaves several answers possible (for example 0.026 and 0.053). Taken together they fix the answer as 3. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A table shows the income of a person (₹3, 4, 5, 6, 7 or 8 lakh) and the tax rate (5%, 10% or 20%).\n\nQuestion: How much tax does the person pay (₹ thousand)?\nI. The income is ₹5 lakh.\nII. The tax rate is 10%.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Statement I alone leaves several answers possible (for example 250 and 500). Statement II alone leaves several answers possible (for example 300 and 400). Taken together they fix the answer as 500. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The sales in 2022 and 2023 (in ₹ lakh) are whole numbers s1 and s2 from 1 to 9.\n\nQuestion: Were the sales higher in 2023 than in 2022?\nI. The sales in the two years add up to 10.\nII. The sales in 2023 were 2 more than in 2022.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Statement I alone leaves several answers possible (for example Yes and No). Statement II alone fixes the answer as Yes. Taken together they fix the answer as Yes. Answer: Statement II alone is sufficient, but statement I alone is not."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A pen costs a whole number of rupees (1 to 20) and a pencil costs a whole number of rupees (1 to 20).\n\nQuestion: What is the cost of a pen?\nI. The pen costs less than a pencil.\nII. The pen costs more than ₹5.\n\nWhich of the following is correct?",
+      "options": [
+        "Even both statements together are not sufficient",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Statement I alone leaves several answers possible (for example 1 and 2). Statement II alone leaves several answers possible (for example 6 and 7). Taken together they still leave several answers possible (for example 6 and 7). Answer: Even both statements together are not sufficient."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A school has n students (80, 100 or 120) and the pass percentage p is 40, 50, 60, 70 or 80.\n\nQuestion: Did more than 60 students pass?\nI. The school has 100 students.\nII. The school has at least 100 students and the pass percentage is at least 70.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Statement I alone leaves several answers possible (for example No and Yes). Statement II alone fixes the answer as Yes. Taken together they fix the answer as Yes. Answer: Statement II alone is sufficient, but statement I alone is not."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Two departments have x and y employees, each a whole number from 1 to 50.\n\nQuestion: What is the total number of employees?\nI. The first department has twice as many as the second, and the second has 15.\nII. The total is more than 40.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient",
+        "Statement I alone is sufficient, but statement II alone is not"
+      ],
+      "answerIndex": 3,
+      "explanation": "Statement I alone fixes the answer as 45. Statement II alone leaves several answers possible (for example 41 and 42). Taken together they fix the answer as 45. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "x is a whole number from 1 to 40.\n\nQuestion: What is x?\nI. x is a prime number less than 20.\nII. x is odd and greater than 10.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Even both statements together are not sufficient",
+        "Both statements together are needed; neither alone is sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Statement I alone leaves several answers possible (for example 2 and 3). Statement II alone leaves several answers possible (for example 11 and 13). Taken together they still leave several answers possible (for example 11 and 13). Answer: Even both statements together are not sufficient."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Towns A and B have populations a and b (in thousands), each a multiple of 10 from 10 to 90.\n\nQuestion: What is the population of town B?\nI. The population of A is 40 thousand.\nII. The total population of A and B is 100 thousand.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Statement I alone leaves several answers possible (for example 10 and 20). Statement II alone leaves several answers possible (for example 90 and 80). Taken together they fix the answer as 60. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The monthly incomes of Anita (a) and Beena (b), in thousands of rupees, are multiples of 10 from 10 to 60.\n\nQuestion: Does Anita earn more than Beena?\nI. Anita earns ₹10 thousand more than Beena.\nII. Anita earns ₹40 thousand.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 1,
+      "explanation": "Statement I alone fixes the answer as Yes. Statement II alone leaves several answers possible (for example Yes and No). Taken together they fix the answer as Yes. Answer: Statement I alone is sufficient, but statement II alone is not."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A shop's marked price m is ₹200, 300, 400 or 500 and its selling price s is ₹150, 200, 250 or 300 (s is below m).\n\nQuestion: What was the discount percentage?\nI. The marked price was ₹400.\nII. The selling price was ₹300.\n\nWhich of the following is correct?",
+      "options": [
+        "Both statements together are needed; neither alone is sufficient",
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Even both statements together are not sufficient"
+      ],
+      "answerIndex": 0,
+      "explanation": "Statement I alone leaves several answers possible (for example 62.5 and 50). Statement II alone leaves several answers possible (for example 25 and 40). Taken together they fix the answer as 25. Answer: Both statements together are needed; neither alone is sufficient."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Sales rose from an old value to a new value, each one of 100, 200, 300, 400 or 500.\n\nQuestion: What was the percentage increase in sales?\nI. The new sales were more than the old sales.\nII. The new sales were double the old sales.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Both statements together are needed; neither alone is sufficient",
+        "Even both statements together are not sufficient",
+        "Statement II alone is sufficient, but statement I alone is not"
+      ],
+      "answerIndex": 3,
+      "explanation": "Statement I alone leaves several answers possible (for example 100 and 200). Statement II alone fixes the answer as 100. Taken together they fix the answer as 100. Answer: Statement II alone is sufficient, but statement I alone is not."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A class has 40 students. The number scoring above 40 marks is u and the number scoring above 50 marks is v (v ≤ u ≤ 40).\n\nQuestion: How many students scored above 50?\nI. 25 students scored above 40.\nII. 10 students scored below 30.\n\nWhich of the following is correct?",
+      "options": [
+        "Statement I alone is sufficient, but statement II alone is not",
+        "Statement II alone is sufficient, but statement I alone is not",
+        "Even both statements together are not sufficient",
+        "Both statements together are needed; neither alone is sufficient"
+      ],
+      "answerIndex": 2,
+      "explanation": "Statement I alone leaves several answers possible (for example 0 and 1). Statement II alone leaves several answers possible (for example 0 and 1). Taken together they cannot hold together. Answer: Even both statements together are not sufficient."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/"
+}

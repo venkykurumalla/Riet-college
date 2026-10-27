@@ -1,0 +1,421 @@
+{
+  "id": "y3-di-growth-rate",
+  "yearId": 3,
+  "category": "Data Interpretation",
+  "topicNumber": 69,
+  "title": "Growth Rate and CAGR Computation from DI",
+  "tagline": "Year 3 — Total growth, average annual growth and compound annual growth rate from start and end values",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Growth can be measured in three ways. Total growth is the change over the whole period as a percentage of the start. The simple average annual growth divides total growth by the number of years. The compound annual growth rate (CAGR) is the single yearly rate that, applied every year, takes the start value to the end value: CAGR = (end ÷ start)^(1/n) − 1. They differ when the yearly rates vary, and a good analyst knows which one a question asks for.",
+    "placementRelevance": "CAGR and growth-rate questions appear in management-oriented DI sets and in finance sections.",
+    "realWorldContext": "Investment returns, company revenue and population growth are reported as CAGR."
+  },
+  "learningObjectives": [
+    "Compute total growth as a percentage",
+    "Compute CAGR for 2–4 year periods",
+    "Distinguish simple average growth from CAGR",
+    "Project a value forward at a given CAGR",
+    "Use the rule of 72 for doubling time"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Compound Interest",
+      "Percentage-Based DI",
+      "Approximation Techniques in DI"
+    ],
+    "quickRefresher": "Value after n years at rate r: start × (1 + r)ⁿ. Total growth = (end − start) ÷ start."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Total growth: (end − start) ÷ start × 100.",
+      "Simple average growth: total growth ÷ number of years.",
+      "CAGR: the constant yearly rate that gives the same end value.",
+      "Year-on-year (YoY) growth: change from one year to the next.",
+      "Rule of 72: doubling time ≈ 72 ÷ rate (in %)."
+    ],
+    "theoreticalIntuition": "Compounding means each year's growth is on the previous year's larger base. CAGR is the one steady rate that does the same job.",
+    "visualOrMentalModel": "For short periods try common rates: 10% for 3 years gives 1.331, 20% gives 1.728, 5% gives 1.1576, 25% gives 1.953. Match the ratio end ÷ start with a known power."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Total growth",
+      "formula": "(end − start) ÷ start × 100",
+      "description": "Whole period.",
+      "whenToUse": "Simple.",
+      "simpleExample": "1,000 → 1,331 is 33.1%"
+    },
+    {
+      "title": "CAGR",
+      "formula": "(end ÷ start)^(1/n) − 1",
+      "description": "n years.",
+      "whenToUse": "Compound.",
+      "simpleExample": "1.331^(1/3) = 1.10"
+    },
+    {
+      "title": "Forward value",
+      "formula": "value × (1 + CAGR)^k",
+      "description": "k more years.",
+      "whenToUse": "Projection.",
+      "simpleExample": "864 × 1.2² = 1,244.2"
+    },
+    {
+      "title": "Simple average",
+      "formula": "Total growth ÷ n",
+      "description": "Not CAGR.",
+      "whenToUse": "Comparison.",
+      "simpleExample": "33.1% ÷ 3 = 11.0%"
+    },
+    {
+      "title": "Rule of 72",
+      "formula": "Years ≈ 72 ÷ rate",
+      "description": "Doubling.",
+      "whenToUse": "Estimate.",
+      "simpleExample": "9% → 8 years"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Investment A grew from 1,000 to 1,331 in three years. Total growth is 331 ÷ 1,000 = 33.1%. Since 1.1³ = 1.331, the CAGR is exactly 10%. The simple average annual growth is 33.1% ÷ 3 = 11.0%, which overstates the true yearly rate.",
+      "Investment D grew from 64 to 125. The ratio is 1.953, and (5/4)³ = 125/64, so the CAGR is 25%. Its total growth is 95.3%.",
+      "Investment F fell from 1,000 to 729. The ratio is 0.729 = 0.9³, so the CAGR is −10%, and the total decline is 27.1%.",
+      "For a series with varying yearly rates, the average of the YoY rates is not the CAGR. With revenue 100, 110, 132, 138.6 and 173.25 the yearly rates are 10%, 20%, 5% and 25% (mean 15%), but CAGR = (1.7325)^(1/4) − 1 ≈ 14.7%.",
+      "A rise of 10% followed by a fall of 10% does not return to the start: 100 × 1.1 × 0.9 = 99."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "CAGR below the mean of YoY rates",
+        "content": "By compounding, CAGR is less than the arithmetic mean of the yearly rates when the rates vary."
+      },
+      {
+        "title": "Percent up then down",
+        "content": "Percentage changes do not cancel because each applies to a different base."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Total growth",
+      "description": "Simple change.",
+      "exampleSnippet": "A: 33.1%"
+    },
+    {
+      "typeName": "CAGR",
+      "description": "Root of the ratio.",
+      "exampleSnippet": "D: 25%"
+    },
+    {
+      "typeName": "Decline",
+      "description": "Negative CAGR.",
+      "exampleSnippet": "F: −10%"
+    },
+    {
+      "typeName": "Projection",
+      "description": "Compound forward.",
+      "exampleSnippet": "B for two years"
+    },
+    {
+      "typeName": "Doubling",
+      "description": "Rule of 72.",
+      "exampleSnippet": "9%: 8 years"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-di-growth-rate-1",
+      "title": "Total growth",
+      "question": "An investment grows from ₹1,000 thousand to ₹1,331 thousand in 3 years. What is the total growth?",
+      "givenInfo": [
+        "1,000 → 1,331"
+      ],
+      "conceptOrFormula": "Change over start.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Change",
+          "explanation": "1,331 − 1,000 = 331."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "331 ÷ 1,000 = 33.1%."
+        }
+      ],
+      "finalAnswer": "33.1%",
+      "whyItWorks": "The base is the start value.",
+      "commonTrap": "Dividing by the end value.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-di-growth-rate-2",
+      "title": "CAGR",
+      "question": "An investment grows from ₹1,000 thousand to ₹1,331 thousand in 3 years. What is the CAGR?",
+      "givenInfo": [
+        "Ratio 1.331"
+      ],
+      "conceptOrFormula": "Match a known power.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Ratio",
+          "explanation": "1,331 ÷ 1,000 = 1.331 = 1.1³."
+        },
+        {
+          "stepNumber": 2,
+          "title": "CAGR",
+          "explanation": "10% per year."
+        }
+      ],
+      "finalAnswer": "10%",
+      "whyItWorks": "Compounded for three years it gives 1.331.",
+      "commonTrap": "Dividing 33.1% by 3.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-di-growth-rate-3",
+      "title": "Projection",
+      "question": "Investment B (₹864 thousand) keeps growing at its CAGR of 20%. What will it be after 2 more years?",
+      "givenInfo": [
+        "864",
+        "20%"
+      ],
+      "conceptOrFormula": "Compound forward.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Factor",
+          "explanation": "1.2² = 1.44."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Value",
+          "explanation": "864 × 1.44 = ₹1,244.2 thousand."
+        }
+      ],
+      "finalAnswer": "₹1,244.2 thousand",
+      "whyItWorks": "Use the compound factor.",
+      "commonTrap": "Adding 40%.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Match the power",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Use a calculator for the root.",
+      "shortcutMethod": "Compare end ÷ start with 1.1³, 1.2³, 1.05³, 1.25³ and so on to read off CAGR for short periods."
+    },
+    "rulesForApplication": [
+      "CAGR uses a root, not a division.",
+      "Simple average overstates CAGR.",
+      "Up 10% then down 10% is not zero.",
+      "Rule of 72 for doubling."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Dividing total growth by n",
+      "whyItHappens": "That is simple average.",
+      "howToAvoid": "Use the root."
+    },
+    {
+      "mistake": "Using the wrong base",
+      "whyItHappens": "End instead of start.",
+      "howToAvoid": "Start is the base."
+    },
+    {
+      "mistake": "Cancelling up and down percentages",
+      "whyItHappens": "Different bases.",
+      "howToAvoid": "Multiply the factors."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 75,
+    "eliminationTechnique": "CAGR must be below the simple average when growth is positive.",
+    "questionSelectionAdvice": "Memorise 1.1³ = 1.331 and 1.2³ = 1.728.",
+    "recruiterInsight": "Test a candidate CAGR by raising it to the power n."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-di-growth-rate-e1",
+        "question": "Value of six investments (₹ thousand) at the start of 2020 and at the end of 2023 (3 years)\n\nInvestment | Start of 2020 | End of 2023\nA | 1000 | 1331\nB | 500 | 864\nC | 8000 | 9261\nD | 64 | 125\nE | 729 | 1000\nF | 1000 | 729\n\nWhat is the total growth of investment A from the start of 2020 to the end of 2023?",
+        "options": [
+          "36.4%",
+          "33.1%",
+          "29.8%",
+          "41.4%"
+        ],
+        "correctAnswer": "33.1%",
+        "explanation": "(1,331 − 1,000) ÷ 1,000 = 33.1%. The answer is 33.1%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-growth-rate-e2",
+        "question": "Value of six investments (₹ thousand) at the start of 2020 and at the end of 2023 (3 years)\n\nInvestment | Start of 2020 | End of 2023\nA | 1000 | 1331\nB | 500 | 864\nC | 8000 | 9261\nD | 64 | 125\nE | 729 | 1000\nF | 1000 | 729\n\nWhat is the CAGR of investment A over the 3 years?",
+        "options": [
+          "10%",
+          "11%",
+          "9%",
+          "12.5%"
+        ],
+        "correctAnswer": "10%",
+        "explanation": "1,331 ÷ 1,000 = 1.331 = 1.1³, so the CAGR is 10%. The answer is 10%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-growth-rate-e3",
+        "question": "Value of six investments (₹ thousand) at the start of 2020 and at the end of 2023 (3 years)\n\nInvestment | Start of 2020 | End of 2023\nA | 1000 | 1331\nB | 500 | 864\nC | 8000 | 9261\nD | 64 | 125\nE | 729 | 1000\nF | 1000 | 729\n\nWhat is the CAGR of investment B over the 3 years?",
+        "options": [
+          "22%",
+          "18%",
+          "25%",
+          "20%"
+        ],
+        "correctAnswer": "20%",
+        "explanation": "864 ÷ 500 = 1.728 = 1.2³, so the CAGR is 20%. The answer is 20%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-di-growth-rate-i7",
+        "question": "Value of six investments (₹ thousand) at the start of 2020 and at the end of 2023 (3 years)\n\nInvestment | Start of 2020 | End of 2023\nA | 1000 | 1331\nB | 500 | 864\nC | 8000 | 9261\nD | 64 | 125\nE | 729 | 1000\nF | 1000 | 729\n\nWhat is the total growth of investment D?",
+        "options": [
+          "95.3%",
+          "104.8%",
+          "85.8%",
+          "119.1%"
+        ],
+        "correctAnswer": "95.3%",
+        "explanation": "(125 − 64) ÷ 64 = 95.3%. The answer is 95.3%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-growth-rate-i8",
+        "question": "Value of six investments (₹ thousand) at the start of 2020 and at the end of 2023 (3 years)\n\nInvestment | Start of 2020 | End of 2023\nA | 1000 | 1331\nB | 500 | 864\nC | 8000 | 9261\nD | 64 | 125\nE | 729 | 1000\nF | 1000 | 729\n\nWhich investment has the highest CAGR?",
+        "options": [
+          "Investment A",
+          "Investment B",
+          "Investment C",
+          "Investment D"
+        ],
+        "correctAnswer": "Investment D",
+        "explanation": "CAGRs: A 10%, B 20%, C 5%, D 25%, E 11.1%, F −10%. The highest is D. Answer: D.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-growth-rate-i9",
+        "question": "Value of six investments (₹ thousand) at the start of 2020 and at the end of 2023 (3 years)\n\nInvestment | Start of 2020 | End of 2023\nA | 1000 | 1331\nB | 500 | 864\nC | 8000 | 9261\nD | 64 | 125\nE | 729 | 1000\nF | 1000 | 729\n\nWhich investment has the lowest CAGR?",
+        "options": [
+          "Investment A",
+          "Investment B",
+          "Investment C",
+          "Investment F"
+        ],
+        "correctAnswer": "Investment F",
+        "explanation": "F has a CAGR of −10%, the lowest. Answer: F.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-di-growth-rate-a15",
+        "question": "Annual revenue (₹ crore)\n\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nRevenue | 100 | 110 | 132 | 138.6 | 173.25\n\nWhat is the total growth of revenue from 2019 to 2023?",
+        "options": [
+          "80.58%",
+          "65.93%",
+          "73.25%",
+          "91.56%"
+        ],
+        "correctAnswer": "73.25%",
+        "explanation": "(173.25 − 100) ÷ 100 = 73.25%. The answer is 73.25%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-growth-rate-a16",
+        "question": "Annual revenue (₹ crore)\n\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nRevenue | 100 | 110 | 132 | 138.6 | 173.25\n\nWhat is the arithmetic mean of the four year-on-year growth rates?",
+        "options": [
+          "16.5%",
+          "15%",
+          "13.5%",
+          "18.8%"
+        ],
+        "correctAnswer": "15%",
+        "explanation": "YoY rates: 10%, 20%, 5% and 25%; mean = 60 ÷ 4 = 15%. The answer is 15%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-di-growth-rate-p17",
+        "question": "Annual revenue (₹ crore)\n\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nRevenue | 100 | 110 | 132 | 138.6 | 173.25\n\nThe CAGR of revenue from 2019 to 2023 (4 years) is closest to which value?",
+        "options": [
+          "16.2%",
+          "14.7%",
+          "13.2%",
+          "18.4%"
+        ],
+        "correctAnswer": "14.7%",
+        "explanation": "(173.25 ÷ 100)^(1/4) − 1 = 14.7%. The answer is 14.7%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-growth-rate-p18",
+        "question": "Annual revenue (₹ crore)\n\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nRevenue | 100 | 110 | 132 | 138.6 | 173.25\n\nWhich is correct about the mean of the yearly growth rates (15%) and the CAGR?",
+        "options": [
+          "The CAGR is slightly lower than the mean of the yearly rates",
+          "The CAGR is higher than the mean",
+          "They are always equal",
+          "The CAGR cannot be computed"
+        ],
+        "correctAnswer": "The CAGR is slightly lower than the mean of the yearly rates",
+        "explanation": "The mean of YoY rates is 15% and the CAGR is about 14.7%. Compounding makes the CAGR lower when yearly rates vary. Answer: the CAGR is slightly lower.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-growth-rate-p19",
+        "question": "Annual revenue (₹ crore)\n\nYear | 2019 | 2020 | 2021 | 2022 | 2023\nRevenue | 100 | 110 | 132 | 138.6 | 173.25\n\nBy the rule of 72, roughly how many years does it take for a value to double at a CAGR of 9%?",
+        "options": [
+          "6 years",
+          "10 years",
+          "12 years",
+          "8 years"
+        ],
+        "correctAnswer": "8 years",
+        "explanation": "72 ÷ 9 = 8 years. Answer: 8 years.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Total growth.",
+      "CAGR.",
+      "Simple average.",
+      "Projection.",
+      "Rule of 72."
+    ],
+    "quickFormulas": [
+      "CAGR = (end/start)^(1/n) − 1"
+    ]
+  },
+  "keyTakeaways": [
+    "Know the three measures.",
+    "Match powers.",
+    "Start is the base.",
+    "Compound forward."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute CAGR for 3 years?",
+    "Can I tell it from the simple average?",
+    "Can I project forward?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}
