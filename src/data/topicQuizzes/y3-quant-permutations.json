@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-permutations",
+  "topicTitle": "Permutations (nPr)",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The value of 5P3 is",
+      "options": [
+        "20",
+        "60",
+        "30",
+        "125"
+      ],
+      "answerIndex": 1,
+      "explanation": "5 × 4 × 3 = 60."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The number of 3-digit numbers that can be formed from the digits 1 to 5 without repetition is",
+      "options": [
+        "60",
+        "30",
+        "120",
+        "125"
+      ],
+      "answerIndex": 0,
+      "explanation": "5 × 4 × 3 = 60."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The number of ways to arrange 4 different books on a shelf is",
+      "options": [
+        "12",
+        "16",
+        "48",
+        "24"
+      ],
+      "answerIndex": 3,
+      "explanation": "4! = 24."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The number of arrangements of the letters of the word LEVEL is",
+      "options": [
+        "20",
+        "60",
+        "30",
+        "120"
+      ],
+      "answerIndex": 2,
+      "explanation": "5!/(2! × 2!) = 30."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The number of 2-letter codes from A, B, C, D with repetition allowed is",
+      "options": [
+        "12",
+        "8",
+        "16",
+        "24"
+      ],
+      "answerIndex": 2,
+      "explanation": "4 × 4 = 16."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The number of ways 6 people can sit around a circular table is",
+      "options": [
+        "24",
+        "120",
+        "360",
+        "720"
+      ],
+      "answerIndex": 1,
+      "explanation": "(6 − 1)! = 120."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "In how many ways can the letters of RAINBOW be arranged so that the three vowels are together?",
+      "options": [
+        "720",
+        "120",
+        "1440",
+        "5040"
+      ],
+      "answerIndex": 0,
+      "explanation": "Block AIO with 4 other letters: 5! × 3! = 720."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The number of arrangements of the letters of MISSISSIPPI is",
+      "options": [
+        "69300",
+        "39916800",
+        "3326400",
+        "34650"
+      ],
+      "answerIndex": 3,
+      "explanation": "11!/(4! 4! 2!) = 34650."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The number of 4-digit numbers that can be formed from the digits 0 to 9 without repetition is",
+      "options": [
+        "5040",
+        "9576",
+        "9000",
+        "4536"
+      ],
+      "answerIndex": 3,
+      "explanation": "9 × 9 × 8 × 7 = 4536."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The number of ways 6 people can sit around a table if two particular persons must sit together is",
+      "options": [
+        "24",
+        "96",
+        "48",
+        "120"
+      ],
+      "answerIndex": 2,
+      "explanation": "Treat the pair as a block: 4! × 2 = 48."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The number of 3-digit even numbers formed from the digits 1, 2, 3, 4, 5 without repetition is",
+      "options": [
+        "12",
+        "24",
+        "25",
+        "36"
+      ],
+      "answerIndex": 1,
+      "explanation": "The units digit is 2 or 4 (2 ways); the other two positions have 4P2 = 12 ways. 24 in total."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The number of arrangements of the letters of ARRANGE is",
+      "options": [
+        "1260",
+        "2520",
+        "5040",
+        "630"
+      ],
+      "answerIndex": 0,
+      "explanation": "7!/(2! 2!) = 1260."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "In how many ways can 5 boys and 3 girls be seated in a row so that no two girls are together?",
+      "options": [
+        "14400",
+        "14401",
+        "7200",
+        "36000"
+      ],
+      "answerIndex": 0,
+      "explanation": "Seat the boys in 5! = 120 ways; the 6 gaps take the girls in 6P3 = 120 ways. 14400."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The number of words (meaningful or not) that can be formed from the letters of the word BANANA is",
+      "options": [
+        "30",
+        "61",
+        "120",
+        "60"
+      ],
+      "answerIndex": 3,
+      "explanation": "6!/(3! × 2!) = 60."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "In how many ways can the letters of the word ORANGE be arranged so that the three vowels occupy the odd positions (1st, 3rd and 5th)?",
+      "options": [
+        "12",
+        "72",
+        "36",
+        "120"
+      ],
+      "answerIndex": 2,
+      "explanation": "The vowels O, A, E take the 3 odd places in 3! = 6 ways and the 3 consonants take the even places in 3! = 6 ways: 36."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The number of ways to arrange 7 persons in a row so that two particular persons are not adjacent is",
+      "options": [
+        "3601",
+        "3600",
+        "2880",
+        "3000"
+      ],
+      "answerIndex": 1,
+      "explanation": "Total 5040 minus together 2 × 720 = 1440 gives 3600."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The number of 5-digit numbers divisible by 5 that can be formed from the digits 0 to 9 without repetition is",
+      "options": [
+        "3024",
+        "5712",
+        "6048",
+        "5040"
+      ],
+      "answerIndex": 1,
+      "explanation": "Units digit 0: 9 × 8 × 7 × 6 = 3024. Units digit 5: the leading digit cannot be 0 or 5, so 8 × 8 × 7 × 6 = 2688. Total 5712."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The number of arrangements of the letters of the word EXAMINATION is",
+      "options": [
+        "4989600",
+        "9979200",
+        "19958400",
+        "4989601"
+      ],
+      "answerIndex": 0,
+      "explanation": "There are 11 letters with A, I and N each repeated twice: 11!/(2! 2! 2!) = 4989600."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The rank of the word CAT among the arrangements of its letters in dictionary order is",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "answerIndex": 3,
+      "explanation": "The words in order: ACT, ATC, CAT, CTA, TAC, TCA. CAT is third (rank 3)."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "How many 4-digit numbers greater than 5000 can be formed from 2, 3, 5, 6, 7 without repetition?",
+      "options": [
+        "60",
+        "73",
+        "72",
+        "96"
+      ],
+      "answerIndex": 2,
+      "explanation": "The first digit is 5, 6 or 7 (3 ways); the other three digits arrange from the remaining 4 in 4P3 = 24 ways: 72."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/permutation-and-combination/"
+}

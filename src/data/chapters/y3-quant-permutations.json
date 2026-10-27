@@ -1,0 +1,435 @@
+{
+  "id": "y3-quant-permutations",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 13,
+  "title": "Permutations (nPr)",
+  "tagline": "Year 3 — Arrangements with and without repetition, restrictions, circular arrangements and digit problems",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A permutation is an arrangement in which order matters. The fundamental principle of counting says that if one task can be done in m ways and a second in n ways, the two together can be done in m × n ways. From it come the formulas for arranging r of n different objects (nPr), arranging objects when some are alike, arranging in a circle, and counting numbers formed from given digits under restrictions.",
+    "placementRelevance": "Permutation questions are commonly asked in company aptitude rounds, typically as word arrangements, digit problems and seating with restrictions.",
+    "realWorldContext": "Passwords, seat plans, schedules and license plates are counted with permutations."
+  },
+  "learningObjectives": [
+    "Use the multiplication principle and factorials",
+    "Use nPr and arrangements with identical objects",
+    "Handle restrictions (together, never together, fixed positions)",
+    "Count circular arrangements",
+    "Count numbers formed from digits"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Number System Fundamentals",
+      "Probability Fundamentals"
+    ],
+    "quickRefresher": "n! = n × (n − 1) × … × 1, with 0! = 1. Counting is by \"choices in sequence\": multiply the number of choices at each step."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Permutation of n distinct objects taken r at a time: nPr = n!/(n − r)!.",
+      "Arrangements of n objects with p alike of one kind, q alike of another: n!/(p! q!).",
+      "Circular arrangements of n distinct objects: (n − 1)!; if clockwise and anticlockwise are the same: (n − 1)!/2.",
+      "Treating items \"together\": glue them into one block, arrange the blocks, and arrange inside the block.",
+      "\"Never together\" = total arrangements − arrangements with them together."
+    ],
+    "theoreticalIntuition": "Counting arrangements is filling positions one at a time: the first position has n choices, the next n − 1, and so on. Restrictions are handled by filling the restricted positions first.",
+    "visualOrMentalModel": "Fill the most restricted position first, then the others. For \"together\" make a block; for \"not together\" subtract; for repeated letters divide by the factorials of the repeats."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Permutations",
+      "formula": "nPr = n!/(n − r)!",
+      "description": "Distinct objects, order matters.",
+      "whenToUse": "Arrangements.",
+      "simpleExample": "5P3 = 60"
+    },
+    {
+      "title": "With identical objects",
+      "formula": "n!/(p! q! …)",
+      "description": "Divide by repeats.",
+      "whenToUse": "Word arrangements.",
+      "simpleExample": "MISSISSIPPI: 11!/(4! 4! 2!)"
+    },
+    {
+      "title": "Together / not together",
+      "formula": "Together: (n − k + 1)! × k!;  Not together = total − together",
+      "description": "Block method.",
+      "whenToUse": "Restrictions.",
+      "simpleExample": "ARRANGE with the two vowels together"
+    },
+    {
+      "title": "Circular",
+      "formula": "(n − 1)!",
+      "description": "Fix one object.",
+      "whenToUse": "Round tables.",
+      "simpleExample": "6 people: 5! = 120"
+    },
+    {
+      "title": "Digits",
+      "formula": "Choices for each position, restricted first",
+      "description": "No leading zero.",
+      "whenToUse": "Number counting.",
+      "simpleExample": "3-digit numbers from 1-5 without repetition: 5P3 = 60"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Count by positions. The number of ways to arrange 3 of 5 different letters is 5 × 4 × 3 = 60 = 5P3. If repetition is allowed, each position has 5 choices: 5³ = 125.",
+      "For words with repeated letters divide by the factorials of the repeats. The word LEVEL has 5 letters with L twice and E twice: 5!/(2! 2!) = 30 arrangements.",
+      "For restrictions, fix the restricted items first. To arrange the letters of RAINBOW so that the vowels (A, I, O) are together, treat AIO as one block: 5 objects arranged in 5! = 120 ways, times 3! = 6 arrangements inside the block: 720.",
+      "For \"never together\", subtract. The total arrangements of 7 letters is 5040. With the three vowels together it is 720, so with the vowels not all together it is 5040 − 720 = 4320.",
+      "Circular arrangements fix one person to remove rotations: 6 people around a table can be seated in 5! = 120 ways; if two particular persons must sit together, treat them as a block: 4! × 2 = 48 ways."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Digit problems",
+        "content": "For numbers, handle the leading digit first. 4-digit numbers from 0 to 9 without repetition: 9 × 9 × 8 × 7 = 4536."
+      },
+      {
+        "title": "Rank of a word",
+        "content": "The position of a word in the dictionary order is found by counting the words that start with smaller letters at each stage."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Distinct arrangements",
+      "description": "nPr.",
+      "exampleSnippet": "5P3"
+    },
+    {
+      "typeName": "Repeated letters",
+      "description": "Divide.",
+      "exampleSnippet": "LEVEL"
+    },
+    {
+      "typeName": "Together / not together",
+      "description": "Block.",
+      "exampleSnippet": "RAINBOW vowels"
+    },
+    {
+      "typeName": "Circular",
+      "description": "(n − 1)!.",
+      "exampleSnippet": "6 around a table"
+    },
+    {
+      "typeName": "Digit counting",
+      "description": "Position by position.",
+      "exampleSnippet": "4-digit numbers"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-permutations-1",
+      "title": "Arrangements with repeats",
+      "question": "How many different arrangements can be made from the letters of the word LEVEL?",
+      "givenInfo": [
+        "5 letters: L twice, E twice"
+      ],
+      "conceptOrFormula": "Divide by the repeats.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total",
+          "explanation": "5! = 120."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Repeats",
+          "explanation": "2! for L and 2! for E."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Result",
+          "explanation": "120/4 = 30."
+        }
+      ],
+      "finalAnswer": "30",
+      "whyItWorks": "Swapping identical letters does not give a new word.",
+      "commonTrap": "Using 5!.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-permutations-2",
+      "title": "Together",
+      "question": "In how many ways can the letters of RAINBOW be arranged so that the vowels are together?",
+      "givenInfo": [
+        "7 letters, vowels A, I, O"
+      ],
+      "conceptOrFormula": "Block method.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Block",
+          "explanation": "AIO as one: 5 objects, 5! = 120."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Inside",
+          "explanation": "3! = 6."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Total",
+          "explanation": "120 × 6 = 720."
+        }
+      ],
+      "finalAnswer": "720",
+      "whyItWorks": "Arrange the blocks then the contents.",
+      "commonTrap": "Forgetting the inside arrangements.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-permutations-3",
+      "title": "Circular",
+      "question": "In how many ways can 6 people sit around a circular table if two particular people must sit together?",
+      "givenInfo": [
+        "6 people",
+        "2 together"
+      ],
+      "conceptOrFormula": "Fix a block and divide rotations.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Block",
+          "explanation": "The pair is one unit: 5 units around a table: 4! = 24."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Inside",
+          "explanation": "2! = 2."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Total",
+          "explanation": "24 × 2 = 48."
+        }
+      ],
+      "finalAnswer": "48",
+      "whyItWorks": "Rotations are identical.",
+      "commonTrap": "Using 5! × 2.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Fill the restricted position first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "List all arrangements.",
+      "shortcutMethod": "Pick the most restricted position, choose, then multiply the choices; use blocks and complements."
+    },
+    "rulesForApplication": [
+      "Divide by factorials of repeats.",
+      "Together: block.",
+      "Not together: total − together.",
+      "Circular: (n − 1)!."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Forgetting inside arrangements",
+      "whyItHappens": "Ignoring the block order.",
+      "howToAvoid": "Multiply by k!."
+    },
+    {
+      "mistake": "Using n! for circles",
+      "whyItHappens": "Counting rotations separately.",
+      "howToAvoid": "(n − 1)!."
+    },
+    {
+      "mistake": "Ignoring identical letters",
+      "whyItHappens": "Counting repeated letters as distinct.",
+      "howToAvoid": "Divide."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 70,
+    "eliminationTechnique": "Counts must be divisible by obvious symmetry factors; reject non-integers.",
+    "questionSelectionAdvice": "Always ask which choice is most restricted.",
+    "recruiterInsight": "Permutations connect to probability and seating puzzles."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-permutations-e1",
+        "question": "The value of 5P3 is",
+        "options": [
+          "20",
+          "60",
+          "30",
+          "125"
+        ],
+        "correctAnswer": "60",
+        "explanation": "5 × 4 × 3 = 60.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-permutations-e2",
+        "question": "The number of 3-digit numbers that can be formed from the digits 1 to 5 without repetition is",
+        "options": [
+          "60",
+          "30",
+          "120",
+          "125"
+        ],
+        "correctAnswer": "60",
+        "explanation": "5 × 4 × 3 = 60.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-permutations-e3",
+        "question": "The number of ways to arrange 4 different books on a shelf is",
+        "options": [
+          "12",
+          "16",
+          "48",
+          "24"
+        ],
+        "correctAnswer": "24",
+        "explanation": "4! = 24.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-permutations-i7",
+        "question": "In how many ways can the letters of RAINBOW be arranged so that the three vowels are together?",
+        "options": [
+          "720",
+          "120",
+          "1440",
+          "5040"
+        ],
+        "correctAnswer": "720",
+        "explanation": "Block AIO with 4 other letters: 5! × 3! = 720.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-permutations-i8",
+        "question": "The number of arrangements of the letters of MISSISSIPPI is",
+        "options": [
+          "69300",
+          "39916800",
+          "3326400",
+          "34650"
+        ],
+        "correctAnswer": "34650",
+        "explanation": "11!/(4! 4! 2!) = 34650.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-permutations-i9",
+        "question": "The number of 4-digit numbers that can be formed from the digits 0 to 9 without repetition is",
+        "options": [
+          "5040",
+          "9576",
+          "9000",
+          "4536"
+        ],
+        "correctAnswer": "4536",
+        "explanation": "9 × 9 × 8 × 7 = 4536.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-permutations-a15",
+        "question": "In how many ways can the letters of the word ORANGE be arranged so that the three vowels occupy the odd positions (1st, 3rd and 5th)?",
+        "options": [
+          "12",
+          "72",
+          "36",
+          "120"
+        ],
+        "correctAnswer": "36",
+        "explanation": "The vowels O, A, E take the 3 odd places in 3! = 6 ways and the 3 consonants take the even places in 3! = 6 ways: 36.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-permutations-a16",
+        "question": "The number of ways to arrange 7 persons in a row so that two particular persons are not adjacent is",
+        "options": [
+          "3601",
+          "3600",
+          "2880",
+          "3000"
+        ],
+        "correctAnswer": "3600",
+        "explanation": "Total 5040 minus together 2 × 720 = 1440 gives 3600.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-permutations-p17",
+        "question": "The number of 5-digit numbers divisible by 5 that can be formed from the digits 0 to 9 without repetition is",
+        "options": [
+          "3024",
+          "5712",
+          "6048",
+          "5040"
+        ],
+        "correctAnswer": "5712",
+        "explanation": "Units digit 0: 9 × 8 × 7 × 6 = 3024. Units digit 5: the leading digit cannot be 0 or 5, so 8 × 8 × 7 × 6 = 2688. Total 5712.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-permutations-p18",
+        "question": "The number of arrangements of the letters of the word EXAMINATION is",
+        "options": [
+          "4989600",
+          "9979200",
+          "19958400",
+          "4989601"
+        ],
+        "correctAnswer": "4989600",
+        "explanation": "There are 11 letters with A, I and N each repeated twice: 11!/(2! 2! 2!) = 4989600.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-permutations-p19",
+        "question": "The rank of the word CAT among the arrangements of its letters in dictionary order is",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "3"
+        ],
+        "correctAnswer": "3",
+        "explanation": "The words in order: ACT, ATC, CAT, CTA, TAC, TCA. CAT is third (rank 3).",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "nPr.",
+      "Repeats divide.",
+      "Block method.",
+      "Circular (n − 1)!.",
+      "Digits: restricted first."
+    ],
+    "quickFormulas": [
+      "nPr = n!/(n − r)!"
+    ]
+  },
+  "keyTakeaways": [
+    "Choices multiply.",
+    "Restrictions first.",
+    "Subtract for not together.",
+    "Divide for repeats."
+  ],
+  "selfCheckQuestions": [
+    "Can I count LEVEL?",
+    "Can I do a block problem?",
+    "Can I count a circular arrangement?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

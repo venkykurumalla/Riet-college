@@ -1,0 +1,426 @@
+{
+  "id": "y3-quant-combinations",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 14,
+  "title": "Combinations (nCr)",
+  "tagline": "Year 3 — Selections, committees, geometry counts, distribution of objects and restrictions",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A combination is a selection in which order does not matter. Choosing r objects from n different objects can be done in nCr = n!/(r!(n − r)!) ways. Combinations count committees, teams, hands of cards, diagonals and triangles in geometry, and distributions of objects into groups. They connect directly to permutations: nPr = nCr × r!.",
+    "placementRelevance": "Combination questions are commonly asked in company aptitude rounds, usually with committees under conditions, geometry counts and distributions.",
+    "realWorldContext": "Choosing project teams, lottery tickets and test subsets are combinations."
+  },
+  "learningObjectives": [
+    "Use nCr and its symmetry nCr = nC(n − r)",
+    "Form committees with conditions (at least, at most, specific members)",
+    "Count diagonals, triangles and lines",
+    "Distribute objects into groups",
+    "Combine selection with arrangement"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Permutations",
+      "Probability Fundamentals"
+    ],
+    "quickRefresher": "nCr = nPr / r!. nC0 = nCn = 1. nCr = nC(n − r)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "nCr: the number of ways to choose r objects from n distinct objects, order ignored.",
+      "Identity: nCr + nC(r − 1) = (n + 1)Cr.",
+      "Selections with conditions: use \"at least\" as complement or by cases.",
+      "Distribution into labelled groups: choose for the first, then the second, and so on; divide by repeats for identical groups.",
+      "Geometry counts: choose points and apply conditions (no three collinear etc.)."
+    ],
+    "theoreticalIntuition": "A selection ignores order, so each selection is counted r! times if you count arrangements. Dividing by r! corrects the overcounting. For conditions, count by cases or subtract the unwanted selections from the total.",
+    "visualOrMentalModel": "Decide whether order matters. If not, use nCr. For \"at least one\", subtract \"none\" from the total. For specific people, include or exclude them first."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Combinations",
+      "formula": "nCr = n!/(r!(n − r)!)",
+      "description": "Order ignored.",
+      "whenToUse": "Selections.",
+      "simpleExample": "8C3 = 56"
+    },
+    {
+      "title": "Symmetry",
+      "formula": "nCr = nC(n − r)",
+      "description": "Choose the smaller.",
+      "whenToUse": "Simplify.",
+      "simpleExample": "10C8 = 10C2 = 45"
+    },
+    {
+      "title": "At least one",
+      "formula": "Total − none",
+      "description": "Complement.",
+      "whenToUse": "At-least conditions.",
+      "simpleExample": "5C... total − selections with none"
+    },
+    {
+      "title": "Geometry",
+      "formula": "Lines = nC2;  Triangles = nC3 (no three collinear);  Diagonals = nC2 − n",
+      "description": "n points or vertices.",
+      "whenToUse": "Geometry counts.",
+      "simpleExample": "Hexagon: 6C2 − 6 = 9"
+    },
+    {
+      "title": "Groups",
+      "formula": "Divide by k! for k identical groups of equal size",
+      "description": "Avoid overcounting.",
+      "whenToUse": "Distribution.",
+      "simpleExample": "6 into 3 pairs: 6!/(2!³ 3!) = 15"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Use nCr when order does not matter. From 8 students choose a team of 3: 8C3 = 8 × 7 × 6 / 6 = 56. By symmetry 10C8 = 10C2 = 45.",
+      "For committees with conditions, work by cases or complements. A committee of 3 is chosen from 4 men and 3 women with at least one woman: total 7C3 = 35 minus all-men 4C3 = 4 gives 31.",
+      "For specific members, include or exclude them first. A committee of 4 from 8 people that includes two particular people: choose the other 2 from the remaining 6: 6C2 = 15; that excludes both: 6C4 = 15.",
+      "Geometry counts are combinations of points. Lines from 6 points, no three collinear, number 6C2 = 15. Triangles: 6C3 = 20. Diagonals of an n-gon: nC2 − n; for a hexagon 15 − 6 = 9.",
+      "For distributions, divide by the factorial of the number of identical groups. Dividing 6 different people into 3 pairs gives 6!/(2!³ × 3!) = 15 (the 3! removes the order of the groups)."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Combine selection and arrangement",
+        "content": "Select first, then arrange: choosing 3 from 8 and arranging them gives 8C3 × 3! = 336 = 8P3."
+      },
+      {
+        "title": "Pascal's identity",
+        "content": "nCr + nC(r − 1) = (n + 1)Cr is a quick way to check or simplify sums of combinations."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Simple selections",
+      "description": "nCr.",
+      "exampleSnippet": "8C3"
+    },
+    {
+      "typeName": "Committees with conditions",
+      "description": "Cases or complement.",
+      "exampleSnippet": "At least one woman"
+    },
+    {
+      "typeName": "Geometry",
+      "description": "Lines, triangles.",
+      "exampleSnippet": "6 points"
+    },
+    {
+      "typeName": "Distribution",
+      "description": "Divide by repeats.",
+      "exampleSnippet": "6 people into 3 pairs"
+    },
+    {
+      "typeName": "Selection then arrangement",
+      "description": "nCr × r!.",
+      "exampleSnippet": "8C3 × 3!"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-combinations-1",
+      "title": "At least one",
+      "question": "A committee of 3 is chosen from 4 men and 3 women. In how many ways can it contain at least one woman?",
+      "givenInfo": [
+        "4 men",
+        "3 women"
+      ],
+      "conceptOrFormula": "Total − none.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total",
+          "explanation": "7C3 = 35."
+        },
+        {
+          "stepNumber": 2,
+          "title": "No woman",
+          "explanation": "4C3 = 4."
+        },
+        {
+          "stepNumber": 3,
+          "title": "At least one woman",
+          "explanation": "35 − 4 = 31."
+        }
+      ],
+      "finalAnswer": "31",
+      "whyItWorks": "The complement is easier to count.",
+      "commonTrap": "Counting 3C1 × 6C2 which overcounts.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-combinations-2",
+      "title": "Geometry",
+      "question": "How many diagonals does a hexagon have?",
+      "givenInfo": [
+        "n = 6"
+      ],
+      "conceptOrFormula": "nC2 − n.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Line segments between vertices",
+          "explanation": "6C2 = 15."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Remove the sides",
+          "explanation": "15 − 6 = 9."
+        }
+      ],
+      "finalAnswer": "9",
+      "whyItWorks": "The sides are not diagonals.",
+      "commonTrap": "Answering 15.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-combinations-3",
+      "title": "Groups",
+      "question": "In how many ways can 6 different people be divided into 3 pairs?",
+      "givenInfo": [
+        "6 people",
+        "3 identical pairs"
+      ],
+      "conceptOrFormula": "Divide by the order of the pairs.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Ordered pairs",
+          "explanation": "6!/(2! 2! 2!) = 90."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Remove group order",
+          "explanation": "90/3! = 15."
+        }
+      ],
+      "finalAnswer": "15",
+      "whyItWorks": "The pairs are not labelled.",
+      "commonTrap": "Answering 90.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Cases or complement",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "List every selection.",
+      "shortcutMethod": "Use nCr; for \"at least\" subtract the complement; for specific people include or exclude them first; for identical groups divide by k!."
+    },
+    "rulesForApplication": [
+      "Order ignored → nCr.",
+      "At least = total − none.",
+      "Specific members first.",
+      "Divide by k! for equal groups."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using permutations for a selection",
+      "whyItHappens": "Counting orders.",
+      "howToAvoid": "Divide by r!."
+    },
+    {
+      "mistake": "Overcounting \"at least one\"",
+      "whyItHappens": "Choosing one woman then the rest freely.",
+      "howToAvoid": "Use the complement."
+    },
+    {
+      "mistake": "Forgetting identical groups",
+      "whyItHappens": "Counting group order.",
+      "howToAvoid": "Divide by k!."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 80,
+    "eliminationTechnique": "nCr is always an integer and at most (n choose n/2); reject options outside.",
+    "questionSelectionAdvice": "Use symmetry to reduce the arithmetic.",
+    "recruiterInsight": "Combinations reappear in probability."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-combinations-e1",
+        "question": "The value of 8C3 is",
+        "options": [
+          "24",
+          "56",
+          "48",
+          "336"
+        ],
+        "correctAnswer": "56",
+        "explanation": "8 × 7 × 6 / (3 × 2 × 1) = 56.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-combinations-e2",
+        "question": "The value of 10C8 is",
+        "options": [
+          "45",
+          "10",
+          "80",
+          "90"
+        ],
+        "correctAnswer": "45",
+        "explanation": "10C8 = 10C2 = 45.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-combinations-e3",
+        "question": "The number of ways to choose a team of 2 from 5 players is",
+        "options": [
+          "5",
+          "20",
+          "25",
+          "10"
+        ],
+        "correctAnswer": "10",
+        "explanation": "5C2 = 10.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-combinations-i7",
+        "question": "A committee of 3 is chosen from 4 men and 3 women. The number of committees with at least one woman is",
+        "options": [
+          "31",
+          "30",
+          "33",
+          "35"
+        ],
+        "correctAnswer": "31",
+        "explanation": "Total 35 minus all men 4 = 31.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-combinations-i8",
+        "question": "The number of diagonals of a hexagon is",
+        "options": [
+          "6",
+          "12",
+          "15",
+          "9"
+        ],
+        "correctAnswer": "9",
+        "explanation": "6C2 − 6 = 9.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-combinations-i9",
+        "question": "In how many ways can 6 different people be divided into 3 pairs?",
+        "options": [
+          "30",
+          "45",
+          "90",
+          "15"
+        ],
+        "correctAnswer": "15",
+        "explanation": "6!/(2!³ × 3!) = 15.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-combinations-a15",
+        "question": "The number of ways of selecting 3 books out of 8 and arranging them on a shelf is",
+        "options": [
+          "56",
+          "168",
+          "336",
+          "512"
+        ],
+        "correctAnswer": "336",
+        "explanation": "8C3 × 3! = 336 = 8P3.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-combinations-a16",
+        "question": "The number of ways to distribute 10 identical sweets among 3 children so that each gets at least one is",
+        "options": [
+          "37",
+          "36",
+          "45",
+          "120"
+        ],
+        "correctAnswer": "36",
+        "explanation": "Stars and bars with each at least one: 9C2 = 36.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-combinations-p17",
+        "question": "The number of ways to select 5 cards from a deck of 52 containing exactly 3 kings is",
+        "options": [
+          "4513",
+          "4512",
+          "9024",
+          "54"
+        ],
+        "correctAnswer": "4512",
+        "explanation": "4C3 × 48C2 = 4 × 1128 = 4512.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-combinations-p18",
+        "question": "From 6 men and 4 women, a committee of 5 is formed so that it has at least 2 women. The number of ways is",
+        "options": [
+          "186",
+          "187",
+          "246",
+          "252"
+        ],
+        "correctAnswer": "186",
+        "explanation": "Total 252 − no woman 6 − one woman 4 × 15 = 60: 186.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-combinations-p19",
+        "question": "The number of ways to arrange the letters of ARRANGE with the two R's never together is",
+        "options": [
+          "901",
+          "1080",
+          "1260",
+          "900"
+        ],
+        "correctAnswer": "900",
+        "explanation": "Total 7!/(2! 2!) = 1260; R's together: 6!/2! = 360. 1260 − 360 = 900.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "nCr formula.",
+      "Symmetry.",
+      "At least = complement.",
+      "Geometry counts.",
+      "Group division."
+    ],
+    "quickFormulas": [
+      "nCr = n!/(r!(n − r)!)"
+    ]
+  },
+  "keyTakeaways": [
+    "Order ignored.",
+    "Complement.",
+    "Specific first.",
+    "Divide equal groups."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute 8C3?",
+    "Can I handle at least one?",
+    "Can I count diagonals?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

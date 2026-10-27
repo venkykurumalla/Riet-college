@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-combinations",
+  "topicTitle": "Combinations (nCr)",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The value of 8C3 is",
+      "options": [
+        "24",
+        "56",
+        "48",
+        "336"
+      ],
+      "answerIndex": 1,
+      "explanation": "8 × 7 × 6 / (3 × 2 × 1) = 56."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The value of 10C8 is",
+      "options": [
+        "45",
+        "10",
+        "80",
+        "90"
+      ],
+      "answerIndex": 0,
+      "explanation": "10C8 = 10C2 = 45."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The number of ways to choose a team of 2 from 5 players is",
+      "options": [
+        "5",
+        "20",
+        "25",
+        "10"
+      ],
+      "answerIndex": 3,
+      "explanation": "5C2 = 10."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The number of lines that can be drawn through 6 points, no three collinear, is",
+      "options": [
+        "12",
+        "30",
+        "15",
+        "36"
+      ],
+      "answerIndex": 2,
+      "explanation": "6C2 = 15."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The number of triangles formed from 6 points, no three collinear, is",
+      "options": [
+        "15",
+        "30",
+        "20",
+        "120"
+      ],
+      "answerIndex": 2,
+      "explanation": "6C3 = 20."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The value of 7C0 + 7C7 is",
+      "options": [
+        "1",
+        "2",
+        "7",
+        "14"
+      ],
+      "answerIndex": 1,
+      "explanation": "Each equals 1, so the sum is 2."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A committee of 3 is chosen from 4 men and 3 women. The number of committees with at least one woman is",
+      "options": [
+        "31",
+        "30",
+        "33",
+        "35"
+      ],
+      "answerIndex": 0,
+      "explanation": "Total 35 minus all men 4 = 31."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The number of diagonals of a hexagon is",
+      "options": [
+        "6",
+        "12",
+        "15",
+        "9"
+      ],
+      "answerIndex": 3,
+      "explanation": "6C2 − 6 = 9."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "In how many ways can 6 different people be divided into 3 pairs?",
+      "options": [
+        "30",
+        "45",
+        "90",
+        "15"
+      ],
+      "answerIndex": 3,
+      "explanation": "6!/(2!³ × 3!) = 15."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A committee of 4 is chosen from 8 people. The number of committees including two particular people is",
+      "options": [
+        "6",
+        "20",
+        "15",
+        "28"
+      ],
+      "answerIndex": 2,
+      "explanation": "Choose the other 2 from the remaining 6: 15."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "From 5 boys and 4 girls, a team of 4 with exactly 2 girls is chosen in how many ways?",
+      "options": [
+        "30",
+        "60",
+        "40",
+        "120"
+      ],
+      "answerIndex": 1,
+      "explanation": "5C2 × 4C2 = 10 × 6 = 60."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The number of ways to select 3 numbers from 1 to 10 whose sum is even is",
+      "options": [
+        "60",
+        "50",
+        "55",
+        "120"
+      ],
+      "answerIndex": 0,
+      "explanation": "Even sum: all three even (5C3 = 10) or one even and two odd (5 × 5C2 = 50): 60."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The number of ways to choose 4 cards from a deck of 52 that are all aces is",
+      "options": [
+        "1",
+        "4",
+        "52",
+        "24"
+      ],
+      "answerIndex": 0,
+      "explanation": "There are exactly four aces: 4C4 = 1."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "From 10 points, 4 of which are collinear (no other three collinear), the number of triangles is",
+      "options": [
+        "100",
+        "117",
+        "120",
+        "116"
+      ],
+      "answerIndex": 3,
+      "explanation": "10C3 − 4C3 = 120 − 4 = 116."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The number of ways of selecting 3 books out of 8 and arranging them on a shelf is",
+      "options": [
+        "56",
+        "168",
+        "336",
+        "512"
+      ],
+      "answerIndex": 2,
+      "explanation": "8C3 × 3! = 336 = 8P3."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The number of ways to distribute 10 identical sweets among 3 children so that each gets at least one is",
+      "options": [
+        "37",
+        "36",
+        "45",
+        "120"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stars and bars with each at least one: 9C2 = 36."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The number of ways to select 5 cards from a deck of 52 containing exactly 3 kings is",
+      "options": [
+        "4513",
+        "4512",
+        "9024",
+        "54"
+      ],
+      "answerIndex": 1,
+      "explanation": "4C3 × 48C2 = 4 × 1128 = 4512."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "From 6 men and 4 women, a committee of 5 is formed so that it has at least 2 women. The number of ways is",
+      "options": [
+        "186",
+        "187",
+        "246",
+        "252"
+      ],
+      "answerIndex": 0,
+      "explanation": "Total 252 − no woman 6 − one woman 4 × 15 = 60: 186."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The number of ways to arrange the letters of ARRANGE with the two R's never together is",
+      "options": [
+        "901",
+        "1080",
+        "1260",
+        "900"
+      ],
+      "answerIndex": 3,
+      "explanation": "Total 7!/(2! 2!) = 1260; R's together: 6!/2! = 360. 1260 − 360 = 900."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The number of rectangles formed on a chessboard (8 × 8 squares) is",
+      "options": [
+        "204",
+        "1297",
+        "1296",
+        "1568"
+      ],
+      "answerIndex": 2,
+      "explanation": "Choose 2 of 9 horizontal lines and 2 of 9 vertical lines: 36 × 36 = 1296."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/permutation-and-combination/"
+}
