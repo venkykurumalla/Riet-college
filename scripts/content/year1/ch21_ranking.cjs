@@ -153,7 +153,7 @@ const quiz = [
   medium('In a class of 45, Rahul ranks 12th from the top. His rank from the bottom is', 34, [33, 35, 32], 'Rank from the bottom = 45 − 12 + 1 = 34.'),
   medium('In a row of 30 boys, A is 8th from the left and B is 8th from the right. How many boys are between A and B?', 14, [13, 15, 16], 'B is 30 − 8 + 1 = 23rd from the left. Between = 23 − 8 − 1 = 14.'),
   medium('In a class of 35, Kiran is 7th from the top and Manoj is 5 ranks below Kiran. Manoj\'s rank from the bottom is', 24, [23, 25, 22], 'Manoj\'s rank from the top = 7 + 5 = 12. From the bottom: 35 − 12 + 1 = 24.'),
-  medium('A is taller than B, B is taller than C and C is taller than D. Who is the second tallest?', 'B', ['A', 'C', 'D'], 'The order from tallest is A, B, C, D, so B is the second tallest.'),
+  medium('Arun is taller than Bala, Bala is taller than Chitra and Chitra is taller than Deepak. Who is the second tallest?', 'Bala', ['Arun', 'Chitra', 'Deepak'], 'The order from tallest is Arun, Bala, Chitra, Deepak, so Bala is the second tallest.'),
   medium('In a row of 31 trees, the position of the middle tree from the left is', 16, [15, 17, 14], 'There are 15 trees on each side of the middle tree, so its position is 15 + 1 = 16.'),
   medium('In a queue, X is 9th from the front and Y is 6th from the back. There are 11 people between them. The number of people in the queue is', 26, [25, 27, 28], 'Total = 9 + 11 + 6 = 26 (X and Y are counted within their own positions).'),
 

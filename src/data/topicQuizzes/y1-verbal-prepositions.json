@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-verbal-prepositions",
+  "topicTitle": "Prepositions",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"She was born ___ 1999.\"",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "answerIndex": 1,
+      "explanation": "A year takes the preposition \"in\"."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"The meeting is ___ Monday.\"",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "answerIndex": 0,
+      "explanation": "A day of the week takes \"on\"."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"I wake up ___ 6 a.m.\"",
+      "options": [
+        "on",
+        "in",
+        "by",
+        "at"
+      ],
+      "answerIndex": 3,
+      "explanation": "A clock time takes \"at\"."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"He is good ___ Mathematics.\"",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "with"
+      ],
+      "answerIndex": 2,
+      "explanation": "The adjective \"good\" is followed by \"at\" when we speak of a skill."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"She is afraid ___ dogs.\"",
+      "options": [
+        "from",
+        "at",
+        "of",
+        "with"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Afraid\" takes the preposition \"of\"."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"He sat ___ the chair.\"",
+      "options": [
+        "at",
+        "on",
+        "by",
+        "to"
+      ],
+      "answerIndex": 1,
+      "explanation": "A surface such as a chair takes \"on\"."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"India is rich ___ natural resources.\"",
+      "options": [
+        "in",
+        "of",
+        "with",
+        "by"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Rich in\" is the fixed pair used for resources."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"He is fond ___ music.\"",
+      "options": [
+        "for",
+        "in",
+        "to",
+        "of"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Fond\" is followed by \"of\"."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"She is married ___ a doctor.\"",
+      "options": [
+        "with",
+        "by",
+        "for",
+        "to"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Married to\" is the standard pair."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"He was accused ___ theft.\"",
+      "options": [
+        "for",
+        "with",
+        "of",
+        "about"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Accused of\" is the standard pair."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"We arrived ___ Delhi yesterday.\"",
+      "options": [
+        "at",
+        "in",
+        "to",
+        "on"
+      ],
+      "answerIndex": 1,
+      "explanation": "For cities and countries, \"arrive in\" is used."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"He died ___ a road accident.\"",
+      "options": [
+        "in",
+        "of",
+        "by",
+        "at"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Died in an accident\" is the standard expression (died of a disease)."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"She has been working here ___ 2018.\"",
+      "options": [
+        "since",
+        "for",
+        "from",
+        "by"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Since\" is used with a starting point of time."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"She has been working here ___ five years.\"",
+      "options": [
+        "since",
+        "from",
+        "by",
+        "for"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"For\" is used with a length of time."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Fill in the blank: \"The teacher divided the sweets ___ the two children.\"",
+      "options": [
+        "among",
+        "in",
+        "between",
+        "to"
+      ],
+      "answerIndex": 2,
+      "explanation": "For two persons, \"between\" is used."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Fill in the blank: \"The sweets were distributed ___ the five children.\"",
+      "options": [
+        "between",
+        "among",
+        "to",
+        "with"
+      ],
+      "answerIndex": 1,
+      "explanation": "For more than two, \"among\" is used."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Fill in the blank: \"He is senior ___ me.\"",
+      "options": [
+        "than",
+        "to",
+        "from",
+        "over"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"Senior\" and \"junior\" are followed by \"to\", not \"than\"."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Fill in the blank: \"I prefer tea ___ coffee.\"",
+      "options": [
+        "to",
+        "than",
+        "from",
+        "over"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Prefer X to Y\" is the correct construction."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Fill in the blank: \"He insisted ___ paying the bill.\"",
+      "options": [
+        "at",
+        "for",
+        "to",
+        "on"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Insist on\" is the fixed pair."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Fill in the blank: \"She is angry ___ me for being late.\"",
+      "options": [
+        "at",
+        "on",
+        "with",
+        "to"
+      ],
+      "answerIndex": 2,
+      "explanation": "We are angry \"with\" a person and \"at\" a thing or event."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

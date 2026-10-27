@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-verbal-parts-of-speech",
+  "topicTitle": "Parts of Speech",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Identify the verb in the sentence: \"She sings beautifully.\"",
+      "options": [
+        "She",
+        "sings",
+        "beautifully",
+        "None of these"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"Sings\" tells the action done by the subject, so it is the verb."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Identify the adjective in the sentence: \"The tall boy won the race.\"",
+      "options": [
+        "tall",
+        "boy",
+        "won",
+        "race"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Tall\" describes the noun boy, so it is an adjective."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Identify the adverb in the sentence: \"He ran quickly.\"",
+      "options": [
+        "He",
+        "ran",
+        "None of these",
+        "quickly"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Quickly\" tells how he ran, so it is an adverb."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Identify the pronoun in the sentence: \"Rahul gave her a book.\"",
+      "options": [
+        "Rahul",
+        "gave",
+        "her",
+        "book"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Her\" takes the place of a noun (a girl or woman), so it is a pronoun."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Identify the preposition in the sentence: \"The cat is under the table.\"",
+      "options": [
+        "cat",
+        "is",
+        "under",
+        "table"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Under\" shows the relation between the cat and the table, so it is a preposition."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Identify the conjunction in the sentence: \"I wanted to go, but it rained.\"",
+      "options": [
+        "wanted",
+        "but",
+        "go",
+        "rained"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"But\" joins the two clauses, so it is a conjunction."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "In \"The patient was happy\", the word \"happy\" is a/an",
+      "options": [
+        "adjective",
+        "noun",
+        "adverb",
+        "verb"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Happy\" describes the noun patient, so it is an adjective."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "In \"Let's go for a run\", the word \"run\" is a",
+      "options": [
+        "verb",
+        "adjective",
+        "adverb",
+        "noun"
+      ],
+      "answerIndex": 3,
+      "explanation": "After the article \"a\", \"run\" names an activity, so it is a noun."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "In \"Hurrah! We won the match\", the word \"Hurrah\" is a/an",
+      "options": [
+        "adverb",
+        "noun",
+        "conjunction",
+        "interjection"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Hurrah\" expresses sudden joy, so it is an interjection."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The word \"honesty\" is a/an",
+      "options": [
+        "collective noun",
+        "adjective",
+        "abstract noun",
+        "proper noun"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Honesty\" names a quality, which makes it an abstract noun."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Which of the following is a collective noun?",
+      "options": [
+        "Sheep",
+        "Flock",
+        "Shepherd",
+        "Wool"
+      ],
+      "answerIndex": 1,
+      "explanation": "A flock names a group of animals (birds or sheep), so it is a collective noun."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "In \"This is my book\", the word \"my\" is a",
+      "options": [
+        "possessive adjective",
+        "noun",
+        "verb",
+        "adverb"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"My\" shows ownership and comes before the noun book, so it is a possessive adjective."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Which of the following is an uncountable noun?",
+      "options": [
+        "Water",
+        "Book",
+        "Chair",
+        "Pen"
+      ],
+      "answerIndex": 0,
+      "explanation": "Water is a mass noun with no plural form in everyday use; book, chair and pen can be counted."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the correct pronoun: \"Neither of the boys brought ___ book.\"",
+      "options": [
+        "their",
+        "her",
+        "our",
+        "his"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Neither\" takes a singular pronoun. The boys are male, so \"his\" is correct."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the correct pronoun: \"Between you and ___, the plan is risky.\"",
+      "options": [
+        "I",
+        "myself",
+        "me",
+        "mine"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Between\" is a preposition and needs the object form \"me\"."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "In \"She called me after she reached home\", the word \"after\" is a",
+      "options": [
+        "preposition",
+        "conjunction",
+        "adverb",
+        "adjective"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"After\" is followed by the clause \"she reached home\", so it joins two clauses: a conjunction."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Which of the following is an adverb?",
+      "options": [
+        "friendly",
+        "quickly",
+        "lovely",
+        "lonely"
+      ],
+      "answerIndex": 1,
+      "explanation": "Friendly, lovely and lonely are adjectives that end in -ly. \"Quickly\" is an adverb."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "In \"The poor need help\", the word \"poor\" is used as a",
+      "options": [
+        "noun",
+        "verb",
+        "adverb",
+        "preposition"
+      ],
+      "answerIndex": 0,
+      "explanation": "Here \"the poor\" means poor people, so the adjective is used as a (plural) noun."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the correct form: \"She is ___ than her sister.\"",
+      "options": [
+        "tall",
+        "tallest",
+        "more tall",
+        "taller"
+      ],
+      "answerIndex": 3,
+      "explanation": "Two people are compared, so the comparative form \"taller\" is needed."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the grammatically correct sentence.",
+      "options": [
+        "Me and him went to the market.",
+        "Him and me went to the market.",
+        "He and I went to the market.",
+        "I and he went to the market."
+      ],
+      "answerIndex": 2,
+      "explanation": "Both pronouns are subjects, so the subject forms \"he\" and \"I\" are used. By convention, \"I\" is placed last."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

@@ -1,0 +1,427 @@
+{
+  "id": "y1-verbal-basic-tenses",
+  "yearId": 1,
+  "category": "Verbal Ability",
+  "topicNumber": 24,
+  "title": "Basic Tenses",
+  "tagline": "Year 1 Foundation — Present, past and future forms and when to use each",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "A tense is the form of a verb that tells the time of an action (past, present or future) and the way the action is viewed (simple, continuous, perfect or perfect continuous). English has twelve tense forms in this grid. Choosing the right tense depends on when the action happens, whether it is complete, and whether it continues. In placement tests the tense questions are usually fill-in-the-blank or error-spotting items, where time words such as yesterday, since, for, by the time and tomorrow give strong clues.",
+    "placementRelevance": "Tense questions are commonly asked in the verbal ability section of company aptitude rounds, either on their own or hidden inside sentence correction and error-spotting items.",
+    "realWorldContext": "Emails, project reports and status updates all depend on correct tense: \"we completed the module\", \"we are testing it now\", \"we will deploy next week\"."
+  },
+  "learningObjectives": [
+    "Form the twelve tenses correctly",
+    "Choose the tense from time expressions (yesterday, since, for, by, tomorrow)",
+    "Use the present perfect and the simple past correctly",
+    "Use the past perfect for the earlier of two past actions",
+    "Avoid continuous forms with stative verbs (know, like, want)"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Parts of Speech",
+      "Basic sentence structure"
+    ],
+    "quickRefresher": "Verb forms: base (go), past (went), past participle (gone), present participle (going). Helping verbs: is/am/are, was/were, has/have/had, will/shall."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Simple present: habitual action or general truth (She goes to school daily. The sun rises in the east.)",
+      "Present continuous: action in progress now (They are playing football.)",
+      "Present perfect: past action with present relevance, formed with has/have + past participle (I have finished my work.)",
+      "Simple past: completed action at a definite past time (I saw him yesterday.)",
+      "Past perfect: the earlier of two past actions, formed with had + past participle (The train had left before we reached.)",
+      "Future simple: will/shall + base verb (We will watch a movie tomorrow.) Future continuous and perfect: will be + -ing, will have + past participle."
+    ],
+    "theoreticalIntuition": "The tense should answer two questions: when did it happen, and what is the state of the action at that time? \"Since\" and \"for\" signal that the action continues to the present, so use present perfect. \"Yesterday\" or \"in 2019\" fix a finished time, so use simple past. Two past events in one sentence need the earlier one in past perfect.",
+    "visualOrMentalModel": "Picture a timeline. Mark \"now\". For an action that is complete before now with no definite time, use present perfect. For a point before now with a stated time, use simple past. For one past event before another past event, use past perfect for the first."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Present tenses",
+      "formula": "Simple: V1 (s).  Continuous: am/is/are + V-ing.  Perfect: has/have + V3.  Perfect continuous: has/have been + V-ing",
+      "description": "Four forms for present time.",
+      "whenToUse": "Time words: every day, now, already, since, for.",
+      "simpleExample": "She has lived here since 2020."
+    },
+    {
+      "title": "Past tenses",
+      "formula": "Simple: V2.  Continuous: was/were + V-ing.  Perfect: had + V3.  Perfect continuous: had been + V-ing",
+      "description": "Four forms for past time.",
+      "whenToUse": "Time words: yesterday, ago, when, before, by the time.",
+      "simpleExample": "The train had left when we reached."
+    },
+    {
+      "title": "Future tenses",
+      "formula": "Simple: will + V1.  Continuous: will be + V-ing.  Perfect: will have + V3.  Perfect continuous: will have been + V-ing",
+      "description": "Four forms for future time.",
+      "whenToUse": "Time words: tomorrow, next week, by next March.",
+      "simpleExample": "By next March she will have worked here for ten years."
+    },
+    {
+      "title": "Since and for",
+      "formula": "Since + point of time (since 2020, since morning);  For + length of time (for two hours, for ten years)",
+      "description": "Both usually go with perfect or perfect continuous tenses.",
+      "whenToUse": "Present perfect questions.",
+      "simpleExample": "I have been waiting for him since morning."
+    },
+    {
+      "title": "Stative verbs",
+      "formula": "know, like, love, want, believe, see (understand), belong are not used in continuous tenses",
+      "description": "Use the simple form instead.",
+      "whenToUse": "Error-spotting items.",
+      "simpleExample": "She knows the answer (not \"is knowing\")"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The simple present is used for habits (She goes to school every day) and universal truths (The sun rises in the east). The present continuous is for actions happening now or around now (They are playing football). Time words such as now, at the moment and look! point to the continuous form.",
+      "The present perfect connects past and present. It is used when the time of the action is not stated or the action continues up to now: \"I have finished my work\", \"He has lived here since 2020\". It cannot be used with a finished time word such as yesterday or last year; use the simple past instead: \"I saw him yesterday\".",
+      "The simple past describes completed actions at a definite time. The past continuous describes an action in progress at a past moment, often interrupted by another: \"While I was watching TV, the phone rang.\" The past perfect marks the earlier of two past actions: \"By the time we reached, the train had left.\"",
+      "For the future, will + base verb states a plan or prediction (We will watch a movie tomorrow). The future continuous describes an action that will be in progress at a future time (This time next week I will be lying on a beach). The future perfect describes an action completed before a future time (By next March she will have worked here for ten years).",
+      "After \"if\", \"when\", \"before\", \"after\" and \"as soon as\" in sentences about the future, use the present tense, not will: \"If it rains tomorrow, we will stay at home\" (not \"if it will rain\"). In reported speech, the verb usually moves one step back: \"He said that he had finished the work.\""
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Simple past versus present perfect",
+        "content": "Use the simple past when the time is given or understood (I saw him yesterday). Use the present perfect when the time is not given or the action is linked to now (I have seen him this week). \"Yesterday\", \"last year\", \"in 2019\" and \"ago\" never go with the present perfect."
+      },
+      {
+        "title": "Conditional and wish sentences",
+        "content": "After \"wish\", use the past for a present wish (I wish I knew the answer) and the past perfect for a past wish (I wish I had known). In real conditionals about the future, use present in the if-clause and will in the main clause."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Fill in with the correct tense",
+      "description": "Choose from options.",
+      "exampleSnippet": "She ___ to school every day."
+    },
+    {
+      "typeName": "Time-word clues",
+      "description": "Since, for, yesterday, by the time.",
+      "exampleSnippet": "He ___ here since 2020."
+    },
+    {
+      "typeName": "Two past actions",
+      "description": "Past perfect for the earlier action.",
+      "exampleSnippet": "By the time we reached, the train ___."
+    },
+    {
+      "typeName": "Error spotting",
+      "description": "Wrong tense with a time word.",
+      "exampleSnippet": "I have seen him yesterday."
+    },
+    {
+      "typeName": "Reported speech and conditionals",
+      "description": "Sequence of tenses.",
+      "exampleSnippet": "He said that he ___ the work."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-verbal-basic-tenses-1",
+      "title": "Present perfect with since",
+      "question": "Choose the correct form: \"He ___ here since 2020.\"  (lives / has lived / is living / lived)",
+      "givenInfo": [
+        "Time expression: since 2020"
+      ],
+      "conceptOrFormula": "\"Since\" + a point of time needs a perfect tense.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Read the time expression",
+          "explanation": "\"Since 2020\" means the action started in 2020 and continues to now."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose the tense",
+          "explanation": "An action that began in the past and continues to the present uses the present perfect (has + past participle)."
+        }
+      ],
+      "finalAnswer": "has lived",
+      "whyItWorks": "Simple present and simple past do not link the past to the present.",
+      "commonTrap": "Choosing \"lives\" or \"lived\" because the sentence seems simple.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-verbal-basic-tenses-2",
+      "title": "Past perfect",
+      "question": "Choose the correct form: \"By the time we reached the station, the train ___.\"  (left / had left / has left / was leaving)",
+      "givenInfo": [
+        "Two past events: we reached; the train left"
+      ],
+      "conceptOrFormula": "The earlier of two past events takes the past perfect.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Order the events",
+          "explanation": "The train left first; then we reached the station."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose the tense",
+          "explanation": "The earlier event takes the past perfect: had left."
+        }
+      ],
+      "finalAnswer": "had left",
+      "whyItWorks": "\"By the time\" with a past event requires the earlier action in the past perfect.",
+      "commonTrap": "Using the simple past for both and losing the order.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-verbal-basic-tenses-3",
+      "title": "Error with a finished time word",
+      "question": "Correct the sentence: \"I have seen him yesterday.\"",
+      "givenInfo": [
+        "Time word: yesterday"
+      ],
+      "conceptOrFormula": "A finished time word needs the simple past.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Spot the time word",
+          "explanation": "\"Yesterday\" is a finished time."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Match the tense",
+          "explanation": "Replace the present perfect \"have seen\" with the simple past \"saw\"."
+        }
+      ],
+      "finalAnswer": "I saw him yesterday.",
+      "whyItWorks": "The present perfect cannot be used with a time word that points to a finished period.",
+      "commonTrap": "Keeping \"have seen\" because the action feels connected to now.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Time-word map",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Work out the tense from the meaning of each sentence.",
+      "shortcutMethod": "Scan for the time word first. Every day/always → simple present; now/look → present continuous; yesterday/ago/last → simple past; since/for/already/yet → present perfect; by the time (past) → past perfect; tomorrow/next → future simple."
+    },
+    "rulesForApplication": [
+      "Yesterday, ago and last (week) → simple past.",
+      "Since + point of time, for + period → perfect tenses.",
+      "After if, when, before, as soon as in future sentences use the present tense.",
+      "Do not use continuous tenses with stative verbs."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Present perfect with a finished time",
+      "whyItHappens": "\"I have met him last week.\"",
+      "howToAvoid": "Use the simple past with last week, yesterday, ago and in + year."
+    },
+    {
+      "mistake": "Using will after if or when",
+      "whyItHappens": "\"If it will rain, we will stay.\"",
+      "howToAvoid": "Use the present tense in the if-clause: \"If it rains, we will stay.\""
+    },
+    {
+      "mistake": "Continuous tense with stative verbs",
+      "whyItHappens": "\"She is knowing the answer.\"",
+      "howToAvoid": "Use the simple form: \"She knows the answer.\""
+    },
+    {
+      "mistake": "Ignoring the order of two past events",
+      "whyItHappens": "Using the simple past for both.",
+      "howToAvoid": "Put the earlier event in the past perfect."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 30,
+    "eliminationTechnique": "Remove options whose tense cannot go with the time word in the sentence.",
+    "questionSelectionAdvice": "Tense questions are quick marks; read the whole sentence for the time word before choosing.",
+    "recruiterInsight": "Most tense errors in placement tests involve since/for, yesterday/ago, or an if-clause."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-verbal-basic-tenses-e1",
+        "question": "Choose the correct form: \"She ___ to school every day.\"",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "gone"
+        ],
+        "correctAnswer": "goes",
+        "explanation": "A habit uses the simple present, and the third person singular takes -es: goes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-basic-tenses-e2",
+        "question": "Choose the correct form: \"They ___ football now.\"",
+        "options": [
+          "are playing",
+          "play",
+          "played",
+          "have played"
+        ],
+        "correctAnswer": "are playing",
+        "explanation": "\"Now\" shows an action in progress, so the present continuous is used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-basic-tenses-e3",
+        "question": "Choose the correct form: \"I ___ my homework yesterday.\"",
+        "options": [
+          "finish",
+          "have finished",
+          "am finishing",
+          "finished"
+        ],
+        "correctAnswer": "finished",
+        "explanation": "\"Yesterday\" is a finished time, so the simple past is used.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-verbal-basic-tenses-i7",
+        "question": "Choose the correct form: \"By the time we reached, the train ___.\"",
+        "options": [
+          "had left",
+          "left",
+          "has left",
+          "was leaving"
+        ],
+        "correctAnswer": "had left",
+        "explanation": "The train left before we reached, so the earlier action takes the past perfect.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-basic-tenses-i8",
+        "question": "Choose the correct form: \"She ___ for two hours when I called.\"",
+        "options": [
+          "was waiting",
+          "has been waiting",
+          "waited",
+          "had been waiting"
+        ],
+        "correctAnswer": "had been waiting",
+        "explanation": "An action in progress up to a past moment takes the past perfect continuous: had been waiting.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-basic-tenses-i9",
+        "question": "Choose the correct form: \"I ___ for him since morning.\"",
+        "options": [
+          "am waiting",
+          "waited",
+          "had waited",
+          "have been waiting"
+        ],
+        "correctAnswer": "have been waiting",
+        "explanation": "\"Since morning\" with an action that continues to now takes the present perfect continuous.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-verbal-basic-tenses-a15",
+        "question": "Choose the correct form: \"By next March, she ___ here for ten years.\"",
+        "options": [
+          "will work",
+          "has worked",
+          "will have worked",
+          "worked"
+        ],
+        "correctAnswer": "will have worked",
+        "explanation": "\"By next March\" points to completion before a future time, so the future perfect is used.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-basic-tenses-a16",
+        "question": "Choose the correct sentence about a past meeting.",
+        "options": [
+          "I have seen him yesterday.",
+          "I saw him yesterday.",
+          "I am seeing him yesterday.",
+          "I had seen him yesterday."
+        ],
+        "correctAnswer": "I saw him yesterday.",
+        "explanation": "\"Yesterday\" is a finished time, so the simple past (saw) is used. The other options misuse the perfect or continuous forms.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-verbal-basic-tenses-p17",
+        "question": "Choose the correct sentence about knowing the answer.",
+        "options": [
+          "She is knowing the answer.",
+          "She knows the answer.",
+          "She has been knowing the answer.",
+          "She was knowing the answer."
+        ],
+        "correctAnswer": "She knows the answer.",
+        "explanation": "\"Know\" is a stative verb and is not used in continuous forms.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-basic-tenses-p18",
+        "question": "Choose the correct form: \"I wish I ___ the answer.\"",
+        "options": [
+          "knew",
+          "know",
+          "known",
+          "will know"
+        ],
+        "correctAnswer": "knew",
+        "explanation": "After \"wish\" for a present situation, the past form is used: I wish I knew.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-basic-tenses-p19",
+        "question": "Choose the correct form: \"He ___ in Pune for ten years before he moved to Hyderabad.\"",
+        "options": [
+          "has lived",
+          "lives",
+          "is living",
+          "had lived"
+        ],
+        "correctAnswer": "had lived",
+        "explanation": "Living in Pune was completed before the move (a past event), so the past perfect is used.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Twelve tenses: simple, continuous, perfect and perfect continuous in present, past and future.",
+      "Since + point of time; for + period.",
+      "Simple past with yesterday, ago, last.",
+      "Earlier of two past actions → past perfect.",
+      "No will after if or when in future sentences."
+    ],
+    "quickFormulas": [
+      "Present perfect: has/have + V3",
+      "Past perfect: had + V3",
+      "Future perfect: will have + V3"
+    ]
+  },
+  "keyTakeaways": [
+    "Time words guide the tense.",
+    "Perfect tenses link two points in time.",
+    "Use present tense in time and if-clauses about the future.",
+    "Stative verbs avoid continuous forms."
+  ],
+  "selfCheckQuestions": [
+    "Can I fill in \"She ___ for two hours when I called\"?",
+    "Can I correct \"I have seen him yesterday\"?",
+    "Can I explain why \"If it will rain\" is wrong?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "The Tenses topic area; examples in this chapter are original."
+    }
+  ]
+}

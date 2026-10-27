@@ -148,15 +148,15 @@
     {
       "id": 12,
       "difficulty": "medium",
-      "question": "A is taller than B, B is taller than C and C is taller than D. Who is the second tallest?",
+      "question": "Arun is taller than Bala, Bala is taller than Chitra and Chitra is taller than Deepak. Who is the second tallest?",
       "options": [
-        "B",
-        "A",
-        "C",
-        "D"
+        "Bala",
+        "Arun",
+        "Chitra",
+        "Deepak"
       ],
       "answerIndex": 0,
-      "explanation": "The order from tallest is A, B, C, D, so B is the second tallest."
+      "explanation": "The order from tallest is Arun, Bala, Chitra, Deepak, so Bala is the second tallest."
     },
     {
       "id": 13,

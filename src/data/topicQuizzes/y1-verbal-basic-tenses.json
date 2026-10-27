@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-verbal-basic-tenses",
+  "topicTitle": "Basic Tenses",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the correct form: \"She ___ to school every day.\"",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "gone"
+      ],
+      "answerIndex": 1,
+      "explanation": "A habit uses the simple present, and the third person singular takes -es: goes."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the correct form: \"They ___ football now.\"",
+      "options": [
+        "are playing",
+        "play",
+        "played",
+        "have played"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Now\" shows an action in progress, so the present continuous is used."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Choose the correct form: \"I ___ my homework yesterday.\"",
+      "options": [
+        "finish",
+        "have finished",
+        "am finishing",
+        "finished"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Yesterday\" is a finished time, so the simple past is used."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the correct form: \"He ___ here since 2020.\"",
+      "options": [
+        "lives",
+        "lived",
+        "has lived",
+        "is living"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Since 2020\" takes the present perfect (has + past participle)."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the correct form: \"The sun ___ in the east.\"",
+      "options": [
+        "rise",
+        "rose",
+        "rises",
+        "is rising"
+      ],
+      "answerIndex": 2,
+      "explanation": "A universal truth takes the simple present: rises."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the correct form: \"We ___ a movie tomorrow.\"",
+      "options": [
+        "watched",
+        "will watch",
+        "have watched",
+        "watching"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"Tomorrow\" points to the future, so \"will watch\" is used."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"By the time we reached, the train ___.\"",
+      "options": [
+        "had left",
+        "left",
+        "has left",
+        "was leaving"
+      ],
+      "answerIndex": 0,
+      "explanation": "The train left before we reached, so the earlier action takes the past perfect."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"She ___ for two hours when I called.\"",
+      "options": [
+        "was waiting",
+        "has been waiting",
+        "waited",
+        "had been waiting"
+      ],
+      "answerIndex": 3,
+      "explanation": "An action in progress up to a past moment takes the past perfect continuous: had been waiting."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"I ___ for him since morning.\"",
+      "options": [
+        "am waiting",
+        "waited",
+        "had waited",
+        "have been waiting"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Since morning\" with an action that continues to now takes the present perfect continuous."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"While I ___ TV, the phone rang.\"",
+      "options": [
+        "watched",
+        "am watching",
+        "was watching",
+        "have watched"
+      ],
+      "answerIndex": 2,
+      "explanation": "An action in progress when another action interrupts it takes the past continuous."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"He said that he ___ the work.\"",
+      "options": [
+        "has finished",
+        "had finished",
+        "finishes",
+        "will finish"
+      ],
+      "answerIndex": 1,
+      "explanation": "In reported speech after a past verb (\"said\"), the earlier action takes the past perfect."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"If it rains tomorrow, we ___ at home.\"",
+      "options": [
+        "will stay",
+        "stayed",
+        "would stay",
+        "have stayed"
+      ],
+      "answerIndex": 0,
+      "explanation": "The if-clause uses the present tense (\"rains\") and the main clause uses will + base verb."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"The teacher ___ the lesson before the bell rang.\"",
+      "options": [
+        "had completed",
+        "completes",
+        "was completing",
+        "has completed"
+      ],
+      "answerIndex": 0,
+      "explanation": "Completing the lesson came before the bell, so the earlier action takes the past perfect."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the correct form: \"This time next week, I ___ on a beach.\"",
+      "options": [
+        "lie",
+        "lay",
+        "will lie",
+        "will be lying"
+      ],
+      "answerIndex": 3,
+      "explanation": "An action that will be in progress at a future time takes the future continuous."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the correct form: \"By next March, she ___ here for ten years.\"",
+      "options": [
+        "will work",
+        "has worked",
+        "will have worked",
+        "worked"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"By next March\" points to completion before a future time, so the future perfect is used."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the correct sentence about a past meeting.",
+      "options": [
+        "I have seen him yesterday.",
+        "I saw him yesterday.",
+        "I am seeing him yesterday.",
+        "I had seen him yesterday."
+      ],
+      "answerIndex": 1,
+      "explanation": "\"Yesterday\" is a finished time, so the simple past (saw) is used. The other options misuse the perfect or continuous forms."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the correct sentence about knowing the answer.",
+      "options": [
+        "She is knowing the answer.",
+        "She knows the answer.",
+        "She has been knowing the answer.",
+        "She was knowing the answer."
+      ],
+      "answerIndex": 1,
+      "explanation": "\"Know\" is a stative verb and is not used in continuous forms."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the correct form: \"I wish I ___ the answer.\"",
+      "options": [
+        "knew",
+        "know",
+        "known",
+        "will know"
+      ],
+      "answerIndex": 0,
+      "explanation": "After \"wish\" for a present situation, the past form is used: I wish I knew."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the correct form: \"He ___ in Pune for ten years before he moved to Hyderabad.\"",
+      "options": [
+        "has lived",
+        "lives",
+        "is living",
+        "had lived"
+      ],
+      "answerIndex": 3,
+      "explanation": "Living in Pune was completed before the move (a past event), so the past perfect is used."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the correct form: \"Look! It ___.\"",
+      "options": [
+        "rains",
+        "rained",
+        "is raining",
+        "has rained"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Look!\" signals an action in progress now, so the present continuous is used."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

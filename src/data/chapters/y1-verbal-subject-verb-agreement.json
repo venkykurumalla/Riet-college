@@ -1,0 +1,427 @@
+{
+  "id": "y1-verbal-subject-verb-agreement",
+  "yearId": 1,
+  "category": "Verbal Ability",
+  "topicNumber": 27,
+  "title": "Subject-Verb Agreement",
+  "tagline": "Year 1 Foundation — Making the verb match its subject in number and person",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "A verb must agree with its subject in number: a singular subject takes a singular verb (The dog barks) and a plural subject takes a plural verb (The dogs bark). The idea is simple, but English has many tricky cases: subjects joined by and, or and nor; collective nouns; words like each, either and neither; nouns that look plural but are singular (news, mathematics); and phrases that come between the subject and the verb. Agreement questions are among the most common in grammar sections of placement tests.",
+    "placementRelevance": "Subject-verb agreement is commonly asked in the verbal ability section of company aptitude rounds, both as fill-in-the-blank items and as error-spotting items.",
+    "realWorldContext": "Professional emails, reports and presentations are judged on this basic accuracy. \"The results of the test is attached\" is a mistake that readers notice immediately."
+  },
+  "learningObjectives": [
+    "Identify the true subject of a sentence, ignoring phrases between the subject and the verb",
+    "Apply the rules for and, or, nor, either-or and neither-nor",
+    "Treat each, every, either, neither and one as singular",
+    "Handle collective nouns, uncountable nouns and plural-only nouns",
+    "Use the correct verb after expressions of quantity and after relative pronouns"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Parts of Speech",
+      "Basic Tenses"
+    ],
+    "quickRefresher": "Present tense singular forms: is, has, does, goes (third person singular ends in -s). Plural forms: are, have, do, go. In the past tense, was agrees with singular and were with plural."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Subject: the person or thing that performs the action or is described in the sentence.",
+      "Singular subject: one item (The boy plays). Plural subject: more than one item (The boys play).",
+      "Collective noun: a noun naming a group (team, committee, family, jury). It takes a singular verb when the group acts as one unit and a plural verb when members act individually.",
+      "Proximity rule (nearest-subject rule): when subjects are joined by or, nor, either-or, neither-nor or not only-but also, the verb agrees with the subject nearest to it.",
+      "Notional agreement: agreement by meaning, such as \"bread and butter is my breakfast\" (one idea)."
+    ],
+    "theoreticalIntuition": "The verb agrees with the head word of the subject, not with whatever noun sits closest to it. In \"The quality of the products has improved\", the subject is quality (singular), not products. Strip out the phrase between subject and verb to see the real subject.",
+    "visualOrMentalModel": "Cross out any \"of\" phrase or other phrase between the subject and the verb, then read the sentence again. \"The quality [of the products] has improved\" → \"The quality has improved\"."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Subjects joined by and",
+      "formula": "A and B → plural verb",
+      "description": "Exception: one idea or one person (Bread and butter is my breakfast).",
+      "whenToUse": "Compound subjects.",
+      "simpleExample": "Ravi and Raju are friends."
+    },
+    {
+      "title": "Each, every, either, neither, one",
+      "formula": "Take a singular verb",
+      "description": "These words refer to one at a time.",
+      "whenToUse": "Indefinite pronouns.",
+      "simpleExample": "Each of the students is present. One of my friends is a pilot."
+    },
+    {
+      "title": "Or, nor, either-or, neither-nor",
+      "formula": "The verb agrees with the nearer subject",
+      "description": "The proximity rule.",
+      "whenToUse": "Alternative subjects.",
+      "simpleExample": "Neither the teacher nor the students were present."
+    },
+    {
+      "title": "Looks plural, is singular",
+      "formula": "news, mathematics, physics, politics, economics, measles, ten kilometres (a distance), five years (a period) take singular verbs",
+      "description": "Treat them as one thing.",
+      "whenToUse": "Singular nouns ending in -s.",
+      "simpleExample": "Mathematics is my favourite subject."
+    },
+    {
+      "title": "Plural only",
+      "formula": "scissors, trousers, spectacles, jeans, cattle, people take plural verbs",
+      "description": "Always plural.",
+      "whenToUse": "Plural-only nouns.",
+      "simpleExample": "The scissors are on the table."
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "First find the subject. The verb agrees with it, and nothing else. In \"The list of items is long\" the subject is list; in \"The boys in the class are noisy\" the subject is boys. Phrases beginning with of, with, along with, as well as and together with do not change the number of the subject.",
+      "For compound subjects joined by and, use a plural verb: Ravi and Raju are friends. When the two nouns name one idea or one person, use a singular verb: Bread and butter is my breakfast. When each or every comes before each of the nouns joined by and, use singular: Each boy and each girl has a prize.",
+      "With or and nor, the verb agrees with the nearest subject: Either Ravi or his brothers are responsible (plural nearest). Neither the teacher nor the students were present. Not only the players but also the coach was injured. The same proximity rule holds for neither-nor and not only-but also.",
+      "Indefinite words such as each, every, either, neither, one and anybody are singular: Each of the students is present; Neither of the two answers is correct. Be careful: the plural noun after of is not the subject.",
+      "Collective nouns take a singular verb when the group acts as one unit (The team is planning its strategy) and a plural verb when members act individually (The committee are divided in their opinions). \"A number of\" is plural (A number of students are absent), while \"the number of\" is singular (The number of students is increasing).",
+      "Some nouns end in -s but are singular: news, mathematics, physics, politics, economics. Some plural-only nouns have no singular: scissors, trousers, spectacles, cattle, people. Distances, periods of time and sums of money considered as a whole take a singular verb: Ten kilometres is a long distance."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Relative pronouns who, which and that",
+        "content": "The verb after a relative pronoun agrees with the noun the pronoun refers to. \"He is one of those boys who are always late\" (who refers to boys, so are). \"He is the only one of the boys who is late\" (who refers to one, so is)."
+      },
+      {
+        "title": "Expressions of quantity",
+        "content": "\"A lot of\", \"most of\", \"some of\" and \"half of\" take a verb that agrees with the noun after of: Most of the water is clean; Most of the students are present."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Simple subject",
+      "description": "Singular versus plural.",
+      "exampleSnippet": "The boys ___ playing."
+    },
+    {
+      "typeName": "Phrase between subject and verb",
+      "description": "Ignore the phrase.",
+      "exampleSnippet": "The quality of the products ___ improved."
+    },
+    {
+      "typeName": "Joined by and / or / nor",
+      "description": "Compound and alternative subjects.",
+      "exampleSnippet": "Neither the teacher nor the students ___ present."
+    },
+    {
+      "typeName": "Indefinite pronouns and collective nouns",
+      "description": "Each, neither, team, committee.",
+      "exampleSnippet": "Each of the students ___ present."
+    },
+    {
+      "typeName": "Looks plural, is singular",
+      "description": "News, mathematics, distances.",
+      "exampleSnippet": "Mathematics ___ my favourite subject."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-verbal-subject-verb-agreement-1",
+      "title": "Ignoring the phrase in between",
+      "question": "Choose the correct verb: \"The quality of the products ___ improved.\" (has / have)",
+      "givenInfo": [
+        "Subject: The quality of the products"
+      ],
+      "conceptOrFormula": "The verb agrees with the head noun, not the noun in the phrase.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the head noun",
+          "explanation": "The head noun is quality (singular); \"of the products\" is a phrase."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose the verb",
+          "explanation": "A singular subject takes has."
+        }
+      ],
+      "finalAnswer": "has",
+      "whyItWorks": "Striking out \"of the products\" leaves \"The quality has improved\".",
+      "commonTrap": "Choosing \"have\" because \"products\" is plural and sits next to the verb.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-verbal-subject-verb-agreement-2",
+      "title": "Proximity rule with neither-nor",
+      "question": "Choose the correct verb: \"Neither the teacher nor the students ___ present.\" (was / were)",
+      "givenInfo": [
+        "Subjects: the teacher (singular), the students (plural)"
+      ],
+      "conceptOrFormula": "With neither-nor, the verb agrees with the nearer subject.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the nearer subject",
+          "explanation": "The subject nearest the verb is \"the students\" (plural)."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose the verb",
+          "explanation": "A plural subject takes were."
+        }
+      ],
+      "finalAnswer": "were",
+      "whyItWorks": "The verb follows the subject that is closest to it.",
+      "commonTrap": "Choosing \"was\" because the first subject is singular.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-verbal-subject-verb-agreement-3",
+      "title": "Looks plural, is singular",
+      "question": "Choose the correct verb: \"Mathematics ___ my favourite subject.\" (is / are)",
+      "givenInfo": [
+        "Subject: Mathematics"
+      ],
+      "conceptOrFormula": "Names of subjects ending in -s are singular.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Identify the noun",
+          "explanation": "Mathematics is a single subject of study."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose the verb",
+          "explanation": "It takes a singular verb: is."
+        }
+      ],
+      "finalAnswer": "is",
+      "whyItWorks": "The -s ending does not make the noun plural here.",
+      "commonTrap": "Choosing \"are\" because of the final -s.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Strike-out method",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Memorise every rule and exception.",
+      "shortcutMethod": "Strike out any phrase between the subject and the verb, find the head noun, and test singular versus plural. For or/nor, look at the nearer subject."
+    },
+    "rulesForApplication": [
+      "Each, every, either, neither and one are singular.",
+      "A and B → plural; A or B → verb agrees with B.",
+      "\"A number of\" → plural; \"the number of\" → singular.",
+      "News, mathematics, physics, distances and periods of time → singular."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Matching the verb to the nearest noun",
+      "whyItHappens": "Choosing \"have\" in \"The quality of the products have improved\".",
+      "howToAvoid": "Find the head noun and ignore the phrase."
+    },
+    {
+      "mistake": "Treating each/neither as plural",
+      "whyItHappens": "\"Each of the boys are present.\"",
+      "howToAvoid": "Each, either and neither are singular."
+    },
+    {
+      "mistake": "Wrong verb with or/nor",
+      "whyItHappens": "Using the verb that agrees with the first subject.",
+      "howToAvoid": "Use the nearest subject."
+    },
+    {
+      "mistake": "Thinking -s means plural",
+      "whyItHappens": "\"Mathematics are difficult\".",
+      "howToAvoid": "Learn the list of singular nouns ending in -s."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "After striking out the in-between phrase, read the sentence aloud with each option; the wrong one sounds off.",
+    "questionSelectionAdvice": "These are among the quickest grammar items; solve them immediately.",
+    "recruiterInsight": "Placement papers often hide the subject behind long phrases, so practise the strike-out habit."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-verbal-subject-verb-agreement-e1",
+        "question": "Choose the correct verb: \"The boys ___ playing in the ground.\"",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "has"
+        ],
+        "correctAnswer": "are",
+        "explanation": "The subject \"boys\" is plural, so the verb is \"are\".",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-subject-verb-agreement-e2",
+        "question": "Choose the correct verb: \"She ___ a doctor.\"",
+        "options": [
+          "is",
+          "are",
+          "were",
+          "have"
+        ],
+        "correctAnswer": "is",
+        "explanation": "A singular subject takes \"is\".",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-subject-verb-agreement-e3",
+        "question": "Choose the correct verb: \"Ravi and Raju ___ friends.\"",
+        "options": [
+          "is",
+          "was",
+          "has been",
+          "are"
+        ],
+        "correctAnswer": "are",
+        "explanation": "Two subjects joined by \"and\" take a plural verb.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-verbal-subject-verb-agreement-i7",
+        "question": "Choose the correct verb: \"Neither of the two answers ___ correct.\"",
+        "options": [
+          "is",
+          "are",
+          "were",
+          "have been"
+        ],
+        "correctAnswer": "is",
+        "explanation": "\"Neither\" is singular, so the verb is \"is\".",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-subject-verb-agreement-i8",
+        "question": "Choose the correct verb: \"Either Ravi or his brothers ___ responsible.\"",
+        "options": [
+          "is",
+          "was",
+          "has been",
+          "are"
+        ],
+        "correctAnswer": "are",
+        "explanation": "With \"either-or\", the verb agrees with the nearer subject. \"His brothers\" is plural, so \"are\".",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-subject-verb-agreement-i9",
+        "question": "Choose the correct verb: \"The team ___ planning its strategy.\"",
+        "options": [
+          "are",
+          "were",
+          "have been",
+          "is"
+        ],
+        "correctAnswer": "is",
+        "explanation": "The team acts as one unit, so the singular verb \"is\" is used.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-verbal-subject-verb-agreement-a15",
+        "question": "Choose the correct verb: \"He is one of those boys who ___ always late.\"",
+        "options": [
+          "is",
+          "was",
+          "are",
+          "has been"
+        ],
+        "correctAnswer": "are",
+        "explanation": "The relative pronoun \"who\" refers to \"boys\" (plural), so the verb is \"are\".",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-subject-verb-agreement-a16",
+        "question": "Choose the correct verb: \"The quality of the products ___ improved.\"",
+        "options": [
+          "have",
+          "has",
+          "are",
+          "were"
+        ],
+        "correctAnswer": "has",
+        "explanation": "The head noun is \"quality\" (singular), so \"has\" is used.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-verbal-subject-verb-agreement-p17",
+        "question": "Choose the correct verb: \"Ten kilometres ___ a long distance to walk.\"",
+        "options": [
+          "are",
+          "is",
+          "were",
+          "have been"
+        ],
+        "correctAnswer": "is",
+        "explanation": "A distance considered as a whole takes a singular verb.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-subject-verb-agreement-p18",
+        "question": "Choose the correct verb: \"Not only the players but also the coach ___ injured.\"",
+        "options": [
+          "was",
+          "were",
+          "are",
+          "have been"
+        ],
+        "correctAnswer": "was",
+        "explanation": "With \"not only-but also\", the verb agrees with the nearer subject, \"the coach\" (singular), so \"was\".",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-subject-verb-agreement-p19",
+        "question": "Choose the correct verb: \"The scissors ___ on the table.\"",
+        "options": [
+          "is",
+          "was",
+          "has been",
+          "are"
+        ],
+        "correctAnswer": "are",
+        "explanation": "\"Scissors\" is a plural-only noun, so it takes a plural verb.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "The verb agrees with the head noun of the subject.",
+      "A and B → plural (unless one idea); A or B → nearer subject.",
+      "Each, every, either, neither, one → singular.",
+      "Collective nouns: unit → singular, individuals → plural.",
+      "News, mathematics, distances → singular; scissors, trousers, cattle → plural."
+    ],
+    "quickFormulas": [
+      "A and B → plural",
+      "A or B → nearer",
+      "Each / neither → singular"
+    ]
+  },
+  "keyTakeaways": [
+    "Find the real subject.",
+    "Ignore phrases in between.",
+    "Know the singular and plural lists.",
+    "Use the nearest-subject rule."
+  ],
+  "selfCheckQuestions": [
+    "Can I fix \"The quality of the products have improved\"?",
+    "Can I decide between \"A number of students is/are absent\"?",
+    "Can I explain why \"scissors\" takes a plural verb?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "The Concord (agreement) topic area; examples in this chapter are original."
+    }
+  ]
+}

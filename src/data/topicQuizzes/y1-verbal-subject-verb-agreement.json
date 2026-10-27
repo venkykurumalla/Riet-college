@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-verbal-subject-verb-agreement",
+  "topicTitle": "Subject-Verb Agreement",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Choose the correct verb: \"The boys ___ playing in the ground.\"",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "has"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subject \"boys\" is plural, so the verb is \"are\"."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Choose the correct verb: \"She ___ a doctor.\"",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have"
+      ],
+      "answerIndex": 0,
+      "explanation": "A singular subject takes \"is\"."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Choose the correct verb: \"Ravi and Raju ___ friends.\"",
+      "options": [
+        "is",
+        "was",
+        "has been",
+        "are"
+      ],
+      "answerIndex": 3,
+      "explanation": "Two subjects joined by \"and\" take a plural verb."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Choose the correct verb: \"The news ___ true.\"",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"News\" is an uncountable noun that takes a singular verb."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Choose the correct verb: \"Each of the students ___ present.\"",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Each\" is singular, so it takes \"is\"."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Choose the correct verb: \"My friends ___ coming to the party.\"",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "has"
+      ],
+      "answerIndex": 1,
+      "explanation": "The plural subject \"friends\" takes \"are\"."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Choose the correct verb: \"Neither of the two answers ___ correct.\"",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have been"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Neither\" is singular, so the verb is \"is\"."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Choose the correct verb: \"Either Ravi or his brothers ___ responsible.\"",
+      "options": [
+        "is",
+        "was",
+        "has been",
+        "are"
+      ],
+      "answerIndex": 3,
+      "explanation": "With \"either-or\", the verb agrees with the nearer subject. \"His brothers\" is plural, so \"are\"."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Choose the correct verb: \"The team ___ planning its strategy.\"",
+      "options": [
+        "are",
+        "were",
+        "have been",
+        "is"
+      ],
+      "answerIndex": 3,
+      "explanation": "The team acts as one unit, so the singular verb \"is\" is used."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Choose the correct verb: \"Mathematics ___ my favourite subject.\"",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Mathematics\" ends in -s but names one subject, so it takes a singular verb."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Choose the correct verb: \"The number of students ___ increasing.\"",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "have been"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"The number of\" is singular, so it takes \"is\"."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Choose the correct verb: \"One of my friends ___ a pilot.\"",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have been"
+      ],
+      "answerIndex": 0,
+      "explanation": "The subject is \"one\", which is singular."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Choose the correct verb: \"Bread and butter ___ my usual breakfast.\"",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "have been"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Bread and butter\" is thought of as one dish, so the verb is singular."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Choose the correct verb: \"Neither the teacher nor the students ___ present.\"",
+      "options": [
+        "was",
+        "is",
+        "has been",
+        "were"
+      ],
+      "answerIndex": 3,
+      "explanation": "With \"neither-nor\", the verb agrees with the nearer subject. \"The students\" is plural, so \"were\"."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Choose the correct verb: \"He is one of those boys who ___ always late.\"",
+      "options": [
+        "is",
+        "was",
+        "are",
+        "has been"
+      ],
+      "answerIndex": 2,
+      "explanation": "The relative pronoun \"who\" refers to \"boys\" (plural), so the verb is \"are\"."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Choose the correct verb: \"The quality of the products ___ improved.\"",
+      "options": [
+        "have",
+        "has",
+        "are",
+        "were"
+      ],
+      "answerIndex": 1,
+      "explanation": "The head noun is \"quality\" (singular), so \"has\" is used."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the correct verb: \"Ten kilometres ___ a long distance to walk.\"",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "have been"
+      ],
+      "answerIndex": 1,
+      "explanation": "A distance considered as a whole takes a singular verb."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Choose the correct verb: \"Not only the players but also the coach ___ injured.\"",
+      "options": [
+        "was",
+        "were",
+        "are",
+        "have been"
+      ],
+      "answerIndex": 0,
+      "explanation": "With \"not only-but also\", the verb agrees with the nearer subject, \"the coach\" (singular), so \"was\"."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Choose the correct verb: \"The scissors ___ on the table.\"",
+      "options": [
+        "is",
+        "was",
+        "has been",
+        "are"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Scissors\" is a plural-only noun, so it takes a plural verb."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Choose the correct verb: \"Each boy and each girl ___ a prize.\"",
+      "options": [
+        "have",
+        "are having",
+        "has",
+        "were having"
+      ],
+      "answerIndex": 2,
+      "explanation": "With \"each\" before each noun, the subject is treated as singular, so \"has\"."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

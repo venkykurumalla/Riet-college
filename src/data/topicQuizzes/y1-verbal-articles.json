@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-verbal-articles",
+  "topicTitle": "Articles",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"He bought ___ umbrella.\"",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answerIndex": 1,
+      "explanation": "Umbrella begins with a vowel sound, so \"an\" is used."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"___ sun rises in the east.\"",
+      "options": [
+        "The",
+        "A",
+        "An",
+        "No article"
+      ],
+      "answerIndex": 0,
+      "explanation": "There is only one sun, so the definite article is used."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"She is ___ honest girl.\"",
+      "options": [
+        "a",
+        "the",
+        "no article",
+        "an"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Honest\" begins with a silent h, giving a vowel sound, so \"an\" is used."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"I saw ___ elephant in the zoo.\"",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "no article"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elephant begins with a vowel sound, so \"an\" is used."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"___ Ganga is a holy river.\"",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "answerIndex": 2,
+      "explanation": "Names of rivers take the definite article: the Ganga."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Fill in the blank: \"He is ___ European.\"",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "no article"
+      ],
+      "answerIndex": 1,
+      "explanation": "European begins with a /y/ consonant sound, so \"a\" is used."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"She is ___ university student.\"",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answerIndex": 0,
+      "explanation": "University begins with the consonant sound /yoo/, so \"a\" is used."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"He waited for ___ hour.\"",
+      "options": [
+        "a",
+        "the",
+        "no article",
+        "an"
+      ],
+      "answerIndex": 3,
+      "explanation": "The h in hour is silent, so the word begins with a vowel sound."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"Ravi is ___ best player in the team.\"",
+      "options": [
+        "a",
+        "an",
+        "no article",
+        "the"
+      ],
+      "answerIndex": 3,
+      "explanation": "A superlative takes the definite article."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"My father is ___ engineer.\"",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "no article"
+      ],
+      "answerIndex": 2,
+      "explanation": "Engineer begins with a vowel sound. A profession after \"is\" takes a/an."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"She plays ___ guitar.\"",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "no article"
+      ],
+      "answerIndex": 1,
+      "explanation": "Names of musical instruments take the definite article when we speak of playing them."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"___ Himalayas are in the north of India.\"",
+      "options": [
+        "The",
+        "A",
+        "An",
+        "No article"
+      ],
+      "answerIndex": 0,
+      "explanation": "A mountain range takes the definite article."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"He goes to ___ school by bus.\"",
+      "options": [
+        "no article",
+        "a",
+        "an",
+        "the"
+      ],
+      "answerIndex": 0,
+      "explanation": "School is used for its usual purpose (as a student), so no article is needed."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Fill in the blank: \"___ honesty is the best policy.\"",
+      "options": [
+        "The",
+        "A",
+        "An",
+        "no article"
+      ],
+      "answerIndex": 3,
+      "explanation": "An abstract noun used in a general sense takes no article."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Fill in the blank: \"It was ___ one-day match.\"",
+      "options": [
+        "an",
+        "the",
+        "a",
+        "no article"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"One\" begins with the consonant sound /w/, so \"a\" is used."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Fill in the blank: \"He is ___ MBA from a reputed institute.\"",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "answerIndex": 1,
+      "explanation": "MBA is read \"em-bee-ay\", which begins with a vowel sound."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "Rich are not always happy.",
+        "The rich are not always happy.",
+        "A rich are not always happy.",
+        "An rich are not always happy."
+      ],
+      "answerIndex": 1,
+      "explanation": "\"The\" + an adjective names a group of people (the rich), and it takes a plural verb."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Fill in the blank: \"We stayed at ___ Taj Mahal Hotel.\"",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "no article"
+      ],
+      "answerIndex": 0,
+      "explanation": "Names of well-known hotels and landmarks usually take the definite article."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Fill in the blank: \"Gold is ___ precious metal.\"",
+      "options": [
+        "an",
+        "the",
+        "no article",
+        "a"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Precious metal\" is a singular countable noun phrase, and \"precious\" begins with a consonant sound."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Fill in the blank: \"He bought ___ unique gift for her.\"",
+      "options": [
+        "an",
+        "the",
+        "a",
+        "no article"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Unique\" begins with the consonant sound /yoo/, so \"a\" is used."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/questions-and-answers/"
+}

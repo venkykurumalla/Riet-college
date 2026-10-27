@@ -1,0 +1,435 @@
+{
+  "id": "y1-verbal-articles",
+  "yearId": 1,
+  "category": "Verbal Ability",
+  "topicNumber": 25,
+  "title": "Articles",
+  "tagline": "Year 1 Foundation — A, an, the and when to use no article",
+  "estimatedMinutes": 35,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "Articles are small words placed before nouns: a, an and the. A and an are indefinite articles used for one non-specific item. The is the definite article used for a specific item that the speaker and listener both know. Sometimes no article is needed. Although articles are tiny, they are a regular topic in fill-in-the-blank and error-spotting questions because the rules depend on sound, not spelling, and on whether a noun is specific, countable or unique.",
+    "placementRelevance": "Article questions are commonly asked in the verbal ability section of company aptitude rounds, and article errors are among the most common mistakes in written English.",
+    "realWorldContext": "Emails, resumes and product descriptions look polished or careless depending on small choices like \"an MBA degree\" versus \"a MBA degree\"."
+  },
+  "learningObjectives": [
+    "Choose between a and an by the first sound, not the first letter",
+    "Use the for specific and unique things",
+    "Recognise when no article is needed",
+    "Handle names of rivers, mountains, countries and institutions",
+    "Use articles with uncountable and abstract nouns correctly"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Parts of Speech"
+    ],
+    "quickRefresher": "A noun can be singular or plural, countable or uncountable. A and an go only with singular countable nouns."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Indefinite article (a, an): refers to any one member of a class. Use a before a consonant sound and an before a vowel sound.",
+      "Definite article (the): refers to a particular, known or unique person or thing.",
+      "Zero article (no article): used with plural and uncountable nouns in a general sense, most proper names and some fixed expressions.",
+      "Consonant sound: a sound like /b/, /k/, /y/ or /w/ even when the spelling begins with a vowel letter (university, one, European).",
+      "Vowel sound: a sound like /a/, /e/, /i/, /o/, /u/ even when the spelling begins with a consonant letter (hour, honest, MBA)."
+    ],
+    "theoreticalIntuition": "The choice of a or an is purely about how the next word sounds. If it starts with a vowel sound, use an; if it starts with a consonant sound, use a. The choice of the depends on whether the listener can tell which one you mean.",
+    "visualOrMentalModel": "Say the next word aloud. \"Umbrella\" starts with an /u/ vowel sound, so an umbrella. \"University\" starts with a /yoo/ sound (like a y), so a university. \"Hour\" has a silent h, so an hour."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "A or an",
+      "formula": "a + consonant sound;  an + vowel sound",
+      "description": "Decide by sound, not spelling.",
+      "whenToUse": "Any a/an blank.",
+      "simpleExample": "an umbrella, a university, an hour, a European"
+    },
+    {
+      "title": "Letters read aloud",
+      "formula": "an MBA, an MS, an SQL query, a UFO, a one-day match",
+      "description": "Check the sound of the letter name or the word.",
+      "whenToUse": "Abbreviations and numbers.",
+      "simpleExample": "MBA is read \"em-bee-ay\" → an MBA"
+    },
+    {
+      "title": "Use of \"the\"",
+      "formula": "Unique things (the sun, the moon, the earth), superlatives (the best), rivers (the Ganga), mountain ranges (the Himalayas), musical instruments (the guitar), and things already mentioned",
+      "description": "The listener knows which one.",
+      "whenToUse": "Definite reference.",
+      "simpleExample": "She plays the guitar."
+    },
+    {
+      "title": "No article",
+      "formula": "Plural or uncountable nouns in a general sense, abstract nouns, languages, meals, most countries and cities",
+      "description": "No article is needed.",
+      "whenToUse": "General statements.",
+      "simpleExample": "Honesty is the best policy. We have dinner at nine."
+    },
+    {
+      "title": "Fixed expressions with institutions",
+      "formula": "go to school / college / hospital / church (for the usual purpose) takes no article",
+      "description": "If you refer to the building, use the.",
+      "whenToUse": "Institution questions.",
+      "simpleExample": "He goes to school by bus."
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The basic rule for a and an depends on sound. The letters a, e, i, o, u usually begin a vowel sound (an apple, an egg, an idea), but not always. University, uniform, European and one begin with a /y/ or /w/ consonant sound, so we say a university, a European, a one-day match. Honest, hour and heir begin with a silent h, so we say an honest girl, an hour, an heir.",
+      "For abbreviations, use the sound of the first letter name. MBA is read \"em-bee-ay\", so an MBA; MS is \"em-ess\", so an MS; UFO is \"yoo-ef-oh\", so a UFO.",
+      "Use the for things that are unique (the sun, the equator), for superlatives (the best player), for rivers, oceans and mountain ranges (the Ganga, the Pacific, the Himalayas), and for musical instruments (play the guitar). Also use the for something already mentioned: \"I saw a dog. The dog was barking.\"",
+      "Do not use an article with plural or uncountable nouns used in a general sense (Honesty is the best policy; Books are friends), with languages (She speaks Telugu), with meals (We have dinner at nine), or with most names of countries, cities and individual mountains.",
+      "Institutions such as school, college, hospital and church take no article when used for their usual purpose: \"He goes to school by bus\" (as a student). If you mean the building, use the: \"He went to the school to meet the principal.\""
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "\"The\" before adjectives used as nouns",
+        "content": "The + an adjective can mean a group of people: the rich, the poor, the young. These take a plural verb. \"The rich are not always happy.\""
+      },
+      {
+        "title": "Hotel and building names",
+        "content": "Many names of hotels, theatres, cinemas and landmarks take the: the Taj Mahal Hotel, the Red Fort. Names of most individual people, cities and companies do not."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "A or an",
+      "description": "Choose by the sound of the next word.",
+      "exampleSnippet": "He bought ___ umbrella."
+    },
+    {
+      "typeName": "The or no article",
+      "description": "Unique, superlative, general.",
+      "exampleSnippet": "___ sun rises in the east."
+    },
+    {
+      "typeName": "Abbreviations",
+      "description": "MBA, MS, UFO.",
+      "exampleSnippet": "He is ___ MBA from IIM."
+    },
+    {
+      "typeName": "Geographical names",
+      "description": "Rivers, ranges, countries.",
+      "exampleSnippet": "___ Himalayas are in the north."
+    },
+    {
+      "typeName": "Institutions",
+      "description": "School, hospital, college.",
+      "exampleSnippet": "He goes to ___ school by bus."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-verbal-articles-1",
+      "title": "A or an by sound",
+      "question": "Fill in the blanks: (a) She is ___ honest girl. (b) He is studying in ___ university. (c) He waited for ___ hour.",
+      "givenInfo": [
+        "(a) honest, (b) university, (c) hour"
+      ],
+      "conceptOrFormula": "Decide by the first sound of the next word.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "honest",
+          "explanation": "The h is silent, so the word begins with the vowel sound /o/. Use an."
+        },
+        {
+          "stepNumber": 2,
+          "title": "university",
+          "explanation": "The word begins with the sound /yoo/ (a consonant sound). Use a."
+        },
+        {
+          "stepNumber": 3,
+          "title": "hour",
+          "explanation": "The h is silent, so the word begins with a vowel sound. Use an."
+        }
+      ],
+      "finalAnswer": "(a) an, (b) a, (c) an",
+      "whyItWorks": "a/an follow the sound, not the spelling.",
+      "commonTrap": "Choosing \"a\" for honest and hour because they begin with the letter h.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-verbal-articles-2",
+      "title": "The with unique items and instruments",
+      "question": "Fill in the blanks with a, an, the or no article: (a) ___ sun rises in the east. (b) She plays ___ guitar. (c) ___ Himalayas are in the north.",
+      "givenInfo": [
+        "(a) unique body, (b) musical instrument, (c) mountain range"
+      ],
+      "conceptOrFormula": "Use the for unique things, instruments and mountain ranges.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "sun",
+          "explanation": "There is only one sun, so the sun."
+        },
+        {
+          "stepNumber": 2,
+          "title": "guitar",
+          "explanation": "Musical instruments take the: the guitar."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Himalayas",
+          "explanation": "A mountain range takes the: the Himalayas."
+        }
+      ],
+      "finalAnswer": "(a) The, (b) the, (c) The",
+      "whyItWorks": "All three are specific or unique things.",
+      "commonTrap": "Leaving out the before a range or instrument.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-verbal-articles-3",
+      "title": "No article",
+      "question": "Fill in the blank: \"___ honesty is the best policy.\" (a / an / the / no article)",
+      "givenInfo": [
+        "Abstract noun used in a general sense"
+      ],
+      "conceptOrFormula": "Abstract nouns used generally take no article.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Identify the noun type",
+          "explanation": "Honesty is an abstract noun used in a general statement."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply the rule",
+          "explanation": "Abstract nouns used in general take no article."
+        }
+      ],
+      "finalAnswer": "no article",
+      "whyItWorks": "The sentence speaks of honesty in general, not a particular instance of it.",
+      "commonTrap": "Adding \"the\" because the sentence feels formal.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Say it aloud",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Memorise a long list of exceptions to a/an.",
+      "shortcutMethod": "Say the next word aloud. A vowel sound takes an; a consonant sound takes a. For the, ask: do both speaker and listener know exactly which one?"
+    },
+    "rulesForApplication": [
+      "a university, a European, a one-rupee coin (consonant sound).",
+      "an hour, an honest man, an MBA, an SQL query (vowel sound).",
+      "Use the with rivers, mountain ranges, oceans, superlatives and instruments.",
+      "No article with abstract or plural nouns in a general sense, languages and meals."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing by letter instead of sound",
+      "whyItHappens": "\"a hour\" or \"an university\".",
+      "howToAvoid": "Say the word aloud before choosing."
+    },
+    {
+      "mistake": "Leaving out the with rivers and ranges",
+      "whyItHappens": "\"Himalayas are in the north.\"",
+      "howToAvoid": "Use the with rivers, oceans, ranges and groups of islands."
+    },
+    {
+      "mistake": "Adding the before abstract nouns",
+      "whyItHappens": "\"The honesty is the best policy.\"",
+      "howToAvoid": "Use no article with abstract nouns used generally."
+    },
+    {
+      "mistake": "Using a with uncountable nouns",
+      "whyItHappens": "\"a information\", \"an advice\".",
+      "howToAvoid": "Use \"a piece of information\" or \"some advice\"."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 20,
+    "eliminationTechnique": "If the next word starts with a vowel letter, check its sound before choosing; this removes two options at once.",
+    "questionSelectionAdvice": "Article blanks are among the quickest grammar questions. Answer them immediately and move on.",
+    "recruiterInsight": "Placement tests like exceptions such as \"an MBA\", \"a university\" and \"the Himalayas\"."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-verbal-articles-e1",
+        "question": "Fill in the blank: \"He bought ___ umbrella.\"",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "correctAnswer": "an",
+        "explanation": "Umbrella begins with a vowel sound, so \"an\" is used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-articles-e2",
+        "question": "Fill in the blank: \"___ sun rises in the east.\"",
+        "options": [
+          "The",
+          "A",
+          "An",
+          "No article"
+        ],
+        "correctAnswer": "The",
+        "explanation": "There is only one sun, so the definite article is used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-verbal-articles-e3",
+        "question": "Fill in the blank: \"She is ___ honest girl.\"",
+        "options": [
+          "a",
+          "the",
+          "no article",
+          "an"
+        ],
+        "correctAnswer": "an",
+        "explanation": "\"Honest\" begins with a silent h, giving a vowel sound, so \"an\" is used.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-verbal-articles-i7",
+        "question": "Fill in the blank: \"She is ___ university student.\"",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "correctAnswer": "a",
+        "explanation": "University begins with the consonant sound /yoo/, so \"a\" is used.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-articles-i8",
+        "question": "Fill in the blank: \"He waited for ___ hour.\"",
+        "options": [
+          "a",
+          "the",
+          "no article",
+          "an"
+        ],
+        "correctAnswer": "an",
+        "explanation": "The h in hour is silent, so the word begins with a vowel sound.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-verbal-articles-i9",
+        "question": "Fill in the blank: \"Ravi is ___ best player in the team.\"",
+        "options": [
+          "a",
+          "an",
+          "no article",
+          "the"
+        ],
+        "correctAnswer": "the",
+        "explanation": "A superlative takes the definite article.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-verbal-articles-a15",
+        "question": "Fill in the blank: \"It was ___ one-day match.\"",
+        "options": [
+          "an",
+          "the",
+          "a",
+          "no article"
+        ],
+        "correctAnswer": "a",
+        "explanation": "\"One\" begins with the consonant sound /w/, so \"a\" is used.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-articles-a16",
+        "question": "Fill in the blank: \"He is ___ MBA from a reputed institute.\"",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "correctAnswer": "an",
+        "explanation": "MBA is read \"em-bee-ay\", which begins with a vowel sound.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-verbal-articles-p17",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "Rich are not always happy.",
+          "The rich are not always happy.",
+          "A rich are not always happy.",
+          "An rich are not always happy."
+        ],
+        "correctAnswer": "The rich are not always happy.",
+        "explanation": "\"The\" + an adjective names a group of people (the rich), and it takes a plural verb.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-articles-p18",
+        "question": "Fill in the blank: \"We stayed at ___ Taj Mahal Hotel.\"",
+        "options": [
+          "the",
+          "a",
+          "an",
+          "no article"
+        ],
+        "correctAnswer": "the",
+        "explanation": "Names of well-known hotels and landmarks usually take the definite article.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-verbal-articles-p19",
+        "question": "Fill in the blank: \"Gold is ___ precious metal.\"",
+        "options": [
+          "an",
+          "the",
+          "no article",
+          "a"
+        ],
+        "correctAnswer": "a",
+        "explanation": "\"Precious metal\" is a singular countable noun phrase, and \"precious\" begins with a consonant sound.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "a before a consonant sound, an before a vowel sound.",
+      "Use the for unique things, superlatives, rivers, ranges, instruments.",
+      "No article for general plurals, abstract and uncountable nouns.",
+      "MBA → an; university → a; hour → an.",
+      "Institutions for their purpose: no article."
+    ],
+    "quickFormulas": [
+      "a + consonant sound",
+      "an + vowel sound",
+      "the + unique / specific"
+    ]
+  },
+  "keyTakeaways": [
+    "Sound, not spelling.",
+    "Specific means \"the\".",
+    "General plurals take no article.",
+    "Practise exceptions."
+  ],
+  "selfCheckQuestions": [
+    "Can I say why we write \"an hour\" and \"a university\"?",
+    "Can I choose the right article for the Ganga, the Himalayas, the best player?",
+    "Can I explain why \"Honesty is the best policy\" has no article before honesty?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "The Articles topic area; examples in this chapter are original."
+    }
+  ]
+}
