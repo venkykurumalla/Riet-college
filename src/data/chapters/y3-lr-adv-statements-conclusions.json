@@ -1,0 +1,420 @@
+{
+  "id": "y3-lr-adv-statements-conclusions",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 37,
+  "title": "Statements and Conclusions — Critical Filtering",
+  "tagline": "Year 3 — Accept only what the statement itself supports: avoid outside knowledge, over-reading and reversed conditions",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In a statements-and-conclusions question you are given a short statement and some conclusions, and you must decide which conclusions follow. The central skill is critical filtering: a conclusion follows only if it is directly supported by the statement, with no help from outside knowledge. This chapter teaches how to filter out four kinds of bad conclusion: unsupported additions, reversed conditions, over-generalisations and extra assumptions.",
+    "placementRelevance": "Statement-and-conclusion items appear in most logical-reasoning sections of company tests.",
+    "realWorldContext": "Reading a report or a contract and deciding what it actually commits to uses the same filter."
+  },
+  "learningObjectives": [
+    "Separate what is stated from what is assumed",
+    "Spot reversed conditions (necessary vs sufficient)",
+    "Detect over-generalisation and unsupported numbers",
+    "Use either-or and contrapositive reasoning",
+    "Handle two-conclusion options quickly"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Statements and Conclusions",
+      "Advanced Syllogisms"
+    ],
+    "quickRefresher": "A conclusion follows if the statement guarantees it. If the statement leaves it open, it does not follow."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Directly supported: the conclusion is said or logically forced by the statement.",
+      "Reversed condition: turning \"if A then B\" into \"if B then A\".",
+      "Over-generalisation: moving from some or most to all.",
+      "Outside knowledge: a fact that is true in the world but not stated.",
+      "Contrapositive: \"if A then B\" is equivalent to \"if not B then not A\"."
+    ],
+    "theoreticalIntuition": "Treat the statement as the only fact in the universe. If you need anything else to reach a conclusion, it does not follow.",
+    "visualOrMentalModel": "Ask for each conclusion: \"Does the statement alone make this true?\" Reject on any of four grounds: added fact, reversed condition, over-generalisation, or extra assumption."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Direct support",
+      "formula": "Statement ⇒ conclusion",
+      "description": "Said or forced.",
+      "whenToUse": "Accept.",
+      "simpleExample": "Employees got a bonus ⇒ Ravi got one"
+    },
+    {
+      "title": "Reversed condition",
+      "formula": "If A then B ⇏ if B then A",
+      "description": "Necessary vs sufficient.",
+      "whenToUse": "Reject.",
+      "simpleExample": "Graduates only ⇏ all graduates hired"
+    },
+    {
+      "title": "Contrapositive",
+      "formula": "If A then B ⇒ if not B then not A",
+      "description": "Valid.",
+      "whenToUse": "Accept.",
+      "simpleExample": "Not stopped ⇒ not red"
+    },
+    {
+      "title": "Either-or",
+      "formula": "A or B, not A ⇒ B",
+      "description": "Valid.",
+      "whenToUse": "Accept.",
+      "simpleExample": "Printer or cable"
+    },
+    {
+      "title": "Numbers",
+      "formula": "Compute from given numbers only",
+      "description": "Percentages and counts.",
+      "whenToUse": "Accept computed values.",
+      "simpleExample": "36 of 40 passed ⇒ 4 failed"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The statement \"All the employees of the firm were given a bonus\" supports \"Ravi, an employee, got a bonus\" directly. It contradicts \"Some employees did not get a bonus\". So only the first conclusion follows.",
+      "Reversed conditions are the commonest trap. \"The company will hire only graduates\" tells you what is necessary for hiring, not that every graduate is hired. \"A non-graduate will not be hired\" follows; \"All graduates will be hired\" does not.",
+      "Numbers allow computation but not outside facts. If 36 of 40 students passed, then 4 did not pass is a valid conclusion. But \"the 4 who failed were absent\" is not.",
+      "Either-or statements allow elimination. \"Either the printer is faulty or the cable is loose\" with \"the cable is tight\" gives \"the printer is faulty\".",
+      "A conclusion that reaches beyond the subject of the statement, such as other cities, other years or other products, usually fails because the statement does not mention them."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Necessary vs sufficient",
+        "content": "\"Only\" and \"must\" mark necessary conditions; they do not promise the outcome."
+      },
+      {
+        "title": "Either I or II",
+        "content": "When the two conclusions are complementary (one the opposite of the other) and the statement is silent, \"either I or II follows\" would apply; this chapter uses only the four standard options."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct support",
+      "description": "Said in the statement.",
+      "exampleSnippet": "Bonus for all"
+    },
+    {
+      "typeName": "Reversed condition",
+      "description": "Converse trap.",
+      "exampleSnippet": "Only graduates"
+    },
+    {
+      "typeName": "Computation",
+      "description": "Numbers only.",
+      "exampleSnippet": "36 of 40"
+    },
+    {
+      "typeName": "Either-or",
+      "description": "Eliminate one.",
+      "exampleSnippet": "Printer or cable"
+    },
+    {
+      "typeName": "Contrapositive",
+      "description": "Not B ⇒ not A.",
+      "exampleSnippet": "Signal red"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-adv-statements-conclusions-1",
+      "title": "Reversed condition",
+      "question": "Statement: The company will hire only graduates for the post. Conclusion: All graduates will be hired. Does it follow?",
+      "givenInfo": [
+        "Only graduates"
+      ],
+      "conceptOrFormula": "Necessary, not sufficient.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Read",
+          "explanation": "\"Only graduates\" makes graduation necessary."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Test",
+          "explanation": "It does not promise that every graduate is hired."
+        }
+      ],
+      "finalAnswer": "No",
+      "whyItWorks": "The converse is not stated.",
+      "commonTrap": "Reading it as sufficient.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-adv-statements-conclusions-2",
+      "title": "Numbers",
+      "question": "Statement: 36 of the 40 students in the class passed. Conclusion: Some students did not pass. Does it follow?",
+      "givenInfo": [
+        "36 of 40"
+      ],
+      "conceptOrFormula": "Compute.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Failed",
+          "explanation": "40 − 36 = 4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Conclusion",
+          "explanation": "So some students did not pass."
+        }
+      ],
+      "finalAnswer": "Yes",
+      "whyItWorks": "The count is forced.",
+      "commonTrap": "Saying the statement is silent.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-adv-statements-conclusions-3",
+      "title": "Either-or",
+      "question": "Statement: Either the printer is faulty or the cable is loose; the cable is tight. Conclusion: The printer is faulty. Does it follow?",
+      "givenInfo": [
+        "Either-or",
+        "Cable tight"
+      ],
+      "conceptOrFormula": "Eliminate.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Eliminate",
+          "explanation": "The cable is not loose."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Remaining",
+          "explanation": "So the printer is faulty."
+        }
+      ],
+      "finalAnswer": "Yes",
+      "whyItWorks": "One option of the either-or is removed.",
+      "commonTrap": "Calling it unsupported.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Statement only",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Use common sense.",
+      "shortcutMethod": "For each conclusion ask whether the statement alone makes it true; reject added facts, reversed conditions and over-generalisations."
+    },
+    "rulesForApplication": [
+      "Statement alone.",
+      "Check the direction of conditions.",
+      "Compute numbers.",
+      "Eliminate in either-or."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using outside knowledge",
+      "whyItHappens": "Adds facts.",
+      "howToAvoid": "Only the statement counts."
+    },
+    {
+      "mistake": "Reversing conditions",
+      "whyItHappens": "Converse trap.",
+      "howToAvoid": "Check direction."
+    },
+    {
+      "mistake": "Generalising from some to all",
+      "whyItHappens": "Over-reach.",
+      "howToAvoid": "Match the quantity words."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "If a conclusion needs an extra fact, drop it.",
+    "questionSelectionAdvice": "Underline quantity words: all, some, only, most.",
+    "recruiterInsight": "Two-conclusion items reward checking each one separately."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-adv-statements-conclusions-e1",
+        "question": "Statement: All the employees of the firm were given a bonus this year.\n\nConclusions:\nI. Ravi, an employee of the firm, received a bonus this year.\nII. Some employees of the firm did not receive a bonus this year.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Only conclusion I follows",
+          "Both conclusions follow",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "The statement says every employee got a bonus, so Ravi did too (I follows) and no employee missed out (II contradicts it). Answer: Only conclusion I follows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-adv-statements-conclusions-e2",
+        "question": "Statement: The shop remains closed on Sundays.\n\nConclusions:\nI. The shop is open on Mondays.\nII. The shop does no business on Sundays.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Only conclusion I follows",
+          "Both conclusions follow",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion II follows",
+        "explanation": "A shop that is closed on Sundays does no business on Sundays (II follows). The statement says nothing about Mondays, so I does not follow. Answer: Only conclusion II follows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-adv-statements-conclusions-e3",
+        "question": "Statement: In a class of 40 students, 36 passed the test.\n\nConclusions:\nI. Some students did not pass the test.\nII. Every student passed the test.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Both conclusions follow",
+          "Neither conclusion follows",
+          "Only conclusion I follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "40 − 36 = 4 students did not pass, so I follows and II is false. Answer: Only conclusion I follows.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-adv-statements-conclusions-i7",
+        "question": "Statement: Some cars in the showroom are electric, and all electric cars have zero tailpipe emissions.\n\nConclusions:\nI. Some cars in the showroom have zero tailpipe emissions.\nII. All cars in the showroom are electric.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Both conclusions follow",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "The electric cars in the showroom have zero tailpipe emissions, so I follows. Only \"some\" cars are electric, so II does not follow. Answer: Only conclusion I follows.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-adv-statements-conclusions-i8",
+        "question": "Statement: Only members of the club may use its swimming pool.\n\nConclusions:\nI. A person who is not a member cannot use the pool.\nII. Every member uses the pool.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Both conclusions follow",
+          "Neither conclusion follows",
+          "Only conclusion I follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "\"Only members\" makes membership necessary, so I follows. Nothing says members actually use it, so II does not follow. Answer: Only conclusion I follows.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-adv-statements-conclusions-i9",
+        "question": "Statement: The price of petrol was increased by 10% last month.\n\nConclusions:\nI. The price of petrol before last month was lower than it is now.\nII. The price of diesel also rose last month.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Both conclusions follow",
+          "Neither conclusion follows",
+          "Only conclusion I follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "A 10% increase makes the new price higher than the old, so I follows. Diesel is not mentioned, so II does not follow. Answer: Only conclusion I follows.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-adv-statements-conclusions-a15",
+        "question": "Statement: The government has announced a subsidy for farmers who own less than 2 hectares of land.\n\nConclusions:\nI. A farmer with 1.5 hectares of land is eligible for the subsidy.\nII. A farmer with 3 hectares of land will not receive the subsidy.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Both conclusions follow",
+          "Only conclusion I follows",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "1.5 is less than 2, so I follows. The statement does not say that others are excluded, so II does not follow. Answer: Only conclusion I follows.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-adv-statements-conclusions-a16",
+        "question": "Statement: Of the 120 candidates who appeared, 90 passed the written test, 60 passed the interview, and 40 passed both.\n\nConclusions:\nI. Exactly 10 candidates passed neither.\nII. Exactly 50 candidates passed only the written test.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Both conclusions follow",
+          "Only conclusion II follows",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Both conclusions follow",
+        "explanation": "Passed at least one = 90 + 60 − 40 = 110, so 120 − 110 = 10 passed neither (I). Only the written test: 90 − 40 = 50 (II). Both follow. Answer: Both conclusions follow.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-adv-statements-conclusions-p17",
+        "question": "Statement: If the signal is red, the car stops. The car did not stop.\n\nConclusions:\nI. The signal was not red.\nII. The signal was red.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Only conclusion I follows",
+          "Both conclusions follow",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "The contrapositive of \"if red then stops\" is \"if not stopped then not red\", so I follows and II contradicts it. Answer: Only conclusion I follows.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-adv-statements-conclusions-p18",
+        "question": "Statement: Every applicant who clears the test is called for an interview. Some applicants who were called for an interview were rejected.\n\nConclusions:\nI. Some applicants who cleared the test were rejected.\nII. Some applicants who were called for an interview did not clear the test.\n\nWhich of the following is correct?",
+        "options": [
+          "Neither conclusion follows",
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Both conclusions follow"
+        ],
+        "correctAnswer": "Neither conclusion follows",
+        "explanation": "The statement does not say that only those who cleared the test are called, so the rejected interviewees may not have cleared it. Neither conclusion is forced. Answer: Neither conclusion follows.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-adv-statements-conclusions-p19",
+        "question": "Statement: Either the printer is faulty or the cable is loose. The cable has been checked and is tight.\n\nConclusions:\nI. The printer is faulty.\nII. The printer is not faulty.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion II follows",
+          "Both conclusions follow",
+          "Neither conclusion follows",
+          "Only conclusion I follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "The cable is not loose, so the printer must be faulty. I follows and II contradicts it. Answer: Only conclusion I follows.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Statement alone.",
+      "Converse trap.",
+      "Numbers.",
+      "Either-or.",
+      "Contrapositive."
+    ],
+    "quickFormulas": [
+      "If A then B ⇒ if not B then not A"
+    ]
+  },
+  "keyTakeaways": [
+    "No outside facts.",
+    "Check direction.",
+    "Compute from numbers.",
+    "Eliminate options."
+  ],
+  "selfCheckQuestions": [
+    "Can I spot a reversed condition?",
+    "Can I compute from numbers?",
+    "Can I use either-or elimination?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

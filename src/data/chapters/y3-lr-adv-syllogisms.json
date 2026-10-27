@@ -1,0 +1,422 @@
+{
+  "id": "y3-lr-adv-syllogisms",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 36,
+  "title": "Advanced Syllogisms — Three-Statement Deduction",
+  "tagline": "Year 3 — Three statements and four classes: building chains, Venn diagrams and \"definitely follows\" tests",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A syllogism asks which conclusions must be true given some statements about classes of things. With three statements and four classes, mental guessing fails, so the method is the Venn-diagram test: draw every diagram that fits the statements, and accept a conclusion only if it holds in all of them. The convention used in this course is that every named class has at least one member.",
+    "placementRelevance": "Three-statement syllogisms with two conclusions are a standard logical-reasoning item in company tests.",
+    "realWorldContext": "Checking whether a policy follows from several rules, or whether a claim is entailed by a set of facts, uses the same reasoning."
+  },
+  "learningObjectives": [
+    "State the four statement types precisely",
+    "Chain \"All\" statements",
+    "Combine \"All\", \"No\" and \"Some\" statements correctly",
+    "Decide \"follows\" only if true in every diagram",
+    "Use \"possible\" to reject tempting conclusions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Syllogisms",
+      "Venn Diagrams"
+    ],
+    "quickRefresher": "\"All A are B\" puts A inside B. \"No A is B\" keeps the two circles apart. \"Some A are B\" means they overlap. \"Some A are not B\" means part of A is outside B."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Follows: true in every possible diagram that fits the statements.",
+      "Possible but not forced: true in some diagrams and false in others, so it does not follow.",
+      "Contradicts: false in every diagram, so it does not follow and its negation does.",
+      "Convention in this course: every class named in a statement has at least one member.",
+      "Chain: All A are B and All B are C give All A are C."
+    ],
+    "theoreticalIntuition": "A conclusion follows only if you could not draw a legal diagram that breaks it. Try to break the conclusion; if you succeed, it does not follow.",
+    "visualOrMentalModel": "Draw the statements as circles. Start with the \"All\" statements (nested circles), add the \"No\" separation, then the \"Some\" overlaps. For each conclusion, ask: can I redraw it so the conclusion is false?"
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "All chain",
+      "formula": "All A are B, All B are C ⇒ All A are C",
+      "description": "Nested.",
+      "whenToUse": "Chains.",
+      "simpleExample": "pens ⊂ books ⊂ tables"
+    },
+    {
+      "title": "All + Some",
+      "formula": "All A are B, Some A are C ⇒ Some B are C",
+      "description": "Overlap carried outward.",
+      "whenToUse": "Mixed.",
+      "simpleExample": "Some books are tables"
+    },
+    {
+      "title": "All + No",
+      "formula": "All A are B, No B is C ⇒ No A is C",
+      "description": "Separation carried inward.",
+      "whenToUse": "Mixed.",
+      "simpleExample": "No dogs are fish"
+    },
+    {
+      "title": "Some + All",
+      "formula": "Some A are B, All B are C ⇒ Some A are C",
+      "description": "Overlap carried outward.",
+      "whenToUse": "Mixed.",
+      "simpleExample": "Some cats are birds"
+    },
+    {
+      "title": "Some does not chain",
+      "formula": "Some A are B, Some B are C ⇏ Some A are C",
+      "description": "Two overlaps.",
+      "whenToUse": "Trap.",
+      "simpleExample": "Open"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Take the statements: All pens are books; All books are tables; Some tables are chairs. The chain gives All pens are tables. The third statement only says that tables and chairs overlap, so nothing definite follows about pens and chairs: \"Some pens are chairs\" is possible but not forced.",
+      "With the statements: Some cats are dogs; All dogs are birds; No birds are fish. Some cats are dogs and all dogs are birds, so Some cats are birds follows. Birds and fish are separate, so dogs and fish are separate: No dogs are fish follows.",
+      "A \"Some\" statement does not pass through another \"Some\". Some A are B and Some B are C leave A and C free to overlap or not, so \"Some A are C\" does not follow.",
+      "Converses of \"All\" are traps. From \"All doctors are teachers\" you cannot conclude \"All teachers are doctors\". You can conclude \"Some teachers are doctors\" under the course convention that classes are non-empty.",
+      "To test a tempting conclusion, build a diagram that respects all statements but makes it false. If one exists, the conclusion does not follow."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Existence convention",
+        "content": "Under the convention that every class is non-empty, All A are B guarantees Some A are B."
+      },
+      {
+        "title": "Negative statements",
+        "content": "No A is B is symmetric: No B is A follows. Some A are not B does not give Some B are not A."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "All chains",
+      "description": "Nested circles.",
+      "exampleSnippet": "pens ⊂ books ⊂ tables"
+    },
+    {
+      "typeName": "Mixed All/Some",
+      "description": "Overlap carried.",
+      "exampleSnippet": "Some books are tables"
+    },
+    {
+      "typeName": "Mixed All/No",
+      "description": "Separation carried.",
+      "exampleSnippet": "No dogs are fish"
+    },
+    {
+      "typeName": "Two Somes",
+      "description": "Do not chain.",
+      "exampleSnippet": "Trap"
+    },
+    {
+      "typeName": "Either/or pairs",
+      "description": "Complementary cases.",
+      "exampleSnippet": "Some or no"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-adv-syllogisms-1",
+      "title": "Chain",
+      "question": "Statements: All pens are books. All books are tables. Does \"All pens are tables\" follow?",
+      "givenInfo": [
+        "Nested circles"
+      ],
+      "conceptOrFormula": "Chain the Alls.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Nest",
+          "explanation": "Pens are inside books."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Nest again",
+          "explanation": "Books are inside tables, so pens are inside tables."
+        }
+      ],
+      "finalAnswer": "Yes, it follows",
+      "whyItWorks": "Every diagram has pens inside tables.",
+      "commonTrap": "Answering no.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-adv-syllogisms-2",
+      "title": "Two Somes",
+      "question": "Statements: Some cats are dogs. Some dogs are birds. Does \"Some cats are birds\" follow?",
+      "givenInfo": [
+        "Two overlaps"
+      ],
+      "conceptOrFormula": "Try to break it.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Break",
+          "explanation": "Draw the cats–dogs overlap at one part of dogs and the dogs–birds overlap at a different part."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Result",
+          "explanation": "Cats and birds do not overlap in that diagram, so the conclusion can be false."
+        }
+      ],
+      "finalAnswer": "No, it does not follow",
+      "whyItWorks": "It is possible but not forced.",
+      "commonTrap": "Chaining the Somes.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-adv-syllogisms-3",
+      "title": "All + No",
+      "question": "Statements: All dogs are birds. No birds are fish. Does \"No dogs are fish\" follow?",
+      "givenInfo": [
+        "dogs ⊂ birds",
+        "birds apart from fish"
+      ],
+      "conceptOrFormula": "Separation passes inward.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Nest",
+          "explanation": "Dogs lie inside birds."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Separate",
+          "explanation": "Fish are outside birds, so also outside dogs."
+        }
+      ],
+      "finalAnswer": "Yes, it follows",
+      "whyItWorks": "The inner circle cannot touch what the outer one avoids.",
+      "commonTrap": "Answering no.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Try to break it",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reason from rules.",
+      "shortcutMethod": "Draw the nested and separate circles; for each conclusion try to redraw so it is false. If you can, it does not follow."
+    },
+    "rulesForApplication": [
+      "All chains.",
+      "Some does not chain.",
+      "No is symmetric.",
+      "Try to break each conclusion."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Chaining two Somes",
+      "whyItHappens": "Overlaps need not meet.",
+      "howToAvoid": "Some + Some gives nothing."
+    },
+    {
+      "mistake": "Reversing an All",
+      "whyItHappens": "Wrong converse.",
+      "howToAvoid": "All A are B does not give All B are A."
+    },
+    {
+      "mistake": "Ignoring the convention",
+      "whyItHappens": "Existence assumptions differ.",
+      "howToAvoid": "Use non-empty classes as stated."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 120,
+    "eliminationTechnique": "Eliminate a conclusion the moment one diagram breaks it.",
+    "questionSelectionAdvice": "Draw All statements first, then No, then Some.",
+    "recruiterInsight": "Two-conclusion items are quick once you can break conclusions."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-adv-syllogisms-e1",
+        "question": "Statements:\n1. All pens are books.\n2. All books are tables.\n3. Some tables are chairs.\n\nConclusions:\nI. All pens are tables.\nII. All pens are chairs.\n\nWhich of the following is correct?",
+        "options": [
+          "Both conclusions follow",
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "Conclusion I (\"All pens are tables.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"All pens are chairs.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Only conclusion I follows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-adv-syllogisms-e2",
+        "question": "Statements:\n1. All pens are books.\n2. All books are tables.\n3. Some tables are chairs.\n\nConclusions:\nI. All pens are tables.\nII. Some pens are tables.\n\nWhich of the following is correct?",
+        "options": [
+          "Both conclusions follow",
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Both conclusions follow",
+        "explanation": "Conclusion I (\"All pens are tables.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"Some pens are tables.\") follows: it is true in every diagram that fits the three statements. Answer: Both conclusions follow.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-adv-syllogisms-e3",
+        "question": "Statements:\n1. All pens are books.\n2. All books are tables.\n3. Some tables are chairs.\n\nConclusions:\nI. All pens are chairs.\nII. Some pens are not chairs.\n\nWhich of the following is correct?",
+        "options": [
+          "Both conclusions follow",
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Neither conclusion follows",
+        "explanation": "Conclusion I (\"All pens are chairs.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"Some pens are not chairs.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Neither conclusion follows.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-adv-syllogisms-i7",
+        "question": "Statements:\n1. All doctors are teachers.\n2. All teachers are artists.\n3. No artists are clerks.\n\nConclusions:\nI. All doctors are artists.\nII. Some teachers are not doctors.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Both conclusions follow",
+          "Only conclusion II follows",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "Conclusion I (\"All doctors are artists.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"Some teachers are not doctors.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Only conclusion I follows.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-adv-syllogisms-i8",
+        "question": "Statements:\n1. All doctors are teachers.\n2. All teachers are artists.\n3. No artists are clerks.\n\nConclusions:\nI. All teachers are doctors.\nII. Some doctors are artists.\n\nWhich of the following is correct?",
+        "options": [
+          "Both conclusions follow",
+          "Only conclusion I follows",
+          "Neither conclusion follows",
+          "Only conclusion II follows"
+        ],
+        "correctAnswer": "Only conclusion II follows",
+        "explanation": "Conclusion I (\"All teachers are doctors.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"Some doctors are artists.\") follows: it is true in every diagram that fits the three statements. Answer: Only conclusion II follows.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-adv-syllogisms-i9",
+        "question": "Statements:\n1. All doctors are teachers.\n2. All teachers are artists.\n3. No artists are clerks.\n\nConclusions:\nI. All doctors are artists.\nII. Some doctors are artists.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Neither conclusion follows",
+          "Both conclusions follow"
+        ],
+        "correctAnswer": "Both conclusions follow",
+        "explanation": "Conclusion I (\"All doctors are artists.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"Some doctors are artists.\") follows: it is true in every diagram that fits the three statements. Answer: Both conclusions follow.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-adv-syllogisms-a15",
+        "question": "Statements:\n1. All lions are animals.\n2. No animals are stones.\n3. Some hunters are lions.\n\nConclusions:\nI. Some lions are not stones.\nII. All lions are hunters.\n\nWhich of the following is correct?",
+        "options": [
+          "Both conclusions follow",
+          "Only conclusion II follows",
+          "Only conclusion I follows",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion I follows",
+        "explanation": "Conclusion I (\"Some lions are not stones.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"All lions are hunters.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Only conclusion I follows.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-adv-syllogisms-a16",
+        "question": "Statements:\n1. All lions are animals.\n2. No animals are stones.\n3. Some hunters are lions.\n\nConclusions:\nI. All animals are lions.\nII. No lions are stones.\n\nWhich of the following is correct?",
+        "options": [
+          "Both conclusions follow",
+          "Only conclusion II follows",
+          "Only conclusion I follows",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Only conclusion II follows",
+        "explanation": "Conclusion I (\"All animals are lions.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"No lions are stones.\") follows: it is true in every diagram that fits the three statements. Answer: Only conclusion II follows.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-adv-syllogisms-p17",
+        "question": "Statements:\n1. All lions are animals.\n2. No animals are stones.\n3. Some hunters are lions.\n\nConclusions:\nI. No lions are stones.\nII. Some animals are hunters.\n\nWhich of the following is correct?",
+        "options": [
+          "Only conclusion I follows",
+          "Both conclusions follow",
+          "Only conclusion II follows",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Both conclusions follow",
+        "explanation": "Conclusion I (\"No lions are stones.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"Some animals are hunters.\") follows: it is true in every diagram that fits the three statements. Answer: Both conclusions follow.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-adv-syllogisms-p18",
+        "question": "Statements:\n1. All lions are animals.\n2. No animals are stones.\n3. Some hunters are lions.\n\nConclusions:\nI. Some lions are not hunters.\nII. Some animals are not lions.\n\nWhich of the following is correct?",
+        "options": [
+          "Neither conclusion follows",
+          "Both conclusions follow",
+          "Only conclusion I follows",
+          "Only conclusion II follows"
+        ],
+        "correctAnswer": "Neither conclusion follows",
+        "explanation": "Conclusion I (\"Some lions are not hunters.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"Some animals are not lions.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Neither conclusion follows.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-adv-syllogisms-p19",
+        "question": "Statements:\n1. All doctors are teachers.\n2. All teachers are artists.\n3. No artists are clerks.\n\nConclusions:\nI. Some doctors are not artists.\nII. No doctors are artists.\n\nWhich of the following is correct?",
+        "options": [
+          "Both conclusions follow",
+          "Only conclusion I follows",
+          "Only conclusion II follows",
+          "Neither conclusion follows"
+        ],
+        "correctAnswer": "Neither conclusion follows",
+        "explanation": "Conclusion I (\"Some doctors are not artists.\") does not follow: it contradicts the statements. Conclusion II (\"No doctors are artists.\") does not follow: it contradicts the statements. Answer: Neither conclusion follows.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "All chains.",
+      "Mixed rules.",
+      "Some does not chain.",
+      "Try to break.",
+      "Convention."
+    ],
+    "quickFormulas": [
+      "All + All ⇒ All",
+      "All + Some ⇒ Some",
+      "All + No ⇒ No"
+    ]
+  },
+  "keyTakeaways": [
+    "Draw all diagrams.",
+    "Follows = always true.",
+    "Somes do not chain.",
+    "State the convention."
+  ],
+  "selfCheckQuestions": [
+    "Can I chain Alls?",
+    "Can I reject a tempting Some?",
+    "Can I apply the non-empty convention?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-adv-statements-conclusions",
+  "topicTitle": "Statements and Conclusions — Critical Filtering",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Statement: All the employees of the firm were given a bonus this year.\n\nConclusions:\nI. Ravi, an employee of the firm, received a bonus this year.\nII. Some employees of the firm did not receive a bonus this year.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "The statement says every employee got a bonus, so Ravi did too (I follows) and no employee missed out (II contradicts it). Answer: Only conclusion I follows."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Statement: The shop remains closed on Sundays.\n\nConclusions:\nI. The shop is open on Mondays.\nII. The shop does no business on Sundays.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "A shop that is closed on Sundays does no business on Sundays (II follows). The statement says nothing about Mondays, so I does not follow. Answer: Only conclusion II follows."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Statement: In a class of 40 students, 36 passed the test.\n\nConclusions:\nI. Some students did not pass the test.\nII. Every student passed the test.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows",
+        "Only conclusion I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "40 − 36 = 4 students did not pass, so I follows and II is false. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Statement: No one under 18 is allowed to vote in the election.\n\nConclusions:\nI. A 17-year-old cannot vote in the election.\nII. Everyone aged 18 or above will vote in the election.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "A 17-year-old is under 18, so cannot vote (I follows). The statement says who is allowed to vote, not who will vote, so II does not follow. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Statement: The company will hire only graduates for this post.\n\nConclusions:\nI. A person who is not a graduate will not be hired for this post.\nII. Every graduate will be hired for this post.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Only graduates\" makes graduation necessary, so I follows. It does not promise that every graduate is hired, so II does not follow. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Statement: The rain has stopped, but the roads remain flooded.\n\nConclusions:\nI. The roads are still flooded although it is not raining now.\nII. It is still raining.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "The statement directly gives I and denies II. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Statement: Some cars in the showroom are electric, and all electric cars have zero tailpipe emissions.\n\nConclusions:\nI. Some cars in the showroom have zero tailpipe emissions.\nII. All cars in the showroom are electric.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "The electric cars in the showroom have zero tailpipe emissions, so I follows. Only \"some\" cars are electric, so II does not follow. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Statement: Only members of the club may use its swimming pool.\n\nConclusions:\nI. A person who is not a member cannot use the pool.\nII. Every member uses the pool.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows",
+        "Only conclusion I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "\"Only members\" makes membership necessary, so I follows. Nothing says members actually use it, so II does not follow. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Statement: The price of petrol was increased by 10% last month.\n\nConclusions:\nI. The price of petrol before last month was lower than it is now.\nII. The price of diesel also rose last month.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows",
+        "Only conclusion I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "A 10% increase makes the new price higher than the old, so I follows. Diesel is not mentioned, so II does not follow. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Statement: A survey found that 70% of the residents of a city own a two-wheeler.\n\nConclusions:\nI. 30% of the residents do not own a two-wheeler.\nII. Every resident owns a two-wheeler.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "100% − 70% = 30% do not own one, so I follows and II is false. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Statement: Either the meeting will be held on Monday or it will be postponed to the next week.\n\nConclusions:\nI. If the meeting is not held on Monday, it will be postponed to the next week.\nII. The meeting will certainly be held on Monday.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "The either-or statement gives I directly. It does not say which alternative happens, so II does not follow. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Statement: Students who submit the project on time get extra credit.\n\nConclusions:\nI. Rohit submitted the project late, so he did not get extra credit.\nII. Meena submitted the project on time, so she got extra credit.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "II applies the rule directly. The rule says nothing about students who submit late (they might get credit another way), so I does not follow. Answer: Only conclusion II follows."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Statement: The factory's output rose in March, but its profits fell.\n\nConclusions:\nI. The factory produced more in March than before.\nII. The factory's costs must have risen in March.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Output rising is stated, so I follows. Profits can fall for reasons other than costs (for example lower prices), so II does not follow. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Statement: No train from Platform 1 goes north, and some trains from Platform 2 go north.\n\nConclusions:\nI. No northbound train leaves from Platform 1.\nII. All trains from Platform 2 go north.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows",
+        "Only conclusion I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "I restates the first part of the statement. Only some Platform 2 trains go north, so II does not follow. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Statement: The government has announced a subsidy for farmers who own less than 2 hectares of land.\n\nConclusions:\nI. A farmer with 1.5 hectares of land is eligible for the subsidy.\nII. A farmer with 3 hectares of land will not receive the subsidy.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "1.5 is less than 2, so I follows. The statement does not say that others are excluded, so II does not follow. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Statement: Of the 120 candidates who appeared, 90 passed the written test, 60 passed the interview, and 40 passed both.\n\nConclusions:\nI. Exactly 10 candidates passed neither.\nII. Exactly 50 candidates passed only the written test.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "Passed at least one = 90 + 60 − 40 = 110, so 120 − 110 = 10 passed neither (I). Only the written test: 90 − 40 = 50 (II). Both follow. Answer: Both conclusions follow."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Statement: If the signal is red, the car stops. The car did not stop.\n\nConclusions:\nI. The signal was not red.\nII. The signal was red.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "The contrapositive of \"if red then stops\" is \"if not stopped then not red\", so I follows and II contradicts it. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Statement: Every applicant who clears the test is called for an interview. Some applicants who were called for an interview were rejected.\n\nConclusions:\nI. Some applicants who cleared the test were rejected.\nII. Some applicants who were called for an interview did not clear the test.\n\nWhich of the following is correct?",
+      "options": [
+        "Neither conclusion follows",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow"
+      ],
+      "answerIndex": 0,
+      "explanation": "The statement does not say that only those who cleared the test are called, so the rejected interviewees may not have cleared it. Neither conclusion is forced. Answer: Neither conclusion follows."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Statement: Either the printer is faulty or the cable is loose. The cable has been checked and is tight.\n\nConclusions:\nI. The printer is faulty.\nII. The printer is not faulty.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows",
+        "Only conclusion I follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "The cable is not loose, so the printer must be faulty. I follows and II contradicts it. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Statement: To pass the examination, a student must score at least 40% in each subject.\n\nConclusions:\nI. A student who scores 35% in one subject does not pass.\nII. Every student who passed scored at least 40% in each subject.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "Scoring at least 40% in each subject is required for passing, so a student with 35% in one subject fails (I) and every passer met the requirement (II). Both follow. Answer: Both conclusions follow."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/statement-and-conclusion/"
+}

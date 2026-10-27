@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-adv-syllogisms",
+  "topicTitle": "Advanced Syllogisms — Three-Statement Deduction",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Statements:\n1. All pens are books.\n2. All books are tables.\n3. Some tables are chairs.\n\nConclusions:\nI. All pens are tables.\nII. All pens are chairs.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "Conclusion I (\"All pens are tables.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"All pens are chairs.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Statements:\n1. All pens are books.\n2. All books are tables.\n3. Some tables are chairs.\n\nConclusions:\nI. All pens are tables.\nII. Some pens are tables.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conclusion I (\"All pens are tables.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"Some pens are tables.\") follows: it is true in every diagram that fits the three statements. Answer: Both conclusions follow."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Statements:\n1. All pens are books.\n2. All books are tables.\n3. Some tables are chairs.\n\nConclusions:\nI. All pens are chairs.\nII. Some pens are not chairs.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "Conclusion I (\"All pens are chairs.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"Some pens are not chairs.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Neither conclusion follows."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Statements:\n1. Some cats are dogs.\n2. All dogs are birds.\n3. No birds are fish.\n\nConclusions:\nI. Some cats are not dogs.\nII. Some cats are birds.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "Conclusion I (\"Some cats are not dogs.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"Some cats are birds.\") follows: it is true in every diagram that fits the three statements. Answer: Only conclusion II follows."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Statements:\n1. Some cats are dogs.\n2. All dogs are birds.\n3. No birds are fish.\n\nConclusions:\nI. Some cats are not fish.\nII. Some dogs are not fish.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "Conclusion I (\"Some cats are not fish.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"Some dogs are not fish.\") follows: it is true in every diagram that fits the three statements. Answer: Both conclusions follow."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Statements:\n1. Some cats are dogs.\n2. All dogs are birds.\n3. No birds are fish.\n\nConclusions:\nI. Some cats are not dogs.\nII. All cats are birds.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Neither conclusion follows",
+        "Only conclusion I follows",
+        "Only conclusion II follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "Conclusion I (\"Some cats are not dogs.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"All cats are birds.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Neither conclusion follows."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Statements:\n1. All doctors are teachers.\n2. All teachers are artists.\n3. No artists are clerks.\n\nConclusions:\nI. All doctors are artists.\nII. Some teachers are not doctors.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conclusion I (\"All doctors are artists.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"Some teachers are not doctors.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Statements:\n1. All doctors are teachers.\n2. All teachers are artists.\n3. No artists are clerks.\n\nConclusions:\nI. All teachers are doctors.\nII. Some doctors are artists.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Neither conclusion follows",
+        "Only conclusion II follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "Conclusion I (\"All teachers are doctors.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"Some doctors are artists.\") follows: it is true in every diagram that fits the three statements. Answer: Only conclusion II follows."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Statements:\n1. All doctors are teachers.\n2. All teachers are artists.\n3. No artists are clerks.\n\nConclusions:\nI. All doctors are artists.\nII. Some doctors are artists.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither conclusion follows",
+        "Both conclusions follow"
+      ],
+      "answerIndex": 3,
+      "explanation": "Conclusion I (\"All doctors are artists.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"Some doctors are artists.\") follows: it is true in every diagram that fits the three statements. Answer: Both conclusions follow."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Statements:\n1. Some roses are flowers.\n2. All flowers are red things.\n3. All red things are bright things.\n\nConclusions:\nI. All roses are flowers.\nII. Some roses are not flowers.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Neither conclusion follows",
+        "Only conclusion II follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "Conclusion I (\"All roses are flowers.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"Some roses are not flowers.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Neither conclusion follows."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Statements:\n1. Some roses are flowers.\n2. All flowers are red things.\n3. All red things are bright things.\n\nConclusions:\nI. Some roses are bright things.\nII. All roses are red things.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "Conclusion I (\"Some roses are bright things.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"All roses are red things.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Statements:\n1. Some roses are flowers.\n2. All flowers are red things.\n3. All red things are bright things.\n\nConclusions:\nI. All roses are flowers.\nII. Some flowers are bright things.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion II follows",
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conclusion I (\"All roses are flowers.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"Some flowers are bright things.\") follows: it is true in every diagram that fits the three statements. Answer: Only conclusion II follows."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Statements:\n1. Some mangoes are fruits.\n2. All fruits are sweet things.\n3. No sweet things are sour things.\n\nConclusions:\nI. Some fruits are not sour things.\nII. No fruits are sour things.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conclusion I (\"Some fruits are not sour things.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"No fruits are sour things.\") follows: it is true in every diagram that fits the three statements. Answer: Both conclusions follow."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Statements:\n1. Some mangoes are fruits.\n2. All fruits are sweet things.\n3. No sweet things are sour things.\n\nConclusions:\nI. Some mangoes are not fruits.\nII. Some mangoes are sour things.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "Conclusion I (\"Some mangoes are not fruits.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"Some mangoes are sour things.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Neither conclusion follows."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Statements:\n1. All lions are animals.\n2. No animals are stones.\n3. Some hunters are lions.\n\nConclusions:\nI. Some lions are not stones.\nII. All lions are hunters.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "Conclusion I (\"Some lions are not stones.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"All lions are hunters.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Only conclusion I follows."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Statements:\n1. All lions are animals.\n2. No animals are stones.\n3. Some hunters are lions.\n\nConclusions:\nI. All animals are lions.\nII. No lions are stones.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "Conclusion I (\"All animals are lions.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"No lions are stones.\") follows: it is true in every diagram that fits the three statements. Answer: Only conclusion II follows."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Statements:\n1. All lions are animals.\n2. No animals are stones.\n3. Some hunters are lions.\n\nConclusions:\nI. No lions are stones.\nII. Some animals are hunters.\n\nWhich of the following is correct?",
+      "options": [
+        "Only conclusion I follows",
+        "Both conclusions follow",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "Conclusion I (\"No lions are stones.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"Some animals are hunters.\") follows: it is true in every diagram that fits the three statements. Answer: Both conclusions follow."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Statements:\n1. All lions are animals.\n2. No animals are stones.\n3. Some hunters are lions.\n\nConclusions:\nI. Some lions are not hunters.\nII. Some animals are not lions.\n\nWhich of the following is correct?",
+      "options": [
+        "Neither conclusion follows",
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Only conclusion II follows"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conclusion I (\"Some lions are not hunters.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Conclusion II (\"Some animals are not lions.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Neither conclusion follows."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Statements:\n1. All doctors are teachers.\n2. All teachers are artists.\n3. No artists are clerks.\n\nConclusions:\nI. Some doctors are not artists.\nII. No doctors are artists.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 3,
+      "explanation": "Conclusion I (\"Some doctors are not artists.\") does not follow: it contradicts the statements. Conclusion II (\"No doctors are artists.\") does not follow: it contradicts the statements. Answer: Neither conclusion follows."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Statements:\n1. Some mangoes are fruits.\n2. All fruits are sweet things.\n3. No sweet things are sour things.\n\nConclusions:\nI. No fruits are sour things.\nII. All mangoes are sweet things.\n\nWhich of the following is correct?",
+      "options": [
+        "Both conclusions follow",
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Neither conclusion follows"
+      ],
+      "answerIndex": 2,
+      "explanation": "Conclusion I (\"No fruits are sour things.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"All mangoes are sweet things.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Only conclusion I follows."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/syllogism/"
+}
