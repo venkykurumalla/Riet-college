@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-adv-train-problems",
+  "topicTitle": "Advanced Train Problems — Two Moving Trains",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Two trains of 120 m and 90 m run in opposite directions at 72 and 54 km/h. They cross in (seconds)",
+      "options": [
+        "4",
+        "6",
+        "7.5",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "Relative speed = 126 km/h = 35 m/s; 210 ÷ 35 = 6."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A 150 m train at 72 km/h overtakes a 100 m train at 54 km/h. The time is (seconds)",
+      "options": [
+        "50",
+        "25",
+        "35",
+        "70"
+      ],
+      "answerIndex": 0,
+      "explanation": "Relative speed 5 m/s; 250 ÷ 5 = 50."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A train 180 m long passes a pole in 18 s. Its speed in km/h is",
+      "options": [
+        "30",
+        "54",
+        "72",
+        "36"
+      ],
+      "answerIndex": 3,
+      "explanation": "180 ÷ 18 = 10 m/s = 36 km/h."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A 200 m train at 20 m/s crosses a 300 m bridge in (seconds)",
+      "options": [
+        "10",
+        "15",
+        "25",
+        "20"
+      ],
+      "answerIndex": 2,
+      "explanation": "500 ÷ 20 = 25."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A 100 m train at 54 km/h passes a man walking in the opposite direction at 6 km/h in (seconds)",
+      "options": [
+        "5",
+        "7",
+        "6",
+        "8"
+      ],
+      "answerIndex": 2,
+      "explanation": "Relative speed 60 km/h = 50/3 m/s; 100 ÷ (50/3) = 6."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Two equal trains of 100 m each cross in 10 s moving oppositely at equal speeds. Each speed is (m/s)",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "answerIndex": 1,
+      "explanation": "Relative speed = 200/10 = 20 m/s, so each is 10."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A train takes 18 s to pass a pole and 27 s to pass a 90 m platform. Its length is (metres)",
+      "options": [
+        "180",
+        "135",
+        "150",
+        "270"
+      ],
+      "answerIndex": 0,
+      "explanation": "L/18 = (L + 90)/27 gives L = 180."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A train leaves X at 60 km/h. One hour later another leaves Y (300 km away) at 40 km/h towards X. They meet at a distance from X of (km)",
+      "options": [
+        "180",
+        "200",
+        "240",
+        "204"
+      ],
+      "answerIndex": 3,
+      "explanation": "60 km in the first hour; the rest 240 closes at 100 km/h in 2.4 h; first train travels 3.4 h × 60 = 204."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Two trains run at 60 and 90 km/h in the same direction and cross in 30 s. The sum of their lengths is (metres)",
+      "options": [
+        "150",
+        "200",
+        "300",
+        "250"
+      ],
+      "answerIndex": 3,
+      "explanation": "Relative speed 30 km/h = 25/3 m/s; × 30 = 250."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A 150 m train at 36 km/h takes 40 s to cross a bridge. The bridge is (metres)",
+      "options": [
+        "200",
+        "300",
+        "250",
+        "400"
+      ],
+      "answerIndex": 2,
+      "explanation": "10 × 40 = 400; 400 − 150 = 250."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A train crosses a 120 m platform in 15 s and a 180 m platform in 20 s. Its length is (metres)",
+      "options": [
+        "50",
+        "60",
+        "80",
+        "100"
+      ],
+      "answerIndex": 1,
+      "explanation": "Speed = 60/5 = 12 m/s; L = 12 × 15 − 120 = 60."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Two trains of lengths 200 m and 300 m start from opposite ends and cross in 10 s. If the first goes at 20 m/s, the second goes at (m/s)",
+      "options": [
+        "30",
+        "25",
+        "35",
+        "40"
+      ],
+      "answerIndex": 0,
+      "explanation": "Relative speed 50 m/s; second = 30."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A train 100 m long passes a man running in the same direction at 6 km/h in 10 s. The speed of the train is (km/h)",
+      "options": [
+        "42",
+        "36",
+        "40",
+        "48"
+      ],
+      "answerIndex": 0,
+      "explanation": "Relative speed 10 m/s = 36 km/h; train = 42 km/h."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A train at 54 km/h crosses a platform in 30 s and a man on the platform in 18 s. The length of the platform is (metres)",
+      "options": [
+        "150",
+        "200",
+        "270",
+        "180"
+      ],
+      "answerIndex": 3,
+      "explanation": "Speed 15 m/s. Train = 270 m; platform = 450 − 270 = 180."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Trains A and B start together from two stations 300 km apart towards each other. After meeting, A takes 4 h and B takes 9 h to reach the opposite stations. The ratio of speeds A : B is",
+      "options": [
+        "2 : 3",
+        "4 : 9",
+        "3 : 2",
+        "9 : 4"
+      ],
+      "answerIndex": 2,
+      "explanation": "Speed ratio = √t_B : √t_A = √9 : √4 = 3 : 2."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A train 300 m long passes a platform in 36 s and a pole in 18 s. The length of the platform is (metres)",
+      "options": [
+        "150",
+        "300",
+        "250",
+        "600"
+      ],
+      "answerIndex": 1,
+      "explanation": "Speed = 300/18 = 50/3 m/s; in 36 s it covers 600 m; platform = 300."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Two trains of lengths 150 m and 100 m run in opposite directions on parallel tracks. A man in the shorter train notices the longer train pass him in 6 s. The speed of the longer train relative to the man is (m/s)",
+      "options": [
+        "20",
+        "25",
+        "26",
+        "30"
+      ],
+      "answerIndex": 1,
+      "explanation": "150 ÷ 6 = 25."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A train travelling at 72 km/h passes a 250 m platform in 20 s. Its length is (metres)",
+      "options": [
+        "150",
+        "100",
+        "151",
+        "200"
+      ],
+      "answerIndex": 0,
+      "explanation": "Distance = 20 × 20 = 400 m. Length = 400 − 250 = 150."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A goods train leaves a station at 6 a.m. at 40 km/h. An express leaves the same station at 7 a.m. at 60 km/h on the same track. The express catches the goods train at (a.m.)",
+      "options": [
+        "8",
+        "10",
+        "11",
+        "9"
+      ],
+      "answerIndex": 3,
+      "explanation": "Head start 40 km. Gain 20 km/h: 2 h after 7 a.m., i.e. 9 a.m."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Two trains of equal length take 10 s and 15 s to cross a pole. They cross each other in 12 s running in the opposite directions. The ratio of their speeds is",
+      "options": [
+        "5 : 4",
+        "4 : 3",
+        "3 : 2",
+        "2 : 1"
+      ],
+      "answerIndex": 2,
+      "explanation": "Speeds ∝ 1/time = 1/10 : 1/15 = 3 : 2."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/problems-on-trains/"
+}
