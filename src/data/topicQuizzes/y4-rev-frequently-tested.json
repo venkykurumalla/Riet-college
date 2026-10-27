@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-rev-frequently-tested",
+  "topicTitle": "Most Frequently Tested Topics",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "28 of 40 percentage questions correct give an accuracy of",
+      "options": [
+        "77%",
+        "70%",
+        "63%",
+        "88%"
+      ],
+      "answerIndex": 1,
+      "explanation": "28 ÷ 40 = 70%."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "8 of 20 seating puzzles correct give an accuracy of",
+      "options": [
+        "40%",
+        "44%",
+        "36%",
+        "50%"
+      ],
+      "answerIndex": 0,
+      "explanation": "8 ÷ 20 = 40%."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "With a 90% target and 70% accuracy, the gap in percentage points is",
+      "options": [
+        "22",
+        "18",
+        "25",
+        "20"
+      ],
+      "answerIndex": 3,
+      "explanation": "90 − 70 = 20."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "With a 90% target and 40% accuracy, the gap is",
+      "options": [
+        "55",
+        "45",
+        "50",
+        "63"
+      ],
+      "answerIndex": 2,
+      "explanation": "90 − 40 = 50."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The expected gain over 40 questions with a 20-point gap is (marks)",
+      "options": [
+        "9",
+        "7",
+        "8",
+        "10"
+      ],
+      "answerIndex": 2,
+      "explanation": "40 × 0.2 = 8."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The expected gain over 20 questions with a 50-point gap is (marks)",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "13"
+      ],
+      "answerIndex": 1,
+      "explanation": "20 × 0.5 = 10."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Closing a gap worth 8 marks takes 8 hours. The priority (marks per hour) is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "8 ÷ 8 = 1."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Closing a gap worth 10 marks takes 20 hours. The priority (marks per hour) is",
+      "options": [
+        "0.6",
+        "0.4",
+        "0.8",
+        "0.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "10 ÷ 20 = 0.5."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Which topic should be studied first?",
+      "options": [
+        "The one worth 10 marks in 20 hours",
+        "Either, at random",
+        "Neither",
+        "The one worth 8 marks in 8 hours"
+      ],
+      "answerIndex": 3,
+      "explanation": "1 mark per hour beats 0.5."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A topic appeared 30 times with 21 correct. The accuracy is",
+      "options": [
+        "77%",
+        "63%",
+        "70%",
+        "88%"
+      ],
+      "answerIndex": 2,
+      "explanation": "21 ÷ 30 = 70%."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "With a 85% target, the gap for that topic is",
+      "options": [
+        "17",
+        "15",
+        "14",
+        "19"
+      ],
+      "answerIndex": 1,
+      "explanation": "85 − 70 = 15."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Its expected gain over 30 questions is (marks, one decimal)",
+      "options": [
+        "4.5",
+        "5",
+        "4.1",
+        "5.6"
+      ],
+      "answerIndex": 0,
+      "explanation": "30 × 0.15 = 4.5."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "If 6 hours are needed to close it, the priority (marks per hour) is",
+      "options": [
+        "0.75",
+        "0.83",
+        "0.68",
+        "0.94"
+      ],
+      "answerIndex": 0,
+      "explanation": "4.5 ÷ 6 = 0.75."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Three topics have gains of 8, 10 and 4.5 marks. The total expected gain is",
+      "options": [
+        "24.8",
+        "20.3",
+        "28.1",
+        "22.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "8 + 10 + 4.5 = 22.5."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Which statement about \"most frequently tested topics\" is the most reliable?",
+      "options": [
+        "Trust a forum's top-five list",
+        "Copy last year's rumour",
+        "Build your own list from your mocks and the official syllabus",
+        "Assume all employers test the same topics"
+      ],
+      "answerIndex": 2,
+      "explanation": "Frequencies depend on employer and year, and public counts are not reliable."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Studying hours split in proportion to gains 8, 10 and 4.5 over 45 hours gives the second topic about (hours, one decimal)",
+      "options": [
+        "22",
+        "20",
+        "18",
+        "25"
+      ],
+      "answerIndex": 1,
+      "explanation": "45 × 10 ÷ 22.5 = 20."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "After a new mock your accuracy in a topic rises from 70% to 85%. You should",
+      "options": [
+        "ignore it",
+        "recompute the gap and re-rank",
+        "drop the topic forever",
+        "keep the old ranking"
+      ],
+      "answerIndex": 1,
+      "explanation": "Priorities change as accuracy changes."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A topic with only 5 questions in your mocks and 4 correct shows accuracy of",
+      "options": [
+        "80%",
+        "88%",
+        "72%",
+        "100%"
+      ],
+      "answerIndex": 0,
+      "explanation": "4 ÷ 5 = 80%, but with so few questions the estimate is noisy."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "To make that estimate reliable you should",
+      "options": [
+        "trust it",
+        "ignore the topic",
+        "wait for the real test",
+        "add practice-set questions in that topic"
+      ],
+      "answerIndex": 3,
+      "explanation": "More questions reduce noise."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Foundational topics such as percentages and ratios are best treated as",
+      "options": [
+        "optional",
+        "low priority always",
+        "worth studying regardless, because they support many other topics",
+        "tested only once"
+      ],
+      "answerIndex": 2,
+      "explanation": "Core topics underpin many questions."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-rev-mock-analysis",
+  "topicTitle": "Mock Test Analysis Methodology",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Aptitude: 18 attempted and 14 correct. The accuracy is (%, one decimal)",
+      "options": [
+        "85.6%",
+        "77.8%",
+        "70%",
+        "97.3%"
+      ],
+      "answerIndex": 1,
+      "explanation": "14 ÷ 18 = 77.8%."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Reasoning: 12 attempted and 9 correct. The accuracy is (%)",
+      "options": [
+        "75%",
+        "83%",
+        "68%",
+        "94%"
+      ],
+      "answerIndex": 0,
+      "explanation": "9 ÷ 12 = 75%."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Verbal: 25 attempted and 15 correct. The accuracy is (%)",
+      "options": [
+        "66%",
+        "54%",
+        "75%",
+        "60%"
+      ],
+      "answerIndex": 3,
+      "explanation": "15 ÷ 25 = 60%."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Aptitude: 25 minutes for 18 attempted questions gives a time per question of (seconds, nearest whole)",
+      "options": [
+        "91",
+        "75",
+        "83",
+        "104"
+      ],
+      "answerIndex": 2,
+      "explanation": "1,500 ÷ 18 = 83.3."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Verbal: 20 minutes for 25 attempted questions gives (seconds)",
+      "options": [
+        "53",
+        "43",
+        "48",
+        "60"
+      ],
+      "answerIndex": 2,
+      "explanation": "1,200 ÷ 25 = 48."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Aptitude: 18 attempted and 14 correct means wrong answers of",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "18 − 14 = 4."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "With penalty 0.25, Aptitude net marks are",
+      "options": [
+        "13",
+        "14",
+        "12",
+        "16"
+      ],
+      "answerIndex": 0,
+      "explanation": "14 − 1 = 13."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Reasoning: 12 attempted, 9 correct, penalty 0.25. Net marks are",
+      "options": [
+        "9.08",
+        "7.43",
+        "10.31",
+        "8.25"
+      ],
+      "answerIndex": 3,
+      "explanation": "9 − 0.75 = 8.25."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Verbal: 25 attempted, 15 correct, penalty 0.25. Net marks are",
+      "options": [
+        "13.8",
+        "11.3",
+        "15.6",
+        "12.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "15 − 2.5 = 12.5."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The total net marks over the three sections are",
+      "options": [
+        "37.13",
+        "30.38",
+        "33.75",
+        "42.19"
+      ],
+      "answerIndex": 2,
+      "explanation": "13 + 8.25 + 12.5 = 33.75."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The total wrong answers over the three sections are",
+      "options": [
+        "19",
+        "17",
+        "15",
+        "21"
+      ],
+      "answerIndex": 1,
+      "explanation": "4 + 3 + 10 = 17."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Of 12 classified errors, 5 were careless. The share of careless errors (%, one decimal) is",
+      "options": [
+        "41.7%",
+        "45.9%",
+        "37.5%",
+        "52.1%"
+      ],
+      "answerIndex": 0,
+      "explanation": "5 ÷ 12 = 41.7%."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Reasoning: 15 questions, 12 attempted. The skipped questions are",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "15 − 12 = 3."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The attempt rate in Reasoning (%) is",
+      "options": [
+        "88%",
+        "72%",
+        "100%",
+        "80%"
+      ],
+      "answerIndex": 3,
+      "explanation": "12 ÷ 15 = 80%."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Which section shows the weakest accuracy?",
+      "options": [
+        "Aptitude",
+        "Reasoning",
+        "Verbal",
+        "All equal"
+      ],
+      "answerIndex": 2,
+      "explanation": "Verbal 60% is below 75% and 77.8%."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Which error type is the largest in the illustrative classification (5 careless, 3 misread, 2 guessed, 2 could not do)?",
+      "options": [
+        "Misread",
+        "Careless",
+        "Guessed",
+        "Could not do"
+      ],
+      "answerIndex": 1,
+      "explanation": "Careless errors: 5 of 12."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Marks lost to careless errors at 1.25 per wrong answer (1 mark lost plus 0.25 penalty) are",
+      "options": [
+        "6.88",
+        "6.25",
+        "5.63",
+        "7.81"
+      ],
+      "answerIndex": 1,
+      "explanation": "5 × 1.25 = 6.25."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The most useful next step after the analysis is to",
+      "options": [
+        "write a specific plan targeting the biggest cause",
+        "take another mock at once",
+        "ignore the wrong answers",
+        "memorise answers"
+      ],
+      "answerIndex": 0,
+      "explanation": "Analysis is useful only if it changes your practice."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "If a 10-second check removed half the careless errors, the marks gained (at 1.25 each) would be",
+      "options": [
+        "3.4",
+        "2.8",
+        "3.9",
+        "3.1"
+      ],
+      "answerIndex": 3,
+      "explanation": "2.5 × 1.25 = 3.125, about 3.1."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "When should you analyse a mock?",
+      "options": [
+        "After a month",
+        "Never",
+        "Soon after taking it, while details are fresh",
+        "Only after the real test"
+      ],
+      "answerIndex": 2,
+      "explanation": "Prompt analysis works best."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

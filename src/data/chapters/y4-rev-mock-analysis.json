@@ -1,0 +1,422 @@
+{
+  "id": "y4-rev-mock-analysis",
+  "yearId": 4,
+  "category": "Mock Test & Revision Preparation",
+  "topicNumber": 52,
+  "title": "Mock Test Analysis Methodology",
+  "tagline": "Year 4 — Turning a mock test into a diagnosis: sectional accuracy, time per question, error types and an improvement plan",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A mock test is useful only if you analyse it. The analysis has four parts: scores and accuracy by section, time per question by section, a classification of every wrong or skipped question (could not do, careless, ran out of time, misread, guessed), and a specific plan for the next week. This chapter works through the arithmetic of the analysis on an illustrative mock. The figures in this chapter's examples are illustrative and not real test statistics.",
+    "placementRelevance": "Candidates who analyse every mock improve faster than those who take more mocks without analysis.",
+    "realWorldContext": "Post-mortems and retrospectives are the standard way teams learn."
+  },
+  "learningObjectives": [
+    "Compute sectional accuracy and attempts",
+    "Compute time per question",
+    "Classify errors",
+    "Identify the biggest loss of marks",
+    "Write a specific plan for the next mock"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Accuracy Management Under Pressure",
+      "Most Frequently Tested Topics"
+    ],
+    "quickRefresher": "Accuracy = correct ÷ attempted. Time per question = time ÷ attempted. Marks lost = wrong × penalty + missed."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Attempts: questions answered.",
+      "Accuracy: correct ÷ attempted.",
+      "Careless error: an error you could have avoided.",
+      "Skipped-but-solvable: a skip you could have solved in time.",
+      "Plan: a specific action for the next week."
+    ],
+    "theoreticalIntuition": "Analysis turns a score into causes, and causes into actions.",
+    "visualOrMentalModel": "Fill a table: attempts, correct, time per section; tag each wrong answer; pick the biggest cause."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Accuracy",
+      "formula": "Correct ÷ attempted",
+      "description": "Each section.",
+      "whenToUse": "Quality.",
+      "simpleExample": "18 ÷ 22"
+    },
+    {
+      "title": "Time per question",
+      "formula": "Time ÷ attempted",
+      "description": "Each section.",
+      "whenToUse": "Pace.",
+      "simpleExample": "1,500 ÷ 22"
+    },
+    {
+      "title": "Net marks",
+      "formula": "Correct − penalty × wrong",
+      "description": "Each section.",
+      "whenToUse": "Score.",
+      "simpleExample": "18 − 4 × 0.25"
+    },
+    {
+      "title": "Error share",
+      "formula": "Type ÷ total errors",
+      "description": "Classification.",
+      "whenToUse": "Priority.",
+      "simpleExample": "5 ÷ 12"
+    },
+    {
+      "title": "Marks lost to cause",
+      "formula": "Count × marks",
+      "description": "Plan.",
+      "whenToUse": "Priority.",
+      "simpleExample": "5 × 1.25"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Illustrative mock: Aptitude 20 questions in 25 minutes: attempted 18, correct 14, wrong 4. Accuracy 14 ÷ 18 = 77.8%; time per attempted question 1,500 ÷ 18 = 83 s; net marks (penalty 0.25) = 14 − 1 = 13.",
+      "Reasoning 15 in 20 minutes: attempted 12, correct 9: accuracy 75%.",
+      "Verbal 25 in 20 minutes: attempted 25, correct 15: accuracy 60%, time per question 48 s.",
+      "Classify the 12 wrong answers: 5 careless, 3 misread, 2 guessed, 2 could not do: careless errors are the largest cause.",
+      "Plan: add a 10-second check for units and last digit; practise reading stems twice; take one timed verbal drill daily."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Marks lost vs marks missed",
+        "content": "A wrong answer loses marks plus the penalty; a skipped question loses only the opportunity."
+      },
+      {
+        "title": "Trend over mocks",
+        "content": "One mock is noisy; compare the last three."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Sectional accuracy",
+      "description": "Per section.",
+      "exampleSnippet": "77.8%"
+    },
+    {
+      "typeName": "Time per question",
+      "description": "Pace.",
+      "exampleSnippet": "83 s"
+    },
+    {
+      "typeName": "Error types",
+      "description": "Classify.",
+      "exampleSnippet": "Careless 5"
+    },
+    {
+      "typeName": "Net marks",
+      "description": "After penalty.",
+      "exampleSnippet": "13"
+    },
+    {
+      "typeName": "Plan",
+      "description": "Specific actions.",
+      "exampleSnippet": "Checks"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rev-mock-analysis-1",
+      "title": "Accuracy",
+      "question": "Aptitude: 18 attempted, 14 correct. Accuracy?",
+      "givenInfo": [
+        "18",
+        "14"
+      ],
+      "conceptOrFormula": "Correct over attempted.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "14 ÷ 18 = 0.778."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "77.8%."
+        }
+      ],
+      "finalAnswer": "77.8%",
+      "whyItWorks": "Base is attempted.",
+      "commonTrap": "Dividing by 20.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rev-mock-analysis-2",
+      "title": "Time per question",
+      "question": "Aptitude 25 minutes, 18 attempted. Time per attempted question?",
+      "givenInfo": [
+        "25 min",
+        "18"
+      ],
+      "conceptOrFormula": "Seconds ÷ attempts.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Seconds",
+          "explanation": "25 × 60 = 1,500."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide",
+          "explanation": "1,500 ÷ 18 = 83 s."
+        }
+      ],
+      "finalAnswer": "83 seconds",
+      "whyItWorks": "Compare with plan.",
+      "commonTrap": "Using 20 questions.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rev-mock-analysis-3",
+      "title": "Error share",
+      "question": "5 of 12 errors were careless. Share?",
+      "givenInfo": [
+        "5",
+        "12"
+      ],
+      "conceptOrFormula": "Part over total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "5 ÷ 12 = 0.417."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "41.7%."
+        }
+      ],
+      "finalAnswer": "41.7%",
+      "whyItWorks": "Largest cause.",
+      "commonTrap": "Dividing by 5.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Numbers, causes, plan",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Look at the total score.",
+      "shortcutMethod": "Compute sectional accuracy and pace, classify every wrong answer, and write one specific plan."
+    },
+    "rulesForApplication": [
+      "Section by section.",
+      "Classify errors.",
+      "Biggest cause first.",
+      "Specific plan."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Looking only at the total",
+      "whyItHappens": "No diagnosis.",
+      "howToAvoid": "Analyse by section."
+    },
+    {
+      "mistake": "Not classifying errors",
+      "whyItHappens": "No fix.",
+      "howToAvoid": "Tag each wrong answer."
+    },
+    {
+      "mistake": "Vague plans",
+      "whyItHappens": "No change.",
+      "howToAvoid": "Write specific actions."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 0,
+    "eliminationTechnique": "N/A.",
+    "questionSelectionAdvice": "Analyse within 24 hours of the mock.",
+    "recruiterInsight": "The same error type repeating is the plan."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rev-mock-analysis-e1",
+        "question": "Aptitude: 18 attempted and 14 correct. The accuracy is (%, one decimal)",
+        "options": [
+          "85.6%",
+          "77.8%",
+          "70%",
+          "97.3%"
+        ],
+        "correctAnswer": "77.8%",
+        "explanation": "14 ÷ 18 = 77.8%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-mock-analysis-e2",
+        "question": "Reasoning: 12 attempted and 9 correct. The accuracy is (%)",
+        "options": [
+          "75%",
+          "83%",
+          "68%",
+          "94%"
+        ],
+        "correctAnswer": "75%",
+        "explanation": "9 ÷ 12 = 75%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-mock-analysis-e3",
+        "question": "Verbal: 25 attempted and 15 correct. The accuracy is (%)",
+        "options": [
+          "66%",
+          "54%",
+          "75%",
+          "60%"
+        ],
+        "correctAnswer": "60%",
+        "explanation": "15 ÷ 25 = 60%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rev-mock-analysis-i7",
+        "question": "With penalty 0.25, Aptitude net marks are",
+        "options": [
+          "13",
+          "14",
+          "12",
+          "16"
+        ],
+        "correctAnswer": "13",
+        "explanation": "14 − 1 = 13.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-mock-analysis-i8",
+        "question": "Reasoning: 12 attempted, 9 correct, penalty 0.25. Net marks are",
+        "options": [
+          "9.08",
+          "7.43",
+          "10.31",
+          "8.25"
+        ],
+        "correctAnswer": "8.25",
+        "explanation": "9 − 0.75 = 8.25.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-mock-analysis-i9",
+        "question": "Verbal: 25 attempted, 15 correct, penalty 0.25. Net marks are",
+        "options": [
+          "13.8",
+          "11.3",
+          "15.6",
+          "12.5"
+        ],
+        "correctAnswer": "12.5",
+        "explanation": "15 − 2.5 = 12.5.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rev-mock-analysis-a15",
+        "question": "Which section shows the weakest accuracy?",
+        "options": [
+          "Aptitude",
+          "Reasoning",
+          "Verbal",
+          "All equal"
+        ],
+        "correctAnswer": "Verbal",
+        "explanation": "Verbal 60% is below 75% and 77.8%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-mock-analysis-a16",
+        "question": "Which error type is the largest in the illustrative classification (5 careless, 3 misread, 2 guessed, 2 could not do)?",
+        "options": [
+          "Misread",
+          "Careless",
+          "Guessed",
+          "Could not do"
+        ],
+        "correctAnswer": "Careless",
+        "explanation": "Careless errors: 5 of 12.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rev-mock-analysis-p17",
+        "question": "Marks lost to careless errors at 1.25 per wrong answer (1 mark lost plus 0.25 penalty) are",
+        "options": [
+          "6.88",
+          "6.25",
+          "5.63",
+          "7.81"
+        ],
+        "correctAnswer": "6.25",
+        "explanation": "5 × 1.25 = 6.25.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-mock-analysis-p18",
+        "question": "The most useful next step after the analysis is to",
+        "options": [
+          "write a specific plan targeting the biggest cause",
+          "take another mock at once",
+          "ignore the wrong answers",
+          "memorise answers"
+        ],
+        "correctAnswer": "write a specific plan targeting the biggest cause",
+        "explanation": "Analysis is useful only if it changes your practice.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-mock-analysis-p19",
+        "question": "If a 10-second check removed half the careless errors, the marks gained (at 1.25 each) would be",
+        "options": [
+          "3.4",
+          "2.8",
+          "3.9",
+          "3.1"
+        ],
+        "correctAnswer": "3.1",
+        "explanation": "2.5 × 1.25 = 3.125, about 3.1.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Accuracy.",
+      "Pace.",
+      "Classify.",
+      "Biggest cause.",
+      "Plan."
+    ],
+    "quickFormulas": [
+      "Accuracy = correct/attempted"
+    ]
+  },
+  "keyTakeaways": [
+    "Sections.",
+    "Classify.",
+    "Prioritise.",
+    "Plan."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute sectional accuracy?",
+    "Can I classify errors?",
+    "Can I write a plan?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Revision of standard topic areas; the tables, traps and examples in this chapter are original."
+    }
+  ]
+}

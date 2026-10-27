@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-rev-full-length-practice",
+  "topicTitle": "Full-Length Practice Test Strategy",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "2 mocks a week for 4 weeks give a number of mocks of",
+      "options": [
+        "9",
+        "8",
+        "7",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "2 × 4 = 8."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A 65-minute mock with an equal review takes (minutes)",
+      "options": [
+        "130",
+        "143",
+        "117",
+        "163"
+      ],
+      "answerIndex": 0,
+      "explanation": "65 + 65 = 130."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "8 mocks of 130 minutes each take (minutes)",
+      "options": [
+        "1144",
+        "936",
+        "1300",
+        "1040"
+      ],
+      "answerIndex": 3,
+      "explanation": "8 × 130 = 1,040."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "1,040 minutes in hours (one decimal) is",
+      "options": [
+        "19",
+        "15.6",
+        "17.3",
+        "21.6"
+      ],
+      "answerIndex": 2,
+      "explanation": "1,040 ÷ 60 = 17.3."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "28 days with 8 mocks give a spacing of (days)",
+      "options": [
+        "3.9",
+        "3.2",
+        "3.5",
+        "4.4"
+      ],
+      "answerIndex": 2,
+      "explanation": "28 ÷ 8 = 3.5."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Accuracy rising from 58% to 70% is a rise of (points)",
+      "options": [
+        "13",
+        "12",
+        "11",
+        "15"
+      ],
+      "answerIndex": 1,
+      "explanation": "70 − 58 = 12."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Accuracy of 58%, 62%, 66% and 70% over four mocks rises by how many points per mock?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answerIndex": 0,
+      "explanation": "12 ÷ 3 = 4."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "If the trend continues, the accuracy in the fifth mock is (%)",
+      "options": [
+        "81%",
+        "67%",
+        "93%",
+        "74%"
+      ],
+      "answerIndex": 3,
+      "explanation": "70 + 4 = 74."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A mock of 65 minutes and a review of 1.5 times its length take (minutes)",
+      "options": [
+        "178.8",
+        "146.3",
+        "203.1",
+        "162.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "65 + 97.5 = 162.5."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "6 mocks with that 162.5 minutes each take (hours, one decimal)",
+      "options": [
+        "17.9",
+        "14.7",
+        "16.3",
+        "20.4"
+      ],
+      "answerIndex": 2,
+      "explanation": "975 ÷ 60 = 16.3 (16.25)."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The review of a mock should take",
+      "options": [
+        "a minute",
+        "at least as long as the test itself",
+        "no time",
+        "less than a tenth of the test"
+      ],
+      "answerIndex": 1,
+      "explanation": "Review is where improvement happens."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Real conditions for a mock mean",
+      "options": [
+        "the same timing, device and rules as the real test",
+        "any convenient setting",
+        "no timer",
+        "open notes"
+      ],
+      "answerIndex": 0,
+      "explanation": "The mock must represent the real test."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "With 3 weeks left and 2 mocks a week, the mocks left are",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "3 × 2 = 6."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "If you skip the 2 days before the test for tapering from a 21-day plan, the days of mock work are",
+      "options": [
+        "21",
+        "17",
+        "24",
+        "19"
+      ],
+      "answerIndex": 3,
+      "explanation": "21 − 2 = 19."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "What is the best use of the last two days?",
+      "options": [
+        "two full mocks",
+        "learning new topics",
+        "Light revision, rest and sleep",
+        "no preparation or rest"
+      ],
+      "answerIndex": 2,
+      "explanation": "A taper protects freshness."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Two analysed mocks improve your accuracy by 4 points each; four unanalysed mocks improve it by 1 point each. The improvement from the analysed approach is more by (points)",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "8 − 4 = 4."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Which is the better approach?",
+      "options": [
+        "More mocks with no review",
+        "Fewer mocks with careful review",
+        "Only reading answers",
+        "Never taking mocks"
+      ],
+      "answerIndex": 1,
+      "explanation": "Analysis drives improvement."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A section has 30 questions in 40 minutes. In a mock you take 44 minutes. The overrun in seconds is",
+      "options": [
+        "240",
+        "264",
+        "216",
+        "300"
+      ],
+      "answerIndex": 0,
+      "explanation": "4 × 60 = 240."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Taking all mocks in a quiet room but sitting the real test in a noisy hall is",
+      "options": [
+        "perfect",
+        "irrelevant",
+        "an advantage",
+        "a condition mismatch to avoid where possible"
+      ],
+      "answerIndex": 3,
+      "explanation": "Practise under conditions close to the real test."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The purpose of the final mock before the test is mainly",
+      "options": [
+        "to discover new topics",
+        "to replace revision",
+        "to build confidence and rehearse the plan",
+        "to increase stress"
+      ],
+      "answerIndex": 2,
+      "explanation": "Late discovery causes anxiety; late rehearsal builds confidence."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

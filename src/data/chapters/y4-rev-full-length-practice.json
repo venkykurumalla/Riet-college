@@ -1,0 +1,421 @@
+{
+  "id": "y4-rev-full-length-practice",
+  "yearId": 4,
+  "category": "Mock Test & Revision Preparation",
+  "topicNumber": 53,
+  "title": "Full-Length Practice Test Strategy",
+  "tagline": "Year 4 — Planning a series of full-length mocks: spacing, timing, conditions, review time and a taper before the real test",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Full-length practice tests build stamina and test your plan under real conditions. How you use them matters: take them under real timing and conditions, review each one for as long as it took to attempt (or longer), space them so that review and specific practice fit in between, and taper in the last days. This chapter works through the arithmetic of a schedule and gives a checklist for each mock. The figures in this chapter's examples are illustrative and not real test statistics.",
+    "placementRelevance": "A planned series of mocks beats an ad-hoc pile of mocks.",
+    "realWorldContext": "Rehearsals before an important event follow the same pattern."
+  },
+  "learningObjectives": [
+    "Plan the number and spacing of mocks",
+    "Set real conditions",
+    "Allocate review time",
+    "Compare mocks over time",
+    "Taper before the real test"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Mock Test Analysis Methodology",
+      "Time Triage and Question Selection"
+    ],
+    "quickRefresher": "Review time should be at least equal to attempt time."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Full-length mock: a complete test under timed conditions.",
+      "Real conditions: same timing, device and rules.",
+      "Review ratio: review time ÷ test time.",
+      "Taper: lighter practice just before the real test.",
+      "Trend: pattern across several mocks."
+    ],
+    "theoreticalIntuition": "A mock tests the plan; the review improves it.",
+    "visualOrMentalModel": "Schedule mocks, protect review time, compare trends, taper at the end."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Review time",
+      "formula": "At least test time",
+      "description": "Each mock.",
+      "whenToUse": "Rule of thumb.",
+      "simpleExample": "65 min test, 65+ review"
+    },
+    {
+      "title": "Mocks in n weeks",
+      "formula": "weeks × per week",
+      "description": "Plan.",
+      "whenToUse": "Count.",
+      "simpleExample": "4 weeks × 2"
+    },
+    {
+      "title": "Spacing",
+      "formula": "Days ÷ mocks",
+      "description": "Plan.",
+      "whenToUse": "Gap.",
+      "simpleExample": "28 ÷ 8"
+    },
+    {
+      "title": "Trend",
+      "formula": "Last − first",
+      "description": "Compare.",
+      "whenToUse": "Progress.",
+      "simpleExample": "58 → 70"
+    },
+    {
+      "title": "Taper",
+      "formula": "Lighter final days",
+      "description": "Pre-test.",
+      "whenToUse": "Rest.",
+      "simpleExample": "Last 2 days"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Suppose you have 4 weeks and take 2 full mocks a week: 8 mocks, one every 3.5 days.",
+      "A 65-minute mock plus an equal review is 130 minutes; 8 such mocks take 17.3 hours.",
+      "Keep real conditions: same time of day, device and rules as the real test.",
+      "Compare accuracy across mocks: 58%, 62%, 66%, 70%: a rise of 4 points per mock.",
+      "In the last two days do light revision and sleep rather than a new mock."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Quality over quantity",
+        "content": "Two analysed mocks are worth more than four unanalysed."
+      },
+      {
+        "title": "Simulate pressure",
+        "content": "Practise with a visible timer and no pauses."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Count",
+      "description": "Weeks × per week.",
+      "exampleSnippet": "8"
+    },
+    {
+      "typeName": "Spacing",
+      "description": "Days apart.",
+      "exampleSnippet": "3.5"
+    },
+    {
+      "typeName": "Review",
+      "description": "Equal to test.",
+      "exampleSnippet": "65 min"
+    },
+    {
+      "typeName": "Trend",
+      "description": "Accuracy by mock.",
+      "exampleSnippet": "58% → 70%"
+    },
+    {
+      "typeName": "Taper",
+      "description": "Light days.",
+      "exampleSnippet": "2"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rev-full-length-practice-1",
+      "title": "Count",
+      "question": "You plan 2 mocks a week for 4 weeks. How many mocks?",
+      "givenInfo": [
+        "2",
+        "4"
+      ],
+      "conceptOrFormula": "Multiply.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Set up",
+          "explanation": "Mocks = per week × weeks."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Multiply",
+          "explanation": "2 × 4 = 8."
+        }
+      ],
+      "finalAnswer": "8 mocks",
+      "whyItWorks": "Quality over quantity.",
+      "commonTrap": "Counting weeks.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rev-full-length-practice-2",
+      "title": "Review time",
+      "question": "A 65-minute mock with an equal review. Total time per mock?",
+      "givenInfo": [
+        "65",
+        "65"
+      ],
+      "conceptOrFormula": "Add.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Test",
+          "explanation": "65 min."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Total",
+          "explanation": "65 + 65 = 130 min."
+        }
+      ],
+      "finalAnswer": "130 minutes",
+      "whyItWorks": "Review is part of the plan.",
+      "commonTrap": "Counting only 65.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rev-full-length-practice-3",
+      "title": "Trend",
+      "question": "Accuracy goes 58%, 62%, 66%, 70% over four mocks. Average rise per mock?",
+      "givenInfo": [
+        "58 → 70"
+      ],
+      "conceptOrFormula": "Total over steps.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total rise",
+          "explanation": "70 − 58 = 12."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Per step",
+          "explanation": "12 ÷ 3 = 4 points."
+        }
+      ],
+      "finalAnswer": "4 points",
+      "whyItWorks": "Three intervals.",
+      "commonTrap": "Dividing by 4.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Plan, rehearse, review",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Take mocks randomly.",
+      "shortcutMethod": "Schedule mocks with spacing, keep real conditions, review for at least as long as the test, track the trend and taper."
+    },
+    "rulesForApplication": [
+      "Real conditions.",
+      "Review ≥ test time.",
+      "Track trends.",
+      "Taper."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Mocks without review",
+      "whyItHappens": "No improvement.",
+      "howToAvoid": "Review each."
+    },
+    {
+      "mistake": "Different conditions",
+      "whyItHappens": "Misleading.",
+      "howToAvoid": "Match the real test."
+    },
+    {
+      "mistake": "A mock the day before",
+      "whyItHappens": "Fatigue.",
+      "howToAvoid": "Taper."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 0,
+    "eliminationTechnique": "N/A.",
+    "questionSelectionAdvice": "Put mocks in the calendar.",
+    "recruiterInsight": "The final mock is for confidence, not discovery."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rev-full-length-practice-e1",
+        "question": "2 mocks a week for 4 weeks give a number of mocks of",
+        "options": [
+          "9",
+          "8",
+          "7",
+          "10"
+        ],
+        "correctAnswer": "8",
+        "explanation": "2 × 4 = 8.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-full-length-practice-e2",
+        "question": "A 65-minute mock with an equal review takes (minutes)",
+        "options": [
+          "130",
+          "143",
+          "117",
+          "163"
+        ],
+        "correctAnswer": "130",
+        "explanation": "65 + 65 = 130.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-full-length-practice-e3",
+        "question": "8 mocks of 130 minutes each take (minutes)",
+        "options": [
+          "1144",
+          "936",
+          "1300",
+          "1040"
+        ],
+        "correctAnswer": "1040",
+        "explanation": "8 × 130 = 1,040.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rev-full-length-practice-i7",
+        "question": "Accuracy of 58%, 62%, 66% and 70% over four mocks rises by how many points per mock?",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "correctAnswer": "4",
+        "explanation": "12 ÷ 3 = 4.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-full-length-practice-i8",
+        "question": "If the trend continues, the accuracy in the fifth mock is (%)",
+        "options": [
+          "81%",
+          "67%",
+          "93%",
+          "74%"
+        ],
+        "correctAnswer": "74%",
+        "explanation": "70 + 4 = 74.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-full-length-practice-i9",
+        "question": "A mock of 65 minutes and a review of 1.5 times its length take (minutes)",
+        "options": [
+          "178.8",
+          "146.3",
+          "203.1",
+          "162.5"
+        ],
+        "correctAnswer": "162.5",
+        "explanation": "65 + 97.5 = 162.5.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rev-full-length-practice-a15",
+        "question": "What is the best use of the last two days?",
+        "options": [
+          "two full mocks",
+          "learning new topics",
+          "Light revision, rest and sleep",
+          "no preparation or rest"
+        ],
+        "correctAnswer": "Light revision, rest and sleep",
+        "explanation": "A taper protects freshness.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-full-length-practice-a16",
+        "question": "Two analysed mocks improve your accuracy by 4 points each; four unanalysed mocks improve it by 1 point each. The improvement from the analysed approach is more by (points)",
+        "options": [
+          "5",
+          "4",
+          "3",
+          "6"
+        ],
+        "correctAnswer": "4",
+        "explanation": "8 − 4 = 4.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rev-full-length-practice-p17",
+        "question": "Which is the better approach?",
+        "options": [
+          "More mocks with no review",
+          "Fewer mocks with careful review",
+          "Only reading answers",
+          "Never taking mocks"
+        ],
+        "correctAnswer": "Fewer mocks with careful review",
+        "explanation": "Analysis drives improvement.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-full-length-practice-p18",
+        "question": "A section has 30 questions in 40 minutes. In a mock you take 44 minutes. The overrun in seconds is",
+        "options": [
+          "240",
+          "264",
+          "216",
+          "300"
+        ],
+        "correctAnswer": "240",
+        "explanation": "4 × 60 = 240.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-full-length-practice-p19",
+        "question": "Taking all mocks in a quiet room but sitting the real test in a noisy hall is",
+        "options": [
+          "perfect",
+          "irrelevant",
+          "an advantage",
+          "a condition mismatch to avoid where possible"
+        ],
+        "correctAnswer": "a condition mismatch to avoid where possible",
+        "explanation": "Practise under conditions close to the real test.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Count.",
+      "Conditions.",
+      "Review.",
+      "Trend.",
+      "Taper."
+    ],
+    "quickFormulas": [
+      "Review ≥ test time"
+    ]
+  },
+  "keyTakeaways": [
+    "Plan.",
+    "Real conditions.",
+    "Review.",
+    "Taper."
+  ],
+  "selfCheckQuestions": [
+    "Can I plan the mock series?",
+    "Can I protect review time?",
+    "Can I taper?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Revision of standard topic areas; the tables, traps and examples in this chapter are original."
+    }
+  ]
+}

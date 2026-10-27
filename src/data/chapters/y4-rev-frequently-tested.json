@@ -1,0 +1,422 @@
+{
+  "id": "y4-rev-frequently-tested",
+  "yearId": 4,
+  "category": "Mock Test & Revision Preparation",
+  "topicNumber": 51,
+  "title": "Most Frequently Tested Topics",
+  "tagline": "Year 4 — Building a priority list of topics from your own mock data and the standard syllabus, with no invented frequency claims",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Which topics are tested most often depends on the employer and changes every year, and there is no reliable public count of question frequency. Rather than repeat claims about \"top topics\", this chapter teaches you to build your own priority list: take the standard syllabus areas, record how often each appears in the mocks and practice papers you take, record your accuracy in each, and rank them by expected marks gained per hour of study. The result is a personal priority list that updates as you practise. The figures in this chapter's examples are illustrative and not real test statistics.",
+    "placementRelevance": "A data-driven priority list focuses limited study hours where they earn the most marks.",
+    "realWorldContext": "Prioritising work by expected return is a basic planning skill."
+  },
+  "learningObjectives": [
+    "Record topic frequency from your own mocks",
+    "Compute your accuracy by topic",
+    "Estimate marks gained per hour of study",
+    "Rank topics for study time",
+    "Re-rank after each mock"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Mock Test Analysis Methodology",
+      "Common Traps and How to Avoid Them"
+    ],
+    "quickRefresher": "Expected gain = frequency × (target accuracy − current accuracy). Priority = gain ÷ hours needed."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Frequency: how many times a topic appears in your mocks.",
+      "Accuracy: correct ÷ attempted in the topic.",
+      "Gap: target accuracy minus current accuracy.",
+      "Expected gain: marks you can add by closing the gap.",
+      "Priority: gain per hour."
+    ],
+    "theoreticalIntuition": "Study where there is both frequent testing and a big gap.",
+    "visualOrMentalModel": "Tabulate frequency and accuracy, compute gain, divide by hours, rank."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Accuracy",
+      "formula": "Correct ÷ attempted",
+      "description": "Each topic.",
+      "whenToUse": "Current.",
+      "simpleExample": "6 of 10"
+    },
+    {
+      "title": "Gap",
+      "formula": "Target − current",
+      "description": "Each topic.",
+      "whenToUse": "Room.",
+      "simpleExample": "90% − 60%"
+    },
+    {
+      "title": "Expected gain",
+      "formula": "Frequency × gap",
+      "description": "Each topic.",
+      "whenToUse": "Marks.",
+      "simpleExample": "10 × 0.3"
+    },
+    {
+      "title": "Priority",
+      "formula": "Gain ÷ hours",
+      "description": "Ranking.",
+      "whenToUse": "Rate.",
+      "simpleExample": "3 ÷ 6"
+    },
+    {
+      "title": "Share of study time",
+      "formula": "Priority share",
+      "description": "Allocation.",
+      "whenToUse": "Plan.",
+      "simpleExample": "Weights"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Over 5 mocks suppose percentage questions appeared 40 times and you got 28 right: accuracy 70%. With a 90% target the gap is 20 points, so expected gain over the same number of questions is 40 × 0.2 = 8 marks.",
+      "Seating puzzles appeared 20 times with 8 right: accuracy 40%, gap 50 points, expected gain 10 marks.",
+      "If closing the percentage gap takes 8 hours and the seating gap 20 hours, priorities are 1.0 and 0.5 marks per hour: do percentages first.",
+      "Re-rank after each mock because the accuracy changes.",
+      "Mark any claim about \"most tested topics\" that you cannot verify as hearsay."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Sample size",
+        "content": "With few questions in a topic the accuracy estimate is noisy; combine with practice sets."
+      },
+      {
+        "title": "Core topics",
+        "content": "Foundational topics (percentages, ratios, averages) support many others and are worth studying regardless."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Accuracy",
+      "description": "By topic.",
+      "exampleSnippet": "70%"
+    },
+    {
+      "typeName": "Gap",
+      "description": "To target.",
+      "exampleSnippet": "20 points"
+    },
+    {
+      "typeName": "Gain",
+      "description": "Frequency × gap.",
+      "exampleSnippet": "8 marks"
+    },
+    {
+      "typeName": "Priority",
+      "description": "Per hour.",
+      "exampleSnippet": "1.0"
+    },
+    {
+      "typeName": "Re-rank",
+      "description": "After mocks.",
+      "exampleSnippet": "Weekly"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rev-frequently-tested-1",
+      "title": "Accuracy",
+      "question": "28 of 40 percentage questions correct. Accuracy?",
+      "givenInfo": [
+        "28",
+        "40"
+      ],
+      "conceptOrFormula": "Correct over attempted.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "28 ÷ 40 = 0.7."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "70%."
+        }
+      ],
+      "finalAnswer": "70%",
+      "whyItWorks": "Current accuracy.",
+      "commonTrap": "Using 28.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rev-frequently-tested-2",
+      "title": "Expected gain",
+      "question": "40 questions, accuracy 70%, target 90%. Expected marks gained?",
+      "givenInfo": [
+        "40",
+        "70%",
+        "90%"
+      ],
+      "conceptOrFormula": "Frequency × gap.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Gap",
+          "explanation": "20% = 0.2."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Gain",
+          "explanation": "40 × 0.2 = 8."
+        }
+      ],
+      "finalAnswer": "8 marks",
+      "whyItWorks": "Per 40 questions.",
+      "commonTrap": "Ignoring frequency.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rev-frequently-tested-3",
+      "title": "Priority",
+      "question": "Gain 8 marks needs 8 hours; gain 10 marks needs 20 hours. Which has the higher priority?",
+      "givenInfo": [
+        "8/8, 10/20"
+      ],
+      "conceptOrFormula": "Gain per hour.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "First",
+          "explanation": "8 ÷ 8 = 1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Second",
+          "explanation": "10 ÷ 20 = 0.5."
+        }
+      ],
+      "finalAnswer": "The first (1 mark per hour)",
+      "whyItWorks": "Rate decides.",
+      "commonTrap": "Choosing the larger gain.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Your own list",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Follow a rumour list.",
+      "shortcutMethod": "Tabulate frequency and accuracy from your mocks, compute gain per hour, and study in that order."
+    },
+    "rulesForApplication": [
+      "Own data.",
+      "Gap × frequency.",
+      "Per hour.",
+      "Re-rank often."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Trusting hearsay about top topics",
+      "whyItHappens": "Misdirected effort.",
+      "howToAvoid": "Use your data."
+    },
+    {
+      "mistake": "Ignoring foundations",
+      "whyItHappens": "Weak base.",
+      "howToAvoid": "Keep core topics."
+    },
+    {
+      "mistake": "Never re-ranking",
+      "whyItHappens": "Stale list.",
+      "howToAvoid": "Update after each mock."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 0,
+    "eliminationTechnique": "N/A.",
+    "questionSelectionAdvice": "Keep a simple spreadsheet.",
+    "recruiterInsight": "The list is yours; it changes as you improve."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rev-frequently-tested-e1",
+        "question": "28 of 40 percentage questions correct give an accuracy of",
+        "options": [
+          "77%",
+          "70%",
+          "63%",
+          "88%"
+        ],
+        "correctAnswer": "70%",
+        "explanation": "28 ÷ 40 = 70%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-frequently-tested-e2",
+        "question": "8 of 20 seating puzzles correct give an accuracy of",
+        "options": [
+          "40%",
+          "44%",
+          "36%",
+          "50%"
+        ],
+        "correctAnswer": "40%",
+        "explanation": "8 ÷ 20 = 40%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-frequently-tested-e3",
+        "question": "With a 90% target and 70% accuracy, the gap in percentage points is",
+        "options": [
+          "22",
+          "18",
+          "25",
+          "20"
+        ],
+        "correctAnswer": "20",
+        "explanation": "90 − 70 = 20.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rev-frequently-tested-i7",
+        "question": "Closing a gap worth 8 marks takes 8 hours. The priority (marks per hour) is",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "1",
+        "explanation": "8 ÷ 8 = 1.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-frequently-tested-i8",
+        "question": "Closing a gap worth 10 marks takes 20 hours. The priority (marks per hour) is",
+        "options": [
+          "0.6",
+          "0.4",
+          "0.8",
+          "0.5"
+        ],
+        "correctAnswer": "0.5",
+        "explanation": "10 ÷ 20 = 0.5.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-frequently-tested-i9",
+        "question": "Which topic should be studied first?",
+        "options": [
+          "The one worth 10 marks in 20 hours",
+          "Either, at random",
+          "Neither",
+          "The one worth 8 marks in 8 hours"
+        ],
+        "correctAnswer": "The one worth 8 marks in 8 hours",
+        "explanation": "1 mark per hour beats 0.5.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rev-frequently-tested-a15",
+        "question": "Which statement about \"most frequently tested topics\" is the most reliable?",
+        "options": [
+          "Trust a forum's top-five list",
+          "Copy last year's rumour",
+          "Build your own list from your mocks and the official syllabus",
+          "Assume all employers test the same topics"
+        ],
+        "correctAnswer": "Build your own list from your mocks and the official syllabus",
+        "explanation": "Frequencies depend on employer and year, and public counts are not reliable.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-frequently-tested-a16",
+        "question": "Studying hours split in proportion to gains 8, 10 and 4.5 over 45 hours gives the second topic about (hours, one decimal)",
+        "options": [
+          "22",
+          "20",
+          "18",
+          "25"
+        ],
+        "correctAnswer": "20",
+        "explanation": "45 × 10 ÷ 22.5 = 20.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rev-frequently-tested-p17",
+        "question": "After a new mock your accuracy in a topic rises from 70% to 85%. You should",
+        "options": [
+          "ignore it",
+          "recompute the gap and re-rank",
+          "drop the topic forever",
+          "keep the old ranking"
+        ],
+        "correctAnswer": "recompute the gap and re-rank",
+        "explanation": "Priorities change as accuracy changes.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-frequently-tested-p18",
+        "question": "A topic with only 5 questions in your mocks and 4 correct shows accuracy of",
+        "options": [
+          "80%",
+          "88%",
+          "72%",
+          "100%"
+        ],
+        "correctAnswer": "80%",
+        "explanation": "4 ÷ 5 = 80%, but with so few questions the estimate is noisy.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-frequently-tested-p19",
+        "question": "To make that estimate reliable you should",
+        "options": [
+          "trust it",
+          "ignore the topic",
+          "wait for the real test",
+          "add practice-set questions in that topic"
+        ],
+        "correctAnswer": "add practice-set questions in that topic",
+        "explanation": "More questions reduce noise.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Frequency.",
+      "Accuracy.",
+      "Gap.",
+      "Gain.",
+      "Priority."
+    ],
+    "quickFormulas": [
+      "Gain = frequency × gap"
+    ]
+  },
+  "keyTakeaways": [
+    "Own data.",
+    "Gap.",
+    "Per hour.",
+    "Update."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute accuracy by topic?",
+    "Can I compute gain?",
+    "Can I rank topics?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Revision of standard topic areas; the tables, traps and examples in this chapter are original."
+    }
+  ]
+}

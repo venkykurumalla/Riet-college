@@ -1,0 +1,421 @@
+{
+  "id": "y4-rev-common-traps",
+  "yearId": 4,
+  "category": "Mock Test & Revision Preparation",
+  "topicNumber": 50,
+  "title": "Common Traps and How to Avoid Them",
+  "tagline": "Year 4 — Twenty classic aptitude traps: successive percentages, average speed, wrong bases, counting errors and unit slips",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Most lost marks come from a small set of traps rather than from hard mathematics. In each trap there is a tempting answer reached by an intuitive but wrong step, and a correct answer reached by one extra check. Setters place the tempting answer among the options. This chapter lists the traps with the wrong step, the correct step and a quick test for each: successive percentages that add, averages of speeds, the wrong base for a percentage, inclusive counting, fence-post counting, unit slips, mixtures with replacement, and compounding periods.",
+    "placementRelevance": "Knowing the traps lets you spot a tempting option and pause for ten seconds.",
+    "realWorldContext": "Common-error awareness is the basis of quality checks in any field."
+  },
+  "learningObjectives": [
+    "Recognise the trap behind a tempting option",
+    "Apply the one extra check that avoids it",
+    "Use the correct base for percentages",
+    "Count inclusively and at boundaries correctly",
+    "Keep units consistent"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Quantitative Formula Quick Reference",
+      "Calculation Shortcut Mastery"
+    ],
+    "quickRefresher": "A tempting option is usually the answer of the intuitive but wrong step."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Trap: an error that many make for the same reason.",
+      "Tempting option: the wrong answer from the trap.",
+      "Base error: using the wrong quantity for a percentage.",
+      "Boundary error: miscounting at the ends.",
+      "Check: the extra step that catches the trap."
+    ],
+    "theoreticalIntuition": "If an answer comes too easily, ask what trap might be hiding.",
+    "visualOrMentalModel": "Ask: is there a base, a boundary or a unit I could have mishandled?"
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Successive changes",
+      "formula": "Multiply factors",
+      "description": "Percent chains.",
+      "whenToUse": "Trap: add.",
+      "simpleExample": "0.8 × 0.9 = 0.72"
+    },
+    {
+      "title": "Average speed",
+      "formula": "2ab/(a + b)",
+      "description": "Equal distances.",
+      "whenToUse": "Trap: mean.",
+      "simpleExample": "48 not 50"
+    },
+    {
+      "title": "Reverse percentage",
+      "formula": "Change ÷ new",
+      "description": "Reverse.",
+      "whenToUse": "Trap: same %.",
+      "simpleExample": "20% more → 16.7% less"
+    },
+    {
+      "title": "Fence posts",
+      "formula": "Intervals + 1",
+      "description": "Counting.",
+      "whenToUse": "Trap: intervals.",
+      "simpleExample": "10 m, 2 m → 6 posts"
+    },
+    {
+      "title": "Inclusive count",
+      "formula": "Last − first + 1",
+      "description": "Ranges.",
+      "whenToUse": "Trap: difference.",
+      "simpleExample": "15..30 → 16"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Successive discounts of 20% and 10% on ₹1,000: 1,000 × 0.8 × 0.9 = ₹720, not ₹700.",
+      "Average speed for equal distances at 60 and 40 km/h is 48, not 50.",
+      "If B is 20% more than A, then A is 20 ÷ 120 = 16.7% less than B, not 20%.",
+      "Pages 15 to 30 inclusive are 30 − 15 + 1 = 16 pages.",
+      "Posts every 2 m along 10 m make 10 ÷ 2 + 1 = 6 posts."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Compounding periods",
+        "content": "Half-yearly compounding at 10% per annum is 5% twice: 1.05² = 1.1025."
+      },
+      {
+        "title": "Percentages that look symmetrical",
+        "content": "+20% then −20% is −4%, not 0."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Percent chains",
+      "description": "Multiply.",
+      "exampleSnippet": "720"
+    },
+    {
+      "typeName": "Averages",
+      "description": "Weighted.",
+      "exampleSnippet": "48"
+    },
+    {
+      "typeName": "Bases",
+      "description": "Old vs new.",
+      "exampleSnippet": "16.7%"
+    },
+    {
+      "typeName": "Counting",
+      "description": "Boundaries.",
+      "exampleSnippet": "16, 6"
+    },
+    {
+      "typeName": "Units",
+      "description": "Convert.",
+      "exampleSnippet": "20 m/s"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-rev-common-traps-1",
+      "title": "Successive",
+      "question": "Discounts of 20% and 10% on ₹1,000. Final price?",
+      "givenInfo": [
+        "20%, 10%"
+      ],
+      "conceptOrFormula": "Multiply.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Factors",
+          "explanation": "0.8 × 0.9 = 0.72."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Price",
+          "explanation": "₹720."
+        }
+      ],
+      "finalAnswer": "₹720",
+      "whyItWorks": "Not ₹700.",
+      "commonTrap": "Adding the discounts.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-rev-common-traps-2",
+      "title": "Reverse percent",
+      "question": "B is 20% more than A. A is what percent less than B?",
+      "givenInfo": [
+        "B = 1.2A"
+      ],
+      "conceptOrFormula": "Base is B.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Difference",
+          "explanation": "0.2A."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "0.2 ÷ 1.2 = 16.7%."
+        }
+      ],
+      "finalAnswer": "16.7%",
+      "whyItWorks": "Different base.",
+      "commonTrap": "Saying 20%.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-rev-common-traps-3",
+      "title": "Fence posts",
+      "question": "Posts every 2 m along a 10 m fence, including both ends. How many posts?",
+      "givenInfo": [
+        "10 m",
+        "2 m"
+      ],
+      "conceptOrFormula": "Intervals + 1.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Intervals",
+          "explanation": "10 ÷ 2 = 5."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Posts",
+          "explanation": "5 + 1 = 6."
+        }
+      ],
+      "finalAnswer": "6",
+      "whyItWorks": "Count ends.",
+      "commonTrap": "Answering 5.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Pause on easy answers",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Trust the first answer.",
+      "shortcutMethod": "When the answer comes too easily, check base, boundary and unit before choosing."
+    },
+    "rulesForApplication": [
+      "Multiply changes.",
+      "Weighted averages.",
+      "Intervals + 1.",
+      "Convert units."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Adding percentages",
+      "whyItHappens": "Wrong net.",
+      "howToAvoid": "Multiply."
+    },
+    {
+      "mistake": "Averaging speeds",
+      "whyItHappens": "Wrong.",
+      "howToAvoid": "Harmonic mean."
+    },
+    {
+      "mistake": "Boundary miscount",
+      "whyItHappens": "Off by one.",
+      "howToAvoid": "Add 1 for inclusive."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 10,
+    "eliminationTechnique": "The tempting option is often adjacent to the right one.",
+    "questionSelectionAdvice": "Keep a personal trap list from mocks.",
+    "recruiterInsight": "Ten seconds of checking saves a mark."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-rev-common-traps-e1",
+        "question": "Successive discounts of 20% and 10% on ₹1,000 give a price of (₹)",
+        "options": [
+          "792",
+          "720",
+          "648",
+          "900"
+        ],
+        "correctAnswer": "720",
+        "explanation": "1,000 × 0.8 × 0.9 = 720, not 700.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-common-traps-e2",
+        "question": "Equal distances at 60 and 40 km/h give an average speed of (km/h)",
+        "options": [
+          "48",
+          "53",
+          "43",
+          "60"
+        ],
+        "correctAnswer": "48",
+        "explanation": "2 × 60 × 40 ÷ 100 = 48, not 50.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-rev-common-traps-e3",
+        "question": "A price rises 20% and then falls 20%. Starting at ₹1,000 it ends at (₹)",
+        "options": [
+          "1056",
+          "864",
+          "1200",
+          "960"
+        ],
+        "correctAnswer": "960",
+        "explanation": "1,000 × 1.2 × 0.8 = 960, not 1,000.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-rev-common-traps-i7",
+        "question": "B is 20% more than A. A is what percent less than B (one decimal)?",
+        "options": [
+          "16.7%",
+          "18.4%",
+          "15%",
+          "20.9%"
+        ],
+        "correctAnswer": "16.7%",
+        "explanation": "0.2 ÷ 1.2 = 16.7%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-common-traps-i8",
+        "question": "The average of 5 numbers is 24; a sixth number 36 is added. The new average is",
+        "options": [
+          "29",
+          "23",
+          "33",
+          "26"
+        ],
+        "correctAnswer": "26",
+        "explanation": "(120 + 36) ÷ 6 = 26.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-rev-common-traps-i9",
+        "question": "100 L of milk has 10 L removed and replaced by water, three times. The milk left is (litres)",
+        "options": [
+          "80.2",
+          "65.6",
+          "91.1",
+          "72.9"
+        ],
+        "correctAnswer": "72.9",
+        "explanation": "100 × 0.9³ = 72.9, not 70.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-rev-common-traps-a15",
+        "question": "₹10,000 at 10% per annum compounded half-yearly for 1 year gives an amount of (₹)",
+        "options": [
+          "12128",
+          "9923",
+          "11025",
+          "13781"
+        ],
+        "correctAnswer": "11025",
+        "explanation": "1.05² = 1.1025; 10,000 × 1.1025 = 11,025.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-common-traps-a16",
+        "question": "The number of ways 5 people can sit around a round table is",
+        "options": [
+          "26",
+          "24",
+          "22",
+          "30"
+        ],
+        "correctAnswer": "24",
+        "explanation": "(5 − 1)! = 24, not 120.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-rev-common-traps-p17",
+        "question": "The remainder when 2¹⁰ is divided by 3 is",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "1",
+        "explanation": "2² ≡ 1 (mod 3), so 2¹⁰ ≡ 1.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-common-traps-p18",
+        "question": "The probability of at least one head in 3 tosses (as a decimal) is",
+        "options": [
+          "0.875",
+          "0.963",
+          "0.788",
+          "1.094"
+        ],
+        "correctAnswer": "0.875",
+        "explanation": "1 − 1/8 = 0.875, not 3/8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-rev-common-traps-p19",
+        "question": "An article is marked 25% above cost and sold at 10% discount. The profit percentage is",
+        "options": [
+          "13.8%",
+          "11.3%",
+          "15.6%",
+          "12.5%"
+        ],
+        "correctAnswer": "12.5%",
+        "explanation": "1.25 × 0.9 = 1.125, so 12.5%, not 15%.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Chains.",
+      "Averages.",
+      "Bases.",
+      "Counting.",
+      "Units."
+    ],
+    "quickFormulas": [
+      "Intervals + 1",
+      "Multiply factors"
+    ]
+  },
+  "keyTakeaways": [
+    "Pause.",
+    "Check base.",
+    "Check boundary.",
+    "Check units."
+  ],
+  "selfCheckQuestions": [
+    "Can I name five traps?",
+    "Can I check a base?",
+    "Can I count inclusively?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Revision of standard topic areas; the tables, traps and examples in this chapter are original."
+    }
+  ]
+}
