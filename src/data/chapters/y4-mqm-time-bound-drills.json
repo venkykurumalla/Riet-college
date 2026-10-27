@@ -1,0 +1,422 @@
+{
+  "id": "y4-mqm-time-bound-drills",
+  "yearId": 4,
+  "category": "Advanced Aptitude / Mixed Problems",
+  "topicNumber": 7,
+  "title": "Time-Bound Quantitative Drills",
+  "tagline": "Year 4 — Short, fast questions with a target time per question, and a method for pacing a timed section",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A timed section is a budget of seconds. If you have 30 questions in 40 minutes, you have 80 seconds per question on average, but they are not equal: easy ones should take 30–45 seconds, hard ones may deserve 2 minutes or a skip. This chapter practises fast, simple questions and a pacing method: set a target time per question type, check progress at fixed points and decide quickly when to skip.",
+    "placementRelevance": "Online assessments are timed and sectional; speed with accuracy decides the score.",
+    "realWorldContext": "Working to deadlines and splitting time across tasks is the same discipline."
+  },
+  "learningObjectives": [
+    "Compute the average time per question",
+    "Set checkpoints during a timed section",
+    "Answer easy questions in under 45 seconds",
+    "Recognise when to skip",
+    "Estimate scores from attempts and accuracy"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Calculation Techniques",
+      "Approximation and Estimation"
+    ],
+    "quickRefresher": "Time per question = total time ÷ questions. Accuracy = correct ÷ attempted."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Pace: the average time you spend per question.",
+      "Checkpoint: a planned moment to compare progress with plan.",
+      "Skip: leaving a question to return later.",
+      "Attempt rate: questions attempted ÷ total.",
+      "Drill: a short timed practice set."
+    ],
+    "theoreticalIntuition": "You are paid in marks, and each second spent on a hard question is a second not spent on an easy one.",
+    "visualOrMentalModel": "Fix your average, set checkpoints at quarter marks, and move on after about twice the average time."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Average time",
+      "formula": "Total time ÷ questions",
+      "description": "Plan.",
+      "whenToUse": "Pace.",
+      "simpleExample": "2,400 s ÷ 30 = 80 s"
+    },
+    {
+      "title": "Checkpoint",
+      "formula": "Questions done by time t = t ÷ pace",
+      "description": "Quarter marks.",
+      "whenToUse": "Control.",
+      "simpleExample": "After 10 min: 7–8"
+    },
+    {
+      "title": "Accuracy",
+      "formula": "Correct ÷ attempted × 100",
+      "description": "After section.",
+      "whenToUse": "Quality.",
+      "simpleExample": "24 ÷ 28"
+    },
+    {
+      "title": "Marks",
+      "formula": "Correct × mark − wrong × penalty",
+      "description": "Scoring.",
+      "whenToUse": "Score.",
+      "simpleExample": "24 − 4 × 0.25"
+    },
+    {
+      "title": "Skip rule",
+      "formula": "Time spent > 2 × pace",
+      "description": "Any question.",
+      "whenToUse": "Discipline.",
+      "simpleExample": "> 160 s"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A section of 30 questions in 40 minutes gives 2,400 seconds, so 80 seconds on average. Plan 40 s for easy, 80 s for medium and skip anything that passes about 160 s.",
+      "Use checkpoints: after 10 minutes you should have worked through about 7–8 questions.",
+      "If you attempt 28 questions and 24 are right, accuracy is 24 ÷ 28 = 85.7%.",
+      "With 1 mark for each right answer and a quarter-mark penalty for each wrong one, 24 right and 4 wrong score 24 − 1 = 23.",
+      "Easy questions (percentage of a number, simple ratios) should take under 40 seconds; practise until they do."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Sunk-cost trap",
+        "content": "Do not keep working a question only because you have already spent time on it."
+      },
+      {
+        "title": "Two passes",
+        "content": "Pass 1: all questions solvable in under a minute. Pass 2: the rest, easiest first."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Pace",
+      "description": "Seconds per question.",
+      "exampleSnippet": "80 s"
+    },
+    {
+      "typeName": "Checkpoints",
+      "description": "Progress targets.",
+      "exampleSnippet": "10 minutes"
+    },
+    {
+      "typeName": "Accuracy",
+      "description": "Quality.",
+      "exampleSnippet": "85.7%"
+    },
+    {
+      "typeName": "Scoring",
+      "description": "Marks with penalty.",
+      "exampleSnippet": "23"
+    },
+    {
+      "typeName": "Skipping",
+      "description": "When to leave.",
+      "exampleSnippet": "160 s"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mqm-time-bound-drills-1",
+      "title": "Pace",
+      "question": "A section has 30 questions in 40 minutes. What is the average time per question?",
+      "givenInfo": [
+        "30",
+        "40 min"
+      ],
+      "conceptOrFormula": "Total ÷ count.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Seconds",
+          "explanation": "40 × 60 = 2,400."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Pace",
+          "explanation": "2,400 ÷ 30 = 80 s."
+        }
+      ],
+      "finalAnswer": "80 seconds",
+      "whyItWorks": "Easy ones should take less.",
+      "commonTrap": "Taking 40 s.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mqm-time-bound-drills-2",
+      "title": "Accuracy",
+      "question": "You attempt 28 questions and 24 are correct. Accuracy?",
+      "givenInfo": [
+        "28",
+        "24"
+      ],
+      "conceptOrFormula": "Correct ÷ attempted.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "24 ÷ 28 = 0.857."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "85.7%."
+        }
+      ],
+      "finalAnswer": "85.7%",
+      "whyItWorks": "Base is attempted.",
+      "commonTrap": "Dividing by 30.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mqm-time-bound-drills-3",
+      "title": "Score",
+      "question": "24 correct, 4 wrong, 1 mark each right and ¼ mark penalty each wrong. Score?",
+      "givenInfo": [
+        "24",
+        "4"
+      ],
+      "conceptOrFormula": "Marks minus penalty.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Penalty",
+          "explanation": "4 × 0.25 = 1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Score",
+          "explanation": "24 − 1 = 23."
+        }
+      ],
+      "finalAnswer": "23",
+      "whyItWorks": "Unattempted score zero.",
+      "commonTrap": "Ignoring the penalty.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Pace and checkpoints",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Work until time runs out.",
+      "shortcutMethod": "Know your pace, check progress at quarter marks, and skip once a question passes about twice the pace."
+    },
+    "rulesForApplication": [
+      "Pace = time ÷ questions.",
+      "Checkpoints at quarters.",
+      "Skip at ~2 × pace.",
+      "Two passes."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Spending equal time on all questions",
+      "whyItHappens": "Easy marks lost.",
+      "howToAvoid": "Plan by difficulty."
+    },
+    {
+      "mistake": "No checkpoints",
+      "whyItHappens": "Late panic.",
+      "howToAvoid": "Check at quarters."
+    },
+    {
+      "mistake": "Sunk-cost persistence",
+      "whyItHappens": "Time wasted.",
+      "howToAvoid": "Skip and return."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 40,
+    "eliminationTechnique": "Eliminate two options quickly rather than solving fully.",
+    "questionSelectionAdvice": "Do a timed drill every day.",
+    "recruiterInsight": "Speed is built by easy questions done fast."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mqm-time-bound-drills-e1",
+        "question": "30 questions in 40 minutes give an average time per question of (seconds)",
+        "options": [
+          "88",
+          "80",
+          "72",
+          "100"
+        ],
+        "correctAnswer": "80",
+        "explanation": "2,400 ÷ 30 = 80.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-time-bound-drills-e2",
+        "question": "25% of 480 equals",
+        "options": [
+          "120",
+          "132",
+          "108",
+          "150"
+        ],
+        "correctAnswer": "120",
+        "explanation": "480 ÷ 4 = 120.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-time-bound-drills-e3",
+        "question": "15 × 16 equals",
+        "options": [
+          "264",
+          "216",
+          "300",
+          "240"
+        ],
+        "correctAnswer": "240",
+        "explanation": "15 × 16 = 240.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mqm-time-bound-drills-i7",
+        "question": "A candidate attempts 28 questions and gets 24 right. The accuracy is",
+        "options": [
+          "85.7%",
+          "94.3%",
+          "77.1%",
+          "107.1%"
+        ],
+        "correctAnswer": "85.7%",
+        "explanation": "24 ÷ 28 = 85.7%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-time-bound-drills-i8",
+        "question": "24 right and 4 wrong with ¼ mark penalty and 1 mark per right answer give a score of",
+        "options": [
+          "25",
+          "21",
+          "29",
+          "23"
+        ],
+        "correctAnswer": "23",
+        "explanation": "24 − 1 = 23.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-time-bound-drills-i9",
+        "question": "A 40-minute section: after 10 minutes at an 80-second pace, the number of questions done is about",
+        "options": [
+          "8.3",
+          "6.8",
+          "9.4",
+          "7.5"
+        ],
+        "correctAnswer": "7.5",
+        "explanation": "600 ÷ 80 = 7.5.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mqm-time-bound-drills-a15",
+        "question": "In a section of 36 questions in 45 minutes, a candidate finishes the first half in 20 minutes. The average time per question left to finish on time is (seconds)",
+        "options": [
+          "91.6",
+          "75",
+          "83.3",
+          "104.1"
+        ],
+        "correctAnswer": "83.3",
+        "explanation": "Time left 25 min = 1,500 s for 18 questions: 83.3 s.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-time-bound-drills-a16",
+        "question": "A section gives +1 for each right and −0.25 for each wrong answer. A candidate attempts 25 questions with 20 right and 5 wrong. The score is",
+        "options": [
+          "20.63",
+          "18.75",
+          "16.88",
+          "23.44"
+        ],
+        "correctAnswer": "18.75",
+        "explanation": "20 − 1.25 = 18.75.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mqm-time-bound-drills-p17",
+        "question": "The compound interest on ₹5,000 at 20% for 2 years is (₹)",
+        "options": [
+          "2420",
+          "2200",
+          "1980",
+          "2750"
+        ],
+        "correctAnswer": "2200",
+        "explanation": "5,000 × 1.44 = 7,200; interest 2,200.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-time-bound-drills-p18",
+        "question": "A man spends 20 minutes on a hard question while his average pace is 80 seconds. The time spent is how many times his pace?",
+        "options": [
+          "15",
+          "17",
+          "14",
+          "19"
+        ],
+        "correctAnswer": "15",
+        "explanation": "1,200 ÷ 80 = 15 times.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-time-bound-drills-p19",
+        "question": "Two numbers are in the ratio 7 : 9 and differ by 14. The larger is",
+        "options": [
+          "69",
+          "57",
+          "79",
+          "63"
+        ],
+        "correctAnswer": "63",
+        "explanation": "Difference 2 parts = 14, so part = 7; larger = 9 × 7 = 63.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Pace.",
+      "Checkpoints.",
+      "Accuracy.",
+      "Scoring.",
+      "Skip rule."
+    ],
+    "quickFormulas": [
+      "Pace = total time ÷ questions"
+    ]
+  },
+  "keyTakeaways": [
+    "Know the pace.",
+    "Check at quarters.",
+    "Skip early.",
+    "Two passes."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute my pace?",
+    "Can I set checkpoints?",
+    "Can I decide to skip?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic areas; examples in this chapter are original."
+    }
+  ]
+}

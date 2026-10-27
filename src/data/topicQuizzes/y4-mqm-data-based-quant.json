@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-mqm-data-based-quant",
+  "topicTitle": "Data-Based Quantitative Reasoning",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the total revenue from product P (₹)?",
+      "options": [
+        "33000",
+        "30000",
+        "27000",
+        "37500"
+      ],
+      "answerIndex": 1,
+      "explanation": "120 × 250 = 30,000."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the total revenue from product Q (₹)?",
+      "options": [
+        "36000",
+        "39600",
+        "32400",
+        "45000"
+      ],
+      "answerIndex": 0,
+      "explanation": "200 × 180 = 36,000."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the profit per unit of product R (₹)?",
+      "options": [
+        "66",
+        "54",
+        "75",
+        "60"
+      ],
+      "answerIndex": 3,
+      "explanation": "300 − 240 = 60."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the total profit on product S (₹)?",
+      "options": [
+        "8800",
+        "7200",
+        "8000",
+        "10000"
+      ],
+      "answerIndex": 2,
+      "explanation": "80 × (500 − 400) = 8,000."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nHow many units were sold in all?",
+      "options": [
+        "605",
+        "495",
+        "550",
+        "688"
+      ],
+      "answerIndex": 2,
+      "explanation": "120 + 200 + 150 + 80 = 550."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the total revenue from R (₹)?",
+      "options": [
+        "49500",
+        "45000",
+        "40500",
+        "56250"
+      ],
+      "answerIndex": 1,
+      "explanation": "150 × 300 = 45,000."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the total revenue of all four products (₹)?",
+      "options": [
+        "151000",
+        "166100",
+        "135900",
+        "188750"
+      ],
+      "answerIndex": 0,
+      "explanation": "30,000 + 36,000 + 45,000 + 40,000 = 151,000."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the total profit of all four products (₹)?",
+      "options": [
+        "31900",
+        "26100",
+        "36250",
+        "29000"
+      ],
+      "answerIndex": 3,
+      "explanation": "6,000 + 6,000 + 9,000 + 8,000 = 29,000."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhich product gives the highest total profit?",
+      "options": [
+        "Product P",
+        "Product Q",
+        "Product S",
+        "Product R"
+      ],
+      "answerIndex": 3,
+      "explanation": "Profits are P 6,000, Q 6,000, R 9,000, S 8,000; the highest is R."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nThe overall profit as a percentage of total revenue (to one decimal) is",
+      "options": [
+        "21.1%",
+        "17.3%",
+        "19.2%",
+        "24%"
+      ],
+      "answerIndex": 2,
+      "explanation": "29,000 ÷ 151,000 = 19.2%."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nThe average selling price per unit over all units (₹, to one decimal) is",
+      "options": [
+        "302",
+        "274.5",
+        "247.1",
+        "343.1"
+      ],
+      "answerIndex": 1,
+      "explanation": "151,000 ÷ 550 = 274.5."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nProduct Q's profit is what percentage of its cost (to one decimal)?",
+      "options": [
+        "20%",
+        "22%",
+        "18%",
+        "25%"
+      ],
+      "answerIndex": 0,
+      "explanation": "Profit per unit 30 on cost 150 = 20%."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nProduct S contributes what percentage of total revenue (to one decimal)?",
+      "options": [
+        "26.5%",
+        "29.2%",
+        "23.9%",
+        "33.1%"
+      ],
+      "answerIndex": 0,
+      "explanation": "40,000 ÷ 151,000 = 26.5%."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nThe ratio of revenue from P to revenue from R is",
+      "options": [
+        "3 : 5",
+        "3 : 4",
+        "4 : 5",
+        "2 : 3"
+      ],
+      "answerIndex": 3,
+      "explanation": "30,000 : 45,000 = 2 : 3."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nIf every selling price rises by 10% and the units sold stay the same, the new total revenue is (₹)",
+      "options": [
+        "182710",
+        "149490",
+        "166100",
+        "207625"
+      ],
+      "answerIndex": 2,
+      "explanation": "151,000 × 1.1 = 166,100."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nIf every selling price rises by 10% and costs stay the same, the new total profit is (₹)",
+      "options": [
+        "48510",
+        "44100",
+        "39690",
+        "55125"
+      ],
+      "answerIndex": 1,
+      "explanation": "Extra revenue 15,100 adds fully to profit: 29,000 + 15,100 = 44,100."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhich product has the highest profit margin as a percentage of its selling price?",
+      "options": [
+        "Product Q only",
+        "Product P, Product R and Product S tie at 20%",
+        "Product P only",
+        "Product S only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Margins on selling price: P 50/250 = 20%, Q 30/180 = 16.7%, R 60/300 = 20%, S 100/500 = 20%."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nHow many extra units of Q must be sold, at the same prices, to raise the total profit by ₹3,000?",
+      "options": [
+        "100",
+        "110",
+        "90",
+        "125"
+      ],
+      "answerIndex": 0,
+      "explanation": "Each unit of Q gives ₹30 profit; 3,000 ÷ 30 = 100."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nThe simple average of the four selling prices (₹) is",
+      "options": [
+        "338.3",
+        "276.8",
+        "384.4",
+        "307.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "(250 + 180 + 300 + 500) ÷ 4 = 307.5, which differs from the weighted average because units differ."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat percentage of the total units sold is product Q?",
+      "options": [
+        "40%",
+        "32.8%",
+        "36.4%",
+        "45.5%"
+      ],
+      "answerIndex": 2,
+      "explanation": "200 ÷ 550 = 36.4%."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

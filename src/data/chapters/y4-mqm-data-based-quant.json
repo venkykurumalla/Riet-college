@@ -1,0 +1,424 @@
+{
+  "id": "y4-mqm-data-based-quant",
+  "yearId": 4,
+  "category": "Advanced Aptitude / Mixed Problems",
+  "topicNumber": 5,
+  "title": "Data-Based Quantitative Reasoning",
+  "tagline": "Year 4 — Quantitative questions set on a small table: derived columns, weighted averages, profit and share calculations",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Many quantitative questions arrive with a table: units and prices, hours and wages, marks and weights. The method is to add the derived columns once (revenue, profit, total cost), and then every question is a lookup or a ratio. Averages across rows must be weighted by the right quantity, and percentages must use the correct base.",
+    "placementRelevance": "Table-based quantitative sets are common in placement papers because they test accuracy and organisation together.",
+    "realWorldContext": "Business reports, invoices and sales summaries are tables of exactly this form."
+  },
+  "learningObjectives": [
+    "Build derived columns once and reuse them",
+    "Compute weighted averages correctly",
+    "Compute profit, margin and share from a table",
+    "Compare rows on a derived measure",
+    "Avoid averaging percentages directly"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Mixed Quantitative — Integrated Problem Solving",
+      "Percentages",
+      "Averages"
+    ],
+    "quickRefresher": "Revenue = units × price. Profit = units × (price − cost). Weighted average = total ÷ total weight."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Derived column: a column computed from others.",
+      "Weighted average: total of values ÷ total of weights.",
+      "Margin: profit as a percentage of revenue.",
+      "Share: part as a percentage of the whole.",
+      "Base: what a percentage is measured against."
+    ],
+    "theoreticalIntuition": "A table is a set of numbers waiting to be multiplied. Do the multiplication once for every row.",
+    "visualOrMentalModel": "Add revenue, cost and profit columns first. Then read each question as a lookup, a total, or a ratio of totals."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Revenue",
+      "formula": "Units × selling price",
+      "description": "Each row.",
+      "whenToUse": "First column.",
+      "simpleExample": "P: 120 × 250 = 30,000"
+    },
+    {
+      "title": "Profit",
+      "formula": "Units × (SP − CP)",
+      "description": "Each row.",
+      "whenToUse": "Second column.",
+      "simpleExample": "P: 120 × 50 = 6,000"
+    },
+    {
+      "title": "Overall margin",
+      "formula": "Total profit ÷ total revenue × 100",
+      "description": "All rows.",
+      "whenToUse": "Weighted.",
+      "simpleExample": "29,000 ÷ 151,000"
+    },
+    {
+      "title": "Average price",
+      "formula": "Total revenue ÷ total units",
+      "description": "Weighted.",
+      "whenToUse": "Per unit.",
+      "simpleExample": "151,000 ÷ 550"
+    },
+    {
+      "title": "Share",
+      "formula": "Row ÷ total × 100",
+      "description": "One row.",
+      "whenToUse": "Percent.",
+      "simpleExample": "Q: 36,000/151,000"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Revenue by product: P 30,000, Q 36,000, R 45,000, S 40,000; total 151,000. Profit: P 6,000, Q 6,000, R 9,000, S 8,000; total 29,000.",
+      "Overall margin = 29,000 ÷ 151,000 = 19.2%. This is not the average of the four product margins (20%, 16.7%, 20%, 20%).",
+      "Average selling price per unit = total revenue ÷ total units = 151,000 ÷ 550 = ₹274.5.",
+      "The product with the highest profit is R (9,000), even though S has the highest margin per unit.",
+      "Always check which total (units, revenue or profit) is the base of a percentage."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Per-unit versus total",
+        "content": "A high profit per unit does not give high total profit if few units are sold."
+      },
+      {
+        "title": "Weighted vs simple averages",
+        "content": "A simple average of prices ignores how many units each price sold."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Derived columns",
+      "description": "Revenue, profit.",
+      "exampleSnippet": "Each product"
+    },
+    {
+      "typeName": "Totals",
+      "description": "Sum rows.",
+      "exampleSnippet": "Total profit"
+    },
+    {
+      "typeName": "Weighted averages",
+      "description": "Total ÷ total.",
+      "exampleSnippet": "Average price"
+    },
+    {
+      "typeName": "Shares",
+      "description": "Percent of total.",
+      "exampleSnippet": "Revenue share"
+    },
+    {
+      "typeName": "What-ifs",
+      "description": "Change a number.",
+      "exampleSnippet": "Price rise"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mqm-data-based-quant-1",
+      "title": "Profit",
+      "question": "Product P: 120 units sold at ₹250 each, cost ₹200 each. What is the total profit?",
+      "givenInfo": [
+        "120",
+        "250",
+        "200"
+      ],
+      "conceptOrFormula": "Units × margin.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Margin",
+          "explanation": "250 − 200 = 50."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Total",
+          "explanation": "120 × 50 = ₹6,000."
+        }
+      ],
+      "finalAnswer": "₹6,000",
+      "whyItWorks": "Profit per unit × units.",
+      "commonTrap": "Using revenue.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mqm-data-based-quant-2",
+      "title": "Weighted average",
+      "question": "Total revenue is ₹1,51,000 from 550 units. What is the average selling price per unit?",
+      "givenInfo": [
+        "151,000",
+        "550"
+      ],
+      "conceptOrFormula": "Total ÷ total.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Totals",
+          "explanation": "Revenue 151,000 and units 550."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide",
+          "explanation": "151,000 ÷ 550 = 274.5."
+        }
+      ],
+      "finalAnswer": "₹274.5",
+      "whyItWorks": "Weighted by units.",
+      "commonTrap": "Averaging four prices.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mqm-data-based-quant-3",
+      "title": "Margin",
+      "question": "Total profit ₹29,000 on revenue ₹1,51,000. What is the overall margin?",
+      "givenInfo": [
+        "29,000",
+        "151,000"
+      ],
+      "conceptOrFormula": "Profit ÷ revenue.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "29,000 ÷ 151,000 = 0.192."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "19.2%."
+        }
+      ],
+      "finalAnswer": "19.2%",
+      "whyItWorks": "Base is revenue.",
+      "commonTrap": "Averaging the margins.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Add the columns",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compute per question.",
+      "shortcutMethod": "Add revenue and profit columns once; answer every question from totals and ratios of totals."
+    },
+    "rulesForApplication": [
+      "Weight the averages.",
+      "Use the right base.",
+      "Total before percent.",
+      "Check units."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Averaging percentages",
+      "whyItHappens": "Different bases.",
+      "howToAvoid": "Divide total by total."
+    },
+    {
+      "mistake": "Using cost as the base for margin on revenue",
+      "whyItHappens": "Wrong base.",
+      "howToAvoid": "Read the question."
+    },
+    {
+      "mistake": "Missing a row",
+      "whyItHappens": "Wrong total.",
+      "howToAvoid": "Tick each row."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 100,
+    "eliminationTechnique": "A total cannot be less than any single row.",
+    "questionSelectionAdvice": "Write derived columns beside the table.",
+    "recruiterInsight": "One table serves several questions."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mqm-data-based-quant-e1",
+        "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the total revenue from product P (₹)?",
+        "options": [
+          "33000",
+          "30000",
+          "27000",
+          "37500"
+        ],
+        "correctAnswer": "30000",
+        "explanation": "120 × 250 = 30,000.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-data-based-quant-e2",
+        "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the total revenue from product Q (₹)?",
+        "options": [
+          "36000",
+          "39600",
+          "32400",
+          "45000"
+        ],
+        "correctAnswer": "36000",
+        "explanation": "200 × 180 = 36,000.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-data-based-quant-e3",
+        "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the profit per unit of product R (₹)?",
+        "options": [
+          "66",
+          "54",
+          "75",
+          "60"
+        ],
+        "correctAnswer": "60",
+        "explanation": "300 − 240 = 60.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mqm-data-based-quant-i7",
+        "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the total revenue of all four products (₹)?",
+        "options": [
+          "151000",
+          "166100",
+          "135900",
+          "188750"
+        ],
+        "correctAnswer": "151000",
+        "explanation": "30,000 + 36,000 + 45,000 + 40,000 = 151,000.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-data-based-quant-i8",
+        "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhat is the total profit of all four products (₹)?",
+        "options": [
+          "31900",
+          "26100",
+          "36250",
+          "29000"
+        ],
+        "correctAnswer": "29000",
+        "explanation": "6,000 + 6,000 + 9,000 + 8,000 = 29,000.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-data-based-quant-i9",
+        "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhich product gives the highest total profit?",
+        "options": [
+          "Product P",
+          "Product Q",
+          "Product S",
+          "Product R"
+        ],
+        "correctAnswer": "Product R",
+        "explanation": "Profits are P 6,000, Q 6,000, R 9,000, S 8,000; the highest is R.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mqm-data-based-quant-a15",
+        "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nIf every selling price rises by 10% and the units sold stay the same, the new total revenue is (₹)",
+        "options": [
+          "182710",
+          "149490",
+          "166100",
+          "207625"
+        ],
+        "correctAnswer": "166100",
+        "explanation": "151,000 × 1.1 = 166,100.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-data-based-quant-a16",
+        "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nIf every selling price rises by 10% and costs stay the same, the new total profit is (₹)",
+        "options": [
+          "48510",
+          "44100",
+          "39690",
+          "55125"
+        ],
+        "correctAnswer": "44100",
+        "explanation": "Extra revenue 15,100 adds fully to profit: 29,000 + 15,100 = 44,100.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mqm-data-based-quant-p17",
+        "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nWhich product has the highest profit margin as a percentage of its selling price?",
+        "options": [
+          "Product Q only",
+          "Product P, Product R and Product S tie at 20%",
+          "Product P only",
+          "Product S only"
+        ],
+        "correctAnswer": "Product P, Product R and Product S tie at 20%",
+        "explanation": "Margins on selling price: P 50/250 = 20%, Q 30/180 = 16.7%, R 60/300 = 20%, S 100/500 = 20%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-data-based-quant-p18",
+        "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nHow many extra units of Q must be sold, at the same prices, to raise the total profit by ₹3,000?",
+        "options": [
+          "100",
+          "110",
+          "90",
+          "125"
+        ],
+        "correctAnswer": "100",
+        "explanation": "Each unit of Q gives ₹30 profit; 3,000 ÷ 30 = 100.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-data-based-quant-p19",
+        "question": "Sales data of four products in a month\n\nProduct | Units sold | Selling price (₹/unit) | Cost price (₹/unit)\nP | 120 | 250 | 200\nQ | 200 | 180 | 150\nR | 150 | 300 | 240\nS | 80 | 500 | 400\n\nThe simple average of the four selling prices (₹) is",
+        "options": [
+          "338.3",
+          "276.8",
+          "384.4",
+          "307.5"
+        ],
+        "correctAnswer": "307.5",
+        "explanation": "(250 + 180 + 300 + 500) ÷ 4 = 307.5, which differs from the weighted average because units differ.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Derived columns.",
+      "Totals.",
+      "Weighted averages.",
+      "Shares.",
+      "Bases."
+    ],
+    "quickFormulas": [
+      "Weighted average = total ÷ total"
+    ]
+  },
+  "keyTakeaways": [
+    "Columns first.",
+    "Weight.",
+    "Right base.",
+    "Check rows."
+  ],
+  "selfCheckQuestions": [
+    "Can I add derived columns?",
+    "Can I weight an average?",
+    "Can I choose the base?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic areas; examples in this chapter are original."
+    }
+  ]
+}

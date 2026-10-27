@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-mqm-time-bound-drills",
+  "topicTitle": "Time-Bound Quantitative Drills",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "30 questions in 40 minutes give an average time per question of (seconds)",
+      "options": [
+        "88",
+        "80",
+        "72",
+        "100"
+      ],
+      "answerIndex": 1,
+      "explanation": "2,400 ÷ 30 = 80."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "25% of 480 equals",
+      "options": [
+        "120",
+        "132",
+        "108",
+        "150"
+      ],
+      "answerIndex": 0,
+      "explanation": "480 ÷ 4 = 120."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "15 × 16 equals",
+      "options": [
+        "264",
+        "216",
+        "300",
+        "240"
+      ],
+      "answerIndex": 3,
+      "explanation": "15 × 16 = 240."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The average of 12, 18 and 24 is",
+      "options": [
+        "20",
+        "16",
+        "18",
+        "23"
+      ],
+      "answerIndex": 2,
+      "explanation": "(12 + 18 + 24) ÷ 3 = 18."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A section of 20 questions has 25 minutes. The average time per question is (seconds)",
+      "options": [
+        "83",
+        "68",
+        "75",
+        "94"
+      ],
+      "answerIndex": 2,
+      "explanation": "1,500 ÷ 20 = 75."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The simple interest on ₹2,000 at 5% for 2 years is (₹)",
+      "options": [
+        "220",
+        "200",
+        "180",
+        "250"
+      ],
+      "answerIndex": 1,
+      "explanation": "2,000 × 5 × 2 ÷ 100 = 200."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A candidate attempts 28 questions and gets 24 right. The accuracy is",
+      "options": [
+        "85.7%",
+        "94.3%",
+        "77.1%",
+        "107.1%"
+      ],
+      "answerIndex": 0,
+      "explanation": "24 ÷ 28 = 85.7%."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "24 right and 4 wrong with ¼ mark penalty and 1 mark per right answer give a score of",
+      "options": [
+        "25",
+        "21",
+        "29",
+        "23"
+      ],
+      "answerIndex": 3,
+      "explanation": "24 − 1 = 23."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A 40-minute section: after 10 minutes at an 80-second pace, the number of questions done is about",
+      "options": [
+        "8.3",
+        "6.8",
+        "9.4",
+        "7.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "600 ÷ 80 = 7.5."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "35% of 640 equals",
+      "options": [
+        "246",
+        "202",
+        "224",
+        "280"
+      ],
+      "answerIndex": 2,
+      "explanation": "10% = 64; 30% = 192; 5% = 32; 224."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A train travels 180 km in 2.5 hours. The speed is (km/h)",
+      "options": [
+        "79",
+        "72",
+        "65",
+        "90"
+      ],
+      "answerIndex": 1,
+      "explanation": "180 ÷ 2.5 = 72."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "3,600 seconds ÷ 45 seconds per question gives the number of questions",
+      "options": [
+        "80",
+        "88",
+        "72",
+        "100"
+      ],
+      "answerIndex": 0,
+      "explanation": "3,600 ÷ 45 = 80."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "If 3 workers finish a job in 12 days, 6 workers finish it in (days)",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answerIndex": 0,
+      "explanation": "Man-days = 36; 36 ÷ 6 = 6."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The cost price of an article is ₹400 and it is sold at 15% profit. The selling price is (₹)",
+      "options": [
+        "506",
+        "414",
+        "575",
+        "460"
+      ],
+      "answerIndex": 3,
+      "explanation": "400 × 1.15 = 460."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "In a section of 36 questions in 45 minutes, a candidate finishes the first half in 20 minutes. The average time per question left to finish on time is (seconds)",
+      "options": [
+        "91.6",
+        "75",
+        "83.3",
+        "104.1"
+      ],
+      "answerIndex": 2,
+      "explanation": "Time left 25 min = 1,500 s for 18 questions: 83.3 s."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A section gives +1 for each right and −0.25 for each wrong answer. A candidate attempts 25 questions with 20 right and 5 wrong. The score is",
+      "options": [
+        "20.63",
+        "18.75",
+        "16.88",
+        "23.44"
+      ],
+      "answerIndex": 1,
+      "explanation": "20 − 1.25 = 18.75."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The compound interest on ₹5,000 at 20% for 2 years is (₹)",
+      "options": [
+        "2420",
+        "2200",
+        "1980",
+        "2750"
+      ],
+      "answerIndex": 1,
+      "explanation": "5,000 × 1.44 = 7,200; interest 2,200."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A man spends 20 minutes on a hard question while his average pace is 80 seconds. The time spent is how many times his pace?",
+      "options": [
+        "15",
+        "17",
+        "14",
+        "19"
+      ],
+      "answerIndex": 0,
+      "explanation": "1,200 ÷ 80 = 15 times."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Two numbers are in the ratio 7 : 9 and differ by 14. The larger is",
+      "options": [
+        "69",
+        "57",
+        "79",
+        "63"
+      ],
+      "answerIndex": 3,
+      "explanation": "Difference 2 parts = 14, so part = 7; larger = 9 × 7 = 63."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "65 × 15 equals",
+      "options": [
+        "1073",
+        "878",
+        "975",
+        "1219"
+      ],
+      "answerIndex": 2,
+      "explanation": "65 × 15 = 65 × 10 + 65 × 5 = 650 + 325 = 975."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

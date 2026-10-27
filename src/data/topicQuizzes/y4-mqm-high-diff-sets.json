@@ -1,0 +1,254 @@
+{
+  "topicId": "y4-mqm-high-diff-sets",
+  "topicTitle": "High-Difficulty Quantitative Sets",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "100 L of milk has 10 L removed and replaced by water, three times. The milk left is (litres)",
+      "options": [
+        "80.2",
+        "72.9",
+        "65.6",
+        "91.1"
+      ],
+      "answerIndex": 1,
+      "explanation": "100 × 0.9³ = 72.9."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "In a partnership C invests ₹10,000 for 6 months. The capital × time of C is",
+      "options": [
+        "60000",
+        "66000",
+        "54000",
+        "75000"
+      ],
+      "answerIndex": 0,
+      "explanation": "10,000 × 6 = 60,000."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A pipe fills a tank in 6 hours. In 2 hours it fills what percentage?",
+      "options": [
+        "36.6%",
+        "30%",
+        "41.6%",
+        "33.3%"
+      ],
+      "answerIndex": 3,
+      "explanation": "2/6 = 33.3%."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A sum grows 10% in year 1 and 20% in year 2. The total growth is",
+      "options": [
+        "35%",
+        "29%",
+        "32%",
+        "40%"
+      ],
+      "answerIndex": 2,
+      "explanation": "1.1 × 1.2 = 1.32, a 32% rise."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Two cars start 300 km apart and run towards each other at 40 and 60 km/h. They meet after (hours)",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "answerIndex": 2,
+      "explanation": "Relative speed 100; 300 ÷ 100 = 3."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A job needs 120 man-days. 15 men finish it in (days)",
+      "options": [
+        "9",
+        "8",
+        "7",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "120 ÷ 15 = 8."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A vessel has 50 L of milk. 5 L are removed and replaced with water, twice. The water in the vessel is (litres)",
+      "options": [
+        "9.5",
+        "10.5",
+        "8.6",
+        "11.9"
+      ],
+      "answerIndex": 0,
+      "explanation": "Milk = 50 × 0.81 = 40.5; water = 9.5."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A tank is filled by pipe A in 6 hours. After 2 hours pipe B (12 hours alone) also opens. The total time is (hours)",
+      "options": [
+        "5.14",
+        "4.2",
+        "5.84",
+        "4.67"
+      ],
+      "answerIndex": 3,
+      "explanation": "2/3 remains; rate 1/4 per hour: 8/3 h; total 4.67."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A, B and C invest ₹6,000, ₹8,000 and ₹10,000 for 12, 9 and 6 months. The profit is ₹17,000. C's share is (₹)",
+      "options": [
+        "5500",
+        "4500",
+        "6250",
+        "5000"
+      ],
+      "answerIndex": 3,
+      "explanation": "Ratio 6 : 6 : 5 (total 17): C gets 5/17 × 17,000 = 5,000."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Two cyclists start from the same point in opposite directions at 12 and 18 km/h. After how many minutes are they 45 km apart?",
+      "options": [
+        "99",
+        "81",
+        "90",
+        "113"
+      ],
+      "answerIndex": 2,
+      "explanation": "Separation speed 30 km/h; 45 ÷ 30 = 1.5 h = 90 minutes."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "₹10,000 is invested at 10% compound interest for the first year and 20% for the second. The amount after two years is (₹)",
+      "options": [
+        "14520",
+        "13200",
+        "11880",
+        "16500"
+      ],
+      "answerIndex": 1,
+      "explanation": "10,000 × 1.32 = 13,200."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A can finish a job in 20 days and B in 30. They work together for 6 days and then A leaves. B finishes the rest in (days)",
+      "options": [
+        "15",
+        "17",
+        "14",
+        "19"
+      ],
+      "answerIndex": 0,
+      "explanation": "Together 6 days: 6 × 1/12 = 1/2 done; B needs 1/2 ÷ 1/30 = 15 days."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A train 150 m long passes a 250 m platform in 20 s. Its speed is (km/h)",
+      "options": [
+        "72",
+        "79",
+        "65",
+        "90"
+      ],
+      "answerIndex": 0,
+      "explanation": "400 m in 20 s = 20 m/s = 72 km/h."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The ratio of the ages of A and B is 3 : 4. After 6 years it is 4 : 5. A's present age is (years)",
+      "options": [
+        "20",
+        "16",
+        "23",
+        "18"
+      ],
+      "answerIndex": 3,
+      "explanation": "3k + 6 : 4k + 6 = 4 : 5 gives 15k + 30 = 16k + 24, so k = 6 and A = 18."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A container holds 80 L of milk. 8 L are replaced by water, then 16 L of the mixture are replaced by water. The milk left is (litres)",
+      "options": [
+        "63.4",
+        "51.8",
+        "57.6",
+        "72"
+      ],
+      "answerIndex": 2,
+      "explanation": "After first step milk = 72; after the second, 72 × (64/80) = 57.6."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A and B can do a job in 12 and 18 days. They work on alternate days, A first. The number of days needed is",
+      "options": [
+        "17",
+        "15",
+        "14",
+        "19"
+      ],
+      "answerIndex": 1,
+      "explanation": "LCM 36: A 3, B 2 per day. 5 per 2 days; 14 days give 35; on day 15 A completes the last unit."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A man can row 8 km/h in still water. In a river flowing at 2 km/h it takes him 3 hours to go to a place and return. The distance is (km)",
+      "options": [
+        "12.38",
+        "11.25",
+        "10.13",
+        "14.06"
+      ],
+      "answerIndex": 1,
+      "explanation": "D/10 + D/6 = 3 gives D × 16/60 = 3, so D = 11.25."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Three taps fill a tank in 6, 8 and 12 hours. All are opened but the second is closed after 2 hours. The total time is (hours, 2 decimals)",
+      "options": [
+        "3",
+        "3.3",
+        "2.7",
+        "3.75"
+      ],
+      "answerIndex": 0,
+      "explanation": "In 2 h: 2 × 9/24 = 3/4 done; remaining 1/4 at 1/4 per hour: 1 h; total 3 h."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A sum of money doubles in 5 years at compound interest. In how many years will it become 8 times (assuming the same rate)?",
+      "options": [
+        "17",
+        "14",
+        "19",
+        "15"
+      ],
+      "answerIndex": 3,
+      "explanation": "Doubling every 5 years: 8 = 2³, so 15 years."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/"
+}

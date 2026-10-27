@@ -1,0 +1,422 @@
+{
+  "id": "y4-mqm-high-diff-sets",
+  "yearId": 4,
+  "category": "Advanced Aptitude / Mixed Problems",
+  "topicNumber": 6,
+  "title": "High-Difficulty Quantitative Sets",
+  "tagline": "Year 4 — Multi-step problems on repeated replacement, partnerships, alternating work, races and combined interest",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "High-difficulty questions are not more advanced mathematics; they are longer chains in which a small slip early on ruins the result. Typical forms are repeated replacement in a mixture, partnerships with changing capital, alternating work, relative motion with turn-arounds, and compound interest with changing rates. The method is to define variables clearly, build the chain step by step and verify with a rough estimate.",
+    "placementRelevance": "These are the questions that separate top scores in company aptitude papers; attempt them after the easier ones.",
+    "realWorldContext": "Project planning with phased resources and investments with changing capital have the same structure."
+  },
+  "learningObjectives": [
+    "Handle repeated replacement with a geometric factor",
+    "Split partnership profit by capital × time",
+    "Handle alternating and phased work",
+    "Solve relative motion with turn-arounds",
+    "Verify multi-step answers by estimation"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Mixed Quantitative — Integrated Problem Solving",
+      "Multi-Concept Quantitative Problems"
+    ],
+    "quickRefresher": "Replacement: milk left = initial × (1 − x/V)ⁿ. Partnership: profit ∝ capital × time. Work in phases: add the fractions completed."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Replacement: removing part of a mixture and refilling with another liquid.",
+      "Capital-time product: capital multiplied by months invested.",
+      "Phase: a stretch of time with a fixed set of workers or speeds.",
+      "Turn-around: reversing direction during a journey.",
+      "Verification: a rough independent estimate."
+    ],
+    "theoreticalIntuition": "A long problem is a short problem repeated or stitched together. Find the repeating unit.",
+    "visualOrMentalModel": "Define the unknown, write the first phase, then the second, and so on; add or multiply as the structure demands."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Replacement",
+      "formula": "Left = V(1 − x/V)ⁿ",
+      "description": "n replacements of x from volume V.",
+      "whenToUse": "Mixtures.",
+      "simpleExample": "100(0.9)³ = 72.9"
+    },
+    {
+      "title": "Partnership",
+      "formula": "Share ∝ capital × months",
+      "description": "Varying investment.",
+      "whenToUse": "Business.",
+      "simpleExample": "6 : 6 : 5"
+    },
+    {
+      "title": "Phased work",
+      "formula": "Sum of fractions = 1",
+      "description": "Changing teams.",
+      "whenToUse": "Work.",
+      "simpleExample": "1/3 done in 2 h"
+    },
+    {
+      "title": "Meeting with return",
+      "formula": "Relative speed reasoning",
+      "description": "Turn-arounds.",
+      "whenToUse": "Motion.",
+      "simpleExample": "Two cyclists"
+    },
+    {
+      "title": "Rate change",
+      "formula": "Multiply yearly factors",
+      "description": "Variable rates.",
+      "whenToUse": "Interest.",
+      "simpleExample": "1.1 × 1.2"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A vessel with 100 L of milk has 10 L removed and replaced by water three times. Milk left = 100 × 0.9³ = 72.9 L.",
+      "Three partners invest ₹6,000, ₹8,000 and ₹10,000 for 12, 9 and 6 months. Capital × time: 72,000 : 72,000 : 60,000 = 6 : 6 : 5.",
+      "A tank is filled by pipe A in 6 hours; after 2 hours pipe B (12 hours alone) joins. In 2 hours A fills 1/3. Together they fill 1/4 per hour, so the remaining 2/3 takes 8/3 h; total 4⅔ h.",
+      "A sum at 10% in year 1 and 20% in year 2 grows by a factor of 1.1 × 1.2 = 1.32, a total of 32%.",
+      "Check each result against a rough estimate (for example the tank must take more than 2 hours and less than 6)."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Alternate work",
+        "content": "Compute the work per cycle, count full cycles, then handle the leftover units."
+      },
+      {
+        "title": "Rate changes",
+        "content": "When the rate changes in the middle, split the time and compute each part separately."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Replacement",
+      "description": "Geometric factor.",
+      "exampleSnippet": "3 replacements"
+    },
+    {
+      "typeName": "Partnership",
+      "description": "Capital × time.",
+      "exampleSnippet": "Three partners"
+    },
+    {
+      "typeName": "Phased work",
+      "description": "Add fractions.",
+      "exampleSnippet": "Pipe B joins"
+    },
+    {
+      "typeName": "Variable interest",
+      "description": "Multiply factors.",
+      "exampleSnippet": "10% then 20%"
+    },
+    {
+      "typeName": "Motion",
+      "description": "Relative speed.",
+      "exampleSnippet": "Turn-arounds"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-mqm-high-diff-sets-1",
+      "title": "Replacement",
+      "question": "100 L of milk: 10 L removed and replaced by water, three times. How much milk is left?",
+      "givenInfo": [
+        "100 L",
+        "10 L",
+        "3 times"
+      ],
+      "conceptOrFormula": "Geometric factor.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Factor",
+          "explanation": "1 − 10/100 = 0.9."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Result",
+          "explanation": "100 × 0.9³ = 72.9 L."
+        }
+      ],
+      "finalAnswer": "72.9 L",
+      "whyItWorks": "Each step removes 10% of the current milk.",
+      "commonTrap": "Subtracting 30 L.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-mqm-high-diff-sets-2",
+      "title": "Partnership",
+      "question": "Investments ₹6,000, ₹8,000, ₹10,000 for 12, 9, 6 months. Find the ratio of profit shares.",
+      "givenInfo": [
+        "Capital and time"
+      ],
+      "conceptOrFormula": "Capital × time.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Products",
+          "explanation": "72,000, 72,000, 60,000."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Ratio",
+          "explanation": "6 : 6 : 5."
+        }
+      ],
+      "finalAnswer": "6 : 6 : 5",
+      "whyItWorks": "Time matters as much as capital.",
+      "commonTrap": "Using capital alone.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-mqm-high-diff-sets-3",
+      "title": "Phased work",
+      "question": "Pipe A fills a tank in 6 h. After 2 h, pipe B (12 h alone) opens too. Total time?",
+      "givenInfo": [
+        "A 6 h",
+        "B 12 h"
+      ],
+      "conceptOrFormula": "Add fractions.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "First 2 h",
+          "explanation": "A fills 2/6 = 1/3."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Rest",
+          "explanation": "2/3 ÷ (1/6 + 1/12) = 8/3 h; total 4.67 h."
+        }
+      ],
+      "finalAnswer": "4.67 hours",
+      "whyItWorks": "Together 1/4 per hour.",
+      "commonTrap": "Ignoring the first phase.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Repeat or stitch",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "One big equation.",
+      "shortcutMethod": "Find the repeating unit (a factor) or split into phases and add the results."
+    },
+    "rulesForApplication": [
+      "Define variables first.",
+      "Phases add.",
+      "Factors multiply.",
+      "Estimate to verify."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Treating replacements as subtraction",
+      "whyItHappens": "Wrong geometric.",
+      "howToAvoid": "Use (1 − x/V)ⁿ."
+    },
+    {
+      "mistake": "Ignoring time in partnerships",
+      "whyItHappens": "Wrong ratio.",
+      "howToAvoid": "Capital × time."
+    },
+    {
+      "mistake": "Skipping the first phase",
+      "whyItHappens": "Under-counting.",
+      "howToAvoid": "Write phases in order."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 150,
+    "eliminationTechnique": "Reject answers outside simple bounds.",
+    "questionSelectionAdvice": "Attempt after easier questions.",
+    "recruiterInsight": "Neat intermediate numbers show you are on the right track."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-mqm-high-diff-sets-e1",
+        "question": "100 L of milk has 10 L removed and replaced by water, three times. The milk left is (litres)",
+        "options": [
+          "80.2",
+          "72.9",
+          "65.6",
+          "91.1"
+        ],
+        "correctAnswer": "72.9",
+        "explanation": "100 × 0.9³ = 72.9.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-high-diff-sets-e2",
+        "question": "In a partnership C invests ₹10,000 for 6 months. The capital × time of C is",
+        "options": [
+          "60000",
+          "66000",
+          "54000",
+          "75000"
+        ],
+        "correctAnswer": "60000",
+        "explanation": "10,000 × 6 = 60,000.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-mqm-high-diff-sets-e3",
+        "question": "A pipe fills a tank in 6 hours. In 2 hours it fills what percentage?",
+        "options": [
+          "36.6%",
+          "30%",
+          "41.6%",
+          "33.3%"
+        ],
+        "correctAnswer": "33.3%",
+        "explanation": "2/6 = 33.3%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-mqm-high-diff-sets-i7",
+        "question": "A vessel has 50 L of milk. 5 L are removed and replaced with water, twice. The water in the vessel is (litres)",
+        "options": [
+          "9.5",
+          "10.5",
+          "8.6",
+          "11.9"
+        ],
+        "correctAnswer": "9.5",
+        "explanation": "Milk = 50 × 0.81 = 40.5; water = 9.5.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-high-diff-sets-i8",
+        "question": "A tank is filled by pipe A in 6 hours. After 2 hours pipe B (12 hours alone) also opens. The total time is (hours)",
+        "options": [
+          "5.14",
+          "4.2",
+          "5.84",
+          "4.67"
+        ],
+        "correctAnswer": "4.67",
+        "explanation": "2/3 remains; rate 1/4 per hour: 8/3 h; total 4.67.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-mqm-high-diff-sets-i9",
+        "question": "A, B and C invest ₹6,000, ₹8,000 and ₹10,000 for 12, 9 and 6 months. The profit is ₹17,000. C's share is (₹)",
+        "options": [
+          "5500",
+          "4500",
+          "6250",
+          "5000"
+        ],
+        "correctAnswer": "5000",
+        "explanation": "Ratio 6 : 6 : 5 (total 17): C gets 5/17 × 17,000 = 5,000.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-mqm-high-diff-sets-a15",
+        "question": "A container holds 80 L of milk. 8 L are replaced by water, then 16 L of the mixture are replaced by water. The milk left is (litres)",
+        "options": [
+          "63.4",
+          "51.8",
+          "57.6",
+          "72"
+        ],
+        "correctAnswer": "57.6",
+        "explanation": "After first step milk = 72; after the second, 72 × (64/80) = 57.6.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-high-diff-sets-a16",
+        "question": "A and B can do a job in 12 and 18 days. They work on alternate days, A first. The number of days needed is",
+        "options": [
+          "17",
+          "15",
+          "14",
+          "19"
+        ],
+        "correctAnswer": "15",
+        "explanation": "LCM 36: A 3, B 2 per day. 5 per 2 days; 14 days give 35; on day 15 A completes the last unit.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-mqm-high-diff-sets-p17",
+        "question": "A man can row 8 km/h in still water. In a river flowing at 2 km/h it takes him 3 hours to go to a place and return. The distance is (km)",
+        "options": [
+          "12.38",
+          "11.25",
+          "10.13",
+          "14.06"
+        ],
+        "correctAnswer": "11.25",
+        "explanation": "D/10 + D/6 = 3 gives D × 16/60 = 3, so D = 11.25.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-high-diff-sets-p18",
+        "question": "Three taps fill a tank in 6, 8 and 12 hours. All are opened but the second is closed after 2 hours. The total time is (hours, 2 decimals)",
+        "options": [
+          "3",
+          "3.3",
+          "2.7",
+          "3.75"
+        ],
+        "correctAnswer": "3",
+        "explanation": "In 2 h: 2 × 9/24 = 3/4 done; remaining 1/4 at 1/4 per hour: 1 h; total 3 h.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-mqm-high-diff-sets-p19",
+        "question": "A sum of money doubles in 5 years at compound interest. In how many years will it become 8 times (assuming the same rate)?",
+        "options": [
+          "17",
+          "14",
+          "19",
+          "15"
+        ],
+        "correctAnswer": "15",
+        "explanation": "Doubling every 5 years: 8 = 2³, so 15 years.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Replacement.",
+      "Partnership.",
+      "Phased work.",
+      "Variable rates.",
+      "Verify."
+    ],
+    "quickFormulas": [
+      "Left = V(1 − x/V)ⁿ"
+    ]
+  },
+  "keyTakeaways": [
+    "Define.",
+    "Phase.",
+    "Factor.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I do repeated replacement?",
+    "Can I split partnership profit?",
+    "Can I phase a work problem?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic areas; examples in this chapter are original."
+    }
+  ]
+}
