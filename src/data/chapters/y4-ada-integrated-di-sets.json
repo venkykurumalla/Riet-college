@@ -1,0 +1,423 @@
+{
+  "id": "y4-ada-integrated-di-sets",
+  "yearId": 4,
+  "category": "Data Interpretation",
+  "topicNumber": 21,
+  "title": "Integrated DI Sets (3+ Charts)",
+  "tagline": "Year 4 — Three or more tables or charts about the same entities: combining sales, costs and staffing to answer each question",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "An integrated set gives three or more data sources (here sales, cost percentages and staffing) about the same regions or products. Each question needs a few cells from different sources combined by a product, a ratio or a sum. The method is to build one working table of derived values (cost, profit, growth, revenue per employee) for each entity and answer every question from it.",
+    "placementRelevance": "Integrated sets are the longest DI items in company tests; building the working table once saves time on all questions.",
+    "realWorldContext": "Management reports combine finance, headcount and sales tables in exactly this way."
+  },
+  "learningObjectives": [
+    "Match entities across several sources",
+    "Build a working table of derived values",
+    "Compute growth, profit and productivity",
+    "Rank entities on derived measures",
+    "Check consistency between sources"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Multi-Table DI Sets",
+      "Mixed Graph DI",
+      "Percentage-Based DI"
+    ],
+    "quickRefresher": "Cost = sales × cost %. Profit = sales − cost. Productivity = sales ÷ employees. Growth = change ÷ old."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Working table: your own table of derived values.",
+      "Productivity: output per employee.",
+      "Growth: percentage change over a period.",
+      "Margin: profit as a percentage of sales.",
+      "Entity: the item compared (region, product)."
+    ],
+    "theoreticalIntuition": "Several sources are one table split into pieces. Rejoin them and the questions become lookups.",
+    "visualOrMentalModel": "For each entity compute cost, profit and revenue per employee once; then answer from your table."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Cost and profit",
+      "formula": "Cost = sales × %; profit = sales − cost",
+      "description": "Each region.",
+      "whenToUse": "Derived.",
+      "simpleExample": "North: 230 × 60% = 138"
+    },
+    {
+      "title": "Growth",
+      "formula": "(2023 − 2022) ÷ 2022",
+      "description": "Each region.",
+      "whenToUse": "Growth.",
+      "simpleExample": "North 15%"
+    },
+    {
+      "title": "Productivity",
+      "formula": "Sales ÷ employees",
+      "description": "Each region.",
+      "whenToUse": "Per head.",
+      "simpleExample": "North ₹57.5 lakh"
+    },
+    {
+      "title": "Share",
+      "formula": "Region ÷ total",
+      "description": "Each region.",
+      "whenToUse": "Share.",
+      "simpleExample": "South 330/1000"
+    },
+    {
+      "title": "Total margin",
+      "formula": "Total profit ÷ total sales",
+      "description": "All regions.",
+      "whenToUse": "Weighted.",
+      "simpleExample": "(1000 − cost)/1000"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "North: sales rose from 200 to 230 (15% growth), cost 60% of 230 = 138, profit 92; revenue per employee 230 × 100 ÷ 400 = ₹57.5 lakh.",
+      "South: sales 330, cost 55% = 181.5, profit 148.5, growth 10%, revenue per employee ₹60 lakh.",
+      "East: sales 180, cost 65% = 117, profit 63, growth 20%, revenue per employee ₹60 lakh.",
+      "West: sales 260, cost 50% = 130, profit 130, growth 4%, revenue per employee ₹52 lakh.",
+      "Total 2023 sales are ₹1,000 crore; total profit is 92 + 148.5 + 63 + 130 = 433.5, a margin of 43.35%."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Different bases",
+        "content": "Cost % applies to 2023 sales only; do not apply it to 2022."
+      },
+      {
+        "title": "Productivity versus profit",
+        "content": "A region can have high revenue per employee and low profit."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Derived columns",
+      "description": "Cost, profit.",
+      "exampleSnippet": "Each region"
+    },
+    {
+      "typeName": "Growth",
+      "description": "Percent change.",
+      "exampleSnippet": "North"
+    },
+    {
+      "typeName": "Productivity",
+      "description": "Per employee.",
+      "exampleSnippet": "Revenue"
+    },
+    {
+      "typeName": "Rankings",
+      "description": "Highest.",
+      "exampleSnippet": "Profit"
+    },
+    {
+      "typeName": "Totals",
+      "description": "Sum.",
+      "exampleSnippet": "Total profit"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y4-ada-integrated-di-sets-1",
+      "title": "Cost and profit",
+      "question": "North: 2023 sales ₹230 crore, cost 60% of sales. What is the profit?",
+      "givenInfo": [
+        "230",
+        "60%"
+      ],
+      "conceptOrFormula": "Sales − cost.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Cost",
+          "explanation": "60% of 230 = 138."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Profit",
+          "explanation": "230 − 138 = ₹92 crore."
+        }
+      ],
+      "finalAnswer": "₹92 crore",
+      "whyItWorks": "Cost is on sales.",
+      "commonTrap": "Taking 60% as profit.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y4-ada-integrated-di-sets-2",
+      "title": "Productivity",
+      "question": "North: sales ₹230 crore with 400 employees. Revenue per employee in ₹ lakh?",
+      "givenInfo": [
+        "230 crore",
+        "400"
+      ],
+      "conceptOrFormula": "Convert units.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Convert",
+          "explanation": "230 crore = 23,000 lakh."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide",
+          "explanation": "23,000 ÷ 400 = 57.5."
+        }
+      ],
+      "finalAnswer": "₹57.5 lakh",
+      "whyItWorks": "1 crore = 100 lakh.",
+      "commonTrap": "Forgetting units.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y4-ada-integrated-di-sets-3",
+      "title": "Growth",
+      "question": "West sales rose from ₹250 crore to ₹260 crore. Growth?",
+      "givenInfo": [
+        "250",
+        "260"
+      ],
+      "conceptOrFormula": "Change over old.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Change",
+          "explanation": "10."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "10 ÷ 250 = 4%."
+        }
+      ],
+      "finalAnswer": "4%",
+      "whyItWorks": "Old is the base.",
+      "commonTrap": "Dividing by 260.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Build the working table",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Hunt per question.",
+      "shortcutMethod": "Compute cost, profit, growth and revenue per employee for each entity once."
+    },
+    "rulesForApplication": [
+      "Right base.",
+      "Convert units.",
+      "Weighted totals.",
+      "One table, many answers."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Applying a % to the wrong year",
+      "whyItHappens": "Wrong base.",
+      "howToAvoid": "Read which year the % refers to."
+    },
+    {
+      "mistake": "Unit slips (crore vs lakh)",
+      "whyItHappens": "Large error.",
+      "howToAvoid": "Convert first."
+    },
+    {
+      "mistake": "Averaging percentages",
+      "whyItHappens": "Weighted needed.",
+      "howToAvoid": "Use totals."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 150,
+    "eliminationTechnique": "Profit must be less than sales.",
+    "questionSelectionAdvice": "Write derived columns beside the tables.",
+    "recruiterInsight": "An integrated set is one table in disguise."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y4-ada-integrated-di-sets-e1",
+        "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the profit of the North region in 2023 (₹ crore)?",
+        "options": [
+          "101",
+          "92",
+          "83",
+          "115"
+        ],
+        "correctAnswer": "92",
+        "explanation": "230 − 60% of 230 = 92.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-ada-integrated-di-sets-e2",
+        "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the cost of the South region in 2023 (₹ crore)?",
+        "options": [
+          "181.5",
+          "199.7",
+          "163.4",
+          "226.9"
+        ],
+        "correctAnswer": "181.5",
+        "explanation": "55% of 330 = 181.5.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y4-ada-integrated-di-sets-e3",
+        "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the growth in sales of the North region from 2022 to 2023?",
+        "options": [
+          "16.5%",
+          "13.5%",
+          "18.8%",
+          "15%"
+        ],
+        "correctAnswer": "15%",
+        "explanation": "(230 − 200) ÷ 200 = 15%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y4-ada-integrated-di-sets-i7",
+        "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the profit of the East region in 2023 (₹ crore)?",
+        "options": [
+          "63",
+          "69",
+          "57",
+          "79"
+        ],
+        "correctAnswer": "63",
+        "explanation": "180 − 65% of 180 = 63.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-ada-integrated-di-sets-i8",
+        "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the growth in sales of the East region?",
+        "options": [
+          "22%",
+          "18%",
+          "25%",
+          "20%"
+        ],
+        "correctAnswer": "20%",
+        "explanation": "(180 − 150) ÷ 150 = 20%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y4-ada-integrated-di-sets-i9",
+        "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhich region had the highest sales growth?",
+        "options": [
+          "North",
+          "South",
+          "West",
+          "East"
+        ],
+        "correctAnswer": "East",
+        "explanation": "Growth rates: North 15%, South 10%, East 20%, West 4%; the highest is East.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y4-ada-integrated-di-sets-a15",
+        "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the overall profit margin of the four regions in 2023 (to one decimal)?",
+        "options": [
+          "47.7%",
+          "39.1%",
+          "43.4%",
+          "54.3%"
+        ],
+        "correctAnswer": "43.4%",
+        "explanation": "433.5 ÷ 1,000 = 43.35%, about 43.4%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-ada-integrated-di-sets-a16",
+        "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhich region has the lowest profit per employee?",
+        "options": [
+          "North",
+          "East",
+          "South",
+          "West"
+        ],
+        "correctAnswer": "East",
+        "explanation": "Profit per employee (₹ lakh): North 23, South 27, East 21, West 26; the lowest is East.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y4-ada-integrated-di-sets-p17",
+        "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nBy what percentage did total sales rise from 2022 to 2023?",
+        "options": [
+          "12.2%",
+          "11.1%",
+          "10%",
+          "13.9%"
+        ],
+        "correctAnswer": "11.1%",
+        "explanation": "Total 2022 = 900; total 2023 = 1,000; 100 ÷ 900 = 11.1%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-ada-integrated-di-sets-p18",
+        "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nIf West's cost fell by 10 percentage points (to 40%), its new profit would be (₹ crore)",
+        "options": [
+          "156",
+          "172",
+          "140",
+          "195"
+        ],
+        "correctAnswer": "156",
+        "explanation": "60% of 260 = 156.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y4-ada-integrated-di-sets-p19",
+        "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the ratio of the 2023 profit of South to that of North?",
+        "options": [
+          "184 : 297",
+          "13 : 8",
+          "297 : 188",
+          "297 : 184"
+        ],
+        "correctAnswer": "297 : 184",
+        "explanation": "Profits 148.5 and 92; multiply by 2: 297 : 184.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Match entities.",
+      "Derived columns.",
+      "Units.",
+      "Weighted totals.",
+      "Rank."
+    ],
+    "quickFormulas": [
+      "Profit = sales × (1 − cost%)"
+    ]
+  },
+  "keyTakeaways": [
+    "Working table.",
+    "Bases.",
+    "Units.",
+    "Totals."
+  ],
+  "selfCheckQuestions": [
+    "Can I build the working table?",
+    "Can I convert units?",
+    "Can I rank on derived values?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y4-ada-integrated-di-sets",
+  "topicTitle": "Integrated DI Sets (3+ Charts)",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the profit of the North region in 2023 (₹ crore)?",
+      "options": [
+        "101",
+        "92",
+        "83",
+        "115"
+      ],
+      "answerIndex": 1,
+      "explanation": "230 − 60% of 230 = 92."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the cost of the South region in 2023 (₹ crore)?",
+      "options": [
+        "181.5",
+        "199.7",
+        "163.4",
+        "226.9"
+      ],
+      "answerIndex": 0,
+      "explanation": "55% of 330 = 181.5."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the growth in sales of the North region from 2022 to 2023?",
+      "options": [
+        "16.5%",
+        "13.5%",
+        "18.8%",
+        "15%"
+      ],
+      "answerIndex": 3,
+      "explanation": "(230 − 200) ÷ 200 = 15%."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat was the total sales of all regions in 2023 (₹ crore)?",
+      "options": [
+        "1100",
+        "900",
+        "1000",
+        "1250"
+      ],
+      "answerIndex": 2,
+      "explanation": "230 + 330 + 180 + 260 = 1,000."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nHow many employees are there in all regions together?",
+      "options": [
+        "1925",
+        "1575",
+        "1750",
+        "2188"
+      ],
+      "answerIndex": 2,
+      "explanation": "400 + 550 + 300 + 500 = 1,750."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the profit of the West region in 2023 (₹ crore)?",
+      "options": [
+        "143",
+        "130",
+        "117",
+        "163"
+      ],
+      "answerIndex": 1,
+      "explanation": "260 − 50% of 260 = 130."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the profit of the East region in 2023 (₹ crore)?",
+      "options": [
+        "63",
+        "69",
+        "57",
+        "79"
+      ],
+      "answerIndex": 0,
+      "explanation": "180 − 65% of 180 = 63."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the growth in sales of the East region?",
+      "options": [
+        "22%",
+        "18%",
+        "25%",
+        "20%"
+      ],
+      "answerIndex": 3,
+      "explanation": "(180 − 150) ÷ 150 = 20%."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhich region had the highest sales growth?",
+      "options": [
+        "North",
+        "South",
+        "West",
+        "East"
+      ],
+      "answerIndex": 3,
+      "explanation": "Growth rates: North 15%, South 10%, East 20%, West 4%; the highest is East."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the revenue per employee of the South region (₹ lakh)?",
+      "options": [
+        "66",
+        "54",
+        "60",
+        "75"
+      ],
+      "answerIndex": 2,
+      "explanation": "330 crore = 33,000 lakh; ÷ 550 = 60."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhich region has the highest profit in 2023?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "answerIndex": 1,
+      "explanation": "Profits: North 92, South 148.5, East 63, West 130; the highest is South."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the total profit of all regions in 2023 (₹ crore)?",
+      "options": [
+        "433.5",
+        "476.9",
+        "390.2",
+        "541.9"
+      ],
+      "answerIndex": 0,
+      "explanation": "92 + 148.5 + 63 + 130 = 433.5."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nSouth's share of total 2023 sales is",
+      "options": [
+        "33%",
+        "36.3%",
+        "29.7%",
+        "41.3%"
+      ],
+      "answerIndex": 0,
+      "explanation": "330 ÷ 1,000 = 33%."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the revenue per employee of the West region (₹ lakh)?",
+      "options": [
+        "57",
+        "47",
+        "65",
+        "52"
+      ],
+      "answerIndex": 3,
+      "explanation": "26,000 ÷ 500 = 52."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the overall profit margin of the four regions in 2023 (to one decimal)?",
+      "options": [
+        "47.7%",
+        "39.1%",
+        "43.4%",
+        "54.3%"
+      ],
+      "answerIndex": 2,
+      "explanation": "433.5 ÷ 1,000 = 43.35%, about 43.4%."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhich region has the lowest profit per employee?",
+      "options": [
+        "North",
+        "East",
+        "South",
+        "West"
+      ],
+      "answerIndex": 1,
+      "explanation": "Profit per employee (₹ lakh): North 23, South 27, East 21, West 26; the lowest is East."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nBy what percentage did total sales rise from 2022 to 2023?",
+      "options": [
+        "12.2%",
+        "11.1%",
+        "10%",
+        "13.9%"
+      ],
+      "answerIndex": 1,
+      "explanation": "Total 2022 = 900; total 2023 = 1,000; 100 ÷ 900 = 11.1%."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nIf West's cost fell by 10 percentage points (to 40%), its new profit would be (₹ crore)",
+      "options": [
+        "156",
+        "172",
+        "140",
+        "195"
+      ],
+      "answerIndex": 0,
+      "explanation": "60% of 260 = 156."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nWhat is the ratio of the 2023 profit of South to that of North?",
+      "options": [
+        "184 : 297",
+        "13 : 8",
+        "297 : 188",
+        "297 : 184"
+      ],
+      "answerIndex": 3,
+      "explanation": "Profits 148.5 and 92; multiply by 2: 297 : 184."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Table 1: Sales (₹ crore)\n\nRegion | 2022 | 2023\nNorth | 200 | 230\nSouth | 300 | 330\nEast | 150 | 180\nWest | 250 | 260\n\nTable 2: Cost as a percentage of 2023 sales\n\nRegion | Cost %\nNorth | 60%\nSouth | 55%\nEast | 65%\nWest | 50%\n\nTable 3: Employees in 2023\n\nRegion | Employees\nNorth | 400\nSouth | 550\nEast | 300\nWest | 500\n\nBy how many ₹ crore did the total 2023 cost exceed 500?",
+      "options": [
+        "73.2",
+        "59.9",
+        "66.5",
+        "83.1"
+      ],
+      "answerIndex": 2,
+      "explanation": "Total cost = 1,000 − 433.5 = 566.5; 566.5 − 500 = 66.5."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/"
+}
