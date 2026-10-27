@@ -1,0 +1,419 @@
+{
+  "id": "y3-lr-adv-data-sufficiency",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 42,
+  "title": "Advanced Data Sufficiency",
+  "tagline": "Year 3 — Deciding whether the given statements are enough to answer a question, without solving it fully",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A data-sufficiency question asks a question and gives two statements. You do not have to find the answer; you have to decide whether the statements provide enough information to find it. There are four outcomes: statement I alone is enough, statement II alone is enough, both together are needed, or even both together are not enough. The discipline is to judge each statement separately first, then together, and never to bring in outside facts.",
+    "placementRelevance": "Data-sufficiency items appear in logical-reasoning and quantitative sections of company tests, especially in management-oriented hiring.",
+    "realWorldContext": "Deciding whether you have enough information to make a decision, before spending time on the analysis, is a real-world version of this skill."
+  },
+  "learningObjectives": [
+    "Test each statement alone before combining",
+    "Recognise when a statement gives a unique answer",
+    "Handle yes/no questions (consistent answer needed)",
+    "Handle ordering, age and arithmetic setups",
+    "Avoid using facts from outside the statements"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Data Sufficiency (basic)",
+      "Linear Equations"
+    ],
+    "quickRefresher": "A statement is sufficient if it leads to exactly one answer to the question. For a yes/no question the answer must be always yes or always no."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Sufficient: the information leads to a single, definite answer.",
+      "Insufficient: the information leaves two or more different answers possible.",
+      "Together: both statements applied at once.",
+      "Yes/no question: sufficient only if the answer is always yes or always no.",
+      "Setup: facts given before the statements that apply to both."
+    ],
+    "theoreticalIntuition": "Imagine every world that fits the statement. If all those worlds give the same answer to the question, the statement is sufficient.",
+    "visualOrMentalModel": "Take statement I alone and ask whether you can build two worlds that give different answers. Repeat for II. If both fail alone, combine them and ask again."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Alone test",
+      "formula": "Find two worlds with different answers",
+      "description": "Each statement.",
+      "whenToUse": "Primary.",
+      "simpleExample": "Several ages for Priya"
+    },
+    {
+      "title": "Together test",
+      "formula": "Apply both and re-test",
+      "description": "Only after alone tests fail.",
+      "whenToUse": "Secondary.",
+      "simpleExample": "Equations in two unknowns"
+    },
+    {
+      "title": "Yes/no rule",
+      "formula": "Need always yes or always no",
+      "description": "Yes/no questions.",
+      "whenToUse": "Rule.",
+      "simpleExample": "x even in some worlds, odd in others: insufficient"
+    },
+    {
+      "title": "Equation count",
+      "formula": "Need as many independent equations as unknowns",
+      "description": "Arithmetic setups.",
+      "whenToUse": "Quick test.",
+      "simpleExample": "2 unknowns, 2 equations"
+    },
+    {
+      "title": "Ordering",
+      "formula": "Chains must connect the two items",
+      "description": "Rank questions.",
+      "whenToUse": "Rule.",
+      "simpleExample": "A > C and C > B give A > B"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Ravi's age is asked. Statement I: Ravi is 5 years older than Meena. Statement II: Meena is 20 years old. Alone, I links two unknowns and II gives Meena's age only. Together, Ravi is 25. Both are needed.",
+      "For ordering questions, a chain must connect the two people. \"Anil is taller than Chandra\" and \"Chandra is taller than Bala\" together give Anil taller than Bala. Alone, neither connects Anil and Bala.",
+      "A statement may be sufficient even if it looks indirect. \"Three pens cost ₹30\" gives the price of one pen at once. \"A pen costs less than ₹20\" leaves 19 possible prices.",
+      "Yes/no questions need a consistent answer. \"Is x + y even?\" with \"Both x and y are odd\" is always yes, so it is sufficient. \"x is greater than y\" leaves both yes and no possible.",
+      "When both statements together still leave several answers, the answer is \"not sufficient even together\". For Priya's age, \"older than 18\" and \"younger than 25\" leave 19 to 24."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Unique answer vs possible answer",
+        "content": "A statement can make an answer possible without making it certain; only certainty counts."
+      },
+      {
+        "title": "Redundant statements",
+        "content": "If a statement repeats the other, together adds nothing."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Equation pairs",
+      "description": "Two unknowns.",
+      "exampleSnippet": "Ravi and Meena"
+    },
+    {
+      "typeName": "Ordering chains",
+      "description": "Connect two people.",
+      "exampleSnippet": "Anil, Chandra, Bala"
+    },
+    {
+      "typeName": "Yes/no questions",
+      "description": "Always the same.",
+      "exampleSnippet": "Is x + y even?"
+    },
+    {
+      "typeName": "Range statements",
+      "description": "Narrow but not unique.",
+      "exampleSnippet": "Priya's age"
+    },
+    {
+      "typeName": "Divisibility",
+      "description": "Yes/no on n.",
+      "exampleSnippet": "Divisible by 6"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-adv-data-sufficiency-1",
+      "title": "Both needed",
+      "question": "What is Ravi's age? I. Ravi is 5 years older than Meena. II. Meena is 20 years old. Which is correct?",
+      "givenInfo": [
+        "Two unknowns"
+      ],
+      "conceptOrFormula": "Test alone, then together.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Alone",
+          "explanation": "I links Ravi to Meena; II gives Meena only."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Together",
+          "explanation": "Ravi is 20 + 5 = 25."
+        }
+      ],
+      "finalAnswer": "Both statements together are needed",
+      "whyItWorks": "Neither alone gives Ravi's age.",
+      "commonTrap": "Calling I sufficient.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-adv-data-sufficiency-2",
+      "title": "One statement",
+      "question": "What is the cost of a pen? I. Three pens cost ₹30. II. A pen costs less than ₹20. Which is correct?",
+      "givenInfo": [
+        "Price per pen"
+      ],
+      "conceptOrFormula": "Check each.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "I",
+          "explanation": "3 × price = 30 gives price ₹10."
+        },
+        {
+          "stepNumber": 2,
+          "title": "II",
+          "explanation": "Any price below ₹20 fits: not unique."
+        }
+      ],
+      "finalAnswer": "Statement I alone is sufficient, but statement II alone is not",
+      "whyItWorks": "Only I fixes the price.",
+      "commonTrap": "Combining unnecessarily.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-adv-data-sufficiency-3",
+      "title": "Not even together",
+      "question": "What is Priya's age? I. Priya is older than 18. II. Priya is younger than 25. Which is correct?",
+      "givenInfo": [
+        "Range"
+      ],
+      "conceptOrFormula": "Combine.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Combine",
+          "explanation": "Her age lies between 19 and 24."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Result",
+          "explanation": "Six possible ages remain."
+        }
+      ],
+      "finalAnswer": "Even both statements together are not sufficient",
+      "whyItWorks": "The answer is not unique.",
+      "commonTrap": "Picking the middle value.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Two worlds",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Solve the problem fully.",
+      "shortcutMethod": "For each statement try to build two worlds that give different answers. If you can, it is insufficient."
+    },
+    "rulesForApplication": [
+      "Alone first.",
+      "Yes/no needs consistency.",
+      "Chains must connect.",
+      "Count unknowns and equations."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Combining too early",
+      "whyItHappens": "Misses single-statement sufficiency.",
+      "howToAvoid": "Test each alone."
+    },
+    {
+      "mistake": "Using outside facts",
+      "whyItHappens": "Extra information.",
+      "howToAvoid": "Use only given data."
+    },
+    {
+      "mistake": "Accepting a possible answer as sufficient",
+      "whyItHappens": "Uncertain.",
+      "howToAvoid": "Need certainty."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "If the statements repeat each other, together adds nothing.",
+    "questionSelectionAdvice": "List unknowns and equations first.",
+    "recruiterInsight": "The answer set is decided by logic, not by calculation of the exact value."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-adv-data-sufficiency-e1",
+        "question": "Ravi and Meena are both at most 60 years old, and their ages are whole numbers of years.\n\nQuestion: What is Ravi's age?\nI. Ravi is 5 years older than Meena.\nII. Meena is 20 years old.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Even both statements together are not sufficient"
+        ],
+        "correctAnswer": "Both statements together are needed; neither alone is sufficient",
+        "explanation": "Statement I alone leaves several answers possible (for example 6 and 7). Statement II alone leaves several answers possible (for example 1 and 2). Taken together they fix the answer as 25. Answer: Both statements together are needed; neither alone is sufficient.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-adv-data-sufficiency-e2",
+        "question": "A pen costs a whole number of rupees, at most ₹40.\n\nQuestion: What is the cost of one pen?\nI. Three pens cost ₹30.\nII. A pen costs less than ₹20.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Even both statements together are not sufficient"
+        ],
+        "correctAnswer": "Statement I alone is sufficient, but statement II alone is not",
+        "explanation": "Statement I alone fixes the answer as 10. Statement II alone leaves several answers possible (for example 1 and 2). Taken together they fix the answer as 10. Answer: Statement I alone is sufficient, but statement II alone is not.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-adv-data-sufficiency-e3",
+        "question": "A basket holds at most 50 apples.\n\nQuestion: How many apples are in the basket?\nI. There are more than 5 apples.\nII. The number of apples is a prime number between 20 and 24.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Even both statements together are not sufficient",
+          "Statement II alone is sufficient, but statement I alone is not"
+        ],
+        "correctAnswer": "Statement II alone is sufficient, but statement I alone is not",
+        "explanation": "Statement I alone leaves several answers possible (for example 6 and 7). Statement II alone fixes the answer as 23. Taken together they fix the answer as 23. Answer: Statement II alone is sufficient, but statement I alone is not.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-adv-data-sufficiency-i7",
+        "question": "x and y are whole numbers from 1 to 9.\n\nQuestion: Is x + y even?\nI. Both x and y are odd.\nII. x is greater than y.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Even both statements together are not sufficient"
+        ],
+        "correctAnswer": "Statement I alone is sufficient, but statement II alone is not",
+        "explanation": "Statement I alone fixes the answer as Yes. Statement II alone leaves several answers possible (for example No and Yes). Taken together they fix the answer as Yes. Answer: Statement I alone is sufficient, but statement II alone is not.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-adv-data-sufficiency-i8",
+        "question": "a and b are whole numbers from 1 to 9.\n\nQuestion: What is the product of a and b?\nI. a is twice b, and a + b = 12.\nII. a − b = 2.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Even both statements together are not sufficient",
+          "Statement I alone is sufficient, but statement II alone is not"
+        ],
+        "correctAnswer": "Statement I alone is sufficient, but statement II alone is not",
+        "explanation": "Statement I alone fixes the answer as 32. Statement II alone leaves several answers possible (for example 3 and 8). Taken together they cannot hold together. Answer: Statement I alone is sufficient, but statement II alone is not.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-adv-data-sufficiency-i9",
+        "question": "A shopkeeper bought an article for ₹100, ₹200, ₹300, ₹400 or ₹500 and sold it at a profit of 10%, 20%, 25% or 50%.\n\nQuestion: What was the profit percentage?\nI. The cost price was ₹200.\nII. The selling price was 25% more than the cost price.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Even both statements together are not sufficient",
+          "Statement II alone is sufficient, but statement I alone is not"
+        ],
+        "correctAnswer": "Statement II alone is sufficient, but statement I alone is not",
+        "explanation": "Statement I alone leaves several answers possible (for example 10 and 20). Statement II alone fixes the answer as 25. Taken together they fix the answer as 25. Answer: Statement II alone is sufficient, but statement I alone is not.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-adv-data-sufficiency-a15",
+        "question": "Five friends Asha, Bilal, Charu, Dev and Esha have five different ages.\n\nQuestion: Who is the oldest?\nI. Bilal is older than Asha and Esha, and Dev is older than Charu but younger than Bilal.\nII. Asha is older than Esha.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Even both statements together are not sufficient"
+        ],
+        "correctAnswer": "Statement I alone is sufficient, but statement II alone is not",
+        "explanation": "Statement I alone fixes the answer as Bilal. Statement II alone leaves several answers possible (for example Dev and Charu). Taken together they fix the answer as Bilal. Answer: Statement I alone is sufficient, but statement II alone is not.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-adv-data-sufficiency-a16",
+        "question": "Five friends Asha, Bilal, Charu, Dev and Esha scored different marks in a test.\n\nQuestion: Who scored the highest?\nI. Asha scored more than Bilal and Charu.\nII. Dev scored less than Esha, and Esha scored less than Asha.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Even both statements together are not sufficient"
+        ],
+        "correctAnswer": "Both statements together are needed; neither alone is sufficient",
+        "explanation": "Statement I alone leaves several answers possible (for example Esha and Dev). Statement II alone leaves several answers possible (for example Charu and Bilal). Taken together they fix the answer as Asha. Answer: Both statements together are needed; neither alone is sufficient.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-adv-data-sufficiency-p17",
+        "question": "x and y are whole numbers from −5 to 5.\n\nQuestion: Is x greater than y?\nI. x² is greater than y².\nII. x is positive.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Both statements together are needed; neither alone is sufficient",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Even both statements together are not sufficient"
+        ],
+        "correctAnswer": "Both statements together are needed; neither alone is sufficient",
+        "explanation": "Statement I alone leaves several answers possible (for example No and Yes). Statement II alone leaves several answers possible (for example Yes and No). Taken together they fix the answer as Yes. Answer: Both statements together are needed; neither alone is sufficient.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-adv-data-sufficiency-p18",
+        "question": "A two-digit number has a tens digit from 1 to 9 and a units digit from 0 to 9.\n\nQuestion: What is the number?\nI. The sum of its digits is 9.\nII. The number is divisible by 5.\n\nWhich of the following is correct?",
+        "options": [
+          "Even both statements together are not sufficient",
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Both statements together are needed; neither alone is sufficient"
+        ],
+        "correctAnswer": "Even both statements together are not sufficient",
+        "explanation": "Statement I alone leaves several answers possible (for example 18 and 27). Statement II alone leaves several answers possible (for example 10 and 15). Taken together they still leave several answers possible (for example 45 and 90). Answer: Even both statements together are not sufficient.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-adv-data-sufficiency-p19",
+        "question": "A class has at most 60 boys and at most 60 girls.\n\nQuestion: How many boys are in the class?\nI. The number of boys is 1.5 times the number of girls.\nII. The class has 40 students in all.\n\nWhich of the following is correct?",
+        "options": [
+          "Statement I alone is sufficient, but statement II alone is not",
+          "Statement II alone is sufficient, but statement I alone is not",
+          "Even both statements together are not sufficient",
+          "Both statements together are needed; neither alone is sufficient"
+        ],
+        "correctAnswer": "Both statements together are needed; neither alone is sufficient",
+        "explanation": "Statement I alone leaves several answers possible (for example 3 and 6). Statement II alone leaves several answers possible (for example 1 and 2). Taken together they fix the answer as 24. Answer: Both statements together are needed; neither alone is sufficient.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Alone first.",
+      "Two worlds test.",
+      "Yes/no rule.",
+      "Chains.",
+      "Together."
+    ],
+    "quickFormulas": [
+      "Unknowns vs equations"
+    ]
+  },
+  "keyTakeaways": [
+    "Test alone.",
+    "Look for two worlds.",
+    "Be consistent.",
+    "No outside facts."
+  ],
+  "selfCheckQuestions": [
+    "Can I test each statement alone?",
+    "Can I handle yes/no questions?",
+    "Can I tell when both are not enough?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

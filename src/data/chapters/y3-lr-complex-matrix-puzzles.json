@@ -1,0 +1,419 @@
+{
+  "id": "y3-lr-complex-matrix-puzzles",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 43,
+  "title": "Complex Matrix and Grid Puzzles",
+  "tagline": "Year 3 — Several people, several attributes: elimination grids, linked clues and cross-referencing",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A matrix puzzle assigns several attributes (profession, city, hobby) to a set of people, with one value of each attribute per person. A grid with people down one side and values across the top lets you cross out impossible cells and fill in forced ones. The technique is to record every clue in the grid, look for rows and columns with only one cell left, and use linked clues (\"the doctor lives in Pune\") to merge attributes into bundles.",
+    "placementRelevance": "Grid puzzles with 4–5 people and 2–3 attributes are the standard \"hard\" puzzle in company reasoning tests.",
+    "realWorldContext": "Matching customers to products, tasks to people and rooms to guests uses the same elimination logic."
+  },
+  "learningObjectives": [
+    "Set up an elimination grid",
+    "Record positive and negative clues",
+    "Merge linked clues into bundles",
+    "Use one-cell-left deductions",
+    "Cross-reference attributes to answer questions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Complex Seating Arrangements",
+      "Selection and Distribution Problems"
+    ],
+    "quickRefresher": "In a one-to-one matching, each value belongs to exactly one person. A tick in one cell means crosses in the rest of its row and column."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Grid: a table of people against attribute values for marking yes and no.",
+      "Positive clue: says a person has a value; tick the cell and cross the rest of the row and column.",
+      "Negative clue: says a person does not have a value; cross that cell.",
+      "Linked clue: ties two values to the same person (\"the doctor lives in Pune\").",
+      "Bundle: values known to belong to the same person, even before the name is known."
+    ],
+    "theoreticalIntuition": "Every person ends up with exactly one value from each list. Every tick closes a row and a column, so a few clues cascade into the full solution.",
+    "visualOrMentalModel": "Draw one grid per attribute against the people. Enter positive clues first, then negative clues, then merge linked clues into bundles. When a row or column has a single open cell, tick it and repeat."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "One-to-one",
+      "formula": "Each value belongs to exactly one person",
+      "description": "Every grid.",
+      "whenToUse": "Core rule.",
+      "simpleExample": "One doctor, one lawyer"
+    },
+    {
+      "title": "Tick closes",
+      "formula": "Tick one cell, cross the row and column",
+      "description": "Positive clue.",
+      "whenToUse": "Cascade.",
+      "simpleExample": "Lokesh in Mumbai"
+    },
+    {
+      "title": "Bundle",
+      "formula": "A ↔ B means same person",
+      "description": "Linked clue.",
+      "whenToUse": "Merge.",
+      "simpleExample": "Doctor ↔ Pune"
+    },
+    {
+      "title": "Elimination",
+      "formula": "Last cell left in a row is forced",
+      "description": "After crosses.",
+      "whenToUse": "Finish.",
+      "simpleExample": "Only Chennai remains"
+    },
+    {
+      "title": "Check",
+      "formula": "Test every clue on the final grid",
+      "description": "End.",
+      "whenToUse": "Verify.",
+      "simpleExample": "All clues hold"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Four friends Kavya, Lokesh, Meera and Naveen have different professions and live in different cities. The doctor lives in Pune and the lawyer lives in Delhi (bundles). Lokesh lives in Mumbai, Naveen lives in Delhi, Kavya is a teacher, and Meera is not an engineer. Naveen lives in Delhi, so he is the lawyer. Kavya, a teacher, cannot be the doctor, so she is not in Pune; her remaining city is Chennai. Meera is not an engineer, so she is the doctor and lives in Pune. Lokesh is the engineer.",
+      "With three attributes, add the hobby grid and the new linked clues: the person who likes cricket lives in Mumbai; the person who likes reading is the lawyer; the person who likes music lives in Pune. These attach hobbies to the bundles: Lokesh (Mumbai) likes cricket, Naveen (lawyer) likes reading, Meera (Pune) likes music, and the leftover hobby, chess, goes to Kavya.",
+      "Linked clues are the most powerful because they merge columns. Once \"doctor ↔ Pune\" and \"music ↔ doctor\" are known, music, doctor and Pune are one bundle that belongs to a single person.",
+      "Negative clues are used last. They never place a person on their own; they only cross out a cell, which helps when two options remain.",
+      "For questions, read the finished grid. \"In which city does the person who likes reading live?\" means find the reader first, then read the city."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Bundles speed things up",
+        "content": "Treat a bundle as a single \"super person\" until a named clue pins it to one name."
+      },
+      {
+        "title": "Unique solutions",
+        "content": "A well-formed puzzle has exactly one solution; if you reach two options, a clue has been missed."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Two attributes",
+      "description": "Profession and city.",
+      "exampleSnippet": "4 friends"
+    },
+    {
+      "typeName": "Three attributes",
+      "description": "Add hobbies.",
+      "exampleSnippet": "4 friends"
+    },
+    {
+      "typeName": "Five people",
+      "description": "More bundles.",
+      "exampleSnippet": "5 friends"
+    },
+    {
+      "typeName": "Linked clues",
+      "description": "Merge columns.",
+      "exampleSnippet": "Doctor ↔ Pune"
+    },
+    {
+      "typeName": "Negative clues",
+      "description": "Cross out.",
+      "exampleSnippet": "Meera not engineer"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-complex-matrix-puzzles-1",
+      "title": "Bundles",
+      "question": "The doctor lives in Pune, the lawyer lives in Delhi, and Naveen lives in Delhi. What is Naveen's profession?",
+      "givenInfo": [
+        "Lawyer ↔ Delhi"
+      ],
+      "conceptOrFormula": "Use the bundle.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Bundle",
+          "explanation": "The person in Delhi is the lawyer."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Match",
+          "explanation": "Naveen lives in Delhi, so he is the lawyer."
+        }
+      ],
+      "finalAnswer": "Lawyer",
+      "whyItWorks": "The linked clue decides.",
+      "commonTrap": "Guessing doctor.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-complex-matrix-puzzles-2",
+      "title": "Elimination",
+      "question": "Kavya is a teacher; the doctor lives in Pune; Lokesh lives in Mumbai, Naveen in Delhi. In which city does Kavya live?",
+      "givenInfo": [
+        "Cities left: Chennai, Pune"
+      ],
+      "conceptOrFormula": "Cross out Pune.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pune",
+          "explanation": "The Pune person is the doctor, but Kavya is a teacher."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Left",
+          "explanation": "Kavya lives in Chennai."
+        }
+      ],
+      "finalAnswer": "Chennai",
+      "whyItWorks": "Only Chennai remains.",
+      "commonTrap": "Picking Pune.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-complex-matrix-puzzles-3",
+      "title": "Cross-reference",
+      "question": "In the finished grid Lokesh likes cricket and lives in Mumbai. In which city does the person who likes cricket live?",
+      "givenInfo": [
+        "Grid read-out"
+      ],
+      "conceptOrFormula": "Find the person, then the city.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Person",
+          "explanation": "Lokesh likes cricket."
+        },
+        {
+          "stepNumber": 2,
+          "title": "City",
+          "explanation": "Mumbai."
+        }
+      ],
+      "finalAnswer": "Mumbai",
+      "whyItWorks": "Read across the row.",
+      "commonTrap": "Confusing hobby with city.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Tick, cross, cascade",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try combinations.",
+      "shortcutMethod": "Enter positive clues, cross rows and columns, merge linked clues into bundles, and fill the last open cell in each row."
+    },
+    "rulesForApplication": [
+      "Positive first.",
+      "Merge linked clues.",
+      "Negatives last.",
+      "Verify at the end."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Forgetting to cross the row and column",
+      "whyItHappens": "Misses forced cells.",
+      "howToAvoid": "Cross after each tick."
+    },
+    {
+      "mistake": "Treating linked clues as separate",
+      "whyItHappens": "Slows progress.",
+      "howToAvoid": "Merge into bundles."
+    },
+    {
+      "mistake": "Not verifying",
+      "whyItHappens": "Wrong final grid.",
+      "howToAvoid": "Test all clues."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 240,
+    "eliminationTechnique": "Reject any option that conflicts with one grid cell.",
+    "questionSelectionAdvice": "Write bundles on the side as you find them.",
+    "recruiterInsight": "Five-person puzzles carry six or more questions, so complete the grid once."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-complex-matrix-puzzles-e1",
+        "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer) and live in different cities (Chennai, Delhi, Mumbai, Pune). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Naveen lives in Delhi.\n5. Kavya is a teacher.\n6. Meera does not be an engineer.\n\nIn which city does Kavya live?",
+        "options": [
+          "Delhi",
+          "Chennai",
+          "Mumbai",
+          "Pune"
+        ],
+        "correctAnswer": "Chennai",
+        "explanation": "Working out the grid gives (profession / city): Kavya: teacher / Chennai; Lokesh: engineer / Mumbai; Meera: doctor / Pune; Naveen: lawyer / Delhi. So Kavya's city is Chennai.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-complex-matrix-puzzles-e2",
+        "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer) and live in different cities (Chennai, Delhi, Mumbai, Pune). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Naveen lives in Delhi.\n5. Kavya is a teacher.\n6. Meera does not be an engineer.\n\nWhich profession does Meera have?",
+        "options": [
+          "doctor",
+          "teacher",
+          "lawyer",
+          "engineer"
+        ],
+        "correctAnswer": "doctor",
+        "explanation": "Working out the grid gives (profession / city): Kavya: teacher / Chennai; Lokesh: engineer / Mumbai; Meera: doctor / Pune; Naveen: lawyer / Delhi. So Meera's profession is doctor.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-complex-matrix-puzzles-e3",
+        "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer) and live in different cities (Chennai, Delhi, Mumbai, Pune). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Naveen lives in Delhi.\n5. Kavya is a teacher.\n6. Meera does not be an engineer.\n\nWho lives in Mumbai?",
+        "options": [
+          "Naveen",
+          "Kavya",
+          "Meera",
+          "Lokesh"
+        ],
+        "correctAnswer": "Lokesh",
+        "explanation": "Working out the grid gives: Kavya: teacher / Chennai; Lokesh: engineer / Mumbai; Meera: doctor / Pune; Naveen: lawyer / Delhi. So Lokesh is the answer.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-complex-matrix-puzzles-i7",
+        "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer), live in different cities (Chennai, Delhi, Mumbai, Pune) and like different hobbies (chess, cricket, music, reading). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Kavya is a teacher.\n5. The person who likes cricket lives in Mumbai.\n6. The person who likes reading is a lawyer.\n7. Meera does not like chess.\n8. The person who likes music lives in Pune.\n9. Naveen is a lawyer.\n\nWhich hobby does Kavya like?",
+        "options": [
+          "chess",
+          "cricket",
+          "music",
+          "reading"
+        ],
+        "correctAnswer": "chess",
+        "explanation": "Working out the grid gives (profession / city / hobby): Kavya: teacher / Chennai / chess; Lokesh: engineer / Mumbai / cricket; Meera: doctor / Pune / music; Naveen: lawyer / Delhi / reading. So Kavya's hobby is chess.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-complex-matrix-puzzles-i8",
+        "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer), live in different cities (Chennai, Delhi, Mumbai, Pune) and like different hobbies (chess, cricket, music, reading). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Kavya is a teacher.\n5. The person who likes cricket lives in Mumbai.\n6. The person who likes reading is a lawyer.\n7. Meera does not like chess.\n8. The person who likes music lives in Pune.\n9. Naveen is a lawyer.\n\nWhich hobby does Meera like?",
+        "options": [
+          "cricket",
+          "reading",
+          "chess",
+          "music"
+        ],
+        "correctAnswer": "music",
+        "explanation": "Working out the grid gives (profession / city / hobby): Kavya: teacher / Chennai / chess; Lokesh: engineer / Mumbai / cricket; Meera: doctor / Pune / music; Naveen: lawyer / Delhi / reading. So Meera's hobby is music.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-complex-matrix-puzzles-i9",
+        "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer), live in different cities (Chennai, Delhi, Mumbai, Pune) and like different hobbies (chess, cricket, music, reading). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Kavya is a teacher.\n5. The person who likes cricket lives in Mumbai.\n6. The person who likes reading is a lawyer.\n7. Meera does not like chess.\n8. The person who likes music lives in Pune.\n9. Naveen is a lawyer.\n\nWho likes reading?",
+        "options": [
+          "Lokesh",
+          "Meera",
+          "Kavya",
+          "Naveen"
+        ],
+        "correctAnswer": "Naveen",
+        "explanation": "Working out the grid gives: Kavya: teacher / Chennai / chess; Lokesh: engineer / Mumbai / cricket; Meera: doctor / Pune / music; Naveen: lawyer / Delhi / reading. So Naveen is the answer.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-complex-matrix-puzzles-a15",
+        "question": "Five friends Aarav, Bhavna, Chirag, Divya and Eshwar each have a different profession (doctor, engineer, teacher, lawyer, architect), live in different cities (Chennai, Delhi, Mumbai, Pune, Kolkata) and like different hobbies (chess, cricket, music, reading, painting). The following facts are known:\n1. The doctor lives in Pune.\n2. Chirag lives in Mumbai.\n3. The lawyer lives in Delhi.\n4. The person who likes music is a doctor.\n5. Eshwar is a teacher.\n6. The person who lives in Kolkata likes chess.\n7. The person who likes cricket lives in Mumbai.\n8. The person who likes painting lives in Chennai.\n9. The person who likes reading is a lawyer.\n10. Eshwar likes painting.\n11. The architect does not like cricket.\n12. Bhavna is a doctor.\n13. Divya does not live in Kolkata.\n\nWhich profession does Aarav have?",
+        "options": [
+          "doctor",
+          "engineer",
+          "architect",
+          "teacher"
+        ],
+        "correctAnswer": "architect",
+        "explanation": "Working out the grid gives (profession / city / hobby): Aarav: architect / Kolkata / chess; Bhavna: doctor / Pune / music; Chirag: engineer / Mumbai / cricket; Divya: lawyer / Delhi / reading; Eshwar: teacher / Chennai / painting. So Aarav's profession is architect.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-complex-matrix-puzzles-a16",
+        "question": "Five friends Aarav, Bhavna, Chirag, Divya and Eshwar each have a different profession (doctor, engineer, teacher, lawyer, architect), live in different cities (Chennai, Delhi, Mumbai, Pune, Kolkata) and like different hobbies (chess, cricket, music, reading, painting). The following facts are known:\n1. The doctor lives in Pune.\n2. Chirag lives in Mumbai.\n3. The lawyer lives in Delhi.\n4. The person who likes music is a doctor.\n5. Eshwar is a teacher.\n6. The person who lives in Kolkata likes chess.\n7. The person who likes cricket lives in Mumbai.\n8. The person who likes painting lives in Chennai.\n9. The person who likes reading is a lawyer.\n10. Eshwar likes painting.\n11. The architect does not like cricket.\n12. Bhavna is a doctor.\n13. Divya does not live in Kolkata.\n\nWhich hobby does Divya like?",
+        "options": [
+          "cricket",
+          "reading",
+          "music",
+          "painting"
+        ],
+        "correctAnswer": "reading",
+        "explanation": "Working out the grid gives (profession / city / hobby): Aarav: architect / Kolkata / chess; Bhavna: doctor / Pune / music; Chirag: engineer / Mumbai / cricket; Divya: lawyer / Delhi / reading; Eshwar: teacher / Chennai / painting. So Divya's hobby is reading.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-complex-matrix-puzzles-p17",
+        "question": "Five friends Aarav, Bhavna, Chirag, Divya and Eshwar each have a different profession (doctor, engineer, teacher, lawyer, architect), live in different cities (Chennai, Delhi, Mumbai, Pune, Kolkata) and like different hobbies (chess, cricket, music, reading, painting). The following facts are known:\n1. The doctor lives in Pune.\n2. Chirag lives in Mumbai.\n3. The lawyer lives in Delhi.\n4. The person who likes music is a doctor.\n5. Eshwar is a teacher.\n6. The person who lives in Kolkata likes chess.\n7. The person who likes cricket lives in Mumbai.\n8. The person who likes painting lives in Chennai.\n9. The person who likes reading is a lawyer.\n10. Eshwar likes painting.\n11. The architect does not like cricket.\n12. Bhavna is a doctor.\n13. Divya does not live in Kolkata.\n\nWho lives in Kolkata?",
+        "options": [
+          "Chirag",
+          "Aarav",
+          "Divya",
+          "Eshwar"
+        ],
+        "correctAnswer": "Aarav",
+        "explanation": "Working out the grid gives: Aarav: architect / Kolkata / chess; Bhavna: doctor / Pune / music; Chirag: engineer / Mumbai / cricket; Divya: lawyer / Delhi / reading; Eshwar: teacher / Chennai / painting. So Aarav is the answer.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-complex-matrix-puzzles-p18",
+        "question": "Five friends Aarav, Bhavna, Chirag, Divya and Eshwar each have a different profession (doctor, engineer, teacher, lawyer, architect), live in different cities (Chennai, Delhi, Mumbai, Pune, Kolkata) and like different hobbies (chess, cricket, music, reading, painting). The following facts are known:\n1. The doctor lives in Pune.\n2. Chirag lives in Mumbai.\n3. The lawyer lives in Delhi.\n4. The person who likes music is a doctor.\n5. Eshwar is a teacher.\n6. The person who lives in Kolkata likes chess.\n7. The person who likes cricket lives in Mumbai.\n8. The person who likes painting lives in Chennai.\n9. The person who likes reading is a lawyer.\n10. Eshwar likes painting.\n11. The architect does not like cricket.\n12. Bhavna is a doctor.\n13. Divya does not live in Kolkata.\n\nWhat is the profession of the person who likes chess?",
+        "options": [
+          "architect",
+          "engineer",
+          "teacher",
+          "lawyer"
+        ],
+        "correctAnswer": "architect",
+        "explanation": "Working out the grid gives: Aarav: architect / Kolkata / chess; Bhavna: doctor / Pune / music; Chirag: engineer / Mumbai / cricket; Divya: lawyer / Delhi / reading; Eshwar: teacher / Chennai / painting. The person who likes chess is Aarav, whose profession is architect.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-complex-matrix-puzzles-p19",
+        "question": "Five friends Aarav, Bhavna, Chirag, Divya and Eshwar each have a different profession (doctor, engineer, teacher, lawyer, architect), live in different cities (Chennai, Delhi, Mumbai, Pune, Kolkata) and like different hobbies (chess, cricket, music, reading, painting). The following facts are known:\n1. The doctor lives in Pune.\n2. Chirag lives in Mumbai.\n3. The lawyer lives in Delhi.\n4. The person who likes music is a doctor.\n5. Eshwar is a teacher.\n6. The person who lives in Kolkata likes chess.\n7. The person who likes cricket lives in Mumbai.\n8. The person who likes painting lives in Chennai.\n9. The person who likes reading is a lawyer.\n10. Eshwar likes painting.\n11. The architect does not like cricket.\n12. Bhavna is a doctor.\n13. Divya does not live in Kolkata.\n\nIn which city does the person who is an architect live?",
+        "options": [
+          "Mumbai",
+          "Pune",
+          "Chennai",
+          "Kolkata"
+        ],
+        "correctAnswer": "Kolkata",
+        "explanation": "Working out the grid gives: Aarav: architect / Kolkata / chess; Bhavna: doctor / Pune / music; Chirag: engineer / Mumbai / cricket; Divya: lawyer / Delhi / reading; Eshwar: teacher / Chennai / painting. The person who is an architect is Aarav, whose city is Kolkata.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Grid set-up.",
+      "Positive clues.",
+      "Bundles.",
+      "Negatives.",
+      "Verify."
+    ],
+    "quickFormulas": [
+      "One tick = one row and column closed"
+    ]
+  },
+  "keyTakeaways": [
+    "Grid first.",
+    "Merge bundles.",
+    "Cascade ticks.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I merge linked clues?",
+    "Can I cascade ticks?",
+    "Can I cross-reference?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

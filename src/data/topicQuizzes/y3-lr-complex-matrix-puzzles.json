@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-complex-matrix-puzzles",
+  "topicTitle": "Complex Matrix and Grid Puzzles",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer) and live in different cities (Chennai, Delhi, Mumbai, Pune). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Naveen lives in Delhi.\n5. Kavya is a teacher.\n6. Meera does not be an engineer.\n\nIn which city does Kavya live?",
+      "options": [
+        "Delhi",
+        "Chennai",
+        "Mumbai",
+        "Pune"
+      ],
+      "answerIndex": 1,
+      "explanation": "Working out the grid gives (profession / city): Kavya: teacher / Chennai; Lokesh: engineer / Mumbai; Meera: doctor / Pune; Naveen: lawyer / Delhi. So Kavya's city is Chennai."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer) and live in different cities (Chennai, Delhi, Mumbai, Pune). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Naveen lives in Delhi.\n5. Kavya is a teacher.\n6. Meera does not be an engineer.\n\nWhich profession does Meera have?",
+      "options": [
+        "doctor",
+        "teacher",
+        "lawyer",
+        "engineer"
+      ],
+      "answerIndex": 0,
+      "explanation": "Working out the grid gives (profession / city): Kavya: teacher / Chennai; Lokesh: engineer / Mumbai; Meera: doctor / Pune; Naveen: lawyer / Delhi. So Meera's profession is doctor."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer) and live in different cities (Chennai, Delhi, Mumbai, Pune). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Naveen lives in Delhi.\n5. Kavya is a teacher.\n6. Meera does not be an engineer.\n\nWho lives in Mumbai?",
+      "options": [
+        "Naveen",
+        "Kavya",
+        "Meera",
+        "Lokesh"
+      ],
+      "answerIndex": 3,
+      "explanation": "Working out the grid gives: Kavya: teacher / Chennai; Lokesh: engineer / Mumbai; Meera: doctor / Pune; Naveen: lawyer / Delhi. So Lokesh is the answer."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer) and live in different cities (Chennai, Delhi, Mumbai, Pune). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Naveen lives in Delhi.\n5. Kavya is a teacher.\n6. Meera does not be an engineer.\n\nWho is the lawyer?",
+      "options": [
+        "Kavya",
+        "Lokesh",
+        "Naveen",
+        "Meera"
+      ],
+      "answerIndex": 2,
+      "explanation": "Working out the grid gives: Kavya: teacher / Chennai; Lokesh: engineer / Mumbai; Meera: doctor / Pune; Naveen: lawyer / Delhi. So Naveen is the answer."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer) and live in different cities (Chennai, Delhi, Mumbai, Pune). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Naveen lives in Delhi.\n5. Kavya is a teacher.\n6. Meera does not be an engineer.\n\nWhich profession does Lokesh have?",
+      "options": [
+        "lawyer",
+        "doctor",
+        "engineer",
+        "teacher"
+      ],
+      "answerIndex": 2,
+      "explanation": "Working out the grid gives (profession / city): Kavya: teacher / Chennai; Lokesh: engineer / Mumbai; Meera: doctor / Pune; Naveen: lawyer / Delhi. So Lokesh's profession is engineer."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer) and live in different cities (Chennai, Delhi, Mumbai, Pune). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Naveen lives in Delhi.\n5. Kavya is a teacher.\n6. Meera does not be an engineer.\n\nIn which city does the person who is a doctor live?",
+      "options": [
+        "Chennai",
+        "Pune",
+        "Delhi",
+        "Mumbai"
+      ],
+      "answerIndex": 1,
+      "explanation": "Working out the grid gives: Kavya: teacher / Chennai; Lokesh: engineer / Mumbai; Meera: doctor / Pune; Naveen: lawyer / Delhi. The person who is a doctor is Meera, whose city is Pune."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer), live in different cities (Chennai, Delhi, Mumbai, Pune) and like different hobbies (chess, cricket, music, reading). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Kavya is a teacher.\n5. The person who likes cricket lives in Mumbai.\n6. The person who likes reading is a lawyer.\n7. Meera does not like chess.\n8. The person who likes music lives in Pune.\n9. Naveen is a lawyer.\n\nWhich hobby does Kavya like?",
+      "options": [
+        "chess",
+        "cricket",
+        "music",
+        "reading"
+      ],
+      "answerIndex": 0,
+      "explanation": "Working out the grid gives (profession / city / hobby): Kavya: teacher / Chennai / chess; Lokesh: engineer / Mumbai / cricket; Meera: doctor / Pune / music; Naveen: lawyer / Delhi / reading. So Kavya's hobby is chess."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer), live in different cities (Chennai, Delhi, Mumbai, Pune) and like different hobbies (chess, cricket, music, reading). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Kavya is a teacher.\n5. The person who likes cricket lives in Mumbai.\n6. The person who likes reading is a lawyer.\n7. Meera does not like chess.\n8. The person who likes music lives in Pune.\n9. Naveen is a lawyer.\n\nWhich hobby does Meera like?",
+      "options": [
+        "cricket",
+        "reading",
+        "chess",
+        "music"
+      ],
+      "answerIndex": 3,
+      "explanation": "Working out the grid gives (profession / city / hobby): Kavya: teacher / Chennai / chess; Lokesh: engineer / Mumbai / cricket; Meera: doctor / Pune / music; Naveen: lawyer / Delhi / reading. So Meera's hobby is music."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer), live in different cities (Chennai, Delhi, Mumbai, Pune) and like different hobbies (chess, cricket, music, reading). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Kavya is a teacher.\n5. The person who likes cricket lives in Mumbai.\n6. The person who likes reading is a lawyer.\n7. Meera does not like chess.\n8. The person who likes music lives in Pune.\n9. Naveen is a lawyer.\n\nWho likes reading?",
+      "options": [
+        "Lokesh",
+        "Meera",
+        "Kavya",
+        "Naveen"
+      ],
+      "answerIndex": 3,
+      "explanation": "Working out the grid gives: Kavya: teacher / Chennai / chess; Lokesh: engineer / Mumbai / cricket; Meera: doctor / Pune / music; Naveen: lawyer / Delhi / reading. So Naveen is the answer."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer), live in different cities (Chennai, Delhi, Mumbai, Pune) and like different hobbies (chess, cricket, music, reading). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Kavya is a teacher.\n5. The person who likes cricket lives in Mumbai.\n6. The person who likes reading is a lawyer.\n7. Meera does not like chess.\n8. The person who likes music lives in Pune.\n9. Naveen is a lawyer.\n\nWho is the engineer?",
+      "options": [
+        "Naveen",
+        "Kavya",
+        "Lokesh",
+        "Meera"
+      ],
+      "answerIndex": 2,
+      "explanation": "Working out the grid gives: Kavya: teacher / Chennai / chess; Lokesh: engineer / Mumbai / cricket; Meera: doctor / Pune / music; Naveen: lawyer / Delhi / reading. So Lokesh is the answer."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer), live in different cities (Chennai, Delhi, Mumbai, Pune) and like different hobbies (chess, cricket, music, reading). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Kavya is a teacher.\n5. The person who likes cricket lives in Mumbai.\n6. The person who likes reading is a lawyer.\n7. Meera does not like chess.\n8. The person who likes music lives in Pune.\n9. Naveen is a lawyer.\n\nWhat is the profession of the person who likes cricket?",
+      "options": [
+        "doctor",
+        "engineer",
+        "teacher",
+        "lawyer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Working out the grid gives: Kavya: teacher / Chennai / chess; Lokesh: engineer / Mumbai / cricket; Meera: doctor / Pune / music; Naveen: lawyer / Delhi / reading. The person who likes cricket is Lokesh, whose profession is engineer."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer), live in different cities (Chennai, Delhi, Mumbai, Pune) and like different hobbies (chess, cricket, music, reading). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Kavya is a teacher.\n5. The person who likes cricket lives in Mumbai.\n6. The person who likes reading is a lawyer.\n7. Meera does not like chess.\n8. The person who likes music lives in Pune.\n9. Naveen is a lawyer.\n\nWhich hobby does the person who lives in Chennai like?",
+      "options": [
+        "chess",
+        "music",
+        "reading",
+        "cricket"
+      ],
+      "answerIndex": 0,
+      "explanation": "Working out the grid gives: Kavya: teacher / Chennai / chess; Lokesh: engineer / Mumbai / cricket; Meera: doctor / Pune / music; Naveen: lawyer / Delhi / reading. The person who lives in Chennai is Kavya, whose hobby is chess."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer), live in different cities (Chennai, Delhi, Mumbai, Pune) and like different hobbies (chess, cricket, music, reading). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Kavya is a teacher.\n5. The person who likes cricket lives in Mumbai.\n6. The person who likes reading is a lawyer.\n7. Meera does not like chess.\n8. The person who likes music lives in Pune.\n9. Naveen is a lawyer.\n\nWhich hobby does the person who is a doctor like?",
+      "options": [
+        "music",
+        "reading",
+        "chess",
+        "cricket"
+      ],
+      "answerIndex": 0,
+      "explanation": "Working out the grid gives: Kavya: teacher / Chennai / chess; Lokesh: engineer / Mumbai / cricket; Meera: doctor / Pune / music; Naveen: lawyer / Delhi / reading. The person who is a doctor is Meera, whose hobby is music."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Four friends Kavya, Lokesh, Meera and Naveen each have a different profession (doctor, engineer, teacher, lawyer), live in different cities (Chennai, Delhi, Mumbai, Pune) and like different hobbies (chess, cricket, music, reading). The following facts are known:\n1. The doctor lives in Pune.\n2. The lawyer lives in Delhi.\n3. Lokesh lives in Mumbai.\n4. Kavya is a teacher.\n5. The person who likes cricket lives in Mumbai.\n6. The person who likes reading is a lawyer.\n7. Meera does not like chess.\n8. The person who likes music lives in Pune.\n9. Naveen is a lawyer.\n\nIn which city does Naveen live?",
+      "options": [
+        "Mumbai",
+        "Pune",
+        "Chennai",
+        "Delhi"
+      ],
+      "answerIndex": 3,
+      "explanation": "Working out the grid gives (profession / city / hobby): Kavya: teacher / Chennai / chess; Lokesh: engineer / Mumbai / cricket; Meera: doctor / Pune / music; Naveen: lawyer / Delhi / reading. So Naveen's city is Delhi."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Five friends Aarav, Bhavna, Chirag, Divya and Eshwar each have a different profession (doctor, engineer, teacher, lawyer, architect), live in different cities (Chennai, Delhi, Mumbai, Pune, Kolkata) and like different hobbies (chess, cricket, music, reading, painting). The following facts are known:\n1. The doctor lives in Pune.\n2. Chirag lives in Mumbai.\n3. The lawyer lives in Delhi.\n4. The person who likes music is a doctor.\n5. Eshwar is a teacher.\n6. The person who lives in Kolkata likes chess.\n7. The person who likes cricket lives in Mumbai.\n8. The person who likes painting lives in Chennai.\n9. The person who likes reading is a lawyer.\n10. Eshwar likes painting.\n11. The architect does not like cricket.\n12. Bhavna is a doctor.\n13. Divya does not live in Kolkata.\n\nWhich profession does Aarav have?",
+      "options": [
+        "doctor",
+        "engineer",
+        "architect",
+        "teacher"
+      ],
+      "answerIndex": 2,
+      "explanation": "Working out the grid gives (profession / city / hobby): Aarav: architect / Kolkata / chess; Bhavna: doctor / Pune / music; Chirag: engineer / Mumbai / cricket; Divya: lawyer / Delhi / reading; Eshwar: teacher / Chennai / painting. So Aarav's profession is architect."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Five friends Aarav, Bhavna, Chirag, Divya and Eshwar each have a different profession (doctor, engineer, teacher, lawyer, architect), live in different cities (Chennai, Delhi, Mumbai, Pune, Kolkata) and like different hobbies (chess, cricket, music, reading, painting). The following facts are known:\n1. The doctor lives in Pune.\n2. Chirag lives in Mumbai.\n3. The lawyer lives in Delhi.\n4. The person who likes music is a doctor.\n5. Eshwar is a teacher.\n6. The person who lives in Kolkata likes chess.\n7. The person who likes cricket lives in Mumbai.\n8. The person who likes painting lives in Chennai.\n9. The person who likes reading is a lawyer.\n10. Eshwar likes painting.\n11. The architect does not like cricket.\n12. Bhavna is a doctor.\n13. Divya does not live in Kolkata.\n\nWhich hobby does Divya like?",
+      "options": [
+        "cricket",
+        "reading",
+        "music",
+        "painting"
+      ],
+      "answerIndex": 1,
+      "explanation": "Working out the grid gives (profession / city / hobby): Aarav: architect / Kolkata / chess; Bhavna: doctor / Pune / music; Chirag: engineer / Mumbai / cricket; Divya: lawyer / Delhi / reading; Eshwar: teacher / Chennai / painting. So Divya's hobby is reading."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Five friends Aarav, Bhavna, Chirag, Divya and Eshwar each have a different profession (doctor, engineer, teacher, lawyer, architect), live in different cities (Chennai, Delhi, Mumbai, Pune, Kolkata) and like different hobbies (chess, cricket, music, reading, painting). The following facts are known:\n1. The doctor lives in Pune.\n2. Chirag lives in Mumbai.\n3. The lawyer lives in Delhi.\n4. The person who likes music is a doctor.\n5. Eshwar is a teacher.\n6. The person who lives in Kolkata likes chess.\n7. The person who likes cricket lives in Mumbai.\n8. The person who likes painting lives in Chennai.\n9. The person who likes reading is a lawyer.\n10. Eshwar likes painting.\n11. The architect does not like cricket.\n12. Bhavna is a doctor.\n13. Divya does not live in Kolkata.\n\nWho lives in Kolkata?",
+      "options": [
+        "Chirag",
+        "Aarav",
+        "Divya",
+        "Eshwar"
+      ],
+      "answerIndex": 1,
+      "explanation": "Working out the grid gives: Aarav: architect / Kolkata / chess; Bhavna: doctor / Pune / music; Chirag: engineer / Mumbai / cricket; Divya: lawyer / Delhi / reading; Eshwar: teacher / Chennai / painting. So Aarav is the answer."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Five friends Aarav, Bhavna, Chirag, Divya and Eshwar each have a different profession (doctor, engineer, teacher, lawyer, architect), live in different cities (Chennai, Delhi, Mumbai, Pune, Kolkata) and like different hobbies (chess, cricket, music, reading, painting). The following facts are known:\n1. The doctor lives in Pune.\n2. Chirag lives in Mumbai.\n3. The lawyer lives in Delhi.\n4. The person who likes music is a doctor.\n5. Eshwar is a teacher.\n6. The person who lives in Kolkata likes chess.\n7. The person who likes cricket lives in Mumbai.\n8. The person who likes painting lives in Chennai.\n9. The person who likes reading is a lawyer.\n10. Eshwar likes painting.\n11. The architect does not like cricket.\n12. Bhavna is a doctor.\n13. Divya does not live in Kolkata.\n\nWhat is the profession of the person who likes chess?",
+      "options": [
+        "architect",
+        "engineer",
+        "teacher",
+        "lawyer"
+      ],
+      "answerIndex": 0,
+      "explanation": "Working out the grid gives: Aarav: architect / Kolkata / chess; Bhavna: doctor / Pune / music; Chirag: engineer / Mumbai / cricket; Divya: lawyer / Delhi / reading; Eshwar: teacher / Chennai / painting. The person who likes chess is Aarav, whose profession is architect."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Five friends Aarav, Bhavna, Chirag, Divya and Eshwar each have a different profession (doctor, engineer, teacher, lawyer, architect), live in different cities (Chennai, Delhi, Mumbai, Pune, Kolkata) and like different hobbies (chess, cricket, music, reading, painting). The following facts are known:\n1. The doctor lives in Pune.\n2. Chirag lives in Mumbai.\n3. The lawyer lives in Delhi.\n4. The person who likes music is a doctor.\n5. Eshwar is a teacher.\n6. The person who lives in Kolkata likes chess.\n7. The person who likes cricket lives in Mumbai.\n8. The person who likes painting lives in Chennai.\n9. The person who likes reading is a lawyer.\n10. Eshwar likes painting.\n11. The architect does not like cricket.\n12. Bhavna is a doctor.\n13. Divya does not live in Kolkata.\n\nIn which city does the person who is an architect live?",
+      "options": [
+        "Mumbai",
+        "Pune",
+        "Chennai",
+        "Kolkata"
+      ],
+      "answerIndex": 3,
+      "explanation": "Working out the grid gives: Aarav: architect / Kolkata / chess; Bhavna: doctor / Pune / music; Chirag: engineer / Mumbai / cricket; Divya: lawyer / Delhi / reading; Eshwar: teacher / Chennai / painting. The person who is an architect is Aarav, whose city is Kolkata."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Five friends Aarav, Bhavna, Chirag, Divya and Eshwar each have a different profession (doctor, engineer, teacher, lawyer, architect), live in different cities (Chennai, Delhi, Mumbai, Pune, Kolkata) and like different hobbies (chess, cricket, music, reading, painting). The following facts are known:\n1. The doctor lives in Pune.\n2. Chirag lives in Mumbai.\n3. The lawyer lives in Delhi.\n4. The person who likes music is a doctor.\n5. Eshwar is a teacher.\n6. The person who lives in Kolkata likes chess.\n7. The person who likes cricket lives in Mumbai.\n8. The person who likes painting lives in Chennai.\n9. The person who likes reading is a lawyer.\n10. Eshwar likes painting.\n11. The architect does not like cricket.\n12. Bhavna is a doctor.\n13. Divya does not live in Kolkata.\n\nWhich profession does Chirag have?",
+      "options": [
+        "teacher",
+        "lawyer",
+        "engineer",
+        "architect"
+      ],
+      "answerIndex": 2,
+      "explanation": "Working out the grid gives (profession / city / hobby): Aarav: architect / Kolkata / chess; Bhavna: doctor / Pune / music; Chirag: engineer / Mumbai / cricket; Divya: lawyer / Delhi / reading; Eshwar: teacher / Chennai / painting. So Chirag's profession is engineer."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/"
+}
