@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-quant-boats-streams",
+  "topicTitle": "Boats and Streams",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A boat has a speed of 10 km/h in still water and the stream flows at 2 km/h. Its downstream speed is",
+      "options": [
+        "8",
+        "12",
+        "10",
+        "14"
+      ],
+      "answerIndex": 1,
+      "explanation": "10 + 2 = 12 km/h."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A boat has a speed of 10 km/h in still water and the stream flows at 2 km/h. Its upstream speed is",
+      "options": [
+        "8",
+        "12",
+        "10",
+        "6"
+      ],
+      "answerIndex": 0,
+      "explanation": "10 − 2 = 8 km/h."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A boat goes 15 km/h downstream and 9 km/h upstream. Its speed in still water is",
+      "options": [
+        "3",
+        "6",
+        "24",
+        "12"
+      ],
+      "answerIndex": 3,
+      "explanation": "(15 + 9)/2 = 12 km/h."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A boat goes 15 km/h downstream and 9 km/h upstream. The speed of the stream is",
+      "options": [
+        "6",
+        "12",
+        "3",
+        "4.5"
+      ],
+      "answerIndex": 2,
+      "explanation": "(15 − 9)/2 = 3 km/h."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A boat goes 36 km downstream at 12 km/h. The time taken is",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "6"
+      ],
+      "answerIndex": 2,
+      "explanation": "36 ÷ 12 = 3 hours."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A boat with speed 8 km/h in still water goes 30 km upstream in a stream of 2 km/h. The time taken is",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "Upstream speed = 6 km/h. Time = 30 ÷ 6 = 5 hours."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A boat goes 24 km upstream in 6 hours and 24 km downstream in 4 hours. The speed of the stream is",
+      "options": [
+        "1",
+        "0.5",
+        "2",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "Upstream 4 km/h, downstream 6 km/h. Stream = (6 − 4)/2 = 1 km/h."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A boat's speed in still water is 15 km/h and the stream is 5 km/h. It goes 40 km downstream and returns. The total time is",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "40/20 + 40/10 = 2 + 4 = 6 hours."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A boat's speed in still water is 12 km/h. It goes 36 km downstream and returns in 8 hours in all. The speed of the stream is",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "36/(12 + s) + 36/(12 − s) = 8 gives 864/(144 − s²) = 8, so s² = 36 and s = 6."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A boat goes 18 km downstream in 1.5 hours and the same distance upstream in 3 hours. The stream speed is",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "6"
+      ],
+      "answerIndex": 2,
+      "explanation": "Downstream 12 km/h, upstream 6 km/h. Stream = (12 − 6)/2 = 3 km/h."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A boat's speed in still water is 6 km/h and the stream flows at 2 km/h. It goes to a place and returns in 3 hours. The distance is",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "d/8 + d/4 = 3 gives 3d/8 = 3, so d = 8 km."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The downstream and upstream speeds of a boat are in the ratio 3 : 2 and the boat's speed in still water is 10 km/h. The stream speed is",
+      "options": [
+        "2",
+        "1",
+        "2.5",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "Let the speeds be 3x and 2x. b = 2.5x = 10 gives x = 4. s = 0.5x = 2 km/h."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A boat goes 30 km downstream in 2.5 hours and returns in 5 hours. The speed of the boat in still water is",
+      "options": [
+        "9",
+        "6",
+        "8",
+        "12"
+      ],
+      "answerIndex": 0,
+      "explanation": "Downstream 12 km/h, upstream 6 km/h. Boat = (12 + 6)/2 = 9 km/h."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A boat takes twice as long to go a distance upstream as downstream. If the stream is 4 km/h, the speed of the boat in still water is",
+      "options": [
+        "8",
+        "10",
+        "16",
+        "12"
+      ],
+      "answerIndex": 3,
+      "explanation": "(b − 4) = (b + 4)/2 gives b = 12 km/h."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The upstream speed of a boat is 5 km/h and the downstream speed is 15 km/h. The average speed for a round trip over the same distance is",
+      "options": [
+        "10",
+        "8",
+        "7.5",
+        "6"
+      ],
+      "answerIndex": 2,
+      "explanation": "2 × 5 × 15 ÷ 20 = 7.5 km/h."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A man rows to a place 48 km away and back in 14 hours. He rows 4 km downstream in the same time as 3 km upstream. The speed of the stream is",
+      "options": [
+        "2",
+        "1",
+        "1.5",
+        "3"
+      ],
+      "answerIndex": 1,
+      "explanation": "Downstream : upstream = 4 : 3 = 4k : 3k. 48/4k + 48/3k = 28/k = 14, so k = 2. Speeds 8 and 6, stream = 1 km/h."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A boat's speed in still water is 15 km/h and the stream is 3 km/h. It goes 36 km upstream and 36 km downstream. The total time is",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7.5"
+      ],
+      "answerIndex": 1,
+      "explanation": "36/12 + 36/18 = 3 + 2 = 5 hours."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A boat takes 3 hours to go 30 km downstream and 6 hours to return. The speed of the stream is",
+      "options": [
+        "2.5",
+        "2",
+        "3",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "Downstream 10, upstream 5. Stream = (10 − 5)/2 = 2.5 km/h."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A swimmer swims at 5 km/h in still water in a stream of 3 km/h. The ratio of the time to swim 8 km upstream to the time to swim 8 km downstream is",
+      "options": [
+        "3 : 1",
+        "5 : 2",
+        "8 : 3",
+        "4 : 1"
+      ],
+      "answerIndex": 3,
+      "explanation": "Upstream speed 2, downstream 8. Times in the ratio 1/2 : 1/8 = 4 : 1."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A boat covers 5 km upstream in the same time as 8 km downstream. If the stream is 3 km/h, the speed of the boat in still water is",
+      "options": [
+        "10",
+        "12",
+        "13",
+        "16"
+      ],
+      "answerIndex": 2,
+      "explanation": "(b − 3) : (b + 3) = 5 : 8 gives 8b − 24 = 5b + 15, so b = 13 km/h."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/boats-and-streams/"
+}

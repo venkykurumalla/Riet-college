@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-quant-problems-trains",
+  "topicTitle": "Problems on Trains",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A 150 m long train running at 54 km/h passes a pole in",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "answerIndex": 1,
+      "explanation": "Speed = 15 m/s. Time = 150 ÷ 15 = 10 s."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A 200 m train at 20 m/s crosses a platform 300 m long in",
+      "options": [
+        "25",
+        "10",
+        "15",
+        "20"
+      ],
+      "answerIndex": 0,
+      "explanation": "Distance = 500 m. Time = 500 ÷ 20 = 25 s."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A 120 m train passes a man standing on the platform at 36 km/h in",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "12"
+      ],
+      "answerIndex": 3,
+      "explanation": "Speed = 10 m/s. Time = 120 ÷ 10 = 12 s."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A 180 m train crosses a pole in 9 seconds. Its speed in km/h is",
+      "options": [
+        "60",
+        "64.8",
+        "72",
+        "80"
+      ],
+      "answerIndex": 2,
+      "explanation": "Speed = 180 ÷ 9 = 20 m/s = 20 × 18/5 = 72 km/h."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A train running at 72 km/h crosses a pole in 15 seconds. Its length is",
+      "options": [
+        "250",
+        "270",
+        "300",
+        "360"
+      ],
+      "answerIndex": 2,
+      "explanation": "Speed = 20 m/s. Length = 20 × 15 = 300 m."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A 150 m train at 40 m/s crosses a 250 m bridge in",
+      "options": [
+        "5",
+        "10",
+        "8",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "Distance = 400 m. Time = 400 ÷ 40 = 10 s."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Two trains of length 120 m and 90 m run in opposite directions at 72 km/h and 54 km/h. They cross each other in",
+      "options": [
+        "6",
+        "4",
+        "7.5",
+        "10"
+      ],
+      "answerIndex": 0,
+      "explanation": "Relative speed = 126 km/h = 35 m/s. Time = 210 ÷ 35 = 6 s."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Two trains of length 100 m and 150 m run in the same direction at 72 km/h and 54 km/h. The faster overtakes the slower in",
+      "options": [
+        "25",
+        "35",
+        "70",
+        "50"
+      ],
+      "answerIndex": 3,
+      "explanation": "Relative speed = 18 km/h = 5 m/s. Time = 250 ÷ 5 = 50 s."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A 300 m train crosses a pole in 18 seconds. It crosses a platform in 36 seconds. The platform length is",
+      "options": [
+        "250",
+        "350",
+        "600",
+        "300"
+      ],
+      "answerIndex": 3,
+      "explanation": "Speed = 300/18 = 50/3 m/s. In 36 s it covers 600 m, so the platform = 600 − 300 = 300 m."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A train passes two men walking at 2 km/h and 4 km/h in the same direction in 9 and 10 seconds. The length of the train is",
+      "options": [
+        "40",
+        "60",
+        "50",
+        "100"
+      ],
+      "answerIndex": 2,
+      "explanation": "Let the train speed be s km/h. (s − 2) × 9 = (s − 4) × 10 gives s = 22. Length = 20 × (5/18) × 9 = 50 m."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A 150 m train crosses a 250 m bridge in 20 seconds. Its speed in km/h is",
+      "options": [
+        "54",
+        "72",
+        "60",
+        "90"
+      ],
+      "answerIndex": 1,
+      "explanation": "Speed = 400 ÷ 20 = 20 m/s = 72 km/h."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Two trains each 120 m long cross each other in 12 seconds when moving in opposite directions at equal speeds. The speed of each in km/h is",
+      "options": [
+        "36",
+        "18",
+        "54",
+        "72"
+      ],
+      "answerIndex": 0,
+      "explanation": "Relative speed = 240 ÷ 12 = 20 m/s, so each is 10 m/s = 36 km/h."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A 100 m train passes a man running at 6 km/h in the opposite direction in 6 seconds. The speed of the train in km/h is",
+      "options": [
+        "54",
+        "48",
+        "60",
+        "66"
+      ],
+      "answerIndex": 0,
+      "explanation": "Relative speed = 100 ÷ 6 m/s = 60 km/h. Train = 60 − 6 = 54 km/h."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A 240 m train passes a pole in 24 seconds. It crosses a 360 m platform in",
+      "options": [
+        "36",
+        "45",
+        "72",
+        "60"
+      ],
+      "answerIndex": 3,
+      "explanation": "Speed = 10 m/s. Distance = 600 m. Time = 60 s."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A 200 m train at 108 km/h overtakes a 100 m train at 72 km/h running in the same direction. The time taken is",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "40"
+      ],
+      "answerIndex": 2,
+      "explanation": "Relative speed = 36 km/h = 10 m/s. Time = 300 ÷ 10 = 30 s."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A train crosses a 120 m platform in 15 seconds and a 180 m platform in 20 seconds. The length of the train is",
+      "options": [
+        "50",
+        "60",
+        "80",
+        "100"
+      ],
+      "answerIndex": 1,
+      "explanation": "Speed = (180 − 120) ÷ (20 − 15) = 12 m/s. Length = 12 × 15 − 120 = 60 m."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Two trains of lengths 200 m and 300 m start from opposite stations and cross in 10 seconds. If the first is at 20 m/s, the second is at (m/s)",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "answerIndex": 1,
+      "explanation": "Relative speed = 500 ÷ 10 = 50 m/s. Second = 50 − 20 = 30 m/s."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A train takes 18 seconds to cross a pole and 27 seconds to cross a 90 m platform. The length of the train is",
+      "options": [
+        "180",
+        "135",
+        "150",
+        "270"
+      ],
+      "answerIndex": 0,
+      "explanation": "L/18 = (L + 90)/27 gives L = 180 m."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Two trains running at 60 km/h and 90 km/h in the same direction cross in 30 seconds. The sum of their lengths is (metres)",
+      "options": [
+        "150",
+        "200",
+        "300",
+        "250"
+      ],
+      "answerIndex": 3,
+      "explanation": "Relative speed = 30 km/h = 25/3 m/s. Sum of lengths = 25/3 × 30 = 250 m."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A 150 m train at 36 km/h takes 40 seconds to cross a bridge. The length of the bridge is (metres)",
+      "options": [
+        "200",
+        "300",
+        "250",
+        "400"
+      ],
+      "answerIndex": 2,
+      "explanation": "Distance = 10 × 40 = 400 m. Bridge = 400 − 150 = 250 m."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/problems-on-trains/"
+}

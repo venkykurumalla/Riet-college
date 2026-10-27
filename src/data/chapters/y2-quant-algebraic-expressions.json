@@ -1,0 +1,436 @@
+{
+  "id": "y2-quant-algebraic-expressions",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 15,
+  "title": "Algebraic Expressions",
+  "tagline": "Year 2 — Identities, factorisation and evaluating expressions quickly",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "An algebraic expression combines numbers and letters with operations. The most useful tools in aptitude tests are the standard identities, such as (a + b)² and a² − b², which let you simplify, factorise and evaluate expressions without long arithmetic. A little algebra often turns a heavy calculation into a one-line answer.",
+    "placementRelevance": "Algebraic identities are commonly used in company aptitude rounds for simplification questions and for finding values like a² + b² when a + b and ab are known.",
+    "realWorldContext": "Simplifying formulas in engineering, checking expressions in code and reducing calculation effort by factoring all use the same identities."
+  },
+  "learningObjectives": [
+    "Use the identities (a ± b)², a² − b², (a ± b)³ and a³ ± b³",
+    "Evaluate expressions such as a² + b² from a + b and ab",
+    "Factorise quadratic expressions and simple polynomials",
+    "Use identities to compute squares and products quickly",
+    "Simplify rational expressions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Simplification & BODMAS",
+      "Basic Percentages"
+    ],
+    "quickRefresher": "Like terms can be added; (a + b)(c + d) = ac + ad + bc + bd. A negative sign outside a bracket changes all signs inside."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Expression: a combination of constants, variables and operations, with no equals sign.",
+      "Term: each part separated by + or −. Factor: a quantity that divides an expression exactly.",
+      "Identity: an equation true for all values of the variables.",
+      "Factorisation: writing an expression as a product of simpler expressions.",
+      "Coefficient: the number multiplying a variable."
+    ],
+    "theoreticalIntuition": "Identities are shortcuts that hold for every number. Instead of computing 102² by long multiplication, write (100 + 2)² = 10000 + 400 + 4. Algebra is just organised arithmetic.",
+    "visualOrMentalModel": "Look for patterns: two squares with a minus (difference of squares), a perfect square trinomial, or a sum/difference that equals something known. Then apply the matching identity."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Square identities",
+      "formula": "(a + b)² = a² + 2ab + b²;  (a − b)² = a² − 2ab + b²",
+      "description": "Expand or collapse.",
+      "whenToUse": "Squares, a² + b².",
+      "simpleExample": "102² = 10000 + 400 + 4 = 10404"
+    },
+    {
+      "title": "Difference of squares",
+      "formula": "a² − b² = (a − b)(a + b)",
+      "description": "Factor a difference of two squares.",
+      "whenToUse": "Simplification.",
+      "simpleExample": "1002² − 998² = 4 × 2000 = 8000"
+    },
+    {
+      "title": "a² + b² from a + b",
+      "formula": "a² + b² = (a + b)² − 2ab = (a − b)² + 2ab",
+      "description": "Use ab or a − b.",
+      "whenToUse": "Value questions.",
+      "simpleExample": "a + b = 7, ab = 10 → 49 − 20 = 29"
+    },
+    {
+      "title": "Cube identities",
+      "formula": "(a + b)³ = a³ + 3a²b + 3ab² + b³;  a³ + b³ = (a + b)(a² − ab + b²);  a³ − b³ = (a − b)(a² + ab + b²)",
+      "description": "Cubes and sums of cubes.",
+      "whenToUse": "Cubic expressions.",
+      "simpleExample": "5³ + 3³ = 8 × 19 = 152"
+    },
+    {
+      "title": "Reciprocal pairs",
+      "formula": "x + 1/x = k → x² + 1/x² = k² − 2",
+      "description": "Then x³ + 1/x³ = k³ − 3k.",
+      "whenToUse": "x + 1/x type.",
+      "simpleExample": "k = 3 → 7 and 18"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The two identities to memorise first are (a + b)² = a² + 2ab + b² and a² − b² = (a − b)(a + b). With them, 102² = (100 + 2)² = 10,404, and 1002² − 998² = (1002 − 998)(1002 + 998) = 4 × 2000 = 8,000.",
+      "To find a² + b² from a + b = 7 and ab = 10, use (a + b)² = a² + 2ab + b², so a² + b² = 49 − 20 = 29. Similarly a² + b² = (a − b)² + 2ab.",
+      "For reciprocal pairs: if x + 1/x = 3, then x² + 1/x² = 3² − 2 = 7 and x³ + 1/x³ = 3³ − 3 × 3 = 18.",
+      "To factorise a quadratic x² + px + q, find two numbers whose sum is p and product is q. x² + 7x + 10 = (x + 2)(x + 5).",
+      "For sums and differences of cubes, a³ + b³ = (a + b)(a² − ab + b²). For 5³ + 3³ = 125 + 27 = 152, and (5 + 3)(25 − 15 + 9) = 8 × 19 = 152."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Why identities speed up arithmetic",
+        "content": "Large squares become sums of small numbers. 99² = (100 − 1)² = 10,000 − 200 + 1 = 9,801."
+      },
+      {
+        "title": "Checking by substitution",
+        "content": "To verify a factorisation, put a simple value for x. If x = 1 gives different values on both sides, the factorisation is wrong."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Squares of numbers",
+      "description": "Use (a ± b)².",
+      "exampleSnippet": "102²"
+    },
+    {
+      "typeName": "Difference of squares",
+      "description": "a² − b².",
+      "exampleSnippet": "1002² − 998²"
+    },
+    {
+      "typeName": "Given a + b and ab",
+      "description": "Find a² + b².",
+      "exampleSnippet": "a + b = 7, ab = 10"
+    },
+    {
+      "typeName": "Reciprocal pairs",
+      "description": "x + 1/x.",
+      "exampleSnippet": "x + 1/x = 3"
+    },
+    {
+      "typeName": "Factorisation",
+      "description": "Quadratic factors.",
+      "exampleSnippet": "x² + 7x + 10"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-algebraic-expressions-1",
+      "title": "Square by identity",
+      "question": "Find 102² using an identity.",
+      "givenInfo": [
+        "102 = 100 + 2"
+      ],
+      "conceptOrFormula": "(a + b)² = a² + 2ab + b².",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Split",
+          "explanation": "102 = 100 + 2."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Expand",
+          "explanation": "100² + 2 × 100 × 2 + 2² = 10,000 + 400 + 4."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Add",
+          "explanation": "10,404."
+        }
+      ],
+      "finalAnswer": "10,404",
+      "whyItWorks": "No long multiplication is needed.",
+      "commonTrap": "Forgetting the middle term.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-algebraic-expressions-2",
+      "title": "a² + b² from a + b and ab",
+      "question": "If a + b = 7 and ab = 10, find a² + b².",
+      "givenInfo": [
+        "a + b = 7",
+        "ab = 10"
+      ],
+      "conceptOrFormula": "(a + b)² = a² + b² + 2ab.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Square the sum",
+          "explanation": "(a + b)² = 49."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Subtract 2ab",
+          "explanation": "a² + b² = 49 − 2 × 10 = 29."
+        }
+      ],
+      "finalAnswer": "29",
+      "whyItWorks": "The two unknowns need not be found individually.",
+      "commonTrap": "Computing 7² − 10 = 39.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-algebraic-expressions-3",
+      "title": "Reciprocal pair",
+      "question": "If x + 1/x = 3, find x² + 1/x² and x³ + 1/x³.",
+      "givenInfo": [
+        "x + 1/x = 3"
+      ],
+      "conceptOrFormula": "Square and cube the given sum.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Square",
+          "explanation": "(x + 1/x)² = x² + 2 + 1/x², so x² + 1/x² = 9 − 2 = 7."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Cube",
+          "explanation": "(x + 1/x)³ = x³ + 1/x³ + 3(x + 1/x), so x³ + 1/x³ = 27 − 9 = 18."
+        }
+      ],
+      "finalAnswer": "7 and 18",
+      "whyItWorks": "The cross terms are known from the given sum.",
+      "commonTrap": "Forgetting the 3(x + 1/x) term.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Pattern spotting",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Expand and multiply out in full.",
+      "shortcutMethod": "Spot (a ± b)², a² − b² or a known sum and product, then substitute into the identity."
+    },
+    "rulesForApplication": [
+      "Know (a+b)², (a−b)², a²−b².",
+      "a² + b² = (a+b)² − 2ab.",
+      "x² + 1/x² = k² − 2.",
+      "Check by substituting a small number."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Dropping 2ab",
+      "whyItHappens": "Writing (a + b)² = a² + b².",
+      "howToAvoid": "Always include the middle term."
+    },
+    {
+      "mistake": "Sign errors",
+      "whyItHappens": "Confusing (a − b)² and a² − b².",
+      "howToAvoid": "They are different identities."
+    },
+    {
+      "mistake": "Wrong cube expansion",
+      "whyItHappens": "Missing 3a²b or 3ab².",
+      "howToAvoid": "Memorise the pattern."
+    },
+    {
+      "mistake": "Not checking",
+      "whyItHappens": "Leaving factorisation unverified.",
+      "howToAvoid": "Substitute a value."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 45,
+    "eliminationTechnique": "Test options with a quick substitution; wrong options usually fail at a small value.",
+    "questionSelectionAdvice": "Memorise the six identities.",
+    "recruiterInsight": "Identities also appear inside quadratic equation questions."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-algebraic-expressions-e1",
+        "question": "The value of 102² is",
+        "options": [
+          "10004",
+          "10404",
+          "10204",
+          "10416"
+        ],
+        "correctAnswer": "10404",
+        "explanation": "(100 + 2)² = 10000 + 400 + 4 = 10,404.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-algebraic-expressions-e2",
+        "question": "The value of 99² is",
+        "options": [
+          "9801",
+          "9701",
+          "9901",
+          "9700"
+        ],
+        "correctAnswer": "9801",
+        "explanation": "(100 − 1)² = 10000 − 200 + 1 = 9,801.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-algebraic-expressions-e3",
+        "question": "(a + b)² − (a − b)² equals",
+        "options": [
+          "2ab",
+          "2a² + 2b²",
+          "0",
+          "4ab"
+        ],
+        "correctAnswer": "4ab",
+        "explanation": "(a² + 2ab + b²) − (a² − 2ab + b²) = 4ab.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-algebraic-expressions-i7",
+        "question": "1002² − 998² equals",
+        "options": [
+          "8000",
+          "4000",
+          "4004",
+          "80000"
+        ],
+        "correctAnswer": "8000",
+        "explanation": "(1002 − 998)(1002 + 998) = 4 × 2000 = 8,000.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-algebraic-expressions-i8",
+        "question": "If a + b = 7 and ab = 10, then a² + b² is",
+        "options": [
+          "39",
+          "49",
+          "19",
+          "29"
+        ],
+        "correctAnswer": "29",
+        "explanation": "49 − 2 × 10 = 29.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-algebraic-expressions-i9",
+        "question": "If a − b = 3 and ab = 10, then a² + b² is",
+        "options": [
+          "19",
+          "39",
+          "9",
+          "29"
+        ],
+        "correctAnswer": "29",
+        "explanation": "a² + b² = (a − b)² + 2ab = 9 + 20 = 29.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-algebraic-expressions-a15",
+        "question": "If a² + b² = 29 and a + b = 7, then ab equals",
+        "options": [
+          "8",
+          "12",
+          "10",
+          "15"
+        ],
+        "correctAnswer": "10",
+        "explanation": "2ab = (a + b)² − (a² + b²) = 49 − 29 = 20, so ab = 10.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-algebraic-expressions-a16",
+        "question": "If x − 1/x = 4, then x² + 1/x² equals",
+        "options": [
+          "16",
+          "18",
+          "14",
+          "20"
+        ],
+        "correctAnswer": "18",
+        "explanation": "(x − 1/x)² = x² − 2 + 1/x², so x² + 1/x² = 16 + 2 = 18.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-algebraic-expressions-p17",
+        "question": "The value of (0.8)² + 2 × 0.8 × 0.2 + (0.2)² is",
+        "options": [
+          "0.64",
+          "1",
+          "0.68",
+          "1.2"
+        ],
+        "correctAnswer": "1",
+        "explanation": "This is (0.8 + 0.2)² = 1.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-algebraic-expressions-p18",
+        "question": "The value of (2.5)³ − (1.5)³ is",
+        "options": [
+          "12.25",
+          "1",
+          "11.5",
+          "13"
+        ],
+        "correctAnswer": "12.25",
+        "explanation": "(2.5 − 1.5)(2.5² + 2.5 × 1.5 + 1.5²) = 1 × (6.25 + 3.75 + 2.25) = 12.25.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-algebraic-expressions-p19",
+        "question": "If a + b + c = 0, then a³ + b³ + c³ equals",
+        "options": [
+          "0",
+          "abc",
+          "(a + b + c)³",
+          "3abc"
+        ],
+        "correctAnswer": "3abc",
+        "explanation": "When a + b + c = 0, a³ + b³ + c³ = 3abc.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "(a±b)² identities.",
+      "a² − b² = (a−b)(a+b).",
+      "a² + b² from sum and product.",
+      "Cube identities.",
+      "x + 1/x trick."
+    ],
+    "quickFormulas": [
+      "a² + b² = (a+b)² − 2ab",
+      "x² + 1/x² = k² − 2"
+    ]
+  },
+  "keyTakeaways": [
+    "Identities save time.",
+    "Do not forget 2ab.",
+    "Verify with a small value.",
+    "Look for patterns."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute 99² with an identity?",
+    "Can I find a² + b² from a + b and ab?",
+    "Can I factorise x² + 7x + 10?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Simplification and algebra topic area; examples are original."
+    },
+    {
+      "sourceName": "NCERT Mathematics, Class 8–9 (Algebraic Expressions and Polynomials)",
+      "sourceType": "Textbook",
+      "referenceNote": "Identities and factorisation."
+    }
+  ]
+}

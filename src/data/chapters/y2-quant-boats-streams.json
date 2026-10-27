@@ -1,0 +1,440 @@
+{
+  "id": "y2-quant-boats-streams",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 14,
+  "title": "Boats and Streams",
+  "tagline": "Year 2 — Downstream, upstream, still-water speed and stream speed",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "When a boat moves in a river, the water current helps or opposes it. Moving with the current (downstream) the effective speed is the boat's speed in still water plus the speed of the stream. Moving against the current (upstream) it is the boat's speed minus the stream speed. The whole chapter follows from these two sentences and the basic speed-time-distance relation.",
+    "placementRelevance": "Boats and streams questions are commonly asked in company aptitude rounds. They look different from trains but are the same relative-speed idea applied to water.",
+    "realWorldContext": "Ferry schedules, river cruises and swimming across a current all depend on speeds with and against the stream."
+  },
+  "learningObjectives": [
+    "Compute downstream and upstream speeds",
+    "Find the boat's speed and the stream's speed from the two",
+    "Solve round-trip problems",
+    "Solve problems involving ratios of speeds and times",
+    "Compute average speed for a round trip in a stream"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Time, Speed and Distance",
+      "Relative Speed"
+    ],
+    "quickRefresher": "D = S × T. Round trip with the same one-way distance: total time = D/downstream + D/upstream."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Speed in still water (b): speed of the boat without any current.",
+      "Speed of the stream (s): speed of the water current.",
+      "Downstream speed = b + s. Upstream speed = b − s.",
+      "Boat speed b = (downstream + upstream)/2. Stream speed s = (downstream − upstream)/2.",
+      "Average speed for a round trip = 2uv/(u + v) with u and v the downstream and upstream speeds."
+    ],
+    "theoreticalIntuition": "The stream is like a moving walkway. With it, you get a free boost; against it, you lose speed. The boat's own speed is the midpoint between its downstream and upstream speeds, and the stream is half the gap between them.",
+    "visualOrMentalModel": "Always find the two effective speeds first. From them the boat speed and stream speed follow. Then each part of the journey is a simple distance ÷ speed."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Effective speeds",
+      "formula": "Downstream u = b + s;  Upstream v = b − s",
+      "description": "Directions matter.",
+      "whenToUse": "Any boat problem.",
+      "simpleExample": "b = 10, s = 2 → 12 and 8"
+    },
+    {
+      "title": "Boat and stream speeds",
+      "formula": "b = (u + v)/2;  s = (u − v)/2",
+      "description": "Invert the effective speeds.",
+      "whenToUse": "When u and v are known.",
+      "simpleExample": "15 and 9 → b = 12, s = 3"
+    },
+    {
+      "title": "Round trip time",
+      "formula": "T = D/u + D/v",
+      "description": "Same one-way distance.",
+      "whenToUse": "To and fro.",
+      "simpleExample": "40/20 + 40/10 = 6 h"
+    },
+    {
+      "title": "Average speed (round trip)",
+      "formula": "2uv/(u + v)",
+      "description": "Not equal to b.",
+      "whenToUse": "Round-trip speed.",
+      "simpleExample": "2 × 15 × 5/20 = 7.5"
+    },
+    {
+      "title": "Ratio form",
+      "formula": "If u : v = p : q then b = (p + q)/(p − q) × s ÷ ... or b : s = (p + q) : (p − q)",
+      "description": "Convert ratio to speeds.",
+      "whenToUse": "Ratio questions.",
+      "simpleExample": "u : v = 3 : 2 → b : s = 5 : 1"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Define b and s. Downstream is b + s and upstream is b − s. If a boat goes 12 km/h downstream and 8 km/h upstream, then b = 10 km/h and s = 2 km/h.",
+      "For time and distance, use the right speed for each leg. A boat of speed 8 km/h in a stream of 2 km/h covers 30 km upstream in 30 ÷ 6 = 5 hours.",
+      "For a round trip with the same one-way distance D, total time = D/(b + s) + D/(b − s). With b = 15 and s = 5 and D = 40: 40/20 + 40/10 = 6 hours.",
+      "To find the stream speed from time data, form an equation in s. With b = 12 and 36 km each way in 8 hours: 36/(12 + s) + 36/(12 − s) = 8, so 36 × 24/(144 − s²) = 8, giving s² = 36 and s = 6.",
+      "For ratio problems: if the downstream and upstream speeds are in the ratio 3 : 2, write them as 3x and 2x. Then b = 2.5x and s = 0.5x. If b = 10, then x = 4 and s = 2."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Why the average round trip speed is lower than b",
+        "content": "You spend more time going against the stream (the slow leg), so the average speed is the harmonic mean of the two speeds, which is less than b."
+      },
+      {
+        "title": "Stream speed cannot exceed boat speed",
+        "content": "If s ≥ b, the boat cannot go upstream. In a problem, b − s must be positive."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Effective speeds",
+      "description": "Add or subtract.",
+      "exampleSnippet": "b = 10, s = 2"
+    },
+    {
+      "typeName": "Find b and s",
+      "description": "From u and v.",
+      "exampleSnippet": "u = 15, v = 9"
+    },
+    {
+      "typeName": "Round trip",
+      "description": "Time.",
+      "exampleSnippet": "40 km each way"
+    },
+    {
+      "typeName": "Ratio problems",
+      "description": "u : v given.",
+      "exampleSnippet": "u : v = 3 : 2"
+    },
+    {
+      "typeName": "Equation for s",
+      "description": "From total time.",
+      "exampleSnippet": "36 km each way in 8 h"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-boats-streams-1",
+      "title": "Boat and stream from two speeds",
+      "question": "A boat goes 15 km/h downstream and 9 km/h upstream. Find the speed of the boat in still water and the speed of the stream.",
+      "givenInfo": [
+        "u = 15",
+        "v = 9"
+      ],
+      "conceptOrFormula": "b = (u + v)/2 and s = (u − v)/2.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Boat",
+          "explanation": "(15 + 9)/2 = 12 km/h."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Stream",
+          "explanation": "(15 − 9)/2 = 3 km/h."
+        }
+      ],
+      "finalAnswer": "b = 12 km/h, s = 3 km/h",
+      "whyItWorks": "Downstream adds the stream and upstream subtracts it.",
+      "commonTrap": "Swapping the two.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-boats-streams-2",
+      "title": "Round trip time",
+      "question": "A boat's speed in still water is 15 km/h and the stream flows at 5 km/h. How long does it take to go 40 km downstream and return?",
+      "givenInfo": [
+        "b = 15",
+        "s = 5",
+        "D = 40 km each way"
+      ],
+      "conceptOrFormula": "T = D/u + D/v.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Speeds",
+          "explanation": "Downstream 20, upstream 10 km/h."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Times",
+          "explanation": "40/20 = 2 h and 40/10 = 4 h."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Total",
+          "explanation": "6 hours."
+        }
+      ],
+      "finalAnswer": "6 hours",
+      "whyItWorks": "The return leg is twice as slow.",
+      "commonTrap": "Using 15 km/h both ways.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-boats-streams-3",
+      "title": "Find the stream speed from total time",
+      "question": "A boat's speed in still water is 12 km/h. It goes 36 km downstream and returns in a total of 8 hours. Find the speed of the stream.",
+      "givenInfo": [
+        "b = 12",
+        "36 km each way",
+        "Total time 8 h"
+      ],
+      "conceptOrFormula": "Form an equation for s.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Equation",
+          "explanation": "36/(12 + s) + 36/(12 − s) = 8."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Simplify",
+          "explanation": "36 × 24 / (144 − s²) = 8, so 144 − s² = 108."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Solve",
+          "explanation": "s² = 36, s = 6 km/h."
+        }
+      ],
+      "finalAnswer": "6 km/h",
+      "whyItWorks": "Check: 36/18 + 36/6 = 2 + 6 = 8.",
+      "commonTrap": "Using b = 12 for both directions.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Mid-point and half-gap",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Solve two equations for b and s.",
+      "shortcutMethod": "Boat speed is the average of downstream and upstream; stream speed is half the difference."
+    },
+    "rulesForApplication": [
+      "u = b + s; v = b − s.",
+      "b = (u + v)/2; s = (u − v)/2.",
+      "Round trip average = 2uv/(u + v).",
+      "Check b > s."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Adding when going upstream",
+      "whyItHappens": "Confusing directions.",
+      "howToAvoid": "Upstream is against the current."
+    },
+    {
+      "mistake": "Averaging b for round trip speed",
+      "whyItHappens": "Assuming average = b.",
+      "howToAvoid": "Use harmonic mean."
+    },
+    {
+      "mistake": "Mixing units",
+      "whyItHappens": "Minutes and hours.",
+      "howToAvoid": "Convert."
+    },
+    {
+      "mistake": "Ignoring that s < b",
+      "whyItHappens": "Getting a negative upstream speed.",
+      "howToAvoid": "Check the numbers."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Downstream speed must exceed upstream; the boat speed lies between them.",
+    "questionSelectionAdvice": "Always compute u and v first.",
+    "recruiterInsight": "Ratio questions convert quickly into b : s ratios."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-boats-streams-e1",
+        "question": "A boat has a speed of 10 km/h in still water and the stream flows at 2 km/h. Its downstream speed is",
+        "options": [
+          "8",
+          "12",
+          "10",
+          "14"
+        ],
+        "correctAnswer": "12",
+        "explanation": "10 + 2 = 12 km/h.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-boats-streams-e2",
+        "question": "A boat has a speed of 10 km/h in still water and the stream flows at 2 km/h. Its upstream speed is",
+        "options": [
+          "8",
+          "12",
+          "10",
+          "6"
+        ],
+        "correctAnswer": "8",
+        "explanation": "10 − 2 = 8 km/h.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-boats-streams-e3",
+        "question": "A boat goes 15 km/h downstream and 9 km/h upstream. Its speed in still water is",
+        "options": [
+          "3",
+          "6",
+          "24",
+          "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "(15 + 9)/2 = 12 km/h.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-boats-streams-i7",
+        "question": "A boat goes 24 km upstream in 6 hours and 24 km downstream in 4 hours. The speed of the stream is",
+        "options": [
+          "1",
+          "0.5",
+          "2",
+          "5"
+        ],
+        "correctAnswer": "1",
+        "explanation": "Upstream 4 km/h, downstream 6 km/h. Stream = (6 − 4)/2 = 1 km/h.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-boats-streams-i8",
+        "question": "A boat's speed in still water is 15 km/h and the stream is 5 km/h. It goes 40 km downstream and returns. The total time is",
+        "options": [
+          "4",
+          "5",
+          "8",
+          "6"
+        ],
+        "correctAnswer": "6",
+        "explanation": "40/20 + 40/10 = 2 + 4 = 6 hours.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-boats-streams-i9",
+        "question": "A boat's speed in still water is 12 km/h. It goes 36 km downstream and returns in 8 hours in all. The speed of the stream is",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correctAnswer": "6",
+        "explanation": "36/(12 + s) + 36/(12 − s) = 8 gives 864/(144 − s²) = 8, so s² = 36 and s = 6.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-boats-streams-a15",
+        "question": "The upstream speed of a boat is 5 km/h and the downstream speed is 15 km/h. The average speed for a round trip over the same distance is",
+        "options": [
+          "10",
+          "8",
+          "7.5",
+          "6"
+        ],
+        "correctAnswer": "7.5",
+        "explanation": "2 × 5 × 15 ÷ 20 = 7.5 km/h.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-boats-streams-a16",
+        "question": "A man rows to a place 48 km away and back in 14 hours. He rows 4 km downstream in the same time as 3 km upstream. The speed of the stream is",
+        "options": [
+          "2",
+          "1",
+          "1.5",
+          "3"
+        ],
+        "correctAnswer": "1",
+        "explanation": "Downstream : upstream = 4 : 3 = 4k : 3k. 48/4k + 48/3k = 28/k = 14, so k = 2. Speeds 8 and 6, stream = 1 km/h.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-boats-streams-p17",
+        "question": "A boat's speed in still water is 15 km/h and the stream is 3 km/h. It goes 36 km upstream and 36 km downstream. The total time is",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7.5"
+        ],
+        "correctAnswer": "5",
+        "explanation": "36/12 + 36/18 = 3 + 2 = 5 hours.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-boats-streams-p18",
+        "question": "A boat takes 3 hours to go 30 km downstream and 6 hours to return. The speed of the stream is",
+        "options": [
+          "2.5",
+          "2",
+          "3",
+          "5"
+        ],
+        "correctAnswer": "2.5",
+        "explanation": "Downstream 10, upstream 5. Stream = (10 − 5)/2 = 2.5 km/h.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-boats-streams-p19",
+        "question": "A swimmer swims at 5 km/h in still water in a stream of 3 km/h. The ratio of the time to swim 8 km upstream to the time to swim 8 km downstream is",
+        "options": [
+          "3 : 1",
+          "5 : 2",
+          "8 : 3",
+          "4 : 1"
+        ],
+        "correctAnswer": "4 : 1",
+        "explanation": "Upstream speed 2, downstream 8. Times in the ratio 1/2 : 1/8 = 4 : 1.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "u = b + s, v = b − s.",
+      "b = (u + v)/2.",
+      "s = (u − v)/2.",
+      "T = D/u + D/v.",
+      "Average = 2uv/(u + v)."
+    ],
+    "quickFormulas": [
+      "b = (u+v)/2",
+      "s = (u−v)/2"
+    ]
+  },
+  "keyTakeaways": [
+    "Two effective speeds.",
+    "Mid-point and half-gap.",
+    "Use correct leg speeds.",
+    "Check reasonableness."
+  ],
+  "selfCheckQuestions": [
+    "Can I find b and s from u and v?",
+    "Can I compute a round trip time?",
+    "Can I solve a ratio-based problem?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Boats and Streams topic area; examples are original."
+    }
+  ]
+}

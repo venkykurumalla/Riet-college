@@ -1,0 +1,444 @@
+{
+  "id": "y2-quant-tsd-fundamentals",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 11,
+  "title": "Time, Speed and Distance",
+  "tagline": "Year 2 — Speed = distance ÷ time, unit conversion, average speed and late/early arrivals",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Speed is how much distance is covered in a unit of time: speed = distance ÷ time. From this single relation come distance = speed × time and time = distance ÷ speed. The skill lies in handling units (km/h and m/s), average speed over unequal parts, and problems where a change in speed changes the time taken by a given amount.",
+    "placementRelevance": "Time, speed and distance questions are commonly asked in company aptitude rounds. They are the base for relative speed, trains and boats and streams.",
+    "realWorldContext": "Planning a journey, estimating arrival times and comparing the speeds of different vehicles use the same formula."
+  },
+  "learningObjectives": [
+    "Use S = D/T in all three forms",
+    "Convert between km/h and m/s",
+    "Compute average speed for equal distances, equal times and unequal parts",
+    "Solve problems with a change in speed and a change in time",
+    "Use the inverse proportion of speed and time for a fixed distance"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Proportion",
+      "Advanced Averages"
+    ],
+    "quickRefresher": "For a fixed distance, speed and time are inversely proportional. Time in minutes ÷ 60 gives hours."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Speed = Distance ÷ Time. Units: km/h, m/s.",
+      "Conversion: 1 km/h = 5/18 m/s and 1 m/s = 18/5 km/h.",
+      "Average speed = Total distance ÷ Total time.",
+      "For equal distances at speeds x and y: average = 2xy/(x + y). For equal times: (x + y)/2.",
+      "Constant distance: S₁T₁ = S₂T₂."
+    ],
+    "theoreticalIntuition": "Speed tells you how many kilometres you get per hour. If you drive faster you take less time for the same distance. For a fixed distance, speed × time is constant, so doubling the speed halves the time.",
+    "visualOrMentalModel": "For a late/early problem, write two equations: distance ÷ speed₁ and distance ÷ speed₂ differ by the total time difference. Solve for distance."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Basic relations",
+      "formula": "D = S × T;  S = D/T;  T = D/S",
+      "description": "Keep units consistent.",
+      "whenToUse": "Any direct question.",
+      "simpleExample": "60 km/h × 3 h = 180 km"
+    },
+    {
+      "title": "Unit conversion",
+      "formula": "km/h × 5/18 = m/s;  m/s × 18/5 = km/h",
+      "description": "1 m/s = 3.6 km/h.",
+      "whenToUse": "Trains and short distances.",
+      "simpleExample": "72 km/h = 20 m/s"
+    },
+    {
+      "title": "Average speed (equal distances)",
+      "formula": "2xy/(x + y)",
+      "description": "Half the distance at each speed.",
+      "whenToUse": "Go and return.",
+      "simpleExample": "30 and 20 → 24 km/h"
+    },
+    {
+      "title": "Average speed (general)",
+      "formula": "Total D ÷ Total T",
+      "description": "Always valid.",
+      "whenToUse": "Unequal parts.",
+      "simpleExample": "(1/3)(1/20 + 1/30 + 1/60) = 1/30 → 30 km/h"
+    },
+    {
+      "title": "Late and early",
+      "formula": "D/S₁ − D/S₂ = time difference",
+      "description": "Two speeds, two arrival times.",
+      "whenToUse": "Late/early arrival.",
+      "simpleExample": "D/40 − D/60 = 1/2 → D = 60 km"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Always keep units consistent. If speed is in km/h, distance must be in km and time in hours. To change km/h to m/s multiply by 5/18; for the reverse multiply by 18/5. So 72 km/h = 72 × 5/18 = 20 m/s.",
+      "Average speed is total distance over total time, never the simple average of the speeds unless the times are equal. For equal distances, use 2xy/(x + y): 30 km/h and 20 km/h give 24 km/h.",
+      "For unequal parts, compute the time of each part. If 1/3 of the journey is at 20 km/h, 1/3 at 30 km/h and 1/3 at 60 km/h, the time per unit distance is (1/3)(1/20 + 1/30 + 1/60) = 1/30, so the average speed is 30 km/h.",
+      "In late/early problems, write D/S₁ − D/S₂ equal to the total time difference. A train 15 minutes late at 40 km/h and 15 minutes early at 60 km/h: D/40 − D/60 = 30/60 gives D = 60 km.",
+      "If a speed change gives a time change, use the ratio method. Increasing speed by 20% makes the time 1/1.2 of before, so the saved time is 1/6 of the original; if that is 20 minutes, the usual time is 120 minutes."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Why the average is harmonic",
+        "content": "Equal distances at two speeds take different times. The slower speed is used longer, so it weighs more, and the average is less than the simple mean."
+      },
+      {
+        "title": "Speed ratio and time ratio",
+        "content": "If speeds are in the ratio a : b, the times for the same distance are in the ratio b : a. A 3 : 4 speed ratio gives a 4 : 3 time ratio."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct",
+      "description": "Find S, D or T.",
+      "exampleSnippet": "60 km/h for 3 h"
+    },
+    {
+      "typeName": "Unit conversion",
+      "description": "km/h ↔ m/s.",
+      "exampleSnippet": "72 km/h"
+    },
+    {
+      "typeName": "Average speed",
+      "description": "Equal or unequal parts.",
+      "exampleSnippet": "30 km/h and 20 km/h"
+    },
+    {
+      "typeName": "Late and early",
+      "description": "Two speeds.",
+      "exampleSnippet": "15 min late, 15 min early"
+    },
+    {
+      "typeName": "Speed change",
+      "description": "Time change.",
+      "exampleSnippet": "Speed up by 20%"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-tsd-fundamentals-1",
+      "title": "Average speed",
+      "question": "A man travels half the distance of a 120 km journey at 30 km/h and the other half at 20 km/h. Find his average speed.",
+      "givenInfo": [
+        "120 km",
+        "First 60 km at 30 km/h",
+        "Next 60 km at 20 km/h"
+      ],
+      "conceptOrFormula": "Total distance ÷ total time.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Times",
+          "explanation": "60/30 = 2 h and 60/20 = 3 h."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Total time",
+          "explanation": "5 h."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Average",
+          "explanation": "120 ÷ 5 = 24 km/h."
+        }
+      ],
+      "finalAnswer": "24 km/h",
+      "whyItWorks": "More time is spent at the slower speed.",
+      "commonTrap": "Using (30 + 20)/2 = 25.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-tsd-fundamentals-2",
+      "title": "Late and early",
+      "question": "A train would reach 15 minutes late at 40 km/h and 15 minutes early at 60 km/h. Find the distance.",
+      "givenInfo": [
+        "40 km/h → 15 min late",
+        "60 km/h → 15 min early"
+      ],
+      "conceptOrFormula": "D/S₁ − D/S₂ = difference of arrival times.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Time difference",
+          "explanation": "30 minutes = 1/2 h."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Equation",
+          "explanation": "D/40 − D/60 = 1/2."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Solve",
+          "explanation": "D(3 − 2)/120 = 1/2, so D = 60 km."
+        }
+      ],
+      "finalAnswer": "60 km",
+      "whyItWorks": "The two arrival times are 30 minutes apart.",
+      "commonTrap": "Using 15 minutes as the difference.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-tsd-fundamentals-3",
+      "title": "Speed change",
+      "question": "If a man increases his speed by 20%, he saves 20 minutes on a journey. Find the usual time.",
+      "givenInfo": [
+        "Speed × 1.2",
+        "Time saved 20 min"
+      ],
+      "conceptOrFormula": "Time ∝ 1/speed.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "New time",
+          "explanation": "T/1.2 = (5/6)T."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Saved",
+          "explanation": "T − (5/6)T = T/6 = 20."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Solve",
+          "explanation": "T = 120 minutes."
+        }
+      ],
+      "finalAnswer": "120 minutes",
+      "whyItWorks": "A 20% faster speed saves 1/6 of the time.",
+      "commonTrap": "Saying 20 minutes saved is 20% of the time.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Inverse proportion shortcut",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Set up equations for every problem.",
+      "shortcutMethod": "For a fixed distance, speed ratio a : b means time ratio b : a. Speed rises by p/q makes time fall by p/(p + q) of the old time."
+    },
+    "rulesForApplication": [
+      "km/h × 5/18 = m/s.",
+      "Average speed = total D ÷ total T.",
+      "Equal distances: 2xy/(x+y).",
+      "Late/early: difference of times."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Inconsistent units",
+      "whyItHappens": "Mixing minutes and hours.",
+      "howToAvoid": "Convert first."
+    },
+    {
+      "mistake": "Simple mean of speeds",
+      "whyItHappens": "Averaging for equal distances.",
+      "howToAvoid": "Use the harmonic formula."
+    },
+    {
+      "mistake": "Wrong sign in late/early",
+      "whyItHappens": "Subtracting arrival times in the wrong order.",
+      "howToAvoid": "Total difference is the sum of late and early."
+    },
+    {
+      "mistake": "Percentage of time vs speed",
+      "whyItHappens": "Taking the percent change of time equal to speed.",
+      "howToAvoid": "They are inversely related."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 70,
+    "eliminationTechnique": "Average speed for equal distances must lie between the two speeds, closer to the smaller one.",
+    "questionSelectionAdvice": "Memorise 18/5 and 5/18.",
+    "recruiterInsight": "This is the foundation for trains and boats."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-tsd-fundamentals-e1",
+        "question": "A car travels at 60 km/h for 3 hours. The distance covered is",
+        "options": [
+          "120",
+          "180",
+          "150",
+          "200"
+        ],
+        "correctAnswer": "180",
+        "explanation": "60 × 3 = 180 km.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-tsd-fundamentals-e2",
+        "question": "72 km/h in metres per second is",
+        "options": [
+          "20",
+          "18",
+          "22",
+          "25"
+        ],
+        "correctAnswer": "20",
+        "explanation": "72 × 5/18 = 20 m/s.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-tsd-fundamentals-e3",
+        "question": "A distance of 150 km is covered at 50 km/h. The time taken is",
+        "options": [
+          "2",
+          "4",
+          "5",
+          "3"
+        ],
+        "correctAnswer": "3",
+        "explanation": "150 ÷ 50 = 3 hours.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-tsd-fundamentals-i7",
+        "question": "A man travels the first half of a 120 km journey at 30 km/h and the second half at 20 km/h. His average speed is",
+        "options": [
+          "24",
+          "25",
+          "22",
+          "26"
+        ],
+        "correctAnswer": "24",
+        "explanation": "Times: 60/30 = 2 h and 60/20 = 3 h. Total 5 h. Speed = 120 ÷ 5 = 24 km/h.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-tsd-fundamentals-i8",
+        "question": "Walking at 5/6 of his usual speed, a man takes 12 minutes more. His usual time is",
+        "options": [
+          "48",
+          "50",
+          "72",
+          "60"
+        ],
+        "correctAnswer": "60",
+        "explanation": "T × 6/5 = T + 12 gives T/5 = 12, so T = 60 minutes.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-tsd-fundamentals-i9",
+        "question": "A train would be 15 minutes late at 40 km/h and 15 minutes early at 60 km/h. The distance is",
+        "options": [
+          "30",
+          "45",
+          "90",
+          "60"
+        ],
+        "correctAnswer": "60",
+        "explanation": "D/40 − D/60 = 1/2 gives D/120 = 1/2, so D = 60 km.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-tsd-fundamentals-a15",
+        "question": "A journey is covered in three equal parts at 20, 30 and 60 km/h. The average speed is",
+        "options": [
+          "36.67",
+          "33",
+          "30",
+          "40"
+        ],
+        "correctAnswer": "30",
+        "explanation": "Time per unit distance = (1/3)(1/20 + 1/30 + 1/60) = (1/3)(6/60) = 1/30. So 30 km/h.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-tsd-fundamentals-a16",
+        "question": "If a man increases his speed by 20%, he saves 20 minutes on a journey. His usual time is",
+        "options": [
+          "100",
+          "120",
+          "110",
+          "150"
+        ],
+        "correctAnswer": "120",
+        "explanation": "New time = T/1.2. T − T/1.2 = T/6 = 20, so T = 120 minutes.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-tsd-fundamentals-p17",
+        "question": "A boy reaches school 10 minutes late at 4 km/h and 10 minutes early at 6 km/h. The distance to school is",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correctAnswer": "4",
+        "explanation": "D/4 − D/6 = 20/60 = 1/3 gives D/12 = 1/3, so D = 4 km.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-tsd-fundamentals-p18",
+        "question": "A car runs at 60 km/h without stoppages and 50 km/h including stoppages. The stoppage per hour is",
+        "options": [
+          "10",
+          "8",
+          "12",
+          "15"
+        ],
+        "correctAnswer": "10",
+        "explanation": "In 1 hour including stops it covers 50 km, which takes 50/60 h of running. Stoppage = 1 − 5/6 = 1/6 h = 10 minutes.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-tsd-fundamentals-p19",
+        "question": "A man travels 300 km by train at 60 km/h and 200 km by bus at 40 km/h. His average speed is",
+        "options": [
+          "48",
+          "52",
+          "45",
+          "50"
+        ],
+        "correctAnswer": "50",
+        "explanation": "Times: 5 h and 5 h. Total 10 h for 500 km. Average = 50 km/h.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "D = S × T.",
+      "km/h × 5/18 = m/s.",
+      "Average speed = total D/total T.",
+      "2xy/(x+y).",
+      "Late/early equation."
+    ],
+    "quickFormulas": [
+      "S = D/T",
+      "2xy/(x+y)"
+    ]
+  },
+  "keyTakeaways": [
+    "Units first.",
+    "Total distance over total time.",
+    "Inverse proportion.",
+    "Check against the speeds."
+  ],
+  "selfCheckQuestions": [
+    "Can I convert 54 km/h to m/s?",
+    "Can I compute average speed for unequal parts?",
+    "Can I solve a late/early problem?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Time and Distance topic area; examples are original."
+    }
+  ]
+}

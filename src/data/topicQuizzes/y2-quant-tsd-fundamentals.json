@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-quant-tsd-fundamentals",
+  "topicTitle": "Time, Speed and Distance",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A car travels at 60 km/h for 3 hours. The distance covered is",
+      "options": [
+        "120",
+        "180",
+        "150",
+        "200"
+      ],
+      "answerIndex": 1,
+      "explanation": "60 × 3 = 180 km."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "72 km/h in metres per second is",
+      "options": [
+        "20",
+        "18",
+        "22",
+        "25"
+      ],
+      "answerIndex": 0,
+      "explanation": "72 × 5/18 = 20 m/s."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A distance of 150 km is covered at 50 km/h. The time taken is",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "3"
+      ],
+      "answerIndex": 3,
+      "explanation": "150 ÷ 50 = 3 hours."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "15 m/s in kilometres per hour is",
+      "options": [
+        "45",
+        "50",
+        "54",
+        "60"
+      ],
+      "answerIndex": 2,
+      "explanation": "15 × 18/5 = 54 km/h."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A man walks at 6 km/h for 45 minutes. The distance covered is",
+      "options": [
+        "4",
+        "5",
+        "4.5",
+        "6"
+      ],
+      "answerIndex": 2,
+      "explanation": "45 min = 0.75 h. Distance = 6 × 0.75 = 4.5 km."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A car covers 240 km in 4 hours. Its speed is",
+      "options": [
+        "55",
+        "60",
+        "65",
+        "80"
+      ],
+      "answerIndex": 1,
+      "explanation": "240 ÷ 4 = 60 km/h."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A man travels the first half of a 120 km journey at 30 km/h and the second half at 20 km/h. His average speed is",
+      "options": [
+        "24",
+        "25",
+        "22",
+        "26"
+      ],
+      "answerIndex": 0,
+      "explanation": "Times: 60/30 = 2 h and 60/20 = 3 h. Total 5 h. Speed = 120 ÷ 5 = 24 km/h."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Walking at 5/6 of his usual speed, a man takes 12 minutes more. His usual time is",
+      "options": [
+        "48",
+        "50",
+        "72",
+        "60"
+      ],
+      "answerIndex": 3,
+      "explanation": "T × 6/5 = T + 12 gives T/5 = 12, so T = 60 minutes."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A train would be 15 minutes late at 40 km/h and 15 minutes early at 60 km/h. The distance is",
+      "options": [
+        "30",
+        "45",
+        "90",
+        "60"
+      ],
+      "answerIndex": 3,
+      "explanation": "D/40 − D/60 = 1/2 gives D/120 = 1/2, so D = 60 km."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "If a man walks at 14 km/h instead of 10 km/h, he covers 20 km more in the same time. The actual distance is",
+      "options": [
+        "40",
+        "60",
+        "50",
+        "70"
+      ],
+      "answerIndex": 2,
+      "explanation": "d/10 = (d + 20)/14 gives 14d = 10d + 200, so d = 50 km."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The speeds of two cars are in the ratio 3 : 4. The slower takes 20 minutes more than the faster for the same distance. The slower takes",
+      "options": [
+        "60",
+        "80",
+        "70",
+        "90"
+      ],
+      "answerIndex": 1,
+      "explanation": "Times are in the ratio 4 : 3. One part = 20 minutes, so the slower takes 80 minutes."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A man covers a distance in 8 hours. If his speed were 2 km/h more, he would take 6 hours. The distance is",
+      "options": [
+        "48",
+        "40",
+        "50",
+        "60"
+      ],
+      "answerIndex": 0,
+      "explanation": "8s = 6(s + 2) gives s = 6. Distance = 8 × 6 = 48 km."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "25 m/s in kilometres per hour is",
+      "options": [
+        "90",
+        "75",
+        "80",
+        "100"
+      ],
+      "answerIndex": 0,
+      "explanation": "25 × 18/5 = 90 km/h."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A car covers the first 30 km at 15 km/h and the next 30 km at 30 km/h. The average speed is",
+      "options": [
+        "22.5",
+        "25",
+        "18",
+        "20"
+      ],
+      "answerIndex": 3,
+      "explanation": "Times: 2 h and 1 h. Total 3 h for 60 km. Speed = 20 km/h."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A journey is covered in three equal parts at 20, 30 and 60 km/h. The average speed is",
+      "options": [
+        "36.67",
+        "33",
+        "30",
+        "40"
+      ],
+      "answerIndex": 2,
+      "explanation": "Time per unit distance = (1/3)(1/20 + 1/30 + 1/60) = (1/3)(6/60) = 1/30. So 30 km/h."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "If a man increases his speed by 20%, he saves 20 minutes on a journey. His usual time is",
+      "options": [
+        "100",
+        "120",
+        "110",
+        "150"
+      ],
+      "answerIndex": 1,
+      "explanation": "New time = T/1.2. T − T/1.2 = T/6 = 20, so T = 120 minutes."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A boy reaches school 10 minutes late at 4 km/h and 10 minutes early at 6 km/h. The distance to school is",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "D/4 − D/6 = 20/60 = 1/3 gives D/12 = 1/3, so D = 4 km."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A car runs at 60 km/h without stoppages and 50 km/h including stoppages. The stoppage per hour is",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "15"
+      ],
+      "answerIndex": 0,
+      "explanation": "In 1 hour including stops it covers 50 km, which takes 50/60 h of running. Stoppage = 1 − 5/6 = 1/6 h = 10 minutes."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A man travels 300 km by train at 60 km/h and 200 km by bus at 40 km/h. His average speed is",
+      "options": [
+        "48",
+        "52",
+        "45",
+        "50"
+      ],
+      "answerIndex": 3,
+      "explanation": "Times: 5 h and 5 h. Total 10 h for 500 km. Average = 50 km/h."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A starts from X at 5 km/h and B at 6 km/h. B reaches Y 1 hour before A. The distance XY is",
+      "options": [
+        "25",
+        "36",
+        "30",
+        "40"
+      ],
+      "answerIndex": 2,
+      "explanation": "D/5 − D/6 = 1 gives D/30 = 1, so D = 30 km."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/time-and-distance/"
+}

@@ -1,0 +1,443 @@
+{
+  "id": "y2-quant-problems-trains",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 13,
+  "title": "Problems on Trains",
+  "tagline": "Year 2 — Crossing poles, platforms, people and other trains",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "In train problems the length of the train cannot be ignored. To cross a pole or a person, a train covers its own length. To cross a platform or a bridge, it covers its own length plus the length of the platform. To cross another train, it covers the sum of the two lengths. The distance in every case is divided by the relevant (relative) speed.",
+    "placementRelevance": "Train problems are commonly asked in company aptitude rounds, usually with unit conversion and relative speed. They are a standard application of time, speed and distance.",
+    "realWorldContext": "Scheduling trains on parallel tracks, safe passing distances and timing a train through a tunnel use these calculations."
+  },
+  "learningObjectives": [
+    "Identify the distance covered when a train crosses a pole, platform or another train",
+    "Convert km/h to m/s correctly",
+    "Use relative speed for two trains in the same and opposite directions",
+    "Find the length of a train or a platform from two crossing times",
+    "Handle people walking beside the train"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Time, Speed and Distance",
+      "Relative Speed"
+    ],
+    "quickRefresher": "km/h × 5/18 = m/s. Distance = speed × time. Relative speed: sum for opposite, difference for same direction."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Crossing a pole or a man: distance = length of the train.",
+      "Crossing a platform or a bridge: distance = length of train + length of platform.",
+      "Crossing another train: distance = sum of the two lengths.",
+      "Relative speed: S₁ + S₂ (opposite) or |S₁ − S₂| (same direction).",
+      "Speed of a person walking is subtracted or added to the train's speed depending on the direction."
+    ],
+    "theoreticalIntuition": "A train is a long object, so \"crossing\" means that the whole train has moved past a point or object. The distance is the length of the train plus the length of whatever it passes, and the time is distance divided by the speed relative to that object.",
+    "visualOrMentalModel": "Write \"distance = ?\" first. For a pole it is L. For a platform it is L + P. For a train it is L₁ + L₂. Then convert the speed to m/s and divide."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Crossing a pole",
+      "formula": "Time = L ÷ S",
+      "description": "L in metres, S in m/s.",
+      "whenToUse": "Poles, signals, persons at rest.",
+      "simpleExample": "150 m at 15 m/s → 10 s"
+    },
+    {
+      "title": "Crossing a platform",
+      "formula": "Time = (L + P) ÷ S",
+      "description": "Length of the platform adds.",
+      "whenToUse": "Bridges and platforms.",
+      "simpleExample": "(200 + 300) ÷ 20 = 25 s"
+    },
+    {
+      "title": "Crossing another train",
+      "formula": "Time = (L₁ + L₂) ÷ relative speed",
+      "description": "Opposite: sum; same direction: difference.",
+      "whenToUse": "Two trains.",
+      "simpleExample": "210 ÷ 35 = 6 s"
+    },
+    {
+      "title": "Length from two timings",
+      "formula": "Speed = (P₂ − P₁) ÷ (T₂ − T₁);  L = S T₁ − P₁",
+      "description": "Two platforms.",
+      "whenToUse": "Unknown speed and length.",
+      "simpleExample": "S = 12 m/s, L = 60 m"
+    },
+    {
+      "title": "Person walking",
+      "formula": "Relative speed = train ± person",
+      "description": "Subtract if same direction, add if opposite.",
+      "whenToUse": "A man walking beside the track.",
+      "simpleExample": "60 km/h relative → train 54 km/h"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Convert speeds to m/s when lengths are in metres. A train at 54 km/h moves at 54 × 5/18 = 15 m/s. A 150 m train crosses a pole in 150 ÷ 15 = 10 seconds.",
+      "For a platform or bridge the distance is the train plus the platform. A 200 m train at 20 m/s crossing a 300 m platform covers 500 m and takes 25 seconds.",
+      "For two trains in opposite directions use the sum of speeds. Trains of 120 m and 90 m at 72 and 54 km/h pass in (120 + 90) ÷ [(72 + 54) × 5/18] = 210 ÷ 35 = 6 seconds. In the same direction use the difference: 250 m at 5 m/s takes 50 seconds.",
+      "If the train crosses a pole in t₁ seconds and a platform of length P in t₂ seconds, then L/t₁ = (L + P)/t₂. A train crossing a pole in 18 s and a 90 m platform in 27 s has L/18 = (L + 90)/27, giving L = 180 m.",
+      "For a man walking beside the track, the train's speed relative to the man is the difference if both move the same way, and the sum if opposite. A 100 m train passes a man running at 6 km/h in the opposite direction in 6 s: the relative speed is 100/6 m/s = 60 km/h, so the train goes at 54 km/h."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Both crossings use the same speed",
+        "content": "The speed of the train is the same when passing a pole and a platform. Equate the two speeds to find the unknown length."
+      },
+      {
+        "title": "Equal-length trains",
+        "content": "If two trains of equal length cross each other in time t moving oppositely, the relative speed is 2L/t. If their speeds are equal, each is L/t."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Crossing a pole",
+      "description": "L ÷ S.",
+      "exampleSnippet": "150 m at 54 km/h"
+    },
+    {
+      "typeName": "Crossing a platform",
+      "description": "(L + P) ÷ S.",
+      "exampleSnippet": "200 m train, 300 m platform"
+    },
+    {
+      "typeName": "Two trains",
+      "description": "Relative speed.",
+      "exampleSnippet": "120 m and 90 m trains"
+    },
+    {
+      "typeName": "Unknown length",
+      "description": "Two timings.",
+      "exampleSnippet": "Pole 18 s, platform 27 s"
+    },
+    {
+      "typeName": "Person beside the track",
+      "description": "Relative speed with a person.",
+      "exampleSnippet": "Man running at 6 km/h"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-problems-trains-1",
+      "title": "Crossing a platform",
+      "question": "A 200 m long train running at 72 km/h crosses a platform 300 m long. How long does it take?",
+      "givenInfo": [
+        "L = 200 m",
+        "P = 300 m",
+        "S = 72 km/h"
+      ],
+      "conceptOrFormula": "Distance = L + P.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Speed in m/s",
+          "explanation": "72 × 5/18 = 20 m/s."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Distance",
+          "explanation": "200 + 300 = 500 m."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Time",
+          "explanation": "500 ÷ 20 = 25 s."
+        }
+      ],
+      "finalAnswer": "25 s",
+      "whyItWorks": "The whole train must clear the end of the platform.",
+      "commonTrap": "Using only 300 m.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-problems-trains-2",
+      "title": "Two trains in opposite directions",
+      "question": "Two trains of lengths 120 m and 90 m run at 72 km/h and 54 km/h on parallel tracks in opposite directions. How long do they take to cross each other?",
+      "givenInfo": [
+        "120 m and 90 m",
+        "72 and 54 km/h"
+      ],
+      "conceptOrFormula": "Relative speed = sum.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Relative speed",
+          "explanation": "(72 + 54) × 5/18 = 35 m/s."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Distance",
+          "explanation": "120 + 90 = 210 m."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Time",
+          "explanation": "210 ÷ 35 = 6 s."
+        }
+      ],
+      "finalAnswer": "6 s",
+      "whyItWorks": "The two trains must pass completely.",
+      "commonTrap": "Using the difference of speeds.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-problems-trains-3",
+      "title": "Length from two timings",
+      "question": "A train takes 18 seconds to cross a pole and 27 seconds to cross a platform 90 m long. Find the length of the train.",
+      "givenInfo": [
+        "Pole 18 s",
+        "Platform 90 m in 27 s"
+      ],
+      "conceptOrFormula": "Same speed in both crossings.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Equation",
+          "explanation": "L/18 = (L + 90)/27."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Cross-multiply",
+          "explanation": "27L = 18L + 1620."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Solve",
+          "explanation": "9L = 1620, L = 180 m."
+        }
+      ],
+      "finalAnswer": "180 m",
+      "whyItWorks": "The extra 9 seconds cover the 90 m platform, so speed = 10 m/s.",
+      "commonTrap": "Not adding the platform to the distance.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Distance first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Use different formulas for every case.",
+      "shortcutMethod": "Write the distance (L, L + P, L₁ + L₂) and the relative speed in m/s, then divide."
+    },
+    "rulesForApplication": [
+      "Pole: L. Platform: L + P. Train: L₁ + L₂.",
+      "km/h × 5/18.",
+      "Opposite: sum; same: difference.",
+      "Same speed in both crossings of one train."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Ignoring the train length",
+      "whyItHappens": "Using only the platform length.",
+      "howToAvoid": "Add the length of the train."
+    },
+    {
+      "mistake": "Forgetting unit conversion",
+      "whyItHappens": "Dividing metres by km/h.",
+      "howToAvoid": "Convert to m/s."
+    },
+    {
+      "mistake": "Wrong relative speed",
+      "whyItHappens": "Adding for the same direction.",
+      "howToAvoid": "Check the direction."
+    },
+    {
+      "mistake": "Mixing the person and train directions",
+      "whyItHappens": "Always subtracting.",
+      "howToAvoid": "Add for opposite directions."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Time for crossing a platform must exceed the time for a pole.",
+    "questionSelectionAdvice": "Always convert speed to m/s first.",
+    "recruiterInsight": "These questions are quick marks."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-problems-trains-e1",
+        "question": "A 150 m long train running at 54 km/h passes a pole in",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "15"
+        ],
+        "correctAnswer": "10",
+        "explanation": "Speed = 15 m/s. Time = 150 ÷ 15 = 10 s.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-problems-trains-e2",
+        "question": "A 200 m train at 20 m/s crosses a platform 300 m long in",
+        "options": [
+          "25",
+          "10",
+          "15",
+          "20"
+        ],
+        "correctAnswer": "25",
+        "explanation": "Distance = 500 m. Time = 500 ÷ 20 = 25 s.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-problems-trains-e3",
+        "question": "A 120 m train passes a man standing on the platform at 36 km/h in",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "Speed = 10 m/s. Time = 120 ÷ 10 = 12 s.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-problems-trains-i7",
+        "question": "Two trains of length 120 m and 90 m run in opposite directions at 72 km/h and 54 km/h. They cross each other in",
+        "options": [
+          "6",
+          "4",
+          "7.5",
+          "10"
+        ],
+        "correctAnswer": "6",
+        "explanation": "Relative speed = 126 km/h = 35 m/s. Time = 210 ÷ 35 = 6 s.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-problems-trains-i8",
+        "question": "Two trains of length 100 m and 150 m run in the same direction at 72 km/h and 54 km/h. The faster overtakes the slower in",
+        "options": [
+          "25",
+          "35",
+          "70",
+          "50"
+        ],
+        "correctAnswer": "50",
+        "explanation": "Relative speed = 18 km/h = 5 m/s. Time = 250 ÷ 5 = 50 s.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-problems-trains-i9",
+        "question": "A 300 m train crosses a pole in 18 seconds. It crosses a platform in 36 seconds. The platform length is",
+        "options": [
+          "250",
+          "350",
+          "600",
+          "300"
+        ],
+        "correctAnswer": "300",
+        "explanation": "Speed = 300/18 = 50/3 m/s. In 36 s it covers 600 m, so the platform = 600 − 300 = 300 m.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-problems-trains-a15",
+        "question": "A 200 m train at 108 km/h overtakes a 100 m train at 72 km/h running in the same direction. The time taken is",
+        "options": [
+          "20",
+          "25",
+          "30",
+          "40"
+        ],
+        "correctAnswer": "30",
+        "explanation": "Relative speed = 36 km/h = 10 m/s. Time = 300 ÷ 10 = 30 s.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-problems-trains-a16",
+        "question": "A train crosses a 120 m platform in 15 seconds and a 180 m platform in 20 seconds. The length of the train is",
+        "options": [
+          "50",
+          "60",
+          "80",
+          "100"
+        ],
+        "correctAnswer": "60",
+        "explanation": "Speed = (180 − 120) ÷ (20 − 15) = 12 m/s. Length = 12 × 15 − 120 = 60 m.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-problems-trains-p17",
+        "question": "Two trains of lengths 200 m and 300 m start from opposite stations and cross in 10 seconds. If the first is at 20 m/s, the second is at (m/s)",
+        "options": [
+          "25",
+          "30",
+          "35",
+          "40"
+        ],
+        "correctAnswer": "30",
+        "explanation": "Relative speed = 500 ÷ 10 = 50 m/s. Second = 50 − 20 = 30 m/s.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-problems-trains-p18",
+        "question": "A train takes 18 seconds to cross a pole and 27 seconds to cross a 90 m platform. The length of the train is",
+        "options": [
+          "180",
+          "135",
+          "150",
+          "270"
+        ],
+        "correctAnswer": "180",
+        "explanation": "L/18 = (L + 90)/27 gives L = 180 m.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-problems-trains-p19",
+        "question": "Two trains running at 60 km/h and 90 km/h in the same direction cross in 30 seconds. The sum of their lengths is (metres)",
+        "options": [
+          "150",
+          "200",
+          "300",
+          "250"
+        ],
+        "correctAnswer": "250",
+        "explanation": "Relative speed = 30 km/h = 25/3 m/s. Sum of lengths = 25/3 × 30 = 250 m.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Pole: L. Platform: L + P.",
+      "km/h × 5/18.",
+      "Opposite sum, same difference.",
+      "Equal speed equation."
+    ],
+    "quickFormulas": [
+      "T = (L + P)/S",
+      "T = (L₁ + L₂)/(S₁ ± S₂)"
+    ]
+  },
+  "keyTakeaways": [
+    "Distance includes the length.",
+    "Convert units.",
+    "Use relative speed.",
+    "Check direction."
+  ],
+  "selfCheckQuestions": [
+    "Can I time a train crossing a bridge?",
+    "Can I time two trains crossing?",
+    "Can I find a train's length from two timings?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Problems on Trains topic area; examples are original."
+    }
+  ]
+}
