@@ -1,0 +1,419 @@
+{
+  "id": "y3-lr-floor-puzzles",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 31,
+  "title": "Floor-Based Arrangement Puzzles",
+  "tagline": "Year 3 — One person per floor: ordering clues, gaps, adjacency and negative constraints",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A floor puzzle places people on the floors of a building, one per floor. It is a vertical row, so the same methods apply: pin down the extremes (top and bottom floors), join neighbours into chains, convert \"exactly k floors between\" into a floor-number gap of k + 1, and use \"not on\" clues last. The numbers on the floors make counting questions easy once the order is fixed.",
+    "placementRelevance": "Floor and building puzzles are a standard set type in logical-reasoning rounds, usually with seven or eight people.",
+    "realWorldContext": "Allocating offices, flats or storage levels under adjacency rules works the same way."
+  },
+  "learningObjectives": [
+    "Turn gap clues into floor-number differences",
+    "Chain \"immediately above/below\" clues",
+    "Use top and bottom floors as anchors",
+    "Apply negative clues to eliminate",
+    "Answer count and swap questions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Complex Seating Arrangements"
+    ],
+    "quickRefresher": "Floor 1 is the lowest. \"Immediately above\" means floor number + 1. \"Exactly k floors between\" means a floor-number gap of k + 1."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Top floor: floor 7 in a seven-storey building. Ground or lowest floor: floor 1.",
+      "Immediately above X: the floor numbered one more than X's.",
+      "Gap clue: exactly k floors between X and Y means |floor(X) − floor(Y)| = k + 1.",
+      "Adjacent floors: floor numbers that differ by exactly 1.",
+      "Negative clue: says a floor is not X's; use it to eliminate options."
+    ],
+    "theoreticalIntuition": "A building is a column of numbered boxes. Each clue is a rule about the numbers of two people, so treat it as arithmetic on floor numbers.",
+    "visualOrMentalModel": "Write floor numbers 1 to 7 down the page. Fix extremes, place chains, convert gap clues to differences of k + 1, and finish with the remaining free floors."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Gap clue",
+      "formula": "|f(X) − f(Y)| = k + 1",
+      "description": "k floors between.",
+      "whenToUse": "Gaps.",
+      "simpleExample": "3 between: difference 4"
+    },
+    {
+      "title": "Immediately above",
+      "formula": "f(Y) = f(X) + 1",
+      "description": "Adjacent.",
+      "whenToUse": "Chains.",
+      "simpleExample": "Charan above Farhan"
+    },
+    {
+      "title": "People above",
+      "formula": "7 − f(X)",
+      "description": "Counting.",
+      "whenToUse": "Counts.",
+      "simpleExample": "Floor 3: 4 above"
+    },
+    {
+      "title": "Floors between",
+      "formula": "|f(X) − f(Y)| − 1",
+      "description": "Counting.",
+      "whenToUse": "Counts.",
+      "simpleExample": "Floors 1 and 5: 3"
+    },
+    {
+      "title": "Negative clue",
+      "formula": "Cross out one floor",
+      "description": "Elimination.",
+      "whenToUse": "Last step.",
+      "simpleExample": "Bina is not on floor 1"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Seven people live on floors 1 to 7. Charan lives on the top floor; Farhan lives immediately below Charan; Esha lives on floor 4; Amit lives immediately below Esha; exactly three floors lie between Bina and Divya; Gita lives lower than Amit; Bina does not live on floor 1. Start with the fixed ones: Charan 7, Farhan 6, Esha 4, Amit 3. The free floors are 1, 2 and 5.",
+      "Exactly three floors between Bina and Divya means their floor numbers differ by 4. Among the free floors 1, 2, 5 the only pair with a difference of 4 is 1 and 5. Bina does not live on floor 1, so Bina lives on floor 5 and Divya on floor 1.",
+      "Gita takes the last free floor, 2. Check the remaining clue: Gita (floor 2) lives lower than Amit (floor 3). The final order from floor 1 to 7 is Divya, Gita, Amit, Esha, Bina, Farhan, Charan. Always verify the final order against every clue.",
+      "Counting questions are now simple. People above Esha = 7 − 4 = 3, and the floors between Gita and Esha are 4 − 2 − 1 = 1.",
+      "For swap questions, write the order again, swap the two names and read the neighbour you are asked about."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Contradiction check",
+        "content": "If a clue seems to fail, you have misplaced someone or misread a clue. Never force a clue to fit."
+      },
+      {
+        "title": "Parity tricks",
+        "content": "A gap of 3 floors (difference 4) leaves only a few pairs, so such clues are strong anchors."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Extremes",
+      "description": "Top/bottom floors.",
+      "exampleSnippet": "Charan on the top"
+    },
+    {
+      "typeName": "Chains",
+      "description": "Immediate neighbours.",
+      "exampleSnippet": "Farhan–Charan"
+    },
+    {
+      "typeName": "Gap clues",
+      "description": "Difference k + 1.",
+      "exampleSnippet": "Bina and Divya"
+    },
+    {
+      "typeName": "Negative clues",
+      "description": "Eliminate.",
+      "exampleSnippet": "Not floor 1"
+    },
+    {
+      "typeName": "Counting",
+      "description": "7 − floor.",
+      "exampleSnippet": "People above Esha"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-floor-puzzles-1",
+      "title": "Gap to difference",
+      "question": "Exactly 3 floors lie between the floors of Bina and Divya. What is the difference of their floor numbers?",
+      "givenInfo": [
+        "3 floors between"
+      ],
+      "conceptOrFormula": "Gap = k + 1.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Between",
+          "explanation": "Three floors between means the numbers are 4 apart."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Difference",
+          "explanation": "3 + 1 = 4."
+        }
+      ],
+      "finalAnswer": "4",
+      "whyItWorks": "Floors 1 and 5, or 2 and 6, or 3 and 7.",
+      "commonTrap": "Taking 3.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-floor-puzzles-2",
+      "title": "Chain",
+      "question": "Charan lives on the top floor of a 7-floor building. Farhan lives immediately below Charan and Esha lives on floor 4. On which floor does Farhan live?",
+      "givenInfo": [
+        "Top floor 7"
+      ],
+      "conceptOrFormula": "Immediately below.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Top",
+          "explanation": "Charan is on floor 7."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Below",
+          "explanation": "Farhan is on floor 6."
+        }
+      ],
+      "finalAnswer": "6",
+      "whyItWorks": "Esha's floor does not affect Farhan.",
+      "commonTrap": "Answering 5.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-floor-puzzles-3",
+      "title": "Counting above",
+      "question": "If Esha lives on floor 4 of a 7-floor building, how many people live above her?",
+      "givenInfo": [
+        "Floor 4 of 7"
+      ],
+      "conceptOrFormula": "7 − floor.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Floors above",
+          "explanation": "Floors 5, 6, 7."
+        },
+        {
+          "stepNumber": 2,
+          "title": "People",
+          "explanation": "3 people."
+        }
+      ],
+      "finalAnswer": "3",
+      "whyItWorks": "One person per floor.",
+      "commonTrap": "Answering 4.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Numbers on a ladder",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try every placement.",
+      "shortcutMethod": "Write floor numbers, place extremes and chains, turn gaps into differences of k + 1, and use negatives last."
+    },
+    "rulesForApplication": [
+      "Gap = k + 1.",
+      "Extremes first.",
+      "Negatives last.",
+      "Verify every clue."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using k instead of k + 1",
+      "whyItHappens": "Counting floors between wrongly.",
+      "howToAvoid": "Difference = k + 1."
+    },
+    {
+      "mistake": "Reading \"lower\" as \"immediately below\"",
+      "whyItHappens": "Adjacent versus anywhere below.",
+      "howToAvoid": "Check the word immediately."
+    },
+    {
+      "mistake": "Ignoring a negative clue",
+      "whyItHappens": "Two arrangements remain.",
+      "howToAvoid": "Use it to choose one."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 150,
+    "eliminationTechnique": "Cross out floors as you use them.",
+    "questionSelectionAdvice": "Use difference clues on the free floors only.",
+    "recruiterInsight": "Unique puzzles never need a guess."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-floor-puzzles-e1",
+        "question": "Seven people Amit, Bina, Charan, Divya, Esha, Farhan and Gita live on different floors of a seven-storey building. Floor 1 is the lowest and floor 7 is the top floor. The following facts are known:\n1. Charan lives on the top floor (floor 7).\n2. Farhan lives on the floor immediately below Charan.\n3. Esha lives on floor 4.\n4. Amit lives on the floor immediately below Esha.\n5. Exactly 3 floors lie between the floors of Bina and Divya.\n6. Gita lives on a lower floor than Amit.\n7. Bina does not live on floor 1.\n\nWho lives on floor 7?",
+        "options": [
+          "Amit",
+          "Charan",
+          "Bina",
+          "Divya"
+        ],
+        "correctAnswer": "Charan",
+        "explanation": "From floor 1 to floor 7 the residents are Divya, Gita, Amit, Esha, Bina, Farhan, Charan, so Charan lives on floor 7.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-floor-puzzles-e2",
+        "question": "Seven people Amit, Bina, Charan, Divya, Esha, Farhan and Gita live on different floors of a seven-storey building. Floor 1 is the lowest and floor 7 is the top floor. The following facts are known:\n1. Charan lives on the top floor (floor 7).\n2. Farhan lives on the floor immediately below Charan.\n3. Esha lives on floor 4.\n4. Amit lives on the floor immediately below Esha.\n5. Exactly 3 floors lie between the floors of Bina and Divya.\n6. Gita lives on a lower floor than Amit.\n7. Bina does not live on floor 1.\n\nWho lives on floor 1?",
+        "options": [
+          "Divya",
+          "Bina",
+          "Charan",
+          "Esha"
+        ],
+        "correctAnswer": "Divya",
+        "explanation": "From floor 1 to floor 7 the residents are Divya, Gita, Amit, Esha, Bina, Farhan, Charan, so Divya lives on floor 1.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-floor-puzzles-e3",
+        "question": "Seven people Amit, Bina, Charan, Divya, Esha, Farhan and Gita live on different floors of a seven-storey building. Floor 1 is the lowest and floor 7 is the top floor. The following facts are known:\n1. Charan lives on the top floor (floor 7).\n2. Farhan lives on the floor immediately below Charan.\n3. Esha lives on floor 4.\n4. Amit lives on the floor immediately below Esha.\n5. Exactly 3 floors lie between the floors of Bina and Divya.\n6. Gita lives on a lower floor than Amit.\n7. Bina does not live on floor 1.\n\nOn which floor does Esha live?",
+        "options": [
+          "5",
+          "3",
+          "6",
+          "4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "From floor 1 to floor 7 the residents are Divya, Gita, Amit, Esha, Bina, Farhan, Charan, so Esha lives on floor 4, which is 4.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-floor-puzzles-i7",
+        "question": "Seven people Amit, Bina, Charan, Divya, Esha, Farhan and Gita live on different floors of a seven-storey building. Floor 1 is the lowest and floor 7 is the top floor. The following facts are known:\n1. Bina lives on the top floor (floor 7).\n2. Esha lives on the floor immediately below Bina.\n3. Gita lives on floor 4.\n4. Exactly 1 floor lies between the floors of Amit and Gita.\n5. Divya lives on the floor immediately below Gita.\n6. Farhan lives on a lower floor than Amit.\n\nWho lives on floor 1?",
+        "options": [
+          "Farhan",
+          "Bina",
+          "Charan",
+          "Divya"
+        ],
+        "correctAnswer": "Farhan",
+        "explanation": "From floor 1 to floor 7 the residents are Farhan, Amit, Divya, Gita, Charan, Esha, Bina, so Farhan lives on floor 1.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-floor-puzzles-i8",
+        "question": "Seven people Amit, Bina, Charan, Divya, Esha, Farhan and Gita live on different floors of a seven-storey building. Floor 1 is the lowest and floor 7 is the top floor. The following facts are known:\n1. Bina lives on the top floor (floor 7).\n2. Esha lives on the floor immediately below Bina.\n3. Gita lives on floor 4.\n4. Exactly 1 floor lies between the floors of Amit and Gita.\n5. Divya lives on the floor immediately below Gita.\n6. Farhan lives on a lower floor than Amit.\n\nWho lives on floor 7?",
+        "options": [
+          "Divya",
+          "Esha",
+          "Farhan",
+          "Bina"
+        ],
+        "correctAnswer": "Bina",
+        "explanation": "From floor 1 to floor 7 the residents are Farhan, Amit, Divya, Gita, Charan, Esha, Bina, so Bina lives on floor 7.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-floor-puzzles-i9",
+        "question": "Seven people Amit, Bina, Charan, Divya, Esha, Farhan and Gita live on different floors of a seven-storey building. Floor 1 is the lowest and floor 7 is the top floor. The following facts are known:\n1. Bina lives on the top floor (floor 7).\n2. Esha lives on the floor immediately below Bina.\n3. Gita lives on floor 4.\n4. Exactly 1 floor lies between the floors of Amit and Gita.\n5. Divya lives on the floor immediately below Gita.\n6. Farhan lives on a lower floor than Amit.\n\nOn which floor does Amit live?",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "correctAnswer": "2",
+        "explanation": "From floor 1 to floor 7 the residents are Farhan, Amit, Divya, Gita, Charan, Esha, Bina, so Amit lives on floor 2, which is 2.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-floor-puzzles-a15",
+        "question": "Seven people Amit, Bina, Charan, Divya, Esha, Farhan and Gita live on different floors of a seven-storey building. Floor 1 is the lowest and floor 7 is the top floor. The following facts are known:\n1. Farhan lives on floor 4.\n2. Exactly 2 floors lie between the floors of Gita and Farhan.\n3. Esha and Gita live on adjacent floors.\n4. Amit lives on the floor immediately below Farhan.\n5. Farhan lives on a lower floor than Charan.\n6. Bina lives on the top floor (floor 7).\n7. Divya lives on the floor immediately below Bina.\n\nWho lives on floor 1?",
+        "options": [
+          "Bina",
+          "Charan",
+          "Gita",
+          "Divya"
+        ],
+        "correctAnswer": "Gita",
+        "explanation": "From floor 1 to floor 7 the residents are Gita, Esha, Amit, Farhan, Charan, Divya, Bina, so Gita lives on floor 1.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-floor-puzzles-a16",
+        "question": "Seven people Amit, Bina, Charan, Divya, Esha, Farhan and Gita live on different floors of a seven-storey building. Floor 1 is the lowest and floor 7 is the top floor. The following facts are known:\n1. Farhan lives on floor 4.\n2. Exactly 2 floors lie between the floors of Gita and Farhan.\n3. Esha and Gita live on adjacent floors.\n4. Amit lives on the floor immediately below Farhan.\n5. Farhan lives on a lower floor than Charan.\n6. Bina lives on the top floor (floor 7).\n7. Divya lives on the floor immediately below Bina.\n\nWho lives on floor 5?",
+        "options": [
+          "Divya",
+          "Charan",
+          "Esha",
+          "Farhan"
+        ],
+        "correctAnswer": "Charan",
+        "explanation": "From floor 1 to floor 7 the residents are Gita, Esha, Amit, Farhan, Charan, Divya, Bina, so Charan lives on floor 5.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-floor-puzzles-p17",
+        "question": "Seven people Amit, Bina, Charan, Divya, Esha, Farhan and Gita live on different floors of a seven-storey building. Floor 1 is the lowest and floor 7 is the top floor. The following facts are known:\n1. Farhan lives on floor 4.\n2. Exactly 2 floors lie between the floors of Gita and Farhan.\n3. Esha and Gita live on adjacent floors.\n4. Amit lives on the floor immediately below Farhan.\n5. Farhan lives on a lower floor than Charan.\n6. Bina lives on the top floor (floor 7).\n7. Divya lives on the floor immediately below Bina.\n\nOn which floor does Divya live?",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "4"
+        ],
+        "correctAnswer": "6",
+        "explanation": "From floor 1 to floor 7 the residents are Gita, Esha, Amit, Farhan, Charan, Divya, Bina, so Divya lives on floor 6, which is 6.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-floor-puzzles-p18",
+        "question": "Seven people Amit, Bina, Charan, Divya, Esha, Farhan and Gita live on different floors of a seven-storey building. Floor 1 is the lowest and floor 7 is the top floor. The following facts are known:\n1. Farhan lives on floor 4.\n2. Exactly 2 floors lie between the floors of Gita and Farhan.\n3. Esha and Gita live on adjacent floors.\n4. Amit lives on the floor immediately below Farhan.\n5. Farhan lives on a lower floor than Charan.\n6. Bina lives on the top floor (floor 7).\n7. Divya lives on the floor immediately below Bina.\n\nHow many floors lie between the floors of Gita and Bina?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correctAnswer": "5",
+        "explanation": "From floor 1 to floor 7 the residents are Gita, Esha, Amit, Farhan, Charan, Divya, Bina; Gita is on floor 1 and Bina on floor 7, so 5 floors lie between them, which is 5.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-floor-puzzles-p19",
+        "question": "Seven people Amit, Bina, Charan, Divya, Esha, Farhan and Gita live on different floors of a seven-storey building. Floor 1 is the lowest and floor 7 is the top floor. The following facts are known:\n1. Farhan lives on floor 4.\n2. Exactly 2 floors lie between the floors of Gita and Farhan.\n3. Esha and Gita live on adjacent floors.\n4. Amit lives on the floor immediately below Farhan.\n5. Farhan lives on a lower floor than Charan.\n6. Bina lives on the top floor (floor 7).\n7. Divya lives on the floor immediately below Bina.\n\nIf Gita and Divya exchange their floors, who lives on the floor immediately above Amit?",
+        "options": [
+          "Charan",
+          "Divya",
+          "Esha",
+          "Farhan"
+        ],
+        "correctAnswer": "Farhan",
+        "explanation": "From floor 1 to floor 7 the residents are Gita, Esha, Amit, Farhan, Charan, Divya, Bina. After Gita and Divya exchange floors the order is Divya, Esha, Amit, Farhan, Charan, Gita, Bina, so Farhan lives immediately above Amit.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Gap difference.",
+      "Chains.",
+      "Extremes.",
+      "Negatives.",
+      "Counting."
+    ],
+    "quickFormulas": [
+      "Gap = k + 1",
+      "People above = 7 − f"
+    ]
+  },
+  "keyTakeaways": [
+    "Floor numbers.",
+    "Gap = k + 1.",
+    "Verify.",
+    "Count last."
+  ],
+  "selfCheckQuestions": [
+    "Can I convert gaps?",
+    "Can I chain neighbours?",
+    "Can I answer count questions?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

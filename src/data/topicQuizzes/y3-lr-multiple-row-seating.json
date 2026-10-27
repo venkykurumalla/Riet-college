@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-multiple-row-seating",
+  "topicTitle": "Multiple-Row Seating Arrangements",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. A sits exactly opposite B.\n2. C sits at the western end of Row 1.\n3. F sits at the western end of Row 2.\n4. H sits immediately to the left of A.\n5. E sits at the eastern end of Row 1.\n6. D sits exactly opposite H.\n7. G sits immediately to the right of D.\n\nWho sits exactly opposite A?",
+      "options": [
+        "E",
+        "B",
+        "F",
+        "G"
+      ],
+      "answerIndex": 1,
+      "explanation": "Row 1 (west to east): C, A, H, E. Row 2 (west to east): F, B, D, G. The person opposite A is B."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. A sits exactly opposite B.\n2. C sits at the western end of Row 1.\n3. F sits at the western end of Row 2.\n4. H sits immediately to the left of A.\n5. E sits at the eastern end of Row 1.\n6. D sits exactly opposite H.\n7. G sits immediately to the right of D.\n\nWho sits at the western end of Row 1?",
+      "options": [
+        "C",
+        "B",
+        "D",
+        "E"
+      ],
+      "answerIndex": 0,
+      "explanation": "Row 1 (west to east): C, A, H, E. Row 2 (west to east): F, B, D, G. The western end of Row 1 is C."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. A sits exactly opposite B.\n2. C sits at the western end of Row 1.\n3. F sits at the western end of Row 2.\n4. H sits immediately to the left of A.\n5. E sits at the eastern end of Row 1.\n6. D sits exactly opposite H.\n7. G sits immediately to the right of D.\n\nWho sits at the eastern end of Row 2?",
+      "options": [
+        "C",
+        "D",
+        "E",
+        "G"
+      ],
+      "answerIndex": 3,
+      "explanation": "Row 1 (west to east): C, A, H, E. Row 2 (west to east): F, B, D, G. The eastern end of Row 2 is G."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. A sits exactly opposite B.\n2. C sits at the western end of Row 1.\n3. F sits at the western end of Row 2.\n4. H sits immediately to the left of A.\n5. E sits at the eastern end of Row 1.\n6. D sits exactly opposite H.\n7. G sits immediately to the right of D.\n\nWho sits immediately to the left of A?",
+      "options": [
+        "B",
+        "C",
+        "H",
+        "D"
+      ],
+      "answerIndex": 2,
+      "explanation": "Row 1 (west to east): C, A, H, E. Row 2 (west to east): F, B, D, G. A faces south, so the left is east; the person there is H."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. A sits exactly opposite B.\n2. C sits at the western end of Row 1.\n3. F sits at the western end of Row 2.\n4. H sits immediately to the left of A.\n5. E sits at the eastern end of Row 1.\n6. D sits exactly opposite H.\n7. G sits immediately to the right of D.\n\nHow many people sit to the east of C in the same row?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answerIndex": 2,
+      "explanation": "Row 1 (west to east): C, A, H, E. Row 2 (west to east): F, B, D, G. C is in seat 1 of 4 counted from the west, so 3 people sit to the east, which is 3."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. A sits exactly opposite B.\n2. C sits at the western end of Row 1.\n3. F sits at the western end of Row 2.\n4. H sits immediately to the left of A.\n5. E sits at the eastern end of Row 1.\n6. D sits exactly opposite H.\n7. G sits immediately to the right of D.\n\nWho sits exactly opposite E?",
+      "options": [
+        "C",
+        "G",
+        "D",
+        "E"
+      ],
+      "answerIndex": 1,
+      "explanation": "Row 1 (west to east): C, A, H, E. Row 2 (west to east): F, B, D, G. The person opposite E is G."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. D sits exactly opposite G.\n3. C sits immediately to the left of G.\n4. F sits at the western end of Row 1.\n5. F sits exactly opposite H.\n6. B sits immediately to the left of F.\n7. B sits exactly opposite A.\n8. E sits immediately to the left of B.\n\nWho sits exactly opposite G?",
+      "options": [
+        "D",
+        "B",
+        "C",
+        "E"
+      ],
+      "answerIndex": 0,
+      "explanation": "Row 1 (west to east): F, B, E, D. Row 2 (west to east): H, A, C, G. The person opposite G is D."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. D sits exactly opposite G.\n3. C sits immediately to the left of G.\n4. F sits at the western end of Row 1.\n5. F sits exactly opposite H.\n6. B sits immediately to the left of F.\n7. B sits exactly opposite A.\n8. E sits immediately to the left of B.\n\nWho sits at the western end of Row 2?",
+      "options": [
+        "C",
+        "D",
+        "E",
+        "H"
+      ],
+      "answerIndex": 3,
+      "explanation": "Row 1 (west to east): F, B, E, D. Row 2 (west to east): H, A, C, G. The western end of Row 2 is H."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. D sits exactly opposite G.\n3. C sits immediately to the left of G.\n4. F sits at the western end of Row 1.\n5. F sits exactly opposite H.\n6. B sits immediately to the left of F.\n7. B sits exactly opposite A.\n8. E sits immediately to the left of B.\n\nWho sits immediately to the left of F?",
+      "options": [
+        "D",
+        "E",
+        "F",
+        "B"
+      ],
+      "answerIndex": 3,
+      "explanation": "Row 1 (west to east): F, B, E, D. Row 2 (west to east): H, A, C, G. F faces south, so the left is east; the person there is B."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. D sits exactly opposite G.\n3. C sits immediately to the left of G.\n4. F sits at the western end of Row 1.\n5. F sits exactly opposite H.\n6. B sits immediately to the left of F.\n7. B sits exactly opposite A.\n8. E sits immediately to the left of B.\n\nWho sits immediately to the right of C?",
+      "options": [
+        "B",
+        "C",
+        "G",
+        "D"
+      ],
+      "answerIndex": 2,
+      "explanation": "Row 1 (west to east): F, B, E, D. Row 2 (west to east): H, A, C, G. C faces north, so the right is east; the person there is G."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. D sits exactly opposite G.\n3. C sits immediately to the left of G.\n4. F sits at the western end of Row 1.\n5. F sits exactly opposite H.\n6. B sits immediately to the left of F.\n7. B sits exactly opposite A.\n8. E sits immediately to the left of B.\n\nHow many people sit to the east of B in the same row?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "Row 1 (west to east): F, B, E, D. Row 2 (west to east): H, A, C, G. B is in seat 2 of 4 counted from the west, so 2 people sit to the east, which is 2."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. D sits exactly opposite G.\n3. C sits immediately to the left of G.\n4. F sits at the western end of Row 1.\n5. F sits exactly opposite H.\n6. B sits immediately to the left of F.\n7. B sits exactly opposite A.\n8. E sits immediately to the left of B.\n\nWho sits immediately to the left of H?",
+      "options": [
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "answerIndex": 0,
+      "explanation": "Row 1 (west to east): F, B, E, D. Row 2 (west to east): H, A, C, G. H faces north, so the left is west; the person there is D."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. D sits exactly opposite G.\n3. C sits immediately to the left of G.\n4. F sits at the western end of Row 1.\n5. F sits exactly opposite H.\n6. B sits immediately to the left of F.\n7. B sits exactly opposite A.\n8. E sits immediately to the left of B.\n\nWho sits exactly opposite E?",
+      "options": [
+        "C",
+        "B",
+        "D",
+        "E"
+      ],
+      "answerIndex": 0,
+      "explanation": "Row 1 (west to east): F, B, E, D. Row 2 (west to east): H, A, C, G. The person opposite E is C."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. D sits exactly opposite G.\n3. C sits immediately to the left of G.\n4. F sits at the western end of Row 1.\n5. F sits exactly opposite H.\n6. B sits immediately to the left of F.\n7. B sits exactly opposite A.\n8. E sits immediately to the left of B.\n\nIf C and E exchange their seats, who sits exactly opposite D?",
+      "options": [
+        "C",
+        "D",
+        "E",
+        "G"
+      ],
+      "answerIndex": 3,
+      "explanation": "Row 1 (west to east): F, B, E, D. Row 2 (west to east): H, A, C, G. After C and E exchange seats the rows are F, B, C, D and H, A, E, G, so G sits opposite D."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. G sits at the western end of Row 2.\n3. E sits exactly opposite A.\n4. H sits immediately to the left of E.\n5. A sits immediately to the left of F.\n6. C sits exactly opposite D.\n7. F sits exactly opposite H.\n8. B sits immediately to the right of E.\n\nWho sits exactly opposite F?",
+      "options": [
+        "B",
+        "C",
+        "H",
+        "D"
+      ],
+      "answerIndex": 2,
+      "explanation": "Row 1 (west to east): B, E, H, D. Row 2 (west to east): G, A, F, C. The person opposite F is H."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. G sits at the western end of Row 2.\n3. E sits exactly opposite A.\n4. H sits immediately to the left of E.\n5. A sits immediately to the left of F.\n6. C sits exactly opposite D.\n7. F sits exactly opposite H.\n8. B sits immediately to the right of E.\n\nWho sits at the eastern end of Row 2?",
+      "options": [
+        "D",
+        "C",
+        "E",
+        "F"
+      ],
+      "answerIndex": 1,
+      "explanation": "Row 1 (west to east): B, E, H, D. Row 2 (west to east): G, A, F, C. The eastern end of Row 2 is C."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. G sits at the western end of Row 2.\n3. E sits exactly opposite A.\n4. H sits immediately to the left of E.\n5. A sits immediately to the left of F.\n6. C sits exactly opposite D.\n7. F sits exactly opposite H.\n8. B sits immediately to the right of E.\n\nWho sits immediately to the left of G?",
+      "options": [
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "answerIndex": 1,
+      "explanation": "Row 1 (west to east): B, E, H, D. Row 2 (west to east): G, A, F, C. G faces north, so the left is west; the person there is D."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. G sits at the western end of Row 2.\n3. E sits exactly opposite A.\n4. H sits immediately to the left of E.\n5. A sits immediately to the left of F.\n6. C sits exactly opposite D.\n7. F sits exactly opposite H.\n8. B sits immediately to the right of E.\n\nWho sits immediately to the right of E?",
+      "options": [
+        "B",
+        "E",
+        "F",
+        "G"
+      ],
+      "answerIndex": 0,
+      "explanation": "Row 1 (west to east): B, E, H, D. Row 2 (west to east): G, A, F, C. E faces south, so the right is west; the person there is B."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. G sits at the western end of Row 2.\n3. E sits exactly opposite A.\n4. H sits immediately to the left of E.\n5. A sits immediately to the left of F.\n6. C sits exactly opposite D.\n7. F sits exactly opposite H.\n8. B sits immediately to the right of E.\n\nIf A and B exchange their seats, who sits exactly opposite C?",
+      "options": [
+        "C",
+        "E",
+        "F",
+        "D"
+      ],
+      "answerIndex": 3,
+      "explanation": "Row 1 (west to east): B, E, H, D. Row 2 (west to east): G, A, F, C. After A and B exchange seats the rows are A, E, H, D and G, B, F, C, so D sits opposite C."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. G sits at the western end of Row 2.\n3. E sits exactly opposite A.\n4. H sits immediately to the left of E.\n5. A sits immediately to the left of F.\n6. C sits exactly opposite D.\n7. F sits exactly opposite H.\n8. B sits immediately to the right of E.\n\nHow many people sit to the east of G in the same row?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answerIndex": 2,
+      "explanation": "Row 1 (west to east): B, E, H, D. Row 2 (west to east): G, A, F, C. G is in seat 1 of 4 counted from the west, so 3 people sit to the east, which is 3."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/seating-arrangement/"
+}

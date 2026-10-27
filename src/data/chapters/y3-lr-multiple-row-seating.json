@@ -1,0 +1,419 @@
+{
+  "id": "y3-lr-multiple-row-seating",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 30,
+  "title": "Multiple-Row Seating Arrangements",
+  "tagline": "Year 3 — Two or more parallel rows facing each other: facing directions, opposite pairs and mixed left-right clues",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In a multiple-row puzzle people sit in two parallel rows that face each other. The two rows face opposite directions, so the same word \"left\" points east for one row and west for the other. The key moves are to fix the directions at the start, translate every clue into compass terms, and use \"opposite\" clues to link the rows seat by seat.",
+    "placementRelevance": "Two-row seating sets with eight people and five or six questions are common in written aptitude tests.",
+    "realWorldContext": "Facing benches in a train compartment, desks in two-sided lab tables and theatre rows are arranged this way."
+  },
+  "learningObjectives": [
+    "Assign facing directions to each row",
+    "Convert left and right into east and west",
+    "Use opposite pairs to link the rows",
+    "Use end-of-row clues as anchors",
+    "Answer exchange-of-seats questions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Complex Seating Arrangements",
+      "Circular Seating Arrangements"
+    ],
+    "quickRefresher": "Facing north, left is west and right is east. Facing south, left is east and right is west."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Row 1 faces south: left = east, right = west.",
+      "Row 2 faces north: left = west, right = east.",
+      "Opposite: the person in the same column of the other row.",
+      "Extreme end: the first or last seat of a row.",
+      "Column: seat number counted from the west in either row."
+    ],
+    "theoreticalIntuition": "Two facing rows are a grid with two lines and four columns. Compass directions never change, so translate every left or right into east or west first and then forget about facing.",
+    "visualOrMentalModel": "Draw two rows, mark west and east, note the facing direction of each row, and convert all clues. Place end-of-row and opposite clues first."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Row 1 (south)",
+      "formula": "Left = east, right = west",
+      "description": "Facing south.",
+      "whenToUse": "Translate.",
+      "simpleExample": "Left of seat 2 is seat 3"
+    },
+    {
+      "title": "Row 2 (north)",
+      "formula": "Left = west, right = east",
+      "description": "Facing north.",
+      "whenToUse": "Translate.",
+      "simpleExample": "Left of seat 2 is seat 1"
+    },
+    {
+      "title": "Opposite",
+      "formula": "Same column, other row",
+      "description": "Always.",
+      "whenToUse": "Linking rows.",
+      "simpleExample": "Seat 3 faces seat 3"
+    },
+    {
+      "title": "Counting",
+      "formula": "East of seat c: 4 − c people",
+      "description": "Row of 4.",
+      "whenToUse": "Counting.",
+      "simpleExample": "Seat 1: 3 to the east"
+    },
+    {
+      "title": "Check",
+      "formula": "Test each clue on the final grid",
+      "description": "End of the puzzle.",
+      "whenToUse": "Verification.",
+      "simpleExample": "All clues hold"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Eight friends A to H sit in two rows of four. Row 1 faces south and Row 2 faces north. Take the clues: A is opposite B; C is at the west end of Row 1; F is at the west end of Row 2; H is immediately left of A; E is at the east end of Row 1; D is opposite H; G is immediately right of D. Start with the anchors: C is seat 1 of Row 1 and E is seat 4 of Row 1. F is seat 1 of Row 2, so C and F are opposite.",
+      "Row 1 faces south, so the left of A is east. H is immediately east of A. The only free seats in Row 1 are 2 and 3, so A is seat 2 and H is seat 3. B is opposite A, so B is seat 2 of Row 2; D is opposite H, so D is seat 3 of Row 2. Row 2 faces north, so the right of D is east, which is seat 4 of Row 2: G. The row is: Row 1 C, A, H, E and Row 2 F, B, D, G.",
+      "The facing directions trap people. In Row 1 \"immediately left\" means one seat east, and in Row 2 it means one seat west. Writing \"east\" or \"west\" beside each clue before placing anyone removes the confusion.",
+      "Opposite clues transfer information between rows. If you know someone's column in one row, their opposite has the same column in the other row.",
+      "Exchange questions need a fresh copy of the grid. Swap the two names and read the opposite of the person asked about."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Diagonal clues",
+        "content": "A person diagonally opposite to X is in the other row and one column away; check both options if the clue does not say which side."
+      },
+      {
+        "title": "Mixed facing",
+        "content": "If a puzzle makes both rows face north, the left of everyone is west; read the facing statement carefully."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Opposite pairs",
+      "description": "Same column.",
+      "exampleSnippet": "A–B"
+    },
+    {
+      "typeName": "End anchors",
+      "description": "West or east end.",
+      "exampleSnippet": "C and F"
+    },
+    {
+      "typeName": "Left/right in two rows",
+      "description": "Different directions.",
+      "exampleSnippet": "H left of A"
+    },
+    {
+      "typeName": "Counting east of a person",
+      "description": "4 − column.",
+      "exampleSnippet": "East of A"
+    },
+    {
+      "typeName": "Exchange",
+      "description": "Swap then read.",
+      "exampleSnippet": "If A and E swap"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-multiple-row-seating-1",
+      "title": "Direction conversion",
+      "question": "Row 1 faces south, with C, A, H, E from west to east. Who is immediately to the left of A?",
+      "givenInfo": [
+        "Row 1 faces south"
+      ],
+      "conceptOrFormula": "Convert left to east.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Direction",
+          "explanation": "Facing south, the left hand points east."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Seat",
+          "explanation": "The seat east of A is occupied by H."
+        }
+      ],
+      "finalAnswer": "H",
+      "whyItWorks": "Facing north the answer would be C.",
+      "commonTrap": "Taking left as west.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-multiple-row-seating-2",
+      "title": "Opposite link",
+      "question": "Row 1 is C, A, H, E (west to east) and Row 2 is F, B, D, G. Who sits opposite H?",
+      "givenInfo": [
+        "Seat 3"
+      ],
+      "conceptOrFormula": "Same column.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Column",
+          "explanation": "H is seat 3 of Row 1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Opposite",
+          "explanation": "Seat 3 of Row 2 is D."
+        }
+      ],
+      "finalAnswer": "D",
+      "whyItWorks": "Opposite means the same column.",
+      "commonTrap": "Taking the mirror column.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-multiple-row-seating-3",
+      "title": "Counting",
+      "question": "In the same arrangement, how many people sit to the east of B in Row 2?",
+      "givenInfo": [
+        "B is seat 2 of Row 2"
+      ],
+      "conceptOrFormula": "4 − column.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Column",
+          "explanation": "B is seat 2 from the west."
+        },
+        {
+          "stepNumber": 2,
+          "title": "East",
+          "explanation": "Seats 3 and 4 are east of B: 2 people."
+        }
+      ],
+      "finalAnswer": "2",
+      "whyItWorks": "D and G.",
+      "commonTrap": "Counting seat 1.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Compass first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reason with left and right.",
+      "shortcutMethod": "Rewrite every left/right as east/west using the row's facing direction, then place anchors."
+    },
+    "rulesForApplication": [
+      "South: left is east.",
+      "North: left is west.",
+      "Opposite means same column.",
+      "Verify at the end."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using one direction for both rows",
+      "whyItHappens": "Left/right swap between rows.",
+      "howToAvoid": "Convert per row."
+    },
+    {
+      "mistake": "Mirror-column opposite",
+      "whyItHappens": "Seat 1 does not face seat 4.",
+      "howToAvoid": "Opposite is the same column."
+    },
+    {
+      "mistake": "Missing the facing statement",
+      "whyItHappens": "Row facing might change.",
+      "howToAvoid": "Read the first sentence closely."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 180,
+    "eliminationTechnique": "An option that puts two people in one seat is wrong.",
+    "questionSelectionAdvice": "Place the end-of-row anchors first.",
+    "recruiterInsight": "Eight-person sets give five or six questions, so build the grid once."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-multiple-row-seating-e1",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. A sits exactly opposite B.\n2. C sits at the western end of Row 1.\n3. F sits at the western end of Row 2.\n4. H sits immediately to the left of A.\n5. E sits at the eastern end of Row 1.\n6. D sits exactly opposite H.\n7. G sits immediately to the right of D.\n\nWho sits exactly opposite A?",
+        "options": [
+          "E",
+          "B",
+          "F",
+          "G"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Row 1 (west to east): C, A, H, E. Row 2 (west to east): F, B, D, G. The person opposite A is B.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-multiple-row-seating-e2",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. A sits exactly opposite B.\n2. C sits at the western end of Row 1.\n3. F sits at the western end of Row 2.\n4. H sits immediately to the left of A.\n5. E sits at the eastern end of Row 1.\n6. D sits exactly opposite H.\n7. G sits immediately to the right of D.\n\nWho sits at the western end of Row 1?",
+        "options": [
+          "C",
+          "B",
+          "D",
+          "E"
+        ],
+        "correctAnswer": "C",
+        "explanation": "Row 1 (west to east): C, A, H, E. Row 2 (west to east): F, B, D, G. The western end of Row 1 is C.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-multiple-row-seating-e3",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. A sits exactly opposite B.\n2. C sits at the western end of Row 1.\n3. F sits at the western end of Row 2.\n4. H sits immediately to the left of A.\n5. E sits at the eastern end of Row 1.\n6. D sits exactly opposite H.\n7. G sits immediately to the right of D.\n\nWho sits at the eastern end of Row 2?",
+        "options": [
+          "C",
+          "D",
+          "E",
+          "G"
+        ],
+        "correctAnswer": "G",
+        "explanation": "Row 1 (west to east): C, A, H, E. Row 2 (west to east): F, B, D, G. The eastern end of Row 2 is G.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-multiple-row-seating-i7",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. D sits exactly opposite G.\n3. C sits immediately to the left of G.\n4. F sits at the western end of Row 1.\n5. F sits exactly opposite H.\n6. B sits immediately to the left of F.\n7. B sits exactly opposite A.\n8. E sits immediately to the left of B.\n\nWho sits exactly opposite G?",
+        "options": [
+          "D",
+          "B",
+          "C",
+          "E"
+        ],
+        "correctAnswer": "D",
+        "explanation": "Row 1 (west to east): F, B, E, D. Row 2 (west to east): H, A, C, G. The person opposite G is D.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-multiple-row-seating-i8",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. D sits exactly opposite G.\n3. C sits immediately to the left of G.\n4. F sits at the western end of Row 1.\n5. F sits exactly opposite H.\n6. B sits immediately to the left of F.\n7. B sits exactly opposite A.\n8. E sits immediately to the left of B.\n\nWho sits at the western end of Row 2?",
+        "options": [
+          "C",
+          "D",
+          "E",
+          "H"
+        ],
+        "correctAnswer": "H",
+        "explanation": "Row 1 (west to east): F, B, E, D. Row 2 (west to east): H, A, C, G. The western end of Row 2 is H.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-multiple-row-seating-i9",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. D sits exactly opposite G.\n3. C sits immediately to the left of G.\n4. F sits at the western end of Row 1.\n5. F sits exactly opposite H.\n6. B sits immediately to the left of F.\n7. B sits exactly opposite A.\n8. E sits immediately to the left of B.\n\nWho sits immediately to the left of F?",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "B"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Row 1 (west to east): F, B, E, D. Row 2 (west to east): H, A, C, G. F faces south, so the left is east; the person there is B.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-multiple-row-seating-a15",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. G sits at the western end of Row 2.\n3. E sits exactly opposite A.\n4. H sits immediately to the left of E.\n5. A sits immediately to the left of F.\n6. C sits exactly opposite D.\n7. F sits exactly opposite H.\n8. B sits immediately to the right of E.\n\nWho sits exactly opposite F?",
+        "options": [
+          "B",
+          "C",
+          "H",
+          "D"
+        ],
+        "correctAnswer": "H",
+        "explanation": "Row 1 (west to east): B, E, H, D. Row 2 (west to east): G, A, F, C. The person opposite F is H.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-multiple-row-seating-a16",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. G sits at the western end of Row 2.\n3. E sits exactly opposite A.\n4. H sits immediately to the left of E.\n5. A sits immediately to the left of F.\n6. C sits exactly opposite D.\n7. F sits exactly opposite H.\n8. B sits immediately to the right of E.\n\nWho sits at the eastern end of Row 2?",
+        "options": [
+          "D",
+          "C",
+          "E",
+          "F"
+        ],
+        "correctAnswer": "C",
+        "explanation": "Row 1 (west to east): B, E, H, D. Row 2 (west to east): G, A, F, C. The eastern end of Row 2 is C.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-multiple-row-seating-p17",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. G sits at the western end of Row 2.\n3. E sits exactly opposite A.\n4. H sits immediately to the left of E.\n5. A sits immediately to the left of F.\n6. C sits exactly opposite D.\n7. F sits exactly opposite H.\n8. B sits immediately to the right of E.\n\nWho sits immediately to the left of G?",
+        "options": [
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        "correctAnswer": "D",
+        "explanation": "Row 1 (west to east): B, E, H, D. Row 2 (west to east): G, A, F, C. G faces north, so the left is west; the person there is D.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-multiple-row-seating-p18",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. G sits at the western end of Row 2.\n3. E sits exactly opposite A.\n4. H sits immediately to the left of E.\n5. A sits immediately to the left of F.\n6. C sits exactly opposite D.\n7. F sits exactly opposite H.\n8. B sits immediately to the right of E.\n\nWho sits immediately to the right of E?",
+        "options": [
+          "B",
+          "E",
+          "F",
+          "G"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Row 1 (west to east): B, E, H, D. Row 2 (west to east): G, A, F, C. E faces south, so the right is west; the person there is B.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-multiple-row-seating-p19",
+        "question": "Eight friends A, B, C, D, E, F, G and H sit in two parallel rows of four seats. Row 1 faces south and Row 2 faces north, so each person in Row 1 faces a person in Row 2. Seats in each row are numbered from west to east. The following facts are known:\n1. D sits at the eastern end of Row 1.\n2. G sits at the western end of Row 2.\n3. E sits exactly opposite A.\n4. H sits immediately to the left of E.\n5. A sits immediately to the left of F.\n6. C sits exactly opposite D.\n7. F sits exactly opposite H.\n8. B sits immediately to the right of E.\n\nIf A and B exchange their seats, who sits exactly opposite C?",
+        "options": [
+          "C",
+          "E",
+          "F",
+          "D"
+        ],
+        "correctAnswer": "D",
+        "explanation": "Row 1 (west to east): B, E, H, D. Row 2 (west to east): G, A, F, C. After A and B exchange seats the rows are A, E, H, D and G, B, F, C, so D sits opposite C.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Convert directions.",
+      "Place anchors.",
+      "Link rows by opposite.",
+      "Count by column.",
+      "Verify."
+    ],
+    "quickFormulas": [
+      "East of column c: 4 − c"
+    ]
+  },
+  "keyTakeaways": [
+    "Compass first.",
+    "Anchors.",
+    "Opposite = same column.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I convert left to east or west?",
+    "Can I link rows by opposite?",
+    "Can I answer a swap question?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

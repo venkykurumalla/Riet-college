@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-complex-seating",
+  "topicTitle": "Complex Seating Arrangements (7+ People)",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Seven friends P, Q, R, S, T, U and V sit in a row facing north. The following facts are known:\n1. P sits at one of the two extreme ends.\n2. T sits immediately to the left of P.\n3. V sits exactly in the middle.\n4. Q sits immediately to the left of V.\n5. R sits immediately to the right of V.\n6. U sits immediately to the left of Q.\n\nWho sits at the left end?",
+      "options": [
+        "P",
+        "S",
+        "Q",
+        "R"
+      ],
+      "answerIndex": 1,
+      "explanation": "From left to right the seating is S, U, Q, V, R, T, P, so S sits at the left end."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Seven friends P, Q, R, S, T, U and V sit in a row facing north. The following facts are known:\n1. P sits at one of the two extreme ends.\n2. T sits immediately to the left of P.\n3. V sits exactly in the middle.\n4. Q sits immediately to the left of V.\n5. R sits immediately to the right of V.\n6. U sits immediately to the left of Q.\n\nWho sits at the middle?",
+      "options": [
+        "V",
+        "Q",
+        "R",
+        "S"
+      ],
+      "answerIndex": 0,
+      "explanation": "From left to right the seating is S, U, Q, V, R, T, P, so V sits at the middle."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Seven friends P, Q, R, S, T, U and V sit in a row facing north. The following facts are known:\n1. P sits at one of the two extreme ends.\n2. T sits immediately to the left of P.\n3. V sits exactly in the middle.\n4. Q sits immediately to the left of V.\n5. R sits immediately to the right of V.\n6. U sits immediately to the left of Q.\n\nWho sits immediately to the right of V?",
+      "options": [
+        "S",
+        "T",
+        "U",
+        "R"
+      ],
+      "answerIndex": 3,
+      "explanation": "From left to right the seating is S, U, Q, V, R, T, P, so R is immediately to the right of V."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Seven friends P, Q, R, S, T, U and V sit in a row facing north. The following facts are known:\n1. P sits at one of the two extreme ends.\n2. T sits immediately to the left of P.\n3. V sits exactly in the middle.\n4. Q sits immediately to the left of V.\n5. R sits immediately to the right of V.\n6. U sits immediately to the left of Q.\n\nWho sits immediately to the left of P?",
+      "options": [
+        "Q",
+        "R",
+        "T",
+        "S"
+      ],
+      "answerIndex": 2,
+      "explanation": "From left to right the seating is S, U, Q, V, R, T, P, so T is immediately to the left of P."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Seven friends P, Q, R, S, T, U and V sit in a row facing north. The following facts are known:\n1. P sits at one of the two extreme ends.\n2. T sits immediately to the left of P.\n3. V sits exactly in the middle.\n4. Q sits immediately to the left of V.\n5. R sits immediately to the right of V.\n6. U sits immediately to the left of Q.\n\nHow many people sit to the right of Q?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "6"
+      ],
+      "answerIndex": 2,
+      "explanation": "From left to right the seating is S, U, Q, V, R, T, P, so 4 people sit to the right of Q, which is 4."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Seven friends P, Q, R, S, T, U and V sit in a row facing north. The following facts are known:\n1. P sits at one of the two extreme ends.\n2. T sits immediately to the left of P.\n3. V sits exactly in the middle.\n4. Q sits immediately to the left of V.\n5. R sits immediately to the right of V.\n6. U sits immediately to the left of Q.\n\nHow many people sit between U and T?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "From left to right the seating is S, U, Q, V, R, T, P; U and T are 4 seats apart, so 3 people sit between them, which is 3."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Seven colleagues A, B, C, D, E, F and G sit in a row facing north. The following facts are known:\n1. G sits exactly in the middle.\n2. A sits immediately to the left of G.\n3. B and D sit at the two extreme ends (in either order).\n4. E sits immediately next to B.\n5. C sits immediately to the left of E.\n6. F sits immediately to the right of D.\n\nWho sits at the left end?",
+      "options": [
+        "D",
+        "B",
+        "C",
+        "E"
+      ],
+      "answerIndex": 0,
+      "explanation": "From left to right the seating is D, F, A, G, C, E, B, so D sits at the left end."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Seven colleagues A, B, C, D, E, F and G sit in a row facing north. The following facts are known:\n1. G sits exactly in the middle.\n2. A sits immediately to the left of G.\n3. B and D sit at the two extreme ends (in either order).\n4. E sits immediately next to B.\n5. C sits immediately to the left of E.\n6. F sits immediately to the right of D.\n\nWho sits at the right end?",
+      "options": [
+        "D",
+        "E",
+        "F",
+        "B"
+      ],
+      "answerIndex": 3,
+      "explanation": "From left to right the seating is D, F, A, G, C, E, B, so B sits at the right end."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Seven colleagues A, B, C, D, E, F and G sit in a row facing north. The following facts are known:\n1. G sits exactly in the middle.\n2. A sits immediately to the left of G.\n3. B and D sit at the two extreme ends (in either order).\n4. E sits immediately next to B.\n5. C sits immediately to the left of E.\n6. F sits immediately to the right of D.\n\nWho sits immediately to the right of G?",
+      "options": [
+        "D",
+        "E",
+        "F",
+        "C"
+      ],
+      "answerIndex": 3,
+      "explanation": "From left to right the seating is D, F, A, G, C, E, B, so C is immediately to the right of G."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Seven colleagues A, B, C, D, E, F and G sit in a row facing north. The following facts are known:\n1. G sits exactly in the middle.\n2. A sits immediately to the left of G.\n3. B and D sit at the two extreme ends (in either order).\n4. E sits immediately next to B.\n5. C sits immediately to the left of E.\n6. F sits immediately to the right of D.\n\nWho sits immediately to the left of B?",
+      "options": [
+        "B",
+        "C",
+        "E",
+        "D"
+      ],
+      "answerIndex": 2,
+      "explanation": "From left to right the seating is D, F, A, G, C, E, B, so E is immediately to the left of B."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Seven colleagues A, B, C, D, E, F and G sit in a row facing north. The following facts are known:\n1. G sits exactly in the middle.\n2. A sits immediately to the left of G.\n3. B and D sit at the two extreme ends (in either order).\n4. E sits immediately next to B.\n5. C sits immediately to the left of E.\n6. F sits immediately to the right of D.\n\nHow many people sit between F and E?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "From left to right the seating is D, F, A, G, C, E, B; F and E are 4 seats apart, so 3 people sit between them, which is 3."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Seven colleagues A, B, C, D, E, F and G sit in a row facing north. The following facts are known:\n1. G sits exactly in the middle.\n2. A sits immediately to the left of G.\n3. B and D sit at the two extreme ends (in either order).\n4. E sits immediately next to B.\n5. C sits immediately to the left of E.\n6. F sits immediately to the right of D.\n\nHow many people sit to the right of A?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answerIndex": 0,
+      "explanation": "From left to right the seating is D, F, A, G, C, E, B, so 4 people sit to the right of A, which is 4."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Seven colleagues A, B, C, D, E, F and G sit in a row facing north. The following facts are known:\n1. G sits exactly in the middle.\n2. A sits immediately to the left of G.\n3. B and D sit at the two extreme ends (in either order).\n4. E sits immediately next to B.\n5. C sits immediately to the left of E.\n6. F sits immediately to the right of D.\n\nIf A and E exchange their seats, who sits immediately to the left of G?",
+      "options": [
+        "E",
+        "C",
+        "D",
+        "F"
+      ],
+      "answerIndex": 0,
+      "explanation": "From left to right the seating is D, F, A, G, C, E, B. After A and E exchange seats the order is D, F, E, G, C, A, B, so E is immediately to the left of G."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Seven colleagues A, B, C, D, E, F and G sit in a row facing north. The following facts are known:\n1. G sits exactly in the middle.\n2. A sits immediately to the left of G.\n3. B and D sit at the two extreme ends (in either order).\n4. E sits immediately next to B.\n5. C sits immediately to the left of E.\n6. F sits immediately to the right of D.\n\nWho sits exactly between D and A?",
+      "options": [
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "answerIndex": 3,
+      "explanation": "From left to right the seating is D, F, A, G, C, E, B; D and A have exactly one seat between them, occupied by F."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Seven students H, J, K, L, M, N and O sit in a row facing north. The following facts are known:\n1. O sits exactly in the middle.\n2. Exactly 2 people sit between L and O.\n3. H sits immediately to the left of O.\n4. J sits at one of the two extreme ends.\n5. K sits second to the right of H.\n6. M sits immediately to the right of K.\n7. L sits somewhere to the left of J.\n\nWho sits at the left end?",
+      "options": [
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "answerIndex": 2,
+      "explanation": "From left to right the seating is L, N, H, O, K, M, J, so L sits at the left end."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Seven students H, J, K, L, M, N and O sit in a row facing north. The following facts are known:\n1. O sits exactly in the middle.\n2. Exactly 2 people sit between L and O.\n3. H sits immediately to the left of O.\n4. J sits at one of the two extreme ends.\n5. K sits second to the right of H.\n6. M sits immediately to the right of K.\n7. L sits somewhere to the left of J.\n\nWho sits at the right end?",
+      "options": [
+        "L",
+        "J",
+        "M",
+        "N"
+      ],
+      "answerIndex": 1,
+      "explanation": "From left to right the seating is L, N, H, O, K, M, J, so J sits at the right end."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Seven students H, J, K, L, M, N and O sit in a row facing north. The following facts are known:\n1. O sits exactly in the middle.\n2. Exactly 2 people sit between L and O.\n3. H sits immediately to the left of O.\n4. J sits at one of the two extreme ends.\n5. K sits second to the right of H.\n6. M sits immediately to the right of K.\n7. L sits somewhere to the left of J.\n\nWho sits immediately to the left of K?",
+      "options": [
+        "J",
+        "O",
+        "K",
+        "L"
+      ],
+      "answerIndex": 1,
+      "explanation": "From left to right the seating is L, N, H, O, K, M, J, so O is immediately to the left of K."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Seven students H, J, K, L, M, N and O sit in a row facing north. The following facts are known:\n1. O sits exactly in the middle.\n2. Exactly 2 people sit between L and O.\n3. H sits immediately to the left of O.\n4. J sits at one of the two extreme ends.\n5. K sits second to the right of H.\n6. M sits immediately to the right of K.\n7. L sits somewhere to the left of J.\n\nHow many people sit between N and M?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answerIndex": 0,
+      "explanation": "From left to right the seating is L, N, H, O, K, M, J; N and M are 4 seats apart, so 3 people sit between them, which is 3."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Seven students H, J, K, L, M, N and O sit in a row facing north. The following facts are known:\n1. O sits exactly in the middle.\n2. Exactly 2 people sit between L and O.\n3. H sits immediately to the left of O.\n4. J sits at one of the two extreme ends.\n5. K sits second to the right of H.\n6. M sits immediately to the right of K.\n7. L sits somewhere to the left of J.\n\nIf N and M exchange their seats, who sits immediately to the left of O?",
+      "options": [
+        "L",
+        "M",
+        "N",
+        "H"
+      ],
+      "answerIndex": 3,
+      "explanation": "From left to right the seating is L, N, H, O, K, M, J. After N and M exchange seats the order is L, M, H, O, K, N, J, so H is immediately to the left of O."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Seven students H, J, K, L, M, N and O sit in a row facing north. The following facts are known:\n1. O sits exactly in the middle.\n2. Exactly 2 people sit between L and O.\n3. H sits immediately to the left of O.\n4. J sits at one of the two extreme ends.\n5. K sits second to the right of H.\n6. M sits immediately to the right of K.\n7. L sits somewhere to the left of J.\n\nIf L and J exchange their seats, who sits immediately to the left of H?",
+      "options": [
+        "H",
+        "J",
+        "N",
+        "K"
+      ],
+      "answerIndex": 2,
+      "explanation": "From left to right the seating is L, N, H, O, K, M, J. After L and J exchange seats the order is J, N, H, O, K, M, L, so N is immediately to the left of H."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/seating-arrangement/"
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-circular-seating",
+  "topicTitle": "Circular Seating Arrangements",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. A sits exactly opposite H.\n2. C sits immediately to the left of A.\n3. F sits second to the left of A.\n4. B sits immediately to the left of F.\n5. D sits immediately to the left of H.\n6. G sits immediately to the left of D.\n\nWho sits immediately to the left of A?",
+      "options": [
+        "A",
+        "C",
+        "F",
+        "B"
+      ],
+      "answerIndex": 1,
+      "explanation": "Going clockwise the seating is A, C, F, B, H, D, G, E. Everyone is facing the centre, so the left of A is clockwise; immediately to the left of A is C."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. A sits exactly opposite H.\n2. C sits immediately to the left of A.\n3. F sits second to the left of A.\n4. B sits immediately to the left of F.\n5. D sits immediately to the left of H.\n6. G sits immediately to the left of D.\n\nWho sits immediately to the right of A?",
+      "options": [
+        "E",
+        "C",
+        "F",
+        "B"
+      ],
+      "answerIndex": 0,
+      "explanation": "Going clockwise the seating is A, C, F, B, H, D, G, E. Everyone is facing the centre, so the right of A is anticlockwise; immediately to the right of A is E."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. A sits exactly opposite H.\n2. C sits immediately to the left of A.\n3. F sits second to the left of A.\n4. B sits immediately to the left of F.\n5. D sits immediately to the left of H.\n6. G sits immediately to the left of D.\n\nWho sits exactly opposite C?",
+      "options": [
+        "F",
+        "B",
+        "H",
+        "D"
+      ],
+      "answerIndex": 3,
+      "explanation": "Going clockwise the seating is A, C, F, B, H, D, G, E. The seat opposite C is 4 seats away, which is D."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. A sits exactly opposite H.\n2. C sits immediately to the left of A.\n3. F sits second to the left of A.\n4. B sits immediately to the left of F.\n5. D sits immediately to the left of H.\n6. G sits immediately to the left of D.\n\nWho sits immediately to the left of F?",
+      "options": [
+        "C",
+        "F",
+        "B",
+        "H"
+      ],
+      "answerIndex": 2,
+      "explanation": "Going clockwise the seating is A, C, F, B, H, D, G, E. Everyone is facing the centre, so the left of F is clockwise; immediately to the left of F is B."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. A sits exactly opposite H.\n2. C sits immediately to the left of A.\n3. F sits second to the left of A.\n4. B sits immediately to the left of F.\n5. D sits immediately to the left of H.\n6. G sits immediately to the left of D.\n\nHow many people sit between A and D along the shorter side?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "answerIndex": 2,
+      "explanation": "Going clockwise the seating is A, C, F, B, H, D, G, E. A and D are 3 seats apart along the shorter side, so 2 people sit between them, which is 2."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Eight friends A, B, C, D, E, F, G and H sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. A sits exactly opposite H.\n2. C sits immediately to the left of A.\n3. F sits second to the left of A.\n4. B sits immediately to the left of F.\n5. D sits immediately to the left of H.\n6. G sits immediately to the left of D.\n\nWho sits exactly opposite B?",
+      "options": [
+        "C",
+        "E",
+        "F",
+        "B"
+      ],
+      "answerIndex": 1,
+      "explanation": "Going clockwise the seating is A, C, F, B, H, D, G, E. The seat opposite B is 4 seats away, which is E."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Seven students J, K, L, M, N, P and R sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. M sits immediately to the left of J.\n2. P sits immediately to the left of M.\n3. R sits second to the left of P.\n4. K sits immediately to the left of R.\n5. N sits immediately to the right of J.\n\nWho sits immediately to the left of J?",
+      "options": [
+        "M",
+        "J",
+        "P",
+        "L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Going clockwise the seating is J, M, P, L, R, K, N. Everyone is facing the centre, so the left of J is clockwise; immediately to the left of J is M."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Seven students J, K, L, M, N, P and R sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. M sits immediately to the left of J.\n2. P sits immediately to the left of M.\n3. R sits second to the left of P.\n4. K sits immediately to the left of R.\n5. N sits immediately to the right of J.\n\nWho sits immediately to the right of J?",
+      "options": [
+        "M",
+        "P",
+        "L",
+        "N"
+      ],
+      "answerIndex": 3,
+      "explanation": "Going clockwise the seating is J, M, P, L, R, K, N. Everyone is facing the centre, so the right of J is anticlockwise; immediately to the right of J is N."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Seven students J, K, L, M, N, P and R sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. M sits immediately to the left of J.\n2. P sits immediately to the left of M.\n3. R sits second to the left of P.\n4. K sits immediately to the left of R.\n5. N sits immediately to the right of J.\n\nWho sits second to the left of L?",
+      "options": [
+        "P",
+        "L",
+        "R",
+        "K"
+      ],
+      "answerIndex": 3,
+      "explanation": "Going clockwise the seating is J, M, P, L, R, K, N. Everyone is facing the centre, so the left of L is clockwise; second to the left of L is K."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Seven students J, K, L, M, N, P and R sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. M sits immediately to the left of J.\n2. P sits immediately to the left of M.\n3. R sits second to the left of P.\n4. K sits immediately to the left of R.\n5. N sits immediately to the right of J.\n\nWho sits second to the right of R?",
+      "options": [
+        "J",
+        "M",
+        "P",
+        "L"
+      ],
+      "answerIndex": 2,
+      "explanation": "Going clockwise the seating is J, M, P, L, R, K, N. Everyone is facing the centre, so the right of R is anticlockwise; second to the right of R is P."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Seven students J, K, L, M, N, P and R sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. M sits immediately to the left of J.\n2. P sits immediately to the left of M.\n3. R sits second to the left of P.\n4. K sits immediately to the left of R.\n5. N sits immediately to the right of J.\n\nHow many people sit between J and L along the shorter side?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "Going clockwise the seating is J, M, P, L, R, K, N. J and L are 3 seats apart along the shorter side, so 2 people sit between them, which is 2."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Seven students J, K, L, M, N, P and R sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. M sits immediately to the left of J.\n2. P sits immediately to the left of M.\n3. R sits second to the left of P.\n4. K sits immediately to the left of R.\n5. N sits immediately to the right of J.\n\nHow many people sit between N and P along the shorter side?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "Going clockwise the seating is J, M, P, L, R, K, N. N and P are 3 seats apart along the shorter side, so 2 people sit between them, which is 2."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Seven students J, K, L, M, N, P and R sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. M sits immediately to the left of J.\n2. P sits immediately to the left of M.\n3. R sits second to the left of P.\n4. K sits immediately to the left of R.\n5. N sits immediately to the right of J.\n\nIf M and K exchange their seats, who sits immediately to the left of J?",
+      "options": [
+        "K",
+        "M",
+        "P",
+        "L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Going clockwise the seating is J, M, P, L, R, K, N. After M and K exchange seats the order is J, K, P, L, R, M, N, so the immediate left of J is K."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Seven students J, K, L, M, N, P and R sit around a circular table facing the centre. The immediate left of a person is the next seat clockwise. The following facts are known:\n1. M sits immediately to the left of J.\n2. P sits immediately to the left of M.\n3. R sits second to the left of P.\n4. K sits immediately to the left of R.\n5. N sits immediately to the right of J.\n\nWho sits immediately to the left of K?",
+      "options": [
+        "P",
+        "L",
+        "R",
+        "N"
+      ],
+      "answerIndex": 3,
+      "explanation": "Going clockwise the seating is J, M, P, L, R, K, N. Everyone is facing the centre, so the left of K is clockwise; immediately to the left of K is N."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Eight friends S, T, U, V, W, X, Y and Z sit around a circular table facing outward, away from the centre. For a person facing outward, the immediate left is the next seat anticlockwise. The following facts are known:\n1. S sits exactly opposite U.\n2. W sits immediately to the right of S.\n3. T sits second to the right of S.\n4. X sits immediately to the right of T.\n5. Y sits immediately to the left of V.\n6. Z sits immediately to the left of S.\n\nWho sits immediately to the left of S?",
+      "options": [
+        "S",
+        "W",
+        "Z",
+        "T"
+      ],
+      "answerIndex": 2,
+      "explanation": "Going clockwise the seating is S, W, T, X, U, Y, V, Z. Everyone is facing outward, so the left of S is anticlockwise; immediately to the left of S is Z."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Eight friends S, T, U, V, W, X, Y and Z sit around a circular table facing outward, away from the centre. For a person facing outward, the immediate left is the next seat anticlockwise. The following facts are known:\n1. S sits exactly opposite U.\n2. W sits immediately to the right of S.\n3. T sits second to the right of S.\n4. X sits immediately to the right of T.\n5. Y sits immediately to the left of V.\n6. Z sits immediately to the left of S.\n\nWho sits immediately to the right of S?",
+      "options": [
+        "T",
+        "W",
+        "X",
+        "U"
+      ],
+      "answerIndex": 1,
+      "explanation": "Going clockwise the seating is S, W, T, X, U, Y, V, Z. Everyone is facing outward, so the right of S is clockwise; immediately to the right of S is W."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Eight friends S, T, U, V, W, X, Y and Z sit around a circular table facing outward, away from the centre. For a person facing outward, the immediate left is the next seat anticlockwise. The following facts are known:\n1. S sits exactly opposite U.\n2. W sits immediately to the right of S.\n3. T sits second to the right of S.\n4. X sits immediately to the right of T.\n5. Y sits immediately to the left of V.\n6. Z sits immediately to the left of S.\n\nWho sits exactly opposite X?",
+      "options": [
+        "T",
+        "Z",
+        "X",
+        "U"
+      ],
+      "answerIndex": 1,
+      "explanation": "Going clockwise the seating is S, W, T, X, U, Y, V, Z. The seat opposite X is 4 seats away, which is Z."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Eight friends S, T, U, V, W, X, Y and Z sit around a circular table facing outward, away from the centre. For a person facing outward, the immediate left is the next seat anticlockwise. The following facts are known:\n1. S sits exactly opposite U.\n2. W sits immediately to the right of S.\n3. T sits second to the right of S.\n4. X sits immediately to the right of T.\n5. Y sits immediately to the left of V.\n6. Z sits immediately to the left of S.\n\nWho sits second to the left of T?",
+      "options": [
+        "S",
+        "T",
+        "X",
+        "U"
+      ],
+      "answerIndex": 0,
+      "explanation": "Going clockwise the seating is S, W, T, X, U, Y, V, Z. Everyone is facing outward, so the left of T is anticlockwise; second to the left of T is S."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Eight friends S, T, U, V, W, X, Y and Z sit around a circular table facing outward, away from the centre. For a person facing outward, the immediate left is the next seat anticlockwise. The following facts are known:\n1. S sits exactly opposite U.\n2. W sits immediately to the right of S.\n3. T sits second to the right of S.\n4. X sits immediately to the right of T.\n5. Y sits immediately to the left of V.\n6. Z sits immediately to the left of S.\n\nIf W and Z exchange their seats, who sits immediately to the left of S?",
+      "options": [
+        "X",
+        "U",
+        "Y",
+        "W"
+      ],
+      "answerIndex": 3,
+      "explanation": "Going clockwise the seating is S, W, T, X, U, Y, V, Z. After W and Z exchange seats the order is S, Z, T, X, U, Y, V, W, so the immediate left of S is W."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Eight friends S, T, U, V, W, X, Y and Z sit around a circular table facing outward, away from the centre. For a person facing outward, the immediate left is the next seat anticlockwise. The following facts are known:\n1. S sits exactly opposite U.\n2. W sits immediately to the right of S.\n3. T sits second to the right of S.\n4. X sits immediately to the right of T.\n5. Y sits immediately to the left of V.\n6. Z sits immediately to the left of S.\n\nHow many people sit between W and Y along the shorter side?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answerIndex": 2,
+      "explanation": "Going clockwise the seating is S, W, T, X, U, Y, V, Z. W and Y are 4 seats apart along the shorter side, so 3 people sit between them, which is 3."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/seating-arrangement/"
+}
