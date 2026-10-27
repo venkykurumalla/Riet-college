@@ -76,9 +76,9 @@
   ],
   "detailedExplanation": {
     "mainNarrative": [
-      "Changes between months: +12, −4, +17, +15, −5, +15, +15, −5, +20, +15, +15. The largest rise is +20 (August to September: wait, from 180 in September to 200 in October), so October has the largest rise over the previous month.",
+      "Changes between consecutive months (February to December): +12, −4, +17, +15, −5, +15, +15, −5, +20, +15, +15. The largest rise is +20 in October (from 180 in September to 200).",
       "The series dips in March, June and September but rises overall: from 120 in January to 230 in December. The overall growth is (230 − 120) ÷ 120 = 91.7%.",
-      "The yearly total is 2,020 and the monthly average is 168.3. Months above average are July to December (the later half) and May? Check: May is 160, below 168.3.",
+      "The yearly total is 2,020 and the monthly average is 168.3. Sales were above average in July (170) and in every later month, and below it in all earlier months, so six months were above average.",
       "Quarterly totals smooth monthly noise: 380, 460, 535, 645. Sales rise in every quarter.",
       "A simple forecast uses the average monthly change: (230 − 120) ÷ 11 = 10. If it continues, the next month would be 240."
     ],

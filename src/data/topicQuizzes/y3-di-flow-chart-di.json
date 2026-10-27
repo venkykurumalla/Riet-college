@@ -182,7 +182,7 @@
         "A–C–B–D–E–F"
       ],
       "answerIndex": 3,
-      "explanation": "The route A–C–B–D–E–F totals 13 km, which is shorter than A–B–D–F (15 km), A–C–D–F (16 km) and A–B–D–E–F (16 km). Answer: A–C–B–D–E–F."
+      "explanation": "The route A–C–B–D–E–F totals 13 km, which is shorter than A–B–D–F (15 km), A–C–D–F (16 km) and A–B–D–E–F (14 km). Answer: A–C–B–D–E–F."
     },
     {
       "id": 15,
