@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-adv-coding",
+  "topicTitle": "Advanced Coding-Decoding",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "In a code, each letter is replaced by the letter two places ahead. Then PLAY is written as",
+      "options": [
+        "NJYW",
+        "RNCA",
+        "QMBZ",
+        "ACNR"
+      ],
+      "answerIndex": 1,
+      "explanation": "P→R, L→N, A→C, Y→A. So PLAY becomes RNCA."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "In a code, each letter is replaced by the letter one place before it. Then STUDENT is written as",
+      "options": [
+        "RSTCDMS",
+        "TUVEFOU",
+        "TNEDUTS",
+        "QRSBCLR"
+      ],
+      "answerIndex": 0,
+      "explanation": "Each letter moves one place back: RSTCDMS."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "If every word is written backwards, then CODE is written as",
+      "options": [
+        "DOCE",
+        "CEDO",
+        "EDCO",
+        "EDOC"
+      ],
+      "answerIndex": 3,
+      "explanation": "Reading CODE backwards gives EDOC."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "If A = 1, B = 2, …, Z = 26, the value of the word FACE is",
+      "options": [
+        "14",
+        "16",
+        "15",
+        "18"
+      ],
+      "answerIndex": 2,
+      "explanation": "F = 6, A = 1, C = 3, E = 5. Sum = 15."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "If A = 1, B = 2, …, then CAT is written as",
+      "options": [
+        "3-1-19",
+        "2-1-20",
+        "3-1-20",
+        "3-2-20"
+      ],
+      "answerIndex": 2,
+      "explanation": "C = 3, A = 1, T = 20."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "In a code each letter is replaced by its opposite letter (A↔Z, B↔Y, …). Then MAN is written as",
+      "options": [
+        "NBO",
+        "NZM",
+        "MZN",
+        "NZMX"
+      ],
+      "answerIndex": 1,
+      "explanation": "M→N, A→Z, N→M. So MAN becomes NZM."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "If PAPER is coded as QCSIW (shifts +1, +2, +3, +4, +5), then WORD is coded as",
+      "options": [
+        "XQUH",
+        "XPSE",
+        "XQSF",
+        "YQTF"
+      ],
+      "answerIndex": 0,
+      "explanation": "W+1 = X, O+2 = Q, R+3 = U, D+4 = H. The code is XQUH."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "In a code, LAMP is written as QNBM (reverse, then +1 to each letter). Then HOME is written as",
+      "options": [
+        "IPNF",
+        "EMOH",
+        "GOQJ",
+        "FNPI"
+      ],
+      "answerIndex": 3,
+      "explanation": "Reverse HOME to get EMOH. Shift each letter by +1: FNPI."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "In a code, shifts of +2 and −2 alternate starting with +2. Then TRAIN is written as",
+      "options": [
+        "VTCKP",
+        "RTYKL",
+        "RPYGL",
+        "VPCGP"
+      ],
+      "answerIndex": 3,
+      "explanation": "T+2 = V, R−2 = P, A+2 = C, I−2 = G, N+2 = P. The code is VPCGP."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "If COLD is coded as DPME, then WARM is coded as",
+      "options": [
+        "YCTO",
+        "VZQL",
+        "XBSN",
+        "NSBX"
+      ],
+      "answerIndex": 2,
+      "explanation": "Each letter is shifted by +1: XBSN."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "In a code, each vowel is shifted +1 and each consonant is shifted −1. Then LEARN is written as",
+      "options": [
+        "MFBSO",
+        "KFBQM",
+        "KDZQM",
+        "MDZSO"
+      ],
+      "answerIndex": 1,
+      "explanation": "L−1 = K, E+1 = F, A+1 = B, R−1 = Q, N−1 = M. The code is KFBQM."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "If the numbering of the alphabet is reversed (A = 26, B = 25, …, Z = 1), the code for BAD is",
+      "options": [
+        "25-26-23",
+        "2-1-4",
+        "25-26-24",
+        "24-25-23"
+      ],
+      "answerIndex": 0,
+      "explanation": "B = 25, A = 26, D = 23 (27 minus the usual position)."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "If A = 1, B = 2, …, the value of the word LEAD is",
+      "options": [
+        "22",
+        "20",
+        "21",
+        "24"
+      ],
+      "answerIndex": 0,
+      "explanation": "L = 12, E = 5, A = 1, D = 4. Sum = 22."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "If each letter is shifted back by 3 places, then SKY is written as",
+      "options": [
+        "VNB",
+        "QIW",
+        "VHP",
+        "PHV"
+      ],
+      "answerIndex": 3,
+      "explanation": "S→P, K→H, Y→V. The code is PHV."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "In a code, the letters are first shifted alternately by +1, −1, +1, −1 (starting with +1) and then the word is written backwards. Then HOME is written as",
+      "options": [
+        "FLPG",
+        "INND",
+        "DNNI",
+        "IPNF"
+      ],
+      "answerIndex": 2,
+      "explanation": "Alternate shifts: H+1 = I, O−1 = N, M+1 = N, E−1 = D gives INND. Writing it backwards gives DNNI."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "If MOTHER is coded as NPUIFS, then FATHER is coded as",
+      "options": [
+        "EZSGDQ",
+        "GBUIFS",
+        "HCVJGT",
+        "SFIUBG"
+      ],
+      "answerIndex": 1,
+      "explanation": "Each letter is shifted by +1. FATHER becomes GBUIFS."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "If the code for a word using a +3 shift is ZRUOG, the original word is",
+      "options": [
+        "CUXRJ",
+        "WORLD",
+        "XPSME",
+        "DLROW"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subtract 3 from each letter: Z→W, R→O, U→R, O→L, G→D."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "If FIRE is coded as DGPC, then WATER is coded as",
+      "options": [
+        "UYRCP",
+        "YCVGT",
+        "VZSDQ",
+        "PCRYU"
+      ],
+      "answerIndex": 0,
+      "explanation": "Each letter is shifted back by 2: F→D, I→G, R→P, E→C. So WATER becomes UYRCP."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "In a code, every vowel is replaced by * and consonants are unchanged. Then EDUCATION is written as",
+      "options": [
+        "EDUCATION",
+        "*D*C*T*ON",
+        "*D*C*TI*N",
+        "*D*C*T**N"
+      ],
+      "answerIndex": 3,
+      "explanation": "The vowels E, U, A, I, O become *: *D*C*T**N."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "If JUMP = 10-21-13-16 in position values, then 8-5-12-16 stands for",
+      "options": [
+        "HELD",
+        "HEAP",
+        "HELP",
+        "HALF"
+      ],
+      "answerIndex": 2,
+      "explanation": "8 = H, 5 = E, 12 = L, 16 = P. The word is HELP."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/letter-and-symbol-series/"
+}

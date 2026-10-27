@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-symbol-coding",
+  "topicTitle": "Symbol Coding",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "If A = @, B = #, C = $, then CAB is coded as",
+      "options": [
+        "@#$",
+        "$@#",
+        "#@$",
+        "$#@"
+      ],
+      "answerIndex": 1,
+      "explanation": "C = $, A = @, B = #, so CAB = $@#."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "If A = @, B = #, C = $, then the code #$@ stands for",
+      "options": [
+        "BCA",
+        "ABC",
+        "CAB",
+        "BAC"
+      ],
+      "answerIndex": 0,
+      "explanation": "# = B, $ = C, @ = A."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "If + means − and − means +, find the value of 12 + 4 − 2.",
+      "options": [
+        "13",
+        "8",
+        "20",
+        "10"
+      ],
+      "answerIndex": 3,
+      "explanation": "After substitution (+ → −, − → +) the expression becomes 12 − 4 + 2. Evaluating with BODMAS gives 10."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "If × means + and + means ×, find the value of 8 × 5 + 3.",
+      "options": [
+        "26",
+        "21",
+        "23",
+        "46"
+      ],
+      "answerIndex": 2,
+      "explanation": "After substitution (× → +, + → ×) the expression becomes 8 + 5 × 3. Evaluating with BODMAS gives 23."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "If ÷ means + and + means ÷, find the value of 12 ÷ 4 + 2.",
+      "options": [
+        "17",
+        "12",
+        "14",
+        "28"
+      ],
+      "answerIndex": 2,
+      "explanation": "After substitution (÷ → +, + → ÷) the expression becomes 12 + 4 ÷ 2. Evaluating with BODMAS gives 14."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "If ÷ means × and × means ÷, find the value of 9 ÷ 3 × 2.",
+      "options": [
+        "16.5",
+        "13.5",
+        "11.5",
+        "27"
+      ],
+      "answerIndex": 1,
+      "explanation": "After substitution (÷ → ×, × → ÷) the expression becomes 9 × 3 ÷ 2. Evaluating with BODMAS gives 13.5."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "If + means ×, − means ÷, × means + and ÷ means −, find the value of 12 − 4 × 3 + 2 ÷ 1.",
+      "options": [
+        "8",
+        "11",
+        "6",
+        "16"
+      ],
+      "answerIndex": 0,
+      "explanation": "After substitution (+ → ×, − → ÷, × → +, ÷ → −) the expression becomes 12 ÷ 4 + 3 × 2 − 1. Evaluating with BODMAS gives 8."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "If + means ×, − means ÷, × means + and ÷ means −, find the value of 20 − 5 × 2 + 4.",
+      "options": [
+        "15",
+        "10",
+        "24",
+        "12"
+      ],
+      "answerIndex": 3,
+      "explanation": "After substitution (+ → ×, − → ÷, × → +, ÷ → −) the expression becomes 20 ÷ 5 + 2 × 4. Evaluating with BODMAS gives 12."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "If + means ×, − means + and × means −, find the value of 6 + 4 − 2 × 1.",
+      "options": [
+        "28",
+        "23",
+        "50",
+        "25"
+      ],
+      "answerIndex": 3,
+      "explanation": "After substitution (+ → ×, − → +, × → −) the expression becomes 6 × 4 + 2 − 1. Evaluating with BODMAS gives 25."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "In a code, \"good morning\" = 24, \"morning sun\" = 45 and \"sun rise\" = 56. The code for \"good sun\" is",
+      "options": [
+        "26",
+        "42",
+        "25",
+        "46"
+      ],
+      "answerIndex": 2,
+      "explanation": "Morning = 4, good = 2, sun = 5, rise = 6. So \"good sun\" = 25."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Letter matrix (code = row number, then column number):\n\n    0 1 2 3 4\n0 | A B C D E\n1 | F G H I J\n2 | K L M N O\n3 | P Q R S T\n4 | U V W X Y\n\nIn the letter matrix, the code for the word HI is",
+      "options": [
+        "13 12",
+        "12 13",
+        "21 22",
+        "12 14"
+      ],
+      "answerIndex": 1,
+      "explanation": "H is in row 1, column 2: 12. I is in row 1, column 3: 13. So HI = 12 13."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Letter matrix (code = row number, then column number):\n\n    0 1 2 3 4\n0 | A B C D E\n1 | F G H I J\n2 | K L M N O\n3 | P Q R S T\n4 | U V W X Y\n\nIn the letter matrix, the code for the letter N is",
+      "options": [
+        "23",
+        "32",
+        "12",
+        "24"
+      ],
+      "answerIndex": 0,
+      "explanation": "N is in row 2, column 3: 23."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Letter matrix (code = row number, then column number):\n\n    0 1 2 3 4\n0 | A B C D E\n1 | F G H I J\n2 | K L M N O\n3 | P Q R S T\n4 | U V W X Y\n\nIn the letter matrix, the code 31 stands for the letter",
+      "options": [
+        "Q",
+        "P",
+        "R",
+        "L"
+      ],
+      "answerIndex": 0,
+      "explanation": "Row 3, column 1 is the letter Q."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "If ÷ means + and + means ÷, find the value of 18 ÷ 3 + 6.",
+      "options": [
+        "21.5",
+        "16.5",
+        "37",
+        "18.5"
+      ],
+      "answerIndex": 3,
+      "explanation": "After substitution (÷ → +, + → ÷) the expression becomes 18 + 3 ÷ 6. Evaluating with BODMAS gives 18.5."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "If + means ×, − means ÷, × means + and ÷ means −, find the value of 15 − 3 × 4 + 2 ÷ 5.",
+      "options": [
+        "11",
+        "6",
+        "8",
+        "16"
+      ],
+      "answerIndex": 2,
+      "explanation": "After substitution (+ → ×, − → ÷, × → +, ÷ → −) the expression becomes 15 ÷ 3 + 4 × 2 − 5. Evaluating with BODMAS gives 8."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "If ÷ means ×, + means − and × means +, find the value of 24 ÷ 6 + 4 × 2.",
+      "options": [
+        "145",
+        "142",
+        "140",
+        "284"
+      ],
+      "answerIndex": 1,
+      "explanation": "After substitution (÷ → ×, + → −, × → +) the expression becomes 24 × 6 − 4 + 2. Evaluating with BODMAS gives 142."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "In a code, \"red apple\" = \"ka lo\", \"green apple\" = \"ma lo\" and \"red rose\" = \"ka ti\". The code for \"green rose\" is",
+      "options": [
+        "ka ma",
+        "ma ti",
+        "lo ti",
+        "ma lo"
+      ],
+      "answerIndex": 1,
+      "explanation": "apple = lo, red = ka, green = ma, rose = ti. So \"green rose\" = \"ma ti\"."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Letter matrix (code = row number, then column number):\n\n    0 1 2 3 4\n0 | A B C D E\n1 | F G H I J\n2 | K L M N O\n3 | P Q R S T\n4 | U V W X Y\n\nIn the letter matrix, the word CODE is coded as",
+      "options": [
+        "02 24 03 04",
+        "03 24 02 04",
+        "02 14 03 04",
+        "20 42 30 40"
+      ],
+      "answerIndex": 0,
+      "explanation": "C = 02, O = 24, D = 03, E = 04. So CODE = 02 24 03 04."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Letter matrix (code = row number, then column number):\n\n    0 1 2 3 4\n0 | A B C D E\n1 | F G H I J\n2 | K L M N O\n3 | P Q R S T\n4 | U V W X Y\n\nIn the letter matrix, the code 12 24 03 stands for the word",
+      "options": [
+        "HOE",
+        "GOD",
+        "HOP",
+        "HOD"
+      ],
+      "answerIndex": 3,
+      "explanation": "12 = H, 24 = O, 03 = D. The word is HOD."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "If + means ×, − means + and × means −, find the value of 10 + 5 − 3 × 2.",
+      "options": [
+        "54",
+        "49",
+        "51",
+        "102"
+      ],
+      "answerIndex": 2,
+      "explanation": "After substitution (+ → ×, − → +, × → −) the expression becomes 10 × 5 + 3 − 2. Evaluating with BODMAS gives 51."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/letter-and-symbol-series/"
+}

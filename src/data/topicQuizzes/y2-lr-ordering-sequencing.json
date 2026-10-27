@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-ordering-sequencing",
+  "topicTitle": "Ordering and Sequencing",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A is taller than B, and B is taller than C. Who is the tallest?",
+      "options": [
+        "B",
+        "A",
+        "C",
+        "Cannot be determined"
+      ],
+      "answerIndex": 1,
+      "explanation": "A > B > C, so A is the tallest."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "P is heavier than Q and R is lighter than Q. Who is the lightest?",
+      "options": [
+        "R",
+        "P",
+        "Q",
+        "Cannot be determined"
+      ],
+      "answerIndex": 0,
+      "explanation": "P > Q > R, so R is the lightest."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Which of these words comes first in dictionary order: Table, Tablet, Tab, Tabby?",
+      "options": [
+        "Tabby",
+        "Table",
+        "Tablet",
+        "Tab"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tab is a prefix of the others and comes first: Tab, Tabby, Table, Tablet."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "If the day after tomorrow is Friday, the day before yesterday was",
+      "options": [
+        "Sunday",
+        "Tuesday",
+        "Monday",
+        "Wednesday"
+      ],
+      "answerIndex": 2,
+      "explanation": "Today is Wednesday. The day before yesterday was Monday."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "If the 5th of a month is a Monday, the 12th of that month is a",
+      "options": [
+        "Tuesday",
+        "Sunday",
+        "Monday",
+        "Saturday"
+      ],
+      "answerIndex": 2,
+      "explanation": "12 − 5 = 7 days later, the same weekday."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Which is the correct order of the life cycle of a butterfly?",
+      "options": [
+        "Egg, pupa, larva, adult",
+        "Egg, larva, pupa, adult",
+        "Larva, egg, pupa, adult",
+        "Egg, adult, larva, pupa"
+      ],
+      "answerIndex": 1,
+      "explanation": "A butterfly develops from an egg to a larva (caterpillar), then a pupa, then an adult."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A is taller than B. C is shorter than B but taller than D. E is the tallest. The second tallest is",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answerIndex": 0,
+      "explanation": "E > A > B > C > D, so A is second."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "P is richer than Q, R is richer than P and S is poorer than Q. The second richest is",
+      "options": [
+        "Q",
+        "R",
+        "S",
+        "P"
+      ],
+      "answerIndex": 3,
+      "explanation": "R > P > Q > S, so P is second."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Arrange Planet, Plane, Plant and Plain in dictionary order. The third word is",
+      "options": [
+        "Plain",
+        "Plane",
+        "Plant",
+        "Planet"
+      ],
+      "answerIndex": 3,
+      "explanation": "Plain, Plane, Planet, Plant. The third is Planet."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Arrange: 1. Bath 2. Wake up 3. Breakfast 4. Go to school. The correct order is",
+      "options": [
+        "1, 2, 3, 4",
+        "2, 3, 1, 4",
+        "2, 1, 3, 4",
+        "3, 2, 1, 4"
+      ],
+      "answerIndex": 2,
+      "explanation": "Wake up, bath, breakfast, go to school."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A is older than B, C is younger than B and D is older than A. The youngest is",
+      "options": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "answerIndex": 1,
+      "explanation": "D > A > B > C. C is the youngest."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "If the day before yesterday was Thursday, tomorrow will be",
+      "options": [
+        "Sunday",
+        "Friday",
+        "Saturday",
+        "Monday"
+      ],
+      "answerIndex": 0,
+      "explanation": "Today is Saturday, so tomorrow is Sunday."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "D is taller than E but shorter than A. B is taller than A. C is shorter than E. The person in the middle by height is",
+      "options": [
+        "D",
+        "A",
+        "E",
+        "B"
+      ],
+      "answerIndex": 0,
+      "explanation": "B > A > D > E > C. The middle (third) is D."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Arrange Cat, Cart, Car and Cab in dictionary order. The last word is",
+      "options": [
+        "Cab",
+        "Car",
+        "Cart",
+        "Cat"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cab, Car, Cart, Cat."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A is faster than B, C is slower than D, B is faster than D and E is faster than A. The third fastest is",
+      "options": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "answerIndex": 2,
+      "explanation": "E > A > B > D > C. The third is B."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "1 January 2021 was a Friday. 1 March 2021 was a",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "answerIndex": 1,
+      "explanation": "Days between = 31 + 28 = 59, which leaves 3 when divided by 7. Friday + 3 = Monday."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Heights: A = 150 cm, B = 165 cm, C = 158 cm, D = 160 cm, E = 170 cm. Arranged in increasing order, D is at position",
+      "options": [
+        "second",
+        "third",
+        "fourth",
+        "fifth"
+      ],
+      "answerIndex": 1,
+      "explanation": "A 150, C 158, D 160, B 165, E 170. D is third."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "P is heavier than Q and R. S is lighter than Q but heavier than T. T is heavier than R. The second lightest is",
+      "options": [
+        "T",
+        "S",
+        "R",
+        "Q"
+      ],
+      "answerIndex": 0,
+      "explanation": "P > Q > S > T > R. The second lightest is T."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Arranged in decreasing order of size: Village, District, State, Country, Continent. The third is",
+      "options": [
+        "Country",
+        "District",
+        "Continent",
+        "State"
+      ],
+      "answerIndex": 3,
+      "explanation": "Continent > Country > State > District > Village. The third is State."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "15 August 2024 was a Thursday. 26 August 2024 was a",
+      "options": [
+        "Sunday",
+        "Tuesday",
+        "Monday",
+        "Saturday"
+      ],
+      "answerIndex": 2,
+      "explanation": "11 days later; 11 leaves 4 when divided by 7. Thursday + 4 = Monday."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/logical-sequence-of-words/"
+}

@@ -169,7 +169,7 @@
         "9, 12, 16"
       ],
       "answerIndex": 0,
-      "explanation": "7² + 24² = 49 + 576 = 625 = 25²."
+      "explanation": "The set 7, 24, 25 works because 7² + 24² = 49 + 576 = 625 = 25²."
     },
     {
       "id": 14,

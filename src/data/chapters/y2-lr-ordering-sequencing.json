@@ -1,0 +1,442 @@
+{
+  "id": "y2-lr-ordering-sequencing",
+  "yearId": 2,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 25,
+  "title": "Ordering and Sequencing",
+  "tagline": "Year 2 — Ranking by comparisons, dictionary order, logical sequences and day problems",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Ordering questions give you a few comparisons (A is taller than B; C is lighter than D) and ask who is tallest, lightest or in the middle. Sequencing questions ask you to arrange words in dictionary order, in a logical order (stages of a process, units of size) or by the day of the week. The key skill is to combine the comparisons into one ordered line and to read the answer from it.",
+    "placementRelevance": "Ordering and sequencing questions are commonly asked in company reasoning rounds. They are quick if you build the full line before answering.",
+    "realWorldContext": "Ranking candidates, scheduling events, ordering steps in a process and calendar calculations use these methods."
+  },
+  "learningObjectives": [
+    "Combine several comparisons into a single ordered line",
+    "Identify the highest, lowest, nth and middle person",
+    "Arrange words in dictionary order and logical order",
+    "Solve day-of-the-week and calendar problems",
+    "Detect when the information is insufficient"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Ranking and Position Basics",
+      "Alphabetical Reasoning"
+    ],
+    "quickRefresher": "The seven days repeat every 7 days; dividing a number of days by 7 gives the remainder shift. Dictionary order compares letters left to right."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Order: the arrangement of items by a property such as height, age, weight or speed.",
+      "Transitivity: if A > B and B > C then A > C.",
+      "Dictionary (alphabetical) order: compare the first letters, then the second, and so on; a shorter word that is the start of a longer one comes first.",
+      "Logical sequence: arrangement by natural order of stages (seed, plant, flower, fruit) or size (village, district, state).",
+      "Odd days: remainder when the number of days is divided by 7."
+    ],
+    "theoreticalIntuition": "Each comparison is a link in a chain. Join the links wherever they share a person, and you get a single line. If two pieces cannot be joined, the order between them is undetermined.",
+    "visualOrMentalModel": "Write the comparisons as symbols (A > B). Combine them into one line from highest to lowest. Then read off whichever position the question asks."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Chaining comparisons",
+      "formula": "A > B and B > C ⇒ A > B > C",
+      "description": "Transitivity.",
+      "whenToUse": "Ordering questions.",
+      "simpleExample": "E > A > B > C > D"
+    },
+    {
+      "title": "Position in the line",
+      "formula": "nth from the top = (total − n + 1)th from the bottom",
+      "description": "Counting from either end.",
+      "whenToUse": "nth tallest, nth shortest.",
+      "simpleExample": "2nd tallest of 5 = 4th shortest"
+    },
+    {
+      "title": "Dictionary order",
+      "formula": "Compare letter by letter; shorter prefix first",
+      "description": "Left to right.",
+      "whenToUse": "Alphabetical arrangement.",
+      "simpleExample": "Tab, Tabby, Table, Tablet"
+    },
+    {
+      "title": "Odd days",
+      "formula": "Days later = number of days mod 7",
+      "description": "Add to the weekday.",
+      "whenToUse": "Calendar problems.",
+      "simpleExample": "59 days → 3 odd days"
+    },
+    {
+      "title": "Logical sequences",
+      "formula": "Order by size, time or process",
+      "description": "Use natural order.",
+      "whenToUse": "Word sequences.",
+      "simpleExample": "Village < District < State < Country < Continent"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Write each comparison as a symbol and chain them. A taller than B, C shorter than B but taller than D, and E the tallest gives E > A > B > C > D. The second tallest is A, the middle person is B.",
+      "If a piece does not connect, the order is not determined. If you know only A > B and C > D, you cannot compare A with C. A good question will always give enough links for the asked position.",
+      "For dictionary order, compare the first letters, then the second letters and so on. A shorter word that is the start of a longer word comes first. So Tab, Tabby, Table, Tablet is the correct order.",
+      "For days of the week, find the number of days between the dates, divide by 7 and add the remainder to the weekday. If 15 August is a Thursday, 26 August is 11 days later; 11 mod 7 = 4, and Thursday + 4 days is Monday. January has 31 days and February 28, so 1 March is 59 days after 1 January, a shift of 3 days.",
+      "For logical sequences, use the natural order: egg, larva, pupa, adult; village, district, state, country, continent. Decide whether the question asks for the order by size, time or process."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Insufficient data",
+        "content": "If the comparisons do not link everything, the question may be unanswerable. In exams, the option \"cannot be determined\" is usually present for this case."
+      },
+      {
+        "title": "Leap years",
+        "content": "In a leap year February has 29 days. A leap year has 366 days, which is 2 odd days."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Height, weight, age comparisons",
+      "description": "Chain the symbols.",
+      "exampleSnippet": "A > B, C < B"
+    },
+    {
+      "typeName": "Position in the line",
+      "description": "nth from the top.",
+      "exampleSnippet": "2nd tallest"
+    },
+    {
+      "typeName": "Dictionary order",
+      "description": "Alphabetical.",
+      "exampleSnippet": "Cat, Cart, Car, Cab"
+    },
+    {
+      "typeName": "Day and date problems",
+      "description": "Odd days.",
+      "exampleSnippet": "15 Aug is Thursday"
+    },
+    {
+      "typeName": "Logical sequences",
+      "description": "Size or time.",
+      "exampleSnippet": "Egg, larva, pupa, adult"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-ordering-sequencing-1",
+      "title": "Chaining comparisons",
+      "question": "A is taller than B. C is shorter than B but taller than D. E is the tallest. Who is the second tallest?",
+      "givenInfo": [
+        "A > B",
+        "B > C > D",
+        "E tallest"
+      ],
+      "conceptOrFormula": "Chain into one line.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Combine",
+          "explanation": "A > B > C > D."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Add E",
+          "explanation": "E > A > B > C > D."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Second tallest",
+          "explanation": "A."
+        }
+      ],
+      "finalAnswer": "A",
+      "whyItWorks": "E is first, so the second is the tallest of the rest.",
+      "commonTrap": "Choosing B.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-ordering-sequencing-2",
+      "title": "Dictionary order",
+      "question": "Arrange Cat, Cart, Car and Cab in dictionary order. Which comes last?",
+      "givenInfo": [
+        "Cat, Cart, Car, Cab"
+      ],
+      "conceptOrFormula": "Compare letter by letter.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Common start",
+          "explanation": "All start with C. Second letter a."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Third letters",
+          "explanation": "b < r < r < t, so Cab first, then Car and Cart, and Cat last."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Car vs Cart",
+          "explanation": "Car is a prefix of Cart, so Car comes first."
+        }
+      ],
+      "finalAnswer": "Cat",
+      "whyItWorks": "Order: Cab, Car, Cart, Cat.",
+      "commonTrap": "Treating Cart as before Car.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-ordering-sequencing-3",
+      "title": "Day of the week",
+      "question": "1 January 2021 was a Friday. What day was 1 March 2021?",
+      "givenInfo": [
+        "Jan 31 days, Feb 28 days"
+      ],
+      "conceptOrFormula": "Odd days.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Days between",
+          "explanation": "31 + 28 = 59 days."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Remainder",
+          "explanation": "59 ÷ 7 leaves 3."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Weekday",
+          "explanation": "Friday + 3 = Monday."
+        }
+      ],
+      "finalAnswer": "Monday",
+      "whyItWorks": "2021 is not a leap year.",
+      "commonTrap": "Counting February as 29 days.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Symbol line",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Reason in words each time.",
+      "shortcutMethod": "Write each statement as a > b, chain them into one line, and count positions."
+    },
+    "rulesForApplication": [
+      "Chain through common names.",
+      "Dictionary: prefix first.",
+      "Days: remainder of days ÷ 7.",
+      "Check enough data exists."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reversing the order",
+      "whyItHappens": "Reading \"taller\" as \"shorter\".",
+      "howToAvoid": "Write symbols."
+    },
+    {
+      "mistake": "Skipping a link",
+      "whyItHappens": "Missing a comparison.",
+      "howToAvoid": "Use every statement."
+    },
+    {
+      "mistake": "Wrong odd days",
+      "whyItHappens": "Forgetting the month length.",
+      "howToAvoid": "Count carefully."
+    },
+    {
+      "mistake": "Ignoring ties",
+      "whyItHappens": "Assuming strict order.",
+      "howToAvoid": "Read for \"same as\"."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 50,
+    "eliminationTechnique": "Test options against every given comparison.",
+    "questionSelectionAdvice": "Build the whole line first.",
+    "recruiterInsight": "Calendar questions use odd days."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-ordering-sequencing-e1",
+        "question": "A is taller than B, and B is taller than C. Who is the tallest?",
+        "options": [
+          "B",
+          "A",
+          "C",
+          "Cannot be determined"
+        ],
+        "correctAnswer": "A",
+        "explanation": "A > B > C, so A is the tallest.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-ordering-sequencing-e2",
+        "question": "P is heavier than Q and R is lighter than Q. Who is the lightest?",
+        "options": [
+          "R",
+          "P",
+          "Q",
+          "Cannot be determined"
+        ],
+        "correctAnswer": "R",
+        "explanation": "P > Q > R, so R is the lightest.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-ordering-sequencing-e3",
+        "question": "Which of these words comes first in dictionary order: Table, Tablet, Tab, Tabby?",
+        "options": [
+          "Tabby",
+          "Table",
+          "Tablet",
+          "Tab"
+        ],
+        "correctAnswer": "Tab",
+        "explanation": "Tab is a prefix of the others and comes first: Tab, Tabby, Table, Tablet.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-ordering-sequencing-i7",
+        "question": "A is taller than B. C is shorter than B but taller than D. E is the tallest. The second tallest is",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctAnswer": "A",
+        "explanation": "E > A > B > C > D, so A is second.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-ordering-sequencing-i8",
+        "question": "P is richer than Q, R is richer than P and S is poorer than Q. The second richest is",
+        "options": [
+          "Q",
+          "R",
+          "S",
+          "P"
+        ],
+        "correctAnswer": "P",
+        "explanation": "R > P > Q > S, so P is second.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-ordering-sequencing-i9",
+        "question": "Arrange Planet, Plane, Plant and Plain in dictionary order. The third word is",
+        "options": [
+          "Plain",
+          "Plane",
+          "Plant",
+          "Planet"
+        ],
+        "correctAnswer": "Planet",
+        "explanation": "Plain, Plane, Planet, Plant. The third is Planet.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-ordering-sequencing-a15",
+        "question": "A is faster than B, C is slower than D, B is faster than D and E is faster than A. The third fastest is",
+        "options": [
+          "A",
+          "D",
+          "B",
+          "C"
+        ],
+        "correctAnswer": "B",
+        "explanation": "E > A > B > D > C. The third is B.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-ordering-sequencing-a16",
+        "question": "1 January 2021 was a Friday. 1 March 2021 was a",
+        "options": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday"
+        ],
+        "correctAnswer": "Monday",
+        "explanation": "Days between = 31 + 28 = 59, which leaves 3 when divided by 7. Friday + 3 = Monday.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-ordering-sequencing-p17",
+        "question": "Heights: A = 150 cm, B = 165 cm, C = 158 cm, D = 160 cm, E = 170 cm. Arranged in increasing order, D is at position",
+        "options": [
+          "second",
+          "third",
+          "fourth",
+          "fifth"
+        ],
+        "correctAnswer": "third",
+        "explanation": "A 150, C 158, D 160, B 165, E 170. D is third.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-ordering-sequencing-p18",
+        "question": "P is heavier than Q and R. S is lighter than Q but heavier than T. T is heavier than R. The second lightest is",
+        "options": [
+          "T",
+          "S",
+          "R",
+          "Q"
+        ],
+        "correctAnswer": "T",
+        "explanation": "P > Q > S > T > R. The second lightest is T.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-ordering-sequencing-p19",
+        "question": "Arranged in decreasing order of size: Village, District, State, Country, Continent. The third is",
+        "options": [
+          "Country",
+          "District",
+          "Continent",
+          "State"
+        ],
+        "correctAnswer": "State",
+        "explanation": "Continent > Country > State > District > Village. The third is State.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Chain comparisons.",
+      "nth from top.",
+      "Dictionary order.",
+      "Odd days.",
+      "Logical sequences."
+    ],
+    "quickFormulas": [
+      "n-th from top = (N − n + 1)-th from bottom",
+      "Days mod 7"
+    ]
+  },
+  "keyTakeaways": [
+    "One line.",
+    "Symbols.",
+    "Odd days.",
+    "Check data."
+  ],
+  "selfCheckQuestions": [
+    "Can I chain five comparisons?",
+    "Can I arrange words alphabetically?",
+    "Can I find a weekday?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Ranking, order and calendar topic areas; examples are original."
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-venn-diagrams",
+  "topicTitle": "Venn Diagrams",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "In a class of 40, 25 like tea, 20 like coffee and 10 like both. The number who like neither is",
+      "options": [
+        "10",
+        "5",
+        "15",
+        "0"
+      ],
+      "answerIndex": 1,
+      "explanation": "At least one = 25 + 20 − 10 = 35. Neither = 40 − 35 = 5."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Which diagram best represents Cats, Dogs and Animals?",
+      "options": [
+        "Two separate circles inside a bigger circle",
+        "Three overlapping circles",
+        "Three separate circles",
+        "One circle inside another, with a third outside"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cats and Dogs are different classes, and both are inside Animals."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "If n(A) = 30, n(B) = 20 and n(A ∩ B) = 8, then n(A ∪ B) is",
+      "options": [
+        "50",
+        "58",
+        "22",
+        "42"
+      ],
+      "answerIndex": 3,
+      "explanation": "30 + 20 − 8 = 42."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Of 100 students, 60 play cricket and 50 play football. If every student plays at least one game, the number who play both is",
+      "options": [
+        "5",
+        "15",
+        "10",
+        "20"
+      ],
+      "answerIndex": 2,
+      "explanation": "60 + 50 − both = 100, so both = 10."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "In a group of 50, 30 speak French, 25 speak German and 5 speak neither. The number who speak both is",
+      "options": [
+        "5",
+        "15",
+        "10",
+        "20"
+      ],
+      "answerIndex": 2,
+      "explanation": "At least one = 45. 30 + 25 − both = 45, so both = 10."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "If n(A) = 30 and n(A ∩ B) = 8, then the number in A only is",
+      "options": [
+        "8",
+        "22",
+        "38",
+        "18"
+      ],
+      "answerIndex": 1,
+      "explanation": "30 − 8 = 22."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play at least one of the three sports?",
+      "options": [
+        "87",
+        "90",
+        "100",
+        "85"
+      ],
+      "answerIndex": 0,
+      "explanation": "45 + 40 + 30 − 15 − 10 − 8 + 5 = 87."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play none of the three sports?",
+      "options": [
+        "10",
+        "15",
+        "17",
+        "13"
+      ],
+      "answerIndex": 3,
+      "explanation": "100 − 87 = 13."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play cricket only?",
+      "options": [
+        "22",
+        "30",
+        "15",
+        "27"
+      ],
+      "answerIndex": 3,
+      "explanation": "45 − 15 − 8 + 5 = 27."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play exactly two of the three sports?",
+      "options": [
+        "33",
+        "23",
+        "18",
+        "28"
+      ],
+      "answerIndex": 2,
+      "explanation": "15 + 10 + 8 − 3 × 5 = 18."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play at least two of the three sports?",
+      "options": [
+        "18",
+        "23",
+        "28",
+        "33"
+      ],
+      "answerIndex": 1,
+      "explanation": "Exactly two (18) + all three (5) = 23."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "In a class of 60, 35 take Maths, 30 take Physics and 15 take both. The number taking only Physics is",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "10"
+      ],
+      "answerIndex": 0,
+      "explanation": "30 − 15 = 15."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "In a class of 60, 35 take Maths, 30 take Physics and 15 take both. The number taking neither is",
+      "options": [
+        "10",
+        "5",
+        "15",
+        "20"
+      ],
+      "answerIndex": 0,
+      "explanation": "At least one = 50. Neither = 10."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Which diagram best represents Women, Mothers and Doctors?",
+      "options": [
+        "Three separate circles",
+        "Three concentric circles",
+        "Women and Doctors disjoint",
+        "Mothers inside Women; Doctors overlapping both partly"
+      ],
+      "answerIndex": 3,
+      "explanation": "Every mother is a woman, and doctors may or may not be women or mothers, so Doctors overlap partly."
+    },
+    {
+      "id": 15,
+      "difficulty": "medium",
+      "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play football only?",
+      "options": [
+        "15",
+        "20",
+        "20",
+        "25"
+      ],
+      "answerIndex": 2,
+      "explanation": "40 − 15 − 10 + 5 = 20."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play exactly one of the three sports?",
+      "options": [
+        "45",
+        "64",
+        "55",
+        "60"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cricket only 27, football only 20, hockey only 30 − 8 − 10 + 5 = 17. Total = 27 + 20 + 17 = 64."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "In a school, 70% like cricket, 60% like football and 10% like neither. The percentage who like both is",
+      "options": [
+        "30",
+        "40",
+        "50",
+        "60"
+      ],
+      "answerIndex": 1,
+      "explanation": "At least one = 90%. 70 + 60 − both = 90, so both = 40%."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Of 120 people, 70 like tea, 50 like coffee and 30 like both. The number who like exactly one is",
+      "options": [
+        "60",
+        "50",
+        "70",
+        "100"
+      ],
+      "answerIndex": 0,
+      "explanation": "Only tea = 40 and only coffee = 20. Exactly one = 60."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "In a group, 40 people read The Hindu, 35 read Deccan Chronicle and 20 read both. If 25 read neither, the group size is",
+      "options": [
+        "75",
+        "95",
+        "120",
+        "80"
+      ],
+      "answerIndex": 3,
+      "explanation": "At least one = 55. Group = 55 + 25 = 80."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "If n(A ∪ B) = 70, n(A) = 45 and n(B) = 40, then n(A ∩ B) is",
+      "options": [
+        "10",
+        "20",
+        "15",
+        "25"
+      ],
+      "answerIndex": 2,
+      "explanation": "70 = 45 + 40 − n(A ∩ B), so n(A ∩ B) = 15."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/venn-diagrams/"
+}

@@ -1,0 +1,445 @@
+{
+  "id": "y2-lr-complex-direction",
+  "yearId": 2,
+  "category": "Data Interpretation",
+  "topicNumber": 24,
+  "title": "Complex Direction Sense",
+  "tagline": "Year 2 — Multi-turn paths, diagonal directions, bearings and relative positions",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Complex direction questions use paths with many turns, turns through angles other than 90°, diagonal directions (North-east, South-west), shadows and the relative positions of several people or places. The method of Year 1 still works: keep running totals of East–West and North–South displacement, track the direction faced after each turn, and finish with Pythagoras and the compass direction.",
+    "placementRelevance": "Direction sense questions with several turns and diagonal directions are commonly asked in company reasoning rounds.",
+    "realWorldContext": "Navigation, drone flight plans, surveying and delivery routing use these same displacement calculations."
+  },
+  "learningObjectives": [
+    "Track the facing direction through several turns, including 45° and 135° turns",
+    "Compute net displacement and the straight-line distance",
+    "Find the compass direction of the final point from the start",
+    "Handle relative positions of several points",
+    "Use shadow facts in turning problems"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Direction Sense Basics",
+      "Pythagoras theorem"
+    ],
+    "quickRefresher": "Eight directions in clockwise order: N, NE, E, SE, S, SW, W, NW (45° apart). Right turn = clockwise, left turn = anticlockwise. Common triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Bearing: direction measured clockwise from North (N = 0°, E = 90°, S = 180°, W = 270°).",
+      "Displacement: straight-line distance and direction from the start to the end.",
+      "Intermediate directions: NE (45°), SE (135°), SW (225°), NW (315°).",
+      "Relative position: the direction of one point as seen from another.",
+      "Shadow: falls opposite to the sun (west in the morning, east in the evening)."
+    ],
+    "theoreticalIntuition": "Everything reduces to coordinates. Treat East as +x and North as +y. Each leg adds to x or y. After all legs, the straight-line distance is √(x² + y²) and the direction comes from the signs of x and y.",
+    "visualOrMentalModel": "Write the facing direction as a bearing and add the turn angle (clockwise positive). After each leg, update x and y. Use a quick sketch with North at the top."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Turning",
+      "formula": "New bearing = old bearing ± turn angle (right +, left −)",
+      "description": "Wrap around 360°.",
+      "whenToUse": "Multi-turn questions.",
+      "simpleExample": "NE (45°) + 90° = SE (135°)"
+    },
+    {
+      "title": "Displacement",
+      "formula": "x = East − West;  y = North − South",
+      "description": "Net totals.",
+      "whenToUse": "Distance from the start.",
+      "simpleExample": "N3, E5, N9 → (5, 12)"
+    },
+    {
+      "title": "Straight-line distance",
+      "formula": "d = √(x² + y²)",
+      "description": "Pythagoras.",
+      "whenToUse": "Distance questions.",
+      "simpleExample": "√(25 + 144) = 13"
+    },
+    {
+      "title": "Direction from the start",
+      "formula": "Signs of (x, y) decide the quadrant",
+      "description": "+x East, −x West, +y North, −y South.",
+      "whenToUse": "Final direction.",
+      "simpleExample": "(5, 12) → North-east"
+    },
+    {
+      "title": "Relative position of two points",
+      "formula": "Subtract their coordinates",
+      "description": "Direction from the first to the second.",
+      "whenToUse": "Two-point questions.",
+      "simpleExample": "A (6, 8), B (−6, −8) → distance 20"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Draw the path with North at the top. After each leg, write the facing direction. A man facing North who walks 10 m, turns right and walks 5 m, then turns right again and walks 10 m, is now 5 m East of his start (facing South).",
+      "For 45° and 135° turns, use bearings. North-east is 45°, and a 90° clockwise turn from it gives 135° (South-east). A further 180° gives 315° (North-west), and a 45° anticlockwise turn from there gives 270° (West).",
+      "For displacement, add the legs on each axis. A walk of 3 km North, 5 km East, then 9 km North ends at (5, 12), so the distance is √(25 + 144) = 13 km and the direction is North-east.",
+      "For relative positions, set one point as the origin. If A is 5 m east of B and C is 5 m north of A, then C is at (5, 5) from B, so C is North-east of B.",
+      "For shadow questions, the shadow falls opposite to the sun. In the morning the sun is in the east, so a boy facing the sun faces East. If he turns left he faces North, and his shadow, which falls to the West, is on his left."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Distance walked vs displacement",
+        "content": "The path of a walker may be long, but the displacement is the straight-line distance. Read the question carefully for which one is asked."
+      },
+      {
+        "title": "Opposite directions in coordinates",
+        "content": "A move of 10 m West followed by 10 m East cancels. Use cancellation to shorten sums."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Absolute legs",
+      "description": "N, E, S, W legs.",
+      "exampleSnippet": "N6, E8"
+    },
+    {
+      "typeName": "Relative turns",
+      "description": "Left and right turns.",
+      "exampleSnippet": "Facing N: F10, R, F5, R, F10"
+    },
+    {
+      "typeName": "45° turns",
+      "description": "Bearings.",
+      "exampleSnippet": "NE turned 90° clockwise"
+    },
+    {
+      "typeName": "Two persons",
+      "description": "Distance between them.",
+      "exampleSnippet": "A: N8, E6; B: W6, S8"
+    },
+    {
+      "typeName": "Shadow",
+      "description": "Sun direction.",
+      "exampleSnippet": "Boy turns left from facing the sun"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-complex-direction-1",
+      "title": "Multi-leg path",
+      "question": "A man walks 3 km North, then 5 km East, then 9 km North. How far is he from the start and in which direction?",
+      "givenInfo": [
+        "N3, E5, N9"
+      ],
+      "conceptOrFormula": "Net coordinates.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Add north legs",
+          "explanation": "3 + 9 = 12 km North."
+        },
+        {
+          "stepNumber": 2,
+          "title": "East",
+          "explanation": "5 km East."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Distance",
+          "explanation": "√(5² + 12²) = 13 km."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Direction",
+          "explanation": "North-east."
+        }
+      ],
+      "finalAnswer": "13 km North-east",
+      "whyItWorks": "5-12-13 is a Pythagorean triple.",
+      "commonTrap": "Adding 3 + 5 + 9 = 17.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-complex-direction-2",
+      "title": "Turns with relative directions",
+      "question": "Facing North, a man walks 10 km, turns right and walks 5 km, then turns right again and walks 10 km. How far is he from the start and in which direction?",
+      "givenInfo": [
+        "F10, R, F5, R, F10"
+      ],
+      "conceptOrFormula": "Track the facing direction.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "F10 North",
+          "explanation": "(0, 10)."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Right → East, F5",
+          "explanation": "(5, 10)."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Right → South, F10",
+          "explanation": "(5, 0)."
+        }
+      ],
+      "finalAnswer": "5 km East",
+      "whyItWorks": "The two north-south legs cancel.",
+      "commonTrap": "Assuming he returns to the start.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-complex-direction-3",
+      "title": "Turns through 45°",
+      "question": "A person facing North-east turns 90° clockwise, then 180° and then 45° anticlockwise. Which direction does he face now?",
+      "givenInfo": [
+        "Start NE (45°)"
+      ],
+      "conceptOrFormula": "Add and subtract bearings.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "+90°",
+          "explanation": "45° + 90° = 135° (South-east)."
+        },
+        {
+          "stepNumber": 2,
+          "title": "+180°",
+          "explanation": "135° + 180° = 315° (North-west)."
+        },
+        {
+          "stepNumber": 3,
+          "title": "−45°",
+          "explanation": "315° − 45° = 270° (West)."
+        }
+      ],
+      "finalAnswer": "West",
+      "whyItWorks": "Each turn changes the bearing by its angle.",
+      "commonTrap": "Turning the wrong way for anticlockwise.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Bearings and coordinates",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Draw and measure each leg.",
+      "shortcutMethod": "Convert directions to bearings and legs to (x, y) additions. Use triples for distances."
+    },
+    "rulesForApplication": [
+      "Right = +, left = −.",
+      "East +x, North +y.",
+      "Distance √(x² + y²).",
+      "Shadow is opposite the sun."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Mixing left and right",
+      "whyItHappens": "Turning the wrong way.",
+      "howToAvoid": "Write the facing direction after every turn."
+    },
+    {
+      "mistake": "Adding all distances",
+      "whyItHappens": "Using total path length.",
+      "howToAvoid": "Use net displacement."
+    },
+    {
+      "mistake": "Wrong quadrant",
+      "whyItHappens": "Misreading signs.",
+      "howToAvoid": "Check each sign."
+    },
+    {
+      "mistake": "Forgetting 45° steps",
+      "whyItHappens": "Treating NE as N or E.",
+      "howToAvoid": "Use bearings."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 70,
+    "eliminationTechnique": "Eliminate options in the wrong quadrant.",
+    "questionSelectionAdvice": "Sketch every time.",
+    "recruiterInsight": "Triples give quick distances."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-complex-direction-e1",
+        "question": "A man walks 6 km North and then 8 km East. How far is he from the start, and in which direction?",
+        "options": [
+          "12 km North-east",
+          "10 km North-east",
+          "10 km North-west",
+          "10 km South-east"
+        ],
+        "correctAnswer": "10 km North-east",
+        "explanation": "Net position (x East, y North) = (8, 6). Distance = 10 km, direction North-east. The answer is 10 km North-east.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-complex-direction-e2",
+        "question": "A man walks 12 km East and then 5 km South. How far is he from the start, and in which direction?",
+        "options": [
+          "13 km South-east",
+          "15 km South-east",
+          "13 km South-west",
+          "13 km North-east"
+        ],
+        "correctAnswer": "13 km South-east",
+        "explanation": "Net position (x East, y North) = (12, -5). Distance = 13 km, direction South-east. The answer is 13 km South-east.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-complex-direction-e3",
+        "question": "A man walks 15 km West and then 20 km North. How far is he from the start, and in which direction?",
+        "options": [
+          "27 km North-west",
+          "25 km North-east",
+          "25 km South-west",
+          "25 km North-west"
+        ],
+        "correctAnswer": "25 km North-west",
+        "explanation": "Net position (x East, y North) = (-15, 20). Distance = 25 km, direction North-west. The answer is 25 km North-west.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-complex-direction-i7",
+        "question": "A man faces North, walks 10 km, turns right and walks 5 km, then turns right and walks 10 km. How far is he from the start, and in which direction?",
+        "options": [
+          "5 km East",
+          "7 km East",
+          "5 km West",
+          "5 km North-east"
+        ],
+        "correctAnswer": "5 km East",
+        "explanation": "Net position (x East, y North) = (5, 0). Distance = 5 km, direction East. The answer is 5 km East.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-complex-direction-i8",
+        "question": "A man faces East, walks 6 km, turns left and walks 8 km. How far is he from the start, and in which direction?",
+        "options": [
+          "12 km North-east",
+          "10 km North-west",
+          "10 km South-east",
+          "10 km North-east"
+        ],
+        "correctAnswer": "10 km North-east",
+        "explanation": "Net position (x East, y North) = (6, 8). Distance = 10 km, direction North-east. The answer is 10 km North-east.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-complex-direction-i9",
+        "question": "A man faces North, walks 20 km, turns left and walks 15 km, turns left and walks 20 km, then turns left and walks 5 km. How far is he from the start, and in which direction?",
+        "options": [
+          "12 km West",
+          "10 km East",
+          "10 km North-west",
+          "10 km West"
+        ],
+        "correctAnswer": "10 km West",
+        "explanation": "Net position (x East, y North) = (-10, 0). Distance = 10 km, direction West. The answer is 10 km West.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-complex-direction-a15",
+        "question": "A man walks 3 km North, then 5 km East, then 9 km North. How far is he from the start, and in which direction?",
+        "options": [
+          "15 km North-east",
+          "13 km North-west",
+          "13 km North-east",
+          "13 km South-east"
+        ],
+        "correctAnswer": "13 km North-east",
+        "explanation": "Net position (x East, y North) = (5, 12). Distance = 13 km, direction North-east. The answer is 13 km North-east.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-complex-direction-a16",
+        "question": "A person facing North-east turns 90° clockwise, then 180°, then 45° anticlockwise. He now faces",
+        "options": [
+          "East",
+          "West",
+          "North",
+          "South"
+        ],
+        "correctAnswer": "West",
+        "explanation": "NE (45°) + 90° = SE (135°); + 180° = NW (315°); − 45° = W (270°).",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-complex-direction-p17",
+        "question": "A man walks 10 km West, then 10 km South, then 10 km East. How far is he from the start, and in which direction?",
+        "options": [
+          "12 km South",
+          "10 km South",
+          "10 km South-east",
+          "10 km North"
+        ],
+        "correctAnswer": "10 km South",
+        "explanation": "Net position (x East, y North) = (0, -10). Distance = 10 km, direction South. The answer is 10 km South.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-complex-direction-p18",
+        "question": "A walks 8 km North then 6 km East. B starts from the same point and walks 6 km West then 8 km South. The distance between A and B is (km)",
+        "options": [
+          "20",
+          "14",
+          "28",
+          "10"
+        ],
+        "correctAnswer": "20",
+        "explanation": "A = (6, 8) and B = (−6, −8). Difference (12, 16). Distance = √(144 + 256) = 20 km.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-complex-direction-p19",
+        "question": "Rohit's school is 500 m North of his home and the park is 1200 m East of the school. The straight-line distance from his home to the park is (m)",
+        "options": [
+          "1700",
+          "1100",
+          "1200",
+          "1300"
+        ],
+        "correctAnswer": "1300",
+        "explanation": "Distance = √(500² + 1200²) = 100 × √(25 + 144) = 1300 m.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Bearings.",
+      "Net x, y.",
+      "d = √(x² + y²).",
+      "Direction from signs.",
+      "Shadow opposite the sun."
+    ],
+    "quickFormulas": [
+      "d = √(x² + y²)",
+      "NE = 45°"
+    ]
+  },
+  "keyTakeaways": [
+    "Coordinates.",
+    "Track facing.",
+    "Check signs.",
+    "Triples."
+  ],
+  "selfCheckQuestions": [
+    "Can I find displacement after four legs?",
+    "Can I turn NE by 90° clockwise?",
+    "Can I find the direction of C from B?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Direction Sense topic area; examples are original."
+    }
+  ]
+}

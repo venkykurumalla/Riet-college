@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-lr-adv-blood-relations",
+  "topicTitle": "Advanced Blood Relations",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A is the sister of B, and B is the father of C. How is A related to C?",
+      "options": [
+        "Maternal aunt",
+        "Paternal aunt",
+        "Mother",
+        "Cousin"
+      ],
+      "answerIndex": 1,
+      "explanation": "A is the sister of C's father, so A is C's paternal aunt."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A's mother's only brother has a son B. B is A's",
+      "options": [
+        "Cousin",
+        "Brother",
+        "Uncle",
+        "Nephew"
+      ],
+      "answerIndex": 0,
+      "explanation": "The child of one's uncle is a cousin."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "P is the father of Q, Q is the sister of R, and R is the son of S. How is P related to S?",
+      "options": [
+        "Brother",
+        "Father",
+        "Son",
+        "Husband"
+      ],
+      "answerIndex": 3,
+      "explanation": "P is the father of R and S is the mother of R, so P is S's husband."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The husband of my mother's mother is my",
+      "options": [
+        "Paternal grandfather",
+        "Uncle",
+        "Maternal grandfather",
+        "Father-in-law"
+      ],
+      "answerIndex": 2,
+      "explanation": "My mother's mother's husband is my maternal grandfather."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A is the father of B, B is the mother of C, and D is the sister of A. How is D related to C?",
+      "options": [
+        "Aunt",
+        "Mother",
+        "Great-aunt",
+        "Sister"
+      ],
+      "answerIndex": 2,
+      "explanation": "D is the sister of C's mother's father (the grandfather), so D is a great-aunt."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The brother of one's wife is one's",
+      "options": [
+        "Uncle",
+        "Brother-in-law",
+        "Cousin",
+        "Nephew"
+      ],
+      "answerIndex": 1,
+      "explanation": "The wife's brother is the husband's brother-in-law."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Pointing to a boy, Ravi says, \"He is the son of the only son of my grandfather.\" The boy is Ravi's",
+      "options": [
+        "Brother",
+        "Cousin",
+        "Uncle",
+        "Father"
+      ],
+      "answerIndex": 0,
+      "explanation": "The only son of Ravi's grandfather is Ravi's father, so the boy is Ravi's brother."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "If A × B means A is the father of B, A + B means A is the mother of B and A − B means A is the brother of B, then P × Q − R means P is the ___ of R.",
+      "options": [
+        "mother",
+        "brother",
+        "uncle",
+        "father"
+      ],
+      "answerIndex": 3,
+      "explanation": "P is the father of Q, and Q is the brother of R, so P is also the father of R."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "With the same symbols (× father, + mother, − brother), A × B + C means A is the ___ of C.",
+      "options": [
+        "paternal grandfather",
+        "father",
+        "uncle",
+        "maternal grandfather"
+      ],
+      "answerIndex": 3,
+      "explanation": "A is the father of B and B is the mother of C, so A is C's maternal grandfather."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "With the same symbols, A − B × C means A is the ___ of C.",
+      "options": [
+        "maternal uncle",
+        "father",
+        "paternal uncle",
+        "brother"
+      ],
+      "answerIndex": 2,
+      "explanation": "A is the brother of B, and B is the father of C, so A is C's paternal uncle."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "With the same symbols, A + B − C means A is the ___ of C.",
+      "options": [
+        "aunt",
+        "mother",
+        "sister",
+        "grandmother"
+      ],
+      "answerIndex": 1,
+      "explanation": "A is the mother of B, and B is the brother of C, so A is also the mother of C."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A and B are a married couple. C is their only son and D is C's wife. How is A (the husband) related to D?",
+      "options": [
+        "Father-in-law",
+        "Uncle",
+        "Brother-in-law",
+        "Grandfather"
+      ],
+      "answerIndex": 0,
+      "explanation": "A is the father of C, D's husband, so A is D's father-in-law."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A's mother's only brother has a son B and B has a sister C. How is C related to A?",
+      "options": [
+        "Cousin",
+        "Sister",
+        "Aunt",
+        "Niece"
+      ],
+      "answerIndex": 0,
+      "explanation": "B and C are the children of A's maternal uncle, so C is A's cousin."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "P is the brother of Q, Q is the sister of R, and R is the mother of S. P is S's",
+      "options": [
+        "paternal uncle",
+        "father",
+        "cousin",
+        "maternal uncle"
+      ],
+      "answerIndex": 3,
+      "explanation": "P is the brother of R, S's mother. So P is the maternal uncle."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A is the brother of B. B is the father of C. C is the sister of D. D is the son of E. How is A related to E?",
+      "options": [
+        "Uncle",
+        "Father",
+        "Brother-in-law",
+        "Brother"
+      ],
+      "answerIndex": 2,
+      "explanation": "B is D's father and E is D's mother (B's wife). A is B's brother, so A is E's brother-in-law."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "P is a man. Q is the daughter of P's mother's only son. P is Q's",
+      "options": [
+        "uncle",
+        "father",
+        "brother",
+        "grandfather"
+      ],
+      "answerIndex": 1,
+      "explanation": "P's mother's only son is P himself, so Q is P's daughter."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A is a boy. A's mother is the sister of B, and C is B's husband. C is A's",
+      "options": [
+        "father",
+        "uncle",
+        "cousin",
+        "brother"
+      ],
+      "answerIndex": 1,
+      "explanation": "B is A's maternal aunt, and her husband C is A's uncle."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The father of my mother's only brother's son is my",
+      "options": [
+        "maternal uncle",
+        "paternal uncle",
+        "cousin",
+        "father"
+      ],
+      "answerIndex": 0,
+      "explanation": "My mother's only brother's son's father is my mother's only brother, my maternal uncle."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Pointing to a man, Anita says, \"He is the husband of my mother's only daughter-in-law.\" The man is Anita's",
+      "options": [
+        "father",
+        "uncle",
+        "brother-in-law",
+        "brother"
+      ],
+      "answerIndex": 3,
+      "explanation": "Anita's mother's daughter-in-law is Anita's brother's wife, and her husband is Anita's brother."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A has two sons B and C. B's wife is D and C's daughter is E. How is D related to E?",
+      "options": [
+        "Mother",
+        "Sister",
+        "Aunt",
+        "Grandmother"
+      ],
+      "answerIndex": 2,
+      "explanation": "D is the wife of E's father's brother, so D is E's aunt."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/blood-relation-test/"
+}

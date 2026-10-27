@@ -74,7 +74,7 @@ const chapter = {
       q: 'The angle subtended by an arc at the centre of a circle is 100°. Find the angle subtended by the same arc at a point on the remaining part of the circle.',
       given: ['Angle at centre 100°'],
       concept: 'Angle at the centre is twice that at the circumference.',
-      steps: [['Divide by 2', '100° ÷ 2 = 50°.']],
+      steps: [['Recall the rule', 'The angle at the centre is twice the angle at the circumference on the same arc.'], ['Divide by 2', '100° ÷ 2 = 50°.']],
       ans: '50°', why: 'The centre angle is twice the circumference angle for the same arc.', trap: 'Doubling instead of halving.'
     }
   ],
@@ -112,7 +112,7 @@ const quiz = [
   medium('Each exterior angle of a regular polygon is 36°. The number of sides is', 10, [8, 9, 12], '360 ÷ 36 = 10.'),
   medium('An exterior angle of a triangle is 120° and one opposite interior angle is 50°. The other opposite interior angle is', '70°', ['60°', '80°', '130°'], '120 − 50 = 70°.'),
   medium('Two parallel lines are cut by a transversal. If an alternate interior angle is 65°, the co-interior angle is', '115°', ['65°', '25°', '295°'], 'Co-interior angles add to 180°: 180 − 65 = 115°.'),
-  medium('Which set of lengths forms a right-angled triangle?', '7, 24, 25', ['6, 8, 12', '5, 6, 7', '9, 12, 16'], '7² + 24² = 49 + 576 = 625 = 25².'),
+  medium('Which set of lengths forms a right-angled triangle?', '7, 24, 25', ['6, 8, 12', '5, 6, 7', '9, 12, 16'], 'The set 7, 24, 25 works because 7² + 24² = 49 + 576 = 625 = 25².'),
   medium('The angle in a semicircle is', '90°', ['60°', '180°', '45°'], 'The angle subtended by a diameter at the circumference is 90°.'),
 
   placement('An arc subtends an angle of 100° at the centre of a circle. The angle it subtends at a point on the remaining circle is', '50°', ['200°', '100°', '25°'], 'Angle at the circumference = 100 ÷ 2 = 50°.'),

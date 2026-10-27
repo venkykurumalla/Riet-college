@@ -1,0 +1,443 @@
+{
+  "id": "y2-lr-venn-diagrams",
+  "yearId": 2,
+  "category": "Data Interpretation",
+  "topicNumber": 26,
+  "title": "Venn Diagrams",
+  "tagline": "Year 2 — Set relationships and the inclusion-exclusion rule for two and three sets",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "A Venn diagram uses overlapping circles to show how groups relate. Two kinds of question are asked. In the first, you choose the diagram that correctly represents the relation between given classes (cats and animals, doctors and women). In the second, you use numbers: how many belong to only one group, to both, or to neither. The counting problems are solved with the inclusion-exclusion rule.",
+    "placementRelevance": "Venn diagram questions are commonly asked in company reasoning rounds, in both the diagram-choice form and the counting form.",
+    "realWorldContext": "Survey analysis, overlapping customer segments and database queries (AND, OR, NOT) all use set logic."
+  },
+  "learningObjectives": [
+    "Choose the right Venn diagram for the relation between classes",
+    "Use n(A ∪ B) = n(A) + n(B) − n(A ∩ B)",
+    "Use the three-set inclusion-exclusion formula",
+    "Find \"only\", \"exactly two\", \"at least two\" and \"none\" regions",
+    "Fill a diagram from the centre outwards"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Arithmetic",
+      "Linear Equations"
+    ],
+    "quickRefresher": "Union = everything in A or B (or both). Intersection = in both. Complement = in none of them. The total of all regions equals the size of the universe."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Set: a collection of objects. Universe U: the set of all objects under discussion.",
+      "Union A ∪ B: elements in A or B or both. Intersection A ∩ B: elements in both.",
+      "Only A = A − (A ∩ B). Neither = U − (A ∪ B).",
+      "Subset: if every Cat is an Animal, Cats form a circle inside Animals.",
+      "Disjoint sets: have no common elements; their circles do not overlap."
+    ],
+    "theoreticalIntuition": "When you add two groups, anyone in both is counted twice, so subtract the overlap once. With three groups, subtracting the three pairwise overlaps removes the triple overlap one time too many, so add it back once.",
+    "visualOrMentalModel": "For counting, start with the innermost region (all three), then fill the \"exactly two\" regions by subtracting the triple from each pair, then the \"only one\" regions by subtracting everything else."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Two sets",
+      "formula": "n(A ∪ B) = n(A) + n(B) − n(A ∩ B)",
+      "description": "Subtract the overlap once.",
+      "whenToUse": "Two-group counts.",
+      "simpleExample": "25 + 20 − 10 = 35"
+    },
+    {
+      "title": "Neither",
+      "formula": "Neither = Total − n(A ∪ B)",
+      "description": "Everyone not in either.",
+      "whenToUse": "\"Neither\" questions.",
+      "simpleExample": "40 − 35 = 5"
+    },
+    {
+      "title": "Only A",
+      "formula": "Only A = n(A) − n(A ∩ B)",
+      "description": "Remove the overlap.",
+      "whenToUse": "\"Only\" questions.",
+      "simpleExample": "30 − 8 = 22"
+    },
+    {
+      "title": "Three sets",
+      "formula": "n(A ∪ B ∪ C) = ΣA − ΣAB + ABC",
+      "description": "Add singles, subtract pairs, add the triple.",
+      "whenToUse": "Three-group counts.",
+      "simpleExample": "115 − 33 + 5 = 87"
+    },
+    {
+      "title": "Exactly two",
+      "formula": "AB + BC + AC − 3 × ABC",
+      "description": "Pairs include the triple three times.",
+      "whenToUse": "\"Exactly two\" questions.",
+      "simpleExample": "33 − 15 = 18"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "To choose a diagram, think about class membership. Cats and Dogs are different classes, both inside Animals: two separate circles inside a bigger one. Women and Mothers: Mothers lie inside Women. If two classes can share members without one containing the other (Doctors and Women), draw two overlapping circles.",
+      "For two sets, use n(A ∪ B) = n(A) + n(B) − n(A ∩ B). In a class of 40, with 25 liking tea, 20 coffee and 10 both, the number liking at least one is 35 and the number liking neither is 5.",
+      "For three sets, fill the diagram from the centre. With the data A = 45, B = 40, C = 30, AB = 15, BC = 10, AC = 8 and ABC = 5, the total in at least one is 45 + 40 + 30 − 15 − 10 − 8 + 5 = 87, so 13 play none.",
+      "To count regions: only A = A − AB − AC + ABC = 27; exactly two = AB + BC + AC − 3 × ABC = 18; at least two = exactly two + all three = 23.",
+      "Always check that all regions plus \"none\" add up to the total. This check catches most arithmetic slips."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Why add back the triple",
+        "content": "People in all three sets are counted three times by the singles and subtracted three times by the pairs, so they vanish; adding ABC once restores them."
+      },
+      {
+        "title": "Diagram-choice questions",
+        "content": "Look for classes that cannot overlap (cats and dogs), classes that are inside another (cats and animals), and classes that can partly overlap (doctors and women)."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Diagram choice",
+      "description": "Relations of classes.",
+      "exampleSnippet": "Cats, Dogs, Animals"
+    },
+    {
+      "typeName": "Two-set counts",
+      "description": "Union, neither, only.",
+      "exampleSnippet": "25 tea, 20 coffee, 10 both"
+    },
+    {
+      "typeName": "Three-set counts",
+      "description": "Inclusion-exclusion.",
+      "exampleSnippet": "Cricket, football, hockey"
+    },
+    {
+      "typeName": "Exactly two or at least two",
+      "description": "Region counts.",
+      "exampleSnippet": "18 and 23"
+    },
+    {
+      "typeName": "Find the overlap",
+      "description": "Solve for both.",
+      "exampleSnippet": "60 and 50 of 100"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-venn-diagrams-1",
+      "title": "Two sets",
+      "question": "In a class of 40, 25 like tea, 20 like coffee and 10 like both. How many like neither?",
+      "givenInfo": [
+        "Total 40",
+        "Tea 25",
+        "Coffee 20",
+        "Both 10"
+      ],
+      "conceptOrFormula": "Inclusion-exclusion.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "At least one",
+          "explanation": "25 + 20 − 10 = 35."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Neither",
+          "explanation": "40 − 35 = 5."
+        }
+      ],
+      "finalAnswer": "5",
+      "whyItWorks": "Those in both are counted once.",
+      "commonTrap": "Adding 25 + 20 = 45 and getting a negative.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-venn-diagrams-2",
+      "title": "Three sets",
+      "question": "In the survey of 100 students (cricket 45, football 40, hockey 30, A∩B 15, B∩C 10, A∩C 8, all three 5), how many play none of the three?",
+      "givenInfo": [
+        "Data as stated"
+      ],
+      "conceptOrFormula": "Three-set formula.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Singles",
+          "explanation": "45 + 40 + 30 = 115."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Pairs",
+          "explanation": "15 + 10 + 8 = 33."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Union",
+          "explanation": "115 − 33 + 5 = 87."
+        },
+        {
+          "stepNumber": 4,
+          "title": "None",
+          "explanation": "100 − 87 = 13."
+        }
+      ],
+      "finalAnswer": "13",
+      "whyItWorks": "The triple overlap is added back once.",
+      "commonTrap": "Forgetting to add the 5.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-venn-diagrams-3",
+      "title": "Exactly two",
+      "question": "In the same survey, how many play exactly two of the three sports?",
+      "givenInfo": [
+        "AB = 15, BC = 10, AC = 8, ABC = 5"
+      ],
+      "conceptOrFormula": "Remove the triple from each pair.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pairs only",
+          "explanation": "AB only = 10, BC only = 5, AC only = 3."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Add",
+          "explanation": "10 + 5 + 3 = 18."
+        }
+      ],
+      "finalAnswer": "18",
+      "whyItWorks": "Each pair count includes the 5 who play all three.",
+      "commonTrap": "Using 15 + 10 + 8 = 33.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Centre-out filling",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Use the formula blindly.",
+      "shortcutMethod": "Fill the triple overlap first, then each pair minus the triple, then each single minus the rest. Total check at the end."
+    },
+    "rulesForApplication": [
+      "Union = sum − pairs + triple.",
+      "Only A = A − AB − AC + ABC.",
+      "Check regions add up.",
+      "Draw overlapping circles for partly overlapping classes."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Adding the overlaps",
+      "whyItHappens": "Treating them as extra people.",
+      "howToAvoid": "Subtract once."
+    },
+    {
+      "mistake": "Forgetting the triple",
+      "whyItHappens": "Dropping the + ABC.",
+      "howToAvoid": "Add back once."
+    },
+    {
+      "mistake": "Wrong diagram",
+      "whyItHappens": "Overlapping circles for disjoint classes.",
+      "howToAvoid": "Check class membership."
+    },
+    {
+      "mistake": "Not checking totals",
+      "whyItHappens": "Leaving a region wrong.",
+      "howToAvoid": "Sum all regions."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 70,
+    "eliminationTechnique": "Total must equal the sum of all regions; test options.",
+    "questionSelectionAdvice": "Draw the diagram.",
+    "recruiterInsight": "Often combined with DI."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-venn-diagrams-e1",
+        "question": "In a class of 40, 25 like tea, 20 like coffee and 10 like both. The number who like neither is",
+        "options": [
+          "10",
+          "5",
+          "15",
+          "0"
+        ],
+        "correctAnswer": "5",
+        "explanation": "At least one = 25 + 20 − 10 = 35. Neither = 40 − 35 = 5.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-venn-diagrams-e2",
+        "question": "Which diagram best represents Cats, Dogs and Animals?",
+        "options": [
+          "Two separate circles inside a bigger circle",
+          "Three overlapping circles",
+          "Three separate circles",
+          "One circle inside another, with a third outside"
+        ],
+        "correctAnswer": "Two separate circles inside a bigger circle",
+        "explanation": "Cats and Dogs are different classes, and both are inside Animals.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-venn-diagrams-e3",
+        "question": "If n(A) = 30, n(B) = 20 and n(A ∩ B) = 8, then n(A ∪ B) is",
+        "options": [
+          "50",
+          "58",
+          "22",
+          "42"
+        ],
+        "correctAnswer": "42",
+        "explanation": "30 + 20 − 8 = 42.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-venn-diagrams-i7",
+        "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play at least one of the three sports?",
+        "options": [
+          "87",
+          "90",
+          "100",
+          "85"
+        ],
+        "correctAnswer": "87",
+        "explanation": "45 + 40 + 30 − 15 − 10 − 8 + 5 = 87.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-venn-diagrams-i8",
+        "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play none of the three sports?",
+        "options": [
+          "10",
+          "15",
+          "17",
+          "13"
+        ],
+        "correctAnswer": "13",
+        "explanation": "100 − 87 = 13.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-venn-diagrams-i9",
+        "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play cricket only?",
+        "options": [
+          "22",
+          "30",
+          "15",
+          "27"
+        ],
+        "correctAnswer": "27",
+        "explanation": "45 − 15 − 8 + 5 = 27.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-venn-diagrams-a16",
+        "question": "In a survey of 100 students: 45 play cricket (A), 40 play football (B), 30 play hockey (C); 15 play both A and B, 10 play both B and C, 8 play both A and C, and 5 play all three.\n\nHow many students play exactly one of the three sports?",
+        "options": [
+          "45",
+          "64",
+          "55",
+          "60"
+        ],
+        "correctAnswer": "64",
+        "explanation": "Cricket only 27, football only 20, hockey only 30 − 8 − 10 + 5 = 17. Total = 27 + 20 + 17 = 64.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-venn-diagrams-a17",
+        "question": "In a school, 70% like cricket, 60% like football and 10% like neither. The percentage who like both is",
+        "options": [
+          "30",
+          "40",
+          "50",
+          "60"
+        ],
+        "correctAnswer": "40",
+        "explanation": "At least one = 90%. 70 + 60 − both = 90, so both = 40%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-venn-diagrams-p18",
+        "question": "Of 120 people, 70 like tea, 50 like coffee and 30 like both. The number who like exactly one is",
+        "options": [
+          "60",
+          "50",
+          "70",
+          "100"
+        ],
+        "correctAnswer": "60",
+        "explanation": "Only tea = 40 and only coffee = 20. Exactly one = 60.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-venn-diagrams-p19",
+        "question": "In a group, 40 people read The Hindu, 35 read Deccan Chronicle and 20 read both. If 25 read neither, the group size is",
+        "options": [
+          "75",
+          "95",
+          "120",
+          "80"
+        ],
+        "correctAnswer": "80",
+        "explanation": "At least one = 55. Group = 55 + 25 = 80.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-venn-diagrams-p20",
+        "question": "If n(A ∪ B) = 70, n(A) = 45 and n(B) = 40, then n(A ∩ B) is",
+        "options": [
+          "10",
+          "20",
+          "15",
+          "25"
+        ],
+        "correctAnswer": "15",
+        "explanation": "70 = 45 + 40 − n(A ∩ B), so n(A ∩ B) = 15.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Two-set formula.",
+      "Three-set formula.",
+      "Only and exactly-two regions.",
+      "Neither = total − union.",
+      "Diagram choice."
+    ],
+    "quickFormulas": [
+      "A + B − AB",
+      "A + B + C − AB − BC − AC + ABC"
+    ]
+  },
+  "keyTakeaways": [
+    "Subtract overlaps.",
+    "Add back triple.",
+    "Fill from the centre.",
+    "Check totals."
+  ],
+  "selfCheckQuestions": [
+    "Can I find \"neither\" in a two-set problem?",
+    "Can I find \"exactly two\" in a three-set problem?",
+    "Can I pick the right diagram?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Venn Diagrams topic area; examples are original."
+    },
+    {
+      "sourceName": "NCERT Mathematics, Class 11 (Sets)",
+      "sourceType": "Textbook",
+      "referenceNote": "Union, intersection and inclusion-exclusion."
+    }
+  ]
+}

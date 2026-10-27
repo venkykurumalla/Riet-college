@@ -183,6 +183,11 @@
       "steps": [
         {
           "stepNumber": 1,
+          "title": "Recall the rule",
+          "explanation": "The angle at the centre is twice the angle at the circumference on the same arc."
+        },
+        {
+          "stepNumber": 2,
           "title": "Divide by 2",
           "explanation": "100° ÷ 2 = 50°."
         }

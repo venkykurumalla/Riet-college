@@ -1,0 +1,254 @@
+{
+  "topicId": "y2-lr-complex-direction",
+  "topicTitle": "Complex Direction Sense",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A man walks 6 km North and then 8 km East. How far is he from the start, and in which direction?",
+      "options": [
+        "12 km North-east",
+        "10 km North-east",
+        "10 km North-west",
+        "10 km South-east"
+      ],
+      "answerIndex": 1,
+      "explanation": "Net position (x East, y North) = (8, 6). Distance = 10 km, direction North-east. The answer is 10 km North-east."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A man walks 12 km East and then 5 km South. How far is he from the start, and in which direction?",
+      "options": [
+        "13 km South-east",
+        "15 km South-east",
+        "13 km South-west",
+        "13 km North-east"
+      ],
+      "answerIndex": 0,
+      "explanation": "Net position (x East, y North) = (12, -5). Distance = 13 km, direction South-east. The answer is 13 km South-east."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A man walks 15 km West and then 20 km North. How far is he from the start, and in which direction?",
+      "options": [
+        "27 km North-west",
+        "25 km North-east",
+        "25 km South-west",
+        "25 km North-west"
+      ],
+      "answerIndex": 3,
+      "explanation": "Net position (x East, y North) = (-15, 20). Distance = 25 km, direction North-west. The answer is 25 km North-west."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A man walks 8 km South and then 6 km West. How far is he from the start, and in which direction?",
+      "options": [
+        "12 km South-west",
+        "10 km South-east",
+        "10 km South-west",
+        "10 km North-west"
+      ],
+      "answerIndex": 2,
+      "explanation": "Net position (x East, y North) = (-6, -8). Distance = 10 km, direction South-west. The answer is 10 km South-west."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A man walks 10 km North, 10 km East and then 10 km South. How far is he from the start, and in which direction?",
+      "options": [
+        "12 km East",
+        "10 km West",
+        "10 km East",
+        "10 km North-east"
+      ],
+      "answerIndex": 2,
+      "explanation": "Net position (x East, y North) = (10, 0). Distance = 10 km, direction East. The answer is 10 km East."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A man walks 7 km East and then 24 km North. How far is he from the start, and in which direction?",
+      "options": [
+        "27 km North-east",
+        "25 km North-east",
+        "25 km North-west",
+        "25 km South-east"
+      ],
+      "answerIndex": 1,
+      "explanation": "Net position (x East, y North) = (7, 24). Distance = 25 km, direction North-east. The answer is 25 km North-east."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A man faces North, walks 10 km, turns right and walks 5 km, then turns right and walks 10 km. How far is he from the start, and in which direction?",
+      "options": [
+        "5 km East",
+        "7 km East",
+        "5 km West",
+        "5 km North-east"
+      ],
+      "answerIndex": 0,
+      "explanation": "Net position (x East, y North) = (5, 0). Distance = 5 km, direction East. The answer is 5 km East."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A man faces East, walks 6 km, turns left and walks 8 km. How far is he from the start, and in which direction?",
+      "options": [
+        "12 km North-east",
+        "10 km North-west",
+        "10 km South-east",
+        "10 km North-east"
+      ],
+      "answerIndex": 3,
+      "explanation": "Net position (x East, y North) = (6, 8). Distance = 10 km, direction North-east. The answer is 10 km North-east."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A man faces North, walks 20 km, turns left and walks 15 km, turns left and walks 20 km, then turns left and walks 5 km. How far is he from the start, and in which direction?",
+      "options": [
+        "12 km West",
+        "10 km East",
+        "10 km North-west",
+        "10 km West"
+      ],
+      "answerIndex": 3,
+      "explanation": "Net position (x East, y North) = (-10, 0). Distance = 10 km, direction West. The answer is 10 km West."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A man faces South, walks 12 km, turns right and walks 9 km. How far is he from the start, and in which direction?",
+      "options": [
+        "17 km South-west",
+        "15 km South-east",
+        "15 km South-west",
+        "15 km North-west"
+      ],
+      "answerIndex": 2,
+      "explanation": "Net position (x East, y North) = (-9, -12). Distance = 15 km, direction South-west. The answer is 15 km South-west."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "In the morning a boy stands facing the rising sun. He turns left. His shadow now falls on his",
+      "options": [
+        "right",
+        "left",
+        "front",
+        "back"
+      ],
+      "answerIndex": 1,
+      "explanation": "Facing the sun means facing East; after a left turn he faces North. The shadow falls West, which is on his left."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A is 5 m East of B and C is 5 m North of A. The direction of C from B is",
+      "options": [
+        "North-east",
+        "East",
+        "North-west",
+        "North"
+      ],
+      "answerIndex": 0,
+      "explanation": "Taking B as the origin, A = (5, 0) and C = (5, 5). C lies North-east of B."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "P is 12 km North of Q and R is 5 km East of Q. The distance between P and R (km) is",
+      "options": [
+        "13",
+        "17",
+        "11",
+        "7"
+      ],
+      "answerIndex": 0,
+      "explanation": "P = (0, 12) and R = (5, 0). Distance = √(25 + 144) = 13 km."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A man faces East and turns 270° anticlockwise. He now faces",
+      "options": [
+        "North",
+        "West",
+        "East",
+        "South"
+      ],
+      "answerIndex": 3,
+      "explanation": "Anticlockwise from East: North (90°), West (180°), South (270°)."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A man walks 3 km North, then 5 km East, then 9 km North. How far is he from the start, and in which direction?",
+      "options": [
+        "15 km North-east",
+        "13 km North-west",
+        "13 km North-east",
+        "13 km South-east"
+      ],
+      "answerIndex": 2,
+      "explanation": "Net position (x East, y North) = (5, 12). Distance = 13 km, direction North-east. The answer is 13 km North-east."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A person facing North-east turns 90° clockwise, then 180°, then 45° anticlockwise. He now faces",
+      "options": [
+        "East",
+        "West",
+        "North",
+        "South"
+      ],
+      "answerIndex": 1,
+      "explanation": "NE (45°) + 90° = SE (135°); + 180° = NW (315°); − 45° = W (270°)."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A man walks 10 km West, then 10 km South, then 10 km East. How far is he from the start, and in which direction?",
+      "options": [
+        "12 km South",
+        "10 km South",
+        "10 km South-east",
+        "10 km North"
+      ],
+      "answerIndex": 1,
+      "explanation": "Net position (x East, y North) = (0, -10). Distance = 10 km, direction South. The answer is 10 km South."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A walks 8 km North then 6 km East. B starts from the same point and walks 6 km West then 8 km South. The distance between A and B is (km)",
+      "options": [
+        "20",
+        "14",
+        "28",
+        "10"
+      ],
+      "answerIndex": 0,
+      "explanation": "A = (6, 8) and B = (−6, −8). Difference (12, 16). Distance = √(144 + 256) = 20 km."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Rohit's school is 500 m North of his home and the park is 1200 m East of the school. The straight-line distance from his home to the park is (m)",
+      "options": [
+        "1700",
+        "1100",
+        "1200",
+        "1300"
+      ],
+      "answerIndex": 3,
+      "explanation": "Distance = √(500² + 1200²) = 100 × √(25 + 144) = 1300 m."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/direction-sense-test/"
+}

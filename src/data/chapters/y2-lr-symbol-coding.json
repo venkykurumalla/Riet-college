@@ -1,0 +1,437 @@
+{
+  "id": "y2-lr-symbol-coding",
+  "yearId": 2,
+  "category": "Data Interpretation",
+  "topicNumber": 22,
+  "title": "Symbol Coding",
+  "tagline": "Year 2 — Symbol substitution, operator substitution, number-word codes and matrix codes",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "In symbol coding, letters, words or arithmetic operators are replaced by other symbols according to a key stated in the question. The question gives the key; your job is to apply it exactly. Typical forms are letter-to-symbol codes, substitution of arithmetic operators (when + means ×), number-code to word-code comparisons, and matrix codes where each letter is coded by its row and column.",
+    "placementRelevance": "Symbol coding questions are commonly asked in company reasoning rounds. They are rule-following tasks where accuracy matters more than insight.",
+    "realWorldContext": "Spreadsheet formulas, cell references such as B7, barcode keys and custom shorthand all rely on exact substitution."
+  },
+  "learningObjectives": [
+    "Apply a letter-to-symbol key to encode and decode words",
+    "Evaluate expressions after operator substitution, respecting BODMAS",
+    "Deduce word codes from several coded sentences",
+    "Encode letters using matrix row and column numbers",
+    "Check answers by reversing the substitution"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Coding-Decoding",
+      "Simplification & BODMAS"
+    ],
+    "quickRefresher": "BODMAS: Brackets, Orders, Division and Multiplication (left to right), Addition and Subtraction (left to right)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Key: the table or statement that tells you what each symbol stands for.",
+      "Operator substitution: the symbols +, −, ×, ÷ are given different meanings; first rewrite the expression with the real operators, then evaluate.",
+      "Common-element method: in coded sentences, a word common to two sentences matches the code common to them.",
+      "Matrix code: a letter is coded by its row and column numbers in a given grid.",
+      "Decoding: reversing the key to recover the original."
+    ],
+    "theoreticalIntuition": "Symbol coding is a translation exercise. Translate the question into ordinary arithmetic or ordinary letters using the key, solve it, and translate back if needed. Never evaluate the expression with the printed symbols.",
+    "visualOrMentalModel": "For operator problems, write the real expression directly beneath the printed one, then apply BODMAS to the real expression."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Operator substitution",
+      "formula": "Replace each printed symbol by its real operator, then use BODMAS",
+      "description": "Do not evaluate the printed symbols.",
+      "whenToUse": "If + means ×, − means ÷ …",
+      "simpleExample": "12 − 4 × 3 + 2 ÷ 1 → 12 ÷ 4 + 3 × 2 − 1"
+    },
+    {
+      "title": "Letter-symbol key",
+      "formula": "Write the key as a list; encode letter by letter",
+      "description": "Be precise with order.",
+      "whenToUse": "A = @, B = #, C = $.",
+      "simpleExample": "CAB → $@#"
+    },
+    {
+      "title": "Common-element method",
+      "formula": "A word common to two sentences ↔ the code common to them",
+      "description": "Solve one word at a time.",
+      "whenToUse": "Coded sentences.",
+      "simpleExample": "24, 45, 56 → morning = 4"
+    },
+    {
+      "title": "Matrix code",
+      "formula": "Code = row number followed by column number",
+      "description": "Rows first, then columns.",
+      "whenToUse": "Matrix letter coding.",
+      "simpleExample": "D → 03; H → 12"
+    },
+    {
+      "title": "Check",
+      "formula": "Reverse the substitution on your answer",
+      "description": "It must return the original.",
+      "whenToUse": "Every question.",
+      "simpleExample": "$@# → CAB"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "For letter-symbol keys, build the key as a table and encode each letter in order. With A = @, B = #, C = $, the word CAB becomes $@#, and the code #$@ decodes to BCA.",
+      "For operator substitution, rewrite the expression using the real operators. If + means ×, − means ÷, × means + and ÷ means −, then 12 − 4 × 3 + 2 ÷ 1 becomes 12 ÷ 4 + 3 × 2 − 1 = 3 + 6 − 1 = 8. Apply BODMAS after substituting.",
+      "For coded sentences, use common elements. If \"good morning\" = 24, \"morning sun\" = 45 and \"sun rise\" = 56, then morning is the common code digit 4, good is 2, sun is 5 and rise is 6. So \"good sun\" is 25.",
+      "For matrix codes, find the letter in the grid; its code is the row number followed by the column number. D is in row 0, column 3, so D = 03; H is in row 1, column 2, so H = 12.",
+      "Always verify. Decode your answer with the same key. If it does not return the original, an error crept in."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Order of operations after substitution",
+        "content": "Substitution changes which operators appear, so the order of calculation changes too. Evaluate multiplication and division before addition and subtraction in the real expression."
+      },
+      {
+        "title": "Unique solutions",
+        "content": "In coded-sentence questions, a unique answer needs each word to appear in at least two sentences. If a word appears only once, its code cannot be fixed by the common-element method."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Letter-symbol codes",
+      "description": "Encode and decode.",
+      "exampleSnippet": "A = @, B = #"
+    },
+    {
+      "typeName": "Operator substitution",
+      "description": "Evaluate.",
+      "exampleSnippet": "+ means ×"
+    },
+    {
+      "typeName": "Coded sentences",
+      "description": "Common elements.",
+      "exampleSnippet": "24, 45, 56"
+    },
+    {
+      "typeName": "Matrix codes",
+      "description": "Row-column codes.",
+      "exampleSnippet": "H → 12"
+    },
+    {
+      "typeName": "Mixed keys",
+      "description": "Two keys together.",
+      "exampleSnippet": "Letters then operators"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-lr-symbol-coding-1",
+      "title": "Operator substitution",
+      "question": "If + means ×, − means ÷, × means + and ÷ means −, find the value of 12 − 4 × 3 + 2 ÷ 1.",
+      "givenInfo": [
+        "+ = ×, − = ÷, × = +, ÷ = −"
+      ],
+      "conceptOrFormula": "Substitute, then apply BODMAS.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rewrite",
+          "explanation": "12 ÷ 4 + 3 × 2 − 1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Multiply and divide first",
+          "explanation": "3 + 6 − 1."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Add and subtract",
+          "explanation": "8."
+        }
+      ],
+      "finalAnswer": "8",
+      "whyItWorks": "The real operators decide the order.",
+      "commonTrap": "Evaluating the printed symbols.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-lr-symbol-coding-2",
+      "title": "Coded sentences",
+      "question": "In a code, \"good morning\" = 24, \"morning sun\" = 45 and \"sun rise\" = 56. What is the code for \"good sun\"?",
+      "givenInfo": [
+        "good morning = 24",
+        "morning sun = 45",
+        "sun rise = 56"
+      ],
+      "conceptOrFormula": "Common-element method.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Morning",
+          "explanation": "Common to the first two: digit 4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Good and sun",
+          "explanation": "good = 2 (from 24); sun = 5 (from 45)."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Good sun",
+          "explanation": "25."
+        }
+      ],
+      "finalAnswer": "25",
+      "whyItWorks": "Each word is fixed by a common digit.",
+      "commonTrap": "Assuming the code follows the word order in a different sentence.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-lr-symbol-coding-3",
+      "title": "Matrix code",
+      "question": "In the letter matrix (rows 0–4, columns 0–4, letters A–Y in order), find the code for HI.",
+      "givenInfo": [
+        "Row-then-column code"
+      ],
+      "conceptOrFormula": "Locate each letter.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "H",
+          "explanation": "Row 1, column 2: 12."
+        },
+        {
+          "stepNumber": 2,
+          "title": "I",
+          "explanation": "Row 1, column 3: 13."
+        }
+      ],
+      "finalAnswer": "12 13",
+      "whyItWorks": "Rows count from the top and columns from the left, starting at 0.",
+      "commonTrap": "Counting from 1.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Translate, solve, check",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Work with the printed symbols throughout.",
+      "shortcutMethod": "Rewrite using the key, solve in ordinary form, and verify by reversing."
+    },
+    "rulesForApplication": [
+      "Rewrite before calculating.",
+      "BODMAS after substitution.",
+      "Common elements for coded sentences.",
+      "Rows first, columns second."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Evaluating printed symbols",
+      "whyItHappens": "Ignoring the key.",
+      "howToAvoid": "Rewrite first."
+    },
+    {
+      "mistake": "Breaking BODMAS",
+      "whyItHappens": "Left-to-right only.",
+      "howToAvoid": "Do × and ÷ before + and −."
+    },
+    {
+      "mistake": "Misreading the matrix",
+      "whyItHappens": "Swapping row and column.",
+      "howToAvoid": "Row first."
+    },
+    {
+      "mistake": "Skipping the check",
+      "whyItHappens": "Not decoding the answer.",
+      "howToAvoid": "Reverse the key."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Decode each option and keep the one that returns the original.",
+    "questionSelectionAdvice": "Write the key at the side of the page.",
+    "recruiterInsight": "Operator-substitution questions are the most common form."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-lr-symbol-coding-e1",
+        "question": "If A = @, B = #, C = $, then CAB is coded as",
+        "options": [
+          "@#$",
+          "$@#",
+          "#@$",
+          "$#@"
+        ],
+        "correctAnswer": "$@#",
+        "explanation": "C = $, A = @, B = #, so CAB = $@#.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-symbol-coding-e2",
+        "question": "If A = @, B = #, C = $, then the code #$@ stands for",
+        "options": [
+          "BCA",
+          "ABC",
+          "CAB",
+          "BAC"
+        ],
+        "correctAnswer": "BCA",
+        "explanation": "# = B, $ = C, @ = A.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-lr-symbol-coding-e3",
+        "question": "If + means − and − means +, find the value of 12 + 4 − 2.",
+        "options": [
+          "13",
+          "8",
+          "20",
+          "10"
+        ],
+        "correctAnswer": "10",
+        "explanation": "After substitution (+ → −, − → +) the expression becomes 12 − 4 + 2. Evaluating with BODMAS gives 10.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-lr-symbol-coding-i7",
+        "question": "If + means ×, − means ÷, × means + and ÷ means −, find the value of 12 − 4 × 3 + 2 ÷ 1.",
+        "options": [
+          "8",
+          "11",
+          "6",
+          "16"
+        ],
+        "correctAnswer": "8",
+        "explanation": "After substitution (+ → ×, − → ÷, × → +, ÷ → −) the expression becomes 12 ÷ 4 + 3 × 2 − 1. Evaluating with BODMAS gives 8.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-symbol-coding-i8",
+        "question": "If + means ×, − means ÷, × means + and ÷ means −, find the value of 20 − 5 × 2 + 4.",
+        "options": [
+          "15",
+          "10",
+          "24",
+          "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "After substitution (+ → ×, − → ÷, × → +, ÷ → −) the expression becomes 20 ÷ 5 + 2 × 4. Evaluating with BODMAS gives 12.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-lr-symbol-coding-i9",
+        "question": "If + means ×, − means + and × means −, find the value of 6 + 4 − 2 × 1.",
+        "options": [
+          "28",
+          "23",
+          "50",
+          "25"
+        ],
+        "correctAnswer": "25",
+        "explanation": "After substitution (+ → ×, − → +, × → −) the expression becomes 6 × 4 + 2 − 1. Evaluating with BODMAS gives 25.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-lr-symbol-coding-a15",
+        "question": "If + means ×, − means ÷, × means + and ÷ means −, find the value of 15 − 3 × 4 + 2 ÷ 5.",
+        "options": [
+          "11",
+          "6",
+          "8",
+          "16"
+        ],
+        "correctAnswer": "8",
+        "explanation": "After substitution (+ → ×, − → ÷, × → +, ÷ → −) the expression becomes 15 ÷ 3 + 4 × 2 − 5. Evaluating with BODMAS gives 8.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-symbol-coding-a16",
+        "question": "If ÷ means ×, + means − and × means +, find the value of 24 ÷ 6 + 4 × 2.",
+        "options": [
+          "145",
+          "142",
+          "140",
+          "284"
+        ],
+        "correctAnswer": "142",
+        "explanation": "After substitution (÷ → ×, + → −, × → +) the expression becomes 24 × 6 − 4 + 2. Evaluating with BODMAS gives 142.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-lr-symbol-coding-p17",
+        "question": "In a code, \"red apple\" = \"ka lo\", \"green apple\" = \"ma lo\" and \"red rose\" = \"ka ti\". The code for \"green rose\" is",
+        "options": [
+          "ka ma",
+          "ma ti",
+          "lo ti",
+          "ma lo"
+        ],
+        "correctAnswer": "ma ti",
+        "explanation": "apple = lo, red = ka, green = ma, rose = ti. So \"green rose\" = \"ma ti\".",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-symbol-coding-p18",
+        "question": "Letter matrix (code = row number, then column number):\n\n    0 1 2 3 4\n0 | A B C D E\n1 | F G H I J\n2 | K L M N O\n3 | P Q R S T\n4 | U V W X Y\n\nIn the letter matrix, the word CODE is coded as",
+        "options": [
+          "02 24 03 04",
+          "03 24 02 04",
+          "02 14 03 04",
+          "20 42 30 40"
+        ],
+        "correctAnswer": "02 24 03 04",
+        "explanation": "C = 02, O = 24, D = 03, E = 04. So CODE = 02 24 03 04.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-lr-symbol-coding-p19",
+        "question": "Letter matrix (code = row number, then column number):\n\n    0 1 2 3 4\n0 | A B C D E\n1 | F G H I J\n2 | K L M N O\n3 | P Q R S T\n4 | U V W X Y\n\nIn the letter matrix, the code 12 24 03 stands for the word",
+        "options": [
+          "HOE",
+          "GOD",
+          "HOP",
+          "HOD"
+        ],
+        "correctAnswer": "HOD",
+        "explanation": "12 = H, 24 = O, 03 = D. The word is HOD.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Rewrite with the key.",
+      "BODMAS.",
+      "Common elements.",
+      "Row then column.",
+      "Check by reversing."
+    ],
+    "quickFormulas": [
+      "Key → rewrite → solve",
+      "Code = row + column"
+    ]
+  },
+  "keyTakeaways": [
+    "Follow the key exactly.",
+    "Rewrite operators.",
+    "Use common elements.",
+    "Verify."
+  ],
+  "selfCheckQuestions": [
+    "Can I evaluate an expression after operator substitution?",
+    "Can I decode coded sentences?",
+    "Can I code with a matrix?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Coding and symbol topic areas; examples are original."
+    }
+  ]
+}
