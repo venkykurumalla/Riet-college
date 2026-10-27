@@ -1,0 +1,427 @@
+{
+  "id": "y3-quant-agp-hp",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 22,
+  "title": "Arithmetico-Geometric and Harmonic Progressions",
+  "tagline": "Year 3 — AGP series, harmonic progressions, and the relation between AM, GM and HM",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Besides AP and GP there are two more progression types that appear in aptitude tests. A harmonic progression (HP) is a sequence whose reciprocals form an AP. An arithmetico-geometric progression (AGP) multiplies the terms of an AP by the terms of a GP. This chapter also covers the relation AM ≥ GM ≥ HM and its use in maximum and minimum questions.",
+    "placementRelevance": "HP and the AM-GM-HM relation are asked directly in company aptitude and logic papers; AGP appears in advanced sections.",
+    "realWorldContext": "Average speed over equal distances is a harmonic mean, which links this chapter to time-and-distance problems."
+  },
+  "learningObjectives": [
+    "Recognise an HP and find its terms",
+    "Use AM, GM and HM for two numbers",
+    "Remember AM × HM = GM² for two numbers",
+    "Sum a simple AGP",
+    "Apply the inequality AM ≥ GM ≥ HM"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Arithmetic Progressions",
+      "Geometric Progressions"
+    ],
+    "quickRefresher": "AP: constant difference. GP: constant ratio. HP: reciprocals form an AP."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Harmonic progression: 1/a, 1/(a + d), 1/(a + 2d), … (reciprocals in AP).",
+      "Harmonic mean of x and y: HM = 2xy/(x + y).",
+      "Arithmetic mean AM = (x + y)/2 and geometric mean GM = √(xy).",
+      "For positive unequal numbers, AM > GM > HM, and GM² = AM × HM.",
+      "AGP: terms of the form (a + (n − 1)d) rⁿ⁻¹."
+    ],
+    "theoreticalIntuition": "HM gives more weight to smaller numbers because it averages reciprocals. That is why the average speed for equal distances at 40 and 60 km/h is the harmonic mean, 48 km/h, not 50.",
+    "visualOrMentalModel": "For any HP question, flip every term to get an AP, do the AP work, then flip back."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "HP term",
+      "formula": "Tₙ = 1/(a + (n − 1)d) where a, d belong to the reciprocal AP",
+      "description": "HP.",
+      "whenToUse": "Find a term.",
+      "simpleExample": "1/2, 1/4, 1/6: T₅ = 1/10"
+    },
+    {
+      "title": "HM of two numbers",
+      "formula": "HM = 2xy/(x + y)",
+      "description": "Two positive numbers.",
+      "whenToUse": "Equal-distance averages.",
+      "simpleExample": "HM(40, 60) = 48"
+    },
+    {
+      "title": "Relation",
+      "formula": "GM² = AM × HM",
+      "description": "Two numbers.",
+      "whenToUse": "Find the missing mean.",
+      "simpleExample": "AM 50, HM 48: GM² = 2400"
+    },
+    {
+      "title": "Order",
+      "formula": "AM ≥ GM ≥ HM",
+      "description": "Positive numbers.",
+      "whenToUse": "Inequalities.",
+      "simpleExample": "50 ≥ 48.99 ≥ 48"
+    },
+    {
+      "title": "AGP sum to infinity",
+      "formula": "S = a/(1 − r) + dr/(1 − r)²",
+      "description": "|r| < 1.",
+      "whenToUse": "AGP.",
+      "simpleExample": "1 + 2/2 + 3/4 + … = 4"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "If 1/2, 1/4, 1/6, … is an HP then 2, 4, 6, … is its AP of reciprocals. The 5th term is the reciprocal of the 5th term of 2, 4, 6, …, which is 10, so T₅ = 1/10.",
+      "To insert a harmonic mean between 40 and 60, compute 2 × 40 × 60/(40 + 60) = 48. That is also the average speed of a trip with equal distances at 40 and 60 km/h.",
+      "For two numbers AM × HM = GM². With 40 and 60: 50 × 48 = 2400 = 40 × 60.",
+      "A simple AGP: 1 + 2x + 3x² + …, for |x| < 1, sums to 1/(1 − x)². At x = 1/2 the sum is 4.",
+      "The relation AM ≥ GM ≥ HM holds for any positive numbers, with equality only when all the numbers are equal."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Three terms in HP",
+        "content": "If a, b, c are in HP then b = 2ac/(a + c) and 1/b is the mean of 1/a and 1/c."
+      },
+      {
+        "title": "Average speed",
+        "content": "For equal distances the average speed is the harmonic mean; for equal times it is the arithmetic mean."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Term of an HP",
+      "description": "Reciprocals.",
+      "exampleSnippet": "1/2, 1/4, 1/6"
+    },
+    {
+      "typeName": "HM of two numbers",
+      "description": "2xy/(x + y).",
+      "exampleSnippet": "40 and 60"
+    },
+    {
+      "typeName": "Find the third mean",
+      "description": "GM² = AM × HM.",
+      "exampleSnippet": "AM 50, HM 48"
+    },
+    {
+      "typeName": "AGP sum",
+      "description": "Formula.",
+      "exampleSnippet": "1 + 2x + 3x²"
+    },
+    {
+      "typeName": "Average speed",
+      "description": "Harmonic mean.",
+      "exampleSnippet": "Equal distances"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-agp-hp-1",
+      "title": "Term of an HP",
+      "question": "The 3rd term of an HP is 1/9 and its 7th term is 1/21. Find the 10th term.",
+      "givenInfo": [
+        "T₃ = 1/9",
+        "T₇ = 1/21"
+      ],
+      "conceptOrFormula": "Take reciprocals.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Reciprocals",
+          "explanation": "T₃ = 9 and T₇ = 21 in the AP."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Difference",
+          "explanation": "4d = 12, so d = 3."
+        },
+        {
+          "stepNumber": 3,
+          "title": "10th term of AP",
+          "explanation": "9 + 7 × 3 = 30, so T₁₀ = 1/30."
+        }
+      ],
+      "finalAnswer": "1/30",
+      "whyItWorks": "The AP is 3, 6, 9, 12, …",
+      "commonTrap": "Subtracting the HP terms.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-agp-hp-2",
+      "title": "Harmonic mean",
+      "question": "A car goes from A to B at 40 km/h and returns at 60 km/h. Find its average speed.",
+      "givenInfo": [
+        "Equal distances"
+      ],
+      "conceptOrFormula": "Harmonic mean.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Formula",
+          "explanation": "2 × 40 × 60/(40 + 60)."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "4800/100 = 48."
+        }
+      ],
+      "finalAnswer": "48 km/h",
+      "whyItWorks": "Total time is longer at the lower speed, so the average is below 50.",
+      "commonTrap": "Taking (40 + 60)/2 = 50.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-agp-hp-3",
+      "title": "AM, GM, HM",
+      "question": "The AM of two numbers is 25 and their GM is 15. Find their HM.",
+      "givenInfo": [
+        "AM 25",
+        "GM 15"
+      ],
+      "conceptOrFormula": "GM² = AM × HM.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Relation",
+          "explanation": "225 = 25 × HM."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Solve",
+          "explanation": "HM = 9."
+        }
+      ],
+      "finalAnswer": "9",
+      "whyItWorks": "Check the order AM > GM > HM: 25 > 15 > 9.",
+      "commonTrap": "Using HM = GM.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Flip and solve",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Work with the fractions.",
+      "shortcutMethod": "Reciprocate an HP to an AP; use GM² = AM × HM for two numbers."
+    },
+    "rulesForApplication": [
+      "HP: flip to AP.",
+      "HM = 2xy/(x + y).",
+      "Equal distance: harmonic mean.",
+      "AM ≥ GM ≥ HM."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using AP formulas on an HP",
+      "whyItHappens": "Forgetting to flip.",
+      "howToAvoid": "Take reciprocals first."
+    },
+    {
+      "mistake": "Using 50 for average speed",
+      "whyItHappens": "Averaging the speeds.",
+      "howToAvoid": "Use the harmonic mean for equal distances."
+    },
+    {
+      "mistake": "Assuming GM = AM",
+      "whyItHappens": "Only equal numbers have that.",
+      "howToAvoid": "AM > GM for unequal numbers."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "AM > GM > HM, so the answer must fit between the means.",
+    "questionSelectionAdvice": "GM² = AM × HM is a quick check.",
+    "recruiterInsight": "HP ties to speed and work problems."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-agp-hp-e1",
+        "question": "The HM of 40 and 60 is",
+        "options": [
+          "50",
+          "48",
+          "49",
+          "24"
+        ],
+        "correctAnswer": "48",
+        "explanation": "2 × 40 × 60/100 = 48.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-agp-hp-e2",
+        "question": "The 5th term of the HP 1/2, 1/4, 1/6, … is",
+        "options": [
+          "1/10",
+          "1/8",
+          "1/12",
+          "1/5"
+        ],
+        "correctAnswer": "1/10",
+        "explanation": "The reciprocals 2, 4, 6, 8, 10 give T₅ = 1/10.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-agp-hp-e3",
+        "question": "The harmonic mean of 3 and 6 is",
+        "options": [
+          "4.5",
+          "3.5",
+          "5",
+          "4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "2 × 3 × 6/9 = 4.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-agp-hp-i7",
+        "question": "The AM of two numbers is 25 and GM is 15. Their HM is",
+        "options": [
+          "9",
+          "10",
+          "20",
+          "5"
+        ],
+        "correctAnswer": "9",
+        "explanation": "GM² = AM × HM gives 225 = 25 × HM, so HM = 9.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-agp-hp-i8",
+        "question": "The 3rd term of an HP is 1/9 and the 7th is 1/21. The 10th term is",
+        "options": [
+          "1/27",
+          "1/33",
+          "1/24",
+          "1/30"
+        ],
+        "correctAnswer": "1/30",
+        "explanation": "The AP has d = 3 and T₁₀ = 9 + 21 = 30.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-agp-hp-i9",
+        "question": "The HM of two numbers is 4 and the AM is 4.5. Their GM is",
+        "options": [
+          "4.25",
+          "3",
+          "2√3",
+          "3√2"
+        ],
+        "correctAnswer": "3√2",
+        "explanation": "GM² = 4.5 × 4 = 18, so GM = 3√2.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-agp-hp-a15",
+        "question": "A car covers three equal distances at 20, 30 and 60 km/h. The average speed is (km/h)",
+        "options": [
+          "36.7",
+          "35",
+          "30",
+          "33"
+        ],
+        "correctAnswer": "30",
+        "explanation": "3/(1/20 + 1/30 + 1/60) = 3/(6/60) = 30 km/h.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-agp-hp-a16",
+        "question": "If the AM and HM of two positive numbers are 10 and 3.6, their GM is",
+        "options": [
+          "6.8",
+          "6",
+          "5",
+          "36"
+        ],
+        "correctAnswer": "6",
+        "explanation": "GM² = 10 × 3.6 = 36, so GM = 6.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-agp-hp-p17",
+        "question": "The sum to infinity of 1 + 2x + 3x² + 4x³ + … when x = 1/3 is",
+        "options": [
+          "3/2",
+          "9/4",
+          "9/2",
+          "2"
+        ],
+        "correctAnswer": "9/4",
+        "explanation": "1/(1 − 1/3)² = 9/4.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-agp-hp-p18",
+        "question": "If the 4th term of an HP is 1/12 and the 8th is 1/20, the 6th term is",
+        "options": [
+          "1/16",
+          "1/15",
+          "1/14",
+          "1/18"
+        ],
+        "correctAnswer": "1/16",
+        "explanation": "The AP has 4th term 12 and 8th term 20, so d = 2 and T₆ = 16.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-agp-hp-p19",
+        "question": "For two positive numbers x and y, if AM × HM = 144, then GM equals",
+        "options": [
+          "24",
+          "72",
+          "6",
+          "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "GM² = AM × HM = 144, so GM = 12.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "HP reciprocals.",
+      "HM formula.",
+      "GM² = AM × HM.",
+      "Order of means.",
+      "AGP sum."
+    ],
+    "quickFormulas": [
+      "HM = 2xy/(x + y)",
+      "GM² = AM·HM"
+    ]
+  },
+  "keyTakeaways": [
+    "Flip HP.",
+    "Know the means.",
+    "Average speed is HM.",
+    "Check ordering."
+  ],
+  "selfCheckQuestions": [
+    "Can I find a term of an HP?",
+    "Can I compute average speed?",
+    "Can I use GM² = AM × HM?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

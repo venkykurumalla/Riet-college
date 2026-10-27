@@ -1,0 +1,423 @@
+{
+  "id": "y3-quant-adv-geometry",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 23,
+  "title": "Advanced Geometry — Circles and Polygons",
+  "tagline": "Year 3 — Chords, tangents, angle properties of circles, and interior angles and diagonals of polygons",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Year 2 covered triangles and basic mensuration. Year 3 focuses on the circle theorems and polygon properties that appear most often in aptitude tests: the angle at the centre and at the circumference, tangent lengths, chords and the perpendicular from the centre, cyclic quadrilaterals, and the angle sum and diagonal count of regular polygons.",
+    "placementRelevance": "Geometry questions in company tests are short, formula-driven problems such as tangent lengths, chord distances and polygon angles.",
+    "realWorldContext": "Gear design, circular tracks, architecture and map-making use circle and polygon properties."
+  },
+  "learningObjectives": [
+    "Use the angle at the centre is twice the angle at the circumference",
+    "Apply the tangent-length and chord-distance relations",
+    "Use cyclic quadrilateral properties",
+    "Find interior and exterior angles of regular polygons",
+    "Count diagonals of an n-sided polygon"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Geometry and Mensuration",
+      "Advanced Polynomial Equations"
+    ],
+    "quickRefresher": "The sum of angles of a triangle is 180°. Pythagoras: a² + b² = c². Area of a circle πr², circumference 2πr."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Chord: a segment joining two points of a circle. The perpendicular from the centre bisects the chord.",
+      "Tangent: a line touching the circle at one point; it is perpendicular to the radius at that point.",
+      "Cyclic quadrilateral: all four vertices lie on a circle; opposite angles add up to 180°.",
+      "Regular polygon: all sides and all angles are equal.",
+      "Exterior angles of any convex polygon add up to 360°."
+    ],
+    "theoreticalIntuition": "Circles are about symmetry around the centre. Draw the radius to every point of contact or chord end; the right triangles that appear give lengths through Pythagoras.",
+    "visualOrMentalModel": "Draw the radius and the perpendicular from the centre. Most chord and tangent questions reduce to a right triangle."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Centre angle",
+      "formula": "Angle at centre = 2 × angle at circumference",
+      "description": "Same arc.",
+      "whenToUse": "Arc angles.",
+      "simpleExample": "40° → 80°"
+    },
+    {
+      "title": "Tangent length",
+      "formula": "PT = √(d² − r²)",
+      "description": "External point at distance d.",
+      "whenToUse": "Tangent from a point.",
+      "simpleExample": "d = 13, r = 5: 12"
+    },
+    {
+      "title": "Chord distance",
+      "formula": "Half-chord² + distance² = r²",
+      "description": "Perpendicular from centre.",
+      "whenToUse": "Chord questions.",
+      "simpleExample": "r = 10, chord 16: distance 6"
+    },
+    {
+      "title": "Cyclic quadrilateral",
+      "formula": "Opposite angles sum to 180°",
+      "description": "Vertices on a circle.",
+      "whenToUse": "Find an angle.",
+      "simpleExample": "70° ↔ 110°"
+    },
+    {
+      "title": "Regular n-gon",
+      "formula": "Interior = (n − 2)×180°/n; diagonals = n(n − 3)/2",
+      "description": "Regular polygons.",
+      "whenToUse": "Polygon questions.",
+      "simpleExample": "Hexagon: 120°, 9 diagonals"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The angle that an arc subtends at the centre is twice the angle it subtends at any point on the remaining circumference. If an arc subtends 40° at the circumference, it subtends 80° at the centre.",
+      "The tangent from an external point P at distance d from the centre of a circle of radius r has length √(d² − r²). For d = 13 and r = 5 the tangent length is 12. Two tangents from the same point are equal.",
+      "A chord of length 16 in a circle of radius 10 is at distance √(10² − 8²) = 6 from the centre, because the perpendicular from the centre bisects the chord.",
+      "In a cyclic quadrilateral opposite angles add up to 180°. If one angle is 70° the opposite angle is 110°. The exterior angle equals the interior opposite angle.",
+      "A regular polygon with n sides has each interior angle (n − 2) × 180°/n and each exterior angle 360°/n. A hexagon has interior angle 120°, exterior angle 60° and 6 × 3/2 = 9 diagonals."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Angle in a semicircle",
+        "content": "It is always 90°, because the angle at the centre is 180°."
+      },
+      {
+        "title": "Equal chords",
+        "content": "Equal chords are equidistant from the centre and subtend equal angles at the centre."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Arc angles",
+      "description": "Centre = 2 × circumference.",
+      "exampleSnippet": "40° → 80°"
+    },
+    {
+      "typeName": "Tangent length",
+      "description": "√(d² − r²).",
+      "exampleSnippet": "d = 13, r = 5"
+    },
+    {
+      "typeName": "Chord distance",
+      "description": "Right triangle.",
+      "exampleSnippet": "r = 10, chord 16"
+    },
+    {
+      "typeName": "Cyclic quadrilateral",
+      "description": "Opposite angles 180°.",
+      "exampleSnippet": "70° and 110°"
+    },
+    {
+      "typeName": "Polygon angles",
+      "description": "Interior and exterior.",
+      "exampleSnippet": "Hexagon"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-adv-geometry-1",
+      "title": "Tangent length",
+      "question": "A point P is 13 cm from the centre of a circle of radius 5 cm. Find the length of the tangent from P.",
+      "givenInfo": [
+        "d = 13",
+        "r = 5"
+      ],
+      "conceptOrFormula": "Right triangle at the point of contact.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Triangle",
+          "explanation": "Radius is perpendicular to the tangent."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Length",
+          "explanation": "√(169 − 25) = √144 = 12 cm."
+        }
+      ],
+      "finalAnswer": "12 cm",
+      "whyItWorks": "It is the 5-12-13 triple.",
+      "commonTrap": "Using 13 − 5.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-adv-geometry-2",
+      "title": "Chord distance",
+      "question": "A chord of length 16 cm is in a circle of radius 10 cm. Find its distance from the centre.",
+      "givenInfo": [
+        "chord 16",
+        "r = 10"
+      ],
+      "conceptOrFormula": "Perpendicular bisects the chord.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Half-chord",
+          "explanation": "8 cm."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Distance",
+          "explanation": "√(100 − 64) = 6 cm."
+        }
+      ],
+      "finalAnswer": "6 cm",
+      "whyItWorks": "It is the 6-8-10 triple.",
+      "commonTrap": "Using the full chord 16.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-adv-geometry-3",
+      "title": "Regular polygon",
+      "question": "Find the number of sides of a regular polygon whose each interior angle is 150°.",
+      "givenInfo": [
+        "Interior 150°"
+      ],
+      "conceptOrFormula": "Exterior = 180° − interior.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Exterior",
+          "explanation": "30°."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Sides",
+          "explanation": "360°/30° = 12."
+        }
+      ],
+      "finalAnswer": "12",
+      "whyItWorks": "A regular dodecagon.",
+      "commonTrap": "Dividing 360 by 150.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Right triangle in disguise",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Long theorem chains.",
+      "shortcutMethod": "Join centre to the chord end or tangent point; the right triangle gives the answer by Pythagoras."
+    },
+    "rulesForApplication": [
+      "Perpendicular bisects a chord.",
+      "Radius ⟂ tangent.",
+      "Centre angle is double.",
+      "Exterior angle = 360°/n."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using the full chord in Pythagoras",
+      "whyItHappens": "Forgetting to halve.",
+      "howToAvoid": "Halve the chord first."
+    },
+    {
+      "mistake": "Mixing interior and exterior angle",
+      "whyItHappens": "Wrong formula.",
+      "howToAvoid": "Interior + exterior = 180°."
+    },
+    {
+      "mistake": "Using diagonals n(n − 3)",
+      "whyItHappens": "Forgetting the 2.",
+      "howToAvoid": "Diagonals = n(n − 3)/2."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 70,
+    "eliminationTechnique": "Tangent length must be shorter than the distance to the centre.",
+    "questionSelectionAdvice": "Learn the triples 3-4-5, 5-12-13, 8-15-17.",
+    "recruiterInsight": "Draw the figure with all radii first."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-adv-geometry-e1",
+        "question": "An arc subtends 40° at the circumference. It subtends at the centre an angle of",
+        "options": [
+          "20°",
+          "80°",
+          "40°",
+          "160°"
+        ],
+        "correctAnswer": "80°",
+        "explanation": "The centre angle is double: 80°.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-geometry-e2",
+        "question": "The angle in a semicircle is",
+        "options": [
+          "90°",
+          "45°",
+          "180°",
+          "60°"
+        ],
+        "correctAnswer": "90°",
+        "explanation": "The angle at the centre is 180°, so the angle at the circumference is 90°.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-geometry-e3",
+        "question": "Each interior angle of a regular hexagon is",
+        "options": [
+          "108°",
+          "135°",
+          "60°",
+          "120°"
+        ],
+        "correctAnswer": "120°",
+        "explanation": "(6 − 2) × 180°/6 = 120°.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-adv-geometry-i7",
+        "question": "The tangent from a point 13 cm from the centre of a circle of radius 5 cm has length (cm)",
+        "options": [
+          "12",
+          "8",
+          "144",
+          "10"
+        ],
+        "correctAnswer": "12",
+        "explanation": "√(169 − 25) = 12.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-geometry-i8",
+        "question": "A chord of length 16 cm in a circle of radius 10 cm is at a distance (cm) from the centre of",
+        "options": [
+          "8",
+          "4",
+          "12",
+          "6"
+        ],
+        "correctAnswer": "6",
+        "explanation": "√(100 − 64) = 6.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-geometry-i9",
+        "question": "The number of sides of a regular polygon with each interior angle 150° is",
+        "options": [
+          "10",
+          "8",
+          "15",
+          "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "The exterior angle is 30°, so n = 360/30 = 12.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-adv-geometry-a15",
+        "question": "A circle of radius 13 cm has two parallel chords of lengths 10 cm and 24 cm on opposite sides of the centre. The distance between them is (cm)",
+        "options": [
+          "7",
+          "12",
+          "17",
+          "13"
+        ],
+        "correctAnswer": "17",
+        "explanation": "Distances are √(169 − 25) = 12 and √(169 − 144) = 5; on opposite sides: 12 + 5 = 17.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-geometry-a16",
+        "question": "A regular polygon has 35 diagonals. Its number of sides is",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "12"
+        ],
+        "correctAnswer": "10",
+        "explanation": "n(n − 3)/2 = 35 gives n² − 3n − 70 = 0, so n = 10.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-adv-geometry-p17",
+        "question": "The incircle of a right triangle with sides 6, 8, 10 has radius",
+        "options": [
+          "3",
+          "2",
+          "2.5",
+          "1.5"
+        ],
+        "correctAnswer": "2",
+        "explanation": "r = (a + b − c)/2 = (6 + 8 − 10)/2 = 2.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-geometry-p18",
+        "question": "The circumradius of a right triangle with legs 6 and 8 is",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "10"
+        ],
+        "correctAnswer": "5",
+        "explanation": "The hypotenuse 10 is the diameter, so R = 5.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-geometry-p19",
+        "question": "The ratio of interior to exterior angle of a regular polygon is 5 : 1. The number of sides is",
+        "options": [
+          "10",
+          "8",
+          "15",
+          "12"
+        ],
+        "correctAnswer": "12",
+        "explanation": "Interior = 150°, exterior = 30°, so n = 12.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Centre angle.",
+      "Tangent length.",
+      "Chord distance.",
+      "Cyclic quadrilateral.",
+      "Polygon formulas."
+    ],
+    "quickFormulas": [
+      "√(d² − r²)",
+      "n(n − 3)/2",
+      "(n − 2)×180/n"
+    ]
+  },
+  "keyTakeaways": [
+    "Draw radii.",
+    "Halve chords.",
+    "Use triples.",
+    "Exterior angles sum 360°."
+  ],
+  "selfCheckQuestions": [
+    "Can I find a tangent length?",
+    "Can I find a chord distance?",
+    "Can I get the sides from the angle?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

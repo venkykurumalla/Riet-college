@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-adv-geometry",
+  "topicTitle": "Advanced Geometry — Circles and Polygons",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "An arc subtends 40° at the circumference. It subtends at the centre an angle of",
+      "options": [
+        "20°",
+        "80°",
+        "40°",
+        "160°"
+      ],
+      "answerIndex": 1,
+      "explanation": "The centre angle is double: 80°."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The angle in a semicircle is",
+      "options": [
+        "90°",
+        "45°",
+        "180°",
+        "60°"
+      ],
+      "answerIndex": 0,
+      "explanation": "The angle at the centre is 180°, so the angle at the circumference is 90°."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Each interior angle of a regular hexagon is",
+      "options": [
+        "108°",
+        "135°",
+        "60°",
+        "120°"
+      ],
+      "answerIndex": 3,
+      "explanation": "(6 − 2) × 180°/6 = 120°."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The number of diagonals of a hexagon is",
+      "options": [
+        "6",
+        "12",
+        "9",
+        "15"
+      ],
+      "answerIndex": 2,
+      "explanation": "n(n − 3)/2 = 6 × 3/2 = 9."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The sum of the interior angles of a pentagon is",
+      "options": [
+        "360°",
+        "720°",
+        "540°",
+        "450°"
+      ],
+      "answerIndex": 2,
+      "explanation": "(5 − 2) × 180° = 540°."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "In a cyclic quadrilateral one angle is 70°. The opposite angle is",
+      "options": [
+        "70°",
+        "110°",
+        "90°",
+        "120°"
+      ],
+      "answerIndex": 1,
+      "explanation": "Opposite angles add up to 180°."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The tangent from a point 13 cm from the centre of a circle of radius 5 cm has length (cm)",
+      "options": [
+        "12",
+        "8",
+        "144",
+        "10"
+      ],
+      "answerIndex": 0,
+      "explanation": "√(169 − 25) = 12."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A chord of length 16 cm in a circle of radius 10 cm is at a distance (cm) from the centre of",
+      "options": [
+        "8",
+        "4",
+        "12",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "√(100 − 64) = 6."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The number of sides of a regular polygon with each interior angle 150° is",
+      "options": [
+        "10",
+        "8",
+        "15",
+        "12"
+      ],
+      "answerIndex": 3,
+      "explanation": "The exterior angle is 30°, so n = 360/30 = 12."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The number of diagonals of a polygon with 12 sides is",
+      "options": [
+        "66",
+        "48",
+        "54",
+        "60"
+      ],
+      "answerIndex": 2,
+      "explanation": "12 × 9/2 = 54."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Each exterior angle of a regular octagon is",
+      "options": [
+        "135°",
+        "45°",
+        "40°",
+        "60°"
+      ],
+      "answerIndex": 1,
+      "explanation": "360°/8 = 45°."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Two circles of radii 5 cm and 3 cm have centres 10 cm apart. The length of the direct common tangent is (cm)",
+      "options": [
+        "9.8",
+        "8",
+        "9.5",
+        "10.25"
+      ],
+      "answerIndex": 0,
+      "explanation": "√(d² − (r₁ − r₂)²) = √(100 − 4) = √96 ≈ 9.80."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "PA and PB are tangents from P to a circle with centre O, and angle APB = 60°. Angle AOB is",
+      "options": [
+        "120°",
+        "60°",
+        "90°",
+        "100°"
+      ],
+      "answerIndex": 0,
+      "explanation": "In quadrilateral OAPB, 90° + 90° + 60° + AOB = 360°, so AOB = 120°."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The sides of a polygon number 8. The sum of its interior angles is",
+      "options": [
+        "1440°",
+        "720°",
+        "1260°",
+        "1080°"
+      ],
+      "answerIndex": 3,
+      "explanation": "(8 − 2) × 180° = 1080°."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A circle of radius 13 cm has two parallel chords of lengths 10 cm and 24 cm on opposite sides of the centre. The distance between them is (cm)",
+      "options": [
+        "7",
+        "12",
+        "17",
+        "13"
+      ],
+      "answerIndex": 2,
+      "explanation": "Distances are √(169 − 25) = 12 and √(169 − 144) = 5; on opposite sides: 12 + 5 = 17."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A regular polygon has 35 diagonals. Its number of sides is",
+      "options": [
+        "9",
+        "10",
+        "8",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "n(n − 3)/2 = 35 gives n² − 3n − 70 = 0, so n = 10."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The incircle of a right triangle with sides 6, 8, 10 has radius",
+      "options": [
+        "3",
+        "2",
+        "2.5",
+        "1.5"
+      ],
+      "answerIndex": 1,
+      "explanation": "r = (a + b − c)/2 = (6 + 8 − 10)/2 = 2."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The circumradius of a right triangle with legs 6 and 8 is",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "10"
+      ],
+      "answerIndex": 0,
+      "explanation": "The hypotenuse 10 is the diameter, so R = 5."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The ratio of interior to exterior angle of a regular polygon is 5 : 1. The number of sides is",
+      "options": [
+        "10",
+        "8",
+        "15",
+        "12"
+      ],
+      "answerIndex": 3,
+      "explanation": "Interior = 150°, exterior = 30°, so n = 12."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Two tangents from an external point to a circle of radius 6 cm are each 8 cm long. The distance of the point from the centre is (cm)",
+      "options": [
+        "14",
+        "12",
+        "10",
+        "9"
+      ],
+      "answerIndex": 2,
+      "explanation": "√(36 + 64) = 10."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/area/"
+}

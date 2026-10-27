@@ -1,0 +1,433 @@
+{
+  "id": "y3-quant-coordinate-geometry",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 24,
+  "title": "Coordinate Geometry",
+  "tagline": "Year 3 — Distance, section formula, slope, equation of a line and area of a triangle from coordinates",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Coordinate geometry places points on a grid so that geometric questions become algebra. This chapter covers the distance formula, midpoint and section formula, slope of a line, equations of lines, parallel and perpendicular conditions, and the area of a triangle from vertex coordinates.",
+    "placementRelevance": "Distance, slope and area questions are short formula problems that appear regularly in aptitude and technical rounds.",
+    "realWorldContext": "Maps, GPS navigation, computer graphics and CAD all use coordinates."
+  },
+  "learningObjectives": [
+    "Use the distance and midpoint formulas",
+    "Apply the section formula",
+    "Find slopes and equations of lines",
+    "Use conditions for parallel and perpendicular lines",
+    "Find the area of a triangle and test collinearity"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Geometry",
+      "Linear Equations"
+    ],
+    "quickRefresher": "The point (x, y) lies x units along the horizontal axis and y units along the vertical axis. The slope measures steepness."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Distance between (x₁, y₁) and (x₂, y₂): √[(x₂ − x₁)² + (y₂ − y₁)²].",
+      "Midpoint: ((x₁ + x₂)/2, (y₁ + y₂)/2).",
+      "Slope m = (y₂ − y₁)/(x₂ − x₁).",
+      "Line: y = mx + c, or y − y₁ = m(x − x₁).",
+      "Parallel lines: m₁ = m₂. Perpendicular lines: m₁ m₂ = −1."
+    ],
+    "theoreticalIntuition": "The distance formula is Pythagoras on the horizontal and vertical differences. Slope is rise over run.",
+    "visualOrMentalModel": "Subtract coordinates to get the horizontal and vertical differences first; every formula uses them."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Distance",
+      "formula": "√[(Δx)² + (Δy)²]",
+      "description": "Two points.",
+      "whenToUse": "Lengths.",
+      "simpleExample": "(1, 2) to (4, 6): 5"
+    },
+    {
+      "title": "Section formula",
+      "formula": "((m x₂ + n x₁)/(m + n), (m y₂ + n y₁)/(m + n))",
+      "description": "Divides in ratio m : n.",
+      "whenToUse": "Internal division.",
+      "simpleExample": "Ratio 1 : 2"
+    },
+    {
+      "title": "Slope",
+      "formula": "m = Δy/Δx",
+      "description": "Two points.",
+      "whenToUse": "Steepness.",
+      "simpleExample": "(1, 2) to (4, 6): 4/3"
+    },
+    {
+      "title": "Line",
+      "formula": "y − y₁ = m(x − x₁)",
+      "description": "Point and slope.",
+      "whenToUse": "Equations.",
+      "simpleExample": "Through (1, 2), m = 3"
+    },
+    {
+      "title": "Triangle area",
+      "formula": "½ |x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)|",
+      "description": "Three vertices.",
+      "whenToUse": "Area, collinearity.",
+      "simpleExample": "(0,0), (4,0), (0,3): 6"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "To find the distance between (1, 2) and (4, 6), take Δx = 3 and Δy = 4, so the distance is √(9 + 16) = 5.",
+      "The point dividing (1, 2) and (7, 8) in the ratio 1 : 2 is ((1 × 7 + 2 × 1)/3, (1 × 8 + 2 × 2)/3) = (3, 4). The midpoint is (4, 5).",
+      "The slope of the line through (1, 2) and (4, 6) is 4/3. A line perpendicular to it has slope −3/4. Parallel lines have equal slopes.",
+      "The line through (1, 2) with slope 3 is y − 2 = 3(x − 1), that is y = 3x − 1. The intercept form x/a + y/b = 1 gives intercepts a and b directly.",
+      "The area of the triangle with vertices (0, 0), (4, 0), (0, 3) is ½ |0 + 4(3 − 0) + 0| = 6. Three points are collinear exactly when this expression is 0."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Distance from a point to a line",
+        "content": "The distance from (x₀, y₀) to ax + by + c = 0 is |a x₀ + b y₀ + c|/√(a² + b²)."
+      },
+      {
+        "title": "Centroid",
+        "content": "The centroid of a triangle is the average of the three vertices."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Distance",
+      "description": "Pythagoras.",
+      "exampleSnippet": "(1, 2), (4, 6)"
+    },
+    {
+      "typeName": "Section point",
+      "description": "Weighted average.",
+      "exampleSnippet": "Ratio 1 : 2"
+    },
+    {
+      "typeName": "Slope conditions",
+      "description": "Parallel or perpendicular.",
+      "exampleSnippet": "m₁ m₂ = −1"
+    },
+    {
+      "typeName": "Equation of a line",
+      "description": "Point-slope.",
+      "exampleSnippet": "y − 2 = 3(x − 1)"
+    },
+    {
+      "typeName": "Triangle area",
+      "description": "Determinant form.",
+      "exampleSnippet": "(0,0), (4,0), (0,3)"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-coordinate-geometry-1",
+      "title": "Section formula",
+      "question": "Find the point that divides the line joining (1, 2) and (7, 8) in the ratio 1 : 2.",
+      "givenInfo": [
+        "(1, 2)",
+        "(7, 8)",
+        "1 : 2"
+      ],
+      "conceptOrFormula": "Section formula.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "x",
+          "explanation": "(1 × 7 + 2 × 1)/3 = 3."
+        },
+        {
+          "stepNumber": 2,
+          "title": "y",
+          "explanation": "(1 × 8 + 2 × 2)/3 = 4."
+        }
+      ],
+      "finalAnswer": "(3, 4)",
+      "whyItWorks": "The point is one-third of the way from (1, 2).",
+      "commonTrap": "Using ratio 2 : 1.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-coordinate-geometry-2",
+      "title": "Perpendicular line",
+      "question": "Find the equation of the line through (2, 3) perpendicular to 2x + y = 5.",
+      "givenInfo": [
+        "2x + y = 5"
+      ],
+      "conceptOrFormula": "Perpendicular slope.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Slope of given",
+          "explanation": "y = −2x + 5 has slope −2."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Perpendicular slope",
+          "explanation": "1/2."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Equation",
+          "explanation": "y − 3 = ½(x − 2), so x − 2y + 4 = 0."
+        }
+      ],
+      "finalAnswer": "x − 2y + 4 = 0",
+      "whyItWorks": "Check that (2, 3) satisfies it: 2 − 6 + 4 = 0.",
+      "commonTrap": "Using slope 2.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-coordinate-geometry-3",
+      "title": "Triangle area",
+      "question": "Find the area of the triangle with vertices (1, 1), (5, 1) and (3, 6).",
+      "givenInfo": [
+        "Three vertices"
+      ],
+      "conceptOrFormula": "Base and height.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Base",
+          "explanation": "The base from (1, 1) to (5, 1) is 4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Height",
+          "explanation": "The height is 6 − 1 = 5."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Area",
+          "explanation": "½ × 4 × 5 = 10."
+        }
+      ],
+      "finalAnswer": "10 square units",
+      "whyItWorks": "The determinant formula gives the same value.",
+      "commonTrap": "Forgetting the ½.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Difference first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Substitute directly.",
+      "shortcutMethod": "Write Δx and Δy once; distance, slope and section points all follow from them."
+    },
+    "rulesForApplication": [
+      "Perpendicular: m₁ m₂ = −1.",
+      "Collinear: area 0.",
+      "Midpoint averages.",
+      "Use a horizontal base if available."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Swapping x and y in slope",
+      "whyItHappens": "Using Δx/Δy.",
+      "howToAvoid": "Slope is Δy/Δx."
+    },
+    {
+      "mistake": "Wrong order in the section formula",
+      "whyItHappens": "m : n assigned to the wrong end.",
+      "howToAvoid": "m goes with the second point."
+    },
+    {
+      "mistake": "Forgetting the ½ in area",
+      "whyItHappens": "Dropped factor.",
+      "howToAvoid": "Area = ½ |…|."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Check that the point satisfies the line equation.",
+    "questionSelectionAdvice": "Use the horizontal or vertical side as the base.",
+    "recruiterInsight": "Many coordinate problems are triples in disguise."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-coordinate-geometry-e1",
+        "question": "The distance between (1, 2) and (4, 6) is",
+        "options": [
+          "7",
+          "5",
+          "25",
+          "4"
+        ],
+        "correctAnswer": "5",
+        "explanation": "√(9 + 16) = 5.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-coordinate-geometry-e2",
+        "question": "The midpoint of (2, 4) and (8, 10) is",
+        "options": [
+          "(5, 7)",
+          "(10, 14)",
+          "(6, 6)",
+          "(4, 6)"
+        ],
+        "correctAnswer": "(5, 7)",
+        "explanation": "((2 + 8)/2, (4 + 10)/2) = (5, 7).",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-coordinate-geometry-e3",
+        "question": "The slope of the line through (1, 2) and (3, 8) is",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "3"
+        ],
+        "correctAnswer": "3",
+        "explanation": "(8 − 2)/(3 − 1) = 3.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-coordinate-geometry-i7",
+        "question": "The point dividing (1, 2) and (7, 8) internally in the ratio 1 : 2 is",
+        "options": [
+          "(3, 4)",
+          "(5, 6)",
+          "(4, 5)",
+          "(2, 3)"
+        ],
+        "correctAnswer": "(3, 4)",
+        "explanation": "((7 + 2)/3, (8 + 4)/3) = (3, 4).",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-coordinate-geometry-i8",
+        "question": "The slope of a line perpendicular to the line with slope 4/3 is",
+        "options": [
+          "3/4",
+          "4/3",
+          "−4/3",
+          "−3/4"
+        ],
+        "correctAnswer": "−3/4",
+        "explanation": "m₁ m₂ = −1 gives −3/4.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-coordinate-geometry-i9",
+        "question": "The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is",
+        "options": [
+          "12",
+          "7",
+          "5",
+          "6"
+        ],
+        "correctAnswer": "6",
+        "explanation": "½ × 4 × 3 = 6.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-coordinate-geometry-a15",
+        "question": "The distance between the parallel lines y = 2x + 3 and y = 2x + 8 is",
+        "options": [
+          "5",
+          "2.5",
+          "2.24",
+          "1.5"
+        ],
+        "correctAnswer": "2.24",
+        "explanation": "|8 − 3|/√(1 + 4) = 5/√5 = √5 ≈ 2.24.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-coordinate-geometry-a16",
+        "question": "The line through (2, 3) perpendicular to 2x + y = 5 is",
+        "options": [
+          "2x − y − 1 = 0",
+          "x − 2y + 4 = 0",
+          "x + 2y − 8 = 0",
+          "x − 2y − 4 = 0"
+        ],
+        "correctAnswer": "x − 2y + 4 = 0",
+        "explanation": "Slope 1/2: y − 3 = ½(x − 2), so x − 2y + 4 = 0.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-coordinate-geometry-p17",
+        "question": "The area of the triangle formed by the line 3x + 4y = 12 and the axes is",
+        "options": [
+          "12",
+          "6",
+          "3",
+          "7"
+        ],
+        "correctAnswer": "6",
+        "explanation": "Intercepts 4 and 3 give area ½ × 4 × 3 = 6.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-coordinate-geometry-p18",
+        "question": "The point (x, 0) is equidistant from (1, 2) and (3, 4). Its x-coordinate is",
+        "options": [
+          "5",
+          "4",
+          "3",
+          "2"
+        ],
+        "correctAnswer": "5",
+        "explanation": "(x − 1)² + 4 = (x − 3)² + 16 gives 4x = 20, so x = 5.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-coordinate-geometry-p19",
+        "question": "The vertices of a square are (0, 0), (a, 0), (a, a), (0, a). If its diagonal is 10√2, then a equals",
+        "options": [
+          "5",
+          "20",
+          "14.142136",
+          "10"
+        ],
+        "correctAnswer": "10",
+        "explanation": "Diagonal = a√2 = 10√2, so a = 10.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Distance.",
+      "Section formula.",
+      "Slope.",
+      "Line equations.",
+      "Triangle area."
+    ],
+    "quickFormulas": [
+      "√(Δx² + Δy²)",
+      "m₁ m₂ = −1",
+      "½|Σ x(y − y)|"
+    ]
+  },
+  "keyTakeaways": [
+    "Compute Δx, Δy.",
+    "Slope = rise/run.",
+    "Check with a point.",
+    "Area uses ½."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the distance between two points?",
+    "Can I write the equation of a line?",
+    "Can I test collinearity?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}
