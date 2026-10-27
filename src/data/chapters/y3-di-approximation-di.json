@@ -1,0 +1,419 @@
+{
+  "id": "y3-di-approximation-di",
+  "yearId": 3,
+  "category": "Data Interpretation",
+  "topicNumber": 67,
+  "title": "Approximation Techniques in DI",
+  "tagline": "Year 3 — Rounding before calculating: estimating growth, shares and ratios when the options are far apart",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In many DI questions the options are far apart and the question says \"approximately\". You do not need an exact answer; you need one that is close enough to choose the right option. Approximation saves time by rounding the data (4,180 to 4,200), simplifying ratios, using benchmarks (10% of a number is one tenth) and checking the size of the answer before doing the full arithmetic.",
+    "placementRelevance": "Speed matters in DI sections of company tests, and approximation is the main way to gain time.",
+    "realWorldContext": "Mental estimates of growth, shares and ratios are what managers do in meetings."
+  },
+  "learningObjectives": [
+    "Round data sensibly before calculating",
+    "Use benchmark percentages (10%, 5%, 1%)",
+    "Estimate growth, share and ratio quickly",
+    "Judge when approximation is safe from the option spacing",
+    "Check estimates against exact values"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Percentage-Based DI",
+      "Data Analysis and Trend Identification"
+    ],
+    "quickRefresher": "10% of a number is the number divided by 10. 1% is divided by 100. A percentage change is change ÷ old."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Approximation: replacing a number by a nearby simpler one.",
+      "Benchmark: an easy fraction like 10%, 25% or 50%.",
+      "Option spacing: the gaps between answer options.",
+      "Rounding error: the difference between exact and rounded value.",
+      "Sanity check: a rough comparison to confirm the size of an answer."
+    ],
+    "theoreticalIntuition": "If the options are 10% apart, an estimate within 3% is enough. Choose the precision from the option spacing.",
+    "visualOrMentalModel": "Round to two significant figures, use benchmark fractions, compute roughly, and then compare with the options."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Growth",
+      "formula": "(new − old) ÷ old with rounded numbers",
+      "description": "Percentage change.",
+      "whenToUse": "Estimating.",
+      "simpleExample": "4,970 vs 4,180 ≈ 800/4,200"
+    },
+    {
+      "title": "Share",
+      "formula": "Part ÷ total with rounded numbers",
+      "description": "Share questions.",
+      "whenToUse": "Estimating.",
+      "simpleExample": "6,010 ÷ 20,800"
+    },
+    {
+      "title": "Ratio",
+      "formula": "Divide and round to a simple ratio",
+      "description": "Ratio questions.",
+      "whenToUse": "Estimating.",
+      "simpleExample": "4,970 : 2,430 ≈ 2 : 1"
+    },
+    {
+      "title": "Average",
+      "formula": "Round, sum, divide",
+      "description": "Mean.",
+      "whenToUse": "Estimating.",
+      "simpleExample": "20,800 ÷ 5"
+    },
+    {
+      "title": "Benchmark",
+      "formula": "10% = ÷10; 5% = half of 10%",
+      "description": "Percent of a number.",
+      "whenToUse": "Shortcut.",
+      "simpleExample": "15% = 10% + 5%"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Company A grew from 4,180 to 4,970. Round to 4,200 and 5,000: growth is 800 ÷ 4,200 ≈ 19%. The exact value is 18.9%.",
+      "For a share, round the total: the 2023 total is 4,970 + 3,890 + 6,010 + 3,540 + 2,430 ≈ 20,840. Company C is 6,010 ÷ 20,840 ≈ 29%. If the options are 25%, 29%, 33% and 38%, an estimate of \"about 30%\" picks 29%.",
+      "For a ratio, A : E in 2023 is 4,970 : 2,430, which is just over 2 : 1.",
+      "Use benchmarks: 15% of 2,430 is 10% (243) plus 5% (121.5) = 364.5, so a 15% rise gives about 2,795.",
+      "Check the answer against the data: a growth percentage cannot exceed the largest ratio of the new to old numbers minus one."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Error budget",
+        "content": "Rounding each number to 2 significant figures typically gives an error under 3%; this is safe when options differ by 10% or more."
+      },
+      {
+        "title": "When not to approximate",
+        "content": "If two options are within 2% of each other, calculate exactly."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Growth",
+      "description": "Rounded change.",
+      "exampleSnippet": "Company A"
+    },
+    {
+      "typeName": "Share",
+      "description": "Rounded total.",
+      "exampleSnippet": "Company C"
+    },
+    {
+      "typeName": "Ratio",
+      "description": "Simple ratio.",
+      "exampleSnippet": "A : E"
+    },
+    {
+      "typeName": "Benchmarks",
+      "description": "10%, 5%.",
+      "exampleSnippet": "15% rise"
+    },
+    {
+      "typeName": "Averages",
+      "description": "Round and divide.",
+      "exampleSnippet": "Mean revenue"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-di-approximation-di-1",
+      "title": "Rounding for growth",
+      "question": "Revenue rose from 4,180 to 4,970. Approximately what is the percentage growth?",
+      "givenInfo": [
+        "4,180 → 4,970"
+      ],
+      "conceptOrFormula": "Round and divide.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Round",
+          "explanation": "4,200 and 5,000, so the change ≈ 800."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide",
+          "explanation": "800 ÷ 4,200 ≈ 19%."
+        }
+      ],
+      "finalAnswer": "About 19%",
+      "whyItWorks": "Exact: 790 ÷ 4,180 = 18.9%.",
+      "commonTrap": "Dividing by the new value.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-di-approximation-di-2",
+      "title": "Benchmark",
+      "question": "Estimate 15% of 2,430.",
+      "givenInfo": [
+        "2,430"
+      ],
+      "conceptOrFormula": "10% + 5%.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "10%",
+          "explanation": "243."
+        },
+        {
+          "stepNumber": 2,
+          "title": "5%",
+          "explanation": "121.5; total ≈ 364.5."
+        }
+      ],
+      "finalAnswer": "About 365",
+      "whyItWorks": "Use benchmarks.",
+      "commonTrap": "Multiplying by 0.015.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-di-approximation-di-3",
+      "title": "Ratio",
+      "question": "Revenue of A is 4,970 and of E is 2,430. Approximately what is the ratio A : E?",
+      "givenInfo": [
+        "4,970 : 2,430"
+      ],
+      "conceptOrFormula": "Divide and round.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Divide",
+          "explanation": "4,970 ÷ 2,430 ≈ 2.05."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Ratio",
+          "explanation": "About 2 : 1."
+        }
+      ],
+      "finalAnswer": "About 2 : 1",
+      "whyItWorks": "It is just over 2.",
+      "commonTrap": "Rounding to 3 : 1.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Round, benchmark, compare",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Calculate exactly every time.",
+      "shortcutMethod": "Round to two figures, use 10% and 5% benchmarks, estimate, and pick the option that is nearest."
+    },
+    "rulesForApplication": [
+      "Round to two figures.",
+      "Use 10%/5% benchmarks.",
+      "Check option spacing.",
+      "Exact only if options are close."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Rounding too early on close options",
+      "whyItHappens": "Wrong choice.",
+      "howToAvoid": "Check option spacing first."
+    },
+    {
+      "mistake": "Rounding in different directions",
+      "whyItHappens": "Cancelling errors fail.",
+      "howToAvoid": "Round both up or both down for ratios."
+    },
+    {
+      "mistake": "Dividing by the wrong base",
+      "whyItHappens": "Large errors.",
+      "howToAvoid": "Old is the base."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 45,
+    "eliminationTechnique": "Discard options that are obviously too large or too small.",
+    "questionSelectionAdvice": "Estimate first, calculate only if needed.",
+    "recruiterInsight": "Approximation is a skill: practise it daily."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-di-approximation-di-e1",
+        "question": "Revenue (₹ crore) of five companies in 2022 and 2023, and number of employees in 2023\n\nCompany | Revenue 2022 | Revenue 2023 | Employees 2023\nA | 4180 | 4970 | 410\nB | 3620 | 3890 | 380\nC | 5240 | 6010 | 520\nD | 2880 | 3540 | 290\nE | 1970 | 2430 | 240\n\nApproximately what was the percentage growth in the revenue of Company A from 2022 to 2023?",
+        "options": [
+          "about 22%",
+          "about 19%",
+          "about 16%",
+          "about 25%"
+        ],
+        "correctAnswer": "about 19%",
+        "explanation": "(4,970 − 4,180) ÷ 4,180 = 18.9%. Rounded, the answer is about 19%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-approximation-di-e2",
+        "question": "Revenue (₹ crore) of five companies in 2022 and 2023, and number of employees in 2023\n\nCompany | Revenue 2022 | Revenue 2023 | Employees 2023\nA | 4180 | 4970 | 410\nB | 3620 | 3890 | 380\nC | 5240 | 6010 | 520\nD | 2880 | 3540 | 290\nE | 1970 | 2430 | 240\n\nApproximately what was the percentage growth in the revenue of Company B from 2022 to 2023?",
+        "options": [
+          "about 7%",
+          "about 10%",
+          "about 4%",
+          "about 13%"
+        ],
+        "correctAnswer": "about 7%",
+        "explanation": "(3,890 − 3,620) ÷ 3,620 = 7.5%. Rounded, the answer is about 7%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-approximation-di-e3",
+        "question": "Revenue (₹ crore) of five companies in 2022 and 2023, and number of employees in 2023\n\nCompany | Revenue 2022 | Revenue 2023 | Employees 2023\nA | 4180 | 4970 | 410\nB | 3620 | 3890 | 380\nC | 5240 | 6010 | 520\nD | 2880 | 3540 | 290\nE | 1970 | 2430 | 240\n\nWhat was the total revenue of the five companies in 2023, to the nearest hundred (₹ crore)?",
+        "options": [
+          "20,000",
+          "21,500",
+          "19,500",
+          "20,800"
+        ],
+        "correctAnswer": "20,800",
+        "explanation": "4,970 + 3,890 + 6,010 + 3,540 + 2,430 = 20,840, which is 20,800 to the nearest hundred. Answer: 20,800.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-di-approximation-di-i7",
+        "question": "Revenue (₹ crore) of five companies in 2022 and 2023, and number of employees in 2023\n\nCompany | Revenue 2022 | Revenue 2023 | Employees 2023\nA | 4180 | 4970 | 410\nB | 3620 | 3890 | 380\nC | 5240 | 6010 | 520\nD | 2880 | 3540 | 290\nE | 1970 | 2430 | 240\n\nApproximately what was the percentage growth of Company D?",
+        "options": [
+          "about 23%",
+          "about 26%",
+          "about 19%",
+          "about 30%"
+        ],
+        "correctAnswer": "about 23%",
+        "explanation": "660 ÷ 2,880 = 22.9%. Rounded, the answer is about 23%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-approximation-di-i8",
+        "question": "Revenue (₹ crore) of five companies in 2022 and 2023, and number of employees in 2023\n\nCompany | Revenue 2022 | Revenue 2023 | Employees 2023\nA | 4180 | 4970 | 410\nB | 3620 | 3890 | 380\nC | 5240 | 6010 | 520\nD | 2880 | 3540 | 290\nE | 1970 | 2430 | 240\n\nApproximately what was the average revenue per company in 2023, to the nearest ten (₹ crore)?",
+        "options": [
+          "3,900",
+          "4,500",
+          "4,800",
+          "4,170"
+        ],
+        "correctAnswer": "4,170",
+        "explanation": "20,840 ÷ 5 = 4,168, which is 4,170 to the nearest ten. Answer: 4,170.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-approximation-di-i9",
+        "question": "Revenue (₹ crore) of five companies in 2022 and 2023, and number of employees in 2023\n\nCompany | Revenue 2022 | Revenue 2023 | Employees 2023\nA | 4180 | 4970 | 410\nB | 3620 | 3890 | 380\nC | 5240 | 6010 | 520\nD | 2880 | 3540 | 290\nE | 1970 | 2430 | 240\n\nThe revenue of Company A in 2023 is approximately how many times that of Company E?",
+        "options": [
+          "About 1.5 times",
+          "About 3 times",
+          "About 2.5 times",
+          "About 2 times"
+        ],
+        "correctAnswer": "About 2 times",
+        "explanation": "4,970 ÷ 2,430 = 2.05, so about 2 times.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-di-approximation-di-a15",
+        "question": "Revenue (₹ crore) of five companies in 2022 and 2023, and number of employees in 2023\n\nCompany | Revenue 2022 | Revenue 2023 | Employees 2023\nA | 4180 | 4970 | 410\nB | 3620 | 3890 | 380\nC | 5240 | 6010 | 520\nD | 2880 | 3540 | 290\nE | 1970 | 2430 | 240\n\nApproximately what was the overall revenue per employee in 2023 (₹ crore)?",
+        "options": [
+          "about 14",
+          "about 8",
+          "about 11",
+          "about 17"
+        ],
+        "correctAnswer": "about 11",
+        "explanation": "Total revenue 20,840 ÷ total employees 1840 = 11.33. Rounded, the answer is about 11.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-approximation-di-a16",
+        "question": "Revenue (₹ crore) of five companies in 2022 and 2023, and number of employees in 2023\n\nCompany | Revenue 2022 | Revenue 2023 | Employees 2023\nA | 4180 | 4970 | 410\nB | 3620 | 3890 | 380\nC | 5240 | 6010 | 520\nD | 2880 | 3540 | 290\nE | 1970 | 2430 | 240\n\nCompanies A and B together contributed approximately what percentage of the total 2023 revenue?",
+        "options": [
+          "about 49%",
+          "about 43%",
+          "about 36%",
+          "about 55%"
+        ],
+        "correctAnswer": "about 43%",
+        "explanation": "(4,970 + 3,890) ÷ 20,840 = 8,860 ÷ 20,840 = 42.5%. Rounded, the answer is about 43%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-di-approximation-di-p17",
+        "question": "Revenue (₹ crore) of five companies in 2022 and 2023, and number of employees in 2023\n\nCompany | Revenue 2022 | Revenue 2023 | Employees 2023\nA | 4180 | 4970 | 410\nB | 3620 | 3890 | 380\nC | 5240 | 6010 | 520\nD | 2880 | 3540 | 290\nE | 1970 | 2430 | 240\n\nIf the revenue of Company E grows by 15% in 2024, what will it be approximately (₹ crore)?",
+        "options": [
+          "about 3214",
+          "about 2795",
+          "about 2375",
+          "about 3633"
+        ],
+        "correctAnswer": "about 2795",
+        "explanation": "2,430 × 1.15 = 2794.5. Rounded, the answer is about 2795.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-approximation-di-p18",
+        "question": "Revenue (₹ crore) of five companies in 2022 and 2023, and number of employees in 2023\n\nCompany | Revenue 2022 | Revenue 2023 | Employees 2023\nA | 4180 | 4970 | 410\nB | 3620 | 3890 | 380\nC | 5240 | 6010 | 520\nD | 2880 | 3540 | 290\nE | 1970 | 2430 | 240\n\nThe 2023 revenue of Company D is approximately how many times its 2022 revenue?",
+        "options": [
+          "About 1.2 times",
+          "About 1.5 times",
+          "About 1.05 times",
+          "About 2 times"
+        ],
+        "correctAnswer": "About 1.2 times",
+        "explanation": "3,540 ÷ 2,880 = 1.23, so about 1.2 times.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-approximation-di-p19",
+        "question": "Revenue (₹ crore) of five companies in 2022 and 2023, and number of employees in 2023\n\nCompany | Revenue 2022 | Revenue 2023 | Employees 2023\nA | 4180 | 4970 | 410\nB | 3620 | 3890 | 380\nC | 5240 | 6010 | 520\nD | 2880 | 3540 | 290\nE | 1970 | 2430 | 240\n\nApproximately what percentage of the total 2023 revenue came from the company with the second-highest revenue?",
+        "options": [
+          "about 27%",
+          "about 20%",
+          "about 31%",
+          "about 24%"
+        ],
+        "correctAnswer": "about 24%",
+        "explanation": "The second-highest revenue in 2023 is Company A (4,970): 4,970 ÷ 20,840 = 23.8%. Rounded, the answer is about 24%.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Round.",
+      "Benchmarks.",
+      "Growth.",
+      "Share.",
+      "Ratio."
+    ],
+    "quickFormulas": [
+      "10% = ÷ 10"
+    ]
+  },
+  "keyTakeaways": [
+    "Round sensibly.",
+    "Use benchmarks.",
+    "Check spacing.",
+    "Sanity check."
+  ],
+  "selfCheckQuestions": [
+    "Can I estimate a growth rate?",
+    "Can I use benchmark percentages?",
+    "Can I judge when to be exact?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}

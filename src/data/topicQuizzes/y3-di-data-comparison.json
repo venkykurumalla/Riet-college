@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-di-data-comparison",
+  "topicTitle": "Cross-Category Data Comparison",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nHow many literate people does S2 have (million)?",
+      "options": [
+        "54.1",
+        "49.2",
+        "44.3",
+        "61.5"
+      ],
+      "answerIndex": 1,
+      "explanation": "60 × 82% = 49.2. The answer is 49.2."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nHow many literate people does S4 have (million)?",
+      "options": [
+        "36",
+        "40",
+        "32",
+        "45"
+      ],
+      "answerIndex": 0,
+      "explanation": "40 × 90% = 36. The answer is 36."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhat is the density of S5 (persons per sq km)?",
+      "options": [
+        "880",
+        "720",
+        "1000",
+        "800"
+      ],
+      "answerIndex": 3,
+      "explanation": "100 million ÷ 125 thousand sq km = 800. The answer is 800."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhat is the total income of S4 (₹ billion)?",
+      "options": [
+        "4840",
+        "3960",
+        "4400",
+        "5500"
+      ],
+      "answerIndex": 2,
+      "explanation": "40 million × ₹110 thousand = 4,400 billion. The answer is 4400."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhich state has the highest literacy rate?",
+      "options": [
+        "S1",
+        "S2",
+        "S4",
+        "S3"
+      ],
+      "answerIndex": 2,
+      "explanation": "Literacy rates are 75, 82, 68, 90 and 78%; the highest is 90% in S4. Answer: S4."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhat is the difference in per-capita income between S4 and S3 (₹ thousand)?",
+      "options": [
+        "72",
+        "65",
+        "59",
+        "81"
+      ],
+      "answerIndex": 1,
+      "explanation": "110 − 45 = 65. The answer is 65."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhich state has the largest number of literate people?",
+      "options": [
+        "S3",
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "answerIndex": 0,
+      "explanation": "Literate populations (million): S1 60, S2 49.2, S3 81.6, S4 36, S5 78; the largest is S3. Answer: S3."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhat is the density of S1 (persons per sq km)?",
+      "options": [
+        "440",
+        "360",
+        "500",
+        "400"
+      ],
+      "answerIndex": 3,
+      "explanation": "80 million ÷ 200 thousand sq km = 400. The answer is 400."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhich state has the highest population density?",
+      "options": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "answerIndex": 3,
+      "explanation": "Densities: S1 400, S2 600, S3 375, S4 500, S5 800; the highest is S5. Answer: S5."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhat is the total income of S5 (₹ billion)?",
+      "options": [
+        "7700",
+        "6300",
+        "7000",
+        "8750"
+      ],
+      "answerIndex": 2,
+      "explanation": "100 × 70 = 7,000. The answer is 7000."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhich state has the highest total income?",
+      "options": [
+        "S1",
+        "S5",
+        "S2",
+        "S3"
+      ],
+      "answerIndex": 1,
+      "explanation": "Total incomes (₹ billion): S1 4800, S2 5400, S3 5400, S4 4400, S5 7000; the highest is S5. Answer: S5."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhat is the total illiterate population of S1 and S3 together (million, to one decimal)?",
+      "options": [
+        "58.4",
+        "64.2",
+        "52.6",
+        "73"
+      ],
+      "answerIndex": 0,
+      "explanation": "S1: 80 − 60 = 20; S3: 120 − 81.6 = 38.4; total 58.4. The answer is 58.4."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhat is the ratio of the population of S1 to that of S4?",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "81 : 40",
+        "40 : 21"
+      ],
+      "answerIndex": 0,
+      "explanation": "S1 has 80 million and S4 has 40 million. The ratio is 2 : 1."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhat is the total population of the five states (million)?",
+      "options": [
+        "440",
+        "360",
+        "500",
+        "400"
+      ],
+      "answerIndex": 3,
+      "explanation": "80 + 60 + 120 + 40 + 100 = 400. The answer is 400."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhat is the total number of literate people in the five states (million, to one decimal)?",
+      "options": [
+        "335.3",
+        "274.3",
+        "304.8",
+        "381"
+      ],
+      "answerIndex": 2,
+      "explanation": "60 + 49.2 + 81.6 + 36 + 78 = 304.8. The answer is 304.8."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhat is the literacy rate of the five states taken together?",
+      "options": [
+        "83.8%",
+        "76.2%",
+        "68.6%",
+        "95.3%"
+      ],
+      "answerIndex": 1,
+      "explanation": "304.8 ÷ 400 = 76.2%. The answer is 76.2%."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhat is the average per-capita income of the five states taken together (₹ thousand)?",
+      "options": [
+        "74.3",
+        "67.5",
+        "60.8",
+        "84.4"
+      ],
+      "answerIndex": 1,
+      "explanation": "Total income = 4,800 + 5,400 + 5,400 + 4,400 + 7,000 = 27,000 billion; 27,000 ÷ 400 = 67.5. The answer is 67.5."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nWhich state has the lowest total income?",
+      "options": [
+        "S4",
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "answerIndex": 0,
+      "explanation": "Total incomes: S1 4800, S2 5400, S3 5400, S4 4400, S5 7000; the lowest is S4. Answer: S4."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nBy how many persons per sq km is the density of S2 higher than that of S3?",
+      "options": [
+        "248",
+        "203",
+        "281",
+        "225"
+      ],
+      "answerIndex": 3,
+      "explanation": "S2 = 600 and S3 = 375; 600 − 375 = 225. The answer is 225."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Data for five states\n\nState | Population (million) | Literacy (%) | Per-capita income (₹ thousand) | Area (thousand sq km)\nS1 | 80 | 75% | 60 | 200\nS2 | 60 | 82% | 90 | 100\nS3 | 120 | 68% | 45 | 320\nS4 | 40 | 90% | 110 | 80\nS5 | 100 | 78% | 70 | 125\n\nThe total income of S5 is what percentage more than that of S1 (to one decimal place)?",
+      "options": [
+        "50.4%",
+        "41.2%",
+        "45.8%",
+        "57.3%"
+      ],
+      "answerIndex": 2,
+      "explanation": "(7,000 − 4,800) ÷ 4,800 = 45.8%. The answer is 45.8%."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/data-interpretation/"
+}
