@@ -1,0 +1,268 @@
+{
+  "topicId": "y1-quant-basic-simple-interest",
+  "topicTitle": "Simple Interest Basics",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The simple interest on ₹5,000 at 8% per annum for 3 years is",
+      "options": [
+        "1000",
+        "1200",
+        "1400",
+        "1600"
+      ],
+      "answerIndex": 1,
+      "explanation": "SI = 5000 × 8 × 3 / 100 = ₹1,200."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The amount on ₹2,000 at 5% per annum simple interest for 2 years is",
+      "options": [
+        "2200",
+        "2100",
+        "2205",
+        "2400"
+      ],
+      "answerIndex": 0,
+      "explanation": "SI = 2000 × 5 × 2 / 100 = ₹200. Amount = 2000 + 200 = ₹2,200."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The principal that earns ₹900 as simple interest in 3 years at 6% per annum is",
+      "options": [
+        "4500",
+        "5400",
+        "6000",
+        "5000"
+      ],
+      "answerIndex": 3,
+      "explanation": "P = 100 × SI /(R × T) = 100 × 900 /(6 × 3) = ₹5,000."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "At what rate per annum will ₹2,000 earn ₹600 simple interest in 3 years?",
+      "options": [
+        "8%",
+        "12%",
+        "10%",
+        "15%"
+      ],
+      "answerIndex": 2,
+      "explanation": "R = 100 × 600 /(2000 × 3) = 10% per annum."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "In how many years will ₹4,000 earn ₹960 simple interest at 8% per annum?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "answerIndex": 2,
+      "explanation": "T = 100 × 960 /(4000 × 8) = 3 years."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The simple interest on ₹1,200 at 10% per annum for 6 months is",
+      "options": [
+        "6",
+        "60",
+        "120",
+        "600"
+      ],
+      "answerIndex": 1,
+      "explanation": "6 months = 0.5 year. SI = 1200 × 10 × 0.5 / 100 = ₹60."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "At simple interest, a sum of money doubles itself in 8 years. The rate of interest per annum is",
+      "options": [
+        "12.5%",
+        "10%",
+        "8%",
+        "12%"
+      ],
+      "answerIndex": 0,
+      "explanation": "Doubling means SI = P. So P = P × R × 8 / 100, giving R = 100/8 = 12.5%."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A sum amounts to ₹7,500 in 2 years and ₹8,250 in 3 years at simple interest. The sum is",
+      "options": [
+        "5000",
+        "6500",
+        "7000",
+        "6000"
+      ],
+      "answerIndex": 3,
+      "explanation": "One year's interest = 8250 − 7500 = ₹750. Interest for 2 years = ₹1,500. Principal = 7500 − 1500 = ₹6,000."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A sum of money triples itself in 20 years at simple interest. The rate per annum is",
+      "options": [
+        "5%",
+        "15%",
+        "20%",
+        "10%"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tripling means SI = 2P. 2P = P × R × 20 / 100, so R = 200/20 = 10%."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "₹2,550 is divided into two parts so that the simple interest on one part at 6% for 3 years equals that on the other at 8% for 2 years. The larger part is",
+      "options": [
+        "1200",
+        "1250",
+        "1350",
+        "1400"
+      ],
+      "answerIndex": 2,
+      "explanation": "Let the parts be x and y. 6 × 3 × x = 8 × 2 × y, so 18x = 16y and x : y = 8 : 9. Total parts = 17, one part = 150. Larger part = 9 × 150 = ₹1,350."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The simple interest on ₹8,000 at 7.5% per annum for 8 months is",
+      "options": [
+        "450",
+        "400",
+        "480",
+        "600"
+      ],
+      "answerIndex": 1,
+      "explanation": "8 months = 2/3 year. SI = 8000 × 7.5 × (2/3) / 100 = ₹400."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "At 12% per annum, a sum earns ₹1,080 simple interest in 9 months. The sum is",
+      "options": [
+        "12000",
+        "10000",
+        "11000",
+        "13500"
+      ],
+      "answerIndex": 0,
+      "explanation": "9 months = 0.75 year. P = 100 × 1080 /(12 × 0.75) = 108000/9 = ₹12,000."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A man borrows ₹6,000 at 5% per annum and lends it at 7% per annum for 3 years. His gain is",
+      "options": [
+        "360",
+        "300",
+        "420",
+        "630"
+      ],
+      "answerIndex": 0,
+      "explanation": "Gain = 6000 × (7 − 5) × 3 / 100 = ₹360."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The extra interest earned on ₹5,000 for 2 years at 10% instead of 8% per annum is",
+      "options": [
+        "100",
+        "250",
+        "300",
+        "200"
+      ],
+      "answerIndex": 3,
+      "explanation": "Extra = 5000 × (10 − 8) × 2 / 100 = ₹200."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A sum of money at simple interest amounts to ₹1,200 in 2 years and ₹1,350 in 3.5 years. The sum is",
+      "options": [
+        "900",
+        "1050",
+        "1000",
+        "1100"
+      ],
+      "answerIndex": 2,
+      "explanation": "Interest for 1.5 years = 150, so yearly interest = ₹100. Principal = 1200 − 2 × 100 = ₹1,000."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "In how many years will ₹1,000 amount to ₹1,300 at 5% per annum simple interest?",
+      "options": [
+        "5",
+        "6",
+        "5.5",
+        "8"
+      ],
+      "answerIndex": 1,
+      "explanation": "SI = ₹300. T = 100 × 300 /(1000 × 5) = 6 years."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "₹5,000 is lent at 4% and ₹3,000 at 6%, both for 5 years. The total interest is",
+      "options": [
+        "1500",
+        "1900",
+        "1800",
+        "2000"
+      ],
+      "answerIndex": 1,
+      "explanation": "First: 5000 × 4 × 5/100 = ₹1,000. Second: 3000 × 6 × 5/100 = ₹900. Total = ₹1,900."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The simple interest on a sum is 9/25 of the principal and the number of years equals the rate per cent. The rate is",
+      "options": [
+        "6%",
+        "5%",
+        "9%",
+        "12%"
+      ],
+      "answerIndex": 0,
+      "explanation": "SI = P × R × R /100 = 9P/25, so R² = 900/25 = 36 and R = 6%."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A sum of money triples itself in 12 years at simple interest. In how many years will it become 5 times itself?",
+      "options": [
+        "20",
+        "30",
+        "36",
+        "24"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tripling needs interest 2P in 12 years, so 6 years earn P. Five times needs interest 4P, which takes 4 × 6 = 24 years.",
+      "shortcut": "Each extra \"P\" of interest takes the same time."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "₹7,000 is lent partly at 6% and the rest at 4% per annum. The total yearly interest is ₹360. The part lent at 6% is",
+      "options": [
+        "3000",
+        "3500",
+        "4000",
+        "5000"
+      ],
+      "answerIndex": 2,
+      "explanation": "Let the 6% part be x. 6x/100 + 4(7000 − x)/100 = 360 gives 2x + 28000 = 36000, so x = ₹4,000."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/simple-interest/"
+}

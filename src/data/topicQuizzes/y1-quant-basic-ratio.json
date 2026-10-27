@@ -1,0 +1,271 @@
+{
+  "topicId": "y1-quant-basic-ratio",
+  "topicTitle": "Basic Ratio",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Simplify the ratio 48 : 72.",
+      "options": [
+        "3 : 4",
+        "2 : 3",
+        "4 : 5",
+        "1 : 2"
+      ],
+      "answerIndex": 1,
+      "explanation": "HCF(48, 72) = 24. Dividing both terms by 24 gives 2 : 3.",
+      "shortcut": "Halve both terms repeatedly until no common factor remains: 48:72 → 24:36 → 12:18 → 6:9 → 2:3."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "₹1,200 is divided between A and B in the ratio 3 : 5. How much does A get?",
+      "options": [
+        "450",
+        "400",
+        "480",
+        "750"
+      ],
+      "answerIndex": 0,
+      "explanation": "Total parts = 3 + 5 = 8. One part = 1200 ÷ 8 = 150. A gets 3 × 150 = ₹450.",
+      "shortcut": "A's share = 1200 × 3/8 = 450."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Find the ratio of 40 cm to 1.5 m.",
+      "options": [
+        "8 : 3",
+        "4 : 3",
+        "2 : 15",
+        "4 : 15"
+      ],
+      "answerIndex": 3,
+      "explanation": "Convert 1.5 m to 150 cm. The ratio is 40 : 150. Dividing by 10 gives 4 : 15."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "What is the ratio of 2 hours to 40 minutes?",
+      "options": [
+        "2 : 1",
+        "1 : 3",
+        "3 : 1",
+        "5 : 2"
+      ],
+      "answerIndex": 2,
+      "explanation": "2 hours = 120 minutes. The ratio is 120 : 40 = 3 : 1."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "If x : y = 5 : 7 and x = 35, then y equals",
+      "options": [
+        "42",
+        "45",
+        "49",
+        "56"
+      ],
+      "answerIndex": 2,
+      "explanation": "x = 5 parts = 35, so one part = 7. y = 7 parts = 7 × 7 = 49."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Which ratio is greater, 3 : 4 or 5 : 7?",
+      "options": [
+        "5 : 7",
+        "3 : 4",
+        "They are equal",
+        "Cannot be compared"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cross-multiply: 3 × 7 = 21 and 5 × 4 = 20. Since 21 > 20, 3/4 > 5/7. (Decimals: 0.75 versus about 0.714.)",
+      "shortcut": "Cross-multiply: the larger product sits beside the larger fraction's numerator."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "If A : B = 2 : 3 and B : C = 4 : 5, then A : B : C is",
+      "options": [
+        "8 : 12 : 15",
+        "2 : 3 : 5",
+        "8 : 12 : 5",
+        "6 : 9 : 10"
+      ],
+      "answerIndex": 0,
+      "explanation": "LCM of B's values (3 and 4) is 12. Scale A : B = 2 : 3 by 4 to get 8 : 12, and B : C = 4 : 5 by 3 to get 12 : 15. So A : B : C = 8 : 12 : 15."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Two numbers are in the ratio 5 : 8 and their sum is 156. The larger number is",
+      "options": [
+        "60",
+        "78",
+        "88",
+        "96"
+      ],
+      "answerIndex": 3,
+      "explanation": "Parts = 5 + 8 = 13. One part = 156 ÷ 13 = 12. Larger = 8 × 12 = 96."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The ratio of income to expenditure of a family is 7 : 5. If the savings are ₹4,500, the income is",
+      "options": [
+        "10500",
+        "22500",
+        "12600",
+        "15750"
+      ],
+      "answerIndex": 3,
+      "explanation": "Income 7 parts, expenditure 5 parts, so savings = 2 parts = 4500. One part = 2250. Income = 7 × 2250 = ₹15,750."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "In a school of 540 students the ratio of boys to girls is 4 : 5. The number of girls is",
+      "options": [
+        "240",
+        "270",
+        "300",
+        "324"
+      ],
+      "answerIndex": 2,
+      "explanation": "Parts = 9. One part = 540 ÷ 9 = 60. Girls = 5 × 60 = 300."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "What number must be added to both terms of the ratio 7 : 11 to make it 3 : 4?",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "6"
+      ],
+      "answerIndex": 1,
+      "explanation": "(7 + x)/(11 + x) = 3/4. Cross-multiplying: 28 + 4x = 33 + 3x, so x = 5. Check: 12 : 16 = 3 : 4."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Three numbers are in the ratio 2 : 3 : 5 and the sum of their squares is 1368. The largest number is",
+      "options": [
+        "30",
+        "20",
+        "25",
+        "36"
+      ],
+      "answerIndex": 0,
+      "explanation": "Let the numbers be 2k, 3k, 5k. Then 4k² + 9k² + 25k² = 38k² = 1368, so k² = 36 and k = 6. The largest is 5 × 6 = 30."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A 60 kg alloy contains copper and zinc in the ratio 7 : 3. The weight of zinc is",
+      "options": [
+        "18",
+        "12",
+        "21",
+        "42"
+      ],
+      "answerIndex": 0,
+      "explanation": "Parts = 10. One part = 6 kg. Zinc = 3 × 6 = 18 kg."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The compound ratio of 2 : 3, 4 : 5 and 6 : 7 in the simplest form is",
+      "options": [
+        "48 : 105",
+        "12 : 15",
+        "8 : 15",
+        "16 : 35"
+      ],
+      "answerIndex": 3,
+      "explanation": "Multiply the first terms and the second terms: (2×4×6) : (3×5×7) = 48 : 105. HCF = 3, so the simplest form is 16 : 35."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The incomes of two persons are in the ratio 5 : 4 and their expenditures in the ratio 3 : 2. If each saves ₹1,600, the income of the first person is",
+      "options": [
+        "3200",
+        "2400",
+        "4000",
+        "5000"
+      ],
+      "answerIndex": 2,
+      "explanation": "Let incomes be 5x, 4x and expenditures 3y, 2y. Then 5x − 3y = 1600 and 4x − 2y = 1600. The second gives y = 2x − 800. Substituting: 5x − 6x + 2400 = 1600, so x = 800. First income = 5 × 800 = ₹4,000."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A purse holds ₹1, 50-paise and 25-paise coins in the ratio 5 : 6 : 8. If the total value is ₹210, how many 50-paise coins are there?",
+      "options": [
+        "105",
+        "126",
+        "84",
+        "168"
+      ],
+      "answerIndex": 1,
+      "explanation": "Let the counts be 5k, 6k, 8k. Value = 5k × 1 + 6k × 0.5 + 8k × 0.25 = 5k + 3k + 2k = 10k = 210, so k = 21. The 50-paise coins number 6 × 21 = 126."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A mixture of 80 litres has milk and water in the ratio 5 : 3. How much water must be added to make the ratio 5 : 4?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "answerIndex": 1,
+      "explanation": "Milk = 50 L, water = 30 L. Milk stays 50. Need 50 : (30 + w) = 5 : 4, so 30 + w = 40 and w = 10 L."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "If (a + b) : (b + c) : (c + a) = 6 : 7 : 8 and a + b + c = 21, then a equals",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "9"
+      ],
+      "answerIndex": 0,
+      "explanation": "Adding the three pairs gives 2(a + b + c) = 42 = 21k, so k = 2. Then a + b = 12, b + c = 14, c + a = 16. Hence a = (a + b + c) − (b + c) = 21 − 14 = 7."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The ratio of two numbers is 3 : 4 and their LCM is 180. The smaller number is",
+      "options": [
+        "36",
+        "60",
+        "15",
+        "45"
+      ],
+      "answerIndex": 3,
+      "explanation": "Numbers are 3k and 4k. Since 3 and 4 are co-prime, LCM = 12k = 180, so k = 15. The smaller number is 3 × 15 = 45.",
+      "shortcut": "For numbers in ratio a : b with co-prime a and b, the LCM is a × b × k."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Two vessels contain milk and water in the ratios 3 : 2 and 4 : 1. If 20 litres are taken from each and mixed, the ratio of milk to water in the mixture is",
+      "options": [
+        "3 : 7",
+        "5 : 3",
+        "7 : 3",
+        "7 : 2"
+      ],
+      "answerIndex": 2,
+      "explanation": "First vessel (20 L): milk 12, water 8. Second vessel (20 L): milk 16, water 4. Total milk = 28, water = 12. Ratio = 28 : 12 = 7 : 3."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/ratio-and-proportion/"
+}

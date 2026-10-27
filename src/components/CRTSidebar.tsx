@@ -237,7 +237,12 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
                             {topic.topicNumber}. {topic.title.split('—')[0]}
                           </span>
 
-                          <span className="shrink-0">
+                          <span className="shrink-0 flex items-center gap-1.5">
+                            {prog?.quizBest !== undefined && (
+                              <span className={`text-[9px] font-extrabold ${isTopicActive ? 'text-amber-200' : 'text-amber-600'}`}>
+                                ★{prog.quizBest}/{prog.quizTotal}
+                              </span>
+                            )}
                             {isCompleted ? (
                               <CheckCircle2 className={`w-3.5 h-3.5 ${isTopicActive ? 'text-cyan-200' : 'text-emerald-600'}`} />
                             ) : (

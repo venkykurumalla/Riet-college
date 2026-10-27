@@ -84,6 +84,19 @@ class CRTProgressService {
     return nextCompleted;
   }
 
+  public recordQuizScore(topicId: string, yearId: CRTYearId, score: number, total: number): void {
+    const current = this.getTopicProgress(topicId, yearId);
+    const best = Math.max(current.quizBest ?? 0, score);
+    this.progressMap[topicId] = {
+      ...current,
+      status: current.completed ? 'completed' : 'in-progress',
+      quizBest: best,
+      quizTotal: total,
+      lastAccessed: new Date().toISOString()
+    };
+    this.saveProgress();
+  }
+
   public getYearProgress(yearId: CRTYearId): CRTYearProgress {
     const yearTopics = getCRTTopicsByYear(yearId);
     const totalTopics = yearTopics.length;

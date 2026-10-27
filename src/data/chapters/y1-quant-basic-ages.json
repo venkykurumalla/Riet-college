@@ -1,0 +1,453 @@
+{
+  "id": "y1-quant-basic-ages",
+  "yearId": 1,
+  "category": "Quantitative Foundation",
+  "topicNumber": 12,
+  "title": "Problems on Ages",
+  "tagline": "Year 1 Foundation — Turning age statements into equations",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "Age problems describe how the ages of two or more people are related now, in the past or in the future, and ask you to find an unknown age. They look like word puzzles, but they all reduce to one or two linear equations. Two facts drive every problem: everybody ages at the same rate, so the difference between two ages never changes, and after n years every person's age increases by n.",
+    "placementRelevance": "Problems on ages are commonly asked in company aptitude rounds as short word problems. The skill tested is translating the sentence into an equation quickly and without a sign error.",
+    "realWorldContext": "Working out when a child will be half a parent's age, planning insurance terms or checking eligibility rules based on age uses the same reasoning."
+  },
+  "learningObjectives": [
+    "Represent present, past and future ages using a variable",
+    "Use the constant-difference property of ages",
+    "Convert ratio statements into equations with a multiplier",
+    "Solve problems with two unknowns using substitution",
+    "Check answers by returning to the original wording"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Ratio",
+      "Linear equations in one variable"
+    ],
+    "quickRefresher": "To solve ax + b = c, subtract b from both sides and divide by a. A ratio p : q for two ages means they are px and qx for some x."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Present age: the age now. If the present age is x, then n years ago it was x − n and n years later it will be x + n.",
+      "Age difference: the gap between two people's ages. It stays the same at every point of time.",
+      "Ratio of ages p : q: the ages are px and qx, where x is a common multiplier.",
+      "Sum of ages: if the sum of two ages is S now, it will be S + 2n after n years, since both ages increase by n.",
+      "Average age of a group: total of ages ÷ number of people, so total age = average × number of people."
+    ],
+    "theoreticalIntuition": "Time moves for everyone together. If a father is 30 years older than his son today, he will be exactly 30 years older in any year. The ratio of their ages, however, changes every year. The best strategy is to anchor the equation on the unchanged difference whenever it is given, and to use ratios only at one fixed point in time.",
+    "visualOrMentalModel": "Draw a small timeline with three columns: Past, Present, Now+Future. Write the unknown in the Present column, then add or subtract the given years in the other columns. The sentence in the question will say which column the equation belongs to."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Age after or before n years",
+      "formula": "Age after n years = x + n,  Age n years ago = x − n",
+      "description": "Ages shift by the same number for every person.",
+      "whenToUse": "Any past or future statement.",
+      "simpleExample": "Present age 25 → in 10 years 35, 5 years ago 20"
+    },
+    {
+      "title": "Constant difference",
+      "formula": "Difference = (Elder − Younger), the same at all times",
+      "description": "The gap never changes.",
+      "whenToUse": "When two ages are linked by a difference.",
+      "simpleExample": "A is 9 years older than B always"
+    },
+    {
+      "title": "Ratio statement",
+      "formula": "Ages in ratio p : q  →  px and qx",
+      "description": "A single multiplier represents both ages.",
+      "whenToUse": "Questions that give the ratio of ages.",
+      "simpleExample": "Ratio 3 : 4 → ages 3x and 4x"
+    },
+    {
+      "title": "Ratio after n years",
+      "formula": "(px + n)/(qx + n) = r/s",
+      "description": "Add n to each age, then cross-multiply.",
+      "whenToUse": "Questions that give two ratios at two times.",
+      "simpleExample": "(4x + 5)/(5x + 5) = 5/6 → x = 5"
+    },
+    {
+      "title": "Group average",
+      "formula": "Total age = Average × Number of people",
+      "description": "Total ages can be added or removed.",
+      "whenToUse": "Family or class average age problems.",
+      "simpleExample": "Average 24 for 5 people → total 120"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "The approach never changes: choose the variable for the age you are asked about (or for the smaller age), express everyone else's present age in terms of it, translate the key sentence into an equation, solve, and then verify against the wording.",
+      "If the problem gives a ratio now and another ratio after some years, use the ratio multiplier for the first ratio and substitute into the second. For example, if the ratio is 4 : 5 now and 5 : 6 after 5 years, write (4x + 5)/(5x + 5) = 5/6, cross-multiply to get 24x + 30 = 25x + 25, so x = 5, and the ages are 20 and 25.",
+      "When a past or future condition involves \"times as old\", the equation is written for that moment. \"10 years ago A was twice B\" means A − 10 = 2(B − 10), where A and B are present ages. Be careful to subtract the same years from both sides of the comparison.",
+      "Two-unknown problems are best solved by substitution. For instance, if a father is 7 times as old as his son and 4 years hence he will be 4 times as old, then F = 7S and F + 4 = 4(S + 4). Substituting gives 7S + 4 = 4S + 16, so S = 4 and F = 28."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Why you cannot add the same number to a ratio",
+        "content": "If two ages are in the ratio 3 : 4 now, they are 3x and 4x. After 5 years they are 3x + 5 and 4x + 5, which is not 8 : 9. The ratio changes because the same amount is added to each age, not to each ratio term."
+      },
+      {
+        "title": "Using the constant difference to skip a variable",
+        "content": "If the difference is known to be d, write the elder as the younger plus d. A single variable then describes both ages, and the second statement gives one equation."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Sum and difference",
+      "description": "The sum and difference of ages are given.",
+      "exampleSnippet": "The sum is 35 and A is 5 years older than B."
+    },
+    {
+      "typeName": "Past and future conditions",
+      "description": "A \"times as old\" statement in the past or the future.",
+      "exampleSnippet": "5 years ago the father was 4 times the son."
+    },
+    {
+      "typeName": "Ratio now and later",
+      "description": "Ratios at two points of time.",
+      "exampleSnippet": "4 : 5 now, 5 : 6 after 5 years."
+    },
+    {
+      "typeName": "Average age",
+      "description": "The average age of a group changes with time.",
+      "exampleSnippet": "The average of a family of 5 is 24."
+    },
+    {
+      "typeName": "Multiple people",
+      "description": "Three or more ages in a ratio or sum.",
+      "exampleSnippet": "A : B : C = 2 : 3 : 5."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-quant-basic-ages-1",
+      "title": "Sum and difference of ages",
+      "question": "A is 5 years older than B and the sum of their ages is 35. Find A's age.",
+      "givenInfo": [
+        "A = B + 5",
+        "A + B = 35"
+      ],
+      "conceptOrFormula": "Express both ages with one variable.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Let B's age be x",
+          "explanation": "Then A's age is x + 5."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Form the equation",
+          "explanation": "x + (x + 5) = 35, so 2x + 5 = 35."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Solve",
+          "explanation": "2x = 30, x = 15. So A = 15 + 5 = 20."
+        }
+      ],
+      "finalAnswer": "20 years",
+      "whyItWorks": "Check: 20 + 15 = 35 and 20 − 15 = 5.",
+      "commonTrap": "Taking x as the age of A and then still adding 5.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-quant-basic-ages-2",
+      "title": "Ratio now and ratio later",
+      "question": "The present ages of two persons are in the ratio 4 : 5. After 5 years the ratio becomes 5 : 6. Find the present ages.",
+      "givenInfo": [
+        "Ratio now = 4 : 5",
+        "Ratio after 5 years = 5 : 6"
+      ],
+      "conceptOrFormula": "Ages are 4x and 5x now; add 5 to each for the later condition.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Write the future ratio",
+          "explanation": "(4x + 5)/(5x + 5) = 5/6."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Cross-multiply",
+          "explanation": "6(4x + 5) = 5(5x + 5), so 24x + 30 = 25x + 25."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Solve",
+          "explanation": "x = 5. The ages are 4 × 5 = 20 and 5 × 5 = 25."
+        }
+      ],
+      "finalAnswer": "20 and 25 years",
+      "whyItWorks": "Check: after 5 years the ages are 25 and 30, whose ratio is 5 : 6.",
+      "commonTrap": "Adding 5 to the ratio terms, as 9 : 10.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-quant-basic-ages-3",
+      "title": "Two conditions, two unknowns",
+      "question": "Three years ago a father was 7 times as old as his son. Three years from now he will be 4 times as old as his son. Find their present ages.",
+      "givenInfo": [
+        "F − 3 = 7(S − 3)",
+        "F + 3 = 4(S + 3)"
+      ],
+      "conceptOrFormula": "Write one equation for each moment and solve by substitution.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Equation for the past",
+          "explanation": "F − 3 = 7S − 21, so F = 7S − 18."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Equation for the future",
+          "explanation": "F + 3 = 4S + 12, so F = 4S + 9."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Equate the two expressions for F",
+          "explanation": "7S − 18 = 4S + 9, so 3S = 27 and S = 9."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Find the father",
+          "explanation": "F = 4 × 9 + 9 = 45."
+        }
+      ],
+      "finalAnswer": "Father 45 years, son 9 years",
+      "whyItWorks": "Check: 3 years ago they were 42 and 6 (42 = 7 × 6); in 3 years they will be 48 and 12 (48 = 4 × 12).",
+      "commonTrap": "Forgetting to subtract (or add) the years from the son's age on the right-hand side.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Use the constant difference",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Create separate unknowns for each person and solve a pair of simultaneous equations.",
+      "shortcutMethod": "If the difference d is given, write the elder as the younger + d. If a ratio is given, use the multiplier and form just one equation. Most problems then need only one variable."
+    },
+    "rulesForApplication": [
+      "The difference of any two ages never changes.",
+      "Ages after n years: add n to every person. The sum of k people's ages increases by kn.",
+      "For a ratio now, use px and qx; for a ratio later, add the years to px and qx.",
+      "Always check the final ages against every statement in the question."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Adding the years to the ratio terms",
+      "whyItHappens": "Treating the ratio as an age.",
+      "howToAvoid": "Convert to actual ages px and qx first, then add the years."
+    },
+    {
+      "mistake": "Forgetting that both sides shift",
+      "whyItHappens": "Writing \"A − 10 = 2B\" instead of \"A − 10 = 2(B − 10)\".",
+      "howToAvoid": "Mark each person's age on the timeline for that moment."
+    },
+    {
+      "mistake": "Defining the variable for the wrong person",
+      "whyItHappens": "Solving correctly but answering for the other person.",
+      "howToAvoid": "Underline who the question asks about before writing the final answer."
+    },
+    {
+      "mistake": "Misusing \"older\" and \"younger\"",
+      "whyItHappens": "Subtracting the difference instead of adding it.",
+      "howToAvoid": "Write the relation as a short equation: A = B + 9 when A is 9 years older."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 75,
+    "eliminationTechnique": "Substitute option values into the key sentence. Because age problems have integer answers, only one option usually satisfies every condition.",
+    "questionSelectionAdvice": "Age problems are quick once practised. Skip any problem that needs three variables on the first pass.",
+    "recruiterInsight": "Age problems test whether you can read a sentence precisely, a skill valued across the verbal and reasoning sections too."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-quant-basic-ages-e1",
+        "question": "A is 5 years older than B and the sum of their ages is 35. A's age is",
+        "options": [
+          "15",
+          "20",
+          "25",
+          "30"
+        ],
+        "correctAnswer": "20",
+        "explanation": "Let B = x, so A = x + 5. Then 2x + 5 = 35, giving x = 15 and A = 20.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-quant-basic-ages-e2",
+        "question": "A is three times as old as B. If B is 8 years old, A's age is",
+        "options": [
+          "24",
+          "11",
+          "16",
+          "32"
+        ],
+        "correctAnswer": "24",
+        "explanation": "A = 3 × 8 = 24 years.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-quant-basic-ages-e3",
+        "question": "If a person is 25 years old now, his age 10 years from now will be",
+        "options": [
+          "15",
+          "30",
+          "45",
+          "35"
+        ],
+        "correctAnswer": "35",
+        "explanation": "25 + 10 = 35.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-quant-basic-ages-i7",
+        "question": "Five years ago a father was 4 times as old as his son. The sum of their present ages is 50. The father's present age is",
+        "options": [
+          "37",
+          "35",
+          "40",
+          "42"
+        ],
+        "correctAnswer": "37",
+        "explanation": "Let the son be s and the father f. f − 5 = 4(s − 5) and f + s = 50. Then f = 4s − 15, so 5s − 15 = 50, giving s = 13 and f = 37.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-quant-basic-ages-i8",
+        "question": "The ages of two persons are in the ratio 4 : 5. After 5 years the ratio will be 5 : 6. The age of the elder person now is",
+        "options": [
+          "20",
+          "30",
+          "35",
+          "25"
+        ],
+        "correctAnswer": "25",
+        "explanation": "Ages are 4x and 5x. (4x + 5)/(5x + 5) = 5/6 gives 24x + 30 = 25x + 25, so x = 5. The elder is 25.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-quant-basic-ages-i9",
+        "question": "A is 9 years older than B. In 10 years A will be twice as old as B was 10 years ago. A's present age is",
+        "options": [
+          "39",
+          "45",
+          "52",
+          "48"
+        ],
+        "correctAnswer": "48",
+        "explanation": "Let B = b, so A = b + 9. A + 10 = 2(b − 10) gives b + 19 = 2b − 20, so b = 39 and A = 48.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-quant-basic-ages-a15",
+        "question": "The present ages of Sameer and Anita are in the ratio 5 : 4. Three years from now the ratio will be 11 : 9. Anita's age 3 years ago was",
+        "options": [
+          "18",
+          "24",
+          "21",
+          "27"
+        ],
+        "correctAnswer": "21",
+        "explanation": "Ages are 5x and 4x. (5x + 3)/(4x + 3) = 11/9 gives 45x + 27 = 44x + 33, so x = 6. Anita is 24 now and was 21 three years ago.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-quant-basic-ages-a16",
+        "question": "A father is 30 years older than his son, who is now 10 years old. In how many years will the father be 3 times as old as the son?",
+        "options": [
+          "3",
+          "5",
+          "4",
+          "8"
+        ],
+        "correctAnswer": "5",
+        "explanation": "Father is 40. After n years: 40 + n = 3(10 + n), so 40 + n = 30 + 3n, giving n = 5.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-quant-basic-ages-p17",
+        "question": "The ages of A, B and C are in the ratio 2 : 3 : 5 and their sum is 100. B's age 10 years ago was",
+        "options": [
+          "10",
+          "20",
+          "25",
+          "30"
+        ],
+        "correctAnswer": "20",
+        "explanation": "Total parts = 10, so one part = 10. B = 30 now and 20 ten years ago.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-quant-basic-ages-p18",
+        "question": "The present ages of A and B are in the ratio 3 : 4. Ten years ago A was half as old as B. The sum of their present ages is",
+        "options": [
+          "35",
+          "28",
+          "42",
+          "49"
+        ],
+        "correctAnswer": "35",
+        "explanation": "Ages are 3k and 4k. 3k − 10 = (4k − 10)/2 gives 6k − 20 = 4k − 10, so k = 5. Ages are 15 and 20, sum 35.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-quant-basic-ages-p19",
+        "question": "A man is 24 years older than his son. In two years his age will be twice the age of his son. The man's present age is",
+        "options": [
+          "36",
+          "44",
+          "48",
+          "46"
+        ],
+        "correctAnswer": "46",
+        "explanation": "Let the son be s, the man s + 24. s + 26 = 2(s + 2) gives s = 22 and the man is 46.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Ages shift by the same amount for everyone.",
+      "The difference between ages is constant.",
+      "Ratio p : q → px and qx.",
+      "Write an equation for each time-point mentioned in the question.",
+      "Verify the answer against all conditions."
+    ],
+    "quickFormulas": [
+      "Age after n years = x + n",
+      "Ratio p : q → px, qx",
+      "Total age = Average × number"
+    ]
+  },
+  "keyTakeaways": [
+    "One variable is usually enough.",
+    "Handle past and future conditions by adding or subtracting for every person.",
+    "Verify the answer in words, not just in algebra.",
+    "The age difference is your most reliable fact."
+  ],
+  "selfCheckQuestions": [
+    "Can I translate \"5 years ago the father was 4 times as old as the son\" into an equation?",
+    "Can I solve a problem that gives the ratio of two ages now and again after some years?",
+    "Can I compute the average age of a family after a baby is born?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The Problems on Ages topic area; examples in this chapter are original."
+    },
+    {
+      "sourceName": "NCERT Mathematics, Class 7–8 (Linear Equations in One Variable)",
+      "sourceType": "Textbook",
+      "referenceNote": "Word problems that lead to linear equations."
+    }
+  ]
+}

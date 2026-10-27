@@ -166,6 +166,8 @@ export interface CRTTopicProgress {
   status: 'not-started' | 'in-progress' | 'completed';
   completed: boolean;
   lastAccessed: string;
+  quizBest?: number;
+  quizTotal?: number;
 }
 
 export interface CRTYearProgress {
@@ -205,4 +207,26 @@ export interface CRTQuizProgress {
   recentQuestionIds: string[];  // last-seen question IDs (up to 35) for smart rotation
   attempts: QuizAttempt[];
   lastCompletedAt?: string;
+}
+
+
+// =============================================
+// TOPIC-WISE QUIZ TYPES (one data file per topic)
+// =============================================
+
+export interface TopicQuizQuestion {
+  id: number;
+  difficulty: 'easy' | 'medium' | 'placement';
+  question: string;
+  options: string[];        // exactly 4
+  answerIndex: number;      // 0-3
+  explanation: string;
+  shortcut?: string;
+}
+
+export interface TopicQuizData {
+  topicId: string;
+  topicTitle: string;
+  morePracticeUrl?: string; // link-only, never embedded
+  questions: TopicQuizQuestion[];
 }

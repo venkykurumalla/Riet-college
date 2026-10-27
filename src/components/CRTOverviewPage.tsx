@@ -297,6 +297,12 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
                                 </span>
                               </div>
 
+                              <span className="flex items-center gap-1.5">
+                              {prog?.quizBest !== undefined && (
+                                <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-indigo-100 text-indigo-800">
+                                  Quiz {prog.quizBest}/{prog.quizTotal}
+                                </span>
+                              )}
                               <span
                                 className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
                                   isCompleted
@@ -307,6 +313,7 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
                                 }`}
                               >
                                 {isCompleted ? '✓ Completed' : isInProgress ? 'In Progress' : 'Not Started'}
+                              </span>
                               </span>
                             </div>
 

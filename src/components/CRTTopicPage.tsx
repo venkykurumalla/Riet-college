@@ -28,6 +28,8 @@ import { motion } from 'framer-motion';
 import { CRTTopic, CRTYearCurriculum } from '../types/crtTypes';
 import { crtProgressService } from '../services/crtProgressService';
 import { getCRTTopicsByYear } from '../data/crtCourseData';
+import { getTopicQuiz } from '../data/topicQuizzes';
+import { TopicQuiz } from './TopicQuiz';
 
 interface CRTTopicPageProps {
   topic: CRTTopic;
@@ -961,6 +963,12 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         </div>
 
       </div>
+
+      {/* TOPIC-WISE QUIZ */}
+      {(() => {
+        const topicQuiz = getTopicQuiz(topic.id);
+        return topicQuiz ? <TopicQuiz topicId={topic.id} yearId={topic.yearId} quiz={topicQuiz} /> : null;
+      })()}
 
       {/* BOTTOM ACTION BAR: MARK COMPLETED & PREVIOUS / NEXT TOPIC */}
       <div className="rounded-2xl bg-white border border-slate-200 p-5 shadow-xs flex flex-col sm:flex-row items-center justify-between gap-4">

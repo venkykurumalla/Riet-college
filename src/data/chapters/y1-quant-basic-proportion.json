@@ -1,0 +1,443 @@
+{
+  "id": "y1-quant-basic-proportion",
+  "yearId": 1,
+  "category": "Quantitative Foundation",
+  "topicNumber": 8,
+  "title": "Basic Proportion",
+  "tagline": "Year 1 Foundation — Equal ratios, direct and inverse variation, and the unitary method",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "A proportion states that two ratios are equal: a : b = c : d, written a : b :: c : d. The first and last terms (a and d) are the extremes, and the middle terms (b and c) are the means. The central rule is that the product of the extremes equals the product of the means, a × d = b × c. Proportion is the tool behind scaling recipes, converting currency, reading maps and many time-and-work type problems.",
+    "placementRelevance": "Direct and inverse proportion are commonly used in company aptitude rounds, and the same thinking underlies time and work, speed and time, and mixture questions. Fast, error-free setup is what is being tested.",
+    "realWorldContext": "If 5 kg of rice costs ₹300, then 8 kg costs ₹480 (direct proportion). If a trip takes 6 hours at 40 km/h, it takes 4 hours at 60 km/h (inverse proportion)."
+  },
+  "learningObjectives": [
+    "State and use the rule product of extremes = product of means",
+    "Find the fourth, third and mean proportional",
+    "Tell direct variation from inverse variation and set up each correctly",
+    "Use the unitary method for money, distance and work problems",
+    "Apply componendo and dividendo to simplify proportions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Ratio",
+      "Fractions and decimals"
+    ],
+    "quickRefresher": "A ratio a : b equals the fraction a/b. Two ratios are equal when their fractions are equal, which is exactly the cross-multiplication rule."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Proportion: the equality of two ratios, a : b = c : d. The numbers a, b, c, d are said to be in proportion.",
+      "Fourth proportional: for three numbers a, b, c the fourth proportional x satisfies a : b = c : x, so x = bc/a.",
+      "Third proportional: the third proportional to a and b is the number x with a : b = b : x, so x = b²/a.",
+      "Mean proportional: the mean proportional between a and b is the number x with a : x = x : b, so x = √(ab).",
+      "Direct proportion: two quantities rise or fall together at the same rate (their ratio stays constant). Inverse proportion: when one rises the other falls so that their product stays constant."
+    ],
+    "theoreticalIntuition": "In direct proportion, doubling one quantity doubles the other, so y/x stays fixed. In inverse proportion, doubling one halves the other, so x × y stays fixed. Almost every proportion problem asks you to spot which of the two is at work and then hold that quantity constant.",
+    "visualOrMentalModel": "Direct: buying more items costs more money, so the price per item is constant. Inverse: adding more workers shortens the time, so the total work (workers × days) is constant."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Fundamental rule",
+      "formula": "a : b = c : d  ⇔  a × d = b × c",
+      "description": "Product of extremes equals product of means.",
+      "whenToUse": "Finding a missing term, testing whether four numbers are in proportion.",
+      "simpleExample": "3 : 5 = 12 : x → 3x = 60 → x = 20"
+    },
+    {
+      "title": "Fourth, third and mean proportional",
+      "formula": "Fourth = bc/a;  Third = b²/a;  Mean = √(ab)",
+      "description": "Direct consequences of the fundamental rule.",
+      "whenToUse": "Questions that use these exact names.",
+      "simpleExample": "Mean proportional of 4 and 9 = √36 = 6"
+    },
+    {
+      "title": "Direct proportion",
+      "formula": "x₁/y₁ = x₂/y₂",
+      "description": "The ratio of the two quantities stays constant.",
+      "whenToUse": "Cost vs quantity, distance vs time at constant speed.",
+      "simpleExample": "8 pens cost ₹96 → 5 pens cost 96 × 5/8 = ₹60"
+    },
+    {
+      "title": "Inverse proportion",
+      "formula": "x₁ × y₁ = x₂ × y₂",
+      "description": "The product of the two quantities stays constant.",
+      "whenToUse": "Men vs days, speed vs time for fixed distance.",
+      "simpleExample": "12 men take 15 days → 20 men take 12×15/20 = 9 days"
+    },
+    {
+      "title": "Componendo and dividendo",
+      "formula": "If a/b = c/d then (a+b)/(a−b) = (c+d)/(c−d)",
+      "description": "Useful to turn a hard ratio equation into an easy one.",
+      "whenToUse": "Finding x : y from an equation like (x+y)/(x−y) = 5/3.",
+      "simpleExample": "x : y = 7 : 3 → (x+y)/(x−y) = 10/4 = 5/2"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Every proportion problem has the same skeleton: decide whether the relationship is direct or inverse, write the two equal expressions, and solve the one unknown. The test for direct is \"more gives more\"; the test for inverse is \"more gives less\".",
+      "The unitary method is proportion in disguise. Find the value of one unit first, then scale up. If 8 pens cost ₹96, one pen costs ₹12, and 5 pens cost ₹60. For inverse variation, find the total (men × days = 180 man-days) and divide by the new number of workers.",
+      "For compound problems that mix several quantities, such as men, hours per day and days, keep the product men × hours × days constant for a fixed job. Writing this as a single equation avoids sequential mistakes.",
+      "Componendo and dividendo are shortcuts for equations of the form (x+y)/(x−y) = p/q. They let you read x : y straight away as (p+q) : (p−q)."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Continued proportion",
+        "content": "Three numbers a, b, c are in continued proportion when a : b = b : c, that is b² = ac. For example 2, 6, 18 are in continued proportion because 6² = 2 × 18."
+      },
+      {
+        "title": "Why both variations are one idea",
+        "content": "Inverse proportion between x and y is direct proportion between x and 1/y. Rewriting an inverse problem in terms of \"work per person\" often makes the setup obvious."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Missing term",
+      "description": "Find x in a proportion.",
+      "exampleSnippet": "Find x if 3 : 5 = 12 : x."
+    },
+    {
+      "typeName": "Named proportionals",
+      "description": "Fourth, third or mean proportional.",
+      "exampleSnippet": "Find the mean proportional between 4 and 9."
+    },
+    {
+      "typeName": "Direct variation",
+      "description": "Cost, distance, quantity problems.",
+      "exampleSnippet": "If 8 pens cost ₹96, what do 5 pens cost?"
+    },
+    {
+      "typeName": "Inverse variation",
+      "description": "Men and days, speed and time.",
+      "exampleSnippet": "12 men finish a job in 15 days. How long will 20 men take?"
+    },
+    {
+      "typeName": "Compound variation",
+      "description": "Several quantities change together.",
+      "exampleSnippet": "6 men working 9 hours a day finish in 10 days. How long for 9 men at 5 hours a day?"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-quant-basic-proportion-1",
+      "title": "Direct proportion by the unitary method",
+      "question": "If 8 pens cost ₹96, find the cost of 5 pens.",
+      "givenInfo": [
+        "8 pens = ₹96",
+        "Required: cost of 5 pens"
+      ],
+      "conceptOrFormula": "More pens cost proportionally more money, so this is direct proportion.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the cost of one pen",
+          "explanation": "₹96 ÷ 8 = ₹12.",
+          "math": "96 ÷ 8 = 12"
+        },
+        {
+          "stepNumber": 2,
+          "title": "Scale to 5 pens",
+          "explanation": "5 × ₹12 = ₹60.",
+          "math": "5 × 12 = 60"
+        }
+      ],
+      "finalAnswer": "₹60",
+      "whyItWorks": "The price of one pen does not change with the number bought, so scaling from one unit is exact.",
+      "commonTrap": "Treating it as inverse and computing 96 × 8/5.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-quant-basic-proportion-2",
+      "title": "Inverse proportion with men and days",
+      "question": "12 men can complete a job in 15 days. How many days will 20 men take?",
+      "givenInfo": [
+        "12 men, 15 days",
+        "Required: days for 20 men"
+      ],
+      "conceptOrFormula": "More men means fewer days, so men × days is constant.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the total work",
+          "explanation": "12 × 15 = 180 man-days."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Divide among the new workers",
+          "explanation": "180 ÷ 20 = 9.",
+          "math": "20 × d = 180 → d = 9"
+        }
+      ],
+      "finalAnswer": "9 days",
+      "whyItWorks": "The job needs a fixed number of man-days, however you split it.",
+      "commonTrap": "Writing 12/20 = 15/d (direct) which gives 25 days, more time with more men.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-quant-basic-proportion-3",
+      "title": "Compound variation",
+      "question": "6 men working 9 hours a day complete a job in 10 days. How many days will 9 men working 5 hours a day need to complete the same job?",
+      "givenInfo": [
+        "6 men × 9 h × 10 days",
+        "New: 9 men × 5 h × d days"
+      ],
+      "conceptOrFormula": "Men × hours per day × days is constant for a fixed job.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total work in man-hours",
+          "explanation": "6 × 9 × 10 = 540 man-hours."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Write the new equation",
+          "explanation": "9 × 5 × d = 540, so 45d = 540."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Solve",
+          "explanation": "d = 540 ÷ 45 = 12.",
+          "math": "d = 12"
+        }
+      ],
+      "finalAnswer": "12 days",
+      "whyItWorks": "Man-hours measure the amount of work, which does not change.",
+      "commonTrap": "Ignoring the change in hours per day and using only the change in men.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Constant-product and constant-ratio shortcut",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Find the value of one unit, then multiply, which takes two steps for every problem.",
+      "shortcutMethod": "Decide direct or inverse. Direct: cross-multiply the two ratios. Inverse: keep the product constant, so new = (old × old) ÷ new. 12 men × 15 days ÷ 20 men = 9 days in one line."
+    },
+    "rulesForApplication": [
+      "Direct: x₁/y₁ = x₂/y₂. Inverse: x₁y₁ = x₂y₂.",
+      "Before calculating, check the answer direction: more men must give fewer days.",
+      "For compound problems, multiply every changing quantity into one product and equate.",
+      "For (x+y)/(x−y) = p/q, write x : y = (p+q) : (p−q) directly."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing the wrong variation",
+      "whyItHappens": "Setting up all problems as direct proportion out of habit.",
+      "howToAvoid": "Ask: \"if one quantity increases, does the other increase or decrease?\" before writing the equation."
+    },
+    {
+      "mistake": "Cross-multiplying incorrectly",
+      "whyItHappens": "Multiplying a with b and c with d instead of the diagonals.",
+      "howToAvoid": "Write the proportion as a/b = c/d and multiply across the \"=\" sign: a × d = b × c."
+    },
+    {
+      "mistake": "Forgetting that the mean proportional is a square root",
+      "whyItHappens": "Writing (a + b)/2 (the arithmetic mean) instead of √(ab).",
+      "howToAvoid": "Mean proportional means a : x = x : b, which gives x² = ab."
+    },
+    {
+      "mistake": "Mixing units across the two sides",
+      "whyItHappens": "Hours on one side and minutes on the other.",
+      "howToAvoid": "Convert all quantities of the same kind to one unit before cross-multiplying."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Use the direction check: in an inverse problem the answer must move the opposite way to the change. This removes two options immediately.",
+    "questionSelectionAdvice": "Basic proportion questions are quick; solve them first. For compound variation, write the constant product before touching numbers.",
+    "recruiterInsight": "Many work, speed and pipe problems reduce to a constant product, so mastering this chapter pays off in several later topics."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-quant-basic-proportion-e1",
+        "question": "Find x if 3 : 5 = 12 : x.",
+        "options": [
+          "15",
+          "20",
+          "18",
+          "36"
+        ],
+        "correctAnswer": "20",
+        "explanation": "Product of extremes = product of means: 3 × x = 5 × 12 = 60, so x = 20.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-quant-basic-proportion-e2",
+        "question": "The fourth proportional to 2, 3 and 4 is",
+        "options": [
+          "6",
+          "5",
+          "8",
+          "12"
+        ],
+        "correctAnswer": "6",
+        "explanation": "Fourth proportional x satisfies 2 : 3 = 4 : x, so x = 3 × 4/2 = 6.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-quant-basic-proportion-e3",
+        "question": "The third proportional to 4 and 6 is",
+        "options": [
+          "8",
+          "12",
+          "36",
+          "9"
+        ],
+        "correctAnswer": "9",
+        "explanation": "Third proportional x satisfies 4 : 6 = 6 : x, so x = 6²/4 = 9.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-quant-basic-proportion-i7",
+        "question": "12 men can complete a job in 15 days. How many days will 20 men take?",
+        "options": [
+          "9",
+          "25",
+          "12",
+          "10"
+        ],
+        "correctAnswer": "9",
+        "explanation": "Men and days are inversely proportional. Man-days = 12 × 15 = 180. Days for 20 men = 180 ÷ 20 = 9.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-quant-basic-proportion-i8",
+        "question": "A car covers 240 km in 4 hours. At the same speed, the distance covered in 7 hours is",
+        "options": [
+          "380",
+          "400",
+          "480",
+          "420"
+        ],
+        "correctAnswer": "420",
+        "explanation": "Speed = 240 ÷ 4 = 60 km/h. Distance in 7 hours = 60 × 7 = 420 km.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-quant-basic-proportion-i9",
+        "question": "A bus covers 180 km using 12 litres of fuel. The fuel needed for 450 km is",
+        "options": [
+          "27",
+          "32",
+          "36",
+          "30"
+        ],
+        "correctAnswer": "30",
+        "explanation": "Distance and fuel are in direct proportion. 180/12 = 450/x, so x = 450 × 12/180 = 30 litres.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-quant-basic-proportion-a15",
+        "question": "6 men working 9 hours a day complete a job in 10 days. How many days will 9 men working 5 hours a day take for the same job?",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "15"
+        ],
+        "correctAnswer": "12",
+        "explanation": "Total work = 6 × 9 × 10 = 540 man-hours. New rate = 9 × 5 = 45 man-hours per day. Days = 540 ÷ 45 = 12.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-quant-basic-proportion-a16",
+        "question": "A garrison of 500 men has food for 18 days. After 6 days, 100 men leave. For how many more days will the remaining food last?",
+        "options": [
+          "12",
+          "15",
+          "14",
+          "18"
+        ],
+        "correctAnswer": "15",
+        "explanation": "Total food = 500 × 18 = 9000 man-days. Used in 6 days = 3000. Remaining = 6000 man-days. With 400 men the food lasts 6000 ÷ 400 = 15 days.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-quant-basic-proportion-p17",
+        "question": "If (x + y)/(x − y) = 5/3, then x : y is",
+        "options": [
+          "5 : 3",
+          "4 : 1",
+          "3 : 2",
+          "2 : 1"
+        ],
+        "correctAnswer": "4 : 1",
+        "explanation": "By componendo-dividendo: x : y = (5 + 3) : (5 − 3) = 8 : 2 = 4 : 1. Check: x = 4, y = 1 gives 5/3.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-quant-basic-proportion-p18",
+        "question": "8 pumps empty a tank in 15 hours. How many pumps of the same kind are needed to empty it in 10 hours?",
+        "options": [
+          "12",
+          "10",
+          "11",
+          "14"
+        ],
+        "correctAnswer": "12",
+        "explanation": "Total work = 8 × 15 = 120 pump-hours. Pumps needed = 120 ÷ 10 = 12.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-quant-basic-proportion-p19",
+        "question": "The present ages of A and B are in the ratio 3 : 5. After 6 years the ratio becomes 2 : 3. A's present age is",
+        "options": [
+          "12",
+          "15",
+          "21",
+          "18"
+        ],
+        "correctAnswer": "18",
+        "explanation": "Let the ages be 3k and 5k. After 6 years: (3k + 6)/(5k + 6) = 2/3. Cross-multiplying: 9k + 18 = 10k + 12, so k = 6. A = 3 × 6 = 18 years.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Proportion means two equal ratios; extremes product = means product.",
+      "Fourth proportional bc/a, third proportional b²/a, mean proportional √(ab).",
+      "Direct: ratio constant. Inverse: product constant.",
+      "Compound variation: men × hours × days is constant for a fixed job.",
+      "Componendo-dividendo: (a+b)/(a−b) = (c+d)/(c−d)."
+    ],
+    "quickFormulas": [
+      "a×d = b×c",
+      "Fourth = bc/a, Third = b²/a, Mean = √(ab)",
+      "Direct: x₁/y₁ = x₂/y₂",
+      "Inverse: x₁y₁ = x₂y₂"
+    ]
+  },
+  "keyTakeaways": [
+    "Classify the variation first, calculate second.",
+    "The unitary method and cross-multiplication give the same answer; use whichever is faster.",
+    "Keep the units consistent on both sides.",
+    "Always sanity-check the direction of the answer."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the fourth proportional to 2, 3 and 4?",
+    "Can I tell, for a given situation, whether the variation is direct or inverse?",
+    "Can I solve a men-hours-days problem in a single equation?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The Ratio and Proportion topic area; examples in this chapter are original."
+    },
+    {
+      "sourceName": "NCERT Mathematics, Class 7–8",
+      "sourceType": "Textbook",
+      "referenceNote": "Direct and inverse proportion as taught in school."
+    }
+  ]
+}

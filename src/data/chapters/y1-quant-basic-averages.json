@@ -1,0 +1,452 @@
+{
+  "id": "y1-quant-basic-averages",
+  "yearId": 1,
+  "category": "Quantitative Foundation",
+  "topicNumber": 9,
+  "title": "Basic Averages",
+  "tagline": "Year 1 Foundation — Mean, sums, changing groups and weighted averages",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "The average (arithmetic mean) of a set of numbers is their sum divided by how many there are. It answers the question: \"if every item were equal, what value would each one have?\" The most useful way to work with averages is to turn them back into totals using Sum = Average × Number of items, because totals can be added, removed and replaced, while averages cannot.",
+    "placementRelevance": "Average questions are commonly asked in company aptitude rounds, either directly (find the mean) or in changing-group form (a person joins, leaves or is replaced). They also appear inside data interpretation sets.",
+    "realWorldContext": "Marks in an exam, a batsman's batting average, mileage of a car over a trip and the average temperature of a week are all averages."
+  },
+  "learningObjectives": [
+    "Compute the average of a list and of standard sequences such as the first n natural numbers",
+    "Convert between average and total using Sum = Average × Count",
+    "Solve problems where a member joins, leaves or is replaced",
+    "Combine group averages with weights",
+    "Find average speed when equal distances are covered at different speeds"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Fractions and decimals",
+      "Basic Ratio"
+    ],
+    "quickRefresher": "The sum of the first n natural numbers is n(n+1)/2. The sum of the first n odd numbers is n² and the sum of the first n even numbers is n(n+1)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Average (arithmetic mean) = (sum of all observations) ÷ (number of observations).",
+      "Total or sum = Average × Number of observations. This is the same formula rearranged and is the engine of most average problems.",
+      "Weighted average: when groups of different sizes are combined, the combined average = (sum of group totals) ÷ (total number of items).",
+      "Average speed = Total distance ÷ Total time. It is not the simple average of two speeds unless the times are equal.",
+      "Deviation from the average: the sum of the differences of all observations from their average is always zero."
+    ],
+    "theoreticalIntuition": "The average sits \"in the middle\" of the data in the sense of balance: values above it exactly cancel the values below it. This is why adding a number above the current average raises the average, and why the change in average multiplied by the group size gives the total effect of the change.",
+    "visualOrMentalModel": "Imagine each value as a stack of coins. Averaging means levelling the stacks so all are equal. The total number of coins never changes while you level them, which is why Sum = Average × Count."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Average",
+      "formula": "Average = Sum ÷ Number of items",
+      "description": "Basic definition.",
+      "whenToUse": "Any direct average question.",
+      "simpleExample": "(12 + 15 + 18 + 21 + 24) ÷ 5 = 18"
+    },
+    {
+      "title": "Sum from average",
+      "formula": "Sum = Average × Number of items",
+      "description": "Recovers the total, which can then be adjusted.",
+      "whenToUse": "Problems where an item joins, leaves or is changed.",
+      "simpleExample": "Average 15 for 10 students → sum = 150"
+    },
+    {
+      "title": "Standard sequences",
+      "formula": "First n natural numbers: (n+1)/2.  First n odd numbers: n.  First n even numbers: n+1.",
+      "description": "Closed forms for common series.",
+      "whenToUse": "Average of 1 to n and similar.",
+      "simpleExample": "Average of first 20 odd numbers = 20"
+    },
+    {
+      "title": "Combined average",
+      "formula": "Combined = (n₁a₁ + n₂a₂) ÷ (n₁ + n₂)",
+      "description": "Weight each group average by its size.",
+      "whenToUse": "Merging two classes or two batches.",
+      "simpleExample": "(30×60 + 20×70) ÷ 50 = 64"
+    },
+    {
+      "title": "Average speed (equal distances)",
+      "formula": "Average speed = 2xy ÷ (x + y)",
+      "description": "The harmonic mean of the two speeds.",
+      "whenToUse": "Going and returning over the same distance.",
+      "simpleExample": "60 km/h and 40 km/h → 2×60×40 ÷ 100 = 48 km/h"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Always translate an average into a total as the first move. If the average age of 10 students is 15, the total age is 150. When a teacher joins and the average becomes 16, the total becomes 11 × 16 = 176, so the teacher is 176 − 150 = 26.",
+      "When a new member joins, the change in the average multiplied by the new group size tells you how far the newcomer is from the old average. When one member is replaced, the change in average multiplied by the group size is exactly the difference between the new and the old member.",
+      "To find the average of consecutive numbers, take the middle value. Seven consecutive numbers with average 20 are 17 to 23, so the largest is 23. The same idea works for any arithmetic progression.",
+      "Average speed is total distance over total time. If the outward and return distances are equal, the harder-looking formula 2xy/(x+y) is just this ratio simplified. If times are equal, the average speed is the simple mean of the speeds."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Effect of operations on the average",
+        "content": "If every number is increased by k, the average increases by k. If every number is multiplied by k, the average is multiplied by k. These facts let you answer many questions without recomputing the total."
+      },
+      {
+        "title": "Why the average speed is not the mean of speeds",
+        "content": "More time is spent at the slower speed than at the faster one for equal distances, so the slower speed carries more weight. That is why 48 km/h, not 50 km/h, is the average of 60 and 40 over equal distances."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct average",
+      "description": "Compute the mean of a list or a standard series.",
+      "exampleSnippet": "Average of the first 10 natural numbers."
+    },
+    {
+      "typeName": "Joining or leaving",
+      "description": "A person is added to or removed from a group.",
+      "exampleSnippet": "A teacher joins 10 students and the average rises by 1."
+    },
+    {
+      "typeName": "Replacement",
+      "description": "One member is swapped for another.",
+      "exampleSnippet": "A person weighing 65 kg is replaced and the average rises by 2.5 kg."
+    },
+    {
+      "typeName": "Combined groups",
+      "description": "Merge averages of different-sized groups.",
+      "exampleSnippet": "Two classes with averages 60 and 70."
+    },
+    {
+      "typeName": "Average speed",
+      "description": "Equal distances at two speeds.",
+      "exampleSnippet": "Going at 60 km/h, returning at 40 km/h."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-quant-basic-averages-1",
+      "title": "A teacher joins a class",
+      "question": "The average age of 10 students is 15 years. When the teacher's age is included, the average becomes 16 years. Find the teacher's age.",
+      "givenInfo": [
+        "10 students, average 15",
+        "With teacher: 11 people, average 16"
+      ],
+      "conceptOrFormula": "Sum = Average × Number of people.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total age of students",
+          "explanation": "10 × 15 = 150."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Total age with the teacher",
+          "explanation": "11 × 16 = 176."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Subtract",
+          "explanation": "Teacher's age = 176 − 150 = 26.",
+          "math": "176 − 150 = 26"
+        }
+      ],
+      "finalAnswer": "26 years",
+      "whyItWorks": "The only change in the total is the teacher's age, so the difference of totals is that age.",
+      "commonTrap": "Using 10 instead of 11 for the new group size.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-quant-basic-averages-2",
+      "title": "Combining two classes",
+      "question": "Class A has 30 students with an average mark of 60 and Class B has 20 students with an average of 70. Find the average mark of all 50 students.",
+      "givenInfo": [
+        "n₁ = 30, a₁ = 60",
+        "n₂ = 20, a₂ = 70"
+      ],
+      "conceptOrFormula": "Combined average = total marks ÷ total students.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total marks of A",
+          "explanation": "30 × 60 = 1800."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Total marks of B",
+          "explanation": "20 × 70 = 1400."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Combine",
+          "explanation": "(1800 + 1400) ÷ 50 = 3200 ÷ 50 = 64.",
+          "math": "3200 ÷ 50 = 64"
+        }
+      ],
+      "finalAnswer": "64",
+      "whyItWorks": "Each class contributes in proportion to its size, so the combined average lies closer to the larger class's 60 than the simple mean 65 does.",
+      "commonTrap": "Averaging 60 and 70 to get 65, ignoring the class sizes.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-quant-basic-averages-3",
+      "title": "Overlapping groups",
+      "question": "The average of 11 results is 50. The average of the first six is 49 and the average of the last six is 52. Find the sixth result.",
+      "givenInfo": [
+        "11 results, average 50",
+        "First six average 49",
+        "Last six average 52"
+      ],
+      "conceptOrFormula": "The sixth result is counted in both groups.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total of all 11",
+          "explanation": "11 × 50 = 550."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Total of first six and last six",
+          "explanation": "6 × 49 = 294 and 6 × 52 = 312. Together 294 + 312 = 606."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Find the overlap",
+          "explanation": "The sixth result is counted twice in 606 but once in 550, so it equals 606 − 550 = 56.",
+          "math": "606 − 550 = 56"
+        }
+      ],
+      "finalAnswer": "56",
+      "whyItWorks": "The two groups together cover all 11 results plus the sixth one again.",
+      "commonTrap": "Forgetting that the sixth result belongs to both groups.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Change in average × group size",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compute both totals separately, then subtract them.",
+      "shortcutMethod": "Multiply the change in the average by the group size. If a person joins and the average rises by 1 for 11 people, the newcomer is 11 above the old average of 15, which is 26."
+    },
+    "rulesForApplication": [
+      "Replacement: new member − old member = change in average × group size.",
+      "Joining: newcomer = old average + (change in average × new group size).",
+      "For consecutive numbers the average is the middle value.",
+      "Adding or multiplying all items by k does the same to the average."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Averaging the averages",
+      "whyItHappens": "Ignoring that groups have different sizes.",
+      "howToAvoid": "Always multiply each average by its group size to get totals before combining."
+    },
+    {
+      "mistake": "Wrong count after a change",
+      "whyItHappens": "Forgetting that the group size changes when a person joins or leaves.",
+      "howToAvoid": "Write the new count explicitly before computing the new total."
+    },
+    {
+      "mistake": "Using the simple mean for average speed",
+      "whyItHappens": "The mean of 60 and 40 looks like 50.",
+      "howToAvoid": "Use total distance ÷ total time, or 2xy/(x+y) for equal distances."
+    },
+    {
+      "mistake": "Miscounting terms in a series",
+      "whyItHappens": "Counting the number of terms between two values incorrectly.",
+      "howToAvoid": "Use the count = (last − first) ÷ difference + 1."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "The combined average must lie between the two group averages and closer to the larger group. This eliminates wrong options quickly.",
+    "questionSelectionAdvice": "Convert to totals at once. Most average questions then become one-line addition or subtraction.",
+    "recruiterInsight": "Average questions often hide inside data interpretation sets, so speed on this topic helps in that section as well."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-quant-basic-averages-e1",
+        "question": "Find the average of 12, 15, 18, 21 and 24.",
+        "options": [
+          "16",
+          "18",
+          "19",
+          "20"
+        ],
+        "correctAnswer": "18",
+        "explanation": "Sum = 12 + 15 + 18 + 21 + 24 = 90. Average = 90 ÷ 5 = 18.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-quant-basic-averages-e2",
+        "question": "The average of the first 10 natural numbers is",
+        "options": [
+          "5.5",
+          "5",
+          "6",
+          "10"
+        ],
+        "correctAnswer": "5.5",
+        "explanation": "Sum = 10 × 11 ÷ 2 = 55. Average = 55 ÷ 10 = 5.5.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-quant-basic-averages-e3",
+        "question": "The average of 5 numbers is 40. Their sum is",
+        "options": [
+          "45",
+          "160",
+          "400",
+          "200"
+        ],
+        "correctAnswer": "200",
+        "explanation": "Sum = Average × Count = 40 × 5 = 200.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-quant-basic-averages-i7",
+        "question": "The average age of 10 students is 15 years. When the teacher's age is included the average becomes 16. The teacher's age is",
+        "options": [
+          "26",
+          "25",
+          "27",
+          "31"
+        ],
+        "correctAnswer": "26",
+        "explanation": "Students' total = 150. Total with teacher = 11 × 16 = 176. Teacher = 176 − 150 = 26.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-quant-basic-averages-i8",
+        "question": "The average of 5 numbers is 27. If one number is removed, the average of the remaining numbers becomes 25. The removed number is",
+        "options": [
+          "30",
+          "32",
+          "37",
+          "35"
+        ],
+        "correctAnswer": "35",
+        "explanation": "Total of 5 = 135. Total of 4 = 100. Removed number = 135 − 100 = 35.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-quant-basic-averages-i9",
+        "question": "The average of 6 numbers is 20. If every number is multiplied by 3, the new average is",
+        "options": [
+          "23",
+          "26",
+          "120",
+          "60"
+        ],
+        "correctAnswer": "60",
+        "explanation": "Multiplying every number by 3 multiplies the average by 3. New average = 20 × 3 = 60.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-quant-basic-averages-a15",
+        "question": "The average of 11 results is 50. The average of the first six is 49 and of the last six is 52. The sixth result is",
+        "options": [
+          "52",
+          "54",
+          "56",
+          "58"
+        ],
+        "correctAnswer": "56",
+        "explanation": "Total of 11 = 550. First six total = 294, last six total = 312. The sixth is counted twice in 294 + 312 = 606, so it is 606 − 550 = 56.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-quant-basic-averages-a16",
+        "question": "The average weight of 8 persons increases by 2.5 kg when a new person replaces one of them weighing 65 kg. The weight of the new person is",
+        "options": [
+          "80",
+          "85",
+          "82.5",
+          "90"
+        ],
+        "correctAnswer": "85",
+        "explanation": "Total weight rises by 8 × 2.5 = 20 kg. New person = 65 + 20 = 85 kg.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-quant-basic-averages-p17",
+        "question": "The average of 9 numbers is 30. The average of the first five is 25 and of the last five is 34. The fifth number is",
+        "options": [
+          "26",
+          "25",
+          "28",
+          "30"
+        ],
+        "correctAnswer": "25",
+        "explanation": "Total of 9 = 270. First five = 125, last five = 170, together 295. The fifth is counted twice, so it is 295 − 270 = 25.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-quant-basic-averages-p18",
+        "question": "The average salary of 10 employees is ₹20,000. When the manager's salary is added, the average rises by ₹1,000. The manager's salary is",
+        "options": [
+          "31000",
+          "30000",
+          "21000",
+          "32000"
+        ],
+        "correctAnswer": "31000",
+        "explanation": "Total of 10 = 200000. Total of 11 = 11 × 21000 = 231000. Manager = 231000 − 200000 = ₹31,000.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-quant-basic-averages-p19",
+        "question": "Five years ago the average age of a husband and wife was 23. Now, with a child, the average age of the family of three is 20. The child's present age is",
+        "options": [
+          "3",
+          "5",
+          "6",
+          "4"
+        ],
+        "correctAnswer": "4",
+        "explanation": "Present total age of the couple = 2 × 23 + 2 × 5 = 56. Family total = 3 × 20 = 60. Child = 60 − 56 = 4 years.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Average = Sum ÷ Count, and Sum = Average × Count.",
+      "Average of 1 to n is (n+1)/2; first n odd numbers average n.",
+      "Combined average needs group sizes as weights.",
+      "Replacement difference = change in average × group size.",
+      "Equal-distance average speed = 2xy/(x+y)."
+    ],
+    "quickFormulas": [
+      "Sum = Avg × n",
+      "Combined = (n₁a₁ + n₂a₂)/(n₁ + n₂)",
+      "2xy/(x + y)"
+    ]
+  },
+  "keyTakeaways": [
+    "Turn averages into totals as the first step.",
+    "The size of the group matters whenever averages are combined.",
+    "Check that the answer lies in a sensible range.",
+    "Average speed is total distance over total time."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the average of the first 15 even numbers without adding them?",
+    "Can I find the weight of a person who replaces another and shifts the average?",
+    "Can I explain why the average of 60 km/h and 40 km/h over equal distances is not 50?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The Average topic area; examples in this chapter are original."
+    },
+    {
+      "sourceName": "NCERT Mathematics, Class 7–9 (Statistics)",
+      "sourceType": "Textbook",
+      "referenceNote": "Arithmetic mean as introduced in school mathematics."
+    }
+  ]
+}
