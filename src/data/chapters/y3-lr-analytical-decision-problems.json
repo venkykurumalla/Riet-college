@@ -1,0 +1,425 @@
+{
+  "id": "y3-lr-analytical-decision-problems",
+  "yearId": 3,
+  "category": "Advanced Logical Reasoning",
+  "topicNumber": 44,
+  "title": "Analytical Decision-Making Problems",
+  "tagline": "Year 3 — Applying a set of rules to individual cases: eligibility checks, tiers, exceptions and missing data",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "An analytical decision problem gives a set of rules (for admissions, loans, recruitment or scholarships) and a profile of a case, and asks what the decision should be. There is no hidden trick, only discipline: test the conditions in a fixed order, apply exceptions only when the rule says so, and notice when a needed fact is missing, because then the right answer is that the data is inadequate.",
+    "placementRelevance": "Rule-based decision sets are popular in management and bank-recruitment tests, and they reward careful reading.",
+    "realWorldContext": "Loan officers, HR screeners and admissions committees make decisions exactly this way."
+  },
+  "learningObjectives": [
+    "Translate rules into a checklist",
+    "Apply knock-out conditions first",
+    "Handle tiers and exceptions",
+    "Recognise inclusive and exclusive limits",
+    "Spot missing information"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Statements and Conclusions",
+      "Selection and Distribution Problems"
+    ],
+    "quickRefresher": "Both inclusive means the end values count. \"At least 60\" includes 60; \"less than 3,00,000\" excludes 3,00,000."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Knock-out condition: failing it means rejection regardless of the others.",
+      "Tier: a band of values that leads to different outcomes (for example credit score bands).",
+      "Exception: a clause that waives or changes a condition for a particular group.",
+      "Inclusive limit: the stated value qualifies. Exclusive limit: it does not.",
+      "Data inadequate: a missing fact could change the decision."
+    ],
+    "theoreticalIntuition": "The rules are a flow chart in words. Walk each case through it, step by step, and stop at the first knock-out.",
+    "visualOrMentalModel": "Write each condition as a tick box. Test knock-outs first, then tier conditions. Before answering, ask whether any unstated fact could change a box."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Knock-out first",
+      "formula": "Fail a must-have ⇒ reject",
+      "description": "Mandatory conditions.",
+      "whenToUse": "Order of checking.",
+      "simpleExample": "Age above 35"
+    },
+    {
+      "title": "Inclusive/exclusive",
+      "formula": "≥ includes; < excludes",
+      "description": "Boundaries.",
+      "whenToUse": "Edge cases.",
+      "simpleExample": "60% passes; ₹3,00,000 does not"
+    },
+    {
+      "title": "Tiers",
+      "formula": "Match the value to its band",
+      "description": "Banded rules.",
+      "whenToUse": "Credit score 650–699",
+      "simpleExample": "Needs a guarantor"
+    },
+    {
+      "title": "Exceptions",
+      "formula": "Apply only to the named group",
+      "description": "Waivers.",
+      "whenToUse": "Postgraduates",
+      "simpleExample": "No marks condition"
+    },
+    {
+      "title": "Missing data",
+      "formula": "Could it change the outcome?",
+      "description": "Incomplete profile.",
+      "whenToUse": "Last check.",
+      "simpleExample": "Marks not given"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A trust selects a student aged 18–25 with at least 60% in Class XII and family income below ₹3,00,000. A student aged 21 with 72% and income ₹1,80,000 meets all three and is selected. A student aged 24 with 65% and income ₹4,00,000 meets (i) and (ii) but has income in the ₹3,00,000–₹5,00,000 band, so goes on the waiting list.",
+      "Boundary values are the usual trap. \"At least 60%\" includes exactly 60%. \"Less than ₹3,00,000\" does not include ₹3,00,000, but \"from ₹3,00,000 to ₹5,00,000 (both inclusive)\" does. A student with exactly 60% and income ₹2,99,999 is selected.",
+      "An exception changes who must meet a condition. In the recruitment rules, a postgraduate need not meet the 55% marks condition, so a postgraduate with 48% can still be an Executive if the other conditions hold.",
+      "Tiers lead to different outcomes. With a credit score of 670, the loan is approved only with a guarantor; without one the application goes to the manager; at 640 it is rejected.",
+      "If a needed fact is missing, test whether it could change the result. A graduate whose marks are not given could be an Executive (with 70%) or be rejected (with 50%), so the data is inadequate."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Order of checks",
+        "content": "Knock-outs first saves time and avoids contradictions."
+      },
+      {
+        "title": "Over-reading",
+        "content": "Do not add a rule that is not stated, such as a preference for experience or a minimum for a field the rules do not mention."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Straight eligibility",
+      "description": "All conditions.",
+      "exampleSnippet": "Scholarship"
+    },
+    {
+      "typeName": "Tiers and bands",
+      "description": "Credit score.",
+      "exampleSnippet": "Loan"
+    },
+    {
+      "typeName": "Exceptions",
+      "description": "Waived conditions.",
+      "exampleSnippet": "Postgraduates"
+    },
+    {
+      "typeName": "Boundary cases",
+      "description": "Inclusive limits.",
+      "exampleSnippet": "60% and 55%"
+    },
+    {
+      "typeName": "Missing data",
+      "description": "Data inadequate.",
+      "exampleSnippet": "Marks not given"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-lr-analytical-decision-problems-1",
+      "title": "Boundary",
+      "question": "A scholarship needs at least 60% in Class XII, age 18 to 25, and family income below ₹3,00,000. A student aged 20 has exactly 60% and income ₹2,99,999. What is the decision?",
+      "givenInfo": [
+        "At least 60%",
+        "Below ₹3,00,000"
+      ],
+      "conceptOrFormula": "Check inclusive limits.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Marks",
+          "explanation": "Exactly 60% satisfies \"at least 60%\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Income",
+          "explanation": "₹2,99,999 is below ₹3,00,000."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Age",
+          "explanation": "20 is between 18 and 25."
+        }
+      ],
+      "finalAnswer": "Selected",
+      "whyItWorks": "All three hold.",
+      "commonTrap": "Rejecting at 60%.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-lr-analytical-decision-problems-2",
+      "title": "Exception",
+      "question": "Graduates need 55% marks but postgraduates need not. A postgraduate aged 32 with 48% marks and 2 years of experience applies for an Executive post (age limit 35, experience 2 years). What is the decision?",
+      "givenInfo": [
+        "Postgraduate"
+      ],
+      "conceptOrFormula": "Apply the exception.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Marks",
+          "explanation": "The marks condition does not apply to postgraduates."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Age and experience",
+          "explanation": "32 ≤ 35 and 2 years ≥ 2 years."
+        }
+      ],
+      "finalAnswer": "Select as Executive",
+      "whyItWorks": "The exception removes the marks barrier.",
+      "commonTrap": "Rejecting for 48%.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-lr-analytical-decision-problems-3",
+      "title": "Missing data",
+      "question": "A graduate aged 30 with 3 years of experience applies, but the marks are not stated. Graduates need 55%. What is the decision?",
+      "givenInfo": [
+        "Marks unknown"
+      ],
+      "conceptOrFormula": "Test both possibilities.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "If 60%",
+          "explanation": "The candidate qualifies as an Executive."
+        },
+        {
+          "stepNumber": 2,
+          "title": "If 50%",
+          "explanation": "The candidate is rejected."
+        }
+      ],
+      "finalAnswer": "Data inadequate",
+      "whyItWorks": "The missing fact changes the result.",
+      "commonTrap": "Assuming the marks are fine.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Checklist walk",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Read the rules once and decide.",
+      "shortcutMethod": "Turn the rules into a checklist, test the knock-outs first, apply tiers and exceptions only where stated, and ask whether any missing fact could change the outcome."
+    },
+    "rulesForApplication": [
+      "Knock-outs first.",
+      "Mind inclusive limits.",
+      "Exceptions only for named groups.",
+      "Missing data may flip it."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Misreading inclusive limits",
+      "whyItHappens": "Boundary errors.",
+      "howToAvoid": "Underline \"at least\", \"less than\", \"both inclusive\"."
+    },
+    {
+      "mistake": "Applying an exception to everyone",
+      "whyItHappens": "Over-reading.",
+      "howToAvoid": "Apply it only to the named group."
+    },
+    {
+      "mistake": "Guessing missing data",
+      "whyItHappens": "Unsafe.",
+      "howToAvoid": "Check if the outcome would change."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 75,
+    "eliminationTechnique": "Eliminate options that contradict a knock-out failure.",
+    "questionSelectionAdvice": "Mark boundary words as you read.",
+    "recruiterInsight": "Several cases share one rule set, so build the checklist once."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-lr-analytical-decision-problems-e1",
+        "question": "A trust awards scholarships under these rules.\n(i) The student must be between 18 and 25 years of age (both inclusive).\n(ii) The student must have passed Class XII with at least 60% marks.\n(iii) The annual family income must be less than ₹3,00,000.\nIf all three conditions are satisfied, the student is selected. If conditions (i) and (ii) are satisfied but the annual family income is from ₹3,00,000 to ₹5,00,000 (both inclusive), the student is placed on the waiting list. In every other case the student is rejected.\n\nCandidate: age 21 years; 72% in Class XII; annual family income ₹1,80,000.\n\nWhat is the decision for this candidate?",
+        "options": [
+          "Waiting list",
+          "Selected",
+          "Rejected",
+          "Data inadequate"
+        ],
+        "correctAnswer": "Selected",
+        "explanation": "All three conditions are satisfied. Decision: Selected.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-analytical-decision-problems-e2",
+        "question": "A trust awards scholarships under these rules.\n(i) The student must be between 18 and 25 years of age (both inclusive).\n(ii) The student must have passed Class XII with at least 60% marks.\n(iii) The annual family income must be less than ₹3,00,000.\nIf all three conditions are satisfied, the student is selected. If conditions (i) and (ii) are satisfied but the annual family income is from ₹3,00,000 to ₹5,00,000 (both inclusive), the student is placed on the waiting list. In every other case the student is rejected.\n\nCandidate: age 19 years; 58% in Class XII; annual family income ₹2,00,000.\n\nWhat is the decision for this candidate?",
+        "options": [
+          "Rejected",
+          "Selected",
+          "Waiting list",
+          "Data inadequate"
+        ],
+        "correctAnswer": "Rejected",
+        "explanation": "The marks are below 60%. Decision: Rejected.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-lr-analytical-decision-problems-e3",
+        "question": "A trust awards scholarships under these rules.\n(i) The student must be between 18 and 25 years of age (both inclusive).\n(ii) The student must have passed Class XII with at least 60% marks.\n(iii) The annual family income must be less than ₹3,00,000.\nIf all three conditions are satisfied, the student is selected. If conditions (i) and (ii) are satisfied but the annual family income is from ₹3,00,000 to ₹5,00,000 (both inclusive), the student is placed on the waiting list. In every other case the student is rejected.\n\nCandidate: age 24 years; 65% in Class XII; annual family income ₹4,00,000.\n\nWhat is the decision for this candidate?",
+        "options": [
+          "Selected",
+          "Rejected",
+          "Data inadequate",
+          "Waiting list"
+        ],
+        "correctAnswer": "Waiting list",
+        "explanation": "Conditions (i) and (ii) hold and the income is between ₹3,00,000 and ₹5,00,000. Decision: Waiting list.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-lr-analytical-decision-problems-i7",
+        "question": "A company recruits executives under these rules.\n(a) The candidate must be a graduate or a postgraduate. A graduate must have at least 55% marks; a postgraduate need not satisfy the marks condition.\n(b) The age must not be more than 35 years.\n(c) The candidate must have at least 2 years of work experience to be selected as an Executive. A candidate who satisfies (a) and (b) and has experience of at least 1 year but less than 2 years is selected as a Trainee.\nIn every other case the candidate is rejected.\n\nCandidate: graduate; 62% marks; 3 years of experience; age 30 years.\n\nWhat is the decision for this candidate?",
+        "options": [
+          "Select as Executive",
+          "Select as Trainee",
+          "Reject",
+          "Data inadequate"
+        ],
+        "correctAnswer": "Select as Executive",
+        "explanation": "Qualification, age and experience of 2 years or more are satisfied. Decision: Select as Executive.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-analytical-decision-problems-i8",
+        "question": "A company recruits executives under these rules.\n(a) The candidate must be a graduate or a postgraduate. A graduate must have at least 55% marks; a postgraduate need not satisfy the marks condition.\n(b) The age must not be more than 35 years.\n(c) The candidate must have at least 2 years of work experience to be selected as an Executive. A candidate who satisfies (a) and (b) and has experience of at least 1 year but less than 2 years is selected as a Trainee.\nIn every other case the candidate is rejected.\n\nCandidate: graduate; 50% marks; 4 years of experience; age 28 years.\n\nWhat is the decision for this candidate?",
+        "options": [
+          "Select as Executive",
+          "Select as Trainee",
+          "Data inadequate",
+          "Reject"
+        ],
+        "correctAnswer": "Reject",
+        "explanation": "A graduate needs at least 55% marks. Decision: Reject.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-lr-analytical-decision-problems-i9",
+        "question": "A company recruits executives under these rules.\n(a) The candidate must be a graduate or a postgraduate. A graduate must have at least 55% marks; a postgraduate need not satisfy the marks condition.\n(b) The age must not be more than 35 years.\n(c) The candidate must have at least 2 years of work experience to be selected as an Executive. A candidate who satisfies (a) and (b) and has experience of at least 1 year but less than 2 years is selected as a Trainee.\nIn every other case the candidate is rejected.\n\nCandidate: postgraduate; 48% marks; 2 years of experience; age 32 years.\n\nWhat is the decision for this candidate?",
+        "options": [
+          "Select as Trainee",
+          "Reject",
+          "Data inadequate",
+          "Select as Executive"
+        ],
+        "correctAnswer": "Select as Executive",
+        "explanation": "Qualification, age and experience of 2 years or more are satisfied. Decision: Select as Executive.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-lr-analytical-decision-problems-a15",
+        "question": "A bank approves personal loans under these rules.\n(1) The applicant must be an Indian citizen aged 21 to 60 years (both inclusive).\n(2) The monthly income must be at least ₹30,000.\n(3) The applicant must not have more than 2 existing loans.\n(4) If (1), (2) and (3) are satisfied: a credit score of 700 or more means the loan is approved; a score from 650 to 699 means the loan is approved only if a guarantor is provided, otherwise the application is referred to the manager; a score below 650 means the application is rejected.\nIf any of (1), (2) or (3) is not satisfied, the application is rejected.\n\nCandidate: an Indian citizen; age 35 years; monthly income ₹45,000; 1 existing loan; credit score 720; no guarantor is provided.\n\nWhat is the decision for this candidate?",
+        "options": [
+          "Refer to the manager",
+          "Reject the application",
+          "Approve the loan",
+          "Data inadequate"
+        ],
+        "correctAnswer": "Approve the loan",
+        "explanation": "The credit score is 700 or more. Decision: Approve the loan.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-analytical-decision-problems-a16",
+        "question": "A bank approves personal loans under these rules.\n(1) The applicant must be an Indian citizen aged 21 to 60 years (both inclusive).\n(2) The monthly income must be at least ₹30,000.\n(3) The applicant must not have more than 2 existing loans.\n(4) If (1), (2) and (3) are satisfied: a credit score of 700 or more means the loan is approved; a score from 650 to 699 means the loan is approved only if a guarantor is provided, otherwise the application is referred to the manager; a score below 650 means the application is rejected.\nIf any of (1), (2) or (3) is not satisfied, the application is rejected.\n\nCandidate: an Indian citizen; age 28 years; monthly income ₹50,000; 1 existing loan; credit score 670; no guarantor is provided.\n\nWhat is the decision for this candidate?",
+        "options": [
+          "Approve the loan",
+          "Refer to the manager",
+          "Reject the application",
+          "Data inadequate"
+        ],
+        "correctAnswer": "Refer to the manager",
+        "explanation": "The score is 650 to 699 and no guarantor is provided. Decision: Refer to the manager.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-lr-analytical-decision-problems-p17",
+        "question": "A bank approves personal loans under these rules.\n(1) The applicant must be an Indian citizen aged 21 to 60 years (both inclusive).\n(2) The monthly income must be at least ₹30,000.\n(3) The applicant must not have more than 2 existing loans.\n(4) If (1), (2) and (3) are satisfied: a credit score of 700 or more means the loan is approved; a score from 650 to 699 means the loan is approved only if a guarantor is provided, otherwise the application is referred to the manager; a score below 650 means the application is rejected.\nIf any of (1), (2) or (3) is not satisfied, the application is rejected.\n\nCandidate: an Indian citizen; age 28 years; monthly income ₹50,000; 1 existing loan; credit score 670; a guarantor is provided.\n\nWhat is the decision for this candidate?",
+        "options": [
+          "Refer to the manager",
+          "Approve the loan",
+          "Reject the application",
+          "Data inadequate"
+        ],
+        "correctAnswer": "Approve the loan",
+        "explanation": "The score is 650 to 699 and a guarantor is provided. Decision: Approve the loan.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-analytical-decision-problems-p18",
+        "question": "A bank approves personal loans under these rules.\n(1) The applicant must be an Indian citizen aged 21 to 60 years (both inclusive).\n(2) The monthly income must be at least ₹30,000.\n(3) The applicant must not have more than 2 existing loans.\n(4) If (1), (2) and (3) are satisfied: a credit score of 700 or more means the loan is approved; a score from 650 to 699 means the loan is approved only if a guarantor is provided, otherwise the application is referred to the manager; a score below 650 means the application is rejected.\nIf any of (1), (2) or (3) is not satisfied, the application is rejected.\n\nCandidate: an Indian citizen; age 40 years; monthly income ₹60,000; 3 existing loans; credit score 780; a guarantor is provided.\n\nWhat is the decision for this candidate?",
+        "options": [
+          "Reject the application",
+          "Approve the loan",
+          "Refer to the manager",
+          "Data inadequate"
+        ],
+        "correctAnswer": "Reject the application",
+        "explanation": "The applicant has more than 2 existing loans. Decision: Reject the application.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-lr-analytical-decision-problems-p19",
+        "question": "A bank approves personal loans under these rules.\n(1) The applicant must be an Indian citizen aged 21 to 60 years (both inclusive).\n(2) The monthly income must be at least ₹30,000.\n(3) The applicant must not have more than 2 existing loans.\n(4) If (1), (2) and (3) are satisfied: a credit score of 700 or more means the loan is approved; a score from 650 to 699 means the loan is approved only if a guarantor is provided, otherwise the application is referred to the manager; a score below 650 means the application is rejected.\nIf any of (1), (2) or (3) is not satisfied, the application is rejected.\n\nCandidate: an Indian citizen; age 23 years; monthly income ₹28,000; 0 existing loans; credit score 760; a guarantor is provided.\n\nWhat is the decision for this candidate?",
+        "options": [
+          "Approve the loan",
+          "Refer to the manager",
+          "Data inadequate",
+          "Reject the application"
+        ],
+        "correctAnswer": "Reject the application",
+        "explanation": "The monthly income is below ₹30,000. Decision: Reject the application.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Checklist.",
+      "Knock-outs.",
+      "Tiers.",
+      "Exceptions.",
+      "Missing data."
+    ],
+    "quickFormulas": [
+      "Test must-haves first"
+    ]
+  },
+  "keyTakeaways": [
+    "Checklist.",
+    "Boundaries.",
+    "Exceptions.",
+    "Missing data."
+  ],
+  "selfCheckQuestions": [
+    "Can I turn rules into a checklist?",
+    "Can I handle inclusive limits?",
+    "Can I spot missing data?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

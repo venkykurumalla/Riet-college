@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-lr-analytical-decision-problems",
+  "topicTitle": "Analytical Decision-Making Problems",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A trust awards scholarships under these rules.\n(i) The student must be between 18 and 25 years of age (both inclusive).\n(ii) The student must have passed Class XII with at least 60% marks.\n(iii) The annual family income must be less than ₹3,00,000.\nIf all three conditions are satisfied, the student is selected. If conditions (i) and (ii) are satisfied but the annual family income is from ₹3,00,000 to ₹5,00,000 (both inclusive), the student is placed on the waiting list. In every other case the student is rejected.\n\nCandidate: age 21 years; 72% in Class XII; annual family income ₹1,80,000.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Waiting list",
+        "Selected",
+        "Rejected",
+        "Data inadequate"
+      ],
+      "answerIndex": 1,
+      "explanation": "All three conditions are satisfied. Decision: Selected."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "A trust awards scholarships under these rules.\n(i) The student must be between 18 and 25 years of age (both inclusive).\n(ii) The student must have passed Class XII with at least 60% marks.\n(iii) The annual family income must be less than ₹3,00,000.\nIf all three conditions are satisfied, the student is selected. If conditions (i) and (ii) are satisfied but the annual family income is from ₹3,00,000 to ₹5,00,000 (both inclusive), the student is placed on the waiting list. In every other case the student is rejected.\n\nCandidate: age 19 years; 58% in Class XII; annual family income ₹2,00,000.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Rejected",
+        "Selected",
+        "Waiting list",
+        "Data inadequate"
+      ],
+      "answerIndex": 0,
+      "explanation": "The marks are below 60%. Decision: Rejected."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "A trust awards scholarships under these rules.\n(i) The student must be between 18 and 25 years of age (both inclusive).\n(ii) The student must have passed Class XII with at least 60% marks.\n(iii) The annual family income must be less than ₹3,00,000.\nIf all three conditions are satisfied, the student is selected. If conditions (i) and (ii) are satisfied but the annual family income is from ₹3,00,000 to ₹5,00,000 (both inclusive), the student is placed on the waiting list. In every other case the student is rejected.\n\nCandidate: age 24 years; 65% in Class XII; annual family income ₹4,00,000.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Selected",
+        "Rejected",
+        "Data inadequate",
+        "Waiting list"
+      ],
+      "answerIndex": 3,
+      "explanation": "Conditions (i) and (ii) hold and the income is between ₹3,00,000 and ₹5,00,000. Decision: Waiting list."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A trust awards scholarships under these rules.\n(i) The student must be between 18 and 25 years of age (both inclusive).\n(ii) The student must have passed Class XII with at least 60% marks.\n(iii) The annual family income must be less than ₹3,00,000.\nIf all three conditions are satisfied, the student is selected. If conditions (i) and (ii) are satisfied but the annual family income is from ₹3,00,000 to ₹5,00,000 (both inclusive), the student is placed on the waiting list. In every other case the student is rejected.\n\nCandidate: age 27 years; 80% in Class XII; annual family income ₹1,00,000.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Selected",
+        "Waiting list",
+        "Rejected",
+        "Data inadequate"
+      ],
+      "answerIndex": 2,
+      "explanation": "The age is outside 18 to 25. Decision: Rejected."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A trust awards scholarships under these rules.\n(i) The student must be between 18 and 25 years of age (both inclusive).\n(ii) The student must have passed Class XII with at least 60% marks.\n(iii) The annual family income must be less than ₹3,00,000.\nIf all three conditions are satisfied, the student is selected. If conditions (i) and (ii) are satisfied but the annual family income is from ₹3,00,000 to ₹5,00,000 (both inclusive), the student is placed on the waiting list. In every other case the student is rejected.\n\nCandidate: age 22 years; 61% in Class XII.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Selected",
+        "Waiting list",
+        "Data inadequate",
+        "Rejected"
+      ],
+      "answerIndex": 2,
+      "explanation": "A fact that is not given can change the result: for one possible value the outcome is \"Selected\" (all three conditions are satisfied), and for another it is \"Waiting list\" (conditions (i) and (ii) hold and the income is between ₹3,00,000 and ₹5,00,000). Decision: Data inadequate."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A trust awards scholarships under these rules.\n(i) The student must be between 18 and 25 years of age (both inclusive).\n(ii) The student must have passed Class XII with at least 60% marks.\n(iii) The annual family income must be less than ₹3,00,000.\nIf all three conditions are satisfied, the student is selected. If conditions (i) and (ii) are satisfied but the annual family income is from ₹3,00,000 to ₹5,00,000 (both inclusive), the student is placed on the waiting list. In every other case the student is rejected.\n\nCandidate: age 20 years; 60% in Class XII; annual family income ₹2,99,999.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Waiting list",
+        "Selected",
+        "Rejected",
+        "Data inadequate"
+      ],
+      "answerIndex": 1,
+      "explanation": "All three conditions are satisfied. Decision: Selected."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A company recruits executives under these rules.\n(a) The candidate must be a graduate or a postgraduate. A graduate must have at least 55% marks; a postgraduate need not satisfy the marks condition.\n(b) The age must not be more than 35 years.\n(c) The candidate must have at least 2 years of work experience to be selected as an Executive. A candidate who satisfies (a) and (b) and has experience of at least 1 year but less than 2 years is selected as a Trainee.\nIn every other case the candidate is rejected.\n\nCandidate: graduate; 62% marks; 3 years of experience; age 30 years.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Select as Executive",
+        "Select as Trainee",
+        "Reject",
+        "Data inadequate"
+      ],
+      "answerIndex": 0,
+      "explanation": "Qualification, age and experience of 2 years or more are satisfied. Decision: Select as Executive."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A company recruits executives under these rules.\n(a) The candidate must be a graduate or a postgraduate. A graduate must have at least 55% marks; a postgraduate need not satisfy the marks condition.\n(b) The age must not be more than 35 years.\n(c) The candidate must have at least 2 years of work experience to be selected as an Executive. A candidate who satisfies (a) and (b) and has experience of at least 1 year but less than 2 years is selected as a Trainee.\nIn every other case the candidate is rejected.\n\nCandidate: graduate; 50% marks; 4 years of experience; age 28 years.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Select as Executive",
+        "Select as Trainee",
+        "Data inadequate",
+        "Reject"
+      ],
+      "answerIndex": 3,
+      "explanation": "A graduate needs at least 55% marks. Decision: Reject."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A company recruits executives under these rules.\n(a) The candidate must be a graduate or a postgraduate. A graduate must have at least 55% marks; a postgraduate need not satisfy the marks condition.\n(b) The age must not be more than 35 years.\n(c) The candidate must have at least 2 years of work experience to be selected as an Executive. A candidate who satisfies (a) and (b) and has experience of at least 1 year but less than 2 years is selected as a Trainee.\nIn every other case the candidate is rejected.\n\nCandidate: postgraduate; 48% marks; 2 years of experience; age 32 years.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Select as Trainee",
+        "Reject",
+        "Data inadequate",
+        "Select as Executive"
+      ],
+      "answerIndex": 3,
+      "explanation": "Qualification, age and experience of 2 years or more are satisfied. Decision: Select as Executive."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A company recruits executives under these rules.\n(a) The candidate must be a graduate or a postgraduate. A graduate must have at least 55% marks; a postgraduate need not satisfy the marks condition.\n(b) The age must not be more than 35 years.\n(c) The candidate must have at least 2 years of work experience to be selected as an Executive. A candidate who satisfies (a) and (b) and has experience of at least 1 year but less than 2 years is selected as a Trainee.\nIn every other case the candidate is rejected.\n\nCandidate: graduate; 70% marks; 1.5 years of experience; age 26 years.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Select as Executive",
+        "Reject",
+        "Select as Trainee",
+        "Data inadequate"
+      ],
+      "answerIndex": 2,
+      "explanation": "Experience is at least 1 year but below 2 years. Decision: Select as Trainee."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A company recruits executives under these rules.\n(a) The candidate must be a graduate or a postgraduate. A graduate must have at least 55% marks; a postgraduate need not satisfy the marks condition.\n(b) The age must not be more than 35 years.\n(c) The candidate must have at least 2 years of work experience to be selected as an Executive. A candidate who satisfies (a) and (b) and has experience of at least 1 year but less than 2 years is selected as a Trainee.\nIn every other case the candidate is rejected.\n\nCandidate: graduate; 65% marks; 0.5 years of experience; age 24 years.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Select as Executive",
+        "Reject",
+        "Select as Trainee",
+        "Data inadequate"
+      ],
+      "answerIndex": 1,
+      "explanation": "Experience is below 1 year. Decision: Reject."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A company recruits executives under these rules.\n(a) The candidate must be a graduate or a postgraduate. A graduate must have at least 55% marks; a postgraduate need not satisfy the marks condition.\n(b) The age must not be more than 35 years.\n(c) The candidate must have at least 2 years of work experience to be selected as an Executive. A candidate who satisfies (a) and (b) and has experience of at least 1 year but less than 2 years is selected as a Trainee.\nIn every other case the candidate is rejected.\n\nCandidate: graduate; 60% marks; 3 years of experience; age 38 years.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Reject",
+        "Select as Executive",
+        "Select as Trainee",
+        "Data inadequate"
+      ],
+      "answerIndex": 0,
+      "explanation": "The age is above 35. Decision: Reject."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A company recruits executives under these rules.\n(a) The candidate must be a graduate or a postgraduate. A graduate must have at least 55% marks; a postgraduate need not satisfy the marks condition.\n(b) The age must not be more than 35 years.\n(c) The candidate must have at least 2 years of work experience to be selected as an Executive. A candidate who satisfies (a) and (b) and has experience of at least 1 year but less than 2 years is selected as a Trainee.\nIn every other case the candidate is rejected.\n\nCandidate: undergraduate; 80% marks; 5 years of experience; age 30 years.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Reject",
+        "Select as Executive",
+        "Select as Trainee",
+        "Data inadequate"
+      ],
+      "answerIndex": 0,
+      "explanation": "The candidate is not a graduate. Decision: Reject."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A company recruits executives under these rules.\n(a) The candidate must be a graduate or a postgraduate. A graduate must have at least 55% marks; a postgraduate need not satisfy the marks condition.\n(b) The age must not be more than 35 years.\n(c) The candidate must have at least 2 years of work experience to be selected as an Executive. A candidate who satisfies (a) and (b) and has experience of at least 1 year but less than 2 years is selected as a Trainee.\nIn every other case the candidate is rejected.\n\nCandidate: graduate; 3 years of experience; age 30 years.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Select as Executive",
+        "Select as Trainee",
+        "Reject",
+        "Data inadequate"
+      ],
+      "answerIndex": 3,
+      "explanation": "A fact that is not given can change the result: for one possible value the outcome is \"Reject\" (a graduate needs at least 55% marks), and for another it is \"Select as Executive\" (qualification, age and experience of 2 years or more are satisfied). Decision: Data inadequate."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A bank approves personal loans under these rules.\n(1) The applicant must be an Indian citizen aged 21 to 60 years (both inclusive).\n(2) The monthly income must be at least ₹30,000.\n(3) The applicant must not have more than 2 existing loans.\n(4) If (1), (2) and (3) are satisfied: a credit score of 700 or more means the loan is approved; a score from 650 to 699 means the loan is approved only if a guarantor is provided, otherwise the application is referred to the manager; a score below 650 means the application is rejected.\nIf any of (1), (2) or (3) is not satisfied, the application is rejected.\n\nCandidate: an Indian citizen; age 35 years; monthly income ₹45,000; 1 existing loan; credit score 720; no guarantor is provided.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Refer to the manager",
+        "Reject the application",
+        "Approve the loan",
+        "Data inadequate"
+      ],
+      "answerIndex": 2,
+      "explanation": "The credit score is 700 or more. Decision: Approve the loan."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A bank approves personal loans under these rules.\n(1) The applicant must be an Indian citizen aged 21 to 60 years (both inclusive).\n(2) The monthly income must be at least ₹30,000.\n(3) The applicant must not have more than 2 existing loans.\n(4) If (1), (2) and (3) are satisfied: a credit score of 700 or more means the loan is approved; a score from 650 to 699 means the loan is approved only if a guarantor is provided, otherwise the application is referred to the manager; a score below 650 means the application is rejected.\nIf any of (1), (2) or (3) is not satisfied, the application is rejected.\n\nCandidate: an Indian citizen; age 28 years; monthly income ₹50,000; 1 existing loan; credit score 670; no guarantor is provided.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Approve the loan",
+        "Refer to the manager",
+        "Reject the application",
+        "Data inadequate"
+      ],
+      "answerIndex": 1,
+      "explanation": "The score is 650 to 699 and no guarantor is provided. Decision: Refer to the manager."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A bank approves personal loans under these rules.\n(1) The applicant must be an Indian citizen aged 21 to 60 years (both inclusive).\n(2) The monthly income must be at least ₹30,000.\n(3) The applicant must not have more than 2 existing loans.\n(4) If (1), (2) and (3) are satisfied: a credit score of 700 or more means the loan is approved; a score from 650 to 699 means the loan is approved only if a guarantor is provided, otherwise the application is referred to the manager; a score below 650 means the application is rejected.\nIf any of (1), (2) or (3) is not satisfied, the application is rejected.\n\nCandidate: an Indian citizen; age 28 years; monthly income ₹50,000; 1 existing loan; credit score 670; a guarantor is provided.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Refer to the manager",
+        "Approve the loan",
+        "Reject the application",
+        "Data inadequate"
+      ],
+      "answerIndex": 1,
+      "explanation": "The score is 650 to 699 and a guarantor is provided. Decision: Approve the loan."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A bank approves personal loans under these rules.\n(1) The applicant must be an Indian citizen aged 21 to 60 years (both inclusive).\n(2) The monthly income must be at least ₹30,000.\n(3) The applicant must not have more than 2 existing loans.\n(4) If (1), (2) and (3) are satisfied: a credit score of 700 or more means the loan is approved; a score from 650 to 699 means the loan is approved only if a guarantor is provided, otherwise the application is referred to the manager; a score below 650 means the application is rejected.\nIf any of (1), (2) or (3) is not satisfied, the application is rejected.\n\nCandidate: an Indian citizen; age 40 years; monthly income ₹60,000; 3 existing loans; credit score 780; a guarantor is provided.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Reject the application",
+        "Approve the loan",
+        "Refer to the manager",
+        "Data inadequate"
+      ],
+      "answerIndex": 0,
+      "explanation": "The applicant has more than 2 existing loans. Decision: Reject the application."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A bank approves personal loans under these rules.\n(1) The applicant must be an Indian citizen aged 21 to 60 years (both inclusive).\n(2) The monthly income must be at least ₹30,000.\n(3) The applicant must not have more than 2 existing loans.\n(4) If (1), (2) and (3) are satisfied: a credit score of 700 or more means the loan is approved; a score from 650 to 699 means the loan is approved only if a guarantor is provided, otherwise the application is referred to the manager; a score below 650 means the application is rejected.\nIf any of (1), (2) or (3) is not satisfied, the application is rejected.\n\nCandidate: an Indian citizen; age 23 years; monthly income ₹28,000; 0 existing loans; credit score 760; a guarantor is provided.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Approve the loan",
+        "Refer to the manager",
+        "Data inadequate",
+        "Reject the application"
+      ],
+      "answerIndex": 3,
+      "explanation": "The monthly income is below ₹30,000. Decision: Reject the application."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A bank approves personal loans under these rules.\n(1) The applicant must be an Indian citizen aged 21 to 60 years (both inclusive).\n(2) The monthly income must be at least ₹30,000.\n(3) The applicant must not have more than 2 existing loans.\n(4) If (1), (2) and (3) are satisfied: a credit score of 700 or more means the loan is approved; a score from 650 to 699 means the loan is approved only if a guarantor is provided, otherwise the application is referred to the manager; a score below 650 means the application is rejected.\nIf any of (1), (2) or (3) is not satisfied, the application is rejected.\n\nCandidate: an Indian citizen; age 45 years; monthly income ₹70,000; 0 existing loans; a guarantor is provided.\n\nWhat is the decision for this candidate?",
+      "options": [
+        "Approve the loan",
+        "Refer to the manager",
+        "Data inadequate",
+        "Reject the application"
+      ],
+      "answerIndex": 2,
+      "explanation": "A fact that is not given can change the result: for one possible value the outcome is \"Reject the application\" (the credit score is below 650), and for another it is \"Approve the loan\" (the score is 650 to 699 and a guarantor is provided). Decision: Data inadequate."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/"
+}
