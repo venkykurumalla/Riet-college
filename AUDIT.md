@@ -26,7 +26,7 @@ Definitions with worked numbers, real formula cards, 2-3 solved examples with re
 | 1st Year | **Rewritten.** 27 chapters rewritten; ch 1-6 kept with minimal edits; all 33 have a 20-question topic quiz. |
 | 2nd Year | **Rewritten.** All 50 chapters rewritten; all 50 have a 20-question topic quiz. |
 | 3rd Year | **Rewritten.** All 70 chapters rewritten; all 70 have a 20-question topic quiz (6 easy, 8 medium, 6 placement). |
-| 4th Year | Not started (waiting for approval after 3rd Year). |
+| 4th Year | **Rewritten.** All 53 chapters rewritten; all 53 have a 20-question topic quiz (6 easy, 8 medium, 6 placement). |
 
 ## Per-chapter table (original data)
 

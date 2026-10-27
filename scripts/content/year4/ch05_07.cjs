@@ -114,7 +114,8 @@ const q6 = [
   N('p', 'A and B can do a job in 12 and 18 days. They work on alternate days, A first. The number of days needed is', 15, 'LCM 36: A 3, B 2 per day. 5 per 2 days; 14 days give 35; on day 15 A completes the last unit.'),
   N('p', 'A man can row 8 km/h in still water. In a river flowing at 2 km/h it takes him 3 hours to go to a place and return. The distance is (km)', 3 / (1 / 10 + 1 / 6), 'D/10 + D/6 = 3 gives D × 16/60 = 3, so D = 11.25.', 2),
   N('p', 'Three taps fill a tank in 6, 8 and 12 hours. All are opened but the second is closed after 2 hours. The total time is (hours, 2 decimals)', 2 + (1 - 2 * (1 / 6 + 1 / 8 + 1 / 12)) / (1 / 6 + 1 / 12), 'In 2 h: 2 × 9/24 = 3/4 done; remaining 1/4 at 1/4 per hour: 1 h; total 3 h.', 2),
-  N('p', 'A sum of money doubles in 5 years at compound interest. In how many years will it become 8 times (assuming the same rate)?', 15, 'Doubling every 5 years: 8 = 2³, so 15 years.')
+  N('p', 'A sum of money doubles in 5 years at compound interest. In how many years will it become 8 times (assuming the same rate)?', 15, 'Doubling every 5 years: 8 = 2³, so 15 years.'),
+  N('p', '₹1,000 grows at 20% compound interest for 3 years. The amount is (₹)', 1728, '1,000 × 1.2³ = 1,728.')
 ];
 build(ch6, q6);
 

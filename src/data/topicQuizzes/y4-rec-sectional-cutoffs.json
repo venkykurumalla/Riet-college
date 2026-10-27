@@ -261,19 +261,6 @@
       ],
       "answerIndex": 2,
       "explanation": "5 ÷ 3 = 1.7."
-    },
-    {
-      "id": 21,
-      "difficulty": "placement",
-      "question": "Where should you confirm whether a test has sectional cutoffs?",
-      "options": [
-        "A forum post",
-        "A friend's guess",
-        "The official instructions",
-        "You can assume they exist"
-      ],
-      "answerIndex": 2,
-      "explanation": "Cutoff rules vary by employer."
     }
   ],
   "morePracticeUrl": "https://www.indiabix.com/aptitude/"

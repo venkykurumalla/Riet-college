@@ -248,6 +248,19 @@
       ],
       "answerIndex": 3,
       "explanation": "Doubling every 5 years: 8 = 2³, so 15 years."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "₹1,000 grows at 20% compound interest for 3 years. The amount is (₹)",
+      "options": [
+        "1901",
+        "1555",
+        "1728",
+        "2160"
+      ],
+      "answerIndex": 2,
+      "explanation": "1,000 × 1.2³ = 1,728."
     }
   ],
   "morePracticeUrl": "https://www.indiabix.com/aptitude/"

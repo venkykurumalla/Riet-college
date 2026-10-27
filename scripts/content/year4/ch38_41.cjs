@@ -214,7 +214,6 @@ const q41 = [
   N('p', 'With a penalty of 0.25, 14 correct and 4 wrong in a section give net marks of', 14 - 1, '14 − 1 = 13.'),
   N('p', 'If the cutoff is 13 net marks, the margin is', 0, '13 − 13 = 0.'),
   T('p', 'The best use of an extra 5 minutes is', 'to secure a section close to its cutoff', ['to re-do your strongest section', 'to skip the weak section', 'to ignore cutoffs'], 'Securing a near-failure section protects the result.'),
-  N('p', 'If you can add 1 mark per 3 minutes in the weak section, 5 minutes adds about (marks, to one decimal)', 5 / 3, '5 ÷ 3 = 1.7.', 1),
-  T('p', 'Where should you confirm whether a test has sectional cutoffs?', 'The official instructions', ['A forum post', 'A friend\'s guess', 'You can assume they exist'], 'Cutoff rules vary by employer.')
+  N('p', 'If you can add 1 mark per 3 minutes in the weak section, 5 minutes adds about (marks, to one decimal)', 5 / 3, '5 ÷ 3 = 1.7.', 1)
 ];
 build(ch41, q41);
