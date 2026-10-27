@@ -1,0 +1,428 @@
+{
+  "id": "y3-quant-adv-relative-speed",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 9,
+  "title": "Advanced Relative Speed — Circular Tracks",
+  "tagline": "Year 3 — Meeting times and meeting points of runners on a circular track",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "On a straight road two objects meet at most once, but on a circular track runners keep meeting again and again. Two runners moving in the same direction meet when the faster has gained one full lap on the slower; in opposite directions they meet when together they have covered one full lap. The number of different meeting points on the track depends on the speed ratio. This chapter develops meeting time, meeting at the starting point and the number of meeting points.",
+    "placementRelevance": "Circular-track questions are commonly asked in company aptitude rounds as a harder application of relative speed, often with the phrase \"meet for the first time at the starting point\".",
+    "realWorldContext": "Laps on a running track, planets revolving around a star and two hands of a clock are circular-motion problems."
+  },
+  "learningObjectives": [
+    "Find the first meeting time for runners in the same and opposite directions",
+    "Find the time to meet at the starting point using lap times",
+    "Count the number of distinct meeting points",
+    "Find the distance each runner covers at the first meeting",
+    "Handle three runners"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Relative Speed",
+      "Advanced Number Properties (LCM and HCF)"
+    ],
+    "quickRefresher": "Relative speed = sum (opposite) or difference (same direction). Lap time = L ÷ speed. LCM gives repeated coincidence."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Lap: one complete round of the track of length L.",
+      "First meeting (same direction): L ÷ (v₁ − v₂). First meeting (opposite): L ÷ (v₁ + v₂).",
+      "Meeting at the start: the first time both are at the starting point together (LCM of lap times).",
+      "Meeting points: the number of different points on the track where meetings happen.",
+      "Speed ratio a : b in lowest terms determines the number of meeting points."
+    ],
+    "theoreticalIntuition": "Each meeting is one lap of relative distance. Meetings happen at equal time gaps; the points where they happen shift along the track, and after a fixed number of meetings they begin to repeat. That fixed number is the count of meeting points.",
+    "visualOrMentalModel": "First meeting time = L ÷ relative speed. For the start point, find the smallest t with both speeds × t a multiple of L. For meeting points, reduce the speed ratio to lowest terms a : b; the count is a + b (opposite) or |a − b| (same direction)."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "First meeting",
+      "formula": "Same: L/(v₁ − v₂);  Opposite: L/(v₁ + v₂)",
+      "description": "Relative lap.",
+      "whenToUse": "Meeting time.",
+      "simpleExample": "400/(5 − 3) = 200 s"
+    },
+    {
+      "title": "Meeting at the start",
+      "formula": "t = smallest value with v₁t and v₂t multiples of L",
+      "description": "LCM of lap times.",
+      "whenToUse": "Start-point meeting.",
+      "simpleExample": "Lap times 50 s and 66.67 s → 200 s"
+    },
+    {
+      "title": "Meeting points (opposite)",
+      "formula": "a + b for speed ratio a : b in lowest terms",
+      "description": "Co-prime ratio.",
+      "whenToUse": "Count of points.",
+      "simpleExample": "3 : 2 → 5 points"
+    },
+    {
+      "title": "Meeting points (same direction)",
+      "formula": "|a − b| for a : b in lowest terms",
+      "description": "Co-prime ratio.",
+      "whenToUse": "Count of points.",
+      "simpleExample": "5 : 3 → 2 points"
+    },
+    {
+      "title": "Distance at first meeting",
+      "formula": "d₁ = v₁ × t",
+      "description": "Each covers speed × time.",
+      "whenToUse": "Distances.",
+      "simpleExample": "9 × 25 = 225 m"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "First meeting: on a 400 m track, runners at 5 m/s and 3 m/s starting together in the same direction meet after 400 ÷ (5 − 3) = 200 s. If they run in opposite directions they meet after 400 ÷ (5 + 3) = 50 s.",
+      "To meet at the starting point, both must complete whole laps at the same time. For speeds 6 and 8 m/s on a 400 m track, 6t and 8t must both be multiples of 400: t = 200 s works (1200 m and 1600 m, that is 3 and 4 laps), and no smaller t does.",
+      "Meeting points: for speeds in the lowest-terms ratio a : b, runners moving in opposite directions meet at a + b distinct points, and runners moving in the same direction meet at |a − b| distinct points. Speeds 3 : 2 give 5 points in opposite directions; speeds 5 : 3 give 2 points in the same direction.",
+      "Distances at the first meeting: in opposite directions they cover the lap together in the ratio of their speeds. With speeds 7 and 9 on 400 m, they meet after 25 s; the faster has covered 225 m and the slower 175 m.",
+      "For three runners, find when each pair meets and take the LCM. Speeds 4, 6 and 10 m/s on 600 m (same direction) give gaps 2 and 4: meeting times 300 s and 150 s, so all three are together after LCM(300, 150) = 300 s."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Why the number of meeting points is a + b",
+        "content": "In the time of one lap of relative distance the runners cover (a + b) parts of the track together; after a + b meetings the pattern returns to the start point."
+      },
+      {
+        "title": "Lowest terms matter",
+        "content": "Always reduce the speed ratio first. Speeds 6 and 4 reduce to 3 : 2, giving 5 points, not 10."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "First meeting time",
+      "description": "Same or opposite.",
+      "exampleSnippet": "400 m, 5 and 3 m/s"
+    },
+    {
+      "typeName": "Meeting at the start",
+      "description": "Lap-time LCM.",
+      "exampleSnippet": "6 and 8 m/s"
+    },
+    {
+      "typeName": "Number of meeting points",
+      "description": "a + b or |a − b|.",
+      "exampleSnippet": "Ratio 3 : 2"
+    },
+    {
+      "typeName": "Distances at the meeting",
+      "description": "Speed × time.",
+      "exampleSnippet": "7 and 9 m/s"
+    },
+    {
+      "typeName": "Three runners",
+      "description": "LCM of pair times.",
+      "exampleSnippet": "4, 6, 10 m/s"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-adv-relative-speed-1",
+      "title": "First meeting",
+      "question": "Two runners start together on a 400 m circular track at 5 m/s and 3 m/s in the same direction. After how many seconds do they first meet?",
+      "givenInfo": [
+        "L = 400",
+        "Same direction"
+      ],
+      "conceptOrFormula": "Relative speed = difference.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Relative speed",
+          "explanation": "5 − 3 = 2 m/s."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Time",
+          "explanation": "400 ÷ 2 = 200 s."
+        }
+      ],
+      "finalAnswer": "200 seconds",
+      "whyItWorks": "The faster gains one full lap.",
+      "commonTrap": "Using the sum of speeds.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-adv-relative-speed-2",
+      "title": "Meeting at the start",
+      "question": "Two runners at 6 m/s and 8 m/s run on a 400 m track from the same start. After how many seconds do they next meet at the starting point?",
+      "givenInfo": [
+        "6 m/s",
+        "8 m/s",
+        "L = 400"
+      ],
+      "conceptOrFormula": "Both complete whole laps.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Lap times",
+          "explanation": "400/6 = 66.67 s and 400/8 = 50 s."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Whole laps together",
+          "explanation": "Need 6t and 8t multiples of 400: t = 200 s."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Check",
+          "explanation": "6 × 200 = 1200 (3 laps), 8 × 200 = 1600 (4 laps)."
+        }
+      ],
+      "finalAnswer": "200 seconds",
+      "whyItWorks": "It is the LCM of the two lap times.",
+      "commonTrap": "Using their first meeting time of 200 s coincidentally; the two ideas differ.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-adv-relative-speed-3",
+      "title": "Number of meeting points",
+      "question": "Two runners run in opposite directions with speeds in the ratio 3 : 2. At how many different points on the track do they meet?",
+      "givenInfo": [
+        "Ratio 3 : 2"
+      ],
+      "conceptOrFormula": "Opposite: a + b.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Lowest terms",
+          "explanation": "3 : 2 already."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Count",
+          "explanation": "3 + 2 = 5."
+        }
+      ],
+      "finalAnswer": "5 points",
+      "whyItWorks": "After 5 meetings the pattern repeats.",
+      "commonTrap": "Using 3 − 2 = 1.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "L over relative speed",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Track both runners lap by lap.",
+      "shortcutMethod": "Meeting time = L ÷ relative speed; start-point time = LCM of lap times; points = a + b or |a − b| in lowest terms."
+    },
+    "rulesForApplication": [
+      "Same direction: difference.",
+      "Opposite: sum.",
+      "Reduce the ratio first.",
+      "Start-point time ≠ first meeting time in general."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Confusing the first meeting with the start-point meeting",
+      "whyItHappens": "Assuming they coincide.",
+      "howToAvoid": "Compute both separately."
+    },
+    {
+      "mistake": "Not reducing the ratio",
+      "whyItHappens": "Using 6 : 4 for points.",
+      "howToAvoid": "Reduce to 3 : 2."
+    },
+    {
+      "mistake": "Wrong operation for direction",
+      "whyItHappens": "Adding for same direction.",
+      "howToAvoid": "Check the direction."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "The time to meet at the start is a multiple of the first-meeting time.",
+    "questionSelectionAdvice": "Convert lap times to whole numbers before taking the LCM.",
+    "recruiterInsight": "The same idea gives clock-hand coincidences."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-adv-relative-speed-e1",
+        "question": "Two runners on a 400 m track run at 5 m/s and 3 m/s in the same direction from the same point. They first meet after (seconds)",
+        "options": [
+          "100",
+          "200",
+          "150",
+          "400"
+        ],
+        "correctAnswer": "200",
+        "explanation": "400 ÷ 2 = 200.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-relative-speed-e2",
+        "question": "The same two runners (5 m/s and 3 m/s) run in opposite directions. They first meet after (seconds)",
+        "options": [
+          "50",
+          "40",
+          "80",
+          "100"
+        ],
+        "correctAnswer": "50",
+        "explanation": "400 ÷ 8 = 50.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-relative-speed-e3",
+        "question": "Two runners at 8 m/s and 12 m/s run in opposite directions on a 600 m track. They first meet after (seconds)",
+        "options": [
+          "25",
+          "40",
+          "50",
+          "30"
+        ],
+        "correctAnswer": "30",
+        "explanation": "600 ÷ 20 = 30.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-adv-relative-speed-i7",
+        "question": "Two runners at 6 m/s and 8 m/s start together from the same point of a 400 m track and run in the same direction. They first meet at the starting point after (seconds)",
+        "options": [
+          "200",
+          "100",
+          "150",
+          "400"
+        ],
+        "correctAnswer": "200",
+        "explanation": "Both must complete whole laps: 6t and 8t multiples of 400 first at t = 200.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-relative-speed-i8",
+        "question": "Two runners with speeds in the ratio 3 : 2 run in opposite directions. The number of different points at which they meet is",
+        "options": [
+          "1",
+          "2",
+          "6",
+          "5"
+        ],
+        "correctAnswer": "5",
+        "explanation": "a + b = 3 + 2 = 5.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-relative-speed-i9",
+        "question": "Two runners with speeds in the ratio 5 : 3 run in the same direction. The number of different meeting points is",
+        "options": [
+          "3",
+          "5",
+          "8",
+          "2"
+        ],
+        "correctAnswer": "2",
+        "explanation": "|5 − 3| = 2.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-adv-relative-speed-a15",
+        "question": "Three runners at 4, 6 and 10 m/s run in the same direction on a 600 m track from the same point. All three are together again after (seconds)",
+        "options": [
+          "150",
+          "200",
+          "300",
+          "600"
+        ],
+        "correctAnswer": "300",
+        "explanation": "Pairs meet every 600/2 = 300 s and 600/4 = 150 s; all three after LCM(300, 150) = 300 s.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-relative-speed-a16",
+        "question": "Two runners at 3 m/s and 5 m/s run in opposite directions on a 160 m track from the same point. The number of times they meet in 60 seconds is",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correctAnswer": "3",
+        "explanation": "They meet every 160/8 = 20 s, so at 20, 40 and 60 s: 3 times.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-adv-relative-speed-p17",
+        "question": "Two runners at 4 m/s and 5 m/s run in opposite directions on a 360 m track from the same point. The distance of their first meeting point from the start along the first runner's path is (metres)",
+        "options": [
+          "120",
+          "160",
+          "161",
+          "180"
+        ],
+        "correctAnswer": "160",
+        "explanation": "They meet after 360 ÷ 9 = 40 s. The first runner has covered 160 m.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-relative-speed-p18",
+        "question": "Two runners start from the same point of a circular track and run in opposite directions at 6 m/s and 4 m/s. They meet for the first time at the start after (seconds). The track is 100 m.",
+        "options": [
+          "50",
+          "20",
+          "25",
+          "51"
+        ],
+        "correctAnswer": "50",
+        "explanation": "6t and 4t must both be multiples of 100: t = 50 s.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-relative-speed-p19",
+        "question": "A track is 120 m. A runs at 3 m/s and B at 5 m/s in the same direction. A is given a head start of 20 m (B starts behind A). B catches up with A for the first time after (seconds)",
+        "options": [
+          "11",
+          "20",
+          "30",
+          "10"
+        ],
+        "correctAnswer": "10",
+        "explanation": "B gains 2 m/s on A, so it takes 20 ÷ 2 = 10 s to close the 20 m gap.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Relative lap.",
+      "LCM for start-point.",
+      "a + b or |a − b|.",
+      "Reduce the ratio.",
+      "Three runners: LCM of pair times."
+    ],
+    "quickFormulas": [
+      "t = L/(v₁ ± v₂)",
+      "points = a + b | |a − b|"
+    ]
+  },
+  "keyTakeaways": [
+    "One lap of relative distance.",
+    "Reduce first.",
+    "LCM for repetition.",
+    "Direction decides the sign."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the first meeting time?",
+    "Can I find the start-point meeting?",
+    "Can I count the meeting points?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

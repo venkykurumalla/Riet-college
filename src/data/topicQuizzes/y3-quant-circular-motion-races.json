@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-circular-motion-races",
+  "topicTitle": "Circular Motion and Races",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "In a 1,000 m race A beats B by 100 m. The ratio of their speeds A : B is",
+      "options": [
+        "9 : 10",
+        "10 : 9",
+        "11 : 10",
+        "5 : 4"
+      ],
+      "answerIndex": 1,
+      "explanation": "A runs 1000 m while B runs 900 m: 10 : 9."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "In a 1,000 m race A beats B by 100 m. If A runs at 10 m/s, B runs at (m/s)",
+      "options": [
+        "9",
+        "8",
+        "9.5",
+        "11"
+      ],
+      "answerIndex": 0,
+      "explanation": "B runs at 9/10 of A's speed: 9."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "In a 200 m race A beats B by 20 m. B runs at 4 m/s. A wins by (seconds)",
+      "options": [
+        "4",
+        "8",
+        "10",
+        "5"
+      ],
+      "answerIndex": 3,
+      "explanation": "B needs 20 ÷ 4 = 5 s more."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "A can run 200 m while B runs 180 m. In a 200 m race, the start A must give B for a dead heat is (metres)",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "answerIndex": 2,
+      "explanation": "B covers 20 m less: 20."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "In a 100 m race A beats B by 10 m. When A has run 50 m, B has run (metres)",
+      "options": [
+        "40",
+        "44",
+        "45",
+        "48"
+      ],
+      "answerIndex": 2,
+      "explanation": "B runs 90% of A's distance: 45."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A runs 100 m in 10 s and B in 12.5 s. A beats B in a 100 m race by (metres)",
+      "options": [
+        "10",
+        "20",
+        "15",
+        "25"
+      ],
+      "answerIndex": 1,
+      "explanation": "B runs 8 m/s. In 10 s, B covers 80 m: 20 m behind."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "In a 100 m race A beats B by 10 m and B beats C by 10 m. A beats C by (metres)",
+      "options": [
+        "19",
+        "18",
+        "20",
+        "21"
+      ],
+      "answerIndex": 0,
+      "explanation": "When A runs 100, B runs 90 and C runs 81. A beats C by 19."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "In a 200 m race A beats B by 20 m and B beats C by 20 m. A beats C by (metres)",
+      "options": [
+        "36",
+        "39",
+        "40",
+        "38"
+      ],
+      "answerIndex": 3,
+      "explanation": "When A runs 200 m, B runs 180 and C runs 162. A beats C by 38."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A can give B a start of 20 m in a 100 m race and C a start of 40 m. The start B can give C in a 100 m race is (metres)",
+      "options": [
+        "20",
+        "22.5",
+        "30",
+        "25"
+      ],
+      "answerIndex": 3,
+      "explanation": "A : B = 100 : 80 and A : C = 100 : 60. B : C = 80 : 60 = 4 : 3. B gives C 100 − 75 = 25 m."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A runs twice as fast as B. In a 400 m race, A gives B a start of (metres) so that the race ends in a dead heat",
+      "options": [
+        "100",
+        "150",
+        "200",
+        "300"
+      ],
+      "answerIndex": 2,
+      "explanation": "B must cover half of A's distance: 200 m, so a start of 200 m."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "A and B run on a 400 m track at 8 m/s and 6 m/s in the same direction. A laps B for the first time after (seconds)",
+      "options": [
+        "100",
+        "200",
+        "150",
+        "400"
+      ],
+      "answerIndex": 1,
+      "explanation": "Relative speed 2 m/s over a 400 m lap: 200 s."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "A runs 4/3 as fast as B. In a 600 m race, A beats B by (metres)",
+      "options": [
+        "150",
+        "100",
+        "120",
+        "151"
+      ],
+      "answerIndex": 0,
+      "explanation": "B runs 3/4 of A's distance: 450 m. A wins by 150 m."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A beats B by 5 seconds in a 100 m race. If B runs at 5 m/s, A's time is (seconds)",
+      "options": [
+        "15",
+        "10",
+        "12",
+        "16"
+      ],
+      "answerIndex": 0,
+      "explanation": "B takes 20 s. A takes 15 s."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A can run 1 km in 3 minutes and B in 3 minutes 20 seconds. A beats B by (metres) in a 1 km race",
+      "options": [
+        "50",
+        "101",
+        "150",
+        "100"
+      ],
+      "answerIndex": 3,
+      "explanation": "A takes 180 s. B runs at 1000/200 = 5 m/s and covers 900 m in 180 s, so A wins by 100 m."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A beats B by 20 m in a 100 m race and B beats C by 10 m in a 100 m race. A beats C by (metres) in a 100 m race",
+      "options": [
+        "26",
+        "30",
+        "28",
+        "32"
+      ],
+      "answerIndex": 2,
+      "explanation": "When A runs 100, B runs 80. B runs 80 so C runs 80 × 0.9 = 72. A beats C by 28."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "In a km race, A beats B by 100 m, and B beats C by 100 m. In a 1 km race, A beats C by (metres)",
+      "options": [
+        "191",
+        "190",
+        "200",
+        "210"
+      ],
+      "answerIndex": 1,
+      "explanation": "A : C = 1000 : 810. A beats C by 190 m."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A can give B a start of 10 m in a 100 m race. In a race of 200 m, the start A can give B is (metres)",
+      "options": [
+        "10",
+        "20",
+        "15",
+        "25"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speed ratio A : B = 100 : 90. In 200 m, B covers 180 m, so the start is 20 m."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Two runners on a 500 m track have speeds 5 m/s and 3 m/s and run in the same direction. The faster laps the slower for the first time after (seconds)",
+      "options": [
+        "250",
+        "100",
+        "125",
+        "500"
+      ],
+      "answerIndex": 0,
+      "explanation": "500 ÷ 2 = 250."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A beats B by 4 seconds in a 400 m race and B's speed is 8 m/s. A's time over the 400 m is (seconds)",
+      "options": [
+        "40",
+        "47",
+        "50",
+        "46"
+      ],
+      "answerIndex": 3,
+      "explanation": "B takes 50 s. A takes 46 s."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A is 25% faster than B. In a 500 m race A gives B a start of (metres) for a dead heat",
+      "options": [
+        "80",
+        "120",
+        "100",
+        "150"
+      ],
+      "answerIndex": 2,
+      "explanation": "A : B = 5 : 4. B covers 400 m, so the start is 100 m."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/races-and-games/"
+}

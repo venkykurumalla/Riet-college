@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-adv-relative-speed",
+  "topicTitle": "Advanced Relative Speed — Circular Tracks",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Two runners on a 400 m track run at 5 m/s and 3 m/s in the same direction from the same point. They first meet after (seconds)",
+      "options": [
+        "100",
+        "200",
+        "150",
+        "400"
+      ],
+      "answerIndex": 1,
+      "explanation": "400 ÷ 2 = 200."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The same two runners (5 m/s and 3 m/s) run in opposite directions. They first meet after (seconds)",
+      "options": [
+        "50",
+        "40",
+        "80",
+        "100"
+      ],
+      "answerIndex": 0,
+      "explanation": "400 ÷ 8 = 50."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Two runners at 8 m/s and 12 m/s run in opposite directions on a 600 m track. They first meet after (seconds)",
+      "options": [
+        "25",
+        "40",
+        "50",
+        "30"
+      ],
+      "answerIndex": 3,
+      "explanation": "600 ÷ 20 = 30."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Two runners at 8 m/s and 12 m/s run in the same direction on a 600 m track. They first meet after (seconds)",
+      "options": [
+        "100",
+        "120",
+        "150",
+        "200"
+      ],
+      "answerIndex": 2,
+      "explanation": "600 ÷ 4 = 150."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A runner at 5 m/s takes how many seconds for one lap of a 400 m track?",
+      "options": [
+        "60",
+        "70",
+        "80",
+        "100"
+      ],
+      "answerIndex": 2,
+      "explanation": "400 ÷ 5 = 80."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A runner at 4 m/s runs 3 laps of a 200 m track in (seconds)",
+      "options": [
+        "120",
+        "150",
+        "140",
+        "200"
+      ],
+      "answerIndex": 1,
+      "explanation": "3 × 200 = 600 m; 600 ÷ 4 = 150."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Two runners at 6 m/s and 8 m/s start together from the same point of a 400 m track and run in the same direction. They first meet at the starting point after (seconds)",
+      "options": [
+        "200",
+        "100",
+        "150",
+        "400"
+      ],
+      "answerIndex": 0,
+      "explanation": "Both must complete whole laps: 6t and 8t multiples of 400 first at t = 200."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Two runners with speeds in the ratio 3 : 2 run in opposite directions. The number of different points at which they meet is",
+      "options": [
+        "1",
+        "2",
+        "6",
+        "5"
+      ],
+      "answerIndex": 3,
+      "explanation": "a + b = 3 + 2 = 5."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Two runners with speeds in the ratio 5 : 3 run in the same direction. The number of different meeting points is",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "2"
+      ],
+      "answerIndex": 3,
+      "explanation": "|5 − 3| = 2."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Two runners at 7 m/s and 9 m/s run in opposite directions on a 400 m track from the same point. The faster runner has covered at the first meeting (metres)",
+      "options": [
+        "175",
+        "200",
+        "225",
+        "250"
+      ],
+      "answerIndex": 2,
+      "explanation": "They meet after 400 ÷ 16 = 25 s. The faster covers 9 × 25 = 225."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Speeds 6 m/s and 4 m/s (opposite directions) give how many different meeting points on the track?",
+      "options": [
+        "2",
+        "5",
+        "6",
+        "10"
+      ],
+      "answerIndex": 1,
+      "explanation": "The ratio 6 : 4 reduces to 3 : 2. Points = 5."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Two runners at 4 m/s and 6 m/s run in the same direction on a 600 m track from the same point. They next meet at the starting point after (seconds)",
+      "options": [
+        "300",
+        "150",
+        "301",
+        "600"
+      ],
+      "answerIndex": 0,
+      "explanation": "4t and 6t both multiples of 600: t = 300 s."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A and B run on a 300 m track at 5 m/s and 3 m/s in opposite directions. After 90 s they have met (times)",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "They meet every 300/8 = 37.5 s: at 37.5 s and 75 s, so 2 times by 90 s."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "A and B run in the same direction on a 400 m track at 8 m/s and 6 m/s. A has lapped B for the first time after (seconds)",
+      "options": [
+        "100",
+        "150",
+        "400",
+        "200"
+      ],
+      "answerIndex": 3,
+      "explanation": "400 ÷ 2 = 200."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Three runners at 4, 6 and 10 m/s run in the same direction on a 600 m track from the same point. All three are together again after (seconds)",
+      "options": [
+        "150",
+        "200",
+        "300",
+        "600"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pairs meet every 600/2 = 300 s and 600/4 = 150 s; all three after LCM(300, 150) = 300 s."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Two runners at 3 m/s and 5 m/s run in opposite directions on a 160 m track from the same point. The number of times they meet in 60 seconds is",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "They meet every 160/8 = 20 s, so at 20, 40 and 60 s: 3 times."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Two runners at 4 m/s and 5 m/s run in opposite directions on a 360 m track from the same point. The distance of their first meeting point from the start along the first runner's path is (metres)",
+      "options": [
+        "120",
+        "160",
+        "161",
+        "180"
+      ],
+      "answerIndex": 1,
+      "explanation": "They meet after 360 ÷ 9 = 40 s. The first runner has covered 160 m."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Two runners start from the same point of a circular track and run in opposite directions at 6 m/s and 4 m/s. They meet for the first time at the start after (seconds). The track is 100 m.",
+      "options": [
+        "50",
+        "20",
+        "25",
+        "51"
+      ],
+      "answerIndex": 0,
+      "explanation": "6t and 4t must both be multiples of 100: t = 50 s."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A track is 120 m. A runs at 3 m/s and B at 5 m/s in the same direction. A is given a head start of 20 m (B starts behind A). B catches up with A for the first time after (seconds)",
+      "options": [
+        "11",
+        "20",
+        "30",
+        "10"
+      ],
+      "answerIndex": 3,
+      "explanation": "B gains 2 m/s on A, so it takes 20 ÷ 2 = 10 s to close the 20 m gap."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Two runners on a 500 m track have speeds 5 m/s and 7 m/s, same direction. The number of times they meet in 15 minutes (900 s) is",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "answerIndex": 2,
+      "explanation": "They meet every 500/2 = 250 s: at 250, 500 and 750 s, so 3 times."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/time-and-distance/"
+}
