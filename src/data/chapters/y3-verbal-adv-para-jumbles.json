@@ -1,0 +1,419 @@
+{
+  "id": "y3-verbal-adv-para-jumbles",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 50,
+  "title": "Advanced Para Jumbles — 6 Sentences",
+  "tagline": "Year 3 — Ordering six jumbled sentences using openers, links, chronology, pronouns and closers",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "In a para-jumble question, six sentences from one paragraph are shuffled and you must restore the order. The method is to look for one opener (a sentence that does not depend on any other), one closer (a sentence that sums up or concludes), and then chains of links between the rest: pronouns that need antecedents, time words, \"also\" and \"however\" connectors, and cause-effect pairs.",
+    "placementRelevance": "Six-sentence jumbles are the harder form of the standard ordering item and appear in verbal sections of company tests.",
+    "realWorldContext": "Putting a set of notes or an email thread into a logical sequence uses the same cues."
+  },
+  "learningObjectives": [
+    "Find the opener and the closer",
+    "Use pronoun and article cues (a/the, it/they)",
+    "Use time and cause links",
+    "Build mini-chains and then join them",
+    "Eliminate options by the first two sentences"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Para Jumbles (basic)",
+      "Logical Connectors in Written Discourse"
+    ],
+    "quickRefresher": "A new idea is introduced with \"a/an\" and refers back with \"the\"; pronouns need something to refer to."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Opener: a sentence that introduces the topic without referring back.",
+      "Closer: a sentence that concludes, summarises or looks ahead.",
+      "Link: a word or idea that connects two sentences (pronoun, time word, repeated noun).",
+      "Mini-chain: two or three sentences that must stay together.",
+      "Connector: words such as also, however, therefore that show how sentences relate."
+    ],
+    "theoreticalIntuition": "A paragraph is a chain. Each sentence leaves a hook that the next one picks up. Find the hooks and the chain assembles itself.",
+    "visualOrMentalModel": "Find the opener first. Then find sentences that begin with a reference (it, they, there, this) and attach them to the sentence they refer to. Chains first, then order the chains."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Opener test",
+      "formula": "No back-reference; introduces topic",
+      "description": "First sentence.",
+      "whenToUse": "Step 1.",
+      "simpleExample": "Coffee began as a wild plant"
+    },
+    {
+      "title": "Pronoun test",
+      "formula": "Pronoun needs an earlier noun",
+      "description": "It, they, this, there.",
+      "whenToUse": "Linking.",
+      "simpleExample": "\"There\" follows a place"
+    },
+    {
+      "title": "Time order",
+      "formula": "Earlier before later",
+      "description": "Narratives and histories.",
+      "whenToUse": "Chronology.",
+      "simpleExample": "Fifteenth century, then Europe"
+    },
+    {
+      "title": "Cause-effect",
+      "formula": "Cause before effect",
+      "description": "Explanations.",
+      "whenToUse": "Logic.",
+      "simpleExample": "Warm air rises, then moist air flows in"
+    },
+    {
+      "title": "Closer test",
+      "formula": "Today, thus, this explains",
+      "description": "Last sentence.",
+      "whenToUse": "Final step.",
+      "simpleExample": "Today it is grown in dozens of countries"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Look at the sentences: A \"From Ethiopia the plant crossed the Red Sea…\", B \"Today it is grown in dozens of countries…\", C \"Coffee began as a wild plant in the highlands of Ethiopia\", D \"There, in the fifteenth century, people began roasting the beans…\". Sentence C introduces coffee and has no back-reference, so it is the opener. \"Today\" in B marks the closer. \"There\" in D needs a place (Yemen) so D follows the sentence ending in Yemen.",
+      "Pronoun cues work in both directions. \"its red berries\" needs an earlier mention of the plant. \"Through Arab scholars this system reached Europe\" needs an earlier mention of a system. \"This yearly cycle\" in the monsoon paragraph needs the cycle to have been described, so it must come after the winter reversal.",
+      "Chronology orders histories: early number systems, then Indian mathematicians, then Arab scholars, then Europe. Cause-effect orders explanations: land heats, warm air rises, moist air flows in, rain falls.",
+      "Process of elimination helps when two sentences compete. If options differ only in the order of sentences 3 and 4, test which one the sentence 5 depends on.",
+      "Finally, read the chosen order from start to end. If you hear a jump, you have a pair out of order."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "A/The test",
+        "content": "A noun first mentioned takes \"a\"; later mentions take \"the\". The sentence with \"the\" comes after the one with \"a\"."
+      },
+      {
+        "title": "Connector words",
+        "content": "\"Also\", \"further\" and \"a step further\" show a sentence adds to an earlier point; they cannot be first."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "History paragraph",
+      "description": "Chronology.",
+      "exampleSnippet": "Coffee"
+    },
+    {
+      "typeName": "Process paragraph",
+      "description": "Cause-effect.",
+      "exampleSnippet": "Monsoon"
+    },
+    {
+      "typeName": "Concept paragraph",
+      "description": "General to specific.",
+      "exampleSnippet": "Habits"
+    },
+    {
+      "typeName": "Invention paragraph",
+      "description": "Problem, solution, spread.",
+      "exampleSnippet": "Zero"
+    },
+    {
+      "typeName": "Listing paragraph",
+      "description": "Benefits then obstacle.",
+      "exampleSnippet": "Rooftop gardens"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-adv-para-jumbles-1",
+      "title": "Opener",
+      "question": "Which is the opener: (A) \"From Ethiopia the plant crossed the Red Sea and was first cultivated in Yemen\", (B) \"Coffee began as a wild plant in the highlands of Ethiopia\"?",
+      "givenInfo": [
+        "Back-reference"
+      ],
+      "conceptOrFormula": "Check the references.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "A",
+          "explanation": "Refers back to \"Ethiopia\" and \"the plant\"."
+        },
+        {
+          "stepNumber": 2,
+          "title": "B",
+          "explanation": "Introduces coffee freshly."
+        }
+      ],
+      "finalAnswer": "B",
+      "whyItWorks": "A depends on B.",
+      "commonTrap": "Choosing A.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-adv-para-jumbles-2",
+      "title": "Pronoun link",
+      "question": "Which sentence must come right after \"There, in the fifteenth century, people began roasting the beans\": \"From Ethiopia the plant crossed to Yemen\" or \"The drink soon spread through the Arab world\"?",
+      "givenInfo": [
+        "\"There\" and \"the drink\""
+      ],
+      "conceptOrFormula": "Follow the chain.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Chain",
+          "explanation": "The roasting produced a drink."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Next",
+          "explanation": "\"The drink soon spread…\" follows."
+        }
+      ],
+      "finalAnswer": "The drink soon spread through the Arab world",
+      "whyItWorks": "The Yemen sentence comes before \"There\".",
+      "commonTrap": "Reversing the two.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-adv-para-jumbles-3",
+      "title": "Closer",
+      "question": "Which is the closer: \"Today it is grown in dozens of countries\" or \"According to legend, a goatherd noticed…\"?",
+      "givenInfo": [
+        "Time word"
+      ],
+      "conceptOrFormula": "Closer test.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Today",
+          "explanation": "Brings the story to the present."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Legend",
+          "explanation": "Belongs to the beginning."
+        }
+      ],
+      "finalAnswer": "Today it is grown in dozens of countries",
+      "whyItWorks": "\"Today\" marks the end of a history.",
+      "commonTrap": "Choosing the legend.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Opener, closer, chains",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try every order.",
+      "shortcutMethod": "Find the opener and closer, link pronouns to their nouns, join cause-effect and time pairs, then order the chains."
+    },
+    "rulesForApplication": [
+      "Opener has no back-reference.",
+      "Pronouns need antecedents.",
+      "Today/thus signal the end.",
+      "Read the final order aloud."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Starting with a sentence that has \"the\" or a pronoun",
+      "whyItHappens": "It needs an antecedent.",
+      "howToAvoid": "Check for the first mention."
+    },
+    {
+      "mistake": "Ignoring connectors",
+      "whyItHappens": "Wrong order.",
+      "howToAvoid": "Also and however need something before them."
+    },
+    {
+      "mistake": "Splitting a mini-chain",
+      "whyItHappens": "Breaks pairs.",
+      "howToAvoid": "Keep linked sentences together."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 120,
+    "eliminationTechnique": "Use the first two sentences to eliminate options.",
+    "questionSelectionAdvice": "Find the closer next; it removes more options.",
+    "recruiterInsight": "Each paragraph has one natural chain; the right option is the one that preserves it."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-adv-para-jumbles-e1",
+        "question": "The sentences of a paragraph are given in a jumbled order.\nA. There, in the fifteenth century, people began roasting the beans and brewing a drink from them.\nB. Coffee began as a wild plant in the highlands of Ethiopia.\nC. Today it is grown in dozens of countries and is among the most widely traded commodities in the world.\nD. According to legend, a goatherd noticed that his goats became unusually lively after eating its red berries.\nE. The drink soon spread through the Arab world and then to Europe, where coffee houses became centres of conversation and trade.\nF. From Ethiopia the plant crossed the Red Sea and was first cultivated in Yemen.\n\nWhich of the following is the most logical order of the sentences?",
+        "options": [
+          "BFDAEC",
+          "BDFAEC",
+          "BDFEAC",
+          "BDAFEC"
+        ],
+        "correctAnswer": "BDFAEC",
+        "explanation": "The correct order is BDFAEC. The first sentence introduces the topic (B), and each later sentence picks up the one before it through a link of time, reference or cause; C closes the paragraph.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-adv-para-jumbles-e2",
+        "question": "The sentences of a paragraph are given in a jumbled order.\nA. There, in the fifteenth century, people began roasting the beans and brewing a drink from them.\nB. Coffee began as a wild plant in the highlands of Ethiopia.\nC. Today it is grown in dozens of countries and is among the most widely traded commodities in the world.\nD. According to legend, a goatherd noticed that his goats became unusually lively after eating its red berries.\nE. The drink soon spread through the Arab world and then to Europe, where coffee houses became centres of conversation and trade.\nF. From Ethiopia the plant crossed the Red Sea and was first cultivated in Yemen.\n\nWhich sentence should come first?",
+        "options": [
+          "Sentence B",
+          "Sentence A",
+          "Sentence C",
+          "Sentence D"
+        ],
+        "correctAnswer": "Sentence B",
+        "explanation": "The correct order is BDFAEC. Sentence B introduces the topic without referring back to anything, so it must come first.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-adv-para-jumbles-e3",
+        "question": "The sentences of a paragraph are given in a jumbled order.\nA. There, in the fifteenth century, people began roasting the beans and brewing a drink from them.\nB. Coffee began as a wild plant in the highlands of Ethiopia.\nC. Today it is grown in dozens of countries and is among the most widely traded commodities in the world.\nD. According to legend, a goatherd noticed that his goats became unusually lively after eating its red berries.\nE. The drink soon spread through the Arab world and then to Europe, where coffee houses became centres of conversation and trade.\nF. From Ethiopia the plant crossed the Red Sea and was first cultivated in Yemen.\n\nWhich sentence should come last?",
+        "options": [
+          "Sentence B",
+          "Sentence D",
+          "Sentence E",
+          "Sentence C"
+        ],
+        "correctAnswer": "Sentence C",
+        "explanation": "The correct order is BDFAEC. Sentence C draws a conclusion or closing point, so it comes last.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-adv-para-jumbles-i7",
+        "question": "The sentences of a paragraph are given in a jumbled order.\nA. The warm air above the land rises, drawing in moist air from the sea to take its place.\nB. This yearly cycle decides when farmers sow their crops across much of South Asia.\nC. The monsoon is not a single storm but a seasonal reversal of winds.\nD. In winter the pattern reverses, and dry winds blow from the land towards the sea.\nE. In summer, the land heats up faster than the surrounding ocean.\nF. As this moist air climbs over mountains and cools, it releases its water as heavy rain.\n\nWhich sentence should come last?",
+        "options": [
+          "Sentence B",
+          "Sentence D",
+          "Sentence E",
+          "Sentence F"
+        ],
+        "correctAnswer": "Sentence B",
+        "explanation": "The correct order is CEAFDB. Sentence B draws a conclusion or closing point, so it comes last.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-adv-para-jumbles-i8",
+        "question": "The sentences of a paragraph are given in a jumbled order.\nA. The warm air above the land rises, drawing in moist air from the sea to take its place.\nB. This yearly cycle decides when farmers sow their crops across much of South Asia.\nC. The monsoon is not a single storm but a seasonal reversal of winds.\nD. In winter the pattern reverses, and dry winds blow from the land towards the sea.\nE. In summer, the land heats up faster than the surrounding ocean.\nF. As this moist air climbs over mountains and cools, it releases its water as heavy rain.\n\nWhich sentence should come immediately after sentence A?",
+        "options": [
+          "Sentence D",
+          "Sentence E",
+          "Sentence B",
+          "Sentence F"
+        ],
+        "correctAnswer": "Sentence F",
+        "explanation": "The correct order is CEAFDB. So the sentence that follows A is F.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-adv-para-jumbles-i9",
+        "question": "The sentences of a paragraph are given in a jumbled order.\nA. This efficiency is useful, because it frees attention for other tasks.\nB. At first, every step requires attention and effort.\nC. The action then needs less thought and eventually happens almost automatically.\nD. A habit begins as a deliberate choice.\nE. It also explains why bad habits are so hard to break: they run without being noticed.\nF. With repetition, the brain begins to treat the sequence as a single unit.\n\nWhich of the following is the most logical order of the sentences?",
+        "options": [
+          "DFBCAE",
+          "DBFACE",
+          "DBCFAE",
+          "DBFCAE"
+        ],
+        "correctAnswer": "DBFCAE",
+        "explanation": "The correct order is DBFCAE. The first sentence introduces the topic (D), and each later sentence picks up the one before it through a link of time, reference or cause; E closes the paragraph.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-adv-para-jumbles-a15",
+        "question": "The sentences of a paragraph are given in a jumbled order.\nA. Early number systems used a blank space to mark an empty place, which often caused confusion.\nB. Through Arab scholars this system reached Europe, where it slowly replaced Roman numerals.\nC. The idea of zero is so familiar today that it is easy to forget it had to be invented.\nD. Modern arithmetic and computing both rest on that single step.\nE. Indian mathematicians gave the empty place a symbol and, more importantly, treated it as a number in its own right.\nF. They also worked out rules for adding, subtracting and multiplying with it.\n\nWhich sentence should come last?",
+        "options": [
+          "Sentence F",
+          "Sentence A",
+          "Sentence D",
+          "Sentence B"
+        ],
+        "correctAnswer": "Sentence D",
+        "explanation": "The correct order is CAEFBD. Sentence D draws a conclusion or closing point, so it comes last.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-para-jumbles-a16",
+        "question": "The sentences of a paragraph are given in a jumbled order.\nA. Early number systems used a blank space to mark an empty place, which often caused confusion.\nB. Through Arab scholars this system reached Europe, where it slowly replaced Roman numerals.\nC. The idea of zero is so familiar today that it is easy to forget it had to be invented.\nD. Modern arithmetic and computing both rest on that single step.\nE. Indian mathematicians gave the empty place a symbol and, more importantly, treated it as a number in its own right.\nF. They also worked out rules for adding, subtracting and multiplying with it.\n\nWhich sentence should come immediately after sentence B?",
+        "options": [
+          "Sentence C",
+          "Sentence D",
+          "Sentence E",
+          "Sentence F"
+        ],
+        "correctAnswer": "Sentence D",
+        "explanation": "The correct order is CAEFBD. So the sentence that follows B is D.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-adv-para-jumbles-p17",
+        "question": "The sentences of a paragraph are given in a jumbled order.\nA. The main obstacle is cost, since a roof must be strengthened and waterproofed first.\nB. That lowers the need for air conditioning and cuts electricity bills.\nC. Some gardens go a step further and grow vegetables, giving residents fresh food close to home.\nD. The plants cool the buildings beneath them by shading the roof and releasing moisture.\nE. Many cities are turning unused rooftops into gardens.\nF. Rooftop gardens also soak up rainwater, which reduces the strain on drains during storms.\n\nWhich of the following is the most logical order of the sentences?",
+        "options": [
+          "EBDFCA",
+          "EDBFCA",
+          "EDBCFA",
+          "EDFBCA"
+        ],
+        "correctAnswer": "EDBFCA",
+        "explanation": "The correct order is EDBFCA. The first sentence introduces the topic (E), and each later sentence picks up the one before it through a link of time, reference or cause; A closes the paragraph.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-para-jumbles-p18",
+        "question": "The sentences of a paragraph are given in a jumbled order.\nA. The main obstacle is cost, since a roof must be strengthened and waterproofed first.\nB. That lowers the need for air conditioning and cuts electricity bills.\nC. Some gardens go a step further and grow vegetables, giving residents fresh food close to home.\nD. The plants cool the buildings beneath them by shading the roof and releasing moisture.\nE. Many cities are turning unused rooftops into gardens.\nF. Rooftop gardens also soak up rainwater, which reduces the strain on drains during storms.\n\nWhich sentence should come first?",
+        "options": [
+          "Sentence E",
+          "Sentence F",
+          "Sentence A",
+          "Sentence B"
+        ],
+        "correctAnswer": "Sentence E",
+        "explanation": "The correct order is EDBFCA. Sentence E introduces the topic without referring back to anything, so it must come first.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-adv-para-jumbles-p19",
+        "question": "The sentences of a paragraph are given in a jumbled order.\nA. The main obstacle is cost, since a roof must be strengthened and waterproofed first.\nB. That lowers the need for air conditioning and cuts electricity bills.\nC. Some gardens go a step further and grow vegetables, giving residents fresh food close to home.\nD. The plants cool the buildings beneath them by shading the roof and releasing moisture.\nE. Many cities are turning unused rooftops into gardens.\nF. Rooftop gardens also soak up rainwater, which reduces the strain on drains during storms.\n\nWhich sentence should come last?",
+        "options": [
+          "Sentence B",
+          "Sentence C",
+          "Sentence D",
+          "Sentence A"
+        ],
+        "correctAnswer": "Sentence A",
+        "explanation": "The correct order is EDBFCA. Sentence A draws a conclusion or closing point, so it comes last.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Opener.",
+      "Closer.",
+      "Pronouns.",
+      "Time and cause.",
+      "Check the whole."
+    ],
+    "quickFormulas": [
+      "Opener → chains → closer"
+    ]
+  },
+  "keyTakeaways": [
+    "Start with the opener.",
+    "Chain by pronouns.",
+    "End with the closer.",
+    "Read through."
+  ],
+  "selfCheckQuestions": [
+    "Can I pick the opener?",
+    "Can I link pronouns?",
+    "Can I identify the closer?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

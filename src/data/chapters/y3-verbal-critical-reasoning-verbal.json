@@ -1,0 +1,419 @@
+{
+  "id": "y3-verbal-critical-reasoning-verbal",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 49,
+  "title": "Critical Reasoning in Verbal Context",
+  "tagline": "Year 3 — Main conclusions, hidden assumptions, flaws, paradoxes and parallel reasoning in short arguments",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Verbal critical reasoning treats a short passage as an argument. You are asked to find the conclusion, name the assumption, spot a flaw, resolve an apparent contradiction, or pick an argument with the same pattern. All of these start with the same step: separate the conclusion from its supporting statements, then look at the gap between them. Every question type is a different question about that gap.",
+    "placementRelevance": "These items appear in the verbal sections of management and campus tests alongside reading comprehension.",
+    "realWorldContext": "Assessing a proposal, a news story or an advertisement uses the same questions."
+  },
+  "learningObjectives": [
+    "Separate premises from conclusions",
+    "Identify necessary assumptions with the negation test",
+    "Name common flaws (correlation, sample, converse, false cause)",
+    "Resolve paradoxes with a reconciling fact",
+    "Recognise parallel reasoning by structure"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Critical Reasoning — Strengthen and Weaken Arguments",
+      "Statements and Arguments"
+    ],
+    "quickRefresher": "A conclusion is signalled by words like therefore, thus, so, should; premises by because, since, given that."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Main conclusion: the claim the rest of the argument supports.",
+      "Assumption: an unstated premise the argument needs.",
+      "Flaw: an error in the way premises are used to reach the conclusion.",
+      "Paradox: two facts that seem to conflict; a resolution gives a fact that makes both true.",
+      "Parallel reasoning: another argument with the same logical form, valid or flawed."
+    ],
+    "theoreticalIntuition": "Every question is about the same skeleton: premises, a gap, a conclusion. Find the skeleton, then ask which question is being asked of it.",
+    "visualOrMentalModel": "Mark the conclusion. List the premises. State the gap in one line. Then answer the specific question: what fills the gap (assumption), what is wrong with it (flaw), what follows (inference), what explains it (paradox)."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Negation test",
+      "formula": "Deny the assumption; the argument fails",
+      "description": "Assumption questions.",
+      "whenToUse": "Primary.",
+      "simpleExample": "Drivers will slow down"
+    },
+    {
+      "title": "Common flaws",
+      "formula": "Correlation as cause; unrepresentative sample; converse; part-whole",
+      "description": "Flaw questions.",
+      "whenToUse": "Checklist.",
+      "simpleExample": "Blue tie, promotion"
+    },
+    {
+      "title": "Paradox resolver",
+      "formula": "A fact that explains both observations",
+      "description": "Paradox questions.",
+      "whenToUse": "Reconcile.",
+      "simpleExample": "More patients came"
+    },
+    {
+      "title": "Parallel form",
+      "formula": "Copy the logical shape, not the topic",
+      "description": "Parallel questions.",
+      "whenToUse": "Structure.",
+      "simpleExample": "No A is B; all C are B; no C is A"
+    },
+    {
+      "title": "Must be true",
+      "formula": "Only what the statements guarantee",
+      "description": "Inference questions.",
+      "whenToUse": "Strict.",
+      "simpleExample": "Some books on the top shelf"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "To find the main conclusion, look for the recommendation or claim the rest supports. In \"Our town's bus service loses money, and passengers are falling. Raising fares will only drive away more passengers. The council should therefore improve the frequency of buses instead\", the conclusion is the final sentence. The rest are premises.",
+      "An assumption is a bridge. \"The school banned phones so that students will pay more attention\" assumes that students will pay more attention if phones are not available. Negate it and the ban has no point.",
+      "Common flaws: \"The last three managers who wore blue ties were promoted, so blue ties lead to promotion\" confuses correlation with cause. \"No one has proved the product is not the best, so it is the best\" treats absence of disproof as proof.",
+      "To resolve a paradox, find a fact that makes both observations true. A hospital introduced a scheduling system to cut waiting times, yet waits rose. If the easier booking system brought many more patients, both facts hold.",
+      "For parallel reasoning, rewrite each argument in symbols. \"No dog is a bird; all sparrows are birds; so no sparrow is a dog\" has the form No A is B; all C are B; so no C is A. A hammer-tool-toy argument with the same form is parallel."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Converse error",
+        "content": "All A are B does not give All B are A; \"Ravi is educated, so he is a professor\" is invalid."
+      },
+      {
+        "title": "Sampling flaw",
+        "content": "Surveying only people leaving a gym tells you about gym-goers, not about people in general."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Main conclusion",
+      "description": "Therefore sentence.",
+      "exampleSnippet": "Bus service"
+    },
+    {
+      "typeName": "Assumption",
+      "description": "Negation test.",
+      "exampleSnippet": "School phones"
+    },
+    {
+      "typeName": "Flaw",
+      "description": "Name the fallacy.",
+      "exampleSnippet": "Blue tie"
+    },
+    {
+      "typeName": "Paradox",
+      "description": "Reconcile.",
+      "exampleSnippet": "Hospital waits"
+    },
+    {
+      "typeName": "Parallel reasoning",
+      "description": "Match form.",
+      "exampleSnippet": "Sparrows and dogs"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-critical-reasoning-verbal-1",
+      "title": "Main conclusion",
+      "question": "A town's bus service loses money and passengers are falling; raising fares would drive more away. \"The council should therefore improve bus frequency instead.\" Which sentence is the conclusion?",
+      "givenInfo": [
+        "Signal word \"therefore\""
+      ],
+      "conceptOrFormula": "Find the recommendation.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Signal",
+          "explanation": "\"Therefore\" marks the conclusion."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Content",
+          "explanation": "Improve bus frequency instead of raising fares."
+        }
+      ],
+      "finalAnswer": "The council should improve bus frequency instead of raising fares",
+      "whyItWorks": "The others are premises.",
+      "commonTrap": "Choosing a premise.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-critical-reasoning-verbal-2",
+      "title": "Flaw",
+      "question": "The last three managers who wore blue ties were promoted, so wearing a blue tie leads to promotion. What is the flaw?",
+      "givenInfo": [
+        "Three cases"
+      ],
+      "conceptOrFormula": "Name the fallacy.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pattern",
+          "explanation": "Two things occurred together."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Flaw",
+          "explanation": "It assumes the first caused the second."
+        }
+      ],
+      "finalAnswer": "It assumes that a connection between two events shows that one causes the other",
+      "whyItWorks": "Correlation is not cause.",
+      "commonTrap": "Calling it a sample problem.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-critical-reasoning-verbal-3",
+      "title": "Paradox",
+      "question": "A hospital introduced a scheduling system to cut waiting times, yet waiting times rose. What resolves this?",
+      "givenInfo": [
+        "Two facts in tension"
+      ],
+      "conceptOrFormula": "Reconcile both.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Look for",
+          "explanation": "A fact that makes both true."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fact",
+          "explanation": "Easier booking brought many more patients."
+        }
+      ],
+      "finalAnswer": "The new system made booking easier, so many more patients came",
+      "whyItWorks": "The system worked but demand grew.",
+      "commonTrap": "Choosing an unrelated fact.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Skeleton then question",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Read the options first.",
+      "shortcutMethod": "Mark the conclusion, list the premises, state the gap, and only then read the options with the question type in mind."
+    },
+    "rulesForApplication": [
+      "Therefore marks the conclusion.",
+      "Negate to test assumptions.",
+      "Name the flaw type.",
+      "Reconcile both facts."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Picking a premise as the conclusion",
+      "whyItHappens": "Misses the target.",
+      "howToAvoid": "Look for therefore/should."
+    },
+    {
+      "mistake": "Choosing an assumption that is too strong",
+      "whyItHappens": "Not needed.",
+      "howToAvoid": "Choose the minimal bridge."
+    },
+    {
+      "mistake": "Picking parallel by topic",
+      "whyItHappens": "Surface match.",
+      "howToAvoid": "Match logical form."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "Eliminate options that are extreme, irrelevant or restate the premise.",
+    "questionSelectionAdvice": "For parallel reasoning, replace nouns with letters.",
+    "recruiterInsight": "Same skeleton, different question."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-critical-reasoning-verbal-e1",
+        "question": "Argument: Every employee of the firm who works night shifts is paid an allowance. Rakesh works night shifts.\n\nWhich of the following must be true if the statements above are true?",
+        "options": [
+          "All employees of the firm are paid an allowance.",
+          "Rakesh is paid an allowance.",
+          "Rakesh works more hours than the others.",
+          "Rakesh prefers night shifts."
+        ],
+        "correctAnswer": "Rakesh is paid an allowance.",
+        "explanation": "The first statement applies to every night-shift employee, so Rakesh is paid the allowance. The other options go beyond the statements.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-critical-reasoning-verbal-e2",
+        "question": "Argument: The town's bus service loses money every year and the number of passengers is falling. Raising fares will only drive away more passengers. The council should therefore improve the frequency of buses instead.\n\nWhich of the following is the main conclusion of the argument?",
+        "options": [
+          "The council should improve the frequency of buses instead of raising fares.",
+          "The town's bus service loses money every year.",
+          "The number of passengers is falling.",
+          "Raising fares will drive away more passengers."
+        ],
+        "correctAnswer": "The council should improve the frequency of buses instead of raising fares.",
+        "explanation": "The word \"therefore\" marks the conclusion; the other statements are premises.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-critical-reasoning-verbal-e3",
+        "question": "Argument: A school has banned mobile phones in classrooms so that students will pay more attention to lessons.\n\nWhich of the following is an assumption on which the argument depends?",
+        "options": [
+          "All students own mobile phones.",
+          "Teachers dislike phones.",
+          "Phones are expensive to replace.",
+          "Students will pay more attention if phones are not available in class."
+        ],
+        "correctAnswer": "Students will pay more attention if phones are not available in class.",
+        "explanation": "The ban is meant to improve attention, which works only if removing phones increases attention.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-critical-reasoning-verbal-i7",
+        "question": "Argument: The new software cut the time taken to process an invoice from ten minutes to four, so the finance team will be able to process more invoices each day.\n\nWhich of the following is an assumption on which the argument depends?",
+        "options": [
+          "The time saved will be used to process more invoices.",
+          "The software is cheaper than the old system.",
+          "Invoices will become simpler.",
+          "The finance team will be given a bonus."
+        ],
+        "correctAnswer": "The time saved will be used to process more invoices.",
+        "explanation": "The conclusion that more invoices will be processed depends on the saved time actually being used for processing.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-critical-reasoning-verbal-i8",
+        "question": "Argument: The last three managers who wore blue ties were promoted, so wearing a blue tie leads to promotion.\n\nThe reasoning in the argument is flawed because it",
+        "options": [
+          "relies on the opinion of an expert",
+          "uses a very large sample",
+          "contradicts one of its own premises",
+          "assumes that two events occurring together means that one causes the other"
+        ],
+        "correctAnswer": "assumes that two events occurring together means that one causes the other",
+        "explanation": "Three cases where two things coincide do not show that a blue tie causes promotion.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-critical-reasoning-verbal-i9",
+        "question": "Argument: Online courses are better than classroom courses, because students enrolled in them score higher in the final exams.\n\nWhich of the following, if true, most weakens the argument?",
+        "options": [
+          "Online courses are cheaper than classroom courses.",
+          "Final exams are held in classrooms.",
+          "Many students enjoy online courses.",
+          "Students who choose online courses are generally those who already had higher marks before enrolling."
+        ],
+        "correctAnswer": "Students who choose online courses are generally those who already had higher marks before enrolling.",
+        "explanation": "If online students were stronger to begin with, their higher scores need not result from the courses.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-critical-reasoning-verbal-a14",
+        "question": "Argument: A survey of people leaving a gym found that 90 per cent exercised regularly. The researcher concluded that most people in the city exercise regularly.\n\nThe reasoning in the argument is flawed because it",
+        "options": [
+          "uses too many people in the survey",
+          "ignores that exercise is healthy",
+          "confuses a cause with its effect",
+          "bases a general claim on a sample that is not representative"
+        ],
+        "correctAnswer": "bases a general claim on a sample that is not representative",
+        "explanation": "People leaving a gym are more likely than others to exercise, so the sample is not representative of the city.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-critical-reasoning-verbal-a15",
+        "question": "Argument: A college argues that its teaching is superior, because 95 per cent of its graduates found jobs within six months.\n\nWhich of the following, if true, most weakens the argument?",
+        "options": [
+          "The college has a large library.",
+          "Some graduates started their own businesses.",
+          "The college admits only students with very high prior marks and strong family business connections.",
+          "The college has been open for fifty years."
+        ],
+        "correctAnswer": "The college admits only students with very high prior marks and strong family business connections.",
+        "explanation": "High-scoring, well-connected students may find jobs regardless of teaching, giving another explanation for the placement record.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-critical-reasoning-verbal-p16",
+        "question": "Argument: Since the state taxed sugary drinks, sales of these drinks have fallen by 20 per cent. The health minister concludes that the tax has improved public health.\n\nWhich of the following is an assumption on which the argument depends?",
+        "options": [
+          "All consumers know the dangers of sugary drinks.",
+          "Consumers who bought fewer sugary drinks did not switch to other equally unhealthy products.",
+          "The tax is the highest in the country.",
+          "Sales of other drinks have not changed."
+        ],
+        "correctAnswer": "Consumers who bought fewer sugary drinks did not switch to other equally unhealthy products.",
+        "explanation": "If people switched to equally unhealthy products, health would not improve, so the argument needs that they did not.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-critical-reasoning-verbal-p17",
+        "question": "Argument: All professors are educated. Ravi is educated. Therefore Ravi is a professor.\n\nWhich of the following arguments contains the same flaw?",
+        "options": [
+          "All footballers are fit. Sameer is a footballer. Therefore Sameer is fit.",
+          "All footballers are fit. Sameer is fit. Therefore Sameer is a footballer.",
+          "No footballer is lazy. Sameer is a footballer. Therefore Sameer is not lazy.",
+          "All footballers are fit. Sameer is not fit. Therefore Sameer is not a footballer."
+        ],
+        "correctAnswer": "All footballers are fit. Sameer is fit. Therefore Sameer is a footballer.",
+        "explanation": "Both reason from \"all A are B\" and \"x is B\" to \"x is A\", which is the converse error. The other options are valid.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-critical-reasoning-verbal-p18",
+        "question": "Argument: No member of the club who pays dues late is allowed to vote. Some members who are allowed to vote hold office.\n\nWhich of the following must be true if the statements above are true?",
+        "options": [
+          "Some office-holders of the club do not pay dues late.",
+          "All office-holders are allowed to vote.",
+          "No office-holder pays dues late.",
+          "Some members who pay dues late hold office and vote."
+        ],
+        "correctAnswer": "Some office-holders of the club do not pay dues late.",
+        "explanation": "The voting members who hold office are allowed to vote, so they do not pay late; hence some office-holders do not pay late.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Conclusion vs premise.",
+      "Negation test.",
+      "Flaw list.",
+      "Paradox resolver.",
+      "Parallel form."
+    ],
+    "quickFormulas": [
+      "Premise + gap = conclusion"
+    ]
+  },
+  "keyTakeaways": [
+    "Find the skeleton.",
+    "Name the gap.",
+    "Test with negation.",
+    "Match form for parallels."
+  ],
+  "selfCheckQuestions": [
+    "Can I find a conclusion?",
+    "Can I name a flaw?",
+    "Can I resolve a paradox?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

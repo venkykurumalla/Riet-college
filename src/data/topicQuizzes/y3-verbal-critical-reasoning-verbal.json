@@ -1,0 +1,254 @@
+{
+  "topicId": "y3-verbal-critical-reasoning-verbal",
+  "topicTitle": "Critical Reasoning in Verbal Context",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Argument: Every employee of the firm who works night shifts is paid an allowance. Rakesh works night shifts.\n\nWhich of the following must be true if the statements above are true?",
+      "options": [
+        "All employees of the firm are paid an allowance.",
+        "Rakesh is paid an allowance.",
+        "Rakesh works more hours than the others.",
+        "Rakesh prefers night shifts."
+      ],
+      "answerIndex": 1,
+      "explanation": "The first statement applies to every night-shift employee, so Rakesh is paid the allowance. The other options go beyond the statements."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Argument: The town's bus service loses money every year and the number of passengers is falling. Raising fares will only drive away more passengers. The council should therefore improve the frequency of buses instead.\n\nWhich of the following is the main conclusion of the argument?",
+      "options": [
+        "The council should improve the frequency of buses instead of raising fares.",
+        "The town's bus service loses money every year.",
+        "The number of passengers is falling.",
+        "Raising fares will drive away more passengers."
+      ],
+      "answerIndex": 0,
+      "explanation": "The word \"therefore\" marks the conclusion; the other statements are premises."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Argument: A school has banned mobile phones in classrooms so that students will pay more attention to lessons.\n\nWhich of the following is an assumption on which the argument depends?",
+      "options": [
+        "All students own mobile phones.",
+        "Teachers dislike phones.",
+        "Phones are expensive to replace.",
+        "Students will pay more attention if phones are not available in class."
+      ],
+      "answerIndex": 3,
+      "explanation": "The ban is meant to improve attention, which works only if removing phones increases attention."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Argument: Our product must be the best on the market, because no one has ever proved that it is not.\n\nThe reasoning in the argument is flawed because it",
+      "options": [
+        "uses facts that are out of date",
+        "compares the product with too many competitors",
+        "treats the absence of proof against a claim as proof of the claim",
+        "relies on an expert whose opinion is biased"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lack of disproof does not show something is true."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Argument: A shop cut its prices by 10 per cent and its revenue rose, but its profit fell.\n\nWhich of the following best resolves the apparent paradox above?",
+      "options": [
+        "Customers prefer lower prices to higher ones.",
+        "Competing shops also cut their prices.",
+        "The shop's costs of buying goods and paying staff rose by more than its extra revenue.",
+        "The shop opened on more days of the year."
+      ],
+      "answerIndex": 2,
+      "explanation": "If costs rose by more than the extra revenue, revenue can rise while profit falls."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Argument: Some of the books in the library are in French. All the books in French are kept on the top shelf.\n\nWhich of the following must be true if the statements above are true?",
+      "options": [
+        "All books on the top shelf are in French.",
+        "Some books on the top shelf are in French.",
+        "No books in the library are in English.",
+        "Most books in the library are on the top shelf."
+      ],
+      "answerIndex": 1,
+      "explanation": "At least one French book exists and all French books are on the top shelf, so some top-shelf books are French."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Argument: The new software cut the time taken to process an invoice from ten minutes to four, so the finance team will be able to process more invoices each day.\n\nWhich of the following is an assumption on which the argument depends?",
+      "options": [
+        "The time saved will be used to process more invoices.",
+        "The software is cheaper than the old system.",
+        "Invoices will become simpler.",
+        "The finance team will be given a bonus."
+      ],
+      "answerIndex": 0,
+      "explanation": "The conclusion that more invoices will be processed depends on the saved time actually being used for processing."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Argument: The last three managers who wore blue ties were promoted, so wearing a blue tie leads to promotion.\n\nThe reasoning in the argument is flawed because it",
+      "options": [
+        "relies on the opinion of an expert",
+        "uses a very large sample",
+        "contradicts one of its own premises",
+        "assumes that two events occurring together means that one causes the other"
+      ],
+      "answerIndex": 3,
+      "explanation": "Three cases where two things coincide do not show that a blue tie causes promotion."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Argument: Online courses are better than classroom courses, because students enrolled in them score higher in the final exams.\n\nWhich of the following, if true, most weakens the argument?",
+      "options": [
+        "Online courses are cheaper than classroom courses.",
+        "Final exams are held in classrooms.",
+        "Many students enjoy online courses.",
+        "Students who choose online courses are generally those who already had higher marks before enrolling."
+      ],
+      "answerIndex": 3,
+      "explanation": "If online students were stronger to begin with, their higher scores need not result from the courses."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Argument: A hospital introduced a new scheduling system to cut waiting times, yet patients now report longer waits.\n\nWhich of the following best resolves the apparent paradox above?",
+      "options": [
+        "The hospital is the oldest in the city.",
+        "Waiting times were long before the new system.",
+        "The new system made appointments easier to book, so many more patients now come.",
+        "The scheduling system was cheap to install."
+      ],
+      "answerIndex": 2,
+      "explanation": "If easier booking brought many more patients, the system could work well and waits still rise."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Argument: No dog is a bird. All sparrows are birds. Therefore no sparrow is a dog.\n\nWhich of the following arguments is most similar in its reasoning?",
+      "options": [
+        "All tools are useful. All hammers are tools. Therefore all hammers are useful.",
+        "No tool is a toy. All hammers are tools. Therefore no hammer is a toy.",
+        "Some tools are heavy. All hammers are tools. Therefore some hammers are heavy.",
+        "No tool is a toy. No hammer is a toy. Therefore all hammers are tools."
+      ],
+      "answerIndex": 1,
+      "explanation": "Both have the form: No A is B; all C are B; therefore no C is A."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Argument: Most of the employees who attended the workshop are from the sales team. Ravi attended the workshop.\n\nWhich of the following conclusions is best supported?",
+      "options": [
+        "Ravi is probably from the sales team.",
+        "Ravi is definitely from the sales team.",
+        "No employee outside the sales team attended.",
+        "Ravi organised the workshop."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Most\" makes it likely, but not certain, that an attendee is from the sales team."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Argument: The airline's decision to charge for checked baggage will increase its profits, because passengers will carry less baggage and the fuel costs of the flights will fall.\n\nWhich of the following is an assumption on which the argument depends?",
+      "options": [
+        "The fuel savings and baggage fees will outweigh any loss of passengers.",
+        "All passengers dislike checked baggage.",
+        "The airline's competitors do not charge for baggage.",
+        "Fuel prices will never rise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The profit claim depends on the gains (fees, fuel saved) exceeding any losses from customers who leave."
+    },
+    {
+      "id": 14,
+      "difficulty": "placement",
+      "question": "Argument: A survey of people leaving a gym found that 90 per cent exercised regularly. The researcher concluded that most people in the city exercise regularly.\n\nThe reasoning in the argument is flawed because it",
+      "options": [
+        "uses too many people in the survey",
+        "ignores that exercise is healthy",
+        "confuses a cause with its effect",
+        "bases a general claim on a sample that is not representative"
+      ],
+      "answerIndex": 3,
+      "explanation": "People leaving a gym are more likely than others to exercise, so the sample is not representative of the city."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Argument: A college argues that its teaching is superior, because 95 per cent of its graduates found jobs within six months.\n\nWhich of the following, if true, most weakens the argument?",
+      "options": [
+        "The college has a large library.",
+        "Some graduates started their own businesses.",
+        "The college admits only students with very high prior marks and strong family business connections.",
+        "The college has been open for fifty years."
+      ],
+      "answerIndex": 2,
+      "explanation": "High-scoring, well-connected students may find jobs regardless of teaching, giving another explanation for the placement record."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Argument: Since the state taxed sugary drinks, sales of these drinks have fallen by 20 per cent. The health minister concludes that the tax has improved public health.\n\nWhich of the following is an assumption on which the argument depends?",
+      "options": [
+        "All consumers know the dangers of sugary drinks.",
+        "Consumers who bought fewer sugary drinks did not switch to other equally unhealthy products.",
+        "The tax is the highest in the country.",
+        "Sales of other drinks have not changed."
+      ],
+      "answerIndex": 1,
+      "explanation": "If people switched to equally unhealthy products, health would not improve, so the argument needs that they did not."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Argument: All professors are educated. Ravi is educated. Therefore Ravi is a professor.\n\nWhich of the following arguments contains the same flaw?",
+      "options": [
+        "All footballers are fit. Sameer is a footballer. Therefore Sameer is fit.",
+        "All footballers are fit. Sameer is fit. Therefore Sameer is a footballer.",
+        "No footballer is lazy. Sameer is a footballer. Therefore Sameer is not lazy.",
+        "All footballers are fit. Sameer is not fit. Therefore Sameer is not a footballer."
+      ],
+      "answerIndex": 1,
+      "explanation": "Both reason from \"all A are B\" and \"x is B\" to \"x is A\", which is the converse error. The other options are valid."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Argument: No member of the club who pays dues late is allowed to vote. Some members who are allowed to vote hold office.\n\nWhich of the following must be true if the statements above are true?",
+      "options": [
+        "Some office-holders of the club do not pay dues late.",
+        "All office-holders are allowed to vote.",
+        "No office-holder pays dues late.",
+        "Some members who pay dues late hold office and vote."
+      ],
+      "answerIndex": 0,
+      "explanation": "The voting members who hold office are allowed to vote, so they do not pay late; hence some office-holders do not pay late."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Argument: A city built a ring road to reduce congestion in its centre, yet congestion in the centre has increased since it opened.\n\nWhich of the following best resolves the apparent paradox above?",
+      "options": [
+        "The ring road is longer than the old road.",
+        "Congestion was worse before the ring road.",
+        "The city centre has many shops.",
+        "The faster travel on the ring road encouraged many more people to drive into the city centre."
+      ],
+      "answerIndex": 3,
+      "explanation": "If easier travel increased the number of drivers entering the centre, congestion could rise despite the ring road."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/"
+}

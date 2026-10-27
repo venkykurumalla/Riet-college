@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-verbal-adv-para-jumbles",
+  "topicTitle": "Advanced Para Jumbles — 6 Sentences",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. There, in the fifteenth century, people began roasting the beans and brewing a drink from them.\nB. Coffee began as a wild plant in the highlands of Ethiopia.\nC. Today it is grown in dozens of countries and is among the most widely traded commodities in the world.\nD. According to legend, a goatherd noticed that his goats became unusually lively after eating its red berries.\nE. The drink soon spread through the Arab world and then to Europe, where coffee houses became centres of conversation and trade.\nF. From Ethiopia the plant crossed the Red Sea and was first cultivated in Yemen.\n\nWhich of the following is the most logical order of the sentences?",
+      "options": [
+        "BFDAEC",
+        "BDFAEC",
+        "BDFEAC",
+        "BDAFEC"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is BDFAEC. The first sentence introduces the topic (B), and each later sentence picks up the one before it through a link of time, reference or cause; C closes the paragraph."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. There, in the fifteenth century, people began roasting the beans and brewing a drink from them.\nB. Coffee began as a wild plant in the highlands of Ethiopia.\nC. Today it is grown in dozens of countries and is among the most widely traded commodities in the world.\nD. According to legend, a goatherd noticed that his goats became unusually lively after eating its red berries.\nE. The drink soon spread through the Arab world and then to Europe, where coffee houses became centres of conversation and trade.\nF. From Ethiopia the plant crossed the Red Sea and was first cultivated in Yemen.\n\nWhich sentence should come first?",
+      "options": [
+        "Sentence B",
+        "Sentence A",
+        "Sentence C",
+        "Sentence D"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is BDFAEC. Sentence B introduces the topic without referring back to anything, so it must come first."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. There, in the fifteenth century, people began roasting the beans and brewing a drink from them.\nB. Coffee began as a wild plant in the highlands of Ethiopia.\nC. Today it is grown in dozens of countries and is among the most widely traded commodities in the world.\nD. According to legend, a goatherd noticed that his goats became unusually lively after eating its red berries.\nE. The drink soon spread through the Arab world and then to Europe, where coffee houses became centres of conversation and trade.\nF. From Ethiopia the plant crossed the Red Sea and was first cultivated in Yemen.\n\nWhich sentence should come last?",
+      "options": [
+        "Sentence B",
+        "Sentence D",
+        "Sentence E",
+        "Sentence C"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is BDFAEC. Sentence C draws a conclusion or closing point, so it comes last."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. There, in the fifteenth century, people began roasting the beans and brewing a drink from them.\nB. Coffee began as a wild plant in the highlands of Ethiopia.\nC. Today it is grown in dozens of countries and is among the most widely traded commodities in the world.\nD. According to legend, a goatherd noticed that his goats became unusually lively after eating its red berries.\nE. The drink soon spread through the Arab world and then to Europe, where coffee houses became centres of conversation and trade.\nF. From Ethiopia the plant crossed the Red Sea and was first cultivated in Yemen.\n\nWhich sentence should come immediately after sentence D?",
+      "options": [
+        "Sentence B",
+        "Sentence C",
+        "Sentence F",
+        "Sentence E"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is BDFAEC. So the sentence that follows D is F."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. The warm air above the land rises, drawing in moist air from the sea to take its place.\nB. This yearly cycle decides when farmers sow their crops across much of South Asia.\nC. The monsoon is not a single storm but a seasonal reversal of winds.\nD. In winter the pattern reverses, and dry winds blow from the land towards the sea.\nE. In summer, the land heats up faster than the surrounding ocean.\nF. As this moist air climbs over mountains and cools, it releases its water as heavy rain.\n\nWhich of the following is the most logical order of the sentences?",
+      "options": [
+        "CAEFDB",
+        "CEADFB",
+        "CEAFDB",
+        "CEFADB"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is CEAFDB. The first sentence introduces the topic (C), and each later sentence picks up the one before it through a link of time, reference or cause; B closes the paragraph."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. The warm air above the land rises, drawing in moist air from the sea to take its place.\nB. This yearly cycle decides when farmers sow their crops across much of South Asia.\nC. The monsoon is not a single storm but a seasonal reversal of winds.\nD. In winter the pattern reverses, and dry winds blow from the land towards the sea.\nE. In summer, the land heats up faster than the surrounding ocean.\nF. As this moist air climbs over mountains and cools, it releases its water as heavy rain.\n\nWhich sentence should come first?",
+      "options": [
+        "Sentence B",
+        "Sentence C",
+        "Sentence D",
+        "Sentence E"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is CEAFDB. Sentence C introduces the topic without referring back to anything, so it must come first."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. The warm air above the land rises, drawing in moist air from the sea to take its place.\nB. This yearly cycle decides when farmers sow their crops across much of South Asia.\nC. The monsoon is not a single storm but a seasonal reversal of winds.\nD. In winter the pattern reverses, and dry winds blow from the land towards the sea.\nE. In summer, the land heats up faster than the surrounding ocean.\nF. As this moist air climbs over mountains and cools, it releases its water as heavy rain.\n\nWhich sentence should come last?",
+      "options": [
+        "Sentence B",
+        "Sentence D",
+        "Sentence E",
+        "Sentence F"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is CEAFDB. Sentence B draws a conclusion or closing point, so it comes last."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. The warm air above the land rises, drawing in moist air from the sea to take its place.\nB. This yearly cycle decides when farmers sow their crops across much of South Asia.\nC. The monsoon is not a single storm but a seasonal reversal of winds.\nD. In winter the pattern reverses, and dry winds blow from the land towards the sea.\nE. In summer, the land heats up faster than the surrounding ocean.\nF. As this moist air climbs over mountains and cools, it releases its water as heavy rain.\n\nWhich sentence should come immediately after sentence A?",
+      "options": [
+        "Sentence D",
+        "Sentence E",
+        "Sentence B",
+        "Sentence F"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is CEAFDB. So the sentence that follows A is F."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. This efficiency is useful, because it frees attention for other tasks.\nB. At first, every step requires attention and effort.\nC. The action then needs less thought and eventually happens almost automatically.\nD. A habit begins as a deliberate choice.\nE. It also explains why bad habits are so hard to break: they run without being noticed.\nF. With repetition, the brain begins to treat the sequence as a single unit.\n\nWhich of the following is the most logical order of the sentences?",
+      "options": [
+        "DFBCAE",
+        "DBFACE",
+        "DBCFAE",
+        "DBFCAE"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is DBFCAE. The first sentence introduces the topic (D), and each later sentence picks up the one before it through a link of time, reference or cause; E closes the paragraph."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. This efficiency is useful, because it frees attention for other tasks.\nB. At first, every step requires attention and effort.\nC. The action then needs less thought and eventually happens almost automatically.\nD. A habit begins as a deliberate choice.\nE. It also explains why bad habits are so hard to break: they run without being noticed.\nF. With repetition, the brain begins to treat the sequence as a single unit.\n\nWhich sentence should come first?",
+      "options": [
+        "Sentence C",
+        "Sentence E",
+        "Sentence D",
+        "Sentence F"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is DBFCAE. Sentence D introduces the topic without referring back to anything, so it must come first."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. This efficiency is useful, because it frees attention for other tasks.\nB. At first, every step requires attention and effort.\nC. The action then needs less thought and eventually happens almost automatically.\nD. A habit begins as a deliberate choice.\nE. It also explains why bad habits are so hard to break: they run without being noticed.\nF. With repetition, the brain begins to treat the sequence as a single unit.\n\nWhich sentence should come last?",
+      "options": [
+        "Sentence D",
+        "Sentence E",
+        "Sentence F",
+        "Sentence A"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is DBFCAE. Sentence E draws a conclusion or closing point, so it comes last."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. This efficiency is useful, because it frees attention for other tasks.\nB. At first, every step requires attention and effort.\nC. The action then needs less thought and eventually happens almost automatically.\nD. A habit begins as a deliberate choice.\nE. It also explains why bad habits are so hard to break: they run without being noticed.\nF. With repetition, the brain begins to treat the sequence as a single unit.\n\nWhich sentence should come immediately after sentence C?",
+      "options": [
+        "Sentence A",
+        "Sentence B",
+        "Sentence D",
+        "Sentence E"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is DBFCAE. So the sentence that follows C is A."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. Early number systems used a blank space to mark an empty place, which often caused confusion.\nB. Through Arab scholars this system reached Europe, where it slowly replaced Roman numerals.\nC. The idea of zero is so familiar today that it is easy to forget it had to be invented.\nD. Modern arithmetic and computing both rest on that single step.\nE. Indian mathematicians gave the empty place a symbol and, more importantly, treated it as a number in its own right.\nF. They also worked out rules for adding, subtracting and multiplying with it.\n\nWhich of the following is the most logical order of the sentences?",
+      "options": [
+        "CAEFBD",
+        "CEAFBD",
+        "CAEBFD",
+        "CAFEBD"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is CAEFBD. The first sentence introduces the topic (C), and each later sentence picks up the one before it through a link of time, reference or cause; D closes the paragraph."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. Early number systems used a blank space to mark an empty place, which often caused confusion.\nB. Through Arab scholars this system reached Europe, where it slowly replaced Roman numerals.\nC. The idea of zero is so familiar today that it is easy to forget it had to be invented.\nD. Modern arithmetic and computing both rest on that single step.\nE. Indian mathematicians gave the empty place a symbol and, more importantly, treated it as a number in its own right.\nF. They also worked out rules for adding, subtracting and multiplying with it.\n\nWhich sentence should come first?",
+      "options": [
+        "Sentence E",
+        "Sentence F",
+        "Sentence A",
+        "Sentence C"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is CAEFBD. Sentence C introduces the topic without referring back to anything, so it must come first."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. Early number systems used a blank space to mark an empty place, which often caused confusion.\nB. Through Arab scholars this system reached Europe, where it slowly replaced Roman numerals.\nC. The idea of zero is so familiar today that it is easy to forget it had to be invented.\nD. Modern arithmetic and computing both rest on that single step.\nE. Indian mathematicians gave the empty place a symbol and, more importantly, treated it as a number in its own right.\nF. They also worked out rules for adding, subtracting and multiplying with it.\n\nWhich sentence should come last?",
+      "options": [
+        "Sentence F",
+        "Sentence A",
+        "Sentence D",
+        "Sentence B"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is CAEFBD. Sentence D draws a conclusion or closing point, so it comes last."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. Early number systems used a blank space to mark an empty place, which often caused confusion.\nB. Through Arab scholars this system reached Europe, where it slowly replaced Roman numerals.\nC. The idea of zero is so familiar today that it is easy to forget it had to be invented.\nD. Modern arithmetic and computing both rest on that single step.\nE. Indian mathematicians gave the empty place a symbol and, more importantly, treated it as a number in its own right.\nF. They also worked out rules for adding, subtracting and multiplying with it.\n\nWhich sentence should come immediately after sentence B?",
+      "options": [
+        "Sentence C",
+        "Sentence D",
+        "Sentence E",
+        "Sentence F"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is CAEFBD. So the sentence that follows B is D."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. The main obstacle is cost, since a roof must be strengthened and waterproofed first.\nB. That lowers the need for air conditioning and cuts electricity bills.\nC. Some gardens go a step further and grow vegetables, giving residents fresh food close to home.\nD. The plants cool the buildings beneath them by shading the roof and releasing moisture.\nE. Many cities are turning unused rooftops into gardens.\nF. Rooftop gardens also soak up rainwater, which reduces the strain on drains during storms.\n\nWhich of the following is the most logical order of the sentences?",
+      "options": [
+        "EBDFCA",
+        "EDBFCA",
+        "EDBCFA",
+        "EDFBCA"
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct order is EDBFCA. The first sentence introduces the topic (E), and each later sentence picks up the one before it through a link of time, reference or cause; A closes the paragraph."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. The main obstacle is cost, since a roof must be strengthened and waterproofed first.\nB. That lowers the need for air conditioning and cuts electricity bills.\nC. Some gardens go a step further and grow vegetables, giving residents fresh food close to home.\nD. The plants cool the buildings beneath them by shading the roof and releasing moisture.\nE. Many cities are turning unused rooftops into gardens.\nF. Rooftop gardens also soak up rainwater, which reduces the strain on drains during storms.\n\nWhich sentence should come first?",
+      "options": [
+        "Sentence E",
+        "Sentence F",
+        "Sentence A",
+        "Sentence B"
+      ],
+      "answerIndex": 0,
+      "explanation": "The correct order is EDBFCA. Sentence E introduces the topic without referring back to anything, so it must come first."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. The main obstacle is cost, since a roof must be strengthened and waterproofed first.\nB. That lowers the need for air conditioning and cuts electricity bills.\nC. Some gardens go a step further and grow vegetables, giving residents fresh food close to home.\nD. The plants cool the buildings beneath them by shading the roof and releasing moisture.\nE. Many cities are turning unused rooftops into gardens.\nF. Rooftop gardens also soak up rainwater, which reduces the strain on drains during storms.\n\nWhich sentence should come last?",
+      "options": [
+        "Sentence B",
+        "Sentence C",
+        "Sentence D",
+        "Sentence A"
+      ],
+      "answerIndex": 3,
+      "explanation": "The correct order is EDBFCA. Sentence A draws a conclusion or closing point, so it comes last."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The sentences of a paragraph are given in a jumbled order.\nA. The main obstacle is cost, since a roof must be strengthened and waterproofed first.\nB. That lowers the need for air conditioning and cuts electricity bills.\nC. Some gardens go a step further and grow vegetables, giving residents fresh food close to home.\nD. The plants cool the buildings beneath them by shading the roof and releasing moisture.\nE. Many cities are turning unused rooftops into gardens.\nF. Rooftop gardens also soak up rainwater, which reduces the strain on drains during storms.\n\nWhich sentence should come immediately after sentence D?",
+      "options": [
+        "Sentence C",
+        "Sentence E",
+        "Sentence B",
+        "Sentence F"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct order is EDBFCA. So the sentence that follows D is B."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/ordering-of-sentences/"
+}
