@@ -1,0 +1,424 @@
+{
+  "id": "y3-quant-adv-mensuration-3d",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 25,
+  "title": "Advanced Mensuration — 3D Solids",
+  "tagline": "Year 3 — Volume and surface area of cubes, cuboids, cylinders, cones, spheres, melting and recasting",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Solid shapes are measured by volume (space inside) and surface area (outer covering). This chapter covers cubes, cuboids, cylinders, cones, spheres and hemispheres, the slant height of a cone, and the idea that melting one solid and recasting it into another keeps the volume unchanged. Water-flow and painting-cost questions are built on the same formulas.",
+    "placementRelevance": "Volume and surface-area questions are staples of aptitude papers, usually as melting-and-recasting or cost-of-painting problems.",
+    "realWorldContext": "Tank capacity, packaging, pipe flow and material costing all depend on solid measures."
+  },
+  "learningObjectives": [
+    "Recall volume and surface area formulas",
+    "Compute the slant height of a cone",
+    "Solve melting and recasting problems",
+    "Find the number of smaller solids from a bigger one",
+    "Calculate costs of painting and filling"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Geometry and Mensuration",
+      "Ratio and Proportion"
+    ],
+    "quickRefresher": "Volume is measured in cubic units, area in square units. Use π = 22/7 unless a calculator value is given."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Cube of side a: volume a³, total surface area 6a², diagonal a√3.",
+      "Cuboid l × b × h: volume lbh, surface area 2(lb + bh + hl), diagonal √(l² + b² + h²).",
+      "Cylinder: volume πr²h, curved area 2πrh, total area 2πr(r + h).",
+      "Cone: volume ⅓πr²h, slant height l = √(r² + h²), curved area πrl, total area πr(r + l).",
+      "Sphere: volume 4/3 πr³, area 4πr². Hemisphere: volume 2/3 πr³, total area 3πr²."
+    ],
+    "theoreticalIntuition": "Volume scales with the cube of the length and area with the square. Doubling the radius of a sphere multiplies its volume by 8 and its surface by 4.",
+    "visualOrMentalModel": "Write the formula, put the numbers in, and cancel π and 7 before multiplying. For recasting, equate the volumes and cancel π."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Cylinder",
+      "formula": "V = πr²h; CSA = 2πrh",
+      "description": "Radius r, height h.",
+      "whenToUse": "Tanks, pipes.",
+      "simpleExample": "r = 7, h = 10: V = 1540"
+    },
+    {
+      "title": "Cone",
+      "formula": "V = ⅓πr²h; l = √(r² + h²)",
+      "description": "Slant height l.",
+      "whenToUse": "Cones.",
+      "simpleExample": "r = 6, h = 8: l = 10"
+    },
+    {
+      "title": "Sphere",
+      "formula": "V = 4/3 πr³; A = 4πr²",
+      "description": "Radius r.",
+      "whenToUse": "Balls.",
+      "simpleExample": "r = 3: V = 36π"
+    },
+    {
+      "title": "Recasting",
+      "formula": "V₁ = V₂",
+      "description": "No loss.",
+      "whenToUse": "Melting problems.",
+      "simpleExample": "Sphere → small spheres"
+    },
+    {
+      "title": "Scaling",
+      "formula": "Area × k², volume × k³",
+      "description": "Similar solids.",
+      "whenToUse": "Resizing.",
+      "simpleExample": "k = 2: area ×4, volume ×8"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "A cylinder of radius 7 cm and height 10 cm has volume (22/7) × 49 × 10 = 1540 cm³ and curved surface area 2 × (22/7) × 7 × 10 = 440 cm².",
+      "A cone of radius 6 cm and height 8 cm has slant height √(36 + 64) = 10 cm, curved area (22/7) × 6 × 10 ≈ 188.6 cm², and volume ⅓ × (22/7) × 36 × 8 ≈ 301.7 cm³.",
+      "Melting and recasting keep the volume equal. A solid sphere of radius 6 cm is melted into small spheres of radius 2 cm. The number is (6/2)³ = 27.",
+      "A cube of side 6 cm is cut into cubes of side 2 cm. The number of small cubes is (6/2)³ = 27, and the total surface area increases from 216 cm² to 27 × 24 = 648 cm².",
+      "When a solid is scaled by k, its surface area multiplies by k² and its volume by k³. If the radius of a sphere increases by 50% the volume becomes (3/2)³ = 27/8 of the original, a rise of 237.5%."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Water flow",
+        "content": "Volume per minute = cross-section area × speed. A pipe of radius 7 cm with water at 5 m/s delivers π × 49 × 500 cm³ per second."
+      },
+      {
+        "title": "Hollow cylinder",
+        "content": "Volume = π h (R² − r²)."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Volume and area",
+      "description": "Formula substitution.",
+      "exampleSnippet": "Cylinder"
+    },
+    {
+      "typeName": "Slant height",
+      "description": "Pythagoras.",
+      "exampleSnippet": "Cone"
+    },
+    {
+      "typeName": "Recasting",
+      "description": "Equate volumes.",
+      "exampleSnippet": "Sphere into spheres"
+    },
+    {
+      "typeName": "Cutting a cube",
+      "description": "Count and area change.",
+      "exampleSnippet": "6 cm into 2 cm"
+    },
+    {
+      "typeName": "Scaling",
+      "description": "k² and k³.",
+      "exampleSnippet": "Radius +50%"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-adv-mensuration-3d-1",
+      "title": "Recasting",
+      "question": "A solid metallic sphere of radius 6 cm is melted and recast into small spheres of radius 2 cm. How many spheres are formed?",
+      "givenInfo": [
+        "R = 6",
+        "r = 2"
+      ],
+      "conceptOrFormula": "Equal volumes.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Volumes",
+          "explanation": "4/3 π 6³ = n × 4/3 π 2³."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Cancel",
+          "explanation": "n = 216/8 = 27."
+        }
+      ],
+      "finalAnswer": "27",
+      "whyItWorks": "The ratio of radii is 3, so the ratio of volumes is 27.",
+      "commonTrap": "Dividing 6 by 2 only.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-adv-mensuration-3d-2",
+      "title": "Cone",
+      "question": "A cone has base radius 6 cm and height 8 cm. Find its slant height and volume (use π = 22/7).",
+      "givenInfo": [
+        "r = 6",
+        "h = 8"
+      ],
+      "conceptOrFormula": "Pythagoras and ⅓πr²h.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Slant height",
+          "explanation": "√(36 + 64) = 10 cm."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Volume",
+          "explanation": "⅓ × 22/7 × 36 × 8 = 2112/7 ≈ 301.71 cm³."
+        }
+      ],
+      "finalAnswer": "10 cm and ≈ 301.7 cm³",
+      "whyItWorks": "Cone volume is a third of the cylinder of the same base and height.",
+      "commonTrap": "Using the slant height as h.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-adv-mensuration-3d-3",
+      "title": "Painting cost",
+      "question": "A cuboid is 5 m long, 4 m wide and 3 m high. What does it cost to paint its four walls at ₹10 per m²?",
+      "givenInfo": [
+        "5 × 4 × 3",
+        "₹10 per m²"
+      ],
+      "conceptOrFormula": "Lateral surface area.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Walls",
+          "explanation": "2(l + b)h = 2 × 9 × 3 = 54 m²."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Cost",
+          "explanation": "54 × 10 = ₹540."
+        }
+      ],
+      "finalAnswer": "₹540",
+      "whyItWorks": "Floor and ceiling are excluded.",
+      "commonTrap": "Using total surface area.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Cancel π first",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Multiply out fully.",
+      "shortcutMethod": "Equate volumes, cancel π and common factors, then take cube roots or ratios."
+    },
+    "rulesForApplication": [
+      "Recasting: V₁ = V₂.",
+      "Scaling: k² and k³.",
+      "Cone: find l first.",
+      "Walls exclude floor and ceiling."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Using h for slant height",
+      "whyItHappens": "Wrong value in πrl.",
+      "howToAvoid": "Compute l = √(r² + h²)."
+    },
+    {
+      "mistake": "Using diameter as radius",
+      "whyItHappens": "Doubling errors.",
+      "howToAvoid": "Halve the diameter."
+    },
+    {
+      "mistake": "Adding floor and ceiling to wall area",
+      "whyItHappens": "Wrong surface.",
+      "howToAvoid": "Read the question carefully."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 80,
+    "eliminationTechnique": "Volume answers scale by the cube of the length ratio.",
+    "questionSelectionAdvice": "Use 22/7 only when radii are multiples of 7.",
+    "recruiterInsight": "Cancel before multiplying."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-adv-mensuration-3d-e1",
+        "question": "The volume of a cube of side 5 cm (cm³) is",
+        "options": [
+          "25",
+          "125",
+          "150",
+          "75"
+        ],
+        "correctAnswer": "125",
+        "explanation": "5³ = 125.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-mensuration-3d-e2",
+        "question": "The total surface area of a cube of side 4 cm (cm²) is",
+        "options": [
+          "96",
+          "64",
+          "48",
+          "16"
+        ],
+        "correctAnswer": "96",
+        "explanation": "6 × 16 = 96.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-adv-mensuration-3d-e3",
+        "question": "The volume of a cuboid 5 m × 4 m × 3 m (m³) is",
+        "options": [
+          "47",
+          "12",
+          "94",
+          "60"
+        ],
+        "correctAnswer": "60",
+        "explanation": "5 × 4 × 3 = 60.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-adv-mensuration-3d-i7",
+        "question": "A sphere of radius 6 cm is melted into small spheres of radius 2 cm. The number of spheres is",
+        "options": [
+          "27",
+          "9",
+          "36",
+          "54"
+        ],
+        "correctAnswer": "27",
+        "explanation": "(6/2)³ = 27.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-mensuration-3d-i8",
+        "question": "A cube of side 6 cm is cut into cubes of side 2 cm. The number of cubes is",
+        "options": [
+          "9",
+          "18",
+          "36",
+          "27"
+        ],
+        "correctAnswer": "27",
+        "explanation": "(6/2)³ = 27.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-adv-mensuration-3d-i9",
+        "question": "The volume of a cone with r = 6 cm and h = 8 cm (π = 22/7) (cm³) is approximately",
+        "options": [
+          "904.6",
+          "150.9",
+          "226.3",
+          "301.71"
+        ],
+        "correctAnswer": "301.71",
+        "explanation": "⅓ × 22/7 × 36 × 8 = 2112/7 ≈ 301.71.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-adv-mensuration-3d-a15",
+        "question": "A cylindrical tank has radius 7 m and height 10 m. How many litres can it hold? (1 m³ = 1000 L)",
+        "options": [
+          "154000",
+          "440000",
+          "1540000",
+          "15400000"
+        ],
+        "correctAnswer": "1540000",
+        "explanation": "V = 22/7 × 49 × 10 = 1540 m³ = 1,540,000 L.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-mensuration-3d-a16",
+        "question": "A solid cylinder of radius 3 cm and height 8 cm is melted and recast into a sphere. The radius of the sphere (cm) is",
+        "options": [
+          "3",
+          "3.78",
+          "6",
+          "4.5"
+        ],
+        "correctAnswer": "3.78",
+        "explanation": "4/3 r³ = 72 gives r³ = 54, so r ≈ 3.78.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-adv-mensuration-3d-p17",
+        "question": "If the radius of a sphere increases by 50%, its volume increases by",
+        "options": [
+          "125%",
+          "237.5%",
+          "150%",
+          "337.5%"
+        ],
+        "correctAnswer": "237.5%",
+        "explanation": "(3/2)³ = 27/8, an increase of 19/8 = 237.5%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-mensuration-3d-p18",
+        "question": "A rectangular tank is 10 m × 6 m × 4 m. Water is poured at 2 m³ per minute. The time to fill the tank (minutes) is",
+        "options": [
+          "120",
+          "60",
+          "100",
+          "240"
+        ],
+        "correctAnswer": "120",
+        "explanation": "240/2 = 120.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-adv-mensuration-3d-p19",
+        "question": "A cube of side 6 cm is painted and cut into 27 cubes of side 2 cm. How many small cubes have exactly one face painted?",
+        "options": [
+          "8",
+          "12",
+          "1",
+          "6"
+        ],
+        "correctAnswer": "6",
+        "explanation": "Face centres: one per face, so 6 cubes.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Standard formulas.",
+      "Slant height.",
+      "Recasting.",
+      "Scaling.",
+      "Cost of painting."
+    ],
+    "quickFormulas": [
+      "πr²h",
+      "⅓πr²h",
+      "4/3 πr³"
+    ]
+  },
+  "keyTakeaways": [
+    "Equate volumes.",
+    "Find l.",
+    "Check the units.",
+    "Cancel π."
+  ],
+  "selfCheckQuestions": [
+    "Can I solve a recasting problem?",
+    "Can I find a cone's slant height?",
+    "Can I compute painting costs?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

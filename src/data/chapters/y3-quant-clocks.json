@@ -1,0 +1,425 @@
+{
+  "id": "y3-quant-clocks",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 26,
+  "title": "Clocks",
+  "tagline": "Year 3 — Angle between hands, overlaps, right angles, mirror images and faulty clocks",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A clock is a circle with 12 hours or 60 minute marks. The minute hand moves 6° per minute and the hour hand 0.5° per minute, so the minute hand gains 5.5° per minute on the hour hand. This chapter uses that relative speed to find the angle between the hands, the times at which they overlap or are at right angles or opposite, and the effect of a clock that gains or loses time.",
+    "placementRelevance": "Clock problems are common as short questions in company aptitude tests, often with a direct formula.",
+    "realWorldContext": "Scheduling, shift timings and the design of analogue instruments use this angular reasoning."
+  },
+  "learningObjectives": [
+    "Compute the angle between the hands at any time",
+    "Find overlap, right-angle and opposite times",
+    "Count how often the hands meet in 12 or 24 hours",
+    "Handle mirror images and faulty clocks",
+    "Use relative speed 5.5° per minute"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Relative Speed",
+      "Time and Distance"
+    ],
+    "quickRefresher": "A full circle is 360°. The minute hand makes 360° in 60 minutes and the hour hand in 12 hours."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Minute hand speed: 6° per minute.",
+      "Hour hand speed: 0.5° per minute.",
+      "Relative speed of the minute hand over the hour hand: 5.5° per minute.",
+      "Angle at h hours m minutes: |30h − 5.5m|, reduced to at most 180°.",
+      "Hands overlap 11 times in 12 hours and 22 times in 24 hours."
+    ],
+    "theoreticalIntuition": "The clock is a two-runner circular race: the minute hand laps the hour hand once every 65 5/11 minutes, which is why overlaps are not at exact minutes after 12:00.",
+    "visualOrMentalModel": "Convert the time to the angles of each hand from 12, subtract, and take the smaller angle. For meeting times, divide the required angle gap by 5.5."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Angle",
+      "formula": "θ = |30h − 5.5m|",
+      "description": "Time h:m.",
+      "whenToUse": "Angle at a time.",
+      "simpleExample": "3:20 → |90 − 110| = 20°"
+    },
+    {
+      "title": "Overlap",
+      "formula": "m = (60/11) × h",
+      "description": "h = hour before overlap.",
+      "whenToUse": "Hands together.",
+      "simpleExample": "4:21 9/11"
+    },
+    {
+      "title": "Right angle",
+      "formula": "m = (60h ± 180)/11",
+      "description": "Gap 90°.",
+      "whenToUse": "Hands perpendicular.",
+      "simpleExample": "3:00"
+    },
+    {
+      "title": "Opposite",
+      "formula": "Gap 180°",
+      "description": "Straight line.",
+      "whenToUse": "Hands opposite.",
+      "simpleExample": "6:00"
+    },
+    {
+      "title": "Gain/loss",
+      "formula": "Correct time = shown time × (true minutes / shown minutes)",
+      "description": "Faulty clock.",
+      "whenToUse": "Gain-lose.",
+      "simpleExample": "Loses 5 min/hr"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "At 3:20 the hour hand is at 3 × 30 + 20 × 0.5 = 100° and the minute hand at 20 × 6 = 120°, so the angle is 20°. The formula |30 × 3 − 5.5 × 20| = |90 − 110| = 20° gives the same.",
+      "To find when the hands overlap after 4:00, at 4:00 the minute hand is 120° behind. It gains 5.5° per minute, so it takes 120/5.5 = 21 9/11 minutes: the hands overlap at 4:21 9/11.",
+      "In 12 hours the hands overlap 11 times (not 12, because the 11th and 12th overlaps coincide at 12:00). In 24 hours they overlap 22 times, and they are at right angles 44 times.",
+      "For a mirror image, subtract the time from 12:00 (or 11:60). The mirror image of 4:20 is 7:40.",
+      "A clock that loses 5 minutes per hour shows 55 minutes for each true hour. If it is set right at noon and shows 3 p.m., the true time is 3 × 60/55 hours after noon, about 3:16 p.m."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Time between overlaps",
+        "content": "The hands meet every 12/11 hours, which is 65 5/11 minutes."
+      },
+      {
+        "title": "Right angle times",
+        "content": "In each hour the hands are at right angles twice, except at some points where the two instants merge to 3:00 and 9:00."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Angle at a time",
+      "description": "|30h − 5.5m|.",
+      "exampleSnippet": "3:20"
+    },
+    {
+      "typeName": "Overlap time",
+      "description": "60h/11.",
+      "exampleSnippet": "4:21 9/11"
+    },
+    {
+      "typeName": "Counting meetings",
+      "description": "11 in 12 h.",
+      "exampleSnippet": "24 hours"
+    },
+    {
+      "typeName": "Mirror image",
+      "description": "12:00 minus time.",
+      "exampleSnippet": "4:20 → 7:40"
+    },
+    {
+      "typeName": "Faulty clock",
+      "description": "Ratio of rates.",
+      "exampleSnippet": "Loses 5 min/hr"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-clocks-1",
+      "title": "Angle at a time",
+      "question": "Find the angle between the hands at 7:30.",
+      "givenInfo": [
+        "7:30"
+      ],
+      "conceptOrFormula": "|30h − 5.5m|.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Hour hand",
+          "explanation": "7 × 30 + 15 = 225°."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Minute hand",
+          "explanation": "180°."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Angle",
+          "explanation": "225 − 180 = 45°."
+        }
+      ],
+      "finalAnswer": "45°",
+      "whyItWorks": "|210 − 165| = 45°.",
+      "commonTrap": "Forgetting the movement of the hour hand.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-clocks-2",
+      "title": "Overlap",
+      "question": "At what time after 5:00 do the hands first overlap?",
+      "givenInfo": [
+        "5:00"
+      ],
+      "conceptOrFormula": "Gap 150°.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Gap",
+          "explanation": "At 5:00 the hour hand is 150° ahead of the minute hand."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Time",
+          "explanation": "150/5.5 = 300/11 = 27 3/11 minutes."
+        }
+      ],
+      "finalAnswer": "5:27 3/11",
+      "whyItWorks": "m = (60/11) × 5 = 27 3/11.",
+      "commonTrap": "Taking 25 minutes.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-clocks-3",
+      "title": "Mirror image",
+      "question": "What is the mirror image of 4:20?",
+      "givenInfo": [
+        "4:20"
+      ],
+      "conceptOrFormula": "Subtract from 12:00.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Write 12:00 as 11:60",
+          "explanation": "The mirror image of a time is found by subtracting it from 12:00."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Subtract",
+          "explanation": "11:60 − 4:20 = 7:40."
+        }
+      ],
+      "finalAnswer": "7:40",
+      "whyItWorks": "The clock face reverses left and right.",
+      "commonTrap": "Writing 8:40.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "5.5 per minute",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Count minute marks.",
+      "shortcutMethod": "Angle = |30h − 5.5m|; time for a gap = gap/5.5 minutes."
+    },
+    "rulesForApplication": [
+      "Minute hand 6°/min.",
+      "Hour hand 0.5°/min.",
+      "11 overlaps in 12 h.",
+      "Mirror: 12:00 − time."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Ignoring the hour hand movement",
+      "whyItHappens": "Using 30h.",
+      "howToAvoid": "Add 0.5° per minute."
+    },
+    {
+      "mistake": "Giving the reflex angle",
+      "whyItHappens": "Over 180°.",
+      "howToAvoid": "Use 360° minus the angle."
+    },
+    {
+      "mistake": "12 overlaps in 12 h",
+      "whyItHappens": "Counting 12:00 twice.",
+      "howToAvoid": "There are 11."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "The angle must be at most 180°.",
+    "questionSelectionAdvice": "Use 5.5 as relative speed.",
+    "recruiterInsight": "Overlap times are multiples of 60/11 minutes."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-clocks-e1",
+        "question": "The angle moved by the minute hand in 1 minute is",
+        "options": [
+          "0.5°",
+          "6°",
+          "5.5°",
+          "12°"
+        ],
+        "correctAnswer": "6°",
+        "explanation": "360°/60 = 6°.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-clocks-e2",
+        "question": "The angle moved by the hour hand in 1 minute is",
+        "options": [
+          "0.5°",
+          "6°",
+          "1°",
+          "5.5°"
+        ],
+        "correctAnswer": "0.5°",
+        "explanation": "30° per hour = 0.5° per minute.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-clocks-e3",
+        "question": "The angle between the hands at 3:00 is",
+        "options": [
+          "60°",
+          "120°",
+          "180°",
+          "90°"
+        ],
+        "correctAnswer": "90°",
+        "explanation": "3 × 30° = 90°.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-clocks-i7",
+        "question": "The angle between the hands at 3:20 is",
+        "options": [
+          "20°",
+          "0°",
+          "30°",
+          "40°"
+        ],
+        "correctAnswer": "20°",
+        "explanation": "|90 − 110| = 20°.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-clocks-i8",
+        "question": "The angle between the hands at 7:30 is",
+        "options": [
+          "30°",
+          "60°",
+          "75°",
+          "45°"
+        ],
+        "correctAnswer": "45°",
+        "explanation": "|210 − 165| = 45°.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-clocks-i9",
+        "question": "The angle between the hands at 10:10 is",
+        "options": [
+          "60°",
+          "90°",
+          "120°",
+          "115°"
+        ],
+        "correctAnswer": "115°",
+        "explanation": "|300 − 55| = 245°, so the smaller angle is 360° − 245° = 115°.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-clocks-a15",
+        "question": "A clock loses 5 minutes every hour. It is set right at 12 noon. The true time when it shows 3 p.m. is closest to",
+        "options": [
+          "3:15 p.m.",
+          "3:20 p.m.",
+          "3:16 p.m.",
+          "3:10 p.m."
+        ],
+        "correctAnswer": "3:16 p.m.",
+        "explanation": "The clock runs at 55/60 of the true rate, so true elapsed time = 180 × 60/55 ≈ 196 minutes, about 3:16 p.m.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-clocks-a16",
+        "question": "The reflex-free angle between the hands at 2:40 is",
+        "options": [
+          "140°",
+          "160°",
+          "161°",
+          "180°"
+        ],
+        "correctAnswer": "160°",
+        "explanation": "|60 − 220| = 160°.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-clocks-p17",
+        "question": "How many times in a day (24 hours) are the hands of a clock in a straight line (opposite)?",
+        "options": [
+          "24",
+          "22",
+          "44",
+          "11"
+        ],
+        "correctAnswer": "22",
+        "explanation": "They are opposite 11 times in 12 hours, so 22 times in 24 hours.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-clocks-p18",
+        "question": "The time between 8 and 9 when the hands are together is",
+        "options": [
+          "8:43 7/11",
+          "8:40",
+          "8:44",
+          "8:42 3/11"
+        ],
+        "correctAnswer": "8:43 7/11",
+        "explanation": "m = (60/11) × 8 = 43 7/11.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-clocks-p19",
+        "question": "A watch gains 2 minutes every hour. It is set right at 6 a.m. At what true time will it show 6 p.m.?",
+        "options": [
+          "6:00 p.m.",
+          "5:52 p.m.",
+          "5:15 p.m.",
+          "about 5:37 p.m."
+        ],
+        "correctAnswer": "about 5:37 p.m.",
+        "explanation": "The watch runs at 62/60 of the true rate, so the true elapsed time is 720 × 60/62 ≈ 696.8 minutes ≈ 11 h 37 min, which is about 5:37 p.m.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Angle formula.",
+      "Overlap time.",
+      "Counts in 12/24 hours.",
+      "Mirror image.",
+      "Faulty clocks."
+    ],
+    "quickFormulas": [
+      "|30h − 5.5m|",
+      "65 5/11 minutes"
+    ]
+  },
+  "keyTakeaways": [
+    "Use 5.5.",
+    "Reduce to ≤ 180°.",
+    "11 overlaps.",
+    "Mirror image rule."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the angle at a time?",
+    "Can I find an overlap time?",
+    "Can I handle a faulty clock?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

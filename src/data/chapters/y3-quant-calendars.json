@@ -1,0 +1,442 @@
+{
+  "id": "y3-quant-calendars",
+  "yearId": 3,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 27,
+  "title": "Calendars",
+  "tagline": "Year 3 — Odd days, leap years, day of the week for any date and repeating calendars",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A calendar problem asks for the day of the week on a given date or the year in which a calendar repeats. The key idea is odd days: the remainder when the number of days is divided by 7. An ordinary year has 1 odd day and a leap year has 2. Century rules give 0 odd days for 400 years, which lets any date be handled by splitting the years.",
+    "placementRelevance": "Calendar questions are common short questions in company aptitude papers and need only careful counting.",
+    "realWorldContext": "Scheduling, payroll cycles, and software date libraries use the same arithmetic."
+  },
+  "learningObjectives": [
+    "Compute odd days for years, months and centuries",
+    "Identify leap years correctly",
+    "Find the day of the week for a date",
+    "Find when a calendar repeats",
+    "Count a given weekday in a month or year"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Number System",
+      "Remainder Theorems"
+    ],
+    "quickRefresher": "There are 7 days in a week. The remainder after dividing days by 7 shifts the weekday."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Odd days: remainder when days are divided by 7.",
+      "Leap year: divisible by 4; for century years, divisible by 400.",
+      "Ordinary year: 365 days (1 odd day). Leap year: 366 days (2 odd days).",
+      "100 years have 5 odd days, 200 years 3, 300 years 1, and 400 years 0 odd days.",
+      "Odd days of months: Jan 3, Feb 0 (ordinary) or 1 (leap), Mar 3, Apr 2, May 3, Jun 2, Jul 3, Aug 3, Sep 2, Oct 3, Nov 2, Dec 3."
+    ],
+    "theoreticalIntuition": "Each ordinary year shifts the weekday of a date by one day, each leap year by two. Count the shifts and take the remainder by 7.",
+    "visualOrMentalModel": "Count complete centuries, then complete years in the century (with their leap years), then the days of the partial year, add the odd days, and reduce modulo 7."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Ordinary year",
+      "formula": "1 odd day",
+      "description": "365 days.",
+      "whenToUse": "Normal years.",
+      "simpleExample": "365 = 52 × 7 + 1"
+    },
+    {
+      "title": "Leap year",
+      "formula": "2 odd days",
+      "description": "366 days.",
+      "whenToUse": "Leap years.",
+      "simpleExample": "366 = 52 × 7 + 2"
+    },
+    {
+      "title": "Century odd days",
+      "formula": "100: 5, 200: 3, 300: 1, 400: 0",
+      "description": "Complete centuries.",
+      "whenToUse": "Large spans.",
+      "simpleExample": "1600, 2000 are leap"
+    },
+    {
+      "title": "Day mapping",
+      "formula": "0 Sun, 1 Mon, 2 Tue, 3 Wed, 4 Thu, 5 Fri, 6 Sat",
+      "description": "Odd days from a base.",
+      "whenToUse": "Final step.",
+      "simpleExample": "3 odd days after Sunday is Wednesday"
+    },
+    {
+      "title": "Leap count",
+      "formula": "floor(years/4) − floor(years/100) + floor(years/400)",
+      "description": "Years from 1 AD.",
+      "whenToUse": "Leap years in a span.",
+      "simpleExample": "1600–1999: 97"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "In a year of 365 days, 365 = 52 weeks + 1 day, so a date falls one weekday later next year. In a leap year it falls two weekdays later.",
+      "Century odd days follow from 100 years = 76 ordinary + 24 leap years = 76 + 48 = 124 odd days, and 124 mod 7 = 5. So 100 years have 5 odd days, 200 years have 3, 300 years have 1 and 400 years have 0.",
+      "To find the day of 15 August 1947: the years up to 1900 have 1600 + 300 years, which give 0 + 1 = 1 odd day. In 1901–1946 there are 46 years with 11 leap years, so the odd days are 46 + 11 = 57, which leaves 1. From 1 January to 15 August 1947: 31 + 28 + 31 + 30 + 31 + 30 + 31 + 15 = 227 days, giving 3 odd days. Total 1 + 1 + 3 = 5, which is Friday.",
+      "A calendar repeats when the number of odd days between the two years is 0 and the leap pattern matches. Calendars of 2017 and 2023 are the same (both ordinary, 6 years with 1 leap year gives 6 + 1 = 7 odd days).",
+      "The maximum number of Sundays in a year is 53; an ordinary year has 53 Sundays only if it starts on a Sunday, and a leap year if it starts on Saturday or Sunday."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Quick year shift",
+        "content": "Moving forward n years in the same century shifts the day by n plus the number of leap years crossed."
+      },
+      {
+        "title": "Century years",
+        "content": "Only century years divisible by 400 are leap years; 1900 was not and 2000 was."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Day of a date",
+      "description": "Odd days.",
+      "exampleSnippet": "15 Aug 1947"
+    },
+    {
+      "typeName": "Calendar repeat",
+      "description": "Total odd days 0.",
+      "exampleSnippet": "2017 and 2023"
+    },
+    {
+      "typeName": "Counting weekdays",
+      "description": "Weeks plus extra days.",
+      "exampleSnippet": "Sundays in a month"
+    },
+    {
+      "typeName": "Leap years",
+      "description": "Divisibility rule.",
+      "exampleSnippet": "1900, 2000"
+    },
+    {
+      "typeName": "Day shift",
+      "description": "Years plus leaps.",
+      "exampleSnippet": "Next year"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-quant-calendars-1",
+      "title": "Day of a date",
+      "question": "What day of the week was 26 January 1950?",
+      "givenInfo": [
+        "26 Jan 1950"
+      ],
+      "conceptOrFormula": "Odd days.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Years up to 1900",
+          "explanation": "1600 years 0 and 300 years 1, total 1 odd day."
+        },
+        {
+          "stepNumber": 2,
+          "title": "1901–1949",
+          "explanation": "49 years with 12 leap years: 49 + 12 = 61, giving 5 odd days."
+        },
+        {
+          "stepNumber": 3,
+          "title": "26 days of January",
+          "explanation": "26 mod 7 = 5."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Total",
+          "explanation": "1 + 5 + 5 = 11, which leaves 4: Thursday."
+        }
+      ],
+      "finalAnswer": "Thursday",
+      "whyItWorks": "Reference: 26 Jan 1950 was a Thursday.",
+      "commonTrap": "Counting 1900 as a leap year.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-quant-calendars-2",
+      "title": "Calendar repeat",
+      "question": "Is the calendar of 2018 the same as 2029?",
+      "givenInfo": [
+        "2018 to 2029"
+      ],
+      "conceptOrFormula": "Odd days between.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Years 2018–2028",
+          "explanation": "11 years with leap years 2020, 2024 and 2028: 3."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Odd days",
+          "explanation": "11 + 3 = 14, which is 0 mod 7."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Both ordinary",
+          "explanation": "2018 and 2029 are both ordinary years."
+        }
+      ],
+      "finalAnswer": "Yes",
+      "whyItWorks": "The weekday pattern matches exactly.",
+      "commonTrap": "Not counting leap years.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-quant-calendars-3",
+      "title": "Counting Sundays",
+      "question": "A month of 30 days starts on Saturday. How many Sundays does it have?",
+      "givenInfo": [
+        "30 days",
+        "Starts Saturday"
+      ],
+      "conceptOrFormula": "Weeks plus extra.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Weeks",
+          "explanation": "30 = 4 × 7 + 2."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Extra days",
+          "explanation": "The two extra days are Saturday and Sunday."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Sundays",
+          "explanation": "4 + 1 = 5."
+        }
+      ],
+      "finalAnswer": "5",
+      "whyItWorks": "The extra days follow the first day.",
+      "commonTrap": "Assuming 4 Sundays always.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Odd days sum",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Count every day.",
+      "shortcutMethod": "Break the span into 400-year (0), 100 (5), 4-year groups, add the odd days and take the remainder by 7."
+    },
+    "rulesForApplication": [
+      "Leap year: 2 odd days.",
+      "400 years: 0.",
+      "1900 is not a leap year.",
+      "Add the odd days of months."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Treating 1900 as a leap year",
+      "whyItHappens": "Century rule.",
+      "howToAvoid": "Century years need divisibility by 400."
+    },
+    {
+      "mistake": "Counting the target year as full",
+      "whyItHappens": "Including extra days.",
+      "howToAvoid": "Use only elapsed months."
+    },
+    {
+      "mistake": "Forgetting the leap day",
+      "whyItHappens": "Skipping 29 Feb.",
+      "howToAvoid": "Check the year first."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "The answer day is fixed by odd days mod 7.",
+    "questionSelectionAdvice": "Anchor to a known date.",
+    "recruiterInsight": "Repeating calendars need equal odd days and leap pattern."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-quant-calendars-e1",
+        "question": "The number of odd days in an ordinary year is",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "correctAnswer": "1",
+        "explanation": "365 = 52 × 7 + 1.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-calendars-e2",
+        "question": "The number of odd days in a leap year is",
+        "options": [
+          "2",
+          "1",
+          "0",
+          "3"
+        ],
+        "correctAnswer": "2",
+        "explanation": "366 = 52 × 7 + 2.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-quant-calendars-e3",
+        "question": "Which of these is a leap year?",
+        "options": [
+          "1900",
+          "2100",
+          "2023",
+          "2000"
+        ],
+        "correctAnswer": "2000",
+        "explanation": "2000 is divisible by 400, so it is a leap year.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-quant-calendars-i7",
+        "question": "The day of the week on 26 January 1950 was",
+        "options": [
+          "Thursday",
+          "Wednesday",
+          "Friday",
+          "Saturday"
+        ],
+        "correctAnswer": "Thursday",
+        "explanation": "1 + 5 + 5 = 11, leaving 4, which is Thursday.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-calendars-i8",
+        "question": "The day of the week on 15 August 1947 was",
+        "options": [
+          "Thursday",
+          "Saturday",
+          "Sunday",
+          "Friday"
+        ],
+        "correctAnswer": "Friday",
+        "explanation": "The odd days total 1 + 1 + 3 = 5, which is Friday.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-quant-calendars-i9",
+        "question": "If 1 January 2021 was a Friday, 1 January 2022 was a",
+        "options": [
+          "Sunday",
+          "Friday",
+          "Thursday",
+          "Saturday"
+        ],
+        "correctAnswer": "Saturday",
+        "explanation": "2021 is an ordinary year, so the weekday moves by one day: Saturday.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-quant-calendars-a15",
+        "question": "The day of the week on 1 January 2000 was",
+        "options": [
+          "Friday",
+          "Sunday",
+          "Saturday",
+          "Monday"
+        ],
+        "correctAnswer": "Saturday",
+        "explanation": "The 1999 complete years have 0 + 1 + 4 = 5 odd days (1600 years, 300 years, 99 years with 24 leap years). Adding 1 for 1 January gives 6, which is Saturday.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-calendars-a16",
+        "question": "How many Mondays can a leap year have at most?",
+        "options": [
+          "52",
+          "53",
+          "54",
+          "51"
+        ],
+        "correctAnswer": "53",
+        "explanation": "366 = 52 weeks + 2 days, so at most 53 Mondays.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-quant-calendars-p17",
+        "question": "If the 4th of a month is a Monday, then the 28th of that month is a",
+        "options": [
+          "Monday",
+          "Thursday",
+          "Wednesday",
+          "Tuesday"
+        ],
+        "correctAnswer": "Thursday",
+        "explanation": "The 28th is 24 days after the 4th, and 24 mod 7 = 3, so Monday + 3 = Thursday.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-calendars-p18",
+        "question": "Which year after 2024 has the same calendar as 2024?",
+        "options": [
+          "2052",
+          "2028",
+          "2032",
+          "2048"
+        ],
+        "correctAnswer": "2052",
+        "explanation": "Both must be leap years; the odd days from 2024 to 2052 total 28 years + 7 leaps = 35 ≡ 0.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-quant-calendars-p19",
+        "question": "Which century year is NOT a leap year?",
+        "options": [
+          "2000",
+          "1600",
+          "2400",
+          "2100"
+        ],
+        "correctAnswer": "2100",
+        "explanation": "2100 is not divisible by 400.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Odd days.",
+      "Leap rule.",
+      "Century odd days.",
+      "Repeat condition.",
+      "Counting weekdays."
+    ],
+    "quickFormulas": [
+      "365 = 52w + 1",
+      "366 = 52w + 2",
+      "400 years: 0"
+    ]
+  },
+  "keyTakeaways": [
+    "Odd days mod 7.",
+    "Check leap years.",
+    "Anchor dates.",
+    "Count extra days."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the day of any date?",
+    "Can I check a leap year?",
+    "Can I decide if calendars repeat?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The corresponding topic area; examples in this chapter are original."
+    }
+  ]
+}

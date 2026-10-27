@@ -57,7 +57,7 @@ const q23 = [
   easy('Each interior angle of a regular hexagon is', '120°', ['108°', '135°', '60°'], '(6 − 2) × 180°/6 = 120°.'),
   easy('The number of diagonals of a hexagon is', 9, [6, 12, 15], 'n(n − 3)/2 = 6 × 3/2 = 9.'),
   easy('The sum of the interior angles of a pentagon is', '540°', ['360°', '720°', '450°'], '(5 − 2) × 180° = 540°.'),
-  easy('In a cyclic quadrilateral one angle is 70°. The opposite angle is', '110°', ['70°', '90°', '120°'], 'Opposite angles add up to 180°.'),
+  easy('In a cyclic quadrilateral one angle is 70°. The opposite angle is', '110°', ['70°', '90°', '120°'], 'Opposite angles add up to 180°, so 180° − 70° = 110°.'),
 
   medium('The tangent from a point 13 cm from the centre of a circle of radius 5 cm has length (cm)', 12, [8, 144, 10], '√(169 − 25) = 12.'),
   medium('A chord of length 16 cm in a circle of radius 10 cm is at a distance (cm) from the centre of', 6, [8, 4, 12], '√(100 − 64) = 6.'),

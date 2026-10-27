@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-quant-clocks",
+  "topicTitle": "Clocks",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The angle moved by the minute hand in 1 minute is",
+      "options": [
+        "0.5°",
+        "6°",
+        "5.5°",
+        "12°"
+      ],
+      "answerIndex": 1,
+      "explanation": "360°/60 = 6°."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The angle moved by the hour hand in 1 minute is",
+      "options": [
+        "0.5°",
+        "6°",
+        "1°",
+        "5.5°"
+      ],
+      "answerIndex": 0,
+      "explanation": "30° per hour = 0.5° per minute."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The angle between the hands at 3:00 is",
+      "options": [
+        "60°",
+        "120°",
+        "180°",
+        "90°"
+      ],
+      "answerIndex": 3,
+      "explanation": "3 × 30° = 90°."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The angle between the hands at 6:00 is",
+      "options": [
+        "90°",
+        "150°",
+        "180°",
+        "120°"
+      ],
+      "answerIndex": 2,
+      "explanation": "6 × 30° = 180°."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The number of times the hands overlap in 12 hours is",
+      "options": [
+        "12",
+        "10",
+        "11",
+        "22"
+      ],
+      "answerIndex": 2,
+      "explanation": "The hands overlap 11 times in 12 hours."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The number of times the hands overlap in 24 hours is",
+      "options": [
+        "24",
+        "22",
+        "23",
+        "44"
+      ],
+      "answerIndex": 1,
+      "explanation": "Twice the 12-hour count: 22."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The angle between the hands at 3:20 is",
+      "options": [
+        "20°",
+        "0°",
+        "30°",
+        "40°"
+      ],
+      "answerIndex": 0,
+      "explanation": "|90 − 110| = 20°."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The angle between the hands at 7:30 is",
+      "options": [
+        "30°",
+        "60°",
+        "75°",
+        "45°"
+      ],
+      "answerIndex": 3,
+      "explanation": "|210 − 165| = 45°."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The angle between the hands at 10:10 is",
+      "options": [
+        "60°",
+        "90°",
+        "120°",
+        "115°"
+      ],
+      "answerIndex": 3,
+      "explanation": "|300 − 55| = 245°, so the smaller angle is 360° − 245° = 115°."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "After 5:00 the hands first overlap at",
+      "options": [
+        "5:25",
+        "5:26 1/2",
+        "5:27 3/11",
+        "5:28 5/11"
+      ],
+      "answerIndex": 2,
+      "explanation": "150/5.5 = 27 3/11 minutes."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The mirror image of the time 4:20 is",
+      "options": [
+        "8:40",
+        "7:40",
+        "7:20",
+        "8:20"
+      ],
+      "answerIndex": 1,
+      "explanation": "11:60 − 4:20 = 7:40."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "The hands of a clock overlap every (minutes)",
+      "options": [
+        "65 5/11",
+        "60",
+        "64 6/11",
+        "66"
+      ],
+      "answerIndex": 0,
+      "explanation": "720/11 = 65 5/11 minutes."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "The number of times the hands are at right angles in 12 hours is",
+      "options": [
+        "22",
+        "24",
+        "20",
+        "11"
+      ],
+      "answerIndex": 0,
+      "explanation": "In 12 hours the minute hand gains 11 full turns on the hour hand and is at 90° twice per turn, so 22 times."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "At what time between 4 and 5 are the hands opposite each other?",
+      "options": [
+        "4:50",
+        "4:55",
+        "4:53 7/11",
+        "4:54 6/11"
+      ],
+      "answerIndex": 3,
+      "explanation": "At 4:00 the minute hand is 120° behind the hour hand. To be 180° ahead of it, it must gain 300°, taking 300/5.5 = 54 6/11 minutes, so the time is 4:54 6/11."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "A clock loses 5 minutes every hour. It is set right at 12 noon. The true time when it shows 3 p.m. is closest to",
+      "options": [
+        "3:15 p.m.",
+        "3:20 p.m.",
+        "3:16 p.m.",
+        "3:10 p.m."
+      ],
+      "answerIndex": 2,
+      "explanation": "The clock runs at 55/60 of the true rate, so true elapsed time = 180 × 60/55 ≈ 196 minutes, about 3:16 p.m."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "The reflex-free angle between the hands at 2:40 is",
+      "options": [
+        "140°",
+        "160°",
+        "161°",
+        "180°"
+      ],
+      "answerIndex": 1,
+      "explanation": "|60 − 220| = 160°."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "How many times in a day (24 hours) are the hands of a clock in a straight line (opposite)?",
+      "options": [
+        "24",
+        "22",
+        "44",
+        "11"
+      ],
+      "answerIndex": 1,
+      "explanation": "They are opposite 11 times in 12 hours, so 22 times in 24 hours."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "The time between 8 and 9 when the hands are together is",
+      "options": [
+        "8:43 7/11",
+        "8:40",
+        "8:44",
+        "8:42 3/11"
+      ],
+      "answerIndex": 0,
+      "explanation": "m = (60/11) × 8 = 43 7/11."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A watch gains 2 minutes every hour. It is set right at 6 a.m. At what true time will it show 6 p.m.?",
+      "options": [
+        "6:00 p.m.",
+        "5:52 p.m.",
+        "5:15 p.m.",
+        "about 5:37 p.m."
+      ],
+      "answerIndex": 3,
+      "explanation": "The watch runs at 62/60 of the true rate, so the true elapsed time is 720 × 60/62 ≈ 696.8 minutes ≈ 11 h 37 min, which is about 5:37 p.m."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "The hands of a clock are at right angles at",
+      "options": [
+        "4:00",
+        "5:00",
+        "3:00",
+        "6:00"
+      ],
+      "answerIndex": 2,
+      "explanation": "At 3:00 the hour hand is at 90° and the minute hand at 0°, so the angle is 90°."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/clock/"
+}

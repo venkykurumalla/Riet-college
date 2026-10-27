@@ -134,19 +134,19 @@ const q22 = [
   easy('For two unequal positive numbers, the largest of AM, GM and HM is', 'AM', ['GM', 'HM', 'All are equal'], 'AM > GM > HM.'),
 
   medium('The AM of two numbers is 25 and GM is 15. Their HM is', 9, [10, 20, 5], 'GM² = AM × HM gives 225 = 25 × HM, so HM = 9.'),
-  medium('The 3rd term of an HP is 1/9 and the 7th is 1/21. The 10th term is', '1/30', ['1/27', '1/33', '1/24'], 'The AP has d = 3 and T₁₀ = 9 + 21 = 30.'),
+  medium('The 3rd term of an HP is 1/9 and the 7th is 1/21. The 10th term is', '1/30', ['1/27', '1/33', '1/24'], 'The AP has d = 3 and its 10th term is 9 + 21 = 30, so the HP term is 1/30.'),
   medium('The HM of two numbers is 4 and the AM is 4.5. Their GM is', '3√2', ['4.25', '3', '2√3'], 'GM² = 4.5 × 4 = 18, so GM = 3√2.'),
   medium('The sum of the AGP 1 + 2(1/2) + 3(1/4) + … to infinity is', 4, [2, 3, 8], 'S = 1/(1 − 1/2)² = 4.'),
   medium('If 2, x, 8 are in GP and 2, y, 8 are in AP, then x + y (x > 0) is', 9, [10, 13, 8], 'x = 4 and y = 5, so x + y = 9.'),
-  medium('Three numbers are in HP. If the first two are 1/3 and 1/5, the third is', '1/7', ['1/9', '1/15', '1/8'], 'The reciprocals 3, 5, 7 are in AP.'),
+  medium('Three numbers are in HP. If the first two are 1/3 and 1/5, the third is', '1/7', ['1/9', '1/15', '1/8'], 'The reciprocals 3, 5, 7 are in AP, so the third term is 1/7.'),
   medium('A man walks to a place at 3 km/h and returns at 6 km/h. His average speed is (km/h)', 4, [4.5, 3.5, 5], '2 × 3 × 6/(3 + 6) = 4 km/h.'),
   medium('The HM between 12 and 36 is', 18, [24, 20, 16], '2 × 12 × 36/48 = 18.'),
 
   placement('A car covers three equal distances at 20, 30 and 60 km/h. The average speed is (km/h)', 30, [36.7, 35, 33], '3/(1/20 + 1/30 + 1/60) = 3/(6/60) = 30 km/h.'),
   placement('If the AM and HM of two positive numbers are 10 and 3.6, their GM is', 6, [6.8, 5, 36], 'GM² = 10 × 3.6 = 36, so GM = 6.'),
   placement('The sum to infinity of 1 + 2x + 3x² + 4x³ + … when x = 1/3 is', '9/4', ['3/2', '9/2', '2'], '1/(1 − 1/3)² = 9/4.'),
-  placement('If the 4th term of an HP is 1/12 and the 8th is 1/20, the 6th term is', '1/16', ['1/15', '1/14', '1/18'], 'The AP has 4th term 12 and 8th term 20, so d = 2 and T₆ = 16.'),
+  placement('If the 4th term of an HP is 1/12 and the 8th is 1/20, the 6th term is', '1/16', ['1/15', '1/14', '1/18'], 'The AP has 4th term 12 and 8th term 20, so d = 2, the 6th AP term is 16 and the HP term is 1/16.'),
   placement('For two positive numbers x and y, if AM × HM = 144, then GM equals', 12, [24, 72, 6], 'GM² = AM × HM = 144, so GM = 12.'),
-  placement('Which statement is true for two equal positive numbers?', 'AM = GM = HM', ['AM > GM > HM', 'AM < GM < HM', 'GM > AM'], 'Equality holds only when the numbers are equal.')
+  placement('Which statement is true for two equal positive numbers?', 'AM = GM = HM', ['AM > GM > HM', 'AM < GM < HM', 'GM > AM'], 'Equality AM = GM = HM holds only when the numbers are equal.')
 ];
 build(ch22, q22);

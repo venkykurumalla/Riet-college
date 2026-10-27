@@ -104,7 +104,7 @@
         "1/30"
       ],
       "answerIndex": 3,
-      "explanation": "The AP has d = 3 and T₁₀ = 9 + 21 = 30."
+      "explanation": "The AP has d = 3 and its 10th term is 9 + 21 = 30, so the HP term is 1/30."
     },
     {
       "id": 9,
@@ -156,7 +156,7 @@
         "1/8"
       ],
       "answerIndex": 0,
-      "explanation": "The reciprocals 3, 5, 7 are in AP."
+      "explanation": "The reciprocals 3, 5, 7 are in AP, so the third term is 1/7."
     },
     {
       "id": 13,
@@ -234,7 +234,7 @@
         "1/18"
       ],
       "answerIndex": 0,
-      "explanation": "The AP has 4th term 12 and 8th term 20, so d = 2 and T₆ = 16."
+      "explanation": "The AP has 4th term 12 and 8th term 20, so d = 2, the 6th AP term is 16 and the HP term is 1/16."
     },
     {
       "id": 19,
@@ -260,7 +260,7 @@
         "GM > AM"
       ],
       "answerIndex": 2,
-      "explanation": "Equality holds only when the numbers are equal."
+      "explanation": "Equality AM = GM = HM holds only when the numbers are equal."
     }
   ],
   "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
