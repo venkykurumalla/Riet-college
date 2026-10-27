@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-verbal-author-tone",
+  "topicTitle": "Author Tone and Attitude in RC",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nThe author's attitude towards the company's report is",
+      "options": [
+        "admiring",
+        "sceptical",
+        "neutral",
+        "confused"
+      ],
+      "answerIndex": 1,
+      "explanation": "The author lists facts the report leaves out and ends with an ironic remark, which shows doubt about the report."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nHer last novel is not flawless; the middle chapters drag and a few of the minor characters are barely sketched. But these are small blemishes in a work of rare generosity. Every character, even the villain, is allowed to be right about something, and the final scene, in which two old rivals share a quiet meal, is as moving as anything written in the past decade.\n\nThe author's attitude towards the novel is",
+      "options": [
+        "appreciative",
+        "hostile",
+        "indifferent",
+        "baffled"
+      ],
+      "answerIndex": 0,
+      "explanation": "The review admits small flaws but calls the work \"rare generosity\" and the last scene deeply moving."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nThe river that supplied this valley for ten thousand years now fails in the dry season. The wells are going deeper, the fields are going brown and the young are leaving. We are told to wait for studies. But the studies were done long ago and they say the same thing: the water is being taken faster than it returns. Further delay is not caution; it is a decision to let the valley die.\n\nThe author's tone is best described as",
+      "options": [
+        "playful",
+        "detached",
+        "nostalgic",
+        "urgent and critical"
+      ],
+      "answerIndex": 3,
+      "explanation": "Short, strong statements and the description of delay as a decision to let the valley die show urgency and criticism."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nThe word \"transformative\" is placed in quotation marks to suggest that",
+      "options": [
+        "the word is hard to spell",
+        "it is a technical term",
+        "the author does not accept the description",
+        "the report was written by experts"
+      ],
+      "answerIndex": 2,
+      "explanation": "The quotation marks distance the author from the word, which the facts do not support."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nHer last novel is not flawless; the middle chapters drag and a few of the minor characters are barely sketched. But these are small blemishes in a work of rare generosity. Every character, even the villain, is allowed to be right about something, and the final scene, in which two old rivals share a quiet meal, is as moving as anything written in the past decade.\n\nThe word \"blemishes\" in the passage suggests that the flaws are",
+      "options": [
+        "fatal",
+        "deliberate",
+        "minor",
+        "numerous"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"Small blemishes\" tells us the faults are small and do not spoil the work."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nThe river that supplied this valley for ten thousand years now fails in the dry season. The wells are going deeper, the fields are going brown and the young are leaving. We are told to wait for studies. But the studies were done long ago and they say the same thing: the water is being taken faster than it returns. Further delay is not caution; it is a decision to let the valley die.\n\nIn the phrase \"the young are leaving\", the author wants to show",
+      "options": [
+        "the attractions of city life",
+        "the human cost of the water shortage",
+        "a lack of schools",
+        "the cost of living"
+      ],
+      "answerIndex": 1,
+      "explanation": "The sentence lists consequences of the failing river; the young leaving is part of the damage."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nThe final sentence of the passage is an example of",
+      "options": [
+        "irony",
+        "praise",
+        "a definition",
+        "a statistic"
+      ],
+      "answerIndex": 0,
+      "explanation": "Calling the report a \"skilful rearrangement of adjectives\" appears to praise skill but actually mocks the report."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nWhich of the following best describes the author's purpose?",
+      "options": [
+        "to explain how revenue is calculated",
+        "to praise the company's managers",
+        "to advise investors to buy shares",
+        "to show that the report's claim is not supported by the facts"
+      ],
+      "answerIndex": 3,
+      "explanation": "The author sets the report's claim against the omitted facts to expose the mismatch."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nHer last novel is not flawless; the middle chapters drag and a few of the minor characters are barely sketched. But these are small blemishes in a work of rare generosity. Every character, even the villain, is allowed to be right about something, and the final scene, in which two old rivals share a quiet meal, is as moving as anything written in the past decade.\n\nThe word \"but\" in the second sentence signals",
+      "options": [
+        "a shift from praise to reservations",
+        "a contradiction of the first sentence",
+        "an apology",
+        "a shift from reservations to praise"
+      ],
+      "answerIndex": 3,
+      "explanation": "The first sentence lists faults; \"but\" turns to the novel's strengths."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nHer last novel is not flawless; the middle chapters drag and a few of the minor characters are barely sketched. But these are small blemishes in a work of rare generosity. Every character, even the villain, is allowed to be right about something, and the final scene, in which two old rivals share a quiet meal, is as moving as anything written in the past decade.\n\nWhich of the following words best describes the reviewer's overall judgement?",
+      "options": [
+        "scornful",
+        "neutral",
+        "favourable",
+        "ambivalent about quality"
+      ],
+      "answerIndex": 2,
+      "explanation": "Small faults are admitted, but the work is called generous and moving, so the verdict is favourable."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nThe river that supplied this valley for ten thousand years now fails in the dry season. The wells are going deeper, the fields are going brown and the young are leaving. We are told to wait for studies. But the studies were done long ago and they say the same thing: the water is being taken faster than it returns. Further delay is not caution; it is a decision to let the valley die.\n\nThe author calls further delay \"not caution\" in order to",
+      "options": [
+        "praise the studies",
+        "reject the idea that waiting is a safe option",
+        "suggest more research is needed",
+        "blame the young"
+      ],
+      "answerIndex": 1,
+      "explanation": "The author argues that delay is itself a harmful decision, not a careful one."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nThe river that supplied this valley for ten thousand years now fails in the dry season. The wells are going deeper, the fields are going brown and the young are leaving. We are told to wait for studies. But the studies were done long ago and they say the same thing: the water is being taken faster than it returns. Further delay is not caution; it is a decision to let the valley die.\n\nThe author's attitude towards people who ask for more studies is",
+      "options": [
+        "impatient",
+        "respectful",
+        "amused",
+        "envious"
+      ],
+      "answerIndex": 0,
+      "explanation": "The author says the studies were done long ago and says the same thing, so more waiting is wasteful."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nWhich of the following would the author most likely agree with?",
+      "options": [
+        "A report should be judged by the facts it contains, not by the adjectives it uses",
+        "A company should avoid publishing annual reports",
+        "Adjectives make a report more truthful",
+        "Revenue is the only measure of success"
+      ],
+      "answerIndex": 0,
+      "explanation": "The author contrasts adjectives with facts and prefers the facts."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nHer last novel is not flawless; the middle chapters drag and a few of the minor characters are barely sketched. But these are small blemishes in a work of rare generosity. Every character, even the villain, is allowed to be right about something, and the final scene, in which two old rivals share a quiet meal, is as moving as anything written in the past decade.\n\nThe phrase \"as moving as anything written in the past decade\" is an example of",
+      "options": [
+        "mild criticism",
+        "neutral description",
+        "irony",
+        "high praise"
+      ],
+      "answerIndex": 3,
+      "explanation": "Comparing the scene favourably with a decade of writing is high praise."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nThe river that supplied this valley for ten thousand years now fails in the dry season. The wells are going deeper, the fields are going brown and the young are leaving. We are told to wait for studies. But the studies were done long ago and they say the same thing: the water is being taken faster than it returns. Further delay is not caution; it is a decision to let the valley die.\n\nWhich of the following best describes how the tone changes in the passage?",
+      "options": [
+        "It moves from anger to calm acceptance",
+        "It moves from humour to sadness",
+        "It moves from describing a problem to blunt criticism of inaction",
+        "It stays neutral throughout"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage first describes the failing river and its effects, then criticises waiting for further studies."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nThe author's remark \"one might think\" is used to",
+      "options": [
+        "introduce a statistic",
+        "raise a mildly sarcastic point",
+        "express uncertainty about the facts",
+        "praise the report"
+      ],
+      "answerIndex": 1,
+      "explanation": "\"One might think\" introduces an obvious point in a gently sarcastic way: a transformation needs a change."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nHer last novel is not flawless; the middle chapters drag and a few of the minor characters are barely sketched. But these are small blemishes in a work of rare generosity. Every character, even the villain, is allowed to be right about something, and the final scene, in which two old rivals share a quiet meal, is as moving as anything written in the past decade.\n\nThe reviewer's approach can best be described as",
+      "options": [
+        "purely critical",
+        "balanced but ultimately admiring",
+        "purely descriptive",
+        "dismissive of the author"
+      ],
+      "answerIndex": 1,
+      "explanation": "Faults are acknowledged, yet the review ends in admiration."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nThe river that supplied this valley for ten thousand years now fails in the dry season. The wells are going deeper, the fields are going brown and the young are leaving. We are told to wait for studies. But the studies were done long ago and they say the same thing: the water is being taken faster than it returns. Further delay is not caution; it is a decision to let the valley die.\n\nWhich of the following words would LEAST describe the author's tone?",
+      "options": [
+        "humorous",
+        "urgent",
+        "critical",
+        "impassioned"
+      ],
+      "answerIndex": 0,
+      "explanation": "The passage is serious and forceful; there is no humour."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nIf the report had listed costs and resignations honestly, the author's tone would probably have been",
+      "options": [
+        "more sarcastic",
+        "angrier",
+        "more ironic",
+        "less sceptical"
+      ],
+      "answerIndex": 3,
+      "explanation": "The scepticism comes from what the report left out; a fuller report would give less cause for doubt."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nHer last novel is not flawless; the middle chapters drag and a few of the minor characters are barely sketched. But these are small blemishes in a work of rare generosity. Every character, even the villain, is allowed to be right about something, and the final scene, in which two old rivals share a quiet meal, is as moving as anything written in the past decade.\n\nA reader who wanted an uncritical rave review of the novel would find the passage",
+      "options": [
+        "too hostile",
+        "too technical",
+        "too reserved",
+        "too short to read"
+      ],
+      "answerIndex": 2,
+      "explanation": "The reviewer admits flaws, so it is not an uncritical rave."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/comprehension/"
+}

@@ -1,0 +1,418 @@
+{
+  "id": "y3-verbal-main-idea",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 48,
+  "title": "Main Idea and Central Theme Identification",
+  "tagline": "Year 3 — Finding the point of a whole passage: titles, purposes, summaries and what is not the main idea",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "The main idea is the single point to which every paragraph contributes. Questions on it ask for the central theme, the best title, the primary purpose or the best summary. The right option always covers the whole passage but goes no further. This chapter shows how to find the controlling idea, how to tell it from details and examples, and how to reject options that are too narrow, too broad or simply true but irrelevant.",
+    "placementRelevance": "Main-idea questions open almost every comprehension set and are among the easiest marks if you read for the point.",
+    "realWorldContext": "Summing up a long email or report in one sentence is the same skill."
+  },
+  "learningObjectives": [
+    "Find the controlling idea of a passage",
+    "Distinguish main idea from supporting details",
+    "Choose the best title",
+    "Identify the author's primary purpose",
+    "Reject options that are too narrow or too broad"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Reading Comprehension — Long Passages"
+    ],
+    "quickRefresher": "The first and last sentences of paragraphs often carry the main idea, but a \"but\" or \"however\" often marks the real point."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Main idea: the point the whole passage supports.",
+      "Supporting detail: a fact or example that supports the main idea.",
+      "Title: a short form of the main idea that covers the whole passage.",
+      "Primary purpose: why the author wrote the passage (explain, argue, compare, criticise).",
+      "Too narrow / too broad: an option that covers only a part, or goes beyond, the passage."
+    ],
+    "theoreticalIntuition": "Imagine telling a friend in one sentence what the passage is about. If your sentence fits every paragraph, it is the main idea.",
+    "visualOrMentalModel": "After reading, state the point in one sentence. Compare each option with it. Reject options that match only a detail, or that claim more than the passage does."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Scope test",
+      "formula": "Covers the whole passage, no more",
+      "description": "Main idea options.",
+      "whenToUse": "Primary test.",
+      "simpleExample": "Libraries as community spaces"
+    },
+    {
+      "title": "Contrast marker",
+      "formula": "\"but\", \"however\", \"yet\" ⇒ main point follows",
+      "description": "Passages with a shift.",
+      "whenToUse": "Pointer.",
+      "simpleExample": "Out of date, but…"
+    },
+    {
+      "title": "Purpose verb",
+      "formula": "Explain, argue, compare, criticise",
+      "description": "Purpose questions.",
+      "whenToUse": "Verb match.",
+      "simpleExample": "To argue that libraries should be judged by visitors"
+    },
+    {
+      "title": "Title test",
+      "formula": "Short, specific, covers all",
+      "description": "Title questions.",
+      "whenToUse": "Check.",
+      "simpleExample": "More than Books"
+    },
+    {
+      "title": "Example vs point",
+      "formula": "Examples support; they are not the point",
+      "description": "Detail-heavy passages.",
+      "whenToUse": "Filter.",
+      "simpleExample": "Job applications are an example"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "In the library passage, the opening says libraries are described as places to borrow books, but that is out of date. The examples (job applications, study, classes, internet) show what people actually do. The last sentence gives the point: a library should be judged by how many people come and what they do inside. The main idea is that libraries serve as community spaces beyond lending books.",
+      "In the teenage-sleep passage, the author reports that teenagers' body clocks shift, early starts mismatch their sleep, later starts help, and the cost is smaller than the cost of tired students. The main idea is that later school start times suit teenagers' biology and may be worth the cost.",
+      "In the translation passage, the porter analogy introduces the point: translation is not a word-by-word transfer. The examples (puns, proverbs, polite phrases) support it, and the last sentence summarises it: translation is rewriting with discipline, which needs cultural understanding.",
+      "A detail option, such as \"job applications are filled in at libraries\", is true but covers only one example. An option such as \"libraries should be closed\" goes beyond the passage.",
+      "For purpose questions, pick the verb first. This author is arguing, not merely describing, so options beginning with \"to describe\" are weaker than \"to argue\"."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "The last sentence",
+        "content": "In argumentative passages, the last sentence often restates the main point in its sharpest form."
+      },
+      {
+        "title": "Analogy openers",
+        "content": "A comparison at the start (the porter and the grain) is a device for introducing the main idea, not the main idea itself."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Best title",
+      "description": "Short and complete.",
+      "exampleSnippet": "More than Books"
+    },
+    {
+      "typeName": "Primary purpose",
+      "description": "Choose the verb.",
+      "exampleSnippet": "To argue"
+    },
+    {
+      "typeName": "Central theme",
+      "description": "Whole passage.",
+      "exampleSnippet": "Cultural understanding"
+    },
+    {
+      "typeName": "Not the main idea",
+      "description": "Details and examples.",
+      "exampleSnippet": "Job applications"
+    },
+    {
+      "typeName": "Summary",
+      "description": "One sentence.",
+      "exampleSnippet": "Later start times"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-main-idea-1",
+      "title": "Main idea",
+      "question": "A passage says libraries are mostly used for study, internet access and classes rather than lending, and argues they should be judged by visitors and activity. What is the main idea?",
+      "givenInfo": [
+        "Contrast with the old view"
+      ],
+      "conceptOrFormula": "Scope test.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Point",
+          "explanation": "Libraries serve many purposes beyond lending."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Option",
+          "explanation": "Choose the one that says so."
+        }
+      ],
+      "finalAnswer": "Libraries function as community spaces beyond lending books",
+      "whyItWorks": "It covers the whole passage.",
+      "commonTrap": "Choosing a detail about job applications.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-main-idea-2",
+      "title": "Purpose",
+      "question": "An author uses the example of the porter to argue that translation is not word-for-word transfer. What is the primary purpose?",
+      "givenInfo": [
+        "Argument with analogy"
+      ],
+      "conceptOrFormula": "Choose the verb.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Verb",
+          "explanation": "The author argues a point."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Point",
+          "explanation": "Translation needs cultural understanding and rewriting."
+        }
+      ],
+      "finalAnswer": "To argue that translation requires cultural judgement rather than word-for-word transfer",
+      "whyItWorks": "It is argument, not description.",
+      "commonTrap": "Choosing \"to list words\".",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-main-idea-3",
+      "title": "Too narrow",
+      "question": "In a passage on teenage sleep, an option says \"Bus timetables must be rearranged when school starts later\". Is this the main idea?",
+      "givenInfo": [
+        "A cost mentioned in the passage"
+      ],
+      "conceptOrFormula": "Detail or point?",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Role",
+          "explanation": "It is a cost, a supporting detail."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Scope",
+          "explanation": "It does not cover the whole passage."
+        }
+      ],
+      "finalAnswer": "No, it is only a detail",
+      "whyItWorks": "The main idea is about the benefits outweighing the costs.",
+      "commonTrap": "Choosing the first option read.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "One sentence",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Pick the most familiar option.",
+      "shortcutMethod": "State the point in one sentence, check it against every paragraph, and reject options that are narrower or broader."
+    },
+    "rulesForApplication": [
+      "Watch the shift word.",
+      "Last sentence often states the point.",
+      "Examples are not the point.",
+      "Match the purpose verb."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Choosing a detail",
+      "whyItHappens": "Too narrow.",
+      "howToAvoid": "Check whole-passage fit."
+    },
+    {
+      "mistake": "Choosing an opinion not in the passage",
+      "whyItHappens": "Too broad.",
+      "howToAvoid": "Stay within what the author says."
+    },
+    {
+      "mistake": "Picking the first idea",
+      "whyItHappens": "Order is not importance.",
+      "howToAvoid": "Find what all paragraphs support."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Eliminate options that begin with extremes or add new claims.",
+    "questionSelectionAdvice": "Titles should be short; reject long or vague ones.",
+    "recruiterInsight": "A true statement can still be the wrong answer."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-main-idea-e1",
+        "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nThe central idea of the passage is that",
+        "options": [
+          "lending books should be stopped",
+          "libraries serve many purposes beyond lending books",
+          "councils should build more libraries",
+          "the internet has replaced libraries"
+        ],
+        "correctAnswer": "libraries serve many purposes beyond lending books",
+        "explanation": "The examples of study, internet and classes support the point that libraries do much more than lend books.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-main-idea-e2",
+        "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nThe best title for the passage is",
+        "options": [
+          "More Than Just Books",
+          "The Decline of Reading",
+          "Council Budgets in Trouble",
+          "The History of the Library"
+        ],
+        "correctAnswer": "More Than Just Books",
+        "explanation": "The title covers the whole passage: libraries are used for far more than books.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-main-idea-e3",
+        "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nThe author's primary purpose is to",
+        "options": [
+          "describe the history of lending",
+          "criticise people who use the internet",
+          "recommend new books",
+          "argue that libraries should be judged by use, not only by lending"
+        ],
+        "correctAnswer": "argue that libraries should be judged by use, not only by lending",
+        "explanation": "The author argues that libraries are judged by visitors and activity, not by books lent.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-main-idea-i7",
+        "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nWhich of the following is NOT the main idea but a supporting detail?",
+        "options": [
+          "People use library computers to fill in job applications",
+          "Libraries are judged by visitors and activity",
+          "Libraries do more than lend books",
+          "Lending figures alone give a misleading picture"
+        ],
+        "correctAnswer": "People use library computers to fill in job applications",
+        "explanation": "The job application is one example; the other options express the central argument.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-main-idea-i8",
+        "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nThe author says the councils \"have missed the point\" because they",
+        "options": [
+          "build too many libraries",
+          "ignore the internet",
+          "dislike reading",
+          "judge libraries by lending figures alone"
+        ],
+        "correctAnswer": "judge libraries by lending figures alone",
+        "explanation": "Councils used falling lending figures as a reason to cut budgets, while the author says use should be judged more broadly.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-main-idea-i9",
+        "question": "Read the passage and answer the question.\n\nTeenagers are often accused of laziness because they sleep late at weekends, but research suggests that their body clocks shift during adolescence, so that they naturally feel sleepy later at night and wake later in the morning. Schools that start at eight o'clock therefore ask many teenagers to wake when their bodies are still set for sleep. Several districts that moved the start of the school day by an hour reported better attendance and fewer late arrivals, and some noted better test results as well. The change is not free: bus timetables and sports practice must be rearranged. But the evidence suggests that the cost of a later start may be smaller than the cost of tired students.\n\nWhich of the following best states the main idea of the passage?",
+        "options": [
+          "Teenagers should sleep more at weekends",
+          "Schools should change their timetables every year",
+          "Sports practice is more important than lessons",
+          "Later school start times suit teenagers' biology, and the benefits may outweigh the costs"
+        ],
+        "correctAnswer": "Later school start times suit teenagers' biology, and the benefits may outweigh the costs",
+        "explanation": "The passage presents the body-clock evidence, the benefits and the claim that cost is smaller than the cost of tired students.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-main-idea-a15",
+        "question": "Read the passage and answer the question.\n\nA translator does not carry words from one language to another as a porter carries sacks of grain. Words do not weigh the same in different languages, and a sentence rarely has an exact twin. A joke that depends on a pun, a proverb that depends on a local custom, or a polite phrase that has no equivalent must be rebuilt, not copied. For this reason good translators are not those who know the most words but those who understand both cultures well enough to decide what must be kept and what may be changed. Translation is closer to rewriting with discipline than to copying with care.\n\nThe last sentence of the passage can best be understood as",
+        "options": [
+          "an unrelated aside",
+          "a criticism of translators",
+          "a summary of the author's central claim",
+          "a question for the reader"
+        ],
+        "correctAnswer": "a summary of the author's central claim",
+        "explanation": "It restates the main point: translation is disciplined rewriting.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-main-idea-a16",
+        "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nWhich of the following statements would the author most likely agree with?",
+        "options": [
+          "A library with few lent books should be closed",
+          "A quiet library with many visitors is succeeding even if few books are lent",
+          "Only lending matters for judging libraries",
+          "People should not use library computers"
+        ],
+        "correctAnswer": "A quiet library with many visitors is succeeding even if few books are lent",
+        "explanation": "The author says a library is judged by visitors and activity, not by books that leave it.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-main-idea-p17",
+        "question": "Read the passage and answer the question.\n\nTeenagers are often accused of laziness because they sleep late at weekends, but research suggests that their body clocks shift during adolescence, so that they naturally feel sleepy later at night and wake later in the morning. Schools that start at eight o'clock therefore ask many teenagers to wake when their bodies are still set for sleep. Several districts that moved the start of the school day by an hour reported better attendance and fewer late arrivals, and some noted better test results as well. The change is not free: bus timetables and sports practice must be rearranged. But the evidence suggests that the cost of a later start may be smaller than the cost of tired students.\n\nWhich of the following, if true, would most weaken the author's main conclusion?",
+        "options": [
+          "Teenagers go to bed later than adults",
+          "Districts that started later reported no change in attendance or test scores and had to cut sports programmes",
+          "Buses run on a fixed timetable",
+          "Some teenagers wake early"
+        ],
+        "correctAnswer": "Districts that started later reported no change in attendance or test scores and had to cut sports programmes",
+        "explanation": "It removes the claimed benefits while adding costs, which weakens the conclusion that the benefits may outweigh the costs.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-main-idea-p18",
+        "question": "Read the passage and answer the question.\n\nA translator does not carry words from one language to another as a porter carries sacks of grain. Words do not weigh the same in different languages, and a sentence rarely has an exact twin. A joke that depends on a pun, a proverb that depends on a local custom, or a polite phrase that has no equivalent must be rebuilt, not copied. For this reason good translators are not those who know the most words but those who understand both cultures well enough to decide what must be kept and what may be changed. Translation is closer to rewriting with discipline than to copying with care.\n\nWhich of the following would be the weakest title for the passage?",
+        "options": [
+          "Porters and Grain",
+          "Rebuilding Meaning Across Languages",
+          "Translation Is More Than Words",
+          "The Skill of Moving Between Cultures"
+        ],
+        "correctAnswer": "Porters and Grain",
+        "explanation": "The porter image is only an analogy used to open the argument; it does not name the subject or point.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-main-idea-p19",
+        "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nThe word \"heavily\" in \"the most heavily used part\" suggests that",
+        "options": [
+          "the area is expensive to run",
+          "the area is old",
+          "the area has heavy books",
+          "the area has more visitors than any other"
+        ],
+        "correctAnswer": "the area has more visitors than any other",
+        "explanation": "It means the area is used a great deal, more than any other part.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "One-sentence summary.",
+      "Scope.",
+      "Contrast words.",
+      "Purpose verbs.",
+      "Detail versus point."
+    ],
+    "quickFormulas": [
+      "Main idea = point of every paragraph"
+    ]
+  },
+  "keyTakeaways": [
+    "State the point.",
+    "Check scope.",
+    "Pick the verb.",
+    "Ignore examples."
+  ],
+  "selfCheckQuestions": [
+    "Can I summarise in one sentence?",
+    "Can I reject narrow options?",
+    "Can I match the purpose verb?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}

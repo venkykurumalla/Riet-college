@@ -1,0 +1,267 @@
+{
+  "topicId": "y3-verbal-main-idea",
+  "topicTitle": "Main Idea and Central Theme Identification",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nThe central idea of the passage is that",
+      "options": [
+        "lending books should be stopped",
+        "libraries serve many purposes beyond lending books",
+        "councils should build more libraries",
+        "the internet has replaced libraries"
+      ],
+      "answerIndex": 1,
+      "explanation": "The examples of study, internet and classes support the point that libraries do much more than lend books."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nThe best title for the passage is",
+      "options": [
+        "More Than Just Books",
+        "The Decline of Reading",
+        "Council Budgets in Trouble",
+        "The History of the Library"
+      ],
+      "answerIndex": 0,
+      "explanation": "The title covers the whole passage: libraries are used for far more than books."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nThe author's primary purpose is to",
+      "options": [
+        "describe the history of lending",
+        "criticise people who use the internet",
+        "recommend new books",
+        "argue that libraries should be judged by use, not only by lending"
+      ],
+      "answerIndex": 3,
+      "explanation": "The author argues that libraries are judged by visitors and activity, not by books lent."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nTeenagers are often accused of laziness because they sleep late at weekends, but research suggests that their body clocks shift during adolescence, so that they naturally feel sleepy later at night and wake later in the morning. Schools that start at eight o'clock therefore ask many teenagers to wake when their bodies are still set for sleep. Several districts that moved the start of the school day by an hour reported better attendance and fewer late arrivals, and some noted better test results as well. The change is not free: bus timetables and sports practice must be rearranged. But the evidence suggests that the cost of a later start may be smaller than the cost of tired students.\n\nThe passage is mainly concerned with",
+      "options": [
+        "why teenagers dislike school",
+        "how to make buses run on time",
+        "whether schools should start later for teenagers",
+        "the best age for sports practice"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage discusses the evidence for later school start times."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nTeenagers are often accused of laziness because they sleep late at weekends, but research suggests that their body clocks shift during adolescence, so that they naturally feel sleepy later at night and wake later in the morning. Schools that start at eight o'clock therefore ask many teenagers to wake when their bodies are still set for sleep. Several districts that moved the start of the school day by an hour reported better attendance and fewer late arrivals, and some noted better test results as well. The change is not free: bus timetables and sports practice must be rearranged. But the evidence suggests that the cost of a later start may be smaller than the cost of tired students.\n\nAccording to the passage, teenagers sleep late at weekends because",
+      "options": [
+        "they are lazy",
+        "they study late",
+        "their body clocks shift during adolescence",
+        "their schools start late"
+      ],
+      "answerIndex": 2,
+      "explanation": "The passage says research suggests teenage body clocks shift, making them sleepy later and awake later."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question.\n\nA translator does not carry words from one language to another as a porter carries sacks of grain. Words do not weigh the same in different languages, and a sentence rarely has an exact twin. A joke that depends on a pun, a proverb that depends on a local custom, or a polite phrase that has no equivalent must be rebuilt, not copied. For this reason good translators are not those who know the most words but those who understand both cultures well enough to decide what must be kept and what may be changed. Translation is closer to rewriting with discipline than to copying with care.\n\nThe passage is mainly about",
+      "options": [
+        "the history of language",
+        "the difficulty and skill involved in translation",
+        "the best dictionaries",
+        "how porters work"
+      ],
+      "answerIndex": 1,
+      "explanation": "The porter analogy and examples are used to show that translation is a skilled, cultural act."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nWhich of the following is NOT the main idea but a supporting detail?",
+      "options": [
+        "People use library computers to fill in job applications",
+        "Libraries are judged by visitors and activity",
+        "Libraries do more than lend books",
+        "Lending figures alone give a misleading picture"
+      ],
+      "answerIndex": 0,
+      "explanation": "The job application is one example; the other options express the central argument."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nThe author says the councils \"have missed the point\" because they",
+      "options": [
+        "build too many libraries",
+        "ignore the internet",
+        "dislike reading",
+        "judge libraries by lending figures alone"
+      ],
+      "answerIndex": 3,
+      "explanation": "Councils used falling lending figures as a reason to cut budgets, while the author says use should be judged more broadly."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nTeenagers are often accused of laziness because they sleep late at weekends, but research suggests that their body clocks shift during adolescence, so that they naturally feel sleepy later at night and wake later in the morning. Schools that start at eight o'clock therefore ask many teenagers to wake when their bodies are still set for sleep. Several districts that moved the start of the school day by an hour reported better attendance and fewer late arrivals, and some noted better test results as well. The change is not free: bus timetables and sports practice must be rearranged. But the evidence suggests that the cost of a later start may be smaller than the cost of tired students.\n\nWhich of the following best states the main idea of the passage?",
+      "options": [
+        "Teenagers should sleep more at weekends",
+        "Schools should change their timetables every year",
+        "Sports practice is more important than lessons",
+        "Later school start times suit teenagers' biology, and the benefits may outweigh the costs"
+      ],
+      "answerIndex": 3,
+      "explanation": "The passage presents the body-clock evidence, the benefits and the claim that cost is smaller than the cost of tired students."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nTeenagers are often accused of laziness because they sleep late at weekends, but research suggests that their body clocks shift during adolescence, so that they naturally feel sleepy later at night and wake later in the morning. Schools that start at eight o'clock therefore ask many teenagers to wake when their bodies are still set for sleep. Several districts that moved the start of the school day by an hour reported better attendance and fewer late arrivals, and some noted better test results as well. The change is not free: bus timetables and sports practice must be rearranged. But the evidence suggests that the cost of a later start may be smaller than the cost of tired students.\n\nThe sentence \"The change is not free\" mainly serves to",
+      "options": [
+        "argue against the change",
+        "introduce a new topic",
+        "admit a cost before concluding that it may be worth paying",
+        "blame schools"
+      ],
+      "answerIndex": 2,
+      "explanation": "It concedes a cost, after which the passage argues the cost may be smaller than the benefit."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nTeenagers are often accused of laziness because they sleep late at weekends, but research suggests that their body clocks shift during adolescence, so that they naturally feel sleepy later at night and wake later in the morning. Schools that start at eight o'clock therefore ask many teenagers to wake when their bodies are still set for sleep. Several districts that moved the start of the school day by an hour reported better attendance and fewer late arrivals, and some noted better test results as well. The change is not free: bus timetables and sports practice must be rearranged. But the evidence suggests that the cost of a later start may be smaller than the cost of tired students.\n\nThe best title for the passage is",
+      "options": [
+        "How to Keep Teenagers Awake",
+        "Why School Should Start Later for Teenagers",
+        "The Problem of Weekend Lateness",
+        "A History of School Timetables"
+      ],
+      "answerIndex": 1,
+      "explanation": "The title covers biology, evidence from districts and the cost-benefit conclusion."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nA translator does not carry words from one language to another as a porter carries sacks of grain. Words do not weigh the same in different languages, and a sentence rarely has an exact twin. A joke that depends on a pun, a proverb that depends on a local custom, or a polite phrase that has no equivalent must be rebuilt, not copied. For this reason good translators are not those who know the most words but those who understand both cultures well enough to decide what must be kept and what may be changed. Translation is closer to rewriting with discipline than to copying with care.\n\nThe comparison with a porter is used to show that",
+      "options": [
+        "translation is not a simple transfer of words",
+        "translators carry heavy loads",
+        "translation is easy",
+        "porters know many languages"
+      ],
+      "answerIndex": 0,
+      "explanation": "A porter carries sacks unchanged; the author says translation cannot move words unchanged."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nA translator does not carry words from one language to another as a porter carries sacks of grain. Words do not weigh the same in different languages, and a sentence rarely has an exact twin. A joke that depends on a pun, a proverb that depends on a local custom, or a polite phrase that has no equivalent must be rebuilt, not copied. For this reason good translators are not those who know the most words but those who understand both cultures well enough to decide what must be kept and what may be changed. Translation is closer to rewriting with discipline than to copying with care.\n\nAccording to the passage, a good translator is someone who",
+      "options": [
+        "understands both cultures well",
+        "knows the most words",
+        "copies sentences exactly",
+        "avoids jokes"
+      ],
+      "answerIndex": 0,
+      "explanation": "The author says good translators understand both cultures well enough to decide what to keep and change."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question.\n\nA translator does not carry words from one language to another as a porter carries sacks of grain. Words do not weigh the same in different languages, and a sentence rarely has an exact twin. A joke that depends on a pun, a proverb that depends on a local custom, or a polite phrase that has no equivalent must be rebuilt, not copied. For this reason good translators are not those who know the most words but those who understand both cultures well enough to decide what must be kept and what may be changed. Translation is closer to rewriting with discipline than to copying with care.\n\nThe examples of puns, proverbs and polite phrases are given to show that",
+      "options": [
+        "languages have no humour",
+        "jokes are untranslatable in any form",
+        "polite phrases are rare",
+        "some expressions must be rebuilt rather than copied"
+      ],
+      "answerIndex": 3,
+      "explanation": "The author says such expressions \"must be rebuilt, not copied\"."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nA translator does not carry words from one language to another as a porter carries sacks of grain. Words do not weigh the same in different languages, and a sentence rarely has an exact twin. A joke that depends on a pun, a proverb that depends on a local custom, or a polite phrase that has no equivalent must be rebuilt, not copied. For this reason good translators are not those who know the most words but those who understand both cultures well enough to decide what must be kept and what may be changed. Translation is closer to rewriting with discipline than to copying with care.\n\nThe last sentence of the passage can best be understood as",
+      "options": [
+        "an unrelated aside",
+        "a criticism of translators",
+        "a summary of the author's central claim",
+        "a question for the reader"
+      ],
+      "answerIndex": 2,
+      "explanation": "It restates the main point: translation is disciplined rewriting."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nWhich of the following statements would the author most likely agree with?",
+      "options": [
+        "A library with few lent books should be closed",
+        "A quiet library with many visitors is succeeding even if few books are lent",
+        "Only lending matters for judging libraries",
+        "People should not use library computers"
+      ],
+      "answerIndex": 1,
+      "explanation": "The author says a library is judged by visitors and activity, not by books that leave it."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nTeenagers are often accused of laziness because they sleep late at weekends, but research suggests that their body clocks shift during adolescence, so that they naturally feel sleepy later at night and wake later in the morning. Schools that start at eight o'clock therefore ask many teenagers to wake when their bodies are still set for sleep. Several districts that moved the start of the school day by an hour reported better attendance and fewer late arrivals, and some noted better test results as well. The change is not free: bus timetables and sports practice must be rearranged. But the evidence suggests that the cost of a later start may be smaller than the cost of tired students.\n\nWhich of the following, if true, would most weaken the author's main conclusion?",
+      "options": [
+        "Teenagers go to bed later than adults",
+        "Districts that started later reported no change in attendance or test scores and had to cut sports programmes",
+        "Buses run on a fixed timetable",
+        "Some teenagers wake early"
+      ],
+      "answerIndex": 1,
+      "explanation": "It removes the claimed benefits while adding costs, which weakens the conclusion that the benefits may outweigh the costs."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nA translator does not carry words from one language to another as a porter carries sacks of grain. Words do not weigh the same in different languages, and a sentence rarely has an exact twin. A joke that depends on a pun, a proverb that depends on a local custom, or a polite phrase that has no equivalent must be rebuilt, not copied. For this reason good translators are not those who know the most words but those who understand both cultures well enough to decide what must be kept and what may be changed. Translation is closer to rewriting with discipline than to copying with care.\n\nWhich of the following would be the weakest title for the passage?",
+      "options": [
+        "Porters and Grain",
+        "Rebuilding Meaning Across Languages",
+        "Translation Is More Than Words",
+        "The Skill of Moving Between Cultures"
+      ],
+      "answerIndex": 0,
+      "explanation": "The porter image is only an analogy used to open the argument; it does not name the subject or point."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nPublic libraries are often described as places to borrow books, but that description is increasingly out of date. In many towns the most heavily used part of the library is no longer the lending desk but the reading room, the computer terminals and the meeting rooms. People come to fill in job applications, to study in a quiet place, to take free classes in languages and to use the internet when they do not have it at home. Lending figures have fallen, and some councils have used this as a reason to cut library budgets. They have missed the point. A library is judged less by how many books leave it than by how many people come through its doors and what they do once inside.\n\nThe word \"heavily\" in \"the most heavily used part\" suggests that",
+      "options": [
+        "the area is expensive to run",
+        "the area is old",
+        "the area has heavy books",
+        "the area has more visitors than any other"
+      ],
+      "answerIndex": 3,
+      "explanation": "It means the area is used a great deal, more than any other part."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Read the passage and answer the question.\n\nTeenagers are often accused of laziness because they sleep late at weekends, but research suggests that their body clocks shift during adolescence, so that they naturally feel sleepy later at night and wake later in the morning. Schools that start at eight o'clock therefore ask many teenagers to wake when their bodies are still set for sleep. Several districts that moved the start of the school day by an hour reported better attendance and fewer late arrivals, and some noted better test results as well. The change is not free: bus timetables and sports practice must be rearranged. But the evidence suggests that the cost of a later start may be smaller than the cost of tired students.\n\nThe passage implies that tired students",
+      "options": [
+        "perform best in the morning",
+        "cause late bus arrivals",
+        "impose a cost that is less visible than timetable changes",
+        "prefer sports to lessons"
+      ],
+      "answerIndex": 2,
+      "explanation": "The author sets the visible cost of rearranging timetables against the cost of tired students, which is real but less direct."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/verbal-ability/comprehension/"
+}

@@ -1,0 +1,421 @@
+{
+  "id": "y3-verbal-author-tone",
+  "yearId": 3,
+  "category": "Advanced Verbal Ability",
+  "topicNumber": 47,
+  "title": "Author Tone and Attitude in RC",
+  "tagline": "Year 3 — Reading word choice, qualifiers and irony to name the author's attitude",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "Tone is the author's attitude towards the subject, shown not by what is said but by how it is said. Adjectives, adverbs, qualifiers, rhetorical questions and irony all carry attitude. Tone questions ask you to name that attitude (sceptical, appreciative, urgent, neutral) or to say what a phrase is meant to convey. The skill is to read the choice of words, not just the facts.",
+    "placementRelevance": "Tone and attitude questions appear in nearly every advanced reading-comprehension set.",
+    "realWorldContext": "Telling whether an email is polite, irritated or sarcastic depends on the same cues."
+  },
+  "learningObjectives": [
+    "Identify positive, negative and neutral tone",
+    "Read qualifiers and concessions (\"but\", \"though\")",
+    "Recognise irony and sarcasm",
+    "Match tone words to evidence",
+    "Avoid extreme tone labels for balanced passages"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Reading Comprehension — Long Passages",
+      "Inference-Based RC Questions"
+    ],
+    "quickRefresher": "A tone word should fit most of the passage, not just one sentence. Balanced passages call for balanced tone words."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Tone: the author's attitude to the subject.",
+      "Irony: saying one thing and meaning another, often the opposite.",
+      "Concession: admitting a weakness before making the main point (\"not flawless, but…\").",
+      "Loaded word: a word that carries approval or disapproval (transformative, blemishes).",
+      "Neutral tone: informative and unemotional, with few evaluative words."
+    ],
+    "theoreticalIntuition": "Ask what the author wants you to feel about the subject, and which words push you that way.",
+    "visualOrMentalModel": "Underline evaluative words. Decide positive, negative or mixed. Choose the tone word that fits the strongest evidence and the amount of emotion shown."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Concession pattern",
+      "formula": "\"X is not perfect, but…\" ⇒ approval",
+      "description": "Positive overall.",
+      "whenToUse": "Appreciative.",
+      "simpleExample": "Her novel"
+    },
+    {
+      "title": "Irony pattern",
+      "formula": "Praise word in doubtful context ⇒ sarcasm",
+      "description": "Mismatch of word and facts.",
+      "whenToUse": "Sceptical.",
+      "simpleExample": "\"Transformative\" year"
+    },
+    {
+      "title": "Urgency pattern",
+      "formula": "Short sentences, strong verbs",
+      "description": "Calls to act.",
+      "whenToUse": "Impassioned.",
+      "simpleExample": "Let the valley die"
+    },
+    {
+      "title": "Intensity check",
+      "formula": "Match strength of tone word to strength of text",
+      "description": "Close options.",
+      "whenToUse": "Calibration.",
+      "simpleExample": "Critical, not furious"
+    },
+    {
+      "title": "Whole-passage check",
+      "formula": "Tone must fit most sentences",
+      "description": "All.",
+      "whenToUse": "Final test.",
+      "simpleExample": "One sentence is not the tone"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "In the annual-report passage, the report calls the year \"transformative\", but the author lists the facts it leaves out: costs rose faster than revenue, managers resigned and a key product has no customers. The final sentence says the report records \"a skilful rearrangement of adjectives\". The tone is sceptical and ironic.",
+      "The novel passage opens with a concession: the middle drags and minor characters are thin. Then \"but\" turns to \"rare generosity\" and a final scene \"as moving as anything written in the past decade\". The tone is appreciative, with minor reservations.",
+      "The river passage uses short, strong sentences and a blunt closing line. The author is urgent and critical of delay, calling it \"a decision to let the valley die\".",
+      "To choose between close tone words, calibrate intensity. \"Critical\" fits mild disapproval; \"scornful\" fits contempt. Choose the word that matches how strong the text feels.",
+      "A balanced passage deserves a balanced tone word, such as \"measured\" or \"appreciative but not uncritical\", not an extreme one."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Irony with quotation marks",
+        "content": "Scare quotes around a word such as \"transformative\" signal that the author does not accept it."
+      },
+      {
+        "title": "Concession before conclusion",
+        "content": "The strongest clause in a \"not X, but Y\" sentence is Y."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Sceptical",
+      "description": "Doubting claims.",
+      "exampleSnippet": "Annual report"
+    },
+    {
+      "typeName": "Appreciative",
+      "description": "Concession then praise.",
+      "exampleSnippet": "Novel review"
+    },
+    {
+      "typeName": "Urgent",
+      "description": "Call to act.",
+      "exampleSnippet": "River valley"
+    },
+    {
+      "typeName": "Neutral",
+      "description": "Informative.",
+      "exampleSnippet": "Reference text"
+    },
+    {
+      "typeName": "Ironic",
+      "description": "Praise as criticism.",
+      "exampleSnippet": "Rearrangement of adjectives"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-verbal-author-tone-1",
+      "title": "Irony",
+      "question": "A report calls the year \"transformative\", yet costs rose faster than revenue. The author calls it \"a skilful rearrangement of adjectives\". What is the tone?",
+      "givenInfo": [
+        "Quotation marks",
+        "Contrast of word and facts"
+      ],
+      "conceptOrFormula": "Spot the mismatch.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Mismatch",
+          "explanation": "The word \"transformative\" is not supported by the facts."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Tone",
+          "explanation": "The author doubts the report: sceptical and ironic."
+        }
+      ],
+      "finalAnswer": "Sceptical and ironic",
+      "whyItWorks": "The author does not accept the claim.",
+      "commonTrap": "Choosing admiring.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-verbal-author-tone-2",
+      "title": "Concession",
+      "question": "A reviewer says a novel is \"not flawless\" but \"a work of rare generosity\". What is the reviewer's attitude?",
+      "givenInfo": [
+        "Not X but Y"
+      ],
+      "conceptOrFormula": "The stronger clause wins.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Concession",
+          "explanation": "Minor faults are admitted."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Main point",
+          "explanation": "The praise outweighs them."
+        }
+      ],
+      "finalAnswer": "Appreciative with minor reservations",
+      "whyItWorks": "The verdict is positive.",
+      "commonTrap": "Choosing neutral.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-verbal-author-tone-3",
+      "title": "Urgency",
+      "question": "An author says that waiting for more studies is \"a decision to let the valley die\". What is the tone?",
+      "givenInfo": [
+        "Strong verbs",
+        "Blunt closing"
+      ],
+      "conceptOrFormula": "Intensity check.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Words",
+          "explanation": "\"Die\" and \"delay\" are strong."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Tone",
+          "explanation": "Urgent and critical."
+        }
+      ],
+      "finalAnswer": "Urgent and critical",
+      "whyItWorks": "It is impassioned rather than calm.",
+      "commonTrap": "Choosing cautious.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Underline the loaded words",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Guess from the topic.",
+      "shortcutMethod": "Underline evaluative words, check for irony and concessions, then choose the tone word that matches the strength of the evidence."
+    },
+    "rulesForApplication": [
+      "Concession then praise: appreciative.",
+      "Scare quotes: sceptical.",
+      "Short strong sentences: urgent.",
+      "Calibrate intensity."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Picking an extreme tone word",
+      "whyItHappens": "Overstates.",
+      "howToAvoid": "Match intensity."
+    },
+    {
+      "mistake": "Judging from one sentence",
+      "whyItHappens": "Misses the pattern.",
+      "howToAvoid": "Check the whole passage."
+    },
+    {
+      "mistake": "Missing the irony",
+      "whyItHappens": "Takes praise literally.",
+      "howToAvoid": "Compare words with facts."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Eliminate tone words that do not fit the majority of the passage.",
+    "questionSelectionAdvice": "Look at the last sentence; it often states the tone openly.",
+    "recruiterInsight": "Neutral options are right only when the text has no evaluative words."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-verbal-author-tone-e1",
+        "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nThe author's attitude towards the company's report is",
+        "options": [
+          "admiring",
+          "sceptical",
+          "neutral",
+          "confused"
+        ],
+        "correctAnswer": "sceptical",
+        "explanation": "The author lists facts the report leaves out and ends with an ironic remark, which shows doubt about the report.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-author-tone-e2",
+        "question": "Read the passage and answer the question.\n\nHer last novel is not flawless; the middle chapters drag and a few of the minor characters are barely sketched. But these are small blemishes in a work of rare generosity. Every character, even the villain, is allowed to be right about something, and the final scene, in which two old rivals share a quiet meal, is as moving as anything written in the past decade.\n\nThe author's attitude towards the novel is",
+        "options": [
+          "appreciative",
+          "hostile",
+          "indifferent",
+          "baffled"
+        ],
+        "correctAnswer": "appreciative",
+        "explanation": "The review admits small flaws but calls the work \"rare generosity\" and the last scene deeply moving.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-verbal-author-tone-e3",
+        "question": "Read the passage and answer the question.\n\nThe river that supplied this valley for ten thousand years now fails in the dry season. The wells are going deeper, the fields are going brown and the young are leaving. We are told to wait for studies. But the studies were done long ago and they say the same thing: the water is being taken faster than it returns. Further delay is not caution; it is a decision to let the valley die.\n\nThe author's tone is best described as",
+        "options": [
+          "playful",
+          "detached",
+          "nostalgic",
+          "urgent and critical"
+        ],
+        "correctAnswer": "urgent and critical",
+        "explanation": "Short, strong statements and the description of delay as a decision to let the valley die show urgency and criticism.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-verbal-author-tone-i7",
+        "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nThe final sentence of the passage is an example of",
+        "options": [
+          "irony",
+          "praise",
+          "a definition",
+          "a statistic"
+        ],
+        "correctAnswer": "irony",
+        "explanation": "Calling the report a \"skilful rearrangement of adjectives\" appears to praise skill but actually mocks the report.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-author-tone-i8",
+        "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nWhich of the following best describes the author's purpose?",
+        "options": [
+          "to explain how revenue is calculated",
+          "to praise the company's managers",
+          "to advise investors to buy shares",
+          "to show that the report's claim is not supported by the facts"
+        ],
+        "correctAnswer": "to show that the report's claim is not supported by the facts",
+        "explanation": "The author sets the report's claim against the omitted facts to expose the mismatch.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-verbal-author-tone-i9",
+        "question": "Read the passage and answer the question.\n\nHer last novel is not flawless; the middle chapters drag and a few of the minor characters are barely sketched. But these are small blemishes in a work of rare generosity. Every character, even the villain, is allowed to be right about something, and the final scene, in which two old rivals share a quiet meal, is as moving as anything written in the past decade.\n\nThe word \"but\" in the second sentence signals",
+        "options": [
+          "a shift from praise to reservations",
+          "a contradiction of the first sentence",
+          "an apology",
+          "a shift from reservations to praise"
+        ],
+        "correctAnswer": "a shift from reservations to praise",
+        "explanation": "The first sentence lists faults; \"but\" turns to the novel's strengths.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-verbal-author-tone-a15",
+        "question": "Read the passage and answer the question.\n\nThe river that supplied this valley for ten thousand years now fails in the dry season. The wells are going deeper, the fields are going brown and the young are leaving. We are told to wait for studies. But the studies were done long ago and they say the same thing: the water is being taken faster than it returns. Further delay is not caution; it is a decision to let the valley die.\n\nWhich of the following best describes how the tone changes in the passage?",
+        "options": [
+          "It moves from anger to calm acceptance",
+          "It moves from humour to sadness",
+          "It moves from describing a problem to blunt criticism of inaction",
+          "It stays neutral throughout"
+        ],
+        "correctAnswer": "It moves from describing a problem to blunt criticism of inaction",
+        "explanation": "The passage first describes the failing river and its effects, then criticises waiting for further studies.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-author-tone-a16",
+        "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nThe author's remark \"one might think\" is used to",
+        "options": [
+          "introduce a statistic",
+          "raise a mildly sarcastic point",
+          "express uncertainty about the facts",
+          "praise the report"
+        ],
+        "correctAnswer": "raise a mildly sarcastic point",
+        "explanation": "\"One might think\" introduces an obvious point in a gently sarcastic way: a transformation needs a change.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-verbal-author-tone-p17",
+        "question": "Read the passage and answer the question.\n\nHer last novel is not flawless; the middle chapters drag and a few of the minor characters are barely sketched. But these are small blemishes in a work of rare generosity. Every character, even the villain, is allowed to be right about something, and the final scene, in which two old rivals share a quiet meal, is as moving as anything written in the past decade.\n\nThe reviewer's approach can best be described as",
+        "options": [
+          "purely critical",
+          "balanced but ultimately admiring",
+          "purely descriptive",
+          "dismissive of the author"
+        ],
+        "correctAnswer": "balanced but ultimately admiring",
+        "explanation": "Faults are acknowledged, yet the review ends in admiration.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-author-tone-p18",
+        "question": "Read the passage and answer the question.\n\nThe river that supplied this valley for ten thousand years now fails in the dry season. The wells are going deeper, the fields are going brown and the young are leaving. We are told to wait for studies. But the studies were done long ago and they say the same thing: the water is being taken faster than it returns. Further delay is not caution; it is a decision to let the valley die.\n\nWhich of the following words would LEAST describe the author's tone?",
+        "options": [
+          "humorous",
+          "urgent",
+          "critical",
+          "impassioned"
+        ],
+        "correctAnswer": "humorous",
+        "explanation": "The passage is serious and forceful; there is no humour.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-verbal-author-tone-p19",
+        "question": "Read the passage and answer the question.\n\nThe company's annual report describes the year as \"transformative\". Revenue did rise by two per cent, but the report neglects to mention that costs rose by six, that three senior managers resigned, and that the new product on which the strategy depends has yet to find a single paying customer. A transformation, one might think, requires something to have changed. What the report really records is a skilful rearrangement of adjectives.\n\nIf the report had listed costs and resignations honestly, the author's tone would probably have been",
+        "options": [
+          "more sarcastic",
+          "angrier",
+          "more ironic",
+          "less sceptical"
+        ],
+        "correctAnswer": "less sceptical",
+        "explanation": "The scepticism comes from what the report left out; a fuller report would give less cause for doubt.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Loaded words.",
+      "Irony.",
+      "Concession.",
+      "Urgency.",
+      "Intensity."
+    ],
+    "quickFormulas": [
+      "Not X, but Y ⇒ Y matters"
+    ]
+  },
+  "keyTakeaways": [
+    "Read the words.",
+    "Spot irony.",
+    "Calibrate.",
+    "Check the whole passage."
+  ],
+  "selfCheckQuestions": [
+    "Can I spot irony?",
+    "Can I read a concession?",
+    "Can I match intensity?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "High School English Grammar and Composition — Wren & Martin",
+      "sourceType": "Textbook",
+      "referenceNote": "Grammar and usage background; examples in this chapter are original."
+    }
+  ]
+}
