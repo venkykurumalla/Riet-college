@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-lr-basic-direction",
+  "topicTitle": "Direction Sense Basics",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A man walks 10 m East, then 10 m North and then 10 m West. He is now ___ from the starting point.",
+      "options": [
+        "10 m East",
+        "10 m North",
+        "10 m South",
+        "30 m"
+      ],
+      "answerIndex": 1,
+      "explanation": "The East and West legs cancel. He is 10 m North of the start."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Facing North, a person turns right. He now faces",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North-east"
+      ],
+      "answerIndex": 0,
+      "explanation": "A right turn is clockwise: North → East."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Facing East, a person turns left. He now faces",
+      "options": [
+        "South",
+        "West",
+        "East",
+        "North"
+      ],
+      "answerIndex": 3,
+      "explanation": "A left turn is anticlockwise: East → North."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "In the morning, a man stands facing the rising sun. His shadow falls towards the",
+      "options": [
+        "East",
+        "North",
+        "West",
+        "South"
+      ],
+      "answerIndex": 2,
+      "explanation": "The sun is in the East, and a shadow falls opposite the sun: towards the West (behind him)."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The direction opposite to North-west is",
+      "options": [
+        "South-west",
+        "North-east",
+        "South-east",
+        "South"
+      ],
+      "answerIndex": 2,
+      "explanation": "The opposite of North is South and of West is East, so the opposite of North-west is South-east."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "A man walks 3 km North, turns right and walks 4 km. His distance from the start is",
+      "options": [
+        "7 km",
+        "5 km",
+        "3.5 km",
+        "1 km"
+      ],
+      "answerIndex": 1,
+      "explanation": "The legs are at right angles: √(3² + 4²) = 5 km."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A man walks 6 km East and then 8 km North. His straight-line distance from the start is",
+      "options": [
+        "10 km",
+        "14 km",
+        "12 km",
+        "7 km"
+      ],
+      "answerIndex": 0,
+      "explanation": "√(6² + 8²) = √100 = 10 km."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "A man walks 15 m West, turns right and walks 20 m, then turns right again and walks 15 m. He is now ___ from the starting point.",
+      "options": [
+        "20 m South",
+        "15 m East",
+        "35 m West",
+        "20 m North"
+      ],
+      "answerIndex": 3,
+      "explanation": "West 15 m: (−15, 0). Right turn from West faces North: 20 m gives (−15, 20). Right turn from North faces East: 15 m gives (0, 20). He is 20 m North of the start."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "A person facing North turns 90° clockwise and then 180° anticlockwise. He now faces",
+      "options": [
+        "East",
+        "South",
+        "North",
+        "West"
+      ],
+      "answerIndex": 3,
+      "explanation": "North turned 90° clockwise faces East. Turned 180° anticlockwise from East he faces West."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A man faces West. He turns left, then right, then right again. He now faces",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "answerIndex": 2,
+      "explanation": "West → left → South → right → West → right → North."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Two friends start from the same point. A walks 12 km North and B walks 16 km East. The distance between them is",
+      "options": [
+        "28 km",
+        "20 km",
+        "4 km",
+        "14 km"
+      ],
+      "answerIndex": 1,
+      "explanation": "√(12² + 16²) = √400 = 20 km."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Ravi walks 4 km South, then 3 km West, then 4 km North. How far is he from the start?",
+      "options": [
+        "3 km",
+        "11 km",
+        "7 km",
+        "4 km"
+      ],
+      "answerIndex": 0,
+      "explanation": "The South and North legs cancel. He is 3 km West of the start."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A man goes 10 m South, turns left and goes 20 m, then turns left and goes 10 m. He is now ___ from the start.",
+      "options": [
+        "20 m East",
+        "20 m West",
+        "10 m North",
+        "40 m"
+      ],
+      "answerIndex": 0,
+      "explanation": "South 10 m: (0, −10). Left from South faces East: (20, −10). Left from East faces North: (20, 0). He is 20 m East of the start."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "At sunset, the shadow of a pole falls towards the",
+      "options": [
+        "West",
+        "North",
+        "South",
+        "East"
+      ],
+      "answerIndex": 3,
+      "explanation": "At sunset the sun is in the West, and the shadow falls opposite, towards the East."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Raj walks 8 km North, then 6 km East, then 8 km South and then 3 km West. He is now ___ from his house.",
+      "options": [
+        "3 km West",
+        "9 km East",
+        "3 km East",
+        "25 km"
+      ],
+      "answerIndex": 2,
+      "explanation": "North and South legs cancel (8 − 8 = 0). East − West = 6 − 3 = 3 km East."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A walks 20 m East, turns right and walks 10 m, turns right and walks 20 m, then turns left and walks 5 m. His distance from the start is",
+      "options": [
+        "5 m",
+        "15 m",
+        "20 m",
+        "55 m"
+      ],
+      "answerIndex": 1,
+      "explanation": "East 20: (20, 0). Right → South 10: (20, −10). Right → West 20: (0, −10). Left from West faces South: 5 m gives (0, −15). He is 15 m South of the start."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "A man walks 3 km North, 4 km East, 6 km South and then 4 km West. He is now ___ from the start.",
+      "options": [
+        "3 km North",
+        "3 km South",
+        "4 km East",
+        "17 km"
+      ],
+      "answerIndex": 1,
+      "explanation": "North − South = 3 − 6 = 3 km South. East − West = 4 − 4 = 0."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A man walks 13 km East, then 12 km North, then 8 km West. His distance from the start is",
+      "options": [
+        "13 km",
+        "25 km",
+        "17 km",
+        "12 km"
+      ],
+      "answerIndex": 0,
+      "explanation": "Net East = 13 − 8 = 5 km, net North = 12 km. Distance = √(25 + 144) = √169 = 13 km."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Suresh is facing South-west. He turns 90° clockwise. He now faces",
+      "options": [
+        "North-east",
+        "South-east",
+        "West",
+        "North-west"
+      ],
+      "answerIndex": 3,
+      "explanation": "Clockwise turns go South-west → West → North-west. So a 90° clockwise turn from South-west faces North-west."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A is 5 km North of B. C is 5 km East of B. In which direction is C from A?",
+      "options": [
+        "North-east",
+        "South-west",
+        "South-east",
+        "East"
+      ],
+      "answerIndex": 2,
+      "explanation": "Taking B as the origin, A = (0, 5) and C = (5, 0). From A to C is 5 km East and 5 km South, i.e. South-east."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/direction-sense-test/"
+}

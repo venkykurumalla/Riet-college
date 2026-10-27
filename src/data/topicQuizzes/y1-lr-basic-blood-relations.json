@@ -1,0 +1,267 @@
+{
+  "topicId": "y1-lr-basic-blood-relations",
+  "topicTitle": "Basic Blood Relations",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "A is the brother of B and B is the mother of C. How is A related to C?",
+      "options": [
+        "Father",
+        "Maternal uncle",
+        "Paternal uncle",
+        "Cousin"
+      ],
+      "answerIndex": 1,
+      "explanation": "A is the brother of C's mother B, which makes A the maternal uncle of C."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "My mother's brother's son is my",
+      "options": [
+        "Cousin",
+        "Brother",
+        "Nephew",
+        "Uncle"
+      ],
+      "answerIndex": 0,
+      "explanation": "The child of one's uncle or aunt is a cousin."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The father of my father is my",
+      "options": [
+        "Uncle",
+        "Father-in-law",
+        "Brother",
+        "Grandfather"
+      ],
+      "answerIndex": 3,
+      "explanation": "The father of one's father is the grandfather."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "Pointing to a photograph, Ravi says, \"She is the daughter of my father's only son.\" The woman in the photograph is Ravi's",
+      "options": [
+        "Sister",
+        "Niece",
+        "Daughter",
+        "Mother"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ravi's father's only son is Ravi himself, so the woman is Ravi's daughter."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "My mother's sister is my",
+      "options": [
+        "Paternal aunt",
+        "Grandmother",
+        "Maternal aunt",
+        "Cousin"
+      ],
+      "answerIndex": 2,
+      "explanation": "The sister of one's mother is the maternal aunt."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The husband of my sister is my",
+      "options": [
+        "Uncle",
+        "Brother-in-law",
+        "Brother",
+        "Nephew"
+      ],
+      "answerIndex": 1,
+      "explanation": "The husband of one's sister is a brother-in-law."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "A is the father of B. C is the sister of B. D is the mother of A. How is D related to C?",
+      "options": [
+        "Grandmother",
+        "Mother",
+        "Aunt",
+        "Sister"
+      ],
+      "answerIndex": 0,
+      "explanation": "D is A's mother and A is the father of B and C. So D is the paternal grandmother of C."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Introducing a man, a woman says, \"His mother is the only daughter of my mother.\" How is the woman related to the man?",
+      "options": [
+        "Sister",
+        "Aunt",
+        "Grandmother",
+        "Mother"
+      ],
+      "answerIndex": 3,
+      "explanation": "The only daughter of the woman's mother is the woman herself. So she is the man's mother."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "P is the brother of Q. Q is the sister of R. R is the father of S. How is P related to S?",
+      "options": [
+        "Father",
+        "Maternal uncle",
+        "Brother",
+        "Paternal uncle"
+      ],
+      "answerIndex": 3,
+      "explanation": "P is also the brother of R, because Q is the sister of R and P is the brother of Q. R is S's father, so P is S's paternal uncle."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "The wife of my father's only brother is my",
+      "options": [
+        "Mother",
+        "Sister",
+        "Aunt",
+        "Grandmother"
+      ],
+      "answerIndex": 2,
+      "explanation": "My father's brother is my paternal uncle, and his wife is my aunt."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "Q's mother is the sister of P. P's son is R. How is R related to Q?",
+      "options": [
+        "Brother",
+        "Cousin",
+        "Nephew",
+        "Uncle"
+      ],
+      "answerIndex": 1,
+      "explanation": "Q's mother and P are siblings, so Q and P's son R are children of siblings: cousins."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Rani is the mother of Seema. Seema is the sister of Raju. Raju is the father of Mohan. How is Rani related to Mohan?",
+      "options": [
+        "Grandmother",
+        "Mother",
+        "Aunt",
+        "Sister"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rani is Raju's mother (as Seema's brother is Raju), and Raju is Mohan's father. So Rani is Mohan's paternal grandmother."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "Pointing to a girl, Anil says, \"She is the daughter of my mother's mother's only daughter.\" The girl is Anil's",
+      "options": [
+        "Sister",
+        "Cousin",
+        "Niece",
+        "Aunt"
+      ],
+      "answerIndex": 0,
+      "explanation": "The only daughter of Anil's maternal grandmother is Anil's mother. Her daughter is Anil's sister."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The father of A is the brother of B. B's sister is C. How is C related to A?",
+      "options": [
+        "Mother",
+        "Maternal aunt",
+        "Cousin",
+        "Paternal aunt"
+      ],
+      "answerIndex": 3,
+      "explanation": "C is the sister of A's father's brother B, hence C is also a sister of A's father. She is A's paternal aunt."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "If A + B means A is the mother of B, A − B means A is the brother of B and A × B means A is the father of B, which expression shows that P is the maternal uncle of Q?",
+      "options": [
+        "P + R − Q",
+        "P × R − Q",
+        "P − R + Q",
+        "R − P + Q"
+      ],
+      "answerIndex": 2,
+      "explanation": "P must be the brother of Q's mother. P − R says P is the brother of R, and R + Q says R is the mother of Q. So P − R + Q."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A and B are a married couple. C is their only son and D is the wife of C. E is the daughter of C and D. How is B related to E?",
+      "options": [
+        "Maternal grandmother",
+        "Paternal grandmother",
+        "Mother",
+        "Aunt"
+      ],
+      "answerIndex": 1,
+      "explanation": "B is C's mother (and A's wife). E is C's daughter, so B is E's father's mother, the paternal grandmother."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "P is the brother of Q, Q is the brother of R, and R is the father of S. How is P related to S?",
+      "options": [
+        "Father",
+        "Paternal uncle",
+        "Maternal uncle",
+        "Cousin"
+      ],
+      "answerIndex": 1,
+      "explanation": "P and Q are brothers and Q and R are brothers, so P is a brother of R. R is S's father, so P is S's paternal uncle."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A is the sister of B. C is the mother of B. D is the father of C. How is A related to D?",
+      "options": [
+        "Granddaughter",
+        "Daughter",
+        "Niece",
+        "Sister"
+      ],
+      "answerIndex": 0,
+      "explanation": "A is B's sister, so A is also C's daughter. C is D's child. So A is D's granddaughter."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Pointing to a lady, a man says, \"The son of her only brother is the brother of my wife.\" How is the lady related to the man?",
+      "options": [
+        "Mother of wife",
+        "Sister of wife",
+        "Sister",
+        "Wife's paternal aunt"
+      ],
+      "answerIndex": 3,
+      "explanation": "The lady's only brother's son is the man's wife's brother. So the lady's brother is the wife's father. The lady is the sister of the wife's father, i.e. the wife's paternal aunt."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A is the brother of B, B is the sister of C, and C is the father of D. How is D's father related to A?",
+      "options": [
+        "Uncle",
+        "Father",
+        "Brother",
+        "Nephew"
+      ],
+      "answerIndex": 2,
+      "explanation": "A, B and C are siblings. D's father is C, who is the brother of A."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/blood-relation-test/"
+}

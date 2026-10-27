@@ -1,0 +1,451 @@
+{
+  "id": "y1-lr-basic-direction",
+  "yearId": 1,
+  "category": "Logical Reasoning",
+  "topicNumber": 20,
+  "title": "Direction Sense Basics",
+  "tagline": "Year 1 Foundation — Turns, distances and final positions on a compass",
+  "estimatedMinutes": 40,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "Direction sense questions describe a person walking and turning, and ask for the final direction, the distance from the starting point, or the direction of one place from another. The four main directions are North, East, South and West, and the four in-between directions are North-east, South-east, South-west and North-west. The best method is to draw the path on paper with North at the top, and to use the Pythagoras theorem when the final distance is diagonal.",
+    "placementRelevance": "Direction questions are commonly asked in company reasoning rounds. They are short, need no theory beyond a compass and the right-angled triangle, and reward neat sketches.",
+    "realWorldContext": "Reading a map, giving directions to a delivery partner, planning a drone path and following a compass in an outdoor survey all depend on the same ideas."
+  },
+  "learningObjectives": [
+    "Know the eight compass directions and which are opposite",
+    "Track the facing direction after left and right turns",
+    "Compute the net displacement from several legs of a path",
+    "Use the Pythagoras theorem for diagonal distances",
+    "Use sun and shadow facts for morning and evening questions"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic geometry (right-angled triangle)",
+      "Squares and square roots"
+    ],
+    "quickRefresher": "Pythagoras theorem: in a right-angled triangle, hypotenuse² = base² + height². Common triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Cardinal directions: North, East, South, West. Each is at 90° from the next one going clockwise.",
+      "Intermediate directions: North-east, South-east, South-west, North-west, lying halfway between the cardinals.",
+      "Opposite directions: North–South, East–West, North-east–South-west, North-west–South-east.",
+      "Right turn = 90° clockwise. Left turn = 90° anticlockwise. A U-turn is 180°.",
+      "Displacement: the straight-line distance and direction from the starting point to the final point (not the total length walked)."
+    ],
+    "theoreticalIntuition": "Treat the ground as a graph with North as up (+y) and East as right (+x). Every leg of the walk changes x or y. At the end, subtract the opposite moves (North against South, East against West) and what remains is the displacement. The final distance is then a simple horizontal, vertical or diagonal measurement.",
+    "visualOrMentalModel": "Imagine you are standing on the origin of a graph. Facing North, a right turn makes you face East, then South, then West, then North again. Left turns go the other way round: North → West → South → East."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Turning rule (clockwise order)",
+      "formula": "North → East → South → West → North for right turns",
+      "description": "Left turns follow the opposite order.",
+      "whenToUse": "Any \"turns right\" or \"turns left\" question.",
+      "simpleExample": "Facing North, turn right → East"
+    },
+    {
+      "title": "Net displacement",
+      "formula": "Net x = East − West;  Net y = North − South",
+      "description": "Cancel opposite moves.",
+      "whenToUse": "Multi-leg walks.",
+      "simpleExample": "4 km S then 4 km N cancels in y"
+    },
+    {
+      "title": "Straight-line distance",
+      "formula": "Distance = √(x² + y²)",
+      "description": "Pythagoras on the net x and net y.",
+      "whenToUse": "When the end point is diagonal from the start.",
+      "simpleExample": "3 km north then 4 km east → 5 km"
+    },
+    {
+      "title": "Sun and shadow",
+      "formula": "Morning: sun in the East, shadow falls West. Evening: sun in the West, shadow falls East.",
+      "description": "A shadow falls opposite to the sun.",
+      "whenToUse": "Shadow questions.",
+      "simpleExample": "Facing the rising sun, the shadow falls behind the person"
+    },
+    {
+      "title": "Direction between two points",
+      "formula": "Compare the net x and net y of the second point with the first",
+      "description": "Right and up = North-east, and so on.",
+      "whenToUse": "Questions asking \"in which direction is C from A\".",
+      "simpleExample": "C is 5 east and 5 south of A → South-east"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Start every question by drawing a small compass with North at the top. Mark the starting point and draw each leg with an arrow, labelling distances. After each turn, write the facing direction beside the arrow so that you never confuse left and right.",
+      "Facing direction after a turn is a rotation. Starting from North: right → East, right → South, right → West. A left turn from West leads to South. For two turns (such as right then right) the person faces the opposite direction, which is a U-turn.",
+      "Compute the net displacement by adding the legs along each axis. For a walk of 8 km North, 6 km East, 8 km South and 3 km West, the North and South legs cancel (8 − 8 = 0) and the East and West legs leave 6 − 3 = 3 km East. So the person is 3 km East of the starting point.",
+      "When the end point is diagonal, use the Pythagoras theorem. A man who walks 13 km East, 12 km North and 8 km West ends up 13 − 8 = 5 km East and 12 km North of the start, so the distance is √(5² + 12²) = 13 km.",
+      "For shadow problems, remember that a shadow falls opposite to the sun. At sunrise the sun is in the East, so shadows point West. At sunset the sun is in the West, so shadows point East."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Diagonal directions",
+        "content": "North-east means equal parts North and East, i.e. 45° between them. If A is 5 km north of B and C is 5 km east of B, then from A to C you go 5 km east and 5 km south: C is South-east of A."
+      },
+      {
+        "title": "Distance walked versus displacement",
+        "content": "A man who walks 4 km South and then 4 km North has walked 8 km but his displacement is zero. Be clear about which one the question asks for."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Final direction after turns",
+      "description": "Left and right turns from a given direction.",
+      "exampleSnippet": "Facing North, turn right then right again."
+    },
+    {
+      "typeName": "Distance from the start",
+      "description": "Net displacement by Pythagoras.",
+      "exampleSnippet": "3 km North then 4 km East."
+    },
+    {
+      "typeName": "Direction from the start",
+      "description": "Compass direction of the final point.",
+      "exampleSnippet": "4 km South, 3 km West, 4 km North."
+    },
+    {
+      "typeName": "Shadow problems",
+      "description": "Sun, morning, evening.",
+      "exampleSnippet": "Facing the sun in the morning."
+    },
+    {
+      "typeName": "Direction between two points",
+      "description": "Relative positions of A and C.",
+      "exampleSnippet": "C is east and south of A."
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-lr-basic-direction-1",
+      "title": "Straight-line distance",
+      "question": "A man walks 3 km North, then turns right and walks 4 km. How far is he from the starting point, and in which direction?",
+      "givenInfo": [
+        "3 km North",
+        "Right turn, 4 km"
+      ],
+      "conceptOrFormula": "Draw the legs and use the Pythagoras theorem.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Draw the first leg",
+          "explanation": "Facing North, he walks 3 km up."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Turn right",
+          "explanation": "From North, a right turn faces East. He walks 4 km East."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Find the distance",
+          "explanation": "Distance = √(3² + 4²) = √25 = 5 km."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Find the direction",
+          "explanation": "The end point is 3 km North and 4 km East of the start, so it is North-east."
+        }
+      ],
+      "finalAnswer": "5 km, towards the North-east",
+      "whyItWorks": "The two legs are at right angles, forming a 3-4-5 triangle.",
+      "commonTrap": "Adding the legs (7 km) instead of using the straight-line distance.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-lr-basic-direction-2",
+      "title": "Cancelling opposite moves",
+      "question": "A man walks 4 km South, then 3 km West, and then 4 km North. How far is he from the starting point and in which direction?",
+      "givenInfo": [
+        "4 km South",
+        "3 km West",
+        "4 km North"
+      ],
+      "conceptOrFormula": "Net north-south movement and net east-west movement.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "North-south movement",
+          "explanation": "4 km South and 4 km North cancel out: net 0."
+        },
+        {
+          "stepNumber": 2,
+          "title": "East-west movement",
+          "explanation": "3 km West remains."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Combine",
+          "explanation": "He is 3 km from the start, to its West."
+        }
+      ],
+      "finalAnswer": "3 km West",
+      "whyItWorks": "The two vertical legs have equal length in opposite directions.",
+      "commonTrap": "Adding all three distances to get 11 km.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-lr-basic-direction-3",
+      "title": "Diagonal path with a return leg",
+      "question": "A man walks 13 km East, then 12 km North and then 8 km West. How far is he from the starting point?",
+      "givenInfo": [
+        "13 km East",
+        "12 km North",
+        "8 km West"
+      ],
+      "conceptOrFormula": "Net x and net y, then Pythagoras.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Net east-west",
+          "explanation": "13 − 8 = 5 km East."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Net north-south",
+          "explanation": "12 km North."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Distance",
+          "explanation": "√(5² + 12²) = √169 = 13 km."
+        }
+      ],
+      "finalAnswer": "13 km",
+      "whyItWorks": "5-12-13 is a Pythagorean triple.",
+      "commonTrap": "Using 13 and 12 directly without subtracting the westward leg.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Coordinate bookkeeping",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Draw and measure every leg step by step.",
+      "shortcutMethod": "Keep two running totals, x (East positive) and y (North positive). Update them as you read the legs. The final answer is a distance √(x² + y²) and a compass direction from the signs of x and y."
+    },
+    "rulesForApplication": [
+      "Right turn = clockwise; left turn = anticlockwise.",
+      "Two turns of the same kind give a U-turn.",
+      "A shadow falls opposite to the sun.",
+      "Use the 3-4-5, 5-12-13, 8-15-17 triples to see distances immediately."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Confusing left and right",
+      "whyItHappens": "Mentally rotating the wrong way.",
+      "howToAvoid": "Write the facing direction after every turn."
+    },
+    {
+      "mistake": "Adding distances instead of finding displacement",
+      "whyItHappens": "Totalling every leg.",
+      "howToAvoid": "Cancel opposite moves and use Pythagoras for the diagonal."
+    },
+    {
+      "mistake": "Wrong shadow direction",
+      "whyItHappens": "Assuming the shadow falls towards the sun.",
+      "howToAvoid": "The shadow is always on the opposite side from the sun."
+    },
+    {
+      "mistake": "Mixing up the person's direction and the position",
+      "whyItHappens": "Facing East but located to the West of the start.",
+      "howToAvoid": "Facing direction and position are different; track both."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Quickly eliminate options in the wrong quadrant after finding the signs of net x and net y.",
+    "questionSelectionAdvice": "Always draw. The drawing takes 15 seconds and prevents most errors.",
+    "recruiterInsight": "Direction sense is a skill where neat sketches matter more than speed in calculation."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-lr-basic-direction-e1",
+        "question": "A man walks 10 m East, then 10 m North and then 10 m West. He is now ___ from the starting point.",
+        "options": [
+          "10 m East",
+          "10 m North",
+          "10 m South",
+          "30 m"
+        ],
+        "correctAnswer": "10 m North",
+        "explanation": "The East and West legs cancel. He is 10 m North of the start.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-basic-direction-e2",
+        "question": "Facing North, a person turns right. He now faces",
+        "options": [
+          "East",
+          "West",
+          "South",
+          "North-east"
+        ],
+        "correctAnswer": "East",
+        "explanation": "A right turn is clockwise: North → East.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-basic-direction-e3",
+        "question": "Facing East, a person turns left. He now faces",
+        "options": [
+          "South",
+          "West",
+          "East",
+          "North"
+        ],
+        "correctAnswer": "North",
+        "explanation": "A left turn is anticlockwise: East → North.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-lr-basic-direction-i7",
+        "question": "A man walks 6 km East and then 8 km North. His straight-line distance from the start is",
+        "options": [
+          "10 km",
+          "14 km",
+          "12 km",
+          "7 km"
+        ],
+        "correctAnswer": "10 km",
+        "explanation": "√(6² + 8²) = √100 = 10 km.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-basic-direction-i8",
+        "question": "A man walks 15 m West, turns right and walks 20 m, then turns right again and walks 15 m. He is now ___ from the starting point.",
+        "options": [
+          "20 m South",
+          "15 m East",
+          "35 m West",
+          "20 m North"
+        ],
+        "correctAnswer": "20 m North",
+        "explanation": "West 15 m: (−15, 0). Right turn from West faces North: 20 m gives (−15, 20). Right turn from North faces East: 15 m gives (0, 20). He is 20 m North of the start.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-basic-direction-i9",
+        "question": "A person facing North turns 90° clockwise and then 180° anticlockwise. He now faces",
+        "options": [
+          "East",
+          "South",
+          "North",
+          "West"
+        ],
+        "correctAnswer": "West",
+        "explanation": "North turned 90° clockwise faces East. Turned 180° anticlockwise from East he faces West.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-lr-basic-direction-a15",
+        "question": "Raj walks 8 km North, then 6 km East, then 8 km South and then 3 km West. He is now ___ from his house.",
+        "options": [
+          "3 km West",
+          "9 km East",
+          "3 km East",
+          "25 km"
+        ],
+        "correctAnswer": "3 km East",
+        "explanation": "North and South legs cancel (8 − 8 = 0). East − West = 6 − 3 = 3 km East.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-basic-direction-a16",
+        "question": "A walks 20 m East, turns right and walks 10 m, turns right and walks 20 m, then turns left and walks 5 m. His distance from the start is",
+        "options": [
+          "5 m",
+          "15 m",
+          "20 m",
+          "55 m"
+        ],
+        "correctAnswer": "15 m",
+        "explanation": "East 20: (20, 0). Right → South 10: (20, −10). Right → West 20: (0, −10). Left from West faces South: 5 m gives (0, −15). He is 15 m South of the start.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-lr-basic-direction-p17",
+        "question": "A man walks 3 km North, 4 km East, 6 km South and then 4 km West. He is now ___ from the start.",
+        "options": [
+          "3 km North",
+          "3 km South",
+          "4 km East",
+          "17 km"
+        ],
+        "correctAnswer": "3 km South",
+        "explanation": "North − South = 3 − 6 = 3 km South. East − West = 4 − 4 = 0.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-basic-direction-p18",
+        "question": "A man walks 13 km East, then 12 km North, then 8 km West. His distance from the start is",
+        "options": [
+          "13 km",
+          "25 km",
+          "17 km",
+          "12 km"
+        ],
+        "correctAnswer": "13 km",
+        "explanation": "Net East = 13 − 8 = 5 km, net North = 12 km. Distance = √(25 + 144) = √169 = 13 km.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-basic-direction-p19",
+        "question": "Suresh is facing South-west. He turns 90° clockwise. He now faces",
+        "options": [
+          "North-east",
+          "South-east",
+          "West",
+          "North-west"
+        ],
+        "correctAnswer": "North-west",
+        "explanation": "Clockwise turns go South-west → West → North-west. So a 90° clockwise turn from South-west faces North-west.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Right = clockwise, left = anticlockwise.",
+      "Cancel opposite moves, then use Pythagoras.",
+      "Shadow falls opposite to the sun.",
+      "Know Pythagorean triples.",
+      "Distance walked is not displacement."
+    ],
+    "quickFormulas": [
+      "d = √(x² + y²)",
+      "N → E → S → W (right turns)",
+      "3-4-5, 5-12-13, 8-15-17, 7-24-25"
+    ]
+  },
+  "keyTakeaways": [
+    "Draw the path with North at the top.",
+    "Keep running totals of x and y.",
+    "Use triples for fast distances.",
+    "Check the question: direction faced or position?"
+  ],
+  "selfCheckQuestions": [
+    "Can I give the direction faced after turning right and then left from North?",
+    "Can I compute the straight-line distance after 6 km East and 8 km North?",
+    "Can I give the direction of the shadow in the evening?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The Direction Sense topic area; examples in this chapter are original."
+    }
+  ]
+}

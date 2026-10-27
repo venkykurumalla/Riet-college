@@ -1,0 +1,443 @@
+{
+  "id": "y1-lr-basic-coding",
+  "yearId": 1,
+  "category": "Logical Reasoning",
+  "topicNumber": 18,
+  "title": "Basic Coding-Decoding",
+  "tagline": "Year 1 Foundation — Letter shifts, reversals, number codes and word-based codes",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "In coding-decoding, a word or number is converted into a code by a hidden rule, and you must apply the same rule to another word, or decode a code back to a word. The rules in basic questions fall into a few families: shifting each letter forward or backward, reversing the word, replacing letters by their opposite letters, writing the position numbers, replacing letters by digits or symbols, and comparing sentences to find the code for each word.",
+    "placementRelevance": "Coding-decoding questions are commonly asked in company reasoning rounds. They reward a methodical approach: write the positions, find the rule from the given pair, and apply it to the new word.",
+    "realWorldContext": "Simple ciphers, product-code schemes, password rules such as \"replace every a with @\", and file-naming conventions all use rule-based substitutions like these."
+  },
+  "learningObjectives": [
+    "Recognise constant and varying letter shifts",
+    "Apply and undo reversal and opposite-letter codes",
+    "Convert between letters and position numbers",
+    "Decode word-based codes by comparing sentences",
+    "Verify a rule on all letters of the example before applying it"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Letter Series",
+      "Alphabet positions A to Z",
+      "Analogy"
+    ],
+    "quickRefresher": "A = 1, B = 2, …, Z = 26. Opposite letters add up to 27 (A–Z, B–Y, C–X, …). Moving past Z wraps around to A."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Code: a word, number or symbol sequence obtained from the original by a fixed rule.",
+      "Encoding: converting the original to the code. Decoding: converting a code back to the original.",
+      "Letter shift: replacing each letter by the one k places after it (+k) or before it (−k) in the alphabet.",
+      "Opposite-letter code: replacing each letter by its mirror letter in the alphabet (A↔Z, B↔Y, …).",
+      "Substitution code: assigning a digit or symbol to each letter or word, usually deduced by comparing several examples."
+    ],
+    "theoreticalIntuition": "Every coding question gives you the rule indirectly. Once you write the original and its code side by side and compare position by position, the rule shows up immediately. The key discipline is to test the rule on every letter, not just the first one.",
+    "visualOrMentalModel": "Write the original word on one line and its code on the line below. Under each pair write the number of steps between the letters (with a sign). If every step is the same, it is a constant shift; if the steps are 1, 2, 3, …, it is a progressive shift; if the code is the original read backwards, it is a reversal."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Constant shift",
+      "formula": "Code letter = original letter + k  (positions mod 26)",
+      "description": "All letters move the same number of places.",
+      "whenToUse": "MONKEY → NPOLFZ (+1).",
+      "simpleExample": "CAT with +1 → DBU"
+    },
+    {
+      "title": "Alternating or progressive shift",
+      "formula": "Shifts +1, −1, +1, −1 …  or  +1, +2, +3, …",
+      "description": "The shift changes from letter to letter in a pattern.",
+      "whenToUse": "PAPER → QCSIW (+1, +2, +3, +4, +5).",
+      "simpleExample": "BOARD with +1, +2, +3, +4, +5 → CQDVI"
+    },
+    {
+      "title": "Reversal",
+      "formula": "Code = original written backwards",
+      "description": "Sometimes combined with a shift.",
+      "whenToUse": "SCHOOL → LOOHCS.",
+      "simpleExample": "BOOK → KOOB"
+    },
+    {
+      "title": "Opposite letter",
+      "formula": "Code position = 27 − original position",
+      "description": "A↔Z, B↔Y, …",
+      "whenToUse": "TEAM → GVZN.",
+      "simpleExample": "SOLVE → HLOEV"
+    },
+    {
+      "title": "Position numbers",
+      "formula": "Letter → its alphabet position",
+      "description": "Use A = 1 to Z = 26.",
+      "whenToUse": "Number codes and sums of positions.",
+      "simpleExample": "HAT → 8, 1, 20"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Start by writing the original word and its code directly below. Count the steps between each letter and its code letter, with a sign for direction. In MONKEY and NPOLFZ every step is +1, so the rule is \"next letter\". The code for TIGER is therefore UJHFS.",
+      "Some rules alternate or grow. If FRIEND becomes GQJDOC, the shifts are +1, −1, +1, −1, +1, −1. For BOARD, apply the same alternating shifts: C, N, B, Q, E. A progressive code such as PAPER → QCSIW uses +1, +2, +3, +4, +5.",
+      "A reversal can be pure (SCHOOL → LOOHCS) or combined with a shift. When both are used, decide the order from the example: reverse then shift, or shift then reverse. Testing the rule on the given pair tells you which.",
+      "Word-based codes are solved by comparison. If \"pen pencil\" is \"ab cd\", \"pencil box\" is \"cd ef\" and \"pen bag\" is \"ab gh\", then the common word pencil matches the common code cd, pen matches ab, and the new word box matches ef."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Number codes using position values",
+        "content": "Writing a word as positions (SMART = 19, 13, 1, 18, 20) and summing them (71) are standard tasks. Remember EJOTY (5, 10, 15, 20, 25) to get positions quickly."
+      },
+      {
+        "title": "Why the rule must fit every letter",
+        "content": "Many examples fit a shift for the first letter by coincidence. For safety, compute the step for the first, middle and last letters. A rule that survives all three is almost certainly correct."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Constant letter shift",
+      "description": "Add or subtract a fixed number.",
+      "exampleSnippet": "MONKEY → NPOLFZ"
+    },
+    {
+      "typeName": "Alternating or progressive shift",
+      "description": "The shift changes in a pattern.",
+      "exampleSnippet": "PAPER → QCSIW"
+    },
+    {
+      "typeName": "Reversal and opposite letters",
+      "description": "Read backwards or take mirror letters.",
+      "exampleSnippet": "SCHOOL → LOOHCS"
+    },
+    {
+      "typeName": "Numbers and positions",
+      "description": "Convert to numbers or sum positions.",
+      "exampleSnippet": "HAT → 8, 1, 20"
+    },
+    {
+      "typeName": "Word-based code",
+      "description": "Decode from sentences.",
+      "exampleSnippet": "\"red apple\" = \"ka lo\""
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-lr-basic-coding-1",
+      "title": "Constant shift",
+      "question": "In a code language MONKEY is written as NPOLFZ. How is TIGER written in that code?",
+      "givenInfo": [
+        "MONKEY → NPOLFZ"
+      ],
+      "conceptOrFormula": "Find the step between each letter and its code letter.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Compare letter by letter",
+          "explanation": "M → N, O → P, N → O, K → L, E → F, Y → Z. Each step is +1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply to TIGER",
+          "explanation": "T → U, I → J, G → H, E → F, R → S."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Write the code",
+          "explanation": "The code is UJHFS."
+        }
+      ],
+      "finalAnswer": "UJHFS",
+      "whyItWorks": "Every letter moves one place forward in the alphabet.",
+      "commonTrap": "Checking only the first letter and assuming the rest follow.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-lr-basic-coding-2",
+      "title": "Alternating shift",
+      "question": "If FRIEND is coded as GQJDOC, how is BOARD coded?",
+      "givenInfo": [
+        "FRIEND → GQJDOC"
+      ],
+      "conceptOrFormula": "The shifts alternate between +1 and −1.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the shifts",
+          "explanation": "F → G is +1, R → Q is −1, I → J is +1, E → D is −1, N → O is +1, D → C is −1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply to BOARD",
+          "explanation": "B + 1 = C, O − 1 = N, A + 1 = B, R − 1 = Q, D + 1 = E."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Write the code",
+          "explanation": "The code is CNBQE."
+        }
+      ],
+      "finalAnswer": "CNBQE",
+      "whyItWorks": "The rule alternates, so it must be applied position by position.",
+      "commonTrap": "Applying +1 to every letter.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-lr-basic-coding-3",
+      "title": "Word-based code",
+      "question": "In a code language \"pen pencil\" is written \"ab cd\", \"pencil box\" is \"cd ef\" and \"pen bag\" is \"ab gh\". What is the code for \"box\"?",
+      "givenInfo": [
+        "pen pencil = ab cd",
+        "pencil box = cd ef",
+        "pen bag = ab gh"
+      ],
+      "conceptOrFormula": "A word that is common to two sentences matches the code that is common to them.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Find the common word in the first two sentences",
+          "explanation": "Pencil appears in both; the common code is cd. So pencil = cd."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Find pen",
+          "explanation": "Pen appears in the first and third sentences; the common code is ab. So pen = ab."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Find box",
+          "explanation": "In \"pencil box\" = \"cd ef\", pencil is cd, so box = ef."
+        }
+      ],
+      "finalAnswer": "ef",
+      "whyItWorks": "Each common word isolates one code word.",
+      "commonTrap": "Assigning codes by position in the sentence rather than by the common word.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Pair-and-count method",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try different rules one by one on the example until one fits.",
+      "shortcutMethod": "Write the original and the code in two rows, count the signed step under each pair, and read the rule from the row of steps."
+    },
+    "rulesForApplication": [
+      "A row of equal steps is a constant shift.",
+      "Steps +1, +2, +3, … is a progressive shift.",
+      "If the code is the same letters in reverse, it is a reversal.",
+      "If the steps add up to 27 for each pair of positions, it is an opposite-letter code."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Checking the first letter only",
+      "whyItHappens": "The first letter fits many rules.",
+      "howToAvoid": "Test the rule on every letter of the example."
+    },
+    {
+      "mistake": "Forgetting the wrap-around",
+      "whyItHappens": "Y + 3 or Z + 1 goes past Z.",
+      "howToAvoid": "Subtract 26 when the position exceeds 26."
+    },
+    {
+      "mistake": "Wrong direction of a shift",
+      "whyItHappens": "Mixing +k with −k when decoding.",
+      "howToAvoid": "When decoding, apply the opposite operation."
+    },
+    {
+      "mistake": "Mismatching word order in sentence codes",
+      "whyItHappens": "Assuming the code follows the same word order.",
+      "howToAvoid": "Use common words to match, not position in the sentence."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Apply the discovered rule to one letter of the target word and eliminate options that do not match that letter.",
+    "questionSelectionAdvice": "Basic coding questions are among the fastest; do not skip them. Write positions down rather than computing in your head.",
+    "recruiterInsight": "Coding-decoding rewards neat working: a row of numbers under the letters prevents most mistakes."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-lr-basic-coding-e1",
+        "question": "In a code, every letter is replaced by the next letter of the alphabet. Then BOY is written as",
+        "options": [
+          "ANX",
+          "CPZ",
+          "DQA",
+          "ZPC"
+        ],
+        "correctAnswer": "CPZ",
+        "explanation": "Each letter moves one place forward: B→C, O→P, Y→Z. So BOY becomes CPZ.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-basic-coding-e2",
+        "question": "In a code, every letter is replaced by the letter two places before it. Then FUN is written as",
+        "options": [
+          "DSL",
+          "HWP",
+          "ETM",
+          "GVO"
+        ],
+        "correctAnswer": "DSL",
+        "explanation": "F→D, U→S, N→L, so FUN becomes DSL.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-basic-coding-e3",
+        "question": "If SCHOOL is written as LOOHCS, then BOOK is written as",
+        "options": [
+          "BOKO",
+          "OOKB",
+          "KBOO",
+          "KOOB"
+        ],
+        "correctAnswer": "KOOB",
+        "explanation": "The code is the word written backwards. So BOOK becomes KOOB.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-lr-basic-coding-i7",
+        "question": "In a code, M = 1, A = 2, T = 3, E = 4, R = 5, I = 6. The code for TERM is",
+        "options": [
+          "3451",
+          "3415",
+          "3541",
+          "3145"
+        ],
+        "correctAnswer": "3451",
+        "explanation": "T = 3, E = 4, R = 5, M = 1, so TERM = 3451.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-basic-coding-i8",
+        "question": "In a code, every letter is replaced by the letter three places ahead. Then COME is written as",
+        "options": [
+          "EQOG",
+          "ZLJB",
+          "GSQI",
+          "FRPH"
+        ],
+        "correctAnswer": "FRPH",
+        "explanation": "C→F, O→R, M→P, E→H. So COME becomes FRPH.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-basic-coding-i9",
+        "question": "Written in the form of position numbers, the word HAT is",
+        "options": [
+          "8-1-19",
+          "7-1-20",
+          "8-2-20",
+          "8-1-20"
+        ],
+        "correctAnswer": "8-1-20",
+        "explanation": "H = 8, A = 1, T = 20.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-lr-basic-coding-a15",
+        "question": "In a code, each word is first reversed and then every letter is moved one place forward. Then DOG is coded as",
+        "options": [
+          "EPH",
+          "HOE",
+          "HPE",
+          "FNC"
+        ],
+        "correctAnswer": "HPE",
+        "explanation": "Reversing DOG gives GOD. Moving each letter one place forward gives HPE.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-basic-coding-a16",
+        "question": "If PAPER is coded as QCSIW (shifts +1, +2, +3, +4, +5), then BOARD is coded as",
+        "options": [
+          "CPBSE",
+          "CQDVI",
+          "CQBTE",
+          "CQDVE"
+        ],
+        "correctAnswer": "CQDVI",
+        "explanation": "B+1 = C, O+2 = Q, A+3 = D, R+4 = V, D+5 = I. The code is CQDVI.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-lr-basic-coding-p17",
+        "question": "If SMART is written as 19-13-1-18-20 (position numbers), then 20-8-9-14-11 stands for",
+        "options": [
+          "THANK",
+          "THINK",
+          "TRICK",
+          "THICK"
+        ],
+        "correctAnswer": "THINK",
+        "explanation": "20 = T, 8 = H, 9 = I, 14 = N, 11 = K. The word is THINK.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-basic-coding-p18",
+        "question": "In a code, \"pen pencil\" = \"ab cd\", \"pencil box\" = \"cd ef\" and \"pen bag\" = \"ab gh\". The code for \"box\" is",
+        "options": [
+          "ef",
+          "ab",
+          "cd",
+          "gh"
+        ],
+        "correctAnswer": "ef",
+        "explanation": "pencil is common to the first two sentences (cd) and pen to the first and third (ab). In \"pencil box\" = \"cd ef\", pencil is cd, so box = ef.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-basic-coding-p19",
+        "question": "In a code, every letter is replaced by its opposite letter in the alphabet (A↔Z, B↔Y, …). Then SOLVE is written as",
+        "options": [
+          "VEOLH",
+          "TPMWF",
+          "GLOEV",
+          "HLOEV"
+        ],
+        "correctAnswer": "HLOEV",
+        "explanation": "S→H, O→L, L→O, V→E, E→V. The code is HLOEV.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Compare the original and its code letter by letter.",
+      "Constant, alternating and progressive shifts; reversal; opposite letters.",
+      "Opposite positions add up to 27.",
+      "Wrap past Z by subtracting 26.",
+      "Common words identify common codes."
+    ],
+    "quickFormulas": [
+      "Shift: new = old ± k",
+      "Opposite: 27 − position",
+      "Position numbers: A = 1 … Z = 26"
+    ]
+  },
+  "keyTakeaways": [
+    "Always find the rule from every letter.",
+    "Write positions down.",
+    "Decode by applying the reverse of the rule.",
+    "Use common words in word-based codes."
+  ],
+  "selfCheckQuestions": [
+    "Can I apply a +2 shift to the word COME?",
+    "Can I find the opposite-letter code of SOLVE?",
+    "Can I decode a word-based code from three sentences?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The Coding-Decoding topic area; examples in this chapter are original."
+    }
+  ]
+}

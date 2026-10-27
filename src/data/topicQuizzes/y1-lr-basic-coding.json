@@ -1,0 +1,268 @@
+{
+  "topicId": "y1-lr-basic-coding",
+  "topicTitle": "Basic Coding-Decoding",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "In a code, every letter is replaced by the next letter of the alphabet. Then BOY is written as",
+      "options": [
+        "ANX",
+        "CPZ",
+        "DQA",
+        "ZPC"
+      ],
+      "answerIndex": 1,
+      "explanation": "Each letter moves one place forward: B→C, O→P, Y→Z. So BOY becomes CPZ."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "In a code, every letter is replaced by the letter two places before it. Then FUN is written as",
+      "options": [
+        "DSL",
+        "HWP",
+        "ETM",
+        "GVO"
+      ],
+      "answerIndex": 0,
+      "explanation": "F→D, U→S, N→L, so FUN becomes DSL."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "If SCHOOL is written as LOOHCS, then BOOK is written as",
+      "options": [
+        "BOKO",
+        "OOKB",
+        "KBOO",
+        "KOOB"
+      ],
+      "answerIndex": 3,
+      "explanation": "The code is the word written backwards. So BOOK becomes KOOB."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "If A = 1, B = 2, C = 3, …, what is the sum of the values of the letters of BAD?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ],
+      "answerIndex": 2,
+      "explanation": "B = 2, A = 1, D = 4. Sum = 7."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "If MONKEY is written as NPOLFZ, then TIGER is written as",
+      "options": [
+        "SHFDQ",
+        "VKIGT",
+        "UJHFS",
+        "REGIT"
+      ],
+      "answerIndex": 2,
+      "explanation": "Each letter moves one place forward, so TIGER becomes UJHFS."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "In a code, A is replaced by Z, B by Y, C by X and so on. Then CAT is written as",
+      "options": [
+        "DBU",
+        "XZG",
+        "TAC",
+        "XAG"
+      ],
+      "answerIndex": 1,
+      "explanation": "Each letter is replaced by its opposite (positions add to 27): C→X, A→Z, T→G. So CAT becomes XZG."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "In a code, M = 1, A = 2, T = 3, E = 4, R = 5, I = 6. The code for TERM is",
+      "options": [
+        "3451",
+        "3415",
+        "3541",
+        "3145"
+      ],
+      "answerIndex": 0,
+      "explanation": "T = 3, E = 4, R = 5, M = 1, so TERM = 3451."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "In a code, every letter is replaced by the letter three places ahead. Then COME is written as",
+      "options": [
+        "EQOG",
+        "ZLJB",
+        "GSQI",
+        "FRPH"
+      ],
+      "answerIndex": 3,
+      "explanation": "C→F, O→R, M→P, E→H. So COME becomes FRPH."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "Written in the form of position numbers, the word HAT is",
+      "options": [
+        "8-1-19",
+        "7-1-20",
+        "8-2-20",
+        "8-1-20"
+      ],
+      "answerIndex": 3,
+      "explanation": "H = 8, A = 1, T = 20."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "In a code, \"red apple\" = \"ka lo\", \"green apple\" = \"ma lo\" and \"red rose\" = \"ka ti\". What is the code for \"green\"?",
+      "options": [
+        "ka",
+        "lo",
+        "ma",
+        "ti"
+      ],
+      "answerIndex": 2,
+      "explanation": "\"apple\" is common to the first two sentences, so apple = lo. \"red\" is common to the first and third, so red = ka. Then in \"green apple\" = \"ma lo\", green = ma."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "In a code, vowels in a word are replaced by the next letter of the alphabet and consonants are unchanged. Then WATER is written as",
+      "options": [
+        "XBUFS",
+        "WBTFR",
+        "WATER",
+        "WBTER"
+      ],
+      "answerIndex": 1,
+      "explanation": "A→B and E→F. W, T and R are unchanged. So WATER becomes WBTFR."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "If FRIEND is coded as GQJDOC (alternate shifts +1 and −1), then BOARD is coded as",
+      "options": [
+        "CNBQE",
+        "CPBSE",
+        "APZSC",
+        "ANZQC"
+      ],
+      "answerIndex": 0,
+      "explanation": "The shifts alternate +1, −1, +1, −1, +1: B→C, O→N, A→B, R→Q, D→E. The code is CNBQE."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "In a code, each letter is replaced by twice its position number. The code for DAD is",
+      "options": [
+        "8-2-8",
+        "4-1-4",
+        "8-1-8",
+        "16-2-16"
+      ],
+      "answerIndex": 0,
+      "explanation": "D = 4 → 8, A = 1 → 2, D = 4 → 8. The code is 8-2-8."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "If MANGO is coded as OCPIQ, then APPLE is coded as",
+      "options": [
+        "BQQMF",
+        "DSSOH",
+        "YNNJC",
+        "CRRNG"
+      ],
+      "answerIndex": 3,
+      "explanation": "M→O, A→C, N→P, G→I, O→Q: each letter moves two places forward. So APPLE becomes CRRNG."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "In a code, each word is first reversed and then every letter is moved one place forward. Then DOG is coded as",
+      "options": [
+        "EPH",
+        "HOE",
+        "HPE",
+        "FNC"
+      ],
+      "answerIndex": 2,
+      "explanation": "Reversing DOG gives GOD. Moving each letter one place forward gives HPE."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "If PAPER is coded as QCSIW (shifts +1, +2, +3, +4, +5), then BOARD is coded as",
+      "options": [
+        "CPBSE",
+        "CQDVI",
+        "CQBTE",
+        "CQDVE"
+      ],
+      "answerIndex": 1,
+      "explanation": "B+1 = C, O+2 = Q, A+3 = D, R+4 = V, D+5 = I. The code is CQDVI."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "If SMART is written as 19-13-1-18-20 (position numbers), then 20-8-9-14-11 stands for",
+      "options": [
+        "THANK",
+        "THINK",
+        "TRICK",
+        "THICK"
+      ],
+      "answerIndex": 1,
+      "explanation": "20 = T, 8 = H, 9 = I, 14 = N, 11 = K. The word is THINK."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "In a code, \"pen pencil\" = \"ab cd\", \"pencil box\" = \"cd ef\" and \"pen bag\" = \"ab gh\". The code for \"box\" is",
+      "options": [
+        "ef",
+        "ab",
+        "cd",
+        "gh"
+      ],
+      "answerIndex": 0,
+      "explanation": "pencil is common to the first two sentences (cd) and pen to the first and third (ab). In \"pencil box\" = \"cd ef\", pencil is cd, so box = ef."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "In a code, every letter is replaced by its opposite letter in the alphabet (A↔Z, B↔Y, …). Then SOLVE is written as",
+      "options": [
+        "VEOLH",
+        "TPMWF",
+        "GLOEV",
+        "HLOEV"
+      ],
+      "answerIndex": 3,
+      "explanation": "S→H, O→L, L→O, V→E, E→V. The code is HLOEV.",
+      "shortcut": "Opposite position = 27 − position."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "If A = 1, B = 2, …, Z = 26, the sum of the position values of the letters of the word RIET is",
+      "options": [
+        "47",
+        "53",
+        "52",
+        "58"
+      ],
+      "answerIndex": 2,
+      "explanation": "R = 18, I = 9, E = 5, T = 20. Sum = 18 + 9 + 5 + 20 = 52."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/letter-and-symbol-series/"
+}

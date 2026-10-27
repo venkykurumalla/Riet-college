@@ -1,0 +1,443 @@
+{
+  "id": "y1-lr-basic-blood-relations",
+  "yearId": 1,
+  "category": "Logical Reasoning",
+  "topicNumber": 19,
+  "title": "Basic Blood Relations",
+  "tagline": "Year 1 Foundation — Reading family relationships and drawing the family tree",
+  "estimatedMinutes": 45,
+  "difficulty": "Foundation",
+  "introduction": {
+    "overview": "Blood relation problems describe how people in a family are connected through statements such as \"A is the brother of B\" or \"Pointing to a man, a woman said, he is the son of my mother's only son\". You must work out the relationship between two named people. The reliable method is to draw a small family tree, mark each person as male or female where it is known, and then read the answer from the tree.",
+    "placementRelevance": "Blood relation questions are commonly asked in the reasoning section of company aptitude rounds. They need no calculation; the challenge is reading the statements precisely and not mixing up the sides of the family.",
+    "realWorldContext": "Forms that ask for \"next of kin\", family-tree charts, inheritance documents and insurance nominee records all rely on correctly reading relationships."
+  },
+  "learningObjectives": [
+    "Know the standard relationship terms and their meanings",
+    "Distinguish maternal and paternal relations",
+    "Draw a family tree with generation levels and gender marks",
+    "Solve \"pointing to\" statements by working from the speaker",
+    "Decode relationships given through symbols such as +, − and ×"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic English vocabulary for family relations",
+      "Classification / Odd One Out"
+    ],
+    "quickRefresher": "Generations: grandparents (top), parents, the person and their siblings and cousins, children (bottom). Siblings and cousins sit on the same level."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Maternal relations are on the mother's side; paternal relations are on the father's side.",
+      "Uncle: the brother of one's father or mother (also the husband of one's aunt). Aunt: the sister of one's father or mother (also the wife of one's uncle).",
+      "Cousin: the child of one's uncle or aunt.",
+      "Brother-in-law: the brother of one's spouse, or the husband of one's sister. Sister-in-law is defined in the same way.",
+      "Nephew and niece: the son and daughter of one's brother or sister.",
+      "Grandfather and grandmother: the parents of one's father or mother."
+    ],
+    "theoreticalIntuition": "A blood relation puzzle is a small graph. Each statement adds one edge (\"parent of\", \"sibling of\", \"spouse of\"). Once the graph is on paper, the answer is a matter of reading the path between two nodes. The main danger is trying to hold the entire tree in your head instead of drawing it.",
+    "visualOrMentalModel": "Draw a horizontal line for each generation. Put a square for a male, a circle for a female and a short line between spouses. Use a vertical line from the parents to their children. Siblings share the same parent line."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Father's or mother's sibling",
+      "formula": "Father's brother = paternal uncle; Father's sister = paternal aunt; Mother's brother = maternal uncle; Mother's sister = maternal aunt",
+      "description": "Name the side and the gender.",
+      "whenToUse": "Uncle and aunt questions.",
+      "simpleExample": "My mother's brother → maternal uncle"
+    },
+    {
+      "title": "Uncle's or aunt's child",
+      "formula": "Uncle's or aunt's child = cousin",
+      "description": "Same level as the person.",
+      "whenToUse": "Cousin questions.",
+      "simpleExample": "My mother's brother's son → cousin"
+    },
+    {
+      "title": "Spouse's relatives",
+      "formula": "Spouse's father = father-in-law; spouse's mother = mother-in-law; spouse's brother or sister's husband = brother-in-law",
+      "description": "Marriage adds in-law relations.",
+      "whenToUse": "Questions mentioning wife or husband.",
+      "simpleExample": "Sister's husband → brother-in-law"
+    },
+    {
+      "title": "Pointing statements",
+      "formula": "Start from the speaker, work outwards one link at a time",
+      "description": "Replace \"my\" with the speaker and trace the path.",
+      "whenToUse": "\"She is my mother's only daughter\" → speaker's sister (or the speaker).",
+      "simpleExample": "\"My father's only son\" → the speaker himself"
+    },
+    {
+      "title": "Coded relations",
+      "formula": "Assign each symbol a relation (for example + = mother, − = brother, × = father) and read left to right",
+      "description": "Write the chain, then name the final relation.",
+      "whenToUse": "Questions using +, −, ×, ÷.",
+      "simpleExample": "P − R + Q: P is the brother of R, R is the mother of Q"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Read each statement slowly and underline the relation word and its direction. \"A is the brother of B\" does not say who is older or what B's gender is. Mark A as male and put A on the same level as B. Do not invent information that is not in the statement.",
+      "For a chain such as \"A is the brother of B, B is the mother of C\", draw B and C first (a mother and her child), place A beside B, and note that A is the brother of C's mother, which makes A the maternal uncle of C.",
+      "Pointing statements usually contain \"only\" to give you certainty. \"My father's only son\" can only be the speaker (if the speaker is male) or the speaker's brother. In \"she is my mother's mother's only daughter's daughter\", the only daughter of the speaker's maternal grandmother is the speaker's mother, and her daughter is the speaker's sister.",
+      "Coded relation questions use symbols for relationships. If + means mother, − means brother and × means father, then \"P − R + Q\" says P is the brother of R and R is the mother of Q, so P is Q's maternal uncle.",
+      "If the answer is ambiguous (a \"cousin\" could be male or female), the question will give an option such as \"cannot be determined\" or will ask only for the relation, which is cousin."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Why \"only\" matters",
+        "content": "The word \"only\" removes ambiguity. \"Her mother's only son\" is a unique person, her brother. Without \"only\", you could not tell which son is meant. Whenever you see \"only\", use it to merge two descriptions into one person."
+      },
+      {
+        "title": "Gender clues",
+        "content": "Unless the statement gives gender, do not guess. \"Parent\", \"sibling\", \"child\", \"cousin\" and \"spouse\" are neutral. The final answer should use a neutral term whenever the gender cannot be fixed from the statements."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct relation",
+      "description": "Find the relation from a short chain.",
+      "exampleSnippet": "A is B's brother. B is C's mother. A is C's ___?"
+    },
+    {
+      "typeName": "Pointing statements",
+      "description": "A person points to another and describes the link.",
+      "exampleSnippet": "She is my mother's only daughter's daughter."
+    },
+    {
+      "typeName": "Family tree",
+      "description": "Several people and relations are given.",
+      "exampleSnippet": "A and B are a married couple; C is their son; D is C's wife."
+    },
+    {
+      "typeName": "Coded relations",
+      "description": "Symbols stand for relations.",
+      "exampleSnippet": "P − R + Q"
+    },
+    {
+      "typeName": "Counting relations",
+      "description": "Count the number of people of a type.",
+      "exampleSnippet": "How many brothers does A have?"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y1-lr-basic-blood-relations-1",
+      "title": "A chain of relations",
+      "question": "A is the brother of B. B is the mother of C. How is A related to C?",
+      "givenInfo": [
+        "A is the brother of B",
+        "B is the mother of C"
+      ],
+      "conceptOrFormula": "Draw B and C, then place A beside B.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Mark the first relation",
+          "explanation": "A is male (brother) and is at the same level as B."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Mark the second relation",
+          "explanation": "B is the mother of C, so C is one level below B."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Read the path",
+          "explanation": "A is the brother of C's mother."
+        }
+      ],
+      "finalAnswer": "Maternal uncle",
+      "whyItWorks": "The brother of one's mother is the maternal uncle.",
+      "commonTrap": "Answering \"father\", which would require A to be the husband of B.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y1-lr-basic-blood-relations-2",
+      "title": "A pointing statement",
+      "question": "Pointing to a girl, Anil says, \"She is the daughter of my mother's mother's only daughter.\" How is the girl related to Anil?",
+      "givenInfo": [
+        "The girl = daughter of (Anil's mother's mother's only daughter)"
+      ],
+      "conceptOrFormula": "Work from Anil outwards, one link at a time.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Anil's mother's mother",
+          "explanation": "This is Anil's maternal grandmother."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Her only daughter",
+          "explanation": "The only daughter of Anil's maternal grandmother is Anil's mother."
+        },
+        {
+          "stepNumber": 3,
+          "title": "The daughter of that person",
+          "explanation": "The daughter of Anil's mother is Anil's sister."
+        }
+      ],
+      "finalAnswer": "Sister",
+      "whyItWorks": "The word \"only\" makes the daughter of the grandmother unique: it must be Anil's mother.",
+      "commonTrap": "Answering \"cousin\" by thinking the \"mother's mother's daughter\" is an aunt.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y1-lr-basic-blood-relations-3",
+      "title": "Coded relation",
+      "question": "If A + B means A is the mother of B, A − B means A is the brother of B and A × B means A is the father of B, which expression shows that P is the maternal uncle of Q?",
+      "givenInfo": [
+        "+ = mother, − = brother, × = father"
+      ],
+      "conceptOrFormula": "A maternal uncle is the brother of the mother.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "State what is needed",
+          "explanation": "P must be the brother of Q's mother. Let R be Q's mother."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Write the two relations",
+          "explanation": "P is the brother of R (P − R) and R is the mother of Q (R + Q)."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Join them",
+          "explanation": "The chain is P − R + Q."
+        }
+      ],
+      "finalAnswer": "P − R + Q",
+      "whyItWorks": "Reading left to right: P is the brother of R and R is the mother of Q.",
+      "commonTrap": "Writing R − P + Q, which makes R the maternal uncle.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Draw first, read second",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Try to keep all relations in memory and reason mentally.",
+      "shortcutMethod": "Draw squares for males and circles for females, join spouses with a short horizontal line and children below. Write every new person as soon as the statement mentions them."
+    },
+    "rulesForApplication": [
+      "\"My mother's brother\" is the maternal uncle; \"my father's sister\" is the paternal aunt.",
+      "The child of an uncle or aunt is a cousin.",
+      "Resolve \"only son/daughter\" as a single unique person.",
+      "If the question asks \"how is A related to B\", read from A's perspective, not B's."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reading the relation from the wrong side",
+      "whyItHappens": "Answering how B is related to A instead of A to B.",
+      "howToAvoid": "Re-read the final question; write \"A is the ___ of B\" and check."
+    },
+    {
+      "mistake": "Assuming gender",
+      "whyItHappens": "Treating \"cousin\" or \"sibling\" as male or female.",
+      "howToAvoid": "Use neutral terms unless the gender is stated."
+    },
+    {
+      "mistake": "Mixing maternal and paternal",
+      "whyItHappens": "Answering \"uncle\" for a mother's side but \"paternal uncle\" for the father's side.",
+      "howToAvoid": "Ask: did the link pass through the mother or the father?"
+    },
+    {
+      "mistake": "Ignoring the word \"only\"",
+      "whyItHappens": "Adding extra siblings that the statement rules out.",
+      "howToAvoid": "Use \"only\" to identify a single person."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "Eliminate options that disagree in gender or in generation level with your tree; usually two options go at once.",
+    "questionSelectionAdvice": "Blood relation questions are easy to get right if you draw. Take 10 seconds to draw rather than 40 seconds to think.",
+    "recruiterInsight": "Care with the wording of the question matters more than speed."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y1-lr-basic-blood-relations-e1",
+        "question": "A is the brother of B and B is the mother of C. How is A related to C?",
+        "options": [
+          "Father",
+          "Maternal uncle",
+          "Paternal uncle",
+          "Cousin"
+        ],
+        "correctAnswer": "Maternal uncle",
+        "explanation": "A is the brother of C's mother B, which makes A the maternal uncle of C.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-basic-blood-relations-e2",
+        "question": "My mother's brother's son is my",
+        "options": [
+          "Cousin",
+          "Brother",
+          "Nephew",
+          "Uncle"
+        ],
+        "correctAnswer": "Cousin",
+        "explanation": "The child of one's uncle or aunt is a cousin.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y1-lr-basic-blood-relations-e3",
+        "question": "The father of my father is my",
+        "options": [
+          "Uncle",
+          "Father-in-law",
+          "Brother",
+          "Grandfather"
+        ],
+        "correctAnswer": "Grandfather",
+        "explanation": "The father of one's father is the grandfather.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y1-lr-basic-blood-relations-i7",
+        "question": "A is the father of B. C is the sister of B. D is the mother of A. How is D related to C?",
+        "options": [
+          "Grandmother",
+          "Mother",
+          "Aunt",
+          "Sister"
+        ],
+        "correctAnswer": "Grandmother",
+        "explanation": "D is A's mother and A is the father of B and C. So D is the paternal grandmother of C.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-basic-blood-relations-i8",
+        "question": "Introducing a man, a woman says, \"His mother is the only daughter of my mother.\" How is the woman related to the man?",
+        "options": [
+          "Sister",
+          "Aunt",
+          "Grandmother",
+          "Mother"
+        ],
+        "correctAnswer": "Mother",
+        "explanation": "The only daughter of the woman's mother is the woman herself. So she is the man's mother.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y1-lr-basic-blood-relations-i9",
+        "question": "P is the brother of Q. Q is the sister of R. R is the father of S. How is P related to S?",
+        "options": [
+          "Father",
+          "Maternal uncle",
+          "Brother",
+          "Paternal uncle"
+        ],
+        "correctAnswer": "Paternal uncle",
+        "explanation": "P is also the brother of R, because Q is the sister of R and P is the brother of Q. R is S's father, so P is S's paternal uncle.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y1-lr-basic-blood-relations-a15",
+        "question": "If A + B means A is the mother of B, A − B means A is the brother of B and A × B means A is the father of B, which expression shows that P is the maternal uncle of Q?",
+        "options": [
+          "P + R − Q",
+          "P × R − Q",
+          "P − R + Q",
+          "R − P + Q"
+        ],
+        "correctAnswer": "P − R + Q",
+        "explanation": "P must be the brother of Q's mother. P − R says P is the brother of R, and R + Q says R is the mother of Q. So P − R + Q.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-basic-blood-relations-a16",
+        "question": "A and B are a married couple. C is their only son and D is the wife of C. E is the daughter of C and D. How is B related to E?",
+        "options": [
+          "Maternal grandmother",
+          "Paternal grandmother",
+          "Mother",
+          "Aunt"
+        ],
+        "correctAnswer": "Paternal grandmother",
+        "explanation": "B is C's mother (and A's wife). E is C's daughter, so B is E's father's mother, the paternal grandmother.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y1-lr-basic-blood-relations-p17",
+        "question": "P is the brother of Q, Q is the brother of R, and R is the father of S. How is P related to S?",
+        "options": [
+          "Father",
+          "Paternal uncle",
+          "Maternal uncle",
+          "Cousin"
+        ],
+        "correctAnswer": "Paternal uncle",
+        "explanation": "P and Q are brothers and Q and R are brothers, so P is a brother of R. R is S's father, so P is S's paternal uncle.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-basic-blood-relations-p18",
+        "question": "A is the sister of B. C is the mother of B. D is the father of C. How is A related to D?",
+        "options": [
+          "Granddaughter",
+          "Daughter",
+          "Niece",
+          "Sister"
+        ],
+        "correctAnswer": "Granddaughter",
+        "explanation": "A is B's sister, so A is also C's daughter. C is D's child. So A is D's granddaughter.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y1-lr-basic-blood-relations-p19",
+        "question": "Pointing to a lady, a man says, \"The son of her only brother is the brother of my wife.\" How is the lady related to the man?",
+        "options": [
+          "Mother of wife",
+          "Sister of wife",
+          "Sister",
+          "Wife's paternal aunt"
+        ],
+        "correctAnswer": "Wife's paternal aunt",
+        "explanation": "The lady's only brother's son is the man's wife's brother. So the lady's brother is the wife's father. The lady is the sister of the wife's father, i.e. the wife's paternal aunt.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Draw squares for males, circles for females; generations as rows.",
+      "Maternal = mother's side; paternal = father's side.",
+      "The child of an uncle or aunt is a cousin.",
+      "Use \"only\" to identify a unique person.",
+      "In coded relations, read the chain left to right."
+    ],
+    "quickFormulas": [
+      "Mother's brother = maternal uncle",
+      "Father's sister = paternal aunt",
+      "Sibling's child = nephew/niece"
+    ]
+  },
+  "keyTakeaways": [
+    "Draw the tree.",
+    "Read the question from the correct person's perspective.",
+    "Do not invent genders.",
+    "Chains of two or three links are enough for most questions."
+  ],
+  "selfCheckQuestions": [
+    "Can I identify the relation of A to C if A is the sister of B and B is the father of C?",
+    "Can I resolve \"my father's only son\"?",
+    "Can I write the expression for \"P is the maternal uncle of Q\" using + − × symbols?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "A Modern Approach to Verbal & Non-Verbal Reasoning — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "The Blood Relations topic area; examples in this chapter are original."
+    }
+  ]
+}
