@@ -1,0 +1,419 @@
+{
+  "id": "y3-di-radar-chart-di",
+  "yearId": 3,
+  "category": "Data Interpretation",
+  "topicNumber": 62,
+  "title": "Radar/Spider Chart DI",
+  "tagline": "Year 3 — Several variables on spokes around a centre: reading values, profiles and comparisons",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A radar (or spider) chart plots several variables on spokes that radiate from a centre, joining the points for each person or item into a polygon. Each spoke has its own scale starting at the centre. The chart is useful for comparing profiles: where one polygon sticks out beyond another, that item is stronger on that variable. In exams the polygon values are read from the rings; the questions are the same as for tables.",
+    "placementRelevance": "Radar charts appear in DI sets as the \"unusual\" chart type to test flexibility.",
+    "realWorldContext": "Skill profiles of candidates, product comparisons and performance reviews are often drawn as radar charts."
+  },
+  "learningObjectives": [
+    "Read values from spokes and rings",
+    "Compare two or more profiles variable by variable",
+    "Compute totals, averages and differences across spokes",
+    "Identify strongest and weakest variables",
+    "Count where one profile leads another"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Table-Based DI",
+      "Bar Graph Interpretation"
+    ],
+    "quickRefresher": "Each spoke is a separate scale starting at the centre. The value is read where the polygon crosses the spoke."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Spoke: one variable axis from the centre outwards.",
+      "Ring: a circle of equal value.",
+      "Profile: the polygon of one person or item.",
+      "Strength: a spoke where the profile reaches far out.",
+      "Lead: a variable on which one profile exceeds another."
+    ],
+    "theoreticalIntuition": "A radar chart is a table wrapped in a circle. Unwrap it into a table and the questions are arithmetic.",
+    "visualOrMentalModel": "Write a table with one row per spoke and one column per profile. Then answer by looking up cells and doing simple arithmetic."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Total score",
+      "formula": "Sum of the spokes",
+      "description": "One profile.",
+      "whenToUse": "Totals.",
+      "simpleExample": "Rahul: 425"
+    },
+    {
+      "title": "Average",
+      "formula": "Total ÷ number of spokes",
+      "description": "Six spokes.",
+      "whenToUse": "Mean.",
+      "simpleExample": "Rahul: 70.8"
+    },
+    {
+      "title": "Difference",
+      "formula": "Value A − value B on one spoke",
+      "description": "Same spoke.",
+      "whenToUse": "Comparison.",
+      "simpleExample": "Teamwork: Sneha − Rahul = 25"
+    },
+    {
+      "title": "Lead count",
+      "formula": "Number of spokes where A > B",
+      "description": "Two profiles.",
+      "whenToUse": "Counting.",
+      "simpleExample": "Sneha leads Rahul on 4"
+    },
+    {
+      "title": "Percent more",
+      "formula": "(A − B) ÷ B × 100",
+      "description": "B is the base.",
+      "whenToUse": "Comparison.",
+      "simpleExample": "Leadership: 80 vs 55"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Write the table first: Communication 70, 80, 65; Logic 85, 75, 70; Technical 90, 70, 60; Teamwork 60, 85, 75; Leadership 55, 80, 90; Creativity 65, 72, 80 (Rahul, Sneha, Tarun).",
+      "Totals: Rahul 425, Sneha 462, Tarun 440. Averages: Rahul 70.8, Sneha 77.0, Tarun 73.3.",
+      "Strongest and weakest spokes: Rahul is strongest in Technical (90) and weakest in Leadership (55). Tarun is strongest in Leadership (90) and weakest in Technical (60).",
+      "Sneha leads Rahul on Communication, Teamwork, Leadership and Creativity: four spokes. Rahul leads on Logic and Technical.",
+      "Percent comparisons use the second named profile as the base: Sneha's Leadership (80) is (80 − 55) ÷ 55 = 45.5% higher than Rahul's."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Area of the polygon",
+        "content": "A larger polygon suggests a stronger overall profile only if all spokes are on the same scale and equally important."
+      },
+      {
+        "title": "Spoke order",
+        "content": "The order of spokes around the chart is arbitrary; do not read neighbours as related."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Single value",
+      "description": "Read a spoke.",
+      "exampleSnippet": "Rahul Technical"
+    },
+    {
+      "typeName": "Total/average",
+      "description": "Across spokes.",
+      "exampleSnippet": "Sneha total"
+    },
+    {
+      "typeName": "Extremes",
+      "description": "Highest/lowest.",
+      "exampleSnippet": "Weakest skill"
+    },
+    {
+      "typeName": "Lead counts",
+      "description": "Compare two profiles.",
+      "exampleSnippet": "Sneha vs Rahul"
+    },
+    {
+      "typeName": "Percent comparison",
+      "description": "Base matters.",
+      "exampleSnippet": "Leadership"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-di-radar-chart-di-1",
+      "title": "Total",
+      "question": "Rahul scores 70, 85, 90, 60, 55 and 65 on six spokes. What is his total score?",
+      "givenInfo": [
+        "Six values"
+      ],
+      "conceptOrFormula": "Add.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Add",
+          "explanation": "70 + 85 + 90 = 245."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Add the rest",
+          "explanation": "60 + 55 + 65 = 180; total 425."
+        }
+      ],
+      "finalAnswer": "425",
+      "whyItWorks": "Check: average is 70.8.",
+      "commonTrap": "Missing a spoke.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-di-radar-chart-di-2",
+      "title": "Lead count",
+      "question": "Compare Sneha (80, 75, 70, 85, 80, 72) with Rahul (70, 85, 90, 60, 55, 65). On how many spokes does Sneha lead?",
+      "givenInfo": [
+        "Six pairs"
+      ],
+      "conceptOrFormula": "Compare pairwise.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pairs",
+          "explanation": "80>70, 75<85, 70<90, 85>60, 80>55, 72>65."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Count",
+          "explanation": "Sneha leads on 4."
+        }
+      ],
+      "finalAnswer": "4",
+      "whyItWorks": "Rahul leads on Logic and Technical.",
+      "commonTrap": "Counting ties.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-di-radar-chart-di-3",
+      "title": "Percent more",
+      "question": "Sneha scores 80 in Leadership and Rahul 55. By what percentage is Sneha's score higher than Rahul's?",
+      "givenInfo": [
+        "80 vs 55"
+      ],
+      "conceptOrFormula": "Base is Rahul.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Difference",
+          "explanation": "80 − 55 = 25."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "25 ÷ 55 = 45.5%."
+        }
+      ],
+      "finalAnswer": "45.5%",
+      "whyItWorks": "Rahul is the base.",
+      "commonTrap": "Dividing by 80.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Unwrap the circle",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Read the chart for every question.",
+      "shortcutMethod": "Copy the values into a table once and answer all questions from the table."
+    },
+    "rulesForApplication": [
+      "Table first.",
+      "Use the second named profile as the base.",
+      "Count leads pairwise.",
+      "Check each spoke."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reading a neighbouring spoke",
+      "whyItHappens": "Wrong value.",
+      "howToAvoid": "Follow the spoke to the ring."
+    },
+    {
+      "mistake": "Wrong base for a percentage",
+      "whyItHappens": "Reverse comparison.",
+      "howToAvoid": "Base is the second name."
+    },
+    {
+      "mistake": "Assuming bigger area is better",
+      "whyItHappens": "Spokes may differ in importance.",
+      "howToAvoid": "Answer only what is asked."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 90,
+    "eliminationTechnique": "A score cannot exceed 100.",
+    "questionSelectionAdvice": "Copy values into a table before answering.",
+    "recruiterInsight": "Radar questions are table questions in disguise."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-di-radar-chart-di-e1",
+        "question": "Radar chart data: scores (out of 100) of three candidates in six skills.\n\nSkill | Rahul | Sneha | Tarun\nCommunication | 70 | 80 | 65\nLogic | 85 | 75 | 70\nTechnical | 90 | 70 | 60\nTeamwork | 60 | 85 | 75\nLeadership | 55 | 80 | 90\nCreativity | 65 | 72 | 80\n\nWhat is Rahul's score in Technical?",
+        "options": [
+          "99",
+          "90",
+          "81",
+          "113"
+        ],
+        "correctAnswer": "90",
+        "explanation": "The Technical value of Rahul is 90. The answer is 90.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-radar-chart-di-e2",
+        "question": "Radar chart data: scores (out of 100) of three candidates in six skills.\n\nSkill | Rahul | Sneha | Tarun\nCommunication | 70 | 80 | 65\nLogic | 85 | 75 | 70\nTechnical | 90 | 70 | 60\nTeamwork | 60 | 85 | 75\nLeadership | 55 | 80 | 90\nCreativity | 65 | 72 | 80\n\nWhat is Sneha's score in Teamwork?",
+        "options": [
+          "85",
+          "94",
+          "77",
+          "106"
+        ],
+        "correctAnswer": "85",
+        "explanation": "The Teamwork value of Sneha is 85. The answer is 85.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-radar-chart-di-e3",
+        "question": "Radar chart data: scores (out of 100) of three candidates in six skills.\n\nSkill | Rahul | Sneha | Tarun\nCommunication | 70 | 80 | 65\nLogic | 85 | 75 | 70\nTechnical | 90 | 70 | 60\nTeamwork | 60 | 85 | 75\nLeadership | 55 | 80 | 90\nCreativity | 65 | 72 | 80\n\nIn which skill is Tarun's score the highest?",
+        "options": [
+          "Communication",
+          "Logic",
+          "Technical",
+          "Leadership"
+        ],
+        "correctAnswer": "Leadership",
+        "explanation": "Tarun's scores are 65, 70, 60, 75, 90, 80; the highest is 90 in Leadership. Answer: Leadership.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-di-radar-chart-di-i7",
+        "question": "Radar chart data: scores (out of 100) of three candidates in six skills.\n\nSkill | Rahul | Sneha | Tarun\nCommunication | 70 | 80 | 65\nLogic | 85 | 75 | 70\nTechnical | 90 | 70 | 60\nTeamwork | 60 | 85 | 75\nLeadership | 55 | 80 | 90\nCreativity | 65 | 72 | 80\n\nWhat is Sneha's total score?",
+        "options": [
+          "462",
+          "508",
+          "416",
+          "578"
+        ],
+        "correctAnswer": "462",
+        "explanation": "80 + 75 + 70 + 85 + 80 + 72 = 462. The answer is 462.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-radar-chart-di-i8",
+        "question": "Radar chart data: scores (out of 100) of three candidates in six skills.\n\nSkill | Rahul | Sneha | Tarun\nCommunication | 70 | 80 | 65\nLogic | 85 | 75 | 70\nTechnical | 90 | 70 | 60\nTeamwork | 60 | 85 | 75\nLeadership | 55 | 80 | 90\nCreativity | 65 | 72 | 80\n\nWhat is Tarun's average score (to one decimal)?",
+        "options": [
+          "80.6",
+          "66",
+          "91.6",
+          "73.3"
+        ],
+        "correctAnswer": "73.3",
+        "explanation": "Total = 65 + 70 + 60 + 75 + 90 + 80 = 440; 440 ÷ 6 = 73.3. The answer is 73.3.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-radar-chart-di-i9",
+        "question": "Radar chart data: scores (out of 100) of three candidates in six skills.\n\nSkill | Rahul | Sneha | Tarun\nCommunication | 70 | 80 | 65\nLogic | 85 | 75 | 70\nTechnical | 90 | 70 | 60\nTeamwork | 60 | 85 | 75\nLeadership | 55 | 80 | 90\nCreativity | 65 | 72 | 80\n\nWho has the highest total score?",
+        "options": [
+          "Rahul",
+          "Tarun",
+          "All three are equal",
+          "Sneha"
+        ],
+        "correctAnswer": "Sneha",
+        "explanation": "Totals are Rahul 425, Sneha 462, Tarun 440, so Sneha is highest. Answer: Sneha.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-di-radar-chart-di-a15",
+        "question": "Radar chart data: scores (out of 100) of three candidates in six skills.\n\nSkill | Rahul | Sneha | Tarun\nCommunication | 70 | 80 | 65\nLogic | 85 | 75 | 70\nTechnical | 90 | 70 | 60\nTeamwork | 60 | 85 | 75\nLeadership | 55 | 80 | 90\nCreativity | 65 | 72 | 80\n\nBy what percentage is Sneha's Leadership score higher than Rahul's?",
+        "options": [
+          "50.1%",
+          "41%",
+          "45.5%",
+          "56.9%"
+        ],
+        "correctAnswer": "45.5%",
+        "explanation": "(80 − 55) ÷ 55 = 25 ÷ 55 = 45.5%. The answer is 45.5%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-radar-chart-di-a16",
+        "question": "Radar chart data: scores (out of 100) of three candidates in six skills.\n\nSkill | Rahul | Sneha | Tarun\nCommunication | 70 | 80 | 65\nLogic | 85 | 75 | 70\nTechnical | 90 | 70 | 60\nTeamwork | 60 | 85 | 75\nLeadership | 55 | 80 | 90\nCreativity | 65 | 72 | 80\n\nRahul's Technical score is what percentage of his total score (to one decimal)?",
+        "options": [
+          "23.3%",
+          "21.2%",
+          "19.1%",
+          "26.5%"
+        ],
+        "correctAnswer": "21.2%",
+        "explanation": "90 ÷ 425 × 100 = 21.2%. The answer is 21.2%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-di-radar-chart-di-p17",
+        "question": "Radar chart data: scores (out of 100) of three candidates in six skills.\n\nSkill | Rahul | Sneha | Tarun\nCommunication | 70 | 80 | 65\nLogic | 85 | 75 | 70\nTechnical | 90 | 70 | 60\nTeamwork | 60 | 85 | 75\nLeadership | 55 | 80 | 90\nCreativity | 65 | 72 | 80\n\nWhich candidate has the smallest range (highest score minus lowest score)?",
+        "options": [
+          "Rahul",
+          "Sneha",
+          "Tarun",
+          "All three are equal"
+        ],
+        "correctAnswer": "Sneha",
+        "explanation": "Ranges: Rahul 90 − 55 = 35; Sneha 85 − 70 = 15; Tarun 90 − 60 = 30. The smallest is Sneha's 15. Answer: Sneha.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-radar-chart-di-p18",
+        "question": "Radar chart data: scores (out of 100) of three candidates in six skills.\n\nSkill | Rahul | Sneha | Tarun\nCommunication | 70 | 80 | 65\nLogic | 85 | 75 | 70\nTechnical | 90 | 70 | 60\nTeamwork | 60 | 85 | 75\nLeadership | 55 | 80 | 90\nCreativity | 65 | 72 | 80\n\nIf Rahul improves Leadership by 20 points, what will his new total be?",
+        "options": [
+          "445",
+          "490",
+          "401",
+          "556"
+        ],
+        "correctAnswer": "445",
+        "explanation": "425 + 20 = 445. The answer is 445.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-radar-chart-di-p19",
+        "question": "Radar chart data: scores (out of 100) of three candidates in six skills.\n\nSkill | Rahul | Sneha | Tarun\nCommunication | 70 | 80 | 65\nLogic | 85 | 75 | 70\nTechnical | 90 | 70 | 60\nTeamwork | 60 | 85 | 75\nLeadership | 55 | 80 | 90\nCreativity | 65 | 72 | 80\n\nFor how many skills is Sneha's score the highest of the three candidates?",
+        "options": [
+          "1",
+          "3",
+          "4",
+          "2"
+        ],
+        "correctAnswer": "2",
+        "explanation": "The highest per skill is: Communication Sneha, Logic Rahul, Technical Rahul, Teamwork Sneha, Leadership Tarun, Creativity Tarun. Sneha is highest in 2 skills. Answer: 2.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Read spokes.",
+      "Totals and averages.",
+      "Extremes.",
+      "Lead counts.",
+      "Percent with base."
+    ],
+    "quickFormulas": [
+      "Percent more = (A − B) ÷ B"
+    ]
+  },
+  "keyTakeaways": [
+    "Unwrap.",
+    "Add and average.",
+    "Pairwise compare.",
+    "Choose the base."
+  ],
+  "selfCheckQuestions": [
+    "Can I read a spoke?",
+    "Can I count leads?",
+    "Can I compute a percentage with the right base?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}

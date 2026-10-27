@@ -1,0 +1,423 @@
+{
+  "id": "y3-di-mixed-graph-di",
+  "yearId": 3,
+  "category": "Data Interpretation",
+  "topicNumber": 61,
+  "title": "Mixed Graph (Bar + Line) DI",
+  "tagline": "Year 3 — A bar chart and a line chart on one set of axes: reading both and combining them",
+  "estimatedMinutes": 55,
+  "difficulty": "Advanced",
+  "introduction": {
+    "overview": "A mixed graph shows two kinds of data together, usually bars for an absolute quantity (such as revenue) and a line for a rate (such as profit percentage). The two are linked: the rate applies to the quantity, so multiplying them gives a new quantity (profit). The skill is to read each series on its own scale and then combine them correctly.",
+    "placementRelevance": "Bar-plus-line graphs are the standard \"hard\" graph in DI sections of company tests.",
+    "realWorldContext": "Company dashboards plot revenue as bars and margins as a line, and managers read profit from both."
+  },
+  "learningObjectives": [
+    "Read the bar series and the line series on their own scales",
+    "Combine rate and amount to get new quantities",
+    "Compute expenses and growth rates",
+    "Find years of highest growth and highest margin",
+    "Avoid mixing percentage points and percentages"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Bar Graph Interpretation",
+      "Line Graph Interpretation",
+      "Percentage-Based DI"
+    ],
+    "quickRefresher": "Profit = revenue × profit % ÷ 100. Expenses = revenue − profit. Percentage change = change ÷ old × 100."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Primary axis: the scale that the bars use.",
+      "Secondary axis: the scale that the line uses (here percentage).",
+      "Derived series: a series you compute from two given series.",
+      "Margin: profit as a percentage of revenue.",
+      "Percentage point: the arithmetic difference between two percentages."
+    ],
+    "theoreticalIntuition": "The bars say how big, the line says how profitable. Multiply them to learn how much profit.",
+    "visualOrMentalModel": "Write a six-row table from the graph: year, revenue, margin, then add profit and expenses columns. Every question is then a lookup."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Profit",
+      "formula": "Revenue × margin %",
+      "description": "Two series.",
+      "whenToUse": "Key step.",
+      "simpleExample": "2023: 240 × 20% = 48"
+    },
+    {
+      "title": "Expenses",
+      "formula": "Revenue − profit",
+      "description": "After profit.",
+      "whenToUse": "Costs.",
+      "simpleExample": "2023: 240 − 48 = 192"
+    },
+    {
+      "title": "Growth",
+      "formula": "(New − old) ÷ old × 100",
+      "description": "Old is the base.",
+      "whenToUse": "Percent change.",
+      "simpleExample": "Profit 32 → 48 is 50%"
+    },
+    {
+      "title": "Average",
+      "formula": "Sum ÷ number of years",
+      "description": "Derived series.",
+      "whenToUse": "Mean.",
+      "simpleExample": "Average profit"
+    },
+    {
+      "title": "Margin comparison",
+      "formula": "Compare lines directly",
+      "description": "Rates.",
+      "whenToUse": "Highest margin.",
+      "simpleExample": "2023: 20%"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Table: 2018 revenue 125 at 8% profit gives 10; 2019 150 at 12% gives 18; 2020 180 at 15% gives 27; 2021 160 at 10% gives 16; 2022 200 at 16% gives 32; 2023 240 at 20% gives 48 (₹ crore).",
+      "Expenses are revenue minus profit: 115, 132, 153, 144, 168, 192.",
+      "Growth: profit rose from 32 to 48 between 2022 and 2023, which is 16 ÷ 32 = 50%. Revenue rose from 125 to 240 between 2018 and 2023: 115 ÷ 125 = 92%.",
+      "Be careful with margins: a rise in margin from 16% to 20% is 4 percentage points but 25% in percentage terms.",
+      "A high margin does not mean high profit. The highest profit is in 2023 (48) because both revenue and margin are highest."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Percentage points",
+        "content": "Margin change is best stated in percentage points; profit change in percent."
+      },
+      {
+        "title": "Ratio of revenue to expenses",
+        "content": "Revenue ÷ expenses is greater than 1 whenever there is a profit."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Read bar",
+      "description": "Revenue.",
+      "exampleSnippet": "2020"
+    },
+    {
+      "typeName": "Read line",
+      "description": "Margin.",
+      "exampleSnippet": "2023"
+    },
+    {
+      "typeName": "Derive profit",
+      "description": "Multiply.",
+      "exampleSnippet": "2021"
+    },
+    {
+      "typeName": "Growth",
+      "description": "Percentage change.",
+      "exampleSnippet": "Profit 2022→2023"
+    },
+    {
+      "typeName": "Best year",
+      "description": "Maximum.",
+      "exampleSnippet": "Highest margin"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y3-di-mixed-graph-di-1",
+      "title": "Derive profit",
+      "question": "Revenue in 2021 was ₹160 crore and the profit margin was 10%. What was the profit?",
+      "givenInfo": [
+        "160",
+        "10%"
+      ],
+      "conceptOrFormula": "Multiply.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Formula",
+          "explanation": "Profit = revenue × margin."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "160 × 10% = ₹16 crore."
+        }
+      ],
+      "finalAnswer": "₹16 crore",
+      "whyItWorks": "The margin is a rate on revenue.",
+      "commonTrap": "Subtracting 10 from 160.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y3-di-mixed-graph-di-2",
+      "title": "Expenses",
+      "question": "In 2023, revenue was ₹240 crore and profit was ₹48 crore. What were the expenses?",
+      "givenInfo": [
+        "240",
+        "48"
+      ],
+      "conceptOrFormula": "Subtract.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Formula",
+          "explanation": "Expenses = revenue − profit."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Compute",
+          "explanation": "240 − 48 = ₹192 crore."
+        }
+      ],
+      "finalAnswer": "₹192 crore",
+      "whyItWorks": "Check: profit is 20% of 240.",
+      "commonTrap": "Adding.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y3-di-mixed-graph-di-3",
+      "title": "Growth",
+      "question": "Profit rose from ₹32 crore (2022) to ₹48 crore (2023). By what percentage?",
+      "givenInfo": [
+        "32",
+        "48"
+      ],
+      "conceptOrFormula": "Change over old.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Change",
+          "explanation": "48 − 32 = 16."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Percent",
+          "explanation": "16 ÷ 32 = 50%."
+        }
+      ],
+      "finalAnswer": "50%",
+      "whyItWorks": "The base is 2022.",
+      "commonTrap": "Dividing by 48.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Add the derived columns",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Recompute each time.",
+      "shortcutMethod": "Add profit and expense columns once; then every question is a single lookup or a simple ratio."
+    },
+    "rulesForApplication": [
+      "Profit = revenue × margin.",
+      "Expenses = revenue − profit.",
+      "Old is the base.",
+      "Percentage points ≠ percent."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reading the line on the bar scale",
+      "whyItHappens": "Wrong scale.",
+      "howToAvoid": "Note which axis each series uses."
+    },
+    {
+      "mistake": "Taking margin as profit",
+      "whyItHappens": "Rate vs amount.",
+      "howToAvoid": "Multiply by revenue."
+    },
+    {
+      "mistake": "Wrong base for growth",
+      "whyItHappens": "Dividing by new.",
+      "howToAvoid": "Use old as the base."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 100,
+    "eliminationTechnique": "Profit must be less than revenue.",
+    "questionSelectionAdvice": "Write the six-row table with all derived columns.",
+    "recruiterInsight": "High margin does not mean high profit."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y3-di-mixed-graph-di-e1",
+        "question": "Mixed graph data. The bars show revenue (₹ crore) and the line shows profit as a percentage of revenue.\n\nYear | Revenue (₹ crore) | Profit (% of revenue)\n2018 | 125 | 8%\n2019 | 150 | 12%\n2020 | 180 | 15%\n2021 | 160 | 10%\n2022 | 200 | 16%\n2023 | 240 | 20%\n\nWhat was the revenue in 2020 (₹ crore)?",
+        "options": [
+          "198",
+          "180",
+          "162",
+          "225"
+        ],
+        "correctAnswer": "180",
+        "explanation": "The bar for 2020 shows ₹180 crore. The answer is 180.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-mixed-graph-di-e2",
+        "question": "Mixed graph data. The bars show revenue (₹ crore) and the line shows profit as a percentage of revenue.\n\nYear | Revenue (₹ crore) | Profit (% of revenue)\n2018 | 125 | 8%\n2019 | 150 | 12%\n2020 | 180 | 15%\n2021 | 160 | 10%\n2022 | 200 | 16%\n2023 | 240 | 20%\n\nWhat was the profit percentage in 2023?",
+        "options": [
+          "20%",
+          "22%",
+          "18%",
+          "25%"
+        ],
+        "correctAnswer": "20%",
+        "explanation": "The line for 2023 shows 20%. The answer is 20%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y3-di-mixed-graph-di-e3",
+        "question": "Mixed graph data. The bars show revenue (₹ crore) and the line shows profit as a percentage of revenue.\n\nYear | Revenue (₹ crore) | Profit (% of revenue)\n2018 | 125 | 8%\n2019 | 150 | 12%\n2020 | 180 | 15%\n2021 | 160 | 10%\n2022 | 200 | 16%\n2023 | 240 | 20%\n\nWhat was the profit in 2023 (₹ crore)?",
+        "options": [
+          "53",
+          "43",
+          "60",
+          "48"
+        ],
+        "correctAnswer": "48",
+        "explanation": "20% of 240 = 48. The answer is 48.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y3-di-mixed-graph-di-i7",
+        "question": "Mixed graph data. The bars show revenue (₹ crore) and the line shows profit as a percentage of revenue.\n\nYear | Revenue (₹ crore) | Profit (% of revenue)\n2018 | 125 | 8%\n2019 | 150 | 12%\n2020 | 180 | 15%\n2021 | 160 | 10%\n2022 | 200 | 16%\n2023 | 240 | 20%\n\nWhat was the profit in 2021 (₹ crore)?",
+        "options": [
+          "16",
+          "18",
+          "14",
+          "20"
+        ],
+        "correctAnswer": "16",
+        "explanation": "10% of 160 = 16. The answer is 16.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-mixed-graph-di-i8",
+        "question": "Mixed graph data. The bars show revenue (₹ crore) and the line shows profit as a percentage of revenue.\n\nYear | Revenue (₹ crore) | Profit (% of revenue)\n2018 | 125 | 8%\n2019 | 150 | 12%\n2020 | 180 | 15%\n2021 | 160 | 10%\n2022 | 200 | 16%\n2023 | 240 | 20%\n\nWhat was the total revenue over the six years (₹ crore)?",
+        "options": [
+          "1161",
+          "950",
+          "1319",
+          "1055"
+        ],
+        "correctAnswer": "1055",
+        "explanation": "125 + 150 + 180 + 160 + 200 + 240 = 1,055. The answer is 1055.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y3-di-mixed-graph-di-i9",
+        "question": "Mixed graph data. The bars show revenue (₹ crore) and the line shows profit as a percentage of revenue.\n\nYear | Revenue (₹ crore) | Profit (% of revenue)\n2018 | 125 | 8%\n2019 | 150 | 12%\n2020 | 180 | 15%\n2021 | 160 | 10%\n2022 | 200 | 16%\n2023 | 240 | 20%\n\nBy what percentage did revenue increase from 2018 to 2023?",
+        "options": [
+          "101.2%",
+          "82.8%",
+          "115%",
+          "92%"
+        ],
+        "correctAnswer": "92%",
+        "explanation": "(240 − 125) ÷ 125 = 115 ÷ 125 = 92%. The answer is 92%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y3-di-mixed-graph-di-a15",
+        "question": "Mixed graph data. The bars show revenue (₹ crore) and the line shows profit as a percentage of revenue.\n\nYear | Revenue (₹ crore) | Profit (% of revenue)\n2018 | 125 | 8%\n2019 | 150 | 12%\n2020 | 180 | 15%\n2021 | 160 | 10%\n2022 | 200 | 16%\n2023 | 240 | 20%\n\nIn which year was the percentage growth in profit over the previous year the highest?",
+        "options": [
+          "2018",
+          "2019",
+          "2022",
+          "2020"
+        ],
+        "correctAnswer": "2022",
+        "explanation": "Profit growth: 2019 +80%, 2020 +50%, 2021 −40.7%, 2022 +100%, 2023 +50%. The highest is 2022. Answer: 2022.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-mixed-graph-di-a16",
+        "question": "Mixed graph data. The bars show revenue (₹ crore) and the line shows profit as a percentage of revenue.\n\nYear | Revenue (₹ crore) | Profit (% of revenue)\n2018 | 125 | 8%\n2019 | 150 | 12%\n2020 | 180 | 15%\n2021 | 160 | 10%\n2022 | 200 | 16%\n2023 | 240 | 20%\n\nIn which year was the ratio of expenses to revenue the lowest?",
+        "options": [
+          "2018",
+          "2023",
+          "2020",
+          "2022"
+        ],
+        "correctAnswer": "2023",
+        "explanation": "Expenses ÷ revenue = 100% − margin, which is lowest when the margin is highest (20% in 2023). Answer: 2023.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y3-di-mixed-graph-di-p17",
+        "question": "Mixed graph data. The bars show revenue (₹ crore) and the line shows profit as a percentage of revenue.\n\nYear | Revenue (₹ crore) | Profit (% of revenue)\n2018 | 125 | 8%\n2019 | 150 | 12%\n2020 | 180 | 15%\n2021 | 160 | 10%\n2022 | 200 | 16%\n2023 | 240 | 20%\n\nWhat was the total profit for 2020, 2021 and 2022 together (₹ crore)?",
+        "options": [
+          "83",
+          "75",
+          "68",
+          "94"
+        ],
+        "correctAnswer": "75",
+        "explanation": "27 + 16 + 32 = 75. The answer is 75.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-mixed-graph-di-p18",
+        "question": "Mixed graph data. The bars show revenue (₹ crore) and the line shows profit as a percentage of revenue.\n\nYear | Revenue (₹ crore) | Profit (% of revenue)\n2018 | 125 | 8%\n2019 | 150 | 12%\n2020 | 180 | 15%\n2021 | 160 | 10%\n2022 | 200 | 16%\n2023 | 240 | 20%\n\nBy what percentage were the expenses in 2023 higher than those in 2018?",
+        "options": [
+          "67%",
+          "73.7%",
+          "60.3%",
+          "83.8%"
+        ],
+        "correctAnswer": "67%",
+        "explanation": "Expenses: 192 and 115; 77 ÷ 115 × 100 = 67%. The answer is 67%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y3-di-mixed-graph-di-p19",
+        "question": "Mixed graph data. The bars show revenue (₹ crore) and the line shows profit as a percentage of revenue.\n\nYear | Revenue (₹ crore) | Profit (% of revenue)\n2018 | 125 | 8%\n2019 | 150 | 12%\n2020 | 180 | 15%\n2021 | 160 | 10%\n2022 | 200 | 16%\n2023 | 240 | 20%\n\nWhat was the ratio of revenue to expenses in 2023?",
+        "options": [
+          "4 : 5",
+          "241 : 192",
+          "120 : 97",
+          "5 : 4"
+        ],
+        "correctAnswer": "5 : 4",
+        "explanation": "Revenue in 2023 = 240 and expenses = 192; the HCF is 48. The ratio is 5 : 4.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Two scales.",
+      "Profit.",
+      "Expenses.",
+      "Growth.",
+      "Percentage points."
+    ],
+    "quickFormulas": [
+      "Profit = revenue × margin"
+    ]
+  },
+  "keyTakeaways": [
+    "Know each axis.",
+    "Derived columns.",
+    "Old base.",
+    "Rate vs amount."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute profit from the graph?",
+    "Can I compute growth?",
+    "Can I separate margin from profit?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "How to Prepare for Data Interpretation for CAT — Arun Sharma",
+      "sourceType": "Textbook",
+      "referenceNote": "Data interpretation as a topic area; data and examples in this chapter are original."
+    }
+  ]
+}
