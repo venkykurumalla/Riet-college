@@ -195,7 +195,7 @@
         "4"
       ],
       "answerIndex": 2,
-      "explanation": "Sorted: A, D, E, E, M, N, P, R, T, T against D, E, P, A, R, T, M, E, N, T. Only the last position matches (T)."
+      "explanation": "Sorted: A, D, E, E, M, N, P, R, T, T against D, E, P, A, R, T, M, E, N, T. Only 1 position matches: the last one (T)."
     },
     {
       "id": 16,

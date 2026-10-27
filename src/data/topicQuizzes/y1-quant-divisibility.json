@@ -13,7 +13,7 @@
         "4829"
       ],
       "answerIndex": 1,
-      "explanation": "A number is divisible by 3 if its digit sum is. 4 + 8 + 2 + 1 = 15 is divisible by 3, while the other digit sums are 16, 19 and 23."
+      "explanation": "A number is divisible by 3 if its digit sum is. 4821 has digit sum 4 + 8 + 2 + 1 = 15 is divisible by 3, while the other digit sums are 16, 19 and 23."
     },
     {
       "id": 2,
@@ -26,7 +26,7 @@
         "3222"
       ],
       "answerIndex": 0,
-      "explanation": "Check the last two digits. 16 is divisible by 4, but 14, 18 and 22 are not."
+      "explanation": "Check the last two digits. 3216 ends in 16, which is divisible by 4, but 14, 18 and 22 are not."
     },
     {
       "id": 3,

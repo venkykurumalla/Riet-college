@@ -1,0 +1,442 @@
+{
+  "id": "y2-quant-successive-percentages",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 6,
+  "title": "Successive Percentages",
+  "tagline": "Year 2 — Chains of percentage changes, net effect and the multiplier method",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "When a quantity changes by one percentage and then by another, the second change applies to the new value, not the original. The net change is therefore found by multiplying the growth factors, not by adding the percentages. This single idea solves population growth, price changes, area changes of a rectangle, and consumption-versus-price problems.",
+    "placementRelevance": "Successive percentage questions are commonly asked in company aptitude rounds, either directly or inside area, profit, and population problems.",
+    "realWorldContext": "Salary hikes in consecutive years, repeated price changes, and the effect of length and breadth changes on area use successive percentages."
+  },
+  "learningObjectives": [
+    "Use the multiplier method for two or more changes",
+    "Apply the formula a + b + ab/100 for the net change",
+    "Find the effect of changing length and breadth on the area of a rectangle",
+    "Solve price-versus-consumption problems",
+    "Reverse a series of changes to find the original value"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Basic Percentages",
+      "Discounts and Marked Price"
+    ],
+    "quickRefresher": "An increase of r% multiplies by (1 + r/100) and a decrease of r% multiplies by (1 − r/100)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Successive percentage change: percentage changes applied one after another to the updated value.",
+      "Net change: final value compared with the original value, as a percentage.",
+      "Multiplier: the factor by which a value is multiplied for a given percentage change.",
+      "Area of a rectangle changes by the product of the multipliers of length and breadth.",
+      "Expenditure = price × consumption."
+    ],
+    "theoreticalIntuition": "Each percentage change is a multiplication. Two changes are two multiplications, and the order does not matter. The extra term ab/100 in the net formula is the \"change on the change\".",
+    "visualOrMentalModel": "Take the original value as 100. Apply each change in turn. 100 → +20% → 120 → +30% → 156. The net change is +56%."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Net change of two changes",
+      "formula": "Net % = a + b + ab/100",
+      "description": "Use signs: increases positive, decreases negative.",
+      "whenToUse": "Two successive changes.",
+      "simpleExample": "+20% and +30% → 20 + 30 + 6 = 56%"
+    },
+    {
+      "title": "Multiplier form",
+      "formula": "Final = Original × (1 + a/100)(1 + b/100)",
+      "description": "Works for any number of changes.",
+      "whenToUse": "Chains of three or more.",
+      "simpleExample": "1.1 × 1.2 × 0.9 = 1.188"
+    },
+    {
+      "title": "Increase then equal decrease",
+      "formula": "Net = −x²/100 %",
+      "description": "Always a loss.",
+      "whenToUse": "+10% then −10% → −1%",
+      "simpleExample": "+20% −20% → −4%"
+    },
+    {
+      "title": "Area of rectangle",
+      "formula": "Area multiplier = (1 + l/100)(1 + b/100)",
+      "description": "l and b are percentage changes of length and breadth.",
+      "whenToUse": "Rectangle questions.",
+      "simpleExample": "+10%, +20% → +32%"
+    },
+    {
+      "title": "Price and consumption",
+      "formula": "Reduction in consumption = r/(100 + r) × 100 %",
+      "description": "To keep expenditure same after a price rise of r%.",
+      "whenToUse": "Price rise questions.",
+      "simpleExample": "25% rise → 20% cut"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Convert each percentage to a multiplier and multiply. A rise of 20% followed by a rise of 30% is 1.2 × 1.3 = 1.56, a net rise of 56%. The formula a + b + ab/100 gives 20 + 30 + 6 = 56.",
+      "An increase of x% followed by a decrease of x% never returns the original. For x = 10: 1.1 × 0.9 = 0.99, a net fall of 1%. In general the net change is −x²/100 %.",
+      "For a rectangle, the area is length × breadth, so the area multiplier is the product of the two multipliers. If length rises 10% and breadth rises 20%, area rises 1.1 × 1.2 = 1.32, i.e. 32%.",
+      "For price and consumption, expenditure = price × consumption. To keep expenditure the same after a 25% rise in price, consumption must be multiplied by 1/1.25 = 0.8, a 20% cut.",
+      "To reverse a chain, divide by the multipliers. If a value after +10% and +20% is 6,600, the original is 6600 ÷ 1.32 = 5,000."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "More than two changes",
+        "content": "The multiplier method scales to any number of steps: just multiply. The net formula is only convenient for two steps."
+      },
+      {
+        "title": "Population and depreciation",
+        "content": "Population growing at fixed percentages is compound growth. A fall of 10% then a rise of 10% leaves 0.99 of the original."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Two changes",
+      "description": "Net change.",
+      "exampleSnippet": "+20% then +30%"
+    },
+    {
+      "typeName": "Increase then decrease",
+      "description": "Net loss.",
+      "exampleSnippet": "+10% then −10%"
+    },
+    {
+      "typeName": "Area of a rectangle",
+      "description": "Length and breadth change.",
+      "exampleSnippet": "+10% and +20%"
+    },
+    {
+      "typeName": "Price and consumption",
+      "description": "Expenditure constant.",
+      "exampleSnippet": "Price up 25%"
+    },
+    {
+      "typeName": "Reverse chain",
+      "description": "Find the original.",
+      "exampleSnippet": "Final 6,600 after +10% and +20%"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-successive-percentages-1",
+      "title": "Two increases",
+      "question": "A number is increased by 20% and then the result by 30%. Find the net percentage increase.",
+      "givenInfo": [
+        "+20%",
+        "+30%"
+      ],
+      "conceptOrFormula": "Multiply the multipliers.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Multipliers",
+          "explanation": "1.2 and 1.3."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Product",
+          "explanation": "1.2 × 1.3 = 1.56."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Net change",
+          "explanation": "56%."
+        }
+      ],
+      "finalAnswer": "56%",
+      "whyItWorks": "The 30% applies to the already increased value.",
+      "commonTrap": "Adding to get 50%.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-successive-percentages-2",
+      "title": "Area of a rectangle",
+      "question": "The length of a rectangle is increased by 10% and the breadth by 20%. By what percentage does the area increase?",
+      "givenInfo": [
+        "Length +10%",
+        "Breadth +20%"
+      ],
+      "conceptOrFormula": "Area multiplier = product.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Multipliers",
+          "explanation": "1.1 and 1.2."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Area multiplier",
+          "explanation": "1.1 × 1.2 = 1.32."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Change",
+          "explanation": "32%."
+        }
+      ],
+      "finalAnswer": "32%",
+      "whyItWorks": "The extra 2% comes from the product term 10 × 20/100.",
+      "commonTrap": "Adding to get 30%.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-successive-percentages-3",
+      "title": "Price rise and consumption",
+      "question": "The price of sugar rises by 25%. By what percentage must a family reduce consumption to keep the expenditure the same?",
+      "givenInfo": [
+        "Price +25%"
+      ],
+      "conceptOrFormula": "Price × consumption is constant.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "New price multiplier",
+          "explanation": "1.25."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Consumption multiplier",
+          "explanation": "1 ÷ 1.25 = 0.8."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Reduction",
+          "explanation": "20%."
+        }
+      ],
+      "finalAnswer": "20%",
+      "whyItWorks": "If price is 125% of the old, quantity must be 100/125 of the old.",
+      "commonTrap": "Cutting by 25%.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Assume 100 and chain the changes",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compute each change on the actual value.",
+      "shortcutMethod": "Start with 100, apply each change and read the final number as the net percentage. Use a + b + ab/100 for two steps."
+    },
+    "rulesForApplication": [
+      "Never add successive percentages.",
+      "+x% then −x% is −x²/100 %.",
+      "Reduction needed = r/(100 + r).",
+      "Divide by the multiplier to reverse a change."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Adding percentages",
+      "whyItHappens": "Treating 20% and 30% as 50%.",
+      "howToAvoid": "Multiply the multipliers."
+    },
+    {
+      "mistake": "Wrong base for the second change",
+      "whyItHappens": "Using the original value.",
+      "howToAvoid": "Apply it to the new value."
+    },
+    {
+      "mistake": "Forgetting the sign",
+      "whyItHappens": "Using + for a decrease.",
+      "howToAvoid": "Decrease is negative in the formula."
+    },
+    {
+      "mistake": "Using the same percentage to reverse",
+      "whyItHappens": "Cutting 25% after a 25% rise.",
+      "howToAvoid": "Reverse with the reciprocal."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 60,
+    "eliminationTechnique": "The net change of two increases must exceed their sum; use this to remove options.",
+    "questionSelectionAdvice": "Memorise: 10% twice = 21%, 20% twice = 44%, 10% & 20% = 32%.",
+    "recruiterInsight": "This topic is the foundation of compound interest."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-successive-percentages-e1",
+        "question": "A number is increased by 20% and then by 30%. The net increase is",
+        "options": [
+          "50%",
+          "56%",
+          "52%",
+          "60%"
+        ],
+        "correctAnswer": "56%",
+        "explanation": "1.2 × 1.3 = 1.56, so 56%.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-successive-percentages-e2",
+        "question": "A number is increased by 10% and then decreased by 10%. The net change is",
+        "options": [
+          "1% decrease",
+          "No change",
+          "1% increase",
+          "2% decrease"
+        ],
+        "correctAnswer": "1% decrease",
+        "explanation": "1.1 × 0.9 = 0.99, a 1% decrease.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-successive-percentages-e3",
+        "question": "A price rises by 10% twice. The net rise is",
+        "options": [
+          "20%",
+          "22%",
+          "19%",
+          "21%"
+        ],
+        "correctAnswer": "21%",
+        "explanation": "1.1 × 1.1 = 1.21, so 21%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-successive-percentages-i7",
+        "question": "A number is decreased by 20% and then by 25%. The net decrease is",
+        "options": [
+          "40%",
+          "45%",
+          "35%",
+          "42%"
+        ],
+        "correctAnswer": "40%",
+        "explanation": "0.8 × 0.75 = 0.6, a 40% decrease.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-successive-percentages-i8",
+        "question": "A number is first increased by 20% and then decreased by 20%. The net change is",
+        "options": [
+          "No change",
+          "4% increase",
+          "2% decrease",
+          "4% decrease"
+        ],
+        "correctAnswer": "4% decrease",
+        "explanation": "1.2 × 0.8 = 0.96, so a 4% decrease.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-successive-percentages-i9",
+        "question": "After successive increases of 10% and 20%, a number is 6,600. The original number is",
+        "options": [
+          "5500",
+          "5280",
+          "4800",
+          "5000"
+        ],
+        "correctAnswer": "5000",
+        "explanation": "6600 ÷ (1.1 × 1.2) = 6600 ÷ 1.32 = 5000.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-successive-percentages-a15",
+        "question": "The price of a commodity rises by 20%. By what percentage should consumption be reduced to keep the expenditure unchanged?",
+        "options": [
+          "20%",
+          "15%",
+          "16.67%",
+          "18%"
+        ],
+        "correctAnswer": "16.67%",
+        "explanation": "Reduction = 20/(100 + 20) = 1/6 = 16.67%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-successive-percentages-a16",
+        "question": "The length of a rectangle is decreased by 20% and the breadth is increased by 25%. The area",
+        "options": [
+          "increases by 5%",
+          "remains the same",
+          "decreases by 5%",
+          "decreases by 1%"
+        ],
+        "correctAnswer": "remains the same",
+        "explanation": "0.8 × 1.25 = 1.00, so the area is unchanged.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-successive-percentages-p17",
+        "question": "A number is increased by 25% and then decreased by 20%, then increased by 10%. The net change is",
+        "options": [
+          "5% increase",
+          "10% increase",
+          "12% increase",
+          "8% increase"
+        ],
+        "correctAnswer": "10% increase",
+        "explanation": "1.25 × 0.8 × 1.1 = 1.1, a 10% increase.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-successive-percentages-p18",
+        "question": "If the price of an article is first increased by 15% and then decreased by 10%, the net percentage change is",
+        "options": [
+          "3.5% increase",
+          "5% increase",
+          "4% increase",
+          "2.5% increase"
+        ],
+        "correctAnswer": "3.5% increase",
+        "explanation": "1.15 × 0.9 = 1.035, a 3.5% increase.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-successive-percentages-p19",
+        "question": "Due to a 20% increase in price, a man buys 5 kg less sugar for ₹600. The original price per kg was",
+        "options": [
+          "18",
+          "22",
+          "25",
+          "20"
+        ],
+        "correctAnswer": "20",
+        "explanation": "Original: 600/p kg. New: 600/(1.2p) kg. 600/p − 500/p = 5 gives 100/p = 5, so p = 20.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Multiply multipliers.",
+      "Net = a + b + ab/100.",
+      "+x% −x% = −x²/100.",
+      "Price up r% → consumption down r/(100+r).",
+      "Reverse by dividing."
+    ],
+    "quickFormulas": [
+      "a + b + ab/100",
+      "−x²/100"
+    ]
+  },
+  "keyTakeaways": [
+    "Percentages multiply.",
+    "Assume 100.",
+    "Know the base.",
+    "Reverse by division."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the net effect of +20% then −10%?",
+    "Can I find the area change for two percent changes?",
+    "Can I reverse a chain of changes?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Percentage topic area; examples are original."
+    }
+  ]
+}

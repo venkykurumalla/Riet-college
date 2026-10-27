@@ -1,0 +1,442 @@
+{
+  "id": "y2-quant-compound-interest",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 4,
+  "title": "Compound Interest",
+  "tagline": "Year 2 — Interest on interest, half-yearly compounding and the CI–SI difference",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "In compound interest (CI) the interest earned in each period is added to the principal, so the next period earns interest on the larger amount. The amount after n periods is A = P(1 + r/100)ⁿ and the compound interest is A − P. Compared with simple interest, CI grows faster because interest earns interest.",
+    "placementRelevance": "Compound interest is commonly asked in company aptitude rounds, usually with two or three years and with the CI–SI difference shortcut or half-yearly compounding.",
+    "realWorldContext": "Savings accounts, fixed deposits, loans with monthly instalments and the growth of an investment are all computed with compound interest."
+  },
+  "learningObjectives": [
+    "Use A = P(1 + r/100)ⁿ for annual compounding",
+    "Handle half-yearly and quarterly compounding",
+    "Use the CI − SI shortcuts for 2 and 3 years",
+    "Solve population growth and depreciation problems",
+    "Find P, r or n from given amounts"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Simple Interest Basics",
+      "Successive percentages",
+      "Basic Percentages"
+    ],
+    "quickRefresher": "Simple interest SI = PRT/100. A rise of r% multiplies by (1 + r/100) and a fall of r% multiplies by (1 − r/100)."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Compound interest: interest calculated on the principal plus the interest already earned.",
+      "Amount: A = P(1 + r/100)ⁿ. Compound interest: CI = A − P.",
+      "Compounding period: the time after which interest is added to the principal (year, half-year, quarter).",
+      "For half-yearly compounding use rate r/2 per period and 2n periods. For quarterly use r/4 and 4n.",
+      "Depreciation: decrease in value at a rate per year, A = P(1 − r/100)ⁿ."
+    ],
+    "theoreticalIntuition": "Each year the amount is multiplied by the same factor (1 + r/100). So compound interest is a geometric growth, while simple interest is an arithmetic one. The difference between CI and SI for the first two years is the interest earned on the first year's interest: P(r/100)².",
+    "visualOrMentalModel": "Write the growth factor once and multiply: ₹1,000 at 10% for 2 years is 1000 × 1.1 × 1.1 = 1210. The CI is ₹210, compared with SI ₹200; the extra ₹10 is 10% of the first year's interest ₹100."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Amount and CI",
+      "formula": "A = P(1 + r/100)ⁿ,  CI = A − P",
+      "description": "n in years for annual compounding.",
+      "whenToUse": "Any CI question.",
+      "simpleExample": "₹10,000 at 10% for 2 yrs → 12,100; CI = 2,100"
+    },
+    {
+      "title": "Half-yearly / quarterly",
+      "formula": "A = P(1 + (r/2)/100)²ⁿ  or  P(1 + (r/4)/100)⁴ⁿ",
+      "description": "Halve the rate and double the periods.",
+      "whenToUse": "Compounded half-yearly.",
+      "simpleExample": "₹8,000 at 10% for 1 yr half-yearly → 8000 × 1.05² = 8,820"
+    },
+    {
+      "title": "CI − SI for 2 years",
+      "formula": "CI − SI = P(r/100)²",
+      "description": "The interest on the first year's interest.",
+      "whenToUse": "Quick difference questions.",
+      "simpleExample": "Difference 65 at 10% → P = 6,500"
+    },
+    {
+      "title": "CI − SI for 3 years",
+      "formula": "CI − SI = P(r/100)²(3 + r/100)",
+      "description": "Extension of the previous rule.",
+      "whenToUse": "Three-year difference.",
+      "simpleExample": "P = 10,000, 10% → 10000 × 0.01 × 3.1 = 310"
+    },
+    {
+      "title": "Growth and depreciation",
+      "formula": "Growth: P(1 + r/100)ⁿ;  Depreciation: P(1 − r/100)ⁿ",
+      "description": "Population and machine value.",
+      "whenToUse": "Real-world rates.",
+      "simpleExample": "Population 40,000 growing 10% twice → 48,400"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "Compute CI by finding the amount first. For ₹10,000 at 10% for 2 years the amount is 10,000 × 1.1 × 1.1 = ₹12,100, so CI = ₹2,100. Using the growth factor avoids computing interest year by year.",
+      "For half-yearly compounding, the rate per period is half of the annual rate and the number of periods is doubled. ₹8,000 at 10% for one year compounded half-yearly is 8000 × (1.05)² = ₹8,820, which is more than annual compounding (₹8,800).",
+      "The CI − SI shortcut for two years is P(r/100)². If the difference is ₹65 at 10%, then P × 0.01 = 65 and P = ₹6,500. For three years the difference is P(r/100)²(3 + r/100).",
+      "If the rates differ by year, multiply the factors: 1.10 for the first year and 1.20 for the second give 1.32. Population growth and depreciation use the same idea with (1 + r/100) or (1 − r/100).",
+      "To find the time, compute the factor needed: if money doubles at 10% compound, solve 1.1ⁿ = 2. For quick estimates, the \"rule of 72\" says it takes about 72 ÷ r years."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Rule of 72",
+        "content": "The number of years for money to double at compound r% is approximately 72 ÷ r. At 8% it is about 9 years. This is an estimate, not exact."
+      },
+      {
+        "title": "CI versus SI over many years",
+        "content": "In year 1, CI and SI are equal. Afterwards CI grows faster. After 10 years at 10%, CI gives 1.1¹⁰ ≈ 2.59 times the principal while SI gives 2 times."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Annual compounding",
+      "description": "Direct amount or CI.",
+      "exampleSnippet": "₹10,000 at 10% for 2 years"
+    },
+    {
+      "typeName": "Half-yearly or quarterly",
+      "description": "Halve or quarter the rate.",
+      "exampleSnippet": "₹8,000 at 10% half-yearly"
+    },
+    {
+      "typeName": "CI − SI difference",
+      "description": "Find P or r.",
+      "exampleSnippet": "Difference ₹65 at 10% for 2 years"
+    },
+    {
+      "typeName": "Different rates by year",
+      "description": "Multiply factors.",
+      "exampleSnippet": "10% then 20%"
+    },
+    {
+      "typeName": "Growth and depreciation",
+      "description": "Population and machines.",
+      "exampleSnippet": "40,000 growing 10% yearly"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-compound-interest-1",
+      "title": "Compound interest for two years",
+      "question": "Find the compound interest on ₹10,000 at 10% per annum for 2 years.",
+      "givenInfo": [
+        "P = 10,000",
+        "r = 10%",
+        "n = 2"
+      ],
+      "conceptOrFormula": "A = P(1 + r/100)ⁿ.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Growth factor",
+          "explanation": "1 + 10/100 = 1.1."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Amount",
+          "explanation": "10000 × 1.1² = 10000 × 1.21 = ₹12,100."
+        },
+        {
+          "stepNumber": 3,
+          "title": "CI",
+          "explanation": "12100 − 10000 = ₹2,100."
+        }
+      ],
+      "finalAnswer": "₹2,100",
+      "whyItWorks": "Year 1 gives 1,000 and year 2 gives 1,100.",
+      "commonTrap": "Using simple interest ₹2,000.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-compound-interest-2",
+      "title": "Half-yearly compounding",
+      "question": "Find the amount on ₹8,000 at 10% per annum for one year when interest is compounded half-yearly.",
+      "givenInfo": [
+        "P = 8000",
+        "r = 10% p.a.",
+        "n = 1 year → 2 half-years"
+      ],
+      "conceptOrFormula": "Rate per half-year = r/2 = 5%.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Rate and periods",
+          "explanation": "5% per half-year, 2 periods."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Amount",
+          "explanation": "8000 × 1.05² = 8000 × 1.1025."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Compute",
+          "explanation": "= ₹8,820."
+        }
+      ],
+      "finalAnswer": "₹8,820",
+      "whyItWorks": "The second half-year earns interest on the first half-year's interest.",
+      "commonTrap": "Using 10% for each half-year.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-compound-interest-3",
+      "title": "CI − SI difference",
+      "question": "The difference between the compound and simple interest on a sum for 2 years at 10% per annum is ₹65. Find the sum.",
+      "givenInfo": [
+        "Difference = 65",
+        "r = 10%",
+        "n = 2"
+      ],
+      "conceptOrFormula": "CI − SI = P(r/100)².",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Write the formula",
+          "explanation": "65 = P × (10/100)² = P × 0.01."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Solve",
+          "explanation": "P = 65 ÷ 0.01 = ₹6,500."
+        }
+      ],
+      "finalAnswer": "₹6,500",
+      "whyItWorks": "The difference is the interest on the first year's interest.",
+      "commonTrap": "Using r = 0.1 without squaring.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Growth factor chain",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Compute interest year by year and add to the principal.",
+      "shortcutMethod": "Multiply by 1.r once per period. Use P(r/100)² for the 2-year CI−SI difference. For half-yearly, halve the rate and double the periods."
+    },
+    "rulesForApplication": [
+      "Compute A first, then CI = A − P.",
+      "Half-yearly: r/2 and 2n.",
+      "CI − SI (2 yrs) = P(r/100)².",
+      "Compound growth and depreciation use factors."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reporting the amount as CI",
+      "whyItHappens": "Forgetting to subtract P.",
+      "howToAvoid": "CI = A − P."
+    },
+    {
+      "mistake": "Not halving the rate for half-yearly",
+      "whyItHappens": "Using r with 2n periods.",
+      "howToAvoid": "Rate r/2 for each half-year."
+    },
+    {
+      "mistake": "Adding percentages for two years",
+      "whyItHappens": "Treating 10% + 10% as 20%.",
+      "howToAvoid": "Multiply 1.1 × 1.1."
+    },
+    {
+      "mistake": "Wrong CI−SI formula",
+      "whyItHappens": "Forgetting to square r/100.",
+      "howToAvoid": "Use P(r/100)² for 2 years."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 75,
+    "eliminationTechnique": "Estimate: CI for 2 years is slightly more than SI; options below SI can be eliminated.",
+    "questionSelectionAdvice": "Memorise squares of 1.05, 1.1, 1.2, and cubes of 1.1 to speed up.",
+    "recruiterInsight": "The CI−SI shortcut is a favourite for quick questions."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-compound-interest-e1",
+        "question": "The compound interest on ₹10,000 at 10% per annum for 2 years is",
+        "options": [
+          "2000",
+          "2100",
+          "2200",
+          "2500"
+        ],
+        "correctAnswer": "2100",
+        "explanation": "Amount = 10000 × 1.1² = 12,100. CI = 12,100 − 10,000 = 2,100.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-compound-interest-e2",
+        "question": "The amount on ₹5,000 at 20% per annum compounded annually for 2 years is",
+        "options": [
+          "7200",
+          "7000",
+          "7400",
+          "7500"
+        ],
+        "correctAnswer": "7200",
+        "explanation": "Amount = 5000 × 1.2² = 5000 × 1.44 = 7,200.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-compound-interest-e3",
+        "question": "The compound interest on ₹2,000 at 5% per annum for 2 years is",
+        "options": [
+          "200",
+          "210",
+          "215",
+          "205"
+        ],
+        "correctAnswer": "205",
+        "explanation": "Amount = 2000 × 1.1025 = 2,205. CI = 205.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-compound-interest-i7",
+        "question": "The difference between the compound and simple interest on a sum for 2 years at 10% per annum is ₹65. The sum is",
+        "options": [
+          "6500",
+          "5500",
+          "6000",
+          "7000"
+        ],
+        "correctAnswer": "6500",
+        "explanation": "CI − SI = P(r/100)² = P × 0.01 = 65, so P = 6,500.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-compound-interest-i8",
+        "question": "The CI − SI difference on ₹10,000 for 3 years at 10% per annum is",
+        "options": [
+          "300",
+          "320",
+          "331",
+          "310"
+        ],
+        "correctAnswer": "310",
+        "explanation": "Difference = P(r/100)²(3 + r/100) = 10000 × 0.01 × 3.1 = 310.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-compound-interest-i9",
+        "question": "The compound interest on ₹8,000 for 1 year at 10% per annum compounded half-yearly is",
+        "options": [
+          "800",
+          "840",
+          "880",
+          "820"
+        ],
+        "correctAnswer": "820",
+        "explanation": "Amount = 8,820. CI = 8,820 − 8,000 = 820.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-compound-interest-a15",
+        "question": "At compound interest, a sum triples in 3 years. In how many years will it become 9 times itself?",
+        "options": [
+          "4.5",
+          "9",
+          "6",
+          "12"
+        ],
+        "correctAnswer": "6",
+        "explanation": "Each 3 years multiplies by 3. 9 = 3 × 3, so 6 years.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-compound-interest-a16",
+        "question": "A sum of ₹12,000 is lent at 10% p.a. compounded half-yearly for 1.5 years. The amount is",
+        "options": [
+          "13800",
+          "13891.5",
+          "13900",
+          "14000"
+        ],
+        "correctAnswer": "13891.5",
+        "explanation": "Rate 5% per half-year, 3 periods: 12000 × 1.157625 = 13,891.50.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-compound-interest-p17",
+        "question": "The CI − SI difference on a sum for 2 years at 8% per annum is ₹32. The sum is",
+        "options": [
+          "4000",
+          "5000",
+          "4500",
+          "6000"
+        ],
+        "correctAnswer": "5000",
+        "explanation": "P(0.08)² = 32 gives P = 32 ÷ 0.0064 = 5,000.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-compound-interest-p18",
+        "question": "A man invests ₹6,000 at 20% compounded annually. After how many whole years will the amount first exceed ₹10,000?",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "correctAnswer": "3",
+        "explanation": "6000 × 1.2² = 8,640; 6000 × 1.2³ = 10,368, which exceeds 10,000. So 3 years.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-compound-interest-p19",
+        "question": "A sum of ₹15,625 amounts to ₹17,576 in 3 years at compound interest. The rate per annum is",
+        "options": [
+          "3%",
+          "5%",
+          "6%",
+          "4%"
+        ],
+        "correctAnswer": "4%",
+        "explanation": "(1 + r/100)³ = 17576/15625 = 1.1249 = (1.04)³ (since 26³ = 17576 and 25³ = 15625, ratio 26/25). So r = 4%.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "A = P(1 + r/100)ⁿ.",
+      "CI = A − P.",
+      "Half-yearly: r/2, 2n.",
+      "CI−SI (2 yrs) = P(r/100)².",
+      "Depreciation uses (1 − r/100)ⁿ."
+    ],
+    "quickFormulas": [
+      "A = P(1+r/100)ⁿ",
+      "D₂ = P(r/100)²"
+    ]
+  },
+  "keyTakeaways": [
+    "Use factors.",
+    "Match the rate to the period.",
+    "Subtract P for CI.",
+    "Know the difference shortcut."
+  ],
+  "selfCheckQuestions": [
+    "Can I compute CI for 2 years without a calculator?",
+    "Can I do half-yearly compounding?",
+    "Can I find P from the CI−SI difference?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Compound Interest topic area; examples are original."
+    }
+  ]
+}

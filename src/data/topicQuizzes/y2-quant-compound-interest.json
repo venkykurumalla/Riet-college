@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-quant-compound-interest",
+  "topicTitle": "Compound Interest",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "The compound interest on ₹10,000 at 10% per annum for 2 years is",
+      "options": [
+        "2000",
+        "2100",
+        "2200",
+        "2500"
+      ],
+      "answerIndex": 1,
+      "explanation": "Amount = 10000 × 1.1² = 12,100. CI = 12,100 − 10,000 = 2,100."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "The amount on ₹5,000 at 20% per annum compounded annually for 2 years is",
+      "options": [
+        "7200",
+        "7000",
+        "7400",
+        "7500"
+      ],
+      "answerIndex": 0,
+      "explanation": "Amount = 5000 × 1.2² = 5000 × 1.44 = 7,200."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The compound interest on ₹2,000 at 5% per annum for 2 years is",
+      "options": [
+        "200",
+        "210",
+        "215",
+        "205"
+      ],
+      "answerIndex": 3,
+      "explanation": "Amount = 2000 × 1.1025 = 2,205. CI = 205."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "The amount on ₹8,000 at 10% per annum for one year compounded half-yearly is",
+      "options": [
+        "8800",
+        "8400",
+        "8820",
+        "8840"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rate 5% per half-year, 2 periods: 8000 × 1.1025 = 8,820."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "A sum doubles in 5 years at simple interest. The rate per annum is",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "25%"
+      ],
+      "answerIndex": 2,
+      "explanation": "SI = P over 5 years, so rate = 100/5 = 20%."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The population of a town is 40,000 and increases by 10% every year. After 2 years it will be",
+      "options": [
+        "48000",
+        "48400",
+        "46000",
+        "50000"
+      ],
+      "answerIndex": 1,
+      "explanation": "40000 × 1.1² = 40000 × 1.21 = 48,400."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The difference between the compound and simple interest on a sum for 2 years at 10% per annum is ₹65. The sum is",
+      "options": [
+        "6500",
+        "5500",
+        "6000",
+        "7000"
+      ],
+      "answerIndex": 0,
+      "explanation": "CI − SI = P(r/100)² = P × 0.01 = 65, so P = 6,500."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "The CI − SI difference on ₹10,000 for 3 years at 10% per annum is",
+      "options": [
+        "300",
+        "320",
+        "331",
+        "310"
+      ],
+      "answerIndex": 3,
+      "explanation": "Difference = P(r/100)²(3 + r/100) = 10000 × 0.01 × 3.1 = 310."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The compound interest on ₹8,000 for 1 year at 10% per annum compounded half-yearly is",
+      "options": [
+        "800",
+        "840",
+        "880",
+        "820"
+      ],
+      "answerIndex": 3,
+      "explanation": "Amount = 8,820. CI = 8,820 − 8,000 = 820."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A sum becomes ₹3,630 in 2 years at 10% compound interest per annum. The sum is",
+      "options": [
+        "2800",
+        "3200",
+        "3000",
+        "3300"
+      ],
+      "answerIndex": 2,
+      "explanation": "P = 3630 ÷ 1.21 = 3,000."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "The value of a machine costing ₹50,000 depreciates 10% per annum. After 2 years its value is",
+      "options": [
+        "40000",
+        "40500",
+        "42500",
+        "45000"
+      ],
+      "answerIndex": 1,
+      "explanation": "50000 × 0.9² = 50000 × 0.81 = 40,500."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "At what rate of compound interest will a sum become 4 times itself in 2 years?",
+      "options": [
+        "100%",
+        "50%",
+        "75%",
+        "200%"
+      ],
+      "answerIndex": 0,
+      "explanation": "(1 + r/100)² = 4 gives 1 + r/100 = 2, so r = 100%."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "A sum of ₹4,000 is lent for 2 years at 10% for the first year and 20% for the second year compounded. The amount is",
+      "options": [
+        "5280",
+        "5200",
+        "5000",
+        "5400"
+      ],
+      "answerIndex": 0,
+      "explanation": "4000 × 1.1 × 1.2 = 4000 × 1.32 = 5,280."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The compound interest on a sum for 2 years at 5% per annum is ₹512.50. The simple interest on the same sum is",
+      "options": [
+        "490",
+        "512.5",
+        "520",
+        "500"
+      ],
+      "answerIndex": 3,
+      "explanation": "CI = P(1.1025 − 1) = 0.1025P = 512.5, so P = 5000. SI = 5000 × 5 × 2/100 = 500."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "At compound interest, a sum triples in 3 years. In how many years will it become 9 times itself?",
+      "options": [
+        "4.5",
+        "9",
+        "6",
+        "12"
+      ],
+      "answerIndex": 2,
+      "explanation": "Each 3 years multiplies by 3. 9 = 3 × 3, so 6 years."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "A sum of ₹12,000 is lent at 10% p.a. compounded half-yearly for 1.5 years. The amount is",
+      "options": [
+        "13800",
+        "13891.5",
+        "13900",
+        "14000"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rate 5% per half-year, 3 periods: 12000 × 1.157625 = 13,891.50."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "The CI − SI difference on a sum for 2 years at 8% per annum is ₹32. The sum is",
+      "options": [
+        "4000",
+        "5000",
+        "4500",
+        "6000"
+      ],
+      "answerIndex": 1,
+      "explanation": "P(0.08)² = 32 gives P = 32 ÷ 0.0064 = 5,000."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "A man invests ₹6,000 at 20% compounded annually. After how many whole years will the amount first exceed ₹10,000?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "answerIndex": 0,
+      "explanation": "6000 × 1.2² = 8,640; 6000 × 1.2³ = 10,368, which exceeds 10,000. So 3 years."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "A sum of ₹15,625 amounts to ₹17,576 in 3 years at compound interest. The rate per annum is",
+      "options": [
+        "3%",
+        "5%",
+        "6%",
+        "4%"
+      ],
+      "answerIndex": 3,
+      "explanation": "(1 + r/100)³ = 17576/15625 = 1.1249 = (1.04)³ (since 26³ = 17576 and 25³ = 15625, ratio 26/25). So r = 4%."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "A principal becomes ₹1,331 in 3 years and ₹1,210 in 2 years at annual compound interest. The rate is",
+      "options": [
+        "8%",
+        "11%",
+        "10%",
+        "12%"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rate = (1331 − 1210)/1210 × 100 = 121/1210 × 100 = 10%."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/compound-interest/"
+}

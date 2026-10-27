@@ -1,0 +1,440 @@
+{
+  "id": "y2-quant-mixtures-allegations",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 3,
+  "title": "Mixtures and Alligation",
+  "tagline": "Year 2 — Mean price, the alligation cross, and replacement problems",
+  "estimatedMinutes": 50,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "A mixture problem combines two or more ingredients of different price, strength or concentration and asks for the mixing ratio, the mean value or the quantity of one ingredient. Alligation is a fast method for finding the ratio in which two items must be mixed to get a required mean value. A second type, replacement, removes part of a mixture and replaces it with another ingredient, repeatedly.",
+    "placementRelevance": "Mixture and alligation questions are commonly asked in company aptitude rounds. The alligation cross solves in one line a problem that otherwise needs two equations.",
+    "realWorldContext": "Blending tea or coffee grades, diluting a chemical solution, preparing alloys and mixing fuel grades all use these ideas."
+  },
+  "learningObjectives": [
+    "Find the mean price or strength of a mixture",
+    "Use the alligation rule to find the mixing ratio",
+    "Handle concentration (percentage) problems",
+    "Solve replacement problems with the (1 − x/n)ᵏ formula",
+    "Compute profit when a mixture is sold at a given price"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Advanced Ratio and Proportion",
+      "Basic Percentages",
+      "Profit and Loss Basics"
+    ],
+    "quickRefresher": "The mean (weighted average) of two items is (q₁p₁ + q₂p₂) ÷ (q₁ + q₂). Ratios can be written as parts, and concentrations as fractions."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Mean price (cost price of the mixture): the price per unit of the mixture, which lies between the two component prices.",
+      "Alligation: a rule giving the ratio in which two items are mixed: (dearer − mean) : (mean − cheaper).",
+      "Concentration: the fraction or percentage of an ingredient in a mixture.",
+      "Replacement: removing some mixture and replacing it with an equal amount of another ingredient.",
+      "Weighted average: an average where each item is weighted by its quantity."
+    ],
+    "theoreticalIntuition": "The mean sits between the two prices, and it sits closer to the one that is present in the larger quantity. The ratio of quantities is therefore the inverse ratio of the distances from the mean: the farther price is present in the smaller quantity.",
+    "visualOrMentalModel": "Draw the alligation cross: cheaper price on the left, dearer on the right, mean in the middle. Subtract diagonally. The result gives the ratio of cheaper : dearer quantities in the form (dearer − mean) : (mean − cheaper)."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Mean price",
+      "formula": "Mean = (q₁p₁ + q₂p₂) ÷ (q₁ + q₂)",
+      "description": "Weighted average.",
+      "whenToUse": "Cost of a mixture.",
+      "simpleExample": "3 kg at ₹40 + 2 kg at ₹60 → 240/5 = ₹48"
+    },
+    {
+      "title": "Alligation rule",
+      "formula": "Cheaper : Dearer = (Dearer − Mean) : (Mean − Cheaper)",
+      "description": "Works for prices, concentrations and alloy purity.",
+      "whenToUse": "Finding the mixing ratio.",
+      "simpleExample": "₹20 and ₹30 for ₹24 → (30−24):(24−20) = 3 : 2"
+    },
+    {
+      "title": "Replacement",
+      "formula": "Final quantity of original = Q × (1 − x/Q)ⁿ",
+      "description": "Q = container volume, x = amount replaced each time, n = repetitions.",
+      "whenToUse": "Milk and water replacement.",
+      "simpleExample": "40 L, 8 L, twice → 40(0.8)² = 25.6 L"
+    },
+    {
+      "title": "Adding a pure ingredient",
+      "formula": "New concentration = (old amount + x) ÷ (old total + x)",
+      "description": "Equation in x.",
+      "whenToUse": "Dilution and fortification.",
+      "simpleExample": "(12 + x)/(60 + x) = 0.4 → x = 20"
+    },
+    {
+      "title": "Profit on a mixture",
+      "formula": "Profit % = (SP − CP of mixture) ÷ CP × 100",
+      "description": "Compute the mixture cost first.",
+      "whenToUse": "Mixture sold at a price.",
+      "simpleExample": "CP = 1600, SP = 1680 → 5%"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "For mean price, treat quantities as weights. If 3 kg of tea at ₹40 is mixed with 2 kg at ₹60, the total cost is 120 + 120 = ₹240 for 5 kg, so the mean is ₹48 per kg.",
+      "Alligation reverses the process. To get a mean of ₹24 from ₹20 and ₹30, the differences are 30 − 24 = 6 and 24 − 20 = 4, so the ratio of cheaper to dearer is 6 : 4 = 3 : 2. The cheaper item is in the larger quantity because the mean is closer to it.",
+      "Concentration problems use the same rule. A 30% and a 50% solution mixed to give 42% need (50 − 42) : (42 − 30) = 8 : 12 = 2 : 3. Water is a 0% solution and pure milk is a 100% solution, which turns dilution problems into alligation.",
+      "Replacement: if x litres are drawn out of a Q-litre vessel of pure milk and replaced by water, the milk fraction becomes (1 − x/Q). After n repetitions, the milk is Q(1 − x/Q)ⁿ. With 80 L, 20 L replaced twice: 80 × (3/4)² = 45 L milk, 35 L water.",
+      "When a seller mixes water with milk and sells at the price of pure milk, the profit percentage is (water ÷ milk) × 100. One litre of water for every 4 litres of milk gives 25% profit."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Why alligation works",
+        "content": "The mean is a balance point: the cheaper quantity times its distance from the mean equals the dearer quantity times its distance. That gives the inverse proportion between quantity and distance."
+      },
+      {
+        "title": "Repeated replacement",
+        "content": "The remaining original quantity is multiplied by the same factor (1 − x/Q) each time, so the result is a geometric decrease. Remember that the amount removed in each step is a mixture, not pure milk."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Mean price",
+      "description": "Weighted average.",
+      "exampleSnippet": "3 kg at ₹40, 2 kg at ₹60"
+    },
+    {
+      "typeName": "Alligation ratio",
+      "description": "Find the mixing ratio.",
+      "exampleSnippet": "₹20 and ₹30 to get ₹24"
+    },
+    {
+      "typeName": "Concentration",
+      "description": "Percent solutions.",
+      "exampleSnippet": "30% and 50% to get 42%"
+    },
+    {
+      "typeName": "Replacement",
+      "description": "Repeated removal.",
+      "exampleSnippet": "80 L, 20 L replaced twice"
+    },
+    {
+      "typeName": "Profit on a mixture",
+      "description": "Mix and sell.",
+      "exampleSnippet": "Water added to milk"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-mixtures-allegations-1",
+      "title": "Alligation ratio",
+      "question": "In what ratio must rice at ₹20 per kg be mixed with rice at ₹30 per kg to get a mixture worth ₹24 per kg?",
+      "givenInfo": [
+        "Cheaper ₹20, dearer ₹30, mean ₹24"
+      ],
+      "conceptOrFormula": "Cheaper : Dearer = (Dearer − Mean) : (Mean − Cheaper).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Subtract",
+          "explanation": "Dearer − mean = 30 − 24 = 6. Mean − cheaper = 24 − 20 = 4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Ratio",
+          "explanation": "6 : 4 = 3 : 2."
+        }
+      ],
+      "finalAnswer": "3 : 2 (cheaper : dearer)",
+      "whyItWorks": "The mean is closer to ₹20, so more of the cheaper rice is needed.",
+      "commonTrap": "Writing 2 : 3.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-mixtures-allegations-2",
+      "title": "Replacement",
+      "question": "A vessel holds 80 litres of pure milk. 20 litres are removed and replaced with water. The process is repeated once more. How much milk is left?",
+      "givenInfo": [
+        "Q = 80 L",
+        "x = 20 L",
+        "n = 2"
+      ],
+      "conceptOrFormula": "Milk left = Q(1 − x/Q)ⁿ.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Fraction left each time",
+          "explanation": "1 − 20/80 = 3/4."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply twice",
+          "explanation": "80 × (3/4)² = 80 × 9/16."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Compute",
+          "explanation": "= 45 litres."
+        }
+      ],
+      "finalAnswer": "45 litres",
+      "whyItWorks": "Each replacement leaves 3/4 of the milk.",
+      "commonTrap": "Subtracting 20 + 20 = 40 litres.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-mixtures-allegations-3",
+      "title": "Profit on a mixture",
+      "question": "A trader mixes 26 kg of rice at ₹20/kg with 30 kg of rice at ₹36/kg and sells the mixture at ₹30/kg. Find his profit percentage.",
+      "givenInfo": [
+        "26 kg at ₹20",
+        "30 kg at ₹36",
+        "SP ₹30/kg"
+      ],
+      "conceptOrFormula": "Profit % = (SP − CP) ÷ CP × 100.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Total cost",
+          "explanation": "26 × 20 + 30 × 36 = 520 + 1080 = ₹1,600."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Total selling price",
+          "explanation": "56 kg × 30 = ₹1,680."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Profit %",
+          "explanation": "(1680 − 1600) ÷ 1600 × 100 = 5%."
+        }
+      ],
+      "finalAnswer": "5%",
+      "whyItWorks": "The profit is ₹80 on a cost of ₹1,600.",
+      "commonTrap": "Dividing profit by selling price.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "The alligation cross",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Write two equations in the unknown quantities.",
+      "shortcutMethod": "Draw the cross: cheaper and dearer on top, mean in the middle, subtract diagonally. The two differences are the ratio."
+    },
+    "rulesForApplication": [
+      "Mean must lie between the two prices.",
+      "Water has price or concentration 0.",
+      "Replacement: multiply by (1 − x/Q) each time.",
+      "Check the ratio direction: more of the item nearer the mean."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Reversing the alligation ratio",
+      "whyItHappens": "Mixing up which difference goes with which item.",
+      "howToAvoid": "Remember: the difference with the dearer price goes with the cheaper quantity."
+    },
+    {
+      "mistake": "Subtracting replacement amounts",
+      "whyItHappens": "Taking 20 + 20 as milk lost.",
+      "howToAvoid": "Use the multiplication factor."
+    },
+    {
+      "mistake": "Average of prices",
+      "whyItHappens": "Averaging ₹20 and ₹30 as ₹25 regardless of quantity.",
+      "howToAvoid": "Use weights."
+    },
+    {
+      "mistake": "Wrong base for profit",
+      "whyItHappens": "Using SP as the base.",
+      "howToAvoid": "Use the cost of the mixture."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 75,
+    "eliminationTechnique": "The mean must lie between the two component values; the ratio direction must favour the nearer one.",
+    "questionSelectionAdvice": "Replacement questions are a common difficulty step; learn the (1 − x/Q)ⁿ formula.",
+    "recruiterInsight": "Alligation is also used for averages and speed questions."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-mixtures-allegations-e1",
+        "question": "In what ratio must rice at ₹20/kg be mixed with rice at ₹30/kg to get a mixture worth ₹24/kg (cheaper : dearer)?",
+        "options": [
+          "2 : 3",
+          "3 : 2",
+          "1 : 1",
+          "4 : 1"
+        ],
+        "correctAnswer": "3 : 2",
+        "explanation": "(30 − 24) : (24 − 20) = 6 : 4 = 3 : 2.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-mixtures-allegations-e2",
+        "question": "3 kg of tea at ₹40/kg is mixed with 2 kg of tea at ₹60/kg. The mean price per kg is",
+        "options": [
+          "48",
+          "50",
+          "52",
+          "46"
+        ],
+        "correctAnswer": "48",
+        "explanation": "Cost = 120 + 120 = 240 for 5 kg. Mean = 48.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-mixtures-allegations-e3",
+        "question": "A mixture of 20 litres has milk and water in the ratio 3 : 1. The quantity of water is",
+        "options": [
+          "4",
+          "6",
+          "15",
+          "5"
+        ],
+        "correctAnswer": "5",
+        "explanation": "Parts = 4, one part = 5. Water = 5 litres.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-mixtures-allegations-i7",
+        "question": "Milk costs ₹20/L. In what ratio (water : milk) must water be added so that selling the mixture at ₹20/L gives a profit of 25%?",
+        "options": [
+          "1 : 4",
+          "1 : 5",
+          "1 : 3",
+          "2 : 5"
+        ],
+        "correctAnswer": "1 : 4",
+        "explanation": "Cost of mixture = 20/1.25 = ₹16. Alligation with water (0): (20 − 16) : (16 − 0) = 4 : 16 = 1 : 4.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-mixtures-allegations-i8",
+        "question": "A vessel has 40 litres of pure milk. 8 litres are removed and replaced with water. This is repeated once more. The milk left is",
+        "options": [
+          "24",
+          "26.4",
+          "32",
+          "25.6"
+        ],
+        "correctAnswer": "25.6",
+        "explanation": "40 × (1 − 8/40)² = 40 × 0.64 = 25.6 litres.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-mixtures-allegations-i9",
+        "question": "Vessel A has 60 L with milk : water = 2 : 1 and vessel B has 40 L with milk : water = 1 : 3. If both are mixed, milk : water is",
+        "options": [
+          "3 : 2",
+          "2 : 3",
+          "5 : 3",
+          "1 : 1"
+        ],
+        "correctAnswer": "1 : 1",
+        "explanation": "Milk = 40 + 10 = 50. Water = 20 + 30 = 50. The ratio is 1 : 1.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-mixtures-allegations-a15",
+        "question": "A vessel has 80 L of pure milk. 16 L are replaced with water, twice. The milk left is",
+        "options": [
+          "48",
+          "54",
+          "51.2",
+          "64"
+        ],
+        "correctAnswer": "51.2",
+        "explanation": "80 × (1 − 16/80)² = 80 × 0.64 = 51.2 L.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-mixtures-allegations-a16",
+        "question": "In what ratio must rice at ₹9.30/kg be mixed with rice at ₹10.80/kg to get a mixture at ₹10/kg (cheaper : dearer)?",
+        "options": [
+          "7 : 8",
+          "8 : 7",
+          "3 : 2",
+          "1 : 1"
+        ],
+        "correctAnswer": "8 : 7",
+        "explanation": "(10.80 − 10) : (10 − 9.30) = 0.80 : 0.70 = 8 : 7.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-mixtures-allegations-p17",
+        "question": "A mixture of 729 mL has milk and water in the ratio 7 : 2. How much water must be added to make the ratio 7 : 3?",
+        "options": [
+          "72",
+          "81",
+          "90",
+          "99"
+        ],
+        "correctAnswer": "81",
+        "explanation": "Milk = 567, water = 162. 567 : (162 + x) = 7 : 3 gives 162 + x = 243, so x = 81 mL.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-mixtures-allegations-p18",
+        "question": "A vessel has 80 L of milk. 20 L are removed and replaced with water, and then again 20 L of the mixture are removed and replaced with water. The quantity of water now is",
+        "options": [
+          "35",
+          "30",
+          "40",
+          "45"
+        ],
+        "correctAnswer": "35",
+        "explanation": "Milk left = 80 × (3/4)² = 45 L. Water = 80 − 45 = 35 L.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-mixtures-allegations-p19",
+        "question": "A trader mixes 26 kg of rice at ₹20/kg with 30 kg at ₹36/kg and sells the mixture at ₹30/kg. His profit percentage is",
+        "options": [
+          "4%",
+          "6%",
+          "8%",
+          "5%"
+        ],
+        "correctAnswer": "5%",
+        "explanation": "Cost = 520 + 1080 = 1600. Sales = 56 × 30 = 1680. Profit = 80/1600 = 5%.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "Mean = weighted average.",
+      "Alligation cross.",
+      "Replacement factor (1 − x/Q).",
+      "Water = 0.",
+      "Profit on mixture uses CP of mixture."
+    ],
+    "quickFormulas": [
+      "C : D = (D − M) : (M − C)",
+      "Q(1 − x/Q)ⁿ"
+    ]
+  },
+  "keyTakeaways": [
+    "Draw the cross.",
+    "Quantities favour the nearer price.",
+    "Use the multiplier for replacement.",
+    "Verify the mean."
+  ],
+  "selfCheckQuestions": [
+    "Can I find the ratio for a target mean price?",
+    "Can I compute milk left after replacements?",
+    "Can I find profit on a mixture?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Alligation or Mixture topic area; examples are original."
+    }
+  ]
+}

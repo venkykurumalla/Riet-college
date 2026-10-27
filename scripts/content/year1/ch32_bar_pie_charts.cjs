@@ -171,7 +171,7 @@ const quiz = [
   medium(BAR + 'What are the total sales over the six months?', total, [315, 325, 345], 'Total = 40 + 55 + 45 + 60 + 75 + 55 = ' + total + '.'),
   medium(BAR + 'What is the average monthly sales?', total / 6, [50, 52.5, 57.5], 'Average = ' + total + ' ÷ 6 = ' + total / 6 + '.'),
   medium(BAR + 'By what percentage are the May sales above the January sales?', pct(round((S('May') - S('Jan')) / S('Jan') * 100, 1)), ['46.7%', '75%', '35%'], 'Increase = 35. Percentage = 35 ÷ 40 × 100 = 87.5%.'),
-  medium(BAR + 'In how many months were the sales strictly above the average?', sales.filter(v => v > total / 6).length, [1, 3, 4], 'The average is ' + total / 6 + '. Only April (60) and May (75) are above it.'),
+  medium(BAR + 'In how many months were the sales strictly above the average?', sales.filter(v => v > total / 6).length, [1, 3, 4], 'The average is ' + total / 6 + '. Only April (60) and May (75) are above it, so the answer is 2.'),
   medium(PIE + 'What is the central angle of the sector for Education?', ang('Education') + '°', ['45°', '60°', '72°'], 'Angle = 15 × 3.6 = 54°.'),
   medium(PIE + 'How much does the family save each month?', inr(amt('Savings')), ['₹6,000', '₹10,000', '₹12,000'], '20% of ₹40,000 = ₹8,000.'),
   medium(PIE + 'What is the ratio of the amount spent on Food to the amount spent on Transport?', (pie.Food / gcd(pie.Food, pie.Transport)) + ' : ' + (pie.Transport / gcd(pie.Food, pie.Transport)), ['2 : 1', '5 : 2', '4 : 1'], 'Food : Transport = 30 : 10 = 3 : 1.'),

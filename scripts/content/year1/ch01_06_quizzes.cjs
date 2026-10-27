@@ -29,8 +29,8 @@ buildQuizOnly('y1-quant-num-sys', 'Number System Fundamentals', 'https://www.ind
 
 // ---- Ch 2: Divisibility Rules ----
 buildQuizOnly('y1-quant-divisibility', 'Divisibility Rules', 'https://www.indiabix.com/aptitude/numbers/', [
-  easy('Which of the following numbers is divisible by 3?', 4821, [4822, 4825, 4829], 'A number is divisible by 3 if its digit sum is. 4 + 8 + 2 + 1 = 15 is divisible by 3, while the other digit sums are 16, 19 and 23.'),
-  easy('Which of the following numbers is divisible by 4?', 3216, [3214, 3218, 3222], 'Check the last two digits. 16 is divisible by 4, but 14, 18 and 22 are not.'),
+  easy('Which of the following numbers is divisible by 3?', 4821, [4822, 4825, 4829], 'A number is divisible by 3 if its digit sum is. 4821 has digit sum 4 + 8 + 2 + 1 = 15 is divisible by 3, while the other digit sums are 16, 19 and 23.'),
+  easy('Which of the following numbers is divisible by 4?', 3216, [3214, 3218, 3222], 'Check the last two digits. 3216 ends in 16, which is divisible by 4, but 14, 18 and 22 are not.'),
   easy('Which of the following numbers is divisible by 5?', 2475, [2471, 2473, 2478], 'A number is divisible by 5 if it ends in 0 or 5. Only 2475 does.'),
   easy('Which of the following numbers is divisible by 9?', 7254, [7253, 7255, 7256], 'The digit sum of 7254 is 18, which is divisible by 9. The others have digit sums 17, 19 and 20.'),
   easy('Which of the following numbers is divisible by 11?', 2728, [2729, 2730, 2731], 'Alternating sum of digits for 2728: (2 + 2) − (7 + 8) = −11, which is divisible by 11. The others give −12, −2 and −3.'),

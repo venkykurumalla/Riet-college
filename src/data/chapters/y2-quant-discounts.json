@@ -1,0 +1,439 @@
+{
+  "id": "y2-quant-discounts",
+  "yearId": 2,
+  "category": "Advanced Quantitative Aptitude",
+  "topicNumber": 5,
+  "title": "Discounts and Marked Price",
+  "tagline": "Year 2 — Marked price, discount, successive discounts and mark-up",
+  "estimatedMinutes": 45,
+  "difficulty": "Intermediate",
+  "introduction": {
+    "overview": "Shops print a marked price (MP) on goods and then offer a discount, so the selling price (SP) is lower than the marked price. The discount is always a percentage of the marked price, while profit and loss are percentages of the cost price. This chapter combines the two ideas: how much should an item be marked so that after a discount the shopkeeper still earns the target profit?",
+    "placementRelevance": "Discount and marked price questions are commonly asked in company aptitude rounds, often as a mark-up followed by one or two successive discounts.",
+    "realWorldContext": "Festival sales, \"buy 2 get 1 free\" offers and coupon discounts are all discount calculations."
+  },
+  "learningObjectives": [
+    "Compute selling price, marked price and discount from each other",
+    "Combine mark-up and discount to find the profit or loss",
+    "Use successive discounts and the single equivalent discount",
+    "Interpret \"buy x get y free\" offers as discounts",
+    "Find the mark-up needed for a target profit"
+  ],
+  "prerequisiteKnowledge": {
+    "requiredTopics": [
+      "Profit and Loss Basics",
+      "Basic Percentages"
+    ],
+    "quickRefresher": "SP = MP × (1 − d/100); SP = CP × (1 ± p/100). A multiplier of 0.8 stands for a 20% discount."
+  },
+  "conceptExplanation": {
+    "coreDefinitions": [
+      "Marked price (list price): the price printed on the article.",
+      "Discount: the reduction given on the marked price. Discount % = (MP − SP) ÷ MP × 100.",
+      "Successive discounts: discounts given one after another, each on the reduced price.",
+      "Mark-up: the percentage added to the cost price to fix the marked price.",
+      "Single equivalent discount: one discount that has the same effect as two or more successive discounts."
+    ],
+    "theoreticalIntuition": "Discount works on the marked price; profit works on the cost price. Chains of mark-up and discount are chains of multipliers, so the final price is CP × (mark-up multiplier) × (discount multiplier).",
+    "visualOrMentalModel": "Set CP = 100. A 40% mark-up gives MP 140. A 20% discount gives SP 112. Profit 12%. This \"assume 100\" method works for any percentage chain."
+  },
+  "importantRulesAndFormulas": [
+    {
+      "title": "Selling price after discount",
+      "formula": "SP = MP × (100 − d)/100",
+      "description": "Discount is on the marked price.",
+      "whenToUse": "Direct discount questions.",
+      "simpleExample": "MP 1000, 20% → 800"
+    },
+    {
+      "title": "Single equivalent of two discounts",
+      "formula": "D = a + b − ab/100",
+      "description": "Or multiply the factors.",
+      "whenToUse": "Successive discounts.",
+      "simpleExample": "20% and 10% → 28%"
+    },
+    {
+      "title": "Mark-up then discount",
+      "formula": "SP = CP × (1 + m/100) × (1 − d/100)",
+      "description": "Profit % = multiplier − 1.",
+      "whenToUse": "Retail pricing.",
+      "simpleExample": "1.4 × 0.8 = 1.12 → 12% profit"
+    },
+    {
+      "title": "Mark-up for a target profit",
+      "formula": "MP = CP × (1 + p/100) ÷ (1 − d/100)",
+      "description": "Reverse the multipliers.",
+      "whenToUse": "Fixing the marked price.",
+      "simpleExample": "CP 900, profit 20%, discount 10% → MP 1200"
+    },
+    {
+      "title": "Buy x get y free",
+      "formula": "Discount % = y ÷ (x + y) × 100",
+      "description": "The free items are the discount.",
+      "whenToUse": "Offer questions.",
+      "simpleExample": "Buy 2 get 1 free → 33.3%"
+    }
+  ],
+  "detailedExplanation": {
+    "mainNarrative": [
+      "To compute the selling price, multiply the marked price by (1 − d/100). If an article marked ₹1,000 is sold at 20% discount the SP is ₹800. To go backwards, divide: SP ₹720 after 10% discount means MP = 720 ÷ 0.9 = ₹800.",
+      "Mark-up and discount combine as a chain of multipliers. A shopkeeper who marks goods 40% above cost and gives a 20% discount sells at 1.4 × 0.8 = 1.12 times the cost, which is a 12% profit.",
+      "Successive discounts are not additive. 20% followed by 10% is 0.8 × 0.9 = 0.72, a single discount of 28%, not 30%. The order does not matter for the final price.",
+      "To fix the marked price for a target profit, work backwards. For 20% profit with a 10% discount on CP ₹900: MP × 0.9 = 900 × 1.2, so MP = ₹1,200.",
+      "Offers like \"buy 2 get 1 free\" give 1 free item for every 3 taken, which is a discount of 1/3 = 33.3%."
+    ],
+    "deepDiveAspects": [
+      {
+        "title": "Discount is not profit",
+        "content": "A 20% discount can still leave a profit if the mark-up was high enough. Always compare the final SP with the cost price, not with the marked price."
+      },
+      {
+        "title": "Order of discounts",
+        "content": "Multiplication is commutative: 0.9 × 0.8 = 0.8 × 0.9. The single equivalent is the same whichever discount is applied first."
+      }
+    ]
+  },
+  "problemVariations": [
+    {
+      "typeName": "Direct discount",
+      "description": "SP, MP or d%.",
+      "exampleSnippet": "MP 1000, 20% discount"
+    },
+    {
+      "typeName": "Mark-up and discount",
+      "description": "Profit %.",
+      "exampleSnippet": "40% mark-up, 20% discount"
+    },
+    {
+      "typeName": "Successive discounts",
+      "description": "Single equivalent.",
+      "exampleSnippet": "20% and 10%"
+    },
+    {
+      "typeName": "Target profit",
+      "description": "Find the MP.",
+      "exampleSnippet": "Profit 20%, discount 10%"
+    },
+    {
+      "typeName": "Free items",
+      "description": "Buy x get y free.",
+      "exampleSnippet": "Buy 2 get 1 free"
+    }
+  ],
+  "solvedExamples": [
+    {
+      "id": "ex-y2-quant-discounts-1",
+      "title": "Mark-up and discount",
+      "question": "A shopkeeper marks goods 40% above the cost price and gives a 20% discount. Find his profit percentage.",
+      "givenInfo": [
+        "Mark-up 40%",
+        "Discount 20%"
+      ],
+      "conceptOrFormula": "Chain of multipliers.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Assume CP = 100",
+          "explanation": "MP = 140."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Apply the discount",
+          "explanation": "SP = 140 × 0.8 = 112."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Profit",
+          "explanation": "112 − 100 = 12, so 12%."
+        }
+      ],
+      "finalAnswer": "12% profit",
+      "whyItWorks": "The discount is on MP, not CP.",
+      "commonTrap": "Subtracting 40 − 20 = 20%.",
+      "difficulty": "Foundation"
+    },
+    {
+      "id": "ex-y2-quant-discounts-2",
+      "title": "Single equivalent discount",
+      "question": "Two successive discounts of 10% and 5% are given on ₹2,000. Find the final price and the single equivalent discount.",
+      "givenInfo": [
+        "Price ₹2,000",
+        "Discounts 10% and 5%"
+      ],
+      "conceptOrFormula": "Multiply the factors.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "After 10%",
+          "explanation": "2000 × 0.9 = 1800."
+        },
+        {
+          "stepNumber": 2,
+          "title": "After 5%",
+          "explanation": "1800 × 0.95 = 1710."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Single discount",
+          "explanation": "(2000 − 1710)/2000 = 14.5%."
+        }
+      ],
+      "finalAnswer": "₹1,710; 14.5%",
+      "whyItWorks": "The second discount is on the reduced price.",
+      "commonTrap": "Adding the discounts to get 15%.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "ex-y2-quant-discounts-3",
+      "title": "Find the marked price",
+      "question": "A dealer buys an article for ₹900. He wants a profit of 20% after allowing a 10% discount. At what price should he mark it?",
+      "givenInfo": [
+        "CP 900",
+        "Profit 20%",
+        "Discount 10%"
+      ],
+      "conceptOrFormula": "MP × (1 − d) = CP × (1 + p).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Required SP",
+          "explanation": "900 × 1.2 = ₹1,080."
+        },
+        {
+          "stepNumber": 2,
+          "title": "MP from SP",
+          "explanation": "1080 ÷ 0.9 = ₹1,200."
+        }
+      ],
+      "finalAnswer": "₹1,200",
+      "whyItWorks": "SP = 0.9 MP.",
+      "commonTrap": "Adding 20% and 10% to get 30% mark-up.",
+      "difficulty": "Placement-Style"
+    }
+  ],
+  "shortcutMethods": {
+    "title": "Assume cost price 100",
+    "traditionalVsShortcut": {
+      "traditionalMethod": "Work in rupees with the given numbers throughout.",
+      "shortcutMethod": "Set CP = 100 (or MP = 100), apply each percentage as a multiplier and read the answer as a percentage."
+    },
+    "rulesForApplication": [
+      "Discount on MP, profit on CP.",
+      "Successive discounts multiply.",
+      "Buy x get y free → y/(x+y).",
+      "To find MP, divide SP by (1 − d)."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "mistake": "Applying discount on cost price",
+      "whyItHappens": "Mixing the bases.",
+      "howToAvoid": "Discount is always on MP."
+    },
+    {
+      "mistake": "Adding successive discounts",
+      "whyItHappens": "Using 20 + 10 = 30.",
+      "howToAvoid": "Multiply 0.8 × 0.9."
+    },
+    {
+      "mistake": "Confusing mark-up with profit",
+      "whyItHappens": "Taking mark-up as profit.",
+      "howToAvoid": "Compare SP with CP."
+    },
+    {
+      "mistake": "Wrong free-offer base",
+      "whyItHappens": "Using y/x instead of y/(x + y).",
+      "howToAvoid": "The free items are part of the total."
+    }
+  ],
+  "placementTips": {
+    "timeAllocationSeconds": 70,
+    "eliminationTechnique": "Profit after mark-up and discount must be (mark-up multiplier × discount multiplier) − 1; test this on options.",
+    "questionSelectionAdvice": "Use the assume-100 method for percentage chain questions.",
+    "recruiterInsight": "This chapter prepares you for successive percentage questions."
+  },
+  "practiceSets": {
+    "easy": [
+      {
+        "id": "pq-y2-quant-discounts-e1",
+        "question": "An article marked at ₹1,000 is sold at a 20% discount. The selling price is",
+        "options": [
+          "750",
+          "800",
+          "820",
+          "900"
+        ],
+        "correctAnswer": "800",
+        "explanation": "SP = 1000 × 0.8 = 800.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-discounts-e2",
+        "question": "After a 10% discount an article is sold for ₹720. Its marked price is",
+        "options": [
+          "800",
+          "792",
+          "780",
+          "750"
+        ],
+        "correctAnswer": "800",
+        "explanation": "MP = 720 ÷ 0.9 = 800.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "pq-y2-quant-discounts-e3",
+        "question": "An article marked ₹500 is sold for ₹450. The discount percentage is",
+        "options": [
+          "5%",
+          "9%",
+          "12%",
+          "10%"
+        ],
+        "correctAnswer": "10%",
+        "explanation": "Discount = 50 on 500, so 10%.",
+        "difficulty": "Easy"
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "pq-y2-quant-discounts-i7",
+        "question": "Two successive discounts of 20% and 10% are equivalent to a single discount of",
+        "options": [
+          "28%",
+          "30%",
+          "25%",
+          "29%"
+        ],
+        "correctAnswer": "28%",
+        "explanation": "1 − 0.8 × 0.9 = 1 − 0.72 = 28%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-discounts-i8",
+        "question": "A shopkeeper marks goods 40% above cost and gives a 20% discount. His profit percentage is",
+        "options": [
+          "20%",
+          "10%",
+          "15%",
+          "12%"
+        ],
+        "correctAnswer": "12%",
+        "explanation": "Take CP = 100: MP = 140, SP = 112. Profit = 12%.",
+        "difficulty": "Intermediate"
+      },
+      {
+        "id": "pq-y2-quant-discounts-i9",
+        "question": "A shopkeeper marks goods 25% above cost. What discount allows him a profit of 10%?",
+        "options": [
+          "10%",
+          "15%",
+          "14%",
+          "12%"
+        ],
+        "correctAnswer": "12%",
+        "explanation": "Take CP = 100: MP = 125 and SP = 110. Discount = 15/125 = 12%.",
+        "difficulty": "Intermediate"
+      }
+    ],
+    "advanced": [
+      {
+        "id": "pq-y2-quant-discounts-a15",
+        "question": "A shopkeeper marks an article 30% above cost and gives a 20% discount. His profit percentage is",
+        "options": [
+          "10%",
+          "6%",
+          "4%",
+          "2%"
+        ],
+        "correctAnswer": "4%",
+        "explanation": "Take CP = 100: MP = 130, SP = 104. Profit = 4%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-discounts-a16",
+        "question": "Two successive discounts of 10% and 5% are given on an article marked ₹4,000. The single equivalent discount percentage is",
+        "options": [
+          "15%",
+          "14.5%",
+          "14%",
+          "15.5%"
+        ],
+        "correctAnswer": "14.5%",
+        "explanation": "0.9 × 0.95 = 0.855, so the discount is 14.5%.",
+        "difficulty": "Placement-Style"
+      }
+    ],
+    "placementStyle": [
+      {
+        "id": "pq-y2-quant-discounts-p17",
+        "question": "Two successive discounts of 20% and 25% on ₹1,000 give a final price of",
+        "options": [
+          "550",
+          "600",
+          "650",
+          "700"
+        ],
+        "correctAnswer": "600",
+        "explanation": "1000 × 0.8 × 0.75 = 600. The single discount is 40%.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-discounts-p18",
+        "question": "A shopkeeper gives successive discounts of 10% and x% on an article marked ₹5,000, and the final price is ₹3,600. The value of x is",
+        "options": [
+          "20",
+          "15",
+          "25",
+          "10"
+        ],
+        "correctAnswer": "20",
+        "explanation": "5000 × 0.9 × (1 − x/100) = 3600 gives 1 − x/100 = 0.8, so x = 20.",
+        "difficulty": "Placement-Style"
+      },
+      {
+        "id": "pq-y2-quant-discounts-p19",
+        "question": "By what percentage above cost must an article be marked so that a 25% discount still gives a 20% profit?",
+        "options": [
+          "50%",
+          "45%",
+          "65%",
+          "60%"
+        ],
+        "correctAnswer": "60%",
+        "explanation": "Take CP = 100: SP = 120, MP = 120 ÷ 0.75 = 160. Mark-up = 60%.",
+        "difficulty": "Placement-Style"
+      }
+    ]
+  },
+  "quickRevision": {
+    "summaryBullets": [
+      "SP = MP × (1 − d).",
+      "Chain of multipliers.",
+      "D = a + b − ab/100.",
+      "MP = target SP ÷ (1 − d).",
+      "Buy x get y free: y/(x+y)."
+    ],
+    "quickFormulas": [
+      "SP = MP(1−d)",
+      "D = a + b − ab/100"
+    ]
+  },
+  "keyTakeaways": [
+    "Know the base.",
+    "Multiply multipliers.",
+    "Work backwards by dividing.",
+    "Compare with cost price."
+  ],
+  "selfCheckQuestions": [
+    "Can I find profit after mark-up and discount?",
+    "Can I find the single equivalent of two discounts?",
+    "Can I fix the marked price for a target profit?"
+  ],
+  "sourcesAndReferences": [
+    {
+      "sourceName": "Quantitative Aptitude for Competitive Examinations — R.S. Aggarwal",
+      "sourceType": "Textbook",
+      "referenceNote": "Profit and Loss topic area; examples are original."
+    }
+  ]
+}

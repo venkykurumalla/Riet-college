@@ -1,0 +1,267 @@
+{
+  "topicId": "y2-quant-adv-ratio-prop",
+  "topicTitle": "Advanced Ratio and Proportion",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "₹2,160 is divided in the ratio 2 : 3 : 4. The largest share is",
+      "options": [
+        "720",
+        "960",
+        "480",
+        "1080"
+      ],
+      "answerIndex": 1,
+      "explanation": "Parts = 9, one part = 240. Largest = 4 × 240 = 960."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "If a : b = 3 : 4 and b : c = 6 : 5, then a : b : c is",
+      "options": [
+        "9 : 12 : 10",
+        "3 : 4 : 5",
+        "18 : 24 : 20",
+        "9 : 12 : 5"
+      ],
+      "answerIndex": 0,
+      "explanation": "Match b: LCM of 4 and 6 is 12. a : b = 9 : 12 and b : c = 12 : 10. So a : b : c = 9 : 12 : 10."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "The compound ratio of 2 : 3 and 5 : 7 is",
+      "options": [
+        "7 : 10",
+        "5 : 6",
+        "14 : 15",
+        "10 : 21"
+      ],
+      "answerIndex": 3,
+      "explanation": "Multiply the first terms and the second terms: 2 × 5 : 3 × 7 = 10 : 21."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "If a/b = 2/3 and b/c = 4/5, then a/c equals",
+      "options": [
+        "6/5",
+        "2/5",
+        "8/15",
+        "10/12"
+      ],
+      "answerIndex": 2,
+      "explanation": "a/c = (a/b)(b/c) = (2/3)(4/5) = 8/15."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "The duplicate ratio of 4 : 5 is",
+      "options": [
+        "8 : 10",
+        "2 : √5",
+        "16 : 25",
+        "5 : 4"
+      ],
+      "answerIndex": 2,
+      "explanation": "Square both terms: 4² : 5² = 16 : 25."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "question": "The sub-duplicate ratio of 16 : 25 is",
+      "options": [
+        "8 : 10",
+        "4 : 5",
+        "256 : 625",
+        "5 : 4"
+      ],
+      "answerIndex": 1,
+      "explanation": "Take square roots: √16 : √25 = 4 : 5."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "The present ratio of two numbers is 5 : 7. If 10 is added to each, the ratio becomes 3 : 4. The smaller number is",
+      "options": [
+        "50",
+        "40",
+        "60",
+        "70"
+      ],
+      "answerIndex": 0,
+      "explanation": "(5k + 10)/(7k + 10) = 3/4 gives 20k + 40 = 21k + 30, so k = 10. The smaller number is 50."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Three numbers sum to 98. The ratio of the first to the second is 2 : 3 and of the second to the third is 5 : 8. The second number is",
+      "options": [
+        "20",
+        "24",
+        "48",
+        "30"
+      ],
+      "answerIndex": 3,
+      "explanation": "a : b = 2 : 3 = 10 : 15 and b : c = 5 : 8 = 15 : 24. Total parts 49, one part = 2. Second = 15 × 2 = 30."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "The salaries of two persons are in the ratio 3 : 5. If the first gets a 20% raise and the second a 10% raise, the new ratio is",
+      "options": [
+        "6 : 11",
+        "3 : 5",
+        "18 : 25",
+        "36 : 55"
+      ],
+      "answerIndex": 3,
+      "explanation": "New = 3 × 1.2 : 5 × 1.1 = 3.6 : 5.5 = 36 : 55."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "A mixture of 30 litres has milk and water in the ratio 3 : 2. If 10 litres of water are added, the ratio of milk to water becomes",
+      "options": [
+        "3 : 2",
+        "9 : 10",
+        "9 : 11",
+        "18 : 11"
+      ],
+      "answerIndex": 2,
+      "explanation": "Milk = 18 L, water = 12 L. After adding 10 L of water: 18 : 22 = 9 : 11."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "If x : y = 5 : 3, then (2x + 3y) : (2x − 3y) is",
+      "options": [
+        "10 : 9",
+        "19 : 1",
+        "19 : 9",
+        "1 : 19"
+      ],
+      "answerIndex": 1,
+      "explanation": "Let x = 5k and y = 3k. 2x + 3y = 19k and 2x − 3y = k. The ratio is 19 : 1."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "Three numbers are in the ratio 1/2 : 1/3 : 1/4 and their sum is 52. The largest number is",
+      "options": [
+        "24",
+        "26",
+        "18",
+        "16"
+      ],
+      "answerIndex": 0,
+      "explanation": "Multiply by 12: 6 : 4 : 3. Total parts 13, one part = 4. Largest = 24."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "question": "If a : b = 2 : 3, b : c = 4 : 5 and c : d = 6 : 7, then a : d is",
+      "options": [
+        "16 : 35",
+        "48 : 105",
+        "2 : 7",
+        "8 : 15"
+      ],
+      "answerIndex": 0,
+      "explanation": "a/d = (2/3)(4/5)(6/7) = 48/105 = 16/35."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "question": "The ages of a father and son are in the ratio 7 : 2. After 10 years the ratio becomes 9 : 4. The son's present age is",
+      "options": [
+        "8",
+        "12",
+        "14",
+        "10"
+      ],
+      "answerIndex": 3,
+      "explanation": "(7k + 10)/(2k + 10) = 9/4 gives 28k + 40 = 18k + 90, so k = 5. The son is 10."
+    },
+    {
+      "id": 15,
+      "difficulty": "placement",
+      "question": "Vessel A has milk and water in the ratio 4 : 1 and vessel B in the ratio 3 : 2. They are mixed in the ratio 2 : 3 (A : B). The milk : water ratio is",
+      "options": [
+        "7 : 3",
+        "34 : 16",
+        "17 : 8",
+        "3 : 2"
+      ],
+      "answerIndex": 2,
+      "explanation": "Milk = 2(4/5) + 3(3/5) = 3.4 and total 5, so water = 1.6. Ratio = 3.4 : 1.6 = 17 : 8."
+    },
+    {
+      "id": 16,
+      "difficulty": "placement",
+      "question": "₹5,100 is divided among A, B and C. A gets 2/3 of B's share and B gets 1/4 of C's share. C's share is",
+      "options": [
+        "3000",
+        "3600",
+        "2700",
+        "900"
+      ],
+      "answerIndex": 1,
+      "explanation": "A : B = 2 : 3 and B : C = 1 : 4 = 3 : 12. So A : B : C = 2 : 3 : 12 (17 parts). One part = 300. C = 12 × 300 = 3600."
+    },
+    {
+      "id": 17,
+      "difficulty": "placement",
+      "question": "In a class the ratio of boys to girls is 3 : 2. If 20% of the boys and 25% of the girls are absent, the ratio of boys to girls present is",
+      "options": [
+        "3 : 2",
+        "8 : 5",
+        "12 : 7",
+        "6 : 5"
+      ],
+      "answerIndex": 1,
+      "explanation": "Present boys = 3 × 0.8 = 2.4 and girls = 2 × 0.75 = 1.5. Ratio = 2.4 : 1.5 = 8 : 5."
+    },
+    {
+      "id": 18,
+      "difficulty": "placement",
+      "question": "If a : b = 2 : 3 and b : c = 4 : 5, then (a + b + c) : (a − b + c) is",
+      "options": [
+        "35 : 11",
+        "7 : 3",
+        "35 : 9",
+        "5 : 1"
+      ],
+      "answerIndex": 0,
+      "explanation": "a : b : c = 8 : 12 : 15. a + b + c = 35 and a − b + c = 11. Ratio = 35 : 11."
+    },
+    {
+      "id": 19,
+      "difficulty": "placement",
+      "question": "Two alloys contain zinc and copper in the ratios 3 : 7 and 2 : 3. If 40 kg of the first and 50 kg of the second are melted together, the zinc : copper ratio in the new alloy is",
+      "options": [
+        "5 : 10",
+        "1 : 2",
+        "8 : 15",
+        "16 : 29"
+      ],
+      "answerIndex": 3,
+      "explanation": "Zinc = 40 × 3/10 + 50 × 2/5 = 12 + 20 = 32. Copper = 28 + 30 = 58. Ratio = 32 : 58 = 16 : 29."
+    },
+    {
+      "id": 20,
+      "difficulty": "placement",
+      "question": "Two numbers are in the ratio 4 : 5 and their LCM is 200. The sum of their squares is",
+      "options": [
+        "3700",
+        "4000",
+        "4100",
+        "4500"
+      ],
+      "answerIndex": 2,
+      "explanation": "Numbers 4k and 5k have LCM 20k = 200, so k = 10. The numbers are 40 and 50, and 1600 + 2500 = 4100."
+    }
+  ],
+  "morePracticeUrl": "https://www.indiabix.com/aptitude/ratio-and-proportion/"
+}
