@@ -47,7 +47,7 @@ export const Footer: React.FC<FooterProps> = ({
         </div>
 
         {/* Copyright */}
-        <div className="text-xs text-slate-400 font-medium">
+        <div className="text-xs text-slate-600 font-medium">
           © Rajamahendri Institute of Engineering & Technology
         </div>
 

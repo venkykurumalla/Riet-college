@@ -198,7 +198,7 @@ export const SyllabusSelectionPage: React.FC<SyllabusSelectionPageProps> = ({
         </div>
 
         {/* Minimal Footer Note */}
-        <div className="text-center text-xs text-slate-400 font-medium">
+        <div className="text-center text-xs text-slate-600 font-medium">
           Rajamahendri Institute of Engineering & Technology • Integrated LMS Portal
         </div>
 

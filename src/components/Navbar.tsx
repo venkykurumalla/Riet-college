@@ -45,7 +45,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       <header style={{ viewTransitionName: 'site-header' }} className="fixed top-3 inset-x-3 sm:inset-x-6 z-40 flex justify-center pointer-events-none">
         <button
           onClick={onNavigateHome}
-          aria-label={COLLEGE}
+          title={COLLEGE}
           className={`float-header glass pointer-events-auto flex items-center gap-3 rounded-full cursor-pointer ${
             scrolled ? 'py-1.5 pl-2 pr-5 scale-[0.96] shadow-lg' : 'py-2.5 pl-3 pr-6'
           }`}
@@ -75,7 +75,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <Menu className="w-5 h-5" />
               </button>
             )}
-            <button onClick={onNavigateHome} className="flex items-center gap-2.5 min-w-0 cursor-pointer text-left" aria-label="RIET home">
+            <button onClick={onNavigateHome} className="flex items-center gap-2.5 min-w-0 cursor-pointer text-left" title="RIET home">
               <Logo size="w-9 h-9 sm:w-11 sm:h-11" />
               <span className="min-w-0 leading-tight">
                 <span className="block font-display font-bold tracking-tight text-slate-900 text-sm sm:text-base truncate">

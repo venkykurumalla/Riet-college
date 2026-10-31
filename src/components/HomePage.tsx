@@ -119,7 +119,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenSyllabus }) => {
         </div>
 
         {/* Minimal Academic Footer Note */}
-        <div className="text-xs text-slate-400 font-medium pt-2">
+        <div className="text-xs text-slate-600 font-medium pt-2">
           Official BTech CSE LMS Learning Portal • Rajamahendri Institute of Engineering & Technology
         </div>
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { Suspense, lazy, useState, useEffect, useRef } from 'react';
 import { flushSync } from 'react-dom';
 import { Navbar } from './components/Navbar';
 import { HomePage } from './components/HomePage';
@@ -8,15 +8,30 @@ import { TopicPage } from './components/TopicPage';
 import { PracticalAndExercisesSection } from './components/PracticalAndExercisesSection';
 import { ResourcesPage } from './components/ResourcesPage';
 import { LMSSidebar } from './components/LMSSidebar';
-import { CRTOverviewPage } from './components/CRTOverviewPage';
-import { CRTTopicPage } from './components/CRTTopicPage';
-import { CRTSidebar } from './components/CRTSidebar';
 import { CRTYearSelector } from './components/CRTYearSelector';
-import { CRTModuleQuiz } from './components/CRTModuleQuiz';
-import { SearchModal } from './components/SearchModal';
+
+// The CRT area (year data + 206 chapters) is a separate chunk: Home and Syllabus Selection
+// load fast, and the chunk is fetched in the background once the browser is idle.
+const loadCRTSidebar = () => import('./components/CRTSidebar').then(m => ({ default: m.CRTSidebar }));
+const loadCRTOverview = () => import('./components/CRTOverviewPage').then(m => ({ default: m.CRTOverviewPage }));
+const loadCRTTopicView = () => import('./components/CRTTopicView').then(m => ({ default: m.CRTTopicView }));
+const loadCRTQuiz = () => import('./components/CRTModuleQuiz').then(m => ({ default: m.CRTModuleQuiz }));
+const loadSearch = () => import('./components/SearchModal').then(m => ({ default: m.SearchModal }));
+const CRTSidebar = lazy(loadCRTSidebar);
+const CRTOverviewPage = lazy(loadCRTOverview);
+const CRTTopicView = lazy(loadCRTTopicView);
+const CRTModuleQuiz = lazy(loadCRTQuiz);
+const SearchModal = lazy(loadSearch);
+
+const PageSkeleton: React.FC = () => (
+  <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6" aria-hidden="true">
+    <div className="skeleton h-10 w-2/3" />
+    <div className="skeleton h-56 w-full" />
+    <div className="skeleton h-40 w-full" />
+  </div>
+);
 import { Footer } from './components/Footer';
 import { getTopicById, COURSE_UNITS } from './data/aiToolsCourseData';
-import { getCRTTopicById, getCRTYearCurriculum } from './data/crtCourseData';
 import { progressService } from './services/progressService';
 import { crtProgressService } from './services/crtProgressService';
 import { CRTYearId } from './types/crtTypes';
@@ -42,6 +57,16 @@ export const App: React.FC = () => {
   const [tintYear, setTintYear] = useState<CRTYearId>(1); // follows the click at once; content swaps a beat later
   const yearTimer = useRef<number | undefined>(undefined);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchUsed, setSearchUsed] = useState(false); // mount the lazy search modal on first open
+  useEffect(() => { if (isSearchOpen) setSearchUsed(true); }, [isSearchOpen]);
+
+  // Fetch the CRT chunk in the background once idle so opening the syllabus feels instant.
+  useEffect(() => {
+    const idle = (window as Window & { requestIdleCallback?: (cb: () => void) => number }).requestIdleCallback;
+    const warm = () => { loadCRTSidebar(); loadCRTOverview(); loadCRTTopicView(); loadCRTQuiz(); };
+    const h = idle ? idle(warm) : window.setTimeout(warm, 1500);
+    return () => { if (!idle) window.clearTimeout(h); };
+  }, []);
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
   const [, setTick] = useState(0);
 
@@ -216,6 +241,7 @@ export const App: React.FC = () => {
           <ErrorBoundary>
           
           {/* CRT Sidebar */}
+          <Suspense fallback={<aside className="hidden lg:block w-72 shrink-0" aria-hidden="true"><div className="skeleton m-3 h-[70vh]" /></aside>}>
           <CRTSidebar
             selectedYear={crtSelectedYear}
             activeTopicId={view.type === 'crt-topic' ? view.topicId : undefined}
@@ -228,6 +254,7 @@ export const App: React.FC = () => {
             isMobileOpen={isMobileSidebarOpen}
             onCloseMobile={() => setIsMobileSidebarOpen(false)}
           />
+          </Suspense>
 
           {/* CRT Main Reading Area */}
           <main className="flex-1 min-w-0 pb-16">
@@ -243,6 +270,7 @@ export const App: React.FC = () => {
             </div>
 
             <div key={crtSelectedYear} className="yr-swap yr-stage">
+            <Suspense fallback={<PageSkeleton />}>
 
             {/* VIEW: CRT YEAR SYLLABUS OVERVIEW */}
             {view.type === 'crt-overview' && (
@@ -265,31 +293,15 @@ export const App: React.FC = () => {
             )}
 
             {/* VIEW: CRT TOPIC LMS CHAPTER PAGE */}
-            {view.type === 'crt-topic' && (() => {
-              const item = getCRTTopicById(view.topicId);
-              if (!item) {
-                return (
-                  <div className="text-center py-20 space-y-4">
-                    <p className="text-slate-600 font-semibold">CRT Topic not found.</p>
-                    <button
-                      onClick={() => handleOpenCRT(view.yearId)}
-                      className="px-5 py-2.5 bg-blue-600 text-white rounded-xl font-bold text-xs cursor-pointer"
-                    >
-                      Back to CRT Overview
-                    </button>
-                  </div>
-                );
-              }
-              return (
-                <CRTTopicPage
-                  topic={item.topic}
-                  year={item.year}
-                  categoryName={item.category}
-                  onSelectTopic={topicId => handleSelectCRTTopic(topicId, view.yearId)}
-                  onBackToOverview={() => handleOpenCRT(view.yearId)}
-                />
-              );
-            })()}
+            {view.type === 'crt-topic' && (
+              <CRTTopicView
+                topicId={view.topicId}
+                yearId={view.yearId}
+                onSelectTopic={topicId => handleSelectCRTTopic(topicId, view.yearId)}
+                onBackToOverview={() => handleOpenCRT(view.yearId)}
+              />
+            )}
+            </Suspense>
 
             </div>
           </main>
@@ -394,12 +406,16 @@ export const App: React.FC = () => {
       />
 
       {/* Universal Search Modal (Ctrl+K) */}
-      <SearchModal
-        isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
-        onSelectAITopic={handleSelectAITopic}
-        onSelectCRTTopic={handleSelectCRTTopic}
-      />
+      {searchUsed && (
+        <Suspense fallback={null}>
+          <SearchModal
+            isOpen={isSearchOpen}
+            onClose={() => setIsSearchOpen(false)}
+            onSelectAITopic={handleSelectAITopic}
+            onSelectCRTTopic={handleSelectCRTTopic}
+          />
+        </Suspense>
+      )}
 
     </div>
   );

@@ -1,5 +1,5 @@
 import { CRTTopicProgress, CRTYearProgress, CRTYearId } from '../types/crtTypes';
-import { getCRTTopicsByYear, getAllCRTTopics } from '../data/crtCourseData';
+import { CRT_TOPIC_IDS } from '../data/crtTopicIds';
 
 const CRT_STORAGE_KEY = 'riet_lms_crt_progress_v1';
 
@@ -98,7 +98,7 @@ class CRTProgressService {
   }
 
   public getYearProgress(yearId: CRTYearId): CRTYearProgress {
-    const yearTopics = getCRTTopicsByYear(yearId);
+    const yearTopics = CRT_TOPIC_IDS[yearId].map(id => ({ id }));
     const totalTopics = yearTopics.length;
     let completedTopics = 0;
     let inProgressTopics = 0;
@@ -137,7 +137,7 @@ class CRTProgressService {
     completedTopics: number;
     percentage: number;
   } {
-    const allTopics = getAllCRTTopics();
+    const allTopics = ([1, 2, 3, 4] as CRTYearId[]).flatMap(yearId => CRT_TOPIC_IDS[yearId].map(id => ({ id, yearId })));
     const totalTopics = allTopics.length;
     let completedTopics = 0;
 

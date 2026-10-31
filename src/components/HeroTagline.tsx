@@ -11,7 +11,7 @@ export const HeroTagline: React.FC = () => {
   const rise = reduce ? { opacity: 0 } : { opacity: 0, y: 14 };
 
   return (
-    <div className="space-y-3" aria-label="Learn, Practice, Apply, Verify, Use AI Responsibly">
+    <div className="space-y-3" role="group" aria-label="Learn, Practice, Apply, Verify, Use AI Responsibly">
       <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 font-display text-xl sm:text-2xl font-semibold text-slate-800" aria-hidden="true">
         {WORDS.map((w, i) => (
           <React.Fragment key={w}>
