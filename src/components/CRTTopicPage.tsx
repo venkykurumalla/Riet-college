@@ -95,7 +95,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
       const max = doc.scrollHeight - window.innerHeight;
       const p = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
       if (barRef.current) barRef.current.style.transform = `scaleX(${p})`;
-      doc.style.setProperty('--parallax', String(Math.min(window.scrollY, 700) * 0.12));
+      if (doc.dataset.perf !== 'lite') doc.style.setProperty('--parallax', String(Math.min(window.scrollY, 700) * 0.12));
       // Anything at or above the fold is revealed, even if a fast scroll or anchor jump skipped it.
       document.querySelectorAll('.reveal-ready:not(.is-in)').forEach(el => {
         if (el.getBoundingClientRect().top < window.innerHeight * 0.92) el.classList.add('is-in');
@@ -241,8 +241,8 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
       <div className="relative overflow-hidden rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm space-y-5">
         <div
           aria-hidden="true"
-          className="absolute -top-24 -right-16 w-72 h-72 rounded-full blur-3xl opacity-40 pointer-events-none"
-          style={{ background: 'linear-gradient(135deg, var(--year-a), var(--year-b))', transform: 'translate3d(0, calc(var(--parallax, 0) * 1px), 0)' }}
+          className="glow-year absolute -top-28 -right-24 w-96 h-96 opacity-60 pointer-events-none"
+          style={{ transform: 'translate3d(0, calc(var(--parallax, 0) * 1px), 0)' }}
         />
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-5">
           <div className="space-y-1.5 min-w-0">

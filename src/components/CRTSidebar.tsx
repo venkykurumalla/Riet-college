@@ -318,7 +318,7 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
       {isMobileOpen && (
         <div className="fixed inset-0 z-50 lg:hidden flex">
           <div
-            className="fixed inset-0 bg-slate-900/50 backdrop-blur-xs"
+            className="fixed inset-0 bg-slate-900/50"
             onClick={onCloseMobile}
           />
           <motion.div

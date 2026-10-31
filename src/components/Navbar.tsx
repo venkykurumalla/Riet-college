@@ -46,7 +46,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         <button
           onClick={onNavigateHome}
           title={COLLEGE}
-          className={`float-header glass pointer-events-auto flex items-center gap-3 rounded-full cursor-pointer ${
+          className={`float-header glass glass-live pointer-events-auto flex items-center gap-3 rounded-full cursor-pointer ${
             scrolled ? 'py-1.5 pl-2 pr-5 scale-[0.96] shadow-lg' : 'py-2.5 pl-3 pr-6'
           }`}
         >
@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   // SYLLABUS AREA: compact glass bar with a clear way back.
   return (
-    <header style={{ viewTransitionName: 'site-header' }} className="sticky top-0 z-40 w-full glass border-x-0 border-t-0 rounded-none">
+    <header style={{ viewTransitionName: 'site-header' }} className="sticky top-0 z-40 w-full glass glass-live border-x-0 border-t-0 rounded-none">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20 gap-2">
           <div className="flex items-center gap-2 sm:gap-3 min-w-0">

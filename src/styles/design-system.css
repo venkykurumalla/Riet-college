@@ -1,9 +1,6 @@
 /* RIET LMS design system: tokens, glass surfaces, motion.
    Everything visual should read from these variables. */
 
-/* Registered so the year tint can blend smoothly when the year changes. */
-@property --year-a { syntax: '<color>'; inherits: true; initial-value: #22d3ee; }
-@property --year-b { syntax: '<color>'; inherits: true; initial-value: #3b82f6; }
 
 :root {
   /* ink + surfaces */
@@ -70,10 +67,6 @@
 [data-year='3'] { --year-a: #a78bfa; --year-b: #d946ef; }
 [data-year='4'] { --year-a: #fbbf24; --year-b: #f43f5e; }
 
-.year-tint {
-  transition: --year-a var(--dur-slow) var(--ease-out), --year-b var(--dur-slow) var(--ease-out);
-}
-
 /* ---------- base ---------- */
 html { scroll-behavior: smooth; }
 
@@ -93,20 +86,32 @@ h1, h2, h3, h4, .font-display {
 
 code, pre, .font-mono { font-family: 'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, monospace; }
 
-/* gradient mesh + faint noise behind every screen (fixed layer: no repaint on scroll) */
-body::before {
-  content: '';
-  position: fixed;
+/* Gradient mesh behind every screen: one fixed layer per tint. A year change cross-fades the
+   layers with opacity (compositor only). Tinting through animated custom properties on <html>
+   forced a whole-document style recalculation on every frame, so it is not used. */
+.mesh { position: fixed; inset: 0; z-index: -1; pointer-events: none; background: var(--surface); }
+
+.mesh-layer {
+  position: absolute;
   inset: 0;
-  z-index: -1;
-  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--dur-slow) var(--ease-out);
   background:
-    radial-gradient(60rem 36rem at 12% -8%, color-mix(in srgb, var(--year-a) 22%, transparent), transparent 60%),
-    radial-gradient(52rem 34rem at 92% 4%, color-mix(in srgb, var(--year-b) 18%, transparent), transparent 62%),
-    radial-gradient(48rem 30rem at 50% 108%, color-mix(in srgb, var(--accent-b) 10%, transparent), transparent 60%),
-    var(--surface);
-  transform: translateZ(0);
+    radial-gradient(60rem 36rem at 12% -8%, color-mix(in srgb, var(--m-a) 22%, transparent), transparent 60%),
+    radial-gradient(52rem 34rem at 92% 4%, color-mix(in srgb, var(--m-b) 18%, transparent), transparent 62%),
+    radial-gradient(48rem 30rem at 50% 108%, color-mix(in srgb, var(--accent-b) 10%, transparent), transparent 60%);
 }
+
+.mesh-layer[data-y='0'] { --m-a: #22d3ee; --m-b: #3b82f6; opacity: 1; }
+.mesh-layer[data-y='1'] { --m-a: #22d3ee; --m-b: #3b82f6; }
+.mesh-layer[data-y='2'] { --m-a: #2dd4bf; --m-b: #6366f1; }
+.mesh-layer[data-y='3'] { --m-a: #a78bfa; --m-b: #d946ef; }
+.mesh-layer[data-y='4'] { --m-a: #fbbf24; --m-b: #f43f5e; }
+html[data-year] .mesh-layer[data-y='0'] { opacity: 0; }
+html[data-year='1'] .mesh-layer[data-y='1'],
+html[data-year='2'] .mesh-layer[data-y='2'],
+html[data-year='3'] .mesh-layer[data-y='3'],
+html[data-year='4'] .mesh-layer[data-y='4'] { opacity: 1; }
 
 body::after {
   content: '';
@@ -268,10 +273,6 @@ body::after {
 /* ---------- year change choreography ----------
    html[data-year-phase="out"] -> outgoing content fades/slides slightly (150 ms);
    the new year mounts and its blocks rise in with a small stagger. */
-html {
-  transition: --year-a var(--dur-slow) var(--ease-out), --year-b var(--dur-slow) var(--ease-out);
-}
-
 .yr-swap { transition: opacity 150ms var(--ease-in-out), transform 150ms var(--ease-in-out); }
 
 html[data-year-phase='out'] .yr-swap { opacity: 0; transform: translate3d(0, 6px, 0); }
@@ -377,3 +378,77 @@ html[data-year-phase='out'] .yr-swap { opacity: 0; transform: translate3d(0, 6px
 }
 
 .hl { background: none; color: #4338ca; font-weight: 800; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, var(--accent-b) 45%, transparent); }
+
+
+/* ---------- soft glows (radial gradients instead of blurred divs) ---------- */
+.glow-cyan { background: radial-gradient(closest-side, rgba(103, 232, 249, 0.5), transparent 72%); }
+.glow-violet { background: radial-gradient(closest-side, rgba(167, 139, 250, 0.45), transparent 72%); }
+.glow-blue { background: radial-gradient(closest-side, rgba(59, 130, 246, 0.28), transparent 72%); }
+.glow-indigo { background: radial-gradient(closest-side, rgba(99, 102, 241, 0.28), transparent 72%); }
+.glow-year { background: radial-gradient(closest-side, color-mix(in srgb, var(--year-a) 55%, transparent), color-mix(in srgb, var(--year-b) 25%, transparent) 55%, transparent 75%); }
+
+/* ---------- lite mode: phones and slow devices ----------
+   Same look, cheaper to paint: only a few small bars keep real backdrop blur (.glass-live);
+   every other glass surface becomes a semi-opaque gradient fill with the same inner highlight.
+   Set on <html> by the inline script in index.html (coarse pointer or low CPU/memory) and by the
+   frame-rate probe in src/lib/perfMode.ts. */
+html[data-perf='lite'] {
+  --glass-blur: 12px;
+  --glass-saturate: 140%;
+  --shadow-glass: 0 1px 1px rgba(15, 23, 60, 0.05), 0 10px 22px -10px rgba(40, 50, 120, 0.22);
+}
+
+html[data-perf='lite'] .glass:not(.glass-live) {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.8));
+}
+
+html[data-perf='lite'] .glass.glass-strong:not(.glass-live) { background: rgba(255, 255, 255, 0.94); }
+
+html[data-perf='lite'] .glass-live {
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  backdrop-filter: blur(12px) saturate(140%);
+}
+
+html[data-perf='lite'] .search-scrim {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  background: rgba(18, 24, 56, 0.42);
+}
+
+html[data-perf='lite'] .search-panel {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.97), rgba(246, 247, 255, 0.94));
+  box-shadow: inset 0 1px 0 #fff, 0 22px 44px -18px rgba(40, 40, 140, 0.4);
+}
+
+/* liquid button: static sheen, no pointer tracking, no live blur */
+html[data-perf='lite'] .liquid-btn {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.95), inset 0 0 18px rgba(255, 255, 255, 0.3), 0 12px 26px -12px rgba(95, 80, 230, 0.5);
+}
+
+html[data-perf='lite'] .liquid-btn::before { opacity: 0.8; background: radial-gradient(180px circle at 50% 0%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0) 70%); }
+
+html[data-perf='lite'] .search-input-wrap:focus-within { box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-b) 20%, transparent); }
+
+/* slow devices (low CPU/memory or a failed frame-rate probe) also get shorter transitions */
+html[data-slow] {
+  --dur-fast: 120ms;
+  --dur-med: 190ms;
+  --dur-slow: 280ms;
+}
+
+/* ---------- touch ---------- */
+button, [role='tab'], [role='option'], a, summary { touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+
+@media (hover: none) and (pointer: coarse) {
+  button:active, [role='tab']:active { transition-duration: 80ms; }
+  .depth-card:active { transform: scale(0.985); }
+}
+
+.contain-card { content-visibility: auto; contain-intrinsic-size: auto 230px; }
+.crt-reading > * { content-visibility: auto; contain-intrinsic-size: auto 560px; }

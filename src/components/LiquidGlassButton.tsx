@@ -15,7 +15,7 @@ export const LiquidGlassButton: React.FC<LiquidGlassButtonProps> = ({ onClick, c
 
   const track = (e: React.PointerEvent<HTMLButtonElement>) => {
     const el = ref.current;
-    if (!el) return;
+    if (!el || document.documentElement.dataset.perf === 'lite') return; // static sheen on phones / slow devices
     const { clientX, clientY } = e;
     cancelAnimationFrame(raf.current);
     raf.current = requestAnimationFrame(() => {

@@ -233,7 +233,10 @@ export const App: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen flex flex-col text-slate-900 font-sans">
+    <div className="min-h-dvh flex flex-col text-slate-900 font-sans">
+      <div className="mesh" aria-hidden="true">
+        {[0, 1, 2, 3, 4].map(y => <div key={y} className="mesh-layer" data-y={y} />)}
+      </div>
       
       {/* Header Navigation */}
       <Navbar

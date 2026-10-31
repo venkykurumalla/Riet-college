@@ -14,11 +14,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenSyllabus }) => {
   const progress = progressService.getOverallProgress();
 
   return (
-    <div className="relative min-h-screen flex flex-col justify-center items-center pt-28 pb-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div className="relative min-h-dvh flex flex-col justify-center items-center pt-28 pb-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
       
       <div aria-hidden="true" className="absolute inset-x-0 bottom-10 h-72 pointer-events-none">
-        <div className="absolute left-[18%] bottom-0 w-72 h-72 rounded-full bg-cyan-300/40 blur-3xl" />
-        <div className="absolute right-[18%] bottom-8 w-72 h-72 rounded-full bg-violet-400/35 blur-3xl" />
+        <div className="glow-cyan absolute left-[12%] bottom-0 w-96 h-96" />
+        <div className="glow-violet absolute right-[12%] bottom-8 w-96 h-96" />
       </div>
 
       <div className="relative w-full max-w-3xl mx-auto text-center space-y-8">

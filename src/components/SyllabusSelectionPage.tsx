@@ -24,8 +24,8 @@ export const SyllabusSelectionPage: React.FC<SyllabusSelectionPageProps> = ({
       
       {/* Background ambient lighting */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-full max-w-5xl h-96 pointer-events-none opacity-30">
-        <div className="absolute top-0 left-1/4 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl" />
-        <div className="absolute top-10 right-1/4 w-80 h-80 bg-indigo-500/20 rounded-full blur-3xl" />
+        <div className="glow-blue absolute top-0 left-[15%] w-[28rem] h-[28rem]" />
+        <div className="glow-indigo absolute top-10 right-[15%] w-[28rem] h-[28rem]" />
       </div>
 
       <div className="relative w-full max-w-4xl mx-auto space-y-10">

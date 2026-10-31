@@ -231,7 +231,7 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
                           whileHover={{ y: -2 }}
                           whileTap={{ scale: 0.99 }}
                           onClick={() => onSelectTopic(topic.id)}
-                          className="p-5 sm:p-6 rounded-2xl bg-slate-50/80 hover:bg-white border border-slate-200/90 hover:border-blue-400 transition-all cursor-pointer flex flex-col justify-between space-y-3.5 group shadow-2xs hover:shadow-md"
+                          className="contain-card p-5 sm:p-6 rounded-2xl bg-slate-50/80 hover:bg-white border border-slate-200/90 hover:border-blue-400 transition-colors duration-150 cursor-pointer flex flex-col justify-between space-y-3.5 group shadow-2xs hover:shadow-md"
                         >
                           <div className="space-y-2">
                             {/* Topic Header metadata */}

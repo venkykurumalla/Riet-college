@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/riet-logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <script>
+      // Pick the cheap glass surfaces before first paint on phones and slow devices (see design-system.css).
+      (function () {
+        var d = document.documentElement, n = navigator;
+        var touch = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+        var weak = (n.hardwareConcurrency && n.hardwareConcurrency <= 4) || (n.deviceMemory && n.deviceMemory <= 4);
+        if (touch || weak) d.setAttribute('data-perf', 'lite');
+        if (weak) d.setAttribute('data-slow', '');
+      })();
+    </script>
     <title>RIET CRT LMS SYSTEM | Campus Recruitment Training</title>
     <meta name="description" content="Campus Recruitment Training platform for RIET College — Study Materials, Topic Quizzes, Student Progress Tracking." />
   </head>
