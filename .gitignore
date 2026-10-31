@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment and local runtime files
+.env
+.env.*
+!.env.example
+dev.pid
