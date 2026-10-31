@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import {
   CheckCircle2,
   Circle,
@@ -14,6 +14,9 @@ import {
   Star
 } from 'lucide-react';
 import { motion, AnimatePresence, LayoutGroup } from 'framer-motion';
+import { Collapsible } from './Collapsible';
+import { useMediaQuery } from '../hooks/useMediaQuery';
+import { useCRTProgressVersion } from '../hooks/useCRTProgressVersion';
 import { CRTYearId } from '../types/crtTypes';
 import { getCRTYearCurriculum } from '../data/crtCourseData';
 import { crtProgressService } from '../services/crtProgressService';
@@ -44,24 +47,21 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
   isMobileOpen = false,
   onCloseMobile
 }) => {
-  const [expandedCategories, setExpandedCategories] = useState<Record<string, boolean>>({
-    'Quantitative Aptitude': true,
-    'Logical Reasoning': true,
-    'Verbal Ability': true,
-    'Data Interpretation': true,
-    'Placement Strategy & Shortcuts': true
-  });
+  // Only one copy of the sidebar is ever mounted: the fixed column on desktop, the drawer on phones.
+  const isDesktop = useMediaQuery('(min-width: 1024px)');
+  const [expandedCategories, setExpandedCategories] = useState<Record<string, boolean>>({});
+  const progressVersion = useCRTProgressVersion();
 
   const yearData = getCRTYearCurriculum(selectedYear);
-  const yearProgress = crtProgressService.getYearProgress(selectedYear);
-  const allProgress = crtProgressService.getAllProgress();
+  const yearProgress = useMemo(() => crtProgressService.getYearProgress(selectedYear), [selectedYear, progressVersion]);
+  const allProgress = useMemo(() => crtProgressService.getAllProgress(), [progressVersion]);
 
   const toggleCategory = (catName: string, e: React.MouseEvent) => {
     e.stopPropagation();
     setExpandedCategories(prev => ({ ...prev, [catName]: !prev[catName] }));
   };
 
-  const content = (
+  const renderContent = () => (
     <div className="flex flex-col h-full glass rounded-none border-y-0 border-l-0 w-72 shrink-0 select-none overflow-hidden">
       
       {/* Header */}
@@ -154,8 +154,10 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
         {/* Categories & Topics Accordion */}
         <div key={`cats-${selectedYear}`} className="yr-swap yr-rise space-y-3">
           <LayoutGroup id={`sb-${selectedYear}`}>
-          {yearData.categories.map(cat => {
-            const isExpanded = expandedCategories[cat.category] !== false;
+          {yearData.categories.map((cat, catIndex) => {
+            // desktop: everything open; phones: modules start collapsed except the one being read
+            const holdsActive = !!activeTopicId && cat.topics.some(tp => tp.id === activeTopicId);
+            const isExpanded = expandedCategories[cat.category] ?? (isDesktop || holdsActive || (!activeTopicId && catIndex === 0));
 
             return (
               <div key={cat.category} className="space-y-1">
@@ -178,16 +180,7 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
                 </div>
 
                 {/* Sub Topics List */}
-                <AnimatePresence initial={false}>
-                {isExpanded && (
-                  <motion.div
-                    key="list"
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: 'auto', opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.18, ease: 'easeOut' }}
-                    className="overflow-hidden"
-                  >
+                <Collapsible open={isExpanded}>
                   <div className="pl-3 space-y-0.5 border-l-2 border-slate-100 ml-2 py-0.5">
                     {cat.topics.map(topic => {
                       const prog = allProgress[topic.id];
@@ -279,9 +272,7 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
                       );
                     })()}
                   </div>
-                  </motion.div>
-                )}
-                </AnimatePresence>
+                </Collapsible>
               </div>
             );
           })}
@@ -310,28 +301,37 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
   return (
     <>
       {/* Desktop Sidebar */}
-      <aside className="hidden lg:block h-[calc(100vh-64px)] sm:h-[calc(100vh-80px)] sticky top-16 sm:top-20 shadow-xs shrink-0">
-        {content}
-      </aside>
-
-      {/* Mobile Drawer */}
-      {isMobileOpen && (
-        <div className="fixed inset-0 z-50 lg:hidden flex">
-          <div
-            className="fixed inset-0 bg-slate-900/50"
-            onClick={onCloseMobile}
-          />
-          <motion.div
-            initial={{ x: -280 }}
-            animate={{ x: 0 }}
-            exit={{ x: -280 }}
-            transition={{ duration: 0.25, ease: 'easeOut' }}
-            className="relative z-10 w-72 max-w-[80vw] h-full shadow-2xl"
-          >
-            {content}
-          </motion.div>
-        </div>
+      {isDesktop && (
+        <aside className="h-[calc(100dvh-var(--header-h))] sticky top-[var(--header-h)] shadow-xs shrink-0">
+          {renderContent()}
+        </aside>
       )}
+
+      {/* Mobile Drawer: nothing is rendered or measured while it is closed */}
+      <AnimatePresence>
+        {!isDesktop && isMobileOpen && (
+          <div key="drawer" className="fixed inset-0 z-50 flex">
+            <motion.div
+              className="fixed inset-0 bg-slate-900/50"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              onClick={onCloseMobile}
+            />
+            <motion.div
+              initial={{ x: '-100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '-100%' }}
+              transition={{ type: 'spring', stiffness: 420, damping: 38, mass: 0.9 }}
+              className="relative z-10 w-72 max-w-[85vw] h-dvh shadow-2xl overscroll-contain"
+              style={{ paddingBottom: 'env(safe-area-inset-bottom)', paddingLeft: 'env(safe-area-inset-left)' }}
+            >
+              {renderContent()}
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
     </>
   );
 };

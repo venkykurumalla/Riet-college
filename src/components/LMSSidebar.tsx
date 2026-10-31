@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { useMediaQuery } from '../hooks/useMediaQuery';
 import {
   BookOpen,
   CheckCircle2,
@@ -42,6 +44,7 @@ export const LMSSidebar: React.FC<LMSSidebarProps> = ({
   isMobileOpen = false,
   onCloseMobile
 }) => {
+  const isDesktop = useMediaQuery('(min-width: 1024px)');
   const [expandedUnits, setExpandedUnits] = useState<Record<number, boolean>>({
     1: true,
     2: true,
@@ -58,7 +61,7 @@ export const LMSSidebar: React.FC<LMSSidebarProps> = ({
     setExpandedUnits(prev => ({ ...prev, [unitId]: !prev[unitId] }));
   };
 
-  const content = (
+  const renderContent = () => (
     <div className="flex flex-col h-full bg-white border-r border-slate-200 w-72 shrink-0 select-none">
       
       {/* Sidebar Header */}
@@ -279,23 +282,38 @@ export const LMSSidebar: React.FC<LMSSidebarProps> = ({
 
   return (
     <>
-      {/* Desktop Sidebar */}
-      <aside className="hidden lg:block h-[calc(100vh-64px)] sticky top-16 shadow-xs">
-        {content}
-      </aside>
-
-      {/* Mobile Drawer */}
-      {isMobileOpen && (
-        <div className="fixed inset-0 z-50 lg:hidden flex">
-          <div
-            className="fixed inset-0 bg-slate-900/50"
-            onClick={onCloseMobile}
-          />
-          <div className="relative z-10 w-72 max-w-[80vw] h-full shadow-2xl animate-in slide-in-from-left duration-200">
-            {content}
-          </div>
-        </div>
+      {/* Desktop Sidebar (only one copy is mounted: column on desktop, drawer on phones) */}
+      {isDesktop && (
+        <aside className="h-[calc(100dvh-var(--header-h))] sticky top-[var(--header-h)] shadow-xs">
+          {renderContent()}
+        </aside>
       )}
+
+      {/* Mobile Drawer: nothing is rendered while closed */}
+      <AnimatePresence>
+        {!isDesktop && isMobileOpen && (
+          <div key="drawer" className="fixed inset-0 z-50 flex">
+            <motion.div
+              className="fixed inset-0 bg-slate-900/50"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              onClick={onCloseMobile}
+            />
+            <motion.div
+              initial={{ x: '-100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '-100%' }}
+              transition={{ type: 'spring', stiffness: 420, damping: 38, mass: 0.9 }}
+              className="relative z-10 w-72 max-w-[85vw] h-dvh shadow-2xl overscroll-contain"
+              style={{ paddingBottom: 'env(safe-area-inset-bottom)', paddingLeft: 'env(safe-area-inset-left)' }}
+            >
+              {renderContent()}
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
     </>
   );
 };
