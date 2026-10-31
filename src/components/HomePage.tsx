@@ -12,7 +12,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenSyllabus }) => {
   const progress = progressService.getOverallProgress();
 
   return (
-    <div className="relative min-h-[calc(100vh-80px)] flex flex-col justify-center items-center py-12 px-4 sm:px-6 lg:px-8 overflow-hidden bg-slate-50">
+    <div className="relative min-h-[calc(100vh-80px)] flex flex-col justify-center items-center py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
       
       {/* Background Ambient Glows */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-full max-w-5xl h-96 pointer-events-none opacity-40">

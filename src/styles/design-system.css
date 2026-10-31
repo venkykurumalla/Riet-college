@@ -1,0 +1,187 @@
+/* RIET LMS design system: tokens, glass surfaces, motion.
+   Everything visual should read from these variables. */
+
+/* Registered so the year tint can blend smoothly when the year changes. */
+@property --year-a { syntax: '<color>'; inherits: true; initial-value: #22d3ee; }
+@property --year-b { syntax: '<color>'; inherits: true; initial-value: #3b82f6; }
+
+:root {
+  /* ink + surfaces */
+  --ink-950: #0b1020;
+  --ink-800: #1b2340;
+  --ink-600: #475069;
+  --ink-400: #8b93a7;
+  --surface: #f4f6fb;
+  --surface-raised: rgba(255, 255, 255, 0.82);
+  --line: rgba(20, 30, 70, 0.09);
+
+  /* brand accent: aqua -> violet, plus one warm highlight */
+  --accent-a: #22d3ee;
+  --accent-b: #7c5cff;
+  --accent-gradient: linear-gradient(120deg, var(--accent-a), var(--accent-b));
+  --warm: #f5a524;
+
+  /* per-year tint (overridden by [data-year]) */
+  --year-a: #22d3ee;
+  --year-b: #3b82f6;
+
+  /* glass */
+  --glass-bg: rgba(255, 255, 255, 0.55);
+  --glass-bg-solid: rgba(255, 255, 255, 0.94);
+  --glass-border: rgba(255, 255, 255, 0.75);
+  --glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --glass-blur: 18px;
+  --glass-saturate: 170%;
+
+  /* radii */
+  --r-sm: 12px;
+  --r-md: 18px;
+  --r-lg: 24px;
+  --r-xl: 32px;
+
+  /* shadows (layered) */
+  --shadow-1: 0 1px 2px rgba(15, 23, 60, 0.06), 0 2px 6px rgba(15, 23, 60, 0.04);
+  --shadow-2: 0 2px 4px rgba(15, 23, 60, 0.05), 0 12px 28px -8px rgba(15, 23, 60, 0.14);
+  --shadow-glass: 0 1px 1px rgba(15, 23, 60, 0.04), 0 8px 24px -6px rgba(40, 50, 120, 0.18), 0 24px 48px -24px rgba(40, 50, 120, 0.16);
+
+  /* motion */
+  --dur-fast: 160ms;
+  --dur-med: 260ms;
+  --dur-slow: 420ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* layout */
+  --header-h: 64px;
+  --year-bar-h: 54px;
+}
+
+@media (min-width: 640px) {
+  :root { --header-h: 72px; --year-bar-h: 60px; }
+}
+
+/* lighter blur on small / low-power screens keeps scrolling smooth */
+@media (max-width: 640px) {
+  :root { --glass-blur: 10px; --glass-saturate: 140%; }
+}
+
+[data-year='1'] { --year-a: #22d3ee; --year-b: #3b82f6; }
+[data-year='2'] { --year-a: #2dd4bf; --year-b: #6366f1; }
+[data-year='3'] { --year-a: #a78bfa; --year-b: #d946ef; }
+[data-year='4'] { --year-a: #fbbf24; --year-b: #f43f5e; }
+
+.year-tint {
+  transition: --year-a var(--dur-slow) var(--ease-out), --year-b var(--dur-slow) var(--ease-out);
+}
+
+/* ---------- base ---------- */
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background: var(--surface);
+  color: var(--ink-950);
+  font-feature-settings: 'cv11', 'ss01';
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Outfit Variable', 'Outfit', system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+code, pre, .font-mono { font-family: 'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, monospace; }
+
+/* gradient mesh + faint noise behind every screen (fixed layer: no repaint on scroll) */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(60rem 36rem at 12% -8%, color-mix(in srgb, var(--year-a) 22%, transparent), transparent 60%),
+    radial-gradient(52rem 34rem at 92% 4%, color-mix(in srgb, var(--year-b) 18%, transparent), transparent 62%),
+    radial-gradient(48rem 30rem at 50% 108%, color-mix(in srgb, var(--accent-b) 10%, transparent), transparent 60%),
+    var(--surface);
+  transform: translateZ(0);
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+:focus-visible {
+  outline: 2px solid var(--year-b);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+/* ---------- glass surfaces ---------- */
+.glass {
+  background: var(--glass-bg-solid); /* fallback: no backdrop-filter */
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-highlight), var(--shadow-glass);
+}
+
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass {
+    background: var(--glass-bg);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+  }
+}
+
+/* Reading cards: translucent white with the glass edge, but no blur (long pages stay smooth). */
+.rounded-3xl.bg-white,
+.rounded-2xl.bg-white {
+  background: var(--surface-raised);
+  border-color: var(--line);
+  box-shadow: var(--glass-highlight), var(--shadow-1);
+}
+
+.rounded-3xl.bg-white { border-radius: var(--r-lg); }
+
+/* ---------- loading skeleton (glass shimmer) ---------- */
+@keyframes shimmer { to { transform: translateX(100%); } }
+
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: rgba(120, 130, 170, 0.12);
+  border-radius: var(--r-md);
+}
+
+.skeleton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.65), transparent);
+  animation: shimmer 1.4s var(--ease-in-out) infinite;
+}
+
+/* ---------- scroll reveal (played once; content stays visible without JS) ---------- */
+.reveal-ready {
+  opacity: 0;
+  transform: translate3d(0, 14px, 0);
+  transition: opacity var(--dur-slow) var(--ease-out), transform var(--dur-slow) var(--ease-out);
+  transition-delay: calc(var(--reveal-i, 0) * 45ms);
+}
+
+.reveal-ready.is-in { opacity: 1; transform: none; }
+
+@media print {
+  .reveal-ready { opacity: 1 !important; transform: none !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-ready { transform: none; transition-duration: 1ms; }
+}
