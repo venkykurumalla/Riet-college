@@ -30,7 +30,9 @@ import { crtProgressService } from '../services/crtProgressService';
 import { getCRTTopicsByYear } from '../data/crtCourseData';
 import { loadTopicQuiz } from '../data/topicQuizzes';
 import { TopicQuiz } from './TopicQuiz';
-import { TopicQuizData } from '../types/crtTypes';
+import { TopicQuizData, CRTReadingGuide } from '../types/crtTypes';
+import { loadReadingGuide, hasReadingGuide } from '../data/reading';
+import { renderReadingGuide } from './CRTReadingGuide';
 
 interface CRTTopicPageProps {
   topic: CRTTopic;
@@ -52,6 +54,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
   const [revealedSolutions, setRevealedSolutions] = useState<Record<string, boolean>>({});
 
   const [quizNumber, setQuizNumber] = useState(18);
+  const [guide, setGuide] = useState<CRTReadingGuide | undefined>(undefined);
   const sectionsRef = useRef<HTMLDivElement>(null);
   const [tocItems, setTocItems] = useState<{ id: string; label: string }[]>([]);
 
@@ -71,7 +74,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
     setQuizNumber(lastNum + 1);
     if (topicQuiz && topicQuiz.topicId === topic.id) items.push({ id: 'topic-quiz', label: `${lastNum + 1}. Practice Quiz` });
     setTocItems(items);
-  }, [topic.id, topicQuiz]);
+  }, [topic.id, topicQuiz, guide]);
 
   const jumpTo = (id: string) => {
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -85,7 +88,9 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
     window.scrollTo({ top: 0, behavior: 'auto' });
     setRevealedSolutions({});
     setTopicQuiz(undefined);
+    setGuide(undefined);
     let cancelled = false;
+    loadReadingGuide(topic.id).then(g => { if (!cancelled) setGuide(g); });
     loadTopicQuiz(topic.id).then(q => { if (!cancelled) setTopicQuiz(q); });
     return () => { cancelled = true; };
   }, [topic.id, topic.yearId]);
@@ -116,6 +121,9 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
   const currentIndex = yearTopics.findIndex(t => t.id === topic.id);
   const prevTopic = currentIndex > 0 ? yearTopics[currentIndex - 1] : null;
   const nextTopic = currentIndex < yearTopics.length - 1 ? yearTopics[currentIndex + 1] : null;
+
+  let sectionNo = 0;
+  const num = () => ++sectionNo;
 
   return (
     <motion.div
@@ -234,7 +242,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <BookOpen className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>1. Introduction & Placement Significance</span>
+            <span>{num()}. Introduction & Placement Significance</span>
           </div>
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
             Why This Topic is Essential for Engineering Placement
@@ -254,7 +262,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
             <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
               <Target className="w-4 h-4 text-blue-600 shrink-0" />
-              <span>2. Learning Objectives</span>
+              <span>{num()}. Learning Objectives</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
               What You Will Master in This Chapter
@@ -278,7 +286,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-3">
             <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
               <Compass className="w-4 h-4 text-blue-600 shrink-0" />
-              <span>3. Prerequisite Knowledge & Refresher</span>
+              <span>{num()}. Prerequisite Knowledge & Refresher</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
               Baseline Mathematical & Logical Foundations
@@ -296,11 +304,16 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           </div>
         )}
 
+        {/* READING GUIDE (lazy-loaded per chapter) */}
+        {guide ? renderReadingGuide(guide, num) : hasReadingGuide(topic.id) && (
+          <div className="rounded-3xl bg-white border border-slate-200 min-h-[480px] animate-pulse" aria-hidden="true" />
+        )}
+
         {/* 4 & 5. CORE CONCEPTS & DEFINITIONS */}
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-5">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <Layers className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>4. Core Concepts, Models & Definitions</span>
+            <span>{num()}. Core Concepts, Models & Definitions</span>
           </div>
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
             Theoretical Principles & Intuitive Models
@@ -339,7 +352,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <Target className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>5. Important Rules, Properties & Formula Sheet</span>
+            <span>{num()}. Important Rules, Properties & Formula Sheet</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -385,7 +398,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <BookOpen className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>6. Comprehensive Chapter Narrative</span>
+            <span>{num()}. Comprehensive Chapter Narrative</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -423,7 +436,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <Compass className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>7. Problem Types & Variations</span>
+            <span>{num()}. Problem Types & Variations</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -458,7 +471,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
             <div>
               <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
                 <Lightbulb className="w-4 h-4 text-blue-600 shrink-0" />
-                <span>8. Comprehensive Solved Examples ({topic.solvedExamples.length} Fully Solved)</span>
+                <span>{num()}. Comprehensive Solved Examples ({topic.solvedExamples.length} Fully Solved)</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
                 Detailed Step-by-Step Problem Demonstrations
@@ -569,7 +582,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
             <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
               <GitCompare className="w-4 h-4 text-blue-600 shrink-0" />
-              <span>9. Alternative Solving Approaches & Comparative Trade-Offs</span>
+              <span>{num()}. Alternative Solving Approaches & Comparative Trade-Offs</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
               {topic.alternativeMethods.title}
@@ -604,7 +617,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <Zap className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>10. Faster / Shortcut Methods</span>
+            <span>{num()}. Faster / Shortcut Methods</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -648,7 +661,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-amber-600 font-bold uppercase tracking-wider text-xs">
             <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0" />
-            <span>11. Common Mistakes & Recruiter Traps</span>
+            <span>{num()}. Common Mistakes & Recruiter Traps</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -676,7 +689,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <Target className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>12. Placement Strategy & Question Triage</span>
+            <span>{num()}. Placement Strategy & Question Triage</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -715,7 +728,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           <div className="rounded-3xl bg-slate-900 text-white p-6 sm:p-8 shadow-md space-y-5">
             <div className="flex items-center space-x-2 text-amber-400 font-bold uppercase tracking-wider text-xs">
               <Flame className="w-4 h-4 text-amber-400 shrink-0" />
-              <span>13. Mixed Challenge Problem Set</span>
+              <span>{num()}. Mixed Challenge Problem Set</span>
             </div>
             <div>
               <h2 className="text-xl sm:text-2xl font-extrabold font-display">
@@ -786,7 +799,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <BookmarkCheck className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>14. Quick Revision Cheat-Sheet</span>
+            <span>{num()}. Quick Revision Cheat-Sheet</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
@@ -827,7 +840,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-gradient-to-br from-blue-900 to-indigo-950 text-white p-6 sm:p-8 shadow-md space-y-4">
           <div className="flex items-center space-x-2 text-cyan-300 font-bold uppercase tracking-wider text-xs">
             <CheckSquare className="w-4 h-4 text-cyan-400 shrink-0" />
-            <span>15. Key Takeaways</span>
+            <span>{num()}. Key Takeaways</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold font-display">
@@ -852,7 +865,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
           <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
             <div className="flex items-center space-x-2 text-emerald-700 font-bold uppercase tracking-wider text-xs">
               <Award className="w-4 h-4 text-emerald-600 shrink-0" />
-              <span>16. Self-Check Diagnostic Checklist</span>
+              <span>{num()}. Self-Check Diagnostic Checklist</span>
             </div>
             <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
               Can You Confidently Solve These?
@@ -875,7 +888,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
           <div className="flex items-center space-x-2 text-blue-700 font-bold uppercase tracking-wider text-xs">
             <FileText className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>17. Sources & Verified References</span>
+            <span>{num()}. Sources & Verified References</span>
           </div>
 
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
