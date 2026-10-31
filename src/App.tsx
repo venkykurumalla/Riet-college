@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { flushSync } from 'react-dom';
 import { Navbar } from './components/Navbar';
 import { HomePage } from './components/HomePage';
 import { SyllabusSelectionPage } from './components/SyllabusSelectionPage';
@@ -233,7 +234,7 @@ export const App: React.FC = () => {
 
             {/* Single year selector: sticky and visible on overview, chapter and quiz pages */}
             <div className="sticky top-16 sm:top-20 z-30 flex justify-center sm:justify-end px-3 sm:px-6 lg:px-8 py-2 pointer-events-none">
-              <div className="pointer-events-auto max-w-full">
+              <div className="pointer-events-auto max-w-full" style={{ viewTransitionName: 'year-bar' }}>
               <CRTYearSelector
                 selectedYear={tintYear}
                 onSelectYear={handleCRTYearTab}

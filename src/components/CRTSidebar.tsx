@@ -310,7 +310,7 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
   return (
     <>
       {/* Desktop Sidebar */}
-      <aside className="hidden lg:block h-[calc(100vh-64px)] sm:h-[calc(100vh-80px)] sticky top-16 sm:top-20 shadow-xs shrink-0">
+      <aside style={{ viewTransitionName: 'crt-sidebar' }} className="hidden lg:block h-[calc(100vh-64px)] sm:h-[calc(100vh-80px)] sticky top-16 sm:top-20 shadow-xs shrink-0">
         {content}
       </aside>
 

@@ -67,7 +67,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
       const m = el.querySelector('div.uppercase > span')?.textContent?.match(/^(\d+)\.\s*(.*)$/);
       if (!m) return;
       el.id = `sec-${m[1]}`;
-      el.classList.add('scroll-mt-36');
+      el.classList.add('scroll-mt-36', 'md:scroll-mt-48');
       items.push({ id: el.id, label: `${m[1]}. ${m[2].replace(/\s*\(.*$/, '')}` });
     });
     const lastNum = items.length ? Number(items[items.length - 1].id.replace('sec-', '')) : 0;
@@ -80,6 +80,71 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     document.getElementById(id)?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
   };
+
+  const barRef = useRef<HTMLDivElement>(null);
+  const jumpBarRef = useRef<HTMLElement>(null);
+  const [activeId, setActiveId] = useState<string>('');
+
+  // Reading progress, parallax offset and the section that is currently being read.
+  // One passive scroll listener, batched in rAF; only transforms/CSS variables are written.
+  useEffect(() => {
+    let raf = 0;
+    const tick = () => {
+      raf = 0;
+      const doc = document.documentElement;
+      const max = doc.scrollHeight - window.innerHeight;
+      const p = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+      if (barRef.current) barRef.current.style.transform = `scaleX(${p})`;
+      doc.style.setProperty('--parallax', String(Math.min(window.scrollY, 700) * 0.12));
+      // Anything at or above the fold is revealed, even if a fast scroll or anchor jump skipped it.
+      document.querySelectorAll('.reveal-ready:not(.is-in)').forEach(el => {
+        if (el.getBoundingClientRect().top < window.innerHeight * 0.92) el.classList.add('is-in');
+      });
+      let current = '';
+      for (const it of tocItems) {
+        const el = document.getElementById(it.id);
+        if (el && el.getBoundingClientRect().top <= 200) current = it.id;
+      }
+      setActiveId(prev => (prev === current ? prev : current));
+    };
+    const onScroll = () => { if (!raf) raf = requestAnimationFrame(tick); };
+    tick();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+      cancelAnimationFrame(raf);
+      document.documentElement.style.removeProperty('--parallax');
+    };
+  }, [tocItems]);
+
+  // Keep the active chip in view inside the jump bar (horizontal scroll only).
+  useEffect(() => {
+    const bar = jumpBarRef.current;
+    const chip = bar?.querySelector<HTMLElement>(`[data-chip="${activeId}"]`);
+    if (bar && chip) bar.scrollTo({ left: chip.offsetLeft - bar.clientWidth / 3, behavior: 'smooth' });
+  }, [activeId]);
+
+  // Reveal each section once as it scrolls into view. Anything already on screen is left alone,
+  // and print / reduced-motion CSS shows everything, so no content is ever hidden for good.
+  useEffect(() => {
+    const root = sectionsRef.current;
+    if (!root || window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (en.isIntersecting || en.boundingClientRect.top < 0) { (en.target as HTMLElement).classList.add('is-in'); io.unobserve(en.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+    Array.from(root.children).forEach(card => {
+      const c = card as HTMLElement;
+      if (c.dataset.reveal || c.getBoundingClientRect().top < window.innerHeight) return;
+      c.dataset.reveal = '1';
+      c.classList.add('reveal-ready');
+      io.observe(c);
+    });
+    return () => io.disconnect();
+  }, [topic.id, guide, topicQuiz]);
 
   useEffect(() => {
     crtProgressService.markTopicAccessed(topic.id, topic.yearId);
@@ -122,6 +187,15 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
   const prevTopic = currentIndex > 0 ? yearTopics[currentIndex - 1] : null;
   const nextTopic = currentIndex < yearTopics.length - 1 ? yearTopics[currentIndex + 1] : null;
 
+  // Warm the next chapter's lazy data while the browser is idle, so "Next" feels instant.
+  useEffect(() => {
+    if (!nextTopic) return;
+    const idle = (window as Window & { requestIdleCallback?: (cb: () => void) => number }).requestIdleCallback;
+    const run = () => { loadTopicQuiz(nextTopic.id); loadReadingGuide(nextTopic.id); };
+    const h = idle ? idle(run) : window.setTimeout(run, 800);
+    return () => { if (!idle) window.clearTimeout(h); };
+  }, [nextTopic?.id]);
+
   let sectionNo = 0;
   const num = () => ++sectionNo;
 
@@ -158,8 +232,18 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         </span>
       </nav>
 
+      {/* Reading progress */}
+      <div aria-hidden="true" className="fixed top-0 inset-x-0 h-[3px] z-[60] pointer-events-none">
+        <div ref={barRef} className="h-full w-full origin-left" style={{ transform: 'scaleX(0)', background: 'linear-gradient(90deg, var(--year-a), var(--year-b))' }} />
+      </div>
+
       {/* SYLLABUS PAGE HEADER */}
-      <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm space-y-5">
+      <div className="relative overflow-hidden rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm space-y-5">
+        <div
+          aria-hidden="true"
+          className="absolute -top-24 -right-16 w-72 h-72 rounded-full blur-3xl opacity-40 pointer-events-none"
+          style={{ background: 'linear-gradient(135deg, var(--year-a), var(--year-b))', transform: 'translate3d(0, calc(var(--parallax, 0) * 1px), 0)' }}
+        />
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-5">
           <div className="space-y-1.5 min-w-0">
             <div className="flex flex-wrap items-center gap-2 text-xs font-bold uppercase tracking-wider text-blue-700">
@@ -219,19 +303,29 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         </div>
       </div>
 
-      {/* JUMP LINKS */}
+      {/* JUMP LINKS: sticky glass bar from md up; the active chip follows the section being read */}
       {tocItems.length > 0 && (
-        <nav aria-label="Jump to section" className="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
-          <span className="shrink-0 text-[11px] font-extrabold uppercase tracking-wider text-slate-400">Jump to</span>
-          {tocItems.map(it => (
-            <button
-              key={it.id}
-              onClick={() => jumpTo(it.id)}
-              className="shrink-0 px-3 py-1.5 rounded-full bg-white border border-slate-200 text-[11px] font-semibold text-slate-600 hover:text-blue-700 hover:border-blue-300 transition-colors duration-150 cursor-pointer"
-            >
-              {it.label}
-            </button>
-          ))}
+        <nav
+          ref={jumpBarRef}
+          aria-label="Jump to section"
+          className="glass md:sticky md:top-[calc(var(--header-h)+var(--year-bar-h))] z-20 flex items-center gap-1.5 overflow-x-auto no-scrollbar rounded-full px-2 py-1.5"
+        >
+          {tocItems.map(it => {
+            const on = it.id === activeId;
+            return (
+              <button
+                key={it.id}
+                data-chip={it.id}
+                onClick={() => jumpTo(it.id)}
+                aria-current={on ? 'true' : undefined}
+                className={`shrink-0 px-3 py-1.5 rounded-full text-[11px] font-semibold transition-colors duration-200 cursor-pointer ${
+                  on ? 'bg-slate-900 text-white' : 'text-slate-600 hover:text-slate-900 hover:bg-white/70'
+                }`}
+              >
+                {it.label}
+              </button>
+            );
+          })}
         </nav>
       )}
 
@@ -306,7 +400,14 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
 
         {/* READING GUIDE (lazy-loaded per chapter) */}
         {guide ? renderReadingGuide(guide, num) : hasReadingGuide(topic.id) && (
-          <div className="rounded-3xl bg-white border border-slate-200 min-h-[480px] animate-pulse" aria-hidden="true" />
+          <div className="rounded-3xl border border-slate-200 bg-white p-8 space-y-4 min-h-[480px]" aria-hidden="true">
+            <div className="skeleton h-4 w-40" />
+            <div className="skeleton h-8 w-2/3" />
+            <div className="skeleton h-4 w-full" />
+            <div className="skeleton h-4 w-11/12" />
+            <div className="skeleton h-4 w-4/5" />
+            <div className="skeleton h-32 w-full" />
+          </div>
         )}
 
         {/* 4 & 5. CORE CONCEPTS & DEFINITIONS */}

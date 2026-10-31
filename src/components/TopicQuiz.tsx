@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ClipboardList, ExternalLink, CheckCircle2, XCircle, Star } from 'lucide-react';
+import { animate, useReducedMotion } from 'framer-motion';
 import { CRTYearId, TopicQuizData } from '../types/crtTypes';
 import { crtProgressService } from '../services/crtProgressService';
 
@@ -12,6 +13,18 @@ const splitQuestion = (text: string) => {
   return { context: parts.join('\n\n'), stem };
 };
 const LETTERS = ['A', 'B', 'C', 'D'];
+
+// Counts up to the final score (instantly with reduced motion).
+const CountUp: React.FC<{ to: number }> = ({ to }) => {
+  const reduce = useReducedMotion();
+  const [n, setN] = useState(reduce ? to : 0);
+  useEffect(() => {
+    if (reduce) { setN(to); return; }
+    const c = animate(0, to, { duration: 0.7, ease: [0.22, 1, 0.36, 1], onUpdate: v => setN(Math.round(v)) });
+    return () => c.stop();
+  }, [to, reduce]);
+  return <>{n}</>;
+};
 
 interface TopicQuizProps {
   topicId: string;
@@ -55,7 +68,7 @@ export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz, sec
   };
 
   return (
-    <div id="topic-quiz" className="scroll-mt-36 rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-5">
+    <div id="topic-quiz" className="scroll-mt-36 md:scroll-mt-48 rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-xs space-y-5">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center space-x-2 text-indigo-700 font-bold uppercase tracking-wider text-xs">
           <ClipboardList className="w-4 h-4 shrink-0" />
@@ -108,7 +121,7 @@ export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz, sec
                       return (
                         <label
                           key={oi}
-                          className={`flex items-start gap-3 px-3 py-2.5 rounded-xl border text-sm cursor-pointer transition-colors ${style}`}
+                          className={`flex items-start gap-3 px-3 py-2.5 rounded-xl border text-sm cursor-pointer transition-[background-color,border-color,transform] duration-150 active:scale-[0.99] ${isChosen || (isRevealed && isCorrect) ? 'opt-pop ' : ''}${style}`}
                         >
                           <input
                             type="radio"
@@ -134,7 +147,7 @@ export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz, sec
                       View Answer
                     </button>
                   ) : (
-                    <div className="space-y-2 text-xs">
+                    <div className="space-y-2 text-xs yr-rise">
                       <p
                         className={`flex items-center gap-1.5 font-extrabold ${
                           chosen === q.answerIndex ? 'text-emerald-700' : 'text-rose-700'
@@ -199,10 +212,10 @@ export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz, sec
           </div>
         </>
       ) : (
-        <div className="space-y-4">
+        <div className="space-y-4 yr-rise">
           <div className="p-5 rounded-2xl bg-indigo-50 border border-indigo-200 text-center">
             <p className="text-3xl font-extrabold text-indigo-800">
-              {score} / {total}
+              <CountUp to={score} /> / {total}
             </p>
             <p className="text-xs font-bold text-indigo-700 pt-1">
               Your score{best !== undefined ? ` • Best so far: ${best}/${total}` : ''}

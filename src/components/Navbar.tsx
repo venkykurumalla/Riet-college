@@ -42,7 +42,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   // HOME: only the college identity, in a floating glass capsule that condenses on scroll.
   if (isHome) {
     return (
-      <header className="fixed top-3 inset-x-3 sm:inset-x-6 z-40 flex justify-center pointer-events-none">
+      <header style={{ viewTransitionName: 'site-header' }} className="fixed top-3 inset-x-3 sm:inset-x-6 z-40 flex justify-center pointer-events-none">
         <button
           onClick={onNavigateHome}
           aria-label={COLLEGE}
@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   // SYLLABUS AREA: compact glass bar with a clear way back.
   return (
-    <header className="sticky top-0 z-40 w-full glass border-x-0 border-t-0 rounded-none">
+    <header style={{ viewTransitionName: 'site-header' }} className="sticky top-0 z-40 w-full glass border-x-0 border-t-0 rounded-none">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20 gap-2">
           <div className="flex items-center gap-2 sm:gap-3 min-w-0">
