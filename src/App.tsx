@@ -16,12 +16,12 @@ const loadCRTSidebar = () => import('./components/CRTSidebar').then(m => ({ defa
 const loadCRTOverview = () => import('./components/CRTOverviewPage').then(m => ({ default: m.CRTOverviewPage }));
 const loadCRTTopicView = () => import('./components/CRTTopicView').then(m => ({ default: m.CRTTopicView }));
 const loadCRTQuiz = () => import('./components/CRTModuleQuiz').then(m => ({ default: m.CRTModuleQuiz }));
-const loadSearch = () => import('./components/SearchModal').then(m => ({ default: m.SearchModal }));
+const loadSearch = () => import('./components/SearchPalette').then(m => ({ default: m.SearchPalette }));
 const CRTSidebar = lazy(loadCRTSidebar);
 const CRTOverviewPage = lazy(loadCRTOverview);
 const CRTTopicView = lazy(loadCRTTopicView);
 const CRTModuleQuiz = lazy(loadCRTQuiz);
-const SearchModal = lazy(loadSearch);
+const SearchPalette = lazy(loadSearch);
 
 const PageSkeleton: React.FC = () => (
   <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6" aria-hidden="true">
@@ -63,7 +63,7 @@ export const App: React.FC = () => {
   // Fetch the CRT chunk in the background once idle so opening the syllabus feels instant.
   useEffect(() => {
     const idle = (window as Window & { requestIdleCallback?: (cb: () => void) => number }).requestIdleCallback;
-    const warm = () => { loadCRTSidebar(); loadCRTOverview(); loadCRTTopicView(); loadCRTQuiz(); };
+    const warm = () => { loadCRTSidebar(); loadCRTOverview(); loadCRTTopicView(); loadCRTQuiz(); loadSearch(); };
     const h = idle ? idle(warm) : window.setTimeout(warm, 1500);
     return () => { if (!idle) window.clearTimeout(h); };
   }, []);
@@ -80,16 +80,40 @@ export const App: React.FC = () => {
     };
   }, []);
 
-  // Keyboard shortcut Ctrl+K / Cmd+K for search
+  // One search palette for every entry point: header icon, sidebar field, Ctrl/Cmd+K and "/".
+  // The last pointer position lets the panel grow out of the button that opened it.
+  const lastPointer = useRef<{ x: number; y: number; t: number } | null>(null);
+  const [searchOrigin, setSearchOrigin] = useState<{ x: number; y: number } | null>(null);
+  const openSearch = () => {
+    const p = lastPointer.current;
+    setSearchOrigin(p && Date.now() - p.t < 600 ? { x: p.x, y: p.y } : null);
+    setIsSearchOpen(true);
+  };
+
   useEffect(() => {
+    const onPointer = (e: PointerEvent) => { lastPointer.current = { x: e.clientX, y: e.clientY, t: Date.now() }; };
     const handleKeyDown = (e: KeyboardEvent) => {
-      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
+        lastPointer.current = null;
+        setSearchOrigin(null);
         setIsSearchOpen(prev => !prev);
+        return;
+      }
+      const el = e.target as HTMLElement | null;
+      const typing = !!el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.tagName === 'SELECT' || el.isContentEditable);
+      if (e.key === '/' && !typing && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        e.preventDefault();
+        setSearchOrigin(null);
+        setIsSearchOpen(true);
       }
     };
+    window.addEventListener('pointerdown', onPointer, { capture: true, passive: true });
     window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('pointerdown', onPointer, { capture: true });
+      window.removeEventListener('keydown', handleKeyDown);
+    };
   }, []);
 
   const handleNavigateHome = () => {
@@ -216,7 +240,7 @@ export const App: React.FC = () => {
         currentView={view.type}
         onNavigateHome={handleNavigateHome}
         onNavigateSyllabus={handleOpenSyllabusSelection}
-        onOpenSearch={() => setIsSearchOpen(true)}
+        onOpenSearch={openSearch}
         onToggleMobileSidebar={() => setIsMobileSidebarOpen(prev => !prev)}
       />
 
@@ -249,7 +273,7 @@ export const App: React.FC = () => {
             onSelectOverview={() => handleOpenCRT(crtSelectedYear)}
             onSelectTopic={topicId => handleSelectCRTTopic(topicId, crtSelectedYear)}
             onSelectQuiz={(moduleId, categoryName) => handleSelectCRTQuiz(moduleId, categoryName, crtSelectedYear)}
-            onOpenSearch={() => setIsSearchOpen(true)}
+            onOpenSearch={openSearch}
             onNavigateSelection={handleOpenSyllabusSelection}
             isMobileOpen={isMobileSidebarOpen}
             onCloseMobile={() => setIsMobileSidebarOpen(false)}
@@ -331,7 +355,7 @@ export const App: React.FC = () => {
             onSelectTopic={handleSelectAITopic}
             onSelectPracticals={handleSelectAIPracticals}
             onSelectResources={handleSelectAIResources}
-            onOpenSearch={() => setIsSearchOpen(true)}
+            onOpenSearch={openSearch}
             isMobileOpen={isMobileSidebarOpen}
             onCloseMobile={() => setIsMobileSidebarOpen(false)}
           />
@@ -408,8 +432,9 @@ export const App: React.FC = () => {
       {/* Universal Search Modal (Ctrl+K) */}
       {searchUsed && (
         <Suspense fallback={null}>
-          <SearchModal
-            isOpen={isSearchOpen}
+          <SearchPalette
+            open={isSearchOpen}
+            origin={searchOrigin}
             onClose={() => setIsSearchOpen(false)}
             onSelectAITopic={handleSelectAITopic}
             onSelectCRTTopic={handleSelectCRTTopic}

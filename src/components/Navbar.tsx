@@ -42,7 +42,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   // HOME: only the college identity, in a floating glass capsule that condenses on scroll.
   if (isHome) {
     return (
-      <header style={{ viewTransitionName: 'site-header' }} className="fixed top-3 inset-x-3 sm:inset-x-6 z-40 flex justify-center pointer-events-none">
+      <header style={{ viewTransitionName: 'site-header', paddingRight: 'var(--sbw, 0px)' }} className="fixed top-3 inset-x-3 sm:inset-x-6 z-40 flex justify-center pointer-events-none">
         <button
           onClick={onNavigateHome}
           title={COLLEGE}
