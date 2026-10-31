@@ -410,7 +410,7 @@ html[data-perf='lite'] .glass:not(.glass-live) {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.8));
 }
 
-html[data-perf='lite'] .glass.glass-strong:not(.glass-live) { background: rgba(255, 255, 255, 0.97); }
+html[data-perf='lite'] .glass.glass-strong:not(.glass-live) { background: #fafbff; }
 
 html[data-perf='lite'] .glass-live {
   -webkit-backdrop-filter: blur(12px) saturate(140%);

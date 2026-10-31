@@ -60,12 +60,25 @@ export const App: React.FC = () => {
   const [searchUsed, setSearchUsed] = useState(false); // mount the lazy search modal on first open
   useEffect(() => { if (isSearchOpen) setSearchUsed(true); }, [isSearchOpen]);
 
-  // Fetch the CRT chunk in the background once idle so opening the syllabus feels instant.
+  // Warm the CRT area in the background, in small steps well after first paint, so evaluating the
+  // chunks never competes with the hero animation or the first interaction.
   useEffect(() => {
-    const idle = (window as Window & { requestIdleCallback?: (cb: () => void) => number }).requestIdleCallback;
-    const warm = () => { loadCRTSidebar(); loadCRTOverview(); loadCRTTopicView(); loadCRTQuiz(); loadSearch(); loadCRTYear(1); };
-    const h = idle ? idle(warm) : window.setTimeout(warm, 1500);
-    return () => { if (!idle) window.clearTimeout(h); };
+    const idle = (window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }).requestIdleCallback;
+    const steps = [
+      () => { loadCRTSidebar(); loadCRTOverview(); },
+      () => { loadCRTTopicView(); loadCRTQuiz(); },
+      () => { loadCRTYear(1); },
+      () => { loadSearch(); }
+    ];
+    let i = 0;
+    let timer: number | undefined;
+    const next = () => {
+      if (i >= steps.length) return;
+      const run = () => { steps[i++](); timer = window.setTimeout(next, 700); };
+      if (idle) idle(run, { timeout: 4000 }); else run();
+    };
+    timer = window.setTimeout(next, 3000);
+    return () => window.clearTimeout(timer);
   }, []);
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
   const [, setTick] = useState(0);
