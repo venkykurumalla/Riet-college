@@ -79,8 +79,8 @@ export const Navbar: React.FC<NavbarProps> = ({
               <Logo size="w-9 h-9 sm:w-11 sm:h-11" />
               <span className="min-w-0 leading-tight">
                 <span className="block font-display font-bold tracking-tight text-slate-900 text-sm sm:text-base truncate">
-                  <span className="sm:hidden">RIET</span>
-                  <span className="hidden sm:inline">{COLLEGE}</span>
+                  <span className="lg:hidden">RIET</span>
+                  <span className="hidden lg:inline">{COLLEGE}</span>
                 </span>
               </span>
             </button>

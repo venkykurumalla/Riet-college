@@ -10,7 +10,7 @@ export const Footer: React.FC<FooterProps> = ({
   onNavigateSyllabus
 }) => {
   return (
-    <footer className="border-t border-slate-200 bg-white mt-auto py-8">
+    <footer className="glass rounded-none border-x-0 border-b-0 mt-auto py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         
         {/* Brand */}

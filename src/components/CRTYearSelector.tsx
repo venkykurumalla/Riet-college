@@ -82,7 +82,7 @@ export const CRTYearSelector: React.FC<CRTYearSelectorProps> = ({ selectedYear, 
       role="tablist"
       aria-label="Select year"
       onKeyDown={onKeyDown}
-      className="year-tint glass relative flex items-center p-1 rounded-full max-w-full overflow-x-auto no-scrollbar"
+      className="year-tint glass glass-strong relative flex items-center p-1 rounded-full max-w-full overflow-x-auto no-scrollbar"
     >
       {/* sliding glass pill */}
       <motion.div

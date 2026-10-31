@@ -308,7 +308,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         <nav
           ref={jumpBarRef}
           aria-label="Jump to section"
-          className="glass md:sticky md:top-[calc(var(--header-h)+var(--year-bar-h))] z-20 flex items-center gap-1.5 overflow-x-auto no-scrollbar rounded-full px-2 py-1.5"
+          className="glass glass-strong md:sticky md:top-[calc(var(--header-h)+var(--year-bar-h))] z-20 flex items-center gap-1.5 overflow-x-auto no-scrollbar rounded-full px-2 py-1.5"
         >
           {tocItems.map(it => {
             const on = it.id === activeId;

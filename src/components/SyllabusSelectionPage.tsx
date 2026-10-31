@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, Sparkles, ArrowRight, ArrowLeft, Brain, Cpu, ShieldCheck, Target, Award, CheckCircle2 } from 'lucide-react';
+import { LiquidGlassButton } from './LiquidGlassButton';
 import { fontCourseInfo } from '../data/aiToolsCourseData';
 import { crtProgressService } from '../services/crtProgressService';
 import { progressService } from '../services/progressService';
@@ -19,7 +20,7 @@ export const SyllabusSelectionPage: React.FC<SyllabusSelectionPageProps> = ({
   const aiProgress = progressService.getOverallProgress();
 
   return (
-    <div className="relative min-h-[calc(100vh-80px)] py-12 px-4 sm:px-6 lg:px-8 bg-slate-50 flex flex-col justify-center items-center">
+    <div className="relative min-h-[calc(100vh-80px)] pt-8 pb-12 px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-center">
       
       {/* Background ambient lighting */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-full max-w-5xl h-96 pointer-events-none opacity-30">
@@ -59,7 +60,7 @@ export const SyllabusSelectionPage: React.FC<SyllabusSelectionPageProps> = ({
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 pt-2">
           
           {/* OPTION 1: CRT SYLLABUS */}
-          <div className="relative group rounded-3xl bg-white border-2 border-slate-200 hover:border-blue-500 p-8 sm:p-10 shadow-lg hover:shadow-2xl hover:shadow-blue-600/15 transition-all duration-300 flex flex-col justify-between space-y-6">
+          <div className="glass depth-card relative group rounded-[32px] p-8 sm:p-10 flex flex-col justify-between space-y-6">
             <div className="space-y-5">
               {/* Badge & Icon */}
               <div className="flex items-center justify-between">
@@ -120,17 +121,14 @@ export const SyllabusSelectionPage: React.FC<SyllabusSelectionPageProps> = ({
             </div>
 
             {/* Action Button: [ OPEN CRT ] */}
-            <button
-              onClick={onSelectCRT}
-              className="w-full py-4 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-sm tracking-wide shadow-lg shadow-blue-600/25 hover:shadow-blue-600/40 transition-all flex items-center justify-center space-x-2 cursor-pointer group/btn"
-            >
+            <LiquidGlassButton onClick={onSelectCRT} className="w-full">
               <span>OPEN CRT</span>
-              <ArrowRight className="w-4 h-4 text-cyan-200 group-hover/btn:translate-x-1 transition-transform" />
-            </button>
+              <ArrowRight className="w-4 h-4 text-indigo-600" />
+            </LiquidGlassButton>
           </div>
 
           {/* OPTION 2: AI TOOLS & APPLICATIONS */}
-          <div className="relative group rounded-3xl bg-white border-2 border-slate-200 hover:border-indigo-500 p-8 sm:p-10 shadow-lg hover:shadow-2xl hover:shadow-indigo-600/15 transition-all duration-300 flex flex-col justify-between space-y-6">
+          <div className="glass depth-card relative group rounded-[32px] p-8 sm:p-10 flex flex-col justify-between space-y-6">
             <div className="space-y-5">
               {/* Badge & Icon */}
               <div className="flex items-center justify-between">
@@ -191,13 +189,10 @@ export const SyllabusSelectionPage: React.FC<SyllabusSelectionPageProps> = ({
             </div>
 
             {/* Action Button: [ OPEN LMS ] */}
-            <button
-              onClick={onSelectAITools}
-              className="w-full py-4 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-sm tracking-wide shadow-lg shadow-indigo-600/25 hover:shadow-indigo-600/40 transition-all flex items-center justify-center space-x-2 cursor-pointer group/btn"
-            >
+            <LiquidGlassButton onClick={onSelectAITools} className="w-full">
               <span>OPEN LMS</span>
-              <ArrowRight className="w-4 h-4 text-indigo-200 group-hover/btn:translate-x-1 transition-transform" />
-            </button>
+              <ArrowRight className="w-4 h-4 text-indigo-600" />
+            </LiquidGlassButton>
           </div>
 
         </div>
