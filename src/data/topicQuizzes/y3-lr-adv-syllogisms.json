@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "Conclusion I (\"No fruits are sour things.\") follows: it is true in every diagram that fits the three statements. Conclusion II (\"All mangoes are sweet things.\") does not follow: the statements leave it open, because a consistent diagram makes it false. Answer: Only conclusion I follows."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/verbal-reasoning/syllogism/"
+  ]
 }

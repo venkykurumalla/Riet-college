@@ -6,7 +6,6 @@ const chapter = {
   title: 'Compound Interest',
   tagline: 'Year 2 — Interest on interest, half-yearly compounding and the CI–SI difference',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/aptitude/compound-interest/',
   overview: 'In compound interest (CI) the interest earned in each period is added to the principal, so the next period earns interest on the larger amount. The amount after n periods is A = P(1 + r/100)ⁿ and the compound interest is A − P. Compared with simple interest, CI grows faster because interest earns interest.',
   placement: 'Compound interest is commonly asked in company aptitude rounds, usually with two or three years and with the CI–SI difference shortcut or half-yearly compounding.',
   realWorld: 'Savings accounts, fixed deposits, loans with monthly instalments and the growth of an investment are all computed with compound interest.',

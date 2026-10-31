@@ -16,7 +16,6 @@ const chapter = {
   title: 'Pie Chart Interpretation',
   tagline: 'Year 2 — Sectors, percentages, angles and comparing two pie charts',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/data-interpretation/pie-charts/',
   overview: 'A pie chart shows how a total is divided into parts. Each sector\'s angle at the centre (out of 360°) corresponds to its share of the total. In Year 2 you meet two pie charts side by side, for two years, with different totals. A common trap is comparing percentages across the two charts without taking the totals into account: a smaller percentage of a larger total can be a larger amount.',
   placement: 'Pie chart sets are commonly asked in company aptitude rounds, often with two pies and a request to compare amounts across them.',
   realWorld: 'Budget breakdowns, market shares and expense reports are shown as pie charts.',

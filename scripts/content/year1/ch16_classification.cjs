@@ -5,7 +5,6 @@ const chapter = {
   title: 'Classification / Odd One Out',
   tagline: 'Year 1 Foundation — Grouping words by a shared property and spotting the one that does not belong',
   minutes: 35,
-  morePractice: 'https://www.indiabix.com/verbal-reasoning/classification/',
   overview: 'A classification question gives four or five words (or items) and asks you to pick the one that does not belong with the others. Three or four of the words share a property such as being a fruit, a mammal, a metal or a language; the odd one lacks that property. The task is to discover the shared property quickly and precisely. This chapter focuses on words; the next chapter covers numbers and letters.',
   placement: 'Classification questions are commonly asked in the reasoning section of company aptitude rounds. They are easy marks for students who build the habit of naming the common property before choosing.',
   realWorld: 'Sorting items in a shop, filing documents into folders and tagging products in an online catalogue all rely on classification.',

@@ -10,7 +10,6 @@ const vc = (sentence, word, correct, wrongs, expl) => ({ q: `${sentence}\n\nIn t
 const ch55 = C({
   n: 55, id: 'y3-verbal-vocab-in-context', cat: 'verbal', title: 'Advanced Vocabulary in Context',
   tag: 'Working out the meaning of an unfamiliar word from the sentence around it',
-  url: 'https://www.indiabix.com/verbal-ability/synonyms/',
   over: 'Vocabulary-in-context questions give a sentence with a hard word and ask for its meaning in that sentence. You rarely need to know the word: the sentence supplies clues through contrast, restatement, example, tone and cause-effect. Learning to read those clues gives you the meaning of words you have never seen, and helps you choose the right sense of words with several meanings.',
   place: 'Context-based vocabulary items are a standard part of verbal sections in company and bank tests.',
   real: 'Reading unfamiliar professional vocabulary in a report or manual and still following the sense uses the same clues.',
@@ -84,7 +83,6 @@ const idm = (sentence, idiom, correct, wrongs, expl) => ({ q: `${sentence}\n\nTh
 const ch56 = C({
   n: 56, id: 'y3-verbal-idiomatic-expressions', cat: 'verbal', title: 'Idiomatic Expressions and Phrases',
   tag: 'Common English idioms: meaning, usage in a sentence and how to guess an unfamiliar one',
-  url: 'https://www.indiabix.com/verbal-ability/',
   over: 'An idiom is a phrase whose meaning is not the sum of its words. "Spill the beans" has nothing to do with beans. Idioms are common in questions because they test whether you know natural English. Some can be guessed from the picture they paint; many must be learned. This chapter organises common idioms by theme and shows how to use the sentence to confirm the meaning.',
   place: 'Idiom questions appear in the verbal sections of bank, SSC and campus tests.',
   real: 'Business English is full of idioms ("the ball is in your court", "cut corners"); understanding them avoids miscommunication.',

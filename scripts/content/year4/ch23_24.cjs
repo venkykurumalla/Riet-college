@@ -1,7 +1,7 @@
 const { build, easy, medium, placement } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const { nq, pcq, tq, rq, round, sum, pct } = require('./diq.cjs');
-const base = { year: 4, cat: 'di', category: 'Data Interpretation', url: 'https://www.indiabix.com/data-interpretation/' };
+const base = { year: 4, cat: 'di', category: 'Data Interpretation' };
 const inr = (n) => `₹${Math.round(n).toLocaleString('en-IN')}`;
 
 // ================= Chapter 23: caselet business analytics =================

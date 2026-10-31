@@ -1,7 +1,7 @@
 const { build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const { N, T, inr, pc, round } = require('./q.cjs');
-const base = { year: 4, cat: 'strat', category: 'Placement Strategy & Shortcuts', url: 'https://www.indiabix.com/aptitude/' };
+const base = { year: 4, cat: 'strat', category: 'Placement Strategy & Shortcuts' };
 const spec = (o) => C({ ...base, ...o });
 const ev = (p, m, n) => p * m - (1 - p) * n;
 

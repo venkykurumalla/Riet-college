@@ -5,7 +5,6 @@ const chapter = {
   title: 'Basic Mensuration',
   tagline: 'Year 2 — Perimeter, area and volume of common shapes',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/aptitude/area/',
   overview: 'Mensuration is the measurement of shapes: perimeter (length around), area (surface covered) and volume (space occupied). A small set of formulas covers rectangles, squares, triangles, circles, trapeziums, cubes, cuboids, cylinders, cones and spheres. The skill is in choosing the right formula and keeping units consistent (cm, cm², cm³).',
   placement: 'Mensuration questions are commonly asked in company aptitude rounds, often combined with ratio, percentage and cost.',
   realWorld: 'Painting a wall, tiling a floor, filling a tank and fencing a field all use these formulas.',

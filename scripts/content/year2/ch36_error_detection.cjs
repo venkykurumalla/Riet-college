@@ -14,7 +14,6 @@ const chapter = {
   title: 'Error Detection',
   tagline: 'Year 2 — Locating the grammatical error in a sentence divided into parts',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/verbal-ability/spotting-errors/',
   overview: 'In an error-detection (spotting errors) question, a sentence is divided into three or four parts and you must find the part that contains a grammatical error, or say that there is no error. Because the answer is just the part and not a correction, the skill is rapid recognition of the common error types: agreement, tense, preposition, article, pronoun, adjective/adverb, comparison and word choice. A fixed checklist makes this reliable.',
   placement: 'Error-detection questions are commonly asked in the verbal ability section of company aptitude rounds, usually in sets of five.',
   realWorld: 'Proofreading emails, reports and presentations before sending uses the same checklist.',

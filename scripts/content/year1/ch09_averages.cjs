@@ -5,7 +5,6 @@ const chapter = {
   title: 'Basic Averages',
   tagline: 'Year 1 Foundation — Mean, sums, changing groups and weighted averages',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/average/',
   overview: 'The average (arithmetic mean) of a set of numbers is their sum divided by how many there are. It answers the question: "if every item were equal, what value would each one have?" The most useful way to work with averages is to turn them back into totals using Sum = Average × Number of items, because totals can be added, removed and replaced, while averages cannot.',
   placement: 'Average questions are commonly asked in company aptitude rounds, either directly (find the mean) or in changing-group form (a person joins, leaves or is replaced). They also appear inside data interpretation sets.',
   realWorld: 'Marks in an exam, a batsman\'s batting average, mileage of a car over a trip and the average temperature of a week are all averages.',

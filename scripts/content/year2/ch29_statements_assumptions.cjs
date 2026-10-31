@@ -8,7 +8,6 @@ const chapter = {
   title: 'Statements and Assumptions',
   tagline: 'Year 2 — Finding the unstated premise on which a statement depends',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/statement-and-assumption/',
   overview: 'An assumption is something taken for granted by the speaker or writer, without being stated, which must be true for the statement to make sense. In an assumption question you are given a statement and two or more candidate assumptions, and you must pick those that are implicit. The test is: "If the assumption were false, would the statement become pointless or unreasonable?"',
   placement: 'Statements and assumptions questions are commonly asked in company reasoning rounds, mostly with advertisements, advice and announcements.',
   realWorld: 'Analysing an advertisement, a policy proposal or an argument in a meeting involves spotting the premises that its author takes for granted.',

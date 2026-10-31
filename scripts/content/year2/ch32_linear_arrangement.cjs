@@ -16,7 +16,6 @@ const chapter = {
   title: 'Linear Arrangement',
   tagline: 'Year 2 — Seating in one or two rows, left and right, position counts',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/verbal-reasoning/seating-arrangement/',
   overview: 'In a linear arrangement people sit or stand in one row (all facing the same way) or in two rows facing each other. You are given clues such as "A sits third to the right of B" or "C faces D" and must work out the order. The key skills are knowing left and right for people facing north or south, counting positions from either end, and placing definite clues before indefinite ones.',
   placement: 'Linear arrangement questions are commonly asked in company reasoning rounds, usually as a puzzle with a set of questions.',
   realWorld: 'Queues, classroom benches, stage photographs and parking rows are linear arrangements.',

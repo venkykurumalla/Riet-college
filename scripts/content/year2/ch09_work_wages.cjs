@@ -5,7 +5,6 @@ const chapter = {
   title: 'Work and Wages',
   tagline: 'Year 2 — Dividing payment in proportion to the work done',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/aptitude/time-and-work/',
   overview: 'When several workers complete a job together and are paid a total amount, each worker\'s fair share is proportional to the work they did. Work done is the product of rate and time, so the wage ratio is the ratio of (work done), not of the days worked unless the workers are equally efficient. This chapter builds on time-and-work rates to share money.',
   placement: 'Work and wages problems are commonly asked in company aptitude rounds, usually as a short extension of a time-and-work problem.',
   realWorld: 'Paying contract labour, sharing a freelance fee among a team, and costing a project by man-days all use these ideas.',

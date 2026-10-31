@@ -8,7 +8,6 @@ const Cb = (n, r) => f(n) / (f(r) * f(n - r));
 const ch13 = C({
   n: 13, id: 'y3-quant-permutations', cat: 'quant', title: 'Permutations (nPr)',
   tag: 'Arrangements with and without repetition, restrictions, circular arrangements and digit problems',
-  url: 'https://www.indiabix.com/aptitude/permutation-and-combination/',
   over: 'A permutation is an arrangement in which order matters. The fundamental principle of counting says that if one task can be done in m ways and a second in n ways, the two together can be done in m × n ways. From it come the formulas for arranging r of n different objects (nPr), arranging objects when some are alike, arranging in a circle, and counting numbers formed from given digits under restrictions.',
   place: 'Permutation questions are commonly asked in company aptitude rounds, typically as word arrangements, digit problems and seating with restrictions.',
   real: 'Passwords, seat plans, schedules and license plates are counted with permutations.',
@@ -83,7 +82,6 @@ build(ch13, q13);
 const ch14 = C({
   n: 14, id: 'y3-quant-combinations', cat: 'quant', title: 'Combinations (nCr)',
   tag: 'Selections, committees, geometry counts, distribution of objects and restrictions',
-  url: 'https://www.indiabix.com/aptitude/permutation-and-combination/',
   over: 'A combination is a selection in which order does not matter. Choosing r objects from n different objects can be done in nCr = n!/(r!(n − r)!) ways. Combinations count committees, teams, hands of cards, diagonals and triangles in geometry, and distributions of objects into groups. They connect directly to permutations: nPr = nCr × r!.',
   place: 'Combination questions are commonly asked in company aptitude rounds, usually with committees under conditions, geometry counts and distributions.',
   real: 'Choosing project teams, lottery tickets and test subsets are combinations.',

@@ -18,7 +18,6 @@ const chapter = {
   title: 'Mathematical Reasoning',
   tagline: 'Year 2 — New operations, missing signs, interchanged symbols and inequality chains',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-reasoning/arithmetic-reasoning/',
   overview: 'Mathematical reasoning questions test whether you can follow rules that are stated in the question. Typical forms: a new operation is defined (a ◈ b = a² + b) and you evaluate expressions with it; signs are missing in an equation and you find them; two signs or numbers are interchanged and you evaluate; or a chain of inequalities is given and you decide which relation follows. The arithmetic is simple; accuracy in applying the rule is what matters.',
   placement: 'Mathematical reasoning questions are commonly asked in company reasoning rounds. They are quick if you follow the rule literally and check with BODMAS.',
   realWorld: 'Spreadsheet formulas, code functions and unit conversions are defined operations in just this way.',

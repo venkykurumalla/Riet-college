@@ -14,7 +14,6 @@ const chapter = {
   title: 'Bar Graph Interpretation',
   tagline: 'Year 2 — Multi-series bar charts: reading, comparing, percentage change and ratios',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/data-interpretation/bar-charts/',
   overview: 'A bar graph shows values as bars whose heights are proportional to the quantities. In Year 2 you meet multi-series bar graphs, where several bars sit side by side for each year or category. Questions combine reading values with totals, differences, averages, percentage changes and ratios. The data is the same as in a table; the picture only makes comparison easier.',
   placement: 'Bar graph sets are commonly asked in company aptitude rounds. In an exam you read the heights from the picture; here the values are given as a table so that you can practise the calculations.',
   realWorld: 'Production reports, sales comparisons and annual dashboards use multi-series bar charts.',

@@ -15,7 +15,7 @@ const easy = mk('easy');
 const medium = mk('medium');
 const placement = mk('placement');
 
-function expandQuiz(topicId, topicTitle, morePracticeUrl, qs) {
+function expandQuiz(topicId, topicTitle, qs) {
   const questions = qs.map((q, i) => {
     if (q.wrongs.length !== 3) throw new Error(`${topicId} Q${i + 1}: need exactly 3 wrong options`);
     const answerIndex = (i * 3 + 1 + (i >> 2)) % 4;
@@ -42,7 +42,6 @@ function expandQuiz(topicId, topicTitle, morePracticeUrl, qs) {
     return out;
   });
   const quiz = { topicId, topicTitle, questions };
-  if (morePracticeUrl) quiz.morePracticeUrl = morePracticeUrl;
   return quiz;
 }
 
@@ -110,7 +109,7 @@ function expandChapter(c, quiz) {
 }
 
 function build(chapter, quizQs) {
-  const quiz = expandQuiz(chapter.id, chapter.title, chapter.morePractice, quizQs);
+  const quiz = expandQuiz(chapter.id, chapter.title, quizQs);
   const topic = expandChapter(chapter, quiz);
   fs.writeFileSync(path.join(ROOT, 'src/data/chapters', `${chapter.id}.json`), JSON.stringify(topic, null, 2) + '\n');
   fs.writeFileSync(path.join(ROOT, 'src/data/topicQuizzes', `${chapter.id}.json`), JSON.stringify(quiz, null, 2) + '\n');
@@ -118,8 +117,8 @@ function build(chapter, quizQs) {
 }
 
 // For chapters whose text is kept as-is (1st Year ch 1-6): write only the quiz file.
-function buildQuizOnly(topicId, topicTitle, morePracticeUrl, qs) {
-  const quiz = expandQuiz(topicId, topicTitle, morePracticeUrl, qs);
+function buildQuizOnly(topicId, topicTitle, qs) {
+  const quiz = expandQuiz(topicId, topicTitle, qs);
   fs.writeFileSync(path.join(ROOT, 'src/data/topicQuizzes', `${topicId}.json`), JSON.stringify(quiz, null, 2) + '\n');
   return { quiz };
 }

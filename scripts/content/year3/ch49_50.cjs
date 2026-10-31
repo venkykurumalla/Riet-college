@@ -15,7 +15,6 @@ const PARA = 'Which of the following best resolves the apparent paradox above?';
 const ch49 = C({
   n: 49, id: 'y3-verbal-critical-reasoning-verbal', cat: 'verbal', title: 'Critical Reasoning in Verbal Context',
   tag: 'Main conclusions, hidden assumptions, flaws, paradoxes and parallel reasoning in short arguments',
-  url: 'https://www.indiabix.com/verbal-ability/',
   over: 'Verbal critical reasoning treats a short passage as an argument. You are asked to find the conclusion, name the assumption, spot a flaw, resolve an apparent contradiction, or pick an argument with the same pattern. All of these start with the same step: separate the conclusion from its supporting statements, then look at the gap between them. Every question type is a different question about that gap.',
   place: 'These items appear in the verbal sections of management and campus tests alongside reading comprehension.',
   real: 'Assessing a proposal, a news story or an advertisement uses the same questions.',
@@ -124,7 +123,6 @@ function jumble(pi, kind, arg) {
 const ch50 = C({
   n: 50, id: 'y3-verbal-adv-para-jumbles', cat: 'verbal', title: 'Advanced Para Jumbles — 6 Sentences',
   tag: 'Ordering six jumbled sentences using openers, links, chronology, pronouns and closers',
-  url: 'https://www.indiabix.com/verbal-ability/ordering-of-sentences/',
   over: 'In a para-jumble question, six sentences from one paragraph are shuffled and you must restore the order. The method is to look for one opener (a sentence that does not depend on any other), one closer (a sentence that sums up or concludes), and then chains of links between the rest: pronouns that need antecedents, time words, "also" and "however" connectors, and cause-effect pairs.',
   place: 'Six-sentence jumbles are the harder form of the standard ordering item and appear in verbal sections of company tests.',
   real: 'Putting a set of notes or an email thread into a logical sequence uses the same cues.',

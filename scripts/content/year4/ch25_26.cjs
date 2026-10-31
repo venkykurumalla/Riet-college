@@ -1,7 +1,7 @@
 const { build, easy, medium, placement } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const { nq, pcq, tq, rq, best, others, round, sum, pct, table } = require('./diq.cjs');
-const base = { year: 4, cat: 'di', category: 'Data Interpretation', url: 'https://www.indiabix.com/data-interpretation/' };
+const base = { year: 4, cat: 'di', category: 'Data Interpretation' };
 const K = { e: easy, m: medium, p: placement };
 
 // ================= Chapter 25: high-speed DI with approximation =================

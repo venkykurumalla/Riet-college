@@ -1,7 +1,7 @@
 const { build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const { nq, pcq, tq, rq, best, others, round, sum, table } = require('./diq.cjs');
-const base = { year: 4, cat: 'di', category: 'Data Interpretation', url: 'https://www.indiabix.com/data-interpretation/' };
+const base = { year: 4, cat: 'di', category: 'Data Interpretation' };
 
 // ================= Chapter 21: integrated DI sets (3 tables) =================
 const R = ['North', 'South', 'East', 'West'];

@@ -41,7 +41,6 @@ const r1 = rowQs(p1, i1), r2 = rowQs(p2, i2), r3 = rowQs(p3, i3);
 const ch28 = C({
   n: 28, id: 'y3-lr-complex-seating', cat: 'lr', title: 'Complex Seating Arrangements (7+ People)',
   tag: 'Linear arrangements with seven or more people: anchors, chains, negative clues and case splitting',
-  url: 'https://www.indiabix.com/verbal-reasoning/seating-arrangement/',
   over: 'A seating puzzle gives a set of conditions about who sits where and asks you to rebuild the unique arrangement. With seven or more people, guessing fails; you need a method. This chapter teaches the anchor-first method: start with the most definite clue, build chains of neighbours, handle "either-or" clues by splitting into two cases, and use negative clues only to eliminate.',
   place: 'Seating puzzles with 7–10 people are a standard logical-reasoning section in company tests, and one puzzle often carries four or five questions.',
   real: 'Allocating seats, shifts and desks under rules about who may sit near whom is the same kind of constraint problem.',
@@ -125,7 +124,6 @@ const c1 = circQs(cp1, ci1, 'in'), c2 = circQs(cp2, ci2, 'in'), c3 = circQs(cp3,
 const ch29 = C({
   n: 29, id: 'y3-lr-circular-seating', cat: 'lr', title: 'Circular Seating Arrangements',
   tag: 'Round-table puzzles: facing inward or outward, left and right, opposite seats and rotations',
-  url: 'https://www.indiabix.com/verbal-reasoning/seating-arrangement/',
   over: 'In a circular arrangement there is no first or last seat, so the first job is to fix one person as a reference. The second job is to settle which way people face: when they face the centre their left is clockwise, and when they face outward their left is anticlockwise. With those two settled, the same anchor-and-chain method from linear seating applies, plus a new anchor: "sits opposite", which is exactly n/2 seats away.',
   place: 'Circular seating puzzles with 6–8 people are asked in almost every written logical-reasoning round.',
   real: 'Round-table meetings, circular conveyor stations and clock-like layouts follow these rules.',

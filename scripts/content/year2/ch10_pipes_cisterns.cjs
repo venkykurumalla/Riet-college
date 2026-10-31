@@ -5,7 +5,6 @@ const chapter = {
   title: 'Pipes and Cisterns',
   tagline: 'Year 2 — Inlet pipes, outlet pipes and leaks as positive and negative work rates',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/pipes-and-cistern/',
   overview: 'Pipes and cisterns is time and work with water. An inlet pipe fills a tank (positive rate) and an outlet pipe or leak empties it (negative rate). A pipe that fills a tank in n hours does 1/n of the tank per hour. When several pipes work together, add their rates, with a minus sign for outlets.',
   placement: 'Pipes and cisterns questions are commonly asked in company aptitude rounds. They look different from time-and-work but use the same method.',
   realWorld: 'Filling and draining swimming pools, water tanks with leaks and reservoirs with inlets and outlets are real examples.',

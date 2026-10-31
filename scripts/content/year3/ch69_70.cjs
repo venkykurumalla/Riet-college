@@ -28,7 +28,6 @@ const serCagr = (Math.pow(ser[4] / ser[0], 1 / 4) - 1) * 100;
 const ch69 = C({
   n: 69, id: 'y3-di-growth-rate', cat: 'di', title: 'Growth Rate and CAGR Computation from DI',
   tag: 'Total growth, average annual growth and compound annual growth rate from start and end values',
-  url: 'https://www.indiabix.com/data-interpretation/',
   over: 'Growth can be measured in three ways. Total growth is the change over the whole period as a percentage of the start. The simple average annual growth divides total growth by the number of years. The compound annual growth rate (CAGR) is the single yearly rate that, applied every year, takes the start value to the end value: CAGR = (end ÷ start)^(1/n) − 1. They differ when the yearly rates vary, and a good analyst knows which one a question asks for.',
   place: 'CAGR and growth-rate questions appear in management-oriented DI sets and in finance sections.',
   real: 'Investment returns, company revenue and population growth are reported as CAGR.',
@@ -129,7 +128,6 @@ const D = [
 const ch70 = C({
   n: 70, id: 'y3-di-data-sufficiency-di', cat: 'di', title: 'Data Sufficiency in DI Contexts',
   tag: 'Deciding whether partial data from a table or graph is enough to answer a question',
-  url: 'https://www.indiabix.com/data-interpretation/',
   over: 'Data sufficiency in DI gives a data setting (a table, a graph or a business situation) with some values missing, and two statements that each supply extra information. You decide whether I alone, II alone, both together or neither suffices to answer the question. As in basic data sufficiency, the test is whether all worlds consistent with the statements give the same answer; for yes/no questions the answer must always be yes or always be no.',
   place: 'These items appear in management-oriented DI and reasoning sections.',
   real: 'Deciding whether you have enough figures to make a decision, before collecting more, is a real skill.',

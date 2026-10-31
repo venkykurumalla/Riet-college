@@ -5,7 +5,6 @@ const chapter = {
   title: 'Prepositions',
   tagline: 'Year 1 Foundation — Prepositions of time, place and direction, and fixed word-preposition pairs',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
   overview: 'A preposition is a word that shows the relationship between a noun or pronoun and another word in the sentence, such as time (at 6 a.m., on Monday, in 1999), place (on the table, in the room), direction (to the market, from Delhi) and many other connections. Many prepositions are fixed with particular words: good at, afraid of, married to, prefer to. These fixed pairs, rather than rules, are the main focus of prepositions questions in placement tests.',
   placement: 'Preposition fill-in-the-blank items are commonly asked in the verbal ability section of company aptitude rounds and in error-spotting passages.',
   realWorld: 'Using the wrong preposition in an email ("discuss about", "married with") is a common error that makes writing look careless.',

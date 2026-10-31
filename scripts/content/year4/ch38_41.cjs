@@ -1,7 +1,7 @@
 const { build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const { N, T, pc, round } = require('./q.cjs');
-const base = { year: 4, cat: 'rec', category: 'Recruiter / Assessment Preparation', url: 'https://www.indiabix.com/aptitude/' };
+const base = { year: 4, cat: 'rec', category: 'Recruiter / Assessment Preparation' };
 const spec = (o) => C({ ...base, ...o });
 const ev = (p, m, n) => p * m - (1 - p) * n;
 const NOTE = 'All figures and rules in this chapter\'s examples are hypothetical teaching examples and are not the rules of any real company or platform; always read the official instructions.';

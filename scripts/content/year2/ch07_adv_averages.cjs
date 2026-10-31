@@ -6,7 +6,6 @@ const chapter = {
   title: 'Advanced Averages',
   tagline: 'Year 2 — Weighted averages, overlapping groups, corrections and average speed',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/average/',
   overview: 'Year 1 averages were direct: sum divided by count, joining and leaving. Year 2 extends to weighted averages of several groups, overlapping groups, wrongly read data corrected later, averages changing across innings, and average speed over unequal parts of a journey. The tool remains Sum = Average × Count, used with careful bookkeeping.',
   placement: 'Average questions are commonly asked in company aptitude rounds, and multi-step ones with overlapping or corrected data are a typical intermediate-level item.',
   realWorld: 'Batting averages, class marks, average fuel consumption and average temperature over several days all use these methods.',

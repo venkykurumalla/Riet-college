@@ -1,7 +1,7 @@
 const { build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const { N, T, inr, pc, round } = require('./q.cjs');
-const base = { year: 4, cat: 'mqm', category: 'Advanced Aptitude / Mixed Problems', url: 'https://www.indiabix.com/aptitude/' };
+const base = { year: 4, cat: 'mqm', category: 'Advanced Aptitude / Mixed Problems' };
 
 // ---------- Chapter 1 ----------
 const ch1 = C({ ...base, n: 1, id: 'y4-mqm-problem-solving', title: 'Mixed Quantitative — Integrated Problem Solving',

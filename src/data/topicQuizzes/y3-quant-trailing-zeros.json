@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "100! + 101! + 102! = 100!(1 + 101 + 101 × 102) = 100! × 10404, and 10404 has no factor 5, so the zeros are those of 100!: 24."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
+  ]
 }

@@ -6,7 +6,6 @@ const r2 = x => Math.round(x * 100) / 100;
 const ch25 = C({
   n: 25, id: 'y3-quant-adv-mensuration-3d', cat: 'quant', title: 'Advanced Mensuration — 3D Solids',
   tag: 'Volume and surface area of cubes, cuboids, cylinders, cones, spheres, melting and recasting',
-  url: 'https://www.indiabix.com/aptitude/volume-and-surface-area/',
   over: 'Solid shapes are measured by volume (space inside) and surface area (outer covering). This chapter covers cubes, cuboids, cylinders, cones, spheres and hemispheres, the slant height of a cone, and the idea that melting one solid and recasting it into another keeps the volume unchanged. Water-flow and painting-cost questions are built on the same formulas.',
   place: 'Volume and surface-area questions are staples of aptitude papers, usually as melting-and-recasting or cost-of-painting problems.',
   real: 'Tank capacity, packaging, pipe flow and material costing all depend on solid measures.',
@@ -81,7 +80,6 @@ build(ch25, q25);
 const ch26 = C({
   n: 26, id: 'y3-quant-clocks', cat: 'quant', title: 'Clocks',
   tag: 'Angle between hands, overlaps, right angles, mirror images and faulty clocks',
-  url: 'https://www.indiabix.com/aptitude/clock/',
   over: 'A clock is a circle with 12 hours or 60 minute marks. The minute hand moves 6° per minute and the hour hand 0.5° per minute, so the minute hand gains 5.5° per minute on the hour hand. This chapter uses that relative speed to find the angle between the hands, the times at which they overlap or are at right angles or opposite, and the effect of a clock that gains or loses time.',
   place: 'Clock problems are common as short questions in company aptitude tests, often with a direct formula.',
   real: 'Scheduling, shift timings and the design of analogue instruments use this angular reasoning.',
@@ -157,7 +155,6 @@ build(ch26, q26);
 const ch27 = C({
   n: 27, id: 'y3-quant-calendars', cat: 'quant', title: 'Calendars',
   tag: 'Odd days, leap years, day of the week for any date and repeating calendars',
-  url: 'https://www.indiabix.com/aptitude/calendar/',
   over: 'A calendar problem asks for the day of the week on a given date or the year in which a calendar repeats. The key idea is odd days: the remainder when the number of days is divided by 7. An ordinary year has 1 odd day and a leap year has 2. Century rules give 0 odd days for 400 years, which lets any date be handled by splitting the years.',
   place: 'Calendar questions are common short questions in company aptitude papers and need only careful counting.',
   real: 'Scheduling, payroll cycles, and software date libraries use the same arithmetic.',

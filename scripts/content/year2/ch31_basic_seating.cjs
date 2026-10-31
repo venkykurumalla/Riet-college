@@ -24,7 +24,6 @@ const chapter = {
   title: 'Basic Seating Arrangement',
   tagline: 'Year 2 — Circular arrangements: left and right, opposite and neighbours',
   minutes: 55,
-  morePractice: 'https://www.indiabix.com/verbal-reasoning/seating-arrangement/',
   overview: 'In a circular seating arrangement, a group of people sit around a table. You are given clues such as "A sits opposite D", "B is second to the right of C" or "E is not adjacent to F" and must place everyone and answer questions. The key to accuracy is knowing which way is left and right for a person who faces the centre or faces outward, and drawing a circle with numbered seats.',
   placement: 'Seating arrangement questions are commonly asked in company reasoning rounds, usually as a set of five questions based on one arrangement.',
   realWorld: 'Planning seats at a round table, scheduling duties in a rotation and setting up round-table meetings use the same reasoning.',

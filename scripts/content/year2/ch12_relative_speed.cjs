@@ -5,7 +5,6 @@ const chapter = {
   title: 'Relative Speed',
   tagline: 'Year 2 — Moving towards, away from and after each other, and circular tracks',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/time-and-distance/',
   overview: 'Relative speed is the speed of one moving object as seen from another. When two objects move towards each other, their closing speed is the sum of their speeds. When they move in the same direction, the gap changes at the difference of their speeds. This one idea solves meeting, chasing, overtaking and circular-track problems.',
   placement: 'Relative speed questions are commonly asked in company aptitude rounds, and the same concept is needed for trains and boats.',
   realWorld: 'Two cars approaching each other on a highway, a police car chasing a vehicle and two joggers on a circular park track are all relative-speed situations.',

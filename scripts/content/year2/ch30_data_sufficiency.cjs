@@ -8,7 +8,6 @@ const chapter = {
   title: 'Introduction to Data Sufficiency',
   tagline: 'Year 2 — Deciding whether the given statements are enough to answer a question',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/verbal-reasoning/data-sufficiency/',
   overview: 'A data sufficiency question asks a question and gives two statements. You do not have to find the answer; you only decide whether the information in the statements is enough to find a single definite answer. The possible verdicts are: statement I alone is sufficient, statement II alone is sufficient, both together are needed, each alone is sufficient, or even both together are not sufficient.',
   placement: 'Data sufficiency questions are commonly asked in company reasoning rounds. They test judgment about information rather than calculation, so they are quick when approached systematically.',
   realWorld: 'Deciding whether you have enough information to make a decision, such as quoting a project or diagnosing a fault, uses the same judgment.',

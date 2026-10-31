@@ -5,7 +5,6 @@ const chapter = {
   title: 'Algebraic Expressions',
   tagline: 'Year 2 — Identities, factorisation and evaluating expressions quickly',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/simplification/',
   overview: 'An algebraic expression combines numbers and letters with operations. The most useful tools in aptitude tests are the standard identities, such as (a + b)² and a² − b², which let you simplify, factorise and evaluate expressions without long arithmetic. A little algebra often turns a heavy calculation into a one-line answer.',
   placement: 'Algebraic identities are commonly used in company aptitude rounds for simplification questions and for finding values like a² + b² when a + b and ab are known.',
   realWorld: 'Simplifying formulas in engineering, checking expressions in code and reducing calculation effort by factoring all use the same identities.',

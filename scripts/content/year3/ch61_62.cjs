@@ -24,7 +24,6 @@ const yearsOther = (c) => yrs.filter((x) => x !== c).slice(0, 3).map(String);
 const ch61 = C({
   n: 61, id: 'y3-di-mixed-graph-di', cat: 'di', title: 'Mixed Graph (Bar + Line) DI',
   tag: 'A bar chart and a line chart on one set of axes: reading both and combining them',
-  url: 'https://www.indiabix.com/data-interpretation/',
   over: 'A mixed graph shows two kinds of data together, usually bars for an absolute quantity (such as revenue) and a line for a rate (such as profit percentage). The two are linked: the rate applies to the quantity, so multiplying them gives a new quantity (profit). The skill is to read each series on its own scale and then combine them correctly.',
   place: 'Bar-plus-line graphs are the standard "hard" graph in DI sections of company tests.',
   real: 'Company dashboards plot revenue as bars and margins as a line, and managers read profit from both.',
@@ -90,7 +89,6 @@ const skillOpts = (c) => skills.filter((s) => s !== c).slice(0, 3);
 const ch62 = C({
   n: 62, id: 'y3-di-radar-chart-di', cat: 'di', title: 'Radar/Spider Chart DI',
   tag: 'Several variables on spokes around a centre: reading values, profiles and comparisons',
-  url: 'https://www.indiabix.com/data-interpretation/',
   over: 'A radar (or spider) chart plots several variables on spokes that radiate from a centre, joining the points for each person or item into a polygon. Each spoke has its own scale starting at the centre. The chart is useful for comparing profiles: where one polygon sticks out beyond another, that item is stronger on that variable. In exams the polygon values are read from the rings; the questions are the same as for tables.',
   place: 'Radar charts appear in DI sets as the "unusual" chart type to test flexibility.',
   real: 'Skill profiles of candidates, product comparisons and performance reviews are often drawn as radar charts.',

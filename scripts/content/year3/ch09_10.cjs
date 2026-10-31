@@ -9,7 +9,6 @@ const atStart = (L, v1, v2) => { for (let t = 1; t < 100000; t++) if ((v1 * t) %
 const ch9 = C({
   n: 9, id: 'y3-quant-adv-relative-speed', cat: 'quant', title: 'Advanced Relative Speed — Circular Tracks',
   tag: 'Meeting times and meeting points of runners on a circular track',
-  url: 'https://www.indiabix.com/aptitude/time-and-distance/',
   over: 'On a straight road two objects meet at most once, but on a circular track runners keep meeting again and again. Two runners moving in the same direction meet when the faster has gained one full lap on the slower; in opposite directions they meet when together they have covered one full lap. The number of different meeting points on the track depends on the speed ratio. This chapter develops meeting time, meeting at the starting point and the number of meeting points.',
   place: 'Circular-track questions are commonly asked in company aptitude rounds as a harder application of relative speed, often with the phrase "meet for the first time at the starting point".',
   real: 'Laps on a running track, planets revolving around a star and two hands of a clock are circular-motion problems.',
@@ -84,7 +83,6 @@ build(ch9, q9);
 const ch10 = C({
   n: 10, id: 'y3-quant-circular-motion-races', cat: 'quant', title: 'Circular Motion and Races',
   tag: 'Races, start and beat, dead heats and time lead on straight and circular courses',
-  url: 'https://www.indiabix.com/aptitude/races-and-games/',
   over: 'A race compares the distance covered by competitors in the same time, or the time they take for the same distance. Terms such as "beats by", "gives a start of" and "dead heat" have precise meanings. On a circular course the same ideas combine with laps. The central fact is that in the same time the distances are in the ratio of the speeds.',
   place: 'Race questions are commonly asked in company aptitude rounds, usually with three runners and the phrase "A beats B by x metres and B beats C by y metres".',
   real: 'Athletics events, handicap races and relay timings use these calculations.',

@@ -10,7 +10,6 @@ const lc = (sentence, correct, wrongs, expl) => ({ q: `Choose the connector (or 
 const ch57 = C({
   n: 57, id: 'y3-verbal-logical-connectors', cat: 'verbal', title: 'Logical Connectors in Written Discourse',
   tag: 'Words that signal addition, contrast, cause, result, condition and sequence between ideas',
-  url: 'https://www.indiabix.com/verbal-ability/',
   over: 'Connectors (however, therefore, although, unless, moreover) tell the reader how two ideas are related. The same two clauses can say different things depending on the connector: adding, contrasting, giving a reason, giving a result, or setting a condition. Questions ask you to supply the connector that makes the relationship logical. The method is to name the relationship first, then pick the word that expresses it.',
   place: 'Connector questions are common in the verbal sections of company tests and also guide para jumbles and completions.',
   real: 'Choosing the right connector decides whether an email reads as logical or confused.',
@@ -84,7 +83,6 @@ const ae = (arg, stem, correct, wrongs, expl) => ({ q: `${arg}\n\n${stem}`, c: c
 const ch58 = C({
   n: 58, id: 'y3-verbal-argument-evaluation', cat: 'verbal', title: 'Argument Evaluation in Verbal Problems',
   tag: 'Judging the quality of arguments: fallacies, relevance, evidence, points at issue and principles',
-  url: 'https://www.indiabix.com/verbal-ability/',
   over: 'Argument evaluation asks you to judge reasoning as a whole: whether a reply answers the point, which statement is irrelevant, what two speakers actually disagree about, which argument is most convincing, and which common fallacy a piece of reasoning commits. It extends the strengthen-weaken skills by naming the errors, so that you can recognise them quickly in new contexts.',
   place: 'These items appear in the verbal sections of management and campus tests.',
   real: 'Weighing a proposal in a meeting or a claim in an advertisement uses the same skills.',

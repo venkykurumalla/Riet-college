@@ -13,7 +13,6 @@ const T3 = rc('The river that supplied this valley for ten thousand years now fa
 const ch47 = C({
   n: 47, id: 'y3-verbal-author-tone', cat: 'verbal', title: 'Author Tone and Attitude in RC',
   tag: 'Reading word choice, qualifiers and irony to name the author\'s attitude',
-  url: 'https://www.indiabix.com/verbal-ability/comprehension/',
   over: 'Tone is the author\'s attitude towards the subject, shown not by what is said but by how it is said. Adjectives, adverbs, qualifiers, rhetorical questions and irony all carry attitude. Tone questions ask you to name that attitude (sceptical, appreciative, urgent, neutral) or to say what a phrase is meant to convey. The skill is to read the choice of words, not just the facts.',
   place: 'Tone and attitude questions appear in nearly every advanced reading-comprehension set.',
   real: 'Telling whether an email is polite, irritated or sarcastic depends on the same cues.',
@@ -89,7 +88,6 @@ const M3 = rc('A translator does not carry words from one language to another as
 const ch48 = C({
   n: 48, id: 'y3-verbal-main-idea', cat: 'verbal', title: 'Main Idea and Central Theme Identification',
   tag: 'Finding the point of a whole passage: titles, purposes, summaries and what is not the main idea',
-  url: 'https://www.indiabix.com/verbal-ability/comprehension/',
   over: 'The main idea is the single point to which every paragraph contributes. Questions on it ask for the central theme, the best title, the primary purpose or the best summary. The right option always covers the whole passage but goes no further. This chapter shows how to find the controlling idea, how to tell it from details and examples, and how to reject options that are too narrow, too broad or simply true but irrelevant.',
   place: 'Main-idea questions open almost every comprehension set and are among the easiest marks if you read for the point.',
   real: 'Summing up a long email or report in one sentence is the same skill.',

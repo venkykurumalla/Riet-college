@@ -265,6 +265,5 @@
       "answerIndex": 2,
       "explanation": "1176 = 2³ × 3 × 7². The prime powers 2³ and 3 have odd exponents, so we multiply by 2 × 3 = 6 to get 2⁴ × 3² × 7²."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
+  ]
 }

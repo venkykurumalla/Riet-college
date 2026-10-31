@@ -5,7 +5,6 @@ const chapter = {
   title: 'Partnership Arithmetic',
   tagline: 'Year 2 — Sharing profit and loss by capital and time',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/partnership/',
   overview: 'In a partnership two or more people invest money in a business and share the profit or loss. The fair share of each partner is proportional to the amount of money they put in and the time for which it stays invested. The key quantity is therefore capital × time, and the profit is divided in the ratio of these products.',
   placement: 'Partnership questions are commonly asked in company aptitude rounds. They are ratio problems in a business setting, usually with two or three partners and one twist such as a late entry, a withdrawal or a salary for a working partner.',
   realWorld: 'Joint ventures, startup co-founders and shared investments all divide returns using capital and time.',

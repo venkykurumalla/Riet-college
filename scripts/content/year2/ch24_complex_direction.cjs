@@ -27,7 +27,6 @@ const chapter = {
   title: 'Complex Direction Sense',
   tagline: 'Year 2 — Multi-turn paths, diagonal directions, bearings and relative positions',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-reasoning/direction-sense-test/',
   overview: 'Complex direction questions use paths with many turns, turns through angles other than 90°, diagonal directions (North-east, South-west), shadows and the relative positions of several people or places. The method of Year 1 still works: keep running totals of East–West and North–South displacement, track the direction faced after each turn, and finish with Pythagoras and the compass direction.',
   placement: 'Direction sense questions with several turns and diagonal directions are commonly asked in company reasoning rounds.',
   realWorld: 'Navigation, drone flight plans, surveying and delivery routing use these same displacement calculations.',

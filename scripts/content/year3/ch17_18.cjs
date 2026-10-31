@@ -5,7 +5,6 @@ const { C } = require('../chap.cjs');
 const ch17 = C({
   n: 17, id: 'y3-quant-algebraic-inequalities', cat: 'quant', title: 'Algebraic Inequalities',
   tag: 'Linear and quadratic inequalities, modulus, sign analysis and maximum-minimum reasoning',
-  url: 'https://www.indiabix.com/aptitude/numbers/',
   over: 'An inequality asks for a range of values instead of a single value. The solving methods mirror those for equations, with one critical difference: multiplying or dividing by a negative number reverses the sign. This chapter covers linear inequalities, quadratic inequalities solved by sign analysis on the number line, modulus inequalities, and the quick AM-GM style bounds used in maximum and minimum questions.',
   place: 'Range and "how many integers satisfy" questions are common in company aptitude rounds and in quant sections that test number sense.',
   real: 'Budget limits, tolerance ranges in engineering and eligibility rules are all inequalities.',
@@ -80,7 +79,6 @@ build(ch17, q17);
 const ch18 = C({
   n: 18, id: 'y3-quant-adv-polynomial-equations', cat: 'quant', title: 'Advanced Polynomial Equations',
   tag: 'Sum and product of roots, factor and remainder theorems, higher-degree equations and root relations',
-  url: 'https://www.indiabix.com/aptitude/numbers/',
   over: 'Year 2 solved quadratics by factorising and by the formula. Year 3 looks at the relations between roots and coefficients (Vieta), the remainder and factor theorems for higher-degree polynomials, and equations whose roots are linked by a condition. The relations let you answer questions about the roots without finding them.',
   place: 'Questions such as "if α and β are the roots of …, find α² + β²" and "find k so that x − 1 is a factor" are standard in written aptitude tests.',
   real: 'Polynomial models in engineering, signal processing and curve fitting rely on root relations.',

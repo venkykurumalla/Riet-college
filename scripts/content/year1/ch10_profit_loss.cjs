@@ -5,7 +5,6 @@ const chapter = {
   title: 'Profit and Loss Basics',
   tagline: 'Year 1 Foundation — Cost price, selling price, profit and loss percentage, discount',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/aptitude/profit-and-loss/',
   overview: 'Profit and loss describe what happens in a sale. The price at which an item is bought is the cost price (CP) and the price at which it is sold is the selling price (SP). If SP is greater than CP the seller makes a profit; if SP is less, there is a loss. Profit and loss percentages are always calculated on the cost price, and discount percentages on the marked price.',
   placement: 'Profit and loss is commonly asked in company aptitude rounds, either on its own or combined with percentage, ratio and discount ideas. The same percentage reasoning is needed for interest and data interpretation.',
   realWorld: 'A shop buys a shirt for ₹400, marks it at ₹600, offers a discount and finally sells it for ₹540. The shop\'s profit, the discount given and the percentage gain are all profit-and-loss questions.',

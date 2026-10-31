@@ -5,7 +5,6 @@ const chapter = {
   title: 'Ordering and Sequencing',
   tagline: 'Year 2 — Ranking by comparisons, dictionary order, logical sequences and day problems',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-reasoning/logical-sequence-of-words/',
   overview: 'Ordering questions give you a few comparisons (A is taller than B; C is lighter than D) and ask who is tallest, lightest or in the middle. Sequencing questions ask you to arrange words in dictionary order, in a logical order (stages of a process, units of size) or by the day of the week. The key skill is to combine the comparisons into one ordered line and to read the answer from it.',
   placement: 'Ordering and sequencing questions are commonly asked in company reasoning rounds. They are quick if you build the full line before answering.',
   realWorld: 'Ranking candidates, scheduling events, ordering steps in a process and calendar calculations use these methods.',

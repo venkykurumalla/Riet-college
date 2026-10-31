@@ -70,7 +70,6 @@ const loan = policy('loan', rules3, ['Approve the loan', 'Refer to the manager',
 const ch44 = C({
   n: 44, id: 'y3-lr-analytical-decision-problems', cat: 'lr', title: 'Analytical Decision-Making Problems',
   tag: 'Applying a set of rules to individual cases: eligibility checks, tiers, exceptions and missing data',
-  url: 'https://www.indiabix.com/logical-reasoning/',
   over: 'An analytical decision problem gives a set of rules (for admissions, loans, recruitment or scholarships) and a profile of a case, and asks what the decision should be. There is no hidden trick, only discipline: test the conditions in a fixed order, apply exceptions only when the rule says so, and notice when a needed fact is missing, because then the right answer is that the data is inadequate.',
   place: 'Rule-based decision sets are popular in management and bank-recruitment tests, and they reward careful reading.',
   real: 'Loan officers, HR screeners and admissions committees make decisions exactly this way.',

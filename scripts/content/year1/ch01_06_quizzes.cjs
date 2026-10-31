@@ -2,7 +2,7 @@
 const { easy, medium, placement, buildQuizOnly } = require('../lib.cjs');
 
 // ---- Ch 1: Number System Fundamentals ----
-buildQuizOnly('y1-quant-num-sys', 'Number System Fundamentals', 'https://www.indiabix.com/aptitude/numbers/', [
+buildQuizOnly('y1-quant-num-sys', 'Number System Fundamentals', [
   easy('Which of the following numbers is prime?', 53, [51, 57, 91], '51 = 3 × 17, 57 = 3 × 19 and 91 = 7 × 13 are composite. 53 has no divisor other than 1 and itself, so it is prime.'),
   easy('The sum of the first 20 natural numbers is', 210, [200, 205, 420], 'Sum = n(n + 1)/2 = 20 × 21/2 = 210.'),
   easy('How many prime numbers are there between 1 and 20?', 8, [7, 9, 10], 'The primes are 2, 3, 5, 7, 11, 13, 17 and 19, which is 8 numbers.'),
@@ -28,7 +28,7 @@ buildQuizOnly('y1-quant-num-sys', 'Number System Fundamentals', 'https://www.ind
 ]);
 
 // ---- Ch 2: Divisibility Rules ----
-buildQuizOnly('y1-quant-divisibility', 'Divisibility Rules', 'https://www.indiabix.com/aptitude/numbers/', [
+buildQuizOnly('y1-quant-divisibility', 'Divisibility Rules', [
   easy('Which of the following numbers is divisible by 3?', 4821, [4822, 4825, 4829], 'A number is divisible by 3 if its digit sum is. 4821 has digit sum 4 + 8 + 2 + 1 = 15 is divisible by 3, while the other digit sums are 16, 19 and 23.'),
   easy('Which of the following numbers is divisible by 4?', 3216, [3214, 3218, 3222], 'Check the last two digits. 3216 ends in 16, which is divisible by 4, but 14, 18 and 22 are not.'),
   easy('Which of the following numbers is divisible by 5?', 2475, [2471, 2473, 2478], 'A number is divisible by 5 if it ends in 0 or 5. Only 2475 does.'),
@@ -54,7 +54,7 @@ buildQuizOnly('y1-quant-divisibility', 'Divisibility Rules', 'https://www.indiab
 ]);
 
 // ---- Ch 3: HCF and LCM Fundamentals ----
-buildQuizOnly('y1-quant-hcf-lcm', 'HCF and LCM Fundamentals', 'https://www.indiabix.com/aptitude/problems-on-hcf-and-lcm/', [
+buildQuizOnly('y1-quant-hcf-lcm', 'HCF and LCM Fundamentals', [
   easy('The HCF of 36 and 48 is', 12, [6, 9, 24], '36 = 2² × 3² and 48 = 2⁴ × 3. HCF = 2² × 3 = 12.'),
   easy('The LCM of 12 and 18 is', 36, [6, 54, 72], '12 = 2² × 3 and 18 = 2 × 3². LCM = 2² × 3² = 36.'),
   easy('The HCF of two numbers is 12 and their LCM is 180. If one number is 36, the other is', 60, [45, 54, 72], 'Product of the numbers = HCF × LCM = 12 × 180 = 2160. Other number = 2160 ÷ 36 = 60.'),
@@ -80,7 +80,7 @@ buildQuizOnly('y1-quant-hcf-lcm', 'HCF and LCM Fundamentals', 'https://www.india
 ]);
 
 // ---- Ch 4: Fractions and Decimals ----
-buildQuizOnly('y1-quant-fractions-decimals', 'Fractions and Decimals', 'https://www.indiabix.com/aptitude/decimal-fraction/', [
+buildQuizOnly('y1-quant-fractions-decimals', 'Fractions and Decimals', [
   easy('3/4 + 5/6 equals', '19/12', ['8/10', '4/3', '17/12'], 'LCM of 4 and 6 is 12. 3/4 = 9/12 and 5/6 = 10/12, so the sum is 19/12.'),
   easy('The decimal 0.375 as a fraction in the lowest terms is', '3/8', ['3/10', '37/100', '5/8'], '0.375 = 375/1000. Dividing by 125 gives 3/8.'),
   easy('The fraction 18/24 in the lowest terms is', '3/4', ['2/3', '9/12', '6/8'], 'HCF(18, 24) = 6, so 18/24 = 3/4.'),
@@ -106,7 +106,7 @@ buildQuizOnly('y1-quant-fractions-decimals', 'Fractions and Decimals', 'https://
 ]);
 
 // ---- Ch 5: Simplification & BODMAS ----
-buildQuizOnly('y1-quant-simplification', 'Simplification & BODMAS/PEMDAS', 'https://www.indiabix.com/aptitude/simplification/', [
+buildQuizOnly('y1-quant-simplification', 'Simplification & BODMAS/PEMDAS', [
   easy('Simplify: 18 + 12 ÷ 3 × 2 − 5', 21, [10, 27, 31], 'Division and multiplication come first, left to right: 12 ÷ 3 = 4, then 4 × 2 = 8. Then 18 + 8 − 5 = 21.'),
   easy('Simplify: (15 − 3) × 4 ÷ 6', 8, [2, 6, 12], 'Brackets first: 12. Then 12 × 4 = 48 and 48 ÷ 6 = 8.'),
   easy('Simplify: 2³ + 3² − 5', 12, [10, 14, 22], '2³ = 8 and 3² = 9. So 8 + 9 − 5 = 12.'),
@@ -132,7 +132,7 @@ buildQuizOnly('y1-quant-simplification', 'Simplification & BODMAS/PEMDAS', 'http
 ]);
 
 // ---- Ch 6: Basic Percentages ----
-buildQuizOnly('y1-quant-basic-percentages', 'Basic Percentages', 'https://www.indiabix.com/aptitude/percentage/', [
+buildQuizOnly('y1-quant-basic-percentages', 'Basic Percentages', [
   easy('25% of 480 is', 120, [96, 100, 140], '25% = 1/4, and 480 ÷ 4 = 120.'),
   easy('A student scores 72 out of 90. The percentage is', '80%', ['75%', '78%', '82%'], '72/90 × 100 = 80%.'),
   easy('15% of 360 is', 54, [48, 56, 60], '10% of 360 = 36 and 5% = 18. So 15% = 36 + 18 = 54.'),

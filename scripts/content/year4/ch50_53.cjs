@@ -1,7 +1,7 @@
 const { build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const { N, T, pc, round } = require('./q.cjs');
-const base = { year: 4, cat: 'rev', category: 'Mock Test & Revision Preparation', url: 'https://www.indiabix.com/aptitude/' };
+const base = { year: 4, cat: 'rev', category: 'Mock Test & Revision Preparation' };
 const spec = (o) => C({ ...base, ...o });
 const NOTE = 'The figures in this chapter\'s examples are illustrative and not real test statistics.';
 

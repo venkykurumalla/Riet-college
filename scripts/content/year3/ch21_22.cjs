@@ -5,7 +5,6 @@ const { C } = require('../chap.cjs');
 const ch21 = C({
   n: 21, id: 'y3-quant-geometric-progressions', cat: 'quant', title: 'Geometric Progressions',
   tag: 'nth term, finite and infinite sums, geometric mean and growth word problems',
-  url: 'https://www.indiabix.com/aptitude/numbers/',
   over: 'A geometric progression (GP) multiplies each term by a fixed common ratio r. This chapter covers the nth term, the sum of n terms, the sum to infinity when |r| < 1, the geometric mean, and word problems such as bouncing balls, doubling populations and repeating decimals.',
   place: 'GP questions appear in aptitude tests as number series, compound growth and recurring-decimal problems.',
   real: 'Compound interest, population growth and the decay of a bouncing ball follow geometric patterns.',
@@ -80,7 +79,6 @@ build(ch21, q21);
 const ch22 = C({
   n: 22, id: 'y3-quant-agp-hp', cat: 'quant', title: 'Arithmetico-Geometric and Harmonic Progressions',
   tag: 'AGP series, harmonic progressions, and the relation between AM, GM and HM',
-  url: 'https://www.indiabix.com/aptitude/numbers/',
   over: 'Besides AP and GP there are two more progression types that appear in aptitude tests. A harmonic progression (HP) is a sequence whose reciprocals form an AP. An arithmetico-geometric progression (AGP) multiplies the terms of an AP by the terms of a GP. This chapter also covers the relation AM ≥ GM ≥ HM and its use in maximum and minimum questions.',
   place: 'HP and the AM-GM-HM relation are asked directly in company aptitude and logic papers; AGP appears in advanced sections.',
   real: 'Average speed over equal distances is a harmonic mean, which links this chapter to time-and-distance problems.',

@@ -74,7 +74,6 @@ const dsAll = [ds1, ds3, ds4, ds5, ds6, ds2, ds8, ds9, ds10, ds11, ds12, ds7, ds
 const ch42 = C({
   n: 42, id: 'y3-lr-adv-data-sufficiency', cat: 'lr', title: 'Advanced Data Sufficiency',
   tag: 'Deciding whether the given statements are enough to answer a question, without solving it fully',
-  url: 'https://www.indiabix.com/logical-reasoning/',
   over: 'A data-sufficiency question asks a question and gives two statements. You do not have to find the answer; you have to decide whether the statements provide enough information to find it. There are four outcomes: statement I alone is enough, statement II alone is enough, both together are needed, or even both together are not enough. The discipline is to judge each statement separately first, then together, and never to bring in outside facts.',
   place: 'Data-sufficiency items appear in logical-reasoning and quantitative sections of company tests, especially in management-oriented hiring.',
   real: 'Deciding whether you have enough information to make a decision, before spending time on the analysis, is a real-world version of this skill.',
@@ -183,7 +182,6 @@ const m1 = mQs(mp1, L1), m2 = mQs(mp2, L2), m3 = mQs(mp3, L3);
 const ch43 = C({
   n: 43, id: 'y3-lr-complex-matrix-puzzles', cat: 'lr', title: 'Complex Matrix and Grid Puzzles',
   tag: 'Several people, several attributes: elimination grids, linked clues and cross-referencing',
-  url: 'https://www.indiabix.com/logical-reasoning/',
   over: 'A matrix puzzle assigns several attributes (profession, city, hobby) to a set of people, with one value of each attribute per person. A grid with people down one side and values across the top lets you cross out impossible cells and fill in forced ones. The technique is to record every clue in the grid, look for rows and columns with only one cell left, and use linked clues ("the doctor lives in Pune") to merge attributes into bundles.',
   place: 'Grid puzzles with 4–5 people and 2–3 attributes are the standard "hard" puzzle in company reasoning tests.',
   real: 'Matching customers to products, tasks to people and rooms to guests uses the same elimination logic.',

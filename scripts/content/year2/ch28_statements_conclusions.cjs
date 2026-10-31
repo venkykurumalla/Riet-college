@@ -8,7 +8,6 @@ const chapter = {
   title: 'Statements and Conclusions',
   tagline: 'Year 2 — Deciding which inferences follow definitely from a given statement',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/statement-and-conclusion/',
   overview: 'In a statements-and-conclusions question you are given one or two statements and some conclusions, and you must decide which conclusions follow from the statements alone. A conclusion follows if it is a necessary consequence of the statement. It does not follow if it brings in new facts, if it only might be true, or if it contradicts the statement. The golden rule is: use only the information given, nothing from outside.',
   placement: 'Statements and conclusions questions are commonly asked in company reasoning rounds, with two conclusions and four fixed options.',
   realWorld: 'Reading a news report, a policy notice or a contract and deciding what it definitely says versus what you are assuming uses this skill.',

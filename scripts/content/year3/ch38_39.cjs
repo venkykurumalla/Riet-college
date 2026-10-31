@@ -14,7 +14,6 @@ const arg = (question, a1, a2, ans, expl) => {
 const ch38 = C({
   n: 38, id: 'y3-lr-statements-arguments', cat: 'lr', title: 'Statements and Arguments — Strong vs Weak',
   tag: 'Judging arguments for and against a proposal: relevance, importance, specificity and practicality',
-  url: 'https://www.indiabix.com/logical-reasoning/statement-and-argument/',
   over: 'In a statement-and-argument question you are given a proposal (usually "Should X be done?") and two arguments. You do not decide whether the proposal is right; you decide whether each argument is strong or weak. A strong argument is important, directly related to the proposal and based on facts or sound reasoning. A weak argument is vague, trivial, based on personal likes, or only loosely related.',
   place: 'Argument-strength questions are a regular part of logical-reasoning sections in company tests.',
   real: 'Weighing the reasons offered in a meeting, a debate or a policy note uses the same judgement.',
@@ -92,7 +91,6 @@ const ce = (s1, s2, ans, expl) => {
 const ch39 = C({
   n: 39, id: 'y3-lr-cause-and-effect', cat: 'lr', title: 'Cause and Effect Relationships',
   tag: 'Deciding whether one event causes the other, both share a cause, or they are unrelated',
-  url: 'https://www.indiabix.com/logical-reasoning/cause-and-effect/',
   over: 'A cause-and-effect question gives two statements about events and asks how they are related. One may be the cause and the other the effect, both may be effects of a common cause, or they may be independent. The test is the time order and the direct link: a cause produces its effect, usually later; a common cause explains why two things happened together; and two statements with no link are independent.',
   place: 'Cause-and-effect pairs are common in logical-reasoning sections and are quick to solve with a clear method.',
   real: 'Tracing the root cause of a fault, a delay or a price change uses the same reasoning.',

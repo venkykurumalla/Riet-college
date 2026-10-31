@@ -27,7 +27,6 @@ const coO = (c) => co.filter((x) => x !== c).slice(0, 3);
 const ch65 = C({
   n: 65, id: 'y3-di-high-diff-di', cat: 'di', title: 'High-Difficulty DI — Multi-Step Computation',
   tag: 'Chains of percentages of percentages: gross profit, operating profit, tax and net profit across companies',
-  url: 'https://www.indiabix.com/data-interpretation/',
   over: 'High-difficulty DI sets give data in stages: sales, then costs as a percentage of sales, then expenses as a percentage of sales, then tax as a percentage of profit. A question may need four or five steps in the right order, and each percentage has its own base. The skill is to set up a calculation pipeline once for each row and then reuse it, and to avoid the classic errors of adding percentages with different bases.',
   place: 'These multi-step sets are the "hard" end of the DI section in company and management tests.',
   real: 'Income statements run exactly this way: revenue, cost of goods, operating costs, tax and net profit.',
@@ -91,7 +90,6 @@ const hiB = classes[boys.indexOf(Math.max(...boys))];
 const ch66 = C({
   n: 66, id: 'y3-di-ratio-percentage-di', cat: 'di', title: 'Combined Ratio and Percentage DI',
   tag: 'Totals given with ratios: converting ratios to numbers and then to percentages, differences and combined ratios',
-  url: 'https://www.indiabix.com/data-interpretation/',
   over: 'In many DI sets the data are given as totals and ratios rather than as direct numbers. The first step is to turn each ratio into actual values by splitting the total in the given ratio. After that you can compute percentages, differences and combined ratios. A particular trap is to add ratios directly (3 : 2 and 5 : 3 do not add to 8 : 5); you must convert to numbers first.',
   place: 'Ratio-based DI sets are common in company and bank tests.',
   real: 'Gender ratios, budget splits and market shares are often published as ratios.',

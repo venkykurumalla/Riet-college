@@ -5,7 +5,6 @@ const chapter = {
   title: 'Logical Connectives',
   tagline: 'Year 2 — And, or, if-then, only if, unless, negation and valid inferences',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/logical-deduction/',
   overview: 'Logical connectives are the small words that join statements: and, or, if…then, only if, unless and not. Their meaning is exact. "P and Q" is true only when both are true. "P or Q" is true when at least one is true. "If P then Q" is false only when P is true and Q is false. Understanding these meanings lets you negate statements correctly and draw valid conclusions.',
   placement: 'Questions on connectives, negations and conditional statements are commonly asked in company reasoning rounds, in the form of "which of the following follows" or "which is the negation".',
   realWorld: 'Programming conditions, legal clauses and search queries (AND, OR, NOT) all follow these rules.',

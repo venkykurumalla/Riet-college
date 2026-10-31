@@ -14,7 +14,6 @@ const chapter = {
   title: 'Venn Diagrams',
   tagline: 'Year 2 — Set relationships and the inclusion-exclusion rule for two and three sets',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/verbal-reasoning/venn-diagrams/',
   overview: 'A Venn diagram uses overlapping circles to show how groups relate. Two kinds of question are asked. In the first, you choose the diagram that correctly represents the relation between given classes (cats and animals, doctors and women). In the second, you use numbers: how many belong to only one group, to both, or to neither. The counting problems are solved with the inclusion-exclusion rule.',
   placement: 'Venn diagram questions are commonly asked in company reasoning rounds, in both the diagram-choice form and the counting form.',
   realWorld: 'Survey analysis, overlapping customer segments and database queries (AND, OR, NOT) all use set logic.',

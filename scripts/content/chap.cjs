@@ -30,7 +30,7 @@ function C(s) {
   }));
   return {
     id: s.id, year: s.year || 3, category: s.category || CATS[cat], num: s.n, difficulty: 'Advanced',
-    title: s.title, tagline: 'Year ' + (s.year || 3) + ' — ' + s.tag, minutes: s.min || 55, morePractice: s.url,
+    title: s.title, tagline: 'Year ' + (s.year || 3) + ' — ' + s.tag, minutes: s.min || 55,
     overview: s.over, placement: s.place, realWorld: s.real,
     objectives: s.obj, prereq: s.pre, refresher: s.refresh,
     defs: s.defs, intuition: s.intu, mental: s.mental,

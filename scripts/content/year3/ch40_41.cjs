@@ -19,7 +19,6 @@ const item = (kind, stmt, a, b, ans, expl, swap) => {
 const ch40 = C({
   n: 40, id: 'y3-lr-assumptions-inferences', cat: 'lr', title: 'Assumptions, Inferences, and Courses of Action',
   tag: 'What a statement takes for granted, what it lets you conclude, and what should be done about it',
-  url: 'https://www.indiabix.com/logical-reasoning/statement-and-assumption/',
   over: 'Three related question types start from a short statement. An assumption is something the speaker takes for granted for the statement to make sense. An inference is something you can safely conclude from it. A course of action is a step that should be taken in response to a problem. The key is to keep them apart: assumptions sit behind the statement, inferences come out of it, and courses of action are about what to do next.',
   place: 'These three types appear together in most logical-reasoning papers.',
   real: 'Reading between the lines of a notice, a report or a plan, and deciding what to do about it, uses all three skills.',
@@ -96,7 +95,6 @@ const A = 'Which of the following is an assumption on which the argument depends
 const ch41 = C({
   n: 41, id: 'y3-lr-critical-reasoning', cat: 'lr', title: 'Critical Reasoning — Strengthen and Weaken Arguments',
   tag: 'Premises, conclusions, hidden assumptions and the evidence that supports or undermines them',
-  url: 'https://www.indiabix.com/logical-reasoning/',
   over: 'A critical-reasoning question gives a short argument: some evidence (premises) leading to a conclusion. You are asked which new fact would make the conclusion more likely (strengthen), less likely (weaken), or which unstated belief the argument needs (assumption). The skill is to find the gap between premise and conclusion, because strengthening fills the gap and weakening opens it wider.',
   place: 'Critical-reasoning items are a standard element of the reasoning sections in company and management tests.',
   real: 'Evaluating a business case, a policy proposal or a news claim requires the same moves.',

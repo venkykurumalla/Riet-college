@@ -32,7 +32,6 @@ function rearr(pi, kind) {
 const ch51 = C({
   n: 51, id: 'y3-verbal-sentence-rearrangement', cat: 'verbal', title: 'Sentence Rearrangement Within Paragraphs',
   tag: 'Four jumbled sentences between a fixed opening and a fixed closing sentence',
-  url: 'https://www.indiabix.com/verbal-ability/ordering-of-sentences/',
   over: 'In this format the first and last sentences of a paragraph are given (S1 and S6), and four sentences in between, labelled P, Q, R and S, are jumbled. The fixed ends make the task easier than a full jumble, because S1 tells you what the paragraph is about and S6 tells you where it must arrive. The job is to build the bridge between them.',
   place: 'Sentence-rearrangement items with S1 and S6 given are a classic of verbal sections in campus and bank tests.',
   real: 'Fitting new points into the middle of a drafted document uses the same cues.',
@@ -92,7 +91,6 @@ const pc = (para, correct, wrongs, expl) => ({ q: `Choose the sentence that best
 const ch52 = C({
   n: 52, id: 'y3-verbal-para-completion', cat: 'verbal', title: 'Paragraph Completion — Tone-Matching',
   tag: 'Choosing the closing sentence that fits the logic, direction and tone of the paragraph',
-  url: 'https://www.indiabix.com/verbal-ability/completing-statements/',
   over: 'A paragraph-completion question gives a paragraph without its final sentence and asks you to choose the sentence that finishes it best. The right sentence continues the direction of the argument (support, contrast or result), keeps the tone (formal, ironic, sad, cautious), stays in scope, and neither repeats nor leaps ahead. Wrong options typically fail on one of these four.',
   place: 'Paragraph-completion items appear in verbal sections along with para jumbles and sentence completion.',
   real: 'Ending an email, a report or a paragraph in the right voice uses the same judgement.',

@@ -18,7 +18,6 @@ const chapter = {
   title: 'Line Graph Interpretation',
   tagline: 'Year 2 — Trends, turning points, rates of change and comparing two lines',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/data-interpretation/line-charts/',
   overview: 'A line graph joins data points with line segments to show how a quantity changes over time. Rising segments show increases, falling segments show decreases, and the steepness shows the size of the change. With two or more lines you can compare trends, find where one line is above the other and where they cross. Questions ask for values, differences, percentage change, averages and trends.',
   placement: 'Line graph sets are commonly asked in company aptitude rounds, and they test whether you can read trends as well as values.',
   realWorld: 'Share prices, monthly sales, temperature records and website traffic are all drawn as line graphs.',

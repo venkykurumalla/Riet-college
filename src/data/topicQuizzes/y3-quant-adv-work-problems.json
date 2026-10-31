@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "Let A = x and B = x + 5. 1/x + 1/(x + 5) = 1/6 gives x² − 7x − 30 = 0, so x = 10."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/aptitude/time-and-work/"
+  ]
 }

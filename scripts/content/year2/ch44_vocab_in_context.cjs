@@ -7,7 +7,6 @@ const chapter = {
   title: 'Vocabulary in Context',
   tagline: 'Year 2 — Working out the meaning of an unfamiliar word from the clues around it',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
   overview: 'You will often meet a word you do not know. The sentence around it usually gives clues to its meaning: a definition, a synonym or antonym, an example, a contrast, or the general sense of the passage. Vocabulary-in-context questions train you to use these clues and to choose the meaning that fits. This builds the habit of learning new words from reading.',
   placement: 'Vocabulary-in-context questions are commonly asked in the verbal ability section of company aptitude rounds, especially inside reading comprehension passages.',
   realWorld: 'When you read reports, articles or documents with new words, context clues let you keep reading and understand without a dictionary.',

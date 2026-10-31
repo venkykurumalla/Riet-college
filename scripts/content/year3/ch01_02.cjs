@@ -13,7 +13,6 @@ const first = (f, lo = 1, hi = 100000) => { for (let i = lo; i <= hi; i++) if (f
 const ch1 = C({
   n: 1, id: 'y3-quant-adv-number-properties', cat: 'quant', title: 'Advanced Number Properties',
   tag: 'Divisor counts and sums, co-primes, perfect squares and prime-factor reasoning',
-  url: 'https://www.indiabix.com/aptitude/numbers/',
   over: 'Year 1 and 2 used divisibility rules and HCF and LCM. Year 3 uses the prime factorisation of a number as a complete description of it. From the factorisation N = p^a × q^b × r^c you can count the divisors, add them, count the odd and even divisors, count the perfect-square or perfect-cube divisors, and count the numbers below N that are co-prime to it. These results turn long listing problems into one-line calculations.',
   place: 'Number-property questions are commonly asked in company aptitude rounds in the harder quantitative sections, often as "how many factors" or "how many numbers up to N are co-prime to N".',
   real: 'Gear teeth and cycle lengths (LCM and HCF), cryptographic keys (products of two large primes) and scheduling problems are built on the same factor structure.',
@@ -88,7 +87,6 @@ build(ch1, q1);
 const ch2 = C({
   n: 2, id: 'y3-quant-remainder-theorems', cat: 'quant', title: 'Remainder Theorems (Chinese, Fermat\'s)',
   tag: 'Modular arithmetic, Fermat\'s little theorem, Euler\'s theorem and the Chinese remainder theorem',
-  url: 'https://www.indiabix.com/aptitude/numbers/',
   over: 'Remainder problems ask for the remainder when a very large number (a power, a product, a factorial) is divided by a small number. Modular arithmetic lets you replace numbers by their remainders at every step. Three theorems shorten the work: Fermat\'s little theorem for prime moduli, Euler\'s theorem for general moduli, and the Chinese remainder theorem for combining conditions on different moduli.',
   place: 'Remainder-theorem questions are commonly asked in the hardest quantitative items of company aptitude rounds, often in the form "remainder when 2^100 is divided by 7".',
   real: 'Check digits, hash functions, calendar calculations and public-key cryptography all use modular arithmetic.',

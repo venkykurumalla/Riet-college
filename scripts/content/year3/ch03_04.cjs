@@ -8,7 +8,6 @@ const vnum = (p, n) => { let c = 0; while (n % p === 0) { n /= p; c++; } return 
 const ch3 = C({
   n: 3, id: 'y3-quant-unit-digit-cycles', cat: 'quant', title: 'Unit Digit Cycles for Powers',
   tag: 'The repeating pattern of last digits and how to read it for very large powers',
-  url: 'https://www.indiabix.com/aptitude/numbers/',
   over: 'The last digit of a power depends only on the last digit of the base, and the last digits of successive powers repeat in a short cycle. Knowing the cycle for each digit lets you find the unit digit of numbers like 7^2023 without computing them. The same idea, extended to two digits, gives the last two digits of a power.',
   place: 'Unit-digit questions are commonly asked in company aptitude rounds, usually as "the unit digit of 7^123 + 3^45" or of a product of several powers.',
   real: 'Checksums, hashing and calendar-like cycles are built on the same repeating patterns.',
@@ -83,7 +82,6 @@ build(ch3, q3);
 const ch4 = C({
   n: 4, id: 'y3-quant-trailing-zeros', cat: 'quant', title: 'Trailing Zeros in Factorials and Products',
   tag: 'Counting zeros through the powers of 5 and 2, and the highest power of a number in n!',
-  url: 'https://www.indiabix.com/aptitude/numbers/',
   over: 'The number of trailing zeros of a number is the number of times 10 divides it. Since 10 = 2 × 5, it equals the smaller of the exponent of 2 and the exponent of 5 in the prime factorisation. In factorials and products the powers of 2 are plentiful, so the count is decided by the powers of 5. The same method gives the highest power of any number that divides n!.',
   place: 'Trailing-zero questions are commonly asked in company aptitude rounds, usually as "the number of zeros at the end of 100!" or of a given product.',
   real: 'Counting factors in large products is used in combinatorics, probability and in sizing numbers in computing.',

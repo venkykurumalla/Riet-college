@@ -5,7 +5,6 @@ const chapter = {
   title: 'Boats and Streams',
   tagline: 'Year 2 — Downstream, upstream, still-water speed and stream speed',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/boats-and-streams/',
   overview: 'When a boat moves in a river, the water current helps or opposes it. Moving with the current (downstream) the effective speed is the boat\'s speed in still water plus the speed of the stream. Moving against the current (upstream) it is the boat\'s speed minus the stream speed. The whole chapter follows from these two sentences and the basic speed-time-distance relation.',
   placement: 'Boats and streams questions are commonly asked in company aptitude rounds. They look different from trains but are the same relative-speed idea applied to water.',
   realWorld: 'Ferry schedules, river cruises and swimming across a current all depend on speeds with and against the stream.',

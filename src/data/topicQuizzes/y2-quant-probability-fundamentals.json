@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "The product is odd only if both are odd: 3 × 3 = 9 of 36, i.e. 1/4. So even = 3/4."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/aptitude/probability/"
+  ]
 }

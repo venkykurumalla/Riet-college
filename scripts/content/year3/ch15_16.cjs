@@ -9,7 +9,6 @@ const near = (n, d) => [fr(n + 1, d), fr(Math.max(1, n - 1), d), fr(n + 2, d + 1
 const ch15 = C({
   n: 15, id: 'y3-quant-adv-probability', cat: 'quant', title: 'Advanced Probability — Conditional and Compound',
   tag: 'Conditional probability, independence, repeated trials and draws without replacement',
-  url: 'https://www.indiabix.com/aptitude/probability/',
   over: 'Year 2 probability used single events. Year 3 handles compound events: the probability that A and B both occur, that A or B occurs, and the probability of A given that B has already occurred (conditional probability). It also covers independent trials repeated several times and draws without replacement. The unifying rule is the multiplication rule: P(A and B) = P(A) × P(B | A).',
   place: 'Compound and conditional probability questions are commonly asked in company aptitude rounds with cards, dice, coins and balls in bags.',
   real: 'Quality control sampling, medical test accuracy and risk assessment depend on conditional probability.',
@@ -84,7 +83,6 @@ build(ch15, q15);
 const ch16 = C({
   n: 16, id: 'y3-quant-bayes-theorem', cat: 'quant', title: 'Bayes\' Theorem Basics',
   tag: 'Updating a probability after evidence: total probability, tree diagrams and reverse conditioning',
-  url: 'https://www.indiabix.com/aptitude/probability/',
   over: 'Bayes\' theorem reverses a conditional probability. If you know how likely an outcome is under each of several causes, it tells you how likely each cause is once the outcome is seen. It uses the law of total probability for the denominator: the overall chance of the outcome across all causes. A tree diagram or a table of counts makes the calculation straightforward.',
   place: 'Bayes-type questions are commonly asked in company aptitude rounds as "a bag is chosen at random and a ball is drawn… find the probability that it came from bag 1".',
   real: 'Diagnosing a disease from a test result, spam filters and fault tracing in manufacturing use the same reasoning.',

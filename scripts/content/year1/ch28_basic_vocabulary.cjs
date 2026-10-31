@@ -5,7 +5,6 @@ const chapter = {
   title: 'Basic Vocabulary',
   tagline: 'Year 1 Foundation — Word meanings, word formation, confusable words and context clues',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
   overview: 'Vocabulary is the set of words you know and can use correctly. For placement tests, vocabulary questions ask you to give the meaning of a word, pick the right word for a blank, choose the word with the correct spelling or form, or substitute one word for a phrase. A strong vocabulary is built less by memorising long lists and more by learning word parts (prefixes, roots, suffixes), word families, and the context in which words appear.',
   placement: 'Vocabulary questions are commonly asked in the verbal ability section of company aptitude rounds, in the form of meanings, fill-in-the-blanks, one-word substitutions and confusable-word pairs.',
   realWorld: 'The right word makes an email clear and professional. Choosing "advice" instead of "advise", or "effect" instead of "affect", is the kind of detail a reader notices.',

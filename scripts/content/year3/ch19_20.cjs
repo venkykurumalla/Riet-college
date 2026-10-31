@@ -5,7 +5,6 @@ const { C } = require('../chap.cjs');
 const ch19 = C({
   n: 19, id: 'y3-quant-sequences-series', cat: 'quant', title: 'Sequences and Series',
   tag: 'Pattern finding, nth term, sum of special series and difference-of-differences methods',
-  url: 'https://www.indiabix.com/aptitude/numbers/',
   over: 'A sequence is an ordered list of numbers following a rule; a series is the sum of its terms. This chapter teaches how to find the rule (first differences, second differences, ratios), how to write the nth term, and how to sum the standard series: natural numbers, squares, cubes, odd and even numbers. These tools feed the next chapters on AP, GP and mixed progressions.',
   place: 'Missing-term and nth-term questions are common in aptitude papers and in number-series rounds.',
   real: 'Repayment schedules, population patterns and pattern recognition in data all use sequences.',
@@ -82,7 +81,6 @@ build(ch19, q19);
 const ch20 = C({
   n: 20, id: 'y3-quant-arithmetic-progressions', cat: 'quant', title: 'Arithmetic Progressions',
   tag: 'nth term, sum of n terms, arithmetic mean, and AP word problems',
-  url: 'https://www.indiabix.com/aptitude/numbers/',
   over: 'An arithmetic progression (AP) is a sequence in which every term is obtained by adding a fixed number, the common difference d, to the previous term. This chapter develops the nth-term and sum formulas, the properties of terms equidistant from the ends, three-term AP tricks, and standard word problems on instalments, seating rows and counting multiples.',
   place: 'AP questions are among the most frequent number-series questions in company aptitude tests, often as "find the sum" or "how many terms" problems.',
   real: 'Salary increments of a fixed amount, equal instalment increases and stacked seating all form arithmetic progressions.',

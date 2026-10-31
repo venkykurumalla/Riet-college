@@ -5,7 +5,6 @@ const chapter = {
   title: 'Discounts and Marked Price',
   tagline: 'Year 2 — Marked price, discount, successive discounts and mark-up',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/profit-and-loss/',
   overview: 'Shops print a marked price (MP) on goods and then offer a discount, so the selling price (SP) is lower than the marked price. The discount is always a percentage of the marked price, while profit and loss are percentages of the cost price. This chapter combines the two ideas: how much should an item be marked so that after a discount the shopkeeper still earns the target profit?',
   placement: 'Discount and marked price questions are commonly asked in company aptitude rounds, often as a mark-up followed by one or two successive discounts.',
   realWorld: 'Festival sales, "buy 2 get 1 free" offers and coupon discounts are all discount calculations.',

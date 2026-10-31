@@ -18,7 +18,6 @@ const chapter = {
   title: 'Ratio-Based DI',
   tagline: 'Year 2 — Tables where the data is given as ratios of totals',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/data-interpretation/table-charts/',
   overview: 'In a ratio-based DI set the table gives a total and one or more ratios that split it, such as the ratio of males to females or of literate to illiterate persons. To work with it, convert each ratio into actual numbers: if the total is 600 thousand and the ratio is 7 : 5, one part is 50 thousand, so there are 350 thousand males and 250 thousand females. After that, every question is arithmetic on numbers.',
   placement: 'Ratio-based DI sets are commonly asked in company aptitude rounds and combine ratio skills with table reading.',
   realWorld: 'Demographic reports, gender ratios in companies and quality-control splits are presented as ratios.',

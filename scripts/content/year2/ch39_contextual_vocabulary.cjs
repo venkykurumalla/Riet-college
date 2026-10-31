@@ -7,7 +7,6 @@ const chapter = {
   title: 'Contextual Vocabulary',
   tagline: 'Year 2 — Words with several meanings and how the sentence decides which one is meant',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
   overview: 'Many English words have more than one meaning. "Bank" can be the side of a river or a financial institution; "fair" can mean just, light-coloured or fairly good. Contextual vocabulary questions give a sentence and ask what a word means in that sentence. The surrounding words decide the meaning, so the skill is to read the sentence carefully and test each meaning against it.',
   placement: 'Contextual vocabulary questions are commonly asked in the verbal ability section of company aptitude rounds and in reading comprehension passages.',
   realWorld: 'Understanding contracts, instructions and news reports depends on choosing the right sense of familiar words.',

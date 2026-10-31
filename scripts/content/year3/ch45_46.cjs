@@ -14,7 +14,6 @@ const Cc = rc('Few people now write by hand for more than a signature or a shopp
 const ch45 = C({
   n: 45, id: 'y3-verbal-adv-rc', cat: 'verbal', title: 'Advanced Reading Comprehension — Long Passages',
   tag: 'Reading 150–250 word passages for structure, detail, inference, tone and vocabulary under time pressure',
-  url: 'https://www.indiabix.com/verbal-ability/comprehension/',
   over: 'Advanced reading comprehension tests whether you can follow an argument across a long passage, not just locate a sentence. Each passage has a structure (a claim, support, a qualification and a conclusion), and each question targets a part of it: the main idea, a stated detail, an implication, the author\'s attitude, or the meaning of a word in context. Reading with the structure in mind makes questions quick to answer and wrong options easy to spot.',
   place: 'Passages of 150–250 words with 5–7 questions are standard in company and campus verbal sections.',
   real: 'Reading reports, policy notes and emails and extracting what matters is the same skill.',
@@ -90,7 +89,6 @@ const F = rc('A city recorded 480 cycling accidents last year, up from 400 the y
 const ch46 = C({
   n: 46, id: 'y3-verbal-inference-comprehension', cat: 'verbal', title: 'Inference-Based RC Questions',
   tag: 'Questions that ask what a passage implies, assumes or supports rather than what it says',
-  url: 'https://www.indiabix.com/verbal-ability/comprehension/',
   over: 'An inference question asks for something the passage does not say outright but makes very likely. The answer is never new information; it is a short logical step from what the passage says. This chapter teaches the rules of safe inference: stay close to the text, prefer the modest option to the dramatic one, use numbers and cause-and-effect links, and check that denying your answer would make the passage inconsistent.',
   place: 'Inference questions form the largest share of questions in advanced reading-comprehension sets.',
   real: 'Reading between the lines of an email or a news report without over-claiming is the same skill.',

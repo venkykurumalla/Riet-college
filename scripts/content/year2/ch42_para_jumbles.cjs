@@ -25,7 +25,6 @@ const chapter = {
   title: 'Basic Para Jumbles',
   tagline: 'Year 2 — Arranging jumbled sentences into a logical paragraph',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-ability/ordering-of-sentences/',
   overview: 'A para jumble gives you four or five sentences in a scrambled order and asks for the arrangement that forms a meaningful paragraph. The sentences are linked by time order, cause and effect, pronoun reference, connectors (however, therefore, finally) and the movement from general to specific. The skill is to find the opening sentence, the closing sentence and the links in between.',
   placement: 'Para jumble questions are commonly asked in the verbal ability section of company aptitude rounds, usually with four sentences.',
   realWorld: 'Organising the steps of a procedure, structuring an email and ordering the points of an argument use the same logic.',

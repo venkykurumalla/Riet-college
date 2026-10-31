@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "A fact that is not given can change the result: for one possible value the outcome is \"Reject the application\" (the credit score is below 650), and for another it is \"Approve the loan\" (the score is 650 to 699 and a guarantor is provided). Decision: Data inadequate."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/"
+  ]
 }

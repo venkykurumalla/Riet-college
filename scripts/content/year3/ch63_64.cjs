@@ -39,7 +39,6 @@ const routeLen = (list) => list.slice(1).reduce((acc, n, i) => acc + adj[list[i]
 const ch63 = C({
   n: 63, id: 'y3-di-flow-chart-di', cat: 'di', title: 'Flow Chart and Network DI',
   tag: 'Quantities moving through stages or links: flows, losses, shortest routes and route counts',
-  url: 'https://www.indiabix.com/data-interpretation/',
   over: 'A flow chart shows how a quantity (units, money, people) moves from a source through stages to destinations, with numbers on the arrows. A network shows places joined by links with distances or costs. The questions ask for totals into and out of a node, losses where outflow is less than inflow, shares of a flow, and in a network, shortest routes and the number of routes. The key rule is conservation: what goes in either comes out or is lost.',
   place: 'Flow charts and network diagrams appear in DI sets as a visual variant of table problems.',
   real: 'Supply chains, call routing and delivery networks are all flow charts or networks.',
@@ -104,7 +103,6 @@ const quarters = [0, 1, 2, 3].map((q) => sum(sales.slice(q * 3, q * 3 + 3)));
 const ch64 = C({
   n: 64, id: 'y3-di-data-analysis', cat: 'di', title: 'Data Analysis and Trend Identification',
   tag: 'Reading a time series: rises, falls, averages, moving averages, growth and simple forecasts',
-  url: 'https://www.indiabix.com/data-interpretation/',
   over: 'A trend is the general direction of a series over time. Data analysis questions ask you to find it and to describe it with numbers: the biggest rise or fall, how many periods were above average, the growth between two periods, a moving average that smooths short-term ups and downs, and a simple forecast that extends the average change. The skill is to compute the right summary and to describe what it says without over-reading.',
   place: 'Time-series and trend questions appear in DI sections to test analysis as well as arithmetic.',
   real: 'Reading monthly sales, website traffic or temperature records and deciding whether things are rising is everyday analysis.',

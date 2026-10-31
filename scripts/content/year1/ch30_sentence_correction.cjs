@@ -5,7 +5,6 @@ const chapter = {
   title: 'Basic Sentence Correction',
   tagline: 'Year 1 Foundation — Finding and fixing common errors in sentences',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-ability/spotting-errors/',
   overview: 'Sentence correction asks you to find the error in a sentence or to choose the correct version from several options. The errors in basic questions fall into a small number of families: subject-verb agreement, wrong tense or verb form, wrong preposition, wrong article, wrong pronoun case, adjective used for an adverb, double comparatives, and unnecessary words. A systematic approach is to read the sentence once for meaning, then check it against a short list of error types.',
   placement: 'Sentence correction and error-spotting items are commonly asked in the verbal ability section of company aptitude rounds. They draw on all the earlier grammar chapters, so they are a good test of how well those topics have been learned.',
   realWorld: 'Proofreading emails, resumes and reports before sending uses the same checklist: agreement, tense, prepositions, articles, pronouns.',

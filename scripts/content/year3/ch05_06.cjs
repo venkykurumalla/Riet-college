@@ -6,7 +6,6 @@ const r = (x, d = 2) => Math.round(x * 10 ** d) / 10 ** d;
 const ch5 = C({
   n: 5, id: 'y3-quant-adv-mixtures', cat: 'quant', title: 'Advanced Mixtures — Three-Component Alligation',
   tag: 'Three-ingredient means, chained alligation, concentration changes and repeated replacement',
-  url: 'https://www.indiabix.com/aptitude/alligation-or-mixture/',
   over: 'Year 2 handled two ingredients and the alligation cross. Year 3 mixes three or more ingredients, chains the cross when a mixture is itself used as an ingredient, tracks the concentration of a solution when water or pure acid is added, and handles replacement with different liquids. The weighted-average idea stays the same: the mean is the quantity-weighted average of the parts.',
   place: 'Advanced mixture questions are commonly asked in the harder quantitative items of company aptitude rounds, usually with a chain of two operations.',
   real: 'Blending grades of tea, preparing alloys and diluting chemical solutions in the laboratory follow exactly these rules.',
@@ -82,7 +81,6 @@ build(ch5, q5);
 const ch6 = C({
   n: 6, id: 'y3-quant-adv-work-problems', cat: 'quant', title: 'Advanced Work Problems — Efficiency Variation',
   tag: 'Efficiency ratios, workers who change speed, partial completion and man-hours',
-  url: 'https://www.indiabix.com/aptitude/time-and-work/',
   over: 'Basic time-and-work problems add the rates of workers who work together. Advanced problems vary the efficiency: workers are compared by an efficiency ratio, work at a different speed after a break, are replaced by more or fewer workers part-way, or have different working hours per day. The method is to measure the work in units (for example LCM units) and to track how many units are done in each phase.',
   place: 'Advanced work problems are commonly asked in company aptitude rounds, usually with two or three phases and a ratio of efficiencies.',
   real: 'Staffing a project, planning overtime and estimating completion when team size changes depend on these calculations.',

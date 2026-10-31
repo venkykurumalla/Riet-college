@@ -5,7 +5,6 @@ const chapter = {
   title: 'Articles',
   tagline: 'Year 1 Foundation — A, an, the and when to use no article',
   minutes: 35,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
   overview: 'Articles are small words placed before nouns: a, an and the. A and an are indefinite articles used for one non-specific item. The is the definite article used for a specific item that the speaker and listener both know. Sometimes no article is needed. Although articles are tiny, they are a regular topic in fill-in-the-blank and error-spotting questions because the rules depend on sound, not spelling, and on whether a noun is specific, countable or unique.',
   placement: 'Article questions are commonly asked in the verbal ability section of company aptitude rounds, and article errors are among the most common mistakes in written English.',
   realWorld: 'Emails, resumes and product descriptions look polished or careless depending on small choices like "an MBA degree" versus "a MBA degree".',

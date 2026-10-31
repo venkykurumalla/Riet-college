@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "The first digit is 5, 6 or 7 (3 ways); the other three digits arrange from the remaining 4 in 4P3 = 24 ways: 72."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/aptitude/permutation-and-combination/"
+  ]
 }

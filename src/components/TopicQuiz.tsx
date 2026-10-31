@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ClipboardList, ExternalLink, CheckCircle2, XCircle, Star } from 'lucide-react';
+import { ClipboardList, CheckCircle2, XCircle, Star } from 'lucide-react';
 import { animate, useReducedMotion } from 'framer-motion';
 import { CRTYearId, TopicQuizData } from '../types/crtTypes';
 import { crtProgressService } from '../services/crtProgressService';
@@ -252,17 +252,6 @@ export const TopicQuiz: React.FC<TopicQuizProps> = ({ topicId, yearId, quiz, sec
             Retake Quiz
           </button>
         </div>
-      )}
-
-      {quiz.morePracticeUrl && (
-        <a
-          href={quiz.morePracticeUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-700 hover:underline"
-        >
-          More practice <ExternalLink className="w-3 h-3" />
-        </a>
       )}
     </div>
   );

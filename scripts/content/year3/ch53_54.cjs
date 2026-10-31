@@ -15,7 +15,6 @@ const sc = (orig, one1, one2, both, e1, e2) => ({
 const ch53 = C({
   n: 53, id: 'y3-verbal-adv-sentence-correction', cat: 'verbal', title: 'Advanced Sentence Correction — Multiple Errors',
   tag: 'Finding and fixing two errors at once: agreement, tense, parallelism, modifiers, prepositions and comparatives',
-  url: 'https://www.indiabix.com/verbal-ability/sentence-improvement/',
   over: 'In advanced sentence correction a sentence contains more than one error, and the right answer must fix all of them. Wrong options usually fix one error and leave another, or fix one and add a new one. The method is to scan the sentence for the common error families (agreement, tense, parallelism, modifiers, comparatives, prepositions), list the errors, and then choose the option that clears the list.',
   place: 'Sentence-correction items with more than one error are used in verbal sections of company tests to separate strong candidates.',
   real: 'Proofreading emails and reports for several errors at a time is the same skill.',
@@ -93,7 +92,6 @@ const ed = (segs, errIdx, fix, expl) => {
 const ch54 = C({
   n: 54, id: 'y3-verbal-adv-error-detection', cat: 'verbal', title: 'Advanced Error Detection — Idiomatic Errors',
   tag: 'Spotting the wrong preposition, idiom, collocation or agreement in a sentence divided into parts',
-  url: 'https://www.indiabix.com/verbal-ability/spotting-errors/',
   over: 'In error detection the sentence is split into four parts and exactly one part contains an error. Advanced items test idiom rather than simple grammar: the preposition that goes with a verb or adjective (senior to, prefer to, fond of), set pairs such as hardly… when and no sooner… than, and verb patterns that follow certain words (insist on, accustomed to). These cannot be reasoned out; they must be learned and recognised.',
   place: 'Idiom-based error spotting is common in bank, SSC and company tests because it separates careful readers from guessers.',
   real: 'Proofreading professional writing for natural phrasing uses the same sense.',

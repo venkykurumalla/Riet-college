@@ -1,7 +1,7 @@
 const { easy, medium, placement, build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const { permutations, others } = require('../year3/puzzleLib.cjs');
-const base = { year: 4, cat: 'lr', category: 'Advanced Logical Reasoning', url: 'https://www.indiabix.com/verbal-reasoning/seating-arrangement/' };
+const base = { year: 4, cat: 'lr', category: 'Advanced Logical Reasoning' };
 const E = (x) => easy(x.q, x.c, x.w, x.e);
 const M = (x) => medium(x.q, x.c, x.w, x.e);
 const P = (x) => placement(x.q, x.c, x.w, x.e);

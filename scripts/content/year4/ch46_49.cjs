@@ -1,7 +1,7 @@
 const { build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const { N, T, pc, round } = require('./q.cjs');
-const base = { year: 4, cat: 'rev', category: 'Mock Test & Revision Preparation', url: 'https://www.indiabix.com/aptitude/' };
+const base = { year: 4, cat: 'rev', category: 'Mock Test & Revision Preparation' };
 const spec = (o) => C({ ...base, ...o });
 const f = (n) => (n <= 1 ? 1 : n * f(n - 1));
 

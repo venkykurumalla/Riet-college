@@ -5,7 +5,6 @@ const chapter = {
   title: 'Number Series',
   tagline: 'Year 1 Foundation — Finding the rule behind a sequence of numbers',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/number-series/',
   overview: 'A number series is a list of numbers that follows a hidden rule. You are shown the first few terms and asked for the next term or for a missing or wrong term. The rule may add a fixed number, multiply by a fixed number, use squares and cubes, or combine two operations. Finding the rule quickly is a pure pattern-recognition skill that improves a lot with practice.',
   placement: 'Number series questions are commonly asked in the reasoning sections of company aptitude rounds. They are short, so they reward students who have a quick checklist of patterns to try.',
   realWorld: 'Predicting the next instalment in a savings plan, spotting a wrong entry in a table of values and reading growth patterns in data all use the same idea of finding a rule from the first few terms.',

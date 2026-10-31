@@ -21,7 +21,6 @@ const chapter = {
   title: 'Average-Based DI',
   tagline: 'Year 2 — Averages across rows and columns, comparisons and effects of changes',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/data-interpretation/table-charts/',
   overview: 'Average-based DI sets give a table of marks, sales or other quantities, and ask for averages across rows (per student) and across columns (per subject), for the whole table, and for the effect of changes such as adding a mark. Because an average is a total divided by a count, the easiest approach is to compute row totals and column totals first and then divide when needed.',
   placement: 'Average-based DI sets are commonly asked in company aptitude rounds and test accuracy in addition and division more than any new concept.',
   realWorld: 'Class results, performance reports and monthly summaries are all averaged across rows and columns.',

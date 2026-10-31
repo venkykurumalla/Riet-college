@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "From 5! onward each factorial ends in 0. So only 1! + 2! + 3! + 4! = 33 matters: remainder 3."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
+  ]
 }

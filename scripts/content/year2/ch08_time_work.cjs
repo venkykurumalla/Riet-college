@@ -5,7 +5,6 @@ const chapter = {
   title: 'Time and Work',
   tagline: 'Year 2 — Rates of work, working together, leaving early and alternate days',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/aptitude/time-and-work/',
   overview: 'Time and work problems ask how long a job takes when one or more workers do it alone or together. The central idea is the rate of work: a worker who completes a job in n days does 1/n of the job per day. Rates of workers who work together add. Everything else, including leaving early, joining late and alternate days, is bookkeeping on these rates.',
   placement: 'Time and work questions are commonly asked in company aptitude rounds and are a regular intermediate-level item, often with two or three workers and one twist.',
   realWorld: 'Estimating the time to finish a project with several people, or how long a team needs after some members leave, uses the same idea.',

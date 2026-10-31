@@ -5,7 +5,6 @@ const chapter = {
   title: 'Linear Equations',
   tagline: 'Year 2 — One and two variables, word problems and consistency',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/problems-on-ages/',
   overview: 'A linear equation has variables only to the first power. One equation in one variable, like 3x + 5 = 20, is solved by isolating x. Two equations in two variables, like x + y = 10 and x − y = 2, are solved by substitution or elimination. Many word problems (ages, money, digits, shares) become linear equations once you name the unknowns.',
   placement: 'Linear equations are commonly asked in company aptitude rounds, directly and as the engine of age, digit and money problems.',
   realWorld: 'Budget splits, break-even calculations, mixture quantities and speed-time relations are solved with linear equations.',

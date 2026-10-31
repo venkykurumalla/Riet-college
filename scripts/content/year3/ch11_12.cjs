@@ -6,7 +6,6 @@ const r = (x, d = 2) => Math.round(x * 10 ** d) / 10 ** d;
 const ch11 = C({
   n: 11, id: 'y3-quant-adv-boats-streams', cat: 'quant', title: 'Upstream/Downstream with Variable Currents',
   tag: 'Stream speed that changes, boats that turn back, drifting objects and average speed in streams',
-  url: 'https://www.indiabix.com/aptitude/boats-and-streams/',
   over: 'Year 2 boats and streams used a constant stream speed and a single trip. Year 3 adds streams whose speed differs in different stretches, boats that turn back after some time, objects that simply drift with the current, and round trips where the average speed is requested. The tools are the same: downstream speed = b + s, upstream speed = b − s, and relative speed between the boat and a drifting object is the boat\'s speed in still water.',
   place: 'Advanced boats-and-streams questions are commonly asked in company aptitude rounds, typically with a turn-back or a drifting object.',
   real: 'Ferries crossing tidal rivers, rescue boats chasing floating objects and river cruises with different current zones follow these rules.',
@@ -81,7 +80,6 @@ build(ch11, q11);
 const ch12 = C({
   n: 12, id: 'y3-quant-adv-train-problems', cat: 'quant', title: 'Advanced Train Problems — Two Moving Trains',
   tag: 'Trains crossing each other, overtaking, bridges with moving trains and meeting problems',
-  url: 'https://www.indiabix.com/aptitude/problems-on-trains/',
   over: 'Year 2 train problems used a train and a fixed pole or platform, and two trains crossing. Year 3 adds trains that start at different times, meet and then continue, trains that pass a person who is also walking, trains that leave stations at different times, and problems where the lengths and speeds must be recovered from two crossing times. The relative-speed idea and the rule "distance covered = sum of the lengths" are all you need.',
   place: 'Advanced train problems are commonly asked in company aptitude rounds, typically with two timing facts from which lengths or speeds are found.',
   real: 'Rail scheduling, safe overtaking distances and timetable design use these relations.',

@@ -5,7 +5,6 @@ const chapter = {
   title: 'Basic Tenses',
   tagline: 'Year 1 Foundation — Present, past and future forms and when to use each',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
   overview: 'A tense is the form of a verb that tells the time of an action (past, present or future) and the way the action is viewed (simple, continuous, perfect or perfect continuous). English has twelve tense forms in this grid. Choosing the right tense depends on when the action happens, whether it is complete, and whether it continues. In placement tests the tense questions are usually fill-in-the-blank or error-spotting items, where time words such as yesterday, since, for, by the time and tomorrow give strong clues.',
   placement: 'Tense questions are commonly asked in the verbal ability section of company aptitude rounds, either on their own or hidden inside sentence correction and error-spotting items.',
   realWorld: 'Emails, project reports and status updates all depend on correct tense: "we completed the module", "we are testing it now", "we will deploy next week".',

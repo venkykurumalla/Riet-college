@@ -5,7 +5,6 @@ const chapter = {
   title: 'Subject-Verb Agreement',
   tagline: 'Year 1 Foundation — Making the verb match its subject in number and person',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
   overview: 'A verb must agree with its subject in number: a singular subject takes a singular verb (The dog barks) and a plural subject takes a plural verb (The dogs bark). The idea is simple, but English has many tricky cases: subjects joined by and, or and nor; collective nouns; words like each, either and neither; nouns that look plural but are singular (news, mathematics); and phrases that come between the subject and the verb. Agreement questions are among the most common in grammar sections of placement tests.',
   placement: 'Subject-verb agreement is commonly asked in the verbal ability section of company aptitude rounds, both as fill-in-the-blank items and as error-spotting items.',
   realWorld: 'Professional emails, reports and presentations are judged on this basic accuracy. "The results of the test is attached" is a mistake that readers notice immediately.',

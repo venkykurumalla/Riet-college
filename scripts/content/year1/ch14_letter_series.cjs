@@ -5,7 +5,6 @@ const chapter = {
   title: 'Letter Series',
   tagline: 'Year 1 Foundation — Patterns built from alphabet positions',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/letter-and-symbol-series/',
   overview: 'A letter series is a list of letters or letter groups that follows a rule based on their positions in the English alphabet. The rule can move forward or backward by a fixed gap, use a gap that grows, alternate between two patterns, or work on each letter of a group separately. The key skill is to convert letters into position numbers so that the problem becomes a number series.',
   placement: 'Letter series questions are commonly asked in company reasoning rounds. They are quick to solve for a student who knows the alphabet positions well, so they are a good source of fast marks.',
   realWorld: 'Spreadsheet column names (A, B, … Z, AA, AB), seat numbering in a theatre and codes used in inventory labels all use alphabetical order and gaps in the same way.',

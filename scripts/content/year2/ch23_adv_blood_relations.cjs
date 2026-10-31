@@ -5,7 +5,6 @@ const chapter = {
   title: 'Advanced Blood Relations',
   tagline: 'Year 2 — Multi-step family chains, in-law relations and coded relations',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/verbal-reasoning/blood-relation-test/',
   overview: 'Advanced blood relation problems chain three or more statements, add in-law relations (through marriage), and use coded symbols such as A + B or A × B to describe relations. The method is the same as in Year 1: draw a family tree with generation levels and gender marks, and read the answer from the tree. The difficulty comes from length and from the ambiguity of neutral words, so careful reading and a neat diagram are essential.',
   placement: 'Blood relation questions with three or more links and coded relations are commonly asked in company reasoning rounds.',
   realWorld: 'Kinship terms in forms, insurance nominee records and genealogy charts all follow these relations.',

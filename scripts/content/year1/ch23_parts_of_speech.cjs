@@ -5,7 +5,6 @@ const chapter = {
   title: 'Parts of Speech',
   tagline: 'Year 1 Foundation — Nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions and interjections',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
   overview: 'Every word in an English sentence does a job. Grammar groups these jobs into eight classes called parts of speech: noun, pronoun, verb, adjective, adverb, preposition, conjunction and interjection. Knowing the part of speech of a word tells you how it can be used, what it can be joined to, and how it changes form. Many grammar questions in placement tests (error spotting, sentence improvement, fill in the blanks) depend on this skill.',
   placement: 'Parts of speech are the base of the verbal ability section in company aptitude rounds. They are rarely asked in isolation but are needed in almost every grammar question.',
   realWorld: 'Spell-checkers, search engines and translation tools all tag every word with its part of speech before doing anything else, and so does every good writer when editing a sentence.',

@@ -111,7 +111,6 @@ const dq = dp;
 const ch34 = C({
   n: 34, id: 'y3-lr-selection-distribution', cat: 'lr', title: 'Selection and Distribution Problems',
   tag: 'Choosing people under conditions and distributing items among people: conditional, exclusion and either-or rules',
-  url: 'https://www.indiabix.com/logical-reasoning/',
   over: 'In a selection puzzle you choose a fixed number of people from a pool under conditions such as "if A is chosen, B must be chosen" or "C and D cannot both be chosen". In a distribution puzzle you assign items to people under similar rules. The method is to translate each condition into a precise logical statement, list the cases created by the strongest condition, and count or deduce from the cases that survive.',
   place: 'Selection and distribution sets with five or six conditions are a classic logical-reasoning type in company tests.',
   real: 'Choosing a project team with compatibility rules or allocating tasks to staff follows the same logic.',
@@ -208,7 +207,6 @@ const gp3 = grpPuzzle(nm8, 4, [grp.same('Gita', 'Hari'), grp.apart('Indu', 'Jai'
 const ch35 = C({
   n: 35, id: 'y3-lr-grouping-problems', cat: 'lr', title: 'Grouping and Team Formation Problems',
   tag: 'Dividing people into teams: together, apart and conditional rules; counting valid divisions',
-  url: 'https://www.indiabix.com/logical-reasoning/',
   over: 'A grouping puzzle divides a set of people into teams of equal size under rules such as "A and B are in the same team" or "C and D are in different teams". The teams are unordered, so a division such as {A,B,C} and {D,E,F} is the same as {D,E,F} and {A,B,C}. The method is to fix one person, apply the together and apart rules to build blocks, and then count the divisions that remain.',
   place: 'Team-formation and grouping sets with six to eight people are a standard logical-reasoning pattern.',
   real: 'Forming project groups, sports teams or lab pairs under compatibility rules is the same problem.',

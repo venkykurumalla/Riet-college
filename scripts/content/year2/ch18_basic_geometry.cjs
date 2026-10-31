@@ -5,7 +5,6 @@ const chapter = {
   title: 'Basic Geometry',
   tagline: 'Year 2 — Lines, angles, triangles, polygons and circles',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/aptitude/area/',
   overview: 'Geometry studies shapes, sizes and angles. For aptitude tests the most useful ideas are the angle facts for straight lines and parallel lines, the angle sum of triangles and polygons, the Pythagoras theorem, and a few circle facts. Most questions are one or two steps once you recall the right fact.',
   placement: 'Basic geometry questions are commonly asked in company aptitude rounds as angle chasing, polygon facts and right-triangle problems.',
   realWorld: 'Construction layouts, screen sizes, road junctions and design drawings all use these facts.',

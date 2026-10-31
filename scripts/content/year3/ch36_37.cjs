@@ -86,7 +86,6 @@ const S6 = syl(['lions', 'animals', 'hunters', 'stones'], [stmt.all(0, 1), stmt.
 const ch36 = C({
   n: 36, id: 'y3-lr-adv-syllogisms', cat: 'lr', title: 'Advanced Syllogisms — Three-Statement Deduction',
   tag: 'Three statements and four classes: building chains, Venn diagrams and "definitely follows" tests',
-  url: 'https://www.indiabix.com/verbal-reasoning/syllogism/',
   over: 'A syllogism asks which conclusions must be true given some statements about classes of things. With three statements and four classes, mental guessing fails, so the method is the Venn-diagram test: draw every diagram that fits the statements, and accept a conclusion only if it holds in all of them. The convention used in this course is that every named class has at least one member.',
   place: 'Three-statement syllogisms with two conclusions are a standard logical-reasoning item in company tests.',
   real: 'Checking whether a policy follows from several rules, or whether a claim is entailed by a set of facts, uses the same reasoning.',
@@ -146,7 +145,6 @@ const sc = (stmtText, c1, c2, ans, expl) => {
 const ch37 = C({
   n: 37, id: 'y3-lr-adv-statements-conclusions', cat: 'lr', title: 'Statements and Conclusions — Critical Filtering',
   tag: 'Accept only what the statement itself supports: avoid outside knowledge, over-reading and reversed conditions',
-  url: 'https://www.indiabix.com/logical-reasoning/statement-and-conclusion/',
   over: 'In a statements-and-conclusions question you are given a short statement and some conclusions, and you must decide which conclusions follow. The central skill is critical filtering: a conclusion follows only if it is directly supported by the statement, with no help from outside knowledge. This chapter teaches how to filter out four kinds of bad conclusion: unsupported additions, reversed conditions, over-generalisations and extra assumptions.',
   place: 'Statement-and-conclusion items appear in most logical-reasoning sections of company tests.',
   real: 'Reading a report or a contract and deciding what it actually commits to uses the same filter.',

@@ -7,7 +7,6 @@ const chapter = {
   title: 'Word Usage and Collocations',
   tagline: 'Year 2 — Which words go together: make/do, heavy/strong and fixed phrases',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
   overview: 'A collocation is a pair or group of words that naturally go together. English speakers say "make a decision", not "do a decision", and "heavy rain", not "strong rain". These combinations are fixed by usage, not by logic, so they have to be learned. Word-usage questions test whether you know which word naturally accompanies another, and they also cover correct choices among similar words and prepositions.',
   placement: 'Word usage and collocation questions are commonly asked in the verbal ability section of company aptitude rounds, often in fill-in-the-blank form.',
   realWorld: 'Natural collocations make emails and reports sound fluent and professional; unnatural ones read as non-native.',

@@ -5,7 +5,6 @@ const chapter = {
   title: 'Analogy',
   tagline: 'Year 1 Foundation — Finding the relationship in one pair and applying it to another',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/analogies/',
   overview: 'An analogy question gives a pair of related items and asks you to find another pair with the same relationship. The standard form is A : B :: C : ?, read as "A is to B as C is to ?". The skill is to state the relationship between A and B precisely in one sentence, and then apply that exact sentence to C. Analogies can be word-based, number-based or letter-based.',
   placement: 'Analogy questions are commonly asked in the reasoning and verbal sections of company aptitude rounds. They are short, but the answer options are often designed to tempt you with a loosely related word, so precision matters.',
   realWorld: 'Choosing the right tool for a job, matching a profession with its workplace and recognising that "kilometre is to distance as kilogram is to weight" are everyday uses of analogical thinking.',

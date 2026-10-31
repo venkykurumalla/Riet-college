@@ -15,7 +15,6 @@ const chapter = {
   title: 'Basic Coding-Decoding',
   tagline: 'Year 1 Foundation — Letter shifts, reversals, number codes and word-based codes',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/letter-and-symbol-series/',
   overview: 'In coding-decoding, a word or number is converted into a code by a hidden rule, and you must apply the same rule to another word, or decode a code back to a word. The rules in basic questions fall into a few families: shifting each letter forward or backward, reversing the word, replacing letters by their opposite letters, writing the position numbers, replacing letters by digits or symbols, and comparing sentences to find the code for each word.',
   placement: 'Coding-decoding questions are commonly asked in company reasoning rounds. They reward a methodical approach: write the positions, find the rule from the given pair, and apply it to the new word.',
   realWorld: 'Simple ciphers, product-code schemes, password rules such as "replace every a with @", and file-naming conventions all use rule-based substitutions like these.',

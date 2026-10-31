@@ -5,7 +5,6 @@ const chapter = {
   title: 'Advanced Tenses',
   tagline: 'Year 2 — Perfect and continuous forms, conditionals, reported speech and "wish" sentences',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/verbal-ability/questions-and-answers/',
   overview: 'Year 1 covered the twelve tenses and their basic use. Year 2 deals with how tenses work together in a sentence: sequence of tenses, conditionals (if-sentences), reported speech, sentences with wish, "it is high time" and "would rather", and structures such as hardly…when and no sooner…than. These patterns are the favourite targets of fill-in-the-blank and error-spotting questions.',
   placement: 'Advanced tense and conditional questions are commonly asked in the verbal ability section of company aptitude rounds, in fill-in-the-blank and error-spotting formats.',
   realWorld: 'Reports, minutes of meetings and emails depend on correct tenses in reported speech and in conditional statements ("if we had started earlier, we would have finished").',

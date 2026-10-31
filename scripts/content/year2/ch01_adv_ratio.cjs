@@ -7,7 +7,6 @@ const chapter = {
   title: 'Advanced Ratio and Proportion',
   tagline: 'Year 2 — Compound ratios, three-term ratios, ratio changes and componendo-dividendo',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/aptitude/ratio-and-proportion/',
   overview: 'Year 1 introduced the ratio of two quantities and simple sharing. Year 2 extends this to ratios of three or more quantities, compound and duplicate ratios, ratios that change when numbers are added or percentages applied, and ratios of mixtures. The common thread is turning every statement into "parts" and then working with one multiplier.',
   placement: 'Ratio problems are commonly asked in company aptitude rounds and are the base of partnership, mixture, age and salary questions. Two-condition ratio problems are a typical intermediate-level item.',
   realWorld: 'Sharing profit among partners, comparing salaries before and after a hike, and mixing paints or alloys in fixed proportions are everyday ratio problems.',

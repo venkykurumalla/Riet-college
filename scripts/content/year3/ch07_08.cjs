@@ -10,7 +10,6 @@ const alt = (total, outs) => { let done = 0, day = 0; while (done < total) { don
 const ch7 = C({
   n: 7, id: 'y3-quant-alternate-work', cat: 'quant', title: 'Alternate Day Work Schedules',
   tag: 'Workers taking turns by day, cycle work and the last partial cycle',
-  url: 'https://www.indiabix.com/aptitude/time-and-work/',
   over: 'In an alternate-day schedule the workers do not work together; they take turns, one on each day, in a fixed order. The work done in one complete cycle is the sum of their daily outputs. The job is finished after some whole number of cycles plus a partial last cycle. The method is to find the work per cycle, count the full cycles that fit before the job is completed, and then see who finishes the remainder.',
   place: 'Alternate-day work questions are commonly asked in company aptitude rounds as a harder variant of time and work, usually with two or three workers.',
   real: 'Shift rosters, rotating machine operators and duty rotations between teams are alternate-day schedules.',
@@ -85,7 +84,6 @@ build(ch7, q7);
 const ch8 = C({
   n: 8, id: 'y3-quant-adv-pipes-cisterns', cat: 'quant', title: 'Advanced Pipes and Cisterns — Leak Scenarios',
   tag: 'Leaks, partial opening, timed valves and cisterns filling in stages',
-  url: 'https://www.indiabix.com/aptitude/pipes-and-cistern/',
   over: 'Year 2 pipes and cisterns used inlets and outlets that stay open. Year 3 adds leaks that appear only after the tank has partly filled, pipes opened and closed at stated times, pipes that work in alternate hours, and capacity questions in litres. The rates still add, with outlets negative; the new difficulty is phases.',
   place: 'Advanced pipe questions are commonly asked in company aptitude rounds, typically with a leak discovered after some time or pipes that open in turn.',
   real: 'Filling reservoirs with seepage, bathtubs with a slow drain and chemical tanks with timed valves are of this type.',

@@ -29,7 +29,6 @@ const bus = 270, metro = 150, restN = 180, own = 108, walk = 72;
 const ch59 = C({
   n: 59, id: 'y3-di-caselet-di', cat: 'di', title: 'Caselet Data Interpretation',
   tag: 'Data hidden in a paragraph: building the table yourself and then answering from it',
-  url: 'https://www.indiabix.com/data-interpretation/',
   over: 'A caselet gives data in sentences instead of a table or chart. The first job is to convert the paragraph into a small table of numbers, filling in everything that can be calculated directly (percentages of a total, remaining parts, ratios). After that, every question is arithmetic on the table. The common errors are applying a percentage to the wrong base and missing a part of the total.',
   place: 'Caselets are used in DI sections of company and bank tests because they test careful reading as well as calculation.',
   real: 'Summarising a business situation described in a report or email into numbers is the same skill.',
@@ -95,7 +94,6 @@ const TT = T1 + T2 + T3;
 const ch60 = C({
   n: 60, id: 'y3-di-multi-table-di', cat: 'di', title: 'Multi-Table DI Sets',
   tag: 'Two or three linked tables: combining rows and columns across tables to answer questions',
-  url: 'https://www.indiabix.com/data-interpretation/table-charts/',
   over: 'A multi-table set gives two or three tables that describe the same entities (schools, branches, products) from different angles. Each question usually needs a number from one table and a number from another, combined by multiplication, division or addition. The main task is to identify which tables and which cells a question needs and to combine them with the correct operation.',
   place: 'Multi-table sets are a staple of DI sections in company tests.',
   real: 'Combining a staffing table with a salary table, or enrolment with pass rates, is routine in reports.',

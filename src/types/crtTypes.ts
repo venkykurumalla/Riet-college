@@ -221,7 +221,6 @@ export interface TopicQuizQuestion {
 export interface TopicQuizData {
   topicId: string;
   topicTitle: string;
-  morePracticeUrl?: string; // link-only, never embedded
   questions: TopicQuizQuestion[];
 }
 

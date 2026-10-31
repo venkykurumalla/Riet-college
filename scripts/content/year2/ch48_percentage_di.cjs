@@ -19,7 +19,6 @@ const chapter = {
   title: 'Percentage-Based DI',
   tagline: 'Year 2 — Tables where values are given as percentages of totals',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/data-interpretation/table-charts/',
   overview: 'In a percentage-based DI set, the table gives totals and also percentages of those totals, for example the percentage of girls or the percentage who passed. To answer questions you must convert percentages into actual numbers by multiplying by the right total, and sometimes to convert back to a percentage of a different total. The key is to know which total each percentage refers to.',
   placement: 'Percentage-based DI sets are commonly asked in company aptitude rounds, and they test accuracy with percentages more than speed of reading.',
   realWorld: 'Survey results, pass percentages and market shares are reported as percentages of different totals.',

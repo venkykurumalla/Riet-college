@@ -21,7 +21,6 @@ const chapter = {
   title: 'Basic Charts (Bar and Pie)',
   tagline: 'Year 1 Foundation — Reading bar charts and pie charts and converting between values, percentages and angles',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/data-interpretation/bar-charts/',
   overview: 'A bar chart shows values as bars whose height or length is proportional to the value, so the bars can be compared at a glance. A pie chart is a circle divided into sectors, where each sector shows one item\'s share of the whole. Questions on charts ask you to read values, compare items, compute percentages, and convert between percentages, central angles and actual amounts. The arithmetic is simple, but the reading must be exact.',
   placement: 'Bar and pie chart sets are commonly asked in company aptitude rounds. In the exam the chart is a picture; this chapter shows how to turn the picture into a small table of numbers and answer from it.',
   realWorld: 'Business dashboards, budget summaries, exam result statistics and market-share reports are all drawn as bar and pie charts.',

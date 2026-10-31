@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "The queue from the front is T, P, S, Q, U, R; S is 3rd and U 5th: 1 between."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/"
+  ]
 }

@@ -1,6 +1,6 @@
 const { easy, medium, placement, build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
-const base = { year: 4, cat: 'verbal', category: 'Advanced Verbal Ability', url: 'https://www.indiabix.com/verbal-ability/' };
+const base = { year: 4, cat: 'verbal', category: 'Advanced Verbal Ability' };
 const tier = (i) => (i < 6 ? easy : i < 14 ? medium : placement);
 const mk = (list) => list.map((x, i) => tier(i)(x[0], x[1], x[2], x[3]));
 
@@ -8,7 +8,6 @@ const mk = (list) => list.map((x, i) => tier(i)(x[0], x[1], x[2], x[3]));
 const v = (sentence, word, c, w, e) => [`${sentence}\n\nIn this sentence, "${word}" is closest in meaning to`, c, w, e];
 const ch18 = C({ ...base, n: 18, id: 'y4-avm-contextual-vocab', title: 'High-Level Contextual Vocabulary',
   tag: 'Less common words (ephemeral, ostensible, perfunctory) understood from sentence clues and word parts',
-  url: 'https://www.indiabix.com/verbal-ability/synonyms/',
   over: 'Advanced vocabulary questions use less common words in sentences that give enough clues to decide the meaning. The clues are contrast, restatement, example, cause and tone, and the word parts (prefixes and roots) often confirm the guess. This chapter practises 20 such words and the method of reading the sentence first and the options second.',
   place: 'Higher-level vocabulary appears in reading comprehension and in direct word-meaning questions of company and bank tests.',
   real: 'Professional reading includes unfamiliar words; context lets you follow without a dictionary.',

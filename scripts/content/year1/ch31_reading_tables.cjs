@@ -18,7 +18,6 @@ const chapter = {
   title: 'Reading Data Tables',
   tagline: 'Year 1 Foundation — Locating values, comparing rows and columns, and doing the arithmetic a table question needs',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/data-interpretation/table-charts/',
   overview: 'A data table arranges numbers in rows and columns under headings. Table-based data interpretation (DI) questions ask you to read a value, compare values, and then use simple arithmetic such as totals, differences, averages, ratios and percentages. The skill is not hard mathematics but careful reading: finding the right row and the right column, noticing the units, and choosing the shortest calculation.',
   placement: 'Table-based DI sets are commonly asked in company aptitude rounds, usually as a table followed by four or five questions. They reward accuracy and a calm, methodical approach.',
   realWorld: 'Placement reports, sales sheets, exam results and bank statements are all tables. Reading them correctly is a daily skill for engineers and analysts.',

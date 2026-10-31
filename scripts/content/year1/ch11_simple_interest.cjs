@@ -5,7 +5,6 @@ const chapter = {
   title: 'Simple Interest Basics',
   tagline: 'Year 1 Foundation — Principal, rate, time, amount and the SI formula',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/simple-interest/',
   overview: 'Interest is the price paid for using someone else\'s money. When you deposit money in a bank, the bank pays you interest; when you take a loan, you pay interest. In simple interest the interest is calculated only on the original sum (the principal) for every period, so it grows by the same amount each year. Four quantities are linked: principal P, rate R per cent per year, time T in years, and simple interest SI.',
   placement: 'Simple interest is commonly asked in company aptitude rounds, usually as a one-step formula question or a two-condition problem such as "the sum doubles in 8 years". It is also the stepping stone to compound interest in Year 2.',
   realWorld: 'A bank fixed deposit that pays a flat rate on the original deposit, an education loan with monthly flat interest, and a post-office saving scheme are everyday uses of simple interest.',

@@ -5,7 +5,6 @@ const chapter = {
   title: 'Problems on Ages',
   tagline: 'Year 1 Foundation — Turning age statements into equations',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/problems-on-ages/',
   overview: 'Age problems describe how the ages of two or more people are related now, in the past or in the future, and ask you to find an unknown age. They look like word puzzles, but they all reduce to one or two linear equations. Two facts drive every problem: everybody ages at the same rate, so the difference between two ages never changes, and after n years every person\'s age increases by n.',
   placement: 'Problems on ages are commonly asked in company aptitude rounds as short word problems. The skill tested is translating the sentence into an equation quickly and without a sign error.',
   realWorld: 'Working out when a child will be half a parent\'s age, planning insurance terms or checking eligibility rules based on age uses the same reasoning.',

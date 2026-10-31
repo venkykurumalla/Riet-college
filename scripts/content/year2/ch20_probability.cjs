@@ -5,7 +5,6 @@ const chapter = {
   title: 'Probability Fundamentals',
   tagline: 'Year 2 — Sample spaces, events, and the basic rules of probability',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/aptitude/probability/',
   overview: 'Probability measures how likely an event is, on a scale from 0 (impossible) to 1 (certain). For equally likely outcomes, the probability of an event is the number of favourable outcomes divided by the total number of outcomes. The sample space lists all possible outcomes. With a few rules (complement, addition, multiplication for independent events) many aptitude problems on coins, dice, cards and bags can be solved.',
   placement: 'Probability questions are commonly asked in company aptitude rounds, usually with coins, dice, cards or balls in a bag.',
   realWorld: 'Weather forecasts, quality control and risk estimates all use probability.',

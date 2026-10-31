@@ -7,7 +7,6 @@ const chapter = {
   title: 'Sentence Improvement',
   tagline: 'Year 2 — Replacing a faulty part of a sentence with the best alternative',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/verbal-ability/sentence-improvement/',
   overview: 'In a sentence-improvement question, part of the sentence is marked and four alternatives are offered: usually one of them repeats the original ("No improvement") and the others are possible replacements. You choose the version that makes the sentence grammatically correct, clear and natural. The skill is similar to error detection, but you must also choose the right correction among close alternatives.',
   placement: 'Sentence improvement questions are commonly asked in the verbal ability section of company aptitude rounds, along with error detection and sentence completion.',
   realWorld: 'Editing a draft, rewriting a clumsy sentence and polishing an email use the same judgement.',

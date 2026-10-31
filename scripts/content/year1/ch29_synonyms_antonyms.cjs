@@ -5,7 +5,6 @@ const chapter = {
   title: 'Synonyms and Antonyms',
   tagline: 'Year 1 Foundation — Words with the same and opposite meanings, and how to choose between them',
   minutes: 40,
-  morePractice: 'https://www.indiabix.com/verbal-ability/synonyms/',
   overview: 'A synonym is a word with the same or nearly the same meaning as another word (begin and start). An antonym is a word with the opposite meaning (strong and weak). Placement tests ask for the closest synonym or antonym of a given word, often with options that include a confusing near-miss. Success depends on knowing the core meaning of the word, whether it is positive or negative in tone, and which part of speech it is.',
   placement: 'Synonym and antonym questions are commonly asked in the verbal ability section of company aptitude rounds. They are quick, so accuracy and a steady vocabulary routine pay off directly.',
   realWorld: 'Writers use synonyms to avoid repeating the same word and to find a more precise one. Antonyms help to contrast ideas clearly in reports and emails.',

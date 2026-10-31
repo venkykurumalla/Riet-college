@@ -5,7 +5,6 @@ const chapter = {
   title: 'Basic Ratio',
   tagline: 'Year 1 Foundation — Comparing quantities, simplifying ratios and sharing in a ratio',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/ratio-and-proportion/',
   overview: 'A ratio compares two quantities of the same kind by division. If a classroom has 20 boys and 30 girls, the ratio of boys to girls is 20 : 30, which simplifies to 2 : 3. A ratio has no unit, and the order of the terms matters: 2 : 3 is not the same as 3 : 2. Ratio is the language behind sharing money, mixing ingredients, scaling recipes and comparing salaries.',
   placement: 'Ratio questions are commonly asked in company aptitude rounds, both directly (sharing, comparing) and hidden inside age, partnership, mixture and percentage problems. A clean grasp of the basics makes all of those easier.',
   realWorld: 'Mixing cement and sand for a wall (1 : 4), the aspect ratio of a screen (16 : 9), the scale of a map (1 : 50,000) and the gear ratio of a bicycle are all everyday ratios.',

@@ -20,7 +20,6 @@ const chapter = {
   title: 'Basic Data Interpretation Sets',
   tagline: 'Year 1 Foundation — Solving a full set of questions from one table, step by step',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/data-interpretation/table-charts/',
   overview: 'A data interpretation (DI) set gives one table or chart and then asks four to five questions about it. The questions in a basic set are of a few standard kinds: read a value, find a difference, compute a percentage change, work out an average, form a ratio, or derive a new quantity such as profit from two given columns. This chapter shows how to approach a whole set efficiently: read once, extract what is common, answer the easy questions first and keep a running record of derived values.',
   placement: 'DI sets are commonly asked in company aptitude rounds, and a single set can carry as many marks as four or five separate questions. A sound routine turns the set into a reliable source of marks.',
   realWorld: 'Company annual reports, project dashboards and performance reviews present data in exactly this form, and decisions are made from the derived figures such as profit and growth rate.',

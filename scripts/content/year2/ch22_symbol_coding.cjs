@@ -14,7 +14,6 @@ const chapter = {
   title: 'Symbol Coding',
   tagline: 'Year 2 — Symbol substitution, operator substitution, number-word codes and matrix codes',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/letter-and-symbol-series/',
   overview: 'In symbol coding, letters, words or arithmetic operators are replaced by other symbols according to a key stated in the question. The question gives the key; your job is to apply it exactly. Typical forms are letter-to-symbol codes, substitution of arithmetic operators (when + means ×), number-code to word-code comparisons, and matrix codes where each letter is coded by its row and column.',
   placement: 'Symbol coding questions are commonly asked in company reasoning rounds. They are rule-following tasks where accuracy matters more than insight.',
   realWorld: 'Spreadsheet formulas, cell references such as B7, barcode keys and custom shorthand all rely on exact substitution.',

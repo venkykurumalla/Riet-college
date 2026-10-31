@@ -33,7 +33,6 @@ const aprox_pct = (n) => `about ${n}%`;
 const ch67 = C({
   n: 67, id: 'y3-di-approximation-di', cat: 'di', title: 'Approximation Techniques in DI',
   tag: 'Rounding before calculating: estimating growth, shares and ratios when the options are far apart',
-  url: 'https://www.indiabix.com/data-interpretation/',
   over: 'In many DI questions the options are far apart and the question says "approximately". You do not need an exact answer; you need one that is close enough to choose the right option. Approximation saves time by rounding the data (4,180 to 4,200), simplifying ratios, using benchmarks (10% of a number is one tenth) and checking the size of the answer before doing the full arithmetic.',
   place: 'Speed matters in DI sections of company tests, and approximation is the main way to gain time.',
   real: 'Mental estimates of growth, shares and ratios are what managers do in meetings.',
@@ -101,7 +100,6 @@ const stO = (c) => st.filter((x) => x !== c).slice(0, 3);
 const ch68 = C({
   n: 68, id: 'y3-di-data-comparison', cat: 'di', title: 'Cross-Category Data Comparison',
   tag: 'Combining different kinds of data about the same items: populations, rates, incomes and areas',
-  url: 'https://www.indiabix.com/data-interpretation/',
   over: 'A cross-category table lists several kinds of data about the same items, such as population, literacy rate, income per head and area for several states. Questions combine categories: literate people = population × literacy rate; density = population ÷ area; total income = population × income per head. The key is to know what each combination means and to keep units straight, so that million × thousand is billion.',
   place: 'Cross-category comparison sets are standard in DI sections of company and bank tests.',
   real: 'Comparing regions on several indicators for planning and investment uses these combinations.',

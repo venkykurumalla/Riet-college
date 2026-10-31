@@ -5,7 +5,6 @@ const chapter = {
   title: 'Basic Proportion',
   tagline: 'Year 1 Foundation — Equal ratios, direct and inverse variation, and the unitary method',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/ratio-and-proportion/',
   overview: 'A proportion states that two ratios are equal: a : b = c : d, written a : b :: c : d. The first and last terms (a and d) are the extremes, and the middle terms (b and c) are the means. The central rule is that the product of the extremes equals the product of the means, a × d = b × c. Proportion is the tool behind scaling recipes, converting currency, reading maps and many time-and-work type problems.',
   placement: 'Direct and inverse proportion are commonly used in company aptitude rounds, and the same thinking underlies time and work, speed and time, and mixture questions. Fast, error-free setup is what is being tested.',
   realWorld: 'If 5 kg of rice costs ₹300, then 8 kg costs ₹480 (direct proportion). If a trip takes 6 hours at 40 km/h, it takes 4 hours at 60 km/h (inverse proportion).',

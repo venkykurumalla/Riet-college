@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "P(red) = ½(4/10) + ½(7/10) = 11/20. Posterior = (7/20)/(11/20) = 7/11."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/aptitude/probability/"
+  ]
 }

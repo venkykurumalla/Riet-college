@@ -6,7 +6,6 @@ const r2 = x => Math.round(x * 100) / 100;
 const ch23 = C({
   n: 23, id: 'y3-quant-adv-geometry', cat: 'quant', title: 'Advanced Geometry — Circles and Polygons',
   tag: 'Chords, tangents, angle properties of circles, and interior angles and diagonals of polygons',
-  url: 'https://www.indiabix.com/aptitude/area/',
   over: 'Year 2 covered triangles and basic mensuration. Year 3 focuses on the circle theorems and polygon properties that appear most often in aptitude tests: the angle at the centre and at the circumference, tangent lengths, chords and the perpendicular from the centre, cyclic quadrilaterals, and the angle sum and diagonal count of regular polygons.',
   place: 'Geometry questions in company tests are short, formula-driven problems such as tangent lengths, chord distances and polygon angles.',
   real: 'Gear design, circular tracks, architecture and map-making use circle and polygon properties.',
@@ -81,7 +80,6 @@ build(ch23, q23);
 const ch24 = C({
   n: 24, id: 'y3-quant-coordinate-geometry', cat: 'quant', title: 'Coordinate Geometry',
   tag: 'Distance, section formula, slope, equation of a line and area of a triangle from coordinates',
-  url: 'https://www.indiabix.com/aptitude/area/',
   over: 'Coordinate geometry places points on a grid so that geometric questions become algebra. This chapter covers the distance formula, midpoint and section formula, slope of a line, equations of lines, parallel and perpendicular conditions, and the area of a triangle from vertex coordinates.',
   place: 'Distance, slope and area questions are short formula problems that appear regularly in aptitude and technical rounds.',
   real: 'Maps, GPS navigation, computer graphics and CAD all use coordinates.',

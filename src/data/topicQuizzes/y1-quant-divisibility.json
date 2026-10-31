@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "LCM(4, 6) = 12. The first 3-digit multiple is 108 (12 × 9) and the last is 996 (12 × 83). Count = 83 − 9 + 1 = 75."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
+  ]
 }

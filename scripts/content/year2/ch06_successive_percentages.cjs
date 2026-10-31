@@ -5,7 +5,6 @@ const chapter = {
   title: 'Successive Percentages',
   tagline: 'Year 2 — Chains of percentage changes, net effect and the multiplier method',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/percentage/',
   overview: 'When a quantity changes by one percentage and then by another, the second change applies to the new value, not the original. The net change is therefore found by multiplying the growth factors, not by adding the percentages. This single idea solves population growth, price changes, area changes of a rectangle, and consumption-versus-price problems.',
   placement: 'Successive percentage questions are commonly asked in company aptitude rounds, either directly or inside area, profit, and population problems.',
   realWorld: 'Salary hikes in consecutive years, repeated price changes, and the effect of length and breadth changes on area use successive percentages.',

@@ -5,7 +5,6 @@ const chapter = {
   title: 'Mixtures and Alligation',
   tagline: 'Year 2 — Mean price, the alligation cross, and replacement problems',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/aptitude/alligation-or-mixture/',
   overview: 'A mixture problem combines two or more ingredients of different price, strength or concentration and asks for the mixing ratio, the mean value or the quantity of one ingredient. Alligation is a fast method for finding the ratio in which two items must be mixed to get a required mean value. A second type, replacement, removes part of a mixture and replaces it with another ingredient, repeatedly.',
   placement: 'Mixture and alligation questions are commonly asked in company aptitude rounds. The alligation cross solves in one line a problem that otherwise needs two equations.',
   realWorld: 'Blending tea or coffee grades, diluting a chemical solution, preparing alloys and mixing fuel grades all use these ideas.',

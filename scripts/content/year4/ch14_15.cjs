@@ -1,6 +1,6 @@
 const { easy, medium, placement, build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
-const base = { year: 4, cat: 'verbal', category: 'Advanced Verbal Ability', url: 'https://www.indiabix.com/verbal-ability/comprehension/' };
+const base = { year: 4, cat: 'verbal', category: 'Advanced Verbal Ability' };
 const E = (x) => easy(x.q, x.c, x.w, x.e);
 const M = (x) => medium(x.q, x.c, x.w, x.e);
 const P = (x) => placement(x.q, x.c, x.w, x.e);

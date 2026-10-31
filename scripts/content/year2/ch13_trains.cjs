@@ -5,7 +5,6 @@ const chapter = {
   title: 'Problems on Trains',
   tagline: 'Year 2 — Crossing poles, platforms, people and other trains',
   minutes: 45,
-  morePractice: 'https://www.indiabix.com/aptitude/problems-on-trains/',
   overview: 'In train problems the length of the train cannot be ignored. To cross a pole or a person, a train covers its own length. To cross a platform or a bridge, it covers its own length plus the length of the platform. To cross another train, it covers the sum of the two lengths. The distance in every case is divided by the relevant (relative) speed.',
   placement: 'Train problems are commonly asked in company aptitude rounds, usually with unit conversion and relative speed. They are a standard application of time, speed and distance.',
   realWorld: 'Scheduling trains on parallel tracks, safe passing distances and timing a train through a tunnel use these calculations.',

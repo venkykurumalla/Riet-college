@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "Each block of four terms ends 1 + 3 + 9 + 7 = 20 → 0. 100 terms = 25 blocks, so the unit digit is 0."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/aptitude/numbers/"
+  ]
 }

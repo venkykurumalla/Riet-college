@@ -5,7 +5,6 @@ const chapter = {
   title: 'Quadratic Equations',
   tagline: 'Year 2 — Factorisation, the formula, roots and their relations',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/aptitude/problems-on-ages/',
   overview: 'A quadratic equation has the form ax² + bx + c = 0 with a ≠ 0. It can have two, one or no real solutions (roots). The methods are factorisation, completing the square and the quadratic formula. Three relations about the roots (sum, product, and the discriminant) answer many aptitude questions without solving the equation at all.',
   placement: 'Quadratic equations are commonly asked in company aptitude rounds, both as a direct "find the roots" item and as a word problem (rectangle area, consecutive integers, price and quantity).',
   realWorld: 'Projectile motion, areas and breakeven calculations often lead to quadratic equations.',

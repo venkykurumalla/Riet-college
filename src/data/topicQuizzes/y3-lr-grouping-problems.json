@@ -262,6 +262,5 @@
       "answerIndex": 2,
       "explanation": "The valid divisions are {Gita, Hari, Indu, Kiran} and {Jai, Lata, Manoj, Nisha}; {Gita, Hari, Jai, Kiran} and {Indu, Lata, Manoj, Nisha}; Manoj and Nisha share a group in 2 of them, which is 2."
     }
-  ],
-  "morePracticeUrl": "https://www.indiabix.com/logical-reasoning/"
+  ]
 }

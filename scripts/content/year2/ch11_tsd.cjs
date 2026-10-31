@@ -6,7 +6,6 @@ const chapter = {
   title: 'Time, Speed and Distance',
   tagline: 'Year 2 — Speed = distance ÷ time, unit conversion, average speed and late/early arrivals',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/aptitude/time-and-distance/',
   overview: 'Speed is how much distance is covered in a unit of time: speed = distance ÷ time. From this single relation come distance = speed × time and time = distance ÷ speed. The skill lies in handling units (km/h and m/s), average speed over unequal parts, and problems where a change in speed changes the time taken by a given amount.',
   placement: 'Time, speed and distance questions are commonly asked in company aptitude rounds. They are the base for relative speed, trains and boats and streams.',
   realWorld: 'Planning a journey, estimating arrival times and comparing the speeds of different vehicles use the same formula.',

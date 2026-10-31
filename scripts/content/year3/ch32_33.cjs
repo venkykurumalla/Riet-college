@@ -53,7 +53,6 @@ const b1 = ordQs(bp1, boxCfg()), b2 = ordQs(bp2, boxCfg()), b3 = ordQs(bp3, boxC
 const ch32 = C({
   n: 32, id: 'y3-lr-box-puzzles', cat: 'lr', title: 'Box-Stack Arrangement Puzzles',
   tag: 'Stacks of boxes: above and below, gaps, top and bottom anchors and counting questions',
-  url: 'https://www.indiabix.com/verbal-reasoning/seating-arrangement/',
   over: 'A box-stack puzzle describes a vertical pile of boxes and asks for the order from top to bottom. It is a one-dimensional ordering like a row or a building, with vocabulary changed: above, below, immediately above, top, bottom, and "exactly k boxes between". The same rules solve it: fix top and bottom anchors, chain immediate neighbours, convert gap clues to a difference of k + 1, and use negative clues last.',
   place: 'Box and stack puzzles appear regularly in logical-reasoning sets, often with six to eight boxes and several colours.',
   real: 'Warehouse stacking, pallet loading and layered packing follow an order of this kind.',
@@ -130,7 +129,6 @@ const s1 = ordQs(sp1, schedCfg), s2 = ordQs(sp2, schedCfg), s3 = ordQs(sp3, sche
 const ch33 = C({
   n: 33, id: 'y3-lr-scheduling-puzzles', cat: 'lr', title: 'Scheduling and Day-Assignment Puzzles',
   tag: 'Assigning people or tasks to days: before/after, consecutive days, gaps and exclusions',
-  url: 'https://www.indiabix.com/verbal-reasoning/seating-arrangement/',
   over: 'A scheduling puzzle assigns events to the days of a week. Each day gets one event and each event one day, so it is again a one-to-one ordering with the days as fixed positions. New features are the named anchors (Monday is the first, Sunday the last), the phrase "consecutive days", and exclusion clues such as "not on Friday". The method is the usual one: anchors, chains, gap arithmetic, exclusions last.',
   place: 'Scheduling sets with seven days are among the commonest arrangement puzzles in written tests.',
   real: 'Timetables, shift rosters and appointment calendars use the same one-per-slot logic.',

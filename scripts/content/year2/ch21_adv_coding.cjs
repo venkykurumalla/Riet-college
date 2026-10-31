@@ -17,7 +17,6 @@ const chapter = {
   title: 'Advanced Coding-Decoding',
   tagline: 'Year 2 — Combined rules, progressive shifts, position values and decoding',
   minutes: 50,
-  morePractice: 'https://www.indiabix.com/logical-reasoning/letter-and-symbol-series/',
   overview: 'Year 1 introduced single-rule codes such as a constant shift or reversal. Year 2 combines two rules (reverse then shift), uses shifts that change from letter to letter, assigns values to positions, treats vowels and consonants differently, and asks you to decode as well as encode. The method does not change: compare the original and the code position by position, state the rule exactly, and test it on every letter.',
   placement: 'Advanced coding-decoding questions are commonly asked in company reasoning rounds. They reward careful, systematic working more than speed.',
   realWorld: 'Simple ciphers, check-digit schemes and password rules are all rule-based transformations like these.',

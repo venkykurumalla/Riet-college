@@ -2,7 +2,7 @@ const { build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const { N, T } = require('./q.cjs');
 const { permutations } = require('../year3/puzzleLib.cjs');
-const base = { year: 4, cat: 'lr', category: 'Advanced Logical Reasoning', url: 'https://www.indiabix.com/logical-reasoning/' };
+const base = { year: 4, cat: 'lr', category: 'Advanced Logical Reasoning' };
 
 // ===== knights and knaves (computed by trying all 32 assignments) =====
 const names = ['A', 'B', 'C', 'D', 'E'];

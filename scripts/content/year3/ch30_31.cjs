@@ -53,7 +53,6 @@ const w1 = rowsQs(z1, n1), w2 = rowsQs(z2, n1), w3 = rowsQs(z3, n1);
 const ch30 = C({
   n: 30, id: 'y3-lr-multiple-row-seating', cat: 'lr', title: 'Multiple-Row Seating Arrangements',
   tag: 'Two or more parallel rows facing each other: facing directions, opposite pairs and mixed left-right clues',
-  url: 'https://www.indiabix.com/verbal-reasoning/seating-arrangement/',
   over: 'In a multiple-row puzzle people sit in two parallel rows that face each other. The two rows face opposite directions, so the same word "left" points east for one row and west for the other. The key moves are to fix the directions at the start, translate every clue into compass terms, and use "opposite" clues to link the rows seat by seat.',
   place: 'Two-row seating sets with eight people and five or six questions are common in written aptitude tests.',
   real: 'Facing benches in a train compartment, desks in two-sided lab tables and theatre rows are arranged this way.',
@@ -135,7 +134,6 @@ const f1 = floorQs(fp1), f2 = floorQs(fp2), f3 = floorQs(fp3);
 const ch31 = C({
   n: 31, id: 'y3-lr-floor-puzzles', cat: 'lr', title: 'Floor-Based Arrangement Puzzles',
   tag: 'One person per floor: ordering clues, gaps, adjacency and negative constraints',
-  url: 'https://www.indiabix.com/verbal-reasoning/seating-arrangement/',
   over: 'A floor puzzle places people on the floors of a building, one per floor. It is a vertical row, so the same methods apply: pin down the extremes (top and bottom floors), join neighbours into chains, convert "exactly k floors between" into a floor-number gap of k + 1, and use "not on" clues last. The numbers on the floors make counting questions easy once the order is fixed.',
   place: 'Floor and building puzzles are a standard set type in logical-reasoning rounds, usually with seven or eight people.',
   real: 'Allocating offices, flats or storage levels under adjacency rules works the same way.',

@@ -1,7 +1,7 @@
 const { build } = require('../lib.cjs');
 const { C } = require('../chap.cjs');
 const { N, T, inr, pc, round } = require('./q.cjs');
-const base = { year: 4, cat: 'mqm', category: 'Advanced Aptitude / Mixed Problems', url: 'https://www.indiabix.com/aptitude/' };
+const base = { year: 4, cat: 'mqm', category: 'Advanced Aptitude / Mixed Problems' };
 
 // ---------- Chapter 3 ----------
 const ch3 = C({ ...base, n: 3, id: 'y4-mqm-adv-calc-techniques', title: 'Advanced Calculation Techniques',

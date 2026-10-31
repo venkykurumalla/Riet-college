@@ -9,7 +9,6 @@ const chapter = {
   title: 'Syllogisms',
   tagline: 'Year 2 — Drawing valid conclusions from All, No, Some and Some-not statements',
   minutes: 55,
-  morePractice: 'https://www.indiabix.com/verbal-reasoning/syllogism/',
   overview: 'A syllogism gives two or more statements about classes of objects (All A are B, No A is B, Some A are B, Some A are not B) and asks which conclusions must follow. A conclusion follows only if it is true in every possible Venn-diagram arrangement of the statements, not merely in one. The reliable method is to draw all possible diagrams and test each conclusion against all of them.',
   placement: 'Syllogism questions are commonly asked in company reasoning rounds, usually with two statements and two or three conclusions.',
   realWorld: 'Deductive reasoning is the basis of logical arguments in law, programming conditions and database queries.',
