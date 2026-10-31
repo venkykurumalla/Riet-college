@@ -13,7 +13,6 @@ import { CRTSidebar } from './components/CRTSidebar';
 import { CRTYearSelector } from './components/CRTYearSelector';
 import { CRTModuleQuiz } from './components/CRTModuleQuiz';
 import { SearchModal } from './components/SearchModal';
-import { RIETAssistant } from './components/RIETAssistant';
 import { Footer } from './components/Footer';
 import { getTopicById, COURSE_UNITS } from './data/aiToolsCourseData';
 import { getCRTTopicById, getCRTYearCurriculum } from './data/crtCourseData';
@@ -41,7 +40,6 @@ export const App: React.FC = () => {
   const [crtSelectedYear, setCrtSelectedYear] = useState<CRTYearId>(1);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
-  const [isAIOpen, setIsAIOpen] = useState(false);
   const [, setTick] = useState(0);
 
   // Subscribe to progress changes so updates reflect immediately
@@ -371,13 +369,6 @@ export const App: React.FC = () => {
         onClose={() => setIsSearchOpen(false)}
         onSelectAITopic={handleSelectAITopic}
         onSelectCRTTopic={handleSelectCRTTopic}
-      />
-
-      {/* Floating RIET AI Assistant */}
-      <RIETAssistant
-        isOpen={isAIOpen}
-        onClose={() => setIsAIOpen(false)}
-        onOpen={() => setIsAIOpen(true)}
       />
 
     </div>
