@@ -13,7 +13,7 @@ import {
   ClipboardList,
   Star
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, LayoutGroup } from 'framer-motion';
 import { CRTYearId } from '../types/crtTypes';
 import { getCRTYearCurriculum } from '../data/crtCourseData';
 import { crtProgressService } from '../services/crtProgressService';
@@ -62,7 +62,7 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
   };
 
   const content = (
-    <div className="flex flex-col h-full bg-white/95 backdrop-blur-xl border-r border-slate-200/90 w-72 shrink-0 select-none overflow-hidden">
+    <div className="flex flex-col h-full glass rounded-none border-y-0 border-l-0 w-72 shrink-0 select-none overflow-hidden">
       
       {/* Header */}
       <div className="p-4 border-b border-slate-100 flex items-center justify-between">
@@ -110,7 +110,7 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
       </div>
 
       {/* Selected Year Progress Meter */}
-      <div className="p-4 bg-slate-50/80 border-b border-slate-100">
+      <div key={`prog-${selectedYear}`} className="yr-swap yr-rise p-4 bg-white/40 border-b border-slate-100">
         <div className="flex items-center justify-between text-xs font-bold text-slate-700 mb-1.5">
           <span className="flex items-center space-x-1">
             <Sparkles className="w-3.5 h-3.5 text-blue-600" />
@@ -118,12 +118,13 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
           </span>
           <span className="text-blue-700 font-extrabold">{yearProgress.percentage}%</span>
         </div>
-        <div className="w-full h-2 bg-slate-200 rounded-full overflow-hidden">
+        <div className="w-full h-2 bg-slate-200/80 rounded-full overflow-hidden">
           <motion.div
-            initial={{ width: 0 }}
-            animate={{ width: `${yearProgress.percentage}%` }}
-            transition={{ duration: 0.25, ease: 'easeOut' }}
-            className="h-full bg-blue-600 rounded-full"
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: yearProgress.percentage / 100 }}
+            transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            style={{ transformOrigin: 'left', background: 'linear-gradient(90deg, var(--year-a), var(--year-b))' }}
+            className="h-full w-full rounded-full"
           />
         </div>
         <div className="text-[11px] text-slate-500 mt-1 font-medium">
@@ -142,8 +143,8 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
           }}
           className={`w-full text-left px-3 py-2.5 rounded-xl text-xs font-bold transition-all flex items-center space-x-2 cursor-pointer ${
             !activeTopicId
-              ? 'bg-blue-600 text-white shadow-xs'
-              : 'text-slate-700 hover:bg-slate-100'
+              ? 'bg-slate-900 text-white shadow-xs'
+              : 'text-slate-700 hover:bg-white/60'
           }`}
         >
           <GraduationCap className="w-4 h-4" />
@@ -151,7 +152,8 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
         </button>
 
         {/* Categories & Topics Accordion */}
-        <div className="space-y-3">
+        <div key={`cats-${selectedYear}`} className="yr-swap yr-rise space-y-3">
+          <LayoutGroup id={`sb-${selectedYear}`}>
           {yearData.categories.map(cat => {
             const isExpanded = expandedCategories[cat.category] !== false;
 
@@ -199,17 +201,29 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
                             onSelectTopic(topic.id);
                             onCloseMobile?.();
                           }}
-                          className={`w-full text-left px-2.5 py-2 rounded-lg text-[11px] font-semibold transition-all flex items-center justify-between group cursor-pointer ${
+                          className={`relative w-full text-left px-2.5 py-2 rounded-lg text-[11px] font-semibold transition-colors duration-150 flex items-center justify-between group cursor-pointer ${
                             isTopicActive
-                              ? 'bg-blue-600 text-white shadow-2xs font-bold'
-                              : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
+                              ? 'text-slate-950 font-bold'
+                              : 'text-slate-600 hover:bg-white/60 hover:text-slate-900'
                           }`}
                         >
-                          <span className="truncate pr-2">
+                          {isTopicActive && (
+                            <motion.span
+                              layoutId="sbActive"
+                              aria-hidden="true"
+                              transition={{ type: 'spring', stiffness: 420, damping: 34 }}
+                              className="absolute inset-0 rounded-lg -z-0"
+                              style={{
+                                background: 'linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.7))',
+                                boxShadow: 'inset 0 1px 0 #fff, 0 0 0 1px color-mix(in srgb, var(--year-b) 40%, transparent), 0 4px 12px -4px color-mix(in srgb, var(--year-b) 45%, transparent)'
+                              }}
+                            />
+                          )}
+                          <span className="relative truncate pr-2">
                             {topic.topicNumber}. {topic.title.split('—')[0]}
                           </span>
 
-                          <span className="shrink-0 flex items-center gap-1.5">
+                          <span className="relative shrink-0 flex items-center gap-1.5">
                             {prog?.quizBest !== undefined && (
                               <span className={`text-[9px] font-extrabold ${isTopicActive ? 'text-amber-200' : 'text-amber-600'}`}>
                                 ★{prog.quizBest}/{prog.quizTotal}
@@ -271,6 +285,7 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
               </div>
             );
           })}
+          </LayoutGroup>
         </div>
 
         {/* Switch Syllabus Link */}

@@ -50,7 +50,7 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
       </div>
 
       {/* Year content: one short fade when the year changes */}
-      <div key={selectedYear} className="space-y-8 animate-year-fade">
+      <div className="space-y-8">
           {/* Main CRT Banner Card */}
           <div className="rounded-3xl bg-white border border-slate-200/90 p-6 sm:p-8 shadow-sm space-y-6">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 pb-6 border-b border-slate-100">
@@ -88,10 +88,11 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
 
               <div className="w-full h-3 bg-slate-100 rounded-full overflow-hidden">
                 <motion.div
-                  initial={{ width: 0 }}
-                  animate={{ width: `${yearProgress.percentage}%` }}
-                  transition={{ duration: 0.25, ease: 'easeOut' }}
-                  className="h-full bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full"
+                  initial={{ scaleX: 0 }}
+                  animate={{ scaleX: yearProgress.percentage / 100 }}
+                  transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                  style={{ transformOrigin: 'left', background: 'linear-gradient(90deg, var(--year-a), var(--year-b))' }}
+                  className="h-full w-full rounded-full"
                 />
               </div>
             </div>
@@ -161,10 +162,11 @@ export const CRTOverviewPage: React.FC<CRTOverviewPageProps> = ({
 
                     <div className="w-full h-2 bg-slate-700 rounded-full overflow-hidden">
                       <motion.div
-                        initial={{ width: 0 }}
-                        animate={{ width: `${p.percentage}%` }}
-                        transition={{ duration: 0.25, ease: 'easeOut' }}
-                        className="h-full bg-cyan-400 rounded-full"
+                        initial={{ scaleX: 0 }}
+                        animate={{ scaleX: p.percentage / 100 }}
+                        transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                        style={{ transformOrigin: 'left' }}
+                        className="h-full w-full bg-cyan-400 rounded-full"
                       />
                     </div>
 

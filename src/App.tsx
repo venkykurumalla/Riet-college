@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Navbar } from './components/Navbar';
 import { HomePage } from './components/HomePage';
 import { SyllabusSelectionPage } from './components/SyllabusSelectionPage';
@@ -38,6 +38,8 @@ export type CurrentView =
 export const App: React.FC = () => {
   const [view, setView] = useState<CurrentView>({ type: 'home' });
   const [crtSelectedYear, setCrtSelectedYear] = useState<CRTYearId>(1);
+  const [tintYear, setTintYear] = useState<CRTYearId>(1); // follows the click at once; content swaps a beat later
+  const yearTimer = useRef<number | undefined>(undefined);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
   const [, setTick] = useState(0);
@@ -87,11 +89,25 @@ export const App: React.FC = () => {
     setView({ type: 'crt-overview', yearId });
   };
 
-  // Year tab: switch year (opens that year's overview); re-clicking the active year does nothing
+  // Year tab: one choreographed change. The tint and pill start moving immediately, the
+  // old content fades out (150 ms), then the new year mounts and staggers in.
   const handleCRTYearTab = (yearId: CRTYearId) => {
-    if (yearId === crtSelectedYear) return;
-    handleSelectCRTYear(yearId);
+    if (yearId === tintYear) return;
+    setTintYear(yearId);
+    window.clearTimeout(yearTimer.current);
+    const root = document.documentElement;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      handleSelectCRTYear(yearId);
+      return;
+    }
+    root.dataset.yearPhase = 'out';
+    yearTimer.current = window.setTimeout(() => {
+      handleSelectCRTYear(yearId);
+      window.setTimeout(() => { delete root.dataset.yearPhase; }, 30);
+    }, 150);
   };
+
+  useEffect(() => { setTintYear(crtSelectedYear); }, [crtSelectedYear]);
 
   const handleSelectCRTQuiz = (moduleId: string, categoryName: string, yearId?: CRTYearId) => {
     window.scrollTo({ top: 0, behavior: 'auto' });
@@ -132,6 +148,14 @@ export const App: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     setView({ type: 'ai-resources' });
   };
+
+  // Year tint is exposed on <html> so the mesh background, glass and pill all blend together.
+  useEffect(() => {
+    const root = document.documentElement;
+    const inCRT = view.type === 'crt-overview' || view.type === 'crt-topic' || view.type === 'crt-quiz';
+    if (inCRT) root.dataset.year = String(tintYear);
+    else delete root.dataset.year;
+  }, [view.type, tintYear]);
 
   // Helper flags for Layout
   const isHome = view.type === 'home';
@@ -208,13 +232,17 @@ export const App: React.FC = () => {
           <main className="flex-1 min-w-0 pb-16">
 
             {/* Single year selector: sticky and visible on overview, chapter and quiz pages */}
-            <div className="sticky top-16 sm:top-20 z-30 flex justify-center sm:justify-end px-3 sm:px-6 lg:px-8 py-1.5 sm:py-2 bg-slate-50/90 backdrop-blur-md border-b border-slate-200/70">
+            <div className="sticky top-16 sm:top-20 z-30 flex justify-center sm:justify-end px-3 sm:px-6 lg:px-8 py-2 pointer-events-none">
+              <div className="pointer-events-auto max-w-full">
               <CRTYearSelector
-                selectedYear={crtSelectedYear}
+                selectedYear={tintYear}
                 onSelectYear={handleCRTYearTab}
               />
+              </div>
             </div>
-            
+
+            <div key={crtSelectedYear} className="yr-swap yr-stage">
+
             {/* VIEW: CRT YEAR SYLLABUS OVERVIEW */}
             {view.type === 'crt-overview' && (
               <CRTOverviewPage
@@ -262,6 +290,7 @@ export const App: React.FC = () => {
               );
             })()}
 
+            </div>
           </main>
           </ErrorBoundary>
         </div>
