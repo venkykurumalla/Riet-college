@@ -1,5 +1,4 @@
-import React, { Suspense, lazy, useState, useEffect, useRef } from 'react';
-import { flushSync } from 'react-dom';
+import React, { Suspense, lazy, startTransition, useState, useEffect, useRef } from 'react';
 import { Navbar } from './components/Navbar';
 import { HomePage } from './components/HomePage';
 import { SyllabusSelectionPage } from './components/SyllabusSelectionPage';
@@ -35,6 +34,7 @@ import { getTopicById, COURSE_UNITS } from './data/aiToolsCourseData';
 import { progressService } from './services/progressService';
 import { crtProgressService } from './services/crtProgressService';
 import { CRTYearId } from './types/crtTypes';
+import { isCRTYearLoaded, loadCRTYear } from './data/crtCourseData';
 import { ErrorBoundary } from './components/ErrorBoundary';
 
 export type CurrentView =
@@ -63,7 +63,7 @@ export const App: React.FC = () => {
   // Fetch the CRT chunk in the background once idle so opening the syllabus feels instant.
   useEffect(() => {
     const idle = (window as Window & { requestIdleCallback?: (cb: () => void) => number }).requestIdleCallback;
-    const warm = () => { loadCRTSidebar(); loadCRTOverview(); loadCRTTopicView(); loadCRTQuiz(); loadSearch(); };
+    const warm = () => { loadCRTSidebar(); loadCRTOverview(); loadCRTTopicView(); loadCRTQuiz(); loadSearch(); loadCRTYear(1); };
     const h = idle ? idle(warm) : window.setTimeout(warm, 1500);
     return () => { if (!idle) window.clearTimeout(h); };
   }, []);
@@ -116,88 +116,89 @@ export const App: React.FC = () => {
     };
   }, []);
 
-  const handleNavigateHome = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setView({ type: 'home' });
+  // Every CRT view needs its year's data. Years load as separate chunks (prefetched on idle), so
+  // this is normally synchronous; otherwise the move waits for the chunk, showing the skeleton
+  // only if that takes longer than ~100 ms.
+  const [pendingYear, setPendingYear] = useState(false);
+  const withYear = (yearId: CRTYearId | undefined, go: () => void) => {
+    if (!yearId || isCRTYearLoaded(yearId)) { go(); return; }
+    const skeleton = window.setTimeout(() => setPendingYear(true), 100);
+    loadCRTYear(yearId).then(() => {
+      window.clearTimeout(skeleton);
+      setPendingYear(false);
+      go();
+    });
   };
 
-  const handleOpenSyllabusSelection = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setView({ type: 'selection' });
+  // Moving between pages: reset scroll to the top in the same frame as the view change (no visible
+  // jump) and let the new page fade/rise in with CSS (opacity + transform only).
+  const navigate = (next: CurrentView, year?: CRTYearId) => {
+    withYear(year, () => {
+      window.scrollTo({ top: 0, behavior: 'auto' });
+      if (year) setCrtSelectedYear(year);
+      setView(next);
+    });
   };
+
+  const handleNavigateHome = () => navigate({ type: 'home' });
+  const handleOpenSyllabusSelection = () => navigate({ type: 'selection' });
 
   // CRT Navigation Handlers
-  const handleOpenCRT = (yearId: CRTYearId = crtSelectedYear) => {
-    window.scrollTo({ top: 0, behavior: 'auto' });
-    setCrtSelectedYear(yearId);
-    setView({ type: 'crt-overview', yearId });
-  };
+  const handleOpenCRT = (yearId: CRTYearId = crtSelectedYear) =>
+    navigate({ type: 'crt-overview', yearId }, yearId);
 
-  const handleSelectCRTYear = (yearId: CRTYearId) => {
-    window.scrollTo({ top: 0, behavior: 'auto' });
-    setCrtSelectedYear(yearId);
-    setView({ type: 'crt-overview', yearId });
-  };
-
-  // Year tab: one choreographed change. The tint and pill start moving immediately, the
-  // old content fades out (150 ms), then the new year mounts and staggers in.
+  // Year tab. The pill, tint and tab state move first (direct DOM write + the selector's own
+  // state), then the heavy swap of sidebar/content runs as a low-priority React transition so it
+  // never blocks the animation. Old content fades out (150 ms) while the new year's data is ready.
   const handleCRTYearTab = (yearId: CRTYearId) => {
     if (yearId === tintYear) return;
-    setTintYear(yearId);
     window.clearTimeout(yearTimer.current);
     const root = document.documentElement;
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      handleSelectCRTYear(yearId);
-      return;
-    }
-    root.dataset.yearPhase = 'out';
-    yearTimer.current = window.setTimeout(() => {
-      handleSelectCRTYear(yearId);
+    root.dataset.year = String(yearId); // mesh cross-fade starts this frame
+    setTintYear(yearId);
+    const swap = () => withYear(yearId, () => {
+      startTransition(() => {
+        window.scrollTo({ top: 0, behavior: 'auto' });
+        setCrtSelectedYear(yearId);
+        setView({ type: 'crt-overview', yearId });
+      });
       window.setTimeout(() => { delete root.dataset.yearPhase; }, 30);
-    }, 150);
+    });
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { swap(); return; }
+    root.dataset.yearPhase = 'out';
+    yearTimer.current = window.setTimeout(swap, 150);
   };
 
   useEffect(() => { setTintYear(crtSelectedYear); }, [crtSelectedYear]);
 
+  // Once a year is showing, fetch its neighbours while the browser is idle.
+  useEffect(() => {
+    if (view.type !== 'crt-overview' && view.type !== 'crt-topic' && view.type !== 'crt-quiz') return;
+    const idle = (window as Window & { requestIdleCallback?: (cb: () => void) => number }).requestIdleCallback;
+    const warm = () => {
+      [crtSelectedYear - 1, crtSelectedYear + 1].forEach(y => { if (y >= 1 && y <= 4) loadCRTYear(y as CRTYearId); });
+    };
+    const h = idle ? idle(warm) : window.setTimeout(warm, 800);
+    return () => { if (!idle) window.clearTimeout(h); };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [crtSelectedYear, view.type]);
+
   const handleSelectCRTQuiz = (moduleId: string, categoryName: string, yearId?: CRTYearId) => {
-    window.scrollTo({ top: 0, behavior: 'auto' });
     const targetYear = yearId || crtSelectedYear;
-    setCrtSelectedYear(targetYear);
-    setView({ type: 'crt-quiz', moduleId, categoryName, yearId: targetYear });
+    navigate({ type: 'crt-quiz', moduleId, categoryName, yearId: targetYear }, targetYear);
   };
 
   const handleSelectCRTTopic = (topicId: string, yearId?: CRTYearId) => {
-    window.scrollTo({ top: 0, behavior: 'auto' });
     const targetYear = yearId || crtSelectedYear;
-    setCrtSelectedYear(targetYear);
-    setView({ type: 'crt-topic', topicId, yearId: targetYear });
+    navigate({ type: 'crt-topic', topicId, yearId: targetYear }, targetYear);
   };
 
   // AI Tools Navigation Handlers
-  const handleOpenAITools = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setView({ type: 'ai-overview' });
-  };
-
-  const handleSelectAIUnit = (unitId: number) => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setView({ type: 'ai-unit', unitId });
-  };
-
-  const handleSelectAITopic = (topicId: string) => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setView({ type: 'ai-topic', topicId });
-  };
-
-  const handleSelectAIPracticals = (unitId: number) => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setView({ type: 'ai-practicals', unitId });
-  };
-
-  const handleSelectAIResources = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setView({ type: 'ai-resources' });
-  };
+  const handleOpenAITools = () => navigate({ type: 'ai-overview' });
+  const handleSelectAIUnit = (unitId: number) => navigate({ type: 'ai-unit', unitId });
+  const handleSelectAITopic = (topicId: string) => navigate({ type: 'ai-topic', topicId });
+  const handleSelectAIPracticals = (unitId: number) => navigate({ type: 'ai-practicals', unitId });
+  const handleSelectAIResources = () => navigate({ type: 'ai-resources' });
 
   // Year tint is exposed on <html> so the mesh background, glass and pill all blend together.
   useEffect(() => {
@@ -250,12 +251,12 @@ export const App: React.FC = () => {
       {/* Main Content Layout */}
       {isHome ? (
         /* HOMEPAGE VIEW (Clean, single CRT BOX button -> opens syllabus selection) */
-        <main className="flex-1">
+        <main className="flex-1 page-in">
           <HomePage onOpenSyllabus={handleOpenSyllabusSelection} />
         </main>
       ) : isSelection ? (
         /* SYLLABUS SELECTION PAGE (Option 1: CRT SYLLABUS, Option 2: AI TOOLS & APPLICATIONS) */
-        <main className="flex-1">
+        <main className="flex-1 page-in">
           <SyllabusSelectionPage
             onSelectCRT={() => handleOpenCRT(1)}
             onSelectAITools={handleOpenAITools}
@@ -288,7 +289,7 @@ export const App: React.FC = () => {
 
             {/* Single year selector: sticky and visible on overview, chapter and quiz pages */}
             <div className="sticky top-16 sm:top-20 z-30 flex justify-center sm:justify-end px-3 sm:px-6 lg:px-8 py-2 pointer-events-none">
-              <div className="pointer-events-auto max-w-full" style={{ viewTransitionName: 'year-bar' }}>
+              <div className="pointer-events-auto max-w-full">
               <CRTYearSelector
                 selectedYear={tintYear}
                 onSelectYear={handleCRTYearTab}
@@ -298,6 +299,7 @@ export const App: React.FC = () => {
 
             <div key={crtSelectedYear} className="yr-swap yr-stage">
             <Suspense fallback={<PageSkeleton />}>
+            {pendingYear && <PageSkeleton />}
 
             {/* VIEW: CRT YEAR SYLLABUS OVERVIEW */}
             {view.type === 'crt-overview' && (
@@ -364,7 +366,7 @@ export const App: React.FC = () => {
           />
 
           {/* Main Reading Area */}
-          <main className="flex-1 min-w-0 pb-16">
+          <main key={view.type} className="flex-1 min-w-0 pb-16 page-in">
             
             {/* VIEW: COURSE OVERVIEW / SYLLABUS */}
             {(view.type === 'ai-overview' || view.type === 'ai-unit') && (

@@ -2,7 +2,7 @@ import React, { useCallback, useDeferredValue, useEffect, useMemo, useRef, useSt
 import { AnimatePresence, LayoutGroup, motion, useReducedMotion } from 'framer-motion';
 import { Brain, Building2, ChevronRight, Cpu, History, Loader2, Search, SearchX, TrendingUp, X } from 'lucide-react';
 import { COURSE_UNITS, getAllTopics } from '../data/aiToolsCourseData';
-import { getAllCRTTopics, getCRTTopicById } from '../data/crtCourseData';
+import { getAllCRTTopics, getCRTTopicById, loadAllCRTYears } from '../data/crtCourseData';
 import { crtProgressService } from '../services/crtProgressService';
 import { CRTYearId } from '../types/crtTypes';
 import { SearchDoc, SearchHit, search } from '../lib/searchIndex';
@@ -103,7 +103,15 @@ export const SearchPalette: React.FC<SearchPaletteProps> = ({ open, onClose, onS
   const busyTimer = useRef<number | undefined>(undefined);
   const [originStyle, setOriginStyle] = useState<string | undefined>(undefined);
 
-  const docs = useMemo(() => (open ? buildDocs() : []), [open]);
+  // Search covers every year, so all four year chunks are loaded when the palette first opens.
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    if (!open || ready) return;
+    let live = true;
+    loadAllCRTYears().then(() => { if (live) setReady(true); });
+    return () => { live = false; };
+  }, [open, ready]);
+  const docs = useMemo(() => (open && ready ? buildDocs() : []), [open, ready]);
 
   // Suggestions are only shown when they really produce a result.
   const valid = useCallback(
@@ -350,7 +358,12 @@ export const SearchPalette: React.FC<SearchPaletteProps> = ({ open, onClose, onS
             >
               <div ref={listInner} className="pb-1">
                 <LayoutGroup id="search-palette">
-                  {q && hits.length === 0 && (
+                  {!ready && (
+                    <div className="space-y-2 px-3 py-3" aria-hidden="true">
+                      {[0, 1, 2, 3].map(i => <div key={i} className="skeleton h-12 w-full" />)}
+                    </div>
+                  )}
+                  {ready && q && hits.length === 0 && (
                     <div className="px-4 pt-6 pb-3 text-center space-y-1">
                       <SearchX className="w-7 h-7 mx-auto text-slate-400" />
                       <p className="font-display font-bold text-slate-900">No match for “{q}”</p>

@@ -1,7 +1,8 @@
-import React, { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { motion, useAnimationControls, useReducedMotion } from 'framer-motion';
 import { CRTYearId } from '../types/crtTypes';
 import { crtProgressService } from '../services/crtProgressService';
+import { useCRTProgressVersion } from '../hooks/useCRTProgressVersion';
 
 interface CRTYearSelectorProps {
   selectedYear: CRTYearId;
@@ -19,15 +20,25 @@ const SPRING = { type: 'spring' as const, stiffness: 340, damping: 21, mass: 0.8
 
 // Liquid-glass segmented control. One glass pill slides to the real measured tab
 // (spring with a little overshoot) and stretches slightly mid-move.
-export const CRTYearSelector: React.FC<CRTYearSelectorProps> = ({ selectedYear, onSelectYear }) => {
+export const CRTYearSelector: React.FC<CRTYearSelectorProps> = ({ selectedYear: selectedProp, onSelectYear: onSelectProp }) => {
   const reduce = useReducedMotion();
+  // The tab state is local so a tap moves the pill in the very next frame; the parent's (heavier)
+  // content swap follows and can never hold the animation back.
+  const [selectedYear, setSelectedYear] = useState<CRTYearId>(selectedProp);
+  useEffect(() => { setSelectedYear(selectedProp); }, [selectedProp]);
+  const onSelectYear = (y: CRTYearId) => {
+    if (y === selectedYear) return;
+    setSelectedYear(y);
+    onSelectProp(y);
+  };
+  const progressVersion = useCRTProgressVersion();
   const trackRef = useRef<HTMLDivElement>(null);
   const tabRefs = useRef<Record<number, HTMLButtonElement | null>>({});
   const move = useAnimationControls();
   const stretch = useAnimationControls();
   const placed = useRef(false);
   const [ready, setReady] = useState(false);
-  const allProgress = crtProgressService.getAllYearsProgress();
+  const allProgress = useMemo(() => crtProgressService.getAllYearsProgress(), [progressVersion]);
 
   const rectFor = useCallback((y: number) => {
     const el = tabRefs.current[y];

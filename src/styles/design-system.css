@@ -283,7 +283,8 @@ html[data-year-phase='out'] .yr-swap { opacity: 0; transform: translate3d(0, 6px
 }
 
 .yr-stage > * > *,
-.yr-rise { animation: yr-rise var(--dur-med) var(--ease-out) both; }
+.yr-rise,
+.page-in { animation: yr-rise var(--dur-med) var(--ease-out) both; }
 
 .yr-stage > * > *:nth-child(2) { animation-delay: 50ms; }
 .yr-stage > * > *:nth-child(3) { animation-delay: 100ms; }
@@ -291,7 +292,7 @@ html[data-year-phase='out'] .yr-swap { opacity: 0; transform: translate3d(0, 6px
 .yr-stage > * > *:nth-child(n+5) { animation-delay: 200ms; }
 
 @media (prefers-reduced-motion: reduce) {
-  .yr-stage > * > *, .yr-rise { animation: none; }
+  .yr-stage > * > *, .yr-rise, .page-in { animation: none; }
   .yr-swap { transition: none; }
 }
 

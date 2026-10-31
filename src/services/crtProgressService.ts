@@ -11,6 +11,10 @@ class CRTProgressService {
 
   constructor() {
     this.loadProgress();
+    if (typeof window !== 'undefined') {
+      window.addEventListener('pagehide', () => this.flush());
+      document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') this.flush(); });
+    }
   }
 
   private loadProgress(): void {
@@ -24,13 +28,33 @@ class CRTProgressService {
     }
   }
 
+  private saveTimer: number | undefined;
+  private dirty = false;
+  private versionCount = 0;
+
+  // In-memory state is authoritative; the (synchronous) localStorage write is batched.
   private saveProgress(): void {
+    this.dirty = true;
+    this.versionCount++;
+    window.clearTimeout(this.saveTimer);
+    this.saveTimer = window.setTimeout(() => this.flush(), 250);
+    this.notifyListeners();
+  }
+
+  public flush(): void {
+    window.clearTimeout(this.saveTimer);
+    if (!this.dirty) return;
+    this.dirty = false;
     try {
       localStorage.setItem(CRT_STORAGE_KEY, JSON.stringify(this.progressMap));
     } catch {
       // Storage error handling
     }
-    this.notifyListeners();
+  }
+
+  /** Bumps on every change; lets components memoise derived progress. */
+  public get version(): number {
+    return this.versionCount;
   }
 
   public subscribe(listener: Listener): () => void {
