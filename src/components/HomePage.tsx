@@ -1,8 +1,10 @@
 import React from 'react';
-import { ArrowRight, BookOpen, Sparkles } from 'lucide-react';
+import { ArrowRight, BookOpen } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { progressService } from '../services/progressService';
 import { fontCourseInfo } from '../data/aiToolsCourseData';
+import { LiquidGlassButton } from './LiquidGlassButton';
+import { HeroTagline } from './HeroTagline';
 
 interface HomePageProps {
   onOpenSyllabus: () => void;
@@ -12,12 +14,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenSyllabus }) => {
   const progress = progressService.getOverallProgress();
 
   return (
-    <div className="relative min-h-[calc(100vh-80px)] flex flex-col justify-center items-center py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div className="relative min-h-screen flex flex-col justify-center items-center pt-28 pb-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
       
-      {/* Background Ambient Glows */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-full max-w-5xl h-96 pointer-events-none opacity-40">
-        <div className="absolute top-0 left-1/4 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl" />
-        <div className="absolute top-10 right-1/4 w-80 h-80 bg-cyan-400/20 rounded-full blur-3xl" />
+      <div aria-hidden="true" className="absolute inset-x-0 bottom-10 h-72 pointer-events-none">
+        <div className="absolute left-[18%] bottom-0 w-72 h-72 rounded-full bg-cyan-300/40 blur-3xl" />
+        <div className="absolute right-[18%] bottom-8 w-72 h-72 rounded-full bg-violet-400/35 blur-3xl" />
       </div>
 
       <div className="relative w-full max-w-3xl mx-auto text-center space-y-8">
@@ -28,7 +29,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenSyllabus }) => {
             initial={{ scale: 0.95, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.4 }}
-            className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-white p-2.5 border border-slate-200/90 shadow-xl shadow-blue-900/5 ring-4 ring-blue-50 transition-transform duration-300 hover:scale-105"
+            className="glass w-24 h-24 sm:w-28 sm:h-28 rounded-[28px] p-3"
           >
             <img
               src="/riet-logo.png"
@@ -37,33 +38,29 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenSyllabus }) => {
             />
           </motion.div>
 
-          <div className="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200/80 text-blue-800 text-xs font-bold uppercase tracking-wider">
-            <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+          <div className="glass inline-flex items-center px-4 py-1.5 rounded-full text-slate-700 text-[11px] sm:text-xs font-semibold uppercase tracking-[0.14em]">
             <span>Rajamahendri Institute of Engineering & Technology</span>
           </div>
         </div>
 
         {/* Course Titles & Official Quote */}
         <div className="space-y-4">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 font-display tracking-tight leading-tight">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold text-slate-950 font-display tracking-tight leading-[1.05]">
             RIET CRT LMS SYSTEM
           </h1>
 
           <div className="space-y-1">
-            <p className="text-2xl sm:text-3xl font-extrabold text-blue-700 font-display">
+            <p className="text-2xl sm:text-3xl font-bold grad-text font-display">
               {fontCourseInfo.title}
             </p>
             {/* CLEAN MANDATED HERO SUBTITLE: BTech CSE • JNTUK */}
-            <p className="text-sm sm:text-base font-bold text-slate-600 tracking-wide">
+            <p className="text-sm sm:text-base font-semibold text-slate-600 tracking-[0.12em]">
               BTech CSE • JNTUK
             </p>
           </div>
 
-          {/* EXACT MANDATED QUOTE */}
-          <div className="pt-1">
-            <p className="inline-block px-5 py-2.5 rounded-2xl bg-white border border-slate-200/90 text-slate-700 text-sm sm:text-base font-bold italic shadow-xs">
-              "Learn • Practice • Apply • Verify • Use AI Responsibly"
-            </p>
+          <div className="pt-4">
+            <HeroTagline />
           </div>
         </div>
 
@@ -75,14 +72,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenSyllabus }) => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="relative group"
           >
-            {/* Soft Glow effect */}
-            <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 via-blue-700 to-cyan-500 rounded-3xl blur-md opacity-25 group-hover:opacity-45 transition duration-300 pointer-events-none" />
-
-            <div className="relative rounded-3xl bg-white/95 backdrop-blur-md border border-slate-200 p-8 sm:p-10 shadow-xl shadow-blue-900/5 text-center space-y-6">
+            <div className="glass relative rounded-[32px] p-8 sm:p-10 text-center space-y-6">
               
               {/* Header inside CRT Box */}
               <div className="space-y-2">
-                <div className="w-14 h-14 rounded-2xl bg-blue-50 border border-blue-100 text-blue-700 flex items-center justify-center mx-auto shadow-xs group-hover:scale-105 transition-transform">
+                <div className="w-14 h-14 rounded-2xl glass text-indigo-600 flex items-center justify-center mx-auto">
                   <BookOpen className="w-7 h-7" />
                 </div>
                 <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-display tracking-tight">
@@ -115,15 +109,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenSyllabus }) => {
               )}
 
               {/* THE PRIMARY ACTION BUTTON: OPEN SYLLABUS → */}
-              <motion.button
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={onOpenSyllabus}
-                className="w-full sm:w-auto px-10 py-4 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-base tracking-wide shadow-lg shadow-blue-600/25 hover:shadow-blue-600/35 transition-all flex items-center justify-center space-x-3 mx-auto cursor-pointer group/btn"
-              >
+              <LiquidGlassButton onClick={onOpenSyllabus}>
                 <span>OPEN SYLLABUS</span>
-                <ArrowRight className="w-5 h-5 text-cyan-200 group-hover/btn:translate-x-1.5 transition-transform duration-200" />
-              </motion.button>
+                <ArrowRight className="w-5 h-5 text-indigo-600" />
+              </LiquidGlassButton>
 
             </div>
           </motion.div>
