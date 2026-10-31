@@ -62,7 +62,7 @@ export const CRTSidebar: React.FC<CRTSidebarProps> = ({
   };
 
   const renderContent = () => (
-    <div className="flex flex-col h-full glass rounded-none border-y-0 border-l-0 w-72 shrink-0 select-none overflow-hidden">
+    <div className="flex flex-col h-full glass glass-strong rounded-none border-y-0 border-l-0 w-72 shrink-0 select-none overflow-hidden">
       
       {/* Header */}
       <div className="p-4 border-b border-slate-100 flex items-center justify-between">

@@ -5,6 +5,7 @@ import { progressService } from '../services/progressService';
 import { fontCourseInfo } from '../data/aiToolsCourseData';
 import { LiquidGlassButton } from './LiquidGlassButton';
 import { HeroTagline } from './HeroTagline';
+import { Logo } from './Logo';
 
 interface HomePageProps {
   onOpenSyllabus: () => void;
@@ -31,11 +32,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenSyllabus }) => {
             transition={{ duration: 0.4 }}
             className="glass w-24 h-24 sm:w-28 sm:h-28 rounded-[28px] p-3"
           >
-            <img
-              src="/riet-logo.png"
-              alt="Rajamahendri Institute of Engineering & Technology"
-              className="w-full h-full object-contain"
-            />
+            <Logo size={112} eager className="w-full h-full object-contain" />
           </motion.div>
 
           <div className="glass inline-flex items-center px-4 py-1.5 rounded-full text-slate-700 text-[11px] sm:text-xs font-semibold uppercase tracking-[0.14em]">

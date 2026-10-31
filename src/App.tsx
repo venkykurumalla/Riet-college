@@ -134,7 +134,7 @@ export const App: React.FC = () => {
   // jump) and let the new page fade/rise in with CSS (opacity + transform only).
   const navigate = (next: CurrentView, year?: CRTYearId) => {
     withYear(year, () => {
-      window.scrollTo({ top: 0, behavior: 'auto' });
+      window.scrollTo({ top: 0, behavior: 'instant' });
       if (year) setCrtSelectedYear(year);
       setView(next);
     });
@@ -158,7 +158,7 @@ export const App: React.FC = () => {
     setTintYear(yearId);
     const swap = () => withYear(yearId, () => {
       startTransition(() => {
-        window.scrollTo({ top: 0, behavior: 'auto' });
+        window.scrollTo({ top: 0, behavior: 'instant' });
         setCrtSelectedYear(yearId);
         setView({ type: 'crt-overview', yearId });
       });
@@ -288,7 +288,7 @@ export const App: React.FC = () => {
           <main className="flex-1 min-w-0 pb-16">
 
             {/* Single year selector: sticky and visible on overview, chapter and quiz pages */}
-            <div className="sticky top-16 sm:top-20 z-30 flex justify-center sm:justify-end px-3 sm:px-6 lg:px-8 py-2 pointer-events-none">
+            <div className="sticky top-[var(--header-h)] z-30 flex justify-center sm:justify-end px-3 sm:px-6 lg:px-8 py-2 pointer-events-none">
               <div className="pointer-events-auto max-w-full">
               <CRTYearSelector
                 selectedYear={tintYear}

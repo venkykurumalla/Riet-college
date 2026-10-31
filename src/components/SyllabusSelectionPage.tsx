@@ -20,7 +20,7 @@ export const SyllabusSelectionPage: React.FC<SyllabusSelectionPageProps> = ({
   const aiProgress = progressService.getOverallProgress();
 
   return (
-    <div className="relative min-h-[calc(100vh-80px)] pt-8 pb-12 px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-center">
+    <div className="relative min-h-[calc(100dvh-80px)] pt-8 pb-12 px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-center">
       
       {/* Background ambient lighting */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-full max-w-5xl h-96 pointer-events-none opacity-30">

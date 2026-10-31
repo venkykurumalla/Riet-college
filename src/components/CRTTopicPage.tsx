@@ -85,38 +85,48 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
   const jumpBarRef = useRef<HTMLElement>(null);
   const [activeId, setActiveId] = useState<string>('');
 
-  // Reading progress, parallax offset and the section that is currently being read.
-  // One passive scroll listener, batched in rAF; only transforms/CSS variables are written.
+  // Reading progress bar + parallax: one passive scroll listener, batched in rAF. It only reads
+  // scrollY (the document height is cached and refreshed by a ResizeObserver) and writes a transform,
+  // so scrolling triggers no layout and no React state updates.
   useEffect(() => {
+    const doc = document.documentElement;
+    const lite = doc.dataset.perf === 'lite';
+    let max = 1;
     let raf = 0;
+    const measure = () => { max = Math.max(1, doc.scrollHeight - window.innerHeight); };
     const tick = () => {
       raf = 0;
-      const doc = document.documentElement;
-      const max = doc.scrollHeight - window.innerHeight;
-      const p = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
-      if (barRef.current) barRef.current.style.transform = `scaleX(${p})`;
-      if (doc.dataset.perf !== 'lite') doc.style.setProperty('--parallax', String(Math.min(window.scrollY, 700) * 0.12));
-      // Anything at or above the fold is revealed, even if a fast scroll or anchor jump skipped it.
-      document.querySelectorAll('.reveal-ready:not(.is-in)').forEach(el => {
-        if (el.getBoundingClientRect().top < window.innerHeight * 0.92) el.classList.add('is-in');
-      });
-      let current = '';
-      for (const it of tocItems) {
-        const el = document.getElementById(it.id);
-        if (el && el.getBoundingClientRect().top <= 200) current = it.id;
-      }
-      setActiveId(prev => (prev === current ? prev : current));
+      const y = window.scrollY;
+      if (barRef.current) barRef.current.style.transform = `scaleX(${Math.min(1, Math.max(0, y / max))})`;
+      if (!lite) doc.style.setProperty('--parallax', String(Math.min(y, 700) * 0.12));
     };
     const onScroll = () => { if (!raf) raf = requestAnimationFrame(tick); };
+    measure();
     tick();
+    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(() => { measure(); onScroll(); }) : null;
+    ro?.observe(document.body);
     window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', onScroll);
     return () => {
       window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
+      ro?.disconnect();
       cancelAnimationFrame(raf);
-      document.documentElement.style.removeProperty('--parallax');
+      doc.style.removeProperty('--parallax');
     };
+  }, [topic.id]);
+
+  // Which section is being read: one IntersectionObserver over the numbered sections (no scroll
+  // handler, no layout reads). The top-most section inside the reading band wins.
+  useEffect(() => {
+    if (!('IntersectionObserver' in window) || tocItems.length === 0) return;
+    const inBand = new Set<string>();
+    const order = tocItems.map(i => i.id);
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(en => { if (en.isIntersecting) inBand.add(en.target.id); else inBand.delete(en.target.id); });
+      const first = order.find(id => inBand.has(id));
+      if (first) setActiveId(prev => (prev === first ? prev : first));
+    }, { rootMargin: '-18% 0px -68% 0px' });
+    tocItems.forEach(it => { const el = document.getElementById(it.id); if (el) io.observe(el); });
+    return () => io.disconnect();
   }, [tocItems]);
 
   // Keep the active chip in view inside the jump bar (horizontal scroll only).
@@ -136,11 +146,16 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
         if (en.isIntersecting || en.boundingClientRect.top < 0) { (en.target as HTMLElement).classList.add('is-in'); io.unobserve(en.target); }
       });
     }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+    // One shared observer. Cards already on screen are left alone; every other card is hidden
+    // until it first scrolls into view, then unobserved. Re-runs (when the guide or quiz loads)
+    // re-observe any card that is still waiting, so nothing stays hidden.
     Array.from(root.children).forEach(card => {
       const c = card as HTMLElement;
-      if (c.dataset.reveal || c.getBoundingClientRect().top < window.innerHeight) return;
-      c.dataset.reveal = '1';
-      c.classList.add('reveal-ready');
+      if (c.classList.contains('is-in')) return;
+      if (!c.classList.contains('reveal-ready')) {
+        if (c.getBoundingClientRect().top < window.innerHeight) return;
+        c.classList.add('reveal-ready');
+      }
       io.observe(c);
     });
     return () => io.disconnect();
@@ -150,7 +165,7 @@ export const CRTTopicPage: React.FC<CRTTopicPageProps> = ({
     crtProgressService.markTopicAccessed(topic.id, topic.yearId);
     const prog = crtProgressService.getTopicProgress(topic.id, topic.yearId);
     setIsCompleted(prog.completed || prog.status === 'completed');
-    window.scrollTo({ top: 0, behavior: 'auto' });
+    window.scrollTo({ top: 0, behavior: 'instant' });
     setRevealedSolutions({});
     setTopicQuiz(undefined);
     setGuide(undefined);

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Logo } from './Logo';
 
 interface FooterProps {
   onNavigateHome: () => void;
@@ -15,11 +16,7 @@ export const Footer: React.FC<FooterProps> = ({
         
         {/* Brand */}
         <div className="flex items-center space-x-3">
-          <img
-            src="/riet-logo.png"
-            alt="RIET Logo"
-            className="w-9 h-9 object-contain"
-          />
+          <Logo size={36} className="w-9 h-9 object-contain" />
           <div>
             <div className="font-extrabold text-sm text-slate-900 font-display">
               RIET CRT LMS SYSTEM

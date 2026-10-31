@@ -59,6 +59,14 @@ export const CRTYearSelector: React.FC<CRTYearSelectorProps> = ({ selectedYear: 
     stretch.start({ scaleX: [1, 1.1, 1], scaleY: [1, 0.93, 1], transition: { duration: 0.42, times: [0, 0.4, 1], ease: 'easeInOut' } });
   }, [selectedYear, reduce, move, stretch, rectFor]);
 
+  // On narrow phones the bar can scroll: keep the active year centred (smooth, horizontal only).
+  useEffect(() => {
+    const track = trackRef.current;
+    const tab = tabRefs.current[selectedYear];
+    if (!track || !tab || track.scrollWidth <= track.clientWidth) return;
+    track.scrollTo({ left: tab.offsetLeft - (track.clientWidth - tab.offsetWidth) / 2, behavior: reduce ? 'auto' : 'smooth' });
+  }, [selectedYear, reduce]);
+
   // Re-measure when the track resizes (rotation, font load, narrower screens).
   useEffect(() => {
     const el = trackRef.current;
@@ -93,7 +101,7 @@ export const CRTYearSelector: React.FC<CRTYearSelectorProps> = ({ selectedYear: 
       role="tablist"
       aria-label="Select year"
       onKeyDown={onKeyDown}
-      className="glass glass-live glass-strong relative flex items-center p-1 rounded-full max-w-full overflow-x-auto no-scrollbar"
+      className="glass glass-live glass-strong scroll-snap-x relative flex items-center p-1 rounded-full max-w-full overflow-x-auto no-scrollbar"
     >
       {/* sliding glass pill */}
       <motion.div
@@ -125,7 +133,7 @@ export const CRTYearSelector: React.FC<CRTYearSelectorProps> = ({ selectedYear: 
             aria-selected={selected}
             tabIndex={selected ? 0 : -1}
             onClick={() => onSelectYear(y.id)}
-            className={`relative z-10 px-3 sm:px-5 py-1.5 sm:py-2 rounded-full shrink-0 cursor-pointer select-none flex items-center gap-2 transition-colors duration-200 ${
+            className={`touch-target relative z-10 px-3 sm:px-5 py-1.5 sm:py-2 rounded-full shrink-0 cursor-pointer select-none flex items-center gap-2 transition-colors duration-200 ${
               selected ? 'text-slate-950' : 'text-slate-600 hover:text-slate-900'
             }`}
           >

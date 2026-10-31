@@ -49,12 +49,13 @@
   --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
 
   /* layout */
-  --header-h: 64px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --header-h: calc(64px + var(--safe-top));
   --year-bar-h: 54px;
 }
 
 @media (min-width: 640px) {
-  :root { --header-h: 80px; --year-bar-h: 60px; }
+  :root { --header-h: calc(80px + var(--safe-top)); --year-bar-h: 60px; }
 }
 
 /* lighter blur on small / low-power screens keeps scrolling smooth */
@@ -67,11 +68,15 @@
 [data-year='3'] { --year-a: #a78bfa; --year-b: #d946ef; }
 [data-year='4'] { --year-a: #fbbf24; --year-b: #f43f5e; }
 
+/* Metric-matched local fallbacks so the swap to the web fonts does not shift the layout. */
+@font-face { font-family: 'Inter Fallback'; src: local('Arial'); size-adjust: 107.4%; ascent-override: 90.2%; descent-override: 22.5%; line-gap-override: 0%; }
+@font-face { font-family: 'Outfit Fallback'; src: local('Arial'); size-adjust: 101%; ascent-override: 98%; descent-override: 25%; line-gap-override: 0%; }
+
 /* ---------- base ---------- */
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-family: 'Inter Variable', 'Inter Fallback', system-ui, -apple-system, 'Segoe UI', sans-serif;
   background: var(--surface);
   color: var(--ink-950);
   font-feature-settings: 'cv11', 'ss01';
@@ -80,7 +85,7 @@ body {
 }
 
 h1, h2, h3, h4, .font-display {
-  font-family: 'Outfit Variable', 'Outfit', system-ui, sans-serif;
+  font-family: 'Outfit Variable', 'Outfit Fallback', system-ui, sans-serif;
   letter-spacing: -0.02em;
 }
 
@@ -405,7 +410,7 @@ html[data-perf='lite'] .glass:not(.glass-live) {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.8));
 }
 
-html[data-perf='lite'] .glass.glass-strong:not(.glass-live) { background: rgba(255, 255, 255, 0.94); }
+html[data-perf='lite'] .glass.glass-strong:not(.glass-live) { background: rgba(255, 255, 255, 0.97); }
 
 html[data-perf='lite'] .glass-live {
   -webkit-backdrop-filter: blur(12px) saturate(140%);
@@ -453,3 +458,11 @@ button, [role='tab'], [role='option'], a, summary { touch-action: manipulation; 
 
 .contain-card { content-visibility: auto; contain-intrinsic-size: auto 230px; }
 .crt-reading > * { content-visibility: auto; contain-intrinsic-size: auto 560px; }
+
+/* tap targets: at least 44px on touch screens */
+@media (pointer: coarse) {
+  .touch-target { min-height: 44px; min-width: 44px; }
+}
+
+.scroll-snap-x { scroll-snap-type: x proximity; overscroll-behavior-x: contain; }
+.scroll-snap-x > * { scroll-snap-align: center; }
